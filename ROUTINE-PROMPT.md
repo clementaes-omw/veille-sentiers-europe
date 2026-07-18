@@ -25,12 +25,18 @@ défini dans agent-prompt.md, à la lettre :
    « OK (QA passée) ». Jamais de publication en échec ; bug du générateur → signale-le
    sans le modifier.
 6. PUBLICATION (flux PR — le push direct sur main est interdit aux routines cloud) :
-   a. `git checkout -b claude/veille-<date>`, commit (`veille: digest du <date>`), push de la branche.
-   b. `gh pr create --base main --title "veille: digest du <date>"` puis fusion immédiate
-      `gh pr merge --squash --delete-branch`. Fusion impossible → laisser la PR ouverte et
-      signaler « PR OUVERTE NON FUSIONNÉE : <url> ».
-   c. Push de branche en 403 → signaler « PUSH ÉCHOUÉ — vérifier l'installation de l'app
-      GitHub Claude sur le repo ». Ne jamais forcer.
+   a. `git checkout -b claude/veille-<date>` ; `git add livrables referentiel site/index.html` ;
+      commit « veille: digest du <date> ».
+   b. Push avec le jeton GH_TOKEN de l'environnement (fourni par le propriétaire), via un
+      credential helper — jamais de jeton en URL ni affiché :
+      `git config credential.helper '!f() { echo username=x-access-token; echo password=$GH_TOKEN; }; f'`
+      puis `git push https://github.com/clementaes-omw/veille-sentiers-europe.git HEAD:claude/veille-<date>`.
+      En cas d'échec, repli : `git push origin claude/veille-<date>` (proxy).
+   c. `gh pr create --base main --head claude/veille-<date> --title "veille: digest du <date>"`
+      puis `gh pr merge claude/veille-<date> --squash --delete-branch`. Fusion impossible →
+      laisser la PR ouverte et signaler « PR OUVERTE : <url> ».
+   d. Échec total de publication → terminer par « PUBLICATION ÉCHOUÉE » + erreurs verbatim
+      (jeton masqué) + résumé du digest. Ne jamais forcer.
    La fusion sur main déclenche le déploiement GitHub Pages (pages.yml, re-vérifie la QA).
 7. Termine par un résumé : alertes nouvelles/changées/levées (avec clés), zones couvertes,
    décompte de recherches, statut de la publication (fusionnée / PR ouverte / échec).
