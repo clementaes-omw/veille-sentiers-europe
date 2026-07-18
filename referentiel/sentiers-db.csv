@@ -1,0 +1,856 @@
+code;nom;type;pays;zones_sources;priorite;source;notes
+GR1;Tour de Paris;GR;FR;FR-IDF-CVL;P2;wikipedia:GR-France;zones estimées (massif)
+GR2;De Dijon au Havre - La vallée de la Seine;GR;FR;FR-EST|FR-NOR;P2;wikipedia:GR-France;
+GR3;De La Baule au mont Mézenc - La vallée de la Loire;GR;FR;FR-MC|FR-BRE|FR-IDF-CVL|FR-EST;P2;wikipedia:GR-France;
+GR4;De Royan à Grasse;GR;FR;FR-06|FR-MC|FR-SO|FR-30-48;P2;wikipedia:GR-France;
+GR5;De Berg-op-Zoom (Pays-Bas) à Nice;GR;NL/BE/LU/FR;FR-EST|FR-ALPES-N|FR-04-05|FR-06;P1;wikipedia:GR-France;
+GR6;De Langon à Saint-Paul-sur-Ubaye;GR;FR;FR-04-05|FR-MC|FR-13|FR-SO;P2;wikipedia:GR-France;
+GR7;Du Ballon d'Alsace à Andorre-la-Vieille;GR;FR;FR-EST|FR-34-11|FR-MC;P2;wikipedia:GR-France;
+GR8;De Saint-Brevin-les-Pins à Sare;GR;FR;FR-BRE|FR-PYR-O|FR-SO;P2;wikipedia:GR-France;
+GR9;De Saint-Amour à Port Grimaud;GR;FR;FR-84-26-07|FR-ALPES-N|FR-EST|FR-83;P2;wikipedia:GR-France;
+GR10;De Hendaye à Banyuls-sur-Mer - La traversée des Pyrénées;GR;FR;FR-PYR-O|FR-66;P1;wikipedia:GR-France;
+GR11;Grand Tour de Paris;GR;FR;FR-IDF-CVL;P2;wikipedia:GR-France;zones estimées (massif)
+GR12;D’Amsterdam à Paris;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR13;De Fontainebleau à Bourbon-Lancy;GR;FR;FR-EST|FR-IDF-CVL;P2;wikipedia:GR-France;
+GR14;De Paris à Malmedy – « Sentier de l'Ardenne »;GR;FR;FR-EST|FR-IDF-CVL;P2;wikipedia:GR-France;
+GR15;D'Alfortville au lac du Der-Chantecoq – « La vallée de la Marne »;GR;FR;FR-IDF-CVL|FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR16;D'Arlon à Monthermé – « Sentier de la Semois »;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR20;De Calenzana à Conca;GR;FR;FR-CORSE;P1;wikipedia:GR-France;
+GR21;Du Havre au Tréport – le long des côtes normandes;GR;FR;FR-NOR;P1;wikipedia:GR-France;
+GR22;De Paris au Mont-Saint-Michel – à partir de la banlieue parisienne;GR;FR;FR-NOR|FR-IDF-CVL;P2;wikipedia:GR-France;
+GR23;De La Bouille à Tancarville;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR25;De Sotteville-lès-Rouen à Saint-Pierre-de-Varengeville;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR26;De Villennes-sur-Seine à Villers-sur-Mer;GR;FR;FR-NOR|FR-IDF-CVL;P2;wikipedia:GR-France;
+GR30;De la Chaîne des Puys au Plomb du Cantal;GR;FR;FR-MC;P2;wikipedia:GR-France;
+GR31;De Sologne;GR;FR;FR-IDF-CVL|FR-EST;P2;wikipedia:GR-France;
+GR32;De la vallée de la Seine à la vallée de la Loire;GR;FR;FR-IDF-CVL;P2;wikipedia:GR-France;
+GR34;De Vitré à Le Tour-du-Parc;GR;FR;FR-BRE;P1;wikipedia:GR-France;
+GR34A;De Louannec à Gurunhuel;GR;FR;FR-BRE;P2;wikipedia:GR-France;
+GR34F;De Sainte-Anne-du-Portzic à Pont-Reun;GR;FR;FR-BRE;P2;wikipedia:GR-France;
+GR35;De Verneuil-sur-Avre à Seiches-sur-le-Loir;GR;FR;FR-NOR|FR-IDF-CVL;P2;wikipedia:GR-France;
+GR36;De Ouistreham à Bourg-Madame;GR;FR;FR-NOR|FR-SO|FR-MC|FR-34-11|FR-66;P1;wikipedia:GR-France;
+GR37;De Vitré à Douarnenez;GR;FR;FR-BRE;P2;wikipedia:GR-France;
+GR38;De Redon à Douarnenez;GR;FR;FR-BRE;P2;wikipedia:GR-France;
+GR39;Du Mont-Saint-Michel à Guérande;GR;FR;FR-BRE|FR-NOR;P2;wikipedia:GR-France;
+GR40;Tour des Volcans du Velay;GR;FR;FR-MC;P2;wikipedia:GR-France;
+GR41;De Tours à Mont-Dore;GR;FR;FR-IDF-CVL|FR-MC;P2;wikipedia:GR-France;
+GR42;De Saint-Étienne au Grau-du-Roi;GR;FR;FR-30-48|FR-MC;P2;wikipedia:GR-France;
+GR43;Du Col des Faïsses à Sainte-Eulalie;GR;FR;FR-30-48;P2;wikipedia:GR-France;
+GR44;Des Vans à Champerboux;GR;FR;FR-84-26-07|FR-30-48;P2;wikipedia:GR-France;
+GR46;De Tours à Toulouse;GR;FR;FR-PYR-O|FR-IDF-CVL;P2;wikipedia:GR-France;
+GR48;D’Aixe-sur-Vienne à Chinon;GR;FR;FR-SO|FR-IDF-CVL|FR-MC;P2;wikipedia:GR-France;
+GR49;De Saint-Raphaël à Rougon;GR;FR;FR-83;P2;wikipedia:GR-France;
+GR50;De Saint-Michel-de-Chaillol (Hautes-Alpes) à Huez (Isère);GR;FR;FR-04-05|FR-ALPES-N;P2;wikipedia:GR-France;
+GR51;Balcons de la Méditerranée — de Menton à Marseille par;GR;FR;FR-06|FR-83|FR-13;P1;wikipedia:GR-France;
+GR52;;GR;FR;FR-06;P1;wikipedia:GR-France;
+GR52A;Panoramique du Mercantour;GR;FR;FR-06;P2;wikipedia:GR-France;zones estimées (massif)
+GR53;Crête des Vosges;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR54;Tour de l'Oisans et des Écrins;GR;FR;FR-04-05|FR-ALPES-N;P1;wikipedia:GR-France;
+GR55;La Vanoise;GR;FR;FR-ALPES-N;P1;wikipedia:GR-France;
+GR56;Tour de l’Ubaye;GR;FR;FR-04-05;P1;wikipedia:GR-France;
+GR57;Tour du Mont Thabor;GR;FR;FR-04-05;P2;wikipedia:GR-France;
+GR58;Tour du Queyras;GR;FR;FR-04-05;P1;wikipedia:GR-France;
+GR59;Des Vosges au Jura;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR60;De Montpellier à Saint-Chély-d'Aubrac;GR;FR;FR-34-11|FR-30-48;P2;wikipedia:GR-France;
+GR61;D'Anduze au Col de l'Asclier;GR;FR;FR-30-48;P2;wikipedia:GR-France;zones estimées (massif)
+GR62;De Meyrueis (massif de l'Aigoual) à Conques - 182,5 km;GR;FR;FR-30-48|FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR62A;De Meyrueis (massif de l'Aigoual) au Causse Noir - 29 km;GR;FR;FR-30-48|FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR62B;De Rodez à Villefranche-de-Rouergue - 76 km;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR63;D'Avignon au Col de Cabane Vieille;GR;FR;FR-84-26-07;P2;wikipedia:GR-France;zones estimées (massif)
+GR64;De Rocamadour aux Eyzies-de-Tayac-Sireuil;GR;FR;FR-SO|FR-MC;P2;wikipedia:GR-France;
+GR65;Chemin de Saint-Jacques-de-Compostelle via Gebennensis + via Podiensis;GR;FR;FR-MC|FR-SO|FR-PYR-O;P1;wikipedia:GR-France;voie de Compostelle (France)
+GR66;Tour du Mont Aigoual;GR;FR;FR-30-48;P2;wikipedia:GR-France;zones estimées (massif)
+GR67;Tour du pays cévenol;GR;FR;FR-30-48;P2;wikipedia:GR-France;zones estimées (massif)
+GR68;Tour du Mont Lozère;GR;FR;FR-30-48;P2;wikipedia:GR-France;zones estimées (massif)
+GR69;La Routo;GR;FR;FR-13|FR-04-05;P2;wikipedia:GR-France;zones estimées (massif)
+GR70;Chemin de Stevenson — du Puy-en-Velay (Haute-Loire) à Alès (Gard) par;GR;FR;FR-30-48|FR-MC;P1;wikipedia:GR-France;
+GR72;Du Col du Bez à Barre-des-Cévennes;GR;FR;FR-84-26-07|FR-30-48;P2;wikipedia:GR-France;
+GR75;;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR76;D’Arcenant à Affoux;GR;FR;FR-EST|FR-MC;P2;wikipedia:GR-France;
+GR77;Du Saut de Vézoles au Signal de l'Alaric<ref>[http;GR;FR;FR-34-11;P2;wikipedia:GR-France;
+GR78;De Carcassonne à Saint-Jean-Pied-de-Port (voie du Piémont);GR;FR;FR-PYR-O|FR-34-11|FR-66;P1;wikipedia:GR-France;voie de Compostelle (France)
+GR80;De Port-Joinville à Port-Joinville (Tour de l'Île d'Yeu);GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR81;;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR86;De Toulouse à Bagnères-de-Luchon;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;
+GR89;Chemin de Montaigne, de Lyon à Clermont-Ferrand;GR;FR;FR-MC;P2;wikipedia:GR-France;
+GR90;De Collobrières au Lavandou (GR 51);GR;FR;FR-83;P2;wikipedia:GR-France;
+GR91;De Saint-Nizier-du-Moucherotte (près de Grenoble) à Fontaine-de-Vaucluse (près de Cavaillon);GR;FR;FR-ALPES-N|FR-84-26-07;P2;wikipedia:GR-France;
+GR91B;Bédoin au sommet du mont Ventoux via le mont Serein;GR;FR;FR-84-26-07;P2;wikipedia:GR-France;zones estimées (massif)
+GR93;De Peyrus à La Roche-des-Arnauds;GR;FR;FR-04-05|FR-84-26-07;P2;wikipedia:GR-France;
+GR94;;GR;FR;FR-04-05|FR-84-26-07;P2;wikipedia:GR-France;zones estimées (massif)
+GR95;;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR96;Préalpes des Savoie;GR;FR;FR-ALPES-N;P2;wikipedia:GR-France;zones estimées (massif)
+GR97;Tour du Luberon;GR;FR;FR-84-26-07;P2;wikipedia:GR-France;zones estimées (massif)
+GR98;De la madrague de Montredon (Marseille) au massif de la Sainte-Baume;GR;FR;FR-13|FR-83;P1;wikipedia:GR-France;
+GR99;Du Revest-les-Eaux (au nord de Toulon) aux Gorges du Verdon;GR;FR;FR-04-05|FR-83;P2;wikipedia:GR-France;
+GR99A;D’Artigues à Saint-Paul-lès-Durance;GR;FR;FR-13|FR-83;P2;wikipedia:GR-France;
+GR100;ou « Les Chemins de la Guerre de Cent Ans » de Montluçon à Poitiers;GR;FR;FR-MC|FR-SO;P2;wikipedia:GR-France;
+GR101;Chemin de l'Ouest de Bigorre;GR;FR;FR-PYR-O;P1;wikipedia:GR-France;voie de Compostelle (France)
+GR105;Chemin de la vallée d'Aure;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;
+GR107;Chemin des Bonshommes;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;
+GR108;;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;zones estimées (massif)
+GR108A;;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;zones estimées (massif)
+GR111;Sentier de l’Essonne;GR;FR;FR-IDF-CVL;P2;wikipedia:GR-France;
+GR113;;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR120;Tour du Parc Régional Boulonnais (Pas-de-Calais);GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR121;De Wavre à Boulogne-sur-Mer;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR121B;;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR121C;;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR122;De Condé-sur-l'Escaut à Chappes;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR124;De Cires-lès-Mello à Ailly-sur-Noye — • Cires-lès-Mello (Oise) • Ailly-sur-Noye (Somme);GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR125;De Serans à Saint-Valery-sur-Somme;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR127;De Dennebrœucq à Arras;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR128;De Wissant à Aix-la-Chapelle;GR;FR/BE/DE;FR-EST;P2;wikipedia:GR-France;réparé (glitch parsing)
+GR128A;;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR130;;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR131;Du Mont Beuvray à Issy-l'Évêque par Autun;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR132;De Griselles à Chaumot (liaison GR 13-GR 213);GR;FR;FR-IDF-CVL|FR-EST;P2;wikipedia:GR-France;
+GR137;D’Autun à Nolay (liaison GR 13-GR 7);GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR142;De Verzy (Marne) à Guise (Aisne);GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR145;La Via Francigena;GR;FR;FR-EST;P1;wikipedia:GR-France;
+GR169;Le Tour de Lyon;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR210;De Dieppe à Rouen;GR;FR;FR-NOR;P2;wikipedia:GR-France;
+GR211;De Veulettes-sur-Mer à Caudebec-en-Caux;GR;FR;FR-NOR;P2;wikipedia:GR-France;
+GR212;De Sainte-Marguerite-sur-Mer à Duclair;GR;FR;FR-NOR;P2;wikipedia:GR-France;
+GR213;De Pont-sur-Yonne à Saint-Georges-sur-Baulche;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR221;De Coutances à Pont-d'Ouilly;GR;FR;FR-NOR;P2;wikipedia:GR-France;
+GR222;De Pont-de-l'Arche à Verneuil-sur-Avre;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR223;De Honfleur au Mont-Saint-Michel – le long des côtes normandes;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR224;Chemin de la Vallée de la Risle;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR225;Entre Epte et Oise;GR;FR;FR-NOR|FR-IDF-CVL;P2;wikipedia:GR-France;zones estimées (massif)
+GR226;;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR235;;GR;FR;FR-NOR;P2;wikipedia:GR-France;zones estimées (massif)
+GR300;Chemin de Saint-Jacques en Bourbonnais;GR;FR;FR-MC|FR-SO;P2;wikipedia:GR-France;
+GR303;Traversée du Bourbonnais;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR340;Tour de Belle-Île-en-Mer;GR;FR;FR-BRE;P2;wikipedia:GR-France;zones estimées (massif)
+GR341;De Gurunhuel à Port-Louis;GR;FR;FR-BRE;P2;wikipedia:GR-France;
+GR342;;GR;FR;FR-BRE;P2;wikipedia:GR-France;zones estimées (massif)
+GR349;Rhuys - Vilaine;GR;FR;FR-BRE;P2;wikipedia:GR-France;zones estimées (massif)
+GR351;Vallée de la Blaise;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR353;Vendôme - Blois (A)/Chaumont-sur-Loire (B);GR;FR;FR-IDF-CVL;P2;wikipedia:GR-France;zones estimées (massif)
+GR360;Tour de la Saintonge;GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR364;Traversée du Poitou;GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR365;;GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR367;;GR;FR;FR-34-11;P2;wikipedia:GR-France;"zones estimées (massif) ; sentier Cathare"
+GR380;Tour des Monts d'Arrée;GR;FR;FR-BRE;P2;wikipedia:GR-France;
+GR400;Tour des Monts du Cantal (volcans d'Auvergne);GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR406;Route Napoléon à pied;GR;FR;FR-06|FR-04-05;P2;wikipedia:GR-France;zones estimées (massif)
+GR412;Les Gorges de l'Allier;GR;FR;FR-MC;P2;wikipedia:GR-France;"supprimé de la numérotation ; zones estimées (massif)"
+GR420;Tour du Haut-Vivarais;GR;FR;FR-84-26-07;P2;wikipedia:GR-France;
+GR422;Sur les Pas de Charles IX et Catherine de Médicis;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR429;;GR;FR;FR-84-26-07;P2;wikipedia:GR-France;zones estimées (massif)
+GR430;Chemin de Saint Régis;GR;FR;FR-MC;P2;wikipedia:GR-France;
+GR440;;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR441;Tour de la Chaîne des Puys;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR461;De Montignac à Terrasson-Lavilledieu;GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR463;Du GR 3 au GR 46;GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR465;;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR470;Sentier du Haut Allier;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR480;De Turenne aux Gorges de la Cère;GR;FR;FR-MC;P2;wikipedia:GR-France;
+GR510;De Breil-sur-Roya à Saint-Cézaire-sur-Siagne – Sentier des huit vallées;GR;FR;FR-06;P2;wikipedia:GR-France;
+GR531;De Soultz-sous-Forêts à Leymen – De l'outre-forêt au jura alsacien;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR532;De Wœrth à Belfort;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR533;De Sarrebourg à Belfort – Le versant Ouest des Vosges;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR534;;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR549;De Vizille à L'Alpe d'Huez (déclassé);GR;FR;FR-ALPES-N;P2;wikipedia:GR-France;zones estimées (massif)
+GR559;De Lons-le-Saunier à Les Rousses;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR590;Entre Loue et Lison au Pays de Courbet;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR595;De Besançon à Maisons-du-Bois-Lièvremont;GR;FR;FR-EST;P2;wikipedia:GR-France;zones estimées (massif)
+GR620;De Inières à Saint-Côme-d'Olt - 45,5 km;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+GR636;De Monbazillac à Lacapelle-Biron;GR;FR;FR-SO;P2;wikipedia:GR-France;zones estimées (massif)
+GR646;De Saint-Mesmin (Dordogne) à Port-Sainte-Foy-et-Ponchapt - Traversée du Périgord;GR;FR;FR-SO;P2;wikipedia:GR-France;
+GR651;De Béduer (Lot) à Bouziès;GR;FR;FR-MC;P2;wikipedia:GR-France;
+GR652;De Laroquebrou à La Romieu (vallée de la Cère);GR;FR;FR-MC|FR-SO;P2;wikipedia:GR-France;voie de Compostelle (France)
+GR653;Le chemin d’Arles, ou via Tolosana;GR;FR;FR-13|FR-34-11|FR-30-48|FR-SO|FR-PYR-O;P1;wikipedia:GR-France;voie de Compostelle (France)
+GR653A;Via Aurelia;GR;FR;FR-06|FR-83|FR-13;P2;wikipedia:GR-France;"zones estimées (massif) ; Via Aurelia (Compostelle)"
+GR653D;Via Domitia;GR;FR;FR-04-05|FR-84-26-07|FR-13;P2;wikipedia:GR-France;"zones estimées (massif) ; Via Domitia (Compostelle)"
+GR654;Chemin de Saint-Jacques (emprunte une partie de la via Lemovicensis);GR;FR;FR-SO|FR-MC|FR-EST;P1;wikipedia:GR-France;voie de Compostelle (France)
+GR655;Le chemin de Tours — • Belgique • Paris • Tours • vers Saint-Jacques-de-Compostelle (variantes 655 OT par Chartres et 655 ET par Tours);GR;FR;FR-EST|FR-IDF-CVL|FR-SO|FR-PYR-O;P1;wikipedia:GR-France;voie de Compostelle (France)
+GR670;Sentier historique Chemin Urbain V;GR;FR;FR-30-48|FR-MC;P2;wikipedia:GR-France;
+GR703;Sentier historique de Jeanne d'Arc;GR;FR;FR-IDF-CVL|FR-EST;P2;wikipedia:GR-France;
+GR714;De Bar-le-Duc à Dombrot-le-Sec;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR736;Sentier des gorges et de la vallée du Tarn;GR;FR;FR-30-48|FR-34-11;P2;wikipedia:GR-France;
+GR738;Haute Traversée de Belledonne;GR;FR;FR-ALPES-N;P1;wikipedia:GR-France;
+GR765;Sentier vers Saint-Jacques de Compostelle, de Cluny et Lyon vers le Puy-en-Velay;GR;FR;FR-EST|FR-MC;P2;wikipedia:GR-France;"zones estimées (massif) ; voie de Cluny/Lyon (Compostelle)"
+GR782;De Lourdes à Artiguelouve;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;
+GR787;De Saint-Gervais-sur-Mare à Capestang;GR;FR;FR-34-11;P2;wikipedia:GR-France;zones estimées (massif)
+GR800;Au fil de la Somme;GR;FR;FR-EST;P2;wikipedia:GR-France;
+GR861;;GR;FR;FR-PYR-O;P2;wikipedia:GR-France;"zones estimées (massif) ; Via Garona"
+GR965;;GR;FR;;P2;wikipedia:GR-France;zones à préciser
+GR2013;Milieu périurbain de Marseille;GR;FR;FR-13;P2;wikipedia:GR-France;
+BL;Balcon du Léman;GR;FR;FR-ALPES-N;P2;wikipedia:GR-France;
+ChemindeSaintGuilhemleDé;Chemin de Saint-Guilhem-le-Désert;GR;FR;FR-30-48|FR-34-11;P2;wikipedia:GR-France;
+GR11-ES;GR11 — Senda Transpirenaica (ES);GR;ES/AD;ES-NORTE|ES-NAV-RIO-ARA|ES-CAT;P2;curated;versant sud des Pyrénées
+GRG1;Trace des Alizés (Guadeloupe);GR;FR (outre-mer);;HP;wikipedia:GR-France;hors périmètre pilote (Antilles/NC/Guyane)
+GRM1;(Martinique);GR;FR (outre-mer);;HP;wikipedia:GR-France;hors périmètre pilote (Antilles/NC/Guyane)
+GRNC1;Tour du sud de la Grande Terre (Nouvelle-Calédonie);GR;FR (outre-mer);;HP;wikipedia:GR-France;hors périmètre pilote (Antilles/NC/Guyane)
+GRR1;Tour du Piton des Neiges (Île de La Réunion);GR;FR (outre-mer);FR-974;P1;wikipedia:GR-France;
+GRR2;La Traversée de l'île de La Réunion;GR;FR (outre-mer);FR-974;P1;wikipedia:GR-France;
+GRR3;Le Tour du Cirque de Mafate (Île de La Réunion);GR;FR (outre-mer);FR-974;P1;wikipedia:GR-France;
+GTJ;Grande traversée du Jura;GR;FR;FR-EST|FR-ALPES-N;P1;wikipedia:GR-France;
+GTM;Grande Traversée du Mercantour<ref>{{Lien web|langue=fr|auteur=|titre=Présentation de la GTM sur les pages web de la fédération française de randonnée pédestre|url=https;GR;FR;FR-06;P1;wikipedia:GR-France;
+TGV;Tour des Glaciers de la Vanoise;GR;FR;FR-ALPES-N;P2;wikipedia:GR-France;zones estimées (massif)
+TourduCézallier;Tour du Cézallier;GR;FR;FR-MC;P2;wikipedia:GR-France;zones estimées (massif)
+TMB;Tour du Mont-Blanc;GR-INT;FR/IT/CH;FR-ALPES-N;P1;curated;parties IT/CH hors périmètre pilote
+HR-CHX-ZERMATT;Haute Route Chamonix – Zermatt;HR;FR/CH;FR-ALPES-N;P2;curated;partie CH hors périmètre pilote
+HRMP;Haute Route des Monts Perdus;HR;FR/ES;FR-PYR-O|ES-NAV-RIO-ARA;P1;curated;Gavarnie/Ordesa
+HRP;Haute Route Pyrénéenne;HR;FR/ES/AD;FR-PYR-O|FR-66|ES-NAV-RIO-ARA|ES-CAT;P1;curated;haute route, hors GR
+CAM-ARAGONES;Camino Aragonés (Somport → Puente la Reina);CAMINO;ES;ES-NAV-RIO-ARA;P2;curated;
+CAM-BAZTAN;Camino del Baztán (Bayonne → Pamplona);CAMINO;FR/ES;FR-PYR-O|ES-NAV-RIO-ARA;P2;curated;
+CAM-CATALAN;Camí de Sant Jaume / Camino Catalán;CAMINO;ES;ES-CAT|ES-NAV-RIO-ARA;P3;curated;
+CAM-FINISTERRE;Epílogo Finisterre – Muxía;CAMINO;ES;ES-GAL;P1;curated;
+CAM-FRANCES;Camino Francés (SJPP → Santiago);CAMINO;FR/ES;FR-PYR-O|ES-NAV-RIO-ARA|ES-CYL|ES-GAL;P1;curated;
+CAM-INGLES;Camino Inglés (Ferrol/A Coruña → Santiago);CAMINO;ES;ES-GAL;P2;curated;
+CAM-INVIERNO;Camino de Invierno (Ponferrada → Santiago);CAMINO;ES;ES-CYL|ES-GAL;P2;curated;
+CAM-LEBANIEGO;Camino Lebaniego (San Vicente → Sto Toribio);CAMINO;ES;ES-NORTE;P3;curated;
+CAM-MADRID;Camino de Madrid (Madrid → Sahagún);CAMINO;ES;ES-CYL;P3;curated;départ Madrid hors zones pilote
+CAM-NORTE;Camino del Norte (Irún → Santiago);CAMINO;ES;ES-NORTE|ES-GAL;P1;curated;
+CAM-OLVIDADO;Camino Olvidado (Bilbao → Ponferrada);CAMINO;ES;ES-NORTE|ES-CYL;P3;curated;
+CAM-PLATA;Vía de la Plata (Sevilla → Astorga);CAMINO;ES;ES-CYL;P2;curated;tronçon sud (Extremadura/Andalucía) hors périmètre pilote
+CAM-PORT-CENTRAL;Camino Portugués Central (Porto → Santiago);CAMINO;PT/ES;PT-NORTE|ES-GAL;P1;curated;
+CAM-PORT-COSTA;Camino Portugués da Costa;CAMINO;PT/ES;PT-NORTE|ES-GAL;P2;curated;
+CAM-PRIMITIVO;Camino Primitivo (Oviedo → Santiago);CAMINO;ES;ES-NORTE|ES-GAL;P1;curated;
+CAM-SALVADOR;Camino del Salvador (León → Oviedo);CAMINO;ES;ES-CYL|ES-NORTE;P3;curated;
+CAM-SANABRES;Camino Sanabrés (Granja de Moreruela → Santiago);CAMINO;ES;ES-CYL|ES-GAL;P2;curated;
+CAM-VASCO;Camino Vasco del Interior (Irún → Sto Domingo/Burgos);CAMINO;ES;ES-NORTE|ES-CYL;P3;curated;túnel de San Adrián
+GRT01;Hendaye – Irun;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT02;Ciboure – Endarlatxa;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT08;Irau – Errozate;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT09;Okabe – Col Oraate;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT10;Chalets d'Iraty – Col Leherra;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT11;Holzarte – Col d'Urthuru;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT12;Sainte-Engrâce – Col Erainze;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT13;Cazette – Col d'Anaye;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT22;Arrens-Marsous – Port de la Peyre Saint-Martin;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT30;Gavarnie – Port de Boucharo;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT51;Mines de Bentaillou – Port de la Hourquette;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT53;Fontaine Rouge – Port d'Orle;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT54;Port de Barlonguère – Passage de la Lègne;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT55;Pla de la Lau – Col de la Pale de la Clauère;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT56;Étang d'Areau – Port d'Aula;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT57;Couflens – Port de Salau;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT58;Saint-Lizier-d'Ustou- Port de Marterat;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT59;Layte – Port de Couillac;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT60;Marc – Port de l'Artigue;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT61;L'Artigue – Port de Sullo;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT62;Mounicou – Port de Bouet;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT63;Mounicou – Port de Rat;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT64;Pont de la Peyre – Port de l'Albeille;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT65;Siguer – Port de Siguer;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT66;Laparan – Port de Fontargente;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT67;Estagnol – Col de Juclar;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT68;L'Hospitalet – Col de l'Albe et coll dels Clots;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT71;Latour-de-Carol – Guils de Cerdanya;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT73;Err – Coll de Finestrelles;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT74;Eyne – Coll de Nuria;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT75;Refuge du Ras de la Carançà – Coll de Carança;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT76;Mantet – Portella de Mantet;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT77;Coll de Mentet – Coll del Pal;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT78;Prats-de-Mollo-la-Preste – Coll del Pal;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT83;Prats-de-Mollo-la-Preste – Coll de Malrems;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT89;Saint-Martin-de-l'Albère – Coll Forcat;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRT91;Banyuls-sur-Mer – Coll dels Belitres;GRT;FR/ES;FR-PYR-O|FR-66;P3;wikipedia:GR-France;
+GRP-BALCON-DU-VALROMEY;GRP Balcon du Valromey;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Ain
+GRP-DE-LA-VALLEE-DE-L-AIN-AU-PAYS-DE-CERDO;GRP de la Vallée de l'Ain au Pays de Cerdon;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Ain
+GRP-DU-BEAUJOLAIS-AU-BUGEY-PAR-LA-DOMBES;GRP du Beaujolais au Bugey par la Dombes;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Ain + Rhône et métropole de Lyon
+GRP-GRAND-TOUR-DE-LA-VALSERINE;GRP Grand Tour de la Valserine;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Ain
+GRP-TOUR-DU-PAYS-DE-LHUIS-ET-D-IZIEU;GRP Tour du Pays de Lhuis et d'Izieu;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Ain
+GRP-TOUR-DU-REVERMONT;GRP Tour du Revermont;GRP;FR;FR-ALPES-N|FR-EST;P3;wikipedia:GRP;Ain + Jura
+GRP-TOUR-DU-VALROMEY;GRP Tour du Valromey;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Ain
+GRP-DU-VAL-DE-SIOULE;GRP du Val de Sioule;GRP;FR;FR-MC;P3;wikipedia:GRP;Allier
+GRP-SUR-LES-PAS-DES-MAITRES-SONNEURS;GRP Sur les pas des Maîtres Sonneurs;GRP;FR;FR-MC|FR-SO;P3;wikipedia:GRP;Allier + Cher + Indre
+GRP-DE-LA-HAUTE-CEVENNE-D-ARDECHE;GRP de la Haute Cévenne d'Ardèche;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Ardèche
+GRP-DE-LA-HAUTE-VALLEE-DE-CEZE;GRP de la Haute Vallée de Cèze;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Ardèche
+GRP-LE-CEVENOL;GRP Le Cèvenol;GRP;FR;FR-84-26-07|FR-30-48;P3;wikipedia:GRP;Ardèche + Gard
+GRP-LE-PAYS-DE-VERNOUX;GRP Le Pays de Vernoux;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Ardèche
+GRP-TOUR-DE-LA-MONTAGNE-ARDECHOISE;GRP Tour de la Montagne ardéchoise;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Ardèche
+GRP-TOUR-DU-BASSIN-D-ANNONAY;GRP Tour du Bassin d'Annonay;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Ardèche
+GRP-TOUR-DU-MASSIF-MEZENC-GERBIER-DE-JONC;GRP Tour du Massif Mézenc - Gerbier-de-Jonc;GRP;FR;FR-84-26-07|FR-MC;P3;wikipedia:GRP;Ardèche + Haute-Loire
+GRP-TOUR-DU-TANARGUE;GRP Tour du Tanargue;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Ardèche
+GRP-DE-SAINT-FLOUR;GRP de Saint-Flour;GRP;FR;FR-MC|FR-30-48;P3;wikipedia:GRP;Cantal + Haute-Loire + Lozère
+GRP-DE-SUMENE-ARTENSE;GRP de Sumène Artense;GRP;FR;FR-MC;P3;wikipedia:GRP;Cantal
+GRP-LO-CAMIN-D-OLT;GRP Lo Camin d'Olt;GRP;FR;FR-MC;P3;wikipedia:GRP;Cantal + Aveyron
+GRP-TOUR-DES-MONTS-D-AUBRAC;GRP Tour des Monts d'Aubrac;GRP;FR;FR-MC|FR-30-48;P3;wikipedia:GRP;Cantal + Aveyron + Lozère
+GRP-DROME-DES-COLLINES;GRP Drôme des Collines;GRP;FR;FR-84-26-07|FR-ALPES-N;P3;wikipedia:GRP;Drôme + Isère
+GRP-GRAND-TOUR-DE-LA-GERVANNE;GRP Grand Tour de la Gervanne;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Drôme
+GRP-TOUR-DE-LA-VALLEE-DE-LA-ROANNE;GRP Tour de la Vallée de la Roanne;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Drôme
+GRP-TOUR-DES-BARONNIES-PROVENCALES;GRP Tour des Baronnies provençales;GRP;FR;FR-84-26-07|FR-04-05;P3;wikipedia:GRP;Drôme + Hautes-Alpes + Vaucluse
+GRP-TOUR-DES-MONTS-DU-MATIN;GRP Tour des Monts du Matin;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Drôme
+GRP-TOUR-DU-BU-CH;GRP Tour du Buëch;GRP;FR;FR-84-26-07|FR-04-05;P3;wikipedia:GRP;Drôme + Alpes-de-Haute-Provence + Hautes-Alpes
+GRP-TOUR-DU-DEVOLUY;GRP Tour du Dévoluy;GRP;FR;FR-84-26-07|FR-04-05;P3;wikipedia:GRP;Drôme + Hautes-Alpes
+GRP-TOUR-DU-PAYS-DE-DIEULEFIT;GRP Tour du Pays de Dieulefit;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Drôme
+GRP-TOUR-DE-BU-CH-MEOUGE;GRP Tour de Buëch-Méouge;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Drôme
+GRP-TOUR-DU-VERCORS-DROMOIS;GRP Tour du Vercors Drômois;GRP;FR;FR-84-26-07|FR-ALPES-N;P3;wikipedia:GRP;Drôme + Isère
+GRP-TOUR-DE-CHARTREUSE;GRP Tour de Chartreuse;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère + Savoie
+GRP-TOUR-DES-COULMES;GRP Tour des Coulmes;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-TOUR-DES-LACS-DES-7-LAUX;GRP Tour des lacs des 7 Laux;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-TOUR-DES-PETITES-ROCHES;GRP Tour des Petites Roches;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-TOUR-DES-QUATRE-MONTAGNES;GRP Tour des Quatre Montagnes;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-TOUR-DU-PAYS-D-ALLEVARD;GRP Tour du Pays d'Allevard;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-TOUR-DU-PAYS-DE-SAINT-MARCELLIN-ET-DE-;GRP Tour du Pays de Saint-Marcellin et de Saint-Antoine l'Abbaye;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-TULLINS-VINAY;GRP Tullins-Vinay;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Isère
+GRP-SENTIER-DES-GORGES-DE-LA-LOIRE-DU-VELA;GRP Sentier des Gorges de la Loire du Velay au Forez;GRP;FR;FR-MC;P3;wikipedia:GRP;Loire + Haute-Loire
+GRP-SENTIER-DES-GORGES-DE-LA-LOIRE;GRP Sentier des Gorges de la Loire;GRP;FR;FR-MC;P3;wikipedia:GRP;Loire + Haute-Loire
+GRP-AUTOUR-D-ISSOIRE;GRP Autour d'Issoire;GRP;FR;FR-MC;P3;wikipedia:GRP;Haute-Loire
+GRP-ROBE-DE-BURE-ET-COTTE-DE-MAILLES;GRP Robe de Bure et Cotte de Mailles;GRP;FR;FR-MC;P3;wikipedia:GRP;Haute-Loire
+GRP-TOUR-EN-DAUPHINE-D-AUVERGNE-BOUCLE-D-I;GRP Tour en Dauphiné d'Auvergne - Boucle d'Issoire;GRP;FR;FR-MC;P3;wikipedia:GRP;Puy-de-Dôme
+GRP-TOUR-DE-LA-REINE-MARGOT;GRP Tour de la Reine Margot;GRP;FR;FR-MC;P3;wikipedia:GRP;Puy-de-Dôme
+GRP-METROPOLE-DE-LYON-PAR-LES-FORTS;GRP Métropole de Lyon par les forts;GRP;FR;FR-MC;P3;wikipedia:GRP;"Rhône et métropole de Lyon ; zones estimées (massif)"
+GRP-MONTS-ET-COTEAUX-DU-LYONNAIS;GRP Monts et Côteaux du Lyonnais;GRP;FR;FR-MC;P3;wikipedia:GRP;"Rhône et métropole de Lyon ; zones estimées (massif)"
+GRP-TOUR-DES-MONTS-DU-LYONNAIS;GRP Tour des Monts du Lyonnais;GRP;FR;FR-MC;P3;wikipedia:GRP;"Rhône et métropole de Lyon ; zones estimées (massif)"
+GRP-TOUR-DU-BEAUJOLAIS-DES-PIERRES-DOREES;GRP Tour du Beaujolais des Pierres dorées;GRP;FR;FR-MC;P3;wikipedia:GRP;"Rhône et métropole de Lyon ; zones estimées (massif)"
+GRP-TOUR-DE-LA-HAUTE-TARENTAISE;GRP Tour de la Haute-Tarentaise;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Savoie
+GRP-TOUR-DE-LA-HAUTE-MAURIENNE;GRP Tour de la Haute-Maurienne;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Savoie
+GRP-TOUR-DU-BEAUFORTAIN;GRP Tour du Beaufortain;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Savoie
+GRP-TOUR-DU-LAC-D-ANNECY;GRP Tour du Lac d'Annecy;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Savoie + Haute-Savoie
+GRP-TOUR-DU-MONT-THABOR;GRP Tour du Mont-Thabor;GRP;FR;FR-ALPES-N|FR-04-05;P3;wikipedia:GRP;Savoie + Hautes-Alpes
+GRP-TOUR-DU-PAYS-DU-MONT-BLANC;GRP Tour du Pays du Mont-Blanc;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Savoie + Haute-Savoie
+GRP-RESEAU-MASSIF-DES-BAUGES;Réseau GRP Massif des Bauges;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Savoie + Haute-Savoie
+GRP-LITTORAL-DU-LEMAN;GRP Littoral du Léman;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Haute-Savoie
+GRP-MASSIF-DE-TOURNETTE-ARAVIS;GRP Massif de Tournette-Aravis;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Haute-Savoie
+GRP-TOUR-DES-DENTS-BLANCHES;GRP Tour des Dents Blanches;GRP;FR;FR-ALPES-N;P3;wikipedia:GRP;Haute-Savoie
+GRP-DES-GRANDS-CRUS;GRP des Grands Crus;GRP;FR;FR-EST;P3;wikipedia:GRP;Côte-d'Or
+GRP-DES-MAQUISARDS;GRP des Maquisards;GRP;FR;FR-EST;P3;wikipedia:GRP;Côte-d'Or
+GRP-AU-FIL-DES-VIGNES-ET-DES-VALLEES;GRP Au fil des Vignes et des Vallées;GRP;FR;FR-EST;P3;wikipedia:GRP;Côte-d'Or + Saône-et-Loire
+GRP-TOUR-DU-MORVAN;GRP Tour du Morvan;GRP;FR;FR-EST;P3;wikipedia:GRP;Côte-d'Or + Nièvre + Saône-et-Loire
+GRP-CHEMIN-DE-LA-BELLE-ETOILE;GRP Chemin de la Belle Étoile;GRP;FR;FR-EST;P3;wikipedia:GRP;Côte-d'Or + Haute-Marne
+GRP-CEINTURE-DE-BESANCON;GRP Ceinture de Besançon;GRP;FR;FR-EST;P3;wikipedia:GRP;Doubs
+GRP-DES-7-RIVIERES;GRP des 7 Rivières;GRP;FR;FR-EST;P3;wikipedia:GRP;Doubs
+GRP-TOUR-DU-PAYS-DE-MONTBELIARD;GRP Tour du Pays de Montbéliard;GRP;FR;FR-EST;P3;wikipedia:GRP;Doubs
+GRP-ENTRE-LOUE-ET-LISON-AU-PAYS-DE-COURBET;GRP Entre Loue et Lison au Pays de Courbet;GRP;FR;FR-EST;P3;wikipedia:GRP;Doubs + Jura
+GRP-DE-LA-BRESSE-COMTOISE;GRP de la Bresse Comtoise;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-DE-HAUTE-JOUX-MONT-NOIR-ET-DE-LA-REGIO;GRP de Haute-Joux - Mont Noir et de la région de Champagnole;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-TOUR-DE-LA-HAUTE-BIENNE;GRP Tour de la Haute-Bienne;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-TOUR-DE-LA-VALLEE-DE-LA-SAINE;GRP Tour de la Vallée de la Saine;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-TOUR-DU-HAUT-JURA-SUD;GRP Tour du Haut-Jura Sud;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-TOUR-DU-LAC-DE-VOUGLANS;GRP Tour du Lac de Vouglans;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-TOUR-DU-PLATEAU-DE-NOZEROY-HAUTE-VALLE;GRP Tour du Plateau de Nozeroy - Haute vallée de l'Ain;GRP;FR;FR-EST;P3;wikipedia:GRP;Jura
+GRP-DES-MEANDRES-DE-L-YONNE;GRP des Méandres de l'Yonne;GRP;FR;FR-EST;P3;wikipedia:GRP;Nièvre + Yonne
+GRP-TOUR-DE-L-AVALLONNAIS;GRP Tour de l'Avallonnais;GRP;FR;FR-EST;P3;wikipedia:GRP;Nièvre + Yonne
+GRP-DE-L-ORVANNE;GRP de l'Orvanne;GRP;FR;FR-EST|FR-IDF-CVL;P3;wikipedia:GRP;Yonne + Seine-et-Marne
+GRP-DE-SAINT-JACQUES;GRP de Saint-Jacques;GRP;FR;FR-EST;P3;wikipedia:GRP;Yonne + Aube
+GRP-DES-VINS-ET-FROMAGES;GRP des Vins et Fromages;GRP;FR;FR-EST;P3;wikipedia:GRP;Yonne + Aube
+GRP-DU-LUNAIN;GRP du Lunain;GRP;FR;FR-EST|FR-IDF-CVL;P3;wikipedia:GRP;Yonne + Seine-et-Marne
+GRP-RETIF-DE-LA-BRETONNE;GRP Rétif de la Bretonne;GRP;FR;FR-EST;P3;wikipedia:GRP;Yonne
+GRP-RANDONNEE-DES-FORTS;GRP Randonnée des Forts;GRP;FR;FR-EST;P3;wikipedia:GRP;Territoire de Belfort
+GRP-AU-PAYS-DES-TOILEUX;GRP Au Pays des Toileux;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor
+GRP-ENTRE-GOU-T-ET-GOUESSANT;GRP Entre Gouët et Gouessant;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor
+GRP-PETIT-CIRCUIT-DU-MENE;GRP Petit circuit du Mené;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor
+GRP-TOUR-DE-PENTHIEVRE-NORD;GRP Tour de Penthièvre Nord;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor
+GRP-TOUR-DE-PENTHIEVRE-SUD;GRP Tour de Penthièvre Sud;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor
+GRP-TOUR-DU-POUDOUVRE;GRP Tour du Poudouvre;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor + Ille-et-Vilaine
+GRP-TOUR-DU-PAYS-DE-MORLAIX;GRP Tour du Pays de Morlaix;GRP;FR;FR-BRE;P3;wikipedia:GRP;Côtes-d'Armor + Finistère
+GRP-TOUR-DU-SUD-DU-PAYS-BIGOUDEN;GRP Tour du Sud du Pays Bigouden;GRP;FR;FR-BRE;P3;wikipedia:GRP;Finistère
+GRP-TOUR-DE-LA-PRESQU-ILE-DE-CROZON;GRP Tour de la Presqu'île de Crozon;GRP;FR;FR-BRE;P3;wikipedia:GRP;Finistère
+GRP-TOUR-DES-PORTES-DE-CORNOUAILLE;GRP Tour des Portes de Cornouaille;GRP;FR;FR-BRE;P3;wikipedia:GRP;Finistère
+GRP-TOUR-DU-CAP-SIZUN;GRP Tour du Cap Sizun;GRP;FR;FR-BRE;P3;wikipedia:GRP;Finistère
+GRP-TOUR-DU-PAYS-D-IROISE;GRP Tour du Pays d'Iroise;GRP;FR;FR-BRE;P3;wikipedia:GRP;Finistère
+GRP-TOUR-LES-MARCHES-DE-BRETAGNE;GRP Tour Les Marches de Bretagne;GRP;FR;FR-BRE;P3;wikipedia:GRP;Ille-et-Vilaine
+GRP-TOUR-DE-BROCELIANDE;GRP Tour de Brocéliande;GRP;FR;FR-BRE;P3;wikipedia:GRP;Ille-et-Vilaine
+GRP-TOUR-DU-PAYS-MALOUIN;GRP Tour du Pays Malouin;GRP;FR;FR-BRE;P3;wikipedia:GRP;Ille-et-Vilaine
+GRP-SCORFF-BLAVET-OCEAN;GRP Scorff - Blavet - Océan;GRP;FR;FR-BRE;P3;wikipedia:GRP;Morbihan
+GRP-VANNES-LANVAUX;GRP Vannes-Lanvaux;GRP;FR;FR-BRE;P3;wikipedia:GRP;Morbihan
+GRP-DE-SOLOGNE;GRP de Sologne;GRP;FR;FR-SO|FR-IDF-CVL;P3;wikipedia:GRP;Cher + Loir-et-Cher + Loiret
+GRP-DE-LA-CHAMPAGNE-BERRICHONNE;GRP de la Champagne berrichonne;GRP;FR;FR-SO;P3;wikipedia:GRP;Cher + Indre
+GRP-D-AVRE-ET-D-ITON;GRP d'Avre et d'Iton;GRP;FR;FR-IDF-CVL|FR-NOR;P3;wikipedia:GRP;Eure-et-Loir
+GRP-DES-YVELINES;GRP des Yvelines;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Eure-et-Loir + Yvelines
+GRP-VALLEE-DE-L-EURE;GRP Vallée de l'Eure;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Eure-et-Loir
+GRP-DE-LA-BRENNE;GRP de la Brenne;GRP;FR;FR-SO;P3;wikipedia:GRP;Indre
+GRP-DE-VALENCAY;GRP de Valençay;GRP;FR;FR-SO;P3;wikipedia:GRP;Indre
+GRP-VAL-DE-CREUSE;GRP Val de Creuse;GRP;FR;FR-SO|FR-MC;P3;wikipedia:GRP;Indre + Creuse
+GRP-CASTELVALERIE;GRP Castelvalérie;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Indre-et-Loire
+GRP-COTEAUX-DE-BOURGUEIL;GRP Côteaux de Bourgueil;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Indre-et-Loire
+GRP-DE-CH-TEAUX-EN-CH-TEAUX-ENTRE-LA-LOIRE;GRP de châteaux en châteaux entre la Loire et le Cher;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Indre-et-Loire + Loir-et-Cher
+GRP-TOURAINE-SUD;GRP Touraine Sud;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Indre-et-Loire
+GRP-PERCHE-VENDOMOIS-VALLEE-DU-LOIR;GRP Perche vendômois, Vallée du Loir;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Loir-et-Cher
+GRP-SENTIER-HISTORIQUE-DE-LA-VALLEE-DES-RO;GRP Sentier historique de la Vallée des Rois;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Loir-et-Cher + Loiret
+GRP-G-TINAIS;GRP Gâtinais;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Loiret
+GRP-AU-PAYS-DE-GASTON-BACHELARD;GRP Au pays de Gaston Bachelard;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-DES-DEUX-BAR;GRP des Deux Bar;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-DES-VALLEES-DE-LA-SARCE-ET-DE-L-HOZAIN;GRP des Vallées de la Sarce et de l'Hozain;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-DU-CHAMPAGNE-DE-LA-VALLEE-DE-L-OURCE;GRP du Champagne de la Vallée de l'Ource;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-DU-CIDRE;GRP du Cidre;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-THIBAULD-DE-CHAMPAGNE;GRP Thibauld de Champagne;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube + Marne
+GRP-TOUR-DES-FORETS-D-OTHE;GRP Tour des Forêts d'Othe;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-TOUR-DES-LACS;GRP Tour des Lacs;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-TOUR-DES-MAQUISARDS;GRP Tour des Maquisards;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-TOUR-DE-TROYES;GRP Tour de Troyes;GRP;FR;FR-EST;P3;wikipedia:GRP;Aube
+GRP-MARIE-CALVES;GRP Marie Calvès;GRP;FR;FR-EST;P3;wikipedia:GRP;Haute-Marne
+GRP-MARNE-ET-ROGNON;GRP Marne et Rognon;GRP;FR;FR-EST;P3;wikipedia:GRP;Haute-Marne
+GRP-DE-L-ARDRE;GRP de l'Ardre;GRP;FR;FR-EST;P3;wikipedia:GRP;Marne
+GRP-DE-LA-COTE-DES-BLANCS;GRP de la Côte des Blancs;GRP;FR;FR-EST;P3;wikipedia:GRP;Marne
+GRP-ENTRE-MARNE-ET-CHAMPAGNE;GRP Entre Marne et Champagne;GRP;FR;FR-EST;P3;wikipedia:GRP;Marne
+GRP-HAUTE-VALLEE-DU-PETIT-MORIN;GRP Haute Vallée du Petit Morin;GRP;FR;FR-EST;P3;wikipedia:GRP;Marne
+GRP-MONTAGNE-DE-REIMS;GRP Montagne de Reims;GRP;FR;FR-EST;P3;wikipedia:GRP;Marne
+GRP-AUTOUR-DE-NANCY;GRP Autour de Nancy;GRP;FR;FR-EST;P3;wikipedia:GRP;Meurthe-et-Moselle
+GRP-DE-LA-DEODATIE;GRP de la Déodatie;GRP;FR;FR-EST;P3;wikipedia:GRP;Meurthe-et-Moselle + Vosges
+GRP-ENTRE-COTES-DE-MOSELLE-ET-COTES-DE-MEU;GRP Entre Côtes de Moselle et Côtes de Meuse;GRP;FR;FR-EST;P3;wikipedia:GRP;Meurthe-et-Moselle + Meuse
+GRP-AU-PAYS-DE-JEANNE-D-ARC;GRP au Pays de Jeanne d'Arc;GRP;FR;FR-EST;P3;wikipedia:GRP;Meuse
+GRP-AUX-MARCHES-DE-MEUSE;GRP aux Marches de Meuse;GRP;FR;FR-EST;P3;wikipedia:GRP;Meuse
+GRP-DE-LA-W-EVRE;GRP de la Wöevre;GRP;FR;FR-EST;P3;wikipedia:GRP;Meuse
+GRP-DES-HAUTS-DE-MEUSE;GRP des Hauts de Meuse;GRP;FR;FR-EST;P3;wikipedia:GRP;Meuse
+GRP-DU-SURMELIN;GRP du Surmelin;GRP;FR;FR-EST;P3;wikipedia:GRP;Meuse
+GRP-VAL-DE-MEUSE;GRP Val de Meuse;GRP;FR;FR-EST;P3;wikipedia:GRP;Meuse
+GRP-TOUR-DU-PAYS-DE-LA-ZORN;GRP Tour du Pays de la Zorn;GRP;FR;FR-EST;P3;wikipedia:GRP;Bas-Rhin
+GRP-DE-JEANNE-D-ARC;GRP de Jeanne d'Arc;GRP;FR;FR-EST;P3;wikipedia:GRP;Vosges
+GRP-TOUR-DE-L-OUEST-DES-VOSGES;GRP Tour de l'Ouest des Vosges;GRP;FR;FR-EST;P3;wikipedia:GRP;Vosges
+GRP-TOUR-DE-LA-VOLOGNE;GRP Tour de la Vologne;GRP;FR;FR-EST;P3;wikipedia:GRP;Vosges
+GRP-TOUR-DE-SURMELIN;GRP Tour de Surmelin;GRP;FR;FR-EST;P3;wikipedia:GRP;Aisne
+GRP-TOUR-DE-L-OMOIS;GRP Tour de l'Omois;GRP;FR;FR-EST;P3;wikipedia:GRP;Aisne
+GRP-TOUR-DU-NOYONNAIS;GRP Tour du Noyonnais;GRP;FR;FR-EST;P3;wikipedia:GRP;Aisne + Oise
+GRP-BASSIN-MINIER-NORD-PAS-DE-CALAIS;GRP Bassin minier Nord - Pas-de-Calais;GRP;FR;FR-EST;P3;wikipedia:GRP;Nord
+GRP-TOUR-DU-CAMBRESIS;GRP Tour du Cambrésis;GRP;FR;FR-EST;P3;wikipedia:GRP;Nord
+GRP-TOUR-DE-L-AVESNOIS;GRP Tour de l'Avesnois;GRP;FR;FR-EST;P3;wikipedia:GRP;Nord
+GRP-MONTS-DE-FLANDRE;GRP Monts de Flandre;GRP;FR;FR-EST;P3;wikipedia:GRP;Nord
+GRP-FORETS-DE-HAUTE-NORMANDIE;GRP Forêts de Haute-Normandie;GRP;FR;FR-EST;P3;wikipedia:GRP;Oise + Somme
+GRP-TOUR-DU-BASSIN-MINIER-NORD-PAS-DE-CALA;GRP Tour du Bassin minier Nord - Pas-de-Calais;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-CANCHE-AUTHIE;GRP Canche-Authie;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais + Somme
+GRP-CEINTURE-DE-BOULOGNE;GRP Ceinture de Boulogne;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DE-L-ARTOIS;GRP Tour de l'Artois;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DU-TERNOIS-NORD;GRP Tour du Ternois Nord;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DU-TERNOIS-SUD;GRP Tour du Ternois Sud;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DE-LA-LYS;GRP Tour de la Lys;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DU-BOULONNAIS;GRP Tour du Boulonnais;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DU-CALAISIS;GRP Tour du Calaisis;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-DE-L-AUDOMAROIS;GRP Tour de l'Audomarois;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-TOUR-HAUT-PAYS;GRP Tour Haut Pays;GRP;FR;FR-EST;P3;wikipedia:GRP;Pas-de-Calais
+GRP-BATAILLE-DE-LA-SOMME;GRP Bataille de la Somme;GRP;FR;FR-EST;P3;wikipedia:GRP;Somme
+GRP-BOIS-DE-BOULOGNE;GRP Bois de Boulogne;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Paris
+GRP-CANAL-DE-L-OURCQ;GRP Canal de l'Ourcq;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Paris + Seine-Saint-Denis
+GRP-DU-BOIS-DE-VINCENNES;GRP du Bois de Vincennes;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Paris + Val-de-Marne
+GRP-TRAVERSEE-DE-PARIS;GRP Traversée de Paris;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Paris
+GRP-CEINTURE-VERTE-DE-L-ILE-DE-FRANCE;GRP Ceinture Verte de l'Île-de-France;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Seine-et-Marne + Yvelines + Essonne + Hauts-de-Seine + Seine-Saint-Denis + Val-de-Marne + Val-d'Oise
+GRP-HUREPOIX;GRP Hurepoix;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Yvelines + Essonne
+GRP-LES-VALLEES-DE-L-ESSONNE;GRP Les Vallées de l'Essonne;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Essonne
+GRP-VALLEES-ET-FORETS-BRIARDES;GRP Vallées et Forêts Briardes;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Essonne + Val-de-Marne
+GRP-DU-SUD-PARISIEN;GRP du Sud Parisien;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Essonne + Hauts-de-Seine + Val-de-Marne
+GRP-DE-SAINT-DENIS;GRP de Saint-Denis;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Seine-Saint-Denis
+GRP-DES-BORDS-DE-MARNE;GRP des Bords de Marne;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Val-de-Marne
+GRP-VALLEE-DE-L-EPTE;GRP Vallée de l'Epte;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Val-d'Oise
+GRP-TOUR-DES-GRANITIERS;GRP Tour des Granitiers;GRP;FR;FR-NOR;P3;wikipedia:GRP;Calvados + Manche
+GRP-ENTRE-VIRE-ET-BOCAGE;GRP Entre Vire et Bocage;GRP;FR;FR-NOR;P3;wikipedia:GRP;Calvados + Manche
+GRP-SUR-LES-TRACES-DES-FONDEURS-DE-CLOCHES;GRP Sur les Traces des Fondeurs de Cloches;GRP;FR;FR-NOR;P3;wikipedia:GRP;Calvados + Manche
+GRP-TOUR-DE-LA-SUISSE-NORMANDE;GRP Tour de la Suisse Normande;GRP;FR;FR-NOR;P3;wikipedia:GRP;Calvados + Orne
+GRP-DES-FORETS-DE-HAUTE-NORMANDIE;GRP des Forêts de Haute-Normandie;GRP;FR;FR-NOR;P3;wikipedia:GRP;Eure
+GRP-RISLE-CHARENTONNE;GRP Risle - Charentonne;GRP;FR;FR-NOR;P3;wikipedia:GRP;Eure
+GRP-TOUR-DU-PAYS-D-OUCHE;GRP Tour du Pays d'Ouche;GRP;FR;FR-NOR;P3;wikipedia:GRP;Eure
+GRP-LES-BALCONS-DE-LA-SEE;GRP Les Balcons de la Sée;GRP;FR;FR-NOR;P3;wikipedia:GRP;Manche
+GRP-LES-BELVEDERES-DU-MONT-SAINT-MICHEL;GRP Les Belvédères du Mont-Saint-Michel;GRP;FR;FR-NOR;P3;wikipedia:GRP;Manche
+GRP-LES-CRETES-DU-MORTAINAIS;GRP Les crètes du Mortainais;GRP;FR;FR-NOR;P3;wikipedia:GRP;Manche + Orne
+GRP-LES-TRESORS-CACHES-DU-COUTANCAIS;GRP les Trésors Cachés du Coutançais;GRP;FR;FR-NOR;P3;wikipedia:GRP;Manche
+GRP-TOUR-DE-LA-HAGUE;GRP Tour de la Hague;GRP;FR;FR-NOR;P3;wikipedia:GRP;Manche
+GRP-TOUR-DU-VAL-DE-SAIRE;GRP Tour du Val de Saire;GRP;FR;FR-NOR;P3;wikipedia:GRP;Manche
+GRP-UN-PAYS-DE-BOCAGE;GRP Un Pays de Bocage;GRP;FR;FR-NOR;P3;wikipedia:GRP;Orne + Mayenne
+GRP-DE-LA-MANDRAGORE;GRP de la Mandragore;GRP;FR;FR-SO|FR-MC;P3;wikipedia:GRP;Charente + Haute-Vienne
+GRP-ENTRE-ANGOUMOIS-ET-PERIGORD;GRP entre Angoumois et Périgord;GRP;FR;FR-SO;P3;wikipedia:GRP;Charente + Dordogne
+GRP-DE-LA-SYLVE-D-ARGENSON;GRP de la Sylve d'Argenson;GRP;FR;FR-SO;P3;wikipedia:GRP;Charente-Maritime + Deux-Sèvres
+GRP-DE-SAINTONGE;GRP de Saintonge;GRP;FR;FR-SO;P3;wikipedia:GRP;Charente-Maritime
+GRP-DE-LA-XAINTRIE-BLANCHE;GRP de la Xaintrie Blanche;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DE-LA-XAINTRIE-NOIRE;GRP de la Xaintrie Noire;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DE-MILLEVACHES;GRP de Millevaches;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DES-GABARIERS;GRP des Gabariers;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DES-GORGES-DE-LA-VEZERE;GRP des Gorges de la Vézère;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DES-MONEDIERES;GRP des Monédières;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DU-CAUSSE-CORREZIEN;GRP du Causse Corrézien;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-ENTRE-DORDOGNE-ET-VENTADOUR;GRP Entre Dordogne et Ventadour;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-TOUR-DU-MIDI-CORREZIEN;GRP Tour du Midi Corrézien;GRP;FR;FR-MC;P3;wikipedia:GRP;Corrèze
+GRP-DES-CASCADES-LANDES-ET-TOURBIERES;GRP des Cascades, Landes et Tourbières;GRP;FR;FR-MC;P3;wikipedia:GRP;Creuse
+GRP-DES-MONTS-DE-GUERET;GRP des Monts de Guéret;GRP;FR;FR-MC;P3;wikipedia:GRP;Creuse
+GRP-DU-BEAUMONTOIS;GRP du Beaumontois;GRP;FR;FR-SO;P3;wikipedia:GRP;Dordogne
+GRP-ENTRE-DORDOGNE-LOUYRE-ET-LINDOIS;GRP Entre Dordogne, Louyre et Lindois;GRP;FR;FR-SO;P3;wikipedia:GRP;Dordogne
+GRP-DU-PAYS-DE-FENELON;GRP du Pays de Fénelon;GRP;FR;FR-SO;P3;wikipedia:GRP;Dordogne
+GRP-TOUR-DU-BASSIN-D-ARCACHON;GRP Tour du Bassin d'Arcachon;GRP;FR;FR-SO;P3;wikipedia:GRP;Gironde
+GRP-CIRCUIT-DES-BASTIDES-ET-DES-LANDES-D-A;GRP Circuit des Bastides et des Landes d'Armagnac;GRP;FR;FR-SO;P3;wikipedia:GRP;Landes
+GRP-D-ORTHE;GRP d'Orthe;GRP;FR;FR-SO;P3;wikipedia:GRP;Landes
+GRP-DE-LA-HAUTE-CHALOSSE;GRP de la Haute Chalosse;GRP;FR;FR-SO;P3;wikipedia:GRP;Landes
+GRP-TOUR-DE-LA-VALLEE-D-OSSAU;GRP Tour de la Vallée d'Ossau;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Pyrénées-Atlantiques
+GRP-TOUR-DU-LABOURD;GRP Tour du Labourd;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Pyrénées-Atlantiques
+GRP-DES-MARCHES-DE-G-TINE;GRP des Marches de Gâtine;GRP;FR;FR-SO;P3;wikipedia:GRP;Deux-Sèvres + Vienne
+GRP-SUD-G-TINE;GRP Sud Gâtine;GRP;FR;FR-SO;P3;wikipedia:GRP;Deux-Sèvres + Vendée
+GRP-DU-TOUR-DE-LA-BRENNE;GRP du Tour de la Brenne;GRP;FR;FR-SO;P3;wikipedia:GRP;Vienne
+GRP-DE-LA-VIENNE-MEDIEVALE;GRP de la Vienne Médiévale;GRP;FR;FR-SO;P3;wikipedia:GRP;Vienne
+GRP-DES-TROIS-BATAILLES-DE-POITIERS;GRP des Trois Batailles de Poitiers;GRP;FR;FR-SO;P3;wikipedia:GRP;Vienne
+GRP-DU-TOUR-DE-LA-VIENNE-LIMOUSINE;GRP du Tour de la Vienne Limousine;GRP;FR;FR-SO;P3;wikipedia:GRP;Vienne
+GRP-DES-MONTS-D-AMBAZAC;GRP des Monts d'Ambazac;GRP;FR;FR-MC;P3;wikipedia:GRP;Haute-Vienne
+GRP-DES-MONTS-DE-BLOND;GRP des Monts de Blond;GRP;FR;FR-MC;P3;wikipedia:GRP;Haute-Vienne
+GRP-TOUR-DE-LA-BARGUILLERE;GRP Tour de la Barguillère;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DU-BIROS;GRP Tour du Biros;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DU-DONEZAN;GRP Tour du Donezan;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DU-MASSIF-DE-TABE;GRP Tour du massif de Tabe;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DES-MONTAGNES-D-AX;GRP Tour des montagnes d'Ax;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DU-PAYS-D-OLMES;GRP Tour du Pays d'Olmes;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DU-PIC-DES-TROIS-SEIGNEURS;GRP Tour du Pic des Trois Seigneurs;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-TOUR-DU-VAL-DU-GARBET;GRP Tour du Val du Garbet;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Ariège
+GRP-ANCIENNE-FRONTIERE-OCCITANO-CATALANE;GRP Ancienne frontière occitano-catalane;GRP;FR;FR-34-11|FR-66;P3;wikipedia:GRP;Aude + Pyrénées-Orientales
+GRP-SENTIER-GOLFE-ANTIQUE;GRP Sentier Golfe Antique;GRP;FR;FR-34-11;P3;wikipedia:GRP;Aude
+GRP-TOUR-DES-FENOUILLEDES;GRP Tour des Fenouillèdes;GRP;FR;FR-34-11|FR-66;P3;wikipedia:GRP;Aude + Pyrénées-Orientales
+GRP-TOUR-DU-RAZES;GRP Tour du Razès;GRP;FR;FR-34-11;P3;wikipedia:GRP;Aude
+GRP-AUDE-ROMAINE-ET-MEDIEVALE;GRP Aude romaine et médiévale;GRP;FR;FR-34-11;P3;wikipedia:GRP;Aude
+GRP-TOURS-EN-MINERVOIS;GRP Tours en Minervois;GRP;FR;FR-34-11;P3;wikipedia:GRP;Aude
+GRP-SENTIER-DE-GRANDE-RANDONNEE-DE-PAYS-DE;Sentier de grande randonnée de pays de Loze à Monteils;GRP;FR;FR-MC;P3;wikipedia:GRP;Aveyron
+GRP-GRAND-TOUR-DES-MONTS-ET-LACS-DU-LEVEZO;GRP Grand Tour des Monts et Lacs du Lévézou;GRP;FR;FR-MC;P3;wikipedia:GRP;Aveyron
+GRP-TOUR-DU-CAUSSE-DE-SAUVETERRE;GRP Tour du Causse de Sauveterre;GRP;FR;FR-MC|FR-30-48;P3;wikipedia:GRP;Aveyron + Lozère
+GRP-TOUR-DU-LARZAC-MERIDIONAL;GRP Tour du Larzac Méridional;GRP;FR;FR-MC|FR-30-48|FR-34-11;P3;wikipedia:GRP;Aveyron + Gard + Hérault
+GRP-DE-LA-VALLEE-DU-LUECH;GRP de la Vallée du Luech;GRP;FR;FR-30-48;P3;wikipedia:GRP;Gard + Lozère
+GRP-HAUTE-VALLEE-DE-LA-CEZE;GRP Haute Vallée de la Cèze;GRP;FR;FR-30-48;P3;wikipedia:GRP;Gard
+GRP-TOUR-DE-LA-HAUTE-VALLEE-BORGNE;GRP Tour de la Haute Vallée Borgne;GRP;FR;FR-30-48;P3;wikipedia:GRP;Gard + Lozère
+GRP-TOUR-DE-LA-VALLEE-DU-GALEIZON;GRP Tour de la Vallée du Galeizon;GRP;FR;FR-30-48;P3;wikipedia:GRP;Gard + Lozère
+GRP-TOUR-DU-PAYS-DU-VIGANAIS;GRP Tour du Pays du Viganais;GRP;FR;FR-30-48;P3;wikipedia:GRP;Gard
+GRP-DES-TROIS-VALLEES;GRP des Trois Vallées;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Haute-Garonne
+GRP-TOUR-D-OUEIL-LARBOUST;GRP Tour d'Oueil-Larboust;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Haute-Garonne
+GRP-C-UR-DE-GASCOGNE;GRP Cœur de Gascogne;GRP;FR;FR-SO;P3;wikipedia:GRP;Gers
+GRP-HAUT-LANGUEDOC-ET-VIGNOBLES;GRP Haut Languedoc et Vignobles;GRP;FR;FR-34-11;P3;wikipedia:GRP;Hérault
+GRP-HAUTES-TERRES-D-OC;GRP Hautes Terres d'Oc;GRP;FR;FR-34-11;P3;wikipedia:GRP;Hérault + Tarn
+GRP-TOUR-DE-LA-MONTAGNE-DU-HAUT-LANGUEDOC;GRP Tour de la Montagne du Haut Languedoc;GRP;FR;FR-34-11;P3;wikipedia:GRP;Hérault + Tarn
+GRP-TOURS-DANS-LE-GRAND-PIC-SAINT-LOUP;GRP Tours dans le Grand Pic Saint-Loup;GRP;FR;FR-34-11;P3;wikipedia:GRP;Hérault
+GRP-ENTRE-DEUX-LACS-AVENE-SALAGOU;GRP Entre deux lacs Avène-Salagou;GRP;FR;FR-34-11;P3;wikipedia:GRP;Hérault
+GRP-TOUR-DE-LA-MARGERIDE;GRP Tour de la Margeride;GRP;FR;FR-30-48;P3;wikipedia:GRP;Lozère
+GRP-TOUR-DU-CAUSSE-MEJEAN;GRP Tour du Causse Méjean;GRP;FR;FR-30-48;P3;wikipedia:GRP;Lozère
+GRP-TOUR-DU-CHASSEZAC;GRP Tour du Chassezac;GRP;FR;FR-30-48;P3;wikipedia:GRP;Lozère
+GRP-TOUR-DES-BARONNIES-DE-BIGORRE;GRP Tour des Baronnies de Bigorre;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Hautes-Pyrénées
+GRP-TOUR-DU-VAL-D-AZUN;GRP Tour du Val d'Azun;GRP;FR;FR-PYR-O;P3;wikipedia:GRP;Hautes-Pyrénées
+GRP-TOUR-DES-PERIC;GRP Tour des Péric;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-RONDE-DU-CANIGOU;GRP Ronde du Canigou;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-TOUR-DE-CAPCIR;GRP Tour de Capcir;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-TOUR-DE-CERDAGNE;GRP Tour de Cerdagne;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-TOUR-DES-RESERVES-NATURELLES;GRP Tour des Réserves Naturelles;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-TOUR-DU-CANIGOU;GRP Tour du Canigou;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-TOUR-DU-CARLIT;GRP Tour du Carlit;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-TOUR-DU-VALLESPIR;GRP Tour du Vallespir;GRP;FR;FR-66;P3;wikipedia:GRP;Pyrénées-Orientales
+GRP-CORDES-PENNE-COUSTOUS;GRP Cordes - Penne - Coustous;GRP;FR;FR-34-11;P3;wikipedia:GRP;Tarn
+GRP-DE-LISLE-A-SIVENS;GRP de Lisle à Sivens;GRP;FR;FR-34-11;P3;wikipedia:GRP;Tarn
+GRP-DE-MIDI-QUERCY;GRP de Midi-Quercy;GRP;FR;FR-34-11|FR-SO;P3;wikipedia:GRP;Tarn + Tarn-et-Garonne
+GRP-DES-GORGES-DU-VIAUR;GRP des Gorges du Viaur;GRP;FR;FR-34-11;P3;wikipedia:GRP;Tarn
+GRP-HAUTE-VALLEE-DU-THORE;GRP Haute Vallée du Thoré;GRP;FR;FR-34-11;P3;wikipedia:GRP;Tarn
+GRP-DE-LOZE-A-MONTEILS;GRP de Loze à Monteils;GRP;FR;FR-SO;P3;wikipedia:GRP;Tarn-et-Garonne
+GRP-QUERCY-PAYS-DE-SERRES;GRP Quercy - Pays de Serres;GRP;FR;FR-SO;P3;wikipedia:GRP;Tarn-et-Garonne
+GRP-DES-TROIS-RIVIERES;GRP des Trois Rivières;GRP;FR;FR-BRE;P3;wikipedia:GRP;Loire-Atlantique
+GRP-PAYS-NANTAIS;GRP Pays Nantais;GRP;FR;FR-BRE;P3;wikipedia:GRP;Loire-Atlantique
+GRP-SEVRE-ET-MAINE;GRP Sèvre et Maine;GRP;FR;FR-BRE|FR-SO;P3;wikipedia:GRP;Loire-Atlantique + Vendée
+GRP-TOUR-DE-BRIERE;GRP Tour de Brière;GRP;FR;FR-BRE;P3;wikipedia:GRP;Loire-Atlantique
+GRP-TOUR-DU-LAC-DE-GRAND-LIEU;GRP Tour du Lac de Grand-Lieu;GRP;FR;FR-BRE;P3;wikipedia:GRP;Loire-Atlantique
+GRP-DES-BASSES-VALLEES-ANGEVINES;GRP des Basses Vallées Angevines;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Maine-et-Loire
+GRP-COTEAUX-DU-LAYON-ET-DE-LA-LOIRE;GRP Coteaux du Layon et de la Loire;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Maine-et-Loire
+GRP-SAUMUR-VAL-DE-LOIRE;GRP Saumur Val-de-Loire;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Maine-et-Loire
+GRP-DE-L-EVRE-ET-DE-L-HYROME;GRP de l'Evre et de l'Hyrôme;GRP;FR;FR-IDF-CVL;P3;wikipedia:GRP;Maine-et-Loire
+GRP-DU-MONT-DES-AVALOIRS;GRP du Mont des Avaloirs;GRP;FR;FR-NOR;P3;wikipedia:GRP;Mayenne
+GRP-LES-MARCHES-DE-BRETAGNE;GRP Les Marches de Bretagne;GRP;FR;FR-NOR;P3;wikipedia:GRP;Mayenne
+GRP-VALLEE-DU-LOIR;GRP Vallée du Loir;GRP;FR;FR-NOR;P3;wikipedia:GRP;Sarthe
+GRP-DE-POUZAUGES;GRP de Pouzauges;GRP;FR;FR-SO;P3;wikipedia:GRP;Vendée
+GRP-ENTRE-VIE-ET-YON;GRP entre Vie et Yon;GRP;FR;FR-SO;P3;wikipedia:GRP;Vendée
+GRP-TOUR-DU-PAYS-DE-MELUSINE;GRP Tour du Pays de Mélusine;GRP;FR;FR-SO;P3;wikipedia:GRP;Vendée
+GRP-TOUR-DU-PAYS-YONNAIS;GRP Tour du Pays Yonnais;GRP;FR;FR-SO;P3;wikipedia:GRP;Vendée
+GRP-CIRCUIT-DES-4-LACS;GRP Circuit des 4 Lacs;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-GRANDE-TRAVERSEE-DES-PREALPES;GRP Grande Traversée des Préalpes;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence + Hautes-Alpes
+GRP-LA-FRONTIERE-FORTIFIEE;GRP la Frontière Fortifiée;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-PETIT-TOUR-DU-BRIC-DE-RUBREN;GRP Petit Tour du Bric de Rubren;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-PETIT-TOUR-DU-CHAMBEYRON;GRP Petit Tour du Chambeyron;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DE-L-ORONAYE;GRP Tour de l'Oronaye;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DE-LA-FONT-SANCTE;GRP Tour de la Font Sancte;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence + Hautes-Alpes
+GRP-TOUR-DE-LA-MONTAGNE-DE-LURE;GRP Tour de la Montagne de Lure;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DE-SAUTRON;GRP Tour de Sautron;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DES-BALCONS-DU-VERDON-ET-PLATEAU-;GRP Tour des Balcons du Verdon et Plateau de Valensole;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DU-BRIC-DE-RUBREN;GRP Tour du Bric de Rubren;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DU-CHAMBEYRON;GRP Tour du Chambeyron;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DU-HAUT-VERDON;GRP Tour du Haut-Verdon;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DU-LAC-D-ESPARRON;GRP Tour du Lac d'Esparron;GRP;FR;FR-04-05|FR-83;P3;wikipedia:GRP;Alpes-de-Haute-Provence + Var
+GRP-TOUR-DU-LAC-DE-SERRE-PONCON;GRP Tour du Lac de Serre-Ponçon;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence + Hautes-Alpes
+GRP-TOUR-DU-SOUBEYRAN;GRP Tour du Soubeyran;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DU-SUD-DE-BU-CH-MEOUGE;GRP Tour du Sud de Buëch-Méouge;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-TOUR-DU-LAC-DE-SAINTE-CROIX;GRP Tour du Lac de Sainte-Croix;GRP;FR;FR-04-05|FR-83;P3;wikipedia:GRP;Alpes-de-Haute-Provence + Var
+GRP-VALLEE-DE-LA-VAIRE;GRP Vallée de la Vaire;GRP;FR;FR-04-05;P3;wikipedia:GRP;Alpes-de-Haute-Provence
+GRP-ENTRE-CE-SE-ET-DURANCE;GRP Entre Céüse et Durance;GRP;FR;FR-04-05;P3;wikipedia:GRP;Hautes-Alpes
+GRP-TOUR-DE-LA-DENT-DE-RATIER;GRP Tour de la Dent de Ratier;GRP;FR;FR-04-05;P3;wikipedia:GRP;Hautes-Alpes
+GRP-TOUR-DU-PAIN-DE-SUCRE;GRP Tour du Pain de Sucre;GRP;FR;FR-04-05;P3;wikipedia:GRP;Hautes-Alpes
+GRP-TOUR-DU-VIEUX-CHAILLOL;GRP Tour du Vieux Chaillol;GRP;FR;FR-04-05;P3;wikipedia:GRP;Hautes-Alpes
+GRP-LES-COLLINES-DE-NICE;GRP Les Collines de Nice;GRP;FR;FR-06;P3;wikipedia:GRP;Alpes-Maritimes
+GRP-MARSEILLE-PROVENCE-METROPOLE;GRP Marseille Provence Métropole;GRP;FR;FR-13|FR-83;P3;wikipedia:GRP;Bouches-du-Rhône + Var
+GRP-SENTIER-PROVENCE-MINES-D-ENERGIES;GRP Sentier Provence, Mines d'Énergies;GRP;FR;FR-13;P3;wikipedia:GRP;Bouches-du-Rhône
+GRP-MONTAGNE-SAINTE-BAUME;GRP Montagne Sainte Baume;GRP;FR;FR-13;P3;wikipedia:GRP;Bouches-du-Rhône
+GRP-BOUCLE-DE-LA-SAINTE-BAUME;GRP Boucle de la Sainte Baume;GRP;FR;FR-83;P3;wikipedia:GRP;Var
+GRP-TOUR-DE-L-ARTUBY;GRP Tour de l'Artuby;GRP;FR;FR-83;P3;wikipedia:GRP;Var
+GRP-VILLAGES-PERCHES-DE-HAUTE-SIAGNE;GRP Villages Perchés de Haute Siagne;GRP;FR;FR-83;P3;wikipedia:GRP;Var
+GRP-DES-DENTELLES-DE-MONTMIRAIL;GRP des Dentelles de Montmirail;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Vaucluse
+GRP-DU-MASSIF-D-UCHAUX;GRP du Massif d'Uchaux;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Vaucluse
+GRP-TOUR-DES-CLAPAREDES;GRP Tour des Claparèdes;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Vaucluse
+GRP-DES-MONTS-DE-VAUCLUSE;GRP des Monts de Vaucluse;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Vaucluse
+GRP-TOUR-DU-MASSIF-DU-VENTOUX-LES-GORGES-D;Tour du Massif du Ventoux - Les Gorges de la Nesque et le Mur de la Peste;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Vaucluse
+GRP-TOUR-DU-MASSIF-DE-RASTEAU;Tour du Massif de Rasteau;GRP;FR;FR-84-26-07;P3;wikipedia:GRP;Vaucluse
+GRP-MARE-A-MARE-NORD;Mare a Mare Nord;GRP;FR;FR-CORSE;P2;curated;Corse
+GRP-MARE-A-MARE-CENTRE;Mare a Mare Centre;GRP;FR;FR-CORSE;P2;curated;Corse
+GRP-MARE-A-MARE-SUD;Mare a Mare Sud;GRP;FR;FR-CORSE;P2;curated;Corse
+GRP-MARE-E-MONTI-NORD;Mare e Monti Nord;GRP;FR;FR-CORSE;P2;curated;Corse
+GRP-MARE-E-MONTI-SUD;Mare e Monti Sud;GRP;FR;FR-CORSE;P2;curated;Corse
+GR1-ES;Sendero Histórico;GR;ES;ES-CAT|ES-NAV-RIO-ARA|ES-NORTE|ES-GAL|ES-CYL;P3;wikipedia-es:GR;" ; via Ampurdán - Bañolas - Ripoll - Berga - Graus - Tierrantona - Riglos - Biel - Sos del Rey Católico - Olite - Allo - Santa "
+GR2-ES;Sendero La Junquera-San Adrián del Besós;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via La Junquera - Rupit - San Adrián del Besós"
+GR3-ES;Sendero Central de Cataluña;GR;ES;ES-CAT|ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Lérida -*- Balaguer -*- Tremp -*- Puebla de Segur -*- El Pont de Suert -*- Seo de Urgel -*- San Juan de las Abadesas - M"
+GR4-ES;Sendero Puigcerdá-Mequinenza;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Puigcerdá - Montserrat -*- Mequinenza"
+GR5-ES;Sendero de los Miradores o de los parques naturales;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Sitges - Montserrat - Canet de Mar"
+GR6-ES;Sendero Barcelona-Montserrat;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Barcelona - Montserrat"
+GR7-ES;Sendero Andorra-Estrecho de Gibraltar;GR;ES;ES-CAT|ES-NAV-RIO-ARA|ES-AND|ES-LEVANTE;P3;wikipedia-es:GR;" ; via Seo de Urgel - Solsona - Bellprat - Falset - Fredes - Morella - San Juan de Peñagolosa - Montanejos - Bejís - Chelva - C"
+GR8-ES;Sendero Ulldecona-Villel;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Ulldecona - Cenia - Refugio Fuente Ferrera (Parque natural dels Ports) - Beceite - Fuentespalda - Peñarroya de Tastavins"
+GR9-ES;Cañada Real de las Provincias;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Noáin - Añézcar - Oscoz - Aldaz - Areso - Tolosa - Régil - Azpeitia"
+GR10-ES;Sendero Puzol-Aldea del Obispo;GR;ES;ES-NAV-RIO-ARA|ES-CYL|ES-CENTRO|ES-LEVANTE;P3;wikipedia-es:GR;" ; via Puzol - Gátova - Camarena de la Sierra - Villel - Albarracín - Orihuela del Tremedal - Orea - Villar de Cobeta - Cifuent"
+GR12-ES;Sendero de Euskal Herria;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Zuriza - Aezcoa - Belagoa - Lecumberri - Puerto de Lizarrusti (Ataun) - Puerto de Cruceta"
+GR13-ES;Cañada Real de los Roncaleses;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Puerto de Lazar - Vidángoz - Monasterio de Leyre - Sangüesa - Bardenas Reales"
+GR14-ES;Senda del Duero;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Fuente del Duero (Duruelo de la Sierra) - Vinuesa - Soria - Ituero (Cubo de la Solana) - Almazán - Andaluz - Gormaz - Sa"
+GR15-ES;Sendero Prepirenaico;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Pont de Suert - Espés (Laspaúles) - Seira - Saravillo - Escuaín (Puértolas) - Buisán (Fanlo) - Broto - Yésero - Biescas "
+GR16-ES;Senderos de Serrablo;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Biescas - Orós Alto - Orós Bajo - Oliván - Iglesia de San Juan de Busa - Lárrede - Senegüé - Latas - Satué (Sabiñánigo) "
+GR17-ES;Sendero Mariano;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Basílica del Pilar de Zaragoza - Barbastro - Costeán (Hoz y Costeán) - El Grado - Santuario de Torreciudad - Santuario d"
+GR18-ES;Senderos de la Ribagorza;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Fonz - Castigaleu - Bonansa - Aneto"
+GR19-ES;Senderos del Sobrarbe;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Viadós - Gistaín - Lafortunada - Aínsa - Muro de Roda"
+GR20-ES;Vuelta a Aralar;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Huarte-Araquil - Echeberri - Irurzun - Lecumberri - Albiasu - Azcárate - Amézqueta - Zaldibia - Ergoyena - Huarte-Araqui"
+GR21-ES;Camino Ignaciano;GR;ES;ES-NAV-RIO-ARA|ES-NORTE;P3;wikipedia-es:GR;" ; via Ruta sur en Navarra: Castillo de Javier - Sangüesa - Rocaforte - Aibar - Sierra de Izco - Abínzano - Salinas de Ibargoit"
+GR23-ES;Senderos por La Litera;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Fonz - Balsa de Frechina (Fonz) - Alins del Monte - Calasanz - Peralta de la Sal - Ermita Virgen de la Mora (Peralta de "
+GR24-ES;Senderos de Calatayud, Daroca y Gallocanta;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Aldehuela de Liestos - Torralba de los Frailes - Las Cuerlas - Bello - Torralba de los Sisones - Blancas - Pozuel del Ca"
+GR25-ES;Vuelta a la Llanada Alavesa de Pie de Monte;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Olárizu - Adana - San Román de San Millán (San Millán) - Zalduendo - Barria (San Millán) - Villarreal de Álava - Olano ("
+GR26-ES;Senda de Tierra de Campos;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Valladolid - Fuensaldaña - Mucientes - Villalba de los Alcores - Montealegre - Palacios de Campos - Medina de Rioseco - "
+GR27-ES;Senda del Valle del Esgueva;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Valladolid - Renedo de Esgueva - Castronuevo de Esgueva – Villarmentero de Esgueva - Olmos de Esgueva - Villanueva de lo"
+GR28-ES;Senda de Tierra de Pinares;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Valladolid - Laguna de Duero - Boecillo - Aldeamayor de San Martín - Portillo - Aldea de San Miguel - Mojados - Megeces "
+GR29-ES;Ruta del río Pisuerga;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR30-ES;Montes Torozos;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Valladolid - Zaratán - Ciguñuela - Villán de Tordesillas - Velilla - Matilla de los Caños - Tordesillas - Villavieja del"
+GR33-ES;Sendero de la Lluna Plena;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Castellón de la Plana - San Juan de Peñagolosa (Castellón)"
+GR34-ES;Caminos de Trashumancia en Guipúzcoa;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via San Sebastián - Usúrbil - Ormáiztegui - Ceráin - Aránzazu"
+GR35-ES;Camino de la Trashumancia: Aralar-Costa;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Puerto de Lizarrusti (Atáun) - Aizarna"
+GR36-ES;Trans-Espadán;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Villavieja - Eslida - Ahín - Veo (Alcudia de Veo) - Alcudia de Veo - Villamalur - Torralba del Pinar - Mas de Bagán (Mon"
+GR37-ES;Las Vías Pecuarias de la Serranía del Turia;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Aras de los Olmos - Titaguas - Alpuente - La Yesa - La Torre (Alpuente) - Aras de los Olmos"
+GR38-ES;Ruta del Vino y del Pescado;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Oyón - Laguardia - Albaina - Estibaliz - Ochandiano - Durango - Guernica - Bermeo"
+GR39-ES;Cañada de la Mesta;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Ermita de la Virgen de Veredas - Fuente Obejuna (Córdoba)"
+GR40-ES;Cañada Real Soriana;GR;ES;ES-CYL|ES-AND;P3;wikipedia-es:GR;" ; via Córdoba - Ermita de la Virgen de Veredas (Córdoba)"
+GR41-ES;Cordel de las Buervas;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Barrancos (Portugal) - Sevilla"
+GR42-ES;Cañada Real Leonesa Occidental;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Aroche - Ribera del Múrtigas (carretera local a Encinasola) - Cumbres de Enmedio - Segura de León"
+GR43-ES;Cordel de la Campiña;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Córdoba - Castro del Río - Albendín"
+GR44-ES;Sendero circular de la sierra de los Filabres;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR45-ES;Senderos del Somontano;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Bierge - Abiego - Lascellas (Lascellas-Ponzano) - Ponzano - Barbuñales - Laluenga - Laperdiguera - Berbegal - Ilche - Pe"
+GR47-ES;Camino de las Minas (Parque natural de Sierra de Aracena y Picos de Aroche);GR;ES;ES-CYL|ES-AND;P3;wikipedia-es:GR;" ; via Ermita de Santa Eulalia - Alájar - Fuenteheridos - Cortelazor - Hinojales - Cañaveral de León"
+GR48-ES;Sierra Morena;GR;ES;ES-CYL|ES-AND;P3;wikipedia-es:GR;" ; via Barrancos (Portugal) - Encinasola (Huelva) - Cumbres de San Bartolomé - Cumbres Mayores - Hinojales - Arroyomolinos de L"
+GR50-ES;Ruta del Medievo;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Betanzos - Pazo de Irijoa (Irijoa) - Monasterio de Monfero - Monasterio de Caaveiro - Narahío - Moeche - Punta Candieira"
+GR52-ES;Ruta de los Ríos;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Chelo (Betanzos) - Belén (Oza de los Ríos) - Monasterio de Sobrado de los Monjes - Ponte Boado (Frades) - San Miguel de "
+GR53-ES;Sendero Panorámico de Vigo;GR;ES;ES-GAL;P3;wikipedia-es:GR;" ; via Sayanes - Polígono Industrial A Pasaxe (Zamanes) - Puxeiros - A Madroa"
+GR55-ES;Camino de Santo André;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Betanzos - Monfero - As Neves - Iglesiafeita - Cerdido - San Andrés de Teixido"
+GR56-ES;Transorensano;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Embalse de San Pedro (Nogueira de Ramuín) - Monasterio de San Esteban - Sacardebois (Parada de Sil) - Montederramo - Cel"
+GR57-ES;Camino da Franqueira;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Redondela - Cepeda (Redondela) - As Cortellas (Puenteareas) - Toutón - Frades (Mondariz) - Mondariz - Meirol (Mondariz) "
+GR58-ES;Sendero As Greas;GR;ES;ES-GAL;P3;wikipedia-es:GR;" ; via Vigo - Redondela- Sotomayor - Fornelos de Montes- Pazos de Borbén - Mos - Puenteareas - Porriño - Salceda de Caselas - P"
+GR59-ES;Ruta Ecológica de Morrazo;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Lago Castiñeiras (Vilaboa) - Sobreira (Marín) - Fraga (Moaña) - Ermelo (Bueu) - Portela (Cangas de Morrazo) - Nerga (Hío"
+GR60-ES;Pueblos de la Arquitectura Negra de Guadalajara;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Majaelrayo - Valverde de los Arroyos - Almiruete - Tamajón - Campillo de Ranas - Majaelrayo"
+GR61-ES;Las Cañadas;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR62-ES;Sierra Morena;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR63-ES;Senda Viriato (Sierra de San Vicente);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Navamorcuende - Buenaventura - Sartajada - La Iglesuela - Almendral de la Cañada - El Real de San Vicente - Pelahustán -"
+GR64-ES;Vuelta a la Manchuela;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Mira - Enguídanos - Alarcón - El Picazo - Casasimarro - Casas de Benítez - Villalgordo del Júcar"
+GR65-ES;Camino de Santiago;GR;ES;ES-NAV-RIO-ARA|ES-GAL;P3;wikipedia-es:GR;" ; via Roncesvalles (Navarra) - Santiago de Compostela"
+GR66-ES;Sendero Castellano Manchego (Serranía de Cuenca);GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Puente de Martinete (Peralejos de las Truchas) - Santa María del Val - Tragacete - Las Majadas - Uña - Cuenca"
+GR67-ES;Sendero del Mundo;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Alcaraz - Paterna del Madera - Bogarra - Aýna - Liétor - El Talave - Hellín"
+GR68-ES;Circular de Sierra de Segura;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Elche de la Sierra - Rincón del Río - Férez - Letur - Vizcable - La Graya - Yeste - Quebradas - Molinicos - Peñarrubia -"
+GR69-ES;Circular de Huete (La Alcarria Conquense);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Huete - Caracenilla - Castillejo del Romeral - Cuevas de Velasco - La Ventosa (Villas de la Ventosa) - Villarejo del Esp"
+GR71-ES;Sendero de la Reserva de Saja;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Bárcena de Pie de Concha - Bárcena Mayor - Saja - Tudanca - Pejanda - Cahecho - Potes - Bejes - Sotres (Asturias)"
+GR72-ES;Ruta de los Campurrianos;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Santillana del Mar - Reinosa"
+GR73-ES;Calzada de los Blendios;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Herrera de Pisuerga - Santa María de Mave - Aguilar de Campoo - Reinosa - Bárcena de Pie de Concha - Los Corrales de Bue"
+GR74-ES;Corredor Oriental de Cantabria;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Ramales de la Victoria - La Gándara (Soba) - San Roque de Riomiera - Selaya - Vega de Pas - San Pedro del Romeral - San "
+GR75-ES;Senda de los Valles de Cantabria;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Castro Urdiales - Matienzo - La Piluca (Ruesga) - Arredondo - Bustablado (Arredondo) - Merilla - Selaya - Entrambasmesta"
+GR82-ES;Ruta de la Sierra de la Demanda (Burgos);GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Pineda de la Sierra - Alarcia - Pradoluengo - Villafranca Montes de Oca - Ibeas de Juarros - Palazuelos de la Sierra - C"
+GR83-ES;Camí del Nord;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Mataró - Collsacreu - Riells - Arbucias - Osor - Les Planes d'Hostoles - Olot - Beget - Prats de Molló - Refugio de Mari"
+GR84-ES;Montaña de Sanabria;GR;ES;ES-GAL|ES-CYL;P3;wikipedia-es:GR;" ; via Casa del Parque del Monte Gándara, 2.º Centro de interpretación del Parque natural del Lago de Sanabria y alrededores en"
+GR85-ES;Ruta de los Sentidos (Las Merindades);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Villasana de Mena - Castrobarto - Quincoces de Yuso - Quintanilla-Montecabezas - Frías - Trespaderne - Puente Arenas - T"
+GR86-ES;Sendero Ibérico Soriano;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Ágreda - Magaña - El Royo - San Leonardo de Yagüe - Brías - Caracena - Quintanas de Gormaz - Almazán"
+GR88-ES;Sendero Segoviano (Sierra de Guadarrama);GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Pontón de la Oliva - El Atazar - Puebla de la Sierra - El Cardoso de la Sierra - Cerezo de Abajo - Sepúlveda - Pedraza -"
+GR89-ES;Canal de Castilla;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Valladolid y Medina de Rioseco - Palencia - Alar del Rey"
+GR90-ES;Tierras del Moncayo y Sistema Ibérico Zaragozano;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Tarazona - Grisel - Lituénigo - Litago - Añon - Talamantes - Trasobares - Tierga - Mesones de Isuela - Nigüella - Arándi"
+GR92-ES;Sendero Mediterráneo;GR;ES;ES-CAT|ES-AND;P3;wikipedia-es:GR;" ; via Portbou - Tarifa"
+GR93-ES;Sierras Riojanas;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Santo Domingo de la Calzada - Ezcaray - San Millán de la Cogolla - Anguiano - Ortigosa de Cameros - Laguna de Cameros - "
+GR94-ES;Sendero Rural de Galicia;GR;ES;ES-GAL;P3;wikipedia-es:GR;" ; via A Madroa (Vigo) - Sotomayor - Campo Lameiro - Cequeril (Cuntis) - Luou (Teo) - Conjo (Santiago de Compostela)"
+GR95-ES;Senda Romana;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Ardisa - Sarsamarcuello - Santa María de la Peña - Ena - Botaya"
+GR96-ES;Camino de los Romeros de Montserrat;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Vallvidrera - Montserrat (Barcelona)"
+GR97-ES;Camí Romeu a Montserrat;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via San Celoni - La Beguda Alta (Cataluña)"
+GR98-ES;Vuelta a Urdaibai;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Guernica - Barrio Kanala (Gautéguiz de Arteaga) - Barrio Arboliz (Ibarranguelua) - Alto de Astorkigana (Arbácegui y Guer"
+GR99-ES;Sendero del Ebro;GR;ES;ES-CAT|ES-NAV-RIO-ARA|ES-NORTE;P3;wikipedia-es:GR;" ; via Fontibre - Reinosa - Miranda de Ebro - Haro - Logroño - Calahorra - Alfaro - Tudela - Gallur - Alagón - Zaragoza - Sásta"
+GR100-ES;Ruta de la Vía de la Plata;GR;ES;ES-NORTE|ES-AND;P3;wikipedia-es:GR;" ; via Gijón - Sevilla"
+GR101-ES;Camino Real del Puerto de la Mesa;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Torrestío (Santo Emiliano) - Puerto de San Lorenzo (Somiedo) - Dolia (Belmonte de Miranda) - Grado"
+GR102-ES;Camino Real del Sellón o Faceu;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Lozana (Piloña) - Sierra de Giblaniella - Sierra de Pandemules - Puerto de Tarna"
+GR103-ES;Senda Romana de Caoro;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR105-ES;Ruta de las Peregrinaciones;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Oviedo - Bendición - Alto del Espinadal (Nava) - Puente Miera (Piloña) - Espinaredo - La Vega (Piloña) (Alternativa: Vil"
+GR106-ES;Ruta de San Melchor;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Oviedo - Pedroveya - Salcedo - Cortes (Lindes)"
+GR107-ES;Camino de los Hombres Buenos;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Queralt (Barcelona) - Montsegur (Francia)"
+GR108-ES;Travesía Anderiega;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Gijón - Amandi - Miyares - Covadonga"
+GR109-ES;Asturias Interior;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Panes - Alles - Carreña - Benia de Onís (Onís) - Cangas de Onís - Villamayor (Piloña) - Espinaredo - Fresnedal (Piloña) "
+GR110-ES;Valle del Jerte;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Cabezuela del Valle - Navaconcejo - Carretera a El Torno - Plasencia"
+GR111-ES;Ruta de la Comarca de la Vera;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Madrigal de la Vera - Villanueva de la Vera - Valverde de la Vera - Losar de la Vera - Cuacos de Yuste - Jaraíz de la Ve"
+GR113-ES;Camino Natural del Tajo;GR;ES;ES-NAV-RIO-ARA|ES-GAL|ES-CENTRO;P3;wikipedia-es:GR;" ; via Albarracín - Villar del Cobo - Ermita de San Lorenzo (Checa)- Peralejos de las Truchas - Poveda de la Sierra - Zaorejas "
+GR114-ES;Camino Natural del Guadiana;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Laguna Blanca (Parque natural de las Lagunas de Ruidera) - Ruidera - Argamasilla de Alba - Alameda de Cervera - Villarta"
+GR115-ES;Transerena: Cordel de la Senda del Rey;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Capilla - Cabeza del Buey - Castuera - Campanario - La Haba"
+GR116-ES;Camino Natural de las Villuercas;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Logrosán - Cañamero - Guadalupe - Alía - Puerto de San Vicente - Estación de Santa Quiteria"
+GR117-ES;Travesía de Alfonso Onceno;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via La Avellaneda - Fresnedoso de Ibor - Robledollano - Roturas - Navezuelas - Guadalupe"
+GR118-ES;Camino de los Jerónimos;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Monasterio de Yuste - Cuacos de Yuste - Talayuela - Navalmoral de la Mata - Peraleda de la Mata - Bohonal de Ibor - Cast"
+GR119-ES;Camino Real de Guadalupe;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Puente del Arzobispo - Villar del Pedroso - Carrascalejo - Navatrasierra - Guadalupe"
+GR120-ES;Ruta de los Tres Templos;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Azpeitia - Santuario de Loyola - Ermita de La Antigua - Zumárraga - Aránzazu"
+GR121-ES;Vuelta a Guipúzcoa;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via San Sebastián - Motrico - Ermua - Túnel de San Adrián - Arano - Irún - San Sebastián"
+GR123-ES;Vuelta a Vizcaya;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via San Pelayo-Agüera - Valmaseda - Gordejuela - Areta - Orozco - Ubide - Urquiola - Campázar - Ermua - Urkarregi - Ondárroa"
+GR124-ES;Senda Real;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Madrid - Tres Cantos - Colmenar Viejo - Manzanares el Real"
+GR125-ES;El Camino Hernandiano / Senda del Poeta;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Orihuela - Redován - Callosa de Segura - Cox - Granja de Rocamora - Albatera - San Isidro - Crevillente - Elche - Reboll"
+GR127-ES;Río Segura;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Embalse de Cenajo - Calasparra - Cieza - Villanueva del Río Segura - Molina de Segura - Murcia - Orihuela"
+GR130-ES;Camino Real de la Costa;GR;ES;ES-BALEARES|ES-CANARIAS;P3;wikipedia-es:GR;" ; via Isla de La Palma (Canarias)"
+GR131-ES;El Bastón (Isla de La Palma);GR;ES;ES-BALEARES|ES-CANARIAS;P3;wikipedia-es:GR;" ; via Puerto de Tazacorte - Roque de los Muchachos - Punta de los Roques - Refugio de El Pilar - Fuencaliente - Punta de Fuenc"
+GR140-ES;De la Nieve a la Arena;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Puerto de La Ragua (Sierra Nevada) - Laujar de Andarax - Instinción - Gádor - Tabernas - Sierra Alhamilla - Níjar - Cabo"
+GR141-ES;Gran Senda de la Serranía de Ronda;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Ronda - Jimera de Líbar - El Colmenar (Cortes de la Frontera) - Benarrabá - Benalauría - Alpandeire - Ronda"
+GR142-ES;Sendero de la Alpujarra;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Lanjarón - Órgiva - Mecina Fondales - Ferreirola - Busquístar - Notáez - Cástaras - Nieles - Lobras - Cádiar - Jorairáta"
+GR143-ES;Entre Sierras;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Cañadas de Cañepla - María - Vélez-Blanco - Vélez-Rubio - Chirivel - Oria - Urrácal - Somontín - Lúcar - Serón - Bacares"
+GR144-ES;La Transhumancia en la Sierra de Segura;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Control de Ramblaseca (Campos de Hernán Pelea) - Santo Domingo - Pontones Altos - Hornos de Segura - Puente Mocho (Beas "
+GR146-ES;Montes y olivares en la Sierra de Segura;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Hornos - Cortijos Nuevos - La Puerta de Segura - Villarrodrigo"
+GR147-ES;La Sierra de Segura Profunda;GR;ES;ES-GAL;P3;wikipedia-es:GR;" ; via Santiago de la Espada - La Toba - Prado Maguillo - Río Madera - Segura de la Sierra - Siles"
+GR149-ES;Estepa Sierra Sur Sevillana;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Herrera - Estepa - Gilena - Martín de la Jara - Los Corrales - El Saucejo. Variante GR-149.1: Estepa - Lora de Estepa - "
+GR150-ES;Vuelta al Cadí-Moixeró;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Bagá - Gósol - Fórnols - Seo de Urgel - Ansobell - Estana - Bellver de Cerdaña - Alp - Coll de Pal - Bagá"
+GR151-ES;Caminos del Obispo y Abad Oliva. La ruta del románico catalán;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Monasterio de Montserrat - Manresa - Navarclés - Artés - Vich - Ripoll- Camprodón. Variante GR-151-1: Rupit - Vidrá - Va"
+GR160-ES;Camino del Cid;GR;ES;ES-NAV-RIO-ARA|ES-GAL|ES-CYL|ES-CENTRO|ES-LEVANTE;P3;wikipedia-es:GR;" ; via Vivar del Cid - Burgos - Modúbar de San Cibrián - Covarrubias - Santo Domingo de Silos - Huerta de Rey - Alcubilla de Av"
+GR164-ES;Cañada Conquense o De Los Serranos;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Ermita de San Isidro (Socuéllamos) - Casa del Aljibe (Socuéllamos) - Casa de Hervias (Socuéllamos) - Ruidera - Casa del "
+GR166-ES;Camino de Guadalupe;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Toledo - Albarreal de Tajo - Burujón - Escalonilla - La Mata - Erustes - Cebolla - Montearagón - Talavera de la Reina - "
+GR170-ES;GR-170 (España);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Estany - Vidrá (Cataluña)"
+GR171-ES;Trescant pel sud de Catalunya;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Pinós (Lérida) - Pauls, refugio de Caro<ref></ref> (Tarragona)"
+GR172-ES;GR-172 (España);GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Bellprat - La Musara (Tarragona)"
+GR173-ES;GR-173 (España);GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via San Lorenzo Savall (Barcelona)"
+GR174-ES;Sendero del Priorato;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Coll de la Teixeta - Albarca (Tarragona)"
+GR175-ES;Ruta del Císter;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Santes Creus - Pla de Santa María - Montblanch - Poblet - Espluga de Francolí - Montblanquet (Vallbona de las Monjas) - "
+GR176-ES;Ruta románica de Navás;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Navás"
+GR177-ES;Ruta del Moyanés;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Moyá"
+GR178-ES;Ruta de Serrallonga (Macizo de Las Guillerías);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Santa Coloma de Farnés - Anglés (derivación) - Osor - San Hilario Sacalm (derivación) - Embalse de Sau"
+GR179-ES;Sendero de los Maquis;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Berga - Graugés - Serrat dels Tres Hereus - Caserras - Coll de Ralic - Sant Joan de Montdarn - Serrateix - Castelladral "
+GR180-ES;Valle del Tiétar;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Madrigal de la Vera - Candeleda - Arenas de San Pedro - Mombeltrán - Santa Cruz del Valle - Pedro Bernardo - Mijares - P"
+GR181-ES;Ruta de los Caminos Históricos de Entresierras;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Los Santos - Casafranca- Frades de la Sierra - Endrinal - Monleón - El Tornadizo - San Miguel de Valero - El Tornadizo"
+GR183-ES;Cañada Real Soriana Occidental (Salamanca);GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Límite provincia con Ávila - Gallegos de Solmirón - Puente del Congosto - Guijo de Ávila - Monte Tonda (Fuenterroble de "
+GR184-ES;Ruta de Los Paisajes Serranos (Salamanca);GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via La Alberca – San Martín del Castañar – Sequeros – Villanueva del Conde – Garcibuey – Las Puentes del Alagón (Santibáñez "
+GR186-ES;Caminos de Medina;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Medina de Pomar - Bóveda - Perex - Angosto (Medina de Pomar) - Medina de Pomar"
+GR187-ES;Cañada de Extremadura (Salamanca);GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via Ciudad Rodrigo - Fuenteguinaldo - Peñaparda - Puerto de Perales"
+GR188-ES;Ruta de la Sierra de Gata;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Puente Nuevo (Serradilla del Llano) - Martiago - Villasrubias - Navasfrías"
+GR189-ES;Corredor Verde del Tormes;GR;ES;ES-CYL;P3;wikipedia-es:GR;" ; via La Magdalena (El Tejado) - Puente del Congosto - Salto de San Fernando - Guijo de Ávila - Aldeavieja de Tormes - Salvati"
+GR190-ES;Altos Valles Ibéricos;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Ezcaray - Monasterio de Valvanera - Viniegra de Abajo - Ortigosa de Cameros"
+GR192-ES;Camino del Viento;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Cambrils - Ermita de la Virgen de la Roca (Montroig) - Masboquera (Vandellós y Hospitalet del Infante) - El Jabalí Enamo"
+GR200-ES;Ruta de los Palacios;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Posada de Llanera - Ferroñes - Villayo (Llanera) - Posada de Llanera"
+GR201-ES;Senda del Arcediano;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Puerto del Pontón - Soto de Sajambre - Amieva - Puente Dobra"
+GR202-ES;Ruta de la Reconquista;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Covadonga - Vega de Comeya - Poncebos - Sotres - Cosgaya"
+GR203-ES;Por donde anda el Oso;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Corias - Defradas (Cangas del Narcea) - Monasterio del Coto (Cangas del Narcea) - Seroiro (Ibias) - San Antolín de Ibias"
+GR204-ES;Senda Costera E-9;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Ribadedeva - Vegadeo"
+GR205-ES;Ruta de la Escrita o de los Vaqueiros de alzada;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Puerto de Somiedo - La Riera - Belmonte - Cornellana - Pravia"
+GR206-ES;Gran Ruta de Riosa;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via La Vega (Riosa) - San Adriano (Riosa) - La Vega (Riosa)"
+GR207-ES;Camino Real del Puerto de Ventana o Ruta de las Reliquias;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Puerto de Ventana - Arroxo - Pedroveya"
+GR208-ES;Anillo ciclista de la Montaña Central;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Aller - Lena - Mieres - Morcín - Ribera de Arriba - Riosa"
+GR210-ES;Camino a la orilla del Ter;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via La Farga de Bebié - Castell de Montesquiu - San Quirico de Besora - Torelló - San Hipólito de Voltregá - Manlleu - Meand"
+GR211-ES;Valle de Arán;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Viella - La Bordeta (Vilamós) - Pontaut (Bausén) - Uña - Viella"
+GR212-ES;Camino de los Montes de Toledo;GR;ES;ES-CENTRO;P3;wikipedia-es:GR;" ; via Alía - Guadalupe (Cáceres)"
+GR220-ES;Vuelta a la Cuenca de Pamplona;GR;ES;ES-NAV-RIO-ARA|ES-CENTRO;P3;wikipedia-es:GR;" ; via Belascoáin - Eguillor - Oteiza de Berrioplano - Zabaldica"
+GR221-ES;Ruta de la Pedra en Sec;GR;ES;ES-BALEARES;P3;wikipedia-es:GR;" ; via Mallorca (Islas Baleares)"
+GR222-ES;Ruta de Artá a Lluch;GR;ES;ES-BALEARES;P3;wikipedia-es:GR;" ; via Mallorca (Islas Baleares)"
+GR223-ES;Camí de Cavalls;GR;ES;ES-BALEARES;P3;wikipedia-es:GR;" ; via Menorca (Islas Baleares)"
+GR225-ES;La gran evasión del fuerte de Ezkaba;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Fuerte Ezkaba - Olabe - Saigots - Albergue Sorogain - Urepel"
+GR228-ES;Anillo Verde de Bilbao;GR;ES;ES-NORTE;P3;wikipedia-es:GR;" ; via Archanda - Arraiz - Pagasarri - Arnótegui - Monte Avril - Archanda"
+GR229-ES;Sendero Mikeldi (Duranguesado);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Durango - Axpe Achondo - Berriz - Elorrio - Garay - Amorebieta - Durango"
+GR234-ES;Sendero Zaragoza-Huesca;GR;ES;ES-NAV-RIO-ARA;P3;wikipedia-es:GR;" ; via Zaragoza (Aljafería) - Villanueva de Gállego - Zuera - Almudévar - Huesca (ermita de San Jorge)"
+GR236-ES;Ruta de los Monasterios de Valencia;GR;ES;ES-LEVANTE|ES-BALEARES;P3;wikipedia-es:GR;" ; via Gandía - Almoines - Beniarjó - Beniflá - Palma de Gandía - Monasterio de San Jerónimo de Cotalba - Rótova - Alfauir - Al"
+GR237-ES;Macizo del Caroig;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Vallada - Montesa - Enguera - Anna - Estubeny - Sellent - Cárcer - Cotes (derivación) - Alcántara de Júcar - Benegida (d"
+GR238-ES;Tierra del Vino;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Villargordo del Cabriel - Fuenterrobles - Camporrobles - La Loberuela - La Torre (Utiel) - Sinarcas - El Remedio (Utiel)"
+GR239-ES;Camino de Santiago de Levante;GR;ES;ES-GAL|ES-CYL|ES-CENTRO|ES-LEVANTE;P3;wikipedia-es:GR;" ; via Valencia - Alcira - Játiva - Almansa - Chinchilla - Albacete - La Roda - Mota del Cuervo - Quintanar de la Orden - Mora "
+GR240-ES;Sendero Sulayr (Sierra Nevada);GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Centro de Visitantes ""Dornajo"" - Casa Forestal ""La Cortijuela"" - Rinconada de Nigüelas - Tello - Puente Palo - Capileira"
+GR241-ES;GR-241 (España);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Borredá"
+GR242-ES;Sierra de Tejeda-Almijara;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Periana - Canillas de Aceituno - Cómpeta - Frigiliana - Nerja"
+GR243-ES;Sierra de las Nieves;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Ronda - El Burgo - Yunquera - Tolox - Guaro - Monda - Istán"
+GR244-ES;Senderos de los Pueblos del Interior (Almería);GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Uleila del Campo – Santuario de Monteagud - Benizalón - Benitagla - Alcudia de Monteagud – Tahal – Senés – Velefique - C"
+GR247-ES;Bosques del Sur - Sendero de Cazorla, Segura y las Villas;GR;ES;ES-CYL|ES-AND;P3;wikipedia-es:GR;" ; via Área Recreativa Peña de Olivar (Siles) - Segura de la Sierra - Refugio Casa Forestal El Campillo - Hornos de Segura - Ár"
+GR248-ES;Gran Senda del Guadalhorce;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Estación de El Chorro - Álora - Pizarra - Estación de Cártama - Málaga"
+GR249-ES;Gran Senda de Málaga;GR;ES;ES-AND;P3;wikipedia-es:GR;" ; via Málaga - Rincón de la Victoria - Vélez-Málaga - Torrox - Nerja - Frigiliana - Cómpeta - Canillas de Aceituno - Periana -"
+GR250-ES;Camino del Apóstol;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Cartagena - Murcia - Caravaca de la Cruz"
+GR251-ES;Camino de la Cruz del Altiplano;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Yecla - Jumilla - Monasterio de Santa Ana - Venta del Olivo (Cieza) - Calasparra - Caravaca de la Cruz"
+GR252-ES;Camino de la Cruz del Bajo Guadalentín;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Mazarrón - El Saladillo (Mazarrón) - Totana - Sierra Espuña - Barrancos de Gebas - Casas Nuevas - Bullas - Caravaca de l"
+GR253-ES;Camino de la Cruz del Alto Guadalentín;GR;ES;ES-LEVANTE;P3;wikipedia-es:GR;" ; via Águilas - Pozo de la Higuera - Lorca - Zarcilla de Ramos - Doña Inés - La Encarnación (Caravaca de la Cruz) - Caravaca d"
+GR260-ES;Vuelta al Moncayo;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR270-ES;Camí del Llobregat;GR;ES;ES-CAT;P3;wikipedia-es:GR;" ; via Castellar de Nuch - Guardiola de Berguedà - Sant Jordi de Cercs - Gironella - Navás - Navarclés - Monistrol de Montserra"
+GR280-ES;Uribe Kosta;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Arrieta - Baquio - Arminza - Sopelana - Derio - Arrieta, Plencia - Munguía, circular de Larrabezúa"
+GR281-ES;Ilso;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Alonsotegui - Rigadas -"
+GR282-ES;Senda del Pastoreo;GR;ES;ES-GAL;P3;wikipedia-es:GR;" ; via Santuario de Aranzazu (Parque natural de Aizcorri-Araz) - Puerto de Arlabán - Urquiola (Parque natural de Urquiola) - Ar"
+GR283-ES;Ruta del queso Idiazábal;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Segura - Ferrería de Mirandaola (Legazpia) - Aránzazu - Etxegarate (Idiazábal) - Lizarrusti - Beasáin/Ordicia - Segura"
+GR284-ES;Camino Real de la Sopeña;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Orduña - Añes (Ayala) - Arceniega - Amurrio. Variante: Añes (Ayala) - Campas de Oleta (Menoio) - Txarlazo (Sierra Salvad"
+GR290-ES;Sendero Dos Aguas (Sierra de la Demanda);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Belorado - Neila"
+GR292-ES;Canales romanos de las Médulas (El Bierzo);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Área recreativa Campo de Braña (Las Médulas) - Pombriego - Santavilla (Benuza) - Llamas de Cabrera"
+GR300-ES;Círculo al Embalse de El Atazar;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via El Berrueco - Patones de Arriba - El Atazar - Robledillo de la Jara - Cervera de Buitrago (derivación) - El Hospitalillo"
+GR303-ES;Sierra del Rincón;GR;ES;;P3;wikipedia-es:GR;zones à préciser
+GR330-ES;Sendero Costa Blanca Interior;GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Parque natural del Macizo del Montgó - Parque natural del Carrascal de la Font Roja - Parque natural de la Sierra de Mar"
+GR1006-ES;Ruta de los Monteros del Rey (Las Merindades);GR;ES;;P3;wikipedia-es:GR;"zones à préciser ; via Espinosa de los Monteros - Medina de Pomar - Nofuentes - Frías - Oña"
+GR12-BE;Amsterdam - Bruxelles - Paris;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR121-BE;Wavre - Boulogne-sur-Mer;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR122-BE;Zeelande - Champagne-Ardenne;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR123-BE;Tour du Hainaut occidental;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR125-BE;Tour de l'Entre-Sambre-et-Meuse;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR126-BE;Bruxelles - Membre-sur-Semois;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR127-BE;Arras - Dennebreucq;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR128-BE;"Vlaanderenroute (""La route des Flandres"") : Kemmel - Aix-la-Chapelle";GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR129-BE;La Belgique en diagonale (Brugge - Dinant - Arlon);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR130-BE;GR de l'Yser (Buysscheure - Nieuport);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR131-BE;Brugse Ommeland - Ieperboog (Damme - Ypres);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR14-BE;Sentier de l'Ardenne;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR15-BE;Montjoie - Martelange - Arlon;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR16-BE;Sentier de la Semois;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR412-BE;Sentier des Terrils<ref>[http://www.openstreetmap.org/?zoom=10&relation=157373 Sentier des Terrils] sur OpenStreetMap.</;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR5-BE;Mer du Nord - Méditerranée;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR5A-BE;Tour pédestre des Flandres;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR512-BE;Brabant flamand (Hageland - Senne et Soignes - Pajottenland);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR56-BE;Tour des cantons de l'Est (ex-GRE);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR561-BE;Sentier Campine - Meuse;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR563-BE;Tour du Pays de Herve (ex-GRH) : [http://www.openstreetmap.org/?zoom=10&relation=1696127 Tour du Pays de Herve] sur Open;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR564-BE;"De Loonse Route (""La route de Looz"") (Lommel - Huy)";GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR565-BE;Rene Sniederspad (Campine, d'Antwerpen à Bladel);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR57-BE;Vallée de l'Ourthe et Sentier du Nord (L) (ex-GRO) : [http://www.openstreetmap.org/?zoom=10&relation=157527 OpenStreetMa;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR571-BE;Vallées de légendes : Amblève, Salm et Lienne (ex-GRA);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR572-BE;"Vallée de la Salm (ex-GRS), fusionné avec le GR 571<ref name=""SGR1983""/>";GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR573-BE;Vesdre - Hoëgne - Helle et Hautes-Fagnes (ex-GRV) : [http://www.openstreetmap.org/?zoom=10&relation=166219 OpenStreetMap;GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR574-BE;Sentier non référencé par SGR, Vallée de la Lembrée (ex-GRL);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR575-BE;Tour du Condroz namurois (ex-GRGV);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR576-BE;Tour du Condroz liégeois (ex-GRC);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR577-BE;Tour de la Famenne (ex-GRLL);GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR578-BE;"Vallée de la Lienne (ex-GRLI), fusionné avec le GR 571<ref name=""SGR1983""/>";GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+GR579-BE;Bruxelles-Liège : [http://www.openstreetmap.org/?zoom=10&relation=53358 OpenStreetMap];GR;BE;BENELUX;P3;wikipedia:GR-Belgique;
+VIA-ALPINA-CH;Via Alpina Suisse (Vaduz → Montreux);NATIONAL;CH;CH-EST|CH-VALAIS-VAUD;P1;curated;route nationale 1 SuisseMobile
+TOUR-COMBINS;Tour des Combins;TOUR;CH/IT;CH-VALAIS-VAUD|IT-NO;P2;curated;
+TOUR-CERVIN;Tour du Cervin / Matterhorn;TOUR;CH/IT;CH-VALAIS-VAUD|IT-NO;P2;curated;
+TOUR-MONTE-ROSA;Tour du Mont Rose;TOUR;CH/IT;CH-VALAIS-VAUD|IT-NO;P2;curated;
+VIA-FRANCIGENA-CH;Via Francigena — tronçon suisse (Ste-Croix → Gd-St-Bernard);CAMINO;CH;CH-VALAIS-VAUD;P2;curated;prolonge le GR145
+ALTA-VIA-1-VDA;Alta Via 1 de la Vallée d'Aoste (Giants' Trail);ALTA-VIA;IT;IT-NO;P1;curated;
+ALTA-VIA-2-VDA;Alta Via 2 de la Vallée d'Aoste;ALTA-VIA;IT;IT-NO;P2;curated;
+GTA-IT;Grande Traversata delle Alpi (Piémont);GR-INT;IT;IT-NO;P2;curated;
+AV-MONTI-LIGURI;Alta Via dei Monti Liguri;ALTA-VIA;IT;IT-NO;P2;curated;
+ALTA-VIA-1-DOLOMITI;Alta Via 1 des Dolomites (Braies → Belluno);ALTA-VIA;IT;IT-DOLOMITES;P1;curated;
+ALTA-VIA-2-DOLOMITI;Alta Via 2 des Dolomites (Bressanone → Feltre);ALTA-VIA;IT;IT-DOLOMITES;P2;curated;
+VIA-FRANCIGENA-IT;Via Francigena — tronçon italien (Gd-St-Bernard → Rome);CAMINO;IT;IT-NO|IT-CENTRE;P1;curated;
+SENTIERO-ITALIA;Sentiero Italia CAI;NATIONAL;IT;IT-NO|IT-DOLOMITES|IT-CENTRE;P3;curated;~7 000 km — zones pilote uniquement
+ALPE-ADRIA;Alpe-Adria-Trail (Grossglockner → Muggia);GR-INT;AT/SI/IT;AT|IT-DOLOMITES;P2;curated;tronçon slovène hors zones
+E5-ALPES;E5 alpin — Oberstdorf → Meran;E-PATH;DE/AT/IT;DE|AT|IT-DOLOMITES;P1;curated;tronçon le plus fréquenté de l'E5
+ADLERWEG;Adlerweg (Tyrol);NATIONAL;AT;AT;P2;curated;
+WESTWEG;Westweg (Forêt-Noire, Pforzheim → Bâle);NATIONAL;DE;DE;P2;curated;
+RHEINSTEIG;Rheinsteig (Wiesbaden → Bonn);NATIONAL;DE;DE;P3;curated;
+MOSELSTEIG;Moselsteig;NATIONAL;DE;DE;P3;curated;
+MALERWEG;Malerweg (Suisse saxonne);NATIONAL;DE;DE;P3;curated;
+RENNSTEIG;Rennsteig (forêt de Thuringe);NATIONAL;DE;DE;P3;curated;
+MULLERTHAL;Mullerthal Trail (Luxembourg);NATIONAL;LU;BENELUX;P2;curated;
+PIETERPAD;Pieterpad (Pieterburen → Maastricht);NATIONAL;NL;BENELUX;P3;curated;
+WHW;West Highland Way (Écosse);NATIONAL;UK;UK-IE;P1;curated;
+PENNINE-WAY;Pennine Way;NATIONAL;UK;UK-IE;P2;curated;
+C2C;Coast to Coast Walk (Wainwright);NATIONAL;UK;UK-IE;P2;curated;
+SWCP;South West Coast Path;NATIONAL;UK;UK-IE;P2;curated;
+HADRIANS-WALL;Hadrian's Wall Path;NATIONAL;UK;UK-IE;P3;curated;
+WICKLOW-WAY;Wicklow Way (Irlande);NATIONAL;IE;UK-IE;P2;curated;
+KERRY-WAY;Kerry Way (Irlande);NATIONAL;IE;UK-IE;P3;curated;
+KUNGSLEDEN;Kungsleden (Abisko → Hemavan, Laponie suédoise);NATIONAL;SE;SCAND;P1;curated;
+PADJELANTALEDEN;Padjelantaleden (Laponie);NATIONAL;SE;SCAND;P3;curated;
+JOTUNHEIMEN;Traversées du Jotunheimen (routes DNT, Besseggen);NATIONAL;NO;SCAND;P2;curated;
+LAUGAVEGUR;Laugavegur (Landmannalaugar → Þórsmörk);NATIONAL;IS;IS;P1;curated;
+FIMMVORDUHALS;Fimmvörðuháls (Þórsmörk → Skógar);NATIONAL;IS;IS;P2;curated;
+CAMINITO-DEL-REY;Caminito del Rey (El Chorro, Málaga);NATIONAL;ES;ES-AND;P3;curated;accès sur réservation
+ROTA-VICENTINA;Rota Vicentina — Fishermen's Trail + Historical Way;NATIONAL;PT;PT-CENTRO-SUL;P1;curated;
+CAMINO-FAROS;Camiño dos Faros (Costa da Morte);NATIONAL;ES;ES-GAL;P3;curated;
+E1;Sentier européen E1 (Suède – Danemark – Allemagne – Suisse – Italie);E-PATH;SE/DK/DE/CH/IT;EU-MULTI;P3;wikipedia:E-paths;"4960 km ; suit des tronçons nationaux (GR/national trails)"
+E2;Sentier européen E2 (Angleterre – Pays-Bas – Belgique – France – Suisse);E-PATH;UK/NL/BE/FR/CH;EU-MULTI;P3;wikipedia:E-paths;"4850 km ; suit des tronçons nationaux (GR/national trails)"
+E3;Sentier européen E3 (Bulgarie – Roumanie – Hongrie – Slovaquie – Pologne – République tchèque…);E-PATH;BG/RO/HU/SK/PL/CZ/DE/LU/BE/FR;EU-MULTI;P3;wikipedia:E-paths;"6950 km ; suit des tronçons nationaux (GR/national trails)"
+E4;Sentier européen E4 (Espagne – France – Suisse – Allemagne – Autriche – Hongrie…);E-PATH;ES/FR/CH/DE/AT/HU/RO/BG/GR/CY;EU-MULTI;P3;wikipedia:E-paths;"10450 km ; suit des tronçons nationaux (GR/national trails)"
+E5;Sentier européen E5 (France – Suisse – Autriche – Italie);E-PATH;FR/CH/AT/IT;EU-MULTI;P3;wikipedia:E-paths;"3050 km ; suit des tronçons nationaux (GR/national trails)"
+E6;Sentier européen E6 (Finlande – Suède – Danemark – Allemagne – Autriche – Slovénie…);E-PATH;FI/SE/DK/DE/AT/SI/GR;EU-MULTI;P3;wikipedia:E-paths;"5200 km ; suit des tronçons nationaux (GR/national trails)"
+E7;Sentier européen E7 (Portugal – Espagne – Andorre – France – Italie – Slovénie…);E-PATH;PT/ES/AN/FR/IT/SI/HU/RO;EU-MULTI;P3;wikipedia:E-paths;"4330 km ; suit des tronçons nationaux (GR/national trails)"
+E8;Sentier européen E8 (Irlande – Angleterre – Pays-Bas – Allemagne – Autriche – Slovaquie…);E-PATH;IE/UK/NL/DE/AT/SK/PL/RO/BG;EU-MULTI;P3;wikipedia:E-paths;"4390 km ; suit des tronçons nationaux (GR/national trails)"
+E9;Sentier européen E9 (Portugal – Espagne – France – Angleterre – Belgique – Pays-Bas…);E-PATH;PT/ES/FR/UK/BE/NL/DE/PL/ES;EU-MULTI;P3;wikipedia:E-paths;"5000 km ; suit des tronçons nationaux (GR/national trails)"
+E10;Sentier européen E10 (Finlande – Allemagne – République tchèque – Autriche – Italie – France…);E-PATH;FI/DE/CZ/AT/IT/FR/ES;EU-MULTI;P3;wikipedia:E-paths;"2880 km ; suit des tronçons nationaux (GR/national trails)"
+E11;Sentier européen E11 (Pays-Bas – Allemagne – Pologne);E-PATH;NL/DE/PL;EU-MULTI;P3;wikipedia:E-paths;"2070 km ; suit des tronçons nationaux (GR/national trails)"
+E12;Sentier européen E12 (Espagne – France – Italie);E-PATH;ES/FR/IT;EU-MULTI;P3;wikipedia:E-paths;"1600 km ; suit des tronçons nationaux (GR/national trails)"

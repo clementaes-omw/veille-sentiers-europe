@@ -1,0 +1,25 @@
+{
+  "_doc": "Taxonomie des catégories d'alertes. L'ordre = priorité de rattachement (1er match sur les mots-clés du champ Type, comparés sans accents/minuscules). Nouvelle catégorie ou mot-clé : ajouter ici — la QA du build échoue sur tout type non reconnu (création contrôlée à la volée).",
+  "categories": [
+    { "slug": "incendie", "label": "Incendie", "emoji": "🔥",
+      "keywords": ["incendie", "feu actif", "zone brulee", "post-incendie"] },
+    { "slug": "refuge", "label": "Refuge & hébergement", "emoji": "🛖",
+      "keywords": ["refuge", "hebergement", "gite"] },
+    { "slug": "reroutage", "label": "Reroutage", "emoji": "↔️",
+      "keywords": ["reroutage", "deviation", "trace modifie"] },
+    { "slug": "risque-feu", "label": "Risque incendie", "emoji": "⚠️",
+      "keywords": ["risque feu", "risque-feu", "fermeture massif", "massifs"] },
+    { "slug": "reglementation", "label": "Réglementation", "emoji": "📜",
+      "keywords": ["reglementation", "bivouac", "quota", "baignade"] },
+    { "slug": "infrastructure", "label": "Infrastructure", "emoji": "🚌",
+      "keywords": ["infrastructure", "pont", "traversee", "passerelle", "transport"] },
+    { "slug": "terrain", "label": "Terrain & conditions", "emoji": "🏔️",
+      "keywords": ["eboulement", "glissement", "erosion", "enneigement", "conditions", "info sentier", "gue", "avalanche", "crue"] },
+    { "slug": "meteo-nature", "label": "Météo & nature", "emoji": "🌋",
+      "keywords": ["meteo", "cyclone", "eruption", "volcan", "vigilance", "tempete"] },
+    { "slug": "reouverture", "label": "Réouverture", "emoji": "✅",
+      "keywords": ["reouverture", "levee"] },
+    { "slug": "fermeture", "label": "Fermeture", "emoji": "🚫",
+      "keywords": ["fermeture", "fermetures sentiers", "interdiction", "acces"] }
+  ]
+}

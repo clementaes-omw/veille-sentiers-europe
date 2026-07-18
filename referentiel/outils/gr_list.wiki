@@ -1,0 +1,738 @@
+{{Ébauche|liste|France|randonnée}}
+{{Confusion|Liste des sentiers de grande randonnée de pays}}
+
+Voici une '''liste des sentiers de grande randonnée de France''' :
+
+== Sentiers de grande randonnée ==
+=== GR numérotés de 1 à 25 ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) numérotés de 1 à 25'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+{{SGR| 1| '''Tour de [[Paris]]'''<br />
+: [[Auvers-sur-Oise]] • [[Meaux]] • [[Crécy-la-Chapelle]] • [[Melun]] • [[Dourdan]] • [[Rambouillet]]}}
+
+{{SGR| 2| '''De [[Dijon]] au [[Le Havre|Havre]] - La vallée de la [[Seine]]'''<br>
+: Dijon ([[Côte-d'Or]]) •[[ Paris]] • Le Havre ([[Seine-Maritime]])}}
+
+{{SGR| 3| '''De [[La Baule-Escoublac|La Baule]] au [[mont Mézenc]] - La vallée de la [[Loire (fleuve)|Loire]]'''<br>
+: La Baule ([[Loire-Atlantique]])  • [[Guérande]] ([[Loire-Atlantique]]) • le tour de la [[Brière]] • [[Nantes]] ([[Loire-Atlantique]]) • [[Saumur]] ([[Maine-et-Loire]]) • [[Orléans]] ([[Loiret (département)|Loiret]]) • [[Nevers]] ([[Nièvre (département)|Nièvre]]) • [[Hautes Chaumes du Forez]] • le mont Mézenc ([[Haute-Loire]])}}
+ 
+{{SGR| 4| '''De [[Royan]] à [[Grasse]]'''<br />
+: Royan ([[Charente-Maritime]]) • [[Limoges]] ([[Haute-Vienne]]) • le [[Puy-de-Dôme]] ([[Puy-de-Dôme]]) • [[Saint-Flour (Cantal)|Saint-Flour]] ([[Cantal (département)|Cantal]]) • [[Pont-Saint-Esprit]] ([[Gard]]) • Grasse ([[Alpes-Maritimes]])}}
+
+{{SGR| 5| '''De [[Berg-op-Zoom]] ([[Pays-Bas]]) à [[Nice]]'''<br />
+: Berg-op-Zoom • [[Hasselt (Belgique)|Hasselt]] ([[Limbourg (ville)|Limbourg]]-[[Belgique]])  • [[Liège]] •  [[Stavelot]]   • [[Grand-Duché de Luxembourg]] • [[Metz]] ([[Moselle (département)|Moselle]]) • [[Belfort]] ([[Territoire de Belfort]]) • [[Chamonix-Mont-Blanc|Chamonix]] ([[Haute-Savoie]]) • Nice ([[Alpes-Maritimes]])}}
+
+{{SGR| 6| '''De [[Langon (Gironde)|Langon]] à [[Saint-Paul-sur-Ubaye]]'''<br />
+: Langon ([[Gironde (département)|Gironde]]) • [[Sainte-Foy-la-Grande]] ([[Gironde (département)|Gironde]]) • [[Conques]] ([[Aveyron (département)|Aveyron]]) • [[Tarascon (Bouches-du-Rhône)|Tarascon]] ([[Bouches-du-Rhône]]) • [[Forcalquier]] ([[Alpes-de-Haute-Provence]]) • au pied du point culminant du département des ([[Alpes-de-Haute-Provence]]) au [[Fouillouse (hameau)|hameau de Fouillouse]] de Saint-Paul-sur-Ubaye
+* [[Sentier de grande randonnée 6#GR 6A|6A]]
+* [[Sentier de grande randonnée 6#GR 6B|6B]]
+* [[Sentier de grande randonnée 6#GR 6D|6D]]
+* [[Sentier de grande randonnée 6#GR 6E|6E]]}}
+
+{{SGR| 7| '''Du [[Ballon d'Alsace]] à [[Andorre-la-Vieille]]'''<br />
+: le Ballon d'Alsace ([[Massif des Vosges|Vosges]]) • [[Dijon]] ([[Côte-d'Or]]) • [[Saint-Étienne]] ([[Loire (département)|Loire]]) • [[Lodève]] ([[Hérault (département)|Hérault]]) • Andorre-la-Vieille ([[Andorre]])}}
+
+{{SGR| 8| GR_lien=Sentier de grande randonnée 8| '''De [[Saint-Brevin-les-Pins]] à [[Sare]]'''<br />
+: Saint-Brevin-les-Pins ([[Loire-Atlantique]]) •[[Saint-Jean-de-Monts]] ([[Vendée (département)|Vendée]]) • non réalisé en [[Charente-Maritime]] • en cours d'homologation en [[Gironde (département)|Gironde]] • non homologué dans les [[Landes (département)|Landes]] • [[Urt]] ([[Pyrénées-Atlantiques]]) • Sare ([[Pyrénées-Atlantiques]])}}
+
+{{SGR| 9| '''De [[Saint-Amour (Jura)|Saint-Amour]] à [[Port Grimaud]]'''<br />
+: Saint-Amour ([[Jura (département)|Jura]]) • [[Grenoble]] ([[Isère (département)|Isère]]) • [[Léoncel]] ([[Drôme (département)|Drôme]]) • Port Grimaud ([[Var (département)|Var]])}}
+
+{{SGR| 10| '''De [[Hendaye]] à [[Banyuls-sur-Mer]] - La traversée des [[Pyrénées]]'''<br />
+: Hendaye ([[Pyrénées-Atlantiques]]) • [[Cauterets]] ([[Hautes-Pyrénées]]) • [[Bagnères-de-Luchon]] ([[Haute-Garonne]]) • [[Mérens-les-Vals]] ([[Ariège (département)|Ariège]]) • [[Banyuls-sur-Mer]] ([[Pyrénées-Orientales]])}}
+
+{{SGR| 11| GR_lien=Sentier de grande randonnée 11 (France)| '''Grand Tour de [[Paris]]'''<br />
+: [[Chantilly]] • [[Coulommiers (Seine-et-Marne)|Coulommiers]] • [[Provins]] • [[Fontainebleau]] • [[Chevreuse]] • [[Mantes-la-Jolie]]}}
+
+{{SGR| 12| '''D’[[Amsterdam]] à [[Paris]]'''<br />
+: [[Berg-op-Zoom]] ([[Pays-Bas]]) • [[Bruxelles]] ([[Belgique]]) • [[Pierrefonds (Oise)|Pierrefonds]] ([[Oise (département)|Oise]]) • Paris (France)}}
+
+{{SGR| 13| '''De [[Fontainebleau]] à [[Bourbon-Lancy]]'''<br />
+: Fontainebleau ([[Seine-et-Marne]]) à Bourbon-Lancy ([[Saône-et-Loire]])}}
+
+{{SGR| 14| '''De [[Paris]] à [[Malmedy]] – « Sentier de l'[[Ardenne]] »'''<br />
+: Paris ([[Île-de-France]]) • [[Boissy-Saint-Léger]] ([[Val-de-Marne]]) • [[Gretz-Armainvilliers]] ([[Seine-et-Marne]]) • [[Mortcerf]] ([[Seine-et-Marne]]) • [[Saint-Augustin (Seine-et-Marne)]] ([[Seine-et-Marne]]) • [[Saint-Rémy-la-Vanne]] ([[Seine-et-Marne]]) • [[Verdelot]] ([[Seine-et-Marne]]) • [[Nogent-l'Artaud]] ([[Aisne (département)|Aisne]]) • [[Châlons-en-Champagne]] ([[Marne (département)|Marne]]) • [[Sedan]] ([[Ardennes (département)|Ardennes]]) • Malmedy ([[Belgique]])}}
+
+{{SGR| 15| GR_lien=Sentier de grande randonnée 15 (France)| '''D'[[Alfortville]] au [[lac du Der-Chantecoq]] – « La vallée de la [[Marne (rivière)|Marne]] »'''<br />}}
+
+{{SGR| 16| '''D'[[Arlon]] à [[Monthermé]] – « Sentier de la [[Semois (rivière)|Semois]] »'''}}
+
+{{SGR| 20| '''De [[Calenzana]] à [[Conca]]'''<br />
+: Calenzana ([[Haute-Corse]]) • [[Vizzavona]] • Conca ([[Corse-du-Sud]])}}
+
+{{SGR| 21| '''Du [[Le Havre|Havre]] au [[Le Tréport|Tréport]]''' – ''le long des côtes normandes''<br />
+: [[Dieppe (Seine-Maritime)|Dieppe]] • [[Le Havre]] • [[Étretat]] • [[Fécamp]] • [[Saint-Valery-en-Caux]] • [[Veules-les-Roses]] ([[Seine-Maritime]])}}
+
+{{SGR| 22| '''De [[Paris]] au [[Le Mont-Saint-Michel|Mont-Saint-Michel]]''' – ''à partir de la banlieue parisienne''<br />
+: Paris • [[Forêt de Rambouillet]] ([[Yvelines]]) • [[La Perrière (Orne)|La Perrière]] ([[Orne (département)|Orne]]) • [[Carrouges]] ([[Orne (département)|Orne]])   • [[Bagnoles-de-l'Orne]] ([[Orne (département)|Orne]]) • [[Mortain]] ([[Manche (département)|Manche]]) • [[Avranches]] ([[Manche (département)|Manche]]) • Le Mont-Saint-Michel ([[Manche (département)|Manche]]) }}
+
+{{SGR| 23| '''De [[La Bouille]] à [[Tancarville]]'''<br />
+: [[Forêt de Brotonne]] • Vallée de la [[Seine]]}}
+
+{{SGR|25| '''De [[Sotteville-lès-Rouen]] à [[Saint-Pierre-de-Varengeville]]'''<br />
+: Vallée de la [[Seine]]}}
+|}
+
+=== GR numérotés de 26 à 50 ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) numérotés de 26 à 50'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+{{SGR| 26| '''De [[Villennes-sur-Seine]] à [[Villers-sur-Mer]]'''<br />
+: [[Villennes-sur-Seine]] ([[Yvelines]]) • [[Villers-sur-Mer]] ([[Calvados (département)|Calvados]])}}
+
+{{SGR| 30| '''De la [[Chaîne des Puys]] au [[Plomb du Cantal]]'''<br />
+: la [[chaîne des Puys]] ([[Puy-de-Dôme]]) • le [[Plomb du Cantal]] ([[Cantal (département)|Cantal]])}}
+
+{{SGR| 31| '''De [[Sologne]]'''<br />
+: [[Mont-près-Chambord]] ([[Loir-et-Cher]]) • [[Cosne-Cours-sur-Loire]] ([[Nièvre (département)|Nièvre]])}}
+
+{{SGR| 32| '''De la vallée de la Seine à la vallée de la Loire'''<br />
+: [[Gare de Ponthierry - Pringy]] ([[Seine-et-Marne]]) • [[Milly-la-Forêt]] ([[Essonne (département)| Essonne]]) • [[Malesherbes]] • [[Pithiviers]] ([[Loiret (département)|Loiret]]) • [[Orléans]]}}
+
+{{SGR| 34| '''De [[Vitré (Ille-et-Vilaine)|Vitré]] à [[Le Tour-du-Parc]]'''<br />
+: Vitré (Ille-et-Vilaine) • [[Saint-Brieuc]] ([[Côtes-d'Armor]]) • [[Morlaix]] ([[Finistère]]) • [[Brest]] ([[Finistère]]) • la presqu'île de [[Crozon]] • [[Douarnenez]] ([[Finistère]]) • la [[pointe du Raz]] ([[Finistère]]) • [[Lorient]] ([[Morbihan]])}}
+
+{{SGR| 34A| '''De [[Louannec]] à [[Gurunhuel]]'''<br />
+: Louannec • Gurunhuel ([[Côtes-d'Armor]])}}
+
+{{SGR| 34F| '''De Sainte-Anne-du-Portzic à Pont-Reun'''<br />
+: [[Plouzané]] ([[Finistère]]) • [[Lanildut]] ([[Finistère]])}}
+
+{{SGR| 35| '''De [[Verneuil-sur-Avre]] à [[Seiches-sur-le-Loir]]'''<br />
+: Verneuil-sur-Avre ([[Eure (département)|Eure]]) • Seiches-sur-le-Loir ([[Maine-et-Loire]])}}
+
+{{SGR| 36| '''De [[Ouistreham]] à [[Bourg-Madame]]'''<br />
+: Ouistreham ([[Calvados (département)|Calvados]]) • [[Angoulême]] ([[Charente (département)|Charente]]) • [[Cahors]] ([[Lot (département)|Lot]]) • [[Albi]] ([[Tarn (département)|Tarn]]) • [[Carcassonne]] ([[Aude (département)|Aude]]) • [[Bourg-Madame]] ([[Pyrénées-Orientales]])}}
+
+{{SGR| 37| '''De [[Vitré (Ille-et-Vilaine)|Vitré]] à [[Douarnenez]]'''<br />
+: Vitré ([[Ille-et-Vilaine]]) • Douarnenez ([[Finistère]])}}
+
+{{SGR| 38| '''De [[Redon]] à [[Douarnenez]]'''<br />
+: Redon ([[Ille-et-Vilaine]]) • Douarnenez ([[Finistère]])}}
+
+{{SGR| 39| '''Du [[Le Mont-Saint-Michel|Mont-Saint-Michel]] à [[Guérande]]'''<br />
+: Le Mont-Saint-Michel ([[Manche (département)|Manche]]) • [[Rennes]] ([[Ille-et-Vilaine]]) • Guérande ([[Loire-Atlantique]])}}
+
+{{SGR| 40| '''Tour des Volcans du [[Velay]]'''<br />
+: [[Vorey]] • [[Allègre]] • [[Siaugues-Sainte-Marie]] • [[Goudet]] • [[Les Estables]] • [[Le Pertuis]] ([[Haute-Loire]])}}
+
+{{SGR| 41| '''De [[Tours]] à [[Mont-Dore (Puy-de-Dôme)|Mont-Dore]]'''<br />
+: Tours ([[Indre-et-Loire]]) • [[Farges-Allichamps]] • Mont-Dore ([[Puy-de-Dôme]])}}
+
+{{SGR| 42| '''De [[Saint-Étienne]] au [[Le Grau-du-Roi|Grau-du-Roi]]'''<br />
+: Saint-Étienne ([[Loire (département)|Loire]]) • Le Grau-du-Roi ([[Gard]])}}
+
+{{SGR| 43| '''Du Col des Faïsses à [[Sainte-Eulalie (Lozère)|Sainte-Eulalie]]'''<br />
+: [[Sainte-Eulalie (Lozère)|Sainte-Eulalie]] ([[Lozère (département)|Lozère]])}}
+
+{{SGR| 44| '''Des [[Les Vans|Vans]] à [[Champerboux]]'''<br />
+: Les Vans ([[Ardèche (département)|Ardèche]]) • Champerboux ([[Lozère (département)|Lozère]])}}
+
+{{SGR| 46| '''De [[Tours]] à [[Toulouse]]'''<br />
+: Tours ([[Indre-et-Loire]]) • Toulouse ([[Haute-Garonne]])}}
+
+{{SGR| 48| '''D’[[Aixe-sur-Vienne]] à [[Chinon]]'''<br />
+: Aixe-sur-Vienne ([[Haute-Vienne]]) • [[Confolens]] ([[Charente (département)|Charente]]) • [[Saint-Savin (Vienne)|Saint-Savin]] ([[Vienne (département)|Vienne]]) • [[Chinon]] ([[Indre-et-Loire]])}}
+
+{{SGR| 49| '''De [[Saint-Raphaël (Var)|Saint-Raphaël]] à [[Rougon]]'''<br />
+: Saint-Raphaël ([[Var (département)|Var]]) • [[Fréjus]] ([[Var (département)|Var]]) • [[Draguignan]] ([[Var (département)|Var]])}}
+
+{{SGR| 50| '''De [[Saint-Michel-de-Chaillol]] ([[Hautes-Alpes]]) à [[Huez]] ([[Isère (département)|Isère]])'''}}
+|}
+
+=== GR numérotés de 51 à 75 ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) numérotés de 51 à 75'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+{{SGR| 51| '''Balcons de la [[Mer Méditerranée|Méditerranée]]'''<br />
+de [[Menton (Alpes-Maritimes)|Menton]] à [[Marseille]] par 
+: St Jeannet • Gourdon • Grasse • Tanneron • Mandelieu • Théoule-sur-Mer • Saint-Raphaël • Col du Testanier • Le Muy • [[Grimaud (Var)|Grimaud]] • [[Cogolin]] • [[Gassin]] • [[La Croix-Valmer]] • [[Cavalaire-sur-Mer]] • Bormes-les-Mimosas • Collobrières • Puget-Ville • Belgentier • Le Revest-les-eaux • Ollioules • Evenos • La Cadière-d'-Azur • Ceireste • Cassis • Parc National des Calanques - Marseille •}}
+
+{{SGR| 52| <br>
+: [[Menton (Alpes-Maritimes)|Menton]] ([[Alpes-Maritimes]])  • le [[col de montagne|col]] du Berceau • le col du Razet • [[Sospel]] • [[Baisse]] de Linière • Pointe des Trois Communes • Baisse Cavaline • le [[Refuge de montagne|refuge]] des [[Vallée des Merveilles|Merveilles]] • Baisse du Basto • Madone de Fenestre • le torrent du [[Boréon]] • le col de Salèse • le col du Bam • [[Valdeblore|Saint-Dalmas-Valdeblore]] ([[Alpes-Maritimes]]) }}
+
+{{SGR| 52A| '''Panoramique du [[Massif du Mercantour-Argentera|Mercantour]]'''<br />
+:}}
+
+{{SGR| 53| '''Crête des [[Massif des Vosges|Vosges]]'''<br />
+: [[Wissembourg]] • [[Niederbronn-les-Bains]] • [[La Petite-Pierre]] • [[Saverne]] • [[Schirmeck]] ([[Bas-Rhin]])}}
+
+{{SGR| 54| '''Tour de l'[[Oisans]] et des [[massif des Écrins|Écrins]]'''<br />
+: [[Le Bourg-d'Oisans]] ([[Isère (département)|Isère]])}}
+
+{{SGR| 55| '''La [[Massif de la Vanoise|Vanoise]]'''<br />
+: [[Tignes]] ([[Savoie]]) • [[Modane]] ([[Savoie]])}}
+
+{{SGR| 56| '''Tour de l’[[Vallée de l'Ubaye|Ubaye]]'''<br />
+:}}
+
+{{SGR| 57| GR_lien=Sentier de grande randonnée 57 (France)| '''Tour du [[Mont Thabor (France)|Mont Thabor]]'''<br />
+: [[Névache]] ([[Hautes-Alpes]])}}
+
+{{SGR| 58| '''Tour du [[Queyras]]'''<br />
+:}}
+
+{{SGR| 59| '''Des [[Massif des Vosges|Vosges]] au [[Massif du Jura|Jura]]'''<br />
+: [[Bugey]] • [[Revermont]] • [[Ballon de Servance]]}}
+
+{{SGR| 60| '''De [[Montpellier]] à [[Saint-Chély-d'Aubrac]]'''<br />
+: Montpellier ([[Hérault (département)|Hérault]]) • Saint-Chély-d'Aubrac ([[Lozère (département)|Lozère]])}}
+
+{{SGR| 61| '''D'[[Anduze]] au [[Col de l'Asclier]]'''<br />
+: [[Anduze]] • [[Saint-Julien-du-Gard]] • [[Col de l'Asclier]]}}
+
+{{SGR| 62| ''' De [[Meyrueis]] (massif de l'[[Mont Aigoual|Aigoual]]) à [[Conques]] - 182,5 km '''<br />
+: [[Millau]]  • [[Saint-Beauzély]] • [[Bouloc-en-Quercy|Bouloc]] ([[Lévézou]]) • [[Pont-de-Salars]] • [[Rodez]] • [[Saint-Cyprien-sur-Dourdou]]}}
+
+{{SGR| 62A| ''' De [[Meyrueis]] (massif de l'[[Mont Aigoual|Aigoual]]) au [[Causse Noir]] - 29 km '''<br />
+:}}
+
+{{SGR| 62B| ''' De [[Rodez]] à [[Villefranche-de-Rouergue]] - 76 km '''<br />
+: par la vallée de l'Aveyron }}
+
+{{SGR| 63| '''D'[[Avignon]] au Col de Cabane Vieille'''<br />
+: [[Avignon]] • [[Uzès]] • [[Quissac (Gard)|Quissac]] • Col de Cabane Vieille}}
+
+{{SGR| 64| '''De Rocamadour aux [[Les Eyzies-de-Tayac-Sireuil|Eyzies-de-Tayac-Sireuil]]'''<br />
+: [[Rocamadour]] ([[Lot (département)|Lot]]) • [[Gourdon (Lot)|Gourdon]] ([[Lot (département)|Lot]]) • [[Domme]] ([[Dordogne (département)|Dordogne]]) • Les Eyzies-de-Tayac-Sireuil ([[Dordogne (département)|Dordogne]])}}
+
+{{SGR| 65| '''Chemin de Saint-Jacques-de-Compostelle [[via Gebennensis]] + [[via Podiensis]]'''<br />
+: [[Genève]] ([[Suisse]]) • [[Le Puy-en-Velay]] ([[Haute-Loire]]) • [[Nasbinals]] ([[Lozère (département)|Lozère]]) • [[Conques]] ([[Aveyron (département)|Aveyron]]) • [[Figeac]] ([[Lot (département)|Lot]]) • [[Moissac]] ([[Tarn-et-Garonne]]) • [[Aire-sur-l'Adour]] ([[Landes (département)|Landes]]) • [[Roncevaux]] ([[Espagne]])}}
+
+{{SGR| 66| '''Tour du [[Mont Aigoual]]'''<br />
+:}}
+
+{{SGR| 67| '''Tour du pays cévenol'''<br />}}
+
+{{SGR| 68| '''Tour du [[Mont Lozère]]'''<br />
+: le mont Lozère ([[Languedoc-Roussillon]])}}
+
+{{SGR| 69| '''[[Sentier de grande randonnée 69|La Routo]] '''<br />
+: d'[[Arles]] à [[Borgo San Dalmazzo]]}}
+
+{{SGR| 70| '''[[Chemin de Stevenson]]'''<br />
+du [[Le Puy-en-Velay|Puy-en-Velay]] ([[Haute-Loire]]) à [[Alès]] ([[Gard]]) par : [[Le Monastier-sur-Gazeille]]<ref>Point de départ réel de la traversée par [[Robert Louis Stevenson]].</ref> • [[Langogne]] ([[Lozère (département)|Lozère]])}} • [[Florac]] • [[Saint-Jean-du-Gard]] (Gard)<ref>Fin de l'itinéraire effectué par Stevenson.</ref>
+
+{{SGR| 71| '''De [[L'Espérou]] à [[Mazamet]]'''<br />
+: L'Espérou ([[Gard]]) • Mazamet ([[Tarn (département)|Tarn]])}}
+
+{{SGR| 71C/D| '''Tour du [[Causse du Larzac|Larzac]] [[Ordre du Temple#Commanderies|templier]] et hospitalier'''<br />
+:}}
+
+{{SGR| 72| '''Du [[Col du Bez]] à [[Barre-des-Cévennes]]'''<br />
+: le col du Bez ([[Ardèche (département)|Ardèche]]) • Barre-des-Cévennes ([[Lozère (département)|Lozère]])}}
+
+{{SGR| 75| }}
+|}
+
+=== GR numérotés de 76 à 100 ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) numérotés de 76 à 100'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+{{SGR| 76| '''D’[[Arcenant]] à [[Affoux]]'''<br />
+: 76A : [[Arcenant]] ([[Côte-d'Or]]) à [[Cluny (Saône-et-Loire)|Cluny]] ([[Saône-et-Loire]])<br />
+: 76B : [[Cluny (Saône-et-Loire)|Cluny]] à [[Affoux]] ([[Rhône (département)|Rhône]])
+}}
+{{SGR| 77| '''Du Saut de Vézoles au [[Montagne d'Alaric|Signal de l'Alaric]]'''<ref>[http://www.gr-infos.com/gr77.htm le GR 77] sur le site gr-infos.</ref><br />
+: Saut de Vézoles<ref>Le Saut de Vézoles est à la pointe sud du lac de Vézoles.</ref> ([[Hérault (département)|Hérault]]) • Vélieux ([[Hérault (département)|Hérault)]] • [[Montagne d'Alaric|Signal de l'Alaric]] ([[Aude (département)|Aude]])
+}}
+
+{{SGR| 78| '''De [[Carcassonne]] à [[Saint-Jean-Pied-de-Port]] ([[Chemin du piémont pyrénéen|voie du Piémont]])'''
+}}
+
+{{SGR| 80| '''De [[Port-Joinville]] à [[Port-Joinville]]''' (Tour de l'[[Île d'Yeu]])
+}}
+
+{{SGR| 81| }}
+
+{{SGR| 86| '''De [[Toulouse]] à [[Bagnères-de-Luchon]]'''<br />
+:Toulouse ([[Haute-Garonne]]) • Bagnères-de-Luchon ([[Haute-Garonne]])
+}}
+
+{{SGR| 89| '''Chemin de Montaigne, de [[Lyon]] à [[Clermont-Ferrand]]'''<br />
+: Lyon ([[Métropole de Lyon]]) • [[Brussieu]] • [[Feurs]] • [[Boën-sur-Lignon]] • [[Saint-Didier-sur-Rochefort]] •  [[Noirétable]] ([[Loire (département)|Loire]]) •  [[Thiers]] • Clermont-Ferrand ([[Puy-de-Dôme]])
+}}
+
+{{SGR| 90| '''De [[Collobrières]] au [[Le Lavandou|Lavandou]] (GR 51)'''<br />
+: ([[Var (département)|Var]])
+}}
+
+{{SGR| 91| '''De [[Saint-Nizier-du-Moucherotte]]''' (près de [[Grenoble]]) à '''[[Fontaine-de-Vaucluse]]''' (près de [[Cavaillon]])<br />
+: Saint-Nizier-du-Moucherotte ([[Isère (département)|Isère]]) • Fontaine-de-Vaucluse ([[Vaucluse (département)|Vaucluse]])
+}}
+
+{{SGR| 91B| '''[[Bédoin]] au sommet du [[mont Ventoux]] via le [[mont Serein]]'''<br />
+:}}
+
+{{SGR| 93| '''De [[Peyrus]] à [[La Roche-des-Arnauds]]'''<br />
+: Peyrus ([[Drôme (département)|Drôme]]) • La Roche-des-Arnauds ([[Hautes-Alpes]])
+}}
+
+{{SGR| 94| }}
+
+{{SGR| 95| }}
+
+{{SGR| 96| '''Préalpes des [[Savoie]]'''<br />
+:}}
+
+{{SGR| 97| '''Tour du [[Massif du Luberon|Luberon]]'''<br />
+:}}
+
+{{SGR| 98| '''De la madrague de [[Montredon (Marseille)]] au [[massif de la Sainte-Baume]]'''<br />
+: Callelongue • ''[[massif des Calanques]]'' (itinéraire commun avec le GR 51) • [[Cassis (Bouches-du-Rhône)|Cassis]] • col de Saint-Pilon (jonction avec le [[Sentier de grande randonnée 9|GR 9]])}}
+
+{{SGR| 99| '''Du [[Le Revest-les-Eaux|Revest-les-Eaux]]''' (au nord de [[Toulon]]) '''aux [[Gorges du Verdon]]'''<br />
+: [[Signes (Var)]] • [[Quinson]] ([[Alpes-de-Haute-Provence]]) • ''Grand cañon du Verdon'' (jonction avec le GR 4)}}
+
+{{SGR| 99A| '''D’[[Artigues (Var)|Artigues]] à [[Saint-Paul-lès-Durance]]'''<br />
+: Artigues ([[Var (département)|Var]]) • Saint-Paul-lès-Durance ([[Bouches-du-Rhône]])}}
+
+{{SGR| 100| ou « Les Chemins de la Guerre de Cent Ans » '''de [[Montluçon]] à [[Poitiers]]'''<br />
+: Montluçon ([[Allier (département)|Allier]]) • ... • [[Huriel]] ([[Allier (département)|Allier]]) • ... • [[Sainte-Sévère-sur-Indre]] ([[Indre (département)|Indre]]) • ... • [[La Châtre]] ([[Indre (département)|Indre]]) • ... • [[Sarzay]] ([[Indre (département)|Indre]]) • ... • [[Le Blanc (Indre)|Le Blanc]] ([[Indre (département)|Indre]]) • ... • [[Angles-sur-l'Anglin]] ([[Vienne (département)|Vienne]]) • ... • Poitiers ([[Vienne (département)|Vienne]])}}
+|}
+
+=== GR numérotés de 101 à 299 ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) numérotés de 101 à 299'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+{{SGR|101| '''Chemin de l'Ouest de Bigorre'''<br />
+: [[Maubourguet]] ([[Hautes-Pyrénées]]) • [[Lourdes]] ([[Hautes-Pyrénées]]) • [[Col de Saucède]] à la limite des [[Hautes-Pyrénées]] et des [[Pyrénées-Atlantiques]]}}
+
+{{SGR|105| '''[[Chemin de la vallée d'Aure]]'''<br />
+: [[Lortet (Hautes-Pyrénées)|Lortet]] ([[Hautes-Pyrénées]]) • [[Hospice du Rioumajou]] ([[Hautes-Pyrénées]])}}
+
+{{SGR|107| '''Chemin des Bonshommes'''<br />
+: [[Foix]] ([[Ariège (département)|Ariège]]) • [[Berga]] ([[Catalogne]])}}
+
+{{SGR| 108| }}
+
+{{SGR| 108A| }}
+
+{{SGR|111| '''Sentier de l’Essonne'''<br />
+: [[Milly-la-Forêt]] • [[Saint-Michel-sur-Orge]] ([[Essonne (département)|Essonne]])}}
+
+{{SGR| 113| }}
+
+{{SGR|120| '''Tour du Parc Régional Boulonnais (Pas-de-Calais)'''<br />
+: [[Boulonnais|Parc régional boulonnais]] ([[Pas-de-Calais]])}}
+
+{{SGR|121| '''De [[Wavre]] à [[Boulogne-sur-Mer]]'''<br />
+: Wavre (Belgique) • [[Bon-Secours (Belgique)|Bon-Secours ]] • [[Marchiennes]] • [[Arras]] • [[Montreuil (Pas-de-Calais)|Montreuil]] ([[Pas-de-Calais]]) • Boulogne-sur-Mer (France)}}
+
+{{SGR| 121B| }}
+
+{{SGR| 121C| }}
+
+{{SGR|122| GR_lien=Sentier de grande randonnée 122 (France)| '''De [[Condé-sur-l'Escaut]] à [[Chappes (Ardennes)|Chappes]]'''<br />
+: Condé-sur-l'Escaut ([[Nord (département français)|Nord]]) • [[Le Quesnoy]]  ([[Nord (département français)|Nord]]) • [[Landrecies]]  ([[Nord (département français)|Nord]]) • [[Wassigny]] ([[Aisne (département)|Aisne]]) • [[Étréaupont]]  ([[Aisne (département)|Aisne]]) • [[Parfondeval (Aisne)|Parfondeval]] ([[Aisne (département)|Aisne]]) • [[Chaumont-Porcien]]  ([[Aisne (département)|Aisne]]) • [[GR 12]] }}. Au-delà de la frontière belge, vers Tournai et la Hollande
+
+{{SGR|123| '''À travers la [[Picardie (ancienne région administrative)|Picardie]]'''<br />
+: [[Communauté de communes de l'Hesdinois|7 vallées]], [[Ponthieu]], [[Somme (fleuve)|vallée de la Somme]], [[Picardie (ancienne région administrative)|Picardie]] et forêts, et [[Oise (rivière)|vallée de l'Oise]]
+: [[Mouriez]] ([[Pas-de-Calais]], France)}}
+: [[Lœuilly]] ([[Somme (département)|Somme]], France)
+
+{{SGR|124| '''De [[Cires-lès-Mello]] à [[Ailly-sur-Noye]]'''<br />
+• [[Cires-lès-Mello]] ([[Oise (département)|Oise]]) • [[Ailly-sur-Noye]] ([[Somme (département)|Somme]])}}
+
+{{SGR|125| '''De [[Serans (Oise)|Serans ]] à [[Saint-Valery-sur-Somme]]''' <br />
+: Serans • [[Gisors]] • [[Milly-sur-Thérain]] • [[Blancfossé]] • [[Molliens-Dreuil]] • Saint-Valery-sur-Somme}}
+
+{{SGR|127| '''De [[Dennebrœucq]] à [[Arras]]'''}}<br />
+
+{{SGR|128| '''De [[Wissant]] à [[Aix-la-Chapelle]] '''<br />
+• Wissant ([[France]]) • [[Gand]] ([[Belgique]]) • [[Louvain]] ([[Belgique]]) • [[Maastricht]] ([[Pays-Bas]]) • Aix-la-Chapelle ([[Allemagne]])}}
+
+{{SGR| 128A| }}
+
+{{SGR| 130| }}
+
+{{SGR|131|GR_lien=Sentier de grande randonnée 131 (France)|'''Du [[Mont Beuvray]] à [[Issy-l'Évêque]] par [[Autun]]'''
+: Mont Beuvray ([[Nièvre (département)|Nièvre]]-[[Saône-et-Loire]]) • Autun ([[Saône-et-Loire]])}}
+
+{{SGR|132| '''De [[Griselles (Loiret)|Griselles]] à [[Chaumot (Yonne)|Chaumot]]''' (liaison [[GR 13]]-[[GR 213]]) <br />
+: Griselles ([[Loiret (département)|Loiret]]) • [[La Selle-sur-le-Bied]] • [[Saint-Loup-de-Gonois]] • [[Courtemaux]] • [[Chantecoq]] • [[Saint-Hilaire-les-Andrésis]] • [[Courtenay (Loiret)|Courtenay]] • [[Piffonds]] ([[Yonne (département)|Yonne]]) • Chaumot }}
+
+{{SGR|137| '''D’[[Autun]] à [[Nolay (Côte-d'Or)|Nolay]]''' (liaison [[GR 13]]-[[GR 7]]) <br />
+: Autun • [[Le Creusot]] • Nolay }}
+
+{{SGR|142| '''De [[Verzy]] ([[Marne (département)|Marne]]) à [[Guise]] ([[Aisne (département)|Aisne]])'''  <br />
+: Verzy • [[Fismes]] ([[Marne (département)|Marne]])• [[Laon]] • Guise ([[Aisne (département)|Aisne]]) }}
+
+{{SGR|145| '''La [[Via Francigena]]'''<br />
+: Relie [[Calais]] à [[Les Fourgs]] et se poursuit jusqu'à [[Rome]]}}
+
+{{SGR|169| '''Le Tour de Lyon'''<br />
+: Relie [[Gare d'Irigny]] à [[Gare de Feyzin]]}}
+
+{{SGR|210| '''De [[Dieppe (Seine-Maritime)|Dieppe]] à [[Rouen]]'''<br />
+: Dieppe • [[Offranville]] • [[Auffay]] • [[Montville]] • Rouen ([[Seine-Maritime]])}}
+
+{{SGR|211| '''De [[Veulettes-sur-Mer]] à [[Caudebec-en-Caux]]'''<br />
+: Veulettes-sur-Mer • Caudebec-en-Caux ([[Seine-Maritime]])}}
+
+{{SGR|212| '''De [[Sainte-Marguerite-sur-Mer]] à [[Duclair]]'''<br />
+: Sainte-Marguerite-sur-Mer • Duclair ([[Seine-Maritime]])}}
+
+{{SGR|213| '''De [[Pont-sur-Yonne]] à [[Saint-Georges-sur-Baulche]]'''<br />
+:Pont-sur-Yonne • [[Paron (Yonne)|Paron]] • [[Villeneuve-sur-Yonne]] • [[Joigny]] • Saint-Georges-sur-Baulche ([[Yonne (département)|Yonne]])}}
+
+{{SGR|221| '''De [[Coutances]] à [[Pont-d'Ouilly]]'''<br />
+: Coutances ([[Manche (département)|Manche]]) • [[Cerisy-la-Salle]] ([[Manche (département)|Manche]]) • [[Saint-Lô]] ([[Manche (département)|Manche]]) • [[Le Bény-Bocage]] ([[Calvados (département)|Calvados]]) • [[Condé-sur-Noireau]] ([[Calvados (département)|Calvados]]) • Pont-d'Ouilly ([[Calvados (département)|Calvados]])}}
+
+{{SGR|222| '''De [[Pont-de-l'Arche]] à [[Verneuil-sur-Avre]]'''<br />
+: Pont-de-l'Arche • [[Louviers]] • [[Évreux]] • [[Conches-en-Ouche]] • Verneuil-sur-Avre}}
+
+{{SGR|223| '''De [[Honfleur]] au [[Le Mont-Saint-Michel|Mont-Saint-Michel]]''' – ''le long des côtes normandes''<br />
+: [[Berville-sur-Mer]] • Le Mont-Saint-Michel}}
+
+{{SGR|224| ''' Chemin de la Vallée de la Risle '''<br />
+: [[Berville-sur-Mer]] • [[Pont-Audemer]] • [[Brionne]] • [[Beaumont-le-Roger]] • [[Rugles]] • [[Verneuil-sur-Avre]]}}
+
+{{SGR|225| '''Entre [[Epte]] et [[Oise (rivière)|Oise]]'''<br />
+: [[Saint-Germer-de-Fly]] • [[Sérifontaine]] • [[Saint-Sulpice (Oise)|Saint-Sulpice]] • [[Ansacq]]}}
+
+{{SGR|226|<br />
+: [[Condé-sur-Noireau]] • [[Cerisy-Belle-Étoile]] • [[Tinchebray]]}}
+
+{{SGR| 235| }}
+|}
+
+=== GR numérotés 300 et plus ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) numérotés 300 et plus'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+{{SGR|300| '''Chemin de Saint-Jacques en Bourbonnais'''<br />
+: [[Sancoins]]  ([[Cher (département)|Cher]]) ([[GR 654]]) • [[Le Veurdre]]  ([[Allier (département)|Allier]]) • [[Souvigny]] ([[Allier (département)|Allier]]) • [[Chantelle]]  ([[Allier (département)|Allier]]) • [[Ébreuil]] ([[Allier (département)|Allier]]) • [[Clermont-Ferrand]] ([[Puy-de-Dôme]]) • [[Issoire]] • [[Brioude]] • [[Le Puy-en-Velay]] ([[Haute-Loire]])([[GR 65]])}}
+
+{{SGR|303| '''Traversée du [[Duché de Bourbon|Bourbonnais]]'''<br />
+: [[Montcombroux-les-Mines]] • [[Jaligny-sur-Besbre]] • [[Moulins (Allier)|Moulins]] • [[Souvigny]] ([[GR 300]]) • [[Saint-Léopardin-d'Augy]] • [[Cérilly (Allier)|Cérilly]] • [[Saint-Bonnet-Tronçais]] • [[Montluçon]] • [[Néris-les-Bains]]}}
+
+{{SGR|340| '''Tour de [[Belle-Île-en-Mer]]'''<br />
+:}}
+
+{{SGR|341| '''De [[Gurunhuel]] à [[Port-Louis (Morbihan)|Port-Louis]]'''<br />
+: Gurunhuel ([[Côtes-d'Armor]]) • [[Guingamp]] • Port-Louis ([[Morbihan]])}}
+
+{{SGR| 342| }}
+
+{{SGR|349| '''[[Rhuys]] - [[Vilaine]]'''<br />
+: [[Damgan]] • [[Muzillac]] • [[Rieux (Morbihan)|Rieux]] }}
+
+{{SGR|351| '''Vallée de [[Blaise (affluent de l'Eure)|la Blaise]] '''<br />
+: [[Dreux]] • [[Senonches]] }}
+
+{{SGR|353| '''[[Vendôme]] - [[Blois]] (A)/[[Chaumont-sur-Loire]] (B)'''<br />
+: Vendôme • [[Selommes]] • [[Saint-Lubin-en-Vergonnois]] • [[Blois]] ou Chaumont-sur-Loire }}
+
+{{SGR|360| '''Tour de la [[Saintonge]]'''<br />
+:}}
+
+{{SGR|364| '''Traversée du [[Poitou]]'''<br />
+: [[La Roche-Posay]] • [[Poitiers]] • [[Vivonne]] • [[Lusignan (Vienne)|Lusignan]] • [[Bournezeau]] • [[Jard-sur-Mer]]}}
+
+{{SGR| 365| }}
+
+{{SGR| 367| }}
+
+{{SGR|380| '''Tour des [[Monts d'Arrée]]'''<br />
+: les monts d'Arrée ([[Finistère]])}}
+
+{{SGR|400| '''Tour des [[Monts du Cantal]]''' ([[volcans d'Auvergne]])<br />
+: [[Parc naturel régional des volcans d'Auvergne|Parc naturel des volcans d'Auvergne]]}}
+
+{{SGR|406| '''[[Route nationale 85 (France)|Route Napoléon]] à pied'''<br />
+: [[Grasse]] • [[Castellane]] • [[Digne-les-Bains]] • [[Sisteron]]}}
+
+{{SGR|412| '''[[Gorges de l'Allier|Les Gorges de l'Allier]]'''}} (supprimé)<br />
+: Remplacé par le [[Sentier de grande randonnée 470|GR 470]]
+
+{{SGR| 413| }}
+
+{{SGR|420| '''Tour du Haut-Vivarais'''<br />
+: boucle de [[Saint-Agrève]] ([[Ardèche (département)|Ardèche]]) via [[Sagnes-et-Goudoulet]] • [[Le Cheylard]]  • [[Vernoux-en-Vivarais]]}}
+
+{{SGR|422| '''Sur les Pas de Charles IX et Catherine de Médicis'''<br />
+: [[Lyon]] • [[Crémieu]] • [[Roussillon (Isère)|Roussillon]] • [[Romans-sur-Isère]]  • [[Valence (Drôme)|Valence]]}}
+
+{{SGR| 429| }}
+
+{{SGR|430| '''Chemin de Saint Régis'''<br />
+: boucle du [[Le Puy-en-Velay|Puy-en-Velay]] ([[Haute-Loire]]) via [[Lalouvesc]] et retour au Puy-en-Velay}}
+
+{{SGR| 440| }}
+
+{{SGR|441| '''Tour de la [[Chaîne des Puys]]'''<br />
+:}}
+
+{{SGR|461| '''De [[Montignac-Lascaux|Montignac]] à [[Terrasson-Lavilledieu]]'''<br />
+: Montignac • Terrasson-Lavilledieu}}
+
+{{SGR|463| '''Du [[GR 3]] au [[GR 46]]'''<br />
+: [[La Chabanne (Allier)|La Chabanne]] • [[Ferrières-sur-Sichon]] • [[Vichy]] • [[Gannat]] • [[Ébreuil]] ([[GR 300]]) • [[Néris-les-Bains]] (GR 303) • [[Évaux-les-Bains]]}}
+
+{{SGR| 465| }}
+
+{{SGR|470| '''Sentier du Haut Allier'''<br />
+: [[Brioude]] • [[Prades (Haute-Loire)|Prades]] • [[Langogne]] • Le [[Moure de la Gardille]] • [[La Bastide-Puylaurent]]}}
+
+{{SGR|480| '''De  [[Turenne (Corrèze)|Turenne]] aux Gorges de la [[Cère (rivière)|Cère]] '''<br />
+: Turenne ([[Corrèze (département)|Corrèze]]) • [[Collonges-la-Rouge]] • [[Curemonte]] • Gorges de la Cère}}
+
+{{SGR|510| '''De [[Breil-sur-Roya]] à [[Saint-Cézaire-sur-Siagne]] – Sentier des huit vallées'''<br />
+: Breil-sur-Roya ([[Alpes-Maritimes]]) • [[Sospel]] • Le Suquet d'Utelle • Pont de [[Tournefort (Alpes-Maritimes)|(Tournefort]] • Moulin de [[Rigaud (Alpes-Maritimes)|Rigaud]] • [[Puget-Théniers]] • [[Roquestéron]] • Saint-Cézaire-sur-Siagne}}
+
+{{SGR|531| '''De [[Soultz-sous-Forêts]] à [[Leymen]] – De l'outre-forêt au jura alsacien'''<br />
+: Soultz-sous-Forêts (Bas-Rhin) • [[Niederbronn-les-Bains]] • [[Saverne]] • [[Oberhaslach]] • [[Col du Calvaire]] • [[Munster (Haut-Rhin)|Munster]] (Haut-Rhin) •  [[Kruth]] • [[Leymen]]}}
+
+{{SGR|532| '''De [[Wœrth]] à [[Belfort]]'''<br />
+: Wœrth (Bas-Rhin) • [[La Petite-Pierre]] • [[Phalsbourg]] • [[Schirmeck]] • [[Villé]] • [[Turckheim]] (Haut-Rhin) • [[Saint-Amarin]] • [[Masevaux]] • Belfort ([[Territoire de Belfort]])}}
+
+{{SGR|533| '''De [[Sarrebourg]] à [[Belfort]] – Le versant Ouest des Vosges'''<br />
+: Sarrebourg ([[Moselle (département)|Moselle]]) • [[Moyenmoutier]] ([[Vosges (département)|Vosges)]]  • [[Saint-Dié-des-Vosges]] • [[La Bresse (Vosges)|La Bresse]] • [[Saint-Maurice-sur-Moselle]] • [[Planche des Belles Filles]] • Belfort ([[Territoire de Belfort]])}}
+
+{{SGR| 534| }}
+
+{{SGR|549| '''De [[Vizille]] à L'[[Alpe d'Huez]]''' (déclassé)<br />
+:Remplacé par le [[GR 738]]}}
+
+{{SGR|559| '''De [[Lons-le-Saunier]] à [[Les Rousses]]'''<br />
+: Lons-le-Saunier • [[Châtillon (Jura)|Châtillon]] • [[Marigny (Jura)|Marigny]] • [[Abbaye du Grandvaux]] • Les Rousses}}
+
+{{SGR|590| '''Entre [[Loue]] et [[Lison (rivière)|Lison]] au Pays de [[Gustave Courbet|Courbet]]'''}}
+
+{{SGR|595| '''De [[Besançon]] à [[Maisons-du-Bois-Lièvremont]]'''}}
+
+{{SGR|620| ''' De [[Sainte-Radegonde_(Aveyron)|Inières]] à [[Saint-Côme-d'Olt]] - 45,5 km '''}}
+
+{{SGR|636| '''De [[Monbazillac]] à [[Lacapelle-Biron]]'''<br />
+: Monbazillac • [[Castillonnès]] • [[Monflanquin]] • [[Lacapelle-Biron]]}}
+
+{{SGR|646| '''De [[Saint-Mesmin (Dordogne)|Saint-Mesmin]] ([[Dordogne (département)|Dordogne]]) à [[Port-Sainte-Foy-et-Ponchapt]] - Traversée du Périgord'''<br />
+: Saint-Mesmin • [[Périgueux]] • [[Montpon-Ménestérol]] • Port-Sainte-Foy-et-Ponchapt}}
+
+{{SGR|651| ''' De [[Béduer]] ([[Lot (département)|Lot]]) à [[Bouziès]] '''<br />
+: Béduer • [[Marcilhac-sur-Célé]] • Bouziès}}
+
+{{SGR|652| '''De [[Laroquebrou]] à [[La Romieu]]''' ([[Cère (rivière)|vallée de la Cère]])<br />
+: Laroquebrou ([[Cantal (département)|Cantal]]) • [[La Romieu]] ([[Gers (département)|Gers]])}}
+
+{{SGR|653| '''Le chemin d’[[Arles]], ou [[via Tolosana]]'''<br />
+: Arles ([[Bouches-du-Rhône]]) • [[Montpellier]] • [[Lodève]] • [[Castres]] • [[Toulouse]] • [[Auch]] • [[Maubourguet]] • [[Oloron-Sainte-Marie]] • le [[col du Somport]] • [[Puente la Reina-Gares|Puente la Reina]] ([[Espagne]], où l'on rejoint les autres chemins de [[Saint-Jacques-de-Compostelle]])}}
+
+{{SGR|653A| '''[[Via Aurelia]]'''<br />
+: [[Menton (Alpes-Maritimes)|Menton]] • [[Fréjus]] • [[Saint-Maximin-la-Sainte-Baume]] • [[Aix-en-Provence]] • [[Arles]]}}
+
+{{SGR|653D| '''[[Via Domitia (chemin de Compostelle)|Via Domitia]]'''<br />
+: [[Montgenèvre]] • [[Sisteron]] • [[Forcalquier]] • [[Apt (Vaucluse)|Apt]] • [[Avignon]] • [[Arles]]}}
+
+{{SGR|654| '''Chemin de Saint-Jacques''' (emprunte une partie de la [[via Lemovicensis]])<br />
+: [[Namur]] • [[Reims]] • [[Vézelay]] • [[Nevers]] • [[Limoges]] • [[Périgueux]] • [[Montréal (Gers)|Montréal-du-Gers]]}}
+
+{{SGR|655| '''Le chemin de Tours'''<br /> • [[Belgique]] • [[Paris]] • [[Tours]] • vers [[Saint-Jacques-de-Compostelle]] (variantes ''655 OT'' par [[Chartres]] et ''655 ET'' par [[Tours]])}}
+
+{{SGR|670| '''Sentier historique'''  ''' [[Chemin Urbain V]]'''<br />
+: [[Nasbinals]] ([[Lozère (département)|Lozère]]) • [[Avignon]] à travers l'[[Aubrac]], les [[Cévennes]], les [[Causses]] et la vallée du [[Gardon (rivière)|Gardon]]}} 
+
+{{SGR|700| '''[[Chemin de Régordane]]'''<br />
+: [[Le Puy-en-Velay]] ([[Haute-Loire]]) • [[Saint-Gilles (Gard)|Saint-Gilles-du-Gard]] ([[Gard]]) , à travers l'[[Auvergne]] et les [[Cévennes]]}}
+
+{{SGR|703| '''Sentier historique de [[Jeanne d'Arc]]'''<br />
+: [[Domrémy-la-Pucelle]] ([[Vosges (département)|Vosges]]) • [[Chinon]] ([[Indre-et-Loire]]), à travers la [[Champagne-Ardenne|Champagne]], la [[Bourgogne (ancienne région administrative)|Bourgogne]] et la région [[Centre-Val de Loire]]}}
+
+{{SGR|714| '''De [[Bar-le-Duc]] à [[Dombrot-le-Sec]]'''<br />
+: [[Gondrecourt-le-Château]] ([[Meuse (département)|Meuse]]) [[Domrémy-la-Pucelle]] • [[Contrexéville]] • [[Vittel]] ([[Vosges (département)|Vosges]]) - SGR de liaison entre le [[GR 14]] et le [[GR 7]]}}
+
+{{SGR|736| '''Sentier des gorges et de la vallée du Tarn'''<br />
+: [[Villefort (Lozère)|Villefort]] ([[Lozère (département)|Lozère]]) • [[Albi]] ([[Tarn (département)|Tarn]]) }}
+
+{{SGR|738| '''Haute Traversée de Belledonne'''<br />
+: [[Val-d'Arc]] ([[Savoie]]) • [[Vizille]] ([[Isère (département)|Isère]]) }}
+
+{{SGR|765| '''Sentier vers Saint-Jacques de Compostelle, de Cluny et Lyon vers le Puy-en-Velay'''
+}}
+
+{{SGR|782| '''De [[Lourdes]] à [[Artiguelouve]]'''<br />
+: Lourdes ([[Hautes-Pyrénées]]) • [[Saint-Vincent (Pyrénées-Atlantiques)|Saint-Vincent]] ([[Pyrénées-Atlantiques]]) • [[Ousse (Pyrénées-Atlantiques)|Ousse]] • [[Bizanos]] • [[Pau]] • [[Billère]] • Artiguelouve}}
+
+{{SGR|787| '''De [[Saint-Gervais-sur-Mare]] à [[Capestang]]'''<br />
+: [[Saint-Gervais-sur-Mare]] • [[Le Poujol-sur-Mare]] • [[Cessenon-sur-Orb]] • [[Puisserguier]] • [[Capestang]]}}
+
+{{SGR|800| '''Au fil de la Somme'''<br />
+: [[Saint-Quentin]] ([[Aisne (département)|Aisne]]) • [[Ham (Somme)|Ham]] ([[Somme (département)|Somme]]) • [[Péronne (Somme)|Péronne]] • [[Bray-sur-Somme]] • [[Corbie]]  • [[Amiens]] • [[Abbeville]] •  [[Saint-Valery-sur-Somme]]}}
+
+{{SGR| 861| }}
+
+{{SGR| 965| }}
+
+{{SGR|2013| '''Milieu périurbain de [[Marseille]]'''<br />
+: [[Vitrolles (Bouches-du-Rhône)|Vitrolles]] ([[Bouches-du-Rhône]]) • [[Saint-Victoret]] • [[Marignane]] • [[Châteauneuf-les-Martigues]] • [[Martigues]] • [[Port-de-Bouc]] • [[Saint-Mitre (Marseille)|Saint-Mitre]] • [[Istres]] • [[Miramas]] • [[Grans]] • [[Salon-de-Provence]] • [[Pélissanne]] • [[Lançon-Provence|Lançon]] • [[Berre-l'Étang|Berre]] • [[La Fare-les-Oliviers]] • [[Berre-l'Étang|Berre]] • [[Velaux]] • [[Rognac]] • [[Cabriès]] • [[Les Pennes Mirabeau]] • [[Septèmes-les-Vallons|Septèmes]] • [[Marseille]] • [[La Penne-sur-Huveaune]] • [[Aubagne]] • [[Gémenos]] • [[Plan-d'Aups-Sainte-Baume]] • [[Auriol (Bouches-du-Rhône)|Auriol]] • [[Roquevaire]] • [[Allauch]] • [[Peypin]] • [[Cadolive]] • [[Saint-Savournin]] • [[Mimet]] • [[Gardanne]] • [[Meyreuil]] • [[Le Tholonet]] • [[Beaurecueil]] • [[Aix-en-Provence]]}}
+|}
+
+=== GR transfrontaliers France-Espagne ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée transfrontaliers France-Espagne (GRT)<ref>{{Lien web |url=https://www.echappeesmontagnardes.fr/trek-sentiers-grande-randonnee-gr-pyrenees/#grtransfrontaliers |titre=Les GR transfrontaliers des Pyrénées |site=echappeesmontagnardes.fr |consulté le=10-06-2024}}</ref>'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+
+{{SGR| T01| '''[[Hendaye]] – [[Irun]]'''}}
+
+{{SGR| T02| '''[[Ciboure]] – [[Endarlatxa]]'''}}
+
+{{SGR| T08| '''[[Irau]] – [[Errozate]]'''}}
+
+{{SGR| T09| '''[[Okabe]] – [[Col Oraate]]'''}}
+
+{{SGR| T10| '''[[Col Heguichouria|Chalets d'Iraty]] – [[Col Leherra]]'''}}
+
+{{SGR| T11| '''[[Gorges d'Holtzarte|Holzarte]] – [[Col d'Urthuru]]'''}}
+
+{{SGR| T12| '''[[Sainte-Engrâce]] – [[Col Erainze]]'''}}
+
+{{SGR| T13| '''[[Cazette]] – [[Col d'Anaye]]'''}}
+
+{{SGR| T22| '''[[Arrens-Marsous]] – [[Port de la Peyre Saint-Martin]]'''}}
+
+{{SGR| T30| '''[[Gavarnie]] – [[Port de Boucharo]]'''}}
+
+{{SGR| T51| '''[[Mines de Bentaillou]] – [[Port de la Hourquette]]'''}}
+
+{{SGR| T53| '''[[Fontaine Rouge]] – [[Port d'Orle]]'''}}
+
+{{SGR| T54| '''[[Port de Barlonguère]] – [[Passage de la Lègne]]'''}}
+
+{{SGR| T55| '''[[Pla de la Lau]] – [[Col de la Pale de la Clauère]]'''}}
+
+{{SGR| T56| '''[[Étang d'Areau]] – [[Port d'Aula]]'''}}
+
+{{SGR| T57| '''[[Couflens]] – [[Port de Salau]]'''}}
+
+{{SGR| T58| '''[[Ustou|Saint-Lizier-d'Ustou]]- [[Port de Marterat]]'''}}
+
+{{SGR| T59| '''[[Layte]] – [[Port de Couillac]]'''}}
+
+{{SGR| T60| '''[[Auzat|Marc]] – [[Port de l'Artigue]]'''}}
+
+{{SGR| T61| '''[[L'Artigue]] – [[Port de Sullo]]'''}}
+
+{{SGR| T62| '''[[Mounicou]] – [[Port de Bouet]]'''}}
+
+{{SGR| T63| '''[[Mounicou]] – [[Port de Rat]]'''}}
+
+{{SGR| T64| '''[[Pont de la Peyre]] – [[Port de l'Albeille]]'''}}
+
+{{SGR| T65| '''[[Siguer]] – [[Port de Siguer]]'''}}
+
+{{SGR| T66| '''[[Étang de Laparan|Laparan]] – [[Port de Fontargente]]'''}}
+
+{{SGR| T67| '''[[Estagnol]] – [[Col de Juclar]]'''}}
+
+{{SGR| T68| '''[[L'Hospitalet-près-l'Andorre|L'Hospitalet]] – [[Col de l'Albe]] et [[coll dels Clots]]'''}}
+
+{{SGR| T71| '''[[Latour-de-Carol]] – [[Guils de Cerdanya]]'''}}
+
+{{SGR| T73| '''[[Err (Pyrénées-Orientales)|Err]] – [[Coll de Finestrelles]]'''}}
+
+{{SGR| T74| '''[[Eyne]] – [[Coll de Nuria]]'''}}
+
+{{SGR| T75| '''[[Refuge du Ras de la Carançà]] – [[Coll de Carança]]'''}}
+
+{{SGR| T76| '''[[Mantet]] – [[Portella de Mantet]]'''}}
+
+{{SGR| T77| '''[[Coll de Mentet]] – [[Coll del Pal]]'''}}
+
+{{SGR| T78| '''[[Prats-de-Mollo-la-Preste]] – [[Coll del Pal]]'''}}
+
+{{SGR| T83| '''[[Prats-de-Mollo-la-Preste]] – [[Coll de Malrems]]'''}}
+
+{{SGR| T89| '''[[Saint-Martin-de-l'Albère]] – [[Coll Forcat]]'''}}
+
+{{SGR| T91| '''[[Banyuls-sur-Mer]] – [[Coll dels Belitres]]'''}}
+
+|}
+
+=== GR d'outre-mer numérotés ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) d'outre-mer'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+
+{{SGR| G1| '''Trace des Alizés ([[Guadeloupe]])'''<br />
+: Traversée de [[Grande-Terre (île en Guadeloupe)|Grande-Terre]] du nord au sud en 7 étapes}}
+
+{{SGR| NC1| '''Tour du sud de la [[Grande Terre (Nouvelle-Calédonie)|Grande Terre]] ([[Nouvelle-Calédonie]])'''<br />
+: Traversée en six étapes des paysages allant de Prony à [[Dumbéa]]}}
+
+{{SGR| M1| ''' ([[Martinique]])'''<br />
+: Du [[Le Prêcheur|Prêcheur]] à [[Balata (Fort-de-France)|Balata]] par la [[montagne Pelée]] et les [[pitons du Carbet]]}}
+
+{{SGR| R1| '''Tour du [[Piton des Neiges]] (Île de La Réunion)'''<br />
+: Traversée des trois [[Cirque naturel|cirques naturels]] des [[Les Hauts (La Réunion)|Hauts]] de [[La Réunion]]}}
+
+{{SGR| R2| '''La Traversée de l'île de La Réunion'''<br />
+: Traversée de [[La Réunion]] du nord au sud (ou inversement) en 15 jours}}
+
+{{SGR| R3| '''Le Tour du [[Cirque de Mafate]] (Île de La Réunion)'''<br />
+: }}
+|}
+
+=== GR non numérotés ===
+{| align="center" valign="top" cellpadding="3" cellspacing="1" frame="box" rules="rows" width="80%" style="border-collapse:collapse;" style="background-color:#FAFAEC"
+|+ '''Liste des sentiers de grande randonnée (GR) non numérotés'''
+|- bgcolor="#92bd3b"
+| width=30| '''{{blanc|{{numéro}}}}'''
+| '''{{blanc|Parcours}}'''
+
+{{SGR| GTM| '''Grande Traversée du [[Parc_national_du_Mercantour|Mercantour]]'''<ref>{{Lien web|langue=fr|auteur=|titre=Présentation de la GTM sur les pages web de la fédération française de randonnée pédestre|url=https://www.ffrandonnee.fr/actualites/13430/mercantour-la-grande-traversee-gtm.aspx|format=|site=|consulté le=26 juillet 2020}}.</ref>{{,}}<ref>{{Lien web|langue=fr|auteur=|titre=Présentation de la GTM sur les pages web du département des Alpes-Maritimes|url=https://randoxygene.departement06.fr/grande-traversee-du-mercantour-11289.html|format=|site=|consulté le=26 juillet 2020}}.</ref><br />
+: }}
+
+{{SGR| GTJ| '''[[Grande traversée du Jura]]'''<br />
+: [[Mandeure]] (Doubs département|Doubs) • [[Villers-le-Lac]] • [[Fort de Joux]] • [[Le Mont Dore]] • [[Mouthe]] • [[Les Rousses]] • [[Lélex (Ain)|Lélex]] • [[Crêt de la Neige]] • [[Bellegarde-sur-Valserine]] • [[Col du Grand Colombier]] • [[Culoz]] (Ain (département)|Ain) }}
+
+{{SGR| |'''[[Chemin de Saint-Guilhem-le-Désert]]'''<br />
+: D'[[Aumont-Aubrac]] (Lozère) • [[Nasbinals]] • [[La Canourgue]] • [[Sainte-Enimie]] • [[Meyrueis]] • [[Le Vigan (Gard)|Le Vigan ]] ([[Gard]]) • [[Saint-Maurice-Navacelles]] ([[Hérault (département)|Hérault]]) • [[Saint-Guilhem-le-Désert]]}}
+
+{{SGR| BL| '''Balcon du [[Léman]]'''<br />
+: [[Genève]] ([[Suisse]]) • [[Chaumont (Haute-Savoie)|Chaumont]] ([[Haute-Savoie]]) • le [[col de montagne|col]] du mont Sion • [[La Muraz]] • [[Lucinges]] • le [[Col de Cou (Vallée Verte)|col de Cou]] ([[Habère-Poche]], [[Haute-Savoie]]) • [[Chevenoz]] • [[Bernex (Haute-Savoie)|Bernex]] • [[Novel]] ([[Haute-Savoie]]) • [[Le Bouveret]] ([[Suisse]])}}
+
+{{SGR| HRP| '''Haute Randonnée [[Pyrénées|Pyrénéenne]]''', il existe aussi le '''[[Trek des Pyrénées]]'''.
+: }}
+
+{{SGR| Sentier du littoral Nord-Atlantique| '''Sentier du littoral Nord-Atlantique'''<br />
+: De [[Basse-Pointe]] au [[Le Robert|Robert]] en 6 étapes}}
+
+{{SGR| |'''[[Tour du Cézallier]]'''
+:}}
+
+{{SGR| TGV| '''[[Tour des Glaciers de la Vanoise]]'''<br />
+: }}
+
+{{SGR| TMB| '''[[Sentier de grande randonnée Tour du Mont-Blanc|Tour du Mont-Blanc]]'''<br />
+: }}
+|}
+
+== [[Sentier de grande randonnée de pays|Sentiers de grande randonnée de pays]] ==
+{{Article détaillé|Liste des sentiers de grande randonnée de pays}}
+
+== Notes et références ==
+{{Références}}
+
+{{Palette|Sentiers de grande randonnée en France}}
+{{Portail|randonnée|France}}
+
+[[Catégorie:Sentier de grande randonnée en France|*]]
+[[Catégorie:Liste en rapport avec la France|Sentier grande randonnee]]
