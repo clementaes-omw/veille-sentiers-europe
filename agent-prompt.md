@@ -117,9 +117,10 @@ fermé) et relance — boucle jusqu'à « OK (QA passée) ». Si la violation vi
 lui-même et pas de la donnée, ne le modifie pas : signale-le dans ta réponse finale.
 Un site en échec QA ne doit JAMAIS être publié.
 
-EN ENVIRONNEMENT CLOUD/PLANIFIÉ (routine) : après un build « OK (QA passée) », committe et
-pousse les changements — `git add livrables site/index.html referentiel/categories.json &&
-git commit -m "veille: digest du <date>" && git push`. Le déploiement GitHub Pages part du
-push automatiquement (et re-vérifie la QA : un build cassé ne se déploie pas). Si la QA
-échoue après tes corrections de données, pousse quand même les livrables (SANS site/index.html)
-et signale l'échec clairement dans ta réponse.
+EN ENVIRONNEMENT CLOUD/PLANIFIÉ (routine) : après un build « OK (QA passée) », publie via
+les OUTILS GITHUB MCP de la session (méthode validée le 18/07/2026, PR #1) : branche
+claude/veille-<date>, commit des fichiers modifiés (livrables/, site/index.html,
+referentiel/ si changé), PR vers main, fusion squash. Jamais de git push direct (le proxy
+git refuse l'écriture aux sessions planifiées) ni de jeton. Fusion impossible → PR laissée
+ouverte et signalée. Le déploiement GitHub Pages part de la fusion (pages.yml re-vérifie la
+QA : un site cassé ne se déploie pas).

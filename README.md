@@ -1,9 +1,11 @@
 # Veille Sentiers Europe
 
-**Dépôt canonique du projet depuis le 2026-07-17** (migré depuis Dropbox). Le site est
-construit et déployé sur GitHub Pages à chaque push (`.github/workflows/pages.yml`, avec la
-boucle QA en garde-fou) ; la veille quotidienne tourne en routine cloud Claude Code qui
-committe ici. Tous les chemins d'`agent-prompt.md` sont relatifs à la racine du dépôt.
+**Site public : https://www.alertes-rando.info** (GitHub Pages, domaine vérifié).
+Dépôt canonique du projet depuis le 2026-07-17. Le site est reconstruit et déployé à chaque
+fusion sur main (`.github/workflows/pages.yml`, boucle QA en garde-fou : un build non
+conforme ne se déploie pas). La veille quotidienne tourne en **routine cloud claude.ai**
+(7h Europe/Paris) qui publie par PR via les outils GitHub MCP — voir `ROUTINE-PROMPT.md`.
+Tous les chemins d'`agent-prompt.md` sont relatifs à la racine du dépôt.
 
 Site de veille terrain **indépendant de l'app OMW** : état des grands sentiers (incendies,
 fermetures, reroutages, réglementation). Périmètre v2 (depuis le 17/07/2026) : **Europe de
@@ -40,7 +42,7 @@ T1 + lot T2 du jour + escalades, écrit digest + registre + log, puis reconstrui
 
     python3 "…/veille-europe/site/build_site.py"
 
-Déploiement : automatique via GitHub Pages au push (l'artifact Claude historique ne sert plus que de préversion).
+Déploiement : automatique via GitHub Pages à chaque fusion sur main.
 
 ## Métriques du pilote (à surveiller sur les 5 premiers runs)
 
