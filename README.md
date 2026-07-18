@@ -1,4 +1,4 @@
-# Veille Sentiers Europe
+# Alertes Rando (veille-sentiers-europe)
 
 **Site public : https://www.alertes-rando.info** (GitHub Pages, domaine vérifié).
 Dépôt canonique du projet depuis le 2026-07-17. Le site est reconstruit et déployé à chaque
