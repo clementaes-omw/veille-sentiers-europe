@@ -1,9 +1,9 @@
 name: Veille quotidienne
 
+# PLAN DE SECOURS (manuel) — la veille quotidienne nominale tourne en routine cloud
+# claude.ai (voir ROUTINE-PROMPT.md). Ce workflow ne sert que si on veut un jour basculer
+# sur l'API : il exige le secret ANTHROPIC_API_KEY et se lance à la main.
 on:
-  schedule:
-    # cron GitHub = UTC → 05:00 UTC = 07:00 Paris l'été (06:00 l'hiver)
-    - cron: "0 5 * * *"
   workflow_dispatch:
 
 permissions:
