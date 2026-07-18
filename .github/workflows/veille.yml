@@ -1,0 +1,71 @@
+name: Veille quotidienne
+
+on:
+  schedule:
+    # cron GitHub = UTC → 05:00 UTC = 07:00 Paris l'été (06:00 l'hiver)
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run de veille (Claude Code)
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: "--model claude-sonnet-5 --max-turns 150 --allowedTools 'WebSearch,WebFetch,Read,Glob,Grep,Edit,Write,Bash(python3 site/build_site.py)'"
+          prompt: |
+            Tu es à la racine du dépôt veille-sentiers-europe. Exécute le run de veille
+            quotidien défini dans agent-prompt.md, à la lettre : lis d'abord agent-prompt.md,
+            referentiel/zones-sources.md et livrables/alertes-actives.md, couvre le périmètre
+            du jour (agrégateurs + zones T1 de saison + lot T2 du jour de la semaine +
+            escalades), applique le protocole de dédoublonnage par clé, écris le digest du
+            jour et mets à jour le registre (12 colonnes, Portion concernée + Alternative
+            obligatoires, jamais de référence OMW). Termine par la boucle qualité :
+            `python3 site/build_site.py` en corrigeant les données jusqu'à « OK (QA passée) ».
+            NE FAIS PAS de git commit ni push — le workflow s'en charge après toi.
+
+      # Garde-fou final : si Claude a laissé un rendu non conforme, ce build échoue
+      # → pas de commit, pas de déploiement, le site de la veille reste en ligne.
+      - name: Build + contrôle qualité
+        run: python site/build_site.py
+
+      - name: Commit des livrables
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add livrables referentiel site/index.html
+          git diff --cached --quiet && echo "rien à committer" || {
+            git commit -m "veille: digest du $(date -u +%F)"
+            git push
+          }
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: veille
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
