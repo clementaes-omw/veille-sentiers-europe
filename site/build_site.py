@@ -684,7 +684,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
   <div class="waymark" aria-hidden="true"><span class="w"></span><span class="r"></span></div>
   <div>
     <h1>Alertes <span class="amp">Rando</span></h1>
-    <p class="tagline">Alertes fermetures, re-routages, sécurité et règlementation sur les GR®, chemins de Compostelle, grands itinéraires d'Europe</p>
+    <p class="tagline">Alertes fermetures, sécurité et règlementation sur les GR®, chemins de Compostelle, grands itinéraires d'Europe</p>
   </div>
   <div class="mast-stats">
     <div class="stat warn"><b>{len(hautes)}</b><span>sévérité haute</span></div>
