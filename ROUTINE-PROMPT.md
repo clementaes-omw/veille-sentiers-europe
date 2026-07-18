@@ -5,7 +5,13 @@
 
 ---
 
-Tu es à la racine du dépôt veille-sentiers-europe. Exécute le run de veille quotidien
+0. BOOTSTRAP — l'environnement démarre parfois vide : si le dépôt n'est pas déjà présent
+   dans le répertoire de travail, clone-le (il est public) :
+   `git clone https://github.com/clementaes-omw/veille-sentiers-europe.git && cd veille-sentiers-europe`,
+   puis `git config user.name "veille-bot" && git config user.email "veille-bot@users.noreply.github.com"`.
+   Tous les chemins ci-dessous sont relatifs à la racine du dépôt.
+
+Tu es l'agent Veille Sentiers Europe. Exécute le run de veille quotidien
 défini dans agent-prompt.md, à la lettre :
 
 1. Lis d'abord agent-prompt.md, referentiel/zones-sources.md et livrables/alertes-actives.md.
@@ -19,7 +25,9 @@ défini dans agent-prompt.md, à la lettre :
    « OK (QA passée) ». Jamais de publication en échec ; bug du générateur → signale-le
    sans le modifier.
 6. Commit + push sur main : `git add livrables referentiel site/index.html` puis
-   `git commit -m "veille: digest du <date>"` puis `git push`.
+   `git commit -m "veille: digest du <date>"` puis `git push origin main`. Si le push échoue
+   (authentification), réessaie une fois ; sinon TERMINE en signalant « PUSH ÉCHOUÉ » avec le
+   résumé des changements — ne force jamais.
    Le push déclenche le déploiement GitHub Pages (workflow pages.yml, qui re-vérifie la QA).
 7. Termine par un résumé : alertes nouvelles/changées/levées (avec clés), zones couvertes,
    décompte de recherches.
