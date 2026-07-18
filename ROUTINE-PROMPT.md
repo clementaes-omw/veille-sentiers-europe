@@ -24,10 +24,13 @@ défini dans agent-prompt.md, à la lettre :
 5. Boucle qualité : `python3 site/build_site.py` — corrige les DONNÉES jusqu'à
    « OK (QA passée) ». Jamais de publication en échec ; bug du générateur → signale-le
    sans le modifier.
-6. Commit + push sur main : `git add livrables referentiel site/index.html` puis
-   `git commit -m "veille: digest du <date>"` puis `git push origin main`. Si le push échoue
-   (authentification), réessaie une fois ; sinon TERMINE en signalant « PUSH ÉCHOUÉ » avec le
-   résumé des changements — ne force jamais.
-   Le push déclenche le déploiement GitHub Pages (workflow pages.yml, qui re-vérifie la QA).
+6. PUBLICATION (flux PR — le push direct sur main est interdit aux routines cloud) :
+   a. `git checkout -b claude/veille-<date>`, commit (`veille: digest du <date>`), push de la branche.
+   b. `gh pr create --base main --title "veille: digest du <date>"` puis fusion immédiate
+      `gh pr merge --squash --delete-branch`. Fusion impossible → laisser la PR ouverte et
+      signaler « PR OUVERTE NON FUSIONNÉE : <url> ».
+   c. Push de branche en 403 → signaler « PUSH ÉCHOUÉ — vérifier l'installation de l'app
+      GitHub Claude sur le repo ». Ne jamais forcer.
+   La fusion sur main déclenche le déploiement GitHub Pages (pages.yml, re-vérifie la QA).
 7. Termine par un résumé : alertes nouvelles/changées/levées (avec clés), zones couvertes,
-   décompte de recherches.
+   décompte de recherches, statut de la publication (fusionnée / PR ouverte / échec).
