@@ -107,6 +107,14 @@ Clé | Type | Portion concernée | Alternative | Zone (détails) | Itinéraires 
 - Levé/expiré → Statut `[CLÔTURÉ] (date)` — ne supprime jamais une ligne.
 - Échapper les pipes internes aux cellules avec `\|` (les clés en contiennent).
 
+MAINTENANCE DE LA BASE BIVOUAC (referentiel/bivouac.csv, 13 colonnes ;-séparées) :
+quand une alerte de catégorie « réglementation » touche le bivouac ou les feux d'un espace
+présent dans la base, METS À JOUR la ligne correspondante (conditions, source, date_source,
+date_verif) dans le même run — et cite-le dans le digest. Nouvelle réglementation d'un
+espace absent de la base → ajoute la ligne (statut FAIT uniquement si source officielle lue,
+sinon HYPOTHESE). Jamais de règle sans source datée : une info bivouac fausse = une amende
+pour un randonneur. Ne supprime jamais une ligne — corrige-la.
+
 APRÈS LE RUN — BOUCLE QUALITÉ OBLIGATOIRE : régénère le site :
   python3 site/build_site.py
 Le générateur fait son propre contrôle qualité (badges, portion/alternative vides, markdown

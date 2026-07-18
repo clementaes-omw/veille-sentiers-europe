@@ -10,6 +10,7 @@ avec le registre d'alertes rendu en cartes et les digests archivés par date.
 
 Sans dépendance. Usage : python3 build_site.py
 """
+import csv
 import html
 import json
 import re
@@ -302,12 +303,62 @@ def render_card(c) -> str:
 </article>"""
 
 
+
+# ---------------------------------------------------------------- bivouac
+
+BIV_COLS = ["pays", "zone", "nom", "type", "regle", "conditions", "feu", "sentiers",
+            "source_url", "date_source", "date_verif", "statut", "notes"]
+REGLE_META = {
+    "interdit": ("🚫", "Interdit", "haute"),
+    "tolere": ("🌙", "Toléré (conditions)", "moyenne"),
+    "autorise": ("✅", "Autorisé", "ok"),
+    "variable": ("⚖️", "Variable / droit commun", "info"),
+}
+
+
+def load_bivouac():
+    p = HERE.parent / "referentiel" / "bivouac.csv"
+    if not p.exists():
+        return []
+    rows = list(csv.reader(p.open(encoding="utf-8"), delimiter=";"))
+    out = []
+    for r in rows[1:]:
+        if len(r) >= 13 and r[0].strip():
+            out.append(dict(zip(BIV_COLS, [c.strip() for c in r])))
+    order = {"FR": 0, "CH": 1, "IT": 2, "AT": 3, "DE": 4, "ES": 5, "PT": 6}
+    out.sort(key=lambda b: (order.get(b["pays"], 9), b["nom"]))
+    return out
+
+
+def render_bivouac_card(b) -> str:
+    emoji, label, cls = REGLE_META.get(b["regle"], ("⚖️", b["regle"], "info"))
+    searchable = fold_txt(" ".join([b["nom"], b["sentiers"], b["zone"], b["pays"], b["conditions"]]))
+    searchable = re.sub(r"[*`~\[\]\\]", "", searchable)
+    hyp = ('<span class="tag hypo">HYPOTHÈSE</span> ' if b["statut"].upper().startswith("HYPO") else "")
+    src = b["source_url"]
+    src_html = (f'<a href="{html.escape(src, quote=True)}" target="_blank" rel="noopener">'
+                f'{html.escape(src.split("/")[2] if "://" in src else src)}</a>') if src else "—"
+    notes = f'<p class="meta">{inline(b["notes"])}</p>' if b["notes"] else ""
+    return f"""<article class="card bcard {cls}" data-bsearch="{html.escape(searchable, quote=True)}" data-regle="{b["regle"]}">
+  <div class="card-top">
+    <span class="badge itin">{html.escape(b["pays"])}</span>
+    <span class="badge sev-{'haute' if cls=='haute' else 'moyenne' if cls=='moyenne' else 'info' if cls=='info' else 'ok'}">{emoji} {label}</span>
+    <span class="type">{html.escape(b["type"])}</span>
+  </div>
+  <p class="bname"><strong>{inline(b["nom"])}</strong></p>
+  <p class="portion">{hyp}{inline(b["conditions"])}</p>
+  <p class="alt"><span class="alt-label">Feux</span> {inline(b["feu"] or "non précisé")}</p>
+  {notes}
+  <p class="meta dates"><span>{inline(b["sentiers"])}</span><span class="sep">·</span>source du {html.escape(b["date_source"])}<span class="sep">·</span>vérifié le {html.escape(b["date_verif"])}</p>
+  <p class="meta sources">Source : {src_html}</p>
+</article>"""
+
 # ---------------------------------------------------------------- contrôle qualité
 
 BADGE_INTERDITS = ["[", "]", "HYPOTH", "Aucun", "P1 ;", "à préciser", "recouper"]
 
 
-def qa_check(cards, page: str):
+def qa_check(cards, page: str, bivouac=None):
     """Valide le rendu AVANT publication. Toute violation = build en échec (exit 2).
     C'est la boucle demandée : build → QA → correction → rebuild jusqu'à 0 violation."""
     errs = []
@@ -342,14 +393,25 @@ def qa_check(cards, page: str):
     if n_details != len(cards):
         errs.append(f"[structure] {n_details} volets <details> pour {len(cards)} cartes "
                     f"(attendu {len(cards)})")
-    if page.count('class="meta sources"') != len(cards):
-        errs.append("[structure] ligne Sources manquante sur au moins une carte")
-    if page.count('class="meta dates"') != len(cards):
-        errs.append("[structure] ligne validité/dates manquante sur au moins une carte")
+    n_biv = len(bivouac or [])
+    if page.count('class="meta sources"') != len(cards) + n_biv:
+        errs.append("[structure] ligne Sources manquante sur au moins une carte/fiche")
+    if page.count('class="meta dates"') != len(cards) + n_biv:
+        errs.append("[structure] ligne validité/dates manquante sur au moins une carte/fiche")
     if 'id="q"' not in page or 'id="noresult"' not in page:
         errs.append("[structure] recherche sentier absente")
     if page.count("<title>") != 1:
         errs.append("[structure] balise <title> manquante ou dupliquée")
+    for b in (bivouac or []):
+        ref = f"bivouac:{b['nom'][:40]}"
+        if b["regle"] not in REGLE_META:
+            errs.append(f"[bivouac] règle inconnue « {b['regle']} » pour {ref}")
+        if not b["source_url"].strip():
+            errs.append(f"[bivouac] source manquante pour {ref}")
+        if not b["conditions"].strip():
+            errs.append(f"[bivouac] conditions vides pour {ref}")
+        if b["statut"].upper() not in ("FAIT", "HYPOTHESE", "HYPOTHÈSE"):
+            errs.append(f"[bivouac] statut invalide « {b['statut']} » pour {ref}")
     return errs
 
 
@@ -360,6 +422,7 @@ def build():
 
     digests = sorted(LIVRABLES.glob("digest_*.md"), reverse=True)
 
+    bivouac = load_bivouac()
     reg_md = (LIVRABLES / "alertes-actives.md").read_text(encoding="utf-8")
     cards, reg_rest = parse_registre(reg_md)
     actives = [c for c in cards if "CLÔTURÉ" not in c["statut"].upper()]
@@ -407,6 +470,30 @@ def build():
 <h2 class="digest-title">{fr_date(iso)}</h2>
 {body}
 </section>""")
+
+    bivouac_section = ""
+    if bivouac:
+        bcards = "\n".join(render_bivouac_card(b) for b in bivouac)
+        bcounts = {}
+        for b in bivouac:
+            bcounts[b["regle"]] = bcounts.get(b["regle"], 0) + 1
+        bchips = f'<button class="cat bcat active" data-regle="">Toutes <span>{len(bivouac)}</span></button>'
+        for slug, (emoji, label, _c) in REGLE_META.items():
+            n = bcounts.get(slug, 0)
+            if n:
+                bchips += (f'<button class="cat bcat" data-regle="{slug}">{emoji} {html.escape(label)} '
+                           f'<span>{n}</span></button>')
+        bivouac_section = f"""<section id="bivouac" class="view" hidden>
+  <p class="eyebrow">Base de référence · {len(bivouac)} espaces &amp; règles</p>
+  <h2 class="reg-title">Bivouac &amp; réglementation</h2>
+  <p class="disclaimer">Les règles évoluent par arrêté : vérifiez toujours la source officielle avant de partir.
+  Une alerte active peut temporairement durcir une règle (voir l'onglet Alertes).</p>
+  <div class="cats" role="group" aria-label="Filtrer par règle">{bchips}</div>
+  <div class="cards">
+  {bcards}
+  </div>
+  <p id="bnoresult" class="noresult" hidden>Aucune fiche pour cette recherche.</p>
+</section>"""
 
     built = datetime.now().strftime("%d/%m/%Y %H:%M")
     n_dig = len(digests)
@@ -536,6 +623,10 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .card.moyenne {{ border-left-color: var(--moy); }}
 .card.info {{ border-left-color: var(--info); }}
 .card.clos {{ opacity: .75; }}
+.card.ok {{ border-left-color: var(--pine); }}
+.badge.sev-ok {{ background: var(--pine-soft); color: var(--pine); }}
+.bname {{ margin: 0 0 6px; font-size: 1.02rem; }}
+.disclaimer {{ color: var(--ink-2); font-size: .85rem; font-style: italic; max-width: 80ch; }}
 .card-top {{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }}
 .badge {{ font-size: .7rem; font-weight: 700; letter-spacing: .04em;
   padding: 2px 8px; border-radius: 5px; }}
@@ -608,6 +699,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
            aria-label="Rechercher les alertes par sentier">
   </div>
   <button class="navlink registre active" data-view="registre">Alertes actives</button>
+  {'<button class="navlink registre" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
   {'<p class="rail-label">Digests quotidiens</p>' if nav_items else ''}
   {"".join(nav_items)}
 </nav>
@@ -632,6 +724,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
   </div>
 </section>
 
+{bivouac_section}
 {"".join(sections)}
 </main>
 </div>
@@ -659,7 +752,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
   }});
 
   var q = document.getElementById('q');
-  var cards = document.querySelectorAll('.card');
+  var cards = document.querySelectorAll('.card:not(.bcard)');
   var noresult = document.getElementById('noresult');
   var catBtns = document.querySelectorAll('.cat');
   var curCat = '';
@@ -678,8 +771,36 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
     noresult.hidden = !((v || curCat) && hits === 0);
   }}
   q.addEventListener('input', function () {{
-    if (fold(q.value) && document.getElementById('registre').hidden) show('registre');
+    var biv = document.getElementById('bivouac');
+    var onBivouac = biv && !biv.hidden;
+    if (fold(q.value) && document.getElementById('registre').hidden && !onBivouac) show('registre');
     applyFilters();
+    applyBivouacFilters();
+  }});
+  var bcards = document.querySelectorAll('.bcard');
+  var bnoresult = document.getElementById('bnoresult');
+  var bcatBtns = document.querySelectorAll('.bcat');
+  var curRegle = '';
+  function applyBivouacFilters() {{
+    if (!bcards.length) return;
+    var v = fold(q.value);
+    var hits = 0;
+    bcards.forEach(function (c) {{
+      var ok = (!v || (c.dataset.bsearch || '').indexOf(v) !== -1)
+            && (!curRegle || c.dataset.regle === curRegle);
+      c.style.display = ok ? '' : 'none';
+      if (ok) hits++;
+    }});
+    if (bnoresult) bnoresult.hidden = !((v || curRegle) && hits === 0);
+  }}
+  bcatBtns.forEach(function (b) {{
+    b.addEventListener('click', function () {{
+      curRegle = (curRegle === b.dataset.regle) ? '' : b.dataset.regle;
+      bcatBtns.forEach(function (x) {{
+        x.classList.toggle('active', x.dataset.regle === curRegle || (!curRegle && !x.dataset.regle));
+      }});
+      applyBivouacFilters();
+    }});
   }});
   catBtns.forEach(function (b) {{
     b.addEventListener('click', function () {{
@@ -694,7 +815,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
 }})();
 </script>
 """
-    errs = qa_check(cards, page)
+    errs = qa_check(cards, page, bivouac)
     if errs:
         print(f"QA ÉCHEC — {len(errs)} violation(s), site NON écrit :", file=sys.stderr)
         for e in errs:
