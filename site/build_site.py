@@ -24,7 +24,7 @@ LIVRABLES = HERE.parent / "livrables"
 OUT = HERE / "index.html"
 # Analytics (Umami Cloud, sans cookies — pas de bannière RGPD nécessaire).
 # Renseigner le website ID fourni par cloud.umami.is pour activer ; vide = pas de script.
-UMAMI_WEBSITE_ID = ""
+UMAMI_WEBSITE_ID = "135c550a-aa46-47be-9e60-f5b5c936eb52"
 CATEGORIES = json.loads(
     (HERE.parent / "referentiel" / "categories.json").read_text(encoding="utf-8"))["categories"]
 
