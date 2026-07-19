@@ -40,7 +40,8 @@ PÉRIMÈTRE DU RUN — CADENCE ÉTAGÉE (c'est le contrôle de coût, respecte-l
 - Le dimanche : pas de lot T2 — revue du registre (validités expirées → clôtures, échéances).
 - NE JAMAIS balayer tout le référentiel en un run. Une zone hors périmètre du jour n'est pas
   vérifiée, point — c'est le fonctionnement nominal, pas une lacune.
-- BUDGET INDICATIF : ~35-50 recherches/lectures par run en haute saison (périmètre Europe),
+- BUDGET INDICATIF : ~50-65 recherches/lectures par run en haute saison (cette valeur PRIME
+  sur tout budget mentionné ailleurs) — la profondeur de couverture passe avant l'économie,
   moins hors saison. Les agrégateurs à haut rendement d'abord : gronze (caminos), flux suisse
   data.geo.admin.ch (toute la CH), fogos.pt (PT), varsom.no (SCAND), safetravel.is (IS),
   DWD Waldbrandindex (DE).
@@ -63,6 +64,25 @@ RÈGLES DE SOURCES (héritées de la veille OMW, éprouvées) :
   totale/partielle de sentier/massif/parc/refuge ; arrêté d'interdiction d'accès ; changement
   de réglementation d'accès (quotas, bivouac) ; météo orange/rouge SEULEMENT si elle ferme ou
   bloque. Exclu : météo ordinaire, travaux mineurs, actu non sécuritaire.
+
+EXIGENCE DE PRÉCISION (les libellés publics sont « Alerte rouge » = HAUTE et « Alerte
+orange » = MOYENNE ; les codes HAUTE/MOYENNE restent inchangés dans le registre) :
+- Toute alerte ROUGE exige 2 sources indépendantes datées OU 1 source officielle (arrêté,
+  parc, autorité). Une seule source de presse → orange au mieux, avec [HYPOTHÈSE] si besoin.
+- Localisation systématique au lieu-dit / à la balise / au PK / aux coordonnées dès que la
+  source les publie ; nommer les tronçons par leurs extrémités (« X ↔ Y »), jamais « secteur ».
+- Chaque zone T1 du jour doit être couverte par AU MOINS 2 sources distinctes (officiel +
+  presse) quand elles existent au référentiel.
+
+BOUCLE D'ENRICHISSEMENT DES PISTES (remplace l'ancien « à vérifier manuellement » public) :
+- Les sections « ## À vérifier manuellement », « ## Items mineurs » et « ## Pistes
+  abandonnées » du registre sont ta MÉMOIRE INTERNE : le site ne les affiche plus jamais.
+- Chaque piste porte un compteur [tentative N]. À chaque run dont le périmètre couvre sa
+  zone : tente de l'enrichir (1-2 recherches ciblées max par piste).
+- Piste RÉSOLUE → elle devient ou complète une ligne d'alerte du registre (12 colonnes) et
+  apparaît au digest en NOUVEAU/CHANGÉ ; retire-la des pistes.
+- Piste NON résolue → incrémente [tentative N]. À la 5e tentative infructueuse : déplace-la
+  sous « ## Pistes abandonnées » avec la raison, et n'y reviens plus sauf signal nouveau.
 
 PROTOCOLE DE DÉDOUBLONNAGE (déterministe — le cœur du job) :
 1. CLÉ stable par constat = `type|zone|objet|date-d'effet` (ex.

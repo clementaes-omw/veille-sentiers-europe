@@ -114,6 +114,9 @@ vérif » mise à jour. Les items expirés/levés passent en [CLÔTURÉ] (date),
 - **Camino Primitivo — Pico del Hospital (Allande)** : non re-vérifié ce run (zone ES-NORTE, T2, hors périmètre dimanche) — à confirmer au prochain passage ES-NORTE. [ajouté 17/07]
 - **Ourense / Sanabrés (variante Verín)** : petits focos Maside, Untes, Medeiros-Monterrei (11-13/07) — faible ampleur, à re-balayer au prochain run ES-GAL. [ajouté 17/07]
 
+## Pistes abandonnées
+(vide)
+
 ## Notes
 - TYPE : réglementation / fermeture massif / reroutage / refuge / risque feu / accès.
 - SÉVÉRITÉ : haute (bloque une étape ou interdiction) / moyenne / info.

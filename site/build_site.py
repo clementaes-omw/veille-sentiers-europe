@@ -267,7 +267,7 @@ def render_card(c) -> str:
     statut_txt = c["statut"]
     closed = "CLÔTURÉ" in statut_txt.upper()
     sev = "clos" if closed else sev_class(c["sev"])
-    sev_label = {"haute": "Sévérité haute", "moyenne": "Sévérité moyenne",
+    sev_label = {"haute": "Alerte rouge", "moyenne": "Alerte orange",
                  "info": "Info", "clos": "Clôturée"}[sev]
     changed = "CHANGÉ" in statut_txt
     chips = ""
@@ -288,7 +288,7 @@ def render_card(c) -> str:
     return f"""<article class="card {sev}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
   <div class="card-top">
     <span class="badge itin">{html.escape(itin_badge(c))}</span>
-    <span class="badge sev-{sev}" title="Sévérité : haute = étape bloquée ou interdiction · moyenne = impact réel sans blocage · info = à savoir">{sev_label}</span>
+    <span class="badge sev-{sev}" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">{sev_label}</span>
     {chips}
     <span class="type">{inline(c["type"])}</span>
   </div>
@@ -448,10 +448,8 @@ def build():
         if n:
             cats_html += (f'<button class="cat" data-cat="{cat["slug"]}">'
                           f'{cat["emoji"]} {html.escape(cat["label"])} <span>{n}</span></button>')
-    # annexes du registre (items mineurs, à vérifier, notes) sans le préambule
-    rest_lines = reg_rest.splitlines()
-    annex_start = next((i for i, l in enumerate(rest_lines) if l.startswith("## ")), len(rest_lines))
-    annexes_html = md_to_html("\n".join(rest_lines[annex_start:]))
+    # Les sections annexes du registre (Items mineurs, À vérifier manuellement, Pistes
+    # abandonnées, Notes) sont la MÉMOIRE INTERNE de l'agent : jamais rendues sur le site.
 
     if digests:
         latest_iso = digests[0].stem.replace("digest_", "")
@@ -687,7 +685,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
     <p class="tagline">Alertes fermetures, sécurité et règlementation sur les GR®, chemins de Compostelle, grands itinéraires d'Europe</p>
   </div>
   <div class="mast-stats">
-    <div class="stat warn"><b>{len(hautes)}</b><span>sévérité haute</span></div>
+    <div class="stat warn"><b>{len(hautes)}</b><span>alertes rouges</span></div>
     <div class="stat"><b>{len(actives)}</b><span>alertes actives</span></div>
   </div>
 </header>
@@ -718,9 +716,6 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
   <h3 class="bloc">Alertes clôturées</h3>
   <div class="cards">
   {closed_html}
-  </div>
-  <div class="annexes">
-  {annexes_html}
   </div>
 </section>
 
