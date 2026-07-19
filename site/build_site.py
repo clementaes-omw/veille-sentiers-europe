@@ -22,6 +22,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 LIVRABLES = HERE.parent / "livrables"
 OUT = HERE / "index.html"
+# Analytics (Umami Cloud, sans cookies — pas de bannière RGPD nécessaire).
+# Renseigner le website ID fourni par cloud.umami.is pour activer ; vide = pas de script.
+UMAMI_WEBSITE_ID = ""
 CATEGORIES = json.loads(
     (HERE.parent / "referentiel" / "categories.json").read_text(encoding="utf-8"))["categories"]
 
@@ -405,6 +408,8 @@ def qa_check(cards, page: str, bivouac=None):
         errs.append("[structure] ligne validité/dates manquante sur au moins une carte/fiche")
     if 'id="q"' not in page or 'id="noresult"' not in page:
         errs.append("[structure] recherche sentier absente")
+    if UMAMI_WEBSITE_ID and UMAMI_WEBSITE_ID not in page:
+        errs.append("[analytics] website ID configuré mais script absent de la page")
     if page.count("<title>") != 1:
         errs.append("[structure] balise <title> manquante ou dupliquée")
     for b in (bivouac or []):
@@ -501,7 +506,10 @@ def build():
     built = datetime.now().strftime("%d/%m/%Y %H:%M")
     n_dig = len(digests)
 
+    analytics = (f'<script defer src="https://cloud.umami.is/script.js" '
+                 f'data-website-id="{UMAMI_WEBSITE_ID}"></script>' if UMAMI_WEBSITE_ID else "")
     page = f"""<title>Alertes Rando</title>
+{analytics}
 <style>
 :root {{
   --paper: #faf9f5; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
