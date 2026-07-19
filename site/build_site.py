@@ -274,9 +274,14 @@ def render_card(c) -> str:
     if changed and not closed:
         chips += ('<span class="chip changed" title="Alerte déjà connue dont la situation a '
                   'évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>')
-    dates = (f'<span title="Première détection">détectée {fr_date(c["detection"][:10], True) if re.match(r"^\d{4}-\d{2}-\d{2}", c["detection"]) else html.escape(c["detection"][:16])}</span>'
+    iso_re = re.compile(r"^\d{4}-\d{2}-\d{2}")
+    det_txt = (fr_date(c["detection"][:10], True) if iso_re.match(c["detection"])
+               else html.escape(c["detection"][:16]))
+    ver_txt = (fr_date(c["verif"][:10], True) if iso_re.match(c["verif"])
+               else html.escape(c["verif"][:16]))
+    dates = (f'<span title="Première détection">détectée {det_txt}</span>'
              f'<span class="sep">·</span>'
-             f'<span title="Dernière vérification">vérifiée {fr_date(c["verif"][:10], True) if re.match(r"^\d{4}-\d{2}-\d{2}", c["verif"]) else html.escape(c["verif"][:16])}</span>')
+             f'<span title="Dernière vérification">vérifiée {ver_txt}</span>')
     searchable = re.sub(r"[*`~\[\]\\]|\([^)]*\)$", "",
                         " ".join([c["itin"], c["portion"], c["zone"]]))
     searchable = unicodedata.normalize("NFD", searchable)
