@@ -255,15 +255,30 @@ def clamp_word(s: str, n: int = 22) -> str:
     return (cut or s[:n]) + "…"
 
 
-def itin_badge(c) -> str:
-    """Badge sentier : 1er nom de sentier reconnu dans Itinéraires puis Portion ;
-    repli = segment zone de la clé. Jamais de troncature en plein mot."""
+def itin_badges(c) -> list:
+    """Badges sentiers : TOUS les sentiers reconnus dans Itinéraires (puis Portion en
+    repli), dédoublonnés, hors mentions « non concerné » ; repli = zone de la clé."""
+    seen = []
     for text in (c["itin"], c["portion"]):
-        m = TRAIL_RE.search(text)
-        if m:
-            return clamp_word(m.group(0).replace("GR ", "GR"))
-    parts = c["cle"].split("|")
-    return clamp_word(parts[1] if len(parts) > 1 else c["itin"], 20) or "—"
+        for m in TRAIL_RE.finditer(text):
+            suite = text[m.end():m.end() + 40]
+            if re.match(r"\s*(\([^)]*\))?\s*(NON|non) concern", suite):
+                continue
+            b = clamp_word(m.group(0).replace("GR ", "GR"))
+            if b not in seen:
+                seen.append(b)
+        if seen:
+            break
+    if not seen:
+        parts = c["cle"].split("|")
+        seen = [clamp_word(parts[1] if len(parts) > 1 else c["itin"], 20) or "—"]
+    if len(seen) > 5:
+        seen = seen[:5] + [f"+{len(seen) - 5}"]
+    return seen
+
+
+def itin_badge(c) -> str:
+    return itin_badges(c)[0]
 
 
 def render_card(c) -> str:
@@ -293,9 +308,11 @@ def render_card(c) -> str:
     alt = c["alternative"] or "Aucune alternative connue à ce jour."
     cat = categorize(c)
     cat_slug = cat["slug"] if cat else "inconnue"
+    badges_html = "\n    ".join(f'<span class="badge itin">{html.escape(b)}</span>'
+                                for b in itin_badges(c))
     return f"""<article class="card {sev}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
   <div class="card-top">
-    <span class="badge itin">{html.escape(itin_badge(c))}</span>
+    {badges_html}
     <span class="badge sev-{sev}" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">{sev_label}</span>
     {chips}
     <span class="type">{inline(c["type"])}</span>
@@ -372,13 +389,13 @@ def qa_check(cards, page: str, bivouac=None):
     errs = []
     for c in cards:
         ref = c["cle"][:60]
-        b = itin_badge(c)
-        if not b or b == "—":
-            errs.append(f"[badge] vide pour {ref}")
-        if any(f in b for f in BADGE_INTERDITS):
-            errs.append(f"[badge] fragment interdit « {b} » pour {ref}")
-        if len(b) > 24:
-            errs.append(f"[badge] trop long ({len(b)}) « {b} » pour {ref}")
+        for b in itin_badges(c):
+            if not b or b == "—":
+                errs.append(f"[badge] vide pour {ref}")
+            if any(f in b for f in BADGE_INTERDITS):
+                errs.append(f"[badge] fragment interdit « {b} » pour {ref}")
+            if len(b) > 24:
+                errs.append(f"[badge] trop long ({len(b)}) « {b} » pour {ref}")
         if not c["portion"].strip():
             errs.append(f"[portion] vide pour {ref}")
         if not c["alternative"].strip():
