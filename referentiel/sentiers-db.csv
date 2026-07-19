@@ -854,3 +854,12 @@ E9;Sentier européen E9 (Portugal – Espagne – France – Angleterre – Belg
 E10;Sentier européen E10 (Finlande – Allemagne – République tchèque – Autriche – Italie – France…);E-PATH;FI/DE/CZ/AT/IT/FR/ES;EU-MULTI;P3;wikipedia:E-paths;"2880 km ; suit des tronçons nationaux (GR/national trails)"
 E11;Sentier européen E11 (Pays-Bas – Allemagne – Pologne);E-PATH;NL/DE/PL;EU-MULTI;P3;wikipedia:E-paths;"2070 km ; suit des tronçons nationaux (GR/national trails)"
 E12;Sentier européen E12 (Espagne – France – Italie);E-PATH;ES/FR/IT;EU-MULTI;P3;wikipedia:E-paths;"1600 km ; suit des tronçons nationaux (GR/national trails)"
+JULIANA-TRAIL;Juliana Trail (tour du Triglav);NATIONAL;SI;SI-HR;P2;curated;
+VIA-DINARICA;Via Dinarica — White Trail (tronçon SI/HR);GR-INT;SI/HR/BA;SI-HR;P2;curated;tronçons balkaniques hors zones
+PREMUZICEVA;Premužićeva staza (Velebit);NATIONAL;HR;SI-HR;P3;curated;
+E4-CRETE;E4 — traversée de la Crète;E-PATH;GR;GR-E4;P2;curated;Samaria, Lefka Ori
+MENALON;Menalon Trail (Péloponnèse);NATIONAL;GR;GR-E4;P3;curated;
+ORLA-PERC;Orla Perć + sentiers TPN (Tatras polonaises);NATIONAL;PL;PL-SK-TATRAS;P2;curated;fermetures fréquentes
+TATRANSKA-MAG;Tatranská magistrála (Tatras slovaques);NATIONAL;SK;PL-SK-TATRAS;P3;curated;
+CAPE-WRATH;Cape Wrath Trail (Écosse);NATIONAL;UK;UK-IE;P3;curated;
+SKYE-TRAIL;Skye Trail (Écosse);NATIONAL;UK;UK-IE;P3;curated;
