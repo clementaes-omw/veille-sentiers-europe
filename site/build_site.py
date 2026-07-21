@@ -599,8 +599,8 @@ header.mast {{ display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap;
 h1 {{ font-family: var(--sans); font-weight: 800; font-size: clamp(2.3rem, 6.5vw, 4rem);
   letter-spacing: -.055em; margin: 0; line-height: 1.02; text-wrap: balance; }}
 .tagline {{ margin: 10px 0 0; color: var(--ink); font-family: var(--mono);
-  font-size: .95rem; max-width: 46em; }}
-.mast-stats {{ margin-left: auto; display: flex; gap: 24px; padding-bottom: 4px; }}
+  font-size: .95rem; max-width: 40em; }}
+.mast-stats {{ margin-left: 40px; display: flex; gap: 24px; padding-bottom: 4px; }}
 .stat {{ text-align: right; }}
 .stat b {{ display: block; font-family: var(--mono); font-weight: 700; font-size: 2.4rem;
   letter-spacing: -.03em; font-variant-numeric: tabular-nums; line-height: 1.05; }}
