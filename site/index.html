@@ -44,6 +44,14 @@ code { font-family: var(--mono); font-size: .85em; background: var(--panel);
 del { color: var(--ink-2); }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px 60px; }
 
+.topnav { border-bottom: 1.5px solid var(--ink); background: var(--paper); }
+.topnav .nav-in { max-width: 1180px; margin: 0 auto; padding: 12px 20px; display: flex;
+  justify-content: space-between; align-items: center; gap: 20px; overflow-x: auto; }
+.topnav .navlink { display: inline-flex; padding: 2px 0; border-left: 0; border-radius: 0;
+  border-bottom: 2px solid transparent; white-space: nowrap; }
+.topnav .navlink:hover { background: none; }
+.topnav .navlink.active { border-bottom-color: var(--haute); background: none; }
+
 nav.rail { position: sticky; top: 16px; align-self: start; display: flex;
   flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }
 .rail-label { font-family: var(--mono); font-weight: 700; font-size: .64rem;
@@ -175,6 +183,7 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink)
   text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap; }
 
 @media (max-width: 760px) {
+  .topnav .nav-in { justify-content: flex-start; gap: 16px; }
   .layout { display: block; }
   nav.rail { position: static; flex-direction: row; align-items: center;
     max-height: none; overflow-x: auto; padding-bottom: 10px; margin-bottom: 14px;
@@ -193,6 +202,14 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink)
 }
 </style>
 
+<nav class="topnav" aria-label="Navigation">
+  <div class="nav-in">
+    <button class="navlink active" data-view="registre">Alertes actives</button>
+    <button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>
+    <button class="navlink" data-view="apropos">À propos</button>
+  </div>
+</nav>
+
 <div class="wrap">
 <header class="mast">
   <div>
@@ -206,14 +223,11 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink)
 </header>
 
 <div class="layout">
-<nav class="rail" aria-label="Navigation">
+<nav class="rail" aria-label="Recherche et digests">
   <div class="search">
     <input type="search" id="q" placeholder="Rechercher un sentier…"
            aria-label="Rechercher les alertes par sentier">
   </div>
-  <button class="navlink active" data-view="registre">Alertes actives</button>
-  <button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>
-  <button class="navlink" data-view="apropos">À propos</button>
   <p class="rail-label">Digests quotidiens</p>
   <button class="navlink" data-view="d-2026-07-21">21 juil.<span class="yr">2026</span></button><button class="navlink" data-view="d-2026-07-20">20 juil.<span class="yr">2026</span></button><button class="navlink" data-view="d-2026-07-19">19 juil.<span class="yr">2026</span></button><button class="navlink" data-view="d-2026-07-18">18 juil.<span class="yr">2026</span></button><button class="navlink" data-view="d-2026-07-17">17 juil.<span class="yr">2026</span></button>
 </nav>
@@ -2493,7 +2507,7 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink)
 </div>
 
 <footer>
-  <span>Généré le 21/07/2026 08:42</span><span>·</span>
+  <span>Généré le 21/07/2026 08:49</span><span>·</span>
   <span>alertes-rando.info — veille quotidienne automatisée</span><span>·</span>
   <span>État au 21 juillet 2026</span>
 </footer>
