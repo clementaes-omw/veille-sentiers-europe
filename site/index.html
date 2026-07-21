@@ -1,14 +1,19 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Alertes Rando</title>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="135c550a-aa46-47be-9e60-f5b5c936eb52"></script>
 <style>
+@font-face { font-family: "Roboto"; src: url(fonts/Roboto-var.woff2) format("woff2");
+  font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Roboto Mono"; src: url(fonts/RobotoMono-var.woff2) format("woff2");
+  font-weight: 100 700; font-display: swap; }
 :root {
-  --paper: #faf9f5; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
+  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
   --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
   --haute: #b3362b; --haute-bg: #f6e7e4; --moy: #a86a1f; --moy-bg: #f4ecdd;
   --info: #4a6478; --info-bg: #e7edf1; --clos: #8a8f86; --clos-bg: #ecebe5;
-  --serif: "Iowan Old Style", "Palatino Nova", Palatino, "Palatino Linotype", Georgia, serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --sans: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "Roboto Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,7 +24,7 @@
   }
 }
 :root[data-theme="light"] {
-  --paper: #faf9f5; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
+  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
   --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
   --haute: #b3362b; --haute-bg: #f6e7e4; --moy: #a86a1f; --moy-bg: #f4ecdd;
   --info: #4a6478; --info-bg: #e7edf1; --clos: #8a8f86; --clos-bg: #ecebe5;
@@ -37,48 +42,41 @@ a { color: var(--pine); }
 code { font-family: var(--mono); font-size: .85em; background: var(--panel);
   padding: 1px 5px; border-radius: 4px; }
 del { color: var(--ink-2); }
-.wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 20px 60px; }
 
-header.mast { display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
-  padding: 26px 0 18px; border-bottom: 2px solid var(--ink); }
-.waymark { width: 34px; height: 26px; border-radius: 3px; overflow: hidden;
-  box-shadow: 0 0 0 1px var(--line); flex: none; display: flex; flex-direction: column; }
-.waymark .w { flex: 1; background: #fff; }
-.waymark .r { flex: 1; background: #c0392b; }
-h1 { font-family: var(--serif); font-size: clamp(1.5rem, 3.5vw, 2.1rem);
-  margin: 0; line-height: 1.15; text-wrap: balance; }
-h1 .amp { color: var(--pine); font-style: italic; }
-.tagline { margin: 2px 0 0; color: var(--ink-2); font-size: .92rem; }
-.mast-stats { margin-left: auto; display: flex; gap: 22px; }
-.stat { text-align: right; }
-.stat b { display: block; font-family: var(--serif); font-size: 1.5rem;
-  font-variant-numeric: tabular-nums; line-height: 1.1; }
-.stat.warn b { color: var(--haute); }
-.stat span { font-size: .72rem; text-transform: uppercase; letter-spacing: .07em;
-  color: var(--ink-2); }
-
-.layout { display: grid; grid-template-columns: 210px 1fr; gap: 36px; padding-top: 26px; }
-nav.rail { position: sticky; top: 16px; align-self: start; display: flex;
-  flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }
-.rail-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
-  color: var(--ink-2); margin: 14px 0 5px; }
-.navlink { display: flex; justify-content: space-between; align-items: baseline;
-  gap: 8px; text-align: left; border: 0; background: none; color: var(--ink);
-  font: inherit; font-size: .93rem; padding: 6px 10px; border-radius: 6px;
-  cursor: pointer; border-left: 3px solid transparent; }
-.navlink .yr { color: var(--ink-2); font-size: .72rem; font-family: var(--mono); }
-.navlink:hover { background: var(--panel); }
-.navlink.active { background: var(--pine-soft); border-left-color: var(--pine); font-weight: 600; }
-.navlink.registre { font-weight: 600; }
+.topnav { border-bottom: 1.5px solid var(--ink); background: var(--paper); }
+.topnav .nav-in { max-width: 920px; margin: 0 auto; padding: 12px 20px; display: flex;
+  justify-content: space-between; align-items: center; gap: 20px; overflow-x: auto; }
+.navlink { border: 0; background: none; cursor: pointer; font-family: var(--mono);
+  font-size: .69rem; letter-spacing: .02em; text-transform: uppercase;
+  color: var(--ink-2); padding: 2px 0; border-bottom: 2px solid transparent;
+  white-space: nowrap; }
+.navlink:hover { color: var(--ink); }
+.navlink.active { color: var(--ink); font-weight: 500; border-bottom-color: var(--haute); }
 .navlink:focus-visible { outline: 2px solid var(--pine); outline-offset: 1px; }
 
+header.mast { display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap;
+  padding: 26px 0 0; }
+h1 { font-family: var(--sans); font-weight: 800; font-size: clamp(2.3rem, 6.5vw, 4rem);
+  letter-spacing: -.055em; margin: 0; line-height: 1.02; text-wrap: balance; }
+.tagline { margin: 10px 0 0; color: var(--ink); font-family: var(--mono);
+  font-size: .95rem; max-width: 46em; }
+.mast-stats { margin-left: auto; display: flex; gap: 24px; padding-bottom: 4px; }
+.stat { text-align: right; }
+.stat b { display: block; font-family: var(--mono); font-weight: 700; font-size: 2.4rem;
+  letter-spacing: -.03em; font-variant-numeric: tabular-nums; line-height: 1.05; }
+.stat.warn b { color: var(--haute); }
+.stat span { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
+  color: var(--ink-2); }
+
+.layout { padding-top: 4px; }
 main { min-width: 0; }
 .view > :first-child { margin-top: 0; }
-.eyebrow { font-size: .74rem; text-transform: uppercase; letter-spacing: .09em;
-  color: var(--pine); margin: 0 0 4px; font-weight: 600; }
-h2.digest-title, h2.reg-title { font-family: var(--serif); font-size: 1.7rem;
-  margin: 0 0 14px; text-wrap: balance; }
-.digest h2, .view h2 { font-family: var(--serif); }
+.eyebrow { font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--pine); margin: 0 0 4px; font-weight: 700; }
+h2.digest-title, h2.reg-title { font-family: var(--sans); font-weight: 800;
+  letter-spacing: -.03em; font-size: 1.7rem; margin: 0 0 14px; text-wrap: balance; }
+.digest h2, .view h2 { font-family: var(--sans); font-weight: 800; letter-spacing: -.02em; }
 .digest > p, .digest li, .annexes p, .annexes li { max-width: 74ch; }
 .digest h3 { font-size: 1.06rem; margin: 26px 0 8px; padding-left: 10px;
   border-left: 4px solid var(--line); line-height: 1.35; }
@@ -101,78 +99,90 @@ th { background: var(--panel); font-size: .74rem; text-transform: uppercase; let
 .tag.verif { background: var(--info-bg); color: var(--info); }
 .tag.clos { background: var(--clos-bg); color: var(--clos); }
 
-.rail .search { margin: 0 0 10px; }
-.search input { width: 100%; font: inherit; font-size: .9rem; color: var(--ink);
-  background: var(--paper); border: 1.5px solid var(--line); border-radius: 8px;
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 20px 0 0; }
+.search input { width: 200px; font-family: var(--mono); font-size: .8rem; color: var(--ink);
+  background: none; border: 1.5px solid var(--ink); border-radius: 8px;
   padding: 8px 12px; }
 .search input:focus { outline: none; border-color: var(--pine);
   box-shadow: 0 0 0 3px var(--pine-soft); }
 .search input::placeholder { color: var(--ink-2); }
 .noresult { color: var(--ink-2); font-style: italic; }
-.cats { display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0 4px; }
-.cat { font: inherit; font-size: .82rem; color: var(--ink); background: var(--panel);
-  border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
-.cat span { color: var(--ink-2); font-size: .74rem; font-variant-numeric: tabular-nums; }
-.cat:hover { border-color: var(--pine); }
+.cats { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.cat { font-family: var(--mono); font-size: .74rem; color: var(--ink); background: var(--paper);
+  border: 1px solid var(--ink); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.cat span { color: inherit; opacity: .7; font-size: .7rem; font-variant-numeric: tabular-nums; }
+.cat:hover { border-color: var(--pine); color: var(--pine); }
 .cat.active { background: var(--pine); border-color: var(--pine); color: #fff; }
-.cat.active span { color: rgba(255,255,255,.75); }
+.cat.active span { color: #fff; opacity: .8; }
 .cat:focus-visible { outline: 2px solid var(--pine); outline-offset: 1px; }
+.digbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 14px 0 0; }
+.diglabel { font-family: var(--mono); font-weight: 700; font-size: .64rem;
+  letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
+.digpill { font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
+  color: var(--ink); background: var(--paper); border: 1px solid var(--ink);
+  border-radius: 4px; padding: 3px 10px; cursor: pointer; }
+.digpill:hover { border-color: var(--pine); color: var(--pine); }
+.digpill.active { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.digpill:focus-visible { outline: 2px solid var(--pine); outline-offset: 1px; }
 .cards { display: flex; flex-direction: column; gap: 14px; margin: 18px 0 30px; }
-.card { border: 1px solid var(--line); border-left: 5px solid var(--clos);
+.card { border: 1px solid var(--clos); border-left-width: 5px;
   border-radius: 8px; padding: 14px 16px; background: var(--paper); }
-.card.haute { border-left-color: var(--haute); }
-.card.moyenne { border-left-color: var(--moy); }
-.card.info { border-left-color: var(--info); }
-.card.clos { opacity: .75; }
-.card.ok { border-left-color: var(--pine); }
+.card.haute { border-color: var(--haute); }
+.card.moyenne { border-color: var(--moy); }
+.card.info { border-color: var(--info); }
+.card.clos { opacity: .75; border-color: var(--line); }
+.card.ok { border-color: var(--pine); }
 .badge.sev-ok { background: var(--pine-soft); color: var(--pine); }
 .bname { margin: 0 0 6px; font-size: 1.02rem; }
 .disclaimer { color: var(--ink-2); font-size: .85rem; font-style: italic; max-width: 80ch; }
 .card-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
-.badge { font-size: .7rem; font-weight: 700; letter-spacing: .04em;
-  padding: 2px 8px; border-radius: 5px; }
-.badge.itin { background: var(--ink); color: var(--paper); font-family: var(--mono); }
+.badge { font-family: var(--mono); font-size: .69rem; font-weight: 700;
+  padding: 3px 8px; border-radius: 5px; }
+.badge.itin { background: var(--ink); color: var(--paper); }
 .badge.sev-haute { background: var(--haute-bg); color: var(--haute); }
 .badge.sev-moyenne { background: var(--moy-bg); color: var(--moy); }
 .badge.sev-info { background: var(--info-bg); color: var(--info); }
 .badge.sev-clos { background: var(--clos-bg); color: var(--clos); }
-.chip.changed { font-size: .7rem; font-weight: 700; color: var(--pine);
-  background: var(--pine-soft); padding: 2px 8px; border-radius: 5px; }
-.card .type { color: var(--ink-2); font-size: .8rem; }
-.card .portion { margin: 0 0 10px; font-size: .97rem; line-height: 1.5; max-width: 90ch; }
-.card .alt { margin: 0 0 10px; font-size: .92rem; max-width: 90ch;
-  padding: 8px 12px; background: var(--pine-soft); border-radius: 6px; }
-.card .alt-label { display: inline-block; font-size: .68rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: .06em; color: var(--pine);
+.chip.changed { font-family: var(--mono); font-size: .69rem; font-weight: 600;
+  color: var(--pine); background: var(--pine-soft); padding: 3px 8px; border-radius: 5px; }
+.card .type { font-family: var(--mono); color: var(--ink-2); font-size: .75rem; }
+.card .portion { margin: 0 0 10px; font-size: .94rem; letter-spacing: .02em;
+  line-height: 1.5; max-width: 90ch; }
+.card .alt { margin: 0 0 10px; font-size: .84rem; max-width: 90ch;
+  padding: 8px 12px; background: var(--ink); color: var(--paper); border-radius: 6px; }
+.card .alt a { color: var(--pine-soft); }
+.card .alt-label { display: inline-block; font-family: var(--mono); font-size: .64rem;
+  font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--paper);
   margin-right: 8px; vertical-align: 1px; }
-.card.clos .alt { background: var(--clos-bg); }
+.card.clos .alt { background: var(--clos-bg); color: var(--ink); }
+.card.clos .alt a { color: var(--pine); }
 .card.clos .alt-label { color: var(--clos); }
-.card .meta { margin: 0; color: var(--ink-2); font-size: .82rem; max-width: 90ch; }
+.card .meta { margin: 0; color: var(--ink-2); font-size: .78rem; max-width: 90ch; }
 .card .meta.dates { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); }
 .card .meta.sources { margin-top: 3px; }
 .card .meta .sep { margin: 0 6px; }
 .card details { margin-top: 10px; font-size: .88rem; }
-.card summary { cursor: pointer; color: var(--pine); font-weight: 600; font-size: .82rem; }
+.card summary { cursor: pointer; color: var(--pine); font-family: var(--mono);
+  font-weight: 600; font-size: .75rem; list-style: none; }
+.card summary::-webkit-details-marker { display: none; }
+.card summary::before { content: "> "; }
 .card details p { margin: 8px 0 0; max-width: 90ch; }
 .card .key { margin: 6px 0 0; }
 .card .key code { font-size: .72rem; color: var(--ink-2); background: none; padding: 0; }
-h3.bloc { font-family: var(--serif); font-size: 1.15rem; margin: 34px 0 4px; }
+h3.bloc { font-family: var(--sans); font-weight: 800; letter-spacing: -.02em;
+  font-size: 1.15rem; margin: 34px 0 4px; }
 .annexes h2 { font-size: 1.2rem; margin-top: 34px; }
 
-footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
-  color: var(--ink-2); font-size: .8rem; display: flex; gap: 8px; flex-wrap: wrap; }
+footer { margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink);
+  color: var(--ink-2); font-family: var(--mono); font-size: .66rem;
+  text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap; }
 
 @media (max-width: 760px) {
-  .layout { display: block; }
-  nav.rail { position: static; flex-direction: row; align-items: center;
-    max-height: none; overflow-x: auto; padding-bottom: 10px; margin-bottom: 14px;
-    border-bottom: 1px solid var(--line); }
-  .rail-label { display: none; }
-  .rail .search { flex: none; width: 200px; margin: 0 6px 0 0; }
-  .navlink { flex: none; border-left: 0; border-bottom: 3px solid transparent; border-radius: 6px 6px 0 0; }
-  .navlink.active { border-bottom-color: var(--pine); }
+  .topnav .nav-in { justify-content: flex-start; gap: 16px; }
   .mast-stats { width: 100%; margin-left: 0; justify-content: flex-start; }
   .stat { text-align: left; }
+  .search { width: 100%; }
+  .search input { width: 100%; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .view { animation: fade .18s ease; }
@@ -180,40 +190,42 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
 }
 </style>
 
+<nav class="topnav" aria-label="Navigation">
+  <div class="nav-in">
+    <button class="navlink active" data-view="registre">Alertes actives</button>
+    <button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>
+    <button class="navlink nav-dig" data-view="d-2026-07-21">Digests</button>
+  </div>
+</nav>
+
 <div class="wrap">
 <header class="mast">
-  <div class="waymark" aria-hidden="true"><span class="w"></span><span class="r"></span></div>
   <div>
-    <h1>Alertes <span class="amp">Rando</span></h1>
+    <h1>Alertes-Rando.info</h1>
     <p class="tagline">Alertes fermetures, sécurité et règlementation sur les GR®, chemins de Compostelle, grands itinéraires d'Europe</p>
   </div>
   <div class="mast-stats">
-    <div class="stat warn"><b>9</b><span>alertes rouges</span></div>
-    <div class="stat"><b>30</b><span>alertes actives</span></div>
+    <div class="stat warn"><b>12</b><span>alertes rouges</span></div>
+    <div class="stat"><b>37</b><span>alertes actives</span></div>
   </div>
 </header>
 
-<div class="layout">
-<nav class="rail" aria-label="Navigation">
+<div class="controls">
   <div class="search">
     <input type="search" id="q" placeholder="Rechercher un sentier…"
            aria-label="Rechercher les alertes par sentier">
   </div>
-  <button class="navlink registre active" data-view="registre">Alertes actives</button>
-  <button class="navlink registre" data-view="bivouac">Bivouac &amp; réglementation</button>
-  <p class="rail-label">Digests quotidiens</p>
-  <button class="navlink" data-view="d-2026-07-19">19 juil.<span class="yr">2026</span></button><button class="navlink" data-view="d-2026-07-18">18 juil.<span class="yr">2026</span></button><button class="navlink" data-view="d-2026-07-17">17 juil.<span class="yr">2026</span></button>
-</nav>
+</div>
+<div class="digbar"><span class="diglabel">Digests quotidiens →</span><button class="digpill" data-view="d-2026-07-21">21 juil. 2026</button><button class="digpill" data-view="d-2026-07-20">20 juil. 2026</button><button class="digpill" data-view="d-2026-07-19">19 juil. 2026</button><button class="digpill" data-view="d-2026-07-18">18 juil. 2026</button><button class="digpill" data-view="d-2026-07-17">17 juil. 2026</button></div>
 
+<div class="layout">
 <main>
 <section id="registre" class="view">
-  <p class="eyebrow">Dernière mise à jour : 19 juillet 2026</p>
-  <h2 class="reg-title">Alertes actives sur les sentiers</h2>
   <div class="cats" role="group" aria-label="Filtrer par catégorie">
-  <button class="cat active" data-cat="">Toutes <span>33</span></button><button class="cat" data-cat="incendie">🔥 Incendie <span>5</span></button><button class="cat" data-cat="refuge">🛖 Refuge &amp; hébergement <span>2</span></button><button class="cat" data-cat="reroutage">↔️ Reroutage <span>8</span></button><button class="cat" data-cat="risque-feu">⚠️ Risque incendie <span>12</span></button><button class="cat" data-cat="reglementation">📜 Réglementation <span>2</span></button><button class="cat" data-cat="infrastructure">🚌 Infrastructure <span>1</span></button><button class="cat" data-cat="terrain">🏔️ Terrain &amp; conditions <span>1</span></button><button class="cat" data-cat="reouverture">✅ Réouverture <span>1</span></button><button class="cat" data-cat="fermeture">🚫 Fermeture <span>1</span></button>
+  <button class="cat active" data-cat="">Toutes <span>40</span></button><button class="cat" data-cat="incendie">🔥 Incendie <span>9</span></button><button class="cat" data-cat="refuge">🛖 Refuge &amp; hébergement <span>2</span></button><button class="cat" data-cat="reroutage">↔️ Reroutage <span>9</span></button><button class="cat" data-cat="risque-feu">⚠️ Risque incendie <span>13</span></button><button class="cat" data-cat="reglementation">📜 Réglementation <span>2</span></button><button class="cat" data-cat="infrastructure">🚌 Infrastructure <span>1</span></button><button class="cat" data-cat="terrain">🏔️ Terrain &amp; conditions <span>1</span></button><button class="cat" data-cat="reouverture">✅ Réouverture <span>1</span></button><button class="cat" data-cat="fermeture">🚫 Fermeture <span>2</span></button>
   </div>
   <div class="cards">
-  <article class="card haute" data-itin="gr51 &amp; gr98 — gr98/calanques desormais ferme ; hypothese gr51 traverse la cote bleue (martigues→marseille, encore praticable) — recouper le trace massifs des bouches-du-rhone (gr98, gr51, pn des calanques, cote bleue) — 21 massifs sur 25 fermes ce dimanche 19/07, les calanques (gr98, marseille↔cassis) incluses pour la premiere fois de l&#x27;ete. seuls 4 massifs restent praticables : trevaresse et concors (jaune), l&#x27;arbois et la cote bleue (orange). raison : risque incendie tres severe a extreme (chaleur, mistral, secheresse extreme des sols). massifs bouches-du-rhone (calanques) ; episodes : 25/25 fermes 01/07, decrue 11/24 le 04/07, re-escalade 13/24 fermes 05/07, 9/26 fermes le 18/07 (calanques encore ouvertes) ; maj 19/07 (run europe) : escalade confirmee comme prevu — 21/25 massifs en acces interdit (la montagnette, rougadou, alpilles, chambremont, les roques, chaine des cotes, sainte-victoire, castillon, sulauze, pont de rhaud, collines de lancon, quatre termes, montaiguet, collines de gardanne, regagnas, etoile, garlaban, sainte-baume, calanques marseille↔cassis, grand caunet, cap canaille), verifie en html brut sur cg13.eway.fr (prevision affichee 19-07-2026) ; regime confirme strictement quotidien" data-cat="risque-feu">
+  <article class="card haute" data-itin="gr51 &amp; gr98 — gr98/calanques de nouveau ferme (rouge) ; gr51 (cote bleue) praticable avec prudence (orange, pas ferme) massifs des bouches-du-rhone (gr98, gr51, pn des calanques, cote bleue) — retournement le 21/07 : les calanques (gr98, marseille↔cassis) repassent en rouge (ferme) apres leur reouverture d&#x27;hier, 12 massifs fermes au total (les roques, chaine des cotes, castillon, sulauze, pont de rhaud, collines de lancon, quatre termes, garlaban, sainte-baume, les calanques, grand caunet, cap canaille). raison : la presse qualifie le 21/07 de « journee la plus a risque depuis le debut de l&#x27;ete » en paca (43 massifs fermes a l&#x27;echelle regionale, 22 en risque extreme). massifs bouches-du-rhone (calanques) ; episodes : 25/25 fermes 01/07, decrue 11/24 le 04/07, re-escalade 13/24 fermes 05/07, 9/26 fermes le 18/07, 21/25 fermes le 19/07, decrue a 13/26 le 20/07 (calanques rouvertes en jaune) ; maj 21/07 (run europe) : retournement confirme en direct sur cg13.eway.fr (prevision du jour 21-07-2026) — les calanques repassent en rouge (ferme), 12 massifs fermes au total, seule la cote bleue reste en orange (pas fermee), recoupe par frequence-sud.fr (publie 20/07 pour « ce mardi 21 juillet », coherence jour/date verifiee) qui parle de « parc national des calanques ferme au public » et de route des cretes cassis↔la ciotat inaccessible" data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR51</span>
     <span class="badge itin">GR98</span>
@@ -221,14 +233,14 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">accès / risque feu</span>
   </div>
-  <p class="portion">Massifs des Bouches-du-Rhône (GR98, GR51, PN des Calanques, Côte Bleue) — <strong>21 massifs sur 25 fermés ce dimanche 19/07, les Calanques (GR98, Marseille↔Cassis) incluses pour la première fois de l'été.</strong> Seuls 4 massifs restent praticables : Trévaresse et Concors (jaune), L'Arbois et la Côte Bleue (orange). Raison : risque incendie très sévère à extrême (chaleur, mistral, sécheresse extrême des sols).</p>
-  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative sur les massifs rouges ; repli possible uniquement sur Trévaresse/Concors (jaune) ou Arbois/Côte Bleue (orange) — consulter cg13.eway.fr/conditions.php avant chaque étape (attention à la date affichée, prévision J+1 possible).</p>
+  <p class="portion">Massifs des Bouches-du-Rhône (GR98, GR51, PN des Calanques, Côte Bleue) — <strong>RETOURNEMENT le 21/07 : les Calanques (GR98, Marseille↔Cassis) repassent en ROUGE (fermé) après leur réouverture d'hier</strong>, 12 massifs fermés au total (Les Roques, Chaîne des Côtes, Castillon, Sulauze, Pont de Rhaud, Collines de Lançon, Quatre Termes, Garlaban, Sainte-Baume, Les Calanques, Grand Caunet, Cap Canaille). Raison : la presse qualifie le 21/07 de « journée la plus à risque depuis le début de l'été » en PACA (43 massifs fermés à l'échelle régionale, 22 en risque extrême).</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue pour les Calanques (GR98) ; Côte Bleue (GR51) reste en orange = praticable avec prudence, pas fermée ; seuls Trévaresse et Concors/Sainte-Victoire en jaune (accès libre).</p>
   <details>
     <summary>Détails</summary>
-    <p>Massifs Bouches-du-Rhône (Calanques) ; épisodes : 25/25 fermés 01/07, décrue 11/24 le 04/07, ré-escalade 13/24 fermés 05/07, 9/26 fermés le 18/07 (Calanques encore ouvertes) ; <strong>MAJ 19/07 (run Europe) : escalade confirmée comme prévu — 21/25 massifs en accès interdit (La Montagnette, Rougadou, Alpilles, Chambremont, Les Roques, Chaîne des Côtes, Sainte-Victoire, Castillon, Sulauze, Pont de Rhaud, collines de Lançon, Quatre Termes, Montaiguet, collines de Gardanne, Régagnas, Étoile, Garlaban, Sainte-Baume, Calanques Marseille↔Cassis, Grand Caunet, Cap Canaille)</strong>, vérifié en HTML brut sur cg13.eway.fr (prévision affichée 19-07-2026) ; régime confirmé strictement quotidien</p>
+    <p>Massifs Bouches-du-Rhône (Calanques) ; épisodes : 25/25 fermés 01/07, décrue 11/24 le 04/07, ré-escalade 13/24 fermés 05/07, 9/26 fermés le 18/07, 21/25 fermés le 19/07, décrue à 13/26 le 20/07 (Calanques rouvertes en jaune) ; <strong>MAJ 21/07 (run Europe) : retournement confirmé en direct sur cg13.eway.fr (prévision du jour 21-07-2026) — les Calanques repassent en rouge (fermé), 12 massifs fermés au total, seule la Côte Bleue reste en orange (pas fermée)</strong>, recoupé par frequence-sud.fr (publié 20/07 pour « ce mardi 21 juillet », cohérence jour/date vérifiée) qui parle de « parc national des Calanques fermé au public » et de route des Crêtes Cassis↔La Ciotat inaccessible</p>
   </details>
-  <p class="meta dates"><span title="Validité">1 juin→30 sept 2026 ; code 4 couleurs + niveau extrême ; fermetures quotidiennes selon carte</span><span class="sep">·</span><span title="Première détection">détectée 1er juin</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : calanques-parcnational.fr ; bouches-du-rhone.gouv.fr ; cg13.eway.fr/conditions.php (HTML brut vérifié 19/07) ; <a href="https://www.frequence-sud.fr/art-111934-25_massifs_fermes_ce_samedi_dans_les_bouches_du_rhone__le_var__les_alpes_maritimes_et_les_alpes_de_haute_provence_region_paca" target="_blank" rel="noopener">frequence-sud 17/07 art-111934</a></p>
+  <p class="meta dates"><span title="Validité">1 juin→30 sept 2026 ; code 4 couleurs + niveau extrême ; fermetures quotidiennes selon carte</span><span class="sep">·</span><span title="Première détection">détectée 1er juin</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : calanques-parcnational.fr ; bouches-du-rhone.gouv.fr ; <a href="https://cg13.eway.fr/conditions.php" target="_blank" rel="noopener">cg13.eway.fr/conditions.php</a> (prévision du jour vérifiée 21/07) ; <a href="https://www.frequence-sud.fr" target="_blank" rel="noopener">frequence-sud.fr 20/07 — journée la plus à risque de l'été</a></p>
 </article>
 <article class="card haute" data-itin="gr70 (cevennes ouvertes) ; gr653 (secteur fourques/beaucaire, gard rhodanien) gard : zone rouge « gard rhodanien » (36 communes dont beaucaire, fourques, bagnols-sur-ceze, pont-saint-esprit) confirmee toujours active en continu — page reelle du 18/07/2026 annonce le risque tres severe pour dimanche 19/07 ; l&#x27;absence de pages indexees du 09 au 17/07 etait un trou de couverture/indexation, pas une decrue. gr70 (cevennes) toujours hors zone rouge. raison : risque incendie. gard : 05/07 = 3 zones rouges interdites (costieres-p.-camargue, gard rhodanien, garrigues — acces/circulation/presence humaine interdits) ; val de ceze et gardon vidourle sortis du rouge ; secteurs cevennes n/s pas en rouge ; maj 18/07 (run europe) : page « dimanche 19 juillet 2026 : risque incendie tres severe » (gard.gouv.fr, publiee 18/07) confirme le gard rhodanien actif en continu depuis debut juillet — corrige l&#x27;hypothese de decrue des runs 09→17/07, qui reposait sur une absence de pages indexees et non sur un retour au calme confirme" data-cat="risque-feu">
   <div class="card-top">
@@ -244,42 +256,43 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Gard : 05/07 = 3 zones rouges interdites (Costières-P.-Camargue, Gard Rhodanien, Garrigues — accès/circulation/présence humaine interdits) ; Val de Cèze et Gardon Vidourle sortis du rouge ; secteurs Cévennes N/S pas en rouge ; MAJ 18/07 (run Europe) : page « Dimanche 19 juillet 2026 : risque incendie très sévère » (gard.gouv.fr, publiée 18/07) confirme le Gard Rhodanien actif en continu depuis début juillet — <strong>corrige l'hypothèse de décrue des runs 09→17/07</strong>, qui reposait sur une absence de pages indexées et non sur un retour au calme confirmé</p>
   </details>
-  <p class="meta dates"><span title="Validité">journalière ; la préfecture 30 publie une page actualité quotidienne LISIBLE en autonome (contourne la carte JS)</span><span class="sep">·</span><span title="Première détection">détectée 4 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.gard.gouv.fr/Actualites/Dimanche-19-juillet-2026-risque-incendie-tres-severe" target="_blank" rel="noopener">gard.gouv.fr, Dimanche 19 juillet 2026</a></p>
+  <p class="meta dates"><span title="Validité">journalière ; la préfecture 30 publie une page actualité quotidienne LISIBLE en autonome (contourne la carte JS)</span><span class="sep">·</span><span title="Première détection">détectée 4 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.gard.gouv.fr/Actualites/Mardi-21-juillet-2026-risque-incendie-tres-severe" target="_blank" rel="noopener">gard.gouv.fr, Mardi 21 juillet 2026</a></p>
 </article>
-<article class="card haute" data-itin="gr20 ferme : ciottulu di i mori ↔ asco + tighjettu ↔ bergeries de ballone (etapes ascu→ciottulu, 4-5 n→s) — ap acces/circulation gr20 + foret communale d&#x27;albertacce maintenu gr20 ferme sur deux troncons : ciottulu di i mori ↔ asco et refuge de tighjettu ↔ bergeries de ballone (niolu, haute-corse) — la carte officielle de risque confirme toujours ce dimanche 19/07 l&#x27;acces interdit entre asco et ciuttulu di i mori. refuges de ballone et tighjettu toujours donnes evacues (aucune reouverture annoncee). raison : incendie en cours (300 ha au 18/07, non maitrise), vents forts (rafales 40 km/h) ce week-end. albertacce (niolu, 2b) : feu de foudre parti dim. 12/07 — 280 ha au 16/07 soir → 300 ha au 18/07, non maitrise, 200 pompiers dont 60 renforts herault, flanc gauche le plus actif progressant lentement vers foret de valdu niellu/foret communale d&#x27;albertacce ; maj 19/07 (run europe) : carte officielle risque-prevention-incendie.fr/corse toujours au message « feu en cours, acces interdit au gr20 entre asco et ciuttulu di i mori » ; aucune source (presse ou gr20-infos.com, derniere maj 14/07) n&#x27;annonce de reouverture du troncon tighjettu↔ballone ; etat des refuges de ballone (evacue 14/07) et tighjettu (200 randonneurs evacues 16/07) toujours non reconfirme par la presse — silence qui perdure depuis le 16/07, a traiter comme statu quo (evacues) par prudence ; alternative de contournement identifiee : navette privee payante ascu↔verghju. + 2e feu restonica (corte) : 65 ha au 18/07, decrit comme « contenu dans son enveloppe actuelle » mais toujours en surveillance active (pas fixe), pas d&#x27;aggravation constatee le 19/07. + feu d&#x27;appietto " data-cat="incendie">
+<article class="card haute" data-itin="gr20 ferme : ciottulu di i mori ↔ asco + tighjettu ↔ bergeries de ballone (etapes ascu→ciottulu, 4-5 n→s) — ap acces/circulation gr20 + foret communale d&#x27;albertacce maintenu gr20 ferme sur deux troncons : ciottulu di i mori ↔ asco et refuge de tighjettu ↔ bergeries de ballone (niolu, haute-corse) — le feu a progresse le 19/07 (326 ha, contre 300 ha au 18/07) et est entre dans la foret de valdu niellu ; l&#x27;acces reste interdit entre asco et ciuttulu di i mori. refuges de ballone et tighjettu toujours donnes evacues (aucune reouverture annoncee, silence presse de 4 jours au 20/07). raison : incendie en cours (326 ha au 19/07 soir, non maitrise, en progression), un pompier legerement blesse le 19/07. albertacce (niolu, 2b) : feu de foudre parti dim. 12/07 — 280 ha au 16/07 soir → 300 ha au 18/07 → 326 ha au 19/07 soir, non maitrise, en progression, 160-180 pompiers, 66 engins, 2 canadair, 1 helico bombardier d&#x27;eau ; le flanc actif est entre dans la foret de valdu niellu le 19/07 ; maj 20/07 (run europe) : progression confirmee par l&#x27;avenir (19/07 22h40) — un pompier legerement blesse ; etat des refuges de ballone (evacue 14/07) et tighjettu (200 randonneurs evacues 16/07) toujours non reconfirme par la presse — silence qui perdure desormais depuis 4 jours (16→20/07), a traiter comme statu quo (evacues) par prudence ; alternative de contournement identifiee : navette privee payante ascu↔verghju. + 2e feu restonica (corte) : poursuite de la progression — 160-180 ha au 19-20/07 (contre 100 ha au 19/07 matin), le feu a franchi une barriere rocheuse et menace desormais les bergeries d&#x27;alzo (5 pers., 500 tetes de betail securisees), culletta (2 pers., 250 tetes confinees) et capellaccia (flammes a 50 m, 2 bergers, 500 animaux) selon corsenetinfos.corsica (19/07 19h58) et france 3 (20/07) ; les deux sentiers locaux u chjassu di a muntagnera et u chjassu di u finellu restent fermes « jusqu&#x27;a nouvel ordre ». + feu d&#x27;appietto " data-cat="incendie">
   <div class="card-top">
     <span class="badge itin">GR20</span>
     <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
     <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">incendie / fermeture sentier</span>
   </div>
-  <p class="portion"><strong>GR20 FERMÉ sur deux tronçons : Ciottulu di i Mori ↔ Asco et refuge de Tighjettu ↔ bergeries de Ballone</strong> (Niolu, Haute-Corse) — la carte officielle de risque confirme toujours ce dimanche 19/07 l'accès interdit entre Asco et Ciuttulu di i Mori. Refuges de Ballone et Tighjettu toujours donnés évacués (aucune réouverture annoncée). Raison : incendie en cours (~300 ha au 18/07, NON maîtrisé), vents forts (rafales ~40 km/h) ce week-end.</p>
+  <p class="portion"><strong>GR20 FERMÉ sur deux tronçons : Ciottulu di i Mori ↔ Asco et refuge de Tighjettu ↔ bergeries de Ballone</strong> (Niolu, Haute-Corse) — le feu a progressé le 19/07 (326 ha, contre ~300 ha au 18/07) et est entré dans la forêt de Valdu Niellu ; l'accès reste interdit entre Asco et Ciuttulu di i Mori. Refuges de Ballone et Tighjettu toujours donnés évacués (aucune réouverture annoncée, silence presse de 4 jours au 20/07). Raison : incendie en cours (326 ha au 19/07 soir, NON maîtrisé, en progression), un pompier légèrement blessé le 19/07.</p>
   <p class="alt"><span class="alt-label">Alternative</span> <strong>Aucun contournement balisé</strong> — sorties possibles vers Asco, Lozzi ou Calacuccia (voies utilisées pour les évacuations) ; attendre la réouverture officielle.</p>
   <details>
     <summary>Détails</summary>
-    <p>Albertacce (Niolu, 2B) : feu de foudre parti dim. 12/07 — <strong>~280 ha au 16/07 soir → ~300 ha au 18/07, NON maîtrisé</strong>, 200 pompiers dont 60 renforts Hérault, flanc gauche le plus actif progressant lentement vers forêt de Valdu Niellu/forêt communale d'Albertacce ; <strong>MAJ 19/07 (run Europe) : carte officielle risque-prevention-incendie.fr/corse toujours au message « feu en cours, accès interdit au GR20 entre Asco et Ciuttulu di i Mori » ; aucune source (presse ou gr20-infos.com, dernière MAJ 14/07) n'annonce de réouverture du tronçon Tighjettu↔Ballone ; état des refuges de Ballone (évacué 14/07) et Tighjettu (~200 randonneurs évacués 16/07) toujours non reconfirmé par la presse — silence qui perdure depuis le 16/07, à traiter comme statu quo (évacués) par prudence</strong> ; alternative de contournement identifiée : navette privée payante Ascu↔Verghju. + 2e feu Restonica (Corte) : ~65 ha au 18/07, décrit comme « contenu dans son enveloppe actuelle » mais toujours en surveillance active (pas fixé), pas d'aggravation constatée le 19/07. + feu d'Appietto (2A, 15/07 soir, hors itinéraires suivis)</p>
+    <p>Albertacce (Niolu, 2B) : feu de foudre parti dim. 12/07 — <strong>~280 ha au 16/07 soir → ~300 ha au 18/07 → 326 ha au 19/07 soir, NON maîtrisé, en progression</strong>, 160-180 pompiers, 66 engins, 2 Canadair, 1 hélico bombardier d'eau ; le flanc actif est entré dans la forêt de Valdu Niellu le 19/07 ; <strong>MAJ 20/07 (run Europe) : progression confirmée par L'Avenir (19/07 22h40) — un pompier légèrement blessé ; état des refuges de Ballone (évacué 14/07) et Tighjettu (~200 randonneurs évacués 16/07) toujours non reconfirmé par la presse — silence qui perdure désormais depuis 4 jours (16→20/07), à traiter comme statu quo (évacués) par prudence</strong> ; alternative de contournement identifiée : navette privée payante Ascu↔Verghju. + 2e feu Restonica (Corte) : <strong>poursuite de la progression — ~160-180 ha au 19-20/07 (contre 100 ha au 19/07 matin)</strong>, le feu a franchi une barrière rocheuse et menace désormais les bergeries d'Alzo (5 pers., 500 têtes de bétail sécurisées), Culletta (2 pers., 250 têtes confinées) et Capellaccia (flammes à ~50 m, 2 bergers, 500 animaux) selon corsenetinfos.corsica (19/07 19h58) et France 3 (20/07) ; les deux sentiers locaux U Chjassu di a Muntagnera et U Chjassu di u Finellu restent fermés « jusqu'à nouvel ordre ». + feu d'Appietto (2A, 15/07 soir, hors itinéraires suivis)</p>
   </details>
-  <p class="meta dates"><span title="Validité">en cours, jusqu'à extinction + réouverture (suivi quotidien)</span><span class="sep">·</span><span title="Première détection">détectée 15 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.risque-prevention-incendie.fr/corse" target="_blank" rel="noopener">risque-prevention-incendie.fr/corse</a> (carte, vérifiée 19/07) ; <a href="https://france3-regions.franceinfo.fr/corse/haute-corse/les-incendies-d-albertacce-et-de-corte-toujours-actifs-des-vents-forts-attendus-ce-week-end-3388330.html" target="_blank" rel="noopener">France 3 Corse 18/07 — incendies toujours actifs, vents forts attendus</a> ; <a href="https://gr20-infos.com/incendie/" target="_blank" rel="noopener">gr20-infos.com/incendie</a> (MAJ affichée 14/07, aucune réouverture annoncée)</p>
+  <p class="meta dates"><span title="Validité">en cours, jusqu'à extinction + réouverture (suivi quotidien)</span><span class="sep">·</span><span title="Première détection">détectée 15 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.risque-prevention-incendie.fr/corse" target="_blank" rel="noopener">risque-prevention-incendie.fr/corse</a> (carte) ; <a href="https://www.corsenetinfos.corsica" target="_blank" rel="noopener">corsenetinfos.corsica 19/07 19h58 — ~480 ha cumulés, bergeries menacées</a> ; <a href="https://france3-regions.franceinfo.fr" target="_blank" rel="noopener">france3-regions 20/07 — Restonica 180 ha</a> ; <a href="https://gr20-infos.com/incendie/" target="_blank" rel="noopener">gr20-infos.com/incendie</a> (MAJ affichée 14/07, aucune réouverture annoncée)</p>
 </article>
-<article class="card haute" data-itin="gr51 &amp; gr98 (maures, esterel) ; gr90 (maures) — fermeture totale du trace departemental maintenue var : fermetures journalieres selon la carte prefectorale (publiee chaque soir avant 19h). les 9 massifs du departement restent fermes au public ce dimanche 19/07 egalement, risque en hausse (maures, esterel, centre-var en extreme). arrete prefectoral date du 18/07 interdisant toute manifestation dans/en lisiere des massifs de 00h00 a 23h59. raison : risque incendie extreme (3e episode caniculaire de l&#x27;ete, 35-40°c, retour du mistral, secheresse extreme des sols). var : 13/07 = aucun massif ferme mais escalade 4→6 en severe ; 16/07 = 0 ferme ; 18/07 = bascule a 9/9 fermes (maures, esterel, centre-var extreme) ; maj 19/07 (run europe) : reconduction confirmee par arrete date du 18/07 (var.gouv.fr) et par le flux officiel risque-prevention-incendie.fr — les 9 massifs restent en niveau 4-5 (acces interdit), risque « en augmentation tres significative » selon la prefecture ; cote alpes-maritimes (06) : esterel et tanneron fermes le 18/07, reconduction dimanche vraisemblable mais non confirmee par une source datee du 19/07" data-cat="risque-feu">
+<article class="card haute" data-itin="gr51 &amp; gr98 (esterel — toujours praticable, orange) ; gr51 &amp; gr90 (maures — ferme, rouge) ; gr9/gr51 (sainte-baume — ferme, rouge) var : fermetures journalieres selon la carte prefectorale (publiee chaque soir avant 19h). re-aggravation le 21/07 : 7 massifs fermes contre 4 la veille — extreme (ferme) : maures, centre-var ; tres severe (ferme) : sainte-baume, monts toulonnais, corniche des maures, haut-var, iles d&#x27;hyeres. seuls plateau de canjuers et esterel restent en orange/severe (praticables avec restrictions). raison : nouvelle poussee du risque incendie (le 21/07 est qualifie de « journee la plus a risque depuis le debut de l&#x27;ete » en paca). var : 13/07 = aucun massif ferme mais escalade 4→6 en severe ; 16/07 = 0 ferme ; 18-19/07 = 9/9 fermes (maures, esterel, centre-var extreme) ; 20/07 = decrue a 4/9 fermes ; maj 21/07 (run europe) : re-aggravation confirmee — 7/9 massifs fermes (maures et centre-var en extreme ; sainte-baume, monts toulonnais, corniche des maures, haut-var, iles d&#x27;hyeres en tres severe), seuls canjuers et l&#x27;esterel restent praticables (orange) ; cote alpes-maritimes (06) : esterel/tanneron fermes 18-19/07, statut non reverifie aujourd&#x27;hui" data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR51</span>
     <span class="badge itin">GR98</span>
     <span class="badge itin">GR90</span>
+    <span class="badge itin">GR9</span>
     <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
     <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">risque feu / fermeture massifs (journalier)</span>
   </div>
-  <p class="portion">Var : fermetures journalières selon la carte préfectorale (publiée chaque soir avant 19h). <strong>Les 9 massifs du département restent fermés au public ce dimanche 19/07 également</strong>, risque en hausse (Maures, Estérel, Centre-Var en EXTRÊME). Arrêté préfectoral daté du 18/07 interdisant toute manifestation dans/en lisière des massifs de 00h00 à 23h59. Raison : risque incendie extrême (3e épisode caniculaire de l'été, 35-40°C, retour du mistral, sécheresse extrême des sols).</p>
-  <p class="alt"><span class="alt-label">Alternative</span> Aucune — fermeture totale départementale reconduite ; vérifier la carte du soir chaque jour.</p>
+  <p class="portion">Var : fermetures journalières selon la carte préfectorale (publiée chaque soir avant 19h). <strong>Ré-aggravation le 21/07 : 7 massifs fermés contre 4 la veille</strong> — extrême (fermé) : Maures, Centre-Var ; très sévère (fermé) : Sainte-Baume, Monts Toulonnais, Corniche des Maures, Haut-Var, Îles d'Hyères. Seuls Plateau de Canjuers et Estérel restent en orange/sévère (praticables avec restrictions). Raison : nouvelle poussée du risque incendie (le 21/07 est qualifié de « journée la plus à risque depuis le début de l'été » en PACA).</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Massifs orange (Estérel, Canjuras) praticables avec restrictions (travaux agricoles/forestiers 5h-13h) ; aucune alternative sur Sainte-Baume/Maures/Haut-Var/Centre-Var/Monts Toulonnais/Corniche des Maures/Îles d'Hyères (tous rouges).</p>
   <details>
     <summary>Détails</summary>
-    <p>Var : 13/07 = AUCUN massif fermé mais escalade 4→6 en SÉVÈRE ; 16/07 = 0 fermé ; 18/07 = bascule à 9/9 fermés (Maures, Estérel, Centre-Var EXTRÊME) ; <strong>MAJ 19/07 (run Europe) : reconduction confirmée par arrêté daté du 18/07 (var.gouv.fr) et par le flux officiel risque-prevention-incendie.fr — les 9 massifs restent en niveau 4-5 (accès interdit), risque « en augmentation très significative » selon la préfecture</strong> ; côté Alpes-Maritimes (06) : Estérel et Tanneron fermés le 18/07, reconduction dimanche vraisemblable mais non confirmée par une source datée du 19/07</p>
+    <p>Var : 13/07 = AUCUN massif fermé mais escalade 4→6 en SÉVÈRE ; 16/07 = 0 fermé ; 18-19/07 = 9/9 fermés (Maures, Estérel, Centre-Var EXTRÊME) ; 20/07 = décrue à 4/9 fermés ; <strong>MAJ 21/07 (run Europe) : ré-aggravation confirmée — 7/9 massifs fermés (Maures et Centre-Var en extrême ; Sainte-Baume, Monts Toulonnais, Corniche des Maures, Haut-Var, Îles d'Hyères en très sévère), seuls Canjuers et l'Estérel restent praticables (orange)</strong> ; côté Alpes-Maritimes (06) : Estérel/Tanneron fermés 18-19/07, statut non revérifié aujourd'hui</p>
   </details>
-  <p class="meta dates"><span title="Validité">journalière (fermeture totale depuis le 18/07, reconduite le 19/07)</span><span class="sep">·</span><span title="Première détection">détectée 9 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.var.gouv.fr/Actualites/Dimanche-19-juillet-dans-le-Var" target="_blank" rel="noopener">var.gouv.fr — Dimanche 19 juillet dans le Var</a> (MAJ 18/07/2026) ; flux risque-prevention-incendie.fr (dépt. 83) ; <a href="https://www.varactu.fr/risque-extreme-dincendie-dans-le-var-tous-les-massifs-fermes-ce-samedi-18-juillet/" target="_blank" rel="noopener">varactu.fr 18/07</a></p>
+  <p class="meta dates"><span title="Validité">journalière ; ré-aggravation le 21/07 (7/9 massifs fermés, contre 4/9 la veille)</span><span class="sep">·</span><span title="Première détection">détectée 9 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://presseagence.fr/toulon-risque-incendie-sept-massifs-forestiers-fermes-au-public-ce-mardi/" target="_blank" rel="noopener">presseagence.fr 20/07 — sept massifs fermés ce mardi</a> ; <a href="https://www.var.gouv.fr/Actions-de-l-Etat/Foret/Fermeture-des-massifs-en-ete/Carte-d-acces-aux-massifs" target="_blank" rel="noopener">var.gouv.fr — carte d'accès aux massifs</a></p>
 </article>
 <article class="card haute" data-itin="gr36 — hypothese recouper le trace vs zone brulee (66 = plus gros lineaire gr36 au referentiel) ; gr10 non concerne (canigou/alberes, au sud) zone brulee de 5 000 ha, secteur trevillach/fenouilledes/basse tet (66) — interdiction d&#x27;acces a la zone incendiee probable (ap a confirmer) ; recoupement precis avec le gr36 en cours. gr10 non concerne. raison : feu majeur du 04/07 (fixe 07/07). feu majeur fenouilledes/basse tet (66) : trevillach, montalba-le-chateau, tarerach, secteur ille-sur-tet — parti le 04/07 19h31, 4 900 ha, 26 communes evacuees (10 000 pers., massif des aspres + ille-sur-tet), feu fixe 07/07 ; ap feux d&#x27;artifice quasi tout le 66 jusqu&#x27;au 16/07 (sauf cerdagne/capcir) ; ap interdiction zone brulee probable " data-cat="incendie">
   <div class="card-top">
@@ -294,24 +307,24 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Feu majeur Fenouillèdes/basse Têt (66) : Trévillach, Montalba-le-Château, Tarerach, secteur Ille-sur-Têt — parti le 04/07 19h31, ~4 900 ha, 26 communes évacuées (~10 000 pers., massif des Aspres + Ille-sur-Têt), feu fixé ~07/07 ; AP feux d'artifice quasi tout le 66 jusqu'au 16/07 (sauf Cerdagne/Capcir) ; AP interdiction zone brûlée probable (non trouvé en autonome, pages préf. JS)</p>
   </details>
-  <p class="meta dates"><span title="Validité">zone brûlée : durable (AP post-incendie à confirmer)</span><span class="sep">·</span><span title="Première détection">détectée 14 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
+  <p class="meta dates"><span title="Validité">zone brûlée : durable (AP post-incendie à confirmer)</span><span class="sep">·</span><span title="Première détection">détectée 14 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/Incendie-de-Trevillach-Point-de-situation-n-18-le-11.07.26-a-18h30" target="_blank" rel="noopener">Préf. 66 points de situation n°7/10/12/18</a> ; <a href="https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/incendie-de-trevillach-la-situation-s-ameliore-les-habitants-de-neuf-communes-autorises-a-reintegrer-leurs-maisons-a-partir-de-18h-5-000-hectares-brules-3383968.html" target="_blank" rel="noopener">France 3 — réintégration 9 communes 09/07, ~5 000 ha</a> ; <a href="https://rando66.fr/trek/7625-GR%C2%AE36%2C-de-Caudies-de-Fenouilledes-a-Sournia" target="_blank" rel="noopener">rando66.fr — fiches officielles GR36</a></p>
 </article>
-<article class="card haute" data-itin="gr20 (secteur sud, col de bavella) massifs de bavella (commune de quenza) et illarata-taglio rosso (commune de zonza) — fermes a l&#x27;acces depuis le 18/07/2026 jusqu&#x27;a nouvel ordre, rd268 coupee entre bavella (pk28+742) et le pont de calzatoju (deviation par rt10/rd368). raison : risque incendie tres severe + vents forts (arretes prefectoraux corse-du-sud du 17/07), mesure preventive sans feu actif signale sur ces deux massifs. fermeture du sentier local u chjassu di a muntagnera / u chjassu di u finellu (haute-corse) egalement en vigueur depuis le 18/07 16h00 (piste distincte, hors gr20 p1). corse-du-sud : arretes distincts du 17/07 (prefet eric jalon) fermant bavella (quenza) et illarata-taglio rosso (zonza) « jusqu&#x27;a nouvel ordre » (pas de reconduction quotidienne requise, contrairement au regime de haute-corse) — en plus des deux feux actifs d&#x27;albertacce/niolu et de la restonica (lignes dediees) ; haute-corse : massifs du fango, foret de bonifato, ouest du territoire de l&#x27;agriate fermes a nouveau le 19/07/2026 00h-23h59 (arrete/cp publie le 18/07 sur haute-corse.gouv.fr, zone meteo-france 217 balagne, risque extreme/tres severe) — hypothese impact possible sur le mare e monti nord (balagne), toujours a recouper ; maj 19/07 (run europe) : aucune levee trouvee pour bavella/illarata, reconduction fango/bonifato/agriate desormais confirmee fait " data-cat="risque-feu">
+<article class="card haute" data-itin="gr20 (secteur sud, col de bavella) massifs de bavella (commune de quenza) et illarata-taglio rosso (commune de zonza) — fermes a l&#x27;acces depuis le 18/07/2026 jusqu&#x27;a nouvel ordre, rd268 coupee entre pk28+742 et pk10+089 (deviation par rt10/rd368). gr20 interrompu entre asinau et paliri. raison : risque incendie tres severe + vents forts (arretes prefectoraux corse-du-sud du 17/07, effectifs 18/07, « conditions reevaluees selon niveau de risque »), mesure preventive sans feu actif signale sur ces deux massifs. fermeture du sentier local u chjassu di a muntagnera / u chjassu di u finellu (haute-corse) egalement en vigueur depuis le 18/07 16h00 (piste distincte, hors gr20 p1). refuge de paliri ferme « au moins jusqu&#x27;au 21/07 » selon info.fr (18/07) — cette echeance est atteinte aujourd&#x27;hui sans confirmation de levee ni de prolongation, a traiter par defaut comme toujours ferme. corse-du-sud : arretes distincts du 17/07 (prefet eric jalon) fermant bavella (quenza) et illarata-taglio rosso (zonza) « jusqu&#x27;a nouvel ordre » (pas de reconduction quotidienne requise, contrairement au regime de haute-corse) — en plus des deux feux actifs d&#x27;albertacce/niolu et de la restonica (lignes dediees) ; haute-corse : massifs du fango, foret de bonifato, ouest du territoire de l&#x27;agriate — maj 20/07 (run europe) : nouvel arrete trouve sur haute-corse.gouv.fr couvrant explicitement le 20 et le 21/07 (« fermeture massifs fango, bonifato partie ouest de l&#x27;agriate du 20/07 au 21/07 »), confirmant la reconduction sur 2 jours (contenu detaille non lu, page en 401 en fetch direct) — hypothese impact possible sur le mare a mare nord (balagne), toujours a recouper ; aucune levee trouvee pour bavella/illarata" data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR20</span>
     <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
     <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">risque feu / fermeture massif (préventive)</span>
   </div>
-  <p class="portion"><strong>Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza)</strong> — fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre, RD268 coupée entre Bavella (PK28+742) et le pont de Calzatoju (déviation par RT10/RD368). Raison : risque incendie très sévère + vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07), mesure préventive sans feu actif signalé sur ces deux massifs. <strong>Fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) également en vigueur depuis le 18/07 16h00</strong> (piste distincte, hors GR20 P1).</p>
-  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour pour Bavella/Illarata ; déviation routière RT10/RD368 pour la RD268.</p>
+  <p class="portion"><strong>Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza)</strong> — fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). <strong>GR20 interrompu entre Asinau et Paliri.</strong> Raison : risque incendie très sévère + vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. <strong>Fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) également en vigueur depuis le 18/07 16h00</strong> (piste distincte, hors GR20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) — <strong>cette échéance est atteinte aujourd'hui sans confirmation de levée ni de prolongation</strong>, à traiter par défaut comme toujours fermé.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour pour Bavella/Illarata (navettes gratuites nord→sud via bivouac d'Asinau) ; déviation routière RT10/RD368 pour la RD268.</p>
   <details>
     <summary>Détails</summary>
-    <p>Corse-du-Sud : arrêtés distincts du 17/07 (préfet Éric Jalon) fermant Bavella (Quenza) et Illarata-Taglio Rosso (Zonza) « jusqu'à nouvel ordre » (pas de reconduction quotidienne requise, contrairement au régime de Haute-Corse) — en plus des deux feux actifs d'Albertacce/Niolu et de la Restonica (lignes dédiées) ; Haute-Corse : massifs du Fango, forêt de Bonifato, ouest du Territoire de l'Agriate fermés à nouveau le 19/07/2026 00h-23h59 (arrêté/CP publié le 18/07 sur haute-corse.gouv.fr, zone Météo-France 217 Balagne, risque extrême/très sévère) — <span class="tag hypo">HYPOTHÈSE</span> impact possible sur le Mare e Monti Nord (Balagne), toujours à recouper ; MAJ 19/07 (run Europe) : aucune levée trouvée pour Bavella/Illarata, reconduction Fango/Bonifato/Agriate désormais confirmée <span class="tag fait">FAIT</span> (était <span class="tag hypo">HYPOTHÈSE</span> au 18/07)</p>
+    <p>Corse-du-Sud : arrêtés distincts du 17/07 (préfet Éric Jalon) fermant Bavella (Quenza) et Illarata-Taglio Rosso (Zonza) « jusqu'à nouvel ordre » (pas de reconduction quotidienne requise, contrairement au régime de Haute-Corse) — en plus des deux feux actifs d'Albertacce/Niolu et de la Restonica (lignes dédiées) ; Haute-Corse : massifs du Fango, forêt de Bonifato, ouest du Territoire de l'Agriate — <strong>MAJ 20/07 (run Europe) : nouvel arrêté trouvé sur haute-corse.gouv.fr couvrant explicitement le 20 et le 21/07 (« Fermeture massifs Fango, Bonifato partie Ouest de l'Agriate du 20/07 au 21/07 »), confirmant la reconduction sur 2 jours (contenu détaillé non lu, page en 401 en fetch direct)</strong> — <span class="tag hypo">HYPOTHÈSE</span> impact possible sur le Mare a Mare Nord (Balagne), toujours à recouper ; aucune levée trouvée pour Bavella/Illarata</p>
   </details>
-  <p class="meta dates"><span title="Validité">depuis le 18/07/2026, jusqu'à nouvel ordre (Corse-du-Sud) ; reconduite jour par jour (Haute-Corse)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : France 3 Corse, « Face à un risque incendie très sévère, l'accès à plusieurs massifs forestiers interdit ce samedi » (17/07/2026) ; <a href="https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers/Fermeture-massifs-forestiers-du-Fango-Bonifato-et-partie-Ouest-du-Territoire-de-l-Agriate-19-7-26" target="_blank" rel="noopener">haute-corse.gouv.fr — fermeture Fango/Bonifato/Agriate 19/7/26</a> (publié 18/07/2026) ; <a href="https://www.ici.fr/corse/risque-incendie-plusieurs-massifs-fermes-en-corse-ce-samedi-6314255" target="_blank" rel="noopener">ICI 18/07</a></p>
+  <p class="meta dates"><span title="Validité">depuis le 18/07/2026, jusqu'à nouvel ordre (Corse-du-Sud) ; Haute-Corse reconduite désormais pour 2 jours (20-21/07)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.info.fr" target="_blank" rel="noopener">info.fr 18/07 10h54</a> ; <a href="https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers" target="_blank" rel="noopener">haute-corse.gouv.fr — Accès aux massifs forestiers (reconduction quotidienne confirmée 18/19/20/07)</a></p>
 </article>
 <article class="card haute" data-itin="gr9/gr93 (diois) — hypothese le trace traverse le massif de justin, sous interdiction d&#x27;acces generale : fermeture de fait a considerer comme acquise sur la portion concernee, recoupement precis toujours non confirme nommement par les sources foret domaniale de justin, hauteurs de die (sud du diois, drome) — acces strictement interdit par arrete prefectoral, « jusqu&#x27;a nouvel ordre » (duree liee a la fin des operations de securisation). raison : incendie de 4 400 ha (le plus important en drome depuis 30 ans), declare « fixe » le 16/07/2026 mais non maitrise (surveillance de points chauds, dangers residuels : arbres affaiblis, sols instables, braises). 1er passage fr-84-26-07 (18/07) : origine du feu clarifiee fait : impact de foudre le 24/06/2026, puis reprise violente le 02/07/2026 (vent + chaleur) qui a produit l&#x27;essentiel des 4 400 ha — les deux dates du registre etaient donc correctes et complementaires, pas contradictoires ; 180 pompiers en surveillance de points chauds au 16/07 ; maj 19/07 (run europe) : l&#x27;etat a annonce le 18/07 un plan de relance de 1 m€ pour le diois (pilotage sous-prefete valerie vigier) + retour d&#x27;experience a venir ; critique locale (confederation paysanne) sur l&#x27;absence de canadair les 5-6/07, jours cles de propagation" data-cat="incendie">
   <div class="card-top">
@@ -327,26 +340,26 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>1er passage FR-84-26-07 (18/07) : origine du feu <strong>clarifiée <span class="tag fait">FAIT</span> : impact de foudre le 24/06/2026, puis reprise violente le 02/07/2026 (vent + chaleur) qui a produit l'essentiel des 4 400 ha</strong> — les deux dates du registre étaient donc correctes et complémentaires, pas contradictoires ; 180 pompiers en surveillance de points chauds au 16/07 ; <strong>MAJ 19/07 (run Europe) : l'État a annoncé le 18/07 un plan de relance de 1 M€ pour le Diois (pilotage sous-préfète Valérie Vigier) + retour d'expérience à venir ; critique locale (Confédération paysanne) sur l'absence de Canadair les 5-6/07, jours clés de propagation</strong></p>
   </details>
-  <p class="meta dates"><span title="Validité">arrêté « jusqu'à nouvel ordre » ; feu fixé mais pas maîtrisé (16/07)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.drome.gouv.fr/Actualites/Actualites-2026/Point-de-situation-sur-le-feu-dans-le-massif-de-Justin-a-Die" target="_blank" rel="noopener">drome.gouv.fr — Point de situation / plan de relance</a> (MAJ 16/07/2026) ; <a href="https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/incendie-a-die-apres-quinze-jours-de-lutte-le-feu-est-fixe-mais-pas-maitrise-3387391.html" target="_blank" rel="noopener">France 3 AURA 16/07</a> ; <a href="https://info.fr/incendie-die-colere-manque-moyens-etat-2026-07-18/" target="_blank" rel="noopener">info.fr 18/07 12h30</a> ; <a href="https://www.rcf.fr/articles/actualite/incendie-a-die-un-impact-de-foudre-a-lorigine-du-plus-important-incendie-du" target="_blank" rel="noopener">RCF Drôme — origine foudre</a></p>
+  <p class="meta dates"><span title="Validité">arrêté « jusqu'à nouvel ordre » ; feu fixé mais accès toujours interdit (dangers résiduels)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.drome.gouv.fr/Actualites/Actualites-2026/Point-de-situation-sur-le-feu-dans-le-massif-de-Justin-a-Die" target="_blank" rel="noopener">drome.gouv.fr — Point de situation / plan de relance</a> (MAJ 16/07/2026) ; <a href="https://mediascitoyens-diois.info/2026/07/incendie-a-die-apres-23-jours-de-lutte-le-feu-est-fixe-mais-pas-maitrise/" target="_blank" rel="noopener">Médias Citoyens Diois 19/07 — 23 jours de lutte, fixé mais pas maîtrisé</a></p>
 </article>
-<article class="card haute" data-itin="gr9 (baronnies, secteur nyons/buis-les-baronnies/beaufort-sur-gervanne) gr9 dans les baronnies (drome) : de nombreuses communes ont pris des arretes de fermeture de massifs — nyons (depuis 07/07), venterol (07/07), benivay-ollon (10/07), buis-les-baronnies (11/07), saillans (08/07→26/07), monclar-sur-gervanne (10/07→19/07, echeance non reconfirmee), + 5 communes supplementaires identifiees le 19/07 : teyssieres (depuis 07/07), plan de baix (07/07→21/07), beaufort-sur-gervanne (depuis 10/07), beauvoisin (depuis 10/07), chateauneuf-de-bordette (depuis 10/07). raison : risque incendie (canicule). fiche officielle drome tourisme (maj 17/07/2026) recense les arretes municipaux actifs — la plupart sans date de fin annoncee, deux avec echeance connue (saillans jusqu&#x27;au 26/07, plan de baix jusqu&#x27;au 21/07) ; monclar-sur-gervanne toujours affiche « 10/07→19/07 » sans mention de prolongation sur la fiche du 17/07 — statut du 19/07 (jour d&#x27;echeance) non tranche : absence de preuve de reconduction = preuve de levee, a reconfirmer le 20/07" data-cat="risque-feu">
+<article class="card haute" data-itin="gr9 (baronnies, secteur nyons/beaufort-sur-gervanne/vinsobres) gr9 dans les baronnies (drome) : liste des communes en arrete de fermeture de massifs fortement elargie (14 nouvelles communes identifiees) — toujours actifs : nyons (depuis 07/07), beaufort-sur-gervanne (depuis 10/07), saillans (08/07→26/07), beauvoisin, benivay-ollon, chateauneuf-de-bordette, teyssieres, venterol, la roche-sur-le-buis ; nouvelles communes (source pnr baronnies provencales) : bellecombe-tarendol, condorcet, curnier, le poet-sigillat, le poet-en-percip, lemps, les pilles, mirabel-aux-baronnies, roche-saint-secret-beconne, saint-ferreol-trente-pas, saint-sauveur-gouvernet, valouse, vercoiran, vinsobres ; monclar-sur-gervanne (echeance 19/07) et plan de baix (echeance 21/07, aujourd&#x27;hui) : absentes de la liste pnr du 20/07 — hypothese indice de levee, non confirme formellement. raison : risque incendie (canicule). deux sources partiellement desynchronisees : fiche drome tourisme (maj 19/07) liste encore monclar-sur-gervanne « 10/07→19/07 » et plan de baix « 07/07→21/07 » comme actives ; fiche pnr baronnies provencales (maj 20/07, plus a jour) ne les liste plus — probable levee mais aucune confirmation explicite (mairie/arrete) trouvee pour aucune des deux communes ; liste elargie a 23 communes au total." data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR9</span>
     <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
     <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">fermeture / risque feu</span>
   </div>
-  <p class="portion"><strong>GR9 dans les Baronnies (Drôme) : de nombreuses communes ont pris des arrêtés de fermeture de massifs</strong> — Nyons (depuis 07/07), Venterol (07/07), Bénivay-Ollon (10/07), Buis-les-Baronnies (11/07), Saillans (08/07→26/07), Monclar-sur-Gervanne (10/07→19/07, échéance non reconfirmée), <strong>+ 5 communes supplémentaires identifiées le 19/07 : Teyssières (depuis 07/07), Plan de Baix (07/07→21/07), Beaufort-sur-Gervanne (depuis 10/07), Beauvoisin (depuis 10/07), Châteauneuf-de-Bordette (depuis 10/07)</strong>. Raison : risque incendie (canicule).</p>
+  <p class="portion"><strong>GR9 dans les Baronnies (Drôme) : liste des communes en arrêté de fermeture de massifs fortement élargie (14 nouvelles communes identifiées)</strong> — toujours actifs : Nyons (depuis 07/07), Beaufort-sur-Gervanne (depuis 10/07), Saillans (08/07→26/07), Beauvoisin, Bénivay-Ollon, Châteauneuf-de-Bordette, Teyssières, Venterol, La Roche-sur-le-Buis ; <strong>nouvelles communes (source PNR Baronnies Provençales) : Bellecombe-Tarendol, Condorcet, Curnier, Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Roche-Saint-Secret-Béconne, Saint-Ferréol-Trente-Pas, Saint-Sauveur-Gouvernet, Valouse, Vercoiran, Vinsobres</strong> ; Monclar-sur-Gervanne (échéance 19/07) et Plan de Baix (échéance 21/07, aujourd'hui) : absentes de la liste PNR du 20/07 — <span class="tag hypo">HYPOTHÈSE</span> indice de levée, non confirmé formellement. Raison : risque incendie (canicule).</p>
   <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour.</p>
   <details>
     <summary>Détails</summary>
-    <p>Fiche officielle Drôme Tourisme (MAJ 17/07/2026) recense les arrêtés municipaux actifs — la plupart sans date de fin annoncée, deux avec échéance connue (Saillans jusqu'au 26/07, Plan de Baix jusqu'au 21/07) ; <strong>Monclar-sur-Gervanne toujours affiché « 10/07→19/07 » sans mention de prolongation sur la fiche du 17/07 — statut du 19/07 (jour d'échéance) non tranché : absence de preuve de reconduction ≠ preuve de levée, à reconfirmer le 20/07</strong></p>
+    <p>Deux sources partiellement désynchronisées : fiche Drôme Tourisme (MAJ 19/07) liste encore Monclar-sur-Gervanne « 10/07→19/07 » et Plan de Baix « 07/07→21/07 » comme actives ; fiche PNR Baronnies Provençales (MAJ 20/07, plus à jour) ne les liste plus — probable levée mais <strong>aucune confirmation explicite (mairie/arrêté) trouvée pour aucune des deux communes</strong> ; liste élargie à 23 communes au total.</p>
   </details>
-  <p class="meta dates"><span title="Validité">variable selon commune, du 07/07 au 26/07 au plus tard (sauf reconduction)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.drome-cestmanature.com/fiches/gr-9/" target="_blank" rel="noopener">Drôme Tourisme — fiche GR9</a> (MAJ 17/07/2026)</p>
+  <p class="meta dates"><span title="Validité">variable selon commune, du 07/07 au 26/07 au plus tard (sauf reconduction)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.drome-cestmanature.com/fiches/gr-9/" target="_blank" rel="noopener">Drôme Tourisme — fiche GR9</a> (MAJ 19/07/2026) ; <a href="https://www.baronnies-provencales.fr" target="_blank" rel="noopener">baronnies-provencales.fr</a> (MAJ 20/07/2026)</p>
 </article>
-<article class="card haute" data-itin="gr4 (monts de vaucluse, dentelles de montmirail), gr9, gr91 vaucluse : 8 massifs fermes selon la page officielle (bollene-uchaux, dentelles de montmirail, rasteau-cairanne, collines du pays voconces, plaine du comtat, vallee du rhone, petit luberon, monts de vaucluse) — mecanisme reevalue quotidiennement, toujours non reconfirme nommement pour le 17-19/07 (derniere page officielle nominative datee du 01/07 ; un second communique du 06/07 confirme un regime actif mais sans lister les massifs). le ventoux resterait hors interdiction totale. raison : risque incendie. page vaucluse.gouv.fr « risques d&#x27;incendie de foret eleves » (maj 06/07/2026) confirme un regime de fermeture actif mais renvoie generiquement a la carte interactive (non exploitable en autonome, js/pdf dynamique) sans liste nominative ; info.fr (09/07) evoque « neuf massifs » sans detail ; maj 19/07 (run europe) : toujours aucune source datee apres le 09/07 donnant une liste nominative, malgre recherche elargie (frequence-sud, france 3 paca, ici) — le vaucluse est cite comme departement coordonne dans l&#x27;alerte regionale paca du 18/07 (25 massifs bouches-du-rhone/var/am/04) sans detail propre ; vigilance canicule maintenue sur le departement ce week-end" data-cat="risque-feu">
+<article class="card haute" data-itin="gr4 (monts de vaucluse, dentelles de montmirail), gr9, gr91 vaucluse : fait, confirme par lecture directe 21/07 9 massifs sur 15 interdits d&#x27;acces ce 21/07/2026 (arrete prefectoral du 29/03/2023, niveau de risque extreme) : enclave des papes, bollene-uchaux, dentelles de montmirail, rasteau-cairannes, plaines du pays voconces, plaines du comtat, vallee du rhone, petit luberon, monts de vaucluse. hypothese, non recoupe avec la publication du 21/07 le mont ventoux ne serait pas en interdiction totale (jaune, sommet vert) — information relevee hier via un article portant sur un jour different (mercredi), a ne pas confondre avec la publication du 21/07 qui ne mentionne pas explicitement le ventoux. raison : risque incendie. page officielle vaucluse.gouv.fr desormais publiee avec une url et un titre dates du jour (« vigilance feux de forets — risque d&#x27;incendie 21 juillet 2026 »), confirmant nommement les 9 massifs interdits — la piste d&#x27;hier, non lue en direct, est donc confirmee par lecture directe officielle ; ⚠️ piege dejoue : un article ici paca « douze massifs... ce mercredi » concerne une echeance distincte (mercredi, pas mardi 21/07) — a ne pas confondre." data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR4</span>
     <span class="badge itin">GR9</span>
@@ -355,14 +368,63 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">risque feu / fermeture massif</span>
   </div>
-  <p class="portion">Vaucluse : <strong>8 massifs fermés selon la page officielle</strong> (Bollène-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse) — mécanisme réévalué quotidiennement, toujours non reconfirmé nommément pour le 17-19/07 (dernière page officielle nominative datée du 01/07 ; un second communiqué du 06/07 confirme un régime actif mais sans lister les massifs). Le Ventoux resterait hors interdiction totale. Raison : risque incendie.</p>
-  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour.</p>
+  <p class="portion">Vaucluse : <strong>[FAIT, confirmé par lecture directe 21/07] 9 massifs sur 15 interdits d'accès ce 21/07/2026</strong> (arrêté préfectoral du 29/03/2023, niveau de risque extrême) : Enclave des Papes, Bollène-Uchaux, Dentelles de Montmirail, Rasteau-Cairannes, plaines du pays Voconces, plaines du Comtat, vallée du Rhône, petit Luberon, monts de Vaucluse. [HYPOTHÈSE, non recoupé avec la publication du 21/07] le Mont Ventoux ne serait pas en interdiction totale (jaune, sommet vert) — information relevée hier via un article portant sur un jour différent (mercredi), à ne pas confondre avec la publication du 21/07 qui ne mentionne pas explicitement le Ventoux. Raison : risque incendie.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour pour les 9 massifs interdits ; statut du Ventoux à confirmer avant de le donner comme praticable.</p>
   <details>
     <summary>Détails</summary>
-    <p>Page vaucluse.gouv.fr « Risques d'incendie de forêt élevés » (MAJ 06/07/2026) confirme un régime de fermeture actif mais renvoie génériquement à la carte interactive (non exploitable en autonome, JS/PDF dynamique) sans liste nominative ; info.fr (09/07) évoque « neuf massifs » sans détail ; <strong>MAJ 19/07 (run Europe) : toujours aucune source datée après le 09/07 donnant une liste nominative, malgré recherche élargie (Frequence-Sud, France 3 PACA, ICI) — le Vaucluse est cité comme département coordonné dans l'alerte régionale PACA du 18/07 (25 massifs Bouches-du-Rhône/Var/AM/04) sans détail propre</strong> ; vigilance canicule maintenue sur le département ce week-end</p>
+    <p>Page officielle vaucluse.gouv.fr désormais publiée avec une URL et un titre datés du jour (« Vigilance feux de forêts — Risque d'incendie 21 juillet 2026 »), confirmant nommément les 9 massifs interdits — <strong>la piste d'hier, non lue en direct, est donc confirmée par lecture directe officielle</strong> ; ⚠️ piège déjoué : un article ICI PACA « douze massifs... ce mercredi » concerne une échéance distincte (mercredi, pas mardi 21/07) — à ne pas confondre.</p>
   </details>
-  <p class="meta dates"><span title="Validité">à confirmer quotidiennement (dernière liste nominative datée 01/07/2026)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Juillet/Risques-d-incendie-de-foret-eleves" target="_blank" rel="noopener">vaucluse.gouv.fr — Risques d'incendie de forêt élevés</a> (MAJ 06/07/2026) ; <a href="https://info.fr/vaucluse-canicule-secheresse-restrictions-massifs-artifices-9/" target="_blank" rel="noopener">info.fr 09/07</a></p>
+  <p class="meta dates"><span title="Validité">à confirmer quotidiennement (arrêté-cadre du 29/03/2023, liste nominative quotidienne)</span><span class="sep">·</span><span title="Première détection">détectée 18 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Juillet/Vigilance-feux-de-forets-Risque-d-incendie-21-juillet-2026" target="_blank" rel="noopener">vaucluse.gouv.fr — Vigilance feux de forêts, Risque d'incendie 21 juillet 2026</a></p>
+</article>
+<article class="card haute" data-itin="gr10 (secteur couserans/val du biros) gr10 entre esbintz et la maison du valier (couserans, ariege), ainsi que les lacs d&#x27;ayes, de bethmale et d&#x27;eychelle. le feu a repris le 16-17/07 sous des rafales &gt;100 km/h (sauts de feu de 200-300 m), surface passee de 70-120 ha a 300 ha. portions supplementaires touchees : acces a campuls via la piste du mont ner, col de la core, circuit de la crouzette, etang de milouga/cabane de taus ; la vallee du riberot est a eviter (utilisee par les secours). raison : incendie de foret parti le 10/07/2026 vers 1800 m d&#x27;altitude (bordes-sur-lez/uchentein), relance par le vent. couserans (ariege, 09) : incendie parti le 10/07/2026 en altitude (1800 m) ; maj 21/07 (run europe) : reprise confirmee 16-17/07 (rafales &gt;100 km/h), 300 ha, renforts europeens engages (2 helicopteres sikorsky tcheques) ; arrete prefectoral d&#x27;interdiction totale de l&#x27;usage du feu en ariege cense echoir le 20/07/2026 — hypothese sa reconduction ou sa levee n&#x27;a pas pu etre confirmee par une source datee (ariege.gouv.fr non exploitable en autonome) ; vu le feu toujours actif et aggrave, a traiter par prudence comme probablement reconduit, a confirmer au prochain passage" data-cat="incendie">
+  <div class="card-top">
+    <span class="badge itin">GR10</span>
+    <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
+    <span class="type">incendie / fermeture sentier</span>
+  </div>
+  <p class="portion"><strong>GR10 entre Esbintz et la Maison du Valier</strong> (Couserans, Ariège), ainsi que les lacs d'Ayes, de Bethmale et d'Eychelle. <strong>Le feu a repris le 16-17/07 sous des rafales &gt;100 km/h (sauts de feu de 200-300 m), surface passée de 70-120 ha à ~300 ha.</strong> Portions supplémentaires touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus ; la vallée du Ribérot est à éviter (utilisée par les secours). Raison : incendie de forêt parti le 10/07/2026 vers 1800 m d'altitude (Bordes-sur-Lez/Uchentein), relancé par le vent.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative balisée officielle ; certains secteurs restent ouverts au cas par cas (abords de la Maison du Valier, lacs Rond et Long) — à vérifier avant de s'y engager.</p>
+  <details>
+    <summary>Détails</summary>
+    <p>Couserans (Ariège, 09) : incendie parti le 10/07/2026 en altitude (~1800 m) ; <strong>MAJ 21/07 (run Europe) : reprise confirmée 16-17/07 (rafales &gt;100 km/h), ~300 ha, renforts européens engagés (2 hélicoptères Sikorsky tchèques)</strong> ; arrêté préfectoral d'interdiction totale de l'usage du feu en Ariège censé échoir le 20/07/2026 — <strong><span class="tag hypo">HYPOTHÈSE</span> sa reconduction ou sa levée n'a pas pu être confirmée par une source datée (ariege.gouv.fr non exploitable en autonome) ; vu le feu toujours actif et aggravé, à traiter par prudence comme probablement reconduit, à confirmer au prochain passage</strong></p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 10/07/2026, jusqu'à nouvel ordre ; reprise du feu le 16-17/07 ; AP interdiction feu Ariège échu le 20/07/2026, reconduction non confirmée</span><span class="sep">·</span><span title="Première détection">détectée 20 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.ffrandonnee.fr/s-informer/actualites/en-ariege-les-incendies-impactent-les-sentiers-de-randonnee" target="_blank" rel="noopener">FFRandonnée — incendies impactent les sentiers en Ariège</a> ; <a href="https://pyreneesfm.com/incendie-en-couserans-attise-par-des-rafales-a-plus-de-100-km-h-le-feu-progresse" target="_blank" rel="noopener">Pyrénées FM — feu attisé par des rafales &gt;100 km/h</a> ; <a href="https://www.radiocouserans.fr/couserans-plusieurs-secteurs-fermes-ou-deconseilles-apres-l-incendie-de-bordes-uchentein" target="_blank" rel="noopener">Radio Couserans</a></p>
+</article>
+<article class="card haute" data-itin="gr10 (traversee du massif des alberes, argeles-sur-mer↔banyuls-sur-mer) massif des alberes (argeles-sur-mer, sorede), traverse par le gr10 — acces interdit « jusqu&#x27;a nouvel ordre » depuis le 10/07/2026 (arrete renforce le 13/07) ; acces a la reserve naturelle de la massane egalement interdit. raison : risque incendie. pyrenees-orientales (66) : arrete municipal d&#x27;argeles-sur-mer renforcant l&#x27;interdiction d&#x27;acces au massif des alberes depuis le 10/07/2026 (publie 13/07, « jusqu&#x27;a nouvel ordre ») ; commune de sorede : restriction distincte limitant l&#x27;acces aux pietons et velos musculaires/vae (pas de vehicule motorise ni vtt electrique) jusqu&#x27;au 13/09/2026. distinct de l&#x27;incendie de trevillach (fenouilledes), secteur geographique different." data-cat="risque-feu">
+  <div class="card-top">
+    <span class="badge itin">GR10</span>
+    <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
+    <span class="type">risque feu / fermeture massif</span>
+  </div>
+  <p class="portion"><strong>Massif des Albères (Argelès-sur-Mer, Sorède), traversé par le GR10</strong> — accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026 (arrêté renforcé le 13/07) ; accès à la réserve naturelle de la Massane également interdit. Raison : risque incendie.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour — éviter le massif des Albères.</p>
+  <details>
+    <summary>Détails</summary>
+    <p>Pyrénées-Orientales (66) : arrêté municipal d'Argelès-sur-Mer renforçant l'interdiction d'accès au massif des Albères depuis le 10/07/2026 (publié 13/07, « jusqu'à nouvel ordre ») ; commune de Sorède : restriction distincte limitant l'accès aux piétons et vélos musculaires/VAE (pas de véhicule motorisé ni VTT électrique) jusqu'au 13/09/2026. Distinct de l'incendie de Trévillach (Fenouillèdes), secteur géographique différent.</p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 10/07/2026 « jusqu'à nouvel ordre » (Argelès) ; jusqu'au 13/09/2026 (restriction Sorède)</span><span class="sep">·</span><span title="Première détection">détectée 20 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.tourisme-pyrenees-mediterranee.com/app/uploads/2026/07/arrete-26.238-arrete-de-circulation-interdisant-lacces-au-massif-des-alberes.pdf" target="_blank" rel="noopener">arrêté 26.238 (PDF)</a> ; <a href="http://www.rnnmassane.fr/2026/07/13/renforcement-interdictionaccesmassifalberes-communeargeles/" target="_blank" rel="noopener">rnnmassane.fr 13/07/2026</a></p>
+</article>
+<article class="card haute" data-itin="gr10 (bareges, village-etape) ; hrp (vallee de la glere, refuge de la glere) — hypothese portion exacte du sentier hrp vs piste de la glere a recouper piste de la glere (au-dessus de bareges, 65) fermee a la circulation ; sentier menant au refuge de la glere praticable mais grande prudence recommandee (risque de chutes de pierres). raison : feu de foret declenche par la foudre le 08/07/2026 au pic de lurtet, toujours actif au 20/07 (100 ha), terrain trop escarpe pour une intervention securisee au sol. hautes-pyrenees (65) : feu parti le 08/07/2026 (foudre) au pic de lurtet, vallee de la glere, au-dessus de bareges. toujours actif au 18-20/07 (100 ha brules), 2 helicopteres bombardiers d&#x27;eau engages, terrain escarpe empechant une intervention au sol securisee. detection tardive : feu actif depuis 13 jours, non repere par les runs precedents (fr-pyr-o n&#x27;etait pas en cadence t1)." data-cat="incendie">
+  <div class="card-top">
+    <span class="badge itin">GR10</span>
+    <span class="badge itin">HRP</span>
+    <span class="badge sev-haute" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte rouge</span>
+    
+    <span class="type">incendie / fermeture piste</span>
+  </div>
+  <p class="portion"><strong>Piste de la Glère (au-dessus de Barèges, 65) fermée à la circulation</strong> ; sentier menant au refuge de la Glère praticable mais grande prudence recommandée (risque de chutes de pierres). Raison : feu de forêt déclenché par la foudre le 08/07/2026 au Pic de Lurtet, toujours actif au 20/07 (~100 ha), terrain trop escarpé pour une intervention sécurisée au sol.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour pour la piste de la Glère.</p>
+  <details>
+    <summary>Détails</summary>
+    <p>Hautes-Pyrénées (65) : feu parti le 08/07/2026 (foudre) au Pic de Lurtet, vallée de la Glère, au-dessus de Barèges. Toujours actif au 18-20/07 (~100 ha brûlés), 2 hélicoptères bombardiers d'eau engagés, terrain escarpé empêchant une intervention au sol sécurisée. Détection tardive : feu actif depuis 13 jours, non repéré par les runs précédents (FR-PYR-O n'était pas en cadence T1).</p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 08/07/2026, feu non maîtrisé au 20/07 (13e jour)</span><span class="sep">·</span><span title="Première détection">détectée 21 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://france3-regions.franceinfo.fr/occitanie/hautes-pyrenees/tarbes/incendie-le-feu-de-foret-dans-les-hautes-pyrenees-toujours-actif-100-hectares-brules-3389011.html" target="_blank" rel="noopener">France 3 Occitanie</a> ; <a href="https://www.lasemainedespyrenees.fr/bareges-un-helicoptere-bombardier-deau-mobilise-ce-samedi-apres-midi-pour-lutter-contre-lincendie-sous-la-crete-de-lurtet/" target="_blank" rel="noopener">La Semaine des Pyrénées 18/07</a></p>
 </article>
 <article class="card moyenne" data-itin="gr54 / tour oisans-ecrins cœur du pn des ecrins — bivouac reglemente partout ; interdit a moins de 500 m des lacs lauvitel et muzelle (sauf zones dediees balisees). raison : surfrequentation (jusqu&#x27;a 215 tentes/nuit a la muzelle en 2025). ecrins " data-cat="reglementation">
   <div class="card-top">
@@ -378,14 +440,14 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Écrins (cœur ; lacs Lauvitel/Muzelle : bivouac &lt;500 m interdit sauf zones dédiées ; 19h→9h, 1 nuit/site, &gt;1h des limites cœur/parkings, réchaud gaz seul ; pas de quotas 2026)</p>
   </details>
-  <p class="meta dates"><span title="Validité">arrêté directeur 16/06/2026, en vigueur ; quotas possibles ultérieurement</span><span class="sep">·</span><span title="Première détection">détectée 19 juin</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
+  <p class="meta dates"><span title="Validité">arrêté directeur 16/06/2026, en vigueur ; quotas possibles ultérieurement</span><span class="sep">·</span><span title="Première détection">détectée 19 juin</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://www.ecrins-parcnational.fr/actualite/reglementation-bivouac-evolue" target="_blank" rel="noopener">ecrins-parcnational.fr</a> + PDF arrêté 16/06/2026</p>
 </article>
 <article class="card moyenne" data-itin="gr20 tout le gr20 : feux et rechauds interdits du 15/06 au 30/09 (rechauds gaz seuls toleres hors canicule) ; massifs fermables au jour le jour selon la carte prefectorale (publiee la veille 18h). raison : risque incendie estival, secheresse 2a. corse (tout le gr20) ; 2a en alerte secheresse (arrete 03/07/2026) ; vigilance renforcee 2a confirmee le 06/07 (tweet @prefet2a(https://x.com/prefet2a/status/2073801209412997574) + info.fr) = appel a prudence (eviter massifs, quitter avant 11h), pas d&#x27;interdiction d&#x27;acces ; 50 departs feu / 17 ha mi-juin (double de 2025) ; corse repasse jaune canicule le 12/07 midi (decrue) ; maj 18/07 (run europe) : arrete-cadre « fermeture massifs 2026 » localise (pdf date 22/06/2026, haute-corse.gouv.fr, rubrique acces aux massifs forestiers), avec arretes quotidiens complementaires deja en ligne pour le 18 et 19/07 — le gr20 n&#x27;y est pas nommement cite, fermetures decrites par massif/commune ; fermetures preventives distinctes ce 18/07 (fango, bonifato, ouest agriate en haute-corse ; bavella/illarata-taglio rosso en corse-du-sud, voir ligne dediee risque-feu|corse-bavella-illarata|…) — hypothese impact possible du fango/bonifato sur le mare e monti nord, a recouper" data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR20</span>
     <span class="badge sev-moyenne" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte orange</span>
-    
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">risque feu / accès</span>
   </div>
   <p class="portion">Tout le GR20 : <strong>feux et réchauds interdits du 15/06 au 30/09</strong> (réchauds gaz seuls tolérés hors canicule) ; massifs fermables au jour le jour selon la carte préfectorale (publiée la veille ~18h). Raison : risque incendie estival, sécheresse 2A.</p>
@@ -394,7 +456,7 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Corse (tout le GR20) ; 2A en alerte sécheresse (arrêté 03/07/2026) ; vigilance renforcée 2A CONFIRMÉE le 06/07 (<a href="https://x.com/Prefet2A/status/2073801209412997574" target="_blank" rel="noopener">tweet @Prefet2A</a> + info.fr) = appel à prudence (éviter massifs, quitter avant 11h), PAS d'interdiction d'accès ; ~50 départs feu / 17 ha mi-juin (double de 2025) ; Corse repasse jaune canicule le 12/07 midi (décrue) ; MAJ 18/07 (run Europe) : arrêté-cadre « fermeture massifs 2026 » LOCALISÉ (PDF daté 22/06/2026, haute-corse.gouv.fr, rubrique Accès aux massifs forestiers), avec arrêtés quotidiens complémentaires déjà en ligne pour le 18 et 19/07 — le GR20 n'y est pas nommément cité, fermetures décrites par massif/commune ; fermetures préventives distinctes ce 18/07 (Fango, Bonifato, ouest Agriate en Haute-Corse ; Bavella/Illarata-Taglio Rosso en Corse-du-Sud, voir ligne dédiée <code>risque-feu|Corse-Bavella-Illarata|…</code>) — <span class="tag hypo">HYPOTHÈSE</span> impact possible du Fango/Bonifato sur le Mare e Monti Nord, à recouper</p>
   </details>
-  <p class="meta dates"><span title="Validité">interdiction feu 15/06→30/09/2026</span><span class="sep">·</span><span title="Première détection">détectée 29 juin</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 18 juil.</span></p>
+  <p class="meta dates"><span title="Validité">interdiction feu 15/06→30/09/2026</span><span class="sep">·</span><span title="Première détection">détectée 29 juin</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
   <p class="meta sources">Sources : corse-du-sud.gouv.fr ; haute-corse.gouv.fr ; carte risque 18h</p>
 </article>
 <article class="card moyenne" data-itin="gr10 refuge des cortalets (canigou, entre mariailles et batere, gr10) — ferme 3 ans pour travaux depuis mai 2026. raison : renovation complete. refuge des cortalets, canigou " data-cat="refuge">
@@ -508,7 +570,7 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>GR54 : cols enneigés, ponts de neige ; Aup Martin déconseillé → variante GR54A ; col du Vallon très dégradé (travaux à l'automne) ; déviation bûcheronnage sous le Lauvitel</p>
   </details>
-  <p class="meta dates"><span title="Validité">temporaire (début saison) ; col du Vallon jusqu'à l'automne</span><span class="sep">·</span><span title="Première détection">détectée 2 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
+  <p class="meta dates"><span title="Validité">temporaire (début saison) ; col du Vallon jusqu'à l'automne</span><span class="sep">·</span><span title="Première détection">détectée 2 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 20 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://www.ecrins-parcnational.fr/actualite/gr54-informations-recommandations" target="_blank" rel="noopener">ecrins-parcnational.fr 24/06/2026</a></p>
 </article>
 <article class="card moyenne" data-itin="gr56 / gr52-gtm / gr5 gr56a : trace historique du cimet (allos) dangereux, devie ; gr52 : gues delicats (refuge de nice b.415, cougourde b.424, cavalet b.374-375), dangereux en crue ; gr5 : piste de sallevieille fermee chaque hiver (31/10→30/04, ouverte l&#x27;ete). gr56a cimet (allos) : deviation, trace historique dangereux ; gr52 : gues (refuge de nice b.415, cougourde b.424, cavalet 374-375), dangereux en crue ; gr5 sallevieille : ferme 31/10→30/04 chaque annee " data-cat="reroutage">
@@ -560,14 +622,14 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin &lt;11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayère : fermeture progressive 3 niveaux ; + zone incendiée de Ribaute fermée jusqu'à levée AP (AP-2026-024, post-incendie)</p>
   </details>
-  <p class="meta dates"><span title="Validité">03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP</span><span class="sep">·</span><span title="Première détection">détectée 6 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
+  <p class="meta dates"><span title="Validité">03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP</span><span class="sep">·</span><span title="Première détection">détectée 6 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 20 juil.</span></p>
   <p class="meta sources">Sources : <strong><a href="https://www.aude.gouv.fr/Actions-de-l-Etat/Environnement-eau-foret-chasse-risques-naturels-technologiques/Environnement-et-Developpement-durable/Foret/Defense-des-Forets-Contre-les-Incendies-DFCI/Fermeture-des-massifs/FERMETURE-DES-MASSIFS-2026" target="_blank" rel="noopener">aude.gouv.fr « FERMETURE DES MASSIFS 2026 », MAJ 02/07</a></strong> (AP en PDF) ; épisode 08/07 : Lézignanais + Littoral en EXTRÊME (<a href="https://pyreneesfm.com/aude-deux-secteurs-places-en-risque-incendie-extreme-la-prefecture-appelle-a-la" target="_blank" rel="noopener">Pyrénées FM</a>)</p>
 </article>
 <article class="card moyenne" data-itin="gr653 (34) — hypothese recouper le trace vs carlencas/lodeve et vs grabels (vallee de la mosson, gr653 y passe a priori) herault : fermetures de massifs journalieres en periode rouge (canicule) ; zone brulee de carlencas-et-levas (400 ha, feu fixe le 08/07) pres du gr653 — recoupement du trace en cours. raison : risque incendie. herault : rouges repetes (canicule) ; feu carlencas-et-levas : contenu/fixe depuis le 08/07 apres-midi, 377-400 ha brules (parti le 05/07, reprise le 07/07) — 300 pompiers sur les points chauds le 08/07, lisieres actives ; nouveaux departs 07-08/07 a grabels et murviel-les-montpellier ; feux d&#x27;artifice interdits 10-16/07 ; carte quotidienne js illisible en autonome" data-cat="risque-feu">
   <div class="card-top">
     <span class="badge itin">GR653</span>
     <span class="badge sev-moyenne" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte orange</span>
-    
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">risque feu / fermeture massifs (journalier)</span>
   </div>
   <p class="portion">Hérault : <strong>fermetures de massifs journalières</strong> en période rouge (canicule) ; zone brûlée de <strong>Carlencas-et-Levas</strong> (~400 ha, feu fixé le 08/07) près du GR653 — recoupement du tracé en cours. Raison : risque incendie.</p>
@@ -576,7 +638,7 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Hérault : rouges répétés (canicule) ; <strong>feu Carlencas-et-Levas : contenu/fixé depuis le 08/07 après-midi, ~377-400 ha brûlés</strong> (parti le 05/07, reprise le 07/07) — ~300 pompiers sur les points chauds le 08/07, lisières actives ; nouveaux départs 07-08/07 à Grabels et Murviel-lès-Montpellier ; feux d'artifice interdits 10-16/07 ; carte quotidienne JS illisible en autonome</p>
   </details>
-  <p class="meta dates"><span title="Validité">journalière, épisodes rouges répétés (canicule)</span><span class="sep">·</span><span title="Première détection">détectée 6 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
+  <p class="meta dates"><span title="Validité">journalière, épisodes rouges répétés (canicule)</span><span class="sep">·</span><span title="Première détection">détectée 6 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://france3-regions.franceinfo.fr/occitanie/herault/beziers/on-a-plus-d-eau-ni-d-electricite-un-feu-en-progression-est-desormais-contenu-les-habitants-de-carlencas-et-levas-n-ont-pas-ete-evacues-mais-restent-tres-inquiets-a-cause-des-reprises-3383524.html" target="_blank" rel="noopener">France 3 08/07</a> ; <a href="https://echo-des-tribunes.com/herault-tribune/articles/incendie-de-carlencasetlevas-300-pompiers-poursuivent-la-lutte-contre-les-points-chauds" target="_blank" rel="noopener">Hérault Tribune 08/07</a> ; <a href="https://www.ici.fr/occitanie/herault-34/incendies-dans-l-herault-des-feux-en-cours-a-grabels-murviel-les-montpellier-et-carlencas-et-levas-9792191" target="_blank" rel="noopener">ICI</a></p>
 </article>
 <article class="card moyenne" data-itin="gr249 gran senda de malaga (etapes competa–canillas) — hypothese impact non confirme par une source ; gr242 sierra tejeda-almijara (archez/competa) — hypothese idem feu de foret a archez (axarquia, malaga — sierras tejeda-almijara) : la junta de andalucia confirme le 18/07 que le feu « ne presente plus d&#x27;activite » (ya no presenta actividad) — poste de commandement avance en cours de demantelement, seul le refroidissement du perimetre se poursuit. confinement de competa leve depuis le 17/07 20h50, 162 evacues rentres chez eux le 18/07 matin. etat de la route a-7206 (km 0→3) toujours non reconfirme (derniere info connue : fermee) — a traiter comme fermee par defaut. raison : incendie du 17/07, desormais sans activite, plan infoca en phase preemergence (situation operationnelle 0). axarquia (malaga) : feu parti pres d&#x27;une route/point de collecte de dechets a archez ; maj 18/07 : desescalade confirmee (stabilise 23h40 17/07, confinement leve, evacues rentres, infoca en preemergence) ; maj 19/07 (run europe) : nouvelle confirmation officielle de la junta — le feu « ne presente plus d&#x27;activite », dossier proche de la cloture mais pas formellement classe « extinguido » ; route a-7206 toujours sans confirmation de reouverture — aucune source ne nomme explicitement le gr249/gr242 en lien avec cet episode" data-cat="incendie">
@@ -593,8 +655,8 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
     <summary>Détails</summary>
     <p>Axarquía (Málaga) : feu parti près d'une route/point de collecte de déchets à Árchez ; MAJ 18/07 : désescalade confirmée (stabilisé 23h40 17/07, confinement levé, évacués rentrés, INFOCA en préemergence) ; <strong>MAJ 19/07 (run Europe) : nouvelle confirmation officielle de la Junta — le feu « ne présente plus d'activité », dossier proche de la clôture mais pas formellement classé « extinguido » ; route A-7206 toujours sans confirmation de réouverture</strong> — aucune source ne nomme explicitement le GR249/GR242 en lien avec cet épisode</p>
   </details>
-  <p class="meta dates"><span title="Validité">sans activité depuis le 18/07 ; sécurisation du périmètre en cours, pas de clôture formelle</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 19 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://www.andaluciainformacion.es/articulo/malaga/andalucia-malaga-sucesos-junta-destaca-que-incendio-archez-presenta-actividad-sigue-asegurando-perimetro/202607181518503435028.html" target="_blank" rel="noopener">Andalucía Información 18/07 15h18 — « ya no presenta actividad »</a> ; <a href="https://www.infobae.com/america/agencias/2026/07/18/regresan-a-sus-viviendas-los-desalojados-por-el-incendio-de-archez-que-desciende-a-fase-preemergencia/" target="_blank" rel="noopener">Infobae 18/07 — retour en phase préemergence</a> ; <a href="https://www.eldiario.es/andalucia/estabilizado-incendio-archez-malaga-mantiene-162-desalojados-viviendas-cercanas_1_13389035.html" target="_blank" rel="noopener">eldiario.es 18/07</a></p>
+  <p class="meta dates"><span title="Validité">sans activité depuis le 18/07 ; sécurisation du périmètre en cours, pas de clôture formelle</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.andaluciainformacion.es/articulo/malaga/andalucia-malaga-sucesos-junta-destaca-que-incendio-archez-presenta-actividad-sigue-asegurando-perimetro/202607181518503435028.html" target="_blank" rel="noopener">Andalucía Información 18/07 15h18 — « ya no presenta actividad »</a> ; <a href="https://www.infobae.com/america/agencias/2026/07/18/regresan-a-sus-viviendas-los-desalojados-por-el-incendio-de-archez-que-desciende-a-fase-preemergencia/" target="_blank" rel="noopener">Infobae 18/07 — retour en phase préemergence</a></p>
 </article>
 <article class="card moyenne" data-itin="aucun p1 ; hypothese sentiero italia cai (p3, secteur vco) — recouper parco nazionale della val grande (vco, piemont) : revocation des ordonnances municipales de fermeture totale le 17/07 — la majorite du reseau de sentiers est de nouveau accessible. deux itineraires restent fermes sur la commune de premosello chiovenda : colloro → alpe lut et colloro → alpe i curt. raison : sequelles de l&#x27;incendie du 01/07 (pizzo proman, 700 ha dont 200 ha dans le parc), resorbe grace aux pluies recentes. pn val grande (verbano-cusio-ossola) : interdiction totale decretee le 10/07 en urgence incendie ; maj 18/07 (run europe) : annonce officielle du parc du 17/07 — situation normalisee, ordonnances revoquees sauf sur premosello chiovenda (2 itineraires) ; la « traversata classica della val grande » reste non praticable integralement tant que ces 2 troncons sont fermes" data-cat="incendie">
   <div class="card-top">
@@ -612,22 +674,22 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
   <p class="meta dates"><span title="Validité">levée partielle depuis le 17/07 ; 2 itinéraires encore fermés sans date de réouverture</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 18 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://www.parcovalgrande.it/novdettaglio.php?id=87605" target="_blank" rel="noopener">parcovalgrande.it 17/07</a></p>
 </article>
-<article class="card moyenne" data-itin="tmb (variante suisse champex/orsieres) ; hypothese troncon commun tour des combins tmb cote suisse, commune d&#x27;orsieres (vs) : annonce federale « orsieres - tour du mont blanc », segment 6.35 — fermeture avec deviation du 11/07/2026 au 07/07/2027. raison : non renseignee dans le flux (champ vide). flux data.geo.admin.ch ch.astra.wanderland-sperrungen_umleitungen (maj 08/07/2026) ; troncon exact et motif a preciser " data-cat="reroutage">
+<article class="card moyenne" data-itin="tmb (variante suisse champex/orsieres, val ferret) ; hypothese troncon commun tour des combins tmb cote suisse, commune d&#x27;orsieres (vs), secteur treutsebo : sentier ferme et devie entre prayon et branche (1,6 km), deplace sur la rive droite de la dranse de ferret, depuis le samedi 11/07/2026. raison : fait risque de chutes de pierres (confirme par le nouvelliste, decision de la mairie d&#x27;orsieres). flux data.geo.admin.ch ch.astra.wanderland-sperrungen_umleitungen (derniere maj flux 08/07/2026, champ officiel reason_fr=&quot;autre&quot; toujours generique) ; motif et portion precises via presse (le nouvelliste, relaye par ffrandonnee)." data-cat="reroutage">
   <div class="card-top">
     <span class="badge itin">TMB</span>
     <span class="badge itin">Tour des Combins</span>
     <span class="badge sev-moyenne" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte orange</span>
-    
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
     <span class="type">fermeture / déviation</span>
   </div>
-  <p class="portion"><strong>TMB côté suisse, commune d'Orsières (VS)</strong> : annonce fédérale « Orsières - Tour du Mont Blanc », segment 6.35 — <strong>fermeture avec déviation du 11/07/2026 au 07/07/2027</strong>. Raison : non renseignée dans le flux (champ vide).</p>
-  <p class="alt"><span class="alt-label">Alternative</span> Déviation officielle SuisseMobile balisée (annonce de type « Fermeture et déviation »).</p>
+  <p class="portion"><strong>TMB côté suisse, commune d'Orsières (VS), secteur Treutsebo</strong> : sentier fermé et dévié entre <strong>Prayon et Branche</strong> (~1,6 km), déplacé sur la <strong>rive droite de la Dranse de Ferret</strong>, depuis le samedi 11/07/2026. Raison : <strong><span class="tag fait">FAIT</span> risque de chutes de pierres</strong> (confirmé par Le Nouvelliste, décision de la mairie d'Orsières).</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Nouveau tracé balisé et opérationnel depuis le 11/07 (rive droite de la Dranse de Ferret) ; camping/bivouac interdit dans le secteur — alternatives : camping des Glaciers (La Fouly), Rocailles, Relais d'Arpette.</p>
   <details>
     <summary>Détails</summary>
-    <p>Flux data.geo.admin.ch <code>ch.astra.wanderland-sperrungen_umleitungen</code> (MAJ 08/07/2026) ; tronçon exact et motif à préciser (schweizmobil.ch en JS)</p>
+    <p>Flux data.geo.admin.ch <code>ch.astra.wanderland-sperrungen_umleitungen</code> (dernière MAJ flux 08/07/2026, champ officiel <code>reason_fr</code>="Autre" toujours générique) ; motif et portion précisés via presse (Le Nouvelliste, relayé par FFRandonnée).</p>
   </details>
-  <p class="meta dates"><span title="Validité">11/07/2026 → 07/07/2027</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 17 juil.</span></p>
-  <p class="meta sources">Sources : <a href="https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv" target="_blank" rel="noopener">CSV officiel data.geo.admin.ch</a></p>
+  <p class="meta dates"><span title="Validité">11/07/2026 → 07/07/2027</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv" target="_blank" rel="noopener">CSV officiel data.geo.admin.ch</a> ; <a href="https://www.ffrandonnee.fr/s-informer/actualites/deviation-du-sentier-de-grande-randonnee-tour-du-mont-blanc-orsieres-en-suisse" target="_blank" rel="noopener">FFRandonnée — déviation TMB Orsières</a></p>
 </article>
 <article class="card moyenne" data-itin="gr221, gr222 tous les refuges du consell de mallorca fermes du 1er au 15 aout 2026 inclus (reseau camins de pedra — gr221 tramuntana et gr222). raison : non publiee dans l&#x27;avis. avis en bandeau « notice » du site officiel camins de pedra (lu le 17/07) ; impact plein ete sur les itinerances multi-jours du gr221" data-cat="refuge">
   <div class="card-top">
@@ -661,6 +723,54 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
   </details>
   <p class="meta dates"><span title="Validité">temporaire, sans date de levée publiée</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 18 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://parcodiveio.it/%F0%9F%9A%A7%F0%9F%8C%A7%EF%B8%8F-avviso-importante-sentiero-via-francigena-prato-la-corte-chiuso-per-frana-%F0%9F%8C%A7%EF%B8%8F%F0%9F%9A%A7/" target="_blank" rel="noopener">parcodiveio.it 30/01/2026</a></p>
+</article>
+<article class="card moyenne" data-itin="gr10 (vallee d&#x27;aspe) chemin de la mature (vallee d&#x27;aspe, pyrenees-atlantiques), portion du gr10 — ferme depuis le 05/01/2026 par arrete municipal, « jusqu&#x27;a nouvel ordre ». raison : eboulement. vallee d&#x27;aspe (64) : le chemin de la mature, portion emblematique du gr10, ferme depuis le 05/01/2026 suite a un eboulement ; deviation balisee par le col d&#x27;arras. detection tardive (evenement de janvier decouvert au run du 20/07)." data-cat="reroutage">
+  <div class="card-top">
+    <span class="badge itin">GR10</span>
+    <span class="badge sev-moyenne" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte orange</span>
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
+    <span class="type">reroutage / fermeture locale</span>
+  </div>
+  <p class="portion"><strong>Chemin de la Mâture (vallée d'Aspe, Pyrénées-Atlantiques), portion du GR10</strong> — fermé depuis le 05/01/2026 par arrêté municipal, « jusqu'à nouvel ordre ». Raison : éboulement.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Déviation officielle balisée par le col d'Arras — la boucle historique n'est plus intégralement praticable.</p>
+  <details>
+    <summary>Détails</summary>
+    <p>Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR10, fermé depuis le 05/01/2026 suite à un éboulement ; déviation balisée par le col d'Arras. Détection tardive (événement de janvier découvert au run du 20/07).</p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 05/01/2026, jusqu'à nouvel ordre</span><span class="sep">·</span><span title="Première détection">détectée 20 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.ffrandonnee.fr/s-informer/actualites/pyrenees-atlantiques-le-chemin-de-la-mature-ferme-apres-un-eboulement" target="_blank" rel="noopener">FFRandonnée — Pyrénées-Atlantiques, chemin de la Mâture fermé</a></p>
+</article>
+<article class="card moyenne" data-itin="mare a mare nord (grp) mare a mare nord, entre le col de vergio et albertacce (niolu, haute-corse) — fait, confirme 21/07 ferme depuis le 19/07/2026 « jusqu&#x27;a nouvel ordre ». raison : extension du feu d&#x27;albertacce/niolu vers la foret de valdu niellu (voir alerte gr20 dediee). confirme par source primaire lisible le 21/07 : corsenetinfos.corsica (19/07 19h58) — coherent avec la progression confirmee du feu d&#x27;albertacce vers la foret de valdu niellu." data-cat="incendie">
+  <div class="card-top">
+    <span class="badge itin">GR20</span>
+    <span class="badge sev-moyenne" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte orange</span>
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
+    <span class="type">incendie / fermeture sentier</span>
+  </div>
+  <p class="portion"><strong>Mare a Mare Nord, entre le col de Vergio et Albertacce</strong> (Niolu, Haute-Corse) — [FAIT, confirmé 21/07] fermé depuis le 19/07/2026 « jusqu'à nouvel ordre ». Raison : extension du feu d'Albertacce/Niolu vers la forêt de Valdu Niellu (voir alerte GR20 dédiée).</p>
+  <p class="alt"><span class="alt-label">Alternative</span> <strong>Navette privée payante reliant Asco et le col de Vergio.</strong></p>
+  <details>
+    <summary>Détails</summary>
+    <p>Confirmé par source primaire lisible le 21/07 : corsenetinfos.corsica (19/07 19h58) — cohérent avec la progression confirmée du feu d'Albertacce vers la forêt de Valdu Niellu.</p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 19/07/2026, jusqu'à nouvel ordre (lié à l'extinction du feu d'Albertacce)</span><span class="sep">·</span><span title="Première détection">détectée 20 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.corsenetinfos.corsica" target="_blank" rel="noopener">corsenetinfos.corsica 19/07 19h58</a></p>
+</article>
+<article class="card moyenne" data-itin="gr55 (traversee de la vanoise, via pralognan/col de la vanoise) ; tgv (tour des glaciers de la vanoise) — hypothese acces aux refuges impacte, fermeture du trace gr lui-meme non confirmee rd915 et rd91d (acces a pralognan-la-vanoise et champagny-en-vanoise) coupees puis rouvertes en alternat depuis le 15/07 (450 blocs beton anti-chute de pierres) — pietons et cyclistes toujours interdits sur ce troncon au 15/07. acces aux refuges du grand bec, du col de la vanoise et de peclet-polset impacte. raison : incendie parti par la foudre le 24/06, accelere et declare sur la commune du planay (versant tour du merle) le 07/07 au soir. savoie (73) : feu parti par la foudre le 24/06, accelere debut juillet, declare au planay le 07/07 soir. pralognan-la-vanoise isolee pendant 8 jours (ravitaillement heliporte, 5000-6000 personnes). rd915 rouverte partiellement le 15/07 9h avec restrictions pietons/cyclistes maintenues. hypothese aucune information trouvee posterieure au 15/07 — statut au 21/07 non confirme, silence de 6 jours a traiter avec prudence (refuges consideres impactes par defaut). detection tardive : evenement de debut juillet decouvert seulement au 1er passage fr-alpes-n du 21/07." data-cat="incendie">
+  <div class="card-top">
+    <span class="badge itin">GR55</span>
+    <span class="badge sev-moyenne" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Alerte orange</span>
+    
+    <span class="type">incendie / accès refuges</span>
+  </div>
+  <p class="portion"><strong>RD915 et RD91D (accès à Pralognan-la-Vanoise et Champagny-en-Vanoise) coupées puis rouvertes en alternat depuis le 15/07 (450 blocs béton anti-chute de pierres) — piétons et cyclistes toujours interdits sur ce tronçon au 15/07.</strong> Accès aux refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset impacté. Raison : incendie parti par la foudre le 24/06, accéléré et déclaré sur la commune du Planay (versant Tour du Merle) le 07/07 au soir.</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune déviation balisée officielle publiée — se renseigner directement auprès des gardiens de refuge.</p>
+  <details>
+    <summary>Détails</summary>
+    <p>Savoie (73) : feu parti par la foudre le 24/06, accéléré début juillet, déclaré au Planay le 07/07 soir. Pralognan-la-Vanoise isolée pendant 8 jours (ravitaillement héliporté, 5000-6000 personnes). RD915 rouverte partiellement le 15/07 9h avec restrictions piétons/cyclistes maintenues. <span class="tag hypo">HYPOTHÈSE</span> aucune information trouvée postérieure au 15/07 — statut au 21/07 non confirmé, silence de 6 jours à traiter avec prudence (refuges considérés impactés par défaut). Détection tardive : événement de début juillet découvert seulement au 1er passage FR-ALPES-N du 21/07.</p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 07/07/2026 ; dernière info connue datée du 15/07 (restrictions piétons/cyclistes maintenues)</span><span class="sep">·</span><span title="Première détection">détectée 21 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.ffrandonnee.fr/s-informer/actualites/incendie-en-savoie-l-acces-a-certains-refuges-impacte-du-cote-de-pralognan-la-vanoise" target="_blank" rel="noopener">FFRandonnée 11/07</a> ; <a href="https://www.ici.fr/auvergne-rhone-alpes/savoie-73/planay/incendie-au-planay-la-d915-fermee-depuis-mardi-soir-doit-rouvrir-ce-mercredi-15-juillet-avec-des-restrictions-9765155" target="_blank" rel="noopener">ICI Savoie 15/07</a> ; <a href="https://www.savoie.gouv.fr/Actualites/Actualites/Incendie-du-Planay-modalites-de-reouverture-de-la-RD-915" target="_blank" rel="noopener">préfecture Savoie</a></p>
 </article>
 <article class="card info" data-itin="gr52 / gtm (mercantour) gr52, vallee du boreon (saint-martin-vesubie, 06) : troncon balises 377→380 ferme jusqu&#x27;a nouvel ordre. raison : sequelles de la tempete alex, trace historique non retabli. vallee du boreon, st-martin-vesubie (06) — nuance 03/07 : ffrando 06 (maj 17/02/26) maintient gr52 b377→b380 ferme « jusqu&#x27;a nouvel ordre » avec deviation → trace historique pas integralement retabli" data-cat="reouverture">
   <div class="card-top">
@@ -710,6 +820,22 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
   </details>
   <p class="meta dates"><span title="Validité">15/06/2026 → fin septembre 2026</span><span class="sep">·</span><span title="Première détection">détectée 17 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 17 juil.</span></p>
   <p class="meta sources">Sources : <a href="https://www.gronze.com/noticias/camino-portugues-costa-cierra-temporalmente-puente-levadizo-matosinhos-40446" target="_blank" rel="noopener">Gronze noticia 40446</a> ; caminhoportuguesdacosta.com</p>
+</article>
+<article class="card info" data-itin="aucun p1 identifie — sentier local du pn des pyrenees, a recouper sentier et pistes forestieres menant au cirque du moundelhs (foret indivise de bielle et billeres, pn des pyrenees) — fermes au public depuis le 15/07/2026. raison : chantier forestier (securite). pn des pyrenees : fermeture temporaire du sentier et des pistes forestieres d&#x27;acces au cirque du moundelhs (foret indivise de bielle et billeres) pour raisons de securite (chantier forestier), « jusqu&#x27;a nouvel ordre », aucune date de fin annoncee." data-cat="fermeture">
+  <div class="card-top">
+    <span class="badge itin">PN-Pyrenees-Moundelh…</span>
+    <span class="badge sev-info" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">Info</span>
+    <span class="chip changed" title="Alerte déjà connue dont la situation a évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>
+    <span class="type">fermeture / travaux</span>
+  </div>
+  <p class="portion"><strong>Sentier et pistes forestières menant au cirque du Moundelhs</strong> (forêt indivise de Bielle et Billères, PN des Pyrénées) — fermés au public depuis le 15/07/2026. Raison : chantier forestier (sécurité).</p>
+  <p class="alt"><span class="alt-label">Alternative</span> Aucune alternative connue à ce jour.</p>
+  <details>
+    <summary>Détails</summary>
+    <p>PN des Pyrénées : fermeture temporaire du sentier et des pistes forestières d'accès au cirque du Moundelhs (forêt indivise de Bielle et Billères) pour raisons de sécurité (chantier forestier), « jusqu'à nouvel ordre », aucune date de fin annoncée.</p>
+  </details>
+  <p class="meta dates"><span title="Validité">depuis le 15/07/2026, durée non précisée</span><span class="sep">·</span><span title="Première détection">détectée 20 juil.</span><span class="sep">·</span><span title="Dernière vérification">vérifiée 21 juil.</span></p>
+  <p class="meta sources">Sources : <a href="https://www.pyrenees-parcnational.fr/fr/actualites/fermeture-temporaire-du-sentier-et-des-pistes-forestieres-menant-au-cirque-du-moundelhs" target="_blank" rel="noopener">pyrenees-parcnational.fr</a></p>
 </article>
   </div>
   <p id="noresult" class="noresult" hidden>Aucune alerte pour cette recherche — bon signe pour ce sentier.</p>
@@ -2025,7 +2151,104 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
   </div>
   <p id="bnoresult" class="noresult" hidden>Aucune fiche pour cette recherche.</p>
 </section>
-<section id="d-2026-07-19" class="view digest" hidden>
+<section id="d-2026-07-21" class="view digest" hidden>
+<p class="eyebrow">Digest quotidien</p>
+<h2 class="digest-title">21 juillet 2026</h2>
+<p>Run quotidien du mardi : agrégateurs transversaux + zones T1 de saison feux (FR-CORSE, FR-13, FR-83, FR-06, FR-04-05, FR-30-48, FR-34-11, FR-66, FR-84-26-07, ES-GAL, ES-CYL, ES-AND, PT-CENTRO-SUL) + lot T2 du mardi (FR-ALPES-N, FR-MC, CH-VALAIS-VAUD) + zone en escalade FR-PYR-O (alerte HAUTE Ariège active depuis le 10/07, hors cadence T2 nominale) ; reste du référentiel non vérifié aujourd'hui (fonctionnement nominal). Retournement météo notable en PACA : après la décrue du 20/07, le 21/07 est décrit par la presse comme la journée la plus à risque incendie depuis le début de l'été.</p>
+<h2>🆕 Nouveau</h2>
+<ul>
+<li><strong><code>incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08</code></strong> [FAIT, détection tardive] — <strong>Piste de la Glère (au-dessus de Barèges, 65) fermée à la circulation</strong>, feu de forêt déclenché par la foudre au Pic de Lurtet le 08/07/2026, toujours actif au 20/07 (~100 ha), terrain trop escarpé pour une intervention sécurisée au sol (2 hélicoptères bombardiers d'eau engagés). Sentier menant au refuge de la Glère praticable mais grande prudence recommandée. Détection tardive : feu actif depuis 13 jours. Sources : <a href="https://france3-regions.franceinfo.fr/occitanie/hautes-pyrenees/tarbes/incendie-le-feu-de-foret-dans-les-hautes-pyrenees-toujours-actif-100-hectares-brules-3389011.html" target="_blank" rel="noopener">France 3 Occitanie</a>, <a href="https://www.lasemainedespyrenees.fr/bareges-un-helicoptere-bombardier-deau-mobilise-ce-samedi-apres-midi-pour-lutter-contre-lincendie-sous-la-crete-de-lurtet/" target="_blank" rel="noopener">La Semaine des Pyrénées 18/07</a>. <strong>Itinéraires</strong> : GR10 (Barèges), HRP (vallée de la Glère, refuge de la Glère — portion exacte à recouper). <strong>Sévérité</strong> : HAUTE. Suivi : extinction, réouverture piste.</li>
+</ul>
+<ul>
+<li><strong><code>incendie|Savoie-Planay-Pralognan|RD915-refuges-Vanoise|2026-07-07</code></strong> [FAIT jusqu'au 15/07, détection tardive, silence depuis] — <strong>RD915/RD91D (accès Pralognan-la-Vanoise, Champagny-en-Vanoise)</strong> coupées puis rouvertes en alternat depuis le 15/07 avec piétons/cyclistes toujours interdits sur ce tronçon à cette date ; accès aux refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset impacté. Feu parti par la foudre le 24/06, accéléré et déclaré au Planay le 07/07 soir, Pralognan isolée 8 jours (ravitaillement héliporté). <strong>Aucune information trouvée postérieure au 15/07</strong> — statut au 21/07 à confirmer en priorité. Sources : <a href="https://www.ffrandonnee.fr/s-informer/actualites/incendie-en-savoie-l-acces-a-certains-refuges-impacte-du-cote-de-pralognan-la-vanoise" target="_blank" rel="noopener">FFRandonnée 11/07</a>, <a href="https://www.ici.fr/auvergne-rhone-alpes/savoie-73/planay/incendie-au-planay-la-d915-fermee-depuis-mardi-soir-doit-rouvrir-ce-mercredi-15-juillet-avec-des-restrictions-9765155" target="_blank" rel="noopener">ICI Savoie 15/07</a>. <strong>Itinéraires</strong> : GR55 (Traversée de la Vanoise), TGV. <strong>Sévérité</strong> : MOYENNE (dégradée depuis HAUTE faute de confirmation post-15/07). Suivi : confirmer le statut actuel des refuges et de la RD915.</li>
+</ul>
+<h2>🔄 Changé</h2>
+<ul>
+<li><strong><code>incendie|GR20-Albertacce-Niolu|feu-GR20-fermé|2026-07-12</code></strong> <span class="tag fait">FAIT</span> — Le feu de la <strong>Restonica a nettement progressé (100 → 160-180 ha)</strong>, a franchi une barrière rocheuse et <strong>menace désormais les bergeries d'Alzo, Culletta et Capellaccia</strong> (bétail sécurisé/confiné, bergers évacués localement). Albertacce reste au dernier point daté connu (326 ha, 19/07 soir) — <strong>aucun point de situation strictement daté du 21/07 obtenu</strong> (fetches en échec 403), à revérifier en priorité demain. Toujours aucune réouverture de tronçon ni des refuges Ballone/Tighjettu (silence presse &gt;5 jours). Sources : <a href="https://www.corsenetinfos.corsica" target="_blank" rel="noopener">corsenetinfos.corsica 19/07 19h58</a>, <a href="https://france3-regions.franceinfo.fr" target="_blank" rel="noopener">France 3 20/07</a>. <strong>Itinéraires</strong> : GR20. <strong>Sévérité</strong> : HAUTE (inchangée).</li>
+</ul>
+<ul>
+<li><strong><code>accès|Calanques-13|risque-feu-4couleurs|2026-06-01</code></strong> <span class="tag fait">FAIT</span> — <strong>Retournement : les Calanques (GR98, Marseille↔Cassis) repassent en ROUGE (fermé)</strong> après leur réouverture d'hier, 12 massifs fermés au total en Bouches-du-Rhône. La presse qualifie le 21/07 de « journée la plus à risque depuis le début de l'été » en PACA (43 massifs fermés à l'échelle régionale). La Côte Bleue (GR51) reste praticable avec prudence (orange, pas fermée). Sources : <a href="https://cg13.eway.fr/conditions.php" target="_blank" rel="noopener">cg13.eway.fr/conditions.php</a>, frequence-sud.fr (20/07, pour le 21/07). <strong>Itinéraires</strong> : GR98 (fermé), GR51 (praticable). <strong>Sévérité</strong> : HAUTE (maintenue).</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08</code></strong> <span class="tag fait">FAIT</span> — <strong>Ré-aggravation : 7 massifs fermés contre 4 la veille</strong> — Maures et Centre-Var en extrême, Sainte-Baume/Monts Toulonnais/Corniche des Maures/Haut-Var/Îles d'Hyères en très sévère. Seuls Canjuers et l'Estérel restent praticables (orange). Source : <a href="https://presseagence.fr/toulon-risque-incendie-sept-massifs-forestiers-fermes-au-public-ce-mardi/" target="_blank" rel="noopener">presseagence.fr 20/07</a>. <strong>Itinéraires</strong> : GR51/GR90 (Maures, fermé), GR9/GR51 (Sainte-Baume, fermé), GR51/GR98 (Estérel, praticable). <strong>Sévérité</strong> : HAUTE (maintenue).</li>
+</ul>
+<ul>
+<li><strong><code>incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10</code></strong> <span class="tag fait">FAIT</span> — <strong>Le feu a repris le 16-17/07 sous des rafales &gt;100 km/h, surface passée de 70-120 ha à ~300 ha</strong>, renforts européens engagés (2 hélicoptères tchèques). Nouvelles portions touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus ; vallée du Ribérot à éviter. <span class="tag hypo">HYPOTHÈSE</span> statut de l'AP interdiction totale du feu en Ariège (échue le 20/07) non confirmé par une source datée — à traiter par prudence comme probablement reconduit. Sources : <a href="https://www.ffrandonnee.fr/s-informer/actualites/en-ariege-les-incendies-impactent-les-sentiers-de-randonnee" target="_blank" rel="noopener">FFRandonnée</a>, <a href="https://pyreneesfm.com/incendie-en-couserans-attise-par-des-rafales-a-plus-de-100-km-h-le-feu-progresse" target="_blank" rel="noopener">Pyrénées FM</a>. <strong>Itinéraires</strong> : GR10 (Couserans). <strong>Sévérité</strong> : HAUTE (aggravée).</li>
+</ul>
+<ul>
+<li><strong><code>fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07</code></strong> [FAIT/HYPOTHÈSE] — <strong>Périmètre très élargi : 14 nouvelles communes identifiées</strong> (Bellecombe-Tarendol, Condorcet, Curnier, Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Roche-Saint-Secret-Béconne, Saint-Ferréol-Trente-Pas, Saint-Sauveur-Gouvernet, Valouse, Vercoiran, Vinsobres), portant le total à 23 communes. <span class="tag hypo">HYPOTHÈSE</span> Monclar-sur-Gervanne et Plan de Baix (échéance du jour) probablement levées — absentes de la liste PNR Baronnies Provençales du 20/07 — mais <strong>aucune confirmation formelle trouvée</strong>. Source : <a href="https://www.baronnies-provencales.fr" target="_blank" rel="noopener">baronnies-provencales.fr</a> (MAJ 20/07), <a href="https://www.drome-cestmanature.com/fiches/gr-9/" target="_blank" rel="noopener">Drôme Tourisme</a> (MAJ 19/07). <strong>Itinéraires</strong> : GR9. <strong>Sévérité</strong> : HAUTE (inchangée).</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01</code></strong> [FAIT, confirmé par lecture directe] — La liste de <strong>9 massifs interdits repérée hier est désormais confirmée par lecture directe de la page officielle</strong> vaucluse.gouv.fr, datée et titrée du jour (« Vigilance feux de forêts — Risque d'incendie 21 juillet 2026 »). <span class="tag hypo">HYPOTHÈSE</span> statut précis du Ventoux (jaune/sommet vert) toujours non recoupé avec une publication du même jour — piège potentiel déjoué (un article source portait sur un « mercredi », pas le mardi 21/07). Source : <a href="https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Juillet/Vigilance-feux-de-forets-Risque-d-incendie-21-juillet-2026" target="_blank" rel="noopener">vaucluse.gouv.fr 21/07</a>. <strong>Itinéraires</strong> : GR4, GR9, GR91. <strong>Sévérité</strong> : HAUTE (désormais confirmée par source officielle directe).</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Corse-Bavella-Illarata|fermeture-preventive|2026-07-18</code></strong> <span class="tag fait">FAIT</span> — Précisions obtenues : <strong>le GR20 est interrompu précisément entre Asinau et Paliri</strong> (secteur sud) ; la coupure de la RD268 est corrigée entre les PK28+742 et PK10+089. Le mécanisme de reconduction quotidienne Fango/Bonifato/Agriate (Haute-Corse) est confirmé <span class="tag fait">FAIT</span> par des entrées datées 18, 19 et 20/07 sur haute-corse.gouv.fr (entrée du 21/07 non capturée au moment du contrôle). Le <strong>refuge de Paliri, fermé « au moins jusqu'au 21/07 », voit son échéance atteinte aujourd'hui sans confirmation de levée</strong>. Piège déjoué : une page « fermeture le 22/07 » repérée par un moteur de recherche est en réalité datée du 23/07/2025 (archive), écartée. <strong>Itinéraires</strong> : GR20 (secteur sud). <strong>Sévérité</strong> : HAUTE (inchangée).</li>
+</ul>
+<ul>
+<li><strong><code>incendie|Corse-Mare-a-Mare-Nord|fermeture-Vergio-Albertacce|2026-07-19</code></strong> [FAIT, confirmé] — La fermeture, précédemment en HYPOTHÈSE, est <strong>confirmée par une source primaire lisible</strong> (corsenetinfos.corsica, 19/07 19h58). Une <strong>navette privée payante reliant Asco et le col de Vergio</strong> a été identifiée comme alternative. <strong>Itinéraires</strong> : Mare a Mare Nord (GRP). <strong>Sévérité</strong> : MOYENNE.</li>
+</ul>
+<ul>
+<li><strong><code>fermeture|TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11</code></strong> <span class="tag fait">FAIT</span> — Motif et portion désormais précisés : le tronçon fermé se situe entre <strong>Prayon et Branche</strong> (secteur Treutsebo, commune d'Orsières, Val Ferret), déplacé sur la rive droite de la Dranse de Ferret pour <strong>risque de chutes de pierres</strong> (le champ officiel du flux fédéral restait générique). Nouveau tracé balisé et opérationnel depuis le 11/07 ; camping/bivouac interdit dans le secteur. Source : <a href="https://www.ffrandonnee.fr/s-informer/actualites/deviation-du-sentier-de-grande-randonnee-tour-du-mont-blanc-orsieres-en-suisse" target="_blank" rel="noopener">FFRandonnée</a>. <strong>Itinéraires</strong> : TMB (variante suisse Orsières/Champex). <strong>Sévérité</strong> : MOYENNE.</li>
+</ul>
+<h2>✅ Levées / expirées</h2>
+<p>Aucune clôture confirmée ce run. Deux levées probables mais non formellement confirmées (Monclar-sur- Gervanne et Plan de Baix, Baronnies-GR9) restent classées ACTIF par prudence — voir 🔄 Changé.</p>
+<h2>Contexte / pièges déjoués ce run</h2>
+<ul>
+<li><strong>gard.gouv.fr</strong> : la page « Mardi 21 juillet 2026 » a été vérifiée cohérente (jour/date) — le contournement quotidien reste valide.</li>
+<li><strong>Corse (haute-corse.gouv.fr)</strong> : une page « Fermeture des massifs forestiers du Fango, Bonifato et du Territoire de l'Agriate le 22/07 » remontée par le moteur de recherche s'est révélée datée du 23/07/2025 (arrêté du 02/07/2025) — archive écartée, pas une actualité 2026.</li>
+<li><strong>Vaucluse (ICI PACA)</strong> : un article évoquant « douze massifs... ce mercredi » concerne une échéance distincte du point officiel du 21/07 (mardi, 9 massifs) — les deux ne doivent pas être confondus.</li>
+<li><strong>ES-GAL/ES-CYL</strong> : plusieurs résultats de recherche ont fait remonter la crise d'incendies d'<strong>août 2025</strong> (115 000 ha Bierzo/Galice, fermeture Astorga-Ponferrada-Cruz de Ferro une semaine) — dates vérifiées et confirmées comme 2025, écartées de ce run ; la situation 2026 est nettement moins grave (feux de quelques dizaines à ~250 ha max, tous éteints en 1-4 jours).</li>
+<li><strong>ES-AND (Istán/Sierra de las Nieves)</strong> : un feu de février 2026 existe dans les résultats de recherche à côté d'un possible épisode de juillet — à ne pas confondre, dates à clarifier au prochain passage.</li>
+</ul>
+</section><section id="d-2026-07-20" class="view digest" hidden>
+<p class="eyebrow">Digest quotidien</p>
+<h2 class="digest-title">20 juillet 2026</h2>
+<p>Run quotidien du lundi : agrégateurs transversaux + zones T1 de saison feux (FR-CORSE, FR-13, FR-83, FR-06, FR-04-05, FR-30-48, FR-34-11, FR-66, FR-84-26-07, ES-GAL, ES-CYL, ES-AND, PT-CENTRO-SUL) + lot T2 du lundi (FR-PYR-O, ES-NAV-RIO-ARA, ES-NORTE) — toutes les zones en escalade (alerte HAUTE active) étaient déjà couvertes par le T1 ce jour ; reste du référentiel non vérifié aujourd'hui (fonctionnement nominal).</p>
+<h2>🆕 Nouveau</h2>
+<ul>
+<li><strong><code>incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10</code></strong> <span class="tag fait">FAIT</span> — <strong>GR10 fermé entre Esbintz et la Maison du Valier</strong> (Couserans, Ariège), ainsi que les lacs d'Ayes, de Bethmale et d'Eychelle. Incendie parti le 10/07 vers 1800 m (Bordes-sur-Lez/Uchentein), 70-120 ha. Arrêté préfectoral d'interdiction totale de l'usage du feu en Ariège jusqu'au 20/07/2026 (reconduction à vérifier dès demain). Sources : <a href="https://www.ffrandonnee.fr/s-informer/actualites/en-ariege-les-incendies-impactent-les-sentiers-de-randonnee" target="_blank" rel="noopener">FFRandonnée</a>, <a href="https://www.radiocouserans.fr/couserans-plusieurs-secteurs-fermes-ou-deconseilles-apres-l-incendie-de-bordes-uchentein" target="_blank" rel="noopener">Radio Couserans</a>, <a href="https://pyreneesfm.com/incendie-en-couserans-quels-sont-les-secteurs-fermes-et-ceux-a-eviter" target="_blank" rel="noopener">Pyrénées FM</a>. <strong>Itinéraires</strong> : GR10 (Couserans). <strong>Sévérité</strong> : HAUTE. Suivi : réouverture du tronçon + reconduction de l'AP.</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10</code></strong> <span class="tag fait">FAIT</span> — <strong>Massif des Albères (Argelès-sur-Mer, Sorède), traversé par le GR10</strong> : accès interdit « jusqu'à nouvel ordre » depuis le 10/07 (arrêté municipal renforcé le 13/07), accès à la réserve de la Massane également interdit ; restriction distincte à Sorède (piétons/vélos musculaires seulement) jusqu'au 13/09. Distinct de l'incendie de Trévillach (secteur différent). Sources : <a href="https://www.tourisme-pyrenees-mediterranee.com/app/uploads/2026/07/arrete-26.238-arrete-de-circulation-interdisant-lacces-au-massif-des-alberes.pdf" target="_blank" rel="noopener">arrêté 26.238 (PDF)</a>, <a href="http://www.rnnmassane.fr/2026/07/13/renforcement-interdictionaccesmassifalberes-communeargeles/" target="_blank" rel="noopener">rnnmassane.fr</a>. <strong>Itinéraires</strong> : GR10 (Argelès-sur-Mer↔Banyuls-sur-Mer). <strong>Sévérité</strong> : HAUTE. Suivi : recouper le tracé précis, suivre la levée.</li>
+</ul>
+<ul>
+<li><strong><code>reroutage|Aspe-64-Chemin-Mature|eboulement-devie-col-Arras|2026-01-05</code></strong> [FAIT, détection tardive] — <strong>Chemin de la Mâture (vallée d'Aspe, 64), portion du GR10</strong> fermé depuis le 05/01/2026 (éboulement), déviation balisée par le col d'Arras, boucle historique non intégralement praticable. Source : <a href="https://www.ffrandonnee.fr/s-informer/actualites/pyrenees-atlantiques-le-chemin-de-la-mature-ferme-apres-un-eboulement" target="_blank" rel="noopener">FFRandonnée</a>. <strong>Itinéraires</strong> : GR10 (vallée d'Aspe). <strong>Sévérité</strong> : MOYENNE. Suivi : confirmer que c'est toujours en vigueur.</li>
+</ul>
+<ul>
+<li><strong><code>incendie|Corse-Mare-a-Mare-Nord|fermeture-Vergio-Albertacce|2026-07-19</code></strong> [HYPOTHÈSE, source non isolée] — <strong>Mare a Mare Nord entre le col de Vergio et Albertacce</strong> fermé depuis le 19/07, en lien avec l'extension du feu d'Albertacce vers la forêt de Valdu Niellu. Repéré par recherche web (snippet daté 19/07), URL primaire non isolée en fetch direct — à confirmer au prochain passage. <strong>Itinéraires</strong> : Mare a Mare Nord (GRP). <strong>Sévérité</strong> : MOYENNE (dégradée depuis HAUTE faute de source primaire vérifiée). Suivi : confirmer via corsenetinfos.corsica ou haute-corse.gouv.fr.</li>
+</ul>
+<ul>
+<li><strong><code>fermeture|PN-Pyrenees-Moundelhs|travaux-forestiers-cirque|2026-07-15</code></strong> <span class="tag fait">FAIT</span> — Sentier et pistes forestières menant au cirque du Moundelhs (PN des Pyrénées) fermés depuis le 15/07 pour chantier forestier, durée non précisée. Source : <a href="https://www.pyrenees-parcnational.fr/fr/actualites/fermeture-temporaire-du-sentier-et-des-pistes-forestieres-menant-au-cirque-du-moundelhs" target="_blank" rel="noopener">pyrenees-parcnational.fr</a>. <strong>Itinéraires</strong> : aucun P1 identifié, sentier local du parc à recouper. <strong>Sévérité</strong> : INFO.</li>
+</ul>
+<h2>🔄 Changé</h2>
+<ul>
+<li><strong><code>incendie|GR20-Albertacce-Niolu|feu-GR20-fermé|2026-07-12</code></strong> <span class="tag fait">FAIT</span> — Le feu d'Albertacce a <strong>progressé (300 → 326 ha) et atteint la forêt de Valdu Niellu</strong> (un pompier légèrement blessé le 19/07) ; le feu de la <strong>Restonica est passé de « contenu » à « en progression » (65 → 100 ha)</strong>. Toujours aucune réouverture de tronçon GR20 (Ciottulu di i Mori↔Asco, Tighjettu↔Ballone) ni des refuges de Ballone/Tighjettu, dont le statut n'est plus reconfirmé par la presse depuis 4 jours (16→20/07). Sources : <a href="https://www.lavenir.net/actu/monde/2026/07/19/incendies-dans-le-var-et-en-corse-des-centaines-dhectares-ravages-maisons-touchees-et-pompiers-blesses-par-les-flammes-ZAGR2SXSBZH4DD32TX53OYO5XI/" target="_blank" rel="noopener">L'Avenir 19/07 22h40</a>, alta-frequenza.corsica (19/07). <strong>Itinéraires</strong> : GR20. <strong>Sévérité</strong> : HAUTE (inchangée).</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Corse-Bavella-Illarata|fermeture-preventive|2026-07-18</code></strong> <span class="tag fait">FAIT</span> — La fermeture des massifs du Fango/Bonifato/Agriate (Haute-Corse) est désormais <strong>reconduite sur 2 jours (20-21/07)</strong> au lieu d'un jour à la fois. Bavella/Illarata (Corse-du-Sud) toujours fermés, aucune levée. [HYPOTHÈSE non confirmée] le refuge de Paliri serait fermé jusqu'au 21/07. Source : <a href="https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers" target="_blank" rel="noopener">haute-corse.gouv.fr</a>. <strong>Itinéraires</strong> : GR20 (secteur sud). <strong>Sévérité</strong> : HAUTE (inchangée).</li>
+</ul>
+<ul>
+<li><strong><code>accès|Calanques-13|risque-feu-4couleurs|2026-06-01</code></strong> <span class="tag fait">FAIT</span> — <strong>Décrue nette : 13 massifs fermés (rouge) contre 21/25 la veille ; le GR98/Calanques (Marseille↔Cassis) repasse en jaune</strong>, donc rouvert (à confirmer sur le terrain), après sa fermeture inédite de dimanche. La Côte Bleue (GR51) reste en rouge. Sources : <a href="https://cg13.eway.fr/conditions.php" target="_blank" rel="noopener">cg13.eway.fr/conditions.php</a>, <a href="https://www.destimed.fr/bouches-du-rhone-treize-massifs-forestiers-fermes-lundi-en-raison-dun-risque-dincendie-tres-severe/" target="_blank" rel="noopener">Destimed 19/07</a>. <strong>Itinéraires</strong> : GR98 (rouvert), GR51 (Côte Bleue toujours fermée). <strong>Sévérité</strong> : HAUTE (maintenue par prudence, décrue partielle).</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08</code></strong> <span class="tag fait">FAIT</span> — <strong>Décrue : 4 massifs fermés (Sainte-Baume, Maures, Haut-Var, Centre-Var) contre 9/9 la veille.</strong> L'Estérel (versant Var) repasse en orange, donc praticable avec restrictions — impacte le GR51/GR98. Les Maures (GR51/GR90) restent fermées. Source : <a href="https://presseagence.fr/toulon-risque-incendie-quatre-massifs-forestiers-majeurs-du-var-fermes-au-public-ce-lundi/" target="_blank" rel="noopener">presseagence.fr 19/07</a>. <strong>Itinéraires</strong> : GR51, GR90 (Maures, toujours fermé) ; GR51, GR98 (Estérel, rouvert). <strong>Sévérité</strong> : HAUTE (maintenue, Maures/Sainte-Baume toujours fermées).</li>
+</ul>
+<ul>
+<li><strong><code>fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07</code></strong> [FAIT/HYPOTHÈSE] — Fiche Drôme Tourisme rafraîchie (18/07) : <strong>Monclar-sur-Gervanne toujours non tranché au lendemain de son échéance</strong> (10/07→19/07, ni levée ni reconduction confirmée) ; « Buis-les-Baronnies » a disparu de la liste, remplacé par « La Roche-sur-le-Buis » (erreur de nom ou changement réel, à vérifier). Source : <a href="https://www.drome-cestmanature.com/fiches/gr-9/" target="_blank" rel="noopener">Drôme Tourisme — fiche GR9</a>. <strong>Itinéraires</strong> : GR9. <strong>Sévérité</strong> : HAUTE (inchangée).</li>
+</ul>
+<ul>
+<li><strong><code>risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01</code></strong> [HYPOTHÈSE, source bloquée 403] — Piste d'une <strong>carte quotidienne rouge/jaune/vert par massif</strong> (9 massifs rouges, dont un nouveau nommé « Enclave des Papes ») repérée via un article non lu en direct ; confirme que <strong>le Mont Ventoux n'est pas en interdiction totale</strong> (jaune, sommet vert). À vérifier par lecture directe avant de considérer cette liste comme un FAIT. <strong>Itinéraires</strong> : GR4, GR9, GR91. <strong>Sévérité</strong> : HAUTE (maintenue par prudence, source non confirmée).</li>
+</ul>
+<h2>✅ Levées / expirées</h2>
+<p>Aucune clôture complète ce run — les décrues du Var (83) et des Calanques (13) sont des reculs partiels au sein d'alertes qui restent actives (voir 🔄 Changé) ; le reste du registre HAUTE reste sans levée confirmée.</p>
+<h2>Contexte / pièges déjoués ce run</h2>
+<ul>
+<li><strong>varactu.fr</strong> « Incendies dans le Var ce dimanche 20 juillet » : le 20/07/2026 est un lundi, pas un dimanche → probable republication 2025, écarté au profit de presseagence.fr et var.gouv.fr.</li>
+<li><strong>Nice Premium</strong> (Alpes-Maritimes) : titre « ce samedi 19 juillet » alors que le 19/07/2026 est un dimanche → confusion de date probable, information traitée avec prudence (statut du 06 non confirmé pour aujourd'hui).</li>
+<li><strong>gard.gouv.fr</strong> : la page « Lundi 20 juillet 2026 » a été vérifiée cohérente (jour/date) — le contournement quotidien reste valide.</li>
+<li><strong>Aude / Ribaute (AP-2026-024)</strong> : une mention trouvée par recherche donnait un chiffrage incohérent (~11 000 ha contre ~950 ha connus pour le feu d'Oupia/Minervois) — probable confusion d'un résumé automatisé avec un autre feu ; non retenue faute de lecture directe d'une page aude.gouv.fr primaire.</li>
+</ul>
+</section><section id="d-2026-07-19" class="view digest" hidden>
 <p class="eyebrow">Digest quotidien</p>
 <h2 class="digest-title">19 juillet 2026</h2>
 <p>Run du dimanche : agrégateurs transversaux + zones T1 de saison (FR-CORSE, FR-13, FR-83, FR-06, FR-04-05, FR-30-48, FR-34-11, FR-66, FR-84-26-07, ES-GAL, ES-CYL, ES-AND, PT-CENTRO-SUL) + zones en escalade (GR20-Corse, Calanques-13, Var-83, Gard-30, Bavella-Illarata, Justin/Die, Baronnies-GR9 — toutes déjà incluses dans le T1 ci-dessus). Le dimanche ne comporte pas de lot T2 : revue du registre à la place (échéances, validités expirées). Non vérifié ce run : zones T2 des autres jours (Pyrénées, Alpes du Nord, Bretagne/Normandie, Est, Suisse, Italie, Autriche, Allemagne, Benelux, Royaume-Uni/Irlande, Scandinavie, Catalogne, Baléares, Levante, Canaries, Portugal Nord, Islande), Réunion (hors saison cyclonique).</p>
@@ -2244,18 +2467,21 @@ footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
 </div>
 
 <footer>
-  <span>Généré le 19/07/2026 22:39</span><span>·</span>
+  <span>Généré le 21/07/2026 08:36</span><span>·</span>
   <span>alertes-rando.info — veille quotidienne automatisée</span><span>·</span>
-  <span>État au 19 juillet 2026</span>
+  <span>État au 21 juillet 2026</span>
 </footer>
 </div>
 
 <script>
 (function () {
-  var links = document.querySelectorAll('.navlink');
+  var links = document.querySelectorAll('.navlink, .digpill');
   var views = document.querySelectorAll('.view');
   function show(id) {
-    links.forEach(function (x) { x.classList.toggle('active', x.dataset.view === id); });
+    links.forEach(function (x) {
+      x.classList.toggle('active', x.dataset.view === id
+        || (x.classList.contains('nav-dig') && id.indexOf('d-') === 0));
+    });
     views.forEach(function (v) { v.hidden = (v.id !== id); });
   }
   links.forEach(function (b) {

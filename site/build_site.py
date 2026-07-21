@@ -488,7 +488,7 @@ def build():
     for p in digests:
         iso = p.stem.replace("digest_", "")
         label = fr_date(iso, court=True)
-        nav_items.append(f'<button class="navlink" data-view="d-{iso}">{label}<span class="yr">{iso[:4]}</span></button>')
+        nav_items.append(f'<button class="digpill" data-view="d-{iso}">{label} {iso[:4]}</button>')
         body = md_to_html(p.read_text(encoding="utf-8"))
         sections.append(f"""<section id="d-{iso}" class="view digest" hidden>
 <p class="eyebrow">Digest quotidien</p>
@@ -525,17 +525,22 @@ def build():
 
     analytics = (f'<script defer src="https://cloud.umami.is/script.js" '
                  f'data-website-id="{UMAMI_WEBSITE_ID}"></script>' if UMAMI_WEBSITE_ID else "")
-    page = f"""<title>Alertes Rando</title>
+    page = f"""<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alertes Rando</title>
 {analytics}
 <style>
+@font-face {{ font-family: "Roboto"; src: url(fonts/Roboto-var.woff2) format("woff2");
+  font-weight: 100 900; font-display: swap; }}
+@font-face {{ font-family: "Roboto Mono"; src: url(fonts/RobotoMono-var.woff2) format("woff2");
+  font-weight: 100 700; font-display: swap; }}
 :root {{
-  --paper: #faf9f5; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
+  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
   --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
   --haute: #b3362b; --haute-bg: #f6e7e4; --moy: #a86a1f; --moy-bg: #f4ecdd;
   --info: #4a6478; --info-bg: #e7edf1; --clos: #8a8f86; --clos-bg: #ecebe5;
-  --serif: "Iowan Old Style", "Palatino Nova", Palatino, "Palatino Linotype", Georgia, serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --sans: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "Roboto Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }}
 @media (prefers-color-scheme: dark) {{
   :root {{
@@ -546,7 +551,7 @@ def build():
   }}
 }}
 :root[data-theme="light"] {{
-  --paper: #faf9f5; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
+  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
   --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
   --haute: #b3362b; --haute-bg: #f6e7e4; --moy: #a86a1f; --moy-bg: #f4ecdd;
   --info: #4a6478; --info-bg: #e7edf1; --clos: #8a8f86; --clos-bg: #ecebe5;
@@ -564,48 +569,41 @@ a {{ color: var(--pine); }}
 code {{ font-family: var(--mono); font-size: .85em; background: var(--panel);
   padding: 1px 5px; border-radius: 4px; }}
 del {{ color: var(--ink-2); }}
-.wrap {{ max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }}
+.wrap {{ max-width: 920px; margin: 0 auto; padding: 0 20px 60px; }}
 
-header.mast {{ display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
-  padding: 26px 0 18px; border-bottom: 2px solid var(--ink); }}
-.waymark {{ width: 34px; height: 26px; border-radius: 3px; overflow: hidden;
-  box-shadow: 0 0 0 1px var(--line); flex: none; display: flex; flex-direction: column; }}
-.waymark .w {{ flex: 1; background: #fff; }}
-.waymark .r {{ flex: 1; background: #c0392b; }}
-h1 {{ font-family: var(--serif); font-size: clamp(1.5rem, 3.5vw, 2.1rem);
-  margin: 0; line-height: 1.15; text-wrap: balance; }}
-h1 .amp {{ color: var(--pine); font-style: italic; }}
-.tagline {{ margin: 2px 0 0; color: var(--ink-2); font-size: .92rem; }}
-.mast-stats {{ margin-left: auto; display: flex; gap: 22px; }}
-.stat {{ text-align: right; }}
-.stat b {{ display: block; font-family: var(--serif); font-size: 1.5rem;
-  font-variant-numeric: tabular-nums; line-height: 1.1; }}
-.stat.warn b {{ color: var(--haute); }}
-.stat span {{ font-size: .72rem; text-transform: uppercase; letter-spacing: .07em;
-  color: var(--ink-2); }}
-
-.layout {{ display: grid; grid-template-columns: 210px 1fr; gap: 36px; padding-top: 26px; }}
-nav.rail {{ position: sticky; top: 16px; align-self: start; display: flex;
-  flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }}
-.rail-label {{ font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
-  color: var(--ink-2); margin: 14px 0 5px; }}
-.navlink {{ display: flex; justify-content: space-between; align-items: baseline;
-  gap: 8px; text-align: left; border: 0; background: none; color: var(--ink);
-  font: inherit; font-size: .93rem; padding: 6px 10px; border-radius: 6px;
-  cursor: pointer; border-left: 3px solid transparent; }}
-.navlink .yr {{ color: var(--ink-2); font-size: .72rem; font-family: var(--mono); }}
-.navlink:hover {{ background: var(--panel); }}
-.navlink.active {{ background: var(--pine-soft); border-left-color: var(--pine); font-weight: 600; }}
-.navlink.registre {{ font-weight: 600; }}
+.topnav {{ border-bottom: 1.5px solid var(--ink); background: var(--paper); }}
+.topnav .nav-in {{ max-width: 920px; margin: 0 auto; padding: 12px 20px; display: flex;
+  justify-content: space-between; align-items: center; gap: 20px; overflow-x: auto; }}
+.navlink {{ border: 0; background: none; cursor: pointer; font-family: var(--mono);
+  font-size: .69rem; letter-spacing: .02em; text-transform: uppercase;
+  color: var(--ink-2); padding: 2px 0; border-bottom: 2px solid transparent;
+  white-space: nowrap; }}
+.navlink:hover {{ color: var(--ink); }}
+.navlink.active {{ color: var(--ink); font-weight: 500; border-bottom-color: var(--haute); }}
 .navlink:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
 
+header.mast {{ display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap;
+  padding: 26px 0 0; }}
+h1 {{ font-family: var(--sans); font-weight: 800; font-size: clamp(2.3rem, 6.5vw, 4rem);
+  letter-spacing: -.055em; margin: 0; line-height: 1.02; text-wrap: balance; }}
+.tagline {{ margin: 10px 0 0; color: var(--ink); font-family: var(--mono);
+  font-size: .95rem; max-width: 46em; }}
+.mast-stats {{ margin-left: auto; display: flex; gap: 24px; padding-bottom: 4px; }}
+.stat {{ text-align: right; }}
+.stat b {{ display: block; font-family: var(--mono); font-weight: 700; font-size: 2.4rem;
+  letter-spacing: -.03em; font-variant-numeric: tabular-nums; line-height: 1.05; }}
+.stat.warn b {{ color: var(--haute); }}
+.stat span {{ font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
+  color: var(--ink-2); }}
+
+.layout {{ padding-top: 4px; }}
 main {{ min-width: 0; }}
 .view > :first-child {{ margin-top: 0; }}
-.eyebrow {{ font-size: .74rem; text-transform: uppercase; letter-spacing: .09em;
-  color: var(--pine); margin: 0 0 4px; font-weight: 600; }}
-h2.digest-title, h2.reg-title {{ font-family: var(--serif); font-size: 1.7rem;
-  margin: 0 0 14px; text-wrap: balance; }}
-.digest h2, .view h2 {{ font-family: var(--serif); }}
+.eyebrow {{ font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--pine); margin: 0 0 4px; font-weight: 700; }}
+h2.digest-title, h2.reg-title {{ font-family: var(--sans); font-weight: 800;
+  letter-spacing: -.03em; font-size: 1.7rem; margin: 0 0 14px; text-wrap: balance; }}
+.digest h2, .view h2 {{ font-family: var(--sans); font-weight: 800; letter-spacing: -.02em; }}
 .digest > p, .digest li, .annexes p, .annexes li {{ max-width: 74ch; }}
 .digest h3 {{ font-size: 1.06rem; margin: 26px 0 8px; padding-left: 10px;
   border-left: 4px solid var(--line); line-height: 1.35; }}
@@ -628,78 +626,90 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .tag.verif {{ background: var(--info-bg); color: var(--info); }}
 .tag.clos {{ background: var(--clos-bg); color: var(--clos); }}
 
-.rail .search {{ margin: 0 0 10px; }}
-.search input {{ width: 100%; font: inherit; font-size: .9rem; color: var(--ink);
-  background: var(--paper); border: 1.5px solid var(--line); border-radius: 8px;
+.controls {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 20px 0 0; }}
+.search input {{ width: 200px; font-family: var(--mono); font-size: .8rem; color: var(--ink);
+  background: none; border: 1.5px solid var(--ink); border-radius: 8px;
   padding: 8px 12px; }}
 .search input:focus {{ outline: none; border-color: var(--pine);
   box-shadow: 0 0 0 3px var(--pine-soft); }}
 .search input::placeholder {{ color: var(--ink-2); }}
 .noresult {{ color: var(--ink-2); font-style: italic; }}
-.cats {{ display: flex; flex-wrap: wrap; gap: 7px; margin: 12px 0 4px; }}
-.cat {{ font: inherit; font-size: .82rem; color: var(--ink); background: var(--panel);
-  border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; cursor: pointer; }}
-.cat span {{ color: var(--ink-2); font-size: .74rem; font-variant-numeric: tabular-nums; }}
-.cat:hover {{ border-color: var(--pine); }}
+.cats {{ display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }}
+.cat {{ font-family: var(--mono); font-size: .74rem; color: var(--ink); background: var(--paper);
+  border: 1px solid var(--ink); border-radius: 999px; padding: 5px 12px; cursor: pointer; }}
+.cat span {{ color: inherit; opacity: .7; font-size: .7rem; font-variant-numeric: tabular-nums; }}
+.cat:hover {{ border-color: var(--pine); color: var(--pine); }}
 .cat.active {{ background: var(--pine); border-color: var(--pine); color: #fff; }}
-.cat.active span {{ color: rgba(255,255,255,.75); }}
+.cat.active span {{ color: #fff; opacity: .8; }}
 .cat:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
+.digbar {{ display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 14px 0 0; }}
+.diglabel {{ font-family: var(--mono); font-weight: 700; font-size: .64rem;
+  letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }}
+.digpill {{ font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
+  color: var(--ink); background: var(--paper); border: 1px solid var(--ink);
+  border-radius: 4px; padding: 3px 10px; cursor: pointer; }}
+.digpill:hover {{ border-color: var(--pine); color: var(--pine); }}
+.digpill.active {{ background: var(--ink); border-color: var(--ink); color: var(--paper); }}
+.digpill:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
 .cards {{ display: flex; flex-direction: column; gap: 14px; margin: 18px 0 30px; }}
-.card {{ border: 1px solid var(--line); border-left: 5px solid var(--clos);
+.card {{ border: 1px solid var(--clos); border-left-width: 5px;
   border-radius: 8px; padding: 14px 16px; background: var(--paper); }}
-.card.haute {{ border-left-color: var(--haute); }}
-.card.moyenne {{ border-left-color: var(--moy); }}
-.card.info {{ border-left-color: var(--info); }}
-.card.clos {{ opacity: .75; }}
-.card.ok {{ border-left-color: var(--pine); }}
+.card.haute {{ border-color: var(--haute); }}
+.card.moyenne {{ border-color: var(--moy); }}
+.card.info {{ border-color: var(--info); }}
+.card.clos {{ opacity: .75; border-color: var(--line); }}
+.card.ok {{ border-color: var(--pine); }}
 .badge.sev-ok {{ background: var(--pine-soft); color: var(--pine); }}
 .bname {{ margin: 0 0 6px; font-size: 1.02rem; }}
 .disclaimer {{ color: var(--ink-2); font-size: .85rem; font-style: italic; max-width: 80ch; }}
 .card-top {{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }}
-.badge {{ font-size: .7rem; font-weight: 700; letter-spacing: .04em;
-  padding: 2px 8px; border-radius: 5px; }}
-.badge.itin {{ background: var(--ink); color: var(--paper); font-family: var(--mono); }}
+.badge {{ font-family: var(--mono); font-size: .69rem; font-weight: 700;
+  padding: 3px 8px; border-radius: 5px; }}
+.badge.itin {{ background: var(--ink); color: var(--paper); }}
 .badge.sev-haute {{ background: var(--haute-bg); color: var(--haute); }}
 .badge.sev-moyenne {{ background: var(--moy-bg); color: var(--moy); }}
 .badge.sev-info {{ background: var(--info-bg); color: var(--info); }}
 .badge.sev-clos {{ background: var(--clos-bg); color: var(--clos); }}
-.chip.changed {{ font-size: .7rem; font-weight: 700; color: var(--pine);
-  background: var(--pine-soft); padding: 2px 8px; border-radius: 5px; }}
-.card .type {{ color: var(--ink-2); font-size: .8rem; }}
-.card .portion {{ margin: 0 0 10px; font-size: .97rem; line-height: 1.5; max-width: 90ch; }}
-.card .alt {{ margin: 0 0 10px; font-size: .92rem; max-width: 90ch;
-  padding: 8px 12px; background: var(--pine-soft); border-radius: 6px; }}
-.card .alt-label {{ display: inline-block; font-size: .68rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: .06em; color: var(--pine);
+.chip.changed {{ font-family: var(--mono); font-size: .69rem; font-weight: 600;
+  color: var(--pine); background: var(--pine-soft); padding: 3px 8px; border-radius: 5px; }}
+.card .type {{ font-family: var(--mono); color: var(--ink-2); font-size: .75rem; }}
+.card .portion {{ margin: 0 0 10px; font-size: .94rem; letter-spacing: .02em;
+  line-height: 1.5; max-width: 90ch; }}
+.card .alt {{ margin: 0 0 10px; font-size: .84rem; max-width: 90ch;
+  padding: 8px 12px; background: var(--ink); color: var(--paper); border-radius: 6px; }}
+.card .alt a {{ color: var(--pine-soft); }}
+.card .alt-label {{ display: inline-block; font-family: var(--mono); font-size: .64rem;
+  font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--paper);
   margin-right: 8px; vertical-align: 1px; }}
-.card.clos .alt {{ background: var(--clos-bg); }}
+.card.clos .alt {{ background: var(--clos-bg); color: var(--ink); }}
+.card.clos .alt a {{ color: var(--pine); }}
 .card.clos .alt-label {{ color: var(--clos); }}
-.card .meta {{ margin: 0; color: var(--ink-2); font-size: .82rem; max-width: 90ch; }}
+.card .meta {{ margin: 0; color: var(--ink-2); font-size: .78rem; max-width: 90ch; }}
 .card .meta.dates {{ margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); }}
 .card .meta.sources {{ margin-top: 3px; }}
 .card .meta .sep {{ margin: 0 6px; }}
 .card details {{ margin-top: 10px; font-size: .88rem; }}
-.card summary {{ cursor: pointer; color: var(--pine); font-weight: 600; font-size: .82rem; }}
+.card summary {{ cursor: pointer; color: var(--pine); font-family: var(--mono);
+  font-weight: 600; font-size: .75rem; list-style: none; }}
+.card summary::-webkit-details-marker {{ display: none; }}
+.card summary::before {{ content: "> "; }}
 .card details p {{ margin: 8px 0 0; max-width: 90ch; }}
 .card .key {{ margin: 6px 0 0; }}
 .card .key code {{ font-size: .72rem; color: var(--ink-2); background: none; padding: 0; }}
-h3.bloc {{ font-family: var(--serif); font-size: 1.15rem; margin: 34px 0 4px; }}
+h3.bloc {{ font-family: var(--sans); font-weight: 800; letter-spacing: -.02em;
+  font-size: 1.15rem; margin: 34px 0 4px; }}
 .annexes h2 {{ font-size: 1.2rem; margin-top: 34px; }}
 
-footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line);
-  color: var(--ink-2); font-size: .8rem; display: flex; gap: 8px; flex-wrap: wrap; }}
+footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink);
+  color: var(--ink-2); font-family: var(--mono); font-size: .66rem;
+  text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap; }}
 
 @media (max-width: 760px) {{
-  .layout {{ display: block; }}
-  nav.rail {{ position: static; flex-direction: row; align-items: center;
-    max-height: none; overflow-x: auto; padding-bottom: 10px; margin-bottom: 14px;
-    border-bottom: 1px solid var(--line); }}
-  .rail-label {{ display: none; }}
-  .rail .search {{ flex: none; width: 200px; margin: 0 6px 0 0; }}
-  .navlink {{ flex: none; border-left: 0; border-bottom: 3px solid transparent; border-radius: 6px 6px 0 0; }}
-  .navlink.active {{ border-bottom-color: var(--pine); }}
+  .topnav .nav-in {{ justify-content: flex-start; gap: 16px; }}
   .mast-stats {{ width: 100%; margin-left: 0; justify-content: flex-start; }}
   .stat {{ text-align: left; }}
+  .search {{ width: 100%; }}
+  .search input {{ width: 100%; }}
 }}
 @media (prefers-reduced-motion: no-preference) {{
   .view {{ animation: fade .18s ease; }}
@@ -707,11 +717,18 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
 }}
 </style>
 
+<nav class="topnav" aria-label="Navigation">
+  <div class="nav-in">
+    <button class="navlink active" data-view="registre">Alertes actives</button>
+    {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
+    {f'<button class="navlink nav-dig" data-view="d-{latest_iso}">Digests</button>' if nav_items else ''}
+  </div>
+</nav>
+
 <div class="wrap">
 <header class="mast">
-  <div class="waymark" aria-hidden="true"><span class="w"></span><span class="r"></span></div>
   <div>
-    <h1>Alertes <span class="amp">Rando</span></h1>
+    <h1>Alertes-Rando.info</h1>
     <p class="tagline">Alertes fermetures, sécurité et règlementation sur les GR®, chemins de Compostelle, grands itinéraires d'Europe</p>
   </div>
   <div class="mast-stats">
@@ -720,22 +737,17 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
   </div>
 </header>
 
-<div class="layout">
-<nav class="rail" aria-label="Navigation">
+<div class="controls">
   <div class="search">
     <input type="search" id="q" placeholder="Rechercher un sentier…"
            aria-label="Rechercher les alertes par sentier">
   </div>
-  <button class="navlink registre active" data-view="registre">Alertes actives</button>
-  {'<button class="navlink registre" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
-  {'<p class="rail-label">Digests quotidiens</p>' if nav_items else ''}
-  {"".join(nav_items)}
-</nav>
+</div>
+{f'<div class="digbar"><span class="diglabel">Digests quotidiens →</span>{"".join(nav_items)}</div>' if nav_items else ''}
 
+<div class="layout">
 <main>
 <section id="registre" class="view">
-  <p class="eyebrow">Dernière mise à jour : {fr_date(latest_iso)}</p>
-  <h2 class="reg-title">Alertes actives sur les sentiers</h2>
   <div class="cats" role="group" aria-label="Filtrer par catégorie">
   {cats_html}
   </div>
@@ -763,10 +775,13 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--line)
 
 <script>
 (function () {{
-  var links = document.querySelectorAll('.navlink');
+  var links = document.querySelectorAll('.navlink, .digpill');
   var views = document.querySelectorAll('.view');
   function show(id) {{
-    links.forEach(function (x) {{ x.classList.toggle('active', x.dataset.view === id); }});
+    links.forEach(function (x) {{
+      x.classList.toggle('active', x.dataset.view === id
+        || (x.classList.contains('nav-dig') && id.indexOf('d-') === 0));
+    }});
     views.forEach(function (v) {{ v.hidden = (v.id !== id); }});
   }}
   links.forEach(function (b) {{
