@@ -708,7 +708,8 @@ h3.bloc {{ font-family: var(--sans); font-weight: 800; letter-spacing: -.02em;
 
 footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink);
   color: var(--ink-2); font-family: var(--mono); font-size: .66rem;
-  text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap; }}
+  text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap;
+  justify-content: center; text-align: center; }}
 
 @media (max-width: 760px) {{
   .topnav .nav-in {{ justify-content: flex-start; gap: 16px; }}
@@ -810,7 +811,8 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 <footer>
   <span>Généré le {built}</span><span>·</span>
   <span>alertes-rando.info — veille quotidienne automatisée</span><span>·</span>
-  <span>État au {fr_date(latest_iso)}</span>
+  <span>État au {fr_date(latest_iso)}</span><span>·</span>
+  <a href="mailto:contact@alertes-rando.info">Contact</a>
 </footer>
 </div>
 
