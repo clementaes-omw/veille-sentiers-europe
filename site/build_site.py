@@ -527,6 +527,7 @@ def build():
                  f'data-website-id="{UMAMI_WEBSITE_ID}"></script>' if UMAMI_WEBSITE_ID else "")
     page = f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://www.alertes-rando.info/">
 <title>Alertes Rando</title>
 {analytics}
 <style>
