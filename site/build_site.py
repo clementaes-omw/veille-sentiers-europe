@@ -488,7 +488,7 @@ def build():
     for p in digests:
         iso = p.stem.replace("digest_", "")
         label = fr_date(iso, court=True)
-        nav_items.append(f'<button class="digpill" data-view="d-{iso}">{label} {iso[:4]}</button>')
+        nav_items.append(f'<button class="navlink" data-view="d-{iso}">{label}<span class="yr">{iso[:4]}</span></button>')
         body = md_to_html(p.read_text(encoding="utf-8"))
         sections.append(f"""<section id="d-{iso}" class="view digest" hidden>
 <p class="eyebrow">Digest quotidien</p>
@@ -569,17 +569,21 @@ a {{ color: var(--pine); }}
 code {{ font-family: var(--mono); font-size: .85em; background: var(--panel);
   padding: 1px 5px; border-radius: 4px; }}
 del {{ color: var(--ink-2); }}
-.wrap {{ max-width: 920px; margin: 0 auto; padding: 0 20px 60px; }}
+.wrap {{ max-width: 1180px; margin: 0 auto; padding: 0 20px 60px; }}
 
-.topnav {{ border-bottom: 1.5px solid var(--ink); background: var(--paper); }}
-.topnav .nav-in {{ max-width: 920px; margin: 0 auto; padding: 12px 20px; display: flex;
-  justify-content: space-between; align-items: center; gap: 20px; overflow-x: auto; }}
-.navlink {{ border: 0; background: none; cursor: pointer; font-family: var(--mono);
-  font-size: .69rem; letter-spacing: .02em; text-transform: uppercase;
-  color: var(--ink-2); padding: 2px 0; border-bottom: 2px solid transparent;
-  white-space: nowrap; }}
-.navlink:hover {{ color: var(--ink); }}
-.navlink.active {{ color: var(--ink); font-weight: 500; border-bottom-color: var(--haute); }}
+nav.rail {{ position: sticky; top: 16px; align-self: start; display: flex;
+  flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }}
+.rail-label {{ font-family: var(--mono); font-weight: 700; font-size: .64rem;
+  text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2);
+  margin: 16px 0 5px; padding-left: 13px; }}
+.navlink {{ display: flex; justify-content: space-between; align-items: baseline;
+  gap: 8px; text-align: left; border: 0; background: none; cursor: pointer;
+  font-family: var(--mono); font-size: .72rem; letter-spacing: .02em;
+  text-transform: uppercase; color: var(--ink-2); padding: 7px 10px;
+  border-left: 3px solid transparent; border-radius: 0 6px 6px 0; }}
+.navlink:hover {{ color: var(--ink); background: var(--panel); }}
+.navlink.active {{ color: var(--ink); font-weight: 500; border-left-color: var(--haute); }}
+.navlink .yr {{ font-size: .64rem; color: var(--ink-2); }}
 .navlink:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
 
 header.mast {{ display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap;
@@ -596,7 +600,7 @@ h1 {{ font-family: var(--sans); font-weight: 800; font-size: clamp(2.3rem, 6.5vw
 .stat span {{ font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
   color: var(--ink-2); }}
 
-.layout {{ padding-top: 4px; }}
+.layout {{ display: grid; grid-template-columns: 220px 1fr; gap: 36px; padding-top: 26px; }}
 main {{ min-width: 0; }}
 .view > :first-child {{ margin-top: 0; }}
 .eyebrow {{ font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
@@ -626,8 +630,8 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .tag.verif {{ background: var(--info-bg); color: var(--info); }}
 .tag.clos {{ background: var(--clos-bg); color: var(--clos); }}
 
-.controls {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 20px 0 0; }}
-.search input {{ width: 200px; font-family: var(--mono); font-size: .8rem; color: var(--ink);
+.rail .search {{ margin: 0 0 12px; }}
+.search input {{ width: 100%; font-family: var(--mono); font-size: .8rem; color: var(--ink);
   background: none; border: 1.5px solid var(--ink); border-radius: 8px;
   padding: 8px 12px; }}
 .search input:focus {{ outline: none; border-color: var(--pine);
@@ -642,15 +646,8 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .cat.active {{ background: var(--pine); border-color: var(--pine); color: #fff; }}
 .cat.active span {{ color: #fff; opacity: .8; }}
 .cat:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
-.digbar {{ display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 14px 0 0; }}
-.diglabel {{ font-family: var(--mono); font-weight: 700; font-size: .64rem;
-  letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }}
-.digpill {{ font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
-  color: var(--ink); background: var(--paper); border: 1px solid var(--ink);
-  border-radius: 4px; padding: 3px 10px; cursor: pointer; }}
-.digpill:hover {{ border-color: var(--pine); color: var(--pine); }}
-.digpill.active {{ background: var(--ink); border-color: var(--ink); color: var(--paper); }}
-.digpill:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
+.about p {{ max-width: 70ch; font-size: .97rem; line-height: 1.6; }}
+.about p.disclaimer {{ margin-top: 22px; }}
 .cards {{ display: flex; flex-direction: column; gap: 14px; margin: 18px 0 30px; }}
 .card {{ border: 1px solid var(--clos); border-left-width: 5px;
   border-radius: 8px; padding: 14px 16px; background: var(--paper); }}
@@ -705,25 +702,23 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap; }}
 
 @media (max-width: 760px) {{
-  .topnav .nav-in {{ justify-content: flex-start; gap: 16px; }}
+  .layout {{ display: block; }}
+  nav.rail {{ position: static; flex-direction: row; align-items: center;
+    max-height: none; overflow-x: auto; padding-bottom: 10px; margin-bottom: 14px;
+    border-bottom: 1.5px solid var(--ink); }}
+  .rail-label {{ display: none; }}
+  .rail .search {{ flex: none; width: 200px; margin: 0 6px 0 0; }}
+  .navlink {{ flex: none; border-left: 0; border-bottom: 2px solid transparent;
+    border-radius: 0; white-space: nowrap; }}
+  .navlink.active {{ border-bottom-color: var(--haute); }}
   .mast-stats {{ width: 100%; margin-left: 0; justify-content: flex-start; }}
   .stat {{ text-align: left; }}
-  .search {{ width: 100%; }}
-  .search input {{ width: 100%; }}
 }}
 @media (prefers-reduced-motion: no-preference) {{
   .view {{ animation: fade .18s ease; }}
   @keyframes fade {{ from {{ opacity: 0; transform: translateY(3px); }} }}
 }}
 </style>
-
-<nav class="topnav" aria-label="Navigation">
-  <div class="nav-in">
-    <button class="navlink active" data-view="registre">Alertes actives</button>
-    {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
-    {f'<button class="navlink nav-dig" data-view="d-{latest_iso}">Digests</button>' if nav_items else ''}
-  </div>
-</nav>
 
 <div class="wrap">
 <header class="mast">
@@ -737,15 +732,19 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   </div>
 </header>
 
-<div class="controls">
+<div class="layout">
+<nav class="rail" aria-label="Navigation">
   <div class="search">
     <input type="search" id="q" placeholder="Rechercher un sentier…"
            aria-label="Rechercher les alertes par sentier">
   </div>
-</div>
-{f'<div class="digbar"><span class="diglabel">Digests quotidiens →</span>{"".join(nav_items)}</div>' if nav_items else ''}
+  <button class="navlink active" data-view="registre">Alertes actives</button>
+  {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
+  <button class="navlink" data-view="apropos">À propos</button>
+  {'<p class="rail-label">Digests quotidiens</p>' if nav_items else ''}
+  {"".join(nav_items)}
+</nav>
 
-<div class="layout">
 <main>
 <section id="registre" class="view">
   <div class="cats" role="group" aria-label="Filtrer par catégorie">
@@ -759,6 +758,33 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   <div class="cards">
   {closed_html}
   </div>
+</section>
+
+<section id="apropos" class="view about" hidden>
+  <p class="eyebrow">Le projet</p>
+  <h2 class="reg-title">À propos</h2>
+  <p><strong>Alertes-Rando.info est né d'un constat que connaissent tous les marcheurs
+  au long cours : l'information qui compte vraiment est éparpillée aux quatre vents.</strong>
+  Un massif fermé par arrêté préfectoral en plein été, un tronçon de GR® dévié après un
+  éboulement, un refuge qui n'accueille plus, un bivouac soudain réglementé… Ces décisions
+  existent bel et bien — mais elles dorment dans des PDF de préfectures, des communiqués
+  de parcs nationaux, des pages de fédérations et des articles de presse locale. Personne
+  ne les rassemblait. On découvrait la fermeture au pied du panneau, sac sur le dos.</p>
+  <p>Alertes-Rando fait ce travail de fourmi à votre place. Chaque matin, une veille
+  automatisée parcourt les sources officielles et la presse locale sur les grands
+  itinéraires — GR® français, chemins de Compostelle, grandes traversées européennes —
+  puis recoupe, date et hiérarchise ce qu'elle trouve. Le résultat tient en une page :
+  des alertes classées par gravité (<strong>rouge</strong> = étape bloquée ou interdiction,
+  <strong>orange</strong> = impact réel sans blocage, <strong>info</strong> = bon à savoir),
+  avec pour chacune la portion concernée, une alternative quand elle existe, et les
+  sources pour vérifier par vous-même.</p>
+  <p>S'y ajoutent les digests quotidiens, qui archivent l'état des sentiers jour après
+  jour, et une base bivouac &amp; réglementation qui rassemble les règles de près d'une
+  centaine d'espaces protégés en Europe — parcs nationaux, réserves, massifs — pour
+  savoir où poser la tente sans mauvaise surprise.</p>
+  <p class="disclaimer">Une règle d'or pour finir : ce site aide à préparer, il ne
+  remplace jamais la source officielle. Avant de partir, vérifiez l'arrêté, la carte
+  préfectorale ou la page du parc — elles seules font foi. Bonne route, et bons sentiers.</p>
 </section>
 
 {bivouac_section}
@@ -775,13 +801,10 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 
 <script>
 (function () {{
-  var links = document.querySelectorAll('.navlink, .digpill');
+  var links = document.querySelectorAll('.navlink');
   var views = document.querySelectorAll('.view');
   function show(id) {{
-    links.forEach(function (x) {{
-      x.classList.toggle('active', x.dataset.view === id
-        || (x.classList.contains('nav-dig') && id.indexOf('d-') === 0));
-    }});
+    links.forEach(function (x) {{ x.classList.toggle('active', x.dataset.view === id); }});
     views.forEach(function (v) {{ v.hidden = (v.id !== id); }});
   }}
   links.forEach(function (b) {{
