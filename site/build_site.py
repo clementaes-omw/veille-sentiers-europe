@@ -682,10 +682,10 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .card .portion {{ margin: 0 0 10px; font-size: .94rem; letter-spacing: .02em;
   line-height: 1.5; max-width: 90ch; }}
 .card .alt {{ margin: 0 0 10px; font-size: .84rem; max-width: 90ch;
-  padding: 8px 12px; background: var(--ink); color: var(--paper); border-radius: 6px; }}
-.card .alt a {{ color: var(--pine-soft); }}
+  padding: 8px 12px; background: var(--pine-soft); color: var(--ink); border-radius: 6px; }}
+.card .alt a {{ color: var(--pine); }}
 .card .alt-label {{ display: inline-block; font-family: var(--mono); font-size: .64rem;
-  font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--paper);
+  font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--pine);
   margin-right: 8px; vertical-align: 1px; }}
 .card.clos .alt {{ background: var(--clos-bg); color: var(--ink); }}
 .card.clos .alt a {{ color: var(--pine); }}
@@ -743,7 +743,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 <header class="mast">
   <div>
     <h1>Alertes-Rando.info</h1>
-    <p class="tagline">Ce site effectue une veille quotidienne, datée, localisée et sourcée sur les fermetures, déviations et réglementations des GR®, chemins de Compostelle et grands itinéraires d'Europe.</p>
+    <p class="tagline">Veille quotidienne, datée, localisée et sourcée sur les fermetures, déviations et réglementations des GR®, chemins de Compostelle et grands itinéraires d'Europe.</p>
   </div>
   <div class="mast-stats">
     <div class="stat warn"><b>{len(hautes)}</b><span>alertes rouges</span></div>
