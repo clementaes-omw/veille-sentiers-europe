@@ -491,7 +491,7 @@ def build():
         nav_items.append(f'<button class="navlink" data-view="d-{iso}">{label}<span class="yr">{iso[:4]}</span></button>')
         body = md_to_html(p.read_text(encoding="utf-8"))
         sections.append(f"""<section id="d-{iso}" class="view digest" hidden>
-<p class="eyebrow">Digest quotidien</p>
+<p class="eyebrow">Rapport quotidien</p>
 <h2 class="digest-title">{fr_date(iso)}</h2>
 {body}
 </section>""")
@@ -743,7 +743,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 <header class="mast">
   <div>
     <h1>Alertes-Rando.info</h1>
-    <p class="tagline">Fermetures, déviations et réglementations sur les GR®, chemins de Compostelle et grands itinéraires d'Europe. Une veille quotidienne, chaque alerte datée, localisée et sourcée.</p>
+    <p class="tagline">Ce site effectue une veille quotidienne, datée, localisée et sourcée sur les fermetures, déviations et réglementations des GR®, chemins de Compostelle et grands itinéraires d'Europe.</p>
   </div>
   <div class="mast-stats">
     <div class="stat warn"><b>{len(hautes)}</b><span>alertes rouges</span></div>
@@ -752,12 +752,12 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 </header>
 
 <div class="layout">
-<nav class="rail" aria-label="Recherche et digests">
+<nav class="rail" aria-label="Recherche et rapports quotidiens">
   <div class="search">
     <input type="search" id="q" placeholder="Rechercher un sentier…"
            aria-label="Rechercher les alertes par sentier">
   </div>
-  {'<p class="rail-label">Digests quotidiens</p>' if nav_items else ''}
+  {'<p class="rail-label">Rapports quotidiens</p>' if nav_items else ''}
   {"".join(nav_items)}
 </nav>
 
@@ -794,7 +794,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   <strong>orange</strong> = impact réel sans blocage, <strong>info</strong> = bon à savoir),
   avec pour chacune la portion concernée, une alternative quand elle existe, et les
   sources pour vérifier par vous-même.</p>
-  <p>S'y ajoutent les digests quotidiens, qui archivent l'état des sentiers jour après
+  <p>S'y ajoutent les rapports quotidiens, qui archivent l'état des sentiers jour après
   jour, et une base bivouac &amp; réglementation qui rassemble les règles de près d'une
   centaine d'espaces protégés en Europe — parcs nationaux, réserves, massifs — pour
   savoir où poser la tente sans mauvaise surprise.</p>
