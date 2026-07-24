@@ -572,13 +572,13 @@ code {{ font-family: var(--mono); font-size: .85em; background: var(--panel);
 del {{ color: var(--ink-2); }}
 .wrap {{ max-width: 1180px; margin: 0 auto; padding: 0 20px 60px; }}
 
-.topnav {{ border-bottom: 1.5px solid var(--ink); background: var(--paper); }}
-.topnav .nav-in {{ max-width: 1180px; margin: 0 auto; padding: 12px 20px; display: flex;
+.topnav {{ background: var(--ink); }}
+.topnav .nav-in {{ max-width: 1180px; margin: 0 auto; padding: 12px 30px; display: flex;
   justify-content: space-between; align-items: center; gap: 20px; overflow-x: auto; }}
 .topnav .navlink {{ display: inline-flex; padding: 2px 0; border-left: 0; border-radius: 0;
-  border-bottom: 2px solid transparent; white-space: nowrap; }}
-.topnav .navlink:hover {{ background: none; }}
-.topnav .navlink.active {{ border-bottom-color: var(--haute); background: none; }}
+  border-bottom: 2px solid transparent; white-space: nowrap; color: var(--line); }}
+.topnav .navlink:hover {{ background: none; color: var(--paper); }}
+.topnav .navlink.active {{ color: var(--paper); border-bottom-color: var(--haute); background: none; }}
 
 nav.rail {{ position: sticky; top: 16px; align-self: start; display: flex;
   flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }}
@@ -596,12 +596,12 @@ nav.rail {{ position: sticky; top: 16px; align-self: start; display: flex;
 .navlink:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
 
 header.mast {{ display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap;
-  padding: 26px 0 0; }}
-h1 {{ font-family: var(--sans); font-weight: 800; font-size: clamp(2.3rem, 6.5vw, 4rem);
+  padding: 20px 0; }}
+h1 {{ font-family: var(--sans); font-weight: 700; font-size: clamp(2.3rem, 6.5vw, 4rem);
   letter-spacing: -.055em; margin: 0; line-height: 1.02; text-wrap: balance; }}
 .tagline {{ margin: 10px 0 0; color: var(--ink); font-family: var(--mono);
-  font-size: .95rem; max-width: 46em; }}
-.mast-stats {{ margin-left: auto; display: flex; gap: 24px; padding-bottom: 4px; }}
+  font-weight: 600; font-size: .95rem; line-height: 1.55; max-width: 60em; }}
+.mast-stats {{ margin-left: auto; display: flex; gap: 24px; }}
 .stat {{ text-align: right; }}
 .stat b {{ display: block; font-family: var(--mono); font-weight: 700; font-size: 2.4rem;
   letter-spacing: -.03em; font-variant-numeric: tabular-nums; line-height: 1.05; }}
@@ -609,7 +609,7 @@ h1 {{ font-family: var(--sans); font-weight: 800; font-size: clamp(2.3rem, 6.5vw
 .stat span {{ font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
   color: var(--ink-2); }}
 
-.layout {{ display: grid; grid-template-columns: 220px 1fr; gap: 36px; padding-top: 26px; }}
+.layout {{ display: grid; grid-template-columns: 220px 1fr; gap: 36px; padding-top: 20px; }}
 main {{ min-width: 0; }}
 .view > :first-child {{ margin-top: 0; }}
 .eyebrow {{ font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
@@ -655,7 +655,7 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .cat.active {{ background: var(--pine); border-color: var(--pine); color: #fff; }}
 .cat.active span {{ color: #fff; opacity: .8; }}
 .cat:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
-.about p {{ max-width: 70ch; font-size: .97rem; line-height: 1.6; }}
+.about p {{ max-width: none; font-size: .97rem; line-height: 1.6; }}
 .about p.disclaimer {{ margin-top: 22px; }}
 .cards {{ display: flex; flex-direction: column; gap: 14px; margin: 18px 0 30px; }}
 .card {{ border: 1px solid var(--clos); border-left-width: 5px;
@@ -743,7 +743,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 <header class="mast">
   <div>
     <h1>Alertes-Rando.info</h1>
-    <p class="tagline">Alertes fermetures, sécurité et règlementation sur les GR®, chemins de Compostelle, grands itinéraires d'Europe</p>
+    <p class="tagline">Fermetures, déviations et réglementations sur les GR®, chemins de Compostelle et grands itinéraires d'Europe. Une veille quotidienne, chaque alerte datée, localisée et sourcée.</p>
   </div>
   <div class="mast-stats">
     <div class="stat warn"><b>{len(hautes)}</b><span>alertes rouges</span></div>
