@@ -1,0 +1,27 @@
+---
+cle: incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10
+type: incendie / fermeture sentier
+itin: GR10 (secteur Couserans/Val du Biros)
+sev: HAUTE (feu fixé, surveillance)
+validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; feu déclaré FIXÉ le 18/07 soir (surveillance) ; AP interdiction feu Ariège échu le 20/07/2026, reconduction toujours non confirmée
+detection: 2026-07-20
+verif: 2026-07-24
+statut: ACTIF — INCHANGÉ 24/07 : aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier, aucun bilan hectares officiel définitif (toujours en fourchette 240-300 ha), aucun nouveau départ de feu ; feu toujours fixé depuis le 18/07, AP interdiction du feu actif jusqu'au 27/07
+ordre: 34
+---
+
+## Portion concernée
+
+**GR10 entre Esbintz et la Maison du Valier** (Couserans, Ariège), ainsi que les lacs d'Ayes, de Bethmale et d'Eychelle. **Le feu est désormais déclaré FIXÉ (18/07 soir)**, après une reprise le 16-17/07 sous des rafales >100 km/h. Portions supplémentaires touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus ; la vallée du Ribérot est à éviter (utilisée par les secours). Raison : incendie de forêt parti le 10/07/2026 vers 1800 m d'altitude (Bordes-sur-Lez/Uchentein), relancé par le vent puis fixé.
+
+## Alternative
+
+Aucune alternative balisée officielle ; certains secteurs restent ouverts au cas par cas (abords de la Maison du Valier, lacs Rond et Long) — à vérifier avant de s'y engager.
+
+## Zone (détails)
+
+Couserans (Ariège, 09) : incendie parti le 10/07/2026 en altitude (~1800 m), reprise confirmée 16-17/07 (rafales >100 km/h), renforts européens engagés (2 hélicoptères Sikorsky tchèques) ; **MAJ 22/07 (run Europe) : le feu est désormais déclaré FIXÉ depuis le 18/07 au soir**, avec surveillance maintenue (un secteur d'1 km restait actif au 19/07) ; bilan 70-120 ha selon les sources les plus récentes (écart avec les ~300 ha retenus après la reprise, non tranché) ; arrêté préfectoral d'interdiction totale de l'usage du feu en Ariège échu le 20/07/2026 — **[FAIT] RÉSOLU 23/07 : un nouvel arrêté publié le 20/07 prolonge l'interdiction du 20/07 au 27/07/2026 inclus** (motif : chaleur persistante) ; opérations de grattage/noyage de foyers résiduels signalées le 20/07 (cirque de Campuls, ruisseau de la Lazie) ; bilan hectares toujours disputé (**240 ha selon Pyrénées FM le 20/07, ~300 ha selon France 3 le 21/07**, aucun bilan officiel définitif publié)
+
+## Source
+
+[Pyrénées FM 20/07 — restrictions prolongées jusqu'au 27 juillet](https://pyreneesfm.com/ariege-les-restrictions-face-au-risque-d-incendie-prolonges-jusqu-au-27-juillet) ; [Pyrénées FM 20/07 — pompiers mobilisés sur plusieurs fronts](https://pyreneesfm.com/incendies-en-ariege-les-pompiers-restent-mobilises-sur-plusieurs-fronts)

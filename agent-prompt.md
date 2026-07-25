@@ -14,14 +14,18 @@ impacting access — and maintain a dated digest + a persistent alert registry.
 DELIVERABLES (in FRENCH):
 - New digest each run:
   livrables/digest_AAAA-MM-JJ.md
-- Update the persistent registry:
-  livrables/alertes-actives.md
+- Update the persistent registry (ONE FILE PER ALERT — never a single big file):
+  livrables/alertes/<clé-slugifiée>.md
 - Append one line "VEILLE EUROPE <date> — <résumé> — <zones couvertes> — <n recherches>" to:
   livrables/_veille-log.md
 
 INPUTS — read before doing anything:
-1. livrables/alertes-actives.md = REGISTRE PERSISTANT (ta mémoire). Source de vérité de ce qui
-   a DÉJÀ été remonté. Lis-le et compare-toi à lui avant d'écrire quoi que ce soit.
+1. livrables/alertes/ = REGISTRE PERSISTANT (ta mémoire), UN FICHIER PAR ALERTE nommé d'après
+   la clé slugifiée. Source de vérité de ce qui a DÉJÀ été remonté. LISTE le dossier d'abord
+   (les noms de fichiers = les clés : tu vois immédiatement si une alerte existe déjà), puis
+   n'OUVRE que les fichiers des zones que tu couvres ce run — inutile de tout charger.
+   livrables/memoire-interne/ = tes annexes (items mineurs, à vérifier, pistes abandonnées,
+   notes) — jamais rendues sur le site.
 2. referentiel/zones-sources.md = périmètre + cadences + sources par zone + contournements.
 3. referentiel/sentiers.md = vue prioritaire du mapping sentier → zones (pour la colonne
    « Itinéraires »). Base complète (582 itinéraires, GR/GRP/GRT/caminos) :
@@ -106,9 +110,46 @@ CONTENU DU DIGEST (digest_AAAA-MM-JJ.md) :
 - Si rien : « Aucune nouveauté depuis le dernier run le [date]. N alertes actives inchangées. »
   + zones couvertes ce run. RIEN d'autre — ne « remplis » jamais un digest.
 
-MISE À JOUR DU REGISTRE (alertes-actives.md) — colonnes (NE PAS changer le schéma, le site
-est branché dessus) :
-Clé | Type | Portion concernée | Alternative | Zone (détails) | Itinéraires | Sévérité | Validité | 1ère détection | Dernière vérif | Source | Statut
+MISE À JOUR DU REGISTRE — UNE ALERTE = UN FICHIER `livrables/alertes/<clé-slugifiée>.md`
+(NE PAS changer le schéma, le site est branché dessus). Format exact d'un fichier :
+
+```
+---
+cle: incendie|Var-Gros-Bessillon|feu-actif-Ponteves|2026-07-22
+type: incendie
+itin: GR9/GR51 (Haut-Var)
+sev: HAUTE
+validite: non maîtrisé au 25/07
+detection: 2026-07-22
+verif: 2026-07-25
+statut: ACTIF — NOUVEAU
+ordre: 55
+---
+
+## Portion concernée
+
+<texte>
+
+## Alternative
+
+<texte>
+
+## Zone (détails)
+
+<texte>
+
+## Source
+
+<texte>
+```
+Règles de forme : front-matter entre `---`, un champ par ligne (`champ: valeur`) ; les 4
+sections `##` portent le texte long. PAS de pipe à échapper (le tableau markdown a disparu).
+`ordre` = position d'affichage à sévérité égale : reprends le plus grand `ordre` existant + 1
+pour une nouvelle alerte, et n'y touche jamais ensuite.
+Nom du fichier = clé en minuscules sans accents, chaque segment séparé par `--`, tout
+caractère non alphanumérique remplacé par `-` (ex. la clé ci-dessus →
+`incendie--var-gros-bessillon--feu-actif-ponteves--2026-07-22.md`). Il est STABLE : c'est lui
+qui te dit si l'alerte existe déjà.
 - **Portion concernée** = l'info n°1 du site : QUELLE section précise est fermée/modifiée
   (lieux-dits, balises, refuges, communes, PK ou coordonnées GPS si publiés) + la RAISON.
   Format : localisation en **gras**, puis « Raison : … ». Concis (2-3 phrases max).
@@ -122,20 +163,22 @@ Clé | Type | Portion concernée | Alternative | Zone (détails) | Itinéraires 
   événement d'un genre VRAIMENT nouveau apparaît (le build QA échouera avec « type
   orphelin »), AJOUTE la catégorie ou le mot-clé manquant dans categories.json (création à
   la volée, contrôlée) puis relance le build — ne contourne jamais en tordant le champ Type.
-- NOUVEAU → nouvelle ligne (1ère détection = Dernière vérif = aujourd'hui, Statut ACTIF).
-- CHANGÉ → mettre à jour la ligne (+ Dernière vérif) ; INCHANGÉ → Dernière vérif seule.
-- Levé/expiré → Statut `[CLÔTURÉ] (date)` — ne supprime jamais une ligne.
-- Échapper les pipes internes aux cellules avec `\|` (les clés en contiennent).
-- ⚠️ ÉDITION CHIRURGICALE OBLIGATOIRE — NE JAMAIS RÉÉCRIRE LE REGISTRE ENTIER. Tu touches
-  UNIQUEMENT les lignes NOUVEAU/CHANGÉ + la colonne « Dernière vérif » des lignes vérifiées.
-  Toute ligne INCHANGÉE reste identique **au caractère près** : ne résume pas, ne raccourcis
-  pas, ne reformule pas, ne « nettoies » pas son texte (surtout pas les colonnes « Portion
-  concernée », « Alternative » et « Zone (détails) », qui portent le narratif complet et les
-  sources). Édite le fichier par remplacements ciblés (une ligne = une opération), jamais en
-  le régénérant en bloc. Contrôle après édition : le registre ne doit PAS avoir rétréci en
-  taille hors ajouts/clôtures — s'il a fondu, tu as écrasé du contenu → RESTAURE et
-  recommence en ciblé. (Incident 2026-07-25 : registre réécrit en condensé, 125 Ko → 27 Ko,
-  tout le détail perdu — à ne jamais reproduire.)
+- NOUVEAU → CRÉER un fichier (detection = verif = aujourd'hui, statut ACTIF).
+- CHANGÉ → RÉÉCRIRE ce seul fichier, en repartant de son contenu actuel (+ verif).
+- INCHANGÉ → ne récrire que la ligne `verif:` de son fichier ; ne touche à RIEN d'autre.
+- Levé/expiré → `statut: [CLÔTURÉ] (date)` dans son fichier — ne SUPPRIME JAMAIS un fichier.
+- ⚠️ UN RUN NE TOUCHE QUE LES FICHIERS CONCERNÉS. Tu n'as aucune raison de réécrire le
+  dossier entier : chaque alerte est isolée dans son fichier, précisément pour que tu puisses
+  la mettre à jour sans risquer les autres. Sur un fichier que tu réécris, conserve le texte
+  existant **au caractère près** sauf la mise à jour réelle du jour : ne résume pas, ne
+  raccourcis pas, ne reformule pas, ne « nettoies » pas — surtout pas les sections « Portion
+  concernée », « Alternative », « Zone (détails) » et « Source », qui portent le narratif
+  complet et les preuves. Un fichier ne doit pas rétrécir sans raison explicite.
+  (Incident 2026-07-25 : le registre monolithique a été réécrit en condensé, 125 Ko → 27 Ko,
+  tout le détail perdu. C'est ce qui a motivé l'éclatement en un fichier par alerte.)
+  Le build BLOQUE désormais la publication si une alerte perd plus de 45 % de son texte, si
+  un fichier disparaît, ou si le registre fond de plus de 25 % : tu ne peux plus publier une
+  corruption, mais tu devras la réparer (restaurer depuis git) avant que le site reparte.
 
 MAINTENANCE DE LA BASE BIVOUAC (referentiel/bivouac.csv, 13 colonnes ;-séparées) :
 quand une alerte de catégorie « réglementation » touche le bivouac ou les feux d'un espace
@@ -149,9 +192,10 @@ APRÈS LE RUN — BOUCLE QUALITÉ OBLIGATOIRE : régénère le site :
   python3 site/build_site.py
 Le générateur fait son propre contrôle qualité (badges, portion/alternative vides, markdown
 non rendu, mentions OMW, structure des cartes) et sort en code 2 avec la liste des violations
-si le rendu n'est pas publiable. Dans ce cas : CORRIGE LA DONNÉE dans alertes-actives.md
-(ex. cellule Itinéraires qui ne commence pas par un nom de sentier, champ vide, gras non
-fermé) et relance — boucle jusqu'à « OK (QA passée) ». Si la violation vient du générateur
+si le rendu n'est pas publiable. Dans ce cas : CORRIGE LA DONNÉE dans le ou les fichiers
+livrables/alertes/*.md visés par le message (ex. champ `itin:` qui ne commence pas par un nom
+de sentier, section vide, gras non fermé ; les violations `[intégrité]` nomment le fichier
+fautif) et relance — boucle jusqu'à « OK (QA passée) ». Si la violation vient du générateur
 lui-même et pas de la donnée, ne le modifie pas : signale-le dans ta réponse finale.
 Un site en échec QA ne doit JAMAIS être publié.
 

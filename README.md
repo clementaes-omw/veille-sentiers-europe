@@ -29,7 +29,7 @@ avec deux différences structurantes :
   script rejouable : `referentiel/outils/build_db.py` (+ dumps wikitext sources).
 - `referentiel/sentiers.md` — vue lisible des itinéraires prioritaires (P1).
 - `agent-prompt.md` — prompt du run de veille (dédoublonnage par clé, digest, registre).
-- `livrables/alertes-actives.md` — registre persistant. **Amorcé par import du registre OMW**
+- `livrables/alertes/` — registre persistant, **un fichier par alerte** (éclaté le 25/07/2026 : un fichier monolithique de 122 Ko était réécrit en entier à chaque run et se faisait condenser). **Amorcé par import du registre OMW**
   (mêmes alertes France). Schéma de colonnes = celui du site, ne pas changer.
 - `livrables/digest_AAAA-MM-JJ.md` — un digest par run (aucun encore : produit par les runs).
 - `site/build_site.py` — génère `site/index.html` (autonome, publié en Artifact Claude).

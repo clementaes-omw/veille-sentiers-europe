@@ -209,8 +209,68 @@ def render_table(rows):
 
 # ---------------------------------------------------------------- registre
 
+# Depuis 2026-07-25, le registre n'est plus un fichier monolithique mais un dossier :
+# une alerte = un fichier livrables/alertes/<clé slugifiée>.md. Motif : l'agent réécrit
+# chaque fichier en entier (les outils GitHub ne savent pas patcher une ligne) ; sur
+# 122 Ko il condensait le texte au lieu de le reproduire — 1,5 Ko se réécrit sans perte.
+ALERTES_DIR = LIVRABLES / "alertes"
+CHAMPS_ENTETE = ["cle", "type", "itin", "sev", "validite", "detection", "verif", "statut"]
+CHAMPS_SECTION = {"portion concernée": "portion", "alternative": "alternative",
+                  "zone (détails)": "zone", "source": "source"}
+TOUS_CHAMPS = ["cle", "type", "portion", "alternative", "zone", "itin", "sev",
+               "validite", "detection", "verif", "source", "statut"]
+
+
+def parse_alerte(md: str) -> dict:
+    """Un fichier d'alerte → dict de 12 champs (même forme que l'ancien tableau).
+    Front-matter `champ: valeur` entre --- , puis sections `## Titre` pour le texte long."""
+    champs = {k: "" for k in TOUS_CHAMPS}
+    champs["ordre"] = 10**6                      # sans `ordre` → en fin de groupe
+    lignes = md.splitlines()
+    i = 0
+    if lignes and lignes[0].strip() == "---":    # front-matter
+        i = 1
+        while i < len(lignes) and lignes[i].strip() != "---":
+            cle, sep, val = lignes[i].partition(":")
+            cle = cle.strip()
+            if sep and cle in CHAMPS_ENTETE:
+                champs[cle] = val.strip()
+            elif sep and cle == "ordre":
+                champs["ordre"] = int(val.strip() or 10**6)
+            i += 1
+        i += 1
+    courant, tampon = None, []                   # sections
+    def vider():
+        if courant:
+            champs[courant] = "\n".join(tampon).strip()
+    for ligne in lignes[i:]:
+        if ligne.startswith("## "):
+            vider()
+            courant = CHAMPS_SECTION.get(ligne[3:].strip().lower())
+            tampon = []
+        elif courant:
+            tampon.append(ligne)
+    vider()
+    return champs
+
+
+def load_alertes():
+    """Charge toutes les alertes du dossier, ordonnées comme dans l'ancien tableau."""
+    if not ALERTES_DIR.is_dir():
+        return []
+    cards = []
+    for p in sorted(ALERTES_DIR.glob("*.md")):
+        if p.name.lower() == "readme.md":
+            continue
+        c = parse_alerte(p.read_text(encoding="utf-8"))
+        c["_fichier"] = p.name
+        cards.append(c)
+    cards.sort(key=lambda c: (c["ordre"], c["_fichier"]))
+    return cards
+
+
 def parse_registre(md: str):
-    """Extrait les lignes du tableau d'alertes (10 colonnes) + le reste du document."""
+    """[LEGACY] Ancien registre monolithique — conservé pour rejouer un état d'archive."""
     lines = md.splitlines()
     cards, rest = [], []
     header_seen = False
@@ -385,68 +445,109 @@ BADGE_INTERDITS = ["[", "]", "HYPOTH", "Aucun", "P1 ;", "à préciser", "recoupe
 
 # Garde-fou anti-corruption du registre (incident 2026-07-25 : un run a réécrit
 # alertes-actives.md en version condensée, 125 Ko → 27 Ko, perdant tout le détail).
-REG_REL = "livrables/alertes-actives.md"   # chemin relatif au dépôt (pour git)
-MAX_REGISTRY_SHRINK = 0.25   # perte de texte tolérée d'un run à l'autre (au-delà = alerte)
-MIN_AVG_ROW_CHARS = 400      # plancher absolu de secours si git est indisponible
-
-_SEP_RE = re.compile(r"^\|[\s:|-]+$")   # ligne séparatrice d'un tableau markdown
-
-
-def _table_mass(md: str):
-    """(caractères, nb de lignes de données) des tableaux markdown du registre.
-    Mesure la « masse de texte » : un effondrement = corruption probable."""
-    total = rows = 0
-    for line in md.splitlines():
-        s = line.strip()
-        if not s.startswith("|") or _SEP_RE.match(s):
-            continue
-        total += len(s)
-        rows += 1
-    return total, max(rows - 1, 0)   # -1 : on ne compte pas la ligne d'en-tête
+# Depuis l'éclatement en un fichier par alerte, le contrôle se fait fichier par fichier :
+# il attrape aussi la corruption d'UNE seule alerte, invisible dans l'ancienne masse.
+ALERTES_REL = "livrables/alertes"          # chemin relatif au dépôt (pour git)
+MONOLITHE_REL = "livrables/alertes-actives.md"   # ancien registre, ne doit plus renaître
+MAX_TOTAL_SHRINK = 0.25    # perte de texte tolérée sur l'ensemble du registre
+MAX_FILE_SHRINK = 0.45     # perte tolérée sur une alerte prise isolément
+MIN_ALERTE_CHARS = 250     # plancher absolu par alerte si git est indisponible
 
 
-def _previous_registry_text():
-    """Contenu de alertes-actives.md au dernier commit où il DIFFÈRE du fichier courant.
-    None si git est indisponible ou sans historique (1er run, build hors dépôt)."""
+def _repo():
+    return str(HERE.parent)
+
+
+def _git(*args):
+    """Exécute une commande git ; None si git indisponible ou en échec."""
     try:
-        cur = (LIVRABLES / "alertes-actives.md").read_text(encoding="utf-8")
-        repo = str(HERE.parent)
-        log = subprocess.run(["git", "-C", repo, "log", "--format=%H", "--", REG_REL],
-                             capture_output=True, text=True, timeout=20)
-        if log.returncode != 0:
-            return None
-        for sha in log.stdout.split():
-            show = subprocess.run(["git", "-C", repo, "show", f"{sha}:{REG_REL}"],
-                                  capture_output=True, text=True, timeout=20)
-            if show.returncode == 0 and show.stdout != cur:
-                return show.stdout
-        return None
+        r = subprocess.run(["git", "-C", _repo(), *args],
+                           capture_output=True, text=True, timeout=30)
+        return r.stdout if r.returncode == 0 else None
     except Exception:
         return None
 
 
-def registry_integrity_errors(reg_md: str):
-    """Bloque le build si le texte du registre s'effondre anormalement en un run.
-    Compare d'abord à la version git précédente ; à défaut, applique un plancher absolu."""
+def _tailles_courantes():
+    return {p.name: len(p.read_text(encoding="utf-8"))
+            for p in ALERTES_DIR.glob("*.md") if p.name.lower() != "readme.md"}
+
+
+def _tailles_precedentes(courantes):
+    """Tailles des fichiers d'alerte au dernier commit où le dossier DIFFÈRE de l'état
+    courant. None si git est indisponible (build hors dépôt, 1er run)."""
+    log = _git("log", "--format=%H", "--", ALERTES_REL)
+    if log is None:
+        return None
+    for sha in log.split():
+        arbre = _git("ls-tree", "-r", "-l", sha, "--", ALERTES_REL)
+        if arbre is None:
+            continue
+        tailles = {}
+        for ligne in arbre.splitlines():
+            meta, _, chemin = ligne.partition("\t")
+            nom = chemin.rsplit("/", 1)[-1]
+            if nom.lower() == "readme.md" or not nom.endswith(".md"):
+                continue
+            champs = meta.split()
+            if len(champs) >= 4 and champs[3].isdigit():
+                tailles[nom] = int(champs[3])       # taille en octets (≈ caractères)
+        if tailles and tailles != courantes:
+            return tailles
+    return None
+
+
+def registry_integrity_errors():
+    """Bloque le build si le registre s'effondre : dossier absent, alerte disparue,
+    texte global ou texte d'une alerte qui fond anormalement en un seul run."""
     errs = []
-    cur_mass, cur_rows = _table_mass(reg_md)
-    prev = _previous_registry_text()
-    if prev is not None:
-        prev_mass, _ = _table_mass(prev)
-        if prev_mass and cur_mass < prev_mass * (1 - MAX_REGISTRY_SHRINK):
-            pct = round((1 - cur_mass / prev_mass) * 100)
-            errs.append(
-                f"[intégrité] le registre a perdu {pct}% de son texte en un run "
-                f"({prev_mass}→{cur_mass} caractères) — corruption probable (réécriture "
-                f"condensée au lieu d'une édition ciblée). Restaurer depuis git le dernier "
-                f"état sain (git show <sha>:{REG_REL}) puis réinjecter UNIQUEMENT les vraies "
-                f"nouveautés du digest du jour. NE PAS PUBLIER en l'état.")
-    elif cur_rows >= 15 and cur_mass / max(cur_rows, 1) < MIN_AVG_ROW_CHARS:
-        avg = round(cur_mass / cur_rows)
+    if (LIVRABLES / "alertes-actives.md").exists():
         errs.append(
-            f"[intégrité] texte moyen par alerte anormalement bas ({avg} car. pour "
-            f"{cur_rows} alertes ; plancher {MIN_AVG_ROW_CHARS}) — registre probablement "
-            f"tronqué/condensé (git indisponible pour comparer). Vérifier avant de publier.")
+            f"[intégrité] l'ancien registre monolithique {MONOLITHE_REL} est réapparu — "
+            f"le registre vit désormais dans {ALERTES_REL}/ (un fichier par alerte). "
+            f"Reporter son contenu dans les fichiers concernés puis le supprimer.")
+    if not ALERTES_DIR.is_dir():
+        errs.append(f"[intégrité] dossier {ALERTES_REL}/ introuvable — registre perdu.")
+        return errs
+
+    cur = _tailles_courantes()
+    if not cur:
+        errs.append(f"[intégrité] aucune alerte dans {ALERTES_REL}/ — registre vidé.")
+        return errs
+    for nom, taille in sorted(cur.items()):
+        if taille < MIN_ALERTE_CHARS:
+            errs.append(f"[intégrité] alerte quasi vide ({taille} car.) : {nom} — "
+                        f"fichier tronqué ou écrasé.")
+
+    prev = _tailles_precedentes(cur)
+    if prev is None:
+        return errs                      # pas d'historique : contrôles absolus seulement
+
+    disparus = sorted(set(prev) - set(cur))
+    if disparus:
+        errs.append(
+            f"[intégrité] {len(disparus)} alerte(s) SUPPRIMÉE(S) du registre : "
+            f"{', '.join(disparus[:5])}{'…' if len(disparus) > 5 else ''} — une alerte ne "
+            f"se supprime jamais, elle se clôture (Statut « [CLÔTURÉ] (date) »). "
+            f"Restaurer depuis git : git checkout <sha> -- {ALERTES_REL}/<fichier>")
+
+    for nom in sorted(set(prev) & set(cur)):
+        if prev[nom] and cur[nom] < prev[nom] * (1 - MAX_FILE_SHRINK):
+            pct = round((1 - cur[nom] / prev[nom]) * 100)
+            errs.append(
+                f"[intégrité] l'alerte {nom} a perdu {pct}% de son texte "
+                f"({prev[nom]}→{cur[nom]} car.) — réécriture condensée probable. "
+                f"Restaurer ce fichier depuis git puis n'y appliquer que la mise à jour "
+                f"réelle du jour.")
+
+    tot_prev, tot_cur = sum(prev.values()), sum(cur.values())
+    if tot_prev and tot_cur < tot_prev * (1 - MAX_TOTAL_SHRINK):
+        pct = round((1 - tot_cur / tot_prev) * 100)
+        errs.append(
+            f"[intégrité] le registre a perdu {pct}% de son texte en un run "
+            f"({tot_prev}→{tot_cur} caractères) — corruption probable. Restaurer le "
+            f"dossier depuis git puis ne réappliquer que les nouveautés du jour. "
+            f"NE PAS PUBLIER en l'état.")
     return errs
 
 
@@ -517,8 +618,7 @@ def build():
     digests = sorted(LIVRABLES.glob("digest_*.md"), reverse=True)
 
     bivouac = load_bivouac()
-    reg_md = (LIVRABLES / "alertes-actives.md").read_text(encoding="utf-8")
-    cards, reg_rest = parse_registre(reg_md)
+    cards = load_alertes()
     actives = [c for c in cards if "CLÔTURÉ" not in c["statut"].upper()]
     closes = [c for c in cards if "CLÔTURÉ" in c["statut"].upper()]
     hautes = [c for c in actives if sev_class(c["sev"]) == "haute"]
@@ -962,7 +1062,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 }})();
 </script>
 """
-    errs = qa_check(cards, page, bivouac) + registry_integrity_errors(reg_md)
+    errs = qa_check(cards, page, bivouac) + registry_integrity_errors()
     if errs:
         print(f"QA ÉCHEC — {len(errs)} violation(s), site NON écrit :", file=sys.stderr)
         for e in errs:
@@ -971,9 +1071,9 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
               "boucler jusqu'à exit 0. NE PAS PUBLIER.", file=sys.stderr)
         return 2
     OUT.write_text(page, encoding="utf-8")
-    reg_mass, reg_rows = _table_mass(reg_md)
+    masse = sum(_tailles_courantes().values())
     print(f"OK (QA passée) → {OUT}  ({len(actives)} actives, {len(closes)} clôturées, "
-          f"{n_dig} digests ; registre {reg_mass} car. / {reg_rows} alertes)")
+          f"{n_dig} digests ; registre {masse} car. / {len(cards)} fichiers)")
     return 0
 
 

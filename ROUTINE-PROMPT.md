@@ -14,11 +14,11 @@
 Tu es l'agent Veille Sentiers Europe. Exécute le run de veille quotidien
 défini dans agent-prompt.md, à la lettre :
 
-1. Lis d'abord agent-prompt.md, referentiel/zones-sources.md et livrables/alertes-actives.md.
+1. Lis d'abord agent-prompt.md, referentiel/zones-sources.md et livrables/alertes/ (un fichier par alerte).
 2. Couvre le périmètre du jour : agrégateurs transversaux + zones T1 de saison + lot T2 du
    jour de la semaine + zones en escalade (alerte HAUTE active). Budget ~35-50 recherches.
 3. Applique le protocole de dédoublonnage par clé ; écris livrables/digest_<date>.md
-   (uniquement le NOUVEAU/CHANGÉ/LEVÉ) et mets à jour livrables/alertes-actives.md
+   (uniquement le NOUVEAU/CHANGÉ/LEVÉ) et mets à jour livrables/alertes/ (un fichier par alerte)
    (12 colonnes, Portion concernée + Alternative obligatoires, aucune référence OMW).
 4. Ajoute la ligne de log dans livrables/_veille-log.md (résumé, zones, nb de recherches).
 5. Boucle qualité : `python3 site/build_site.py` — corrige les DONNÉES jusqu'à
@@ -28,7 +28,7 @@ défini dans agent-prompt.md, à la lettre :
    sur ce dépôt ; méthode validée le 18/07 par la PR #1). Pas de git push, aucun jeton :
    a. Crée la branche `claude/veille-<date>` depuis main (outil MCP create branch).
    b. Committe sur cette branche TOUS les fichiers modifiés du run (livrables/digest_<date>.md,
-      livrables/alertes-actives.md, livrables/_veille-log.md, site/index.html, et
+      livrables/alertes/ (un fichier par alerte), livrables/_veille-log.md, site/index.html, et
       referentiel/* si modifié) — commit « veille: digest du <date> » (outil MCP push files /
       create or update file).
    c. Ouvre la PR vers main (« veille: digest du <date> », body = résumé en 2 lignes) puis
