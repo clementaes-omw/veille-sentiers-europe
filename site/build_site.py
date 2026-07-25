@@ -14,6 +14,7 @@ import csv
 import html
 import json
 import re
+import subprocess
 import sys
 import unicodedata
 from datetime import date, datetime
@@ -381,6 +382,72 @@ def render_bivouac_card(b) -> str:
 # ---------------------------------------------------------------- contrôle qualité
 
 BADGE_INTERDITS = ["[", "]", "HYPOTH", "Aucun", "P1 ;", "à préciser", "recouper"]
+
+# Garde-fou anti-corruption du registre (incident 2026-07-25 : un run a réécrit
+# alertes-actives.md en version condensée, 125 Ko → 27 Ko, perdant tout le détail).
+REG_REL = "livrables/alertes-actives.md"   # chemin relatif au dépôt (pour git)
+MAX_REGISTRY_SHRINK = 0.25   # perte de texte tolérée d'un run à l'autre (au-delà = alerte)
+MIN_AVG_ROW_CHARS = 400      # plancher absolu de secours si git est indisponible
+
+_SEP_RE = re.compile(r"^\|[\s:|-]+$")   # ligne séparatrice d'un tableau markdown
+
+
+def _table_mass(md: str):
+    """(caractères, nb de lignes de données) des tableaux markdown du registre.
+    Mesure la « masse de texte » : un effondrement = corruption probable."""
+    total = rows = 0
+    for line in md.splitlines():
+        s = line.strip()
+        if not s.startswith("|") or _SEP_RE.match(s):
+            continue
+        total += len(s)
+        rows += 1
+    return total, max(rows - 1, 0)   # -1 : on ne compte pas la ligne d'en-tête
+
+
+def _previous_registry_text():
+    """Contenu de alertes-actives.md au dernier commit où il DIFFÈRE du fichier courant.
+    None si git est indisponible ou sans historique (1er run, build hors dépôt)."""
+    try:
+        cur = (LIVRABLES / "alertes-actives.md").read_text(encoding="utf-8")
+        repo = str(HERE.parent)
+        log = subprocess.run(["git", "-C", repo, "log", "--format=%H", "--", REG_REL],
+                             capture_output=True, text=True, timeout=20)
+        if log.returncode != 0:
+            return None
+        for sha in log.stdout.split():
+            show = subprocess.run(["git", "-C", repo, "show", f"{sha}:{REG_REL}"],
+                                  capture_output=True, text=True, timeout=20)
+            if show.returncode == 0 and show.stdout != cur:
+                return show.stdout
+        return None
+    except Exception:
+        return None
+
+
+def registry_integrity_errors(reg_md: str):
+    """Bloque le build si le texte du registre s'effondre anormalement en un run.
+    Compare d'abord à la version git précédente ; à défaut, applique un plancher absolu."""
+    errs = []
+    cur_mass, cur_rows = _table_mass(reg_md)
+    prev = _previous_registry_text()
+    if prev is not None:
+        prev_mass, _ = _table_mass(prev)
+        if prev_mass and cur_mass < prev_mass * (1 - MAX_REGISTRY_SHRINK):
+            pct = round((1 - cur_mass / prev_mass) * 100)
+            errs.append(
+                f"[intégrité] le registre a perdu {pct}% de son texte en un run "
+                f"({prev_mass}→{cur_mass} caractères) — corruption probable (réécriture "
+                f"condensée au lieu d'une édition ciblée). Restaurer depuis git le dernier "
+                f"état sain (git show <sha>:{REG_REL}) puis réinjecter UNIQUEMENT les vraies "
+                f"nouveautés du digest du jour. NE PAS PUBLIER en l'état.")
+    elif cur_rows >= 15 and cur_mass / max(cur_rows, 1) < MIN_AVG_ROW_CHARS:
+        avg = round(cur_mass / cur_rows)
+        errs.append(
+            f"[intégrité] texte moyen par alerte anormalement bas ({avg} car. pour "
+            f"{cur_rows} alertes ; plancher {MIN_AVG_ROW_CHARS}) — registre probablement "
+            f"tronqué/condensé (git indisponible pour comparer). Vérifier avant de publier.")
+    return errs
 
 
 def qa_check(cards, page: str, bivouac=None):
@@ -895,7 +962,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 }})();
 </script>
 """
-    errs = qa_check(cards, page, bivouac)
+    errs = qa_check(cards, page, bivouac) + registry_integrity_errors(reg_md)
     if errs:
         print(f"QA ÉCHEC — {len(errs)} violation(s), site NON écrit :", file=sys.stderr)
         for e in errs:
@@ -904,7 +971,9 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
               "boucler jusqu'à exit 0. NE PAS PUBLIER.", file=sys.stderr)
         return 2
     OUT.write_text(page, encoding="utf-8")
-    print(f"OK (QA passée) → {OUT}  ({len(actives)} actives, {len(closes)} clôturées, {n_dig} digests)")
+    reg_mass, reg_rows = _table_mass(reg_md)
+    print(f"OK (QA passée) → {OUT}  ({len(actives)} actives, {len(closes)} clôturées, "
+          f"{n_dig} digests ; registre {reg_mass} car. / {reg_rows} alertes)")
     return 0
 
 
