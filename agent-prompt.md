@@ -126,6 +126,16 @@ Clé | Type | Portion concernée | Alternative | Zone (détails) | Itinéraires 
 - CHANGÉ → mettre à jour la ligne (+ Dernière vérif) ; INCHANGÉ → Dernière vérif seule.
 - Levé/expiré → Statut `[CLÔTURÉ] (date)` — ne supprime jamais une ligne.
 - Échapper les pipes internes aux cellules avec `\|` (les clés en contiennent).
+- ⚠️ ÉDITION CHIRURGICALE OBLIGATOIRE — NE JAMAIS RÉÉCRIRE LE REGISTRE ENTIER. Tu touches
+  UNIQUEMENT les lignes NOUVEAU/CHANGÉ + la colonne « Dernière vérif » des lignes vérifiées.
+  Toute ligne INCHANGÉE reste identique **au caractère près** : ne résume pas, ne raccourcis
+  pas, ne reformule pas, ne « nettoies » pas son texte (surtout pas les colonnes « Portion
+  concernée », « Alternative » et « Zone (détails) », qui portent le narratif complet et les
+  sources). Édite le fichier par remplacements ciblés (une ligne = une opération), jamais en
+  le régénérant en bloc. Contrôle après édition : le registre ne doit PAS avoir rétréci en
+  taille hors ajouts/clôtures — s'il a fondu, tu as écrasé du contenu → RESTAURE et
+  recommence en ciblé. (Incident 2026-07-25 : registre réécrit en condensé, 125 Ko → 27 Ko,
+  tout le détail perdu — à ne jamais reproduire.)
 
 MAINTENANCE DE LA BASE BIVOUAC (referentiel/bivouac.csv, 13 colonnes ;-séparées) :
 quand une alerte de catégorie « réglementation » touche le bivouac ou les feux d'un espace
