@@ -26,6 +26,12 @@ OUT = HERE / "index.html"
 # Analytics (Umami Cloud, sans cookies — pas de bannière RGPD nécessaire).
 # Renseigner le website ID fourni par cloud.umami.is pour activer ; vide = pas de script.
 UMAMI_WEBSITE_ID = "135c550a-aa46-47be-9e60-f5b5c936eb52"
+# Formulaire de contact — le site est statique (Pages), il faut un relais pour recevoir.
+# FormSubmit ne demande aucun compte : la 1re soumission déclenche un mail d'activation.
+# ⚠ Une fois le formulaire activé, remplacer l'adresse par l'ALIAS fourni par FormSubmit
+# (« https://formsubmit.co/el/xxxxxx ») : l'adresse disparaît alors du HTML public, donc
+# des robots à spam — c'est tout l'intérêt du formulaire par rapport à un lien mailto.
+FORM_ENDPOINT = "https://formsubmit.co/contact@alertes-rando.info"
 CATEGORIES = json.loads(
     (HERE.parent / "referentiel" / "categories.json").read_text(encoding="utf-8"))["categories"]
 
@@ -824,6 +830,30 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .cat:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
 .about p {{ max-width: none; font-size: .97rem; line-height: 1.6; }}
 .about p.disclaimer {{ margin-top: 22px; }}
+
+.contact {{ margin-top: 36px; padding-top: 22px; border-top: 1.5px solid var(--ink); }}
+.contact form {{ display: grid; gap: 14px; max-width: 640px; margin-top: 14px; }}
+.contact label {{ display: block; margin-bottom: 5px; font-family: var(--mono);
+  font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); }}
+.contact input, .contact textarea {{ width: 100%; font: inherit; font-size: .92rem;
+  color: var(--ink); background: var(--paper); border: 1.5px solid var(--ink);
+  border-radius: 8px; padding: 9px 12px; }}
+.contact textarea {{ min-height: 150px; resize: vertical; }}
+.contact input:focus, .contact textarea:focus {{ outline: none; border-color: var(--pine);
+  box-shadow: 0 0 0 3px var(--pine-soft); }}
+.contact button {{ justify-self: start; font-family: var(--mono); font-size: .76rem;
+  text-transform: uppercase; letter-spacing: .06em; color: var(--paper);
+  background: var(--pine); border: 0; border-radius: 8px; padding: 11px 24px; cursor: pointer; }}
+.contact button:hover {{ background: var(--ink); }}
+.contact button:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 2px; }}
+.contact .hp {{ position: absolute; left: -9999px; width: 1px; height: 1px; }}
+.contact .note {{ font-size: .84rem; color: var(--ink-2); max-width: 70ch; }}
+.contact .statut {{ font-family: var(--mono); font-size: .8rem; line-height: 1.5;
+  padding: 10px 14px; border-radius: 8px; margin: 0; }}
+.contact .statut.ok {{ background: var(--pine-soft); color: var(--pine); }}
+.contact .statut.ko {{ background: var(--haute-bg); color: var(--haute); }}
+.footlink {{ font: inherit; color: var(--pine); background: none; border: 0; padding: 0;
+  text-decoration: underline; cursor: pointer; }}
 .cards {{ display: flex; flex-direction: column; gap: 14px; margin: 18px 0 30px; }}
 .card {{ border: 1px solid var(--clos); border-left-width: 5px;
   border-radius: 8px; padding: 14px 16px; background: var(--paper); }}
@@ -968,6 +998,37 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   <p class="disclaimer">Une règle d'or pour finir : ce site aide à préparer, il ne
   remplace jamais la source officielle. Avant de partir, vérifiez l'arrêté, la carte
   préfectorale ou la page du parc — elles seules font foi. Bonne route, et bons sentiers.</p>
+
+  <div id="contact" class="contact">
+    <h3 class="bloc">Nous écrire</h3>
+    <p class="note">Une fermeture que nous avons manquée, une déviation constatée sur le
+    terrain, une erreur à signaler ? Chaque retour de marcheur vaut de l'or — c'est ce qui
+    fait la fiabilité de cette veille.</p>
+    <form id="form-contact" action="{FORM_ENDPOINT}" method="POST">
+      <div>
+        <label for="c-nom">Nom (facultatif)</label>
+        <input id="c-nom" type="text" name="Nom" autocomplete="name">
+      </div>
+      <div>
+        <label for="c-mail">Votre e-mail</label>
+        <input id="c-mail" type="email" name="email" autocomplete="email" required>
+      </div>
+      <div>
+        <label for="c-msg">Message</label>
+        <textarea id="c-msg" name="Message" required
+                  placeholder="Sentier concerné, secteur, ce que vous avez constaté…"></textarea>
+      </div>
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_subject" value="Message depuis alertes-rando.info">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <button type="submit">Envoyer</button>
+      <p class="statut" id="c-statut" role="status" hidden></p>
+    </form>
+    <p class="note">Votre adresse ne sert qu'à vous répondre. Le message transite par le
+    service FormSubmit pour nous parvenir par e-mail : il n'est ni stocké sur ce site, ni
+    utilisé à d'autres fins, ni transmis à qui que ce soit.</p>
+  </div>
 </section>
 
 {bivouac_section}
@@ -979,7 +1040,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   <span>Généré le {built}</span><span>·</span>
   <span>alertes-rando.info — veille quotidienne automatisée</span><span>·</span>
   <span>État au {fr_date(latest_iso)}</span><span>·</span>
-  <a href="mailto:contact@alertes-rando.info">Contact</a>
+  <button class="footlink" data-view="apropos" data-anchor="contact">Contact</button>
 </footer>
 </div>
 
@@ -997,6 +1058,44 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
       window.scrollTo({{ top: 0 }});
     }});
   }});
+
+  // pied de page → ouvre « À propos » et amène directement au formulaire
+  document.querySelectorAll('.footlink[data-view]').forEach(function (b) {{
+    b.addEventListener('click', function () {{
+      show(b.dataset.view);
+      var cible = b.dataset.anchor && document.getElementById(b.dataset.anchor);
+      if (cible) {{ cible.scrollIntoView({{ behavior: 'smooth', block: 'start' }}); }}
+      else {{ window.scrollTo({{ top: 0 }}); }}
+    }});
+  }});
+
+  // envoi du formulaire sans quitter la page (le POST classique reste le repli sans JS)
+  var fc = document.getElementById('form-contact');
+  if (fc) {{
+    fc.addEventListener('submit', function (e) {{
+      e.preventDefault();
+      var st = document.getElementById('c-statut');
+      var bouton = fc.querySelector('button[type=submit]');
+      st.hidden = false; st.className = 'statut'; st.textContent = 'Envoi en cours…';
+      bouton.disabled = true;
+      fetch(fc.action.replace('formsubmit.co/', 'formsubmit.co/ajax/'), {{
+        method: 'POST', headers: {{ 'Accept': 'application/json' }}, body: new FormData(fc)
+      }})
+        .then(function (r) {{ return r.json(); }})
+        .then(function (d) {{
+          if (String(d.success) !== 'true') {{ throw new Error(d.message || 'échec'); }}
+          st.className = 'statut ok';
+          st.textContent = 'Message envoyé — merci ! Nous vous répondrons à l\\'adresse indiquée.';
+          fc.reset();
+        }})
+        .catch(function () {{
+          st.className = 'statut ko';
+          st.textContent = "Envoi impossible pour le moment. Vous pouvez écrire directement à "
+            + ['contact', 'alertes-rando.info'].join('@') + '.';
+        }})
+        .then(function () {{ bouton.disabled = false; }});
+    }});
+  }}
 
   var q = document.getElementById('q');
   var cards = document.querySelectorAll('.card:not(.bcard)');
