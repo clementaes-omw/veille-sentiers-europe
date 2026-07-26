@@ -5,8 +5,8 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE] le tracé traverse le massif de Justin, 
 sev: HAUTE
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé mais accès toujours interdit (dangers résiduels)
 detection: 2026-07-18
-verif: 2026-07-24
-statut: ACTIF — INCHANGÉ 24/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 ; recoupement GR9/GR93 exact vs massif de Justin toujours non confirmé nommément
+verif: 2026-07-26
+statut: ACTIF — INCHANGÉ 26/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 ; un diagnostic ONF post-incendie (chablis, éboulements) est en cours dans le cadre du plan de relance avant toute levée envisageable ; recoupement GR9/GR93 exact vs massif de Justin toujours non confirmé nommément
 ordre: 31
 ---
 
@@ -20,7 +20,7 @@ Aucune alternative connue à ce jour.
 
 ## Zone (détails)
 
-1er passage FR-84-26-07 (18/07) : origine du feu **clarifiée [FAIT] : impact de foudre le 24/06/2026, puis reprise violente le 02/07/2026 (vent + chaleur) qui a produit l'essentiel des 4 400 ha** — les deux dates du registre étaient donc correctes et complémentaires, pas contradictoires ; 180 pompiers en surveillance de points chauds au 16/07 ; **MAJ 19/07 (run Europe) : l'État a annoncé le 18/07 un plan de relance de 1 M€ pour le Diois (pilotage sous-préfète Valérie Vigier) + retour d'expérience à venir ; critique locale (Confédération paysanne) sur l'absence de Canadair les 5-6/07, jours clés de propagation**
+1er passage FR-84-26-07 (18/07) : origine du feu **clarifiée [FAIT] : impact de foudre le 24/06/2026, puis reprise violente le 02/07/2026 (vent + chaleur) qui a produit l'essentiel des 4 400 ha** — les deux dates du registre étaient donc correctes et complémentaires, pas contradictoires ; 180 pompiers en surveillance de points chauds au 16/07 ; **MAJ 19/07 (run Europe) : l'État a annoncé le 18/07 un plan de relance de 1 M€ pour le Diois (pilotage sous-préfète Valérie Vigier) + retour d'expérience à venir ; critique locale (Confédération paysanne) sur l'absence de Canadair les 5-6/07, jours clés de propagation** ; **MAJ 26/07 (run Europe) : un diagnostic ONF des risques post-incendie (chablis, éboulements) est en cours dans le cadre du plan de relance, préalable annoncé à toute décision de levée.**
 
 ## Source
 

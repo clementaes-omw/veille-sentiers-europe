@@ -5,8 +5,8 @@ itin: Mare a Mare Nord (GRP)
 sev: MOYENNE
 validite: depuis le 19/07/2026 (Vergio) et le 22/07/2026 (Corte↔Calacuccia), jusqu'à nouvel ordre
 detection: 2026-07-20
-verif: 2026-07-24
-statut: ACTIF — **CHANGÉ 24/07 : périmètre de fermeture étendu au tronçon Corte↔Calacuccia (depuis le 22/07 15h30), en plus du tronçon Vergio↔Albertacce déjà fermé** ; navette Asco↔Vergio toujours signalée en place (source moins récente) ; suivre avec l'alerte GR20/Albertacce-Restonica
+verif: 2026-07-26
+statut: ACTIF — **CHANGÉ 24/07 : périmètre de fermeture étendu au tronçon Corte↔Calacuccia (depuis le 22/07 15h30), en plus du tronçon Vergio↔Albertacce déjà fermé** ; navette Asco↔Vergio toujours signalée en place (source moins récente) ; suivre avec l'alerte GR20/Albertacce-Restonica ; non revérifié en détail le 26/07 (budget), cohérent avec gr20-infos.com (22/07) qui confirme toujours inaccessible
 ordre: 37
 ---
 

@@ -5,8 +5,8 @@ itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Me
 sev: HAUTE
 validite: depuis le 10/07/2026 « jusqu'à nouvel ordre » (Argelès) ; jusqu'au 13/09/2026 (restriction Sorède)
 detection: 2026-07-20
-verif: 2026-07-24
-statut: ACTIF — INCHANGÉ 24/07 : toujours en vigueur, aucune levée trouvée ; précision apportée sur les communes concernées (Cerbère, Villelongue-dels-Monts en plus d'Argelès/Sorède) ; recoupement précis du tracé GR10 dans les Albères toujours à faire
+verif: 2026-07-26
+statut: ACTIF — INCHANGÉ 26/07 : toujours en vigueur, aucune levée trouvée ; référence de l'arrêté renforçant l'interdiction dans les 4 communes retrouvée (ARR2026-024PM, 17/07) ; à ne pas confondre avec la fermeture distincte du sentier littoral E12 Argelès↔Cerbère (glissement de terrain, voir ligne dédiée) ; recoupement précis du tracé GR10 dans les Albères toujours à faire
 ordre: 35
 ---
 
@@ -20,7 +20,7 @@ Aucune alternative connue à ce jour — éviter le massif des Albères.
 
 ## Zone (détails)
 
-Pyrénées-Orientales (66) : arrêté municipal d'Argelès-sur-Mer renforçant l'interdiction d'accès au massif des Albères depuis le 10/07/2026 (publié 13/07, « jusqu'à nouvel ordre ») ; commune de Sorède : restriction distincte (arrêté n°26.216 du 17/06) limitant l'accès aux piétons et vélos musculaires/VAE (pas de véhicule motorisé ni VTT électrique) jusqu'au 13/09/2026 ; **MAJ 24/07 (run Europe) : 2 communes supplémentaires précisées comme concernées par des restrictions dans le massif — Cerbère et Villelongue-dels-Monts** (à recouper : arrêtés propres ou même périmètre qu'Argelès/Sorède). Distinct de l'incendie de Trévillach (Fenouillèdes), secteur géographique différent.
+Pyrénées-Orientales (66) : arrêté municipal d'Argelès-sur-Mer renforçant l'interdiction d'accès au massif des Albères depuis le 10/07/2026 (publié 13/07, « jusqu'à nouvel ordre ») ; commune de Sorède : restriction distincte (arrêté n°26.216 du 17/06) limitant l'accès aux piétons et vélos musculaires/VAE (pas de véhicule motorisé ni VTT électrique) jusqu'au 13/09/2026 ; **MAJ 24/07 : 2 communes supplémentaires précisées comme concernées par des restrictions dans le massif — Cerbère et Villelongue-dels-Monts** (à recouper : arrêtés propres ou même périmètre qu'Argelès/Sorède). **MAJ 26/07 (run Europe) : référence de l'arrêté renforçant l'interdiction dans ces 4 communes retrouvée — ARR2026-024PM (17/07/2026)**. Distinct de l'incendie de Trévillach (Fenouillèdes, secteur géographique différent) ET distinct de la fermeture du sentier littoral E12 Argelès↔Cerbère (glissement de terrain depuis janvier 2026, cause non incendiaire — voir ligne dédiée `fermeture|PO-66-Argeles-Cerbere|…`).
 
 ## Source
 

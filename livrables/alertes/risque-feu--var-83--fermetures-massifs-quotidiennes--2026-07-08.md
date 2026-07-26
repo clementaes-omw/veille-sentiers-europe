@@ -1,27 +1,27 @@
 ---
 cle: risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08
 type: risque feu / fermeture massifs (journalier)
-itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; Monts Toulonnais/Haut-Var — **[HYPOTHÈSE] tous de nouveau praticables**, non confirmé massif par massif
-sev: HAUTE (historique — désescalade probable non confirmée au 24/07)
-validite: journalière ; désescalade probable le 24/07 mais non confirmée par une source officielle datée du jour
+itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; Monts Toulonnais/Haut-Var — **tous fermés** (fermeture totale reconduite le 26/07)
+sev: HAUTE (confirmée officiellement, plus seulement historique)
+validite: journalière ; tous les massifs fermés, risque très sévère maintenu malgré les orages du 25/07
 detection: 2026-07-09
-verif: 2026-07-24
-statut: ACTIF — **CHANGÉ 24/07 [HYPOTHÈSE] : désescalade probable (source de presse unique, non recoupée par la carte officielle indisponible aujourd'hui)** ; à reconfirmer en priorité au prochain passage FR-83 (détail massif par massif)
+verif: 2026-07-26
+statut: ACTIF — **CHANGÉ 26/07 : retournement complet infirmant la désescalade du 24/07 — TOUS les massifs du Var restent fermés ce dimanche 26/07 malgré les orages de la veille**, aggravé par l'incendie du Gros Bessillon (voir ligne dédiée)
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var : fermetures journalières selon la carte préfectorale (publiée chaque soir avant 19h). **[HYPOTHÈSE] désescalade probable le 24/07** — la presse évoque une réouverture générale des massifs de la région, Var inclus, mais sans confirmation officielle chiffrée pour aujourd'hui. Raison : amélioration météo régionale (baisse de vent/chaleur).
+Var : **tous les massifs fermés** ce dimanche 26/07 (fermeture reconduite malgré les orages de la veille). Raison : risque incendie « très sévère » maintenu, aggravé par l'incendie actif du Gros Bessillon (4 000 ha, non maîtrisé).
 
 ## Alternative
 
-Aucune alternative connue à ce jour — statut non confirmé, se renseigner sur var.gouv.fr avant l'étape.
+Aucune — tous les massifs du département sont fermés au public, se renseigner sur var.gouv.fr avant toute sortie.
 
 ## Zone (détails)
 
-Var : 13/07 = AUCUN massif fermé mais escalade 4→6 en SÉVÈRE ; 16/07 = 0 fermé ; 18-19/07 = 9/9 fermés ; 20/07 = décrue à 4/9 fermés ; 21/07 = ré-aggravation à 7/9 fermés ; 22/07 = désescalade à 3/9 fermés ; 23/07 = rechute totale, 9/9 massifs fermés (Sainte-Baume, Maures, Centre-Var en « extrême » ; Monts Toulonnais, Haut-Var, Corniche des Maures, Plateau de Canjuers, Estérel, Îles d'Hyères en « très sévère ») ; **MAJ 24/07 (run Europe) : frequence-sud.fr (23/07 18h55) annonce que « tous les massifs de la région, y compris dans le Var » rouvrent le 24/07 et que les barbecues (interdits jusque-là) sont de nouveau autorisés — signe d'une décrue générale — mais carte officielle var.gouv.fr/carte-d-acces-aux-massifs inaccessible (404) et aucun article varactu.fr/presseagence.fr daté du 24/07 trouvé pour confirmer le détail massif par massif**
+Var : 13/07 = AUCUN massif fermé mais escalade 4→6 en SÉVÈRE ; 16/07 = 0 fermé ; 18-19/07 = 9/9 fermés ; 20/07 = décrue à 4/9 fermés ; 21/07 = ré-aggravation à 7/9 fermés ; 22/07 = désescalade à 3/9 fermés ; 23/07 = rechute totale, 9/9 massifs fermés ; **MAJ 24/07 : réouverture générale annoncée pour le 24/07 mais non confirmée officiellement** ; **MAJ 25/07 : la désescalade du 24/07 est INFIRMÉE — retournement complet, TOUS les massifs du Var refermés (bulletin préfectoral 25/07, risque « TRÈS SÉVÈRE pour TOUS les massifs »), aggravé par le nouvel incendie majeur du Gros Bessillon (~2 500-2 850 ha à l'époque)**. **MAJ 26/07 (run Europe) : fermeture totale reconduite pour ce dimanche malgré les orages de la veille** — frequence-sud.fr (MAJ 25/07 19h02) confirme « tous les massifs restent fermés ce dimanche 26 juillet », risque très sévère maintenu, mistral 60 km/h persistant, pompiers en repos après une semaine de lutte intense ; aires de repos Lauvets et Suvé du Vent fermées sur l'A57. Confirmé par tv83.info et presseagence.fr. Le feu du Gros Bessillon a désormais atteint 4 000 ha (voir ligne dédiée) et n'est toujours pas maîtrisé, avec un risque de reprise dimanche matin.
 
 ## Source
 
-[var.gouv.fr — mesures d'interdiction jeudi 23 juillet](https://www.var.gouv.fr/Actualites/Les-mesures-d-interdiction-jeudi-23-juillet) ; [frequence-sud.fr 23/07 18h55 — réouverture générale annoncée pour le 24/07](https://www.frequence-sud.fr/art-112020-les_risques_incendies_baissent_d_un_cran__les_massifs_rouverts_au_public_ce_vendredi_24_juillet_dans_la_region_region_paca)
+[var.gouv.fr — mesures d'interdiction jeudi 23 juillet](https://www.var.gouv.fr/Actualites/Les-mesures-d-interdiction-jeudi-23-juillet) ; [frequence-sud.fr, MAJ 25/07/2026 19h02 — tous les massifs à nouveau fermés ce dimanche 26 juillet](https://www.frequence-sud.fr/art-112076-tous_les_massifs_du_var_a_nouveau_fermes_ce_dimanche_26_juillet_malgre_les_orages_var) ; [presseagence.fr — l'ensemble des massifs du Var fermé ce dimanche](https://presseagence.fr/toulon-prevention-feux-de-foret-lensemble-des-massifs-du-var-ferme-ce-dimanche/) ; [tv83.info — fermeture de l'ensemble des massifs](https://www.tv83.info/var-fermeture-de-lensemble-des-massifs-2/)

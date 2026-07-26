@@ -5,8 +5,8 @@ itin: GR9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, du 07/07 au 26/07 au plus tard (sauf reconduction)
 detection: 2026-07-18
-verif: 2026-07-24
-statut: ACTIF — INCHANGÉ 24/07 : fiche drome-cestmanature.com mise à jour le 23/07 confirme la même liste de communes actives (Nyons, Beaufort-sur-Gervanne, Saillans [échéance 26/07 inchangée], Beauvoisin, Bénivay-Ollon, Châteauneuf-de-Bordette, Teyssières, Venterol, La Roche-sur-le-Buis) ; Plan de Baix confirmé LEVÉ (23/07, inchangé) ; Monclar-sur-Gervanne reste [HYPOTHÈSE] de non-fermeture, toujours non tranché formellement
+verif: 2026-07-26
+statut: ACTIF — **CHANGÉ 26/07 : l'échéance de Saillans (26/07) est atteinte AUJOURD'HUI sans aucune levée ni reconduction constatée** — la fiche drome-cestmanature.com (relue ce run) affiche toujours « Saillans : du 08/07 au 26/07 » telle quelle, sans mention de levée ni de prolongation ; le site de la mairie de Saillans ne comporte aucune annonce postérieure à début juillet sur cet arrêté ; **la même fiche affiche encore Plan de Baix comme actif (« jusqu'à abrogation ») alors que sa levée est confirmée par ailleurs depuis le 23/07 — la fiche a donc un retard de mise à jour avéré et ne peut trancher seule le cas de Saillans** ; à revérifier en priorité le 27/07 ; autres communes inchangées ; Monclar-sur-Gervanne reste [HYPOTHÈSE] de non-fermeture, toujours non tranché formellement
 ordre: 32
 ---
 
@@ -20,7 +20,7 @@ Aucune alternative connue à ce jour.
 
 ## Zone (détails)
 
-Deux sources partiellement désynchronisées : fiche Drôme Tourisme (MAJ 19/07) liste encore Monclar-sur-Gervanne « 10/07→19/07 » et Plan de Baix « 07/07→21/07 » comme actives ; fiche PNR Baronnies Provencales (MAJ 20/07, plus à jour) ne les liste plus — probable levée mais **aucune confirmation explicite (mairie/arrêté) trouvée pour aucune des deux communes** ; liste élargie à 23 communes au total.
+Deux sources partiellement désynchronisées : fiche Drôme Tourisme (MAJ 19/07) liste encore Monclar-sur-Gervanne « 10/07→19/07 » et Plan de Baix « 07/07→21/07 » comme actives ; fiche PNR Baronnies Provencales (MAJ 20/07, plus à jour) ne les liste plus — probable levée mais **aucune confirmation explicite (mairie/arrêté) trouvée pour aucune des deux communes** ; liste élargie à 23 communes au total. **MAJ 26/07 (run Europe) — point de vigilance méthodologique confirmé : la fiche drome-cestmanature.com a un retard de mise à jour avéré** (elle affiche encore Plan de Baix comme actif malgré sa levée confirmée depuis le 23/07 par une autre source), donc son silence sur l'échéance de Saillans (26/07, aujourd'hui) ne peut pas être interprété comme une reconduction tacite ni comme une levée — statut réellement indéterminé, à confirmer par une source directe (mairie de Saillans) au prochain passage.
 
 ## Source
 

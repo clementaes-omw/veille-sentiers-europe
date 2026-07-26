@@ -5,7 +5,7 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-07-24
+verif: 2026-07-26
 statut: ACTIF — INCHANGÉ 24/07 [donnée non reconfirmée] : arrêté-cadre saison 2026 toujours en vigueur ; la reconduction quotidienne Fango/Bonifato/ouest Agriate n'a pas pu être retrouvée pour le 24/07 (seule la page du 18/07 a été localisée ce run) — traitée par défaut comme reconduite (absence de signal ≠ levée), à revérifier directement au prochain passage ; voir lignes dédiées pour Albertacce/Restonica (réactivation localisée) et Bavella/Illarata (Illarata toujours fermé)
 ordre: 2
 ---
