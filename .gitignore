@@ -1,3 +1,7 @@
 __pycache__/
 .DS_Store
 *.pyc
+
+# Courrier : jamais de dump brut de la boîte dans le dépôt public
+courrier/*.eml
+courrier/*.mbox

@@ -1,0 +1,45 @@
+name: Relève du courrier (contact@)
+
+# Tourne juste avant la veille de 07h07 Paris, pour que les signalements du jour soient
+# disponibles quand l'agent de veille démarre. 04h50 UTC = 06h50 Paris (heure d'été).
+on:
+  schedule:
+    - cron: "50 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: courrier
+  cancel-in-progress: false
+
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Le script n'ouvre QUE de l'IMAP : il peut lire la boîte et y déposer des
+      # brouillons, jamais envoyer. Les secrets ne transitent pas par le dépôt.
+      - name: Relève IMAP + dépôt des brouillons
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+        run: python courrier/releve.py
+
+      - name: Publier les entrants
+        run: |
+          if [ -n "$(git status --porcelain courrier/)" ]; then
+            git config user.name "courrier-bot"
+            git config user.email "courrier-bot@users.noreply.github.com"
+            git add courrier/
+            git commit -m "courrier: relève du $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "Rien de nouveau dans la boîte."
+          fi
