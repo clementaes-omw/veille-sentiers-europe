@@ -1081,17 +1081,28 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
       fetch(fc.action.replace('formsubmit.co/', 'formsubmit.co/ajax/'), {{
         method: 'POST', headers: {{ 'Accept': 'application/json' }}, body: new FormData(fc)
       }})
-        .then(function (r) {{ return r.json(); }})
-        .then(function (d) {{
-          if (String(d.success) !== 'true') {{ throw new Error(d.message || 'échec'); }}
-          st.className = 'statut ok';
-          st.textContent = 'Message envoyé — merci ! Nous vous répondrons à l\\'adresse indiquée.';
-          fc.reset();
+        .then(function (r) {{
+          return r.json().catch(function () {{ return {{}}; }})
+                  .then(function (d) {{ return {{ http: r.status, d: d || {{}} }}; }});
+        }})
+        .then(function (res) {{
+          if (String(res.d.success) === 'true') {{
+            st.className = 'statut ok';
+            st.textContent = 'Message envoyé — merci ! Nous vous répondrons à l\\'adresse indiquée.';
+            fc.reset();
+            return;
+          }}
+          // on affiche le motif réel renvoyé par le service : sans lui, impossible de
+          // distinguer « formulaire pas encore activé » d'une vraie panne
+          st.className = 'statut ko';
+          st.textContent = res.d.message
+            ? 'Envoi refusé (' + res.http + ') : ' + res.d.message
+            : 'Envoi refusé (HTTP ' + res.http + '). Réessayez dans un moment.';
         }})
         .catch(function () {{
           st.className = 'statut ko';
-          st.textContent = "Envoi impossible pour le moment. Vous pouvez écrire directement à "
-            + ['contact', 'alertes-rando.info'].join('@') + '.';
+          st.textContent = 'Envoi impossible : le service de messagerie est injoignable '
+            + '(connexion coupée ou bloquée par une extension du navigateur).';
         }})
         .then(function () {{ bouton.disabled = false; }});
     }});
