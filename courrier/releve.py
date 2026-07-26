@@ -28,7 +28,7 @@ import re
 import ssl
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.header import decode_header, make_header
 from email.message import EmailMessage
 from pathlib import Path
@@ -42,6 +42,7 @@ ETAT = HERE / "etat.json"
 IMAP_HOST = os.environ.get("MAIL_HOST", "ssl0.ovh.net")
 IMAP_PORT = int(os.environ.get("MAIL_PORT", "993"))
 MAX_PAR_CYCLE = 20          # au-delà : on s'arrête et on escalade (cf. brief)
+FENETRE_JOURS = 30          # fenêtre de balayage ; l'idempotence vient de etat.json
 MAX_CORPS = 6000            # tronque les corps délirants
 
 # --- anonymisation (le dépôt est public) -------------------------------------------
@@ -164,7 +165,7 @@ def index_expediteurs(imap, idents: set) -> dict:
     for num in reversed(numeros):
         if len(trouve) == len(idents):
             break
-        code, brut = imap.fetch(num, "(RFC822.HEADER)")
+        code, brut = imap.fetch(num, "(BODY.PEEK[HEADER])")
         if code != "OK" or not brut or not brut[0]:
             continue
         msg = email.message_from_bytes(brut[0][1])
@@ -244,11 +245,15 @@ def main() -> int:
         for nom in deposes:
             print(f"  brouillon déposé : {nom}")
 
-        code, donnees = imap.search(None, "UNSEEN")
+        # On ne se fie PAS au drapeau « non lu » : si Clément consulte la boîte avant le
+        # run, les messages passeraient en « lu » et seraient perdus à jamais. On balaie
+        # une fenêtre glissante et c'est etat.json qui fait foi pour l'idempotence.
+        depuis = (datetime.now(timezone.utc) - timedelta(days=FENETRE_JOURS)).strftime("%d-%b-%Y")
+        code, donnees = imap.search(None, f'(SINCE "{depuis}")')
         if code != "OK":
             print("recherche IMAP en échec", file=sys.stderr)
             return 1
-        numeros = donnees[0].split()
+        numeros = [n for n in donnees[0].split()]
         if len(numeros) > MAX_PAR_CYCLE:
             print(f"ESCALADE : {len(numeros)} messages non lus (plafond {MAX_PAR_CYCLE}). "
                   f"Cycle suspendu, à traiter à la main.", file=sys.stderr)
@@ -256,7 +261,7 @@ def main() -> int:
 
         nouveaux = []
         for num in numeros:
-            code, brut = imap.fetch(num, "(RFC822)")
+            code, brut = imap.fetch(num, "(BODY.PEEK[])")
             if code != "OK" or not brut or not brut[0]:
                 continue
             msg = email.message_from_bytes(brut[0][1])
