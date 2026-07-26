@@ -1074,6 +1074,10 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
     masse = sum(_tailles_courantes().values())
     print(f"OK (QA passée) → {OUT}  ({len(actives)} actives, {len(closes)} clôturées, "
           f"{n_dig} digests ; registre {masse} car. / {len(cards)} fichiers)")
+    if bivouac:   # suivi de la veille bivouac hebdomadaire (non bloquant)
+        hypo = sum(1 for b in bivouac if b["statut"].upper().startswith("HYPO"))
+        print(f"   bivouac : {len(bivouac)} fiches, {hypo} HYPOTHESE, "
+              f"plus ancienne vérif {min(b['date_verif'] for b in bivouac)}")
     return 0
 
 

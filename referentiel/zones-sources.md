@@ -11,6 +11,11 @@ arc alpin (CH/IT/AT), Allemagne, Benelux, îles Britanniques, Scandinavie, Islan
   15/06 → 30/09. Réunion (cyclones/éboulements) : 15/11 → 30/04.
 - **T2 — hebdomadaire en rotation** : le reste, découpé en 6 lots (lundi→samedi, voir §3).
   Dimanche : pas de lot — revue du registre (échéances, validités expirées).
+- **Bivouac — hebdomadaire l'été (1er juin → 30 sept), le dimanche** : ~12 fiches de
+  `referentiel/bivouac.csv` revérifiées par rotation (HYPOTHESE d'abord, puis les plus
+  anciennement vérifiées). Lot donné par `referentiel/outils/lot_bivouac.py`. Les règles de
+  bivouac bougent surtout en saison (arrêtés, quotas, restrictions feu) et la base n'était
+  jusqu'ici mise à jour que lorsqu'une alerte la touchait.
 - **T3 — mensuel / événementiel** : zones à très faible signal (bassin parisien, Centre).
 - **Escalade** : toute zone portant une alerte ACTIVE de sévérité HAUTE passe en quotidien
   jusqu'à clôture, quelle que soit sa cadence nominale (comportement hérité de la veille OMW).

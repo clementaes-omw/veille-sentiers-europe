@@ -40,8 +40,12 @@ PÉRIMÈTRE DU RUN — CADENCE ÉTAGÉE (c'est le contrôle de coût, respecte-l
   FR-34-11, FR-66, FR-84-26-07, ES-GAL, ES-CYL, ES-AND, PT-CENTRO-SUL ; saison cyclonique :
   FR-974 ; bascules événementielles : IT-CENTRE canicule, ES-CANARIAS/IS éruption) ;
   (c) le lot T2 du jour de la semaine (§3 du référentiel) ;
-  (d) toute zone en ESCALADE (alerte HAUTE active au registre), même hors cadence.
-- Le dimanche : pas de lot T2 — revue du registre (validités expirées → clôtures, échéances).
+  (d) toute zone en ESCALADE (alerte HAUTE active au registre), même hors cadence ;
+  (e) LE DIMANCHE EN ÉTÉ (1er juin → 30 sept) : le lot bivouac hebdomadaire (~12 fiches,
+  voir « VEILLE BIVOUAC HEBDOMADAIRE » plus bas ; lot donné par
+  `python3 referentiel/outils/lot_bivouac.py`).
+- Le dimanche : pas de lot T2 — revue du registre (validités expirées → clôtures, échéances)
+  + lot bivouac en saison.
 - NE JAMAIS balayer tout le référentiel en un run. Une zone hors périmètre du jour n'est pas
   vérifiée, point — c'est le fonctionnement nominal, pas une lacune.
 - BUDGET INDICATIF : ~50-65 recherches/lectures par run en haute saison (cette valeur PRIME
@@ -187,6 +191,34 @@ date_verif) dans le même run — et cite-le dans le digest. Nouvelle réglement
 espace absent de la base → ajoute la ligne (statut FAIT uniquement si source officielle lue,
 sinon HYPOTHESE). Jamais de règle sans source datée : une info bivouac fausse = une amende
 pour un randonneur. Ne supprime jamais une ligne — corrige-la.
+
+VEILLE BIVOUAC HEBDOMADAIRE — LE DIMANCHE, DU 1er JUIN AU 30 SEPTEMBRE :
+La maintenance ci-dessus est réactive (elle attend qu'une alerte tombe) ; en saison, les
+règles de bivouac bougent pour leur propre compte — arrêtés saisonniers, quotas, zones
+dédiées, restrictions feu. D'où un lot hebdomadaire, le dimanche (jour sans lot T2).
+- Le lot est DÉTERMINÉ PAR L'OUTIL, pas par toi :
+    python3 referentiel/outils/lot_bivouac.py
+  Il sort ~12 fiches, en mettant d'abord les statuts HYPOTHESE (règle non confirmée) puis
+  les plus anciennement vérifiées. Hors saison il ne sort rien : c'est normal, passe.
+- Pour CHAQUE fiche du lot : relis la source (source_url est dans la fiche — c'est une
+  lecture ciblée, pas une recherche exploratoire ; compte ~1 lecture par fiche), puis :
+  · règle inchangée → mets à jour `date_verif` SEULEMENT. Ne réécris pas les autres champs.
+  · règle changée → mets à jour conditions / feu / source_url / date_source / date_verif,
+    et remonte-le dans le digest du jour (section dédiée « Bivouac & réglementation »).
+  · fiche HYPOTHESE dont tu trouves ENFIN la source officielle (arrêté, décret, page du
+    parc) → remplace source_url par elle et passe le statut à FAIT. C'est le principal
+    gain attendu de cette veille : au 26/07/2026 les 14 HYPOTHESE s'appuient sur des blogs,
+    des sites de camping-car ou des pages touristiques, pas sur des textes officiels.
+  · source morte / page refondue → garde la règle, note-le dans `notes`, statut HYPOTHESE.
+- Priorité si le temps manque : les HYPOTHESE, puis les espaces à arrêté (interdit/toléré).
+  Le droit commun national (variable/autorisé : allemansrätten, lois nationales) ne bouge
+  quasiment jamais — ne le repasse pas en boucle.
+- BUDGET : ~12 lectures, en plus du run dominical (qui n'a pas de lot T2). Si le dimanche
+  est déjà chargé par une escalade en cours (alerte HAUTE active), réduis le lot de moitié
+  et note-le dans le log — les alertes priment toujours sur la base de référence.
+- Si aucun changement sur tout le lot : ne « remplis » pas le digest, écris une seule ligne
+  « Bivouac : N fiches revérifiées, aucun changement. » Le log doit toujours porter la
+  mention « bivouac : N fiches » pour tracer la cadence.
 
 APRÈS LE RUN — BOUCLE QUALITÉ OBLIGATOIRE : régénère le site :
   python3 site/build_site.py
