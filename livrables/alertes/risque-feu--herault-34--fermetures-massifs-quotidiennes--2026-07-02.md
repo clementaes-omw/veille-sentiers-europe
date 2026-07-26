@@ -5,7 +5,7 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-07-24
+verif: 2026-07-26
 statut: ACTIF — INCHANGÉ 24/07 [vérification allégée] : aucun nouveau départ de feu ni nouvelle alerte rouge trouvé postérieur au 10/07 ; lecture directe herault.gouv.fr non refaite ce run (budget) — à recouper au prochain passage ; feu de Carlencas toujours considéré fixé (~400 ha, aucune reprise signalée)
 ordre: 18
 ---

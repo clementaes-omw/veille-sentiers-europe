@@ -5,14 +5,14 @@ itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: HAUTE
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : toujours fermé « jusqu'à nouvel ordre » (nouvel arrêté 20/07) ; Haute-Corse reconduite au moins jusqu'au 21/07
 detection: 2026-07-18
-verif: 2026-07-24
+verif: 2026-07-26
 statut: ACTIF (Illarata) — INCHANGÉ 24/07 : Bavella toujours rouvert (GR20 Asinau↔Paliri praticable) ; Illarata (haute/moyenne vallée du Cavu + pistes Tova/Pré d'Agnellu/Ficaghjola/RD845) toujours fermé, aucune levée trouvée ; statut d'accueil du refuge de Paliri toujours non confirmé
 ordre: 30
 ---
 
 ## Portion concernée
 
-**Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza)** — fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). **GR20 interrompu entre Asinau et Paliri.** Raison : risque incendie très sévère + vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. **Fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) également en vigueur depuis le 18/07 16h00** (piste distincte, hors GR20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) — **cette échéance est atteinte aujourd'hui sans confirmation de levée ni de prolongation**, à traiter par défaut comme toujours fermé.
+**Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza)** — fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). **GR20 interrompu entre Asinau et Paliri.** Raison : risque incendie très sévère + vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. **Fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) également en vigueur depuis le 18/07 16h00** (piste distincte, hors GR20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) — **cette échéance est atteinte sans confirmation de levée ni de prolongation**, à traiter par défaut comme toujours fermé.
 
 ## Alternative
 
