@@ -5,7 +5,7 @@ itin: GR54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-07-23
+verif: 2026-07-26
 statut: ACTIF — note GR54 ; page toujours datée du 24/06, aucune mise à jour depuis (6e passage FR-04-05, 23/07) ; **⚠ contradiction non résolue par le parc : cette page recommande toujours le GR54A comme variante de l'Aup Martin, alors que le GR54A est fermé depuis le 21/07 pour incendie (voir ligne Bois Noir dédiée)** — à traiter avec prudence par les lecteurs
 ordre: 12
 ---
