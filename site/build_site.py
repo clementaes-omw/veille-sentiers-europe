@@ -27,11 +27,12 @@ OUT = HERE / "index.html"
 # Renseigner le website ID fourni par cloud.umami.is pour activer ; vide = pas de script.
 UMAMI_WEBSITE_ID = "135c550a-aa46-47be-9e60-f5b5c936eb52"
 # Formulaire de contact — le site est statique (Pages), il faut un relais pour recevoir.
-# FormSubmit ne demande aucun compte : la 1re soumission déclenche un mail d'activation.
-# ⚠ Une fois le formulaire activé, remplacer l'adresse par l'ALIAS fourni par FormSubmit
-# (« https://formsubmit.co/el/xxxxxx ») : l'adresse disparaît alors du HTML public, donc
-# des robots à spam — c'est tout l'intérêt du formulaire par rapport à un lien mailto.
-FORM_ENDPOINT = "https://formsubmit.co/contact@alertes-rando.info"
+# On utilise l'IDENTIFIANT FormSubmit et non l'adresse e-mail : celle-ci n'apparaît donc
+# nulle part dans le HTML public, hors de portée des robots à spam (c'est tout l'intérêt
+# du formulaire face à un lien mailto). Le jeton est public par conception — il ne permet
+# que d'envoyer un message vers la boîte, jamais de la lire ni de découvrir l'adresse.
+# Formulaire activé le 2026-07-26 (destination : contact@alertes-rando.info).
+FORM_ENDPOINT = "https://formsubmit.co/75c4f4f7d26954df26f9d870cfeb0c82"
 CATEGORIES = json.loads(
     (HERE.parent / "referentiel" / "categories.json").read_text(encoding="utf-8"))["categories"]
 
