@@ -5,7 +5,7 @@ itin: E12 Sentier littoral / Sentier des douaniers (Argelès-sur-Mer↔Cerbère)
 sev: MOYENNE
 validite: depuis le 19/01/2026 ; partiellement rouvert le 24/04/2026, un tronçon reste fermé à Cerbère sans date de levée
 detection: 2026-07-26
-verif: 2026-07-26
+verif: 2026-07-27
 statut: ACTIF — NOUVEAU 26/07 : découvert lors de la revue du registre du dimanche, cause distincte du risque incendie (glissement de terrain) ; dernière donnée trouvée date du 24/04/2026, aucune source plus récente localisée malgré recherche
 ordre: 55
 ---

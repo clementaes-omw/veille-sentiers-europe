@@ -5,7 +5,7 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE] le tracé traverse le massif de Justin, 
 sev: HAUTE
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé mais accès toujours interdit (dangers résiduels)
 detection: 2026-07-18
-verif: 2026-07-26
+verif: 2026-07-27
 statut: ACTIF — INCHANGÉ 26/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 ; un diagnostic ONF post-incendie (chablis, éboulements) est en cours dans le cadre du plan de relance avant toute levée envisageable ; recoupement GR9/GR93 exact vs massif de Justin toujours non confirmé nommément
 ordre: 31
 ---

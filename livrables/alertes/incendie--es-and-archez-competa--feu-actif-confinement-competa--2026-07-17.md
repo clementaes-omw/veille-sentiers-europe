@@ -5,8 +5,8 @@ itin: GR249 Gran Senda de Málaga (étapes Cómpeta–Canillas) — [HYPOTHÈSE]
 sev: MOYENNE
 validite: sans activité depuis le 18/07 ; sécurisation du périmètre en cours, pas de clôture formelle
 detection: 2026-07-17
-verif: 2026-07-26
-statut: ACTIF — INCHANGÉ 26/07 [sévérité abaissée à faible confiance] : 7e run consécutif sans source datée postérieure au 18/07 malgré recherche active ciblée ; toujours pas de classement formel « extinguido », mais faisceau d'indices favorable (stabilisation 17/07 23h40, confinement levé, évacués rentrés, route A-7206 mentionnée rouverte par la mairie sans date précise) — situation traitée comme probablement résolue en pratique mais NON clôturée faute de source officielle explicite ; à retirer du suivi actif si un 8e passage ne trouve toujours rien
+verif: 2026-07-27
+statut: ACTIF — INCHANGÉ 27/07 [8e run consécutif sans source datée postérieure au 18/07 malgré recherche active ciblée — seuil annoncé par le run précédent atteint] : toujours pas de classement formel « extinguido » ni de source officielle confirmant la levée ; conformément à la règle « absence de signal ≠ levée confirmée », l'alerte N'EST PAS clôturée sans confirmation explicite, mais elle est DÉ-PRIORISÉE : ne plus la revérifier en priorité à chaque passage T1, la reprendre au rythme nominal de la zone ES-AND sauf signal nouveau
 ordre: 24
 ---
 
@@ -20,7 +20,7 @@ Aucune alternative connue à ce jour pour l'A-7206 (réouverture non formellemen
 
 ## Zone (détails)
 
-Axarquía (Málaga) : feu parti près d'une route/point de collecte de déchets à Árchez ; MAJ 18/07 : désescalade confirmée (stabilisé 23h40 17/07, confinement levé, évacués rentrés, INFOCA en préémergence) ; **MAJ 19/07 (run Europe) : nouvelle confirmation officielle de la Junta — le feu « ne présente plus d'activité », dossier proche de la clôture mais pas formellement classé « extinguido » ; route A-7206 toujours sans confirmation de réouverture** — aucune source ne nomme explicitement le GR249/GR242 en lien avec cet épisode. **MAJ 26/07 (run Europe) : 7e tentative de vérification infructueuse (recherches ciblées « incendio extinguido », « carretera reabierta » sans résultat postérieur au 18/07) — la mairie de Cómpeta mentionnerait une réouverture de la route vers Canillas de Albaida après stabilisation, sans date exacte trouvée.**
+Axarquía (Málaga) : feu parti près d'une route/point de collecte de déchets à Árchez ; MAJ 18/07 : désescalade confirmée (stabilisé 23h40 17/07, confinement levé, évacués rentrés, INFOCA en préémergence) ; **MAJ 19/07 (run Europe) : nouvelle confirmation officielle de la Junta — le feu « ne présente plus d'activité », dossier proche de la clôture mais pas formellement classé « extinguido » ; route A-7206 toujours sans confirmation de réouverture** — aucune source ne nomme explicitement le GR249/GR242 en lien avec cet épisode. **MAJ 26/07 (run Europe) : 7e tentative de vérification infructueuse (recherches ciblées « incendio extinguido », « carretera reabierta » sans résultat postérieur au 18/07) — la mairie de Cómpeta mentionnerait une réouverture de la route vers Canillas de Albaida après stabilisation, sans date exacte trouvée.** **MAJ 27/07 (run Europe) : 8e tentative également infructueuse — dé-priorisation appliquée conformément à la règle annoncée au run précédent : cette alerte repasse au rythme nominal de vérification ES-AND (plus de recherche ciblée dédiée à chaque passage), sans être clôturée faute de source officielle explicite.**
 
 ## Source
 
