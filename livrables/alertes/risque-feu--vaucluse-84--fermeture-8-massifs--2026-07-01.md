@@ -5,8 +5,8 @@ itin: GR4 (Monts de Vaucluse — **toujours fermé**), GR9 (Dentelles de Montmir
 sev: HAUTE
 validite: à confirmer quotidiennement (arrêté-cadre du 29/03/2023, liste nominative quotidienne)
 detection: 2026-07-18
-verif: 2026-07-26
-statut: ACTIF — **INCHANGÉ 26/07 [données incomplètes, 4e run consécutif sans page du jour] : écart « 11 vs 12/15 massifs » du 23/07 RÉSOLU — relecture de l'article info.fr confirme que le corps du texte cite le SDIS 84 : « quinze massifs sur quinze sont désormais fermés au public »**, cohérent avec le chiffre du registre (le titre « 12 massifs » était trompeur) ; page officielle vaucluse.gouv.fr en erreur 503 ce run (après des 404 les runs précédents) — aucune page datée du 24, 25 ou 26/07 localisée ; statut du Ventoux toujours non recoupé par une source fiable
+verif: 2026-07-27
+statut: ACTIF — **INCHANGÉ 27/07 [données incomplètes, 5e run consécutif sans page du jour, vaucluse.gouv.fr toujours en 503] : écart « 11 vs 12/15 massifs » du 23/07 RÉSOLU — relecture de l'article info.fr confirme que le corps du texte cite le SDIS 84 : « quinze massifs sur quinze sont désormais fermés au public »**, cohérent avec le chiffre du registre (le titre « 12 massifs » était trompeur) ; page officielle vaucluse.gouv.fr en erreur 503 ce run (après des 404 les runs précédents) — aucune page datée du 24, 25 ou 26/07 localisée ; statut du Ventoux toujours non recoupé par une source fiable
 ordre: 33
 ---
 

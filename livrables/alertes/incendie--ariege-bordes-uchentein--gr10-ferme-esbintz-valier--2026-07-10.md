@@ -5,8 +5,8 @@ itin: GR10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; feu déclaré FIXÉ le 18/07 soir (surveillance) ; AP interdiction feu Ariège échu le 20/07/2026, reconduction toujours non confirmée
 detection: 2026-07-20
-verif: 2026-07-26
-statut: ACTIF — INCHANGÉ 26/07 : aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier, aucun bilan hectares officiel définitif (toujours en fourchette 240-300 ha), aucun nouveau départ de feu ; feu toujours fixé depuis le 18/07 (« fixé » ≠ « éteint », vocabulaire vérifié dans toutes les sources), AP interdiction du feu actif jusqu'au 27/07 (échéance demain)
+verif: 2026-07-27
+statut: ACTIF — INCHANGÉ 27/07 : aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier, bilan toujours à 240 ha (confirmé, aucune source plus récente ne le révise), feu toujours fixé depuis le 18/07 ; **AP interdiction du feu actif jusqu'au 27/07 (échéance AUJOURD'HUI) : aucune presse ne publie encore la suite (normal, décision prise le jour J ou après) — ne pas basculer en « prolongé » ni en « levé » sans source, à revérifier explicitement au prochain passage**
 ordre: 34
 ---
 

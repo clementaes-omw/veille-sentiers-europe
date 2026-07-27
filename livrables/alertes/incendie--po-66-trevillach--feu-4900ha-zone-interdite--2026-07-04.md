@@ -5,7 +5,7 @@ itin: GR36 — [HYPOTHÈSE] recouper le tracé vs zone brûlée (66 = plus gros 
 sev: HAUTE
 validite: zone brûlée : durable (AP post-incendie à confirmer)
 detection: 2026-07-14 (feu du 04/07 — détection tardive, manqué runs 05→12/07)
-verif: 2026-07-26
+verif: 2026-07-27
 statut: ACTIF — INCHANGÉ 26/07 : aucun point de situation postérieur au n°18 du 11/07 retrouvé (cohérent avec une phase de crise close) ; AP d'interdiction d'accès à la zone brûlée toujours non localisé
 ordre: 21
 ---

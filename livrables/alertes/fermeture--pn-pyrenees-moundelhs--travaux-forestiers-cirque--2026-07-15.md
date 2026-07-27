@@ -5,7 +5,7 @@ itin: Aucun P1 identifié — sentier local du PN des Pyrénées, à recouper
 sev: INFO
 validite: depuis le 15/07/2026, durée non précisée
 detection: 2026-07-20
-verif: 2026-07-23
+verif: 2026-07-27
 statut: ACTIF — INCHANGÉ 23/07 : confirmé via source officielle, toujours fermé « jusqu'à nouvel ordre », aucune mise à jour depuis le 10/07
 ordre: 38
 ---
