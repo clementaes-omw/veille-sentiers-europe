@@ -5,8 +5,8 @@ itin: GR36 & GR78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (côté 
 sev: MOYENNE
 validite: 03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP
 detection: 2026-07-06
-verif: 2026-07-26
-statut: ACTIF — INCHANGÉ 24/07 : page officielle inchangée depuis le 02/07, les 5 fermetures restent actives ; recoupement GR36/GR78 vs massifs toujours à faire ; **CORRECTION 22/07 : le chiffrage « ~11 000-17 000 ha » associé à « AP-2026-024 »/Ribaute est en réalité l'incendie du massif des Corbières d'AOÛT 2025 (16-17 000 ha, le plus important recensé en France depuis 2006, éteint le 28/08/2025) — confusion d'année confirmée, non un événement 2026** ; les 5 fermetures de massifs 2026 (Fontfroide, Crémade, la Clape, Lézignanaise, île Ste-Lucie) restent actives et cohérentes avec le feu ~950 ha connu (Oupia/Minervois) ; recoupement GR36/GR78 vs massifs toujours à faire ; l'Abbaye de Fontfroide reste accessible malgré la fermeture du massif
+verif: 2026-07-27
+statut: ACTIF — INCHANGÉ 27/07 (aude.gouv.fr toujours en 503, contenu confirmé identique via contournement presse/agrégateur) : page officielle inchangée depuis le 02/07, les 5 fermetures restent actives ; recoupement GR36/GR78 vs massifs toujours à faire ; **CORRECTION 22/07 : le chiffrage « ~11 000-17 000 ha » associé à « AP-2026-024 »/Ribaute est en réalité l'incendie du massif des Corbières d'AOÛT 2025 (16-17 000 ha, le plus important recensé en France depuis 2006, éteint le 28/08/2025) — confusion d'année confirmée, non un événement 2026** ; les 5 fermetures de massifs 2026 (Fontfroide, Crémade, la Clape, Lézignanaise, île Ste-Lucie) restent actives et cohérentes avec le feu ~950 ha connu (Oupia/Minervois) ; recoupement GR36/GR78 vs massifs toujours à faire ; l'Abbaye de Fontfroide reste accessible malgré la fermeture du massif
 ordre: 17
 ---
 
@@ -20,7 +20,7 @@ Aude : massifs **Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanai
 
 ## Zone (détails)
 
-Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin <11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayère : fermeture progressive 3 niveaux ; + zone incendiée de Ribaute fermée jusqu'à levée AP (AP-2026-024, post-incendie)
+Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin <11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayre : fermeture progressive 3 niveaux ; + zone incendiée de Ribaute fermée jusqu'à levée AP (AP-2026-024, post-incendie)
 
 ## Source
 

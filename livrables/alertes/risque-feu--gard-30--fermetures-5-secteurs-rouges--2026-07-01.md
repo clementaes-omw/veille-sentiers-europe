@@ -5,8 +5,8 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière ; la préfecture 30 publie une page actualité quotidienne LISIBLE en autonome (contourne la carte JS)
 detection: 2026-07-04
-verif: 2026-07-26
-statut: ACTIF — INCHANGÉ 26/07 [données incomplètes, 4e run consécutif sans page plus récente que le 23/07] : aucune page datée du 24, 25 ou 26/07 localisée sur gard.gouv.fr malgré recherche ciblée ; dernière donnée sûre reste celle du jeudi 23/07 (zone rouge Gard Rhodanien 36 communes + Costières Petite Camargue 9 communes, active en continu) ; GR70 (Cévennes) toujours hors zone rouge ; signal non officiel de décrue régionale attendue à partir du 25/07 (prévisions météo des forêts), non confirmé côté Gard par une page officielle ; recoupement GR653 (Fourques/Beaucaire) vs périmètre interdit toujours à faire
+verif: 2026-07-27
+statut: ACTIF — INCHANGÉ 27/07 [données incomplètes, 5e run consécutif sans page plus récente que le 23/07 ; gard.gouv.fr en 503 x2 ce run] : aucune page datée du 24, 25 ou 26/07 localisée sur gard.gouv.fr malgré recherche ciblée ; dernière donnée sûre reste celle du jeudi 23/07 (zone rouge Gard Rhodanien 36 communes + Costières Petite Camargue 9 communes, active en continu) ; GR70 (Cévennes) toujours hors zone rouge ; signal non officiel de décrue régionale attendue à partir du 25/07 (prévisions météo des forêts), non confirmé côté Gard par une page officielle ; recoupement GR653 (Fourques/Beaucaire) vs périmètre interdit toujours à faire
 ordre: 15
 ---
 
