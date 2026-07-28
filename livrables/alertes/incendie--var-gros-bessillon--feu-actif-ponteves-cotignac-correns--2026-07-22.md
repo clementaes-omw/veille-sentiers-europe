@@ -12,7 +12,7 @@ ordre: 50
 
 ## Portion concernée
 
-**Gros Bessillon, entre Ponteès, Cotignac et Correns (Haut-Var/Centre-Var) : ~4 500 ha parcourus / 4 100 ha brûlés au 27-28/07, toujours NON fixé, reprises lundi après-midi en 3 points distincts (Barjols, Châteauvert, Correns).** Communes concernées : Ponteès, Cotignac, Correns, Montfort-sur-Argens, Brue-Auriac, Châteauvert, Barjols. Retours à domicile dimanche soir (Brue-Auriac, quartiers Carmes/Gavottes/Laus/Camps de Barjols) ; reste de Barjols/Correns/Châteauvert restent sous restriction. ~50 maisons touchées dont 27 détruites [HYPOTHÈSE, source unique].
+GROSBESSILLON_PLACEHOLDER
 
 ## Alternative
 
