@@ -5,8 +5,8 @@ itin: GR10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la 
 sev: HAUTE
 validite: depuis le 08/07/2026, désormais fixé (22/07, 14e jour) mais pas éteint
 detection: 2026-07-21
-verif: 2026-07-27
-statut: ACTIF — **CHANGÉ 27/07 : surface révisée à 150 ha** (France 3 Occitanie, 22/07 16h15, source datée non encore citée — remplace le chiffre « ~100 ha » retenu précédemment) ; piste de la Glère toujours strictement interdite, accès pédestre au refuge toujours possible avec prudence, feu toujours fixé depuis le 22/07 (« fixé » ≠ « éteint ») ; aucune info plus récente sur une extinction complète ou réouverture de la piste
+verif: 2026-07-28
+statut: ACTIF — INCHANGÉ 28/07 : recherche dédiée ce run, aucune source postérieure au 22/07 trouvée — surface toujours à 150 ha (France 3 Occitanie, 22/07 16h15), piste de la Glère toujours strictement interdite, accès pédestre au refuge toujours possible avec prudence, feu toujours fixé depuis le 22/07 (« fixé » ≠ « éteint ») ; aucune info plus récente sur une extinction complète ou réouverture de la piste
 ordre: 39
 ---
 

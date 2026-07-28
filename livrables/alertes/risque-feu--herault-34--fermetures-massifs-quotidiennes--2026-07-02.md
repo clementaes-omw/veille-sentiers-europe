@@ -5,8 +5,8 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-07-27
-statut: ACTIF — INCHANGÉ 24/07 [vérification allégée] : aucun nouveau départ de feu ni nouvelle alerte rouge trouvé postérieur au 10/07 ; lecture directe herault.gouv.fr non refaite ce run (budget) — à recouper au prochain passage ; feu de Carlencas toujours considéré fixé (~400 ha, aucune reprise signalée)
+verif: 2026-07-28
+statut: ACTIF — INCHANGÉ 28/07 : épisode rouge Minervois/Saint-Chinianais reconfirmé pour jeudi 23/07 (presse, arrêté préfectoral d'interdiction d'accès aux massifs cité mais non lié directement), même schéma que le 21/07 déjà au registre — aucun massif nouveau, aucun nouveau départ de feu identifié ; lecture directe herault.gouv.fr non refaite ce run (toujours ⚠ JS, budget) ; feu de Carlencas toujours considéré fixé (~400 ha, aucune reprise signalée)
 ordre: 18
 ---
 
@@ -24,4 +24,4 @@ Hérault : rouges répétés (canicule) ; **feu Carlencas-et-Levas : contenu/fix
 
 ## Source
 
-[France 3 08/07](https://france3-regions.franceinfo.fr/occitanie/herault/beziers/on-a-plus-d-eau-ni-d-electricite-un-feu-en-progression-est-desormais-contenu-les-habitants-de-carlencas-et-levas-n-ont-pas-ete-evacues-mais-restent-tres-inquiets-a-cause-des-reprises-3383524.html) ; [Hérault Tribune 21/07 — Minervois/Saint-Chinianais en alerte rouge](https://echo-des-tribunes.com/herault-tribune/articles/risque-dincendie-deux-massifs-du-departement-places-en-alerte-rouge)
+[France 3 08/07](https://france3-regions.franceinfo.fr/occitanie/herault/beziers/on-a-plus-d-eau-ni-d-electricite-un-feu-en-progression-est-desormais-contenu-les-habitants-de-carlencas-et-levas-n-ont-pas-ete-evacues-mais-restent-tres-inquiets-a-cause-des-reprises-3383524.html) ; [Hérault Tribune 21/07 — Minervois/Saint-Chinianais en alerte rouge](https://echo-des-tribunes.com/herault-tribune/articles/risque-dincendie-deux-massifs-du-departement-places-en-alerte-rouge) ; [info.fr 23/07 — Minervois/Saint-Chinianais de nouveau en alerte rouge](https://info.fr/herault-alerte-rouge-incendie-jeudi-minervois-saint-chinianais-2026-07/)

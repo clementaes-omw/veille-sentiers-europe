@@ -5,7 +5,7 @@ itin: GR10 / HRP / HRMP
 sev: MOYENNE
 validite: permanente (arrêtés directeur 2026-45 et 2026-112)
 detection: 2026-07-02
-verif: 2026-07-05
+verif: 2026-07-28
 statut: ACTIF — signaler l'interdiction de baignade aux lacs du cœur
 ordre: 11
 ---

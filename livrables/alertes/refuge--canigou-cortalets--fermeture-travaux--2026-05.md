@@ -5,7 +5,7 @@ itin: GR10
 sev: MOYENNE
 validite: ~3 ans (travaux, dès mai 2026)
 detection: 2026-05-20
-verif: 2026-07-17
+verif: 2026-07-28
 statut: ACTIF — documenter la déviation hébergement ; gr10.org re-balayé 17/07 : rien de plus récent
 ordre: 3
 ---

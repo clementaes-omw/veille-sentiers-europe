@@ -5,7 +5,7 @@ itin: GR56 / GR52-GTM / GR5
 sev: MOYENNE
 validite: pérenne/saisonnier (MAJ parc 15/05/2026)
 detection: 2026-07-02
-verif: 2026-07-27
+verif: 2026-07-28
 statut: ACTIF — INCHANGÉ 23/07 : page parc mise à jour au 09/07, rien de nouveau ; aucune alerte de crue liée aux orages de juillet trouvée ; vérifier le tracé GR56 vs déviation Cimet ; signaler les gués GR52
 ordre: 13
 ---
