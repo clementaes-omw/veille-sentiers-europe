@@ -1,5 +1,5 @@
 ---
-cle: fermeture|TMB-CH-Orsieres|fermeture-deviation-seg.6.35|2026-07-11
+cle: fermeture|TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11
 type: fermeture / déviation
 itin: TMB (variante suisse Champex/Orsières, Val Ferret) ; [HYPOTHÈSE] tronçon commun Tour des Combins
 sev: MOYENNE

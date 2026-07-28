@@ -16,7 +16,7 @@ ordre: 57
 
 ## Alternative
 
-Déviation officielle balisée (panneau, fléchage, QR code avec trace GPX) : depuis un croisement de chemin avant la traversée de la D49 (à proximité du pont autoroutier et du croisement avec la D6), le tracé suit la vallée du Treboulou jusqu'à Flaujac-Poujols, lieu-dit Les Pradelles. Déviation de 4,5 km, raccourcit l'itinéraire initial de 200 m.
+Déviation officielle balisée (panneau, fléchage, QR code avec trace GPX) : depuis un croisement de chemin avant la traversée de la D49 (à proximité du pont autoroutier et du croisement avec la D6), le tracé suit la vallée du Tréboulou jusqu'à Flaujac-Poujols, lieu-dit Les Pradelles. Déviation de 4,5 km, raccourcit l'itinéraire initial de 200 m.
 
 ## Zone (détails)
 

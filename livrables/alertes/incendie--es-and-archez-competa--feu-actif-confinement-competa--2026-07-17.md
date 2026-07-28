@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: sans activité depuis le 18/07 ; sécurisation du périmètre en cours, pas de clôture formelle
 detection: 2026-07-17
 verif: 2026-07-28
-statut: ACTIF — INCHANGÉ 27/07 [8e run consécutif sans source datée postérieure au 18/07 malgré recherche active ciblée — seuil annoncé par le run précédent atteint] : toujours pas de classement formel « extinguido » ni de source officielle confirmant la levée ; conformément à la règle « absence de signal ≠ levée confirmée », l'alerte N'EST PAS clôturée sans confirmation explicite, mais elle est DÉ-PRIORISÉE : ne plus la revvérifier en priorité à chaque passage T1, la reprendre au rythme nominal de la zone ES-AND sauf signal nouveau
+statut: ACTIF — INCHANGÉ 27/07 [8e run consécutif sans source datée postérieure au 18/07 malgré recherche active ciblée — seuil annoncé par le run précédent atteint] : toujours pas de classement formel « extinguido » ni de source officielle confirmant la levée ; conformément à la règle « absence de signal ≠ levée confirmée », l'alerte N'EST PAS clôturée sans confirmation explicite, mais elle est DÉ-PRIORISÉE : ne plus la revérifier en priorité à chaque passage T1, la reprendre au rythme nominal de la zone ES-AND sauf signal nouveau
 ordre: 24
 ---
 

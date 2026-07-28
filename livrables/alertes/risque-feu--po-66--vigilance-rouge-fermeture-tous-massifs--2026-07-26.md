@@ -6,7 +6,7 @@ sev: HAUTE
 validite: dimanche 26/07 puis reconduite lundi 27/07/2026 (« l'ensemble du département restera classé en risque exceptionnel ce lundi 27 juillet ») ; jour par jour, sans date de fin annoncée ; statut au 28/07 non retrouvé (absence de signal ≠ levée)
 detection: 2026-07-27
 verif: 2026-07-28
-statut: ACTIF — CHANGÉ 28/07 : reclassée HAUTE (2e et 3e sources de presse indépendantes trouvées et datées — Seven Radio 27/07 et info.fr 26/07, ce dernier citant la préfecture (Twitter) et ICI Roussillon comme sources ; confirme la reconduction de la vigilance rouge au lundi 27/07 sur l'ensemble des 9 massifs, alors que la source initiale du 26/07 (France3) ne couvrait que le dimanche) ; aucun point du 28/07 retrouvé ce run (recherches dédiées infructueuses) — traité comme toujours actif par défaut, à revvérifier au prochain passage FR-66
+statut: ACTIF — CHANGÉ 28/07 : reclassée HAUTE (2e et 3e sources de presse indépendantes trouvées et datées — Seven Radio 27/07 et info.fr 26/07, ce dernier citant la préfecture (Twitter) et ICI Roussillon comme sources ; confirme la reconduction de la vigilance rouge au lundi 27/07 sur l'ensemble des 9 massifs, alors que la source initiale du 26/07 (France3) ne couvrait que le dimanche) ; aucun point du 28/07 retrouvé ce run (recherches dédiées infructueuses) — traité comme toujours actif par défaut, à revérifier au prochain passage FR-66
 ordre: 56
 ---
 
