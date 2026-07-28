@@ -6,7 +6,7 @@ sev: HAUTE
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé mais accès toujours interdit (dangers résiduels)
 detection: 2026-07-18
 verif: 2026-07-28
-statut: ACTIF — INCHANGÉ 28/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 (revvérifié ce run) ; tentative de recoupement GR9/GR93 vs massif de Justin (recherche ciblée sentiers/randonnée sur le secteur) : aucune source ne nomme explicitement le passage du GR9 ou du GR93 sur le massif de Justin — recoupement toujours non confirmé nommément ; diagnostic ONF post-incendie (chablis, éboulements) toujours en cours dans le cadre du plan de relance avant toute levée envisageable
+statut: ACTIF — INCHANGÉ 28/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 (revérifié ce run) ; tentative de recoupement GR9/GR93 vs massif de Justin (recherche ciblée sentiers/randonnée sur le secteur) : aucune source ne nomme explicitement le passage du GR9 ou du GR93 sur le massif de Justin — recoupement toujours non confirmé nommément ; diagnostic ONF post-incendie (chablis, éboulements) toujours en cours dans le cadre du plan de relance avant toute levée envisageable
 ordre: 31
 ---
 
