@@ -2,11 +2,11 @@
 cle: risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26
 type: risque feu / fermeture massifs
 itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ; HRP — [HYPOTHÈSE] recoupement tronçon par tronçon non fait
-sev: MOYENNE
-validite: dimanche 26/07/2026 confirmé ; reconduction/durée au-delà non précisée par la source
+sev: HAUTE
+validite: dimanche 26/07 puis reconduite lundi 27/07/2026 (« l'ensemble du département restera classé en risque exceptionnel ce lundi 27 juillet ») ; jour par jour, sans date de fin annoncée ; statut au 28/07 non retrouvé (absence de signal ≠ levée)
 detection: 2026-07-27
-verif: 2026-07-27
-statut: ACTIF — NOUVEAU 27/07 : 1 seule source de presse trouvée ce run (pas de 2e source indépendante ni de source officielle directe) — classée MOYENNE avec [HYPOTHÈSE] conformément à la règle de sourcing (une alerte ROUGE exige 2 sources datées ou 1 source officielle) ; à confirmer/reclasser HAUTE au prochain passage si 2e source ou source préfectorale trouvée
+verif: 2026-07-28
+statut: ACTIF — CHANGÉ 28/07 : reclassée HAUTE (2e et 3e sources de presse indépendantes trouvées et datées — Seven Radio 27/07 et info.fr 26/07, ce dernier citant la préfecture (Twitter) et ICI Roussillon comme sources ; confirme la reconduction de la vigilance rouge au lundi 27/07 sur l'ensemble des 9 massifs, alors que la source initiale du 26/07 (France3) ne couvrait que le dimanche) ; aucun point du 28/07 retrouvé ce run (recherches dédiées infructueuses) — traité comme toujours actif par défaut, à revvérifier au prochain passage FR-66
 ordre: 56
 ---
 
@@ -22,6 +22,8 @@ Aucune alternative connue à ce jour.
 
 Pyrénées-Orientales : la préfecture a déclenché une vigilance rouge incendie exceptionnelle sur l'ensemble du département le dimanche 26/07/2026, avec fermeture de tous les massifs forestiers et interdiction totale de tout usage du feu. [HYPOTHÈSE] : la source ne précise pas si cette vigilance rouge est une mesure ponctuelle (26/07 seul, comme les cartes quotidiennes Var/Vaucluse) ou reconduite structurellement — à confirmer le lendemain avant de la traiter comme une alerte durable plutôt qu'un pic d'un jour. À ne pas confondre avec l'alerte `risque-feu|Alberes-66|…` (spécifique, municipale, depuis le 10/07) ni avec Trévillach (feu déjà éteint) — trois constats distincts, à ne pas fusionner.
 
+**MAJ 28/07 (run FR-66) :** la vigilance rouge n'était pas limitée au 26/07 — elle a été reconduite le lendemain, lundi 27/07/2026, sur les mêmes 9 massifs (Capcir, Cerdagne, Conflent, Vallespir, Fenouillèdes, Aspres, Corbières, Roussillon, Albères), confirmée par Seven Radio (article du 27/07) qui attribue explicitement la décision à la préfecture. Un article info.fr du 26/07 16h24 apporte un premier recoupement pour la journée du dimanche : il cite des publications de la préfecture (Twitter/X) et d'ICI Roussillon comme sources, et précise deux axes routiers fermés à la circulation et au stationnement dans les secteurs les plus exposés — la RD38 et les routes d'accès au Sémaphore de Béar (Cerbère, secteur déjà couvert par l'alerte Albères municipale, à ne pas dupliquer). Aucun numéro d'arrêté préfectoral encore localisé (pages préf. 66 toujours en JS, contournement presse utilisé). Recherche dédiée à un point de situation du 28/07 infructueuse ce run — pas de signal de levée trouvé, traité comme toujours actif par défaut (absence de signal ≠ levée).
+
 ## Source
 
-[France3 Occitanie, 26/07/2026 10h37 — risque incendie : massifs fermés, barbecues interdits, ce que l'on sait de la vigilance rouge](https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/risque-incendie-massifs-fermes-barbecues-interdits-ce-que-l-on-sait-de-la-vigilance-rouge-declenchee-dans-ce-departement-3392272.html) [FAIT, source presse unique — 2e source (pyrenees-orientales.gouv.fr, L'Indépendant ou madeinperpignan) à trouver au prochain run avant de valider en HAUTE]
+[France3 Occitanie, 26/07/2026 10h37 — risque incendie : massifs fermés, barbecues interdits, ce que l'on sait de la vigilance rouge](https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/risque-incendie-massifs-fermes-barbecues-interdits-ce-que-l-on-sait-de-la-vigilance-rouge-declenchee-dans-ce-departement-3392272.html) [FAIT] ; [Seven Radio, 27/07/2026 — Pyrénées-Orientales : alerte rouge incendie, accès aux massifs proscrits](https://sevenradio.fr/2026/07/27/pyrenees-orientales-alerte-rouge-incendie-acces-aux-massifs-proscrits/) [FAIT, 2e source indépendante datée, confirme la reconduction au 27/07 et attribue la décision à la préfecture] ; [info.fr, 26/07/2026 16h24 — Pyrénées-Orientales : vigilance rouge feux de forêt, restrictions maximales](https://info.fr/pyrenees-orientales-vigilance-rouge-feux-foret-restrictions-maximales-dimanche-2026-07/) [FAIT, 3e source, cite la préfecture (Twitter/X) et ICI Roussillon] — reclassée HAUTE au 28/07 sur la base de ces 3 sources de presse indépendantes et datées.
