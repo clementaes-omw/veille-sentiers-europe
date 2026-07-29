@@ -5,8 +5,8 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE] le tracé traverse le massif de Justin, 
 sev: HAUTE
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé mais accès toujours interdit (dangers résiduels)
 detection: 2026-07-18
-verif: 2026-07-28
-statut: ACTIF — INCHANGÉ 28/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 (revérifié ce run) ; tentative de recoupement GR9/GR93 vs massif de Justin (recherche ciblée sentiers/randonnée sur le secteur) : aucune source ne nomme explicitement le passage du GR9 ou du GR93 sur le massif de Justin — recoupement toujours non confirmé nommément ; diagnostic ONF post-incendie (chablis, éboulements) toujours en cours dans le cadre du plan de relance avant toute levée envisageable
+verif: 2026-07-29
+statut: ACTIF — **INCHANGÉ 29/07 : page drome.gouv.fr toujours datée du 16/07 (revue complète de la liste des actualités 2026 du site, un seul article sur Justin, aucun suivant) ; aucun signal de levée trouvé, interdiction « jusqu'à nouvel ordre » toujours en vigueur ; recoupement GR9/GR93 vs massif de Justin non retenté ce run** ; INCHANGÉ 28/07 : toujours strictement interdit « jusqu'à nouvel ordre » (dangers résiduels), aucun point de situation drome.gouv.fr plus récent que le 16/07 (revérifié ce run) ; tentative de recoupement GR9/GR93 vs massif de Justin (recherche ciblée sentiers/randonnée sur le secteur) : aucune source ne nomme explicitement le passage du GR9 ou du GR93 sur le massif de Justin — recoupement toujours non confirmé nommément ; diagnostic ONF post-incendie (chablis, éboulements) toujours en cours dans le cadre du plan de relance avant toute levée envisageable
 ordre: 31
 ---
 
