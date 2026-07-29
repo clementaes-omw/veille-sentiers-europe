@@ -5,8 +5,8 @@ itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontaine
 sev: HAUTE
 validite: jusqu'au 31/07/2026 inclus (prolongation confirmée 24/07), prolongation ultérieure possible
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-07-28
-statut: ACTIF — INCHANGÉ 28/07 : **seine-et-marne.gouv.fr de nouveau accessible ce run** (503 du run précédent résolu), confirme l'information déjà au dossier — fermeture des forêts de Fontainebleau/Trois-Pignons/Commanderie maintenue jusqu'au 31/07/2026 inclus, raison inchangée (mesure préventive jugée seule efficace, capacité pompiers dégradée), aucune indication sur la suite après le 31/07 (ni levée anticipée, ni prolongation, ni réouverture partielle par tronçon) ; page consultée ne tranche pas davantage le détail GR1/GR2/GR3/GR11/GR13/GR655
+verif: 2026-07-29
+statut: ACTIF — **INCHANGÉ 29/07 : seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation reconfirme la fermeture jusqu'au 31/07/2026 inclus, même justification ; aucune annonce anticipée sur ce qui se passera après le 31/07 (ni levée anticipée, ni prolongation, ni réouverture partielle) ; toujours aucun détail tronçon par tronçon GR1/GR2/GR3/GR11/GR13/GR655 trouvé** ; INCHANGÉ 28/07 : **seine-et-marne.gouv.fr de nouveau accessible ce run** (503 du run précédent résolu), confirme l'information déjà au dossier — fermeture des forêts de Fontainebleau/Trois-Pignons/Commanderie maintenue jusqu'au 31/07/2026 inclus, raison inchangée (mesure préventive jugée seule efficace, capacité pompiers dégradée), aucune indication sur la suite après le 31/07 (ni levée anticipée, ni prolongation, ni réouverture partielle par tronçon) ; page consultée ne tranche pas davantage le détail GR1/GR2/GR3/GR11/GR13/GR655
 ordre: 42
 ---
 
