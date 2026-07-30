@@ -5,7 +5,7 @@ itin: GR10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la 
 sev: HAUTE
 validite: depuis le 08/07/2026 ; 150 ha (dernier chiffre confirmé) ; statut en tension au 28/07 — deux sources évoquent une reprise/poursuite de progression, contredisant le « fixé depuis le 22/07 » retenu jusqu'ici, à reconfirmer
 detection: 2026-07-21
-verif: 2026-07-29
+verif: 2026-07-30
 statut: ACTIF — **CHANGÉ 29/07 : deux sources datées du 28/07 (lasemainedespyrenees.fr, toulouse7.com) rapportent que le feu « poursuit sa progression » / « continue de progresser lentement », en tension avec le statut « fixé depuis le 22/07 » retenu jusqu'ici** — pluies significatives jugées nécessaires pour une extinction complète, terrain trop dangereux pour une intervention au sol ; [HYPOTHÈSE, réserve méthodologique] les deux articles semblent dériver d'un même point de situation SDIS/dépêche (formulations très proches), donc probablement un seul signal source repris par deux titres, pas deux confirmations indépendantes ; toulouse7.com évoque un feu « détecté depuis plus de 10 jours », incohérent avec le départ confirmé au 08/07 — possible contenu partiellement recyclé/mal daté, à traiter avec prudence ; ni l'un ni l'autre article ne mentionne explicitement l'état de la piste de la Glère (silence, pas une confirmation de réouverture) ; aucune source ne mentionne d'extinction complète ni de réouverture. La mention « fixé sans évolution » n'est plus exacte en l'état — statut traité comme incertain plutôt que comme extinction en cours, à reconfirmer au prochain passage
 ordre: 39
 ---
