@@ -5,7 +5,7 @@ itin: Aucun P1 identifié — sentier local de la vallée du Silvretta, à proxi
 sev: MOYENNE
 validite: depuis le 12-13/07/2026, réouverture non confirmée
 detection: 2026-07-23
-verif: 2026-07-23
+verif: 2026-07-30
 statut: ACTIF — NOUVEAU 23/07 : détecté au 1er passage sérieux de la zone AT (lot T2 jeudi) ; à revérifier au prochain passage AT
 ordre: 44
 ---

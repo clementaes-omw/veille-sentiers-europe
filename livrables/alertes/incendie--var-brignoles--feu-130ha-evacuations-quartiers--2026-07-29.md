@@ -1,0 +1,27 @@
+---
+cle: incendie|Var-Brignoles|feu-130ha-evacuations-quartiers|2026-07-29
+type: incendie / évacuations
+itin: GR9 & GR99 (Centre-Var, secteur Brignoles) — [HYPOTHÈSE] proximité de zone, aucune source ne documente de fermeture de sentier propre à ce feu
+sev: MOYENNE
+validite: départ le 29/07/2026 après-midi ; fixé à minuit, maîtrisé le 30/07 à 03h00 ; 130 ha parcourus ; 2 quartiers encore sous consigne d'évacuation au matin du 30/07
+detection: 2026-07-30
+verif: 2026-07-30
+statut: ACTIF — NOUVEAU 30/07 (filet local) : nouvel incendie au sud-est de Brignoles (Centre-Var), parti le mercredi 29/07 dans l'après-midi, **fixé à minuit et déclaré maîtrisé le jeudi 30/07 à 03h00, après avoir parcouru 130 ha**. **650 habitants évacués** de cinq quartiers (Pélicon, Les Jausserannes, Sainte-Barbe, Les Agasses, Les Petits Ubacs) ; au matin du 30/07, seuls **Les Jausserannes et Pélicon** restaient sous consigne d'évacuation. **Quatre sapeurs-pompiers blessés, dont un avec une fracture du fémur.** Moyens : 250 à 270 sapeurs-pompiers, 70 à 85 engins, 3 Canadair, 2 Dash, 7 hélicoptères bombardiers d'eau. La RD12 a été coupée entre le rond-point de l'Intermarché de Brignoles et Camps-la-Source. Opérations poursuivies le matin du 30/07 avant la hausse des températures et le retour annoncé de vents de sud à sud-ouest l'après-midi : environ dix kilomètres de lisières restaient à traiter pour sécuriser les quartiers menacés. Aucune source ne documente de fermeture de sentier propre à ce feu — le massif Centre-Var qu'il touche est de toute façon fermé au public ce 30/07 au titre du risque incendie (voir ligne `risque-feu|Var-83|…`). Sévérité MOYENNE : événement sécuritaire majeur et sourcé, mais sans fermeture d'itinéraire documentée en propre
+ordre: 59
+---
+
+## Portion concernée
+
+**Sud-est de Brignoles (Var, massif Centre-Var) : 130 ha parcourus, feu fixé à minuit et maîtrisé le 30/07 à 03h00.** Cinq quartiers évacués (Pélicon, Les Jausserannes, Sainte-Barbe, Les Agasses, Les Petits Ubacs), soit 650 habitants ; au matin du 30/07 seuls Les Jausserannes et Pélicon restent sous consigne d'évacuation. **RD12 coupée entre le rond-point de l'Intermarché de Brignoles et Camps-la-Source.** Raison : départ de feu le 29/07 en après-midi, propagation favorisée par la sécheresse de la végétation et le vent.
+
+## Alternative
+
+Aucune alternative connue à ce jour, et sans objet en pratique pour la randonnée : le massif Centre-Var, dans lequel se situe ce feu, est de toute façon interdit d'accès ce 30/07 au titre du risque incendie très sévère (voir ligne `risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08`). Contourner par le nord via la RD554/RD560 tant que la RD12 reste coupée entre Brignoles et Camps-la-Source.
+
+## Zone (détails)
+
+Zone FR-83 (Var), massif Centre-Var — zone en escalade permanente au registre depuis le 08/07 (fermetures quotidiennes de massifs) et marquée par l'incendie du Gros Bessillon (~4 500 ha, fixé le 28/07, voir ligne dédiée). Ce nouveau foyer est un événement distinct, sans lien établi avec le Gros Bessillon : il est parti le mercredi 29/07 dans l'après-midi au sud-est de Brignoles, a été **fixé à minuit puis déclaré maîtrisé le jeudi 30/07 à 03h00**, pour un bilan de **130 ha parcourus**. Dispositif : 250 à 270 sapeurs-pompiers selon les sources et 70 à 85 engins, avec des moyens aériens engagés d'emblée — 3 Canadair, 2 avions Dash et 7 hélicoptères bombardiers d'eau. **650 habitants ont été évacués de cinq quartiers** : Pélicon, Les Jausserannes, Sainte-Barbe, Les Agasses et Les Petits Ubacs ; au matin du 30/07 (article ICI publié à 06h52, mis à jour à 09h17), la consigne d'évacuation ne concernait plus que **Les Jausserannes et Pélicon**. **Quatre sapeurs-pompiers ont été blessés, dont un souffrant d'une fracture du fémur.** La RD12 a été coupée entre le rond-point de l'Intermarché de Brignoles et Camps-la-Source. Les opérations se sont poursuivies dans la matinée du 30/07, avant la hausse des températures et le retour annoncé de vents de sud à sud-ouest l'après-midi, avec environ dix kilomètres de lisières restant à traiter pour sécuriser les quartiers de Brignoles qui avaient été menacés. C'est ce feu, autant que le retour de la canicule, qui pèse sur le contexte varois du jour : le massif Centre-Var figure parmi les 6 massifs sur 9 refermés au public le 30/07. Rattachement aux itinéraires : le GR9 et le GR99 traversent le Centre-Var (`referentiel/sentiers-db.csv`, zone FR-83) mais **aucune source lue ne mentionne de sentier, de GR ni de fermeture de massif spécifiquement liée à ce feu** — rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source. Suivi : confirmer l'extinction complète, la levée des deux dernières consignes d'évacuation et la réouverture de la RD12.
+
+## Source
+
+[ICI (ex-France Bleu) 30/07/2026 06h52, MAJ 09h17 — incendie à Brignoles, 130 ha parcourus, 650 personnes évacuées](https://www.ici.fr/provence-alpes-cote-d-azur/var-83/brignoles/incendie-a-brignoles-une-centaine-d-hectares-parcourus-650-personnes-evacuees-5848509) ; [varactu.fr — incendie à Brignoles : le feu maîtrisé après avoir parcouru 130 hectares](https://www.varactu.fr/incendie-a-brignoles-le-feu-maitrise-apres-avoir-parcouru-130-hectares/) ; [frequence-sud.fr, MAJ 29/07/2026 20h12 — mention du nouvel incendie près de Brignoles (130 ha)](https://www.frequence-sud.fr/art-112129-six_massifs_fermes_dans_le_var_ce_jeudi_30_juillet_var) ; [feuxdeforet.fr — intervention à Brignoles (83), 29/07/2026](https://feuxdeforet.fr/en/var-83/brignoles-29-07-2026-6989/)
