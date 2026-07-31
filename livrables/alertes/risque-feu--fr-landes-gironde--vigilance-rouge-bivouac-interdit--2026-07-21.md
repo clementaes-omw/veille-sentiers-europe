@@ -2,21 +2,21 @@
 cle: risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21
 type: risque feu / réglementation accès
 itin: GR65 (traversée des Landes), GR8, GR654 — impact direct sur les randonneurs itinérants prévoyant un bivouac en forêt landaise/girondine
-sev: MOYENNE
-validite: depuis le 21/07/2026, durée non précisée (liée au niveau de vigilance)
+sev: HAUTE
+validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes) ; fixé le 27/07 au soir, stabilisé le 30/07 ; vigilance Landes toujours ROUGE (4/5) au 30/07, niveau Gironde au 31/07 non confirmé avec certitude
 detection: 2026-07-24
-verif: 2026-07-24
-statut: ACTIF — NOUVEAU 24/07 : 1ère détection au registre (1er passage sérieux de la zone FR-SO, lot T2 vendredi) ; à resurveiller la semaine prochaine, le niveau rouge peut évoluer vers un feu actif
+verif: 2026-07-31
+statut: ACTIF — **CHANGÉ 31/07 : escalade majeure depuis la simple vigilance rouge préventive du 21/07 — un complexe d'incendies s'est déclaré et a brûlé des dizaines de milliers d'hectares.** **Gironde** : départ de feu à Saumos le 22/07 (débroussaillage), extension vers Le Porge ; **~42 000 ha brûlés, jusqu'à 220 000 personnes évacuées** (« plus gros exode depuis la 2nde Guerre mondiale » selon la presse), 240+ bâtiments détruits, 88 pompiers blessés ; passage en vigilance NOIRE (5/5) le 25/07 à minuit. **Landes** : second foyer à Biscarrosse le 23/07 (véhicule en feu), extension à Parentis-en-Born ; **3 600 ha brûlés, jusqu'à 40 000 évacués**, 198 habitations détruites. Feu déclaré « fixé » le 27/07 au soir, « stabilisé » le 30/07 (préfet des Landes), 84 000 personnes autorisées à regagner leur domicile. Vigilance Landes toujours ROUGE (4/5) au 30/07 (source la plus récente trouvée) ; niveau exact Gironde au 31/07 non confirmé avec certitude [HYPOTHÈSE, probablement encore rouge/noire, carte dfci-aquitaine.fr non exploitable en scraping texte]. **Impact itinéraires** : le périmètre brûlé couvre Biscarrosse, Gastes, Sainte-Eulalie-en-Born — secteur traversé par le **GR8** (sentier du littoral/boucle étangs landais) ; [HYPOTHÈSE] fermeture(s) de tronçon(s) du GR8 probable(s) mais non confirmée officiellement par la FFRandonnée Landes (leur dernière page dédiée au GR8 date du 27/04/2026, antérieure au sinistre — piège d'indexation déjoué, ne pas la prendre pour un état à jour). Sévérité relevée MOYENNE→HAUTE au vu de l'ampleur** ; NOUVEAU 24/07 : 1ère détection au registre (1er passage sérieux de la zone FR-SO, lot T2 vendredi) ; à resurveiller la semaine prochaine, le niveau rouge peut évoluer vers un feu actif
 ordre: 47
 ---
 
 ## Portion concernée
 
-Landes et Gironde : **vigilance rouge feu de forêt (niveau 4/5)** depuis le 21/07/2026 — interdiction de bivouac/camping isolé en forêt, interdiction de motorisation 14h-22h, interdiction des événements sportifs/culturels et sites de loisirs en forêt 14h-22h. Raison : risque incendie très élevé (chaleur persistante).
+**Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born) : complexe d'incendies majeur de fin juillet 2026 — ~42 000 ha brûlés en Gironde, ~3 600 ha dans les Landes, fixé le 27/07, stabilisé le 30/07.** Secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) traversé par le **GR8** — fermeture de tronçon(s) probable mais non confirmée officiellement. Raison : deux départs de feu distincts (débroussaillage à Saumos le 22/07, véhicule en feu à Biscarrosse le 23/07) propagés par la sécheresse et le vent.
 
 ## Alternative
 
-Sans objet pour la circulation à pied — aucun sentier fermé à ce jour ; seul le bivouac isolé en forêt est interdit, prévoir un hébergement en dur ou un camping autorisé sur le tracé.
+Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born — à confirmer directement auprès de la FFRandonnée Landes avant l'étape. Le bivouac isolé en forêt reste interdit dans le cadre de la vigilance rouge/noire.
 
 ## Zone (détails)
 
@@ -24,4 +24,4 @@ Landes + Gironde : massifs forestiers landais et girondins exposés (zones forê
 
 ## Source
 
-[landes.gouv.fr — Passage en vigilance rouge feu de forêt](https://www.landes.gouv.fr/Actualites/Salle-de-presse/Communiques-de-presse/2026/Passage-en-vigilance-rouge-feu-de-foret) ; [gironde.gouv.fr — Risque feux de forêt, vigilance ROUGE à compter du 21 juillet](https://www.gironde.gouv.fr/Actualites/Communiques-de-presse/Communiques-de-presse-2026/Juillet-2026/Risque-feux-de-foret-passage-en-vigilance-ROUGE-a-compter-du-21-juillet-en-Gironde)
+[Wikipédia — Feux de forêt de 2026 en Gironde et dans les Landes](https://fr.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2026_en_Gironde_et_dans_les_Landes) ; [landes.gouv.fr — Incendie en cours à Biscarrosse, point de situation 13h, 24/07](https://www.landes.gouv.fr/Actualites/Salle-de-presse/Communiques-de-presse/2026/Incendie-en-cours-a-Biscarrosse-point-de-situation-a-13h) ; [gironde.fr — vigilance NOIRE pour le risque feu de forêt](https://www.gironde.fr/actualites/vigilance-noire-pour-le-risque-feu-de-foret) ; [CNews 30/07 — le feu de Biscarrosse est maîtrisé](https://www.cnews.fr/france/2026-07-30/incendies-le-feu-de-biscarrosse-est-maitrise-tous-les-quartiers-de-la-ville-vont) ; [feuxdeforet.fr — Biscarrosse](https://feuxdeforet.fr/landes-40/biscarrosse-23-07-2026-4681/) ; [landes.gouv.fr — Passage en vigilance rouge feu de forêt](https://www.landes.gouv.fr/Actualites/Salle-de-presse/Communiques-de-presse/2026/Passage-en-vigilance-rouge-feu-de-foret) ; [gironde.gouv.fr — Risque feux de forêt, vigilance ROUGE à compter du 21 juillet](https://www.gironde.gouv.fr/Actualites/Communiques-de-presse/Communiques-de-presse-2026/Juillet-2026/Risque-feux-de-foret-passage-en-vigilance-ROUGE-a-compter-du-21-juillet-en-Gironde)
