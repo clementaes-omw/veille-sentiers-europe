@@ -5,7 +5,7 @@ itin: GR10 (vallée d'Aspe)
 sev: MOYENNE
 validite: depuis le 05/01/2026, jusqu'à nouvel ordre
 detection: 2026-07-20
-verif: 2026-07-22
+verif: 2026-08-01
 statut: ACTIF — INCHANGÉ 22/07 : confirmé toujours fermé (éboulement en tête de sentier, commune d'Etsaut), déviation par le col d'Arras toujours en place
 ordre: 36
 ---
