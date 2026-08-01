@@ -3,10 +3,10 @@ cle: incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10
 type: incendie / fermeture sentier
 itin: GR10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
-validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; feu déclaré FIXÉ le 18/07 soir (surveillance) ; AP interdiction feu Ariège échu le 20/07/2026, reconduction toujours non confirmée
+validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; feu déclaré FIXÉ le 18/07 soir (surveillance) ; AP interdiction feu Ariège prolongé une 2e fois, désormais jusqu'au 10/08/2026 inclus
 detection: 2026-07-20
-verif: 2026-07-24
-statut: ACTIF — INCHANGÉ 24/07 : aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier, aucun bilan hectares officiel définitif (toujours en fourchette 240-300 ha), aucun nouveau départ de feu ; feu toujours fixé depuis le 18/07, AP interdiction du feu actif jusqu'au 27/07
+verif: 2026-08-01
+statut: ACTIF — CHANGÉ 01/08 : (1) l'AP d'interdiction totale de l'usage du feu en Ariège, déjà prolongé du 20 au 27/07, est reconduit une 2e fois jusqu'au 10/08/2026 inclus (Pyrénées FM, 27/07) ; (2) toujours aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier trouvée ; (3) bilan hectares toujours non tranché formellement — la valeur 240 ha est désormais reprise en titre par plusieurs articles (info.fr, ruralites2024.fr, 22/07) mais le corps d'un de ces mêmes articles mentionne un « bilan définitif » à 300 ha établi après la fixation du 18/07 — contradiction interne à la source, non résolue
 ordre: 34
 ---
 
