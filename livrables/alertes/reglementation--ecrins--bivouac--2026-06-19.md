@@ -5,7 +5,7 @@ itin: GR54 / Tour Oisans-Écrins
 sev: MOYENNE
 validite: arrêté directeur 16/06/2026, en vigueur ; quotas possibles ultérieurement
 detection: 2026-06-19
-verif: 2026-07-23
+verif: 2026-08-01
 statut: ACTIF — règle à documenter (re-balayée 23/07 : rien de neuf côté réglementation, pas de quota appliqué pour l'été 2026)
 ordre: 1
 ---

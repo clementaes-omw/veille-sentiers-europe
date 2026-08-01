@@ -1,22 +1,22 @@
 ---
 cle: incendie|GR20-Albertacce-Niolu|feu-GR20-fermé|2026-07-12
 type: incendie / fermeture sentier
-itin: **GR20 FERMÉ : Ciottulu di i Mori ↔ Asco + Tighjettu ↔ bergeries de Ballone** (étapes Ascu→Ciottulu, 4-5 N→S) — feu d'Albertacce réactivé localement la nuit du 21-22/07, tronçons toujours fermés, AP accès/circulation GR20 + forêt communale d'Albertacce maintenu
-sev: HAUTE
-validite: en cours (feu non éteint, réactivation localisée), jusqu'à réouverture officielle (suivi quotidien)
+itin: **GR20 RÉOUVERT (source officielle PNRC, mise à jour 30/07/2026 09h08) : Asco↔Tighjettu et Tighjettu↔Ciottulu di i Mori de nouveau accessibles** — anciennement fermé (Ciottulu di i Mori ↔ Asco + Tighjettu ↔ bergeries de Ballone, étapes Ascu→Ciottulu, 4-5 N→S) suite au feu d'Albertacce réactivé localement la nuit du 21-22/07, tronçons fermés jusqu'au 30/07, AP accès/circulation GR20 + forêt communale d'Albertacce levé
+sev: HAUTE (historique — réouverture confirmée le 30/07, feu « désormais maîtrisé » mais non déclaré éteint)
+validite: GR20 rouvert depuis le 30/07/2026 (au plus tard) selon le PNRC ; feu maîtrisé mais vigilance résiduelle mentionnée par la source officielle ; à ne rouvrir en alerte qu'en cas de signal de réactivation
 detection: 2026-07-15 (feu du 12/07)
-verif: 2026-07-24
-statut: ACTIF — **CHANGÉ 24/07 : réactivation nocturne du feu d'Albertacce (21-22/07, ~284 ha, source unique) ; Restonica stabilisée à ~500 ha (pas de nouvelle progression depuis le 22/07), aucune évacuation malgré le PCS activé, refuge de la Sega activement protégé** ; contradiction Tighjettu↔Ciottulu toujours non tranchée (dernière donnée sûre = fermé, 22/07 18h) ; détail complet des sentiers communaux fermés obtenu ; refuges Ballone/Tighjettu toujours sans info sur l'accueil
+verif: 2026-08-01
+statut: [CLÔTURÉ] (2026-08-01) — **GR20 RÉOUVERT : source officielle Parc naturel régional de Corse (pnr.corsica, avis sécurité mis à jour 30/07/2026 09h08) confirme explicitement « Les étapes suivantes sont accessibles : Asco – Tighjettu ; Tighjettu – Ciottulu di i Mori » et que « L'incendie à proximité du GR20 est désormais maîtrisé. Le sentier n'a pas été directement impacté, le front de feu étant resté à environ 5 km de son tracé »** — la contradiction Tighjettu↔Ciottulu (dernière donnée gr20-infos.com au 22/07 = fermé) est donc tranchée en faveur de la réouverture, par une source plus autorisée (gestionnaire officiel du sentier) et plus récente. Seule restriction résiduelle relevée le 30/07 : étape Manganu–Petra Piana, descente interdite par E Grotelle (feu de Corte/Restonica alors actif) — **levée de facto le 31/07** puisque le feu de la Restonica a été déclaré fixé ce jour-là et que le sentier U Chjassu di e Grutelle figure explicitement parmi les six sentiers rouverts (corsenetinfos.corsica, 31/07 11h07). Refuges Ballone/Tighjettu : statut d'accueil (ouverture effective aux randonneurs) toujours NON confirmé par une source dédiée malgré la réouverture du sentier — [HYPOTHÈSE] fonctionnement normal supposé, à vérifier si un randonneur ou une source touristique le confirme
 ordre: 19
 ---
 
 ## Portion concernée
 
-**GR20 FERMÉ sur deux tronçons : Ciottulu di i Mori ↔ Asco et refuge de Tighjettu ↔ bergeries de Ballone** (Niolu, Haute-Corse) — le feu a progressé le 19/07 (326 ha, contre ~300 ha au 18/07) et est entré dans la forêt de Valdu Niellu ; l'accès reste interdit entre Asco et Ciuttulu di i Mori. Refuges de Ballone et Tighjettu toujours donnés évacués (aucune réouverture annoncée, silence presse de 4 jours au 20/07). Raison : incendie en cours (326 ha au 19/07 soir, NON maîtrisé, en progression), un pompier légèrement blessé le 19/07.
+**GR20 FERMÉ sur deux tronçons : Ciottulu di i Mori ↔ Asco et refuge de Tighjettu ↔ bergeries de Ballone** (Niolu, Haute-Corse) — le feu a progressé le 19/07 (326 ha, contre ~300 ha au 18/07) et est entré dans la forêt de Valdu Niellu ; l'accès reste interdit entre Asco et Ciuttulu di i Mori. Refuges de Ballone et Tighjettu toujours donnés évacués (aucune réouverture annoncée, silence presse de 4 jours au 20/07). Raison : incendie en cours (326 ha au 19/07 soir, NON maîtrisé, en progression), un pompier légèrement blessé le 19/07. **MAJ 01/08 (run Europe) : RÉOUVERT — voir Zone (détails) pour le détail de la levée.**
 
 ## Alternative
 
-**Aucun contournement balisé** — sorties possibles vers Asco, Lozzi ou Calacuccia (voies utilisées pour les évacuations) ; attendre la réouverture officielle.
+**Aucun contournement balisé** — sorties possibles vers Asco, Lozzi ou Calacuccia (voies utilisées pour les évacuations) ; attendre la réouverture officielle. **MAJ 01/08 : sans objet, le tronçon est rouvert — navette Asco↔Vergio conservée à titre d'information si une fermeture ponctuelle devait resurvenir.**
 
 ## Zone (détails)
 
@@ -25,3 +25,5 @@ Albertacce (Niolu, 2B) : feu de foudre parti dim. 12/07 — **~280 ha au 16/07 s
 ## Source
 
 [gr20-infos.com/incendie, màj 22/07 18h](https://gr20-infos.com/incendie/) ; [France3 Corse 23/07 — Restonica ~500 ha, refuge de la Sega protégé](https://france3-regions.franceinfo.fr/corse/haute-corse/incendies-en-haute-corse-le-feu-de-corte-poursuit-sa-progression-un-important-dispositif-toujours-deploye-3390700.html) ; [haute-corse.gouv.fr — fermetures de sentiers communaux par arrêtés préfectoraux](https://www.haute-corse.gouv.fr/Actualites/Feux-de-Corte-et-Albertacce-fermetures-de-sentiers-communaux-par-arretes-prefectoraux)
+
+**MAJ 01/08 (run Europe) — sources de la réouverture** : [pnr.corsica — avis de sécurité GR20, mis à jour 30/07/2026 09h08 (source officielle, gestionnaire du sentier)](https://www.pnr.corsica/actualites/) — « Les étapes suivantes sont accessibles : Asco – Tighjettu ; Tighjettu – Ciottulu di i Mori » + « L'incendie à proximité du GR20 est désormais maîtrisé » ; [corsenetinfos.corsica 31/07 11h07 — feu de la Restonica fixé après 18 jours, réouverture progressive de la vallée dont le sentier U Chjassu di e Grutelle](https://www.corsenetinfos.corsica/Incendie-de-Corte-le-feu-fixe-apres-18-jours-la-vallee-de-la-Restonica-rouvre_a91971.html)

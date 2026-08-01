@@ -5,8 +5,8 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-07-24
-statut: ACTIF — INCHANGÉ 24/07 [donnée non reconfirmée] : arrêté-cadre saison 2026 toujours en vigueur ; la reconduction quotidienne Fango/Bonifato/ouest Agriate n'a pas pu être retrouvée pour le 24/07 (seule la page du 18/07 a été localisée ce run) — traitée par défaut comme reconduite (absence de signal ≠ levée), à revérifier directement au prochain passage ; voir lignes dédiées pour Albertacce/Restonica (réactivation localisée) et Bavella/Illarata (Illarata toujours fermé)
+verif: 2026-08-01
+statut: ACTIF — CHANGÉ 01/08 : arrêté-cadre saison 2026 toujours en vigueur ; **la reconduction quotidienne Fango/Bonifato/ouest Agriate est confirmée jusqu'au 25/07 (page haute-corse.gouv.fr datée 25/07 annonçant la fermeture pour le 26/07)** — au-delà, aucune page datée retrouvée malgré recherche ciblée ce run (alta-frequenza.corsica ne remonte que des notices de mi-juillet) ; traitée par défaut comme reconduite (absence de signal ≠ levée), à revérifier directement au prochain passage [tentative 2] ; **GR20 Albertacce/Niolu RÉOUVERT le 30/07 (source officielle PNRC) — voir fichier dédié, désormais CLÔTURÉ** ; Mare a Mare Nord (Corte↔Vergio) toujours fermé selon la même source officielle (30/07), feu de la Restonica fixé le 31/07 avec réouverture progressive des sentiers locaux ; Bavella/Illarata : Illarata toujours fermé, voir ligne dédiée
 ordre: 2
 ---
 
@@ -25,3 +25,5 @@ Corse (tout le GR20) ; 2A en alerte sécheresse (arrêté 03/07/2026) ; vigilanc
 ## Source
 
 corse-du-sud.gouv.fr ; haute-corse.gouv.fr ; [haute-corse.gouv.fr — Fango/Bonifato/Agriate fermés le 23/07/2026 (publié 22/07)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers)
+
+**MAJ 01/08 (run Europe)** : [haute-corse.gouv.fr — page « Fermeture des massifs forestiers du Fango, Bonifato et du Territoire de l'Agriate le 26 07 26 », publiée 25/07/2026](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers) (dernière notice datée retrouvée ce run) ; [pnr.corsica — avis sécurité, mis à jour 30/07/2026 09h08](https://www.pnr.corsica/actualites/) confirmant la réouverture du GR20 secteur Albertacce et la fermeture persistante du Mare a Mare Nord Corte↔Vergio.

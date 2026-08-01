@@ -5,7 +5,7 @@ itin: GR249 Gran Senda de Málaga (étapes Cómpeta–Canillas) — [HYPOTHÈSE]
 sev: MOYENNE
 validite: sans activité depuis le 18/07 ; sécurisation du périmètre en cours, pas de clôture formelle
 detection: 2026-07-17
-verif: 2026-07-24
+verif: 2026-08-01
 statut: ACTIF — INCHANGÉ 24/07 : toujours aucune source datée postérieure au 18/07 malgré recherche active (6e run consécutif sans nouvelle) ; pas de classement formel « extinguido » ; A-7206 (km 0→3) toujours non reconfirmée rouverte, traitée comme fermée par défaut
 ordre: 24
 ---
