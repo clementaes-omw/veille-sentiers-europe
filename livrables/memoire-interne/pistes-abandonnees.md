@@ -1,2 +1,2 @@
 ## Pistes abandonnées
-(vide)
+- **ES-AND — feu d'Árchez/Cómpeta (confinement, 17-18/07/2026)** : événement mineur (confinement de la population <24h, source unique du 17-18/07), plus aucune source postérieure au 18/07 trouvée malgré ≥10 tentatives sur 2 semaines (6+ runs consécutifs infructueux). Réouverture de l'A-7206 (km 0→3) et recoupement GR249/GR242 traités par défaut comme non bloquants faute de tout signal contraire prolongé. Abandonnée le 2026-08-01 ; à ne rouvrir que sur signal nouveau explicite.
