@@ -5,7 +5,7 @@ itin: Aucun P1 ; [HYPOTHÈSE] Sentiero Italia CAI (P3, secteur VCO) — recouper
 sev: MOYENNE
 validite: levée partielle depuis le 17/07 ; 2 itinéraires encore fermés sans date de réouverture
 detection: 2026-07-17 (avis du 10/07)
-verif: 2026-07-18
+verif: 2026-08-01
 statut: ACTIF — CHANGÉ 18/07 : levée partielle (ordonnances générales révoquées 17/07), 2 itinéraires encore fermés à Premosello Chiovenda ; suivre la réouverture complète au prochain passage IT-NO
 ordre: 25
 ---

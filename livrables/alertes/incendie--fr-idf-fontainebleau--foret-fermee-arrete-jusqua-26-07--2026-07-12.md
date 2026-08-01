@@ -3,10 +3,10 @@ cle: incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12
 type: incendie / fermeture massif
 itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontainebleau, fermeture de facto par arrêté de massif (détail tronçon par tronçon non publié)
 sev: HAUTE
-validite: jusqu'au 26/07/2026 au moins (arrêté n° 2026_CAB_SIDPC_1193 du 19/07), prolongation possible
+validite: jusqu'au 26/07/2026 au moins (arrêté n° 2026_CAB_SIDPC_1193 du 19/07), prolongation possible — **MAJ 01/08 : prolongée jusqu'au 07/08/2026 inclus par deux nouveaux arrêtés du 29/07/2026, échéance du 26/07 dépassée SANS levée**
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-07-24
-statut: ACTIF — INCHANGÉ 24/07 : aucune annonce de prolongation, de levée anticipée ni de réouverture partielle par tronçon — échéance du 26/07 (J+2) à surveiller en priorité absolue au prochain passage (source à revérifier : seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation)
+verif: 2026-08-01
+statut: ACTIF — CHANGÉ 01/08 : l'échéance du 26/07 a été dépassée SANS réouverture — deux nouveaux arrêtés préfectoraux signés le 29/07/2026 prolongent l'interdiction d'accès jusqu'au 07/08/2026 inclus (forêts domaniales de Fontainebleau, de la Commanderie, de Nanteau-Poligny, forêt communale de Nemours, et secteur fermé des Trois-Pignons à cheval Seine-et-Marne/Essonne) ; réouverture toujours annoncée comme progressive secteur par secteur après diagnostics ONF (arbres dangereux, foyers résiduels, érosion), sans calendrier communiqué au-delà du 07/08 ; restrictions de circulation sur l'A6 (distinctes de l'accès aux forêts) levées le 31/07/2026
 ordre: 42
 ---
 
