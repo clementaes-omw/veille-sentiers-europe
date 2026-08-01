@@ -5,7 +5,7 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-07-31
+verif: 2026-08-01
 statut: ACTIF — INCHANGÉ 31/07 : herault.gouv.fr toujours daté du 17/07 (JS, pas de statut jour-par-jour lisible en autonome) ; nouvelle source corroborante (non datée du jour) confirmant le schéma répétitif — arrêté préfectoral n°470 « Vigilance rouge secteur 6 » (Minervois/Saint-Chinianais), article info.fr du 20/07 18h29 ; aucune source datée du 30-31/07 localisée, aucun massif nouveau ni nouveau départ de feu identifié, Carlencas-et-Levas toujours fixé ; INCHANGÉ 28/07 : épisode rouge Minervois/Saint-Chinianais reconfirmé pour jeudi 23/07 (presse, arrêté préfectoral d'interdiction d'accès aux massifs cité mais non lié directement), même schéma que le 21/07 déjà au registre — aucun massif nouveau, aucun nouveau départ de feu identifié ; lecture directe herault.gouv.fr non refaite ce run (toujours ⚠ JS, budget) ; feu de Carlencas toujours considéré fixé (~400 ha, aucune reprise signalée)
 ordre: 18
 ---
