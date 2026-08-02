@@ -5,7 +5,7 @@ itin: GR56 / GR52-GTM / GR5
 sev: MOYENNE
 validite: pérenne/saisonnier (MAJ parc 15/05/2026)
 detection: 2026-07-02
-verif: 2026-08-01
+verif: 2026-08-02
 statut: ACTIF — INCHANGÉ 31/07 : fetch direct confirmé, page toujours datée « dernière mise à jour : 9 juillet 2026 », aucune fermeture nouvelle ni actualité de sécurité (feu, orage, crue) trouvée pour fin juillet ; INCHANGÉ 29/07 : page officielle mercantour-parcnational.fr non trouvée avec une date postérieure au 09/07 déjà connu malgré deux recherches ciblées ; aucun nouveau constat spécifique (GR56, GR52, GR5) daté du 28-29/07 ; INCHANGÉ 23/07 : page parc mise à jour au 09/07, rien de nouveau ; aucune alerte de crue liée aux orages de juillet trouvée ; vérifier le tracé GR56 vs déviation Cimet ; signaler les gués GR52
 ordre: 13
 ---
