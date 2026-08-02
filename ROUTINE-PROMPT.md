@@ -30,16 +30,23 @@ défini dans agent-prompt.md, à la lettre :
    sans confirmation par une source officielle.
 5. LE DIMANCHE EN ÉTÉ (1er juin → 30 sept) : lance `python3 referentiel/outils/lot_bivouac.py`
    et revérifie le lot de fiches bivouac qu'il indique (voir agent-prompt.md).
-6. Ajoute la ligne de log dans livrables/_veille-log.md (résumé, zones, nb de recherches,
+6. QUALITÉ DU REGISTRE (obligatoire, avant le build) : `python3 site/audit_qualite.py
+   --ecrire`, puis passe la main à un SOUS-AGENT DISTINCT avec le prompt
+   agents/verificateur-alertes.md. Il audite et corrige les alertes DÉJÀ publiées
+   (fiches périmées, descriptions restées en arrière de leur propre suivi, validités
+   expirées, ton). Ce qu'il renvoie « à traiter au prochain run » entre au périmètre du
+   lendemain, même hors cadence ; un constat bloquant non traité se dit en tête du digest.
+7. Ajoute la ligne de log dans livrables/_veille-log.md (résumé, zones, nb de recherches,
    et « bivouac : N fiches » si un lot a été traité).
-7. Boucle qualité : `python3 site/build_site.py` — corrige les DONNÉES jusqu'à
+8. Boucle qualité : `python3 site/build_site.py` — corrige les DONNÉES jusqu'à
    « OK (QA passée) ». Jamais de publication en échec ; bug du générateur → signale-le
    sans le modifier.
-8. PUBLICATION — via les outils GitHub MCP de la session (l'intégration officielle scopée
+9. PUBLICATION — via les outils GitHub MCP de la session (l'intégration officielle scopée
    sur ce dépôt ; méthode validée le 18/07 par la PR #1). Pas de git push, aucun jeton :
    a. Crée la branche `claude/veille-<date>` depuis main (outil MCP create branch).
    b. Committe sur cette branche TOUS les fichiers modifiés du run (livrables/digest_<date>.md,
-      les fichiers livrables/alertes/*.md touchés, livrables/_veille-log.md, et
+      les fichiers livrables/alertes/*.md touchés, livrables/_veille-log.md,
+      livrables/audit-qualite.md et livrables/verdict-qualite.md, et
       referentiel/* si modifié — PAS site/index.html, qui est régénéré par la CI) — commit « veille: digest du <date> » (outil MCP push files /
       create or update file).
    c. Ouvre la PR vers main (« veille: digest du <date> », body = résumé en 2 lignes) puis
@@ -48,5 +55,5 @@ défini dans agent-prompt.md, à la lettre :
       échec de publication → terminer par « PUBLICATION ÉCHOUÉE » + erreurs verbatim +
       résumé du digest. Ne jamais forcer.
    La fusion sur main déclenche le déploiement GitHub Pages (pages.yml, re-vérifie la QA).
-7. Termine par un résumé : alertes nouvelles/changées/levées (avec clés), zones couvertes,
+10. Termine par un résumé : alertes nouvelles/changées/levées (avec clés), zones couvertes,
    décompte de recherches, statut de la publication (fusionnée / PR ouverte / échec).

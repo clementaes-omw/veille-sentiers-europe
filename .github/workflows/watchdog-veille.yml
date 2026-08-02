@@ -1,0 +1,81 @@
+name: Watchdog veille (digest du jour publié ?)
+
+# La veille quotidienne tourne en routine cloud claude.ai (ROUTINE-PROMPT.md), hors GitHub.
+# Ce déclencheur est unique et muet : quand la routine ne part pas, rien ne le signale
+# (constaté le 30/07/2026 — site figé sur la veille sans aucune erreur nulle part).
+# Ce workflow ne fait que CONSTATER : il ne relance rien, ne consomme aucun token, ne
+# demande aucune clé API. Il vérifie la présence de livrables/digest_<jour>.md sur main.
+#
+# 06:40 UTC = 08h40 Paris (heure d'été), soit après la borne haute observée des runs
+# (07:12 UTC le 24/07). Minute non ronde et heure creuse : les crons GitHub à minute ronde
+# sont massivement mis en file d'attente sur les dépôts publics (cf. courrier.yml, ~8h de
+# retard). Un watchdog retardé alerte quand même le jour même — c'est suffisant ici.
+on:
+  schedule:
+    - cron: "37 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: watchdog-veille
+  cancel-in-progress: false
+
+jobs:
+  verifie:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Le digest du jour est-il là ?
+        id: check
+        run: |
+          JOUR="$(date -u +%F)"
+          echo "jour=$JOUR" >> "$GITHUB_OUTPUT"
+          if [ -f "livrables/digest_${JOUR}.md" ]; then
+            echo "manquant=false" >> "$GITHUB_OUTPUT"
+            echo "OK — livrables/digest_${JOUR}.md est publié."
+          else
+            echo "manquant=true" >> "$GITHUB_OUTPUT"
+            echo "MANQUANT — aucun livrables/digest_${JOUR}.md sur main."
+          fi
+
+      # Une seule issue par jour manqué : si elle existe déjà (relance manuelle du
+      # workflow, ou watchdog rejoué), on ne spamme pas.
+      - name: Ouvrir une issue si la veille n'a pas tourné
+        if: steps.check.outputs.manquant == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JOUR: ${{ steps.check.outputs.jour }}
+        run: |
+          # Le label doit exister avant d'être posé : sans ça, `gh issue create` échoue
+          # et l'alerte se perd — un watchdog muet est pire que pas de watchdog.
+          gh label create veille --color ededed --description "Veille sentiers" 2>/dev/null || true
+          TITRE="Veille non publiée le ${JOUR}"
+          EXISTE="$(gh issue list --state open --search "\"$TITRE\" in:title" --json number --jq 'length')"
+          if [ "$EXISTE" != "0" ]; then
+            echo "Issue déjà ouverte pour le ${JOUR} — rien à faire."
+            exit 0
+          fi
+          gh issue create --title "$TITRE" --label "veille" --body "$(cat <<EOF
+          Aucun \`livrables/digest_${JOUR}.md\` sur \`main\` à l'heure du contrôle.
+
+          La routine cloud claude.ai n'a probablement pas démarré, ou s'est arrêtée avant
+          la première écriture git (dans ce cas il n'y a ni branche \`claude/*\` du jour,
+          ni PR ouverte — à vérifier).
+
+          **À faire :** ouvrir la routine « Veille Sentiers Europe — run quotidien » sur
+          claude.ai/code et la relancer à la main. Vérifier au passage qu'elle n'est pas
+          désactivée et qu'aucun plafond d'usage n'a été atteint.
+
+          _Ouvert automatiquement par \`.github/workflows/watchdog-veille.yml\`._
+          EOF
+          )"
+
+      - name: Échouer visiblement
+        if: steps.check.outputs.manquant == 'true'
+        run: |
+          echo "::error::Digest du ${{ steps.check.outputs.jour }} absent — la veille n'a pas publié."
+          exit 1

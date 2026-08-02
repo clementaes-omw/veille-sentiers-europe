@@ -33,6 +33,19 @@ avec deux différences structurantes :
   (mêmes alertes France). Schéma de colonnes = celui du site, ne pas changer.
 - `livrables/digest_AAAA-MM-JJ.md` — un digest par run (aucun encore : produit par les runs).
 - `site/build_site.py` — génère `site/index.html` (autonome, publié en Artifact Claude).
+- `site/audit_qualite.py` — **audit de fraîcheur du registre** (déterministe, hors ligne,
+  sans clé d'API). Le build contrôle la forme de ce qui est publié ; l'audit contrôle sa
+  vérité dans le temps : fiches périmées au regard de leur propre validité, descriptions
+  restées en arrière du suivi interne, validités expirées, hypothèses jamais tranchées,
+  sources vieillies. Écrit `livrables/audit-qualite.md`, code retour 1 s'il reste un
+  constat bloquant. Tourne aussi seul sur GitHub (`.github/workflows/audit-qualite.yml`,
+  07h47 UTC + à chaque poussée touchant le registre) et ouvre une issue en cas de blocage.
+- `agents/verificateur-alertes.md` — **agent relecteur qualité**, exécuté en sous-agent
+  DISTINCT à chaque run (l'agent de veille ne relit pas son propre travail). Il ne cherche
+  pas d'événement nouveau : il audite l'existant à partir du rapport ci-dessus, corrige les
+  décrochages de description et le ton, et remonte ce qui exige une source nouvelle.
+  Motivé par le défaut du 02/08/2026 : des mises à jour parties dans le champ `statut:`
+  (invisible) pendant que le texte affiché restait figé deux semaines en arrière.
 
 ## Lancer un run de veille
 

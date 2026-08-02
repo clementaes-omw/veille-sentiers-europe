@@ -349,13 +349,30 @@ def itin_badge(c) -> str:
     return itin_badges(c)[0]
 
 
+_CLES_DU_JOUR = None
+
+
+def cles_du_jour() -> set:
+    """Clés citées par le digest le plus récent = les alertes réellement bougées au
+    dernier passage. C'est la seule définition qui s'EFFACE toute seule : tirée du champ
+    `statut:`, la pastille « changé » restait collée à la fiche des semaines après le
+    changement (25 cartes sur 60 la portaient le 02/08/2026, dont des reroutages de 2025).
+    Le digest, lui, ne liste que le NOUVEAU/CHANGÉ du jour."""
+    global _CLES_DU_JOUR
+    if _CLES_DU_JOUR is None:
+        digests = sorted(LIVRABLES.glob("digest_*.md"))
+        txt = digests[-1].read_text(encoding="utf-8") if digests else ""
+        _CLES_DU_JOUR = set(re.findall(r"`([^`]+\|[^`]+)`", txt))
+    return _CLES_DU_JOUR
+
+
 def render_card(c) -> str:
     statut_txt = c["statut"]
     closed = "CLÔTURÉ" in statut_txt.upper()
     sev = "clos" if closed else sev_class(c["sev"])
     sev_label = {"haute": "Alerte rouge", "moyenne": "Alerte orange",
                  "info": "Info", "clos": "Clôturée"}[sev]
-    changed = "CHANGÉ" in statut_txt
+    changed = c["cle"] in cles_du_jour()
     chips = ""
     if changed and not closed:
         chips += ('<span class="chip changed" title="Alerte déjà connue dont la situation a '
@@ -449,6 +466,27 @@ def render_bivouac_card(b) -> str:
 # ---------------------------------------------------------------- contrôle qualité
 
 BADGE_INTERDITS = ["[", "]", "HYPOTH", "Aucun", "P1 ;", "à préciser", "recouper"]
+
+# --- TON PUBLIC ------------------------------------------------------------
+# « Portion concernée » et « Alternative » s'adressent à un randonneur qui prépare
+# son étape, pas au journal de bord de la veille. Ces fragments trahissent le
+# narratif interne du run (couverture, indexation, tentatives) : ils n'ont rien à
+# faire sur le site. Comparés sur le texte replié (fold_txt) → sans accents.
+JARGON_INTERNE = [
+    "ce run", "au dernier run", "run europe", "runs ", "des runs", "prochain run",
+    "reindexation", "indexation", "pages indexees", "non indexe", "trou de couverture",
+    "lot t2", "lot bivouac", "cadence", "perimetre du jour", "hors cadence",
+    "en autonome", "recherche ciblee", "prochain passage", "au registre",
+    "hypothese de decrue", "tentative n",
+]
+
+# Une alerte ROUGE ne peut pas rester adossée à une hypothèse non tranchée
+# indéfiniment : passé ce délai, soit on dégrade en MOYENNE, soit on écrit
+# explicitement au lecteur que le texte n'est pas publié (et on cesse de le
+# présenter comme « probable »).
+HYPO_MARQUEURS = ["a confirmer", "probable", "non localise", "non trouve",
+                  "en cours de recoupement", "reste a faire", "a recouper"]
+HYPO_DELAI_JOURS = 14   # deux semaines de recherches infructueuses = un fait à publier
 
 # Garde-fou anti-corruption du registre (incident 2026-07-25 : un run a réécrit
 # alertes-actives.md en version condensée, 125 Ko → 27 Ko, perdant tout le détail).
@@ -558,6 +596,28 @@ def registry_integrity_errors():
     return errs
 
 
+def _age_jours(champ_date: str):
+    """Âge en jours d'un champ `detection:`/`verif:` (None si non datable)."""
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", (champ_date or "").strip())
+    if not m:
+        return None
+    return (date.today() - date.fromisoformat(m.group(1))).days
+
+
+def ton_warnings(cards) -> list:
+    """Même contrôle de ton, appliqué à « Zone (détails) » — AVERTISSEMENT seulement.
+    Ce champ porte le narratif historique de 30+ fiches héritées : on ne le réécrit pas
+    en masse (c'est exactement le geste qui a corrompu le registre le 25/07), on le
+    nettoie fiche par fiche au fil des mises à jour. Le compteur doit décroître."""
+    out = []
+    for c in cards:
+        plie = fold_txt(c["zone"])
+        hits = sorted({f.strip() for f in JARGON_INTERNE if f in plie})
+        if hits:
+            out.append(f"{c['cle'][:55]} → {', '.join(hits)}")
+    return out
+
+
 def qa_check(cards, page: str, bivouac=None):
     """Valide le rendu AVANT publication. Toute violation = build en échec (exit 2).
     C'est la boucle demandée : build → QA → correction → rebuild jusqu'à 0 violation."""
@@ -578,6 +638,25 @@ def qa_check(cards, page: str, bivouac=None):
         for champ in ("portion", "alternative"):
             if "OMW" in c[champ] or "OnMyWay" in c[champ]:
                 errs.append(f"[{champ}] mention OMW pour {ref}")
+            plie = fold_txt(c[champ])
+            for frag in JARGON_INTERNE:
+                if frag in plie:
+                    errs.append(
+                        f"[ton] jargon de veille « {frag.strip()} » dans {champ} pour {ref} — "
+                        f"ce champ s'adresse au randonneur : décrire l'état ACTUEL du terrain, "
+                        f"pas le déroulé de la veille (l'historique va en « Zone (détails) »)")
+        closed_c = "CLÔTURÉ" in c["statut"].upper()
+        if sev_class(c["sev"]) == "haute" and not closed_c:
+            plie = fold_txt(c["portion"])
+            marq = next((m for m in HYPO_MARQUEURS if m in plie), None)
+            age = _age_jours(c["detection"])
+            if marq and age is not None and age > HYPO_DELAI_JOURS:
+                errs.append(
+                    f"[hypothèse] alerte rouge encore adossée à « {marq} » {age} jours après "
+                    f"détection pour {ref} — soit la source est trouvée et l'alerte est "
+                    f"confirmée, soit on dégrade en MOYENNE et on écrit noir sur blanc au "
+                    f"lecteur ce qui n'est PAS publié (ex. « aucun arrêté publié à ce jour "
+                    f"sur le site de la préfecture »)")
         if categorize(c) is None:
             errs.append(f"[catégorie] type orphelin « {c['type']} » pour {ref} — "
                         "ajouter la catégorie ou le mot-clé dans referentiel/categories.json")
@@ -1174,6 +1253,15 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 </script>
 """
     errs = qa_check(cards, page, bivouac) + registry_integrity_errors()
+    warns = ton_warnings(cards)
+    if warns:
+        print(f"⚠ ton : {len(warns)} fiche(s) dont « Zone (détails) » raconte encore le "
+              f"déroulé de la veille au lieu de l'état du terrain (non bloquant — "
+              f"à nettoyer au prochain passage sur la fiche) :", file=sys.stderr)
+        for w in warns[:12]:
+            print("  ~ " + w, file=sys.stderr)
+        if len(warns) > 12:
+            print(f"  … et {len(warns) - 12} autre(s)", file=sys.stderr)
     if errs:
         print(f"QA ÉCHEC — {len(errs)} violation(s), site NON écrit :", file=sys.stderr)
         for e in errs:

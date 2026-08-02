@@ -3,24 +3,31 @@ cle: risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01
 type: risque feu / fermeture massifs
 itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodanien)
 sev: HAUTE
-validite: journalière ; la préfecture 30 publie une page actualité quotidienne LISIBLE en autonome (contourne la carte JS)
+validite: journalière — la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
 verif: 2026-08-02
-statut: ACTIF — **INCHANGÉ 31/07 : 8e run consécutif sans page gard.gouv.fr postérieure au 23/07 — page « Actualités » toujours titrée « Jeudi 23 juillet 2026 : risque incendie très sévère » (republication/réindexation confirmée, pas un contenu nouveau) ; URLs devinées « Jeudi-30-juillet-2026 » et « Vendredi-31-juillet-2026 » → 404 confirmé ; dernière donnée sûre inchangée** ; **INCHANGÉ 29/07 : 7e run consécutif sans page gard.gouv.fr postérieure au 23/07 — page « Actualités » toujours titrée « Jeudi 23 juillet 2026 : risque incendie très sévère » (une date d'affichage au 27/07 relevée semble une republication/réindexation, pas un contenu nouveau) ; tentative directe de l'URL devinée pour le 29/07 → 404 ; recherche web ciblée ne remonte rien au-delà du 23/07 — dernière donnée sûre inchangée** ; INCHANGÉ 28/07 [gard.gouv.fr de nouveau accessible ce run — fini les 503 des runs précédents — mais toujours aucune page postérieure au 23/07 localisée malgré recherche ciblée (page « Actualités » à jour du site listée : « Sécheresse : Aggravation de la situation hydrologique » et « Pollution atmosphérique 26 et 27 juillet » datées 27/07, aucune nouvelle page risque incendie ; recherche directe des URLs Vendredi 24/Lundi 27/Mardi 28-juillet-2026 = 404 ; 6e run consécutif sans page plus récente que le 23/07) : dernière donnée sûre reste celle du jeudi 23/07 (zone rouge Gard Rhodanien 36 communes + Costières Petite Camargue 9 communes, active en continu, 45 communes listées au total) ; GR70 (Cévennes) toujours hors zone rouge ; recoupement GR653 (Fourques/Beaucaire) vs périmètre interdit toujours à faire
+statut: ACTIF — dernier classement publié par la préfecture du Gard : jeudi 23/07/2026 (Gard Rhodanien + Costières–Petite Camargue en rouge). Aucune page postérieure publiée au 02/08 : ni aggravation ni levée annoncée.
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : **zone rouge « Gard Rhodanien » (36 communes dont Beaucaire, Fourques, Bagnols-sur-Cèze, Pont-Saint-Esprit) confirmée toujours ACTIVE EN CONTINU** — page réelle du 18/07/2026 annonce le risque très sévère pour dimanche 19/07 ; l'absence de pages indexées du 09 au 17/07 était un trou de couverture/indexation, pas une décrue. GR70 (Cévennes) toujours hors zone rouge. Raison : risque incendie.
+**Gard : deux secteurs classés rouges — « Gard Rhodanien » (36 communes, dont Beaucaire, Fourques, Bagnols-sur-Cèze, Pont-Saint-Esprit) et « Costières – Petite Camargue » (9 communes), soit 45 communes** : accès, circulation et présence interdits dans les massifs et espaces boisés concernés. Le **GR70 (Cévennes)** reste hors zone rouge. Raison : risque incendie très sévère. Ce classement est celui du 23/07/2026, le dernier publié à ce jour — la préfecture n'a depuis annoncé ni aggravation ni levée.
 
 ## Alternative
 
-Aucun blocage connu sur GR70 ; GR653 (secteur Fourques/Beaucaire) en zone à risque — vérifier la page quotidienne de la préfecture du Gard avant l'étape.
+Aucun blocage connu sur le GR70. Le GR653 traverse le secteur Fourques/Beaucaire, en zone rouge : consulter la page « risque incendie » de gard.gouv.fr le matin de l'étape — le classement est décidé au jour le jour et un secteur peut rouvrir ou fermer sans préavis.
 
 ## Zone (détails)
 
-Gard : 05/07 = 3 zones rouges interdites (Costières-P.-Camargue, Gard Rhodanien, Garrigues — accès/circulation/présence humaine interdits) ; Val de Cèze et Gardon Vidourle sortis du rouge ; secteurs Cévennes N/S pas en rouge ; MAJ 18/07 (run Europe) : page « Dimanche 19 juillet 2026 : risque incendie très sévère » (gard.gouv.fr, publiée 18/07) confirme le Gard Rhodanien actif en continu depuis début juillet — **corrige l'hypothèse de décrue des runs 09→17/07**, qui reposait sur une absence de pages indexées et non sur un retour au calme confirmé
+Chronologie du classement des massifs gardois, saison 2026 :
+
+- **05/07** — trois secteurs classés rouges, accès, circulation et présence humaine interdits : Costières–Petite Camargue, Gard Rhodanien, Garrigues. Val de Cèze et Gardon-Vidourle repassent sous le rouge. Les secteurs Cévennes nord et sud ne sont pas classés rouges.
+- **19/07** — le Gard Rhodanien est toujours classé rouge (page préfectorale du 18/07 annonçant un risque très sévère pour le dimanche 19). Le secteur est donc resté en rouge en continu depuis le début du mois, sans accalmie intermédiaire.
+- **23/07** — dernier classement publié : deux secteurs rouges, Gard Rhodanien (36 communes) et Costières–Petite Camargue (9 communes), 45 communes au total. Les Cévennes restent hors zone rouge.
+- **24/07 → 02/08** — aucune nouvelle page de classement n'a été mise en ligne par la préfecture du Gard. Aucune levée n'a donc été annoncée : le classement du 23/07 reste la dernière information officielle disponible, et l'interdiction doit être considérée comme toujours en vigueur.
+
+Le recoupement fin du tracé du GR653 avec le périmètre interdit (communes de Fourques et Beaucaire) reste à établir : la préfecture publie une liste de communes, pas un périmètre cartographié au sentier près.
 
 ## Source
 

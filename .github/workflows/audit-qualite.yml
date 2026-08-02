@@ -1,0 +1,119 @@
+name: Audit qualité du registre
+
+# Le build (site/build_site.py) contrôle la FORME de ce qui part en ligne. Ce workflow
+# contrôle la FRAÎCHEUR : une alerte peut être impeccablement rédigée et décrire la
+# situation d'il y a trois semaines — c'est le défaut constaté le 02/08/2026, où des
+# fiches à jour dans leur champ `statut:` affichaient sur le site un constat périmé.
+#
+# L'audit est déterministe et hors ligne : ni clé d'API, ni jeton, ni token de modèle.
+# Il tourne APRÈS la veille (routine cloud claude.ai, ~07h00-07h12 UTC) pour juger le
+# registre du jour. Minute non ronde : les crons GitHub à minute ronde partent en file
+# d'attente sur les dépôts publics (cf. courrier.yml, ~8 h de retard observées).
+#
+# Le jugement sur le fond — la source dit-elle vraiment cela, l'alerte a-t-elle encore
+# un sens — relève de l'agent relecteur `agents/verificateur-alertes.md`, exécuté par la
+# routine de veille. Ce workflow lui prépare sa liste de travail.
+on:
+  schedule:
+    - cron: "47 7 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "livrables/alertes/**"
+      - "site/audit_qualite.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: audit-qualite
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Auditer le registre
+        id: audit
+        run: |
+          set +e
+          python site/audit_qualite.py --ecrire > /tmp/audit.txt 2>&1
+          CODE=$?          # surtout pas après un « | tee » : $? porterait le code de tee
+          set -e
+          cat /tmp/audit.txt
+          echo "bloquants=$CODE" >> "$GITHUB_OUTPUT"
+          {
+            echo "## Audit qualité du registre"
+            echo
+            echo '```'
+            tail -n 40 /tmp/audit.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # Le rapport est commité pour que l'agent relecteur le lise au run suivant
+      # (il n'a pas accès aux artefacts de job) et pour garder l'historique de la dette.
+      - name: Publier le rapport
+        run: |
+          if [ -n "$(git status --porcelain livrables/audit-qualite.md)" ]; then
+            git config user.name "audit-bot"
+            git config user.email "audit-bot@users.noreply.github.com"
+            git add livrables/audit-qualite.md
+            git commit -m "audit: qualité du registre au $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "Rapport inchangé."
+          fi
+
+      # Une seule issue ouverte à la fois : on la met à jour plutôt que d'en empiler une
+      # par jour, sinon le signal se noie dans le bruit et plus personne ne le lit.
+      - name: Signaler les constats bloquants
+        if: steps.audit.outputs.bloquants != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITRE="Registre : alertes obsolètes ou décrochées"
+          CORPS="$(cat <<EOF
+          L'audit du $(date -u +%F) relève des constats **bloquants** : des alertes publiées
+          ne décrivent plus la situation actuelle.
+
+          \`\`\`
+          $(grep '^⛔' /tmp/audit.txt || true)
+          \`\`\`
+
+          Rapport complet : [\`livrables/audit-qualite.md\`](../blob/main/livrables/audit-qualite.md)
+
+          **À faire :** au prochain run de veille, exécuter l'agent relecteur
+          \`agents/verificateur-alertes.md\` sur ces fiches. Il corrige lui-même les
+          décrochages de description et le ton ; il remonte ici ce qui demande une
+          source nouvelle.
+
+          _Ouvert automatiquement par \`.github/workflows/audit-qualite.yml\`._
+          EOF
+          )"
+          # Le label doit exister avant d'être posé : sans ça `gh issue create` échoue
+          # et le constat bloquant se perd sans bruit.
+          gh label create veille --color ededed --description "Veille sentiers" 2>/dev/null || true
+          NUM="$(gh issue list --state open --search "\"$TITRE\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --body "$CORPS"
+          else
+            gh issue create --title "$TITRE" --label "veille" --body "$CORPS"
+          fi
+
+      - name: Refermer l'issue quand le registre est propre
+        if: steps.audit.outputs.bloquants == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NUM="$(gh issue list --state open --search "\"Registre : alertes obsolètes ou décrochées\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "Audit du $(date -u +%F) : plus aucun constat bloquant."
+          fi
