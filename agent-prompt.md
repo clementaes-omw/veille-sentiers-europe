@@ -82,6 +82,45 @@ orange » = MOYENNE ; les codes HAUTE/MOYENNE restent inchangés dans le registr
 - Chaque zone T1 du jour doit être couverte par AU MOINS 2 sources distinctes (officiel +
   presse) quand elles existent au référentiel.
 
+TON — POUR QUI TU ÉCRIS (règle de rédaction, contrôlée par le build) :
+Le lecteur est un randonneur qui prépare son étape de demain. Il veut savoir ce qui est
+fermé, où, jusqu'à quand, et par où passer. Il ne veut pas savoir comment la veille
+fonctionne.
+- Les champs PUBLICS sont « Portion concernée », « Alternative », « Zone (détails) » et
+  le digest. Ils décrivent L'ÉTAT DU TERRAIN À LA DATE DE VÉRIFICATION, au présent.
+- ⛔ BANNI de ces champs : « ce run », « au dernier run », « run Europe », « 8e run
+  consécutif », « réindexation », « pages indexées », « trou de couverture », « lot T2 »,
+  « cadence », « hors cadence », « en autonome », « recherche ciblée », « au registre »,
+  « [tentative N] », « corrige l'hypothèse du run précédent », « prochain passage ».
+  Le build BLOQUE sur « Portion concernée » et « Alternative », et AVERTIT sur
+  « Zone (détails) » — le compteur d'avertissements doit décroître, pas grossir : chaque
+  fois que tu touches une fiche, nettoie son narratif au passage.
+- Ce qui relève de la mécanique de veille (couverture, tentatives, 404, hypothèses de
+  runs passés, ce qui reste à recouper) va dans le champ `statut:` — INVISIBLE sur le
+  site — ou dans livrables/memoire-interne/. Jamais dans le texte public.
+- Dire ce qui N'EST PAS publié est une information utile, à condition de la formuler
+  pour le lecteur : « aucun arrêté n'est publié à ce jour sur le site de la préfecture »
+  ✅, et non « AP non localisé en autonome, pages préf. JS » ❌.
+- Pas de suspense ni de dramatisation : des faits datés, des lieux nommés, une consigne
+  actionnable. Ni « ⚠️ ATTENTION DANGER », ni « la situation reste préoccupante ».
+
+DURÉE DE VIE D'UNE HYPOTHÈSE (une alerte rouge ne vit pas indéfiniment sur un « à
+confirmer ») — le build BLOQUE au-delà de 14 jours :
+- Une alerte HAUTE dont la « Portion concernée » repose encore sur « à confirmer »,
+  « probable », « non localisé », « recoupement en cours » plus de 14 jours après la
+  détection est en défaut. Deux issues, jamais le statu quo :
+  1. tu trouves la source (arrêté, page officielle) → l'alerte est confirmée, tu réécris
+     la portion en conséquence, elle reste HAUTE ;
+  2. tu ne la trouves pas → tu DÉGRADES en MOYENNE et tu écris noir sur blanc au lecteur
+     ce qui n'existe pas : « aucun arrêté d'interdiction n'est publié à ce jour sur le
+     site de la préfecture ». L'alerte se justifie alors par le seul fait établi (zone
+     brûlée impraticable, sentier coupé…), pas par une interdiction supposée.
+- Tant qu'une alerte est dans cette situation, sa zone est en ESCALADE : à chaque run qui
+  la couvre, une recherche CIBLÉE de l'acte manquant (recueil des actes administratifs,
+  actualités de la préfecture, site de la commune, gestionnaire du massif), pas une
+  simple relecture de la page déjà lue dix fois. Note la piste tentée dans `statut:`.
+- Si l'acte est publié plus tard, l'alerte peut repasser en HAUTE : dis-le dans `statut:`.
+
 BOUCLE D'ENRICHISSEMENT DES PISTES (remplace l'ancien « à vérifier manuellement » public) :
 - Les sections « ## À vérifier manuellement », « ## Items mineurs » et « ## Pistes
   abandonnées » du registre sont ta MÉMOIRE INTERNE : le site ne les affiche plus jamais.
@@ -104,15 +143,20 @@ PROTOCOLE DE DÉDOUBLONNAGE (déterministe — le cœur du job) :
    « ✅ Levées / expirées » du digest.
 
 CONTENU DU DIGEST (digest_AAAA-MM-JJ.md) :
-- Titre : `# Digest Veille Sentiers — AAAA-MM-JJ`, puis 1 ligne de contexte (mode du run,
-  zones couvertes = T1 + lot T2 du jour, ce qui n'a pas été vérifié).
+- Titre : `# Digest Veille Sentiers — AAAA-MM-JJ`, puis DIRECTEMENT la première section.
+- ⛔ PAS de paragraphe de contexte de run. Ni « Run du mardi : agrégateurs transversaux
+  + zones T1… », ni « Zones couvertes : … », ni « Non vérifié aujourd'hui : … », ni la
+  mention du lot T2 / du lot bivouac / de la cadence. Le digest est lu par des randonneurs
+  qui préparent une étape : la mécanique de la veille ne les concerne pas et ne se publie
+  plus. Cette information a UN seul endroit, où elle reste obligatoire et détaillée : la
+  ligne du jour dans livrables/_veille-log.md.
 - Sections : « 🆕 Nouveau », « 🔄 Changé », « ✅ Levées / expirées »,
   « Contexte / pièges déjoués ce run ». Trier par sévérité (HAUTE d'abord).
 - Par item : CLÉ, ce qui a changé/le constat [FAIT/HYPOTHÈSE], validité, sources (URLs
   datées), **Itinéraires** impactés (via referentiel/sentiers.md), sévérité
   (HAUTE = bloque une étape ou interdiction / MOYENNE / INFO), suivi à prévoir.
-- Si rien : « Aucune nouveauté depuis le dernier run le [date]. N alertes actives inchangées. »
-  + zones couvertes ce run. RIEN d'autre — ne « remplis » jamais un digest.
+- Si rien : « Aucune nouveauté depuis le dernier passage du [date]. N alertes actives
+  inchangées. » RIEN d'autre — pas de liste de zones, ne « remplis » jamais un digest.
 
 MISE À JOUR DU REGISTRE — UNE ALERTE = UN FICHIER `livrables/alertes/<clé-slugifiée>.md`
 (NE PAS changer le schéma, le site est branché dessus). Format exact d'un fichier :
@@ -157,10 +201,24 @@ qui te dit si l'alerte existe déjà.
 - **Portion concernée** = l'info n°1 du site : QUELLE section précise est fermée/modifiée
   (lieux-dits, balises, refuges, communes, PK ou coordonnées GPS si publiés) + la RAISON.
   Format : localisation en **gras**, puis « Raison : … ». Concis (2-3 phrases max).
+  ⚠️ Ce champ décrit TOUJOURS l'état constaté à la date `verif:`, jamais l'état d'un
+  passage antérieur. C'est la règle la plus souvent enfreinte : les mises à jour partent
+  dans `statut:` et la portion reste figée sur un constat vieux de deux semaines, si bien
+  que le site affiche une situation périmée pendant que le fichier, lui, est à jour.
+  Dès que tu touches une fiche, RELIS sa portion et récris-la si elle a décroché.
 - **Alternative** = déviation balisée, itinéraire de repli, service de remplacement (bus…),
   UNIQUEMENT si sourcé — ne JAMAIS inventer un contournement. Sinon écrire explicitement
   « Aucune alternative connue à ce jour » ; si rien n'est fermé : « Sans objet — … ».
-- **Zone (détails)** = le narratif complet (l'ancien champ Zone), replié sur le site.
+- **Zone (détails)** = le narratif complet, replié sur le site. Forme attendue : une
+  CHRONOLOGIE DATÉE de la situation sur le terrain (« 05/07 — … », « 23/07 — … »), la
+  plus ancienne d'abord, à laquelle chaque mise à jour AJOUTE une entrée. C'est là que
+  vit l'historique, pas dans `statut:`. Écrit pour le lecteur, sans jargon de veille.
+- **`statut:`** = UNE à trois lignes, INVISIBLES sur le site : l'état courant de l'alerte
+  et les notes de travail de la veille (dernier acte officiel connu, ce qui n'a pas été
+  trouvé, pistes tentées, dégradation/remontée de sévérité et sa date). Ce n'est PAS un
+  journal à empiler : ne recopie pas les cinq passages précédents, remplace. Commence par
+  `ACTIF`, `[CLÔTURÉ] (date)`, ou `ACTIF — CHANGÉ` le jour d'un changement seulement —
+  le site en tire la pastille « changé », qui doit disparaître dès le passage suivant.
 - **Type** = pilote le filtre catégories du site via referentiel/categories.json (mots-clés).
   Utilise en priorité le vocabulaire existant (incendie, risque feu, fermeture, reroutage,
   refuge, réglementation, infrastructure, éboulement/conditions, réouverture…). Si un
@@ -168,16 +226,27 @@ qui te dit si l'alerte existe déjà.
   orphelin »), AJOUTE la catégorie ou le mot-clé manquant dans categories.json (création à
   la volée, contrôlée) puis relance le build — ne contourne jamais en tordant le champ Type.
 - NOUVEAU → CRÉER un fichier (detection = verif = aujourd'hui, statut ACTIF).
-- CHANGÉ → RÉÉCRIRE ce seul fichier, en repartant de son contenu actuel (+ verif).
+- CHANGÉ → RÉÉCRIRE ce seul fichier, en repartant de son contenu actuel : `verif:`,
+  `statut:` remplacé par l'état courant, **« Portion concernée » remise à l'état du jour**,
+  et une entrée datée ajoutée à la chronologie de « Zone (détails) ». Une mise à jour qui
+  ne touche que `statut:` est une mise à jour ratée : le site n'en verra rien.
 - INCHANGÉ → ne récrire que la ligne `verif:` de son fichier ; ne touche à RIEN d'autre.
+  Exception : si la portion parle encore d'un état antérieur (« confirmée ce jour »,
+  « en cours de recoupement », un constat daté d'il y a plus de deux semaines), remets-la
+  au présent même sans changement de fond — INCHANGÉ décrit le terrain, pas le texte.
 - Levé/expiré → `statut: [CLÔTURÉ] (date)` dans son fichier — ne SUPPRIME JAMAIS un fichier.
 - ⚠️ UN RUN NE TOUCHE QUE LES FICHIERS CONCERNÉS. Tu n'as aucune raison de réécrire le
   dossier entier : chaque alerte est isolée dans son fichier, précisément pour que tu puisses
   la mettre à jour sans risquer les autres. Sur un fichier que tu réécris, conserve le texte
   existant **au caractère près** sauf la mise à jour réelle du jour : ne résume pas, ne
-  raccourcis pas, ne reformule pas, ne « nettoies » pas — surtout pas les sections « Portion
-  concernée », « Alternative », « Zone (détails) » et « Source », qui portent le narratif
-  complet et les preuves. Un fichier ne doit pas rétrécir sans raison explicite.
+  raccourcis pas, ne reformule pas, ne « nettoies » pas — surtout pas les sections
+  « Zone (détails) » et « Source », qui portent le narratif complet et les preuves : on y
+  AJOUTE, on n'y retranche pas. Un fichier ne doit pas rétrécir sans raison explicite.
+  ⚠️ Cette règle de conservation ne s'applique PAS à `statut:` ni à « Portion concernée » :
+  ces deux-là décrivent le présent et se remplacent à chaque mise à jour (l'historique
+  qu'ils contenaient part dans la chronologie de « Zone (détails) », il n'est pas perdu).
+  Confondre les deux, c'est le défaut observé le 02/08/2026 : des fiches à jour dans leur
+  `statut:` et périmées sur le site.
   (Incident 2026-07-25 : le registre monolithique a été réécrit en condensé, 125 Ko → 27 Ko,
   tout le détail perdu. C'est ce qui a motivé l'éclatement en un fichier par alerte.)
   Le build BLOQUE désormais la publication si une alerte perd plus de 45 % de son texte, si
@@ -242,6 +311,22 @@ dédiées, restrictions feu. D'où un lot hebdomadaire, le dimanche (jour sans l
 - Si aucun changement sur tout le lot : ne « remplis » pas le digest, écris une seule ligne
   « Bivouac : N fiches revérifiées, aucun changement. » Le log doit toujours porter la
   mention « bivouac : N fiches » pour tracer la cadence.
+
+CONTRÔLE QUALITÉ DU REGISTRE — À CHAQUE RUN, APRÈS LA VEILLE ET AVANT LE BUILD :
+Ton travail du jour porte sur les zones du périmètre. Personne ne relit les 60 autres
+fiches : c'est ainsi qu'une alerte reste affichée trois semaines après la levée, ou qu'une
+mise à jour part dans `statut:` sans jamais atteindre le texte publié.
+1. Lance l'audit déterministe (hors ligne, gratuit, aucune recherche) :
+   `python3 site/audit_qualite.py --ecrire`
+   Il écrit `livrables/audit-qualite.md` : fiches périmées, descriptions décrochées de leur
+   propre suivi, validités expirées, hypothèses jamais tranchées, sources vieillies.
+2. Passe la main à un SOUS-AGENT DISTINCT — prompt : `agents/verificateur-alertes.md`.
+   Il ne fait pas de veille : il audite et corrige ce qui est déjà publié. Ne fusionne
+   jamais les deux rôles dans le même agent — tu ne peux pas relire ton propre travail.
+3. Ce que le vérificateur te renvoie « à traiter au prochain run » (une source nouvelle est
+   nécessaire : levée à confirmer, arrêté à retrouver) devient une ESCALADE : ces zones
+   entrent au périmètre du run suivant, même hors cadence.
+4. Un constat BLOQUANT non traité se mentionne en tête du digest du jour.
 
 APRÈS LE RUN — BOUCLE QUALITÉ OBLIGATOIRE : régénère le site :
   python3 site/build_site.py
