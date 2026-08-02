@@ -3,10 +3,10 @@ cle: incendie|ES-CYL-Castropodame-La-Bana|feux-IGR2-Castropodame-Encinedo|2026-0
 type: incendie
 itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrera/Bierzo, à l'écart du tracé principal Astorga–Ponferrada–Villafranca del Bierzo ; Camino de Santiago de Levante (GR239-ES) [HYPOTHÈSE] recoupement non sourcé
 sev: MOYENNE
-validite: Castropodame/Villaverde de los Cestos contrôlé (IGR-1) depuis le 27/07 ; La Baña/Encinedo passé en IGR-2 avec évacuation le 25/07, statut de clôture non confirmé au 01/08
+validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo absente des bilans provinciaux actifs du 30/07 (probable résolution, non confirmée explicitement par une source dédiée)
 detection: 2026-07-22
-verif: 2026-08-01
-statut: ACTIF — NOUVEAU 01/08 (événements du 22/07, remontés depuis la mémoire interne après confirmation)
+verif: 2026-08-02
+statut: ACTIF — NOUVEAU 01/08 (événements du 22/07, remontés depuis la mémoire interne après confirmation) ; MAJ 02/08 (run Europe) : Castropodame formellement confirmé « controlado » avec interpellation d'un jeune de 22 ans soupçonné d'en être l'auteur (leonoticias, bilan provincial du 30/07) ; La Baña/Encinedo n'apparaît plus dans les bilans actifs de la province de León du 30/07 (absente de la liste des feux actifs et de la liste « otros incendios ») — signe probable de résolution, mais aucune source consultée ne prononce explicitement « extinguido » ou « controlado » pour ce foyer précis : à reconfirmer au prochain passage ES-CYL avant clôture formelle
 ordre: 80
 ---
 
@@ -23,6 +23,8 @@ Aucune alternative connue à ce jour — aucun tronçon de sentier nommément fe
 **Castropodame/Villaverde de los Cestos** : le feu a atteint le niveau 2 de gravité potentielle (IGR-2), menaçant directement Turienzo Castañero et San Pedro Castañero, d'où l'évacuation préventive d'environ 115 à 200 personnes selon les sources (infobierzo, cope, elbierzonoticias, 22-23/07) ; renfort de l'UME (Unité Militaire d'Urgence). Surface calcinée : environ 800 à 1000 ha (pinède et châtaigneraie), cause probable = étincelles de travaux d'installation d'un pylône électrique (investigation en cours). Le 27/07, la Junta de Castilla y León a déclaré le feu **contrôlé**, ramené l'IGR à 1 et démobilisé l'UME ; retour des évacués autorisé (cope 27/07 et 24/07 « la Junta rebaja el nivel de alerta y autoriza el regreso »). Le 28/07, un bilan de zone confirme « más de 800 hectáreas calcinadas en Castropodame » et évoque des soupçons d'intentionnalité pour un foyer voisin à Balboa (cope 28/07).
 
 **La Baña/Encinedo** : déclenché le 22/07 à 14h30, initialement classé IGR-0 (pas de risque pour la population), le feu s'est ensuite compliqué avec de nouveaux départs le samedi 25/07, entraînant l'évacuation de la localité de La Baña et une élévation au niveau IGR-2 ; son statut de clôture n'a pas pu être confirmé par une source datée postérieure au 25/07 malgré recherche — à revérifier en priorité au prochain passage ES-CYL.
+
+**MAJ 02/08 (run Europe)** : bilan provincial de León du 30/07 (leonoticias, direct) — **Castropodame** est explicitement qualifié de « controlado », avec l'interpellation d'un jeune homme de 22 ans soupçonné d'en être l'auteur ; **La Baña/Encinedo n'apparaît plus** dans la liste des incendies actifs ni dans la liste « otros incendios » de ce même bilan (qui recense Veguellina/Villafranca del Bierzo, Valdelaloba, Vegas del Condado, Caboalles de Arriba, Moreda, Vega de Espinareda, San Tirso, Murias de Ponjos/Quintela stabilisés) — absence probablement révélatrice d'une résolution, mais aucune source consultée ne le confirme explicitement par « extinguido »/« controlado » nommé pour ce foyer précis.
 
 **Contexte régional** : le 28/07/2026, le gouvernement espagnol a déclaré 58 zones affectées par des situations d'urgence en Castilla y León, dont 57 liées à des incendies forestiers, signe de l'ampleur de la saison 2026 dans la région (El Español, 28/07).
 
