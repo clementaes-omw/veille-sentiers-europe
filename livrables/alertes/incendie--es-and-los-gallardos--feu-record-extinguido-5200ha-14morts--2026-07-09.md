@@ -5,7 +5,7 @@ itin: GR7-ES/E4 Sendero Andorra–Estrecho de Gibraltar [HYPOTHÈSE] le tracé t
 sev: MOYENNE
 validite: feu officiellement extinguido depuis le 24/07/2026 ; vigilance résiduelle (18 pompiers, 1 camion-citerne) sur points chauds ; aucun arrêté d'interdiction d'accès à la zone brûlée localisé malgré recherche
 detection: 2026-07-09
-verif: 2026-08-01
+verif: 2026-08-02
 statut: ACTIF — NOUVEAU 01/08 (post-incendie, événement du 09-24/07 remonté depuis la mémoire interne après confirmation de l'extinction)
 ordre: 81
 ---
