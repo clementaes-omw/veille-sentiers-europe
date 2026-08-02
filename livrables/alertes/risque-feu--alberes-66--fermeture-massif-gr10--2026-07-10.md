@@ -5,7 +5,7 @@ itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Me
 sev: HAUTE
 validite: depuis le 10/07/2026 « jusqu'à nouvel ordre » (Argelès) ; jusqu'au 13/09/2026 (restriction Sorède)
 detection: 2026-07-20
-verif: 2026-08-01
+verif: 2026-08-02
 statut: ACTIF — INCHANGÉ 31/07 : aucune source de levée trouvée ; le massif reste de toute façon recouvert par la vigilance rouge départementale tous-massifs (voir ligne dédiée) ; INCHANGÉ 26/07 : toujours en vigueur, aucune levée trouvée ; référence de l'arrêté renforçant l'interdiction dans les 4 communes retrouvée (ARR2026-024PM, 17/07) ; à ne pas confondre avec la fermeture distincte du sentier littoral E12 Argelès↔Cerbère (glissement de terrain, voir ligne dédiée) ; recoupement précis du tracé GR10 dans les Albères toujours à faire
 ordre: 35
 ---

@@ -5,7 +5,7 @@ itin: GR36 — [HYPOTHÈSE] recouper le tracé vs zone brûlée (66 = plus gros 
 sev: HAUTE
 validite: zone brûlée : durable (AP post-incendie à confirmer)
 detection: 2026-07-14 (feu du 04/07 — détection tardive, manqué runs 05→12/07)
-verif: 2026-08-01
+verif: 2026-08-02
 statut: ACTIF — **INCHANGÉ 31/07 : aucun point de situation postérieur au n°18 (11/07) localisé ; feuxdeforet.fr confirme Trévillach absent de la liste des feux « en cours » (cohérent avec fixation) ; AP formel d'interdiction d'accès à la zone brûlée toujours non localisé en autonome** ; **INCHANGÉ 29/07 : point de situation n°18 du 11/07 toujours le plus récent retrouvé ; page préfecture 66 partiellement accessible en HTML brut ce run (nouveauté), mais pagination bloquée sur les communiqués anciens (n°6-12, 05-07/07), items plus récents inatteignables ; AP zone brûlée toujours non localisé** ; INCHANGÉ 26/07 : aucun point de situation postérieur au n°18 du 11/07 retrouvé (cohérent avec une phase de crise close) ; AP d'interdiction d'accès à la zone brûlée toujours non localisé
 ordre: 21
 ---
