@@ -98,6 +98,9 @@ jobs:
           _Ouvert automatiquement par \`.github/workflows/audit-qualite.yml\`._
           EOF
           )"
+          # Le label doit exister avant d'être posé : sans ça `gh issue create` échoue
+          # et le constat bloquant se perd sans bruit.
+          gh label create veille --color ededed --description "Veille sentiers" 2>/dev/null || true
           NUM="$(gh issue list --state open --search "\"$TITRE\" in:title" --json number --jq '.[0].number // empty')"
           if [ -n "$NUM" ]; then
             gh issue comment "$NUM" --body "$CORPS"
