@@ -6,13 +6,17 @@ sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
 verif: 2026-08-02
-statut: ACTIF — INCHANGÉ 31/07 : herault.gouv.fr toujours daté du 17/07 (JS, pas de statut jour-par-jour lisible en autonome) ; nouvelle source corroborante (non datée du jour) confirmant le schéma répétitif — arrêté préfectoral n°470 « Vigilance rouge secteur 6 » (Minervois/Saint-Chinianais), article info.fr du 20/07 18h29 ; aucune source datée du 30-31/07 localisée, aucun massif nouveau ni nouveau départ de feu identifié, Carlencas-et-Levas toujours fixé ; INCHANGÉ 28/07 : épisode rouge Minervois/Saint-Chinianais reconfirmé pour jeudi 23/07 (presse, arrêté préfectoral d'interdiction d'accès aux massifs cité mais non lié directement), même schéma que le 21/07 déjà au registre — aucun massif nouveau, aucun nouveau départ de feu identifié ; lecture directe herault.gouv.fr non refaite ce run (toujours ⚠ JS, budget) ; feu de Carlencas toujours considéré fixé (~400 ha, aucune reprise signalée)
+statut: ACTIF — au 31/07, herault.gouv.fr toujours daté du 17/07 (page en JavaScript, pas de
+  statut jour-par-jour lisible directement) ; schéma répétitif d'épisodes rouges confirmé sur
+  le Minervois/Saint-Chinianais (arrêté préfectoral n°470, presse du 20-23/07) ; aucun massif
+  nouveau ni nouveau départ de feu identifié ; Carlencas-et-Levas toujours fixé (~400 ha,
+  aucune reprise signalée).
 ordre: 18
 ---
 
 ## Portion concernée
 
-Hérault : **fermetures de massifs journalières** en période rouge (canicule) ; zone brûlée de **Carlencas-et-Levas** (~400 ha, feu fixé le 08/07) près du GR653 — recoupement du tracé en cours. Raison : risque incendie.
+Hérault : **fermetures de massifs journalières** en période rouge (canicule) ; zone brûlée de **Carlencas-et-Levas** (~400 ha, feu fixé le 08/07) — le GR653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie. **Vérifié au 31/07** : schéma d'épisodes rouges toujours répétitif sur le Minervois/Saint-Chinianais, aucun massif nouveau ni nouveau départ de feu.
 
 ## Alternative
 
@@ -20,7 +24,7 @@ Aucune fermeture du GR653 confirmée — vérifier l'état quotidien (relais pre
 
 ## Zone (détails)
 
-Hérault : rouges répétés (canicule) ; **feu Carlencas-et-Levas : contenu/fixé depuis le 08/07 après-midi, ~377-400 ha brûlés** (parti le 05/07, reprise le 07/07) — ~300 pompiers sur les points chauds le 08/07, lisières actives ; nouveaux départs 07-08/07 à Grabels et Murviel-lès-Montpellier ; feux d'artifice interdits 10-16/07 ; carte quotidienne JS illisible en autonome
+Hérault : rouges répétés (canicule) ; **feu Carlencas-et-Levas : contenu/fixé depuis le 08/07 après-midi, ~377-400 ha brûlés** (parti le 05/07, reprise le 07/07) — ~300 pompiers sur les points chauds le 08/07, lisières actives ; nouveaux départs 07-08/07 à Grabels et Murviel-lès-Montpellier ; feux d'artifice interdits 10-16/07 ; la carte quotidienne des massifs sur herault.gouv.fr est en JavaScript et ne peut pas être lue directement, d'où le recours aux relais de presse pour le statut jour par jour. **MAJ 20-23/07 : nouvel épisode de vigilance rouge sur le Minervois/Saint-Chinianais (arrêté préfectoral n°470), reconfirmé le 23/07 — même schéma répétitif que les épisodes précédents, aucun massif nouveau ni nouveau départ de feu.**
 
 ## Source
 
