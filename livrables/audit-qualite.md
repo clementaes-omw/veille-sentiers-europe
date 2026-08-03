@@ -61,3 +61,4 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`risque-feu|FR-EST-Vosges-88|interdiction-feu-vigilance-severe|2026-07-28`** — « Zone (détails) » contient encore du jargon de veille (cadence, ce run, hors cadence, lot t2, prochain passage, recherche ciblee) au lieu de l'état du terrain.
 - **`risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21`** — « Zone (détails) » contient encore du jargon de veille (lot t2) au lieu de l'état du terrain.
 - **`risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08`** — « Zone (détails) » contient encore du jargon de veille (ce run, en autonome, recherche ciblee, run europe) au lieu de l'état du terrain.
+
