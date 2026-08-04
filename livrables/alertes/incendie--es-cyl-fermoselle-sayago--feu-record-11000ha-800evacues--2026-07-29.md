@@ -5,7 +5,7 @@ itin: Vía de la Plata / Camino Sanabrés [HYPOTHÈSE] aucun tracé nommé ne tr
 sev: MOYENNE
 validite: désescalade nette confirmée — 12 des 14 localités évacuées sont rentrées au 31/07, seules Pinilla de Fermoselle et Mámoles restent évacuées ; 3 routes encore coupées
 detection: 2026-08-02
-verif: 2026-08-03
+verif: 2026-08-04
 statut: ACTIF — **CHANGÉ 03/08 : nette amélioration confirmée — 12 des 14 localités évacuées sont rentrées chez elles au 31/07 (Cibanal, Formariz, Fornillos de Fermoselle, Badilla, Cozcurrita, Palazuelo de Sayago, Tudera, Zafara, Argañín, Muga de Sayago, Pasariegos, Villar del Buey) ; seules Pinilla de Fermoselle et Mámoles restent évacuées (topographie difficile). 3 routes encore coupées (Fermoselle-Trabanca, accès Pinilla, accès Mámoles), centre d'accueil de Bermillo de Sayago en réduction progressive d'occupation. Feu toujours en « évolution favorable » mais pas formellement « extinguido ». Aucune mention de Zamora ville, Bermillo de Sayago (hors centre d'accueil) ni d'impact sur la Vía de la Plata/le Camino Sanabrés — confirme l'absence d'impact sur ces itinéraires. Sévérité maintenue MOYENNE, désescalade nette**
 ordre: 98
 ---

@@ -3,24 +3,27 @@ cle: fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07
 type: fermeture / risque feu
 itin: GR9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
-validite: variable selon commune ; la plupart sans échéance connue postérieure au 26/07 (traitées comme actives par défaut, absence de signal ≠ levée) ; Montclar-sur-Gervanne annoncée jusqu'au 07/08/2026 (source unique, non confirmée officiellement)
+validite: variable selon commune ; la plupart sans échéance connue postérieure au 26/07 (traitées comme actives par défaut, absence de signal ≠ levée) ; Montclar-sur-Gervanne fermée jusqu'au 07/08/2026 (arrêté municipal AM-2026-02 du 24/07, désormais confirmé officiellement) ; Beaufort-sur-Gervanne assouplie depuis le 29/07 : accès autorisé les jours de risque vert/jaune sur la carte quotidienne du département
 detection: 2026-07-18
-verif: 2026-08-03
-statut: ACTIF — au 03/08, la liste des communes fermées reste celle décrite en Portion
-  concernée (23 communes + Nyons/Beaufort-sur-Gervanne/Saillans) ; Montclar-sur-Gervanne
-  toujours en fermeture non confirmée par une source officielle directe (échéance annoncée
-  au 07/08, à surveiller en priorité) ; Saillans (échéance du 26/07 dépassée) traitée par
-  défaut comme non levée, aucune source de la mairie ne tranche.
+verif: 2026-08-04
+statut: ACTIF — CHANGÉ 04/08 : Beaufort-sur-Gervanne n'est plus en fermeture totale — un
+  arrêté du 29/07 (n°2026-59) autorise l'accès aux sentiers, dont le GR9, les jours où la
+  carte quotidienne de risque incendie du département affiche vert ou jaune ; consulter
+  cette carte avant l'étape reste indispensable. Montclar-sur-Gervanne confirmée par une
+  source officielle directe (mairie, via affichage municipal) : arrêté AM-2026-02 du
+  24/07/2026, fermeture jusqu'au 07/08/2026 inclus. Le reste de la liste (23 communes +
+  Nyons/Saillans) reste inchangé ; Saillans (échéance du 26/07 dépassée) toujours traitée
+  par défaut comme non levée, aucune source de la mairie ne tranche.
 ordre: 32
 ---
 
 ## Portion concernée
 
-**GR9 dans les Baronnies (Drôme) : liste des communes en arrêté de fermeture de massifs fortement élargie (14 nouvelles communes identifiées)** — toujours actifs : Nyons (depuis 07/07), Beaufort-sur-Gervanne (depuis 10/07), Saillans (08/07→26/07), Beauvoisin, Bénivay-Ollon, Châteauneuf-de-Bordette, Teyssières, Venterol, La Roche-sur-le-Buis ; **nouvelles communes (source PNR Baronnies Provencales) : Bellecombe-Tarendol, Condorcet, Curnier, Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Roche-Saint-Secret-Béconne, Saint-Ferréol-Trente-Pas, Saint-Sauveur-Gouvernet, Valouse, Vercoiran, Vinsobres** ; **Plan de Baix : LEVÉ (confirmé 23/07)** — arrêté à échéance fixe 07/07→21/07 désormais dépassée, absente de toutes les listes officielles à jour du 22/07. Raison : risque incendie (canicule). **Situation vérifiée au 03/08** : Montclar-sur-Gervanne reste documentée en fermeture (source unique, non confirmée officiellement, échéance annoncée au 07/08) ; Saillans (échéance du 26/07 dépassée sans confirmation ni levée) traitée par défaut comme non levée.
+**GR9 dans les Baronnies (Drôme) : liste des communes en arrêté de fermeture de massifs fortement élargie (14 nouvelles communes identifiées)** — toujours actifs : Nyons (depuis 07/07), Saillans (08/07→26/07), Beauvoisin, Bénivay-Ollon, Châteauneuf-de-Bordette, Teyssières, Venterol, La Roche-sur-le-Buis ; **nouvelles communes (source PNR Baronnies Provencales) : Bellecombe-Tarendol, Condorcet, Curnier, Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Roche-Saint-Secret-Béconne, Saint-Ferréol-Trente-Pas, Saint-Sauveur-Gouvernet, Valouse, Vercoiran, Vinsobres** ; **Plan de Baix : LEVÉ (confirmé 23/07)** — arrêté à échéance fixe 07/07→21/07 désormais dépassée, absente de toutes les listes officielles à jour du 22/07. **Beaufort-sur-Gervanne (fermée depuis le 10/07) : assouplie depuis le 29/07** — un arrêté (n°2026-59) autorise désormais l'accès aux sentiers de randonnée, dont le GR9, les jours où la carte quotidienne de risque incendie du département est verte ou jaune ; camping et réchauds restent interdits sur le site, les cabanes des Girards et des Princes restent fermées au public. **Montclar-sur-Gervanne : fermeture confirmée par arrêté municipal AM-2026-02 du 24/07/2026, jusqu'au 07/08/2026 inclus** (interdiction de tout véhicule motorisé et de toute activité de randonnée pédestre/cycliste dans les massifs forestiers de la commune). Raison : risque incendie (canicule). **Situation vérifiée au 04/08** : Saillans (échéance du 26/07 dépassée sans confirmation ni levée) toujours traitée par défaut comme non levée.
 
 ## Alternative
 
-Aucune alternative connue à ce jour.
+Aucune alternative connue à ce jour, hormis Beaufort-sur-Gervanne : accès au GR9 possible les jours de risque vert ou jaune sur la carte quotidienne départementale (à consulter avant l'étape).
 
 ## Zone (détails)
 
@@ -28,6 +31,8 @@ Deux sources partiellement désynchronisées : fiche Drôme Tourisme (MAJ 19/07)
 
 **MAJ 03/08 :** Montclar-sur-Gervanne — détail renforcé mais toujours non sourcé directement : plusieurs synthèses de recherche convergent sur un arrêté du 24/07/2026 interdisant l'accès aux massifs forestiers de la commune (publics et privés) et aux zones à moins de 200 m, jusqu'au 07/08/2026 — aucune URL d'article ou de PDF officiel n'a pu être isolée (tentative sur gervanne-sye.com infructueuse, ce communiqué concerne en réalité Beaufort-sur-Gervanne). Échéance du 07/08 à surveiller en priorité. Saillans : mairiedesaillans26.fr re-testé, toujours aucune page dédiée à l'arrêté ni à son échéance.
 
+**MAJ 04/08 :** deux confirmations officielles directes obtenues ce jour. (1) Montclar-sur-Gervanne : l'affichage municipal (panneaupocket.com) confirme l'arrêté AM-2026-02 du 24/07/2026, portant interdiction de tout véhicule motorisé et de toute activité de randonnée pédestre/cycliste dans les massifs forestiers de la commune, jusqu'au 07/08/2026 — la fermeture, jusqu'ici documentée par une source unique non officielle, est désormais confirmée directement par la mairie. (2) Beaufort-sur-Gervanne : gervanne-sye.com publie l'arrêté n°2026-59 du 29/07/2026, qui autorise temporairement l'accès aux sentiers de randonnée (dont le GR9) les jours où la carte quotidienne de risque incendie du département est verte ou jaune — assouplissement de la fermeture totale en vigueur depuis le 10/07 ; camping et usage de réchauds restent interdits, les cabanes des Girards et des Princes restent fermées. Saillans : mairiedesaillans26.fr re-testé, toujours aucune page dédiée.
+
 ## Source
 
-[drome-cestmanature.com/fiches/gr-9](https://www.drome-cestmanature.com/fiches/gr-9/) (MAJ 23/07/2026) ; [baronnies-provencales.fr](https://www.baronnies-provencales.fr/actualite/envie-de-balader-fermeture-des-acces-aux-massifs-en-ete/) (MAJ 21/07/2026)
+[drome-cestmanature.com/fiches/gr-9](https://www.drome-cestmanature.com/fiches/gr-9/) (MAJ 23/07/2026) ; [baronnies-provencales.fr](https://www.baronnies-provencales.fr/actualite/envie-de-balader-fermeture-des-acces-aux-massifs-en-ete/) (MAJ 21/07/2026) ; [gervanne-sye.com — Arrêté n°2026-59, 29/07/2026 (Beaufort-sur-Gervanne, accès conditionnel)](https://www.gervanne-sye.com/arrete-n-2026-59-29-07-2026/) ; [panneaupocket.com — Mairie de Montclar-sur-Gervanne, arrêté AM-2026-02 du 24/07/2026](https://app.panneaupocket.com/ville/1247039832-montclar-sur-gervanne-26400)

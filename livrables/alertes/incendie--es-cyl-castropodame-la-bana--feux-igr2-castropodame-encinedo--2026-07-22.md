@@ -5,7 +5,7 @@ itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrer
 sev: MOYENNE
 validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo absente des bilans provinciaux actifs du 30/07 (probable résolution, non confirmée explicitement par une source dédiée)
 detection: 2026-07-22
-verif: 2026-08-03
+verif: 2026-08-04
 statut: ACTIF — **INCHANGÉ 03/08 : 3e run consécutif où La Baña/Encinedo est absent du bilan provincial de León (ileon.eldiario.es, bilan du 02/08 ne cite ni Castropodame ni La Baña parmi les foyers actifs) — silence prolongé qui renforce la probabilité d'une résolution, mais toujours aucune source ne prononce explicitement la clôture de ce foyer précis. Traité comme résolu par convention (silence prolongé) sans passer en [CLÔTURÉ] tant qu'aucune source dédiée ne le confirme. Castropodame reste confirmé « controlado », statut inchangé** ; NOUVEAU 01/08 (événements du 22/07, remontés depuis la mémoire interne après confirmation) ; MAJ 02/08 (run Europe) : Castropodame formellement confirmé « controlado » avec interpellation d'un jeune de 22 ans soupçonné d'en être l'auteur (leonoticias, bilan provincial du 30/07) ; La Baña/Encinedo n'apparaît plus dans les bilans actifs de la province de León du 30/07 (absente de la liste des feux actifs et de la liste « otros incendios ») — signe probable de résolution, mais aucune source consultée ne prononce explicitement « extinguido » ou « controlado » pour ce foyer précis : à reconfirmer au prochain passage ES-CYL avant clôture formelle
 ordre: 80
 ---

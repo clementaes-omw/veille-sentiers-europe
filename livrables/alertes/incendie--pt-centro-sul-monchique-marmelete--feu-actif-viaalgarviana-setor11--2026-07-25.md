@@ -5,7 +5,7 @@ itin: Via Algarviana (GR13) Setor 11 [HYPOTHÈSE]
 sev: MOYENNE
 validite: maîtrisé (dominado) depuis le 25/07 08h50, moins de 4h après le départ de feu
 detection: 2026-07-25
-verif: 2026-08-03
+verif: 2026-08-04
 statut: [CLÔTURÉ] (2026-07-26) — **reconfirmé 03/08 : API api.fogos.pt/new/fires interrogée directement, aucun incendie actif dans les districts de l'Algarve/Alentejo (Faro, Beja, Évora, Setúbal, Portalegre) — aucune reprise, statut clôturé maintenu.** Feu déclaré « dominado » (maîtrisé) le 25/07 à 08h50, soit moins de 4h après le signalement (04h58) ; API fogos.pt confirme le statut « Vigilância » (vert) le 26/07 ; aucune fermeture officielle de la Via Algarviana/GR13 n'a jamais été trouvée, l'alerte était fondée sur la seule proximité géographique avec le Setor 11
 ordre: 54
 ---
