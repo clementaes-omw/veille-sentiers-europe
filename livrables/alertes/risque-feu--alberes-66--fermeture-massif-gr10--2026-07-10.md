@@ -17,7 +17,7 @@ ordre: 35
 
 ## Portion concernée
 
-**Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10** — accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026 (arrêté renforcé le 13/07) ; accès à la réserve naturelle de la Massane également interdit. Raison : risque incendie. **Interdiction toujours en vigueur à la vérification du 31/07** : aucune source de levée trouvée ; le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée).
+**Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10** — accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026 (arrêté renforcé le 13/07) ; accès à la réserve naturelle de la Massane également interdit. Raison : risque incendie. **Interdiction toujours en vigueur à la vérification du 04/08** : aucune source de levée trouvée ; le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales, reconfirmée au 02/08 (voir alerte dédiée).
 
 ## Alternative
 

@@ -5,11 +5,14 @@ itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: HAUTE
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : toujours fermé « jusqu'à nouvel ordre » (nouvel arrêté 20/07) ; Haute-Corse reconduite au moins jusqu'au 21/07
 detection: 2026-07-18
-verif: 2026-08-02
-statut: ACTIF (Illarata) — au 02/08, situation confirmée stable : Bavella entièrement
-  accessible, Illarata rouvert partiellement (vallée du Cavu basse accessible, haute/moyenne
-  toujours interdite), RD268 toujours déviée par RT10/RD368 ; aucune source postérieure
-  trouvée annonçant une levée totale d'Illarata ni une nouvelle fermeture ; statut d'accueil
+verif: 2026-08-04
+statut: ACTIF (Illarata) — au 04/08, situation confirmée stable : Bavella entièrement
+  accessible (classé risque modéré), Illarata rouvert partiellement (vallée du Cavu basse
+  accessible sous surveillance renforcée, pistes Tova/Pré d'Agnellu/Ficaghjola toujours
+  fermées), RD268 toujours déviée par RT10/RD368 ; recherche ciblée reconduite ce run
+  (corse-du-sud.gouv.fr, presse), aucune source postérieure au 23/07 trouvée annonçant une
+  levée totale d'Illarata ni une nouvelle fermeture ; l'interdiction de feu/travaux en milieu
+  naturel reste en vigueur jusqu'au 30/09/2026 sur tout le département ; statut d'accueil
   du refuge de Paliri toujours non confirmé par une source dédiée.
 ordre: 30
 ---

@@ -5,8 +5,8 @@ itin: GR52 / GTM (Mercantour)
 sev: INFO
 validite: rouvert 2026 via déviations rive g./dr.
 detection: 2026-06-29
-verif: 2026-08-02
-statut: ACTIF — INCHANGÉ 31/07 : page mercantour-parcnational.fr info-sentiers confirme explicitement « sentiers réouverts pour 2026 » pour le vallon du Boréon, cohérent avec le statut enregistré (déviation rive gauche/droite en place, GR52 b377-380 praticable via déviation) ; conserver la déviation dans la fiche d'alerte ; re-vérifié 19/07 : déviation par la vacherie des Erps (377-378-379) confirmée en place (page parc MAJ 09/07), liste FFRando 06 (MAJ 12/07) ne mentionne plus le Boréon comme fermé — cohérent avec une déviation permanente
+verif: 2026-08-04
+statut: ACTIF — INCHANGÉ 04/08 : page mercantour-parcnational.fr/info-sentiers reconfirme le vallon du Boréon « réouvert pour 2026 », déviation toujours en place ; INCHANGÉ 31/07 : page mercantour-parcnational.fr info-sentiers confirme explicitement « sentiers réouverts pour 2026 » pour le vallon du Boréon, cohérent avec le statut enregistré (déviation rive gauche/droite en place, GR52 b377-380 praticable via déviation) ; conserver la déviation dans la fiche d'alerte ; re-vérifié 19/07 : déviation par la vacherie des Erps (377-378-379) confirmée en place (page parc MAJ 09/07), liste FFRando 06 (MAJ 12/07) ne mentionne plus le Boréon comme fermé — cohérent avec une déviation permanente
 ordre: 6
 ---
 
