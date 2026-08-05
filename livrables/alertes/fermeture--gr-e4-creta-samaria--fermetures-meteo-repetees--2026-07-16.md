@@ -3,16 +3,18 @@ cle: fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16
 type: fermeture / conditions météo (vent, canicule)
 itin: E4 Crète (Samaria, Lefka Ori)
 sev: MOYENNE
-validite: pattern de fermetures ponctuelles selon conditions météo, statut du jour à vérifier sur samaria.gr — de nouveau fermée le 31/07/2026 (vent + risque incendie)
+validite: fermetures décidées au jour le jour (quotidiennement), selon la météo (vent fort, canicule), sans calendrier fixe ; dernière fermeture confirmée le 31/07/2026, statut à vérifier sur samaria.gr avant l'étape
 detection: 2026-07-24
-verif: 2026-07-31
-statut: ACTIF — **INCHANGÉ 31/07 (pattern confirmé) : fermée aujourd'hui vendredi 31/07/2026, les deux entrées, pour vents violents (7-9 Beaufort prévus à Xyloskalo) et risque incendie catégorie 4 (très élevé), décision OFYPEKA sur prévision EMY — continuation exacte du pattern déjà identifié (fermetures répétées 16/07 vent, 22/07 canicule). Risque incendie catégorie 4 confirmé également pour la Crète et le Péloponnèse (Corinthie, Argolide, Arcadie, Laconie) les 30-31/07 (Protection civile grecque), sans incendie actif rapporté à ce jour dans ces zones. ⚠️ Piège d'indexation déjoué : un article « fermée aussi le vendredi (31/08) » concerne le 31 AOÛT, écarté** ; NOUVEAU 24/07 : 1ère détection au registre ; statut du jour non confirmé, à revérifier au prochain passage GR-E4
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : pattern confirmé, aucune source datée du 01-05/08 trouvée
+  (recherche bilingue grec/anglais + site NECCA) — ni fermeture ni réouverture confirmée
+  pour cette période précise. Statut du jour à vérifier sur samaria.gr avant l'étape.
 ordre: 49
 ---
 
 ## Portion concernée
 
-**Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo — fermetures temporaires répétées en juillet 2026**, décidées par l'OFYPEKA/NECCA : fermeture le 16/07 pour vents violents (jusqu'à force 9 Beaufort), puis le 22/07 pour canicule (>36°C à La Canée). Raison : conditions météorologiques dangereuses (vent, chaleur extrême), pattern répété plutôt qu'épisode isolé.
+**Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo — fermetures répétées en juillet 2026, décidées par l'OFYPEKA/NECCA au jour le jour selon la météo** : fermeture le 16/07 pour vents violents (jusqu'à force 9 Beaufort), le 22/07 pour canicule (>36°C à La Canée), puis de nouveau le 31/07 (vent + risque incendie). Aucune source postérieure au 31/07 trouvée à la vérification du 05/08 : ni fermeture ni réouverture confirmée pour les jours suivants. Raison : conditions météorologiques dangereuses (vent, chaleur extrême), pattern répété plutôt qu'épisode isolé — vérifier systématiquement le statut du jour sur samaria.gr avant l'étape.
 
 ## Alternative
 
@@ -20,7 +22,7 @@ Aucune alternative connue à ce jour — se renseigner sur samaria.gr avant de p
 
 ## Zone (détails)
 
-Parc national de Samaria (Lefka Ori) ; cœur de l'E4 Crète. 1er passage sérieux GR-E4 (lot T2 vendredi, zone jamais vérifiée jusqu'ici). Statut du jour (24/07) non confirmé par une source datée — un changement météo (orages, baisse de température) était prévu à partir du 24/07, pouvant permettre une réouverture.
+Parc national de Samaria (Lefka Ori) ; cœur de l'E4 Crète. 1er passage sérieux sur cette zone, jamais vérifiée jusqu'ici. Statut du jour (24/07) non confirmé par une source datée — un changement météo (orages, baisse de température) était prévu à partir du 24/07, pouvant permettre une réouverture.
 
 ## Source
 

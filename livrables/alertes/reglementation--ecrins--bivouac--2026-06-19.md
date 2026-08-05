@@ -3,10 +3,11 @@ cle: réglementation|Écrins|bivouac|2026-06-19
 type: réglementation
 itin: GR54 / Tour Oisans-Écrins
 sev: MOYENNE
-validite: arrêté directeur 16/06/2026, en vigueur ; quotas possibles ultérieurement
+validite: arrêté-cadre du 16/06/2026, en vigueur jusqu'à nouvel ordre ; quotas possibles ultérieurement selon la fréquentation
 detection: 2026-06-19
-verif: 2026-08-03
-statut: ACTIF — règle reconfirmée par lecture directe le 03/08 (arrêté du 23/06/2026 inchangé, toujours aucun quota appliqué pour l'été 2026)
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : règle reconfirmée (arrêté du 16/06/2026 inchangé, toujours
+  aucun quota appliqué pour l'été 2026).
 ordre: 1
 ---
 

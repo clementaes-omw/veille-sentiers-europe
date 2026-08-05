@@ -3,10 +3,17 @@ cle: incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16
 type: incendie
 itin: [HYPOTHÈSE] aucun GR référencé (Vía de la Plata, Camino de Madrid, Camino de Levante, GR10-ES) confirmé traversant le secteur exact Jadraque/Sigüenza — recoupement à faire ; signalé pour vigilance régionale au vu de l'ampleur (record depuis 1994)
 sev: MOYENNE (en décrue — stabilisé, retours en cours ; impact direct sur un itinéraire suivi toujours non confirmé)
-validite: stabilisé depuis le 23/07, niveau opérationnel 1 (le plus bas) ; seuls 2 villages encore évacués au 25/07
+validite: stabilisé depuis le 23/07, niveau opérationnel 1 (le plus bas), jusqu'à nouvel ordre ; seuls 2 villages encore évacués au 25/07 (dernière donnée disponible)
 detection: 2026-07-24
 verif: 2026-07-31
-statut: ACTIF — **CHANGÉ 31/07 : nette amélioration.** Depuis le 23/07 : stabilisation, retours progressifs des habitants (Río Frío del Llano, Cardeñosa, Palancares, Almiruete, Muriel, La Mierla, Prádena de Atienza, Gascueña de Bornova, Semillas…). Au 25/07, seuls **2 villages** restaient encore évacués (Aldeanueva de Atienza, El Ordial). Incendie classé **niveau opérationnel 1** (le plus bas). [HYPOTHÈSE] toujours non confirmée : aucun croisement avéré avec Vía de la Plata/Camino de Madrid/Camino de Levante/GR10-ES. Sévérité ramenée HAUTE→MOYENNE (en décrue). Foyer secondaire Almorox (Toledo) également passé en niveau opérationnel 1 au 30/07 ; foyer de Selas (~2 800 ha) sans nouvelle donnée, INCHANGÉ par défaut** ; NOUVEAU 24/07 : 1ère détection au registre ; lien avec un itinéraire suivi non confirmé, à recouper au prochain passage ES-CENTRO
+statut: ACTIF — CHANGÉ 31/07 : nette amélioration. Depuis le 23/07 : stabilisation, retours
+  progressifs des habitants (Río Frío del Llano, Cardeñosa, Palancares, Almiruete, Muriel,
+  La Mierla, Prádena de Atienza, Gascueña de Bornova, Semillas…). Au 25/07, seuls 2 villages
+  restaient encore évacués (Aldeanueva de Atienza, El Ordial). Incendie classé niveau
+  opérationnel 1 (le plus bas). [HYPOTHÈSE] toujours non confirmée : aucun croisement avéré
+  avec Vía de la Plata/Camino de Madrid/Camino de Levante/GR10-ES. Sévérité ramenée
+  HAUTE→MOYENNE (en décrue). Foyer secondaire Almorox (Toledo) également passé en niveau
+  opérationnel 1 au 30/07 ; foyer de Selas (~2 800 ha) sans nouvelle donnée, INCHANGÉ.
 ordre: 48
 ---
 
@@ -20,7 +27,7 @@ Aucune alternative connue à ce jour — secteur Jadraque/Sigüenza à éviter.
 
 ## Zone (détails)
 
-Sierra Norte de Guadalajara (parc naturel, ~90% brûlé) ; feux simultanés dans la région : Selas (~2 800 ha) et Almorox (~1 000 ha, Tolède). 1er passage sérieux ES-CENTRO (lot T2 vendredi, zone jamais vérifiée jusqu'ici).
+Sierra Norte de Guadalajara (parc naturel, ~90% brûlé) ; feux simultanés dans la région : Selas (~2 800 ha) et Almorox (~1 000 ha, Tolède). 1er passage sérieux sur la zone ES-CENTRO, jamais vérifiée jusqu'ici.
 
 ## Source
 

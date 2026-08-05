@@ -22,7 +22,7 @@ Déviation officielle balisée par le col d'Arras — la boucle historique n'est
 
 Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR10, fermé depuis le 05/01/2026 suite à un éboulement ; déviation balisée par le col d'Arras. Détection tardive (événement de janvier découvert au run du 20/07).
 
-**MAJ 03/08 (run Europe) :** statut FERMÉ confirmé par recoupement de 2 sources indépendantes (refuges.info + office de tourisme des Pyrénées béarnaises), résolvant le signal contradictoire relevé au 01/08 — l'article annonçant une réouverture après travaux n'est corroboré par aucune source fiable.
+**MAJ 03/08 :** statut FERMÉ confirmé par recoupement de 2 sources indépendantes (refuges.info + office de tourisme des Pyrénées béarnaises), résolvant le signal contradictoire relevé au 01/08 — l'article annonçant une réouverture après travaux n'est corroboré par aucune source fiable.
 
 ## Source
 

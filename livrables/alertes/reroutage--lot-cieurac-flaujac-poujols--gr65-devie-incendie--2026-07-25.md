@@ -3,7 +3,7 @@ cle: reroutage|Lot-Cieurac-Flaujac-Poujols|GR65-devie-incendie|2026-07-25
 type: reroutage / fermeture locale
 itin: GR65 (Chemin de Saint-Jacques / Via Podiensis, Lot)
 sev: MOYENNE
-validite: depuis mi-juillet 2026 (incendie), déviation officielle publiée le 25/07/2026, durée indéterminée
+validite: déviation en vigueur jusqu'à nouvel ordre (durée indéterminée), mise en place le 25/07/2026 suite à l'incendie de mi-juillet 2026
 detection: 2026-07-28
 verif: 2026-07-28
 statut: ACTIF — NOUVEAU

@@ -3,7 +3,7 @@ cle: fermeture|IT-Centre-Carrara|via-francigena-nazzano-bonascola-frana|2024
 type: fermeture / éboulement
 itin: Via Francigena — tronçon italien (P1)
 sev: MOYENNE
-validite: interruption toujours en vigueur au 10/06/2026, sans date de résorption ; détection tardive (événement initial ~2024)
+validite: interruption maintenue jusqu'à nouvel ordre, aucune date de résorption annoncée par la presse locale (situation non résorbée depuis ~2024, dernière confirmation le 10/06/2026)
 detection: 2026-08-01 (avis de presse du 10/06/2026)
 verif: 2026-08-01
 statut: ACTIF — NOUVEAU 01/08

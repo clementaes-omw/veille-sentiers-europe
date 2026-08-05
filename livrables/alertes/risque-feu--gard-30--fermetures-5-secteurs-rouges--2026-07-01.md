@@ -5,8 +5,12 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière — la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-03
-statut: ACTIF — dernier classement publié par la préfecture du Gard : jeudi 23/07/2026 (Gard Rhodanien + Costières–Petite Camargue en rouge). Aucune page postérieure publiée au 03/08 (gap étendu à 11 jours, URL du jour testée en direct → 404) ; aucune décrue confirmée par une source alternative. Classement du 23/07 traité comme toujours en vigueur.
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : dernier classement publié par la préfecture du Gard reste
+  celui du jeudi 23/07/2026 (Gard Rhodanien + Costières–Petite Camargue en rouge). Aucune
+  page postérieure trouvée (gap étendu à 13 jours, URL du jour testée en direct → 404) ;
+  aucune décrue confirmée par une source alternative. Classement du 23/07 traité comme
+  toujours en vigueur.
 ordre: 15
 ---
 

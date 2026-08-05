@@ -3,20 +3,24 @@ cle: incendie|ES-CYL-Bierzo|feux-veguellina-valdelaloba-san-tirso-vega-de-valcar
 type: incendie
 itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierzo et Vega de Valcarce, deux étapes majeures entre Ponferrada et O Cebreiro — [HYPOTHÈSE] aucune source consultée ne documente de fermeture ou de déviation du balisage lui-même, seules la proximité géographique directe et les coupures routières/évacuations sont confirmées ; Camino de Invierno (Ponferrada → Santiago) [HYPOTHÈSE] secteur du Bierzo à proximité, impact non confirmé
 sev: MOYENNE
-validite: désescalade confirmée sur 2 des 3 foyers — Veguellina/Villafranca del Bierzo et Valdelaloba apaisés, tous les évacués rentrés ; seul San Tirso/Vega de Valcarce reste actif (A-6 toujours en bypass PK 422-428)
+validite: désescalade totale confirmée — les 3 foyers (Veguellina/Villafranca del Bierzo, Valdelaloba, San Tirso/Vega de Valcarce) sont à IGR-0 ; A-6 circulation normale rétablie dans les deux sens
 detection: 2026-08-02
-verif: 2026-08-03
-statut: ACTIF — **CHANGÉ 03/08 : désescalade nette sur Veguellina/Villafranca del Bierzo — le périmètre est jugé « assuré », les 3 localités évacuées (Moreda, San Pedro de Olleros, Prado de Paradilla/Somoza) sont toutes rentrées (elbierzonoticias 02/08 10h29). San Tirso/Vega de Valcarce est désormais le SEUL des trois foyers encore actif (ileon.eldiario.es). Précision sur l'A-6 : coupure initiale le 31/07, réouverte via bypass PK 422-424 dès le 31/07 18h15 (1 voie sens A Coruña, 2 voies sens Madrid) — un retour à une réouverture intégrale sans bypass n'est pas confirmé, traité comme toujours en bypass tant que San Tirso reste actif. Toujours aucune source ne mentionne le Camino Francés ni de fermeture de balisage à Villafranca del Bierzo/Vega de Valcarce. Sévérité maintenue MOYENNE, désescalade générale**
+verif: 2026-08-05
+statut: ACTIF — CHANGÉ 05/08 : désescalade totale du complexe — les 3 foyers sont désormais
+  à IGR-0 (bilan infobierzo du 03-04/08). L'A-6 a retrouvé une circulation normale dans les
+  deux sens (bypass PK 422-424 retiré). Toujours aucune source ne mentionne d'impact sur le
+  balisage du Camino Francés. Sévérité maintenue MOYENNE, désescalade quasi complète — proche
+  d'une clôture sans qu'aucune source ne prononce formellement l'extinction.
 ordre: 97
 ---
 
 ## Portion concernée
 
-**Massif du Bierzo (León), communes de Villafranca del Bierzo (secteur de Veguellina), Toreno (Valdelaloba) et Vega de Valcarce (secteur de San Tirso)** — au 03/08, Veguellina et Valdelaloba sont apaisés (habitants rentrés), **seul San Tirso/Vega de Valcarce reste actif**, avec l'A-6 toujours en circulation par bypass (PK 422-424). Villafranca del Bierzo et Vega de Valcarce sont deux étapes nommées du Camino Francés entre Ponferrada et O Cebreiro. Raison : vague d'incendies de forêt fin juillet 2026 en Castilla y León.
+**Massif du Bierzo (León), communes de Villafranca del Bierzo (secteur de Veguellina), Toreno (Valdelaloba) et Vega de Valcarce (secteur de San Tirso)** — au 05/08, les 3 foyers sont à IGR-0 (désescalade totale), l'A-6 a retrouvé une circulation normale dans les deux sens. Villafranca del Bierzo et Vega de Valcarce sont deux étapes nommées du Camino Francés entre Ponferrada et O Cebreiro, sans impact documenté sur le balisage. Raison : vague d'incendies de forêt fin juillet 2026 en Castilla y León, désormais résorbée.
 
 ## Alternative
 
-Aucune alternative connue à ce jour pour le Camino Francés — aucune source consultée ne documente de fermeture ou de déviation du balisage pédestre lui-même à Villafranca del Bierzo ou Vega de Valcarce. Pour la route A-6, un bypass routier a été mis en place entre les PK 422 et 428 (secteur de Vega de Valcarce) tant que la voie principale reste coupée.
+Sans objet — aucune source consultée n'a jamais documenté de fermeture ou de déviation du balisage pédestre du Camino Francés à Villafranca del Bierzo ou Vega de Valcarce. L'A-6 a retrouvé une circulation normale, le bypass routier PK 422-428 n'est plus nécessaire.
 
 ## Zone (détails)
 
@@ -26,9 +30,11 @@ Aucune alternative connue à ce jour pour le Camino Francés — aucune source c
 
 **San Tirso (Vega de Valcarce)** : déclaré le 30/07 vers 15h30, IGR-1, a entraîné la coupure de l'autoroute A-6 (voies fermées), un bypass étant mis en place entre les PK 422 et 428.
 
-Aucune source consultée (infobierzo, ileon.eldiario.es, El Español Castilla y León, leonoticias, El Progreso, eldebate.com) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Francés à Villafranca del Bierzo ou Vega de Valcarce ; ces deux communes sont cependant des étapes nommées du tracé, directement affectées par les évacuations et les coupures d'infrastructure routière. À reconfirmer en priorité au prochain passage ES-CYL, notamment pour l'état de l'A-6 et une éventuelle mention officielle du GR/Camino.
+Aucune source consultée (infobierzo, ileon.eldiario.es, El Español Castilla y León, leonoticias, El Progreso, eldebate.com) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Francés à Villafranca del Bierzo ou Vega de Valcarce ; ces deux communes sont cependant des étapes nommées du tracé, directement affectées par les évacuations et les coupures d'infrastructure routière. À reconfirmer en priorité pour l'état de l'A-6 et une éventuelle mention officielle du GR/Camino.
 
-**MAJ 03/08 (run Europe) :** Veguellina/Villafranca del Bierzo confirmé en désescalade nette — périmètre « assuré » (asegurado), les 3 localités évacuées toutes rentrées (elbierzonoticias.com, 02/08 10h29). San Tirso/Vega de Valcarce est désormais le seul foyer encore actif du complexe (ileon.eldiario.es). A-6 : coupure initiale le 31/07, bypass PK 422-424 en place depuis le 31/07 18h15 (1 voie sens A Coruña + 2 voies sens Madrid) ; poids-lourds déviés N-120, véhicules légers N-6 durant la fermeture complète — le retour à une réouverture intégrale n'est pas confirmé, San Tirso restant actif. Toujours aucune source ne mentionne le Camino Francés.
+**MAJ 03/08 :** Veguellina/Villafranca del Bierzo confirmé en désescalade nette — périmètre « assuré » (asegurado), les 3 localités évacuées toutes rentrées (elbierzonoticias.com, 02/08 10h29). San Tirso/Vega de Valcarce est désormais le seul foyer encore actif du complexe (ileon.eldiario.es). A-6 : coupure initiale le 31/07, bypass PK 422-424 en place depuis le 31/07 18h15 (1 voie sens A Coruña + 2 voies sens Madrid) ; poids-lourds déviés N-120, véhicules légers N-6 durant la fermeture complète — le retour à une réouverture intégrale n'est pas confirmé, San Tirso restant actif. Toujours aucune source ne mentionne le Camino Francés.
+
+**MAJ 05/08 :** désescalade totale — Veguellina, Toreno et Vega de Valcarce (San Tirso) sont désormais tous les trois à IGR-0 (infobierzo, bilan du 03-04/08). L'A-6 a retrouvé une circulation normale dans les deux sens, le bypass PK 422-424 n'étant plus nécessaire. Toujours aucune mention du Camino Francés dans les sources consultées.
 
 ## Source
 

@@ -3,10 +3,14 @@ cle: incendie|Savoie-Planay-Pralognan|RD915-refuges-Vanoise|2026-07-07
 type: incendie / accès refuges
 itin: GR55 (Traversée de la Vanoise, via Pralognan/Col de la Vanoise) ; TGV (Tour des Glaciers de la Vanoise) — [HYPOTHÈSE] accès aux refuges impacté, fermeture du tracé GR lui-même non confirmée
 sev: MOYENNE (dégradée depuis HAUTE faute de confirmation post-15/07, à réévaluer d'urgence)
-validite: depuis le 07/07/2026 ; RD915 rouverte à la circulation le 23/07 9h30 (source datée) ; statut des refuges toujours non confirmé par source datée
+validite: RD915 rouverte à la circulation depuis le 23/07 (restrictions piétons/cyclistes levées) ; statut des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset non confirmé par une source postérieure au 15/07 — traités comme impactés jusqu'à nouvel ordre, par prudence
 detection: 2026-07-21
-verif: 2026-08-02
-statut: ACTIF — CHANGÉ 28/07 : RD915 rouverte à la circulation le 23/07 à 9h30 (source Savoie News datée), foyers résiduels actifs ayant nécessité des largages héliportés le matin même — prudence recommandée aux usagers ; statut des refuges du Grand Bec, Col de la Vanoise et Péclet-Polset toujours sans confirmation par source datée post-15/07, considérés impactés par défaut [HYPOTHÈSE]
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : contact direct des pages des refuges du Grand Bec et du
+  Col de la Vanoise (FFCAM) ce run — aucune mention d'incendie ni de restriction d'accès,
+  seul le calendrier de gardiennage normal y figure ; ne tranche pas si c'est un signe de
+  normalisation ou une simple absence de mise à jour. Aucune source (savoie.gouv.fr,
+  savoie-news.fr) postérieure au 23/07 trouvée. Sévérité maintenue MOYENNE.
 ordre: 40
 ---
 

@@ -5,8 +5,11 @@ itin: GR34
 sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
-verif: 2026-07-22
-statut: ACTIF — INCHANGÉ 22/07 : confirmation croisée via comcom-crozon.com (Crozon, Camaret, Telgruc, Guilvinec toujours actifs), aucune levée ni nouvelle fermeture détectée
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : reconfirmé via finistere.ffrandonnee.fr (MAJ 31/07), chaque
+  site désormais daté individuellement à sa première publication. Aucune fermeture nouvelle.
+  Point à trancher : Pointe de Rosmellec (Crozon, fermée depuis le 02/04) à ne pas confondre
+  avec le reroutage pérenne rade de Brest (Daoulas), homonymie relevée.
 ordre: 9
 ---
 

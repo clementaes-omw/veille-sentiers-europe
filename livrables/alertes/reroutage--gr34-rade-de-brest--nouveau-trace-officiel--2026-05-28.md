@@ -3,7 +3,7 @@ cle: reroutage|GR34-rade-de-Brest|nouveau-tracé-officiel|2026-05-28
 type: reroutage pérenne
 itin: GR34
 sev: MOYENNE (haute pour la trace)
-validite: pérenne, inauguré 28/05/2026
+validite: durable (reroutage pérenne), inauguré le 28/05/2026 ; le nouveau tracé remplace définitivement l'ancien, aucune échéance
 detection: 2026-07-03
 verif: 2026-07-22
 statut: ACTIF — INCHANGÉ 22/07 : stable, intégré au topo-guide « Les Abers, l'Iroise et Crozon » (05/2026) ; vérifier encore le nouveau tracé et les hébergements
