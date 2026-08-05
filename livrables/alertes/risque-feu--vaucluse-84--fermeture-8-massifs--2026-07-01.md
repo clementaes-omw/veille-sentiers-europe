@@ -5,15 +5,15 @@ itin: GR4 (Monts de Vaucluse — **désescalade [HYPOTHÈSE renforcée, 2j conve
 sev: HAUTE
 validite: à confirmer quotidiennement (arrêté-cadre du 29/03/2023, liste nominative quotidienne)
 detection: 2026-07-18
-verif: 2026-08-03
-statut: ACTIF — au 03/08, signal de désescalade non officielle mais convergent sur 2 jours
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : aucune source postérieure au 30/07 trouvée (décision sur
+  l'itinéraire du Tour de France Femmes aux Dentelles de Montmirail, annoncée pour le
+  04/08, non retrouvée). Signal non officiel de désescalade toujours au 03/08 le plus récent
   (destinationluberon.com : Petit Luberon vert, Monts de Vaucluse vert, Grand Luberon jaune) ;
   aucune confirmation officielle (vaucluse.gouv.fr sans communiqué massifs depuis le 23/07,
-  gap à 11 jours, confirmé par une seconde page officielle testée le 03/08). Signal officiel
-  en sens contraire sur les Dentelles de Montmirail (GR9, franceinfo 30/07) : massif à traiter
-  comme toujours à risque actif, sans généraliser la désescalade du Luberon. Statut du
-  Ventoux toujours non tranché par une source officielle datée. Sévérité maintenue HAUTE par
-  prudence.
+  gap à 13 jours). Sévérité maintenue HAUTE par prudence (Dentelles de Montmirail/GR9 encore
+  signalées à risque le 30/07). Statut du Ventoux toujours non tranché par une source
+  officielle datée.
 ordre: 33
 ---
 
