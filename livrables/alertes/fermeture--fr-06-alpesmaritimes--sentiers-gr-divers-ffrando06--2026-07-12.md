@@ -3,10 +3,11 @@ cle: fermeture|FR-06-AlpesMaritimes|sentiers-gr-divers-ffrando06|2026-07-12
 type: fermeture
 itin: GR510 (Rigaud, Massoins) ; GR52-GTM (Entraunes, portion balises 35-36) ; GR52A (Entraunes ravin du Brec, Tende baisse de la Lagouna)
 sev: MOYENNE
-validite: fermetures stables, à échéances variables (certaines depuis 2019/2025, une jusqu'en février 2026) ; page FFRando 06 MAJ 12/07/2026
+validite: fermetures maintenues jusqu'à nouvel ordre (arrêtés de 2019 à 2025, aucune date de levée annoncée pour les sections suivies) ; page FFRando 06 consultée le 12/07/2026
 detection: 2026-08-01
-verif: 2026-08-02
-statut: ACTIF — NOUVEAU
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : page FFRando 06 toujours datée du 12/07/2026, aucune
+  évolution de la liste des fermetures.
 ordre: 64
 ---
 
