@@ -5,13 +5,11 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en
 sev: HAUTE
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé mais accès toujours interdit (dangers résiduels)
 detection: 2026-07-18
-verif: 2026-08-03
-statut: ACTIF — accès toujours strictement interdit au 03/08 (« jusqu'à nouvel ordre »,
-  dangers résiduels), aucun point de situation drome.gouv.fr postérieur au 16/07 ; le
-  rattachement de l'itinéraire au GR9/GR93 s'affaiblit (silence de la page officielle
-  « Modifications d'itinéraires » FFRandonnée Drôme sur Justin/Solaure/Laup) — probable
-  GR95 hors périmètre du référentiel, non tranché ; diagnostic ONF post-incendie toujours
-  en cours, préalable à toute décision de levée.
+verif: 2026-08-05
+statut: ACTIF — INCHANGÉ 05/08 : accès toujours strictement interdit (« jusqu'à nouvel
+  ordre », dangers résiduels), silence désormais de 20 jours sur drome.gouv.fr (dernière
+  publication le 16/07) ; rattachement GR9/GR93 toujours affaibli (FFRandonnée Drôme ne
+  mentionne aucune entrée Justin/Solaure/Laup) — probable GR95, hors périmètre.
 ordre: 31
 ---
 
