@@ -3,7 +3,7 @@ cle: incendie|AT-Vorarlberg-Silvretta|coulee-boue-sentiers-fermes|2026-07-12
 type: terrain / fermeture
 itin: Aucun P1 identifié — sentier local de la vallée du Silvretta, à proximité de la Haute Route silvretta (côté suisse, hors périmètre)
 sev: MOYENNE
-validite: depuis le 12-13/07/2026, réouverture non confirmée
+validite: depuis le 12-13/07/2026, fermeture maintenue jusqu'à nouvel ordre (réouverture non confirmée à ce jour)
 detection: 2026-07-23
 verif: 2026-07-30
 statut: ACTIF — NOUVEAU 23/07 : détecté au 1er passage sérieux de la zone AT (lot T2 jeudi) ; à revérifier au prochain passage AT
