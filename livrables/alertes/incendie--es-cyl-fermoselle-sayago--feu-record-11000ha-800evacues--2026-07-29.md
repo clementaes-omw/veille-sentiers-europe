@@ -5,7 +5,7 @@ itin: Vía de la Plata / Camino Sanabrés [HYPOTHÈSE] aucun tracé nommé ne tr
 sev: MOYENNE
 validite: toutes les 14 localités évacuées sont rentrées, toutes les routes rouvertes (confirmé 31/07) ; feu à IGR-0, surveillance anti-reprise maintenue jusqu'à nouvel ordre, pas formellement déclaré extinguido
 detection: 2026-08-02
-verif: 2026-08-05
+verif: 2026-08-06
 statut: ACTIF — CHANGÉ 05/08 : les 14 localités évacuées (dont Pinilla de Fermoselle et
   Mámoles, dernières à rentrer, confirmées par la Guardia Civil le 31/07 au soir) sont
   désormais TOUTES rentrées chez elles ; toutes les routes ont été rouvertes. IGR ramené à

@@ -5,7 +5,7 @@ itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la 
 sev: MOYENNE
 validite: travaux en cours, réouverture estimée septembre-octobre 2026
 detection: 2026-07-23
-verif: 2026-07-30
+verif: 2026-08-06
 statut: ACTIF — NOUVEAU 23/07 : 1er passage sérieux de la zone PL-SK-TATRAS (lot T2 jeudi) ; côté polonais (tpn.gov.pl, source officielle lisible), aucune fermeture complète de sentier, Orla Perć/Rysy/Morskie Oko/Tatranská magistrála ouverts
 ordre: 46
 ---
@@ -20,7 +20,7 @@ Aucune alternative officielle publiée pour cette voie d'accès — utiliser un 
 
 ## Zone (détails)
 
-Tatras slovaques : en complément, tronçon Ždiar–Široké sedlo resté fermé jusqu'à nouvel ordre (itinéraire alternatif balisé en rouge par Monková dolina–Široké sedlo depuis le 01/07/2026) ; fermeture ponctuelle de la vallée de Mlynická les 23-24/07/2026 (réparation pont/garde-corps, temporaire) ; restrictions persistantes secteurs Hrebienka/Studené doliny et Rázcestie pod Sedielkom–Sedielko (travaux en cours).
+Tatras slovaques : en complément, tronçon Ždiar–Široké sedlo resté fermé jusqu'à nouvel ordre (itinéraire alternatif balisé en rouge par Monková dolina–Široké sedlo depuis le 01/07/2026) ; fermeture ponctuelle de la vallée de Mlynická les 23-24/07/2026 (réparation pont/garde-corps, temporaire) ; restrictions persistantes secteurs Hrebienka/Studéné doliny et Rázcestie pod Sedielkom–Sedielko (travaux en cours).
 
 ## Source
 

@@ -5,7 +5,7 @@ itin: GR7-ES/E4 Sendero Andorra–Estrecho de Gibraltar [HYPOTHÈSE] le tracé t
 sev: MOYENNE
 validite: feu officiellement extinguido depuis le 24/07/2026 ; une équipe réduite reste en surveillance des points chauds jusqu'à nouvel ordre (18 pompiers, 1 camion-citerne) ; aucun arrêté d'interdiction d'accès à la zone brûlée trouvé à ce jour
 detection: 2026-07-09
-verif: 2026-08-05
+verif: 2026-08-06
 statut: ACTIF — INCHANGÉ 05/08 : le Gouvernement espagnol a formalisé la déclaration de
   « zone catastrophe » (ZAGEPC) pour le Levante almeriense (aide à la reconstruction, pas
   une réglementation d'accès) ; la route AL6109 (Bédar) a été rouverte par la Guardia

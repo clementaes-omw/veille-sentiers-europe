@@ -5,7 +5,7 @@ itin: Juliana Trail, Alpe-Adria Trail
 sev: MOYENNE
 validite: pérenne depuis octobre 2025
 detection: 2026-07-23
-verif: 2026-07-30
+verif: 2026-08-06
 statut: ACTIF — NOUVEAU 23/07 : 1ère détection au registre (1er passage sérieux de la zone SI-HR, lot T2 jeudi) ; le cœur du massif du Triglav (stanje-poti.pzs.si) ne recense aucune fermeture active
 ordre: 45
 ---

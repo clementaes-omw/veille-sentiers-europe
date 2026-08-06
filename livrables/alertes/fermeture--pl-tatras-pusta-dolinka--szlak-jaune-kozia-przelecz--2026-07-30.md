@@ -5,7 +5,7 @@ itin: Orla Perć (Tatras polonais) — tronçon d'accès Pusta Dolinka ↔ Kozia
 sev: MOYENNE
 validite: à compter du 30/07/2026, « jusqu'à nouvel ordre » (od 30 lipca do odwołania) — aucune date de réouverture annoncée
 detection: 2026-07-30
-verif: 2026-07-30
+verif: 2026-08-06
 statut: ACTIF — NOUVEAU 30/07 : le Parc national des Tatras (TPN) annonce dans son communiqué
   touristique que le sentier balisé jaune est fermé sur le tronçon Pusta Dolinka ↔ Kozia
   Przełęcz à compter du 30 juillet, jusqu'à nouvel ordre, pour des travaux de remplacement
