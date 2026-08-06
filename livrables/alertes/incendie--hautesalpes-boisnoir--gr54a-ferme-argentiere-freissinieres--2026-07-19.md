@@ -5,7 +5,7 @@ itin: GR54A (fermé) ; GR54 (itinéraire de repli, praticable — **CORRECTION 2
 sev: HAUTE
 validite: incendie déclaré MAÎTRISÉ (ram05.fr 31/07) ; GR54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; interdiction cycliste route de Freissinières jusqu'au 14/08/2026
 detection: 2026-07-22
-verif: 2026-08-05
+verif: 2026-08-06
 statut: ACTIF — CHANGÉ 05/08 : le feu est passé du statut « actif » à « maîtrisé »
   (ram05.fr 31/07, citant la préfecture des Hautes-Alpes ; 26 pompiers encore mobilisés
   contre 50 la veille). Le massif reste néanmoins fermé et le GR54A toujours explicitement

@@ -5,7 +5,7 @@ itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ;
 sev: HAUTE
 validite: dimanche 26/07 puis reconduite lundi 27/07/2026 (« l'ensemble du département restera classé en risque exceptionnel ce lundi 27 juillet ») ; jour par jour, sans date de fin annoncée ; jusqu'à nouvel ordre en l'absence de tout signal de levée depuis (dernier point retrouvé : 27/07)
 detection: 2026-07-27
-verif: 2026-08-03
+verif: 2026-08-06
 statut: ACTIF — au 03/08, pagination pyrenees-orientales.gouv.fr toujours bloquée sur les
   items du 01→07/07 (bug persistant), aucune page datée d'août accessible ; feuxdeforet.fr
   liste toujours des feux « en cours » dans le département, cohérent avec un maintien de la

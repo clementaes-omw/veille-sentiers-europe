@@ -5,8 +5,9 @@ itin: GR34
 sev: MOYENNE (haute pour la trace)
 validite: durable (reroutage pérenne), inauguré le 28/05/2026 ; le nouveau tracé remplace définitivement l'ancien, aucune échéance
 detection: 2026-07-03
-verif: 2026-07-22
-statut: ACTIF — INCHANGÉ 22/07 : stable, intégré au topo-guide « Les Abers, l'Iroise et Crozon » (05/2026) ; vérifier encore le nouveau tracé et les hébergements
+verif: 2026-08-06
+statut: ACTIF — INCHANGÉ 06/08 : reroutage pérenne confirmé stable, aucune source contraire
+  trouvée.
 ordre: 10
 ---
 

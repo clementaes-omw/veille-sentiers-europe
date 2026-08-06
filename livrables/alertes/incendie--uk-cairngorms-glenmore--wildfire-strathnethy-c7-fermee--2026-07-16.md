@@ -5,7 +5,7 @@ itin: Aucun P1 identifié — secteur de randonnée majeur des Cairngorms (Glenm
 sev: HAUTE
 validite: depuis le 15/07/2026 (même complexe d'incendie), toujours actif — zone d'exclusion générale maintenue jusqu'à nouvel ordre ; réduction ciblée du cordon en cours pour un accès restreint (justificatif) à un événement à Badaguish, pas une réouverture générale
 detection: 2026-07-22
-verif: 2026-08-05
+verif: 2026-08-06
 statut: ACTIF — CHANGÉ 05/08 : deux mises à jour officielles datées du 03/08 (Police
   Scotland, SFRS) — le feu reste actif, aucune réouverture générale au public. Une
   réduction PARTIELLE et CIBLÉE du cordon à Coylumbridge est en cours de finalisation,

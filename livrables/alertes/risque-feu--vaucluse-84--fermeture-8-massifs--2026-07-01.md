@@ -1,29 +1,28 @@
 ---
 cle: risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01
 type: risque feu / fermeture massif
-itin: GR4 (Monts de Vaucluse — **désescalade [HYPOTHÈSE renforcée, 2j convergents] signalée vert par destinationluberon.com, non confirmée officiellement**), GR9 (Dentelles de Montmirail — **[FAIT] toujours signalé sensible/à risque par la préfecture au 30/07, ne pas généraliser la désescalade à ce massif**), GR91
+itin: GR9 (Dentelles de Montmirail — **[FAIT] fermées, communiqué officiel du 05/08**), GR4/GR91 (Monts de Vaucluse, Petit Luberon, Grand Luberon — **[FAIT] fermés, communiqué officiel du 05/08, contredit le signal de désescalade non officiel relevé depuis le 02/08**)
 sev: HAUTE
-validite: à confirmer quotidiennement (arrêté-cadre du 29/03/2023, liste nominative quotidienne)
+validite: communiqué officiel vaucluse.gouv.fr du 05/08/2026, valable pour le 06-07/08/2026 : 11 massifs fermés toute la journée sauf exceptions encadrées (groupes professionnels 5h-13h)
 detection: 2026-07-18
-verif: 2026-08-05
-statut: ACTIF — INCHANGÉ 05/08 : aucune source postérieure au 30/07 trouvée (décision sur
-  l'itinéraire du Tour de France Femmes aux Dentelles de Montmirail, annoncée pour le
-  04/08, non retrouvée). Signal non officiel de désescalade toujours au 03/08 le plus récent
-  (destinationluberon.com : Petit Luberon vert, Monts de Vaucluse vert, Grand Luberon jaune) ;
-  aucune confirmation officielle (vaucluse.gouv.fr sans communiqué massifs depuis le 23/07,
-  gap à 13 jours). Sévérité maintenue HAUTE par prudence (Dentelles de Montmirail/GR9 encore
-  signalées à risque le 30/07). Statut du Ventoux toujours non tranché par une source
-  officielle datée.
+verif: 2026-08-06
+statut: ACTIF — CHANGÉ 06/08 : premier communiqué officiel vaucluse.gouv.fr depuis le 23/07
+  (14 jours de silence enfin rompus), daté du 05/08, valable pour le 06-07/08 : 11 massifs
+  explicitement fermés toute la journée (exceptions encadrées 5h-13h pour groupes
+  professionnels). Ceci contredit le signal non officiel de désescalade relevé depuis le
+  02/08 (destinationluberon.com donnait Petit Luberon/Monts de Vaucluse verts, Grand Luberon
+  jaune) : ces 3 massifs sont de nouveau fermés selon la source officielle du jour. Le Mont
+  Ventoux n'apparaît toujours pas dans la liste (statut non tranché officiellement).
 ordre: 33
 ---
 
 ## Portion concernée
 
-Vaucluse : **[FAIT] 15 massifs sur 15 fermés au public au 23/07** (SDIS 84, arrêté-cadre du 29/03/2023, niveau de risque très sévère) — Enclave des Papes, Bollène-Uchaux, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Dentelles de Montmirail, Rasteau-Cairannes, Collines du pays Voconces, Plaines du Comtat, Grand Luberon, Collines de Basse Durance + 4 autres massifs. Raison : risque incendie très sévère persistant. **Vérifié au 03/08 : signal non officiel de désescalade sur Petit Luberon/Monts de Vaucluse (vert) et Grand Luberon (jaune), convergent sur 2 jours mais non confirmé par la préfecture** (aucun communiqué massifs depuis le 23/07, gap à 11 jours) ; les Dentelles de Montmirail (GR9) restent à l'inverse signalées à risque actif par la préfecture (30/07).
+Vaucluse : **[FAIT] 11 massifs fermés au public au 06/08** (communiqué officiel vaucluse.gouv.fr du 05/08, valable pour le 06-07/08) — Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon, Collines de Basse Durance. Exceptions encadrées : groupes professionnels 5h-13h. Raison : risque incendie très sévère persistant. Le Mont Ventoux n'apparaît toujours pas dans cette liste (statut non tranché officiellement). **Ce communiqué contredit le signal non officiel de désescalade relevé depuis le 02/08** (destinationluberon.com donnait Petit Luberon et Monts de Vaucluse verts, Grand Luberon jaune) : selon la source officielle du jour, ces 3 massifs sont bien fermés.
 
 ## Alternative
 
-Aucune alternative connue à ce jour pour les massifs encore interdits ; **MAJ 03/08 : Petit Luberon et Monts de Vaucluse semblent rouverts (vert), Grand Luberon en accès restreint le matin (jaune) — désescalade non officielle mais confirmée 2 jours consécutifs, voir statut. Les Dentelles de Montmirail (GR9) restent en revanche signalées à risque par la préfecture (30/07) — à ne pas confondre avec les massifs du Luberon.** Statut du Ventoux toujours non tranché par une source officielle datée.
+Aucune alternative connue à ce jour pour les 11 massifs fermés ; info temps réel sur risque-prevention-incendie.fr/vaucluse/ ou au 04 28 31 77 11. Statut du Ventoux toujours non tranché par une source officielle datée (absent de la liste des massifs interdits, accès a priori possible mais risqué).
 
 ## Zone (détails)
 
@@ -31,6 +30,8 @@ Page officielle vaucluse.gouv.fr publiée avec une URL et un titre datés du jou
 
 **MAJ 03/08 : la page officielle « Accès aux massifs forestiers de Vaucluse — communiqués de presse » (vaucluse.gouv.fr/index.php/Actualites/Acces-aux-massifs-forestiers-de-Vaucluse-communiques-de-presse), testée pour la première fois, confirme par une seconde voie d'accès officielle l'absence de communiqué postérieur au 23/07/2026 — gap à 11 jours.** destinationluberon.com (MAJ affichée pour aujourd'hui, 03/08) reconduit à l'identique le statut du 02/08 (Petit Luberon vert, Monts de Vaucluse vert, Grand Luberon jaune) : 2e jour consécutif de convergence, renforce la plausibilité d'une vraie désescalade sur ces 3 massifs précis, toujours sans confirmation officielle. **Signal officiel en sens contraire sur les Dentelles de Montmirail (GR9)** : franceinfo (30/07 11h48) rapporte que la préfecture de Vaucluse a demandé aux organisateurs du Tour de France Femmes d'envisager un itinéraire alternatif évitant les Dentelles de Montmirail pour l'étape du Mont Ventoux (07/08/2026), au motif d'une sensibilité au risque incendie jugée « la plus critique » sur ce massif à cette période, décision définitive annoncée pour le 04/08 — source officielle (attribution directe à la préfecture), datée du 30/07. Ce massif reste donc à traiter comme à risque actif, distinctement du Luberon. Ventoux toujours non tranché.
 
+**MAJ 06/08 : premier communiqué officiel depuis le 23/07 (14 jours de silence rompus)** — vaucluse.gouv.fr, « Vigilance feux de forêts, Interdiction d'accès dans certains massifs forestiers du Vaucluse », daté du 05/08/2026, valable pour le 06-07/08/2026 : 11 massifs explicitement fermés toute la journée (exceptions encadrées pour groupes professionnels 5h-13h) — Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon, Collines de Basse Durance. Ce communiqué tranche sans ambiguïté le doute entretenu depuis le 02/08 : Petit Luberon et Monts de Vaucluse, donnés verts par la source touristique non officielle destinationluberon.com, sont en réalité fermés selon la préfecture. Le Mont Ventoux reste absent de la liste (statut non tranché officiellement, ni fermé ni confirmé ouvert).
+
 ## Source
 
-[franceinfo, 30/07/2026 11h48 — arrivée du Tour de France Femmes au Mont Ventoux potentiellement détournée en raison du risque incendie (Dentelles de Montmirail)](https://www.franceinfo.fr/tour-de-france/femmes/l-arrivee-au-mont-ventoux-lors-de-la-7e-etape-du-tour-de-france-femmes-pourrait-etre-detournee-en-raison-du-risque-incendie_8128292.html) ; [vaucluse.gouv.fr — Accès aux massifs forestiers de Vaucluse, communiqués de presse (aucun communiqué postérieur au 23/07)](https://www.vaucluse.gouv.fr/index.php/Actualites/Acces-aux-massifs-forestiers-de-Vaucluse-communiques-de-presse) ; [vaucluse.gouv.fr — Vigilance feux de forêts, Risque d'incendie 22 juillet 2026](https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Juillet/Vigilance-feux-de-forets-Risque-d-incendie-22-juillet-2026) ; [info.fr — 15 massifs sur 15 fermés (SDIS 84), jeudi 23/07](https://info.fr/vaucluse-risque-extreme-feux-foret-23-juillet-12-massifs-fermes-2026-07/) ; [gazette-locale.fr — Risques d'incendie : des massifs interdits, 19/07/2026 (statut Ventoux jaune/vert)](https://www.gazette-locale.fr/2026/07/19/risques-dincendie-des-massifs-interdits/) ; [destinationluberon.com — Accès massifs forestiers Luberon/Monts de Vaucluse, MAJ 01/08/2026 18h (Petit Luberon vert, Monts de Vaucluse vert, Grand Luberon jaune)](https://www.destinationluberon.com/bouger/acces-massifs-forestiers-luberon-monts-de-vaucluse)
+[vaucluse.gouv.fr — Vigilance feux de forêts, Interdiction d'accès dans certains massifs forestiers du Vaucluse (05/08/2026, pour le 06-07/08/2026)](https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Aout/Vigilance-feux-de-forets-Interdiction-d-acces-dans-certains-massifs-forestiers-du-Vaucluse) ; [franceinfo, 30/07/2026 11h48 — arrivée du Tour de France Femmes au Mont Ventoux potentiellement détournée en raison du risque incendie (Dentelles de Montmirail)](https://www.franceinfo.fr/tour-de-france/femmes/l-arrivee-au-mont-ventoux-lors-de-la-7e-etape-du-tour-de-france-femmes-pourrait-etre-detournee-en-raison-du-risque-incendie_8128292.html) ; [vaucluse.gouv.fr — Accès aux massifs forestiers de Vaucluse, communiqués de presse (aucun communiqué postérieur au 23/07)](https://www.vaucluse.gouv.fr/index.php/Actualites/Acces-aux-massifs-forestiers-de-Vaucluse-communiques-de-presse) ; [vaucluse.gouv.fr — Vigilance feux de forêts, Risque d'incendie 22 juillet 2026](https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Juillet/Vigilance-feux-de-forets-Risque-d-incendie-22-juillet-2026) ; [info.fr — 15 massifs sur 15 fermés (SDIS 84), jeudi 23/07](https://info.fr/vaucluse-risque-extreme-feux-foret-23-juillet-12-massifs-fermes-2026-07/) ; [gazette-locale.fr — Risques d'incendie : des massifs interdits, 19/07/2026 (statut Ventoux jaune/vert)](https://www.gazette-locale.fr/2026/07/19/risques-dincendie-des-massifs-interdits/) ; [destinationluberon.com — Accès massifs forestiers Luberon/Monts de Vaucluse, MAJ 01/08/2026 18h (Petit Luberon vert, Monts de Vaucluse vert, Grand Luberon jaune)](https://www.destinationluberon.com/bouger/acces-massifs-forestiers-luberon-monts-de-vaucluse)
