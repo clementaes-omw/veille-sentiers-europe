@@ -5,7 +5,7 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-05
+verif: 2026-08-06
 statut: ACTIF — INCHANGÉ 05/08 : herault.gouv.fr toujours en JS (pas de statut jour-par-jour
   lisible) ; aucune source datée du 04-05/08 trouvée (silence de 13 jours sur le
   Minervois/Saint-Chinianais depuis le 23/07, cohérent avec l'absence de nouvel épisode

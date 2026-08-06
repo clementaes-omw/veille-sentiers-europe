@@ -5,7 +5,7 @@ itin: GR36 (66, traversée Fenouillèdes/basse Têt) ; GR10 NON concerné (Canig
 sev: MOYENNE
 validite: zone brûlée : durable — aucun arrêté d'interdiction publié à ce jour
 detection: 2026-07-14 (feu du 04/07)
-verif: 2026-08-02
+verif: 2026-08-06
 statut: ACTIF — dégradée de HAUTE à MOYENNE le 02/08/2026 : aucun arrêté préfectoral d'interdiction d'accès à la zone brûlée n'a été publié sur pyrenees-orientales.gouv.fr en un mois de recherches. L'alerte repose désormais sur le seul fait établi (zone brûlée impraticable), plus sur l'hypothèse d'un arrêté.
 ordre: 21
 ---
