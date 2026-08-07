@@ -3,9 +3,9 @@ cle: risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21
 type: risque feu / réglementation accès
 itin: GR65 (traversée des Landes), GR8, GR654 — impact direct sur les randonneurs itinérants prévoyant un bivouac en forêt landaise/girondine
 sev: MOYENNE (dégradée depuis HAUTE le 05/08 — désescalade officielle rouge→orange dans les 2 départements)
-validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; vigilance abaissée de ROUGE à ORANGE le 04/08/2026 en Gironde et dans les Landes ; zones brûlées toujours fermées, bivouac/camping isolé toujours interdit
+validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; vigilance abaissée de ROUGE à ORANGE le 04/08/2026 en Gironde et dans les Landes ; zones brûlées et bivouac/camping isolé restent interdits jusqu'à nouvel ordre, sans échéance de levée annoncée par les arrêtés préfectoraux cités
 detection: 2026-07-24
-verif: 2026-08-05
+verif: 2026-08-07
 statut: ACTIF — CHANGÉ 05/08 : désescalade officielle — 2 arrêtés préfectoraux indépendants
   et datés (gironde.gouv.fr 04/08, landes.gouv.fr 03/08) abaissent la vigilance de ROUGE à
   ORANGE dans les deux départements à compter du 04/08. Sévérité dégradée HAUTE→MOYENNE : le
