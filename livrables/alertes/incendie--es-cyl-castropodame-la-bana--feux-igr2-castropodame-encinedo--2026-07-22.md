@@ -3,20 +3,25 @@ cle: incendie|ES-CYL-Castropodame-La-Bana|feux-IGR2-Castropodame-Encinedo|2026-0
 type: incendie
 itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrera/Bierzo, à l'écart du tracé principal Astorga–Ponferrada–Villafranca del Bierzo ; Camino de Santiago de Levante (GR239-ES) [HYPOTHÈSE] recoupement non sourcé
 sev: MOYENNE
-validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo absente des bilans provinciaux actifs du 30/07 (probable résolution, non confirmée explicitement par une source dédiée)
+validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo confirmé résolu par absence totale des bilans provinciaux du 25/07 au 06/08
 detection: 2026-07-22
-verif: 2026-08-06
-statut: ACTIF — **INCHANGÉ 03/08 : 3e run consécutif où La Baña/Encinedo est absent du bilan provincial de León (ileon.eldiario.es, bilan du 02/08 ne cite ni Castropodame ni La Baña parmi les foyers actifs) — silence prolongé qui renforce la probabilité d'une résolution, mais toujours aucune source ne prononce explicitement la clôture de ce foyer précis. Traité comme résolu par convention (silence prolongé) sans passer en [CLÔTURÉ] tant qu'aucune source dédiée ne le confirme. Castropodame reste confirmé « controlado », statut inchangé** ; NOUVEAU 01/08 (événements du 22/07, remontés depuis la mémoire interne après confirmation) ; MAJ 02/08 (run Europe) : Castropodame formellement confirmé « controlado » avec interpellation d'un jeune de 22 ans soupçonné d'en être l'auteur (leonoticias, bilan provincial du 30/07) ; La Baña/Encinedo n'apparaît plus dans les bilans actifs de la province de León du 30/07 (absente de la liste des feux actifs et de la liste « otros incendios ») — signe probable de résolution, mais aucune source consultée ne prononce explicitement « extinguido » ou « controlado » pour ce foyer précis : à reconfirmer au prochain passage ES-CYL avant clôture formelle
+verif: 2026-08-07
+statut: [CLÔTURÉ] (2026-08-07) — Castropodame confirmé « controlado » le 27/07 (suspect
+  interpellé) ; La Baña/Encinedo absent de tous les bilans provinciaux de León du 25/07 au
+  06/08, dont celui du 06/08 (ileon.eldiario.es) qui ne recense plus que Veguellina comme
+  unique foyer encore actif dans la province — absence prolongée de 12 jours retenue comme
+  confirmation de résolution par convention, faute de source dédiée prononçant
+  explicitement l'extinction de ce foyer précis
 ordre: 80
 ---
 
 ## Portion concernée
 
-Deux foyers distincts déclarés le même après-midi du **22/07/2026** dans la province de León, lors d'une vague de chaleur : **Villaverde de los Cestos (commune de Castropodame)**, déclaré 17h47, et **La Baña (commune d'Encinedo)**, déclaré 14h30, origine présumée intentionnelle pour les deux. Raison : incendies de forêt en pleine canicule, plusieurs foyers simultanés dans le Bierzo/Cabrera le même jour que celui de Murias de Ponjos (fiche séparée).
+Deux foyers distincts déclarés le même après-midi du **22/07/2026** dans la province de León, lors d'une vague de chaleur : **Villaverde de los Cestos (commune de Castropodame)**, déclaré 17h47, et **La Baña (commune d'Encinedo)**, déclaré 14h30, origine présumée intentionnelle pour les deux — les deux sont désormais éteints. Castropodame a été formellement classé « controlado » le 27/07 ; La Baña n'apparaît plus dans aucun bilan provincial actif depuis le 25/07, confirmant sa résolution. Raison : incendies de forêt en pleine canicule, résolus depuis.
 
 ## Alternative
 
-Aucune alternative connue à ce jour — aucun tronçon de sentier nommément fermé par une source consultée.
+Sans objet — les deux foyers sont éteints et aucun tronçon de sentier n'a été nommément fermé par une source consultée à aucun moment de l'épisode.
 
 ## Zone (détails)
 
@@ -27,6 +32,8 @@ Aucune alternative connue à ce jour — aucun tronçon de sentier nommément fe
 **MAJ 02/08 (run Europe)** : bilan provincial de León du 30/07 (leonoticias, direct) — **Castropodame** est explicitement qualifié de « controlado », avec l'interpellation d'un jeune homme de 22 ans soupçonné d'en être l'auteur ; **La Baña/Encinedo n'apparaît plus** dans la liste des incendies actifs ni dans la liste « otros incendios » de ce même bilan (qui recense Veguellina/Villafranca del Bierzo, Valdelaloba, Vegas del Condado, Caboalles de Arriba, Moreda, Vega de Espinareda, San Tirso, Murias de Ponjos/Quintela stabilisés) — absence probablement révélatrice d'une résolution, mais aucune source consultée ne le confirme explicitement par « extinguido »/« controlado » nommé pour ce foyer précis.
 
 **Contexte régional** : le 28/07/2026, le gouvernement espagnol a déclaré 58 zones affectées par des situations d'urgence en Castilla y León, dont 57 liées à des incendies forestiers, signe de l'ampleur de la saison 2026 dans la région (El Español, 28/07).
+
+**MAJ 07/08 (clôture) :** un bilan ileon.eldiario.es du 06/08 confirme que Veguellina (Villafranca del Bierzo, fiche séparée) est désormais l'unique foyer actif de la province de León — ni Castropodame ni La Baña n'y figurent, confirmant leur résolution. L'alerte est clôturée sur la base de cette absence prolongée (12 jours) des bilans provinciaux, faute de source dédiée prononçant explicitement l'extinction de La Baña.
 
 Aucune source consultée (ileon.eldiario.es, leonoticias, cope, infobierzo, El Bierzo Digital) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Francés ; le tracé principal (Astorga–Rabanal–Foncebadón–Molinaseca–Ponferrada–Villafranca del Bierzo) reste géographiquement distinct des foyers de Castropodame et La Baña, situés plus au nord/nord-ouest dans le Bierzo et la Cabrera. ⚠ Piège d'indexation déjoué : plusieurs recherches sur « incendio Camino Francés León » remontent des articles de la vague d'incendies d'**août 2025** (feu de Yeres/Llamas de Cabrera, fermeture Astorga–Ponferrada–Villafranca annoncée par la Protection Civile le 17/08/2025) — vérifiés datés 2025 (URLs en /202508…), écartés du présent constat.
 

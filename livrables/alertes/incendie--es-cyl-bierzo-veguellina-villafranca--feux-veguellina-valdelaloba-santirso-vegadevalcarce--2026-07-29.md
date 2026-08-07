@@ -5,7 +5,7 @@ itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierz
 sev: MOYENNE
 validite: désescalade totale confirmée — les 3 foyers (Veguellina/Villafranca del Bierzo, Valdelaloba, San Tirso/Vega de Valcarce) sont à IGR-0 ; A-6 circulation normale rétablie dans les deux sens
 detection: 2026-08-02
-verif: 2026-08-06
+verif: 2026-08-07
 statut: ACTIF — CHANGÉ 05/08 : désescalade totale du complexe — les 3 foyers sont désormais
   à IGR-0 (bilan infobierzo du 03-04/08). L'A-6 a retrouvé une circulation normale dans les
   deux sens (bypass PK 422-424 retiré). Toujours aucune source ne mentionne d'impact sur le
