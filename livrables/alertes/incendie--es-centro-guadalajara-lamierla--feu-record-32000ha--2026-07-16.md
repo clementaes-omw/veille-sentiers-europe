@@ -5,7 +5,7 @@ itin: [HYPOTHÈSE] aucun GR référencé (Vía de la Plata, Camino de Madrid, Ca
 sev: MOYENNE (en décrue — stabilisé, retours en cours ; impact direct sur un itinéraire suivi toujours non confirmé)
 validite: stabilisé depuis le 23/07, niveau opérationnel 1 (le plus bas), jusqu'à nouvel ordre ; seuls 2 villages encore évacués au 25/07 (dernière donnée disponible)
 detection: 2026-07-24
-verif: 2026-07-31
+verif: 2026-08-07
 statut: ACTIF — CHANGÉ 31/07 : nette amélioration. Depuis le 23/07 : stabilisation, retours
   progressifs des habitants (Río Frío del Llano, Cardeñosa, Palancares, Almiruete, Muriel,
   La Mierla, Prádena de Atienza, Gascueña de Bornova, Semillas…). Au 25/07, seuls 2 villages

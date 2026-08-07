@@ -5,7 +5,7 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en
 sev: MOYENNE (dégradée 06/08 — aucune publication officielle depuis 21 jours malgré recherche active dédiée)
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé le 16/07, aucune communication officielle plus récente ne confirme le maintien ni la levée de l'interdiction
 detection: 2026-07-18
-verif: 2026-08-06
+verif: 2026-08-07
 statut: ACTIF — CHANGÉ 06/08 : DÉGRADÉE HAUTE→MOYENNE — recherche ciblée dédiée menée ce
   jour (comme demandé par l'audit qualité du 05/08), aucune publication postérieure au
   16/07/2026 trouvée sur drome.gouv.fr (21 jours de silence), ni levée ni reconduction

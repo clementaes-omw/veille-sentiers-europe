@@ -5,7 +5,7 @@ itin: GR221, GR222
 sev: MOYENNE
 validite: 01/08 → 15/08/2026
 detection: 2026-07-17
-verif: 2026-08-06
+verif: 2026-08-07
 statut: ACTIF — confirmer réouverture au 16/08 ; motif toujours non publié (vérifié 05/08 et
   06/08, aucune source contraire ni motif trouvé)
 ordre: 27

@@ -5,27 +5,31 @@ itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontaine
 sev: HAUTE
 validite: prolongée jusqu'au 07/08/2026 inclus — Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny et la forêt communale de Nemours suivent désormais tous la même échéance
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-06
-statut: ACTIF — INCHANGÉ 06/08 : recherche exhaustive menée (seine-et-marne.gouv.fr x3
-  pages, ONF, crashpadtours.fr, AAFF, France 3) — aucune source n'annonce encore la suite du
-  07/08/2026 (ni prolongation, ni levée, ni réouverture progressive). L'échéance tombe
-  DEMAIN : à revérifier en priorité absolue dès demain.
+verif: 2026-08-07
+statut: ACTIF — INCHANGÉ 07/08 : l'échéance du 07/08 tombe aujourd'hui même ; nouvelle
+  recherche ciblée menée (seine-et-marne.gouv.fr, France 3, ONF) — toujours aucune source ne
+  confirme ni prolongation, ni levée, ni réouverture partielle pour la suite. La dernière MAJ
+  officielle connue de seine-et-marne.gouv.fr reste datée du 31/07. À revérifier en priorité
+  absolue au prochain passage FR-IDF-CVL (une annonce est possible dans la journée même,
+  après la clôture de cette vérification).
 ordre: 42
 ---
 
 ## Portion concernée
 
-**Forêts domaniales de Fontainebleau, des Trois-Pignons et de la Commanderie (Seine-et-Marne) fermées au public**, arrêtés initialement signés le 19/07/2026 puis **prolongés jusqu'au 31/07/2026 inclus** (confirmé 24/07 via seine-et-marne.gouv.fr) — toutes routes forestières, sentiers, parcelles. Raison : incendies des 12 et 13/07/2026 (~2 000 ha brûlés cumulés selon l'ONF, ~10 % du massif), causes suspectes (2 personnes interpellées), sécheresse extrême, risque incendie persistant ; « la fermeture au public du massif demeure la seule mesure préventive efficace » (seine-et-marne.gouv.fr).
+**Forêts domaniales de Fontainebleau, des Trois-Pignons et de la Commanderie (Seine-et-Marne) fermées au public depuis le 19/07/2026, fermeture prolongée au moins jusqu'au 07/08/2026 inclus** (dernier arrêté officiel confirmé daté du 31/07 sur seine-et-marne.gouv.fr ; l'échéance du 07/08 est présentée par la presse comme un plancher, sans garantie de réouverture à cette date) — toutes routes forestières, sentiers, parcelles. Raison : incendies des 12 et 13/07/2026 (~2 000 ha brûlés cumulés selon l'ONF, ~10 % du massif), causes suspectes (2 personnes interpellées), sécheresse extrême, risque incendie persistant ; « la fermeture au public du massif demeure la seule mesure préventive efficace » (seine-et-marne.gouv.fr).
 
 ## Alternative
 
-**Aucune déviation officielle de GR publiée à ce jour** — éviter l'ensemble du massif jusqu'à la levée de l'arrêté (31/07 au plus tôt, prolongation possible). Buthiers, Puiselet, Nemours et les satellites d'Orsay restent hors périmètre et accessibles.
+**Aucune déviation officielle de GR publiée à ce jour** — éviter l'ensemble du massif jusqu'à la levée de l'arrêté (au plus tôt le 07/08, sans garantie à cette date). Buthiers, Puiselet, Nemours et les satellites d'Orsay restent hors périmètre et accessibles.
 
 ## Zone (détails)
 
 Massifs de Fontainebleau, Trois-Pignons, Commanderie (communes de Noisy-sur-École, Arbonne-la-Forêt, Achères-la-Forêt, Le Vaudoué, Fontainebleau ; feu secondaire ~3 ha à Barbizon) ; A6 rouverte le 16/07 20h après fermeture le 12/07, restriction résiduelle sur l'A6 maintenue séparément jusqu'au 27/07. **Détection tardive : feu du 12/07, 10 jours de retard** — zone FR-IDF-CVL suivie à un rythme mensuel/événementiel, hors du périmètre des vérifications quotidiennes ; signal repéré incidemment via ffrandonnee.fr le 22/07, puis vérifié dans la foulée. **Point de vigilance sur les dates, déjoué le 23/07 : la mention « GR11 fermé secteur rocher de Milly » était en réalité une page seine-et-marne.gouv.fr datée du 17 mai 2025 (incident mineur sans rapport), retirée du dossier.** **MAJ 24/07 : prolongation de l'arrêté confirmée jusqu'au 31/07/2026 inclus** (source officielle, mise à jour datée du 24/07). **MAJ 26/07 : détail tronçon par tronçon toujours introuvable — vérifié spécifiquement via une source dédiée à l'escalade/aux blocs (mise à jour 24/07), qui ne couvre que les secteurs de blocs et confirme seulement la fermeture générale jusqu'au 31/07, sans détail GR1/GR2/GR3/GR11/GR13/GR655** ; bilan surface : ~2 000 ha touchés en cumulé sur l'épisode (Trois-Pignons secteur Bois Rond/A6/Noisy-sur-École, Fontainebleau secteur Faisanderie/Apremont) — l'interdiction porte de facto sur tout sentier du périmètre fermé, sans détail plus fin publié à ce jour. **MAJ 27/07 : raison du maintien précisée par la presse (Le Moniteur de Seine-et-Marne/mesinfos.fr, reprenant l'arrêté du 24/07) : « capacité matérielle dégradée des pompiers, engagés sur d'autres feux, moyens nationaux mobilisés en Gironde et dans le Var »** ; Amis de la Forêt de Fontainebleau (aaff.fr/incendies/, MAJ 24/07) confirment fermeture jusqu'au 31/07, condition de levée = feu éteint + évaluation des dégâts (pas de calendrier), et nomment des sentiers locaux endommagés (Circuit des 25 bosses, sentiers bleus n°7 et n°8) — toujours sans correspondance publiée avec un GR (GR1/GR2/GR3/GR11/GR13/GR655). Aucune source n'annonce de prolongation au-delà du 31/07 ni de levée anticipée. **MAJ 28/07 : seine-et-marne.gouv.fr de nouveau accessible (503 des deux vérifications précédentes résolu) — la page « Incendies, points de situation » reconfirme la fermeture jusqu'au 31/07/2026 inclus des trois forêts, la même justification (« la fermeture au public du massif demeure la seule mesure préventive efficace »), et ne donne aucune indication sur une éventuelle suite après le 31/07 (ni levée anticipée, ni prolongation, ni réouverture partielle par tronçon de GR) ; le document ne conditionne la levée qu'à une réévaluation du risque, sans calendrier.**
 
 **MAJ 06/08 : toujours aucune annonce pour la suite du 07/08.** seine-et-marne.gouv.fr (pages « Incendies points de situation » et « Incendies dans le massif ») reste daté du 31/07 ; France 3 (31/07 11h24) parle d'une fermeture « au moins jusqu'au 7 août », présentée comme un plancher et non une garantie de réouverture, avec des conditions préalables (diagnostic ONF arbre par arbre, abattage des sujets endommagés, sécurisation des parcelles) ; AAFF (MAJ 03/08) reconfirme l'échéance sans indication sur l'après ; crashpadtours.fr (03/08, inchangé depuis) : 14 secteurs d'escalade rouverts sur 90, page précisant explicitement qu'aucune date de réouverture n'est confirmée au-delà du 7 août.
+
+**MAJ 07/08 : jour même de l'échéance, toujours aucune annonce de la suite.** seine-et-marne.gouv.fr reste daté du 31/07 (dernière MAJ connue) ; aucune source consultée ce jour (France 3, ONF) n'indique de décision (prolongation, levée totale ou réouverture partielle) pour la journée en cours. La situation reste donc, à l'heure de cette vérification, celle décrite par France 3 le 31/07 : le 7 août est un plancher annoncé, pas une date de réouverture garantie.
 
 ## Source
 
