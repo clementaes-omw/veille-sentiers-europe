@@ -15,21 +15,21 @@ ordre: 55
 
 ## Portion concernée
 
-**Sentier du littoral (E12), Côte Vermeille, entre Argelès-sur-Mer et Cerbère — réouverture PARTIELLE confirmée par arrêté officiel du 08/06/2026, 3 sections restent fermées : Criques de Porteils (Argelès-sur-Mer), Grandes Elmes (Banyuls-sur-Mer) et Aloès→RD914 (Cerbère, en attente de travaux à l'Anse de Terrimbo).** Raison : glissement de terrain provoqué par de fortes pluies (épisode de février 2026), falaises littorales rendues instables et dangereuses.
+**Sentier du littoral (E12), Côte Vermeille, entre Argelès-sur-Mer et Cerbère** : réouverture PARTIELLE confirmée par arrêté officiel du 08/06/2026, 3 sections restant fermées, les Criques de Porteils (Argelès-sur-Mer), les Grandes Elmes (Banyuls-sur-Mer) et Aloès→RD914 (Cerbère, en attente de travaux à l'Anse de Terrimbo). Raison : glissement de terrain provoqué par de fortes pluies lors de l'épisode de février 2026, falaises littorales rendues instables et dangereuses.
 
 ## Alternative
 
-**Itinéraire bis prévu pour les sections Criques de Porteils (Argelès) et Grandes Elmes (Banyuls)**, selon le communiqué officiel du 08/06/2026. Pour la section Aloès→RD914 à Cerbère : aucune alternative balisée publiée à ce jour, fermée dans l'attente de travaux de sécurisation à l'Anse de Terrimbo.
+Itinéraire bis prévu pour les sections Criques de Porteils (Argelès) et Grandes Elmes (Banyuls), selon le communiqué officiel du 08/06/2026. Pour la section Aloès→RD914 à Cerbère, aucune alternative balisée n'a été publiée à ce jour : elle reste fermée dans l'attente des travaux de sécurisation à l'Anse de Terrimbo.
 
 ## Zone (détails)
 
-19/01/2026 — fermeture initiale : sentier entièrement fermé sur les communes d'Argelès-sur-Mer, Banyuls-sur-Mer, Cerbère, Collioure et Port-Vendres, « le temps nécessaire à la sécurisation du site et à la mise en place des déviations indispensables », sans date de réouverture précisée (source : cc-acvi.com, mise à jour du 10/03/2026).
+19/01/2026 : fermeture initiale, sentier entièrement fermé sur les communes d'Argelès-sur-Mer, Banyuls-sur-Mer, Cerbère, Collioure et Port-Vendres, « le temps nécessaire à la sécurisation du site et à la mise en place des déviations indispensables », sans date de réouverture précisée (source : cc-acvi.com, mise à jour du 10/03/2026).
 
-24/04/2026 — réouverture partielle à Cerbère, à l'exception du tronçon entre la Résidence des Aloès et l'entrée du village, qui reste fermé.
+24/04/2026 : réouverture partielle à Cerbère, à l'exception du tronçon entre la Résidence des Aloès et l'entrée du village, qui reste fermé.
 
-08/06/2026 — arrêté officiel de réouverture partielle (pyrenees-orientales.gouv.fr) : 3 sections restent fermées — Criques de Porteils (Argelès-sur-Mer) et Grandes Elmes (Banyuls-sur-Mer), toutes deux avec itinéraire bis, et Aloès→RD914 (Cerbère), en attente de travaux de sécurisation à l'Anse de Terrimbo. Tous les autres arrêtés municipaux d'interdiction sont levés.
+08/06/2026 : arrêté officiel de réouverture partielle (pyrenees-orientales.gouv.fr). 3 sections restent fermées, les Criques de Porteils (Argelès-sur-Mer) et les Grandes Elmes (Banyuls-sur-Mer), toutes deux avec itinéraire bis, ainsi qu'Aloès→RD914 (Cerbère), en attente de travaux de sécurisation à l'Anse de Terrimbo. Tous les autres arrêtés municipaux d'interdiction sont levés.
 
-À ne pas confondre avec la fermeture du massif des Albères pour risque incendie (voir `risque-feu|Alberes-66|…`), périmètre et cause distincts.
+À ne pas confondre avec la fermeture du massif des Albères pour risque incendie (voir `risque-feu|Alberes-66|…`) : périmètre et cause distincts.
 
 ## Source
 

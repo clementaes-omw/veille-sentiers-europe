@@ -17,17 +17,19 @@ ordre: 47
 
 ## Portion concernée
 
-**Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born) : complexe d'incendies de fin juillet 2026, désormais fixé dans les deux départements — vigilance ramenée de ROUGE à ORANGE le 04/08/2026 dans les deux départements.** Zones brûlées toujours fermées au public, bivouac/camping isolé toujours interdit en forêt (jusqu'à 200 m de lisière). Secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) traversé par le **GR8** — statut d'un éventuel tronçon fermé toujours non confirmé officiellement.
+**Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born)** : complexe d'incendies de fin juillet 2026, désormais fixé dans les deux départements, avec une vigilance ramenée de ROUGE à ORANGE le 04/08/2026 dans les deux départements. Zones brûlées toujours fermées au public, bivouac/camping isolé toujours interdit en forêt (jusqu'à 200 m de lisière). Le secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) est traversé par le GR8 ; le statut d'un éventuel tronçon fermé n'est toujours pas confirmé officiellement.
 
 ## Alternative
 
-Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born — à confirmer directement auprès de la FFRandonnée Landes avant l'étape. Le bivouac isolé en forêt reste interdit malgré le passage en vigilance orange.
+Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born : à confirmer directement auprès de la FFRandonnée Landes avant l'étape. Le bivouac isolé en forêt reste interdit malgré le passage en vigilance orange.
 
 ## Zone (détails)
 
-Landes + Gironde : massifs forestiers landais et girondins exposés (zones forêt/lande + 200 m) ; réglementation préventive, pas de fermeture de sentier ni de feu actif >50ha identifié à ce stade. 1er passage sérieux sur la zone FR-SO, jamais vérifiée jusqu'ici. **21-31/07 : escalade majeure — complexe d'incendies déclaré, ~42 000 ha brûlés en Gironde (jusqu'à 220 000 évacués, vigilance NOIRE), ~3 600 ha dans les Landes (jusqu'à 40 000 évacués), fixé le 27/07 (Landes) puis le 01/08 (Gironde).**
+Landes + Gironde : massifs forestiers landais et girondins exposés (zones forêt/lande + 200 m) ; réglementation préventive, pas de fermeture de sentier ni de feu actif >50ha identifié à ce stade. 1er passage sérieux sur la zone FR-SO, jamais vérifiée jusqu'ici.
 
-**MAJ 05/08 : désescalade officielle — gironde.gouv.fr (04/08) et landes.gouv.fr (03/08) abaissent tous deux la vigilance de ROUGE à ORANGE à compter du 04/08/2026, les deux volets du complexe étant fixés.** Sous vigilance orange, des restrictions restent en vigueur : usage du feu, sorties isolées, et surtout bivouac/camping isolé restent interdits en forêt et jusqu'à 200 m de sa lisière ; les zones brûlées (Saumos/Le Porge en Gironde, Biscarrosse/Gastes/Sainte-Eulalie-en-Born dans les Landes) restent fermées au public non autorisé. Statut d'un éventuel tronçon fermé du GR8 toujours non confirmé (aucune source landes.ffrandonnee.fr postérieure trouvée).
+21-31/07 : escalade majeure, avec un complexe d'incendies déclaré, ~42 000 ha brûlés en Gironde (jusqu'à 220 000 évacués, vigilance NOIRE), ~3 600 ha dans les Landes (jusqu'à 40 000 évacués), fixé le 27/07 (Landes) puis le 01/08 (Gironde).
+
+MAJ 05/08 : désescalade officielle. gironde.gouv.fr (04/08) et landes.gouv.fr (03/08) abaissent tous deux la vigilance de ROUGE à ORANGE à compter du 04/08/2026, les deux volets du complexe étant fixés. Sous vigilance orange, des restrictions restent en vigueur : usage du feu, sorties isolées, et surtout bivouac/camping isolé restent interdits en forêt et jusqu'à 200 m de sa lisière ; les zones brûlées (Saumos/Le Porge en Gironde, Biscarrosse/Gastes/Sainte-Eulalie-en-Born dans les Landes) restent fermées au public non autorisé. Statut d'un éventuel tronçon fermé du GR8 toujours non confirmé (aucune source landes.ffrandonnee.fr postérieure trouvée).
 
 ## Source
 

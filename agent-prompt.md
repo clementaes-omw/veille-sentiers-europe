@@ -102,7 +102,36 @@ fonctionne.
   pour le lecteur : « aucun arrêté n'est publié à ce jour sur le site de la préfecture »
   ✅, et non « AP non localisé en autonome, pages préf. JS » ❌.
 - Pas de suspense ni de dramatisation : des faits datés, des lieux nommés, une consigne
-  actionnable. Ni « ⚠️ ATTENTION DANGER », ni « la situation reste préoccupante ».
+  actionnable. Ni « ATTENTION DANGER », ni « la situation reste préoccupante ».
+
+ÉCRITURE — NE PAS SONNER COMME UNE MACHINE (appliqué au registre le 08/08/2026) :
+Un site de sécurité qui sent le texte généré perd la confiance qu'il demande au lecteur.
+La référence est la skill `humanizer` (guide « Signs of AI writing » de Wikipédia) :
+invoque-la avec l'outil Skill quand tu rédiges ou reprends un texte public, en MODE
+EMBEDDED (tu veux la prose, pas la cérémonie). Ce qu'elle impose ici, en clair :
+- ZÉRO tiret cadratin — ou demi-cadratin – dans les quatre sections publiques et dans le
+  digest. C'est le marqueur d'IA le plus fiable et le build le refuse. Un point, une
+  virgule, deux-points ou des parenthèses font le travail, et souvent mieux. Le tiret
+  reste autorisé dans le frontmatter, où il sépare des champs, et dans les intitulés de
+  source, qu'on cite sans les reformuler.
+- ZÉRO emoji. Ni dans les titres de section du digest, ni devant un constat. Le niveau de
+  gravité est déjà porté par le champ `sev:` et par la couleur de la carte.
+- GRAS : une seule emphase par fiche, celle qui porte la localisation dans « Portion
+  concernée ». Le gras mécanique sur trois membres de phrase ne hiérarchise plus rien.
+- Pas de rythme ternaire systématique, pas de « non seulement… mais aussi », pas de
+  « il convient de noter que », pas de conclusion qui remonte le moral (« la vigilance
+  reste de mise », « bonne route »). Le texte s'arrête sur le dernier fait utile.
+- Voix active et verbe simple : « la préfecture interdit l'accès », pas « l'accès se voit
+  interdit dans le cadre d'un dispositif visant à ». Le verbe « être » est autorisé.
+- Vocabulaire à éviter parce qu'il est devenu une signature de modèle : crucial, majeur
+  (hors « feu majeur » sourcé), notable, souligner, s'inscrire dans, dispositif, à noter,
+  paysage (au figuré), riche, véritable.
+- ⚠️ La règle des faits prime sur toutes les précédentes : on ne supprime jamais un
+  chiffre, une date, une commune ou une nuance juridique pour faire une plus belle phrase.
+  « Interdit » ne devient pas « déconseillé ». En cas de conflit entre le style et
+  l'exactitude, l'exactitude gagne, toujours. `python3 site/verif_faits.py` compare une
+  réécriture à la version git et rejette toute perte ou invention de fait : lance-le après
+  toute reprise de texte existant.
 
 DURÉE DE VIE D'UNE HYPOTHÈSE (une alerte rouge ne vit pas indéfiniment sur un « à
 confirmer ») — le build BLOQUE au-delà de 14 jours :
@@ -140,7 +169,7 @@ PROTOCOLE DE DÉDOUBLONNAGE (déterministe — le cœur du job) :
 3. RÈGLE D'OR : le digest ne contient QUE les NOUVEAU et CHANGÉ. Les INCHANGÉS voient
    seulement leur « Dernière vérif » mise à jour au registre.
 4. Restriction expirée/levée → [CLÔTURÉ] (date) au registre + une seule mention en section
-   « ✅ Levées / expirées » du digest.
+   « Levées ou expirées » du digest.
 
 CONTENU DU DIGEST (digest_AAAA-MM-JJ.md) :
 - Titre : `# Digest Veille Sentiers — AAAA-MM-JJ`, puis DIRECTEMENT la première section.
@@ -150,8 +179,9 @@ CONTENU DU DIGEST (digest_AAAA-MM-JJ.md) :
   qui préparent une étape : la mécanique de la veille ne les concerne pas et ne se publie
   plus. Cette information a UN seul endroit, où elle reste obligatoire et détaillée : la
   ligne du jour dans livrables/_veille-log.md.
-- Sections : « 🆕 Nouveau », « 🔄 Changé », « ✅ Levées / expirées »,
-  « Contexte / pièges déjoués ce run ». Trier par sévérité (HAUTE d'abord).
+- Sections, sans emoji ni titre décoratif : « Nouveau », « Changé », « Levées ou
+  expirées », « Contexte et vérifications ». Trier par sévérité (HAUTE d'abord).
+  Titre d'item : `### \`clé\` (HAUTE) [FAIT]`, sans tiret cadratin.
 - Par item : CLÉ, ce qui a changé/le constat [FAIT/HYPOTHÈSE], validité, sources (URLs
   datées), **Itinéraires** impactés (via referentiel/sentiers.md), sévérité
   (HAUTE = bloque une étape ou interdiction / MOYENNE / INFO), suivi à prévoir.

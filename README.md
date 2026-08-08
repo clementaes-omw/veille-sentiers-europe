@@ -40,6 +40,11 @@ avec deux différences structurantes :
   sources vieillies. Écrit `livrables/audit-qualite.md`, code retour 1 s'il reste un
   constat bloquant. Tourne aussi seul sur GitHub (`.github/workflows/audit-qualite.yml`,
   07h47 UTC + à chaque poussée touchant le registre) et ouvre une issue en cas de blocage.
+- `site/verif_faits.py` — **garde-fou de réécriture**. Compare la prose des alertes à une
+  référence git et refuse toute reprise de texte qui perd ou invente un nombre, une date,
+  une URL ou un nom propre. Le style d'une alerte se retouche ; ses faits, non. Utilisé
+  lors du passage de la skill `humanizer` sur le registre (08/08/2026) et à relancer après
+  toute réécriture de texte existant.
 - `agents/verificateur-alertes.md` — **agent relecteur qualité**, exécuté en sous-agent
   DISTINCT à chaque run (l'agent de veille ne relit pas son propre travail). Il ne cherche
   pas d'événement nouveau : il audite l'existant à partir du rapport ci-dessus, corrige les

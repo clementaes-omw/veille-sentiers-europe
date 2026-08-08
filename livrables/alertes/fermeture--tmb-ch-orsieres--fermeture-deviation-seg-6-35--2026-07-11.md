@@ -12,11 +12,11 @@ ordre: 26
 
 ## Portion concernée
 
-**TMB côté suisse, commune d'Orsières (VS), secteur Treutsebo** : sentier fermé et dévié entre **Prayon et Branche** (~1,6 km), déplacé sur la **rive droite de la Dranse de Ferret**, depuis le samedi 11/07/2026. Raison : **[FAIT] risque de chutes de pierres** (confirmé par Le Nouvelliste, décision de la mairie d'Orsières).
+**TMB côté suisse, commune d'Orsières (VS), secteur Treutsebo** : sentier fermé et dévié entre Prayon et Branche (~1,6 km), déplacé sur la rive droite de la Dranse de Ferret, depuis le samedi 11/07/2026. Raison : [FAIT] risque de chutes de pierres (confirmé par Le Nouvelliste, décision de la mairie d'Orsières).
 
 ## Alternative
 
-Nouveau tracé balisé et opérationnel depuis le 11/07 (rive droite de la Dranse de Ferret) ; camping/bivouac interdit dans le secteur — alternatives : camping des Glaciers (La Fouly), Rocailles, Relais d'Arpette.
+Nouveau tracé balisé et opérationnel depuis le 11/07 (rive droite de la Dranse de Ferret). Camping et bivouac interdits dans le secteur ; alternatives : camping des Glaciers (La Fouly), Rocailles, Relais d'Arpette.
 
 ## Zone (détails)
 

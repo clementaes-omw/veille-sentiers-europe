@@ -16,21 +16,21 @@ ordre: 98
 
 ## Portion concernée
 
-**Comarca de Sayago (Zamora), autour de Fermoselle et du Parque Natural de Arribes del Duero** : au 05/08, les 14 localités évacuées sont toutes rentrées et toutes les routes ont été rouvertes. Le feu est stabilisé (IGR-0) mais pas formellement déclaré éteint. Raison : feu déclaré le 29/07/2026, propagation rapide sur un relief accidenté proche de la frontière portugaise, désormais résorbé.
+**Comarca de Sayago (Zamora), autour de Fermoselle et du Parque Natural de Arribes del Duero.** Au 05/08, les 14 localités évacuées sont toutes rentrées et toutes les routes ont été rouvertes. Le feu est stabilisé (IGR-0) mais pas formellement déclaré éteint. Raison : feu déclaré le 29/07/2026, propagation rapide sur un relief accidenté proche de la frontière portugaise, désormais résorbé.
 
 ## Alternative
 
-Sans objet — aucun sentier balisé nommé n'a été identifié dans le périmètre brûlé, ni par les sources consultées ni par le référentiel interne (sentiers-db.csv).
+Sans objet : aucun sentier balisé nommé n'a été identifié dans le périmètre brûlé, ni par les sources consultées ni par le référentiel interne (sentiers-db.csv).
 
 ## Zone (détails)
 
-Feu déclaré le 29/07 à 13h05 à Fermoselle (Zamora) ; le Plan INFOCAL a élevé le niveau à IGR-2 en urgence en raison du risque pour la population, avant de redescendre à IGR-1 dès la soirée du 29/07. Surface brûlée estimée à environ 11 000 ha (estimation provisoire, source technique). Évacuation de 800 habitants de 14 localités (Pinilla, Cibanal, Fornillos, Formariz, Zafara, Mámoles, Palazuelo, Cozcurrita, Badilla, Tudera, Argañín, Muga de Sayago, Pasariegos, Villar del Buey) ; Fermoselle et Fariza restées confinées. Dispositif coordonné par la Junta de Castilla y León (INFOCAL) avec UME, BRIF, agents environnementaux, brigades terrestres et héliportées, Guardia Civil et Protection civile. Au 01/08, le feu « remite » (s'apaise) tandis que le foyer de danger se déplace vers la province de León, Bierzo (fiche séparée). Aucun sentier balisé nommé (Vía de la Plata, Camino Sanabrés) ne traverse directement la zone selon le référentiel interne — à confirmer si une extension future du périmètre brûlé s'en approchait.
+Feu déclaré le 29/07 à 13h05 à Fermoselle (Zamora) ; le Plan INFOCAL a élevé le niveau à IGR-2 en urgence en raison du risque pour la population, avant de redescendre à IGR-1 dès la soirée du 29/07. Surface brûlée estimée à environ 11 000 ha (estimation provisoire, source technique). Évacuation de 800 habitants de 14 localités (Pinilla, Cibanal, Fornillos, Formariz, Zafara, Mámoles, Palazuelo, Cozcurrita, Badilla, Tudera, Argañín, Muga de Sayago, Pasariegos, Villar del Buey) ; Fermoselle et Fariza restées confinées. Dispositif coordonné par la Junta de Castilla y León (INFOCAL) avec UME, BRIF, agents environnementaux, brigades terrestres et héliportées, Guardia Civil et Protection civile. Au 01/08, le feu « remite » (s'apaise) tandis que le foyer de danger se déplace vers la province de León, Bierzo (fiche séparée). Aucun sentier balisé nommé (Vía de la Plata, Camino Sanabrés) ne traverse directement la zone selon le référentiel interne. À confirmer si une extension future du périmètre brûlé s'en approchait.
 
-**MAJ 03/08 :** désescalade confirmée — 12 des 14 localités évacuées rentrées au 31/07 10h24, seules Pinilla de Fermoselle et Mámoles restent évacuées (topographie difficile), 3 routes encore coupées. Aucune mention de Zamora ville ni d'itinéraire de pèlerinage touché.
+MAJ 03/08 : désescalade confirmée. 12 des 14 localités évacuées sont rentrées au 31/07 10h24, seules Pinilla de Fermoselle et Mámoles restent évacuées (topographie difficile), 3 routes encore coupées. Aucune mention de Zamora ville ni d'itinéraire de pèlerinage touché.
 
-**MAJ 05/08 :** les 2 dernières localités (Pinilla de Fermoselle, Mámoles) sont également rentrées le 31/07 au soir (Guardia Civil) — les 14 localités évacuées sont donc toutes de retour, et toutes les routes ont été rouvertes. IGR ramené à 0 au 03/08, mais le feu n'est pas formellement déclaré éteint : une équipe de 16 personnes reste en surveillance anti-reprise.
+MAJ 05/08 : les 2 dernières localités (Pinilla de Fermoselle, Mámoles) sont également rentrées le 31/07 au soir (Guardia Civil). Les 14 localités évacuées sont donc toutes de retour, et toutes les routes ont été rouvertes. IGR ramené à 0 au 03/08, mais le feu n'est pas formellement déclaré éteint : une équipe de 16 personnes reste en surveillance anti-reprise.
 
-**MAJ 08/08 : confirmation datée de la stabilisation.** [FAIT] Le feu a été déclaré « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense ; travaux de consolidation et de liquidation des points chauds toujours en cours sur les zones difficiles d'accès des Arribes del Duero. Aucune déclaration formelle d'extinction (« extinguido ») trouvée à ce jour, aucune nouvelle évacuation.
+MAJ 08/08 : confirmation datée de la stabilisation. [FAIT] Le feu a été déclaré « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense ; les travaux de consolidation et de liquidation des points chauds sont toujours en cours sur les zones difficiles d'accès des Arribes del Duero. Aucune déclaration formelle d'extinction (« extinguido ») trouvée à ce jour, aucune nouvelle évacuation.
 
 ## Source
 

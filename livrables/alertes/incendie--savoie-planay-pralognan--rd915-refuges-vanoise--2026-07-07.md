@@ -16,17 +16,17 @@ ordre: 40
 
 ## Portion concernée
 
-**RD915 et RD91D (accès à Pralognan-la-Vanoise et Champagny-en-Vanoise) coupées puis rouvertes en alternat depuis le 15/07 (450 blocs béton anti-chute de pierres) — piétons et cyclistes toujours interdits sur ce tronçon au 15/07.** Accès aux refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset impacté. Raison : incendie parti par la foudre le 24/06, accéléré et déclaré sur la commune du Planay (versant Tour du Merle) le 07/07 au soir.
+**RD915 et RD91D, accès à Pralognan-la-Vanoise et Champagny-en-Vanoise** : routes coupées puis rouvertes en alternat depuis le 15/07 (450 blocs béton anti-chute de pierres), piétons et cyclistes toujours interdits sur ce tronçon au 15/07. Accès aux refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset impacté. Raison : incendie parti par la foudre le 24/06, accéléré puis déclaré sur la commune du Planay (versant Tour du Merle) le 07/07 au soir.
 
-**Mise à jour 28/07** : la RD915 a été rouverte à la circulation le 23/07/2026 à 9h30 [FAIT] (Savoie News, article du 23/07 10h22), le Département ayant annoncé la réouverture après inspection des falaises par des équipes spécialisées. Des foyers restés actifs ont toutefois nécessité des largages héliportés dans la matinée du 23/07 : le feu n'est pas déclaré totalement éteint, la plus grande prudence est recommandée lors de la traversée de la zone. Aucune source datée postérieure au 15/07 ne confirme la réouverture des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset : ils restent considérés comme impactés par défaut [HYPOTHÈSE], les randonneurs sont invités à contacter directement les gardiens avant de partir.
+Mise à jour 28/07 : la RD915 a été rouverte à la circulation le 23/07/2026 à 9h30 [FAIT] (Savoie News, article du 23/07 10h22), le Département ayant annoncé la réouverture après inspection des falaises par des équipes spécialisées. Des foyers restés actifs ont toutefois nécessité des largages héliportés dans la matinée du 23/07 : le feu n'est pas déclaré totalement éteint, la plus grande prudence est recommandée lors de la traversée de la zone. Aucune source datée postérieure au 15/07 ne confirme la réouverture des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset : ils restent considérés comme impactés par défaut [HYPOTHÈSE], et les randonneurs sont invités à contacter directement les gardiens avant de partir.
 
 ## Alternative
 
-Aucune déviation balisée officielle publiée — se renseigner directement auprès des gardiens de refuge.
+Aucune déviation balisée officielle n'a été publiée : se renseigner directement auprès des gardiens de refuge.
 
 ## Zone (détails)
 
-Savoie (73) : feu parti par la foudre le 24/06, accéléré début juillet, déclaré au Planay le 07/07 soir. Pralognan-la-Vanoise isolée pendant 8 jours (ravitaillement héliporté, 5000-6000 personnes). RD915 rouverte partiellement le 15/07 9h avec restrictions piétons/cyclistes maintenues. [HYPOTHÈSE] aucune information trouvée postérieure au 15/07 — statut au 21/07 non confirmé, silence de 6 jours à traiter avec prudence (refuges considérés impactés par défaut). Détection tardive : événement de début juillet découvert seulement au 1er passage FR-ALPES-N du 21/07.
+Savoie (73) : feu parti par la foudre le 24/06, accéléré début juillet, déclaré au Planay le 07/07 au soir. Pralognan-la-Vanoise est restée isolée pendant 8 jours (ravitaillement héliporté, 5000-6000 personnes). RD915 rouverte partiellement le 15/07 9h, avec maintien des restrictions pour les piétons et les cyclistes. [HYPOTHÈSE] aucune information trouvée postérieure au 15/07 : le statut au 21/07 n'est pas confirmé, silence de 6 jours à traiter avec prudence, refuges considérés impactés par défaut. Détection tardive : événement de début juillet découvert seulement au 1er passage FR-ALPES-N du 21/07.
 
 ## Source
 

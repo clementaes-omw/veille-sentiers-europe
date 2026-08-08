@@ -18,11 +18,11 @@ GR52, **vallée du Boréon** (Saint-Martin-Vésubie, 06) : tronçon balises 377�
 
 ## Alternative
 
-Déviations balisées rive gauche et rive droite (FFRando 06) — la vallée est praticable via ces déviations.
+Déviations balisées rive gauche et rive droite (FFRando 06) : la vallée est praticable via ces déviations.
 
 ## Zone (détails)
 
-Vallée du Boréon, St-Martin-Vésubie (06) — nuance 03/07 : FFRando 06 (MAJ 17/02/26) maintient GR52 b377→b380 fermé « jusqu'à nouvel ordre » avec déviation → tracé historique pas intégralement rétabli
+Vallée du Boréon, St-Martin-Vésubie (06). Nuance 03/07 : FFRando 06 (MAJ 17/02/26) maintient GR52 b377→b380 fermé « jusqu'à nouvel ordre » avec déviation, donc tracé historique pas intégralement rétabli.
 
 ## Source
 

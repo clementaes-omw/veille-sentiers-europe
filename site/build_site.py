@@ -480,6 +480,26 @@ JARGON_INTERNE = [
     "hypothese de decrue", "tentative n",
 ]
 
+# --- MARQUEURS D'ÉCRITURE IA -----------------------------------------------
+# Passage de la skill `humanizer` sur le registre le 08/08/2026 (guide « Signs of AI
+# writing » de Wikipédia). Deux tells sont mécaniques, donc contrôlables ici : le tiret
+# cadratin, marqueur le plus fiable, et l'emoji décoratif. Un site de sécurité qui sent
+# le texte généré perd la confiance qu'il demande au lecteur.
+# Le tiret reste légitime dans le frontmatter (séparateur de champ) et dans les intitulés
+# de source (on cite une page officielle, on ne la reformule pas) : ces deux zones ne
+# passent pas par ce contrôle.
+# Ce qui trahit la machine, c'est le tiret PONCTUANT, entouré d'espaces. Le tiret collé
+# entre deux mots relève de la typographie normale et appartient souvent à un nom propre
+# sourcé (« PR-A 370 Turre–El Jalí ») : le remplacer déformerait un fait. D'où l'espace
+# exigée d'un côté au moins.
+TIRETS_LONGS = re.compile(r"\s[—–]|[—–]\s")
+
+
+def emojis(txt: str) -> list:
+    return [c for c in txt
+            if ord(c) > 0x2100 and unicodedata.category(c) in ("So", "Sk")]
+
+
 # Une alerte ROUGE ne peut pas rester adossée à une hypothèse non tranchée
 # indéfiniment : passé ce délai, soit on dégrade en MOYENNE, soit on écrit
 # explicitement au lecteur que le texte n'est pas publié (et on cesse de le
@@ -613,6 +633,11 @@ def ton_warnings(cards) -> list:
     for c in cards:
         plie = fold_txt(c["zone"])
         hits = sorted({f.strip() for f in JARGON_INTERNE if f in plie})
+        n_tirets = len(TIRETS_LONGS.findall(c["zone"]))
+        if n_tirets:
+            hits.append(f"{n_tirets} tiret(s) cadratin(s)")
+        if emojis(c["zone"]):
+            hits.append("emoji")
         if hits:
             out.append(f"{c['cle'][:55]} → {', '.join(hits)}")
     return out
@@ -642,9 +667,19 @@ def qa_check(cards, page: str, bivouac=None):
             for frag in JARGON_INTERNE:
                 if frag in plie:
                     errs.append(
-                        f"[ton] jargon de veille « {frag.strip()} » dans {champ} pour {ref} — "
-                        f"ce champ s'adresse au randonneur : décrire l'état ACTUEL du terrain, "
-                        f"pas le déroulé de la veille (l'historique va en « Zone (détails) »)")
+                        f"[ton] jargon de veille « {frag.strip()} » dans {champ} pour {ref} : "
+                        f"ce champ s'adresse au randonneur, décrire l'état ACTUEL du terrain "
+                        f"et pas le déroulé de la veille (l'historique va en « Zone (détails) »)")
+            if TIRETS_LONGS.search(c[champ]):
+                errs.append(
+                    f"[ton] tiret cadratin dans {champ} pour {ref} : c'est le marqueur "
+                    f"d'écriture IA le plus reconnaissable. Un point, une virgule, "
+                    f"deux-points ou des parenthèses font le travail.")
+            if emojis(c[champ]):
+                errs.append(
+                    f"[ton] emoji « {''.join(emojis(c[champ])[:3])} » dans {champ} pour "
+                    f"{ref} : la gravité est déjà portée par le champ `sev:` et par la "
+                    f"couleur de la carte.")
         closed_c = "CLÔTURÉ" in c["statut"].upper()
         if sev_class(c["sev"]) == "haute" and not closed_c:
             plie = fold_txt(c["portion"])
@@ -1020,7 +1055,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 <header class="mast">
   <div>
     <h1>Alertes-Rando.info</h1>
-    <p class="tagline">Veille quotidienne, datée, localisée et sourcée sur les fermetures, déviations et réglementations des GR®, chemins de Compostelle et grands itinéraires d'Europe.</p>
+    <p class="tagline">Fermetures, déviations et réglementations sur les GR®, les chemins de Compostelle et les grands itinéraires d'Europe. Veille quotidienne : chaque alerte est datée, localisée et sourcée.</p>
   </div>
   <div class="mast-stats">
     <div class="stat warn"><b>{len(hautes)}</b><span>alertes rouges</span></div>
@@ -1046,7 +1081,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   <div class="cards">
   {cards_html}
   </div>
-  <p id="noresult" class="noresult" hidden>Aucune alerte pour cette recherche — bon signe pour ce sentier.</p>
+  <p id="noresult" class="noresult" hidden>Aucune alerte ne correspond à cette recherche.</p>
   <h3 class="bloc">Alertes clôturées</h3>
   <div class="cards">
   {closed_html}
@@ -1056,34 +1091,35 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 <section id="apropos" class="view about" hidden>
   <p class="eyebrow">Le projet</p>
   <h2 class="reg-title">À propos</h2>
-  <p><strong>Alertes-Rando.info est né d'un constat que connaissent tous les marcheurs
-  au long cours : l'information qui compte vraiment est éparpillée aux quatre vents.</strong>
-  Un massif fermé par arrêté préfectoral en plein été, un tronçon de GR® dévié après un
-  éboulement, un refuge qui n'accueille plus, un bivouac soudain réglementé… Ces décisions
-  existent bel et bien — mais elles dorment dans des PDF de préfectures, des communiqués
-  de parcs nationaux, des pages de fédérations et des articles de presse locale. Personne
-  ne les rassemblait. On découvrait la fermeture au pied du panneau, sac sur le dos.</p>
-  <p>Alertes-Rando fait ce travail de fourmi à votre place. Chaque matin, une veille
+  <p>Alertes-Rando.info part d'une difficulté que connaissent les marcheurs au long
+  cours : l'information est éparpillée. Un massif fermé par arrêté préfectoral en plein
+  été, un tronçon de GR® dévié après un éboulement, un refuge qui n'accueille plus, un
+  bivouac soudain réglementé… Ces décisions sont bel et bien publiées, mais elles dorment
+  dans des PDF de préfectures, des communiqués de parcs nationaux, des pages de
+  fédérations et des articles de presse locale. Personne ne les rassemblait, et la
+  fermeture se découvrait au pied du panneau, sac sur le dos.</p>
+  <p>Alertes-Rando fait cette collecte à votre place. Chaque matin, une veille
   automatisée parcourt les sources officielles et la presse locale sur les grands
-  itinéraires — GR® français, chemins de Compostelle, grandes traversées européennes —
-  puis recoupe, date et hiérarchise ce qu'elle trouve. Le résultat tient en une page :
-  des alertes classées par gravité (<strong>rouge</strong> = étape bloquée ou interdiction,
-  <strong>orange</strong> = impact réel sans blocage, <strong>info</strong> = bon à savoir),
-  avec pour chacune la portion concernée, une alternative quand elle existe, et les
+  itinéraires (GR® français, chemins de Compostelle, grandes traversées européennes),
+  puis recoupe et date ce qu'elle trouve avant de le hiérarchiser. Le résultat tient en
+  une page : des alertes classées par gravité, <strong>rouge</strong> pour une étape
+  bloquée ou une interdiction, <strong>orange</strong> pour un impact réel sans blocage,
+  <strong>info</strong> pour ce qui est bon à savoir. Chacune indique la portion
+  concernée, une alternative quand elle existe, et les
   sources pour vérifier par vous-même.</p>
-  <p>S'y ajoutent les rapports quotidiens, qui archivent l'état des sentiers jour après
-  jour, et une base bivouac &amp; réglementation qui rassemble les règles de près d'une
-  centaine d'espaces protégés en Europe — parcs nationaux, réserves, massifs — pour
-  savoir où poser la tente sans mauvaise surprise.</p>
-  <p class="disclaimer">Une règle d'or pour finir : ce site aide à préparer, il ne
-  remplace jamais la source officielle. Avant de partir, vérifiez l'arrêté, la carte
-  préfectorale ou la page du parc — elles seules font foi. Bonne route, et bons sentiers.</p>
+  <p>Les rapports quotidiens archivent en plus l'état des sentiers jour après jour. Une
+  base bivouac &amp; réglementation rassemble les règles de près d'une centaine d'espaces
+  protégés en Europe (parcs nationaux, réserves, massifs), pour savoir où poser la tente
+  sans mauvaise surprise.</p>
+  <p class="disclaimer">Ce site aide à préparer, il ne remplace jamais la source
+  officielle. Avant de partir, vérifiez l'arrêté, la carte préfectorale ou la page du
+  parc : elles seules font foi.</p>
 
   <div id="contact" class="contact">
     <h3 class="bloc">Nous écrire</h3>
-    <p class="note">Une fermeture que nous avons manquée, une déviation constatée sur le
-    terrain, une erreur à signaler ? Chaque retour de marcheur vaut de l'or — c'est ce qui
-    fait la fiabilité de cette veille.</p>
+    <p class="note">Vous avez croisé une déviation sur le terrain, ou repéré une fermeture
+    que nous avons manquée ? Vous avez vu une erreur à signaler ? Les retours de marcheurs
+    corrigent cette veille, et c'est ce qui la rend fiable.</p>
     <form id="form-contact" action="{FORM_ENDPOINT}" method="POST">
       <div>
         <label for="c-nom">Nom (facultatif)</label>
@@ -1106,8 +1142,8 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
       <p class="statut" id="c-statut" role="status" hidden></p>
     </form>
     <p class="note">Votre adresse ne sert qu'à vous répondre. Le message transite par le
-    service FormSubmit pour nous parvenir par e-mail : il n'est ni stocké sur ce site, ni
-    utilisé à d'autres fins, ni transmis à qui que ce soit.</p>
+    service FormSubmit, qui nous le fait parvenir par e-mail. Ce site ne le stocke pas, ne
+    le transmet à personne et ne l'utilise à aucune autre fin.</p>
   </div>
 </section>
 
@@ -1118,7 +1154,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 
 <footer>
   <span>Généré le {built}</span><span>·</span>
-  <span>alertes-rando.info — veille quotidienne automatisée</span><span>·</span>
+  <span>alertes-rando.info, veille quotidienne automatisée</span><span>·</span>
   <span>État au {fr_date(latest_iso)}</span><span>·</span>
   <button class="footlink" data-view="apropos" data-anchor="contact">Contact</button>
 </footer>
@@ -1168,7 +1204,7 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
         .then(function (res) {{
           if (String(res.d.success) === 'true') {{
             st.className = 'statut ok';
-            st.textContent = 'Message envoyé — merci ! Nous vous répondrons à l\\'adresse indiquée.';
+            st.textContent = 'Message envoyé, merci ! Nous vous répondrons à l\\'adresse indiquée.';
             fc.reset();
             return;
           }}

@@ -12,15 +12,15 @@ ordre: 22
 
 ## Portion concernée
 
-Restrictions d'accès aux massifs forestiers de **80 communes du Morbihan**, dont des communes littorales du GR34 (Quiberon, Carnac, Belle-Île, Groix…) — épisode du 11 au 15/07, échu. Raison : canicule + risque incendie.
+Restrictions d'accès aux massifs forestiers de **80 communes du Morbihan**, dont des communes littorales du GR34 (Quiberon, Carnac, Belle-Île, Groix…). Épisode du 11 au 15/07, échu. Raison : canicule et risque incendie.
 
 ## Alternative
 
-Sans objet — restrictions expirées le 15/07 au soir, vigilance repassée au vert le 16/07.
+Sans objet : les restrictions ont expiré le 15/07 au soir et la vigilance est repassée au vert le 16/07.
 
 ## Zone (détails)
 
-Morbihan : AP 07/07/2026 « espaces avec risque incendie » = restrictions d'accès/activités dans 80 communes avec massifs forestiers, dont littoral GR34 (Carnac, Quiberon, Plouharnel, Erdeven, La Trinité-sur-Mer, St-Philibert, Locmariaquer, Crach, Riantec, Merlevenez, Plouhinec, Pénestin, Groix, Belle-Île…) ; + feux d'artifice interdits (AP 08/07) ; + vigilance ROUGE canicule dès 10/07 12h avec 3 AP du 10/07 (travaux agricoles interdits 13h-21h, manifs sportives interdites, alcool voie publique interdit →15/07)
+Morbihan : l'AP du 07/07/2026 « espaces avec risque incendie » restreint l'accès et les activités dans 80 communes dotées de massifs forestiers, dont le littoral du GR34 (Carnac, Quiberon, Plouharnel, Erdeven, La Trinité-sur-Mer, St-Philibert, Locmariaquer, Crach, Riantec, Merlevenez, Plouhinec, Pénestin, Groix, Belle-Île…). S'y ajoutent l'interdiction des feux d'artifice (AP 08/07) et la vigilance ROUGE canicule dès 10/07 12h, avec 3 AP du 10/07 : travaux agricoles interdits de 13h à 21h, manifestations sportives interdites, alcool sur la voie publique interdit jusqu'au 15/07.
 
 ## Source
 

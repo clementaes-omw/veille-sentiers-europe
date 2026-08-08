@@ -12,15 +12,15 @@ ordre: 96
 
 ## Portion concernée
 
-Via Francigena italienne, **commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) interrompu par un glissement de terrain d'environ 10 mètres**. Raison : effondrement provoqué par une fuite dans une conduite souterraine ; signalé comme actif depuis environ deux ans (donc depuis ~2024) et toujours non résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès et barrières de protection régulièrement déplacées, rendant la coupure peu respectée/peu sûre.
+Via Francigena italienne, **commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre.
 
 ## Alternative
 
-**Route provinciale reliant directement Nazzano à Bonascola**, utilisée de facto comme déviation — mais signalée comme dépourvue de trottoir sur tout son linéaire, ce qui crée un risque pour piétons/cyclistes qui l'empruntent en report du sentier fermé. Une offre de financement privé pour la construction d'un trottoir aurait été refusée par la municipalité (non autorisée à ce jour).
+Route provinciale reliant directement Nazzano à Bonascola, utilisée de facto comme déviation. Elle est cependant signalée comme dépourvue de trottoir sur tout son linéaire, ce qui crée un risque pour les piétons et les cyclistes qui l'empruntent en report du sentier fermé. Une offre de financement privé pour la construction d'un trottoir aurait été refusée par la municipalité (non autorisée à ce jour).
 
 ## Zone (détails)
 
-Alerte remontée par le comitato locale « Si R-Esiste » et relayée par la presse locale (La Voce Apuana, 10/06/2026) : source de presse unique, pas d'ordonnance municipale ni de communiqué officiel de la commune de Carrara retrouvé confirmant formellement la fermeture (recherche du 01/08/2026) — statut [FAIT] sur l'existence du glissement de terrain et de la coupure physique (fait matériel rapporté avec détails précis de lieu et durée), mais sourcing à renforcer (une seule source) : sévérité limitée à MOYENNE conformément à la règle « une seule source de presse → orange/MOYENNE au mieux ». Distinct de l'alerte `reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30` (Latium, tronçon Formello–La Storta) : ici il s'agit d'un tronçon toscan différent, sur la portion Via Francigena de Carrara/Massa.
+Alerte remontée par le comitato locale « Si R-Esiste » et relayée par la presse locale (La Voce Apuana, 10/06/2026). Source de presse unique : ni ordonnance municipale ni communiqué officiel de la commune de Carrara confirmant formellement la fermeture n'a été retrouvé (recherche du 01/08/2026). L'existence du glissement de terrain et de la coupure physique est en statut [FAIT], le fait matériel étant rapporté avec des détails précis de lieu et de durée, mais le sourcing reste à renforcer (une seule source). Sévérité limitée à MOYENNE conformément à la règle « une seule source de presse → orange/MOYENNE au mieux ». Distinct de l'alerte `reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30` (Latium, tronçon Formello à La Storta) : il s'agit ici d'un tronçon toscan différent, sur la portion Via Francigena de Carrara/Massa.
 
 ## Source
 

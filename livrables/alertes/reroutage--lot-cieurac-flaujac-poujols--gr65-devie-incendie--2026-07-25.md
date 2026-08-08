@@ -13,15 +13,15 @@ ordre: 57
 
 ## Portion concernée
 
-**GR65, communes de Cieurac et Flaujac-Poujols (Lot, 46), lieux-dits Gariat, Bois grand et stade de Flaujac-Poujols** — accès formellement interdit sur toute la zone touchée par l'incendie, pour une durée indéterminée. Raison : incendie survenu à la mi-juillet 2026.
+**GR65, communes de Cieurac et Flaujac-Poujols (Lot, 46), lieux-dits Gariat, Bois grand et stade de Flaujac-Poujols** : accès formellement interdit sur toute la zone touchée par l'incendie, pour une durée indéterminée. Raison : incendie survenu à la mi-juillet 2026.
 
 ## Alternative
 
-Déviation officielle balisée (panneau, fléchage, QR code avec trace GPX) : depuis un croisement de chemin avant la traversée de la D49 (à proximité du pont autoroutier et du croisement avec la D6), le tracé suit la vallée du Tréboulou jusqu'à Flaujac-Poujols, lieu-dit Les Pradelles. Déviation de 4,5 km, raccourcit l'itinéraire initial de 200 m.
+Déviation officielle balisée (panneau, fléchage, QR code avec trace GPX) : depuis un croisement de chemin avant la traversée de la D49 (à proximité du pont autoroutier et du croisement avec la D6), le tracé suit la vallée du Tréboulou jusqu'à Flaujac-Poujols, lieu-dit Les Pradelles. La déviation fait 4,5 km et raccourcit l'itinéraire initial de 200 m.
 
 ## Zone (détails)
 
-Lot (46), secteur de Limogne-en-Quercy : incendie mi-juillet 2026 ayant touché une zone boisée entre Cieurac et Flaujac-Poujols, sur le tracé du GR65 (Via Podiensis). Les communes de Limogne (mairies) ont publié une déviation officielle balisée le 25/07/2026, en attendant la réouverture de la zone brûlée.
+Lot (46), secteur de Limogne-en-Quercy : un incendie de la mi-juillet 2026 a touché une zone boisée entre Cieurac et Flaujac-Poujols, sur le tracé du GR65 (Via Podiensis). Les communes de Limogne (mairies) ont publié une déviation officielle balisée le 25/07/2026, en attendant la réouverture de la zone brûlée.
 
 ## Source
 

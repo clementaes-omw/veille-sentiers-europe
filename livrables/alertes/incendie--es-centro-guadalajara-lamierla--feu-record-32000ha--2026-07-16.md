@@ -19,15 +19,15 @@ ordre: 48
 
 ## Portion concernée
 
-**Incendie de La Mierla, Sierra Norte de Guadalajara (Castilla-La Mancha)** — le pire épisode d'incendies de juillet dans la région depuis 1994. Périmètre de ~120 km, **~32 000 ha brûlées** (23/07), plus de 40 municipes dans le périmètre, 34 localités évacuées (Navas de Jadraque, Umbralejo, Semillas, Bustares…), 14 confinées. Raison : incendie déclaré vers le 16-17/07/2026, combustion continue depuis plus de 6 jours.
+**Incendie de La Mierla, Sierra Norte de Guadalajara (Castilla-La Mancha)**, le pire épisode d'incendies de juillet dans la région depuis 1994. Périmètre de ~120 km, ~32 000 ha brûlées au 23/07, plus de 40 municipes dans le périmètre, 34 localités évacuées (Navas de Jadraque, Umbralejo, Semillas, Bustares…) et 14 confinées. Raison : incendie déclaré vers le 16-17/07/2026, combustion continue depuis plus de 6 jours.
 
 ## Alternative
 
-Aucune alternative connue à ce jour — secteur Jadraque/Sigüenza à éviter.
+Aucune alternative connue à ce jour : éviter le secteur Jadraque/Sigüenza.
 
 ## Zone (détails)
 
-Sierra Norte de Guadalajara (parc naturel, ~90% brûlé) ; feux simultanés dans la région : Selas (~2 800 ha) et Almorox (~1 000 ha, Tolède). 1er passage sérieux sur la zone ES-CENTRO, jamais vérifiée jusqu'ici.
+Sierra Norte de Guadalajara (parc naturel, ~90% brûlé). Feux simultanés dans la région : Selas (~2 800 ha) et Almorox (~1 000 ha, Tolède). 1er passage sérieux sur la zone ES-CENTRO, jamais vérifiée jusqu'ici.
 
 ## Source
 

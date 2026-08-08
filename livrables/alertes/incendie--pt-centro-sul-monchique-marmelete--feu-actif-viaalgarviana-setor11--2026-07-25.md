@@ -12,15 +12,15 @@ ordre: 54
 
 ## Portion concernée
 
-Vale de Água, Monchique/Marmelete : feu signalé le 25/07 à 04h58 (API fogos.pt), sur le secteur du Setor 11 de la Via Algarviana (GR13) — **maîtrisé (dominado) dès 08h50 le même jour**, dispositif maintenu ensuite pour consolidation.
+**Vale de Água, Monchique/Marmelete** : feu signalé le 25/07 à 04h58 (API fogos.pt), sur le secteur du Setor 11 de la Via Algarviana (GR13). Le feu a été maîtrisé (dominado) dès 08h50 le même jour, le dispositif restant en place ensuite pour consolidation.
 
 ## Alternative
 
-Sans objet — aucune fermeture de sentier n'a été confirmée à aucun moment de l'épisode.
+Sans objet : aucune fermeture de sentier n'a été confirmée à aucun moment de l'épisode.
 
 ## Zone (détails)
 
-Pic de mobilisation : 107 effectifs / 33 véhicules terrestres / 2 engins à chenilles / 3 moyens aériens en phase de consolidation (matinée du 25/07) ; vent 49 km/h Nord au moment du départ de feu. Au 26/07, l'API fogos.pt affiche le statut « Vigilância » (vert), 22 personnels / 7 véhicules terrestres, 0 moyen aérien engagé. Aucun avis de fermeture trouvé sur blog.rotavicentina.com/mapa-de-avisos ni dans la presse (Barlavento, Renascença, Agroportal, Postal.pt) pour le GR13/Via Algarviana.
+Pic de mobilisation : 107 effectifs, 33 véhicules terrestres, 2 engins à chenilles et 3 moyens aériens en phase de consolidation (matinée du 25/07) ; vent de 49 km/h Nord au moment du départ de feu. Au 26/07, l'API fogos.pt affiche le statut « Vigilância » (vert), 22 personnels, 7 véhicules terrestres et 0 moyen aérien engagé. Aucun avis de fermeture n'a été trouvé sur blog.rotavicentina.com/mapa-de-avisos ni dans la presse (Barlavento, Renascença, Agroportal, Postal.pt) pour le GR13 et la Via Algarviana.
 
 ## Source
 

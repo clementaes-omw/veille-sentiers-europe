@@ -14,15 +14,15 @@ ordre: 28
 
 ## Portion concernée
 
-Via Francigena italienne, **tronçon Formello – La Storta (Parco di Veio, dernière étape avant Rome) : sentier « Prato La Corte » fermé** au transit. Raison : glissement de terrain (avis du 30/01/2026, toujours en ligne au 17/07).
+Via Francigena italienne, **tronçon Formello à La Storta (Parco di Veio, dernière étape avant Rome)** : le sentier « Prato La Corte » est fermé au transit. En cause : un glissement de terrain (avis du 30/01/2026, toujours en ligne au 17/07).
 
 ## Alternative
 
-**Itinéraire de substitution officiel : Via dell'Ara (Monte Michele) → Riserva Campetti** (indiqué par le parc).
+Itinéraire de substitution officiel indiqué par le parc : Via dell'Ara (Monte Michele) → Riserva Campetti.
 
 ## Zone (détails)
 
-Parco di Veio (Latium) ; fermeture « temporaire » sans date de réouverture ; détection tardive (publié 01/2026) → statut actuel à confirmer, comme GR21 Loges–Bénouville
+Parco di Veio (Latium) : fermeture « temporaire » sans date de réouverture. La détection est tardive (publication en 01/2026), le statut actuel reste donc à confirmer, comme sur le GR21 entre Loges et Bénouville.
 
 ## Source
 

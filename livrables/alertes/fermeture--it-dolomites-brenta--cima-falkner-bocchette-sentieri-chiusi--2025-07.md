@@ -12,15 +12,15 @@ ordre: 53
 
 ## Portion concernée
 
-Bocchette del Brenta (Cima Falkner) : la plupart des sentiers fermés depuis l'éboulement de juillet 2025.
+Bocchette del Brenta (Cima Falkner) : la plupart des sentiers sont fermés depuis l'éboulement de juillet 2025.
 
 ## Alternative
 
-Sentiero SAT O136 (Grostè-Tuckett) ouvert.
+Le Sentiero SAT O136 (Grostè-Tuckett) est ouvert.
 
 ## Zone (détails)
 
-Toujours actif au 09/07/2026
+La fermeture est toujours active au 09/07/2026.
 
 ## Source
 
