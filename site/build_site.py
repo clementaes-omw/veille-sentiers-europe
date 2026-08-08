@@ -33,6 +33,30 @@ UMAMI_WEBSITE_ID = "135c550a-aa46-47be-9e60-f5b5c936eb52"
 # que d'envoyer un message vers la boîte, jamais de la lire ni de découvrir l'adresse.
 # Formulaire activé le 2026-07-26 (destination : contact@alertes-rando.info).
 FORM_ENDPOINT = "https://formsubmit.co/75c4f4f7d26954df26f9d870cfeb0c82"
+
+# --- COULEURS ---------------------------------------------------------------
+# Deux palettes, écrites UNE fois ici puis interpolées dans le CSS (le thème manuel
+# et le thème système ont besoin du même jeu à deux endroits : les dupliquer à la
+# main, c'était quatre copies à garder d'accord).
+#
+# Distinction qui manquait : --ink est la couleur du TEXTE. Le bandeau de navigation
+# s'en servait comme fond ; en thème sombre --ink passe au crème et la barre virait
+# au blanc en haut d'une page noire. --surface-invert est un fond, il reste sombre
+# dans les deux thèmes. Même logique pour --on-accent, le texte posé sur un aplat
+# --pine : blanc sur le vert foncé du thème clair, encre sur le vert clair du sombre
+# (c'est le blanc en dur qui tombait à 2.34:1).
+PALETTE_CLAIR = """
+  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #545a4f;
+  --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
+  --haute: #a83227; --haute-bg: #f6e7e4; --moy: #8a5715; --moy-bg: #f4ecdd;
+  --info: #45607a; --info-bg: #e7edf1; --clos: #5e635b; --clos-bg: #e8e7e0;
+  --surface-invert: #20261f; --on-invert: #f1efe8; --on-accent: #ffffff;"""
+PALETTE_SOMBRE = """
+  --paper: #1a1e1a; --panel: #22271f; --ink: #e6e4da; --ink-2: #a7ab9e;
+  --line: #3a4036; --pine: #7fb598; --pine-soft: #26332b;
+  --haute: #e07a6e; --haute-bg: #392420; --moy: #d8a35c; --moy-bg: #362c1c;
+  --info: #93b0c4; --info-bg: #232d34; --clos: #9ba196; --clos-bg: #262a24;
+  --surface-invert: #10130f; --on-invert: #e6e4da; --on-accent: #14211a;"""
 CATEGORIES = json.loads(
     (HERE.parent / "referentiel" / "categories.json").read_text(encoding="utf-8"))["categories"]
 
@@ -395,13 +419,18 @@ def render_card(c) -> str:
     cat_slug = cat["slug"] if cat else "inconnue"
     badges_html = "\n    ".join(f'<span class="badge itin">{html.escape(b)}</span>'
                                 for b in itin_badges(c))
+    # La ligne de tête (sentiers, gravité, type) sert de TITRE de la fiche : sans elle,
+    # 167 articles se suivaient sans un seul point de saut pour un lecteur d'écran.
+    # L'infobulle qui portait la légende de gravité est retirée : répétée 71 fois,
+    # inatteignable au doigt et au clavier, elle est maintenant affichée en clair
+    # une seule fois sous les filtres.
     return f"""<article class="card {sev}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
-  <div class="card-top">
+  <h3 class="card-top">
     {badges_html}
-    <span class="badge sev-{sev}" title="Alerte rouge = étape bloquée ou interdiction · orange = impact réel sans blocage · info = à savoir">{sev_label}</span>
+    <span class="badge sev-{sev}">{sev_label}</span>
     {chips}
     <span class="type">{inline(c["type"])}</span>
-  </div>
+  </h3>
   <p class="portion">{inline(lead)}</p>
   <p class="alt"><span class="alt-label">Alternative</span> {inline(alt)}</p>
   <details>
@@ -458,7 +487,7 @@ def render_bivouac_card(b) -> str:
     <span class="badge sev-{'haute' if cls=='haute' else 'moyenne' if cls=='moyenne' else 'info' if cls=='info' else 'ok'}">{label}</span>
     <span class="type">{html.escape(b["type"])}</span>
   </div>
-  <p class="bname"><strong>{inline(b["nom"])}</strong></p>
+  <h3 class="bname">{inline(b["nom"])}</h3>
   <p class="portion">{hyp}{inline(b["conditions"])}</p>
   <p class="alt"><span class="alt-label">Feux</span> {inline(b["feu"] or "non précisé")}</p>
   {notes}
@@ -759,12 +788,15 @@ def build():
         cat = categorize(c)
         if cat:
             counts[cat["slug"]] = counts.get(cat["slug"], 0) + 1
-    cats_html = (f'<button class="cat active" data-cat="">Toutes '
+    # aria-pressed plutôt qu'une classe : l'état d'un filtre n'était porté que par la
+    # couleur, invisible pour un lecteur d'écran comme pour un daltonien.
+    cats_html = (f'<button type="button" class="cat" data-cat="" aria-pressed="true">Toutes '
                  f'<span>{len(actives) + len(closes)}</span></button>')
     for cat in CATEGORIES:
         n = counts.get(cat["slug"], 0)
         if n:
-            cats_html += (f'<button class="cat" data-cat="{cat["slug"]}">'
+            cats_html += (f'<button type="button" class="cat" data-cat="{cat["slug"]}" '
+                          f'aria-pressed="false">'
                           f'{html.escape(cat["label"])} <span>{n}</span></button>')
     # Les sections annexes du registre (Items mineurs, À vérifier manuellement, Pistes
     # abandonnées, Notes) sont la MÉMOIRE INTERNE de l'agent : jamais rendues sur le site.
@@ -793,11 +825,13 @@ def build():
         bcounts = {}
         for b in bivouac:
             bcounts[b["regle"]] = bcounts.get(b["regle"], 0) + 1
-        bchips = f'<button class="cat bcat active" data-regle="">Toutes <span>{len(bivouac)}</span></button>'
+        bchips = (f'<button type="button" class="cat bcat" data-regle="" aria-pressed="true">'
+                  f'Toutes <span>{len(bivouac)}</span></button>')
         for slug, (label, _c) in REGLE_META.items():
             n = bcounts.get(slug, 0)
             if n:
-                bchips += (f'<button class="cat bcat" data-regle="{slug}">{html.escape(label)} '
+                bchips += (f'<button type="button" class="cat bcat" data-regle="{slug}" '
+                           f'aria-pressed="false">{html.escape(label)} '
                            f'<span>{n}</span></button>')
         bivouac_section = f"""<section id="bivouac" class="view" hidden>
   <p class="eyebrow">Base de référence · {len(bivouac)} espaces &amp; règles</p>
@@ -816,44 +850,59 @@ def build():
 
     analytics = (f'<script defer src="https://cloud.umami.is/script.js" '
                  f'data-website-id="{UMAMI_WEBSITE_ID}"></script>' if UMAMI_WEBSITE_ID else "")
-    page = f"""<meta charset="utf-8">
+
+    # Description et Open Graph : c'est par là qu'arrive un randonneur qui cherche
+    # « GR20 fermé » sur un moteur, et c'est ce que voit un forum où l'on colle le lien.
+    # Les compteurs sont dans le texte : ils datent la page dans les résultats.
+    meta_desc = (f"{len(actives)} alertes actives dont {len(hautes)} rouges sur les GR®, "
+                 f"les chemins de Compostelle et les grands itinéraires d'Europe. "
+                 f"Fermetures, déviations et réglementations, datées et sourcées, "
+                 f"mises à jour le {fr_date(latest_iso)}.")
+    meta_desc = html.escape(meta_desc, quote=True)
+    og_title = "Alertes-Rando.info, l'état des sentiers d'Europe au jour le jour"
+    page = f"""<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://www.alertes-rando.info/">
 <title>Alertes Rando</title>
+<meta name="description" content="{meta_desc}">
+<meta name="theme-color" content="#20261f" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1e1a" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Alertes-Rando.info">
+<meta property="og:title" content="{og_title}">
+<meta property="og:description" content="{meta_desc}">
+<meta property="og:url" content="https://www.alertes-rando.info/">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<link rel="preload" href="fonts/Roboto-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/RobotoMono-var.woff2" as="font" type="font/woff2" crossorigin>
 {analytics}
 <style>
 @font-face {{ font-family: "Roboto"; src: url(fonts/Roboto-var.woff2) format("woff2");
   font-weight: 100 900; font-display: swap; }}
 @font-face {{ font-family: "Roboto Mono"; src: url(fonts/RobotoMono-var.woff2) format("woff2");
   font-weight: 100 700; font-display: swap; }}
-:root {{
-  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
-  --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
-  --haute: #b3362b; --haute-bg: #f6e7e4; --moy: #a86a1f; --moy-bg: #f4ecdd;
-  --info: #4a6478; --info-bg: #e7edf1; --clos: #8a8f86; --clos-bg: #ecebe5;
+:root, :root[data-theme="light"] {{
+  color-scheme: light;{PALETTE_CLAIR}
   --sans: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --mono: "Roboto Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  /* échelle typo : 7 crans au lieu de 26 tailles voisines */
+  --t-xs: .6875rem; --t-sm: .8125rem; --t-md: .9375rem; --t-base: 1rem;
+  --t-lg: 1.125rem; --t-xl: 1.5rem; --t-2xl: 2.25rem;
+  /* espacement : grille de 4 */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
+  --s-6: 32px; --s-7: 48px; --s-8: 64px;
+  --rythme: 160ms cubic-bezier(.2, 0, .2, 1);
+  /* posé sur --surface-invert, qui est sombre dans les deux thèmes */
+  --on-invert-2: #a9ada1;
 }}
 @media (prefers-color-scheme: dark) {{
-  :root {{
-    --paper: #1a1e1a; --panel: #22271f; --ink: #e6e4da; --ink-2: #a7ab9e;
-    --line: #3a4036; --pine: #7fb598; --pine-soft: #26332b;
-    --haute: #e07a6e; --haute-bg: #392420; --moy: #d8a35c; --moy-bg: #362c1c;
-    --info: #93b0c4; --info-bg: #232d34; --clos: #8a8f86; --clos-bg: #262a24;
-  }}
+  :root:not([data-theme="light"]) {{ color-scheme: dark;{PALETTE_SOMBRE} }}
 }}
-:root[data-theme="light"] {{
-  --paper: #ffffff; --panel: #f1efe8; --ink: #20261f; --ink-2: #5a6055;
-  --line: #ddd9cc; --pine: #2f5d45; --pine-soft: #e4ece6;
-  --haute: #b3362b; --haute-bg: #f6e7e4; --moy: #a86a1f; --moy-bg: #f4ecdd;
-  --info: #4a6478; --info-bg: #e7edf1; --clos: #8a8f86; --clos-bg: #ecebe5;
-}}
-:root[data-theme="dark"] {{
-  --paper: #1a1e1a; --panel: #22271f; --ink: #e6e4da; --ink-2: #a7ab9e;
-  --line: #3a4036; --pine: #7fb598; --pine-soft: #26332b;
-  --haute: #e07a6e; --haute-bg: #392420; --moy: #d8a35c; --moy-bg: #362c1c;
-  --info: #93b0c4; --info-bg: #232d34; --clos: #8a8f86; --clos-bg: #262a24;
-}}
+:root[data-theme="dark"] {{ color-scheme: dark;{PALETTE_SOMBRE} }}
 * {{ box-sizing: border-box; }}
 body {{ margin: 0; background: var(--paper); color: var(--ink);
   font: 16px/1.55 var(--sans); }}
@@ -863,44 +912,69 @@ code {{ font-family: var(--mono); font-size: .85em; background: var(--panel);
 del {{ color: var(--ink-2); }}
 .wrap {{ max-width: 1180px; margin: 0 auto; padding: 0 20px 60px; }}
 
-.topnav {{ background: var(--ink); }}
-.topnav .nav-in {{ max-width: 1180px; margin: 0 auto; padding: 12px 30px; display: flex;
-  justify-content: space-between; align-items: center; gap: 20px; overflow-x: auto; }}
-.topnav .navlink {{ display: inline-flex; padding: 2px 0; border-left: 0; border-radius: 0;
-  border-bottom: 2px solid transparent; white-space: nowrap; color: var(--line); }}
-.topnav .navlink:hover {{ background: none; color: var(--paper); }}
-.topnav .navlink.active {{ color: var(--paper); border-bottom-color: var(--haute); background: none; }}
+.skip {{ position: absolute; left: -9999px; top: 0; z-index: 10; background: var(--pine);
+  color: var(--on-accent); font-family: var(--mono); font-size: var(--t-sm);
+  padding: var(--s-3) var(--s-4); border-radius: 0 0 8px 0; }}
+.skip:focus {{ left: 0; }}
+main:focus {{ outline: none; }}
+.sr-only {{ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }}
+
+.topnav {{ background: var(--surface-invert); }}
+.topnav .nav-in {{ max-width: 1180px; margin: 0 auto; padding: 0 30px; display: flex;
+  justify-content: space-between; align-items: stretch; gap: var(--s-5); overflow-x: auto; }}
+.topnav .navlink {{ display: inline-flex; align-items: center; padding: var(--s-3) 0;
+  min-height: 44px; border-left: 0; border-radius: 0;
+  border-bottom: 2px solid transparent; white-space: nowrap; color: var(--on-invert-2); }}
+.topnav .navlink:hover {{ background: none; color: var(--on-invert); }}
+.topnav .navlink.active {{ color: var(--on-invert); border-bottom-color: var(--haute); background: none; }}
+.topnav .navlink:focus-visible {{ outline: 2px solid var(--on-invert); outline-offset: -2px; }}
+.theme-btn {{ margin-left: auto; align-self: center; display: inline-flex; align-items: center;
+  justify-content: center; min-width: 44px; min-height: 44px; padding: 0 var(--s-2);
+  background: none; border: 0; cursor: pointer; color: var(--on-invert-2);
+  font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
+  letter-spacing: .06em; transition: color var(--rythme); }}
+.theme-btn:hover {{ color: var(--on-invert); }}
+.theme-btn:focus-visible {{ outline: 2px solid var(--on-invert); outline-offset: -2px; }}
+.theme-btn svg {{ width: 17px; height: 17px; fill: none; stroke: currentColor;
+  stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }}
 
 nav.rail {{ position: sticky; top: 16px; align-self: start; display: flex;
   flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }}
 .rail-label {{ font-family: var(--mono); font-weight: 700; font-size: .64rem;
   text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2);
   margin: 16px 0 5px; padding-left: 13px; }}
-.navlink {{ display: flex; justify-content: space-between; align-items: baseline;
-  gap: 8px; text-align: left; border: 0; background: none; cursor: pointer;
-  font-family: var(--mono); font-size: .72rem; letter-spacing: .02em;
-  text-transform: uppercase; color: var(--ink-2); padding: 7px 10px;
-  border-left: 3px solid transparent; border-radius: 0 6px 6px 0; }}
+.navlink {{ display: flex; justify-content: space-between; align-items: center;
+  gap: var(--s-2); text-align: left; border: 0; background: none; cursor: pointer;
+  font-family: var(--mono); font-size: var(--t-sm); letter-spacing: .02em;
+  text-transform: uppercase; color: var(--ink-2); padding: var(--s-3);
+  min-height: 44px; border-left: 3px solid transparent; border-radius: 0 6px 6px 0;
+  transition: color var(--rythme), background-color var(--rythme),
+              border-color var(--rythme); }}
 .navlink:hover {{ color: var(--ink); background: var(--panel); }}
 .navlink.active {{ color: var(--ink); font-weight: 500; border-left-color: var(--haute); }}
-.navlink .yr {{ font-size: .64rem; color: var(--ink-2); }}
+.navlink .yr {{ font-size: var(--t-xs); color: var(--ink-2); }}
 .navlink:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
 
 header.mast {{ display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap;
   padding: 20px 0; }}
 h1 {{ font-family: var(--sans); font-weight: 700; font-size: clamp(2.3rem, 6.5vw, 4rem);
   letter-spacing: -.055em; margin: 0; line-height: 1.02; text-wrap: balance; }}
-.tagline {{ margin: 10px 0 0; color: var(--ink); font-family: var(--mono);
-  font-weight: 600; font-size: .95rem; line-height: 1.55; max-width: 60em; }}
-.mast-stats {{ margin-left: auto; display: flex; gap: 24px; }}
+/* Le mono va bien aux dates, aux compteurs et aux étiquettes. Sur six lignes de
+   prose, il ralentit la lecture : l'accroche repasse en sans. */
+.tagline {{ margin: var(--s-3) 0 0; color: var(--ink); font-family: var(--sans);
+  font-weight: 400; font-size: var(--t-lg); line-height: 1.5; max-width: 62ch; }}
+.mast-stats {{ margin-left: auto; display: flex; gap: var(--s-5); }}
 .stat {{ text-align: right; }}
-.stat b {{ display: block; font-family: var(--mono); font-weight: 700; font-size: 2.4rem;
+.stat b {{ display: block; font-family: var(--mono); font-weight: 700; font-size: var(--t-2xl);
   letter-spacing: -.03em; font-variant-numeric: tabular-nums; line-height: 1.05; }}
 .stat.warn b {{ color: var(--haute); }}
-.stat span {{ font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
+.stat span {{ font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
   color: var(--ink-2); }}
 
-.layout {{ display: grid; grid-template-columns: 220px 1fr; gap: 36px; padding-top: 20px; }}
+/* 248px et non 220 : la recherche est passée à 16px (zoom iOS) et son texte
+   d'invite ne tenait plus dans la colonne. */
+.layout {{ display: grid; grid-template-columns: 248px 1fr; gap: var(--s-6); padding-top: var(--s-5); }}
 main {{ min-width: 0; }}
 .view > :first-child {{ margin-top: 0; }}
 .eyebrow {{ font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
@@ -930,22 +1004,42 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .tag.verif {{ background: var(--info-bg); color: var(--info); }}
 .tag.clos {{ background: var(--clos-bg); color: var(--clos); }}
 
-.rail .search {{ margin: 0 0 12px; }}
-.search input {{ width: 100%; font-family: var(--mono); font-size: .8rem; color: var(--ink);
+.rail .search {{ margin: 0 0 var(--s-3); }}
+/* 16px obligatoire : en dessous, Safari iOS zoome à la prise de focus et ne
+   revient pas. C'est le geste principal du site, sur son appareil principal. */
+.search input {{ width: 100%; font-family: var(--mono); font-size: 16px; color: var(--ink);
   background: none; border: 1.5px solid var(--ink); border-radius: 8px;
-  padding: 8px 12px; }}
+  min-height: 44px; padding: var(--s-2) var(--s-3);
+  transition: border-color var(--rythme), box-shadow var(--rythme); }}
 .search input:focus {{ outline: none; border-color: var(--pine);
   box-shadow: 0 0 0 3px var(--pine-soft); }}
 .search input::placeholder {{ color: var(--ink-2); }}
 .noresult {{ color: var(--ink-2); font-style: italic; }}
-.cats {{ display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }}
-.cat {{ font-family: var(--mono); font-size: .74rem; color: var(--ink); background: var(--paper);
-  border: 1px solid var(--ink); border-radius: 999px; padding: 5px 12px; cursor: pointer; }}
-.cat span {{ color: inherit; opacity: .7; font-size: .7rem; font-variant-numeric: tabular-nums; }}
+.cats {{ display: flex; flex-wrap: wrap; gap: var(--s-2); margin: var(--s-3) 0 var(--s-1); }}
+.cat {{ display: inline-flex; align-items: center; gap: var(--s-1);
+  font-family: var(--mono); font-size: var(--t-sm); color: var(--ink); background: var(--paper);
+  border: 1px solid var(--ink); border-radius: 999px; padding: var(--s-2) var(--s-4);
+  min-height: 44px; cursor: pointer;
+  transition: color var(--rythme), background-color var(--rythme), border-color var(--rythme); }}
+.cat span {{ color: inherit; opacity: .7; font-size: var(--t-xs); font-variant-numeric: tabular-nums; }}
 .cat:hover {{ border-color: var(--pine); color: var(--pine); }}
-.cat.active {{ background: var(--pine); border-color: var(--pine); color: #fff; }}
-.cat.active span {{ color: #fff; opacity: .8; }}
+.cat[aria-pressed="true"] {{ background: var(--pine); border-color: var(--pine); color: var(--on-accent); }}
+.cat[aria-pressed="true"] span {{ color: var(--on-accent); opacity: .85; }}
 .cat:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
+
+/* Légende de gravité : elle n'existait que dans l'attribut title des 71 pastilles,
+   donc invisible au tactile et au clavier. C'était la clé de lecture du site. */
+.legende {{ display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4);
+  margin: var(--s-3) 0 var(--s-5); padding: var(--s-3) var(--s-4);
+  background: var(--panel); border-radius: 8px;
+  font-size: var(--t-sm); color: var(--ink-2); }}
+.legende b {{ font-family: var(--mono); font-size: var(--t-xs); font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em; padding: 2px 7px;
+  border-radius: 5px; margin-right: var(--s-1); }}
+.legende .l-haute b {{ background: var(--haute-bg); color: var(--haute); }}
+.legende .l-moyenne b {{ background: var(--moy-bg); color: var(--moy); }}
+.legende .l-info b {{ background: var(--info-bg); color: var(--info); }}
+.legende > span {{ display: inline-flex; align-items: baseline; }}
 .about p {{ max-width: none; font-size: .97rem; line-height: 1.6; }}
 .about p.disclaimer {{ margin-top: 22px; }}
 
@@ -970,16 +1064,24 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
   padding: 10px 14px; border-radius: 8px; margin: 0; }}
 .contact .statut.ok {{ background: var(--pine-soft); color: var(--pine); }}
 .contact .statut.ko {{ background: var(--haute-bg); color: var(--haute); }}
-.footlink {{ font: inherit; color: var(--pine); background: none; border: 0; padding: 0;
-  text-decoration: underline; cursor: pointer; }}
-.cards {{ display: flex; flex-direction: column; gap: 14px; margin: 18px 0 30px; }}
+.footlink {{ font: inherit; color: var(--pine); background: none; border: 0;
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--s-2);
+  text-decoration: underline; cursor: pointer; transition: color var(--rythme); }}
+.footlink:hover {{ color: var(--ink); }}
+.footlink:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 2px; }}
+.cards {{ display: flex; flex-direction: column; gap: var(--s-4); margin: var(--s-5) 0 var(--s-6); }}
 .card {{ border: 1px solid var(--clos); border-left-width: 5px;
-  border-radius: 8px; padding: 14px 16px; background: var(--paper); }}
+  border-radius: 8px; padding: var(--s-4); background: var(--paper); }}
 .card.haute {{ border-color: var(--haute); }}
 .card.moyenne {{ border-color: var(--moy); }}
 .card.info {{ border-color: var(--info); }}
-.card.clos {{ opacity: .75; border-color: var(--line); }}
+/* Pas d'opacity sur une carte clôturée : elle rabotait le contraste de tout ce
+   qu'elle contenait, pastille comprise (2.1:1 mesuré). L'atténuation passe par la
+   bordure et le fond, qui ne touchent pas au texte. */
+.card.clos {{ border-color: var(--line); background: var(--clos-bg); }}
 .card.ok {{ border-color: var(--pine); }}
+h3.card-top {{ font-size: inherit; font-weight: inherit; line-height: inherit; }}
+h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .badge.sev-ok {{ background: var(--pine-soft); color: var(--pine); }}
 .bname {{ margin: 0 0 6px; font-size: 1.02rem; }}
 .disclaimer {{ color: var(--ink-2); font-size: .85rem; font-style: italic; max-width: 80ch; }}
@@ -993,11 +1095,11 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .badge.sev-clos {{ background: var(--clos-bg); color: var(--clos); }}
 .chip.changed {{ font-family: var(--mono); font-size: .69rem; font-weight: 600;
   color: var(--pine); background: var(--pine-soft); padding: 3px 8px; border-radius: 5px; }}
-.card .type {{ font-family: var(--mono); color: var(--ink-2); font-size: .75rem; }}
-.card .portion {{ margin: 0 0 10px; font-size: .94rem; letter-spacing: .02em;
-  line-height: 1.5; max-width: 90ch; }}
-.card .alt {{ margin: 0 0 10px; font-size: .84rem; max-width: 90ch;
-  padding: 8px 12px; background: var(--pine-soft); color: var(--ink); border-radius: 6px; }}
+.card .type {{ font-family: var(--mono); color: var(--ink-2); font-size: var(--t-sm); }}
+.card .portion {{ margin: 0 0 var(--s-3); font-size: var(--t-base); letter-spacing: .01em;
+  line-height: 1.55; max-width: 78ch; }}
+.card .alt {{ margin: 0 0 var(--s-3); font-size: var(--t-md); max-width: 78ch;
+  padding: var(--s-2) var(--s-3); background: var(--pine-soft); color: var(--ink); border-radius: 6px; }}
 .card .alt a {{ color: var(--pine); }}
 .card .alt-label {{ display: inline-block; font-family: var(--mono); font-size: .64rem;
   font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--pine);
@@ -1005,52 +1107,111 @@ th {{ background: var(--panel); font-size: .74rem; text-transform: uppercase; le
 .card.clos .alt {{ background: var(--clos-bg); color: var(--ink); }}
 .card.clos .alt a {{ color: var(--pine); }}
 .card.clos .alt-label {{ color: var(--clos); }}
-.card .meta {{ margin: 0; color: var(--ink-2); font-size: .78rem; max-width: 90ch; }}
-.card .meta.dates {{ margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); }}
-.card .meta.sources {{ margin-top: 3px; }}
+.card .meta {{ margin: 0; color: var(--ink-2); font-size: var(--t-sm); max-width: 90ch; }}
+.card .meta.dates {{ margin-top: var(--s-3); padding-top: var(--s-2); border-top: 1px solid var(--line); }}
+.card .meta.sources {{ margin-top: var(--s-1); }}
 .card .meta .sep {{ margin: 0 6px; }}
-.card details {{ margin-top: 10px; font-size: .88rem; }}
-.card summary {{ cursor: pointer; color: var(--pine); font-family: var(--mono);
-  font-weight: 600; font-size: .75rem; list-style: none; }}
+.card details {{ margin-top: var(--s-3); font-size: var(--t-md); }}
+.card summary {{ display: inline-flex; align-items: center; min-height: 44px;
+  cursor: pointer; color: var(--pine); font-family: var(--mono);
+  font-weight: 600; font-size: var(--t-sm); list-style: none;
+  transition: color var(--rythme); }}
+.card summary:hover {{ color: var(--ink); }}
 .card summary::-webkit-details-marker {{ display: none; }}
 .card summary::before {{ content: "> "; }}
 .card details p {{ margin: 8px 0 0; max-width: 90ch; }}
 .card .key {{ margin: 6px 0 0; }}
 .card .key code {{ font-size: .72rem; color: var(--ink-2); background: none; padding: 0; }}
-h3.bloc {{ font-family: var(--sans); font-weight: 800; letter-spacing: -.02em;
-  font-size: 1.15rem; margin: 34px 0 4px; }}
+h2.bloc, h3.bloc {{ font-family: var(--sans); font-weight: 800; letter-spacing: -.02em;
+  font-size: var(--t-lg); margin: var(--s-6) 0 var(--s-1); }}
 .annexes h2 {{ font-size: 1.2rem; margin-top: 34px; }}
 
-footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink);
-  color: var(--ink-2); font-family: var(--mono); font-size: .66rem;
-  text-transform: uppercase; display: flex; gap: 8px; flex-wrap: wrap;
+footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px solid var(--ink);
+  color: var(--ink-2); font-family: var(--mono); font-size: var(--t-xs);
+  text-transform: uppercase; display: flex; gap: var(--s-2); flex-wrap: wrap;
   justify-content: center; text-align: center; }}
 
 @media (max-width: 760px) {{
-  .topnav .nav-in {{ justify-content: flex-start; gap: 16px; }}
+  .topnav .nav-in {{ justify-content: flex-start; gap: var(--s-4); padding: 0 var(--s-4); }}
+  /* la barre défile horizontalement : sans ça le bouton de thème se retrouve
+     hors écran, au bout du défilement */
+  .theme-btn {{ position: sticky; right: 0; background: var(--surface-invert);
+    box-shadow: -10px 0 10px -6px var(--surface-invert); }}
   .layout {{ display: block; }}
+  header.mast {{ padding: var(--s-4) 0 var(--s-2); gap: var(--s-3); }}
+  .tagline {{ font-size: var(--t-base); }}
+  .mast-stats {{ width: 100%; margin-left: 0; justify-content: flex-start; gap: var(--s-6); }}
+  .stat {{ text-align: left; }}
+  .stat b {{ font-size: var(--t-xl); }}
   nav.rail {{ position: static; flex-direction: row; align-items: center;
-    max-height: none; overflow-x: auto; padding-bottom: 10px; margin-bottom: 14px;
+    max-height: none; overflow-x: auto; padding-bottom: var(--s-2); margin-bottom: var(--s-3);
     border-bottom: 1.5px solid var(--ink); }}
   .rail-label {{ display: none; }}
-  .rail .search {{ flex: none; width: 200px; margin: 0 6px 0 0; }}
+  .rail .search {{ flex: none; width: 210px; margin: 0 var(--s-2) 0 0; }}
   .navlink {{ flex: none; border-left: 0; border-bottom: 2px solid transparent;
     border-radius: 0; white-space: nowrap; }}
   .navlink.active {{ border-bottom-color: var(--haute); }}
-  .mast-stats {{ width: 100%; margin-left: 0; justify-content: flex-start; }}
-  .stat {{ text-align: left; }}
+  /* Les filtres tenaient sur 7 rangées, soit 244px : la première alerte partait
+     à 674px, hors écran sur un petit téléphone. Une rangée qui défile les ramène
+     à 44px sans rien retirer. */
+  .cats {{ flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity;
+    padding-bottom: var(--s-1); margin-bottom: var(--s-2);
+    -webkit-overflow-scrolling: touch; }}
+  .cat {{ flex: none; scroll-snap-align: start; }}
+  .legende {{ flex-direction: column; gap: var(--s-2); }}
 }}
+/* Les cibles tactiles passent à 44px partout : sur un écran, l'espace récupéré
+   par la rangée de filtres finance largement les 12px ajoutés ici. */
 @media (prefers-reduced-motion: no-preference) {{
   .view {{ animation: fade .18s ease; }}
   @keyframes fade {{ from {{ opacity: 0; transform: translateY(3px); }} }}
 }}
+@media (prefers-reduced-motion: reduce) {{
+  * {{ transition-duration: .01ms !important; animation-duration: .01ms !important; }}
+}}
+
+/* On prépare son étape chez soi et on marche sans réseau : la page doit sortir
+   correctement sur papier, volets ouverts et URL des sources visibles. */
+@media print {{
+  :root {{ color-scheme: light; }}
+  .topnav, nav.rail, .cats, .theme-btn, .skip, .contact, .search {{ display: none !important; }}
+  .layout {{ display: block; }}
+  body {{ background: #fff; color: #000; font-size: 11pt; }}
+  .wrap {{ max-width: none; padding: 0; }}
+  .view[hidden] {{ display: none !important; }}
+  .card {{ break-inside: avoid; border: 1px solid #999; border-left-width: 4px;
+    background: #fff; margin-bottom: 8pt; }}
+  .card summary {{ min-height: 0; }}   /* les volets sont ouverts par beforeprint */
+  .card .alt {{ background: #f2f2f2; }}
+  a {{ color: #000; text-decoration: underline; }}
+  .card .meta.sources a::after {{ content: " (" attr(href) ")"; font-size: 8pt;
+    word-break: break-all; }}
+  footer {{ border-top: 1px solid #000; }}
+}}
 </style>
+<script>
+/* Avant le premier pixel : sinon le thème choisi s'applique après coup et la page
+   clignote en clair chez quelqu'un qui a demandé sombre. */
+(function () {{
+  try {{
+    var t = localStorage.getItem('theme');
+    window.__theme = t || 'auto';
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  }} catch (e) {{}}
+}})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Aller aux alertes</a>
 
 <nav class="topnav" aria-label="Navigation">
   <div class="nav-in">
     <button class="navlink active" data-view="registre">Alertes actives</button>
     {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
     <button class="navlink" data-view="apropos">À propos</button>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Changer de thème">
+      <span class="sr-only">Thème&nbsp;: </span><span id="theme-txt" aria-live="polite">auto</span>
+    </button>
   </div>
 </nav>
 
@@ -1076,16 +1237,23 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   {"".join(nav_items)}
 </nav>
 
-<main>
-<section id="registre" class="view">
+<main id="main" tabindex="-1">
+<section id="registre" class="view" aria-labelledby="t-registre">
+  <h2 id="t-registre" class="sr-only">Alertes actives</h2>
   <div class="cats" role="group" aria-label="Filtrer par catégorie">
   {cats_html}
   </div>
+  <p class="legende">
+    <span class="l-haute"><b>Alerte rouge</b> étape bloquée ou interdiction</span>
+    <span class="l-moyenne"><b>Orange</b> impact réel, sans blocage</span>
+    <span class="l-info"><b>Info</b> bon à savoir avant de partir</span>
+  </p>
+  <p id="live" class="sr-only" role="status" aria-live="polite"></p>
   <div class="cards">
   {cards_html}
   </div>
   <p id="noresult" class="noresult" hidden>Aucune alerte ne correspond à cette recherche.</p>
-  <h3 class="bloc">Alertes clôturées</h3>
+  <h2 class="bloc">Alertes clôturées</h2>
   <div class="cards">
   {closed_html}
   </div>
@@ -1167,24 +1335,90 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
 (function () {{
   var links = document.querySelectorAll('.navlink');
   var views = document.querySelectorAll('.view');
-  function show(id) {{
+
+  // Une vue = une URL. Sans ça, on ne pouvait ni envoyer le rapport du 6 août à
+  // quelqu'un, ni mettre la page bivouac en favori, et le bouton Retour du
+  // navigateur faisait sortir du site au lieu de revenir à la vue précédente.
+  function vueVersHash(id) {{
+    if (id === 'registre') return '';
+    if (id.indexOf('d-') === 0) return '#rapport-' + id.slice(2);
+    return '#' + id;
+  }}
+  function hashVersVue(h) {{
+    h = (h || '').replace(/^#/, '');
+    if (!h) return 'registre';
+    if (h === 'contact') return 'apropos';
+    if (h.indexOf('rapport-') === 0) h = 'd-' + h.slice(8);
+    var el = document.getElementById(h);
+    return (el && el.classList.contains('view')) ? h : 'registre';
+  }}
+  function show(id, pousser) {{
+    var el = document.getElementById(id);
+    if (!el || !el.classList.contains('view')) id = 'registre';
     links.forEach(function (x) {{ x.classList.toggle('active', x.dataset.view === id); }});
     views.forEach(function (v) {{ v.hidden = (v.id !== id); }});
+    if (pousser) {{
+      var h = vueVersHash(id);
+      history.pushState({{ vue: id }}, '', h || location.pathname + location.search);
+    }}
   }}
   links.forEach(function (b) {{
     b.addEventListener('click', function () {{
-      show(b.dataset.view);
+      show(b.dataset.view, true);
       window.scrollTo({{ top: 0 }});
     }});
   }});
+  window.addEventListener('popstate', function () {{
+    show(hashVersVue(location.hash), false);
+  }});
+  // route d'entrée : un lien partagé ouvre directement la bonne vue
+  if (location.hash) {{
+    var vue0 = hashVersVue(location.hash);
+    if (vue0 !== 'registre') show(vue0, false);
+    if (location.hash === '#contact') {{
+      var c0 = document.getElementById('contact');
+      if (c0) c0.scrollIntoView({{ block: 'start' }});
+    }}
+  }}
 
   // pied de page → ouvre « À propos » et amène directement au formulaire
   document.querySelectorAll('.footlink[data-view]').forEach(function (b) {{
     b.addEventListener('click', function () {{
-      show(b.dataset.view);
+      show(b.dataset.view, false);
       var cible = b.dataset.anchor && document.getElementById(b.dataset.anchor);
+      history.pushState({{ vue: b.dataset.view }}, '',
+                        b.dataset.anchor ? '#' + b.dataset.anchor : vueVersHash(b.dataset.view));
       if (cible) {{ cible.scrollIntoView({{ behavior: 'smooth', block: 'start' }}); }}
       else {{ window.scrollTo({{ top: 0 }}); }}
+    }});
+  }});
+
+  // thème : auto (système) → clair → sombre. L'état est relu au chargement par le
+  // script du <head>, celui-ci ne gère que la bascule et l'étiquette.
+  var THEMES = ['auto', 'light', 'dark'];
+  var LIB = {{ auto: 'auto', light: 'clair', dark: 'sombre' }};
+  var tbtn = document.getElementById('theme-btn');
+  var ttxt = document.getElementById('theme-txt');
+  var theme = (window.__theme && THEMES.indexOf(window.__theme) !== -1) ? window.__theme : 'auto';
+  if (ttxt) ttxt.textContent = LIB[theme];
+  if (tbtn) tbtn.addEventListener('click', function () {{
+    theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+    if (theme === 'auto') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', theme);
+    if (ttxt) ttxt.textContent = LIB[theme];
+    try {{ localStorage.setItem('theme', theme); }} catch (e) {{}}
+  }});
+
+  // impression : on ouvre les volets « Détails » le temps du tirage, sinon la
+  // feuille sort amputée de la moitié de ce qu'on venait chercher.
+  window.addEventListener('beforeprint', function () {{
+    document.querySelectorAll('.card details:not([open])').forEach(function (d) {{
+      d.open = true; d.setAttribute('data-print-open', '');
+    }});
+  }});
+  window.addEventListener('afterprint', function () {{
+    document.querySelectorAll('.card details[data-print-open]').forEach(function (d) {{
+      d.open = false; d.removeAttribute('data-print-open');
     }});
   }});
 
@@ -1230,10 +1464,27 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
   var q = document.getElementById('q');
   var cards = document.querySelectorAll('.card:not(.bcard)');
   var noresult = document.getElementById('noresult');
-  var catBtns = document.querySelectorAll('.cat');
+  var live = document.getElementById('live');
+  // `.cat` attrapait aussi les chips bivouac, qui portent les deux classes : cliquer
+  // un filtre bivouac déclenchait en plus le gestionnaire des alertes et basculait
+  // la vue. Les deux jeux de boutons sont maintenant disjoints.
+  var catBtns = document.querySelectorAll('.cat:not(.bcat)');
   var curCat = '';
   function fold(s) {{
     return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().trim();
+  }}
+  // Le compteur est annoncé aux lecteurs d'écran : filtrer ne produisait aucun retour
+  // audible, on ne savait pas si la recherche avait pris.
+  var direFiltre = null;
+  function annoncer(n, filtre) {{
+    if (!live) return;
+    clearTimeout(direFiltre);
+    direFiltre = setTimeout(function () {{
+      live.textContent = filtre
+        ? (n === 0 ? 'Aucune alerte ne correspond.'
+                   : n + (n > 1 ? ' alertes affichées.' : ' alerte affichée.'))
+        : '';
+    }}, 400);
   }}
   function applyFilters() {{
     var v = fold(q.value);
@@ -1245,13 +1496,21 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
       if (ok) hits++;
     }});
     noresult.hidden = !((v || curCat) && hits === 0);
+    annoncer(hits, !!(v || curCat));
   }}
+  // 263 cartes repeintes à chaque frappe : on attend que la saisie se pose.
+  var minuteur = null;
   q.addEventListener('input', function () {{
-    var biv = document.getElementById('bivouac');
-    var onBivouac = biv && !biv.hidden;
-    if (fold(q.value) && document.getElementById('registre').hidden && !onBivouac) show('registre');
-    applyFilters();
-    applyBivouacFilters();
+    clearTimeout(minuteur);
+    minuteur = setTimeout(function () {{
+      var biv = document.getElementById('bivouac');
+      var onBivouac = biv && !biv.hidden;
+      if (fold(q.value) && document.getElementById('registre').hidden && !onBivouac) {{
+        show('registre', true);
+      }}
+      applyFilters();
+      applyBivouacFilters();
+    }}, 120);
   }});
   var bcards = document.querySelectorAll('.bcard');
   var bnoresult = document.getElementById('bnoresult');
@@ -1269,27 +1528,31 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
     }});
     if (bnoresult) bnoresult.hidden = !((v || curRegle) && hits === 0);
   }}
+  function marquer(boutons, cle, valeur) {{
+    boutons.forEach(function (x) {{
+      var sien = x.dataset[cle] || '';
+      x.setAttribute('aria-pressed', (sien === valeur || (!valeur && !sien)) ? 'true' : 'false');
+    }});
+  }}
   bcatBtns.forEach(function (b) {{
     b.addEventListener('click', function () {{
       curRegle = (curRegle === b.dataset.regle) ? '' : b.dataset.regle;
-      bcatBtns.forEach(function (x) {{
-        x.classList.toggle('active', x.dataset.regle === curRegle || (!curRegle && !x.dataset.regle));
-      }});
+      marquer(bcatBtns, 'regle', curRegle);
       applyBivouacFilters();
     }});
   }});
   catBtns.forEach(function (b) {{
     b.addEventListener('click', function () {{
       curCat = (curCat === b.dataset.cat) ? '' : b.dataset.cat;
-      catBtns.forEach(function (x) {{
-        x.classList.toggle('active', x.dataset.cat === curCat || (!curCat && !x.dataset.cat));
-      }});
-      if (document.getElementById('registre').hidden) show('registre');
+      marquer(catBtns, 'cat', curCat);
+      if (document.getElementById('registre').hidden) show('registre', true);
       applyFilters();
     }});
   }});
 }})();
 </script>
+</body>
+</html>
 """
     errs = qa_check(cards, page, bivouac) + registry_integrity_errors()
     warns = ton_warnings(cards)
@@ -1309,6 +1572,27 @@ footer {{ margin-top: 50px; padding-top: 14px; border-top: 1.5px solid var(--ink
               "boucler jusqu'à exit 0. NE PAS PUBLIER.", file=sys.stderr)
         return 2
     OUT.write_text(page, encoding="utf-8")
+
+    # robots.txt + sitemap.xml : le site n'en avait aucun. Le sitemap ne déclare que
+    # l'URL canonique — les vues internes vivent derrière un fragment (#rapport-…),
+    # que les moteurs ne comptent pas comme des pages distinctes. Les rendre
+    # indexables une par une demanderait un vrai build multi-pages.
+    (HERE / "robots.txt").write_text(
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Sitemap: https://www.alertes-rando.info/sitemap.xml\n",
+        encoding="utf-8")
+    (HERE / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        '  <url>\n'
+        '    <loc>https://www.alertes-rando.info/</loc>\n'
+        f'    <lastmod>{latest_iso}</lastmod>\n'
+        '    <changefreq>daily</changefreq>\n'
+        '  </url>\n'
+        '</urlset>\n',
+        encoding="utf-8")
+
     masse = sum(_tailles_courantes().values())
     print(f"OK (QA passée) → {OUT}  ({len(actives)} actives, {len(closes)} clôturées, "
           f"{n_dig} digests ; registre {masse} car. / {len(cards)} fichiers)")

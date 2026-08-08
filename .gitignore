@@ -5,3 +5,7 @@ __pycache__/
 # Courrier : jamais de dump brut de la boîte dans le dépôt public
 courrier/*.eml
 courrier/*.mbox
+
+# Généré par site/build_site.py et régénéré par la CI à chaque fusion (pages.yml).
+# Le versionner ne sert à rien et crée des conflits à chaque run de veille.
+site/index.html
