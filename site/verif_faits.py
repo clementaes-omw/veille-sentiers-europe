@@ -15,6 +15,7 @@ Usage :
     python3 site/verif_faits.py [ref-git]        # défaut : HEAD
     python3 site/verif_faits.py HEAD --seuil 30  # tolérance de raccourcissement, %
 """
+import collections
 import re
 import subprocess
 import sys
@@ -118,11 +119,56 @@ def controle_gras(ref: str) -> int:
     return 1 if bloquants else 0
 
 
+def controle_digests(ref: str) -> int:
+    """Mode --digests : un rapport daté peut changer de style, jamais de contenu.
+
+    Les digests portent en plus une dépendance fonctionnelle : le site lit les clés
+    entre accents graves du digest le plus récent pour décider quelles cartes portent
+    la pastille « changé ». Une clé reformatée casse silencieusement cet affichage.
+    """
+    CLE = re.compile(r"`([^`]+\|[^`]+)`")
+    TITRE = re.compile(r"^#{1,3} .*$", re.M)
+    SEV = re.compile(r"\b(HAUTE|MOYENNE|INFO)\b")
+    pbs, controles = [], 0
+    for f in sorted((REPO / "livrables").glob("digest_*.md")):
+        rel = f"livrables/{f.name}"
+        av = version_git(rel, ref)
+        if av is None:
+            continue
+        ap = f.read_text(encoding="utf-8")
+        if av == ap:
+            continue
+        controles += 1
+        for nom, motif in (("clés d'alerte", CLE), ("titres", TITRE), ("sévérités", SEV)):
+            a, b = collections.Counter(motif.findall(av)), collections.Counter(motif.findall(ap))
+            perdus = a - b
+            if perdus:
+                pbs.append(f"⛔ {f.name}\n     {nom} PERDU(S)/MODIFIÉ(S) : "
+                           f"{', '.join(str(x)[:70] for x in list(perdus)[:6])}")
+        fa, fp = faits(av), faits(ap)
+        for famille in ("nombres", "urls"):
+            perdus = fa[famille] - fp[famille]
+            if perdus:
+                pbs.append(f"⛔ {f.name}\n     {famille} PERDU(S) : "
+                           f"{', '.join(sorted(perdus)[:10])}")
+        reste = re.findall(r"\s[—–]|[—–]\s", ap)
+        if reste:
+            pbs.append(f"⚠️  {f.name}\n     {len(reste)} tiret(s) ponctuant(s) restant(s)")
+    for p in pbs:
+        print(p)
+    bloquants = sum(1 for p in pbs if p.startswith("⛔"))
+    print(f"\n{controles} digest(s) modifié(s) vs {ref} — {bloquants} perte(s), "
+          f"{len(pbs) - bloquants} avertissement(s).")
+    return 1 if bloquants else 0
+
+
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     ref = args[0] if args else "HEAD"
     if "--gras" in sys.argv:
         return controle_gras(ref)
+    if "--digests" in sys.argv:
+        return controle_digests(ref)
     seuil = 30
     if "--seuil" in sys.argv:
         seuil = int(sys.argv[sys.argv.index("--seuil") + 1])
