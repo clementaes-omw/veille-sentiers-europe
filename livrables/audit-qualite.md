@@ -7,3 +7,4 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 ## ⚠️ À traiter
 
 - **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — alerte rouge appuyée sur une source datée du 28/07 (11 j) — retrouver une publication récente ou dégrader la sévérité.
+
