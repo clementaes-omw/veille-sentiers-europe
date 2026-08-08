@@ -12,7 +12,7 @@ ordre: 38
 
 ## Portion concernée
 
-**Sentier et pistes forestières menant au cirque du Moundelhs** (forêt indivise de Bielle et Billières, PN des Pyrénées), fermés au public depuis le 15/07/2026. Raison : chantier forestier (sécurité).
+Sentier et pistes forestières menant au cirque du Moundelhs (forêt indivise de Bielle et Billières, PN des Pyrénées), **fermés au public depuis le 15/07/2026**. Raison : chantier forestier (sécurité).
 
 ## Alternative
 

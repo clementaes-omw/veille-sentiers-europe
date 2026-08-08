@@ -4,7 +4,7 @@ type: risque feu / fermeture massifs
 itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; + secteur
   Garrigues (49 communes, nouveau classement rouge du 07/08, recoupement GR non encore fait)
 sev: HAUTE
-validite: journalière — la préfecture du Gard publie le classement au jour le jour
+validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
 verif: 2026-08-08
 statut: ACTIF — CHANGÉ 08/08 : nouveau classement officiel retrouvé, daté du vendredi
@@ -18,7 +18,7 @@ ordre: 15
 
 ## Portion concernée
 
-**Gard : deux secteurs classés rouges, « Gard Rhodanien » (36 communes, dont Beaucaire, Fourques, Bagnols-sur-Cèze, Pont-Saint-Esprit) et « Garrigues » (49 communes)** : accès, circulation et présence interdits dans les massifs et espaces boisés concernés. Le secteur Val de Cèze, classé rouge la veille (06/08), ne l'est plus dans ce classement. Le GR70 (Cévennes) reste hors zone rouge. En cause : un risque incendie très sévère. Ce classement est celui du 07/08/2026, le plus récent publié par la préfecture à ce jour.
+Gard : deux secteurs classés rouges, « Gard Rhodanien » (36 communes, dont Beaucaire, Fourques, Bagnols-sur-Cèze, Pont-Saint-Esprit) et « Garrigues » (49 communes) : **accès, circulation et présence interdits dans les massifs et espaces boisés concernés**. Le secteur Val de Cèze, classé rouge la veille (06/08), ne l'est plus dans ce classement. Le GR70 (Cévennes) reste hors zone rouge. En cause : un risque incendie très sévère. Ce classement est celui du 07/08/2026, le plus récent publié par la préfecture à ce jour.
 
 ## Alternative
 

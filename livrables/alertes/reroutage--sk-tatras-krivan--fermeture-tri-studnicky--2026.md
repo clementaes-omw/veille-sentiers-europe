@@ -12,7 +12,7 @@ ordre: 46
 
 ## Portion concernée
 
-**Slovaquie, Hautes Tatras** : le sentier d'accès au Kriváň est fermé entre Tri studničky et le carrefour du Krivánsky žľab. Raison : travaux (nature non précisée), réouverture estimée septembre-octobre 2026.
+Slovaquie, Hautes Tatras : **le sentier d'accès au Kriváň est fermé entre Tri studničky et le carrefour du Krivánsky žľab**. Raison : travaux (nature non précisée), réouverture estimée septembre-octobre 2026.
 
 ## Alternative
 

@@ -12,7 +12,7 @@ ordre: 53
 
 ## Portion concernée
 
-Bocchette del Brenta (Cima Falkner) : la plupart des sentiers sont fermés depuis l'éboulement de juillet 2025.
+Bocchette del Brenta (Cima Falkner) : **la plupart des sentiers sont fermés depuis l'éboulement de juillet 2025**.
 
 ## Alternative
 

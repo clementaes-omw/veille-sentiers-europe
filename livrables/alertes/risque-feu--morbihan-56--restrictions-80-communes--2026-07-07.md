@@ -12,7 +12,7 @@ ordre: 22
 
 ## Portion concernée
 
-Restrictions d'accès aux massifs forestiers de **80 communes du Morbihan**, dont des communes littorales du GR34 (Quiberon, Carnac, Belle-Île, Groix…). Épisode du 11 au 15/07, échu. Raison : canicule et risque incendie.
+Restrictions d'accès aux massifs forestiers de 80 communes du Morbihan, dont des communes littorales du GR34 (Quiberon, Carnac, Belle-Île, Groix…). **Épisode du 11 au 15/07, échu.** Raison : canicule et risque incendie.
 
 ## Alternative
 

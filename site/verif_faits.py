@@ -82,9 +82,47 @@ def version_git(chemin: str, ref: str):
     return r.stdout if r.returncode == 0 else None
 
 
+def controle_gras(ref: str) -> int:
+    """Mode --gras : la seule chose autorisée à bouger, ce sont les marqueurs `**`.
+
+    Déplacer une emphase est un geste éditorial (sur une fiche de sécurité, le gras
+    doit tomber sur l'état d'accès, pas sur le nom du massif déjà porté par le badge).
+    Mais c'est aussi l'occasion rêvée de « corriger » une phrase au passage. D'où ce
+    contrôle brutal : texte débarrassé de ses `**`, avant et après, à l'identique.
+    """
+    pbs, controles = [], 0
+    for f in sorted((REPO / ALERTES).glob("*.md")):
+        rel = f"{ALERTES}/{f.name}"
+        avant = version_git(rel, ref)
+        if avant is None:
+            continue
+        apres = f.read_text(encoding="utf-8")
+        if avant == apres:
+            continue
+        controles += 1
+        nu_av, nu_ap = avant.replace("**", ""), apres.replace("**", "")
+        if nu_av != nu_ap:
+            pbs.append(f"⛔ {f.name}\n     le texte lui-même a changé, pas seulement "
+                       f"l'emphase : ce passage ne doit déplacer que des `**`")
+        # Compter sur la prose seule : le champ `statut:` porte parfois du gras hérité,
+        # mais il n'est pas rendu sur le site et ne pèse donc sur aucune lecture.
+        n_ap = sections(apres).count("**") // 2
+        if n_ap > 1:
+            pbs.append(f"⚠️  {f.name}\n     {n_ap} emphases dans la prose : "
+                       f"une seule est attendue")
+    for p in pbs:
+        print(p)
+    bloquants = sum(1 for p in pbs if p.startswith("⛔"))
+    print(f"\n{controles} fiche(s) modifiée(s) vs {ref} — {bloquants} fiche(s) dont le "
+          f"texte a bougé, {len(pbs) - bloquants} avertissement(s).")
+    return 1 if bloquants else 0
+
+
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     ref = args[0] if args else "HEAD"
+    if "--gras" in sys.argv:
+        return controle_gras(ref)
     seuil = 30
     if "--seuil" in sys.argv:
         seuil = int(sys.argv[sys.argv.index("--seuil") + 1])

@@ -14,7 +14,7 @@ ordre: 64
 
 ## Portion concernée
 
-**Alpes-Maritimes : sections fermées sur le GR510, le GR52-GTM et le GR52A.** Sur le GR510, l'accès est interdit à Rigaud entre les balises 205 et 206 (effondrement de sentier, arrêté du 23/04/2025), et plusieurs sections sont fermées à Massoins, aux balises 69-72, 68-69 et 66-68 (arrêté du 21/12/2020). Sur le GR52-GTM, l'itinéraire est temporairement fermé à Entraunes entre les balises 35 et 36 (arrêté du 14/04/2025). Sur le GR52A, la circulation est interdite à Entraunes depuis la borne 266 (arrêté du 12/12/2019) et au niveau de la traversée du ravin du Brec (arrêté du 07/05/2025) ; à Tende, le sentier de la baisse de la Lagouna est fermé entre les balises 334 et 335a (dégâts d'orage, date non précisée). Raison : effondrements et glissements de terrain, dégâts d'orage selon les sections. Source FFRando 06, page « Fermeture des sentiers GR Alpes-Maritimes », mise à jour au 12/07/2026.
+Alpes-Maritimes : **sections fermées sur le GR510, le GR52-GTM et le GR52A.** Sur le GR510, l'accès est interdit à Rigaud entre les balises 205 et 206 (effondrement de sentier, arrêté du 23/04/2025), et plusieurs sections sont fermées à Massoins, aux balises 69-72, 68-69 et 66-68 (arrêté du 21/12/2020). Sur le GR52-GTM, l'itinéraire est temporairement fermé à Entraunes entre les balises 35 et 36 (arrêté du 14/04/2025). Sur le GR52A, la circulation est interdite à Entraunes depuis la borne 266 (arrêté du 12/12/2019) et au niveau de la traversée du ravin du Brec (arrêté du 07/05/2025) ; à Tende, le sentier de la baisse de la Lagouna est fermé entre les balises 334 et 335a (dégâts d'orage, date non précisée). Raison : effondrements et glissements de terrain, dégâts d'orage selon les sections. Source FFRando 06, page « Fermeture des sentiers GR Alpes-Maritimes », mise à jour au 12/07/2026.
 
 ## Alternative
 
@@ -28,4 +28,4 @@ Le GR52 (vallée du Boréon) n'apparaît PAS dans cette page, ce qui reste cohé
 
 ## Source
 
-[FFRando 06 — Fermeture des sentiers GR Alpes-Maritimes](https://alpes-maritimes.ffrandonnee.fr/post/fermeture-des-sentiers-gr-alpes-maritimes/) (page mise à jour au 12/07/2026)
+[FFRando 06, Fermeture des sentiers GR Alpes-Maritimes](https://alpes-maritimes.ffrandonnee.fr/post/fermeture-des-sentiers-gr-alpes-maritimes/) (page mise à jour au 12/07/2026)

@@ -16,7 +16,7 @@ ordre: 16
 
 ## Portion concernée
 
-**La Réunion** : sentiers fermés listés par l'AP 2026-693 du 21/05/2026 (Augustave/Mafate rouvert). Le recoupement précis avec le GR R2 reste à faire. Raison : sécurité (éboulements, état des sentiers).
+La Réunion : **sentiers fermés listés par l'AP 2026-693 du 21/05/2026** (Augustave/Mafate rouvert). Le recoupement précis avec le GR R2 reste à faire. Raison : sécurité (éboulements, état des sentiers).
 
 ## Alternative
 

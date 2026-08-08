@@ -12,11 +12,11 @@ ordre: 51
 
 ## Portion concernée
 
-**Massif de la Gardiole (Poussan/Gigean/Frontignan)** : ~150 ha au total, sous contrôle depuis le 24/07 22h (250 pompiers, moyens aériens Dash + régionaux), pas d'évacuation.
+Massif de la Gardiole (Poussan/Gigean/Frontignan) : ~150 ha au total, sous contrôle depuis le 24/07 22h (250 pompiers, moyens aériens Dash + régionaux), pas d'évacuation.
 
 ## Alternative
 
-Aucune fermeture officielle trouvée.
+**Aucune fermeture officielle trouvée**.
 
 ## Zone (détails)
 
@@ -26,4 +26,4 @@ MAJ 27/07 (run Europe) : le feu est ÉTEINT. feuxdeforet.fr a mis à jour le tit
 
 ## Source
 
-[feuxdeforet.fr — Incendie à Poussan (34) : le feu est éteint](https://feuxdeforet.fr/herault-34/poussan-24-07-2026-4881/) ; France 3 Occitanie ; Hérault Tribune (echo-des-tribunes.com)
+[feuxdeforet.fr, Incendie à Poussan (34) : le feu est éteint](https://feuxdeforet.fr/herault-34/poussan-24-07-2026-4881/) ; France 3 Occitanie ; Hérault Tribune (echo-des-tribunes.com)

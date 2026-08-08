@@ -17,7 +17,7 @@ ordre: 31
 
 ## Portion concernée
 
-**Forêt domaniale de Justin, hauteurs de Die (sud du Diois, Drôme)** : dernière interdiction connue par arrêté préfectoral, « jusqu'à nouvel ordre », liée à un incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Aucune communication officielle n'a été publiée depuis le 16/07/2026, soit 21 jours à la vérification du 06/08 : ni levée, ni reconduction, ni nouveau point de situation sur drome.gouv.fr. Le diagnostic ONF post-incendie (chablis, éboulements), engagé dans le cadre du plan de relance, n'a pas non plus donné lieu à une publication sur l'état d'accès du massif.
+Forêt domaniale de Justin, hauteurs de Die (sud du Diois, Drôme) : **dernière interdiction connue par arrêté préfectoral, « jusqu'à nouvel ordre »**, liée à un incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Aucune communication officielle n'a été publiée depuis le 16/07/2026, soit 21 jours à la vérification du 06/08 : ni levée, ni reconduction, ni nouveau point de situation sur drome.gouv.fr. Le diagnostic ONF post-incendie (chablis, éboulements), engagé dans le cadre du plan de relance, n'a pas non plus donné lieu à une publication sur l'état d'accès du massif.
 
 ## Alternative
 
@@ -45,4 +45,4 @@ MAJ 06/08 : DÉGRADATION HAUTE→MOYENNE. Après examen complet de drome.gouv.fr
 
 ## Source
 
-[drome.ffrandonnee.fr — Modifications d'itinéraires (aucune entrée Justin/Solaure/Laup)](https://drome.ffrandonnee.fr/) ; [info.fr, 22/07/2026 11h28 — Die : reprise de feu locale, situation maîtrisée, accès massif toujours interdit](https://info.fr/die-reprise-feu-locale-maitrisee-massif-justin-2026-07/) ; [drome.gouv.fr — Point de situation / plan de relance](https://www.drome.gouv.fr/Actualites/Actualites-2026/Point-de-situation-sur-le-feu-dans-le-massif-de-Justin-a-Die) (MAJ 16/07/2026) ; [mairie-die.fr — accès interdit au massif de Justin](https://www.mairie-die.fr/acces-interdit-au-massif-de-justin/) (photos datées 20/07/2026)
+[drome.ffrandonnee.fr, Modifications d'itinéraires (aucune entrée Justin/Solaure/Laup)](https://drome.ffrandonnee.fr/) ; [info.fr, 22/07/2026 11h28, Die : reprise de feu locale, situation maîtrisée, accès massif toujours interdit](https://info.fr/die-reprise-feu-locale-maitrisee-massif-justin-2026-07/) ; [drome.gouv.fr, Point de situation / plan de relance](https://www.drome.gouv.fr/Actualites/Actualites-2026/Point-de-situation-sur-le-feu-dans-le-massif-de-Justin-a-Die) (MAJ 16/07/2026) ; [mairie-die.fr, accès interdit au massif de Justin](https://www.mairie-die.fr/acces-interdit-au-massif-de-justin/) (photos datées 20/07/2026)

@@ -3,7 +3,7 @@ cle: incendie|PO-66-Trévillach|feu-4900ha-zone-interdite|2026-07-04
 type: incendie / fermetures post-incendie
 itin: GR36 (66, traversée Fenouillèdes/basse Têt) ; GR10 NON concerné (Canigou/Albères, au sud)
 sev: MOYENNE
-validite: zone brûlée : durable — aucun arrêté d'interdiction publié à ce jour
+validite: zone brûlée : durable, aucun arrêté d'interdiction publié à ce jour
 detection: 2026-07-14 (feu du 04/07)
 verif: 2026-08-07
 statut: ACTIF — dégradée de HAUTE à MOYENNE le 02/08/2026 : aucun arrêté préfectoral d'interdiction d'accès à la zone brûlée n'a été publié sur pyrenees-orientales.gouv.fr en un mois de recherches. L'alerte repose désormais sur le seul fait établi (zone brûlée impraticable), plus sur l'hypothèse d'un arrêté.
@@ -12,7 +12,7 @@ ordre: 21
 
 ## Portion concernée
 
-**Zone brûlée d'environ 5 000 ha, entre Ille-sur-Têt, Trévillach, Montalba-le-Château et Tarerach (Fenouillèdes / basse Têt, 66)**, traversée par le GR36. Au 02/08/2026, aucun arrêté d'interdiction d'accès à la zone incendiée n'est publié sur le site de la préfecture des Pyrénées-Orientales : le terrain n'est pas juridiquement fermé à ce titre, mais il est brûlé sur toute sa largeur (sol instable, arbres fragilisés, balisage détruit). Le massif des Fenouillèdes est par ailleurs fermé au titre du risque incendie, régime distinct et décidé au jour le jour. Raison : feu majeur du 04/07/2026, fixé le 07/07. Le GR10 n'est pas concerné.
+Zone brûlée d'environ 5 000 ha, entre Ille-sur-Têt, Trévillach, Montalba-le-Château et Tarerach (Fenouillèdes / basse Têt, 66), traversée par le GR36. Au 02/08/2026, aucun arrêté d'interdiction d'accès à la zone incendiée n'est publié sur le site de la préfecture des Pyrénées-Orientales : le terrain n'est pas juridiquement fermé à ce titre, mais il est brûlé sur toute sa largeur (sol instable, arbres fragilisés, balisage détruit). **Le massif des Fenouillèdes est par ailleurs fermé au titre du risque incendie**, régime distinct et décidé au jour le jour. Raison : feu majeur du 04/07/2026, fixé le 07/07. Le GR10 n'est pas concerné.
 
 ## Alternative
 
@@ -26,4 +26,4 @@ Sur l'accès à la zone brûlée elle-même, l'état des publications au 02/08/2
 
 ## Source
 
-[Préf. 66 — Incendie de Trévillach, point de situation n°18 (11/07/2026)](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/Incendie-de-Trevillach-Point-de-situation-n-18-le-11.07.26-a-18h30) ; [Préf. 66 — communiqués de juillet 2026](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026)
+[Préf. 66, Incendie de Trévillach, point de situation n°18 (11/07/2026)](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/Incendie-de-Trevillach-Point-de-situation-n-18-le-11.07.26-a-18h30) ; [Préf. 66, communiqués de juillet 2026](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026)

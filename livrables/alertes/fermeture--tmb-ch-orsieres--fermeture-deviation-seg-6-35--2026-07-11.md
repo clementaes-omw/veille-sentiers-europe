@@ -12,7 +12,7 @@ ordre: 26
 
 ## Portion concernée
 
-**TMB côté suisse, commune d'Orsières (VS), secteur Treutsebo** : sentier fermé et dévié entre Prayon et Branche (~1,6 km), déplacé sur la rive droite de la Dranse de Ferret, depuis le samedi 11/07/2026. Raison : [FAIT] risque de chutes de pierres (confirmé par Le Nouvelliste, décision de la mairie d'Orsières).
+TMB côté suisse, commune d'Orsières (VS), secteur Treutsebo : **sentier fermé et dévié entre Prayon et Branche** (~1,6 km), déplacé sur la rive droite de la Dranse de Ferret, depuis le samedi 11/07/2026. Raison : [FAIT] risque de chutes de pierres (confirmé par Le Nouvelliste, décision de la mairie d'Orsières).
 
 ## Alternative
 
@@ -24,4 +24,4 @@ Flux data.geo.admin.ch `ch.astra.wanderland-sperrungen_umleitungen` (dernière M
 
 ## Source
 
-[CSV officiel data.geo.admin.ch](https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv) ; [FFRandonnée — déviation TMB Orsières](https://www.ffrandonnee.fr/s-informer/actualites/deviation-du-sentier-de-grande-randonnee-tour-du-mont-blanc-orsieres-en-suisse)
+[CSV officiel data.geo.admin.ch](https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv) ; [FFRandonnée, déviation TMB Orsières](https://www.ffrandonnee.fr/s-informer/actualites/deviation-du-sentier-de-grande-randonnee-tour-du-mont-blanc-orsieres-en-suisse)

@@ -12,7 +12,7 @@ ordre: 52
 
 ## Portion concernée
 
-**Murias de Ponjos (León, comarca de Omaña)**, près de la route vers Torre del Bierzo : le niveau IGR-2 est maintenu malgré une évolution favorable. Environ 2700 ha parcourus. Au 25/07, 174 évacués de 6 localités restent hors de chez eux.
+Murias de Ponjos (León, comarca de Omaña), près de la route vers Torre del Bierzo : **le niveau IGR-2 est maintenu malgré une évolution favorable.** Environ 2700 ha parcourus. Au 25/07, 174 évacués de 6 localités restent hors de chez eux.
 
 ## Alternative
 
@@ -28,4 +28,4 @@ MAJ 27/07 (run Europe) : CLÔTURE, downgrade IGR-2→IGR-1 dans la soirée du 26
 
 ## Source
 
-[Diario de León, 25/07/2026 — le feu maintient le niveau 2 malgré une évolution favorable, 174 riverains toujours évacués](https://www.diariodeleon.es/leon/260725/2092262/incendio-murias-ponjos-leon-mantiene-nivel-2-pese-evolucion-favorable-siguen-desalojados-174-vecinos-6-localidades.html) ; [COPE, 25/07/2026](https://www.cope.es/emisoras/castilla-y-leon/leon-provincia/leon/noticias/incendio-murias-ponjos-leon-mejora-gracias-fuego-tecnico-viento-mantiene-alerta-20260725_3410582.html) ; [ileon.eldiario.es, 25/07/2026](https://ileon.eldiario.es/actualidad/noche-favorece-control-tres-incendios-activos-provincia-leon-murias-ponjos-principal-foco_1_13406300.html) ; [leonoticias.com 26/07 21h10 — le feu de Murias de Ponjos baisse de niveau, les habitants évacués peuvent rentrer](https://www.leonoticias.com/comarcas/incendio-murias-ponjos-baja-nivel-vecinos-desalojados-20260726211020-nt.html) ; [COPE 26/07 — amélioration, réalojo autorisé pour deux localités](https://www.cope.es/emisoras/castilla-y-leon/leon-provincia/leon/noticias/mejora-incendio-murias-ponjos-leon-permite-realojo-dos-localidades-20260726_3410704.html)
+[Diario de León, 25/07/2026, le feu maintient le niveau 2 malgré une évolution favorable, 174 riverains toujours évacués](https://www.diariodeleon.es/leon/260725/2092262/incendio-murias-ponjos-leon-mantiene-nivel-2-pese-evolucion-favorable-siguen-desalojados-174-vecinos-6-localidades.html) ; [COPE, 25/07/2026](https://www.cope.es/emisoras/castilla-y-leon/leon-provincia/leon/noticias/incendio-murias-ponjos-leon-mejora-gracias-fuego-tecnico-viento-mantiene-alerta-20260725_3410582.html) ; [ileon.eldiario.es, 25/07/2026](https://ileon.eldiario.es/actualidad/noche-favorece-control-tres-incendios-activos-provincia-leon-murias-ponjos-principal-foco_1_13406300.html) ; [leonoticias.com 26/07 21h10, le feu de Murias de Ponjos baisse de niveau, les habitants évacués peuvent rentrer](https://www.leonoticias.com/comarcas/incendio-murias-ponjos-baja-nivel-vecinos-desalojados-20260726211020-nt.html) ; [COPE 26/07, amélioration, réalojo autorisé pour deux localités](https://www.cope.es/emisoras/castilla-y-leon/leon-provincia/leon/noticias/mejora-incendio-murias-ponjos-leon-permite-realojo-dos-localidades-20260726_3410704.html)

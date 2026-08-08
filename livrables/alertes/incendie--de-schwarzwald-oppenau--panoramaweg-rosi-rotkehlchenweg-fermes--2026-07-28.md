@@ -16,7 +16,7 @@ ordre: 100
 
 ## Portion concernée
 
-**Oppenau, secteur du Burgerwald (Forêt-Noire nord, Bade-Wurtemberg) : le Panoramaweg, le Rosi-Rotkehlchen-Weg et le tronçon entre la Kletthütte et le Scheibenfelsen, avec son sentier de raccordement au Schlossgrundweg, restent fermés jusqu'à nouvel ordre.** Raison : un incendie de forêt survenu dans les jours précédant le 28/07/2026, et le risque de chute de pierres et de bois lié aux travaux de sécurisation du service forestier. Le Promenadenweg, l'essentiel du Schlossgrundweg, l'accès à la Kletthütte par le Burgerwald et l'accès à la Friedenseiche par la Kleinebene ont rouvert le 31/07/2026 après déblaiement.
+Oppenau, secteur du Burgerwald (Forêt-Noire nord, Bade-Wurtemberg) : le Panoramaweg, le Rosi-Rotkehlchen-Weg et le tronçon entre la Kletthütte et le Scheibenfelsen, avec son sentier de raccordement au Schlossgrundweg, **restent fermés jusqu'à nouvel ordre.** Raison : un incendie de forêt survenu dans les jours précédant le 28/07/2026, et le risque de chute de pierres et de bois lié aux travaux de sécurisation du service forestier. Le Promenadenweg, l'essentiel du Schlossgrundweg, l'accès à la Kletthütte par le Burgerwald et l'accès à la Friedenseiche par la Kleinebene ont rouvert le 31/07/2026 après déblaiement.
 
 ## Alternative
 
@@ -30,4 +30,4 @@ MAJ 07/08 : la page « Aufhebung Wegsperrungen » d'oppenau.de (31/07/2026) anno
 
 ## Source
 
-[oppenau.de — Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/wegsperrungen.html) (annonce du 28/07/2026, mise à jour du 29/07/2026) ; [oppenau.de — Aufhebung Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/aufhebung+wegsperrungen.html) (31/07/2026)
+[oppenau.de, Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/wegsperrungen.html) (annonce du 28/07/2026, mise à jour du 29/07/2026) ; [oppenau.de, Aufhebung Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/aufhebung+wegsperrungen.html) (31/07/2026)

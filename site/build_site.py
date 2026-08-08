@@ -418,11 +418,14 @@ def render_card(c) -> str:
 
 BIV_COLS = ["pays", "zone", "nom", "type", "regle", "conditions", "feu", "sentiers",
             "source_url", "date_source", "date_verif", "statut", "notes"]
+# Pas d'emoji dans ces pastilles : les cartes d'alerte n'en portent pas, la règle est
+# déjà écrite en toutes lettres et la couleur fait le reste. Un emoji décoratif à côté
+# d'un mot qui dit la même chose est l'un des marqueurs d'écriture générée.
 REGLE_META = {
-    "interdit": ("🚫", "Interdit", "haute"),
-    "tolere": ("🌙", "Toléré (conditions)", "moyenne"),
-    "autorise": ("✅", "Autorisé", "ok"),
-    "variable": ("⚖️", "Variable / droit commun", "info"),
+    "interdit": ("Interdit", "haute"),
+    "tolere": ("Toléré (conditions)", "moyenne"),
+    "autorise": ("Autorisé", "ok"),
+    "variable": ("Variable / droit commun", "info"),
 }
 
 
@@ -441,7 +444,7 @@ def load_bivouac():
 
 
 def render_bivouac_card(b) -> str:
-    emoji, label, cls = REGLE_META.get(b["regle"], ("⚖️", b["regle"], "info"))
+    label, cls = REGLE_META.get(b["regle"], (b["regle"], "info"))
     searchable = fold_txt(" ".join([b["nom"], b["sentiers"], b["zone"], b["pays"], b["conditions"]]))
     searchable = re.sub(r"[*`~\[\]\\]", "", searchable)
     hyp = ('<span class="tag hypo">HYPOTHÈSE</span> ' if b["statut"].upper().startswith("HYPO") else "")
@@ -452,7 +455,7 @@ def render_bivouac_card(b) -> str:
     return f"""<article class="card bcard {cls}" data-bsearch="{html.escape(searchable, quote=True)}" data-regle="{b["regle"]}">
   <div class="card-top">
     <span class="badge itin">{html.escape(b["pays"])}</span>
-    <span class="badge sev-{'haute' if cls=='haute' else 'moyenne' if cls=='moyenne' else 'info' if cls=='info' else 'ok'}">{emoji} {label}</span>
+    <span class="badge sev-{'haute' if cls=='haute' else 'moyenne' if cls=='moyenne' else 'info' if cls=='info' else 'ok'}">{label}</span>
     <span class="type">{html.escape(b["type"])}</span>
   </div>
   <p class="bname"><strong>{inline(b["nom"])}</strong></p>
@@ -762,7 +765,7 @@ def build():
         n = counts.get(cat["slug"], 0)
         if n:
             cats_html += (f'<button class="cat" data-cat="{cat["slug"]}">'
-                          f'{cat["emoji"]} {html.escape(cat["label"])} <span>{n}</span></button>')
+                          f'{html.escape(cat["label"])} <span>{n}</span></button>')
     # Les sections annexes du registre (Items mineurs, À vérifier manuellement, Pistes
     # abandonnées, Notes) sont la MÉMOIRE INTERNE de l'agent : jamais rendues sur le site.
 
@@ -791,10 +794,10 @@ def build():
         for b in bivouac:
             bcounts[b["regle"]] = bcounts.get(b["regle"], 0) + 1
         bchips = f'<button class="cat bcat active" data-regle="">Toutes <span>{len(bivouac)}</span></button>'
-        for slug, (emoji, label, _c) in REGLE_META.items():
+        for slug, (label, _c) in REGLE_META.items():
             n = bcounts.get(slug, 0)
             if n:
-                bchips += (f'<button class="cat bcat" data-regle="{slug}">{emoji} {html.escape(label)} '
+                bchips += (f'<button class="cat bcat" data-regle="{slug}">{html.escape(label)} '
                            f'<span>{n}</span></button>')
         bivouac_section = f"""<section id="bivouac" class="view" hidden>
   <p class="eyebrow">Base de référence · {len(bivouac)} espaces &amp; règles</p>

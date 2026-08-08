@@ -13,7 +13,7 @@ ordre: 57
 
 ## Portion concernée
 
-**GR65, communes de Cieurac et Flaujac-Poujols (Lot, 46), lieux-dits Gariat, Bois grand et stade de Flaujac-Poujols** : accès formellement interdit sur toute la zone touchée par l'incendie, pour une durée indéterminée. Raison : incendie survenu à la mi-juillet 2026.
+GR65, communes de Cieurac et Flaujac-Poujols (Lot, 46), lieux-dits Gariat, Bois grand et stade de Flaujac-Poujols : **accès formellement interdit sur toute la zone touchée par l'incendie, pour une durée indéterminée**. Raison : incendie survenu à la mi-juillet 2026.
 
 ## Alternative
 
@@ -25,4 +25,4 @@ Lot (46), secteur de Limogne-en-Quercy : un incendie de la mi-juillet 2026 a tou
 
 ## Source
 
-[FFRandonnée — Déviation du GR® 65 dans le Lot pour cause d'incendie](https://www.ffrandonnee.fr/s-informer/actualites/deviation-du-gr-65-dans-le-lot-pour-cause-d-incendie)
+[FFRandonnée, Déviation du GR® 65 dans le Lot pour cause d'incendie](https://www.ffrandonnee.fr/s-informer/actualites/deviation-du-gr-65-dans-le-lot-pour-cause-d-incendie)

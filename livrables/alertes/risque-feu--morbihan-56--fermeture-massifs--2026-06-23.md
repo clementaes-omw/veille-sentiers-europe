@@ -12,7 +12,7 @@ ordre: 14
 
 ## Portion concernée
 
-Massifs forestiers de l'est et du nord du Morbihan (épisode du 23 au 29/06, terminé). Raison : alerte sécheresse.
+Massifs forestiers de l'est et du nord du Morbihan (**épisode du 23 au 29/06, terminé**). Raison : alerte sécheresse.
 
 ## Alternative
 

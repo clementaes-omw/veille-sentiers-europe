@@ -14,7 +14,7 @@ ordre: 28
 
 ## Portion concernée
 
-Via Francigena italienne, **tronçon Formello à La Storta (Parco di Veio, dernière étape avant Rome)** : le sentier « Prato La Corte » est fermé au transit. En cause : un glissement de terrain (avis du 30/01/2026, toujours en ligne au 17/07).
+Via Francigena italienne, tronçon Formello à La Storta (Parco di Veio, dernière étape avant Rome) : le sentier « Prato La Corte » est **fermé au transit**. En cause : un glissement de terrain (avis du 30/01/2026, toujours en ligne au 17/07).
 
 ## Alternative
 

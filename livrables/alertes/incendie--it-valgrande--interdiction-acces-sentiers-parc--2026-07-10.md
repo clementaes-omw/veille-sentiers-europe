@@ -14,7 +14,7 @@ ordre: 25
 
 ## Portion concernée
 
-**Parco Nazionale della Val Grande (VCO, Piémont)** : les ordonnances municipales de fermeture totale ont été révoquées le 17/07 et la majorité du réseau de sentiers est de nouveau accessible. Deux itinéraires restent fermés sur la commune de Premosello Chiovenda : Colloro → Alpe Lut et Colloro → Alpe i Curt. Raison : séquelles de l'incendie du 01/07 (Pizzo Proman, ~700 ha dont ~200 ha dans le parc), résorbé grâce aux pluies récentes.
+Parco Nazionale della Val Grande (VCO, Piémont) : les ordonnances municipales de fermeture totale ont été révoquées le 17/07 et la majorité du réseau de sentiers est de nouveau accessible. **Deux itinéraires restent fermés sur la commune de Premosello Chiovenda** : Colloro → Alpe Lut et Colloro → Alpe i Curt. Raison : séquelles de l'incendie du 01/07 (Pizzo Proman, ~700 ha dont ~200 ha dans le parc), résorbé grâce aux pluies récentes.
 
 ## Alternative
 

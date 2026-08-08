@@ -14,7 +14,7 @@ ordre: 6
 
 ## Portion concernée
 
-GR52, **vallée du Boréon** (Saint-Martin-Vésubie, 06) : tronçon balises 377→380 fermé jusqu'à nouvel ordre. Raison : séquelles de la tempête Alex, tracé historique non rétabli.
+GR52, vallée du Boréon (Saint-Martin-Vésubie, 06) : **tronçon balises 377→380 fermé jusqu'à nouvel ordre**. Raison : séquelles de la tempête Alex, tracé historique non rétabli.
 
 ## Alternative
 

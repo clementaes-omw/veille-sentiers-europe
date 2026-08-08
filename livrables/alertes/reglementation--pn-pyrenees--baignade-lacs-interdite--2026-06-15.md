@@ -12,7 +12,7 @@ ordre: 11
 
 ## Portion concernée
 
-Tous les **lacs, laquets et cours d'eau du cœur du PN des Pyrénées** (GR10, HRP) : baignade et immersion interdites, aquarando interdite, à titre permanent. Raison : protection des milieux aquatiques.
+Tous les lacs, laquets et cours d'eau du cœur du PN des Pyrénées (GR10, HRP) : **baignade et immersion interdites, aquarando interdite, à titre permanent**. Raison : protection des milieux aquatiques.
 
 ## Alternative
 

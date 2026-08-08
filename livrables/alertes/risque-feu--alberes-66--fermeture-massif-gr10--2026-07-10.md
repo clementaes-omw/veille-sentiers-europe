@@ -20,7 +20,7 @@ ordre: 35
 
 ## Portion concernée
 
-**Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10** : accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026 (arrêté renforcé le 13/07). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. L'interdiction est toujours en vigueur à la vérification du 06/08 (source du 29/07) et aucune levée n'a été trouvée. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels ; les randonneurs et cyclistes individuels restent interdits d'accès. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée).
+Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10 : **accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026** (arrêté renforcé le 13/07). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. L'interdiction est toujours en vigueur à la vérification du 06/08 (source du 29/07) et aucune levée n'a été trouvée. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels ; les randonneurs et cyclistes individuels restent interdits d'accès. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée).
 
 ## Alternative
 
@@ -42,4 +42,4 @@ MAJ 06/08 : re-sourcée. Un article ouillade.eu daté du 29/07/2026 reconfirme l
 
 ## Source
 
-[ouillade.eu, 29/07/2026 — « Massif des Albères / Accès interdits par arrêté municipal : mais si tu payes, tu peux rouler »](https://ouillade.eu/politique/massif-des-alberes-acces-interdits-par-arrete-municipal-mais-si-tu-payes-tu-peux-rouler/341509) ; [arrêté 26.238 (PDF)](https://www.tourisme-pyrenees-mediterranee.com/app/uploads/2026/07/arrete-26.238-arrete-de-circulation-interdisant-lacces-au-massif-des-alberes.pdf) ; [rnnmassane.fr 13/07](http://www.rnnmassane.fr/2026/07/13/renforcement-interdictionaccesmassifalberes-communeargeles/) ; [mapetiterando.fr](https://mapetiterando.fr/actualites/massif-alberes-ferme-randonneurs-risque-incendie/)
+[ouillade.eu, 29/07/2026, « Massif des Albères / Accès interdits par arrêté municipal : mais si tu payes, tu peux rouler »](https://ouillade.eu/politique/massif-des-alberes-acces-interdits-par-arrete-municipal-mais-si-tu-payes-tu-peux-rouler/341509) ; [arrêté 26.238 (PDF)](https://www.tourisme-pyrenees-mediterranee.com/app/uploads/2026/07/arrete-26.238-arrete-de-circulation-interdisant-lacces-au-massif-des-alberes.pdf) ; [rnnmassane.fr 13/07](http://www.rnnmassane.fr/2026/07/13/renforcement-interdictionaccesmassifalberes-communeargeles/) ; [mapetiterando.fr](https://mapetiterando.fr/actualites/massif-alberes-ferme-randonneurs-risque-incendie/)

@@ -12,7 +12,7 @@ ordre: 24
 
 ## Portion concernée
 
-Feu de forêt éteint à **Árchez (Axarquía, Málaga, Sierras Tejeda-Almijara)** : sans activité depuis le 18/07/2026, date à laquelle la Junta de Andalucía confirmait déjà que le feu « ne présente plus d'activité » (poste de commandement avancé démantelé). Le confinement de Cómpeta avait été levé le 17/07 au soir et les ~162 évacués étaient rentrés chez eux dès le lendemain matin. Aucune source postérieure au 18/07 ne mentionne la route A-7206 (Cómpeta ↔ Algarrobo, km 0-3) : sa réouverture formelle n'a jamais été confirmée, mais aucun signal de coupure persistante n'a été trouvé non plus. Raison : incendie du 17/07, résolu depuis, sans arrêté ni fermeture de sentier jamais publiés.
+**Feu de forêt éteint** à Árchez (Axarquía, Málaga, Sierras Tejeda-Almijara) : sans activité depuis le 18/07/2026, date à laquelle la Junta de Andalucía confirmait déjà que le feu « ne présente plus d'activité » (poste de commandement avancé démantelé). Le confinement de Cómpeta avait été levé le 17/07 au soir et les ~162 évacués étaient rentrés chez eux dès le lendemain matin. Aucune source postérieure au 18/07 ne mentionne la route A-7206 (Cómpeta ↔ Algarrobo, km 0-3) : sa réouverture formelle n'a jamais été confirmée, mais aucun signal de coupure persistante n'a été trouvé non plus. Raison : incendie du 17/07, résolu depuis, sans arrêté ni fermeture de sentier jamais publiés.
 
 ## Alternative
 
@@ -34,4 +34,4 @@ MAJ 07/08 (clôture) : 9e recherche ciblée (carretera A-7206, site de la mairie
 
 ## Source
 
-[Andalucía Información 18/07 15h18 — « ya no presenta actividad »](https://www.andaluciainformacion.es/articulo/malaga/andalucia-malaga-sucesos-junta-destaca-que-incendio-archez-presenta-actividad-sigue-asegurando-perimetro/202607181518503435028.html) ; [Infobae 18/07 — retour en phase préémergence](https://www.infobae.com/america/agencias/2026/07/18/regresan-a-sus-viviendas-los-desalojados-por-el-incendio-de-archez-que-desciende-a-fase-preemergencia/)
+[Andalucía Información 18/07 15h18, « ya no presenta actividad »](https://www.andaluciainformacion.es/articulo/malaga/andalucia-malaga-sucesos-junta-destaca-que-incendio-archez-presenta-actividad-sigue-asegurando-perimetro/202607181518503435028.html) ; [Infobae 18/07, retour en phase préémergence](https://www.infobae.com/america/agencias/2026/07/18/regresan-a-sus-viviendas-los-desalojados-por-el-incendio-de-archez-que-desciende-a-fase-preemergencia/)

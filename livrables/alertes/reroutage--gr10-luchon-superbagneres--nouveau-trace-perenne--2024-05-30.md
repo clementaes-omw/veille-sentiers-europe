@@ -12,7 +12,7 @@ ordre: 23
 
 ## Portion concernée
 
-GR10 entre **Bagnères-de-Luchon et Superbagnères** (31) : nouveau tracé officiel pérenne via le bassin d'Arbesquens, balisé et rouvert depuis le 30/05/2024, à la suite d'un reroutage lié aux travaux EDF.
+GR10 entre Bagnères-de-Luchon et Superbagnères (31) : nouveau tracé officiel pérenne via le bassin d'Arbesquens, **balisé et rouvert depuis le 30/05/2024**, à la suite d'un reroutage lié aux travaux EDF.
 
 ## Alternative
 

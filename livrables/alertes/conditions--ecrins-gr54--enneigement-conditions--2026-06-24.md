@@ -14,7 +14,7 @@ ordre: 12
 
 ## Portion concernée
 
-**GR54 : passage de l'Aup Martin déconseillé.** Des cols restent enneigés en début de saison, avec des ponts de neige. Le col du Vallon est très dégradé, des travaux sont prévus à l'automne. Une déviation de bûcheronnage est en place sous le Lauvitel. Raison : conditions de début de saison.
+GR54 : **passage de l'Aup Martin déconseillé.** Des cols restent enneigés en début de saison, avec des ponts de neige. Le col du Vallon est très dégradé, des travaux sont prévus à l'automne. Une déviation de bûcheronnage est en place sous le Lauvitel. Raison : conditions de début de saison.
 
 ## Alternative
 

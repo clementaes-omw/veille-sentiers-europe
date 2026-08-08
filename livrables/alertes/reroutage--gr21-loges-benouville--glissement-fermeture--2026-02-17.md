@@ -13,7 +13,7 @@ ordre: 5
 
 ## Portion concernée
 
-GR21 entre la **valleuse des Loges et Bénouville** (secteur Étretat→Fécamp, 76) : accès interdit par arrêtés municipaux. Raison : glissement de terrain.
+GR21 entre la valleuse des Loges et Bénouville (secteur Étretat→Fécamp, 76) : **accès interdit par arrêtés municipaux**. Raison : glissement de terrain.
 
 ## Alternative
 

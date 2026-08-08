@@ -14,11 +14,11 @@ ordre: 4
 
 ## Portion concernée
 
-GR21 entre **Beaurepaire et Pierrefiques** (chemin de la Dragonnerie, Seine-Maritime), jusqu'au 18/09/2026. Raison : réhabilitation d'une ancienne station d'épuration désaffectée à Beaurepaire.
+GR21 entre Beaurepaire et Pierrefiques (chemin de la Dragonnerie, Seine-Maritime), jusqu'au 18/09/2026. Raison : réhabilitation d'une ancienne station d'épuration désaffectée à Beaurepaire.
 
 ## Alternative
 
-Déviation officielle balisée (FFRando Seine-Maritime, le-gr21.com).
+**Déviation officielle balisée** (FFRando Seine-Maritime, le-gr21.com).
 
 ## Zone (détails)
 
@@ -28,4 +28,4 @@ MAJ 05/08 : raison précisée, il s'agit de la réhabilitation d'une ancienne st
 
 ## Source
 
-[decathlon-outdoor.com — Pierrefiques par le bois de Beaurepaire](https://www.decathlon-outdoor.com/fr-fr/explore/france/pierrefiques-par-le-bois-de-beaurepaire) ; FFRando Seine-Maritime ; le-gr21.com
+[decathlon-outdoor.com, Pierrefiques par le bois de Beaurepaire](https://www.decathlon-outdoor.com/fr-fr/explore/france/pierrefiques-par-le-bois-de-beaurepaire) ; FFRando Seine-Maritime ; le-gr21.com

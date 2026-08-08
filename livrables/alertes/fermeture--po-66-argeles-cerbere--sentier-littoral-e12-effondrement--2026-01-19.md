@@ -15,7 +15,7 @@ ordre: 55
 
 ## Portion concernée
 
-**Sentier du littoral (E12), Côte Vermeille, entre Argelès-sur-Mer et Cerbère** : réouverture PARTIELLE confirmée par arrêté officiel du 08/06/2026, 3 sections restant fermées, les Criques de Porteils (Argelès-sur-Mer), les Grandes Elmes (Banyuls-sur-Mer) et Aloès→RD914 (Cerbère, en attente de travaux à l'Anse de Terrimbo). Raison : glissement de terrain provoqué par de fortes pluies lors de l'épisode de février 2026, falaises littorales rendues instables et dangereuses.
+Sentier du littoral (E12), Côte Vermeille, entre Argelès-sur-Mer et Cerbère : **réouverture PARTIELLE confirmée par arrêté officiel du 08/06/2026, 3 sections restant fermées**, les Criques de Porteils (Argelès-sur-Mer), les Grandes Elmes (Banyuls-sur-Mer) et Aloès→RD914 (Cerbère, en attente de travaux à l'Anse de Terrimbo). Raison : glissement de terrain provoqué par de fortes pluies lors de l'épisode de février 2026, falaises littorales rendues instables et dangereuses.
 
 ## Alternative
 
@@ -33,4 +33,4 @@ Itinéraire bis prévu pour les sections Criques de Porteils (Argelès) et Grand
 
 ## Source
 
-[pyrenees-orientales.gouv.fr, 08/06/2026 — Réouverture partielle du sentier du littoral des Pyrénées-Orientales](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juin-2026/Reouverture-partielle-du-sentier-du-littoral-des-Pyrenees-Orientales) ; [cc-acvi.com — Fermeture du sentier du littoral](https://www.cc-acvi.com/actualite/fermeture-du-sentier-du-littoral/) (MAJ 10/03/2026, annonce initiale 19/01/2026)
+[pyrenees-orientales.gouv.fr, 08/06/2026, Réouverture partielle du sentier du littoral des Pyrénées-Orientales](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juin-2026/Reouverture-partielle-du-sentier-du-littoral-des-Pyrenees-Orientales) ; [cc-acvi.com, Fermeture du sentier du littoral](https://www.cc-acvi.com/actualite/fermeture-du-sentier-du-littoral/) (MAJ 10/03/2026, annonce initiale 19/01/2026)

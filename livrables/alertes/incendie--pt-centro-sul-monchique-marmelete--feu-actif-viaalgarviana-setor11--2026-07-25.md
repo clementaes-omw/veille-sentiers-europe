@@ -12,11 +12,11 @@ ordre: 54
 
 ## Portion concernée
 
-**Vale de Água, Monchique/Marmelete** : feu signalé le 25/07 à 04h58 (API fogos.pt), sur le secteur du Setor 11 de la Via Algarviana (GR13). Le feu a été maîtrisé (dominado) dès 08h50 le même jour, le dispositif restant en place ensuite pour consolidation.
+Vale de Água, Monchique/Marmelete : feu signalé le 25/07 à 04h58 (API fogos.pt), sur le secteur du Setor 11 de la Via Algarviana (GR13). Le feu a été maîtrisé (dominado) dès 08h50 le même jour, le dispositif restant en place ensuite pour consolidation.
 
 ## Alternative
 
-Sans objet : aucune fermeture de sentier n'a été confirmée à aucun moment de l'épisode.
+Sans objet : **aucune fermeture de sentier n'a été confirmée à aucun moment de l'épisode**.
 
 ## Zone (détails)
 
@@ -24,4 +24,4 @@ Pic de mobilisation : 107 effectifs, 33 véhicules terrestres, 2 engins à cheni
 
 ## Source
 
-[api.fogos.pt/new/fires](https://api.fogos.pt/new/fires) ; [Barlavento, 25/07/2026 — incêndio em Monchique dominado](https://www.barlavento.pt/incendio-monchique-vale-agua-dominado-manha/) ; [Renascença, 25/07/2026](https://rr.pt/noticia/pais/2026/07/25/perto-de-uma-centena-de-operacionais-combatem-fogo-em-monchique/479530/) ; [Agroportal, 25/07/2026](https://www.agroportal.pt/incendios-fogo-em-monchique-foi-dominado/)
+[api.fogos.pt/new/fires](https://api.fogos.pt/new/fires) ; [Barlavento, 25/07/2026, incêndio em Monchique dominado](https://www.barlavento.pt/incendio-monchique-vale-agua-dominado-manha/) ; [Renascença, 25/07/2026](https://rr.pt/noticia/pais/2026/07/25/perto-de-uma-centena-de-operacionais-combatem-fogo-em-monchique/479530/) ; [Agroportal, 25/07/2026](https://www.agroportal.pt/incendios-fogo-em-monchique-foi-dominado/)

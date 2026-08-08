@@ -3,7 +3,7 @@ cle: fermeture|PL-Tatras-Pusta-Dolinka|szlak-jaune-Kozia-Przelecz|2026-07-30
 type: fermeture / travaux
 itin: Orla Perć (Tatras polonais) — tronçon d'accès Pusta Dolinka ↔ Kozia Przełęcz, sentier balisé jaune
 sev: MOYENNE
-validite: à compter du 30/07/2026, « jusqu'à nouvel ordre » (od 30 lipca do odwołania) — aucune date de réouverture annoncée
+validite: à compter du 30/07/2026, « jusqu'à nouvel ordre » (od 30 lipca do odwołania). Aucune date de réouverture annoncée
 detection: 2026-07-30
 verif: 2026-08-06
 statut: ACTIF — NOUVEAU 30/07 : le Parc national des Tatras (TPN) annonce dans son communiqué
@@ -16,7 +16,7 @@ ordre: 61
 
 ## Portion concernée
 
-**Tatras polonais, sentier balisé JAUNE entre Pusta Dolinka et Kozia Przełęcz.** Fermé à compter du 30/07/2026, jusqu'à nouvel ordre. Raison : travaux de remplacement des chaînes d'assurage (łańcuchy) sur ce tronçon équipé. C'est l'accès normal depuis la Dolina Gąsienicowa vers la Kozia Przełęcz, l'une des portes d'entrée de l'Orla Perć.
+Tatras polonais, sentier balisé JAUNE entre Pusta Dolinka et Kozia Przełęcz. **Fermé à compter du 30/07/2026, jusqu'à nouvel ordre.** Raison : travaux de remplacement des chaînes d'assurage (łańcuchy) sur ce tronçon équipé. C'est l'accès normal depuis la Dolina Gąsienicowa vers la Kozia Przełęcz, l'une des portes d'entrée de l'Orla Perć.
 
 ## Alternative
 
@@ -28,4 +28,4 @@ Versant polonais des Tatras (zone PL-SK-TATRAS). Source officielle lisible tpn.g
 
 ## Source
 
-[tpn.gov.pl — komunikat turystyczny, Parc national des Tatras (relu le 30/07/2026)](https://tpn.gov.pl/komunikat-turystyczny)
+[tpn.gov.pl, komunikat turystyczny, Parc national des Tatras (relu le 30/07/2026)](https://tpn.gov.pl/komunikat-turystyczny)

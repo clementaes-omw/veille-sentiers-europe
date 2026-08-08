@@ -12,7 +12,7 @@ ordre: 96
 
 ## Portion concernée
 
-Via Francigena italienne, **commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre.
+Via Francigena italienne, commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) **interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre.
 
 ## Alternative
 
@@ -24,4 +24,4 @@ Alerte remontée par le comitato locale « Si R-Esiste » et relayée par la pre
 
 ## Source
 
-[La Voce Apuana — « Carrara, frana sulla via Francigena. Interrotta da due anni e nessun intervento », 10/06/2026](https://www.voceapuana.com/2026/06/10/carrara-frana-sulla-via-francigena-interrotta-da-due-anni-e-nessun-intervento/103567)
+[La Voce Apuana, « Carrara, frana sulla via Francigena. Interrotta da due anni e nessun intervento », 10/06/2026](https://www.voceapuana.com/2026/06/10/carrara-frana-sulla-via-francigena-interrotta-da-due-anni-e-nessun-intervento/103567)

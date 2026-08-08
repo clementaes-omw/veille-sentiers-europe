@@ -13,7 +13,7 @@ ordre: 13
 
 ## Portion concernée
 
-GR56A : le tracé historique du **Cimet** (Allos) est dangereux et a été dévié. GR52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été).
+GR56A : le tracé historique du Cimet (Allos) **est dangereux et a été dévié**. GR52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été).
 
 ## Alternative
 
