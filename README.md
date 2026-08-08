@@ -21,6 +21,9 @@ avec deux différences structurantes :
 
 ## Structure
 
+- `CHANGELOG.md` — journal des changements de **fabrique** (générateur, contrôles qualité,
+  CI, présentation). Pas les runs de veille : ceux-là laissent leur digest daté dans
+  `livrables/`. Démarré le 08/08/2026, quand le `git log` a cessé de suffire.
 - `referentiel/zones-sources.md` — périmètre, cadences, sources par zone, contournements
   éprouvés (hérités de l'été 2026 OMW) ; sources ES vérifiées le 17/07/2026.
 - `referentiel/sentiers-db.csv` — **base de données sentiers complète** (582 itinéraires :
