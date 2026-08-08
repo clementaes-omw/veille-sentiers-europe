@@ -12,7 +12,7 @@ statut: ACTIF — CHANGÉ 07/08 : interdiction générale de feu (15/06→30/09)
   source postérieure au 02/08 trouvée malgré recherche dédiée. Feu de la Restonica (Corte) :
   définitivement fixé début août malgré une reprise localisée le 01-02/08 (voir fiches
   dédiées Mare a Mare Nord / GR20-Albertacce pour le détail). Foyers Biguglia/Oletta (fin
-  juillet) non revuérifiés ce run, hors itinéraires suivis, non prioritaires.
+  juillet) non revérifiés ce run, hors itinéraires suivis, non prioritaires.
 ordre: 2
 ---
 
