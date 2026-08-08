@@ -5,7 +5,7 @@ itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ;
 sev: HAUTE
 validite: dimanche 26/07 puis reconduite lundi 27/07/2026 (« l'ensemble du département restera classé en risque exceptionnel ce lundi 27 juillet ») ; jour par jour, sans date de fin annoncée ; jusqu'à nouvel ordre en l'absence de tout signal de levée depuis (dernier point retrouvé : 27/07)
 detection: 2026-07-27
-verif: 2026-08-07
+verif: 2026-08-08
 statut: ACTIF — INCHANGÉ 07/08 : nouvelle recherche ciblée ce jour — la page des communiqués
   d'août 2026 de la préfecture (pyrenees-orientales.gouv.fr) est désormais accessible et
   contient un communiqué (contrôle à Fontpédrouse, 06/08), mais aucun ne porte sur le risque
@@ -17,7 +17,7 @@ ordre: 56
 
 ## Portion concernée
 
-**Tous les massifs forestiers des Pyrénées-Orientales (66)**, dont les 9 massifs départementaux (Capcir, Cerdagne, Conflent, Vallespir, Fenouillèdes, Aspres, Corbières, Roussillon, Albères) — interdiction d'accès déclenchée le dimanche 26/07/2026 par vigilance rouge incendie exceptionnelle, avec interdiction totale de tout usage du feu (barbecues, feux de camp y compris hors massifs et en zones autorisées) et interdiction des feux d'artifice. Raison : risque incendie exceptionnel, conditions météo très défavorables. Constat distinct des fermetures déjà connues (Albères = arrêté municipal spécifique depuis le 10/07 ; Trévillach = zone déjà brûlée) : couvre en plus Vallespir, Conflent, Capcir et Cerdagne, donc des tronçons de GR10/HRP non couverts par les alertes existantes. **Vérifié au 03/08 : aucun signal de levée trouvé depuis la reconduction du 27/07**, statut traité comme toujours actif.
+**Tous les massifs forestiers des Pyrénées-Orientales (66)**, dont les 9 massifs départementaux (Capcir, Cerdagne, Conflent, Vallespir, Fenouillèdes, Aspres, Corbières, Roussillon, Albères) — interdiction d'accès déclenchée le dimanche 26/07/2026 par vigilance rouge incendie exceptionnelle, avec interdiction totale de tout usage du feu (barbecues, feux de camp y compris hors massifs et en zones autorisées) et interdiction des feux d'artifice. Raison : risque incendie exceptionnel, conditions météo très défavorables. Constat distinct des fermetures déjà connues (Albères = arrêté municipal spécifique depuis le 10/07 ; Trévillach = zone déjà brûlée) : couvre en plus Vallespir, Conflent, Capcir et Cerdagne, donc des tronçons de GR10/HRP non couverts par les alertes existantes. **Vérifié le 07/08 : aucune levée ni reconduction explicite n'a été retrouvée au-delà du 27/07** — la page des communiqués de la préfecture pour le mois d'août est désormais consultable mais ne contient aucun texte sur le risque incendie. En l'absence de tout signal de levée publié, la fermeture des massifs reste considérée comme active.
 
 ## Alternative
 
