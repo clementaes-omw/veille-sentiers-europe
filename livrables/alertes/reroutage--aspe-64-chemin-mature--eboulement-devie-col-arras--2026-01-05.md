@@ -12,18 +12,18 @@ ordre: 36
 
 ## Portion concernée
 
-**Chemin de la Mâture (vallée d'Aspe, Pyrénées-Atlantiques), portion du GR10** — fermé depuis le 05/01/2026 par arrêté municipal, « jusqu'à nouvel ordre ». Raison : éboulement.
+Chemin de la Mâture (vallée d'Aspe, Pyrénées-Atlantiques), portion du GR10 : **fermé depuis le 05/01/2026 par arrêté municipal, « jusqu'à nouvel ordre »**. Raison : éboulement.
 
 ## Alternative
 
-Déviation officielle balisée par le col d'Arras — la boucle historique n'est plus intégralement praticable.
+Déviation officielle balisée par le col d'Arras. La boucle historique n'est plus intégralement praticable.
 
 ## Zone (détails)
 
-Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR10, fermé depuis le 05/01/2026 suite à un éboulement ; déviation balisée par le col d'Arras. Détection tardive (événement de janvier découvert au run du 20/07).
+Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR10, est fermé depuis le 05/01/2026 après un éboulement ; déviation balisée par le col d'Arras. Détection tardive : l'événement de janvier a été découvert au run du 20/07.
 
-**MAJ 03/08 :** statut FERMÉ confirmé par recoupement de 2 sources indépendantes (refuges.info + office de tourisme des Pyrénées béarnaises), résolvant le signal contradictoire relevé au 01/08 — l'article annonçant une réouverture après travaux n'est corroboré par aucune source fiable.
+MAJ 03/08 : statut FERMÉ confirmé par recoupement de 2 sources indépendantes (refuges.info + office de tourisme des Pyrénées béarnaises). Cela résout le signal contradictoire relevé au 01/08 : l'article annonçant une réouverture après travaux n'est corroboré par aucune source fiable.
 
 ## Source
 
-[refuges.info, point 6895 — Chemin de la Mâture, FERMÉ](https://www.refuges.info/point/6895) ; [pyrenees-bearnaises.com — avertissement de fermeture](https://www.pyrenees-bearnaises.com/) ; [FFRandonnée — Pyrénées-Atlantiques, chemin de la mâture fermé](https://www.ffrandonnee.fr/s-informer/actualites/pyrenees-atlantiques-le-chemin-de-la-mature-ferme-apres-un-eboulement)
+[refuges.info, point 6895, Chemin de la Mâture, FERMÉ](https://www.refuges.info/point/6895) ; [pyrenees-bearnaises.com, avertissement de fermeture](https://www.pyrenees-bearnaises.com/) ; [FFRandonnée, Pyrénées-Atlantiques, chemin de la mâture fermé](https://www.ffrandonnee.fr/s-informer/actualites/pyrenees-atlantiques-le-chemin-de-la-mature-ferme-apres-un-eboulement)

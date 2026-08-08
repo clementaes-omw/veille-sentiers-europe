@@ -16,7 +16,7 @@ ordre: 16
 
 ## Portion concernée
 
-La Réunion : **sentiers fermés listés par l'AP 2026-693** du 21/05/2026 (Augustave/Mafate rouvert) ; recoupement précis avec le GR R2 à faire. Raison : sécurité (éboulements, état des sentiers).
+La Réunion : **sentiers fermés listés par l'AP 2026-693 du 21/05/2026** (Augustave/Mafate rouvert). Le recoupement précis avec le GR R2 reste à faire. Raison : sécurité (éboulements, état des sentiers).
 
 ## Alternative
 
@@ -24,7 +24,7 @@ Consulter la carte ONF des sentiers fermés avant de partir (lien en sources).
 
 ## Zone (détails)
 
-La Réunion : liste sentiers fermés MAJ par AP 2026-693 du 21/05/2026 (Augustave/Mafate rouvert) — 1ère ligne registre pour le 974
+La Réunion : liste des sentiers fermés MAJ par l'AP 2026-693 du 21/05/2026 (Augustave/Mafate rouvert). 1ère ligne du registre pour le 974.
 
 ## Source
 

@@ -12,7 +12,7 @@ ordre: 44
 
 ## Portion concernée
 
-**Vallée de Silvretta (Partenen, Vorarlberg, Autriche)** : coulée de boue ayant enseveli la route alpine du Silvretta sur ~135 m les 12-13/07/2026. **Sentier du lac Silvrettasee et liaison pédestre Partenen ↔ Bielerhöhe fermés.** Raison : coulée de boue après intempéries.
+Vallée de Silvretta (Partenen, Vorarlberg, Autriche) : une coulée de boue a enseveli la route alpine du Silvretta sur ~135 m les 12-13/07/2026. **Le sentier du lac Silvrettasee et la liaison pédestre Partenen ↔ Bielerhöhe sont fermés**. Raison : coulée de boue après intempéries.
 
 ## Alternative
 
@@ -20,7 +20,7 @@ Aucune alternative connue à ce jour.
 
 ## Zone (détails)
 
-Vorarlberg : coulée de boue confirmée par la presse autrichienne, statut de réouverture non précisé.
+Vorarlberg : la presse autrichienne confirme la coulée de boue ; le statut de réouverture n'est pas précisé.
 
 ## Source
 

@@ -16,7 +16,7 @@ Massifs varois Sainte-Baume, Maures, Centre-Var, Estérel (épisode des 01-02/07
 
 ## Alternative
 
-Sans objet — tous les massifs du Var sont rouverts depuis le 03/07.
+Sans objet : **tous les massifs du Var sont rouverts depuis le 03/07**.
 
 ## Zone (détails)
 

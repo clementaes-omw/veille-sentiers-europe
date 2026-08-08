@@ -13,15 +13,15 @@ ordre: 10
 
 ## Portion concernée
 
-GR34, **rade de Brest : nouveau tracé côtier officiel de 29 km** Daoulas → Logonna-Daoulas → L'Hôpital-Camfrout (remplace 5,5 km intérieurs). Raison : reroutage pérenne inauguré le 28/05/2026.
+GR34, rade de Brest : **nouveau tracé côtier officiel de 29 km**, de Daoulas à Logonna-Daoulas puis L'Hôpital-Camfrout, en remplacement de 5,5 km de tracé intérieur. Raison : reroutage pérenne inauguré le 28/05/2026.
 
 ## Alternative
 
-L'ancien tracé coexiste temporairement ; alternatives hivernales prévues (quiétude des oiseaux).
+L'ancien tracé coexiste temporairement. Des alternatives hivernales sont prévues pour la quiétude des oiseaux.
 
 ## Zone (détails)
 
-Nouvelle portion côtière 29 km Daoulas→Logonna-Daoulas→L'Hôpital-Camfrout, remplace 5,5 km intérieurs ; topo réf. 347 (05/2026) ; ancien tracé coexiste temporairement ; alternatives hivernales (oiseaux)
+Nouvelle portion côtière de 29 km, de Daoulas à Logonna-Daoulas puis L'Hôpital-Camfrout, qui remplace 5,5 km de tracé intérieur. Topo de référence 347 (05/2026). L'ancien tracé coexiste temporairement et des alternatives hivernales sont prévues pour les oiseaux.
 
 ## Source
 

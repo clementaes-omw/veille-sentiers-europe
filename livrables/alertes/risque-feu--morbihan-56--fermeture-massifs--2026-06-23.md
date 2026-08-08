@@ -12,15 +12,15 @@ ordre: 14
 
 ## Portion concernée
 
-Massifs forestiers de l'est/nord Morbihan (épisode du 23 au 29/06, terminé). Raison : alerte sécheresse.
+Massifs forestiers de l'est et du nord du Morbihan (**épisode du 23 au 29/06, terminé**). Raison : alerte sécheresse.
 
 ## Alternative
 
-Sans objet — arrêté levé le 29/06 à 5h.
+Sans objet : arrêté levé le 29/06 à 5h.
 
 ## Zone (détails)
 
-Massifs forestiers les plus exposés (Est/Nord 56) fermés ; alerte sécheresse dépt.
+Massifs forestiers les plus exposés (Est/Nord 56) fermés ; alerte sécheresse départementale.
 
 ## Source
 

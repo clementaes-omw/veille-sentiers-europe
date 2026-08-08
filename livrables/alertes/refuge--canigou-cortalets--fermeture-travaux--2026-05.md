@@ -12,11 +12,11 @@ ordre: 3
 
 ## Portion concernée
 
-Refuge des Cortalets (Canigou, entre Mariailles et Batère, GR10) — **fermé ~3 ans pour travaux** depuis mai 2026. Raison : rénovation complète.
+Refuge des Cortalets (Canigou, entre Mariailles et Batère, GR10). **Fermé ~3 ans pour travaux depuis mai 2026.** Raison : rénovation complète.
 
 ## Alternative
 
-**Accueil provisoire sous tente (Barnum, 20 places) sur site jusqu'à fin septembre 2026**, priorité aux randonneurs itinérants type Tour du Canigó (pas de douches ni d'eau potable, demi-pension en bungalow). Conseil FFCAM/GR10 : privilégier l'étape Mariailles → Saint-Guilhem → Batère pour éviter le passage par les Cortalets.
+Accueil provisoire sous tente (Barnum, 20 places) sur site jusqu'à fin septembre 2026, avec priorité aux randonneurs itinérants type Tour du Canigó. Pas de douches ni d'eau potable, demi-pension en bungalow. Conseil FFCAM/GR10 : privilégier l'étape Mariailles → Saint-Guilhem → Batère pour éviter le passage par les Cortalets.
 
 ## Zone (détails)
 
@@ -24,4 +24,4 @@ Refuge des Cortalets, Canigou (Mariailles↔Batère)
 
 ## Source
 
-[refugedescortalets.ffcam.fr](https://refugedescortalets.ffcam.fr/) ; [ffcam.fr — projet de rénovation Cortalets](https://www.ffcam.fr/projet-de-renovation-cortalets.html) ; [ffrandonnee.fr — accueil provisoire des randonneurs aux Cortalets](https://www.ffrandonnee.fr/s-informer/actualites/dans-le-massif-du-canigou-le-refuge-des-cortalets-accueille-les-randonneurs-dans-une-structure-provisoire) ; gr10.org 20/05/2026
+[refugedescortalets.ffcam.fr](https://refugedescortalets.ffcam.fr/) ; [ffcam.fr, projet de rénovation Cortalets](https://www.ffcam.fr/projet-de-renovation-cortalets.html) ; [ffrandonnee.fr, accueil provisoire des randonneurs aux Cortalets](https://www.ffrandonnee.fr/s-informer/actualites/dans-le-massif-du-canigou-le-refuge-des-cortalets-accueille-les-randonneurs-dans-une-structure-provisoire) ; gr10.org 20/05/2026

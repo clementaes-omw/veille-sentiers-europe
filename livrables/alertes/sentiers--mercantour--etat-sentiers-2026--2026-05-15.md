@@ -13,21 +13,21 @@ ordre: 13
 
 ## Portion concernée
 
-GR56A : tracé historique du **Cimet** (Allos) dangereux, dévié ; GR52 : **gués délicats** (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue ; GR5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été).
+GR56A : le tracé historique du Cimet (Allos) **est dangereux et a été dévié**. GR52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été).
 
 ## Alternative
 
-Déviation balisée au Cimet ; pour les gués du GR52, pas d'itinéraire de repli balisé — attendre la décrue.
+Déviation balisée au Cimet. Pour les gués du GR52, il n'existe pas d'itinéraire de repli balisé : attendre la décrue.
 
 ## Zone (détails)
 
-GR56A Cimet (Allos) : déviation, tracé historique dangereux ; GR52 : gués (refuge de Nice b.415, Cougourde b.424, Cavalet 374-375), dangereux en crue ; GR5 Sallevieille : fermé 31/10→30/04 chaque année (ouvert l'été).
+GR56A Cimet (Allos) : déviation en place, tracé historique dangereux. GR52 : gués (refuge de Nice b.415, Cougourde b.424, Cavalet 374-375), dangereux en crue. GR5 Sallevieille : fermé 31/10→30/04 chaque année (ouvert l'été).
 
-23/07 — page parc mise à jour au 09/07, rien de nouveau ; aucune alerte de crue liée aux orages de juillet trouvée.
+23/07 : page parc mise à jour au 09/07, rien de nouveau ; aucune alerte de crue liée aux orages de juillet trouvée.
 
-29/07 — page officielle non retrouvée avec une date postérieure au 09/07 déjà connu ; aucun nouveau constat spécifique (GR56, GR52, GR5).
+29/07 : page officielle non retrouvée avec une date postérieure au 09/07 déjà connu ; aucun nouveau constat spécifique (GR56, GR52, GR5).
 
-31/07 — fetch direct confirmé : page toujours datée du 9 juillet 2026, aucune fermeture nouvelle ni actualité de sécurité trouvée.
+31/07 : fetch direct confirmé, page toujours datée du 9 juillet 2026, aucune fermeture nouvelle ni actualité de sécurité trouvée.
 
 ## Source
 

@@ -16,7 +16,7 @@ ordre: 17
 
 ## Portion concernée
 
-Aude : massifs **Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés du 03/07 au 31/08** ; île Ste-Lucie fermée les jours très sévère/extrême ; zone incendiée de Ribaute interdite. A priori hors tracés GR36/GR78 (à recouper). Raison : risque incendie saisonnier.
+**Aude : massifs de Fontfroide, Pinèdes de Crémade, la Clape et Pinède Lézignanaise fermés du 03/07 au 31/08.** L'île Ste-Lucie est fermée les jours très sévère/extrême et la zone incendiée de Ribaute est interdite. A priori hors tracés GR36/GR78 (à recouper). Raison : risque incendie saisonnier.
 
 ## Alternative
 
@@ -24,7 +24,7 @@ Aude : massifs **Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanai
 
 ## Zone (détails)
 
-Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin <11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayre : fermeture progressive 3 niveaux ; + zone incendiée de Ribaute fermée jusqu'à levée AP (AP-2026-024, post-incendie)
+Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin <11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayre : fermeture progressive 3 niveaux. S'y ajoute la zone incendiée de Ribaute, fermée jusqu'à levée AP (AP-2026-024, post-incendie).
 
 ## Source
 

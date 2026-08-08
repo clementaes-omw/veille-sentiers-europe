@@ -12,7 +12,7 @@ ordre: 45
 
 ## Portion concernée
 
-**Juliana Trail / Alpe-Adria Trail, Slovénie : passage impossible entre Trnovo ob Soči et Srpenica** (vallée de la Soča) depuis octobre 2025. Raison : dégâts de terrain (détail non précisé par la source).
+Juliana Trail / Alpe-Adria Trail, Slovénie : **passage impossible entre Trnovo ob Soči et Srpenica** (vallée de la Soča) depuis octobre 2025. Raison : dégâts de terrain (détail non précisé par la source).
 
 ## Alternative
 

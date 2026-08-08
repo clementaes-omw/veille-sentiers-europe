@@ -15,15 +15,15 @@ ordre: 1
 
 ## Portion concernée
 
-Cœur du PN des Écrins — bivouac réglementé partout ; **interdit à moins de 500 m des lacs Lauvitel et Muzelle** (sauf zones dédiées balisées). Raison : surfréquentation (jusqu'à 215 tentes/nuit à la Muzelle en 2025).
+Cœur du PN des Écrins : bivouac réglementé partout, **interdit à moins de 500 m des lacs Lauvitel et Muzelle** (sauf zones dédiées balisées). Raison : surfréquentation, jusqu'à 215 tentes par nuit à la Muzelle en 2025.
 
 ## Alternative
 
-Bivouac autorisé 19h→9h, 1 nuit/site, à plus d'1h des limites du cœur et des parkings ; zones dédiées balisées aux deux lacs.
+Bivouac autorisé de 19h à 9h, 1 nuit par site, à plus d'1h des limites du cœur et des parkings ; zones dédiées balisées aux deux lacs.
 
 ## Zone (détails)
 
-Écrins (cœur ; lacs Lauvitel/Muzelle : bivouac <500 m interdit sauf zones dédiées ; 19h→9h, 1 nuit/site, >1h des limites cœur/parkings, réchaud gaz seul ; pas de quotas 2026)
+Écrins, cœur du parc. Aux lacs Lauvitel et Muzelle, le bivouac est interdit à moins de 500 m, sauf zones dédiées. Règle générale dans le cœur : 19h→9h, 1 nuit par site, à plus d'1h des limites du cœur et des parkings, réchaud à gaz seul. Pas de quotas en 2026.
 
 ## Source
 

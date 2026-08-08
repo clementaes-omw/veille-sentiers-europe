@@ -12,15 +12,15 @@ ordre: 46
 
 ## Portion concernée
 
-**Slovaquie, Hautes Tatras : sentier d'accès au Kriváň fermé** entre Tri studničky et le carrefour du Krivánsky žľab, pour travaux. Raison : travaux (nature non précisée), réouverture estimée septembre-octobre 2026.
+Slovaquie, Hautes Tatras : **le sentier d'accès au Kriváň est fermé entre Tri studničky et le carrefour du Krivánsky žľab**. Raison : travaux (nature non précisée), réouverture estimée septembre-octobre 2026.
 
 ## Alternative
 
-Aucune alternative officielle publiée pour cette voie d'accès — utiliser un autre itinéraire d'ascension du Kriváň en attendant la réouverture.
+Aucune alternative officielle publiée pour cette voie d'accès. Utiliser un autre itinéraire d'ascension du Kriváň en attendant la réouverture.
 
 ## Zone (détails)
 
-Tatras slovaques : en complément, tronçon Ždiar–Široké sedlo resté fermé jusqu'à nouvel ordre (itinéraire alternatif balisé en rouge par Monková dolina–Široké sedlo depuis le 01/07/2026) ; fermeture ponctuelle de la vallée de Mlynická les 23-24/07/2026 (réparation pont/garde-corps, temporaire) ; restrictions persistantes secteurs Hrebienka/Studéné doliny et Rázcestie pod Sedielkom–Sedielko (travaux en cours).
+Tatras slovaques, en complément. Le tronçon entre Ždiar et Široké sedlo reste fermé jusqu'à nouvel ordre, avec un itinéraire alternatif balisé en rouge entre Monková dolina et Široké sedlo depuis le 01/07/2026. La vallée de Mlynická a été fermée ponctuellement les 23-24/07/2026 (réparation pont/garde-corps, temporaire). Des restrictions persistent sur les secteurs Hrebienka/Studéné doliny et entre Rázcestie pod Sedielkom et Sedielko (travaux en cours).
 
 ## Source
 
