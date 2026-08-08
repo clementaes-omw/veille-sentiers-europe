@@ -1,29 +1,27 @@
 ---
 cle: risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01
 type: risque feu / fermeture massif
-itin: GR9 (Dentelles de Montmirail — **[FAIT] fermées, communiqué officiel du 05/08**), GR4/GR91 (Monts de Vaucluse, Petit Luberon, Grand Luberon — **[FAIT] fermés, communiqué officiel du 05/08, contredit le signal de désescalade non officiel relevé depuis le 02/08**)
+itin: GR9 (Dentelles de Montmirail), GR4/GR91 (Monts de Vaucluse, Petit Luberon, Grand Luberon) — **[FAIT] tous fermés, dernier communiqué officiel du 05/08 toujours en vigueur au 08/08**
 sev: HAUTE
-validite: communiqué officiel vaucluse.gouv.fr du 05/08/2026, valable pour le 06-07/08/2026 : 11 massifs fermés toute la journée sauf exceptions encadrées (groupes professionnels 5h-13h)
+validite: communiqué officiel vaucluse.gouv.fr du 05/08/2026 (11 massifs fermés), toujours la dernière référence connue au 08/08, aucun communiqué de levée trouvé
 detection: 2026-07-18
-verif: 2026-08-07
-statut: ACTIF — CHANGÉ 07/08 : le communiqué du 05/08 (11 massifs, valable 06-07/08) reste la
-  dernière référence anti-incendie en vigueur, aucun communiqué postérieur trouvé pour le
-  08/08 et au-delà — à re-vérifier au prochain passage. Nouveauté du jour : un second
-  communiqué officiel distinct, daté du 05/08, ferme le massif des Dentelles de Montmirail et
-  l'accès au sommet du Mont Ventoux les 06-07/08 pour l'arrivée du Tour de France Femmes avec
-  Zwift — raison événementielle, pas anti-incendie. C'est la première source officielle datée
-  qui tranche concrètement l'accès au Ventoux aujourd'hui (fermé pour la course), même si son
-  statut au titre du risque incendie reste sans texte dédié.
+verif: 2026-08-08
+statut: ACTIF — CHANGÉ 08/08 : la fenêtre de fermeture sportive du Ventoux/Dentelles de
+  Montmirail (Tour de France Femmes) s'est achevée le 07/08 à 23h — portion réécrite pour
+  ne plus décrire cet épisode clos. Le communiqué anti-incendie du 05/08 (11 massifs) reste
+  la seule référence officielle en vigueur, aucun communiqué postérieur trouvé : traité par
+  défaut comme reconduit. Statut incendie du sommet du Ventoux toujours non tranché par une
+  source dédiée.
 ordre: 33
 ---
 
 ## Portion concernée
 
-Vaucluse : **[FAIT] 11 massifs fermés au public au 06-07/08** (communiqué officiel vaucluse.gouv.fr du 05/08, valable pour le 06-07/08, toujours la dernière référence connue au 07/08) — Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon, Collines de Basse Durance. Exceptions encadrées : groupes professionnels 5h-13h. Raison : risque incendie très sévère persistant. **[FAIT] Le massif des Dentelles de Montmirail est de plus totalement fermé aux randonneurs et spectateurs du jeudi 06/08 6h au vendredi 07/08 23h par un second communiqué officiel du 05/08, pour l'arrivée de la 7e étape du Tour de France Femmes avec Zwift au Mont Ventoux** (seul le site dérogatoire du Paty reste accessible ; route départementale 90 entre Suzette et le col de la Chaîne totalement fermée au public). **[FAIT] L'accès au sommet du Mont Ventoux lui-même est fermé pour la même raison et sur la même fenêtre** : route interdite à la circulation motorisée depuis jeudi 06/08 8h30 (épingle Saint-Estève côté Bédoin, la Reynarde côté Sault, Groseau côté Malaucène), montée au sommet impossible depuis les Ermitants/Chalet Reynard (sud) et le rond-point du Mont Serein (nord), traversée nord-sud impossible, du jeudi 06/08 6h au vendredi 07/08 23h. C'est la première fermeture du Ventoux confirmée par une source officielle datée — motif sportif ponctuel, pas un arrêté anti-incendie : le massif du Ventoux reste par ailleurs absent de la liste des 11 massifs interdits pour risque incendie.
+Vaucluse : **[FAIT] 11 massifs fermés au public** — Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon, Collines de Basse Durance (communiqué officiel vaucluse.gouv.fr du 05/08, toujours la dernière référence connue au 08/08, aucune levée annoncée depuis). Exceptions encadrées : groupes professionnels 5h-13h. Raison : risque incendie très sévère persistant. La fermeture ponctuelle du massif des Dentelles de Montmirail et de l'accès au sommet du Mont Ventoux pour l'arrivée du Tour de France Femmes s'est achevée le 07/08 à 23h ; le statut du sommet du Ventoux au titre du risque incendie reste non tranché par une source officielle dédiée (il n'apparaît dans aucune version connue de la liste des 11 massifs interdits).
 
 ## Alternative
 
-Aucune alternative connue à ce jour pour les 11 massifs fermés pour risque incendie ; info temps réel sur risque-prevention-incendie.fr/vaucluse/ ou au 04 28 31 77 11. Pour les Dentelles de Montmirail et le sommet du Ventoux, la fermeture liée au Tour de France Femmes se lève vendredi 07/08 à 23h ; aucune alternative balisée n'est publiée pour ces deux jours.
+Aucune alternative connue à ce jour pour les 11 massifs fermés pour risque incendie ; info temps réel sur risque-prevention-incendie.fr/vaucluse/ ou au 04 28 31 77 11.
 
 ## Zone (détails)
 
@@ -34,6 +32,8 @@ Page officielle vaucluse.gouv.fr publiée avec une URL et un titre datés du jou
 **MAJ 06/08 : premier communiqué officiel depuis le 23/07 (14 jours de silence rompus)** — vaucluse.gouv.fr, « Vigilance feux de forêts, Interdiction d'accès dans certains massifs forestiers du Vaucluse », daté du 05/08/2026, valable pour le 06-07/08/2026 : 11 massifs explicitement fermés toute la journée (exceptions encadrées pour groupes professionnels 5h-13h) — Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon, Collines de Basse Durance. Ce communiqué tranche sans ambiguïté le doute entretenu depuis le 02/08 : Petit Luberon et Monts de Vaucluse, donnés verts par la source touristique non officielle destinationluberon.com, sont en réalité fermés selon la préfecture. Le Mont Ventoux reste absent de la liste (statut non tranché officiellement, ni fermé ni confirmé ouvert).
 
 **MAJ 07/08 : le Ventoux enfin fermé par une source officielle datée — mais pour une raison sportive, pas anti-incendie.** vaucluse.gouv.fr a publié le 05/08 un second communiqué, distinct de celui sur le risque incendie : « Fermeture du massif des Dentelles de Montmirail les 6 et 7 août 2026 », motivé par l'arrivée de la 7e étape du Tour de France Femmes avec Zwift au sommet du Mont Ventoux. Il ferme le massif des Dentelles de Montmirail aux randonneurs et spectateurs du jeudi 06/08 6h au vendredi 07/08 23h (seul le site du Paty reste accessible par dérogation) et détaille, article par article, les fermetures autour du Ventoux lui-même : route interdite à la circulation motorisée dès jeudi 06/08 8h30 aux trois accès (Saint-Estève côté Bédoin, la Reynarde côté Sault, Groseau côté Malaucène), montée au sommet et traversée nord-sud impossibles du jeudi 06/08 6h au vendredi 07/08 23h. Recoupé par ici.fr (article dédié à la circulation autour du Ventoux les 6-7/08). Aucun communiqué anti-incendie postérieur au 05/08 trouvé pour le 08/08 et au-delà — la reconduction de l'interdiction au-delà du week-end n'est pas encore confirmée.
+
+**MAJ 08/08 : la fenêtre sportive Tour de France Femmes s'est achevée le 07/08 23h — statut du Ventoux/Dentelles de retour à la seule question incendie.** Nouvelle recherche menée : toujours aucun communiqué anti-incendie postérieur au 05/08 sur vaucluse.gouv.fr. Les 11 massifs de ce communiqué restent donc traités comme fermés par défaut (absence de signal ≠ levée). Statut incendie du sommet du Ventoux toujours non tranché par une source dédiée.
 
 ## Source
 

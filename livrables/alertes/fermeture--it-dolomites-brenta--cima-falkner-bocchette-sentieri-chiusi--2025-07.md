@@ -5,7 +5,7 @@ itin: Réseau Bocchette (hors P1)
 sev: MOYENNE
 validite: depuis juillet 2025
 detection: 2025-07
-verif: 2026-07-25
+verif: 2026-08-08
 statut: ACTIF — NOUVEAU 25/07
 ordre: 53
 ---

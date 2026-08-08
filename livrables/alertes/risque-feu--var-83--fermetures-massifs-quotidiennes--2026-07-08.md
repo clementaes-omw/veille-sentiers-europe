@@ -1,26 +1,26 @@
 ---
 cle: risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08
 type: risque feu / fermeture massifs (journalier)
-itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; GR9/GR99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — **rechute totale 01/08 : 9 massifs sur 9 fermés (risque EXTRÊME Haut-Var/Sainte-Baume, très sévère ailleurs), suite à la reprise du feu du Gros Bessillon**
-sev: HAUTE (7/9 massifs fermés au 07/08, risque extrême/très sévère — séquence du mois : 9→1→6→4→9→8→7→4→8→7)
-validite: journalière ; 7/9 massifs fermés au 07/08 (Sainte-Baume, Haut-Var, Maures rouge extrême + Monts Toulonnais, Corniche des Maures, Centre-Var, Îles d'Hyères rouge très sévère), seuls l'Estérel et le plateau de Canjuers restent en orange, conditions météo propices à la propagation
+itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; GR9/GR99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 08/08, seul le Haut-Var reste fermé (rouge très sévère)
+sev: HAUTE (1/9 massif fermé au 08/08 — Haut-Var, rouge très sévère — désescalade majeure après la fixation du feu du Gros Bessillon la veille ; séquence du mois : 9→1→6→4→9→8→7→4→8→7→1)
+validite: journalière ; 1/9 massif fermé au 08/08 (Haut-Var, rouge très sévère), les 8 autres repassent en orange (accès fortement déconseillé, non interdit)
 detection: 2026-07-09
-verif: 2026-08-07
-statut: ACTIF — CHANGÉ 07/08 : légère amélioration — 7 massifs sur 9 fermés (contre 8/9 le
-  06/08), l'Estérel rejoint le plateau de Canjuers en orange. Rouge extrême : Sainte-Baume,
-  Haut-Var, Maures. Rouge très sévère : Monts Toulonnais, Corniche des Maures, Centre-Var,
-  Îles d'Hyères. Feu du Gros Bessillon toujours pas fixé (voir ligne dédiée) : la fermeture
-  reste largement motivée par les conditions météo (chaleur/vent) plus que par ce foyer.
+verif: 2026-08-08
+statut: ACTIF — CHANGÉ 08/08 : désescalade majeure — 1 massif sur 9 fermé (Haut-Var, rouge
+  très sévère), contre 7/9 le 07/08. Les 8 autres (Sainte-Baume, Maures, Monts Toulonnais,
+  Corniche des Maures, Centre-Var, Îles d'Hyères, Estérel, plateau de Canjuers) repassent en
+  orange. Cohérent avec la fixation du feu du Gros Bessillon annoncée le 07/08 (voir ligne
+  dédiée). Sévérité maintenue HAUTE pour le seul massif encore fermé.
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var : **au 07/08, 7 massifs sur 9 fermés au public** — Sainte-Baume, Haut-Var, Maures en rouge extrême ; Monts Toulonnais, Corniche des Maures, Centre-Var, Îles d'Hyères en rouge très sévère ; **l'Estérel et le plateau de Canjuers restent en orange** (accès fortement déconseillé, non interdit). Raison : conditions météo (chaleur, vent) propices à la propagation, en plus du feu du Gros Bessillon toujours pas fixé.
+Var : **au 08/08, 1 massif sur 9 reste fermé au public — le Haut-Var, classé rouge très sévère.** Les 8 autres (Sainte-Baume, Maures, Monts Toulonnais, Corniche des Maures, Centre-Var, Îles d'Hyères, Estérel, plateau de Canjuers) repassent en orange (accès fortement déconseillé, non interdit). Raison de la désescalade : fixation du feu du Gros Bessillon annoncée le 07/08 après 18 jours de lutte (voir ligne dédiée).
 
 ## Alternative
 
-Aucune alternative connue à ce jour : la fermeture touche la majorité du département (7 massifs sur 9), aucune déviation balisée n'est publiée. La carte d'accès est publiée chaque soir avant 19h pour le lendemain sur var.gouv.fr : la consulter avant toute sortie, la situation ayant déjà basculé plusieurs fois d'un jour à l'autre ce mois-ci (9/9 le 28/07, 1/9 le 29/07, 6/9 le 30/07, 4/9 le 31/07, 9/9 le 01/08, 8/9 le 02/08, 7/9 le 03/08, 4/9 le 04-05/08, 8/9 le 06/08, 7/9 le 07/08).
+Seul le Haut-Var reste interdit d'accès aujourd'hui ; les 8 autres massifs sont praticables avec vigilance renforcée. La carte d'accès est publiée chaque soir avant 19h pour le lendemain sur var.gouv.fr : la consulter avant toute sortie, la situation ayant déjà basculé plusieurs fois d'un jour à l'autre ce mois-ci (9/9 le 28/07, 1/9 le 29/07, 6/9 le 30/07, 4/9 le 31/07, 9/9 le 01/08, 8/9 le 02/08, 7/9 le 03/08, 4/9 le 04-05/08, 8/9 le 06/08, 7/9 le 07/08, 1/9 le 08/08).
 
 ## Zone (détails)
 
@@ -33,6 +33,8 @@ Var : 13/07 = AUCUN massif fermé mais escalade 4→6 en SÉVÈRE ; 16/07 = 0 fe
 **MAJ 06/08 : ré-escalade nette — 8 massifs sur 9 fermés ce jeudi 06/08**, contre 4/9 les 04 et 05/08. Rouge extrême : Sainte-Baume, Haut-Var, Maures, Centre-Var. Rouge très sévère : Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Estérel — ces 4 derniers rejoignent la liste des fermés (ils étaient orange les 04-05/08). Seul le plateau de Canjuers reste orange. Motif : conditions météo particulièrement propices à la propagation (canicule + vent) prévues ce jeudi, en plus du feu du Gros Bessillon toujours pas fixé (voir ligne dédiée). Sources : [presseagence.fr 05/08 — huit massifs forestiers du Var fermés au public ce jeudi](https://presseagence.fr/toulon-risque-incendie-huit-massifs-forestiers-du-var-fermes-au-public-ce-jeudi/) (annonce publiée le 05/08 pour « ce jeudi » 06/08) ; confirmation croisée tv83.info (même liste et même répartition rouge extrême/rouge très sévère/orange).
 
 **MAJ 07/08 : légère amélioration — 7 massifs sur 9 fermés ce vendredi 07/08.** Rouge extrême : Sainte-Baume, Haut-Var, Maures (Centre-Var quitte l'extrême et repasse en très sévère). Rouge très sévère : Monts Toulonnais, Corniche des Maures, Centre-Var, Îles d'Hyères. L'Estérel repasse en orange et rejoint le plateau de Canjuers, seuls massifs non fermés. Motif inchangé : conditions météo (chaleur, vent) favorisant un danger maximal de départs de feux, en plus du feu du Gros Bessillon toujours pas fixé (point de situation n°53, voir ligne dédiée). Source : [presseagence.fr — risque incendie, sept massifs forestiers du Var fermés au public ce vendredi](https://presseagence.fr/toulon-risque-incendie-sept-massifs-forestiers-du-var-fermes-au-public-ce-vendredi/) (publié 06/08/2026 pour « ce vendredi » 07/08).
+
+**MAJ 08/08 : désescalade majeure — 1 massif sur 9 fermé ce samedi 08/08 : le Haut-Var, seul classé rouge très sévère.** Les 8 autres (Sainte-Baume, Maures, Monts Toulonnais, Corniche des Maures, Centre-Var, Îles d'Hyères, Estérel, plateau de Canjuers) repassent en orange. [FAIT, presseagence.fr + varactu.fr] Cette désescalade est directement cohérente avec l'annonce, la veille, de la fixation du feu du Gros Bessillon après 18 jours de lutte (voir ligne dédiée `incendie|Var-Gros-Bessillon|…`).
 
 ## Source
 

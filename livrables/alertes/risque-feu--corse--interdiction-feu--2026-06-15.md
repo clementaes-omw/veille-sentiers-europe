@@ -5,7 +5,7 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-07
+verif: 2026-08-08
 statut: ACTIF — CHANGÉ 07/08 : interdiction générale de feu (15/06→30/09) toujours en
   vigueur. Fango/Bonifato/Agriate : fermeture confirmée encore active au 02/08, mais le
   niveau associé est redescendu de « très sévère » à « élevé » (alerte orange) — aucune

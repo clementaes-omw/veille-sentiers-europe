@@ -5,7 +5,7 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-07
+verif: 2026-08-08
 statut: ACTIF — CHANGÉ 07/08 : escalade confirmée — la préfecture de l'Hérault place SIX
   massifs en alerte rouge incendie pour le jeudi 06/08/2026 (contre 2 lors du dernier
   classement daté connu, Minervois/Saint-Chinianais du 23/07). La liste nominative complète
