@@ -3,25 +3,24 @@ cle: incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12
 type: incendie / fermeture massif
 itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontainebleau, fermeture de facto par arrêté de massif (détail tronçon par tronçon non publié)
 sev: HAUTE
-validite: prolongée jusqu'au 07/08/2026 inclus — Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny et la forêt communale de Nemours suivent désormais tous la même échéance
+validite: prolongée jusqu'au 14/08/2026 inclus — Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny et la forêt communale de Nemours suivent désormais tous la même échéance
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-07
-statut: ACTIF — INCHANGÉ 07/08 : l'échéance du 07/08 tombe aujourd'hui même ; nouvelle
-  recherche ciblée menée (seine-et-marne.gouv.fr, France 3, ONF) — toujours aucune source ne
-  confirme ni prolongation, ni levée, ni réouverture partielle pour la suite. La dernière MAJ
-  officielle connue de seine-et-marne.gouv.fr reste datée du 31/07. À revérifier en priorité
-  absolue au prochain passage FR-IDF-CVL (une annonce est possible dans la journée même,
-  après la clôture de cette vérification).
+verif: 2026-08-08
+statut: ACTIF — CHANGÉ 08/08 : l'arrêté est prolongé jusqu'au 14/08/2026 inclus (et non
+  levé). Source officielle seine-et-marne.gouv.fr (MAJ 07/08) corroborée par France 3
+  Paris-Île-de-France (07/08 12h22). Motif renforcé : persistance de la chaleur/sécheresse,
+  en plus de la protection du patrimoine naturel. Aucune date de réouverture au-delà du
+  14/08 annoncée.
 ordre: 42
 ---
 
 ## Portion concernée
 
-**Forêts domaniales de Fontainebleau, des Trois-Pignons et de la Commanderie (Seine-et-Marne) fermées au public depuis le 19/07/2026, fermeture prolongée au moins jusqu'au 07/08/2026 inclus** (dernier arrêté officiel confirmé daté du 31/07 sur seine-et-marne.gouv.fr ; l'échéance du 07/08 est présentée par la presse comme un plancher, sans garantie de réouverture à cette date) — toutes routes forestières, sentiers, parcelles. Raison : incendies des 12 et 13/07/2026 (~2 000 ha brûlés cumulés selon l'ONF, ~10 % du massif), causes suspectes (2 personnes interpellées), sécheresse extrême, risque incendie persistant ; « la fermeture au public du massif demeure la seule mesure préventive efficace » (seine-et-marne.gouv.fr).
+**Forêts domaniales de Fontainebleau, des Trois-Pignons et de la Commanderie (Seine-et-Marne) fermées au public depuis le 19/07/2026, fermeture prolongée jusqu'au 14/08/2026 inclus** (arrêté officiel confirmé, seine-et-marne.gouv.fr MAJ 07/08/2026) — toutes routes forestières, sentiers, parcelles. Raison : incendies des 12 et 13/07/2026 (~2 000 ha brûlés cumulés selon l'ONF, ~10 % du massif), causes suspectes (2 personnes interpellées), persistance de la chaleur et de la sécheresse, protection du patrimoine naturel.
 
 ## Alternative
 
-**Aucune déviation officielle de GR publiée à ce jour** — éviter l'ensemble du massif jusqu'à la levée de l'arrêté (au plus tôt le 07/08, sans garantie à cette date). Buthiers, Puiselet, Nemours et les satellites d'Orsay restent hors périmètre et accessibles.
+**Aucune déviation officielle de GR publiée à ce jour** — éviter l'ensemble du massif jusqu'à la levée de l'arrêté (au plus tôt le 14/08, sans garantie à cette date). Buthiers, Puiselet, Nemours et les satellites d'Orsay restent hors périmètre et accessibles.
 
 ## Zone (détails)
 
@@ -31,6 +30,8 @@ Massifs de Fontainebleau, Trois-Pignons, Commanderie (communes de Noisy-sur-Éco
 
 **MAJ 07/08 : jour même de l'échéance, toujours aucune annonce de la suite.** seine-et-marne.gouv.fr reste daté du 31/07 (dernière MAJ connue) ; aucune source consultée ce jour (France 3, ONF) n'indique de décision (prolongation, levée totale ou réouverture partielle) pour la journée en cours. La situation reste donc, à l'heure de cette vérification, celle décrite par France 3 le 31/07 : le 7 août est un plancher annoncé, pas une date de réouverture garantie.
 
+**MAJ 08/08 : la prolongation attendue est confirmée — arrêté reconduit jusqu'au 14/08/2026 inclus, PAS de levée.** [FAIT] seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation (MAJ 07/08/2026), corroboré par France 3 Paris-Île-de-France (07/08/2026 12h22, « La forêt de Fontainebleau restera fermée jusqu'au 14 août inclus »). Les 5 massifs (Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny, forêt communale de Nemours) suivent désormais la même échéance. Motif : persistance de la chaleur/sécheresse, en plus de la protection du patrimoine naturel — le motif s'élargit donc au-delà du strict volet sécuritaire initial. Aucune date de réouverture au-delà du 14/08 annoncée ; aucun détail tronçon par tronçon des GR toujours publié.
+
 ## Source
 
-[seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 31/07/2026](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [crashpadtours.fr, MAJ 03/08/2026 — décompte non officiel des secteurs d'escalade rouverts](https://crashpadtours.fr/fontainebleau-incendie-secteurs-ouverts/) ; [franceinfo, MAJ 30/07 09h10 — un feu reprend en forêt de Fontainebleau, six hectares brûlés](https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/un-feu-reprend-en-foret-de-fontainebleau-six-hectares-brules_8127677.html) ; [fr.wikipedia.org — Incendies de 2026 en forêt de Fontainebleau](https://fr.wikipedia.org/wiki/Incendies_de_2026_en_for%C3%AAt_de_Fontainebleau) ; [seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 30/07/2026](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [Le Vaudoué — arrêté 1192 (Trois-Pignons)](https://www.levaudoue.fr/2026/07/18/arrete-prefectoral-foret-des-trois-pignons-fermee-au-public-jusquau-26-juillet-inclus/) ; [Le Vaudoué — arrêté 1193 (Fontainebleau/Commanderie)](https://www.levaudoue.fr/2026/07/19/arrete-prefectoral-forets-domaniales-de-fontainebleau-et-de-la-commanderie-fermees-au-public-jusquau-26-juillet/) ; [ONF, point de situation 20/07/2026](https://www.onf.fr/+/2d66::feux-foret-fontainebleau-faisons-le-point.html) ; [seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 24/07/2026 — prolongation jusqu'au 31/07](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [mesinfos.fr — après les incendies, la forêt de Fontainebleau reste interdite au public](https://mesinfos.fr/77300-fontainebleau/apres-les-incendies-la-foret-de-fontainebleau-reste-interdite-au-public-336023.html) ; aaff.fr/incendies/ (MAJ 24/07/2026)
+[seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 07/08/2026 — prolongation jusqu'au 14/08](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [France 3 Paris-Île-de-France, 07/08/2026 12h22 — la forêt de Fontainebleau restera fermée jusqu'au 14 août inclus](https://france3-regions.franceinfo.fr/paris-ile-de-france/seine-et-marne/la-foret-de-fontainebleau-ferme-jusqu-au-14-aout-inclus-3398182.html) ; [seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 31/07/2026](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [crashpadtours.fr, MAJ 03/08/2026 — décompte non officiel des secteurs d'escalade rouverts](https://crashpadtours.fr/fontainebleau-incendie-secteurs-ouverts/) ; [franceinfo, MAJ 30/07 09h10 — un feu reprend en forêt de Fontainebleau, six hectares brûlés](https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/un-feu-reprend-en-foret-de-fontainebleau-six-hectares-brules_8127677.html) ; [fr.wikipedia.org — Incendies de 2026 en forêt de Fontainebleau](https://fr.wikipedia.org/wiki/Incendies_de_2026_en_for%C3%AAt_de_Fontainebleau) ; [seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 30/07/2026](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [Le Vaudoué — arrêté 1192 (Trois-Pignons)](https://www.levaudoue.fr/2026/07/18/arrete-prefectoral-foret-des-trois-pignons-fermee-au-public-jusquau-26-juillet-inclus/) ; [Le Vaudoué — arrêté 1193 (Fontainebleau/Commanderie)](https://www.levaudoue.fr/2026/07/19/arrete-prefectoral-forets-domaniales-de-fontainebleau-et-de-la-commanderie-fermees-au-public-jusquau-26-juillet/) ; [ONF, point de situation 20/07/2026](https://www.onf.fr/+/2d66::feux-foret-fontainebleau-faisons-le-point.html) ; [seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation, MAJ 24/07/2026 — prolongation jusqu'au 31/07](https://www.seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation) ; [mesinfos.fr — après les incendies, la forêt de Fontainebleau reste interdite au public](https://mesinfos.fr/77300-fontainebleau/apres-les-incendies-la-foret-de-fontainebleau-reste-interdite-au-public-336023.html) ; aaff.fr/incendies/ (MAJ 24/07/2026)
