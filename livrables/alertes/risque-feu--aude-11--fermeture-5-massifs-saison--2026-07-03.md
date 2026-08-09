@@ -5,12 +5,17 @@ itin: GR36 & GR78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (côté 
 sev: MOYENNE
 validite: 03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP
 detection: 2026-07-06
-verif: 2026-08-07
-statut: ACTIF — INCHANGÉ 07/08 : page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » republiée
+verif: 2026-08-09
+statut: ACTIF — CHANGÉ 09/08 : incendie de Montséret (Corbières) résolu — départ le
+  06/08/2026 vers 16h05 (accident de la route), ~100 ha parcourus en direction de
+  Saint-André-de-Roquelongue, confinement temporaire, feu fixé le soir même sans dégâts
+  matériels ni victimes ; aucun lien confirmé avec le GR36 ou le GR78 (secteur Corbières
+  proche de Narbonne, hors des 5 massifs suivis ci-dessous). Événement clos en une soirée,
+  aucune ligne dédiée créée. INCHANGÉ 07/08 : page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » republiée
   avec une mise à jour datée du 06/08/2026 (elle était figée sur le 02/07 depuis un mois) —
   contenu identique : mêmes 5 fermetures (Fontfroide, Pinèdes de Crémade, la Clape, Pinède
   Lézignanaise 03/07→31/08 ; île Ste-Lucie ; Cavayère progressive ; Ribaute post-incendie).
-  Aucun nouveau départ de feu localisé.
+  Aucun nouveau départ de feu localisé sur ces 5 massifs.
 ordre: 17
 ---
 
