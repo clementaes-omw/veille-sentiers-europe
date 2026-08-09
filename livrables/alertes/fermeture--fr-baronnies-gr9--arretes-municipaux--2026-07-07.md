@@ -3,17 +3,17 @@ cle: fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07
 type: fermeture / risque feu
 itin: GR9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
-validite: variable selon commune, jusqu'à nouvel ordre ; 23 communes actives (liste PNR Baronnies Provençales mise à jour début août) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne, échéance du 07/08 dépassée sans confirmation, traitée par défaut comme reconduite ; Saillans, Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
+validite: variable selon commune, jusqu'à nouvel ordre ; 23 communes actives (liste PNR Baronnies Provençales mise à jour début août) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne, échéance du 07/08 dépassée sans confirmation, traitée par défaut comme reconduite ; Saillans (aucune fermeture confirmée par la mairie malgré recherche exhaustive de son actualité), Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-08-08
-statut: ACTIF — CHANGÉ 08/08 : Montclar-sur-Gervanne — l'échéance du 07/08 de l'arrêté AR
-  2026-04 est dépassée sans qu'aucune annonce de levée ni de reconduction n'ait été trouvée ;
-  traitée par défaut comme reconduite (absence de signal ≠ levée), à confirmer au prochain
-  passage. Beauvoisin et Bénivay-Ollon : nouvelle donnée à une seule source (10/07, jusqu'à
-  nouvel ordre), non corroborée par une 2e source (baronnies-provencales.fr ne les liste
-  pas) — traitée comme piste, pas comme fait établi. Saillans toujours sans source directe,
-  échéance du 26/07 dépassée depuis 13 jours. Sévérité maintenue HAUTE (23 communes toujours
-  sous fermeture totale par ailleurs).
+verif: 2026-08-09
+statut: ACTIF — CHANGÉ 09/08 : Saillans — relecture intégrale de l'actualité de la mairie
+  (juillet-août 2026) : aucun article sur une fermeture de massif, alors que d'autres
+  sujets de la période y sont bien traités (pollution, feu de Die). Ce silence de la
+  source la plus directe pèse en faveur d'une absence de restriction communale active,
+  sans la confirmer formellement. Beauvoisin/Bénivay-Ollon : toujours à 1 source, risque
+  d'homonymie signalé (il existe un Beauvoisin dans le Gard, distinct de celui de la
+  Drôme). Montclar-sur-Gervanne : rien de neuf, échéance du 07/08 toujours sans suite
+  connue. Sévérité maintenue HAUTE (23 communes confirmées par ailleurs).
 ordre: 32
 ---
 
@@ -21,7 +21,7 @@ ordre: 32
 
 GR9 dans les Baronnies (Drôme) : **23 communes sous arrêté de fermeture de massifs** (liste PNR Baronnies Provençales du 03/08/2026) : Bellecombe-Tarendol, Châteauneuf-de-Bordette, Condorcet, Curnier, La Penne-sur-Ouvèze (nouvelle), Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Nyons, Pierrelongue (nouvelle), Roche-Saint-Secret-Béconne, La Roche-sur-le-Buis, Sahune (nouvelle, effet 13/07), Sainte-Euphémie-sur-Ouvèze (nouvelle), Sainte-Jalle (nouvelle, effet 08/07), Saint-Sauveur-Gouvernet, Teyssières, Valouse, Venterol, Vercoiran, Vinsobres. Raison : risque incendie (canicule).
 
-Saillans, Beauvoisin et Bénivay-Ollon ne figurent plus dans cette liste de référence du 03/08, sans qu'un arrêté de levée explicite ait été retrouvé pour ces 3 communes : absence de la liste ≠ confirmation formelle, à vérifier.
+Saillans, Beauvoisin et Bénivay-Ollon ne figurent plus dans cette liste de référence du 03/08. Pour Saillans, aucun arrêté ni aucune mention d'une fermeture de massif n'apparaît dans l'actualité publiée par la mairie depuis juillet : rien ne confirme à ce jour une restriction en vigueur sur cette commune. Beauvoisin et Bénivay-Ollon restent rattachées à une fermeture « depuis le 10/07, jusqu'à nouvel ordre » par une seule source (drome-cestmanature.com), non recoupée par la liste du PNR ni par une source officielle.
 
 Beaufort-sur-Gervanne : accès désormais conditionnel (arrêté municipal n°2026-59 du 29/07/2026). Les sentiers de randonnée de la commune ne sont autorisés que lorsque la carte quotidienne des risques incendie du département (risque-prevention-incendie.fr/26) affiche vert ou jaune ; ils sont fermés si elle affiche orange ou rouge.
 
@@ -35,7 +35,7 @@ Aucune alternative connue à ce jour.
 
 ## Zone (détails)
 
-Deux sources partiellement désynchronisées : la fiche Drôme Tourisme (MAJ 19/07) liste encore Monclar-sur-Gervanne « 10/07→19/07 » et Plan de Baix « 07/07→21/07 » comme actives, alors que la fiche PNR Baronnies Provencales (MAJ 20/07, plus à jour) ne les liste plus. Levée probable, mais aucune confirmation explicite (mairie/arrêté) n'a été trouvée pour l'une ou l'autre de ces deux communes ; liste élargie à 23 communes au total.
+Deux sources partiellement désynchronisées : la fiche Drôme Tourisme (MAJ 19/07) liste encore Monclar-sur-Gervanne « 10/07→19/07 » et Plan de Baix « 07/07→21/07 » comme actives, alors que la fiche PNR Baronnies Provençales (MAJ 20/07, plus à jour) ne les liste plus. Levée probable, mais aucune confirmation explicite (mairie/arrêté) n'a été trouvée pour l'une ou l'autre de ces deux communes ; liste élargie à 23 communes au total.
 
 MAJ 26/07 : point de vigilance méthodologique confirmé, la fiche drome-cestmanature.com a un retard de mise à jour avéré. Elle affiche encore Plan de Baix comme actif malgré sa levée confirmée depuis le 23/07 par une autre source. Son silence sur l'échéance de Saillans (26/07) ne peut donc être interprété ni comme une reconduction tacite ni comme une levée : statut réellement indéterminé, à confirmer par une source directe (mairie de Saillans).
 
@@ -58,6 +58,8 @@ MAJ 06/08 : Beaufort-sur-Gervanne enfin sourcée directement. gervanne-sye.com p
 MAJ 07/08 : Montclar-sur-Gervanne sourcée directement. La page « Informations pratiques » de la mairie de Montclar-sur-Gervanne sur gervanne-sye.com référence un arrêté municipal AR 2026-04 intitulé « Prolongation Interdiction temporaire d'accès aux massifs forestiers ». Deux sources secondaires convergentes précisent les dates : la fiche GR9 drome-cestmanature.com (mise à jour affichée 05/08/2026) et valleedeladrome-tourisme.com donnent toutes deux un arrêté daté du 24/07/2026 interdisant l'accès à tous les massifs forestiers de la commune, publics et privés, ainsi qu'aux zones à moins de 200 m de ces massifs, jusqu'au 07/08/2026, c'est-à-dire l'échéance du jour même de cette vérification. Le mot « Prolongation » dans l'intitulé de l'arrêté confirme qu'il s'agit bien de la reconduction d'une mesure antérieure, cohérent avec le passage précédent de la commune sur les listes actives puis sa disparition de la liste PNR du 03/08 (le retrait de cette liste ne correspondait donc pas à une levée). Aucune indication trouvée sur la suite au 08/08 : la reconduction ou la levée de cet arrêté au-delà de cette date reste à confirmer. Saillans : mairiedesaillans26.fr re-testé (page d'accueil et tentative sur le PDF « 06072026 COMMUNIQUE SAILLANS »), toujours aucune page dédiée à l'arrêté de fermeture de massif ni à son échéance du 26/07 ; statut inchangé, non tranché, échéance dépassée depuis 12 jours sans signal dans un sens ou l'autre. Beauvoisin et Bénivay-Ollon : aucune nouvelle source trouvée.
 
 MAJ 08/08 : Montclar-sur-Gervanne, l'échéance du 07/08 est dépassée sans aucune annonce de la suite, rien de plus récent que la page gervanne-sye.com déjà citée. Traitée par défaut comme reconduite. Beauvoisin et Bénivay-Ollon : [HYPOTHÈSE, source unique non corroborée] drome-cestmanature.com leur attribue désormais une fermeture « depuis le 10/07/2026, jusqu'à nouvel ordre », mais baronnies-provencales.fr (liste de référence, MAJ 03/08) ne les mentionne toujours pas ; contradiction à trancher avant de faire évoluer le statut. Saillans : toujours aucune source directe, 13 jours sans signal.
+
+MAJ 09/08 : Saillans, nouvelle vérification. La page complète des actualités de la mairie (juillet-août 2026) a été relue en intégralité : elle traite de la pollution atmosphérique (arrêté du 09/07), d'un communiqué de la préfète de la Drôme (07/07), d'un communiqué de la mairie elle-même (07/07 et 08/07) et d'une collecte de dons pour les pompiers mobilisés sur le feu de Die (06/07), mais ne contient aucun article sur une fermeture de massif ni sur l'arrêté du 08/07 au 26/07 rapporté par drome-cestmanature.com. Après 14 jours sans confirmation dans un sens ou dans l'autre, ce silence de la source la plus directe pèse en faveur de l'absence de restriction communale active, sans lever le doute de façon certaine faute d'un arrêté de levée explicite. Beauvoisin et Bénivay-Ollon : point de vigilance ajouté, il existe deux communes homonymes distinctes appelées Beauvoisin, l'une dans le Gard avec son propre arrêté de fermeture par vent fort, l'autre dans la Drôme concernée par cette fiche ; aucune source officielle propre à la commune drômoise n'a été retrouvée, la mention reste à une seule source non corroborée. Montclar-sur-Gervanne : rien de neuf, l'échéance du 07/08 reste dépassée sans annonce de la suite.
 
 ## Source
 

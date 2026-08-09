@@ -5,7 +5,7 @@ itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; 
 sev: HAUTE (1/9 massif fermé au 08/08 — Haut-Var, rouge très sévère — désescalade majeure après la fixation du feu du Gros Bessillon la veille ; séquence du mois : 9→1→6→4→9→8→7→4→8→7→1)
 validite: journalière ; 1/9 massif fermé au 08/08 (Haut-Var, rouge très sévère), les 8 autres repassent en orange (accès fortement déconseillé, non interdit)
 detection: 2026-07-09
-verif: 2026-08-08
+verif: 2026-08-09
 statut: ACTIF — CHANGÉ 08/08 : désescalade majeure — 1 massif sur 9 fermé (Haut-Var, rouge
   très sévère), contre 7/9 le 07/08. Les 8 autres (Sainte-Baume, Maures, Monts Toulonnais,
   Corniche des Maures, Centre-Var, Îles d'Hyères, Estérel, plateau de Canjuers) repassent en
