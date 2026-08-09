@@ -7,6 +7,20 @@ design du 08/08 s'est retrouvé embarqué dans des commits dont le message parle
 chose, et rien n'expliquait plus pourquoi le générateur définit `--surface-invert` ou
 pourquoi le champ de recherche est figé à 16 px.
 
+## 2026-08-09 — Les cartes d'alerte se remplissent jusqu'à leur bordure
+
+Correction d'une régression de l'audit de la veille. Le cap de longueur de ligne avait été
+posé sur le texte (`max-width: 78ch` sur `.portion` et `.alt`, `90ch` sur `.meta`), à
+l'intérieur d'un cadre bordé : à 1280 px, la zone utile d'une carte faisait 822 px et le
+bloc « Alternative » s'arrêtait à 658 px. Soit 164 px de vide à droite, et comme ce bloc
+porte un fond, une boîte visiblement inachevée.
+
+Une carte est un cadre fermé : la mesure se tient par la largeur de la colonne, pas en
+rognant le texte dedans. Les `max-width` internes sont retirés, et `.wrap` passe de 1180 à
+1080 px (le bandeau de navigation suit). La colonne principale tombe à 760 px, la carte se
+remplit de bord à bord, et la ligne se stabilise à 82 caractères — contre 80 avant, et 93
+qu'aurait donnés le plein cadre à l'ancienne largeur.
+
 ## 2026-08-08 — Audit design et accessibilité du site
 
 Passage du site au crible des skills de design installées (`ui-ux-pro-max`, ses références
