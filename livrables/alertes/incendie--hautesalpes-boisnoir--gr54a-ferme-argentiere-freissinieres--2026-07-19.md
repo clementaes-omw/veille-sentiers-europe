@@ -5,8 +5,10 @@ itin: GR54A (fermé) ; GR54 (itinéraire de repli, praticable)
 sev: HAUTE
 validite: incendie déclaré MAÎPTRISÉ (ram05.fr 31/07) ; GR54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15/22/23 fermés durée indéterminée (confirmé paysdesecrins.com, MAJ 06/08) ; interdiction cycliste route de Freissinières jusqu'au 14/08/2026
 detection: 2026-07-22
-verif: 2026-08-08
-statut: ACTIF — CHANGÉ 07/08 : source la plus fraîche à ce jour, paysdesecrins.com
+verif: 2026-08-09
+statut: ACTIF — CONTRÔLE QUALITÉ 09/08 : correction d'un `**` gras résiduel non refermé
+  dans la chronologie du 27/07 (correction mécanique d'un caractère, aucune information
+  ajoutée ni retirée, requise par le build). CHANGÉ 07/08 : source la plus fraîche à ce jour, paysdesecrins.com
   (MAJ 06/08/26) — situation inchangée sur le fond : parcours de randonnée 2/6/7/14/15/22/23
   toujours fermés durée indéterminée, VTT 9 et 20 partiellement rouverts, Tour du Pays des
   Écrins en 3 jours praticable (pas les formats 6/7 jours). Détail nouveau : la « côte de

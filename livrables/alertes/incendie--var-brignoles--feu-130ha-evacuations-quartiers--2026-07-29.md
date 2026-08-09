@@ -5,7 +5,7 @@ itin: GR9 & GR99 (Centre-Var, secteur Brignoles) — [HYPOTHÈSE] proximité de 
 sev: INFO (toutes évacuations levées le 30/07 ; ne reste qu'une coupure de route)
 validite: feu maîtrisé depuis le 30/07/2026 03h00 (130 ha, toutes évacuations levées le 30/07 à 13h00) ; seule restriction résiduelle : RD12 coupée entre Camps-la-Source et Les Jausserannes, jusqu'à nouvel ordre (déviation par la RD43)
 detection: 2026-07-30
-verif: 2026-08-07
+verif: 2026-08-09
 statut: ACTIF — INCHANGÉ 07/08 : aucune source postérieure au 31/07 trouvée (recherche
   ciblée sur la réouverture de la RD12) ; absence de signal ≠ levée, la coupure reste
   documentée comme active faute de communiqué de réouverture. CHANGÉ 31/07 : toutes les évacuations sont LEVÉES — point de situation officiel n°4, var.gouv.fr, daté du 30/07 13h00 : « tous les habitants peuvent regagner leur domicile » (y compris Les Jausserannes et Pélicon, derniers quartiers encore consignés au matin). Le feu reste qualifié de maîtrisé mais le travail continue (sécurisation d'environ 10 km de lisières, drones pour points chauds la nuit). La RD12 reste coupée entre Camps-la-Source et le quartier Les Jausserannes — déviation officielle recommandée par la RD43. Sévérité ramenée de MOYENNE à INFO (plus d'évacuation active). Nouvel incendie parti le mercredi 29/07 après-midi au sud-est de Brignoles (Centre-Var), fixé à minuit et déclaré maîtrisé le jeudi 30/07 à 03h00, après avoir parcouru 130 ha, 650 habitants évacués de cinq quartiers, quatre sapeurs-pompiers blessés dont un avec une fracture du fémur.
