@@ -6,17 +6,15 @@ sev: HAUTE
 validite: depuis le 10/07/2026 « jusqu'à nouvel ordre » (Argelès) ; jusqu'au 13/09/2026 (restriction Sorède)
 detection: 2026-07-20
 verif: 2026-08-09
-statut: ACTIF — CONTRÔLE QUALITÉ 09/08 : concordance interne corrigée (la « Portion
-  concernée » datait encore la vérification du 06/08 alors que le badge public affiche
-  09/08 ; texte aligné à information constante, aucune recherche menée par ce contrôle). La
-  source ouillade.eu (29/07) reste en ligne et conforme au constat cité, mais l'écart
-  source/jour atteint désormais 11 jours sur une alerte rouge : une publication postérieure
-  au 29/07 (levée ou reconduction) reste à rechercher par la veille sur FR-66/PO-66 au
-  prochain passage ; à défaut, la sévérité sera à réexaminer sur le même modèle que la fiche
-  PO-66 voisine. INCHANGÉ 07/08 : nouvelle recherche ciblée menée ce jour (argeles-sur-mer.com,
+statut: ACTIF — INCHANGÉ 07/08 : nouvelle recherche ciblée menée ce jour (argeles-sur-mer.com,
   L'Indépendant, mapetiterando.fr, ouillade.eu) — aucune source postérieure au 29/07 trouvée,
   ni levée ni reconduction explicite. Interdiction traitée par défaut comme toujours en vigueur
-  (absence de signal ≠ levée). Le massif est de toute façon recouvert par la vigilance rouge
+  (absence de signal ≠ levée). Contrôle qualité 09/08 : source ouillade.eu (29/07) confirmée
+  toujours en ligne et toujours conforme au constat cité, mais l'écart source/jour atteint
+  désormais 11 jours (29/07→09/08), au-delà du seuil de 14 jours mais au-delà aussi du seuil
+  de fraîcheur d'une alerte rouge : une publication postérieure au 29/07 (levée ou
+  reconduction) reste à rechercher par la veille sur FR-66/PO-66, ce contrôle qualité n'en
+  effectuant pas lui-même. Le massif est de toute façon recouvert par la vigilance rouge
   départementale tous-massifs (voir fiche `risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs`) ;
   à ne pas confondre avec la fermeture distincte du sentier littoral E12 Argelès↔Cerbère
   (glissement de terrain, voir fiche dédiée) ; localisation précise du tracé GR10 dans les
