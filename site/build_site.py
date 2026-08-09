@@ -910,7 +910,11 @@ a {{ color: var(--pine); }}
 code {{ font-family: var(--mono); font-size: .85em; background: var(--panel);
   padding: 1px 5px; border-radius: 4px; }}
 del {{ color: var(--ink-2); }}
-.wrap {{ max-width: 1180px; margin: 0 auto; padding: 0 20px 60px; }}
+/* 1080 et non 1180 : c'est ici que se règle la longueur de ligne. À 1180, la
+   colonne principale faisait 860px et une ligne d'alerte dépassait 90 caractères,
+   au-delà du confortable. Resserrer le conteneur tient la mesure autour de 82
+   caractères sans avoir à brider le texte à l'intérieur des cartes. */
+.wrap {{ max-width: 1080px; margin: 0 auto; padding: 0 20px 60px; }}
 
 .skip {{ position: absolute; left: -9999px; top: 0; z-index: 10; background: var(--pine);
   color: var(--on-accent); font-family: var(--mono); font-size: var(--t-sm);
@@ -921,7 +925,7 @@ main:focus {{ outline: none; }}
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }}
 
 .topnav {{ background: var(--surface-invert); }}
-.topnav .nav-in {{ max-width: 1180px; margin: 0 auto; padding: 0 30px; display: flex;
+.topnav .nav-in {{ max-width: 1080px; margin: 0 auto; padding: 0 20px; display: flex;
   justify-content: space-between; align-items: stretch; gap: var(--s-5); overflow-x: auto; }}
 .topnav .navlink {{ display: inline-flex; align-items: center; padding: var(--s-3) 0;
   min-height: 44px; border-left: 0; border-radius: 0;
@@ -1096,9 +1100,14 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .chip.changed {{ font-family: var(--mono); font-size: .69rem; font-weight: 600;
   color: var(--pine); background: var(--pine-soft); padding: 3px 8px; border-radius: 5px; }}
 .card .type {{ font-family: var(--mono); color: var(--ink-2); font-size: var(--t-sm); }}
+/* Pas de max-width sur le contenu d'une carte : la carte est un cadre fermé, du
+   texte qui s'arrête 160px avant sa bordure se lit comme un défaut de rendu — et
+   le bloc Alternative, qui a un fond, laissait carrément une boîte inachevée.
+   La longueur de ligne est tenue par la largeur de la colonne (voir .wrap), pas
+   en rognant le texte à l'intérieur du cadre. */
 .card .portion {{ margin: 0 0 var(--s-3); font-size: var(--t-base); letter-spacing: .01em;
-  line-height: 1.55; max-width: 78ch; }}
-.card .alt {{ margin: 0 0 var(--s-3); font-size: var(--t-md); max-width: 78ch;
+  line-height: 1.55; }}
+.card .alt {{ margin: 0 0 var(--s-3); font-size: var(--t-md);
   padding: var(--s-2) var(--s-3); background: var(--pine-soft); color: var(--ink); border-radius: 6px; }}
 .card .alt a {{ color: var(--pine); }}
 .card .alt-label {{ display: inline-block; font-family: var(--mono); font-size: .64rem;
@@ -1107,7 +1116,7 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .card.clos .alt {{ background: var(--clos-bg); color: var(--ink); }}
 .card.clos .alt a {{ color: var(--pine); }}
 .card.clos .alt-label {{ color: var(--clos); }}
-.card .meta {{ margin: 0; color: var(--ink-2); font-size: var(--t-sm); max-width: 90ch; }}
+.card .meta {{ margin: 0; color: var(--ink-2); font-size: var(--t-sm); }}
 .card .meta.dates {{ margin-top: var(--s-3); padding-top: var(--s-2); border-top: 1px solid var(--line); }}
 .card .meta.sources {{ margin-top: var(--s-1); }}
 .card .meta .sep {{ margin: 0 6px; }}
@@ -1119,7 +1128,7 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .card summary:hover {{ color: var(--ink); }}
 .card summary::-webkit-details-marker {{ display: none; }}
 .card summary::before {{ content: "> "; }}
-.card details p {{ margin: 8px 0 0; max-width: 90ch; }}
+.card details p {{ margin: var(--s-2) 0 0; }}
 .card .key {{ margin: 6px 0 0; }}
 .card .key code {{ font-size: .72rem; color: var(--ink-2); background: none; padding: 0; }}
 h2.bloc, h3.bloc {{ font-family: var(--sans); font-weight: 800; letter-spacing: -.02em;
