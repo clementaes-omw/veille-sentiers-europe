@@ -5,7 +5,7 @@ itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-08
+verif: 2026-08-09
 statut: ACTIF (Illarata) — CHANGÉ 06/08 : DÉGRADÉE HAUTE→MOYENNE — recherche dédiée menée
   ce jour (corse-du-sud.gouv.fr lue en direct, x.com/Prefet2A, gr20-infos.com, presse
   locale) : toujours aucune source postérieure au 23/07 trouvée, ni levée ni reconduction de
@@ -28,7 +28,7 @@ Aucune alternative connue à ce jour pour Bavella et Illarata (navettes gratuite
 
 Corse-du-Sud, Bavella ROUVERT : arrêté du 17/07 abrogé, réouverture confirmée le 20/07 au soir puis reconfirmée le 21/07 16h51 (« massif entièrement accessible »). GR20 Asinau↔Paliri ROUVERT, les étapes Asinao↔Bavella, Bavella↔Paliri et Paliri↔Conca sont de nouveau accessibles. Le statut d'accueil du refuge de Paliri lui-même [HYPOTHÈSE] n'est pas confirmé par une source dédiée : seul l'accès sentier est confirmé rouvert.
 
-Illarata-Taglio Rosso (Zonza) reste fermé, un nouvel arrêté du 20/07 remplaçant celui du 17/07. Détail clarifié 23/07 : les deux versions relevées sont complémentaires (arrêté n° 2A-2026-07-20-00007), avec d'une part les pistes forestières Tova/Pré d'Agnellu/Ficaghjola et la RD845 fermées, d'autre part la vallée du Cavu fermée dans ses parties haute et moyenne, la partie basse étant rouverte.
+Illarata-Taglio Rosso (Zonza) reste fermé, un nouvel arrêté du 20/07 remplacant celui du 17/07. Détail clarifié 23/07 : les deux versions relevées sont complémentaires (arrêté n° 2A-2026-07-20-00007), avec d'une part les pistes forestières Tova/Pré d'Agnellu/Ficaghjola et la RD845 fermées, d'autre part la vallée du Cavu fermée dans ses parties haute et moyenne, la partie basse étant rouverte.
 
 Haute-Corse : massifs du Fango, forêt de Bonifato, ouest du Territoire de l'Agriate, reconduction confirmée 18/19/07 [FAIT]. Une entrée « du 20/07 au 21/07 » existe mais son contenu est inaccessible (401 x2) ; aucune entrée 2026 n'a été trouvée pour le 22/07, la seule page portant ce titre étant un piège daté 2025.
 
