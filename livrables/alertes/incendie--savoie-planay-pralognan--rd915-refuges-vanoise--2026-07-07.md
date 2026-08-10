@@ -5,7 +5,7 @@ itin: GR55 (Traversée de la Vanoise, via Pralognan/Col de la Vanoise) ; TGV (To
 sev: MOYENNE (dégradée depuis HAUTE faute de confirmation post-15/07, à réévaluer d'urgence)
 validite: RD915 rouverte à la circulation depuis le 23/07 (restrictions piétons/cyclistes levées) ; statut des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset non confirmé par une source postérieure au 15/07, traités comme impactés jusqu'à nouvel ordre, par prudence
 detection: 2026-07-21
-verif: 2026-08-05
+verif: 2026-08-10
 statut: ACTIF — INCHANGÉ 05/08 : contact direct des pages des refuges du Grand Bec et du
   Col de la Vanoise (FFCAM) ce run — aucune mention d'incendie ni de restriction d'accès,
   seul le calendrier de gardiennage normal y figure ; ne tranche pas si c'est un signe de
