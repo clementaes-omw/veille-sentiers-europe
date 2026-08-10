@@ -6,16 +6,10 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-09
-statut: ACTIF — CHANGÉ 09/08 : recoupement du secteur Garrigues avec un GR référencé résolu
-  ce jour — le GR6 traverse le corridor Pont-du-Gard/Remoulins/Uzès, inclus dans les 49
-  communes du secteur (sources tourisme, à corroborer par une source officielle FFRando au
-  besoin) ; la base sentiers-db.csv ne liste pas FR-30-48 dans les zones du GR6 (zones
-  estimées), écart de référentiel à signaler sans le corriger ici. Aucune page datée du 08 ou
-  09/08 retrouvée sur gard.gouv.fr malgré recherche ce jour (dernière page = vendredi 07/08,
-  Gard Rhodanien + Garrigues rouges) ; absence de signal traitée par défaut comme un maintien,
-  pas comme une levée, le classement changeant de secteur nommé presque chaque jour depuis
-  début août.
+verif: 2026-08-10
+statut: ACTIF — INCHANGÉ 10/08 : recherche refaite sur gard.gouv.fr, toujours aucune page
+  datée du week-end du 8-9 ou du 10/08 ; dernière page = vendredi 07/08 (Gard Rhodanien +
+  Garrigues rouges). Absence de signal traitée par défaut comme un maintien.
 ordre: 15
 ---
 

@@ -5,7 +5,7 @@ itin: GR65 (Chemin de Saint-Jacques / Via Podiensis, Lot)
 sev: MOYENNE
 validite: déviation en vigueur jusqu'à nouvel ordre (durée indéterminée), mise en place le 25/07/2026 suite à l'incendie de mi-juillet 2026
 detection: 2026-07-28
-verif: 2026-08-07
+verif: 2026-08-10
 statut: ACTIF — CONFIRMÉ 06/08 : l'incendie est éteint depuis mi-juillet, mais l'interdiction
   d'accès et la déviation restent en vigueur, aucune date de réouverture annoncée.
 ordre: 57

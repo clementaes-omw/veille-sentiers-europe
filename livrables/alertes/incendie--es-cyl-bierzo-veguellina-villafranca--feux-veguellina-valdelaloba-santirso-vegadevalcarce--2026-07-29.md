@@ -2,17 +2,18 @@
 cle: incendie|ES-CYL-Bierzo|feux-veguellina-valdelaloba-san-tirso-vega-de-valcarce|2026-07-29
 type: incendie
 itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierzo et Vega de Valcarce, deux étapes majeures entre Ponferrada et O Cebreiro — [HYPOTHÈSE] aucune source consultée ne documente de fermeture ou de déviation du balisage lui-même, seules la proximité géographique directe et les coupures routières/évacuations sont confirmées ; Camino de Invierno (Ponferrada → Santiago) [HYPOTHÈSE] secteur du Bierzo à proximité, impact non confirmé
-sev: MOYENNE
-validite: les 3 foyers d'origine (Veguellina/Villafranca del Bierzo, Valdelaloba, San Tirso/Vega de Valcarce) restent à IGR-0 ; les deux nouveaux départs du 07-08/08 à Vega de Valcarce (Laballos, La Faba) sont déclarés maîtrisés
+sev: INFO (clôturée — extinction officielle du foyer principal)
+validite: [CLÔTURÉ] (2026-08-10) — feu de Veguellina déclaré ÉTEINT le 09/08/2026 17h50 après 12 jours ; les foyers de Valdelaloba, San Tirso, Laballos et La Faba étaient déjà tous à IGR-0/maîtrisés
 detection: 2026-08-02
-verif: 2026-08-09
-statut: ACTIF — CHANGÉ 09/08 : le feu de Veguellina touche formellement à sa fin après dix
-  jours (leonoticias, 08/08). Deux nouveaux départs distincts à Vega de Valcarce les 07 et
-  08/08 (Laballos près du viaduc de Las Lamas, puis La Faba) ont tous deux été déclarés
-  maîtrisés le 08/08 après une phase de périmétrage. La Faba est la première localité
-  directement nommée du Camino Francés touchée par un départ de feu dans cet épisode ; aucune
-  source ne documente d'impact sur le balisage ou l'albergue du village. Sévérité maintenue
-  MOYENNE.
+verif: 2026-08-10
+statut: [CLÔTURÉ] (2026-08-10) — le feu de Veguellina (Villafranca del Bierzo, ~1330 ha) est
+  déclaré ÉTEINT le 09/08 à 17h50 après 12 jours d'activité, IGR passé à 0 le 10/08 au matin.
+  Évacuations levées à Moreda, San Pedro de Olleros, Prado de la Somoza ; A-6 totalement
+  rouverte. Les foyers de Valdelaloba, San Tirso, Laballos et La Faba, déjà maîtrisés,
+  n'ont fait l'objet d'aucune reprise. Reste une zone de surveillance ponctuelle au nord de
+  Veguellina (risque de réactivation, moyens aériens uniquement), sans lien avec un itinéraire
+  suivi. Un nouveau foyer distinct est apparu le 09/08 à Barjas (frontière avec la Galice,
+  sur le Camino de Invierno) : voir la fiche dédiée `incendie|ES-CYL-Barjas-Quintela|…`.
 ordre: 97
 ---
 

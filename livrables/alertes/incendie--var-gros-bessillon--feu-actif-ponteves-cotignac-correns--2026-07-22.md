@@ -5,7 +5,7 @@ itin: GR9/GR51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
 sev: MOYENNE (dégradée 08/08 — feu déclaré FIXÉ le 07/08 après 18 jours de lutte)
 validite: fixé depuis le 07/08 (surveillance renforcée maintenue, pas formellement éteint) ; bilan final ~5 700 ha ; ~450 pompiers encore mobilisés pour la surveillance des lisières
 detection: 2026-07-25
-verif: 2026-08-09
+verif: 2026-08-10
 statut: ACTIF — CHANGÉ 08/08 : le feu est déclaré FIXÉ le vendredi 07/08, après 18 jours de
   lutte (source var.gouv.fr, corroborée par franceinfo). Bilan final ~5 700 ha. Sévérité
   dégradée HAUTE→MOYENNE : fixation acquise, aucune évacuation en cours, mais surveillance
