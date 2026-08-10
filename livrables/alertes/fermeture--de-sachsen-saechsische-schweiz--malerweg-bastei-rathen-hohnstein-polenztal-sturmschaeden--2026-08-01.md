@@ -5,7 +5,7 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation possible ; réouverture partielle depuis le 07/08/2026 (Basteiweg, Polenztal)
 detection: 2026-08-06
-verif: 2026-08-09
+verif: 2026-08-10
 statut: ACTIF — CHANGÉ 09/08 : réouverture partielle confirmée par une nouvelle Allgemeinverfügung
   du 07/08 (nationalpark-saechsische-schweiz.de) — le Basteiweg (Rathen↔Bastei) et le
   Polenztal (hors secteur de la Waltersdorfer Mühle) sont libérés, de même que l'accès au
