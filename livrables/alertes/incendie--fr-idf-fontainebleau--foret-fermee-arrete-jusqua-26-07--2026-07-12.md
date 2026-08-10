@@ -5,12 +5,13 @@ itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontaine
 sev: HAUTE
 validite: prolongée jusqu'au 14/08/2026 inclus. Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny et la forêt communale de Nemours suivent désormais tous la même échéance
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-09
-statut: ACTIF — CHANGÉ 09/08 : élément explicatif nouveau sur la persistance de la fermeture,
-  sans changement de date. Un feu de tourbière couve toujours sous le sol par endroits
-  [FAIT, enlargeyourparis.fr 06/08, citant l'ONF] : la combustion souterraine se poursuit
-  hors de vue, avec des points chauds relevés à 150°C en surface, et son extinction dépend
-  entièrement des pluies à venir. Aucune nouvelle échéance au-delà du 14/08 annoncée.
+verif: 2026-08-10
+statut: ACTIF — CHANGÉ 10/08 : reconfirmation officielle directe. Le point de situation de
+  la préfecture de Seine-et-Marne du 07/08 (repris par des arrêtés datés du 6 au 8 août)
+  maintient la fermeture des cinq massifs jusqu'au 14/08 inclus, motif « persistance de la
+  chaleur et de la sécheresse » (le feu de tourbière, documenté par la presse, n'est pas cité
+  nommément par la préfecture elle-même). Aucune date de réouverture des sentiers annoncée.
+  Détail sans lien direct avec la forêt : la RD64 doit rouvrir à la circulation le 11/08 8h.
 ordre: 42
 ---
 
@@ -45,6 +46,8 @@ MAJ 07/08, jour même de l'échéance : toujours aucune annonce de la suite. sei
 MAJ 08/08 : la prolongation attendue est confirmée. L'arrêté est reconduit jusqu'au 14/08/2026 inclus, il n'y a PAS de levée. [FAIT] seine-et-marne.gouv.fr/Actualites/Incendies-points-de-situation (MAJ 07/08/2026), corroboré par France 3 Paris-Île-de-France (07/08/2026 12h22, « La forêt de Fontainebleau restera fermée jusqu'au 14 août inclus »). Les 5 massifs (Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny, forêt communale de Nemours) suivent désormais la même échéance. Motif : persistance de la chaleur et de la sécheresse, en plus de la protection du patrimoine naturel. Le motif s'élargit donc au-delà du strict volet sécuritaire initial. Aucune date de réouverture au-delà du 14/08 n'est annoncée, et aucun détail tronçon par tronçon des GR n'est toujours publié.
 
 MAJ 09/08 : pourquoi la fermeture n'a pas de calendrier de résorption. [FAIT, enlargeyourparis.fr, 06/08/2026, citant l'ONF] Le sol du massif est en partie tourbeux et continue de brûler sous la surface sans flamme visible : les relevés quotidiens détectent des points chauds à 150°C en surface, davantage en profondeur, et l'extinction dépend entièrement des précipitations à venir. Les arbres dont les racines ont brûlé commencent à s'effondrer. Aucun élément nouveau sur la date du 14/08 elle-même ; aucune source postérieure au 07/08 sur l'arrêté lui-même trouvée ce jour.
+
+MAJ 10/08 : reconfirmation directe de la source officielle. Le point de situation « accès forêt et circulation réglementée » de la préfecture de Seine-et-Marne, daté du 07/08/2026, confirme des arrêtés pris entre le 6 et le 8 août qui maintiennent la fermeture des cinq massifs (Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny, forêt communale de Nemours) jusqu'au 14/08/2026 inclus, motif « persistance de la chaleur et de la sécheresse ». La préfecture elle-même ne mentionne pas nommément le feu de tourbière documenté par la presse le 06/08. Élément de circulation distinct, sans lien avec la forêt : la RD64 doit rouvrir à la circulation le mardi 11/08 à 8h. Aucune date de réouverture des sentiers n'est communiquée.
 
 ## Source
 
