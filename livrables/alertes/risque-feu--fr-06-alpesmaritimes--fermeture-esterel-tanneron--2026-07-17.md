@@ -5,12 +5,13 @@ itin: GR51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: HAUTE
 validite: journalière ; fermé au 06/08 (dernière date confirmée), rouge très sévère
 detection: 2026-08-09
-verif: 2026-08-09
-statut: ACTIF — NOUVEAU. Massif Esterel-Tanneron (préfecture des Alpes-Maritimes, distinct
-  de la fermeture Estérel côté Var déjà suivie sous la ligne risque-feu|Var-83|…) fermé de
-  façon quasi quotidienne depuis mi-juillet (au moins les 01/07, 27/07, 01, 02, 03 et 06/08
-  confirmés par presse datée citant la préfecture). Aucune donnée trouvée pour 07-09/08 ce
-  jour — statut à reconfirmer au prochain passage FR-06 plutôt que supposé reconduit.
+verif: 2026-08-10
+statut: ACTIF — INCHANGÉ 10/08 : recherche ciblée refaite (presseagence.fr et sa série
+  d'articles quotidiens), aucune publication postérieure au 06/08 trouvée. L'écart atteint
+  désormais 4 jours (07→10/08). Le régime de classement quotidien du massif rend cette
+  publication attendue chaque jour classé très sévère ; son absence peut aussi bien signifier
+  une désescalade non annoncée qu'un simple délai de publication. Sévérité maintenue HAUTE
+  par prudence, statut du jour non confirmé — priorité de la prochaine couverture FR-06.
 ordre: 102
 ---
 
@@ -26,7 +27,7 @@ Les autres massifs des Alpes-Maritimes restent accessibles ces jours-là. La pr�
 
 Depuis le 17 juillet 2026, la préfecture des Alpes-Maritimes classe le massif de l'Esterel-Tanneron en risque incendie très sévère de façon quasi quotidienne, avec fermeture totale au public (accès, circulation, travaux interdits) les jours concernés. Fermetures confirmées par une source datée à chacune de ces dates : 1er juillet (« les autres massifs des Alpes-Maritimes restent accessibles »), 27 juillet, 1er, 2, 3 et 6 août. Le massif s'étend sur les communes de Mandelieu-la-Napoule, Théoule-sur-Mer et Tanneron côté Alpes-Maritimes ; il est traversé par le GR51 (Balcons de la Méditerranée). Cette fermeture est distincte de celle suivie côté Var (ligne `risque-feu|Var-83|fermetures-massifs-quotidiennes`, qui inclut également un massif nommé « Estérel » dans sa propre rotation de 9 massifs) : les deux préfectures publient des classements séparés pour leurs portions respectives du même massif.
 
-09/08 : aucune source datée du 7, 8 ou 9 août n'a été trouvée lors de ce passage ; la dernière confirmation reste le 6 août. À vérifier directement au prochain passage plutôt que supposer une reconduction.
+Vérifié le 10/08/2026 : aucune source datée entre le 7 et le 10 août n'a été retrouvée ; la dernière confirmation disponible reste celle du 6 août. Le classement du massif change chaque soir pour le lendemain, cette absence de publication récente ne permet donc pas de conclure à une reconduction ni à une levée.
 
 ## Source
 

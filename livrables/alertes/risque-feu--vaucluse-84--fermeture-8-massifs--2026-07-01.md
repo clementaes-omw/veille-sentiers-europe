@@ -5,15 +5,10 @@ itin: GR9 (Dentelles de Montmirail), GR4/GR91 (Monts de Vaucluse, Petit Luberon,
 sev: HAUTE
 validite: communiqué officiel vaucluse.gouv.fr du 05/08/2026 (11 massifs fermés), toujours la dernière référence connue au 09/08, aucun communiqué de levée trouvé
 detection: 2026-07-18
-verif: 2026-08-09
-statut: ACTIF — CHANGÉ 09/08 : destinationluberon.com (source non officielle, MAJ 08/08
-  18h pour le 09/08) affiche désormais un niveau jaune, non plus vert, sur Petit
-  Luberon/Monts de Vaucluse/Grand Luberon — premier signal restrictif de cette source
-  depuis le 02/08, mais toujours en dessous du statut « fermé » du communiqué officiel du
-  05/08 et non corroboré par une source officielle. vaucluse.gouv.fr revérifié en
-  intégralité : toujours aucun communiqué postérieur au 05/08 (4e jour de silence).
-  Statut incendie du sommet du Ventoux toujours non tranché. Sévérité maintenue HAUTE
-  (dernier acte officiel = 11 massifs fermés).
+verif: 2026-08-10
+statut: ACTIF — INCHANGÉ 10/08 : vaucluse.gouv.fr revérifié, toujours aucun communiqué
+  postérieur au 05/08. Statut incendie du sommet du Ventoux toujours non tranché. Sévérité
+  maintenue HAUTE (dernier acte officiel = 11 massifs fermés).
 ordre: 33
 ---
 
