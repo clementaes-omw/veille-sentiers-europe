@@ -10,7 +10,7 @@ statut: [CLÔTURÉ] (2026-08-07) — Castropodame confirmé « controlado » le 
   interpellé) ; La Baña/Encinedo absent de tous les bilans provinciaux de León du 25/07 au
   06/08, dont celui du 06/08 (ileon.eldiario.es) qui ne recense plus que Veguellina comme
   unique foyer encore actif dans la province — absence prolongée de 12 jours retenue comme
-  confirmation de résolution par convention, faute de source dédiée prononcant
+  confirmation de résolution par convention, faute de source dédiée prononçant
   explicitement l'extinction de ce foyer précis
 ordre: 80
 ---
