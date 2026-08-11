@@ -5,9 +5,9 @@ itin: GR56 / GR52-GTM / GR5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes) ; dernière consolidation de la page parc le 09/07/2026, aucune échéance de fin annoncée pour les gués et déviations en cours
 detection: 2026-07-02
-verif: 2026-08-10
-statut: ACTIF — INCHANGÉ 07/08 : fetch direct confirmé, page toujours datée « dernière mise
-  à jour : 9 juillet 2026 », aucune fermeture nouvelle ni actualité de sécurité trouvée.
+verif: 2026-08-11
+statut: ACTIF — INCHANGÉ 11/08 : page toujours datée « dernière mise à jour : 9 juillet
+  2026 », aucune fermeture nouvelle ni actualité de sécurité trouvée.
 ordre: 13
 ---
 
