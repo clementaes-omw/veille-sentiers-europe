@@ -5,9 +5,9 @@ itin: Mare a Mare Nord (GRP)
 sev: MOYENNE
 validite: fermé du 19/07 au 03/08/2026 inclus ; rouvert depuis le 04/08/2026 (avis pnr.corsica)
 detection: 2026-07-20
-verif: 2026-08-08
+verif: 2026-08-11
 statut: [CLÔTURÉ] (2026-08-05) — Mare a Mare Nord entièrement rouvert (3 étapes + refuge
-  de la Sega), le feu de la Restonica qui menaçait le tronçon étant désormais maîtrisé
+  de la Sega), le feu de la Restonica qui mençait le tronçon étant désormais maîtrisé
   après 21 jours de lutte (pnr.corsica, MAJ 04/08 8h30). MAJ 07/08 : chronologie complétée —
   une reprise de feu du 01-02/08 avait brièvement refermé le sentier et le refuge de la Sega
   entre les deux réouvertures déjà connues (31/07 puis 04/08) ; statut inchangé, toujours
@@ -17,7 +17,7 @@ ordre: 37
 
 ## Portion concernée
 
-Mare a Mare Nord (Corte ↔ Col de Vergio, via A Sega et Albertacce). **De nouveau praticable dans son intégralité, refuge de la Sega compris, depuis le 04/08/2026.** La fermeture, en place depuis le 19/07 en raison du feu de la Restonica (Corte) qui menaçait le tronçon, est levée : ce feu est désormais maîtrisé après 21 jours de lutte.
+Mare a Mare Nord (Corte ↔ Col de Vergio, via A Sega et Albertacce). **De nouveau praticable dans son intégralité, refuge de la Sega compris, depuis le 04/08/2026.** La fermeture, en place depuis le 19/07 en raison du feu de la Restonica (Corte) qui mençait le tronçon, est levée : ce feu est désormais maîtrisé après 21 jours de lutte.
 
 ## Alternative
 
