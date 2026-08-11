@@ -5,7 +5,7 @@ itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le trac�
 sev: MOYENNE
 validite: feu actif au 09/08/2026 20h22, dernier point connu ; IGR affiché à 0 (pas de confinement de population)
 detection: 2026-08-10
-verif: 2026-08-10
+verif: 2026-08-11
 statut: ACTIF — NOUVEAU. Départ de feu le 09/08 à 16h03 dans les monts de Quintela (commune
   de Barjas, Bierzo, León), à la frontière avec la Galice, sur une commune traversée par le
   Camino de Invierno. 20 moyens dont 4 hélicoptères/hydravions engagés. Aucune mention

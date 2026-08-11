@@ -5,7 +5,7 @@ itin: GR9 (Dentelles de Montmirail), GR4/GR91 (Monts de Vaucluse, Petit Luberon,
 sev: HAUTE
 validite: communiqué officiel vaucluse.gouv.fr du 05/08/2026 (11 massifs fermés), toujours la dernière référence connue au 09/08, aucun communiqué de levée trouvé
 detection: 2026-07-18
-verif: 2026-08-10
+verif: 2026-08-11
 statut: ACTIF — INCHANGÉ 10/08 : vaucluse.gouv.fr revérifié, toujours aucun communiqué
   postérieur au 05/08. Statut incendie du sommet du Ventoux toujours non tranché. Sévérité
   maintenue HAUTE (dernier acte officiel = 11 massifs fermés).
@@ -14,7 +14,7 @@ ordre: 33
 
 ## Portion concernée
 
-Vaucluse : [FAIT] **11 massifs fermés au public**, à savoir Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon et Collines de Basse Durance (communiqué officiel vaucluse.gouv.fr du 05/08, toujours la dernière référence connue au 08/08, aucune levée annoncée depuis). Exceptions encadrées : groupes professionnels 5h-13h. Raison : risque incendie très sévère persistant. La fermeture ponctuelle du massif des Dentelles de Montmirail et de l'accès au sommet du Mont Ventoux pour l'arrivée du Tour de France Femmes s'est achevée le 07/08 à 23h ; le statut du sommet du Ventoux au titre du risque incendie reste non tranché par une source officielle dédiée (il n'apparaît dans aucune version connue de la liste des 11 massifs interdits). Une source touristique non officielle (destinationluberon.com) affiche pour aujourd'hui un niveau jaune sur le Petit Luberon, les Monts de Vaucluse et le Grand Luberon, en dessous de la fermeture du communiqué du 05/08 ; faute de confirmation officielle plus récente, ces trois massifs restent traités comme fermés par défaut.
+Vaucluse : [FAIT] **11 massifs fermés au public**, à savoir Dentelles de Montmirail, Enclave des Papes, Bollène-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Petit Luberon, Monts de Vaucluse, Grand Luberon et Collines de Basse Durance (communiqué officiel vaucluse.gouv.fr du 05/08, toujours la dernière référence connue au 11/08, aucune levée annoncée depuis). Exceptions encadrées : groupes professionnels 5h-13h. Raison : risque incendie très sévère persistant. La fermeture ponctuelle du massif des Dentelles de Montmirail et de l'accès au sommet du Mont Ventoux pour l'arrivée du Tour de France Femmes s'est achevée le 07/08 à 23h ; le statut du sommet du Ventoux au titre du risque incendie reste non tranché par une source officielle dédiée (il n'apparaît dans aucune version connue de la liste des 11 massifs interdits). Une source touristique non officielle (destinationluberon.com) affiche pour aujourd'hui un niveau jaune sur le Petit Luberon, les Monts de Vaucluse et le Grand Luberon, en dessous de la fermeture du communiqué du 05/08 ; faute de confirmation officielle plus récente, ces trois massifs restent traités comme fermés par défaut.
 
 ## Alternative
 

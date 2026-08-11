@@ -5,14 +5,19 @@ itin: Camino de Invierno [HYPOTHÈSE]
 sev: MOYENNE
 validite: en cours au 25/07, évolution favorable mais IGR-2 maintenu
 detection: 2026-07-22
-verif: 2026-07-27
+verif: 2026-08-11
 statut: [CLÔTURÉ] (2026-07-27) — **désescalade complète confirmée la soirée du 26/07 : downgrade IGR-2 → IGR-1, Cecopi désconvoqué, réalojo autorisé pour Andarraso/Rosales/Folloso** (s'ajoutant à Murias de Ponjos/Ponjos/Inicio/Trascastro déjà rentrés) — les 174 évacués sont donc tous rentrés chez eux ; zone nord-ouest liquidée par moyens terrestres/aériens, quelques mètres du périmètre nord restent ouverts à éteindre manuellement ; aucun impact sur un tracé de Camino n'a jamais été confirmé
 ordre: 52
 ---
 
 ## Portion concernée
 
-Murias de Ponjos (León, comarca de Omaña), près de la route vers Torre del Bierzo : **le niveau IGR-2 est maintenu malgré une évolution favorable.** Environ 2700 ha parcourus. Au 25/07, 174 évacués de 6 localités restent hors de chez eux.
+**Feu de forêt éteint** à Murias de Ponjos (León, comarca de Omaña), près de la route
+vers Torre del Bierzo : environ 2700 ha parcourus, IGR redescendu à 1 dès la soirée du
+26/07/2026 puis liquidation du périmètre nord-ouest par moyens terrestres et aériens.
+Les 174 personnes évacuées des 6 localités concernées (Murias de Ponjos, Ponjos, Inicio,
+Trascastro, Andarraso, Rosales, Folloso) sont toutes rentrées chez elles. Raison :
+incendie de forêt déclaré le 22/07/2026, désormais résolu.
 
 ## Alternative
 

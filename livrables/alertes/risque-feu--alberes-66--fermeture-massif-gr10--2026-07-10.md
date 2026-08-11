@@ -5,7 +5,7 @@ itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Me
 sev: HAUTE
 validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
 detection: 2026-07-20
-verif: 2026-08-10
+verif: 2026-08-11
 statut: ACTIF — CHANGÉ 10/08 : recherche ciblée dédiée sur le défaut de source signalé par
   l'audit qualité du 09/08. Les arrêtés qui fondent cette alerte sont désormais identifiés
   précisément : Sorède (n°26.216, 17/06/2026, piétons et vélos musculaires/VAE seulement,

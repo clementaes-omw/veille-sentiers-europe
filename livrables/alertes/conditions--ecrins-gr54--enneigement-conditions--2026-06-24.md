@@ -5,10 +5,12 @@ itin: GR54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-08-10
-statut: ACTIF — **INCHANGÉ 07/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations toujours datée du 24 juin 2026 (44 jours sans mise à jour, 19 jours depuis la fermeture du GR54A) — contradiction toujours non résolue, sévérité maintenue MOYENNE-HAUTE sur ce point.
-  ⚠️ Piège d'indexation déjoué ce jour : une autre page du parc, ecrins-parcnational.fr/actualite/gr54-conditions-randonnee, recommande elle aussi le GR54A sans mention d'incendie et pourrait sembler plus récente au premier abord — elle est en réalité datée du 27 juin 2025 (un an avant l'incendie), écartée comme non pertinente.**
-  INCHANGÉ 03/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations toujours datée du 24 juin 2026 (40 jours sans mise à jour, 15 jours depuis la fermeture du GR54A) — contradiction toujours non résolue, sévérité maintenue MOYENNE-HAUTE sur ce point** ; **INCHANGÉ 31/07 : fetch direct de ecrins-parcnational.fr/actualite/gr54-informations-recommandations confirme la page toujours datée du mercredi 24 juin 2026, recommandant toujours explicitement le GR54A via le col de la Pousterle pour rejoindre le Pré de la Chaumette, sans aucune mention de la fermeture incendie — contradiction TOUJOURS non résolue au 31/07 (36+ jours sans mise à jour, 12 jours depuis la fermeture du GR54A). Sévérité maintenue à MOYENNE-HAUTE sur ce point précis (risque qu'un randonneur suive une recommandation officielle obsolète vers un secteur fermé pour incendie)** ; **INCHANGÉ 29/07 : page ecrins-parcnational.fr relue directement, toujours datée du mercredi 24 juin 2026, aucune mise à jour — recommande toujours explicitement le GR54A (via le col de la Pousterle, le vallon du Fournel et le pas de la Cavale) sans aucune mention de la fermeture incendie en cours. Contradiction TOUJOURS NON RÉSOLUE (35 jours sans mise à jour, 10 jours depuis la fermeture du GR54A). Piste à vérifier : une section « articles liés » de cette page référencerait un article daté du 28/07/2026 sur une « vigilance incendie » concernant d'autres communes, non identifiées avec certitude — non confirmé par fetch direct faute de budget, à investiguer au prochain passage FR-04-05** ; CHANGÉ 27/07 : contradiction reconfirmée active — page rouverte directement, toujours datée du 24/06, aucune mise à jour en 14 jours** ; cette page recommande toujours le GR54A comme variante de l'Aup Martin, alors que le GR54A est fermé depuis le 19/07 pour incendie (voir ligne Bois Noir dédiée) — à traiter avec prudence par les lecteurs ; un run antérieur avait noté cette contradiction comme « résolue » dans le fichier Bois Noir, ce qui était erroné (corrigé ce run)
+verif: 2026-08-11
+statut: ACTIF — INCHANGÉ 11/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
+  toujours datée du 24 juin 2026 (48 jours sans mise à jour, 23 jours depuis la fermeture du
+  GR54A). Elle continue de recommander le GR54A via le col de la Pousterle sans aucune
+  mention de l'incendie ni de la fermeture. Contradiction non résolue, sévérité maintenue
+  MOYENNE sur ce point.
 ordre: 12
 ---
 
@@ -18,11 +20,25 @@ GR54 : **passage de l'Aup Martin déconseillé.** Des cols restent enneigés en 
 
 ## Alternative
 
-Variante GR54A recommandée par le parc à la place de l'Aup Martin.
+Le parc recommandait la variante GR54A à la place de l'Aup Martin, mais **le GR54A est fermé depuis le 19/07/2026 pour incendie** (massif du Bois Noir, voir la fiche dédiée `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres`) : ne pas l'emprunter. La page du parc qui recommande encore le GR54A (ecrins-parcnational.fr/actualite/gr54-informations-recommandations) reste datée du 24 juin 2026 et n'a pas été mise à jour depuis : elle ne tient pas compte de cette fermeture. Le repli confirmé pour le GR54A est le GR54 classique lui-même, par le col de l'Aup Martin (Vallouise → col de l'Aup Martin → Pré de la Chaumette) ; vérifier avant de partir si les conditions de neige de début de saison décrites ci-dessus sont encore d'actualité, la dernière source sur ce point datant du 02/07/2026.
 
 ## Zone (détails)
 
 GR54 : cols enneigés et ponts de neige. Aup Martin déconseillé, report sur la variante GR54A. Col du Vallon très dégradé, travaux prévus à l'automne. Déviation de bûcheronnage sous le Lauvitel.
+
+Le GR54A, présenté ci-dessus comme la variante de repli, est fermé depuis le 19/07/2026 pour incendie sur le massif du Bois Noir (L'Argentière-la-Bessée/Freissinières) : voir la fiche dédiée. La page du parc national des Écrins qui recommande ce repli (ecrins-parcnational.fr/actualite/gr54-informations-recommandations) n'a pas été mise à jour depuis le 24/06/2026 et ne mentionne pas cette fermeture.
+
+MAJ 27/07 : la fermeture du GR54A pour incendie est confirmée depuis le 19/07/2026. La page du parc recommandant encore cette variante reste inchangée depuis le 24/06/2026 (14 jours sans mise à jour) : la contradiction entre la page officielle et la fermeture réelle du terrain est active. Une mention plus ancienne indiquant cette contradiction comme réglée était erronée : elle ne l'est pas.
+
+MAJ 29/07 : la page, relue directement, reste datée du 24 juin 2026 (35 jours sans mise à jour, 10 jours depuis la fermeture du GR54A) et continue de recommander explicitement le GR54A (col de la Pousterle, vallon du Fournel, pas de la Cavale) sans mentionner l'incendie. Une section « articles liés » de cette page évoquerait un article du 28/07/2026 sur une vigilance incendie concernant d'autres communes, non identifié avec certitude ; ce point reste à confirmer.
+
+MAJ 31/07 : la page reste datée du 24 juin 2026 (36 jours sans mise à jour, 12 jours depuis la fermeture du GR54A) et recommande toujours le GR54A via le col de la Pousterle pour rejoindre le Pré de la Chaumette, sans mention de la fermeture incendie. Un randonneur qui suivrait cette recommandation officielle serait dirigé vers un secteur fermé.
+
+MAJ 03/08 : aucun changement (40 jours sans mise à jour de la page, 15 jours depuis la fermeture du GR54A) ; la contradiction entre la recommandation officielle et la fermeture réelle du terrain reste entière.
+
+MAJ 07/08 : aucun changement (44 jours sans mise à jour, 19 jours depuis la fermeture du GR54A). Une deuxième page du parc, ecrins-parcnational.fr/actualite/gr54-conditions-randonnee, recommande elle aussi le GR54A sans mentionner l'incendie ; vérification faite, elle est en réalité datée du 27 juin 2025, un an avant l'incendie, et ne renseigne donc pas sur l'état actuel du sentier.
+
+MAJ 11/08 : toujours aucun changement (48 jours sans mise à jour, 23 jours depuis la fermeture du GR54A). La page continue de recommander le GR54A via le col de la Pousterle sans aucune mention de l'incendie ni de la fermeture.
 
 ## Source
 
