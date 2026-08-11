@@ -5,14 +5,11 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-10
-statut: ACTIF — CHANGÉ 07/08 : interdiction générale de feu (15/06→30/09) toujours en
-  vigueur. Fango/Bonifato/Agriate : fermeture confirmée encore active au 02/08, mais le
-  niveau associé est redescendu de « très sévère » à « élevé » (alerte orange) — aucune
-  source postérieure au 02/08 trouvée malgré recherche dédiée. Feu de la Restonica (Corte) :
-  définitivement fixé début août malgré une reprise localisée le 01-02/08 (voir fiches
-  dédiées Mare a Mare Nord / GR20-Albertacce pour le détail). Foyers Biguglia/Oletta (fin
-  juillet) non revérifiés ce run, hors itinéraires suivis, non prioritaires.
+verif: 2026-08-11
+statut: ACTIF — INCHANGÉ 11/08 : interdiction générale de feu (15/06→30/09) toujours en
+  vigueur. Nouvelle recherche sur Fango/Bonifato/Agriate (haute-corse.gouv.fr), toujours
+  aucune page datée postérieure au 22/07 trouvée pour ce secteur précis ; dernier niveau
+  connu (« élevé », orange) daté du 02/08 non revérifié aujourd'hui.
 ordre: 2
 ---
 

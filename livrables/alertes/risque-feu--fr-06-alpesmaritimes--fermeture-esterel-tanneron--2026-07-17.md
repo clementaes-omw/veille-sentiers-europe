@@ -5,13 +5,14 @@ itin: GR51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: HAUTE
 validite: journalière ; fermé au 06/08 (dernière date confirmée), rouge très sévère
 detection: 2026-08-09
-verif: 2026-08-10
-statut: ACTIF — INCHANGÉ 10/08 : recherche ciblée refaite (presseagence.fr et sa série
-  d'articles quotidiens), aucune publication postérieure au 06/08 trouvée. L'écart atteint
-  désormais 4 jours (07→10/08). Le régime de classement quotidien du massif rend cette
-  publication attendue chaque jour classé très sévère ; son absence peut aussi bien signifier
-  une désescalade non annoncée qu'un simple délai de publication. Sévérité maintenue HAUTE
-  par prudence, statut du jour non confirmé — priorité de la prochaine couverture FR-06.
+verif: 2026-08-11
+statut: ACTIF — INCHANGÉ 11/08 : nouvelle recherche ciblée (espace presse
+  alpes-maritimes.gouv.fr consulté directement, mois d'août 2026 : seuls deux communiqués y
+  figurent, un test de sirènes du 05/08 et une annonce Tour de France Femmes du 07/08, aucun
+  sur le risque incendie ; sites des communes de Mandelieu-la-Napoule, Théoule-sur-Mer et
+  Tanneron ; presseagence.fr). Toujours aucune publication postérieure au 06/08 trouvée.
+  L'écart atteint désormais 5 jours (07→11/08). Sévérité maintenue HAUTE par prudence, statut
+  du jour non confirmé.
 ordre: 102
 ---
 
@@ -28,6 +29,8 @@ Les autres massifs des Alpes-Maritimes restent accessibles ces jours-là. La pr�
 Depuis le 17 juillet 2026, la préfecture des Alpes-Maritimes classe le massif de l'Esterel-Tanneron en risque incendie très sévère de façon quasi quotidienne, avec fermeture totale au public (accès, circulation, travaux interdits) les jours concernés. Fermetures confirmées par une source datée à chacune de ces dates : 1er juillet (« les autres massifs des Alpes-Maritimes restent accessibles »), 27 juillet, 1er, 2, 3 et 6 août. Le massif s'étend sur les communes de Mandelieu-la-Napoule, Théoule-sur-Mer et Tanneron côté Alpes-Maritimes ; il est traversé par le GR51 (Balcons de la Méditerranée). Cette fermeture est distincte de celle suivie côté Var (ligne `risque-feu|Var-83|fermetures-massifs-quotidiennes`, qui inclut également un massif nommé « Estérel » dans sa propre rotation de 9 massifs) : les deux préfectures publient des classements séparés pour leurs portions respectives du même massif.
 
 Vérifié le 10/08/2026 : aucune source datée entre le 7 et le 10 août n'a été retrouvée ; la dernière confirmation disponible reste celle du 6 août. Le classement du massif change chaque soir pour le lendemain, cette absence de publication récente ne permet donc pas de conclure à une reconduction ni à une levée.
+
+Vérifié le 11/08/2026 : recherche élargie aux sources primaires (espace presse de la préfecture des Alpes-Maritimes consulté directement pour le mois d'août : deux communiqués seulement, aucun sur le risque incendie) et aux sites des trois communes du massif (Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron), sans résultat. La carte de risque Entente Valabre (risque-prevention-incendie.fr) existe mais son contenu, généré en JavaScript, ne s'affiche pas à la simple lecture de la page et n'a pas pu être consulté pour cette vérification. L'écart entre la dernière confirmation datée (6 août) et aujourd'hui atteint 5 jours.
 
 ## Source
 
