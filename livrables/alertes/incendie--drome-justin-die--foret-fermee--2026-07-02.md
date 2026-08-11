@@ -5,7 +5,7 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en
 sev: MOYENNE (dégradée 06/08 — aucune publication officielle depuis 21 jours malgré recherche active dédiée)
 validite: arrêté « jusqu'à nouvel ordre » ; feu fixé le 16/07, aucune communication officielle plus récente ne confirme le maintien ni la levée de l'interdiction
 detection: 2026-07-18
-verif: 2026-08-09
+verif: 2026-08-11
 statut: ACTIF — CHANGÉ 06/08 : DÉGRADÉE HAUTE→MOYENNE — recherche ciblée dédiée menée ce
   jour (comme demandé par l'audit qualité du 05/08), aucune publication postérieure au
   16/07/2026 trouvée sur drome.gouv.fr (21 jours de silence), ni levée ni reconduction
@@ -17,7 +17,7 @@ ordre: 31
 
 ## Portion concernée
 
-Forêt domaniale de Justin, hauteurs de Die (sud du Diois, Drôme) : **dernière interdiction connue par arrêté préfectoral, « jusqu'à nouvel ordre »**, liée à un incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Aucune communication officielle n'a été publiée depuis le 16/07/2026, soit 21 jours à la vérification du 06/08 : ni levée, ni reconduction, ni nouveau point de situation sur drome.gouv.fr. Le diagnostic ONF post-incendie (chablis, éboulements), engagé dans le cadre du plan de relance, n'a pas non plus donné lieu à une publication sur l'état d'accès du massif.
+Forêt domaniale de Justin, hauteurs de Die (sud du Diois, Drôme) : **dernière interdiction connue par arrêté préfectoral, « jusqu'à nouvel ordre »**, liée à un incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Aucune communication officielle n'a été publiée depuis le 16/07/2026, soit 26 jours à la vérification du 11/08 : ni levée, ni reconduction, ni nouveau point de situation sur drome.gouv.fr. Le diagnostic ONF post-incendie (chablis, éboulements), engagé dans le cadre du plan de relance, n'a pas non plus donné lieu à une publication sur l'état d'accès du massif.
 
 ## Alternative
 

@@ -5,7 +5,7 @@ itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierz
 sev: INFO (clôturée — extinction officielle du foyer principal)
 validite: [CLÔTURÉ] (2026-08-10) — feu de Veguellina déclaré ÉTEINT le 09/08/2026 17h50 après 12 jours ; les foyers de Valdelaloba, San Tirso, Laballos et La Faba étaient déjà tous à IGR-0/maîtrisés
 detection: 2026-08-02
-verif: 2026-08-10
+verif: 2026-08-11
 statut: [CLÔTURÉ] (2026-08-10) — le feu de Veguellina (Villafranca del Bierzo, ~1330 ha) est
   déclaré ÉTEINT le 09/08 à 17h50 après 12 jours d'activité, IGR passé à 0 le 10/08 au matin.
   Évacuations levées à Moreda, San Pedro de Olleros, Prado de la Somoza ; A-6 totalement
@@ -19,7 +19,17 @@ ordre: 97
 
 ## Portion concernée
 
-Massif du Bierzo (León), communes de Villafranca del Bierzo (secteur de Veguellina), Toreno (Valdelaloba) et Vega de Valcarce (secteurs de San Tirso, Las Lamas, Laballos et La Faba). Le feu de Veguellina touche formellement à sa fin après dix jours d'intervention (leonoticias, 08/08). Deux nouveaux départs de feu se sont produits à Vega de Valcarce les 07 et 08/08 : l'un à Laballos, près du viaduc de Las Lamas sur l'A-6, l'autre à La Faba, étape nommée du Camino Francés entre Vega de Valcarce et O Cebreiro. Les deux ont été déclarés maîtrisés le 08/08, sans coupure de l'A-6 ni évacuation. Villafranca del Bierzo et Vega de Valcarce sont deux étapes nommées du Camino Francés, **sans impact documenté sur le balisage**. À l'origine, une vague d'incendies de forêt a touché la Castilla y León fin juillet 2026, et Vega de Valcarce en reste un point chaud récurrent.
+**Tous les feux du complexe sont éteints ou maîtrisés.** Massif du Bierzo (León),
+communes de Villafranca del Bierzo (secteur de Veguellina), Toreno (Valdelaloba) et Vega
+de Valcarce (secteurs de San Tirso, Las Lamas, Laballos et La Faba). Le feu de Veguellina,
+le plus important du complexe (~1330 ha), a été déclaré éteint le 09/08/2026 à 17h50
+après 12 jours d'activité. Les départs plus récents à Laballos et La Faba (Vega de
+Valcarce, 07 et 08/08) ont été déclarés maîtrisés le 08/08, sans coupure de l'A-6 ni
+évacuation. Villafranca del Bierzo et Vega de Valcarce sont deux étapes nommées du Camino
+Francés, **sans impact documenté sur le balisage** à aucun moment de l'épisode. À
+l'origine, une vague d'incendies de forêt a touché la Castilla y León fin juillet 2026, et
+Vega de Valcarce en reste un point chaud récurrent (un nouveau foyer distinct est apparu
+le 09/08 à Barjas, à l'ouest, voir la fiche dédiée).
 
 ## Alternative
 
