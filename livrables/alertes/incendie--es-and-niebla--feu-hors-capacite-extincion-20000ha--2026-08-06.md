@@ -45,7 +45,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -54,7 +54,7 @@ des équipes INFOCA (brigades, autopompes, bulldozers). Deux routes restent coup
 HU-3106 entre Niebla et Valverde del Camino, et l'A-493.
 
 Le 10/08, le bilan s'aggrave : le périmètre dépasse 20 000 ha et 474 à 479 personnes
-sont évacuées au total, dont une trentaine encore prise en charge par la Croix-Rouge et
+sont évacuées au total, dont une trentaine encore prises en charge par la Croix-Rouge et
 la Protection civile au théâtre de Zalamea. La Junta de Andalucía qualifie le feu de
 « hors capacité d'extinction », précisant que la cause n'est pas un manque de moyens
 mais le comportement extrême du foyer : rafales de vent du sud-ouest combinées à un
@@ -73,14 +73,15 @@ zone de plaine agricole et de dehesa (Condado de Huelva), à l'écart des tracé
 du GR7/E4 ou du Camino Mozárabe, qui ne traversent pas cette partie de la province selon
 le référentiel interne.
 
-Piège d'indexation déjoué : une recherche sur les incendies actifs en Galice
-(« incendios activos Galicia agosto 2026 ») a remonté un article évoquant huit
-incendies actifs en Galice dont un complexe à Oímbra/A Mezquita/Vilardevós (Ourense,
-plus de 78 500 ha) : vérification faite, ces chiffres (10 000 ha à Oímbra, 9-10 000 ha
-à A Mezquita) correspondent exactement au bilan du complexe d'incendies d'Ourense
-d'août 2025, déjà identifié comme piège de recyclage (aux côtés de Chandrexa de Queixa
-et Larouco). Aucun incendie de cette ampleur n'est confirmé en Galice à la date du
-présent passage ; écarté.
+Précision utile pour éviter une confusion avec un autre incendie : une recherche sur
+les incendies actifs en Galice (« incendios activos Galicia agosto 2026 ») a remonté un
+article évoquant huit incendies actifs en Galice dont un complexe à Oímbra/A
+Mezquita/Vilardevós (Ourense, plus de 78 500 ha). Vérification faite, ces chiffres
+(10 000 ha à Oímbra, 9-10 000 ha à A Mezquita) correspondent en réalité au bilan du
+complexe d'incendies d'Ourense d'août 2025, un an plus tôt, et non à un incendie en
+cours (même constat déjà fait pour les incendies de Chandrexa de Queixa et de Larouco).
+Aucun incendie de cette ampleur n'est confirmé en Galice à la date de cette
+vérification : ce point est sans lien avec l'incendie de Niebla décrit ci-dessus.
 
 ## Source
 

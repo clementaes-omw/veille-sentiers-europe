@@ -20,7 +20,7 @@ Sans objet : **tous les massifs du Var sont rouverts depuis le 03/07**.
 
 ## Zone (détails)
 
-Var : Sainte-Baume, Maures, Centre-Var, Estérel fermes (accs/circulation/travaux interdits, risque trs svre + mistral)
+Var : Sainte-Baume, Maures, Centre-Var, Estérel fermés (accès/circulation/travaux interdits, risque très sévère + mistral)
 
 ## Source
 
