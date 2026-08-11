@@ -5,7 +5,7 @@ itin: Vía de la Plata / Camino Sanabrés [HYPOTHÈSE] aucun tracé nommé ne tr
 sev: MOYENNE
 validite: jusqu'à nouvel ordre. Toutes les 14 localités évacuées sont rentrées, toutes les routes rouvertes ; feu « estabilizado » depuis début août, surveillance anti-reprise maintenue, pas formellement déclaré extinguido
 detection: 2026-08-02
-verif: 2026-08-10
+verif: 2026-08-11
 statut: ACTIF — CHANGÉ 08/08 : précision datée obtenue — le feu a été déclaré
   « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense, avec
   travaux de consolidation/liquidation de points chauds en cours sur les zones difficiles

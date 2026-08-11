@@ -5,7 +5,7 @@ itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontaine
 sev: HAUTE
 validite: prolongée jusqu'au 14/08/2026 inclus. Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny et la forêt communale de Nemours suivent désormais tous la même échéance
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-10
+verif: 2026-08-11
 statut: ACTIF — CHANGÉ 10/08 : reconfirmation officielle directe. Le point de situation de
   la préfecture de Seine-et-Marne du 07/08 (repris par des arrêtés datés du 6 au 8 août)
   maintient la fermeture des cinq massifs jusqu'au 14/08 inclus, motif « persistance de la
