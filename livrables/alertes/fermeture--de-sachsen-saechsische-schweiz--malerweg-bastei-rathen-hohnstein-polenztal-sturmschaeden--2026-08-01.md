@@ -3,11 +3,11 @@ cle: fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Po
 type: fermeture / dégâts tempête
 itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ vallée de la Polenz
 sev: HAUTE
-validite: du 01/08 au 31/08/2026, prolongation possible ; réouverture partielle depuis le 07/08/2026 (Basteiweg, Polenztal sud) ; le Polenztal entre le Gasthaus et la Waltersdorfer Mühle a refermi le 09/08/2026 pour chute d'arbres
+validite: du 01/08 au 31/08/2026, prolongation possible ; réouverture partielle depuis le 07/08/2026 (Basteiweg, Polenztal sud) ; le Polenztal entre le Gasthaus et la Waltersdorfer Mühle a refermé le 09/08/2026 pour chute d'arbres
 detection: 2026-08-06
 verif: 2026-08-11
 statut: ACTIF — CHANGÉ 11/08 : nouvelle fermeture ponctuelle constatée. Le tronçon du Polenztal
-  entre le Gasthaus Polenztal et la Waltersdorfer Mühle, rouvert le 07/08, a refermi le 09/08
+  entre le Gasthaus Polenztal et la Waltersdorfer Mühle, rouvert le 07/08, a refermé le 09/08
   pour des arbres qui continuent de tomber dans la zone sinistrée (nationalpark-saechsische-
   schweiz.de, page « Eilmeldung Waldsperrung », MAJ 09/08). Le Basteiweg, la Basteiaussicht et
   la partie sud du Polenztal (entre la Frinztalmühle et le Neuweg/Schulzengrund) restent
@@ -19,7 +19,7 @@ ordre: 99
 
 ## Portion concernée
 
-Parc national de la Suisse Saxonne (Saxe, Allemagne) : **l'Amselsee, les Schwedenlöcher, l'Amselgrund et le Polenztal entre le Gasthaus Polenztal et la Waltersdorfer Mühle restent fermés au 11/08/2026**, avec les chemins adjacents à la zone sinistrée. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; le tronçon du Polenztal cité, rouvert le 07/08, a refermi le 09/08 parce que des arbres continuent de tomber dans la zone endommagée. Le Basteiweg (montée de Rathen vers la Bastei), la Basteiaussicht et la partie sud du Polenztal (entre la Frinztalmühle et le Neuweg/Schulzengrund) restent ouverts, de même que l'accès au Gamrig depuis Waltersdorf. Le Malerweg, qui traverse Schwedenlöcher et Amselsee sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce segment. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
+Parc national de la Suisse Saxonne (Saxe, Allemagne) : **l'Amselsee, les Schwedenlöcher, l'Amselgrund et le Polenztal entre le Gasthaus Polenztal et la Waltersdorfer Mühle restent fermés au 11/08/2026**, avec les chemins adjacents à la zone sinistrée. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; le tronçon du Polenztal cité, rouvert le 07/08, a refermé le 09/08 parce que des arbres continuent de tomber dans la zone endommagée. Le Basteiweg (montée de Rathen vers la Bastei), la Basteiaussicht et la partie sud du Polenztal (entre la Frinztalmühle et le Neuweg/Schulzengrund) restent ouverts, de même que l'accès au Gamrig depuis Waltersdorf. Le Malerweg, qui traverse Schwedenlöcher et Amselsee sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce segment. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
 
 ## Alternative
 
