@@ -8,9 +8,18 @@ raconter la situation d'il y a trois semaines. C'est le défaut le plus coûteux
 du site — un randonneur qui lit « massif interdit » sur la foi d'une page
 préfectorale périmée fait demi-tour pour rien, et l'inverse est pire.
 
+Depuis l'onglet Carte (commit carte-zones-alertes), il contrôle aussi la
+COHÉRENCE carte/registre : une alerte active dont la zone ne se résout vers aucun
+code de referentiel/zones-coords.csv est publiée mais n'apparaît sur AUCUN
+marqueur — le build ne le signale que sur stderr, sans bloquer. L'audit en fait un
+constat BLOQUANT (« alerte perdue »), vérifie que le compte de marqueurs couvre
+toutes les actives, et signale (non bloquant) toute zone-source du référentiel
+encore dépourvue de coordonnées.
+
 Tout est déterministe et hors-ligne : aucune clé d'API, aucun appel réseau. Ce
 qui relève du jugement (la source dit-elle vraiment ça ? l'alerte a-t-elle encore
-un sens ?) est le travail de l'agent relecteur — agents/verificateur-alertes.md.
+un sens ? le centroïde d'une zone est-il plausible ?) est le travail des agents
+relecteurs — agents/verificateur-alertes.md et agents/verificateur-carte.md.
 
 Sortie : livrables/audit-qualite.md + un résumé sur stdout.
 Code retour : 1 s'il reste au moins un constat BLOQUANT, 0 sinon.
@@ -26,9 +35,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_site import (  # noqa: E402  (import après ajustement du sys.path)
     JARGON_INTERNE, HYPO_MARQUEURS, HYPO_DELAI_JOURS, LIVRABLES, MOIS,
     fold_txt, load_alertes, sev_class, _age_jours,
+    load_zones_coords, zones_carte,
 )
 
 RAPPORT = LIVRABLES / "audit-qualite.md"
+ZONES_SOURCES_MD = LIVRABLES.parent / "referentiel" / "zones-sources.md"
+
+# Un code de zone-source tel qu'il paraît en 1re cellule des tableaux de
+# zones-sources.md : deux majuscules ou plus, puis au moins un segment « -XXX »
+# (le format « XX-… » du référentiel). Le tiret exigé écarte volontairement les
+# codes atomiques (IS, AT, DE, BENELUX) et l'ancien « SCAND » subdivisé depuis en
+# SCAND-NO/SCAND-SE — tous déjà présents dans zones-coords.csv, donc sans objet.
+CODE_ZONE = re.compile(r"^[A-Z]{2,}(?:-[A-Z0-9]+)+$")
 
 # Fraîcheur attendue d'une revérification, en jours, selon ce que l'alerte prétend.
 # Une fermeture décidée au jour le jour et vérifiée il y a six jours n'est plus une
@@ -177,25 +195,104 @@ def auditer(cards) -> list:
     return constats
 
 
-def rapport_md(cards, constats) -> str:
+def codes_zones_sources() -> set:
+    """Codes de zones-sources déclarés dans referentiel/zones-sources.md.
+
+    Lus en 1re cellule des tableaux (le référentiel liste chaque zone-source sur
+    une ligne « | CODE | … »). On ne balaie pas la prose : les mêmes codes y
+    reviennent en gras et se mêleraient aux noms de GR (« GR-E4 » vs « GR10 »)."""
+    codes = set()
+    if not ZONES_SOURCES_MD.exists():
+        return codes
+    for ligne in ZONES_SOURCES_MD.read_text(encoding="utf-8").splitlines():
+        s = ligne.strip()
+        if not s.startswith("|"):
+            continue
+        premiere = s.strip("|").split("|")[0].strip().strip("*").strip()
+        if CODE_ZONE.match(premiere):
+            codes.add(premiere)
+    return codes
+
+
+def auditer_carte(cards, coords) -> list:
+    """Cohérence entre le registre et la vue Carte du site.
+
+    La carte n'affiche qu'UN marqueur par zone-source résolue (site/build_site.py,
+    zones_carte). Une alerte active dont la zone ne se résout vers aucun code de
+    zones-coords.csv est publiée mais INVISIBLE sur la carte : le build ne l'écrit
+    que sur stderr, sans bloquer. C'est le défaut le plus silencieux de la vue.
+
+    Renvoie une liste de constats (niveau, clé, message), même forme que auditer().
+    On réutilise zones_carte() : aucune logique de résolution n'est redupliquée ici."""
+    constats = []
+    actives = [c for c in cards if "CLÔTURÉ" not in c["statut"].upper()]
+    liste, non_mappees = zones_carte(actives, coords)
+
+    # 1. Aucune alerte active ne doit tomber hors de la carte -----------------
+    for zone_str, cle in non_mappees:
+        z = zone_str or "(zone vide)"
+        constats.append((
+            "BLOQUANT", cle,
+            f"zone « {z} » non résolue vers referentiel/zones-coords.csv : l'alerte "
+            f"est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le "
+            f"code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de "
+            f"build_site.py."))
+
+    # 2. Le compte de marqueurs doit couvrir toutes les actives ---------------
+    n_couvertes = sum(len(g["alertes"]) for g in liste)
+    if actives and not liste:
+        constats.append((
+            "BLOQUANT", "(carte)",
+            f"{len(actives)} alerte(s) active(s) mais AUCUN marqueur sur la carte — "
+            f"la vue Carte est vide alors que le registre ne l'est pas."))
+    if n_couvertes != len(actives):
+        perdues = len(actives) - n_couvertes
+        constats.append((
+            "BLOQUANT", "(carte)",
+            f"regroupement incohérent : {n_couvertes} alerte(s) réparties sur "
+            f"{len(liste)} marqueur(s) pour {len(actives)} active(s) — {perdues} "
+            f"alerte(s) hors carte."))
+
+    # 3. Complétude du référentiel de coordonnées (non bloquant) --------------
+    # Une zone sans alerte n'a pas besoin d'un marqueur, mais le référentiel doit
+    # rester complet pour la première alerte qui la touchera.
+    for code in sorted(codes_zones_sources() - set(coords)):
+        constats.append((
+            "ALERTE", code,
+            f"zone-source déclarée dans referentiel/zones-sources.md mais sans "
+            f"coordonnées dans zones-coords.csv : aucune alerte de cette zone ne "
+            f"pourrait apparaître sur la carte. Compléter le CSV (code;nom;lat;lon)."))
+
+    ordre = {"BLOQUANT": 0, "ALERTE": 1, "INFO": 2}
+    constats.sort(key=lambda x: (ordre[x[0]], x[1]))
+    return constats
+
+
+def rapport_md(cards, constats, constats_carte=()) -> str:
     auj = date.today().isoformat()
     n = {k: sum(1 for x in constats if x[0] == k) for k in ("BLOQUANT", "ALERTE", "INFO")}
     actives = [c for c in cards if "CLÔTURÉ" not in c["statut"].upper()]
     touchees = len({x[1] for x in constats})
+    nc = {k: sum(1 for x in constats_carte if x[0] == k)
+          for k in ("BLOQUANT", "ALERTE", "INFO")}
     lignes = [
         f"# Audit qualité du registre — {auj}",
         "",
         f"{len(actives)} alertes actives · {touchees} fiches avec au moins un constat · "
         f"**{n['BLOQUANT']} bloquant(s)**, {n['ALERTE']} alerte(s), {n['INFO']} info(s).",
         "",
+        f"Carte : **{nc['BLOQUANT']} bloquant(s)**, {nc['ALERTE']} alerte(s) "
+        f"(cohérence carte/registre, voir la section dédiée).",
+        "",
         "Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement sur le "
         "fond — la source dit-elle vraiment cela, l'alerte a-t-elle encore un sens sur le "
-        "terrain — relève de `agents/verificateur-alertes.md`.",
+        "terrain — relève de `agents/verificateur-alertes.md` ; la plausibilité des "
+        "centroïdes de la carte, de `agents/verificateur-carte.md`.",
         "",
     ]
     if not constats:
-        lignes.append("Aucun constat : le registre est à jour.")
-        return "\n".join(lignes) + "\n"
+        lignes.append("Aucun constat de fraîcheur : le registre est à jour.")
+        lignes.append("")
     for niveau, titre in (("BLOQUANT", "⛔ Bloquants — à corriger avant le prochain run"),
                           ("ALERTE", "⚠️ À traiter"),
                           ("INFO", "· Dette de forme")):
@@ -206,22 +303,56 @@ def rapport_md(cards, constats) -> str:
         for _, cle, msg in lot:
             lignes.append(f"- **`{cle}`** — {msg}")
         lignes.append("")
+    lignes += rapport_carte_md(constats_carte)
     return "\n".join(lignes) + "\n"
+
+
+def rapport_carte_md(constats_carte) -> list:
+    """Section « Cohérence carte / registre » du rapport."""
+    lignes = ["## 🗺 Cohérence carte / registre", ""]
+    if not constats_carte:
+        lignes += [
+            "0 alerte perdue : chaque alerte active se résout vers un marqueur de la "
+            "carte, le compte de marqueurs couvre toutes les actives, et toute "
+            "zone-source du référentiel a ses coordonnées.",
+            "",
+        ]
+        return lignes
+    for niveau, titre in (
+            ("BLOQUANT", "⛔ Alertes actives invisibles sur la carte / compte incohérent"),
+            ("ALERTE", "⚠️ Référentiel de coordonnées à compléter"),
+            ("INFO", "· Divers")):
+        lot = [x for x in constats_carte if x[0] == niveau]
+        if not lot:
+            continue
+        lignes += [f"### {titre}", ""]
+        for _, cle, msg in lot:
+            lignes.append(f"- **`{cle}`** — {msg}")
+        lignes.append("")
+    return lignes
 
 
 def main() -> int:
     cards = load_alertes()
     constats = auditer(cards)
-    txt = rapport_md(cards, constats)
+    coords = load_zones_coords()
+    constats_carte = auditer_carte(cards, coords)
+    txt = rapport_md(cards, constats, constats_carte)
     if "--ecrire" in sys.argv:
         RAPPORT.write_text(txt, encoding="utf-8")
         print(f"rapport écrit → {RAPPORT}")
-    bloquants = [x for x in constats if x[0] == "BLOQUANT"]
+    marque = {"BLOQUANT": "⛔", "ALERTE": "⚠️ ", "INFO": "· "}
+    bloquants = [x for x in constats + constats_carte if x[0] == "BLOQUANT"]
     for niveau, cle, msg in constats:
-        marque = {"BLOQUANT": "⛔", "ALERTE": "⚠️ ", "INFO": "· "}[niveau]
-        print(f"{marque} {cle[:52]:54s} {msg}")
-    print(f"\n{len(constats)} constat(s) sur {len(cards)} fiches — "
-          f"{len(bloquants)} bloquant(s).")
+        print(f"{marque[niveau]} {cle[:52]:54s} {msg}")
+    print("\n— carte —")
+    if constats_carte:
+        for niveau, cle, msg in constats_carte:
+            print(f"{marque[niveau]} {cle[:52]:54s} {msg}")
+    else:
+        print("· 0 alerte perdue (carte cohérente avec le registre).")
+    print(f"\n{len(constats)} constat(s) registre + {len(constats_carte)} carte "
+          f"sur {len(cards)} fiches — {len(bloquants)} bloquant(s).")
     return 1 if bloquants else 0
 
 

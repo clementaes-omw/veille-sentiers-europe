@@ -40,7 +40,12 @@ avec deux différences structurantes :
   sans clé d'API). Le build contrôle la forme de ce qui est publié ; l'audit contrôle sa
   vérité dans le temps : fiches périmées au regard de leur propre validité, descriptions
   restées en arrière du suivi interne, validités expirées, hypothèses jamais tranchées,
-  sources vieillies. Écrit `livrables/audit-qualite.md`, code retour 1 s'il reste un
+  sources vieillies. Depuis l'onglet Carte, il contrôle aussi la **cohérence carte/registre**
+  (section « 🗺 Cohérence carte / registre » du rapport) : toute alerte active dont la zone
+  ne se résout vers aucun code de `referentiel/zones-coords.csv` est BLOQUANTE (publiée mais
+  invisible sur la carte, « alerte perdue ») ; le compte de marqueurs doit couvrir toutes les
+  actives ; toute zone-source du référentiel encore sans coordonnées est signalée (non
+  bloquant). Écrit `livrables/audit-qualite.md`, code retour 1 s'il reste un
   constat bloquant. Tourne aussi seul sur GitHub (`.github/workflows/audit-qualite.yml`,
   07h47 UTC + à chaque poussée touchant le registre) et ouvre une issue en cas de blocage.
 - `site/verif_faits.py` — **garde-fou de réécriture**. Compare la prose des alertes à une
@@ -54,6 +59,12 @@ avec deux différences structurantes :
   décrochages de description et le ton, et remonte ce qui exige une source nouvelle.
   Motivé par le défaut du 02/08/2026 : des mises à jour parties dans le champ `statut:`
   (invisible) pendant que le texte affiché restait figé deux semaines en arrière.
+- `agents/verificateur-carte.md` — **agent relecteur de la carte**, distinct de la veille.
+  À partir de la section carte de `livrables/audit-qualite.md`, il propose une entrée
+  plausible dans `referentiel/zones-coords.csv` pour chaque nouvelle zone signalée « perdue »
+  (repère géographique explicite, jamais de coordonnée inventée), contrôle la plausibilité des
+  centroïdes existants au regard des alertes qu'ils portent, et vérifie le compte de marqueurs.
+  Il écrit `livrables/verdict-carte.md` et n'ajoute que des lignes neuves au CSV.
 
 ## Lancer un run de veille
 
