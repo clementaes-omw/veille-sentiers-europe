@@ -1134,8 +1134,13 @@ def build():
       m.bindPopup(h);
       pts.push([z.lat, z.lon]);
     });
-    if (pts.length) { map.fitBounds(pts, { padding: [30, 30], maxZoom: 6 }); }
-    else { map.setView([46, 6], 4); }
+    // Vue initiale cadrée sur l'Europe de l'Ouest (la zone cœur du périmètre de veille).
+    // fitBounds sur TOUS les marqueurs embrassait La Réunion et les Canaries → zoom lointain.
+    // La vue par défaut montre l'Europe en détail ; Réunion/Canaries restent accessibles en dézoomant.
+    // maxBounds = cadre du périmètre de veille (Islande au N, La Réunion au S, Canaries à l'W).
+    map.setView([47, 7], 5);
+    var limiteSW = L.latLng(-25, -30), limiteNE = L.latLng(68, 40);
+    map.setMaxBounds(L.latLngBounds(limiteSW, limiteNE));
     // clic « Voir dans les alertes » dans une popup → bascule vers le registre + recherche
     document.getElementById('carte-map').addEventListener('click', function (e) {
       var b = e.target.closest && e.target.closest('.voir');
