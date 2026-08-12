@@ -1,0 +1,58 @@
+# Coordonnées (centroïdes approximatifs) des zones-sources de referentiel/zones-sources.md
+# Sert à la vue « Carte » du site : un repère par zone-source touchée par une alerte active.
+# La position n'est PAS le point exact d'un incident mais le centre indicatif de la zone
+# (département / massif / région) ou, quand la zone est très étendue, le centre du corridor
+# de sentiers réellement suivi. Repères pris sur des points géographiques connus.
+# Colonnes : code;nom;lat;lon   (séparateur « ; », WGS84 degrés décimaux)
+code;nom;lat;lon
+# --- FRANCE (T1 saison feux) ---
+FR-CORSE;Corse (2A/2B, GR20);42.15;9.10
+FR-13;Bouches-du-Rhône (Calanques, Sainte-Victoire);43.42;5.35
+FR-83;Var (Estérel, Maures, Sainte-Baume);43.45;6.25
+FR-06;Alpes-Maritimes (Mercantour);43.95;7.15
+FR-04-05;Alpes-de-Hte-Provence & Hautes-Alpes (Écrins, Queyras);44.60;6.30
+FR-30-48;Gard & Lozère (Cévennes);44.20;3.75
+FR-34-11;Hérault & Aude;43.35;2.90
+FR-66;Pyrénées-Orientales (Canigou, Albères);42.55;2.45
+FR-84-26-07;Vaucluse, Drôme & Ardèche (Ventoux, Baronnies);44.30;5.15
+FR-974;La Réunion;-21.10;55.52
+# --- FRANCE (T2/T3) ---
+FR-PYR-O;Pyrénées occidentales (64/65/31/09);42.85;0.55
+FR-ALPES-N;Alpes du Nord (38/73/74/01, Vanoise, Mont-Blanc);45.50;6.50
+FR-MC;Massif Central (Aubrac, Volcans, Cévennes nord);45.10;2.85
+FR-BRE;Bretagne (GR34 littoral);48.20;-3.20
+FR-NOR;Normandie (GR21, côte d'Albâtre);49.35;0.35
+FR-EST;Grand Est & Jura (Vosges);48.10;6.80
+FR-SO;Sud-Ouest (Gascogne, Landes, Lot);44.10;0.50
+FR-IDF-CVL;Île-de-France & Centre-Val de Loire (Fontainebleau);48.30;2.60
+# --- ESPAGNE & PORTUGAL nord (Caminos) ---
+ES-GAL;Galicia;42.75;-8.00
+ES-CYL;Castilla y León (León, Bierzo);42.35;-5.70
+ES-NAV-RIO-ARA;Navarra, La Rioja & Aragón (Ordesa);42.55;-0.70
+ES-NORTE;País Vasco, Cantabria & Asturias;43.25;-4.50
+ES-CAT;Cataluña (Pyrénées, Aigüestortes);42.50;1.00
+PT-NORTE;Portugal Norte (Porto → Valença);41.55;-8.40
+# --- ESPAGNE extension / PT sud / Atlantique & Nord ---
+ES-AND;Andalucía;37.50;-4.60
+ES-CENTRO;Madrid, Castilla-La Mancha & Extremadura;39.60;-4.20
+ES-LEVANTE;Comunidad Valenciana & Murcia;38.60;-1.00
+ES-BALEARES;Illes Balears (Tramuntana, Camí de Cavalls);39.65;2.95
+ES-CANARIAS;Islas Canarias;28.35;-16.20
+PT-CENTRO-SUL;Portugal centre & sud (Rota Vicentina);37.90;-8.55
+UK-IE;Îles Britanniques & Irlande;54.50;-3.50
+IS;Islande (Hautes Terres);64.30;-19.00
+# --- ALPES & Europe du Nord-Ouest ---
+CH-VALAIS-VAUD;Valais & Vaud (TMB, Chamonix-Zermatt);46.15;7.30
+CH-EST;Oberland, Grisons & Tessin;46.60;8.90
+IT-NO;Val d'Aoste, Piémont & Ligurie;45.70;7.40
+IT-DOLOMITES;Dolomites (Trentin-Haut-Adige, Vénétie);46.40;11.80
+IT-CENTRE;Toscane, Latium & Émilie (Via Francigena);43.50;11.20
+AT;Autriche (Tyrol, Vorarlberg, Carinthie);47.20;11.40
+DE;Allemagne (Forêt-Noire, Saxe, Rhin);49.80;9.50
+BENELUX;Belgique, Luxembourg & Pays-Bas (Ardennes);50.20;5.50
+# --- Extension v3 (Scandinavie, Balkans, Grèce, Tatras) ---
+SCAND-NO;Norvège (Jotunheimen, Hardangervidda, Lofoten);61.50;8.50
+SCAND-SE;Suède (Laponie, Kungsleden);67.80;18.50
+SI-HR;Slovénie & Croatie (Alpes juliennes, Triglav);46.20;14.10
+GR-E4;Grèce (Crète, Péloponnèse — E4);35.30;24.00
+PL-SK-TATRAS;Tatras (Pologne & Slovaquie);49.20;20.00
