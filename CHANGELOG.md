@@ -7,6 +7,47 @@ design du 08/08 s'est retrouvé embarqué dans des commits dont le message parle
 chose, et rien n'expliquait plus pourquoi le générateur définit `--surface-invert` ou
 pourquoi le champ de recherche est figé à 16 px.
 
+## 2026-08-12 — La vue Carte passe l'audit design
+
+L'onglet Carte est arrivé sans repasser par les règles fixées le 08/08. Mesures reprises au
+même protocole, sur le rendu réel, en thème clair **et** sombre, à 375 px et 1280 px :
+**8 échecs de contraste et 5 cibles tactiles sous 44 px** au départ, 0 et 0 à l'arrivée.
+
+**Contraste : la feuille de Leaflet gagnait la cascade.** Elle est injectée à l'ouverture de
+l'onglet, donc en fin de `<head>`, donc *après* le `<style>` de la page : à spécificité égale
+c'est l'ordre qui tranche, et nos règles de thème à une seule classe perdaient toutes. Le
+fond des popups redevenait blanc en sombre pendant que le texte, lui, suivait le thème et
+passait au clair. Nom de sentier mesuré à **1,27:1**. Le lien Leaflet est maintenant inséré
+*avant* le premier `<style>` de la page. Deux règles ne suffisaient toujours pas : Leaflet
+vise ses contrôles avec deux classes (`.leaflet-touch .leaflet-bar a`,
+`.leaflet-container .leaflet-control-attribution`), elles sont donc préfixées par
+`.carte-map`.
+
+**Cibles tactiles.** Le marqueur faisait 18 px, les boutons de zoom 30 px, les liens de popup
+36 px, le bouton « voir » 23 px, l'onglet Carte 40 px de large. La pastille reste visuellement
+à 18 px mais sa cible passe à 44 px (boîte transparente centrée) ; le reste est monté à 44 px.
+On vise au pouce, en marchant, parfois avec des gants.
+
+**Titres.** La popup ouvrait un `<h4>` sous le `<h2>` de la vue : saut de niveau, corrigé en
+`<h3>`.
+
+**Grille et rythme.** Espacements de la popup remis sur la grille de 4 (`--s-*`), transitions
+`--rythme` sur les deux éléments interactifs qui n'en avaient pas. La carte est masquée à
+l'impression : sur papier, un fond de tuiles ne rend qu'un rectangle vide.
+
+**Un correctif fonctionnel au passage.** Le `maxBounds` s'arrêtait à 40° E alors que le
+marqueur de La Réunion est à 55,52° E : demander à le centrer recalait la vue à 37,92° et le
+marqueur restait hors écran au-dessus du zoom 3. L'alerte GRR2 était publiée sur une carte qui
+interdisait d'y aller. Limite est portée à 60° E. Les constantes `LEAFLET_*` étaient mortes
+(URL et SRI écrits en dur dans le JS, `LEAFLET_VER` sans effet) : elles sont désormais
+substituées dans le script.
+
+**Deux pièges rencontrés, notés pour la prochaine fois.** Mesurer un contraste juste après
+avoir basculé le thème rend la couleur de *départ* de la transition, pas celle d'arrivée :
+il faut laisser passer les 160 ms, faute de quoi on croit à un échec. Et passer un lien en
+`display: flex` supprime les espaces HTML entre ses enfants — « GR48-ES » et le type d'alerte
+se sont retrouvés collés jusqu'à l'ajout d'un `gap`.
+
 ## 2026-08-09 — Les cartes d'alerte se remplissent jusqu'à leur bordure
 
 Correction d'une régression de l'audit de la veille. Le cap de longueur de ligne avait été

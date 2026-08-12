@@ -1054,6 +1054,11 @@ def build():
 .leaflet-container { background: var(--panel); font: inherit; }
 .carte-compte { font-family: var(--mono); font-size: var(--t-sm); color: var(--ink-2);
   margin: 0 0 var(--s-3); }
+/* Le marqueur visible reste une pastille de 18 px, mais sa CIBLE fait 44 px : la règle
+   maison de taille tactile (audit du 08/08) vaut aussi sur la carte, où l'on vise au
+   pouce en marchant. La pastille est centrée dans une boîte transparente. */
+.marqueur-cible { display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; }
 .marqueur-zone { display: block; width: 18px; height: 18px; border-radius: 50%;
   border: 2px solid var(--paper); box-shadow: 0 0 0 1px rgba(0, 0, 0, .3); }
 .marqueur-zone.m-haute { background: var(--haute); }
@@ -1061,23 +1066,35 @@ def build():
 .marqueur-zone.m-info { background: var(--info); }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--paper);
   color: var(--ink); box-shadow: 0 2px 10px rgba(0, 0, 0, .25); }
-.leaflet-popup-content { font: var(--t-sm)/1.5 var(--sans); margin: 12px 14px; color: var(--ink); }
+.leaflet-popup-content { font: var(--t-sm)/1.5 var(--sans); margin: var(--s-3) var(--s-4);
+  color: var(--ink); }
 .leaflet-popup-content a { color: var(--pine); }
-.carte-pop h4 { margin: 0 0 6px; font-size: var(--t-md); font-weight: 700; }
-.carte-pop ul { list-style: none; margin: 0 0 8px; padding: 0; }
-.carte-pop li { margin: 5px 0; line-height: 1.4; }
-.carte-pop .pop-lien { display: inline-block; text-decoration: none; color: var(--ink); }
+.carte-pop h3 { margin: 0 0 var(--s-2); font-size: var(--t-md); font-weight: 700; }
+.carte-pop ul { list-style: none; margin: 0 0 var(--s-2); padding: 0; }
+.carte-pop li { margin: var(--s-1) 0; line-height: 1.4; }
+/* flex pour garantir les 44 px de hauteur de cible ; gap et wrap parce qu'un conteneur
+   flex avale les espaces du HTML entre ses enfants — sans eux, « GR48-ES » et le type
+   d'alerte se retrouvaient collés, et la ligne ne pouvait plus se replier. */
+.carte-pop .pop-lien { display: flex; flex-wrap: wrap; align-items: center;
+  gap: var(--s-1); min-height: 44px;
+  text-decoration: none; color: var(--ink); transition: color var(--rythme); }
 .carte-pop .pop-lien:hover { color: var(--pine); text-decoration: underline; }
 .carte-pop .pop-lien:focus-visible { outline: 2px solid var(--pine); outline-offset: 2px; border-radius: 4px; }
 .carte-pop .pt-type { font-family: var(--mono); font-size: var(--t-xs); color: var(--ink-2); }
-.carte-pop .voir { font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
-  letter-spacing: .04em; color: var(--pine); background: none; border: 0; padding: 4px 0;
-  cursor: pointer; }
+.carte-pop .voir { display: flex; align-items: center; min-height: 44px;
+  font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
+  letter-spacing: .04em; color: var(--pine); background: none; border: 0; padding: var(--s-1) 0;
+  cursor: pointer; transition: color var(--rythme); }
 .carte-pop .voir:hover { color: var(--ink); text-decoration: underline; }
-.leaflet-bar a { background: var(--paper); color: var(--ink); border-bottom-color: var(--line); }
-.leaflet-bar a:hover { background: var(--panel); }
-.leaflet-control-attribution { background: var(--paper); color: var(--ink-2); }
-.leaflet-control-attribution a { color: var(--pine); }
+/* Préfixés par .carte-map : Leaflet vise ses propres contrôles avec deux classes
+   (.leaflet-touch .leaflet-bar a, .leaflet-container .leaflet-control-attribution).
+   À une seule classe nos règles perdaient sur la spécificité, quel que soit l'ordre des
+   feuilles — les boutons restaient à 30 px et l'attribution sur fond blanc. */
+.carte-map .leaflet-bar a { width: 44px; height: 44px; line-height: 44px;
+  background: var(--paper); color: var(--ink); border-bottom-color: var(--line); }
+.carte-map .leaflet-bar a:hover { background: var(--panel); }
+.carte-map .leaflet-control-attribution { background: var(--paper); color: var(--ink-2); }
+.carte-map .leaflet-control-attribution a { color: var(--pine); }
 /* En thème sombre, les tuiles OSM (raster, claires) sont assombries pour rester lisibles. */
 :root[data-theme="dark"] .leaflet-tile {
   filter: brightness(.6) invert(1) contrast(.95) hue-rotate(180deg) saturate(.5) brightness(.9); }
@@ -1093,13 +1110,20 @@ def build():
     if (window.L) { cb(); return; }
     var css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
-    css.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+    css.href = '__LEAFLET_CSS__';
+    css.integrity = '__LEAFLET_CSS_SRI__';
     css.crossOrigin = '';
-    document.head.appendChild(css);
+    // INSÉRÉ AVANT le <style> de la page, jamais après : à spécificité égale, c'est
+    // l'ordre qui tranche. Ajoutée en fin de <head>, la feuille de Leaflet reprenait la
+    // main sur toutes nos règles de thème à une seule classe (.leaflet-popup-*,
+    // .leaflet-bar a, .leaflet-control-attribution) et le fond des popups redevenait
+    // blanc en thème sombre, sous un texte clair : 1,27:1 de contraste, illisible.
+    var premiereFeuille = document.head.querySelector('style, link[rel="stylesheet"]');
+    if (premiereFeuille) document.head.insertBefore(css, premiereFeuille);
+    else document.head.appendChild(css);
     var s = document.createElement('script');
-    s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-    s.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+    s.src = '__LEAFLET_JS__';
+    s.integrity = '__LEAFLET_JS_SRI__';
     s.crossOrigin = '';
     s.onload = cb;
     s.onerror = function () {
@@ -1129,13 +1153,14 @@ def build():
     zones.forEach(function (z) {
       var icon = L.divIcon({
         className: '',
-        html: '<span class="marqueur-zone m-' + (z.sevMax || 'info') + '"></span>',
-        iconSize: [18, 18], iconAnchor: [9, 9], popupAnchor: [0, -9]
+        html: '<span class="marqueur-cible"><span class="marqueur-zone m-'
+            + (z.sevMax || 'info') + '"></span></span>',
+        iconSize: [44, 44], iconAnchor: [22, 22], popupAnchor: [0, -13]
       });
       var m = L.marker([z.lat, z.lon], {
         icon: icon, zIndexOffset: zdec[z.sevMax] || 0, title: z.nom, alt: z.nom
       }).addTo(map);
-      var h = '<div class="carte-pop"><h4>' + escapeHtml(z.nom) + '</h4><ul>';
+      var h = '<div class="carte-pop"><h3>' + escapeHtml(z.nom) + '</h3><ul>';
       z.alertes.forEach(function (a) {
         h += '<li><a class="pop-lien" href="#a-' + encodeURIComponent(a.slug)
            + '" data-slug="' + escapeHtml(a.slug) + '">' + pastilleCarte(a.sev)
@@ -1152,7 +1177,10 @@ def build():
     // La vue par défaut montre l'Europe en détail ; Réunion/Canaries restent accessibles en dézoomant.
     // maxBounds = cadre du périmètre de veille (Islande au N, La Réunion au S, Canaries à l'W).
     map.setView([47, 7], 5);
-    var limiteSW = L.latLng(-25, -30), limiteNE = L.latLng(68, 40);
+    // La limite EST doit englober La Réunion (55,52° E) : à 40° E, son marqueur était
+    // hors du cadre et le pan s'arrêtait avant — l'alerte GRR2 était publiée sur une
+    // carte qui interdisait d'y aller. 60° E laisse la marge sans ouvrir toute l'Asie.
+    var limiteSW = L.latLng(-25, -30), limiteNE = L.latLng(68, 60);
     map.setMaxBounds(L.latLngBounds(limiteSW, limiteNE));
     // clic « Voir dans les alertes » dans une popup → bascule vers le registre + recherche
     document.getElementById('carte-map').addEventListener('click', function (e) {
@@ -1195,6 +1223,15 @@ def build():
     });
   };
 """
+    # `carte_js` ne peut pas être une f-string (ses accolades JS devraient toutes être
+    # doublées) : les constantes Leaflet y sont donc injectées par substitution. Sans ça
+    # elles ne servaient à rien — les URL et les SRI étaient écrits en dur dans le JS, et
+    # relever LEAFLET_VER n'aurait rien changé à la page servie.
+    for marque, valeur in (("__LEAFLET_CSS__", LEAFLET_CSS_URL),
+                           ("__LEAFLET_CSS_SRI__", LEAFLET_CSS_SRI),
+                           ("__LEAFLET_JS__", LEAFLET_JS_URL),
+                           ("__LEAFLET_JS_SRI__", LEAFLET_JS_SRI)):
+        carte_js = carte_js.replace(marque, valeur)
 
     page = f"""<!doctype html>
 <html lang="fr">
@@ -1263,8 +1300,8 @@ main:focus {{ outline: none; }}
 .topnav {{ background: var(--surface-invert); }}
 .topnav .nav-in {{ max-width: 1080px; margin: 0 auto; padding: 0 20px; display: flex;
   justify-content: space-between; align-items: stretch; gap: var(--s-5); overflow-x: auto; }}
-.topnav .navlink {{ display: inline-flex; align-items: center; padding: var(--s-3) 0;
-  min-height: 44px; border-left: 0; border-radius: 0;
+.topnav .navlink {{ display: inline-flex; align-items: center; justify-content: center;
+  padding: var(--s-3) 0; min-height: 44px; min-width: 44px; border-left: 0; border-radius: 0;
   border-bottom: 2px solid transparent; white-space: nowrap; color: var(--on-invert-2); }}
 .topnav .navlink:hover {{ background: none; color: var(--on-invert); }}
 .topnav .navlink.active {{ color: var(--on-invert); border-bottom-color: var(--haute); background: none; }}
@@ -1520,6 +1557,9 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
 @media print {{
   :root {{ color-scheme: light; }}
   .topnav, nav.rail, .cats, .theme-btn, .skip, .contact, .search {{ display: none !important; }}
+  /* Une carte à tuiles ne s'imprime pas : sur papier c'est un rectangle vide, et le
+     lecteur n'a de toute façon besoin que du registre, qui porte le détail des zones. */
+  .carte-map {{ display: none !important; }}
   .layout {{ display: block; }}
   body {{ background: #fff; color: #000; font-size: 11pt; }}
   .wrap {{ max-width: none; padding: 0; }}
