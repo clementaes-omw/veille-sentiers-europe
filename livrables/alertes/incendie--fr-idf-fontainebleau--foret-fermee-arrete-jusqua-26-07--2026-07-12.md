@@ -5,13 +5,11 @@ itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontaine
 sev: HAUTE
 validite: prolongée jusqu'au 14/08/2026 inclus. Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny et la forêt communale de Nemours suivent désormais tous la même échéance
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-11
-statut: ACTIF — CHANGÉ 10/08 : reconfirmation officielle directe. Le point de situation de
-  la préfecture de Seine-et-Marne du 07/08 (repris par des arrêtés datés du 6 au 8 août)
-  maintient la fermeture des cinq massifs jusqu'au 14/08 inclus, motif « persistance de la
-  chaleur et de la sécheresse » (le feu de tourbière, documenté par la presse, n'est pas cité
-  nommément par la préfecture elle-même). Aucune date de réouverture des sentiers annoncée.
-  Détail sans lien direct avec la forêt : la RD64 doit rouvrir à la circulation le 11/08 8h.
+verif: 2026-08-12
+statut: ACTIF — INCHANGÉ 12/08 : seine-et-marne.gouv.fr toujours daté du 07/08, aucune
+  annonce postérieure trouvée malgré recherche dédiée. L'échéance du 14/08 tombe dans deux
+  jours sans qu'aucune décision (levée/prolongation) ne soit encore publiée : zone à
+  prioriser au prochain passage FR-IDF-CVL, la décision devrait être publiée d'ici là.
 ordre: 42
 ---
 
