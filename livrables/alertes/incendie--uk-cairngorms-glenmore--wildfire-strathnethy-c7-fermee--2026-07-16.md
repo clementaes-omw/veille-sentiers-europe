@@ -3,17 +3,18 @@ cle: incendie|UK-Cairngorms-Glenmore|wildfire-Strathnethy-C7-fermee|2026-07-16
 type: incendie / fermeture accès
 itin: Aucun P1 identifié — secteur de randonnée majeur des Cairngorms (Glenmore Forest, Ryvoan Bothy), hors GR/National Trail référencés en base
 sev: MOYENNE
-validite: depuis le 15/07/2026 (même complexe d'incendie) ; foyer résiduel toujours actif en profondeur (tourbe, secteur d'Abernethy) mais cordon d'exclusion levé pour la majeure partie de Glenmore à 8h le 07/08/2026, accès rétabli avec restrictions résiduelles par secteur
+validite: depuis le 15/07/2026 (même complexe d'incendie), jusqu'à nouvel ordre pour les
+  secteurs résiduels : cordon d'exclusion levé pour la majeure partie de Glenmore depuis le
+  07/08/2026, foyer résiduel toujours actif en profondeur (tourbe, secteur d'Abernethy),
+  fermetures localisées (Ryvoan Trail, Lodge Trail, Green Lochan) sans date de fin annoncée
 detection: 2026-07-22
-verif: 2026-08-07
-statut: ACTIF — CHANGÉ 07/08 : DÉGRADATION HAUTE→MOYENNE — réouverture confirmée par
-  source officielle (firescotland.gov.uk, 06/08) : le cordon autour de Glenmore est levé à
-  8h le 07/08/2026, la C7 (Ski Road) rouvre entièrement, ainsi que les sentiers Loch
-  Morlich/Beach/Pine Knoll et l'accès au sommet du Meall a' Bhuachaille par l'ouest. Le feu
-  n'est PAS déclaré éteint (foyers profonds de tourbe toujours traités à Abernethy, ~20
-  pompiers) et plusieurs secteurs restent fermés (Ryvoan Trail, Lodge Trail, Green Lochan,
-  routes Forest Lodge/Lettoch/Dorback) — la fermeture n'est donc plus générale, d'où la
-  dégradation de sévérité plutôt qu'une clôture.
+verif: 2026-08-12
+statut: ACTIF — INCHANGÉ 12/08 : confirmation croisée (Police Scotland 03/08,
+  deadlinenews.co.uk 07/08, pressandjournal.co.uk) que la fiche reste à l'état de l'art.
+  Toujours fermés : Ryvoan Trail, Lodge Trail, Green Lochan/An Lochan Uaine, parkings Allt
+  Ban/Allt Mor, routes Forest Lodge/Lettoch/Dorback. C7, Loch Morlich, Beach/Pine Knoll
+  Trail, Meall a' Bhuachaille (accès ouest) rouverts depuis le 07/08. Aucune mise à jour
+  officielle postérieure au 06/08 trouvée. Sévérité stable MOYENNE.
 ordre: 43
 ---
 
