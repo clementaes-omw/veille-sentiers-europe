@@ -5,13 +5,12 @@ itin: GR54A (fermé) ; GR54 (itinéraire de repli, praticable)
 sev: HAUTE
 validite: incendie déclaré MAÎPTRISÉ (ram05.fr 31/07) ; GR54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15/22/23 fermés durée indéterminée (confirmé paysdesecrins.com, MAJ 06/08) ; interdiction cycliste route de Freissinières jusqu'au 14/08/2026
 detection: 2026-07-22
-verif: 2026-08-11
-statut: ACTIF — CHANGÉ 11/08 : paysdesecrins.com toujours daté du 06/08, aucune évolution sur
-  le fond (parcours 2/6/7/14/15/22/23 fermés durée indéterminée). Détail nouveau obtenu via
-  alpes1.com (article sans date affichée, postérieur au 31/07 au vu de sa numérotation) :
-  la RD38, surplombée par le versant brûlé, reste fermée dans l'attente de travaux de purge
-  et de pose de blocs béton anti-chute de pierres ; la RD138A et la RD38B, elles, pourraient
-  rouvrir sous peu selon un élu local cité. Sévérité maintenue HAUTE.
+verif: 2026-08-12
+statut: ACTIF — INCHANGÉ 12/08 : paysdesecrins.com toujours daté du 06/08, aucune évolution
+  sur le fond (parcours 2/6/7/14/15/22/23 fermés durée indéterminée). Détail d'accès
+  complété (route de contournement par l'aérodrome de Saint-Crépin, via ferrata et parcours
+  KV Freiss fermés nommément, routes des Espagnols et du col des Lauzes rouvertes). Sévérité
+  maintenue HAUTE.
 ordre: 41
 ---
 
@@ -21,7 +20,7 @@ ordre: 41
 
 ## Alternative
 
-Emprunter le GR54 classique (Vallouise → col de l'Aup Martin → Pré de la Chaumette) à la place du GR54A ; le Tour du Pays des Écrins est dévié via Les Vigneaux/Bâtie des Vigneaux.
+Emprunter le GR54 classique (Vallouise → col de l'Aup Martin → Pré de la Chaumette) à la place du GR54A ; le Tour du Pays des Écrins est dévié via Les Vigneaux/Bâtie des Vigneaux. La voie principale n'est accessible que par la route de l'aérodrome de Saint-Crépin (route de Freissinières toujours coupée) ; les routes des Espagnols et du col des Lauzes (accès 9h30-17h30) sont rouvertes.
 
 ## Zone (détails)
 
@@ -44,6 +43,8 @@ MAJ 05/08 : le feu est passé du statut « actif » à « maîtrisé », confirm
 MAJ 07/08 : source paysdesecrins.com relue directement, page mise à jour le 06/08/2026. La situation ne bouge pas sur le fond : les parcours de randonnée numérotés 2, 6, 7, 14, 15, 22 et 23 « resteront fermés pour une durée indéterminée » ; côté VTT, mêmes numéros fermés à l'exception des parcours 9 et 20, rouverts partiellement ; le Tour du Pays des Écrins en 3 jours reste praticable, contrairement aux formats 6 et 7 jours qui empruntent le secteur fermé. La page mentionne, en plus de ce qui était déjà connu, que « la côte de Pallon » reste fermée « jusqu'à nouvel ordre », le temps d'investigations complémentaires, sans préciser s'il s'agit d'un axe distinct de la route de Freissinières ou de la RD138A déjà documentées ; le lien entre ces fermetures reste à confirmer. Aucune mention explicite du GR54A dans cette page (elle raisonne par numéros de parcours locaux, pas par sigle GR), ni de date de réouverture du massif. Recherche complémentaire (hautes-alpes.gouv.fr, presse) : aucun communiqué postérieur au 31/07 localisé ce jour.
 
 MAJ 11/08 : paysdesecrins.com relu, toujours daté du 06/08/2026, sans nouvelle mise à jour ; le fond de la situation ne bouge pas (parcours 2/6/7/14/15/22/23 fermés durée indéterminée, VTT 9 et 20 partiellement rouverts). Un article alpes1.com (sans date affichée dans le texte accessible, identifiant d'article postérieur à celui du 27/07) apporte un détail distinct de la RD138A déjà connue : la RD38, dont le talus a été fragilisé par l'incendie, reste fermée en attente d'une étude géotechnique et de travaux de purge du versant, complétés par la pose de blocs béton anti-chute. Selon un élu cité dans l'article, la RD138A et la RD38B, moins exposées, pourraient rouvrir avant la RD38 elle-même. Aucune date de réouverture du GR54A ni du massif du Bois Noir n'est annoncée.
+
+MAJ 12/08 : paysdesecrins.com toujours daté du 06/08, rien de nouveau sur le fond. La même page précise le détail d'accès : la voie principale n'est accessible que par la route de l'aérodrome de Saint-Crépin, la route de Freissinières restant coupée ; la via ferrata « Grande Falaise » et le parcours « KV Freiss » sont nommément fermés ; les routes des Espagnols et du col des Lauzes (accès 9h30-17h30) sont rouvertes.
 
 ## Source
 
