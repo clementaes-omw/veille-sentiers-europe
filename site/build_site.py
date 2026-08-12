@@ -424,7 +424,7 @@ def render_card(c) -> str:
     # L'infobulle qui portait la légende de gravité est retirée : répétée 71 fois,
     # inatteignable au doigt et au clavier, elle est maintenant affichée en clair
     # une seule fois sous les filtres.
-    return f"""<article class="card {sev}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
+    return f"""<article class="card {sev}" id="a-{slug_cle(c['cle'])}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
   <h3 class="card-top">
     {badges_html}
     <span class="badge sev-{sev}">{sev_label}</span>
@@ -599,6 +599,13 @@ def _q_token(badge: str) -> str:
     return badge.split("…")[0].split("(")[0].strip()
 
 
+def slug_cle(cle: str) -> str:
+    """Slug stable d'une alerte pour son ancre HTML (id="a-<slug>") et les liens
+    carte → cartouche. Reprend la clé `cle` (type|zone|objet|date), normalisée."""
+    s = fold_txt(cle)
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
 def zones_carte(actives, coords):
     """Regroupe les alertes ACTIVES par zone-source résolue → une entrée (un marqueur)
     par zone. Retourne (liste_zones, zones_non_mappées). Les rouges sont mises en tête
@@ -623,6 +630,7 @@ def zones_carte(actives, coords):
             "type": c["type"],
             "itin": itin_badges(c),
             "cle": c["cle"],
+            "slug": slug_cle(c["cle"]),
         })
     liste = []
     for g in groupes.values():
@@ -1058,6 +1066,9 @@ def build():
 .carte-pop h4 { margin: 0 0 6px; font-size: var(--t-md); font-weight: 700; }
 .carte-pop ul { list-style: none; margin: 0 0 8px; padding: 0; }
 .carte-pop li { margin: 5px 0; line-height: 1.4; }
+.carte-pop .pop-lien { display: inline-block; text-decoration: none; color: var(--ink); }
+.carte-pop .pop-lien:hover { color: var(--pine); text-decoration: underline; }
+.carte-pop .pop-lien:focus-visible { outline: 2px solid var(--pine); outline-offset: 2px; border-radius: 4px; }
 .carte-pop .pt-type { font-family: var(--mono); font-size: var(--t-xs); color: var(--ink-2); }
 .carte-pop .voir { font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
   letter-spacing: .04em; color: var(--pine); background: none; border: 0; padding: 4px 0;
@@ -1126,8 +1137,10 @@ def build():
       }).addTo(map);
       var h = '<div class="carte-pop"><h4>' + escapeHtml(z.nom) + '</h4><ul>';
       z.alertes.forEach(function (a) {
-        h += '<li>' + pastilleCarte(a.sev) + ' <strong>' + escapeHtml(a.itin.join(', '))
-           + '</strong> <span class="pt-type">' + escapeHtml(a.type) + '</span></li>';
+        h += '<li><a class="pop-lien" href="#a-' + encodeURIComponent(a.slug)
+           + '" data-slug="' + escapeHtml(a.slug) + '">' + pastilleCarte(a.sev)
+           + ' <strong>' + escapeHtml(a.itin.join(', '))
+           + '</strong> <span class="pt-type">' + escapeHtml(a.type) + '</span></a></li>';
       });
       h += '</ul><button type="button" class="voir" data-q="' + escapeHtml(z.q || '')
          + '">Voir dans les alertes &rarr;</button></div>';
@@ -1143,6 +1156,27 @@ def build():
     map.setMaxBounds(L.latLngBounds(limiteSW, limiteNE));
     // clic « Voir dans les alertes » dans une popup → bascule vers le registre + recherche
     document.getElementById('carte-map').addEventListener('click', function (e) {
+      var lien = e.target.closest && e.target.closest('.pop-lien');
+      if (lien) {
+        e.preventDefault();
+        var slug = lien.getAttribute('data-slug') || '';
+        if (window.__show) window.__show('registre', true);
+        // La vue sort de display:none : le scroll doit attendre le reflow, sinon
+        // scrollIntoView calcule la position sur l'ancien layout (rect ~0) et ne bouge rien.
+        setTimeout(function () {
+          var cible = slug && document.getElementById('a-' + slug);
+          if (cible) {
+            var det = cible.querySelector('details');
+            if (det && !det.open) det.open = true;
+            // scroll instantané : le smooth entre en course avec le reflow de la vue
+            // qui vient de passer de display:none à visible (position décalée).
+            cible.scrollIntoView({ block: 'start' });
+          } else {
+            window.scrollTo({ top: 0 });
+          }
+        }, 80);
+        return;
+      }
       var b = e.target.closest && e.target.closest('.voir');
       if (!b) return;
       var q = document.getElementById('q');
