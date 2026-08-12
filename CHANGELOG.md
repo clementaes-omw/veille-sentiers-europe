@@ -7,6 +7,23 @@ design du 08/08 s'est retrouvé embarqué dans des commits dont le message parle
 chose, et rien n'expliquait plus pourquoi le générateur définit `--surface-invert` ou
 pourquoi le champ de recherche est figé à 16 px.
 
+## 2026-08-12 — Les codes de zone nationaux ne portent plus de marqueur
+
+Un code qui couvre un pays entier ne peut pas produire un repère juste. `DE` affichait
+l'alerte **rouge** du Malerweg (Suisse saxonne) à 349 km de son massif, en Basse-Franconie,
+et le Westweg à 177 km — deux terrains distants de 600 km sous un seul point. `UK-IE`
+affichait les Cairngorms dans le Lake District, 289 km au sud.
+
+Trois codes régionaux : `DE-SACHSEN` (Malerweg, repère Bastei), `DE-SW` (Forêt-Noire, sur le
+tracé du Westweg), `UK-SCOTLAND` (Highlands, à mi-chemin du Ben Nevis et des Cairngorms), plus
+les alias correspondants dans `ALIAS_ZONE`. `FR-NOR` remonte sur la côte d'Albâtre : la zone
+s'intitulait « GR21, côte d'Albâtre » mais son point était au sud de l'estuaire de la Seine.
+Écarts ramenés à 4, 19, 23 et 11 km. Le compte public passe de 34 à 35 marqueurs.
+
+`DE` et `UK-IE` restent comme replis, sans alerte. Choix de prudence assumé : les retirer
+ferait tomber la prochaine alerte non aliasée en constat BLOQUANT — visible tout de suite —
+là où les garder la posera en silence sur un centroïde national faux.
+
 ## 2026-08-12 — La vue Carte passe l'audit design
 
 L'onglet Carte est arrivé sans repasser par les règles fixées le 08/08. Mesures reprises au
