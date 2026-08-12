@@ -424,7 +424,7 @@ def render_card(c) -> str:
     # L'infobulle qui portait la légende de gravité est retirée : répétée 71 fois,
     # inatteignable au doigt et au clavier, elle est maintenant affichée en clair
     # une seule fois sous les filtres.
-    return f"""<article class="card {sev}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
+    return f"""<article class="card {sev}" id="a-{slug_cle(c['cle'])}" data-itin="{html.escape(searchable, quote=True)}" data-cat="{cat_slug}">
   <h3 class="card-top">
     {badges_html}
     <span class="badge sev-{sev}">{sev_label}</span>
@@ -494,6 +494,153 @@ def render_bivouac_card(b) -> str:
   <p class="meta dates"><span>{inline(b["sentiers"])}</span><span class="sep">·</span>source du {html.escape(b["date_source"])}<span class="sep">·</span>vérifié le {html.escape(b["date_verif"])}</p>
   <p class="meta sources">Source : {src_html}</p>
 </article>"""
+
+# ---------------------------------------------------------------- carte
+
+# Leaflet (carte interactive) — CDN unpkg, version épinglée + SRI officiels 1.9.4.
+# La bibliothèque n'est chargée qu'à la première ouverture de l'onglet Carte (injection
+# à la demande côté JS) : les autres vues ne paient pas ce téléchargement.
+LEAFLET_VER = "1.9.4"
+LEAFLET_CSS_URL = f"https://unpkg.com/leaflet@{LEAFLET_VER}/dist/leaflet.css"
+LEAFLET_JS_URL = f"https://unpkg.com/leaflet@{LEAFLET_VER}/dist/leaflet.js"
+LEAFLET_CSS_SRI = "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+LEAFLET_JS_SRI = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+
+ZONES_COORDS_CSV = HERE.parent / "referentiel" / "zones-coords.csv"
+
+# Zones d'alerte (2e champ de la clé) hétérogènes → code zone-source de zones-coords.csv.
+# Le préfixe suffit pour les clés déjà codées (FR-06-AlpesMaritimes → FR-06, ES-CYL-Bierzo
+# → ES-CYL…) ; cette table ne couvre QUE les zones locales/nommées sans préfixe reconnu.
+# Toute zone active qui n'est ni préfixée ni aliasée est listée au build (voir zones_carte).
+ALIAS_ZONE = {
+    # Sud-Est / Méditerranée
+    "Calanques-13": "FR-13",
+    "Var-83": "FR-83", "Var-Gros-Bessillon": "FR-83",
+    "Gard-30": "FR-30-48",
+    "Hérault-34": "FR-34-11", "Aude-11": "FR-34-11",
+    "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
+    "Drome-Justin-Die": "FR-84-26-07",
+    "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE",
+    # Alpes du Sud / Écrins
+    "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
+    # Alpes du Nord
+    "Savoie-Planay-Pralognan": "FR-ALPES-N",
+    # Alpes-Maritimes / Mercantour
+    "Mercantour": "FR-06", "Boréon-Mercantour": "FR-06",
+    # Pyrénées
+    "Alberes-66": "FR-66", "PO-66": "FR-66", "PO-66-Argeles-Cerbere": "FR-66",
+    "PO-66-Thues-entre-Valls": "FR-66", "PO-66-Trévillach": "FR-66",
+    "Canigou-Cortalets": "FR-66",
+    "PN-Pyrénées": "FR-PYR-O", "PN-Pyrenees-Moundelhs": "FR-PYR-O",
+    "Ariege-Bordes-Uchentein": "FR-PYR-O", "HautesPyrenees-Bareges": "FR-PYR-O",
+    "Aspe-64-Chemin-Mature": "FR-PYR-O", "GR10-Luchon-Superbagnères": "FR-PYR-O",
+    # Ouest / Nord
+    "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
+    "GR21-Loges-Bénouville": "FR-NOR", "Pierrefiques-76": "FR-NOR",
+    "Lot-Cieurac-Flaujac-Poujols": "FR-SO", "FR-Landes-Gironde": "FR-SO",
+    "FR-IDF-Fontainebleau": "FR-IDF-CVL",
+    # Réunion
+    "Réunion-974": "FR-974",
+    # Suisse
+    "CH-Europaweg-Randa-Zermatt": "CH-VALAIS-VAUD", "TMB-CH-Orsieres": "CH-VALAIS-VAUD",
+    # Italie
+    "IT-ValGrande": "IT-NO", "VF-Lazio-Prato-La-Corte": "IT-CENTRE",
+    # Royaume-Uni / Portugal
+    "UK-Cairngorms-Glenmore": "UK-IE", "Matosinhos-PT": "PT-NORTE",
+    # Baléares
+    "GR221-222-Mallorca": "ES-BALEARES",
+    # Balkans / Tatras
+    "SI-Julijske-Alpe": "SI-HR",
+    "PL-Tatras-Pusta-Dolinka": "PL-SK-TATRAS", "PL-Tatras-Rysy": "PL-SK-TATRAS",
+    "SK-Tatras-Krivan": "PL-SK-TATRAS",
+}
+
+
+def load_zones_coords() -> dict:
+    """Lit referentiel/zones-coords.csv → {code: {code, nom, lat, lon}}."""
+    coords = {}
+    if not ZONES_COORDS_CSV.exists():
+        return coords
+    for row in csv.reader(ZONES_COORDS_CSV.open(encoding="utf-8"), delimiter=";"):
+        if not row or not row[0].strip() or row[0].strip().startswith("#"):
+            continue
+        if row[0].strip().lower() == "code":
+            continue
+        if len(row) < 4:
+            continue
+        try:
+            lat, lon = float(row[2]), float(row[3])
+        except ValueError:
+            continue
+        code = row[0].strip()
+        coords[code] = {"code": code, "nom": row[1].strip(), "lat": lat, "lon": lon}
+    return coords
+
+
+def resolve_zone(zone_str: str, coords: dict):
+    """Zone (2e champ de clé) → code zone-source. 1) alias manuel exact (insensible
+    casse/accents) ; 2) préfixe : un code qui préfixe la zone à une frontière (fin de
+    chaîne ou tiret), le plus long l'emporte. None si non mappable."""
+    zf = fold_txt(zone_str.strip())
+    for k, v in ALIAS_ZONE.items():
+        if fold_txt(k) == zf:
+            return v
+    best = None
+    for code in coords:
+        cf = fold_txt(code)
+        if zf == cf or zf.startswith(cf + "-"):
+            if best is None or len(cf) > len(fold_txt(best)):
+                best = code
+    return best
+
+
+def _q_token(badge: str) -> str:
+    """Terme de recherche propre tiré d'un badge sentier (sans « … » ni parenthèse)."""
+    return badge.split("…")[0].split("(")[0].strip()
+
+
+def slug_cle(cle: str) -> str:
+    """Slug stable d'une alerte pour son ancre HTML (id="a-<slug>") et les liens
+    carte → cartouche. Reprend la clé `cle` (type|zone|objet|date), normalisée."""
+    s = fold_txt(cle)
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def zones_carte(actives, coords):
+    """Regroupe les alertes ACTIVES par zone-source résolue → une entrée (un marqueur)
+    par zone. Retourne (liste_zones, zones_non_mappées). Les rouges sont mises en tête
+    de chaque popup, et les zones sont triées par sévérité max (rouge d'abord)."""
+    order = {"haute": 0, "moyenne": 1, "info": 2, "clos": 3}
+    groupes, non_mappees = {}, []
+    for c in actives:
+        parts = c["cle"].split("|")
+        zone_str = parts[1] if len(parts) > 1 else ""
+        code = resolve_zone(zone_str, coords)
+        if not code or code not in coords:
+            non_mappees.append((zone_str, c["cle"]))
+            continue
+        g = groupes.get(code)
+        if g is None:
+            base = coords[code]
+            g = {"code": code, "nom": base["nom"], "lat": base["lat"],
+                 "lon": base["lon"], "alertes": []}
+            groupes[code] = g
+        g["alertes"].append({
+            "sev": sev_class(c["sev"]),
+            "type": c["type"],
+            "itin": itin_badges(c),
+            "cle": c["cle"],
+            "slug": slug_cle(c["cle"]),
+        })
+    liste = []
+    for g in groupes.values():
+        g["alertes"].sort(key=lambda a: order.get(a["sev"], 4))
+        g["sevMax"] = g["alertes"][0]["sev"]
+        g["q"] = _q_token(g["alertes"][0]["itin"][0]) if g["alertes"][0]["itin"] else ""
+        liste.append(g)
+    liste.sort(key=lambda g: (order.get(g["sevMax"], 4), g["nom"]))
+    return liste, non_mappees
+
 
 # ---------------------------------------------------------------- contrôle qualité
 
@@ -776,6 +923,19 @@ def build():
     closes = [c for c in cards if "CLÔTURÉ" in c["statut"].upper()]
     hautes = [c for c in actives if sev_class(c["sev"]) == "haute"]
 
+    # --- vue Carte : zones-sources touchées par une alerte active -----------
+    zones_coords = load_zones_coords()
+    zones_liste, zones_non_mappees = zones_carte(actives, zones_coords)
+    if zones_non_mappees:
+        print(f"⚠ carte : {len(zones_non_mappees)} alerte(s) active(s) dont la zone n'est "
+              f"pas mappable vers referentiel/zones-coords.csv (aucun marqueur — enrichir "
+              f"le CSV ou la table ALIAS_ZONE) :", file=sys.stderr)
+        for zone_str, cle in zones_non_mappees[:20]:
+            print(f"  ~ zone « {zone_str} » (clé {cle[:60]})", file=sys.stderr)
+    zones_json = (json.dumps(zones_liste, ensure_ascii=False)
+                  .replace("<", "\\u003c").replace("]]", "] ]"))
+    n_marqueurs = len(zones_liste)
+
     order = {"haute": 0, "moyenne": 1, "info": 2}
     actives.sort(key=lambda c: order.get(sev_class(c["sev"]), 3))
 
@@ -860,6 +1020,182 @@ def build():
                  f"mises à jour le {fr_date(latest_iso)}.")
     meta_desc = html.escape(meta_desc, quote=True)
     og_title = "Alertes-Rando.info, l'état des sentiers d'Europe au jour le jour"
+
+    # --- Carte : bouton de nav, section, CSS et JS (Leaflet à la demande) ----
+    # Ces morceaux sont construits hors de la grande f-string de page pour éviter le
+    # doublement des accolades CSS/JS : ils y sont interpolés tels quels.
+    carte_nav = '<button class="navlink" data-view="carte">Carte</button>'
+    marqueurs_txt = ("Aucune zone en alerte active sur la carte." if n_marqueurs == 0
+                     else (f"{n_marqueurs} zone en alerte active." if n_marqueurs == 1
+                           else f"{n_marqueurs} zones en alerte active."))
+    carte_section = f"""<section id="carte" class="view" hidden aria-labelledby="t-carte">
+  <p class="eyebrow">Vue géographique</p>
+  <h2 class="reg-title" id="t-carte">Carte des alertes</h2>
+  <p class="disclaimer">Un repère par zone touchée par au moins une alerte active. La position
+  marque le centre indicatif de la zone-source (département, massif ou région), pas le point
+  exact de l'incident. Cliquez un repère pour voir les sentiers concernés.</p>
+  <div id="carte-map" class="carte-map" role="application"
+       aria-label="Carte des zones de sentiers en alerte active"></div>
+  <p class="carte-compte" id="carte-compte">{marqueurs_txt}</p>
+  <p class="legende">
+    <span class="l-haute"><b>Alerte rouge</b> étape bloquée ou interdiction</span>
+    <span class="l-moyenne"><b>Orange</b> impact réel, sans blocage</span>
+    <span class="l-info"><b>Info</b> bon à savoir avant de partir</span>
+  </p>
+  <p class="disclaimer">Fond cartographique &copy; les contributeurs
+  <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.</p>
+</section>"""
+
+    carte_css = """
+/* --- vue Carte (Leaflet) --- */
+.carte-map { height: 55vh; min-height: 320px; width: 100%; z-index: 0;
+  border: 1px solid var(--line); border-radius: 8px; margin: var(--s-4) 0 var(--s-3);
+  background: var(--panel); }
+.leaflet-container { background: var(--panel); font: inherit; }
+.carte-compte { font-family: var(--mono); font-size: var(--t-sm); color: var(--ink-2);
+  margin: 0 0 var(--s-3); }
+.marqueur-zone { display: block; width: 18px; height: 18px; border-radius: 50%;
+  border: 2px solid var(--paper); box-shadow: 0 0 0 1px rgba(0, 0, 0, .3); }
+.marqueur-zone.m-haute { background: var(--haute); }
+.marqueur-zone.m-moyenne { background: var(--moy); }
+.marqueur-zone.m-info { background: var(--info); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--paper);
+  color: var(--ink); box-shadow: 0 2px 10px rgba(0, 0, 0, .25); }
+.leaflet-popup-content { font: var(--t-sm)/1.5 var(--sans); margin: 12px 14px; color: var(--ink); }
+.leaflet-popup-content a { color: var(--pine); }
+.carte-pop h4 { margin: 0 0 6px; font-size: var(--t-md); font-weight: 700; }
+.carte-pop ul { list-style: none; margin: 0 0 8px; padding: 0; }
+.carte-pop li { margin: 5px 0; line-height: 1.4; }
+.carte-pop .pop-lien { display: inline-block; text-decoration: none; color: var(--ink); }
+.carte-pop .pop-lien:hover { color: var(--pine); text-decoration: underline; }
+.carte-pop .pop-lien:focus-visible { outline: 2px solid var(--pine); outline-offset: 2px; border-radius: 4px; }
+.carte-pop .pt-type { font-family: var(--mono); font-size: var(--t-xs); color: var(--ink-2); }
+.carte-pop .voir { font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
+  letter-spacing: .04em; color: var(--pine); background: none; border: 0; padding: 4px 0;
+  cursor: pointer; }
+.carte-pop .voir:hover { color: var(--ink); text-decoration: underline; }
+.leaflet-bar a { background: var(--paper); color: var(--ink); border-bottom-color: var(--line); }
+.leaflet-bar a:hover { background: var(--panel); }
+.leaflet-control-attribution { background: var(--paper); color: var(--ink-2); }
+.leaflet-control-attribution a { color: var(--pine); }
+/* En thème sombre, les tuiles OSM (raster, claires) sont assombries pour rester lisibles. */
+:root[data-theme="dark"] .leaflet-tile {
+  filter: brightness(.6) invert(1) contrast(.95) hue-rotate(180deg) saturate(.5) brightness(.9); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .leaflet-tile {
+    filter: brightness(.6) invert(1) contrast(.95) hue-rotate(180deg) saturate(.5) brightness(.9); } }
+"""
+
+    carte_js = """
+  // --- Carte Leaflet : bibliothèque chargée à la 1re ouverture de l'onglet ----------
+  var carteFaite = false;
+  function chargerLeaflet(cb) {
+    if (window.L) { cb(); return; }
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    css.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+    css.crossOrigin = '';
+    document.head.appendChild(css);
+    var s = document.createElement('script');
+    s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    s.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+    s.crossOrigin = '';
+    s.onload = cb;
+    s.onerror = function () {
+      var el = document.getElementById('carte-compte');
+      if (el) el.textContent = 'Carte indisponible : la bibliothèque cartographique n\\'a pas pu être chargée.';
+    };
+    document.head.appendChild(s);
+  }
+  function pastilleCarte(sev) {
+    var lib = { haute: 'Rouge', moyenne: 'Orange', info: 'Info', clos: 'Clôturée' };
+    return '<span class="badge sev-' + sev + '">' + (lib[sev] || sev) + '</span>';
+  }
+  function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;');
+  }
+  function construireCarte() {
+    var zones = window.__ZONES || [];
+    var map = L.map('carte-map', { scrollWheelZoom: false });
+    window.__carteMap = map;
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    var zdec = { haute: 1000, moyenne: 500, info: 0, clos: 0 };
+    var pts = [];
+    zones.forEach(function (z) {
+      var icon = L.divIcon({
+        className: '',
+        html: '<span class="marqueur-zone m-' + (z.sevMax || 'info') + '"></span>',
+        iconSize: [18, 18], iconAnchor: [9, 9], popupAnchor: [0, -9]
+      });
+      var m = L.marker([z.lat, z.lon], {
+        icon: icon, zIndexOffset: zdec[z.sevMax] || 0, title: z.nom, alt: z.nom
+      }).addTo(map);
+      var h = '<div class="carte-pop"><h4>' + escapeHtml(z.nom) + '</h4><ul>';
+      z.alertes.forEach(function (a) {
+        h += '<li><a class="pop-lien" href="#a-' + encodeURIComponent(a.slug)
+           + '" data-slug="' + escapeHtml(a.slug) + '">' + pastilleCarte(a.sev)
+           + ' <strong>' + escapeHtml(a.itin.join(', '))
+           + '</strong> <span class="pt-type">' + escapeHtml(a.type) + '</span></a></li>';
+      });
+      h += '</ul><button type="button" class="voir" data-q="' + escapeHtml(z.q || '')
+         + '">Voir dans les alertes &rarr;</button></div>';
+      m.bindPopup(h);
+      pts.push([z.lat, z.lon]);
+    });
+    // Vue initiale cadrée sur l'Europe de l'Ouest (la zone cœur du périmètre de veille).
+    // fitBounds sur TOUS les marqueurs embrassait La Réunion et les Canaries → zoom lointain.
+    // La vue par défaut montre l'Europe en détail ; Réunion/Canaries restent accessibles en dézoomant.
+    // maxBounds = cadre du périmètre de veille (Islande au N, La Réunion au S, Canaries à l'W).
+    map.setView([47, 7], 5);
+    var limiteSW = L.latLng(-25, -30), limiteNE = L.latLng(68, 40);
+    map.setMaxBounds(L.latLngBounds(limiteSW, limiteNE));
+    // clic « Voir dans les alertes » dans une popup → bascule vers le registre + recherche
+    document.getElementById('carte-map').addEventListener('click', function (e) {
+      var lien = e.target.closest && e.target.closest('.pop-lien');
+      if (lien) {
+        e.preventDefault();
+        var slug = lien.getAttribute('data-slug') || '';
+        if (window.__show) window.__show('registre', true);
+        // La vue sort de display:none : le scroll doit attendre le reflow, sinon
+        // scrollIntoView calcule la position sur l'ancien layout (rect ~0) et ne bouge rien.
+        setTimeout(function () {
+          var cible = slug && document.getElementById('a-' + slug);
+          if (cible) {
+            var det = cible.querySelector('details');
+            if (det && !det.open) det.open = true;
+            // scroll instantané : le smooth entre en course avec le reflow de la vue
+            // qui vient de passer de display:none à visible (position décalée).
+            cible.scrollIntoView({ block: 'start' });
+          } else {
+            window.scrollTo({ top: 0 });
+          }
+        }, 80);
+        return;
+      }
+      var b = e.target.closest && e.target.closest('.voir');
+      if (!b) return;
+      var q = document.getElementById('q');
+      if (q) q.value = b.getAttribute('data-q') || '';
+      if (window.__show) window.__show('registre', true);
+      if (q) q.dispatchEvent(new Event('input'));
+      window.scrollTo({ top: 0 });
+    });
+  }
+  window.__initCarte = function () {
+    if (carteFaite) { if (window.__carteMap) window.__carteMap.invalidateSize(); return; }
+    carteFaite = true;
+    chargerLeaflet(function () {
+      construireCarte();
+      setTimeout(function () { if (window.__carteMap) window.__carteMap.invalidateSize(); }, 60);
+    });
+  };
+"""
+
     page = f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -1197,6 +1533,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
     word-break: break-all; }}
   footer {{ border-top: 1px solid #000; }}
 }}
+{carte_css}
 </style>
 <script>
 /* Avant le premier pixel : sinon le thème choisi s'applique après coup et la page
@@ -1217,6 +1554,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   <div class="nav-in">
     <button class="navlink active" data-view="registre">Alertes actives</button>
     {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
+    {carte_nav}
     <button class="navlink" data-view="apropos">À propos</button>
     <button class="theme-btn" id="theme-btn" type="button" aria-label="Changer de thème">
       <span class="sr-only">Thème&nbsp;: </span><span id="theme-txt" aria-live="polite">auto</span>
@@ -1328,6 +1666,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
 </section>
 
 {bivouac_section}
+{carte_section}
 {"".join(sections)}
 </main>
 </div>
@@ -1340,6 +1679,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
 </footer>
 </div>
 
+<script>window.__ZONES = {zones_json};</script>
 <script>
 (function () {{
   var links = document.querySelectorAll('.navlink');
@@ -1366,11 +1706,14 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
     if (!el || !el.classList.contains('view')) id = 'registre';
     links.forEach(function (x) {{ x.classList.toggle('active', x.dataset.view === id); }});
     views.forEach(function (v) {{ v.hidden = (v.id !== id); }});
+    if (id === 'carte' && window.__initCarte) window.__initCarte();
     if (pousser) {{
       var h = vueVersHash(id);
       history.pushState({{ vue: id }}, '', h || location.pathname + location.search);
     }}
   }}
+  window.__show = show;
+{carte_js}
   links.forEach(function (b) {{
     b.addEventListener('click', function () {{
       show(b.dataset.view, true);
