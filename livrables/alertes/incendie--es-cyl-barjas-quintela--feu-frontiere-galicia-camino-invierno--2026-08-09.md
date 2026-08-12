@@ -3,9 +3,9 @@ cle: incendie|ES-CYL-Barjas-Quintela|feu-frontiere-galicia-camino-invierno|2026-
 type: incendie
 itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le tracé, à la frontière entre Castilla y León et Galice — [HYPOTHÈSE] aucune source ne documente explicitement d'impact sur le balisage ou de coupure du sentier
 sev: MOYENNE
-validite: feu actif au 09/08/2026 20h22, dernier point connu ; IGR affiché à 0 (pas de confinement de population)
+validite: jusqu'à nouvel ordre ; dernier point connu 09/08/2026 20h22, IGR affiché à 0 (pas de confinement de population), aucune source postérieure trouvée à ce jour
 detection: 2026-08-10
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF — NOUVEAU. Départ de feu le 09/08 à 16h03 dans les monts de Quintela (commune
   de Barjas, Bierzo, León), à la frontière avec la Galice, sur une commune traversée par le
   Camino de Invierno. 20 moyens dont 4 hélicoptères/hydravions engagés. Aucune mention
