@@ -5,7 +5,7 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF — INCHANGÉ 11/08 : interdiction générale de feu (15/06→30/09) toujours en
   vigueur. Nouvelle recherche sur Fango/Bonifato/Agriate (haute-corse.gouv.fr), toujours
   aucune page datée postérieure au 22/07 trouvée pour ce secteur précis ; dernier niveau
