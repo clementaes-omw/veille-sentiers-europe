@@ -6,7 +6,7 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF — INCHANGÉ 11/08 : nouvelle recherche ciblée sur gard.gouv.fr (tentatives
   directes des pages Lundi-10-août et Dimanche-9-août : 404 les deux), toujours aucune page
   postérieure au 07/08. Un article objectifgard.com repéré sur "Gard Rhodanien et Garrigues,

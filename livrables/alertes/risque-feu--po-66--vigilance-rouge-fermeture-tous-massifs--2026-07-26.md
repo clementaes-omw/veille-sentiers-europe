@@ -3,9 +3,9 @@ cle: risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26
 type: risque feu / fermeture massifs
 itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ; HRP — [HYPOTHÈSE] recoupement tronçon par tronçon non fait
 sev: MOYENNE
-validite: vigilance rouge tous massifs confirmée du 26/07 au 27/07/2026 (dernière reconduction datée) ; aucune confirmation ni levée explicite retrouvée depuis ; l'indice officiel Météo des forêts situe le département en risque très élevé (pas exceptionnel) le 06/08/2026, avec un maintien annoncé à ce niveau jusqu'au 09/08
+validite: jusqu'à nouvel ordre ; vigilance rouge tous massifs confirmée du 26/07 au 27/07/2026 (dernière reconduction datée), aucune confirmation ni levée explicite retrouvée depuis ; l'indice officiel Météo des forêts situe le département en risque très élevé (pas exceptionnel) depuis le 06/08/2026
 detection: 2026-07-27
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF — CHANGÉ 09/08 : dégradé HAUTE vers MOYENNE. 14 jours après détection
   (échéance 10/08), aucune source n'a confirmé le maintien de la fermeture totale des 9
   massifs au-delà du 27/07. Élément nouveau ce jour :

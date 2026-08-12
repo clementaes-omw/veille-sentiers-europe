@@ -7,33 +7,36 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: HAUTE
-validite: feu actif au 10-11/08/2026, hors capacité d'extinction, en phase opérationnelle 2
+validite: feu actif au 11/08/2026, hors capacité d'extinction, en phase opérationnelle 2
 detection: 2026-08-11
-verif: 2026-08-11
-statut: ACTIF — NOUVEAU. Feu déclaré le jeudi 06/08 à Raboconejo (Niebla, Huelva) ;
-  progression continue jusqu'au 10-11/08 (perimètre >20 000 ha, ~8 000 ha réellement
-  brûlés). Déclaré « hors capacité d'extinction » par la Junta le 10/08, non par manque
-  de moyens mais par comportement extrême du feu (vent, ravins, sauts de plusieurs km).
-  À suivre en priorité au prochain passage ES-AND.
+verif: 2026-08-12
+statut: ACTIF — CHANGÉ 12/08 : périmètre porté à ~25 000 ha (contre ~20 000 ha), 795
+  personnes concernées par des mesures d'éloignement préventif ou d'évacuation (contre
+  474-479), une 6e route coupée (SE-6402, versant sévillan). Une fenêtre météo
+  favorable s'ouvre le 11/08 pour tenter de ralentir la progression, sans que le feu
+  soit maîtrisé. Sévérité maintenue HAUTE.
 ordre: 105
 ---
 
 ## Portion concernée
 
 **Comarca du Condado et de la Cuenca Minera (Huelva)**, communes de Niebla, Berrocal,
-Zalamea la Real, Villarrasa, Paterna del Campo et La Palma del Condado. Feu de forêt
-déclaré le jeudi 06/08/2026 au lieu-dit Raboconejo (Niebla), toujours actif au 10 et
-11/08. Le périmètre dépasse 20 000 ha (eucalyptaie, dehesa, pinède), dont environ
-8 000 ha réellement parcourus par les flammes à l'intérieur de ce périmètre. Raison :
-incendie de forêt à comportement extrême (changements de vent continus, terrain de
-ravins), classé hors capacité d'extinction le 10/08 par la Junta de Andalucía, non par
-manque de moyens.
+Zalamea la Real, Villarrasa, Paterna del Campo et La Palma del Condado, avec une
+extension désormais confirmée sur des hameaux de la province de Séville (El Madroño et
+les pedanías d'El Álamo, Juan Antón, Juan Gallego, Villargordo). Feu de forêt déclaré le
+jeudi 06/08/2026 au lieu-dit Raboconejo (Niebla), toujours actif au 11/08. Le périmètre
+est désormais porté à environ 25 000 ha. Six routes restent coupées ou en circulation
+restreinte : HU-3106, A-493, HU-5104, HU-4103, HU-6104 et SE-6402. Raison : incendie de
+forêt à comportement extrême (changements de vent continus, terrain de ravins, sauts de
+plusieurs kilomètres), classé hors capacité d'extinction le 10/08 par la Junta de
+Andalucía, non par manque de moyens.
 
 ## Alternative
 
 Aucune alternative connue à ce jour : aucune source consultée ne documente de fermeture
-nommée de sentier balisé dans ce secteur. Deux routes restent coupées : la HU-3106
-entre Niebla et Valverde del Camino, et l'A-493.
+nommée de sentier balisé dans ce secteur. Six routes restent coupées ou en circulation
+restreinte : HU-3106 (Niebla↔Valverde del Camino), A-493, HU-5104, HU-4103, HU-6104 et
+SE-6402 (versant sévillan).
 
 ## Zone (détails)
 
@@ -83,9 +86,11 @@ cours (même constat déjà fait pour les incendies de Chandrexa de Queixa et de
 Aucun incendie de cette ampleur n'est confirmé en Galice à la date de cette
 vérification : ce point est sans lien avec l'incendie de Niebla décrit ci-dessus.
 
+MAJ 12/08 : le périmètre atteint environ 25 000 ha (analyse technique Tecnobosque, 11/08 09h20). 795 personnes sont concernées par des mesures d'éloignement préventif ou d'évacuation, dont 27 encore hébergées au théâtre de Zalamea la Real ; les autres ont trouvé un hébergement alternatif. Une sixième route, la SE-6402 (versant sévillan), s'ajoute aux cinq déjà coupées. 652 effectifs et 225 moyens travaillent au périmétrage. Une fenêtre météo favorable (changement de vent) s'ouvre en fin de matinée du 11/08 pour tenter de ralentir la progression, avec une plage critique annoncée entre 14h et 20h (jusqu'à 37°C, humidité à 15 %). Le feu reste qualifié de hors de contrôle par la presse malgré cette accalmie relative.
+
 ## Source
 
-[Infobae 09/08/2026, le feu de Niebla affecte déjà 8 000 ha, 467 personnes évacuées](https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/) ;
+[Tecnobosque, analyse technique, mis à jour 11/08/2026 09h20](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [Infobae 11/08/2026, une fenêtre d'opportunité s'ouvre à Huelva tandis que le feu avance à Huesca](https://www.infobae.com/espana/agencias/2026/08/11/el-fuego-avanza-en-huesca-mientras-se-abre-una-ventana-de-oportunidad-en-huelva/) ; [theobjective.com 11/08/2026, carte des incendies actifs Niebla/Riglos](https://theobjective.com/sociedad/suceso/2026-08-11/mapa-incendios-activos-espana-niebla-riglos/) ; [Cuatro.com 11/08/2026, évolution des feux Huelva/Huesca/Segovia/Castellón](https://www.cuatro.com/noticias/sociedad/20260811/evolucion-fuegos-huelva-huesca-segovia-castellon_18_019931088.html) ; [Infobae 09/08/2026, le feu de Niebla affecte déjà 8 000 ha, 467 personnes évacuées](https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/) ;
 [Infobae 10/08/2026, le feu de Niebla hors capacité d'extinction, plus de 20 000 ha](https://www.infobae.com/espana/2026/08/10/el-incendio-forestal-de-niebla-en-huelva-arrasa-8000-hectareas-y-mantiene-a-474-vecinos-desalojados/) ;
 [The Objective 10/08/2026, le feu de Niebla frôle les 20 000 ha et dépasse la « capacité d'extinction »](https://theobjective.com/sociedad/suceso/2026-08-10/incendio-niebla-huelva-20000-hectareas-capacidad-extincion/) ;
 [eldiario.es Andalucía/Huelva, l'avancée incontrôlée du feu de Niebla oblige à envoyer un ES-Alert et à évacuer 340 personnes de plus](https://www.eldiario.es/andalucia/huelva/incendio-niebla-sigue-fuera-control-obliga-actuar-ume-inestabilidad-provoca-viento_1_13435431.html) ;
