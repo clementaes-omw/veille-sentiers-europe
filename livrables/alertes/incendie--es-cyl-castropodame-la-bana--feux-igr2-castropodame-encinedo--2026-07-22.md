@@ -5,7 +5,7 @@ itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrer
 sev: MOYENNE
 validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo confirmé résolu par absence totale des bilans provinciaux du 25/07 au 06/08
 detection: 2026-07-22
-verif: 2026-08-11
+verif: 2026-08-12
 statut: [CLÔTURÉ] (2026-08-07) — Castropodame confirmé « controlado » le 27/07 (suspect
   interpellé) ; La Baña/Encinedo absent de tous les bilans provinciaux de León du 25/07 au
   06/08, dont celui du 06/08 (ileon.eldiario.es) qui ne recense plus que Veguellina comme
@@ -27,7 +27,7 @@ Sans objet : les deux foyers sont éteints et aucune source consultée n'a signa
 
 Castropodame/Villaverde de los Cestos : le feu a atteint le niveau 2 de gravité potentielle (IGR-2) et a directement menacé Turienzo Castañero et San Pedro Castañero. Environ 115 à 200 personnes ont été évacuées à titre préventif selon les sources (infobierzo, cope, elbierzonoticias, 22-23/07), avec le renfort de l'UME (Unité Militaire d'Urgence). Surface calcinée : environ 800 à 1000 ha (pinède et châtaigneraie). Cause probable : des étincelles lors de travaux d'installation d'un pylône électrique, investigation en cours. Le 27/07, la Junta de Castilla y León a déclaré le feu contrôlé, ramené l'IGR à 1 et démobilisé l'UME ; le retour des évacués a été autorisé (cope 27/07 et 24/07 « la Junta rebaja el nivel de alerta y autoriza el regreso »). Le 28/07, un bilan de zone confirme « más de 800 hectáreas calcinadas en Castropodame » et évoque des soupçons d'intentionnalité pour un foyer voisin à Balboa (cope 28/07).
 
-La Baña/Encinedo : déclenché le 22/07 à 14h30 et d'abord classé IGR-0 (pas de risque pour la population), le feu s'est compliqué avec de nouveaux départs le samedi 25/07. La localité de La Baña a été évacuée et le niveau relevé à IGR-2. Son statut de clôture n'a pas pu être confirmé par une source datée postérieure au 25/07 malgré recherche, à revérifier en priorité au prochain passage ES-CYL.
+La Baña/Encinedo : déclenché le 22/07 à 14h30 et d'abord classé IGR-0 (pas de risque pour la population), le feu s'est compliqué avec de nouveaux départs le samedi 25/07. La localité de La Baña a été évacuée et le niveau relevé à IGR-2. Son statut de clôture n'a pas pu être confirmé par une source datée postérieure au 25/07 malgré recherche, à revoir en priorité au prochain passage ES-CYL.
 
 MAJ 02/08 (run Europe) : dans le bilan provincial de León du 30/07 (leonoticias, direct), Castropodame est explicitement qualifié de « controlado », avec l'interpellation d'un jeune homme de 22 ans soupçonné d'en être l'auteur. La Baña/Encinedo n'apparaît plus dans la liste des incendies actifs ni dans la liste « otros incendios » de ce même bilan, qui recense Veguellina/Villafranca del Bierzo, Valdelaloba, Vegas del Condado, Caboalles de Arriba, Moreda, Vega de Espinareda, San Tirso, Murias de Ponjos/Quintela stabilisés. Cette absence est probablement révélatrice d'une résolution, mais aucune source consultée ne le confirme explicitement par « extinguido »/« controlado » nommé pour ce foyer précis.
 

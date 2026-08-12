@@ -3,21 +3,22 @@ cle: sentiers|Mercantour|etat-sentiers-2026|2026-05-15
 type: reroutage / info sentier
 itin: GR56 / GR52-GTM / GR5
 sev: MOYENNE
-validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes) ; dernière consolidation de la page parc le 09/07/2026, aucune échéance de fin annoncée pour les gués et déviations en cours
+validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les 4 secteurs ajoutés le 10/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 10/08/2026
 detection: 2026-07-02
-verif: 2026-08-11
-statut: ACTIF — INCHANGÉ 11/08 : page toujours datée « dernière mise à jour : 9 juillet
-  2026 », aucune fermeture nouvelle ni actualité de sécurité trouvée.
+verif: 2026-08-12
+statut: ACTIF — CHANGÉ 12/08 : page relue, désormais datée du 10/08/2026 (contre 09/07
+  précédemment, 32 jours sans mise à jour comblés). Quatre fermetures supplémentaires
+  apparaissent : Pezza Maurina, Pas de Colle Rousse, Tavels, Vallon de Mollières.
 ordre: 13
 ---
 
 ## Portion concernée
 
-GR56A : le tracé historique du Cimet (Allos) **est dangereux et a été dévié**. GR52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été).
+GR56A : le tracé historique du Cimet (Allos) **est dangereux et a été dévié**. GR52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été). Depuis le 10/08/2026, le parc liste aussi 4 secteurs fermés : Pezza Maurina (Breil-sur-Roya, éboulements), Pas de Colle Rousse (Tende, risque de chute de blocs), Tavels (Valdeblore, séquelles de la tempête Alex) et le Vallon de Mollières (Saint-Sauveur-sur-Tinée, travaux 2025-2026).
 
 ## Alternative
 
-Déviation balisée au Cimet. Pour les gués du GR52, il n'existe pas d'itinéraire de repli balisé : attendre la décrue.
+Déviation balisée au Cimet. Pour les gués du GR52, il n'existe pas d'itinéraire de repli balisé : attendre la décrue. Pour les 4 secteurs signalés le 10/08 (Pezza Maurina, Pas de Colle Rousse, Tavels, Vallon de Mollières), aucune alternative balisée n'est précisée par la source : se référer au balisage local sur place.
 
 ## Zone (détails)
 
@@ -29,6 +30,8 @@ GR56A Cimet (Allos) : déviation en place, tracé historique dangereux. GR52 : g
 
 31/07 : fetch direct confirmé, page toujours datée du 9 juillet 2026, aucune fermeture nouvelle ni actualité de sécurité trouvée.
 
+MAJ 12/08 : la page, figée depuis le 09/07 (32 jours), a été mise à jour le 10/08/2026. Quatre secteurs fermés jusqu'ici non documentés apparaissent : Pezza Maurina (Breil-sur-Roya, éboulements), Pas de Colle Rousse (Tende, risque de chute de blocs), Tavels (Valdeblore, séquelles de la tempête Alex) et le Vallon de Mollières (Saint-Sauveur-sur-Tinée, travaux 2025-2026). Les gués du GR52 et la déviation GR56A du Cimet restent d'actualité dans les mêmes termes.
+
 ## Source
 
-[mercantour-parcnational.fr Info sentiers, màj 09/07/2026](https://mercantour-parcnational.fr/fr/des-decouvertes/ou-sinformer/info-sentiers)
+[mercantour-parcnational.fr, Info sentiers, mis à jour 10/08/2026](https://mercantour-parcnational.fr/fr/des-decouvertes/ou-sinformer/info-sentiers)

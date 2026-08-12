@@ -5,7 +5,7 @@ itin: GR51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: HAUTE
 validite: journalière ; fermé au 06/08 (dernière date confirmée), rouge très sévère
 detection: 2026-08-09
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF — INCHANGÉ 11/08 : nouvelle recherche ciblée (espace presse
   alpes-maritimes.gouv.fr consulté directement, mois d'août 2026 : seuls deux communiqués y
   figurent, un test de sirènes du 05/08 et une annonce Tour de France Femmes du 07/08, aucun

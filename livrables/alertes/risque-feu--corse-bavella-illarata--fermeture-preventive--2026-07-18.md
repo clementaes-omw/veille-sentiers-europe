@@ -5,7 +5,7 @@ itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF (Illarata) — INCHANGÉ 11/08 : nouvelle recherche sur les arrêtés n°2A-2026-07-20-00006 et -00007, cherchés par leur numéro, toujours aucune source postérieure au 23/07/2026. Sévérité stable
   MOYENNE (dégradée le 06/08 pour fraîcheur de source, pas pour doute sur le fait matériel).
 ordre: 30

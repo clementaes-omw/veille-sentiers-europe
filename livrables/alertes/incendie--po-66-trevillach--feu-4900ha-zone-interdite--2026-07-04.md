@@ -5,7 +5,7 @@ itin: GR36 (66, traversée Fenouillèdes/basse Têt) ; GR10 NON concerné (Canig
 sev: MOYENNE
 validite: zone brûlée : durable, aucun arrêté d'interdiction publié à ce jour
 detection: 2026-07-14 (feu du 04/07)
-verif: 2026-08-11
+verif: 2026-08-12
 statut: ACTIF — CHANGÉ 11/08 : la préfecture a publié le 07/08/2026 un communiqué confirmant
   l'extinction officielle du feu et son bilan final chiffré (4 936 ha), qui précise et
   remplace l'estimation antérieure (~4 900-5 000 ha). Ce communiqué ne contient toujours
