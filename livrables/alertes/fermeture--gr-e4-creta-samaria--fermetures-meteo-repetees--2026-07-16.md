@@ -5,17 +5,13 @@ itin: E4 Crète (Samaria, Lefka Ori)
 sev: MOYENNE
 validite: fermetures décidées au jour le jour (quotidiennement), selon la météo (vent fort, canicule), sans calendrier fixe ; dernière fermeture confirmée le 31/07/2026, statut à vérifier sur samaria.gr avant l'étape
 detection: 2026-07-24
-verif: 2026-08-07
-statut: ACTIF — INCHANGÉ 07/08 : pattern confirmé, toujours aucune source datée du 01-07/08
-  trouvée (recherche bilingue grec/anglais élargie, dont un signalement d'article dont
-  l'identifiant d'URL suggérait à tort une date du 31/08 — vérifié par lecture directe :
-  l'article date bien du 30/07 et porte sur la fermeture du 31/07, piège d'indexation
-  déjoué) — ni fermeture ni réouverture confirmée pour la première semaine d'août. Contexte
-  additionnel trouvé (gavdos888.gr, 22/06) : tension chronique entre l'OFYPEKA/NECCA et les
-  acteurs locaux (mairie d'Agia Roumeli, club alpin de La Canée) sur les critères de
-  fermeture, jugés trop stricts par certains élus — confirme le caractère répété/structurel
-  du phénomène plutôt qu'un épisode isolé. Statut du jour à vérifier sur samaria.gr avant
-  l'étape.
+verif: 2026-08-12
+statut: ACTIF — INCHANGÉ 12/08 : recherche bilingue étendue (samaria.gr, necca.gov.gr,
+  samaria-tickets.necca.gov.gr, cretalive.gr, ekriti.gr, creta24.gr, inewsgr.com) — aucune
+  source datée entre le 01/08 et le 12/08 trouvée, ni fermeture ni réouverture. Un article
+  necca.gov.gr évoquant une réouverture après séisme s'est révélé daté de 2023, écarté.
+  Pattern « jour le jour » reconduit par défaut, statut du jour non confirmable en
+  autonome.
 ordre: 49
 ---
 
