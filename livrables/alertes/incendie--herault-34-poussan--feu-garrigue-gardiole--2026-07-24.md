@@ -5,7 +5,7 @@ itin: GR51 [HYPOTHÈSE]
 sev: MOYENNE
 validite: sous contrôle depuis le 24/07 22h, vigilance de nuit maintenue (vents violents)
 detection: 2026-07-25
-verif: 2026-08-11
+verif: 2026-08-13
 statut: [CLÔTURÉ] (2026-07-27) — **feu ÉTEINT, bilan final ~150 ha** : feuxdeforet.fr affiche désormais « le feu est éteint », confirmé par ICI.fr (« contenu »), Hérault Tribune et France 3 Occitanie (« les flammes ne progressent plus ») ; aucun blessé, aucun dégât matériel signalé ; aucune fermeture de sentier n'a jamais été documentée pour ce feu
 ordre: 51
 ---

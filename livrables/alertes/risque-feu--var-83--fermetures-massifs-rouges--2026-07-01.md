@@ -5,7 +5,7 @@ itin: GR51 & GR98 (Estérel, Maures traversés)
 sev: HAUTE
 validite: épisode 01-02/07 terminé : tous massifs 83 ouverts les 03 et 04/07
 detection: 2026-07-03
-verif: 2026-08-11
+verif: 2026-08-13
 statut: [CLÔTURÉ] (2026-07-04) — retirer l'alerte temporaire GR51/98 ; vigilance saisonnière continue
 ordre: 8
 ---
