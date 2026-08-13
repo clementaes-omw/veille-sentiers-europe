@@ -5,7 +5,7 @@ itin: GR51 [HYPOTHÈSE]
 sev: MOYENNE
 validite: sous contrôle depuis le 24/07 22h, vigilance de nuit maintenue (vents violents)
 detection: 2026-07-25
-verif: 2026-08-11
+verif: 2026-08-13
 statut: [CLÔTURÉ] (2026-07-27) — **feu ÉTEINT, bilan final ~150 ha** : feuxdeforet.fr affiche désormais « le feu est éteint », confirmé par ICI.fr (« contenu »), Hérault Tribune et France 3 Occitanie (« les flammes ne progressent plus ») ; aucun blessé, aucun dégât matériel signalé ; aucune fermeture de sentier n'a jamais été documentée pour ce feu
 ordre: 51
 ---
@@ -22,7 +22,7 @@ Massif de la Gardiole (Poussan/Gigean/Frontignan) : ~150 ha au total, sous contr
 
 Le feu a repris vers 14h le 24/07 après un premier contrôle, ce qui a porté le bilan final à ~150 ha. Il a été déclaré « sous contrôle » le soir même (22h), avec une vigilance de nuit maintenue en raison de vents violents. Second départ à Pomérols le même jour, non redocumenté depuis.
 
-MAJ 27/07 (run Europe) : le feu est ÉTEINT. feuxdeforet.fr a mis à jour le titre de la chronologie de l'article ; convergence avec ICI.fr (« 150 hectares brûlés, le feu est contenu »), Hérault Tribune et France 3 Occitanie (150 ha, « les flammes ne progressent plus »). Bilan final stabilisé à ~150 ha, aucun blessé, aucun dégât matériel signalé, aucune fermeture de sentier n'a jamais été documentée. Clôture de l'alerte.
+MAJ 27/07 : le feu est ÉTEINT. feuxdeforet.fr a mis à jour le titre de la chronologie de l'article ; convergence avec ICI.fr (« 150 hectares brûlés, le feu est contenu »), Hérault Tribune et France 3 Occitanie (150 ha, « les flammes ne progressent plus »). Bilan final stabilisé à ~150 ha, aucun blessé, aucun dégât matériel signalé, aucune fermeture de sentier n'a jamais été documentée. Clôture de l'alerte.
 
 ## Source
 
