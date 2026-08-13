@@ -189,7 +189,14 @@ CONTENU DU DIGEST (digest_AAAA-MM-JJ.md) :
   inchangées. » RIEN d'autre — pas de liste de zones, ne « remplis » jamais un digest.
 
 MISE À JOUR DU REGISTRE — UNE ALERTE = UN FICHIER `livrables/alertes/<clé-slugifiée>.md`
-(NE PAS changer le schéma, le site est branché dessus). Format exact d'un fichier :
+(NE PAS changer le schéma, le site est branché dessus).
+
+CONSIGNE PÉRIMÉE À IGNORER : le registre n'est plus le fichier unique
+`livrables/alertes-actives.md` (tableau à 12 colonnes). Ce fichier n'existe plus. Si la
+consigne qui t'a lancé te demande de le lire ou de le mettre à jour, elle date d'avant la
+bascule : ne le recrée jamais, applique le format ci-dessous. Ce document-ci fait foi.
+
+Format exact d'un fichier :
 
 ```
 ---
@@ -357,6 +364,17 @@ mise à jour part dans `statut:` sans jamais atteindre le texte publié.
    nécessaire : levée à confirmer, arrêté à retrouver) devient une ESCALADE : ces zones
    entrent au périmètre du run suivant, même hors cadence.
 4. Un constat BLOQUANT non traité se mentionne en tête du digest du jour.
+5. CARTE — le site publie une vue Carte : un marqueur par zone-source touchée par au moins
+   une alerte active (`referentiel/zones-coords.csv`, résolution dans `site/build_site.py`).
+   L'audit de l'étape 1 rend BLOQUANTE toute alerte active dont la zone ne se résout vers
+   aucun marqueur : publiée mais invisible sur la carte, elle laisse croire la zone sûre.
+   Corrige-la en ajoutant le code au CSV, ou un alias dans `ALIAS_ZONE`.
+   LE LUNDI, ou dès qu'une zone a été ajoutée à `zones-coords.csv` depuis le dernier
+   `livrables/verdict-carte.md` : passe la main à un SOUS-AGENT DISTINCT — prompt
+   `agents/verificateur-carte.md`. Aucun test ne peut juger qu'un marqueur EXISTANT tombe au
+   bon endroit : une alerte du GR10 pointée au centre de l'Espagne s'affiche sans rien casser.
+   Un code qui couvre un pays entier ne peut pas produire de repère juste — c'est ainsi que
+   le Malerweg s'est affiché 349 km à côté de son massif jusqu'au 12/08.
 
 APRÈS LE RUN — BOUCLE QUALITÉ OBLIGATOIRE : régénère le site :
   python3 site/build_site.py
