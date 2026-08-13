@@ -5,9 +5,9 @@ itin: GR54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-08-12
-statut: ACTIF — INCHANGÉ 11/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
-  toujours datée du 24 juin 2026 (48 jours sans mise à jour, 23 jours depuis la fermeture du
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
+  toujours datée du 24 juin 2026 (50 jours sans mise à jour, 25 jours depuis la fermeture du
   GR54A). Elle continue de recommander le GR54A via le col de la Pousterle sans aucune
   mention de l'incendie ni de la fermeture. Contradiction non résolue, sévérité maintenue
   MOYENNE sur ce point.
@@ -39,6 +39,8 @@ MAJ 03/08 : aucun changement (40 jours sans mise à jour de la page, 15 jours de
 MAJ 07/08 : aucun changement (44 jours sans mise à jour, 19 jours depuis la fermeture du GR54A). Une deuxième page du parc, ecrins-parcnational.fr/actualite/gr54-conditions-randonnee, recommande elle aussi le GR54A sans mentionner l'incendie ; vérification faite, elle est en réalité datée du 27 juin 2025, un an avant l'incendie, et ne renseigne donc pas sur l'état actuel du sentier.
 
 MAJ 11/08 : toujours aucun changement (48 jours sans mise à jour, 23 jours depuis la fermeture du GR54A). La page continue de recommander le GR54A via le col de la Pousterle sans aucune mention de l'incendie ni de la fermeture.
+
+MAJ 13/08 : toujours aucun changement (50 jours sans mise à jour, 25 jours depuis la fermeture du GR54A). La page recommande toujours explicitement la variante du GR54A via le col de la Pousterle, le vallon du Fournel et le pas de la Cavale pour rejoindre le Pré de la Chaumette, sans aucune mention de l'incendie ni de la fermeture.
 
 ## Source
 
