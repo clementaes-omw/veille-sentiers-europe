@@ -5,7 +5,7 @@ itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la 
 sev: MOYENNE
 validite: travaux en cours, réouverture estimée septembre-octobre 2026
 detection: 2026-07-23
-verif: 2026-08-06
+verif: 2026-08-13
 statut: ACTIF — NOUVEAU 23/07 : 1er passage sérieux de la zone PL-SK-TATRAS (lot T2 jeudi) ; côté polonais (tpn.gov.pl, source officielle lisible), aucune fermeture complète de sentier, Orla Perć/Rysy/Morskie Oko/Tatranská magistrála ouverts
 ordre: 46
 ---
