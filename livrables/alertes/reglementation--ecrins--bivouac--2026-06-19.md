@@ -5,8 +5,9 @@ itin: GR54 / Tour Oisans-Écrins
 sev: MOYENNE
 validite: arrêté-cadre du 16/06/2026, en vigueur jusqu'à nouvel ordre ; quotas possibles ultérieurement selon la fréquentation
 detection: 2026-06-19
-verif: 2026-08-07
-statut: ACTIF — INCHANGÉ 07/08 : règle reconfirmée (recherche ciblée sur les quotas et la
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : règle reconfirmée (arrêté du 16/06/2026 inchangé, toujours
+  aucun quota appliqué). INCHANGÉ 07/08 : règle reconfirmée (recherche ciblée sur les quotas et la
   réglementation bivouac Écrins été 2026 — arrêté du 16/06/2026 inchangé, toujours aucun
   quota appliqué). INCHANGÉ 05/08 : règle reconfirmée (arrêté du 16/06/2026 inchangé, toujours
   aucun quota appliqué pour l'été 2026).

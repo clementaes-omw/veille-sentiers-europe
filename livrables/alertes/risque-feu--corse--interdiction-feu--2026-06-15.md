@@ -5,11 +5,14 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-12
-statut: ACTIF — INCHANGÉ 11/08 : interdiction générale de feu (15/06→30/09) toujours en
-  vigueur. Nouvelle recherche sur Fango/Bonifato/Agriate (haute-corse.gouv.fr), toujours
-  aucune page datée postérieure au 22/07 trouvée pour ce secteur précis ; dernier niveau
-  connu (« élevé », orange) daté du 02/08 non revérifié aujourd'hui.
+verif: 2026-08-13
+statut: ACTIF — CHANGÉ 13/08 : interdiction générale de feu (15/06→30/09) toujours en
+  vigueur. Sur Fango/Bonifato/Agriate, un arrêté préfectoral n° 2B-2026-08-03-00009 (publié
+  04/08/2026, haute-corse.gouv.fr) est désormais la dernière pièce trouvée pour ce secteur,
+  comblant le gap qui datait du 02/08 ; son contenu précis (fermeture reconduite ou nouveau
+  niveau) n'a pas pu être extrait de la page (liste d'actes, contenu détaillé non accessible
+  en autonome). Traité par défaut comme une reconduction de la fermeture, cohérent avec le
+  régime quasi continu observé depuis mi-juillet.
 ordre: 2
 ---
 
@@ -33,6 +36,8 @@ MAJ 28/07 : le foyer de Biguglia (secteur Furiani) a repris de façon importante
 
 MAJ 07/08 : le feu de la Restonica (Corte) a été donné fixé le 31/07 après 18 jours de lutte (France3 Corse : réouverture des vallées de la Restonica et du Tavignanu à midi, camping de Tuani rouvert, navette reprise le 01/08), puis a connu une reprise localisée le 01/08 dans le secteur du Tavignanu. Cette reprise est désormais résolue et l'avis pnr.corsica du 04/08 donne ouverts l'ensemble du GR20 et du Mare a Mare Nord (voir les fiches dédiées `incendie|Corse-Mare-a-Mare-Nord|…` et `incendie|GR20-Albertacce-Niolu|…` pour le détail complet). Fango/Bonifato/Agriate : la fermeture reste active au 02/08/2026, mais un signal indique un niveau de risque redescendu de « très sévère » à « élevé » (alerte orange) pour ce secteur. Aucune source postérieure au 02/08 n'a été localisée sur haute-corse.gouv.fr ni dans la presse locale. Les foyers de Biguglia et Oletta (fin juillet) restent hors des itinéraires suivis (secteur littoral Bastia/plaine orientale) et n'ont pas fait l'objet d'un nouveau point.
 
+MAJ 13/08 : la page haute-corse.gouv.fr « Accès aux massifs forestiers » relue directement référence un arrêté préfectoral n° 2B-2026-08-03-00009, publié le 04/08/2026, comme dernière pièce concernant Fango/Bonifato/Agriate : le gap sur ce secteur, qui datait du 02/08, est donc comblé de deux jours, mais le contenu détaillé de l'arrêté (niveau de risque exact, durée) n'a pas pu être extrait de la page en autonome. Aucune source postérieure au 04/08 trouvée. Traité par défaut comme fermeture reconduite.
+
 ## Source
 
-[France3 Corse 31/07/2026 12h01, feu de Corte fixé, réouverture des vallées de la Restonica et du Tavignanu](https://france3-regions.franceinfo.fr/corse/feu-de-corte-l-incendie-est-fixe-les-vallees-de-la-restonica-et-du-tavignanu-rouvrent-au-public-ce-midi-3395008.html) ; [France3 Corse 30/07 16h43, reprise Biguglia, pompiers toujours mobilisés](https://france3-regions.franceinfo.fr/corse/haute-corse/incendies-en-haute-corse-le-feu-reprend-a-biguglia-les-pompiers-toujours-mobilises-3394723.html) ; corse-du-sud.gouv.fr ; haute-corse.gouv.fr ; [haute-corse.gouv.fr, Fango/Bonifato/Agriate fermés le 23/07/2026 (publié 22/07)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers) ; [corsenetinfos.corsica 25/07 20h, reconduction 26/07 confirmée](https://www.corsenetinfos.corsica/Corte-Oletta-Biguglia-les-foyers-d-incendie-se-multiplient_a91885.html) ; [alta-frequenza.corsica, l'incendie de Furiani et Biguglia en bonne voie d'être maîtrisé](https://www.alta-frequenza.corsica/actu/l_incendie_de_furiani_et_biguglia_en_bonne_voie_d_etre_maitrise_129286)
+[France3 Corse 31/07/2026 12h01, feu de Corte fixé, réouverture des vallées de la Restonica et du Tavignanu](https://france3-regions.franceinfo.fr/corse/feu-de-corte-l-incendie-est-fixe-les-vallees-de-la-restonica-et-du-tavignanu-rouvrent-au-public-ce-midi-3395008.html) ; [France3 Corse 30/07 16h43, reprise Biguglia, pompiers toujours mobilisés](https://france3-regions.franceinfo.fr/corse/haute-corse/incendies-en-haute-corse-le-feu-reprend-a-biguglia-les-pompiers-toujours-mobilises-3394723.html) ; corse-du-sud.gouv.fr ; haute-corse.gouv.fr ; [haute-corse.gouv.fr, Fango/Bonifato/Agriate fermés le 23/07/2026 (publié 22/07)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers) ; [corsenetinfos.corsica 25/07 20h, reconduction 26/07 confirmée](https://www.corsenetinfos.corsica/Corte-Oletta-Biguglia-les-foyers-d-incendie-se-multiplient_a91885.html) ; [alta-frequenza.corsica, l'incendie de Furiani et Biguglia en bonne voie d'être maîtrisé](https://www.alta-frequenza.corsica/actu/l_incendie_de_furiani_et_biguglia_en_bonne_voie_d_etre_maitrise_129286) ; [haute-corse.gouv.fr, Accès aux massifs forestiers, arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers)

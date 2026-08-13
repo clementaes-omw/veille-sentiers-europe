@@ -5,11 +5,11 @@ itin: GRT75 (Refuge du Ras de la Caranà – Coll de Caranca) ; GR10 (Thuès-Ent
 sev: MOYENNE
 validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; toujours non maîtrisé selon le dernier point de situation (65 ha, stable)
 detection: 2026-07-30
-verif: 2026-08-12
-statut: ACTIF — INCHANGÉ 05/08 : aucun CP n°10 (ou postérieur au CP n°9 du 30/07) localisé
-  malgré recherche dédiée (silence officiel de 6 jours) ; feuxdeforet.fr confirme le feu
-  toujours listé actif. Interdiction d'accès au secteur, gorges de la Caranca, reste la
-  seule donnée ferme.
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : aucun CP postérieur au CP n°8 du 29/07 localisé malgré
+  nouvelle recherche (silence officiel prolongé) ; feuxdeforet.fr liste toujours le feu parmi
+  les incidents récents du département. Interdiction d'accès au secteur, gorges de la Caranca,
+  reste la seule donnée ferme.
 ordre: 58
 ---
 
