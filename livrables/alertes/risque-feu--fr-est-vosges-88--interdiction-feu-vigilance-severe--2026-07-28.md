@@ -5,7 +5,7 @@ itin: GR5 & GR53 (massif des Vosges) ; GR531, GR532, GR533 (Vosges) — départe
 sev: MOYENNE
 validite: interdiction des feux, feux d'artifice et feux festifs PROLONGÉE du 01/08 8h au 01/09 8h 2026 (arrêté du 19/06/2026 confirmé directement sur vosges.gouv.fr le 06/08) ; vigilance « sévère » feu de forêt reconduite début août (contrôles gendarmerie renforcés le 02/08) ; sécheresse en niveau « crise » depuis le 16/07 ; règle de fond distincte : interdiction du feu en forêt/200m du 15/03 au 30/09
 detection: 2026-07-30
-verif: 2026-08-06
+verif: 2026-08-13
 statut: ACTIF — INCHANGÉ 06/08 : reconfirmé directement sur vosges.gouv.fr — interdiction
   feux d'artifice/feux festifs/chavandes du 01/08 8h au 01/09 8h 2026 confirmée officiellement
   (tag passe de [HYPOTHÈSE] à [FAIT]). Aucune fermeture de sentier ni de massif toujours pas

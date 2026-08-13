@@ -5,18 +5,16 @@ itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; 
 sev: MOYENNE (dégradée 12/08 — désescalade totale, 0/9 massif fermé, pour la première fois depuis la mi-juillet ; séquence du mois : 9→1→6→4→9→8→7→4→8→7→1→4→4→0)
 validite: journalière ; aucun massif fermé au 12/08, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-12
-statut: ACTIF — CHANGÉ 12/08 : désescalade totale, les 9 massifs sont ouverts au public
-  pour la 1re fois depuis la mi-juillet, cohérente avec la maîtrise du feu du Gros
-  Bessillon (voir ligne dédiée). Sévérité dégradée HAUTE→MOYENNE. Une seule source datée
-  trouvée ce jour (frequence-sud.fr) ; aucun communiqué var.gouv.fr distinct retrouvé
-  pour confirmer nommément — à recouper au prochain passage si possible.
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : aucune source datée du 12 ou du 13/08 retrouvée malgré
+  recherche ciblée (var.gouv.fr, presse locale). Dernière donnée sûre reste celle du 12/08
+  (0/9 massif fermé). Sévérité maintenue MOYENNE par défaut ; statut du jour non confirmé.
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var, au 12/08 : **aucun massif n'est fermé au public.** Les 9 massifs du département (Sainte-Baume, Haut-Var, Maures, Centre-Var, Monts Toulonnais, Corniche des Maures, Îles d'Hyères, plateau de Canjuers, Estérel) sont ouverts pour la première fois depuis la mi-juillet 2026. Raison : amélioration liée à la maîtrise du feu du Gros Bessillon (voir ligne dédiée).
+Var, dernière situation confirmée par une source datée (12/08) : **aucun massif n'est fermé au public.** Les 9 massifs du département (Sainte-Baume, Haut-Var, Maures, Centre-Var, Monts Toulonnais, Corniche des Maures, Îles d'Hyères, plateau de Canjuers, Estérel) étaient ouverts pour la première fois depuis la mi-juillet 2026. Raison : amélioration liée à la maîtrise du feu du Gros Bessillon (voir ligne dédiée). Aucune source datée du 13/08 n'a été retrouvée pour confirmer si cette situation est reconduite ce jour : consulter var.gouv.fr avant de partir.
 
 ## Alternative
 
@@ -57,6 +55,8 @@ MAJ 08/08 : désescalade majeure, 1 massif sur 9 fermé ce samedi 08/08, le Haut
 MAJ 11/08 : ré-escalade à 4 massifs sur 9 fermés. Un article daté du 09/08 (presseagence.fr) annonce la fermeture de Sainte-Baume, Haut-Var, Maures et Centre-Var pour le lundi 10/08 ; un second article daté du 10/08 (même titre, même liste) reconduit exactement les mêmes 4 massifs pour le mardi 11/08. Les 5 autres massifs (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, plateau de Canjuers, Estérel) restent classés orange sur les deux journées. Motif : conditions météo de nouveau propices aux départs de feu. Fermetures d'aires sur les autoroutes A57 et A8 reconduites.
 
 MAJ 12/08 : désescalade totale, les 9 massifs sont ouverts au public pour la première fois depuis la mi-juillet 2026 (source : frequence-sud.fr, publié 09/08, mis à jour 10/08 18h08). Directement lié à la fixation puis à la maîtrise du feu du Gros Bessillon (voir ligne dédiée). Aucun communiqué var.gouv.fr distinct daté du 11 ou du 12/08 n'a pu être retrouvé pour confirmer nommément cette réouverture générale ; seule cette source datée l'annonce à ce stade.
+
+MAJ 13/08 : aucune source datée du 12 ou du 13/08 retrouvée malgré une nouvelle vérification (var.gouv.fr, presse locale). La dernière donnée sûre reste la désescalade totale du 12/08 (0/9 massif fermé), traitée par défaut comme reconduite faute d'un signal contraire, mais non reconfirmée pour ce jour précis.
 
 ## Source
 
