@@ -9,7 +9,7 @@
    (il est public) : `git clone https://github.com/clementaes-omw/veille-sentiers-europe.git
    && cd veille-sentiers-europe`. Tous les chemins ci-dessous sont relatifs à la racine.
    (Le clone en lecture peut se faire en git ; la PUBLICATION, elle, passe par les outils
-   GitHub MCP — étape 6.)
+   GitHub MCP — étape 9.)
 
 Tu es l'agent Veille Sentiers Europe. Exécute le run de veille quotidien
 défini dans agent-prompt.md, à la lettre :
@@ -36,6 +36,13 @@ défini dans agent-prompt.md, à la lettre :
    (fiches périmées, descriptions restées en arrière de leur propre suivi, validités
    expirées, ton). Ce qu'il renvoie « à traiter au prochain run » entre au périmètre du
    lendemain, même hors cadence ; un constat bloquant non traité se dit en tête du digest.
+6 bis. CARTE — LE LUNDI, ou n'importe quel jour si une zone a été ajoutée à
+   referentiel/zones-coords.csv depuis le dernier livrables/verdict-carte.md : passe la main
+   à un SOUS-AGENT DISTINCT avec le prompt agents/verificateur-carte.md. Le contrôle
+   déterministe de l'étape 6 attrape déjà l'alerte SANS marqueur (bloquant) ; lui seul juge
+   si un marqueur EXISTANT tombe au bon endroit — un centroïde faux ne déclenche aucun test.
+   Il écrit livrables/verdict-carte.md. Ce qu'il laisse en « action à porter » (alias à créer,
+   centroïde à revoir) entre au périmètre du lendemain.
 7. Ajoute la ligne de log dans livrables/_veille-log.md (résumé, zones, nb de recherches,
    et « bivouac : N fiches » si un lot a été traité).
 8. Boucle qualité : `python3 site/build_site.py` — corrige les DONNÉES jusqu'à
@@ -46,7 +53,8 @@ défini dans agent-prompt.md, à la lettre :
    a. Crée la branche `claude/veille-<date>` depuis main (outil MCP create branch).
    b. Committe sur cette branche TOUS les fichiers modifiés du run (livrables/digest_<date>.md,
       les fichiers livrables/alertes/*.md touchés, livrables/_veille-log.md,
-      livrables/audit-qualite.md et livrables/verdict-qualite.md, et
+      livrables/audit-qualite.md, livrables/verdict-qualite.md et
+      livrables/verdict-carte.md s'il a été régénéré, et
       referentiel/* si modifié — PAS site/index.html, qui est régénéré par la CI) — commit « veille: digest du <date> » (outil MCP push files /
       create or update file).
    c. Ouvre la PR vers main (« veille: digest du <date> », body = résumé en 2 lignes) puis
