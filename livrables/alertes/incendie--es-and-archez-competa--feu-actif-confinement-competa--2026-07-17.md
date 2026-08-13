@@ -28,9 +28,9 @@ MAJ 19/07 : nouvelle confirmation officielle de la Junta, le feu « ne présente
 
 MAJ 26/07 : 7e tentative de vérification infructueuse (recherches ciblées « incendio extinguido », « carretera reabierta », sans résultat postérieur au 18/07). La mairie de Cómpeta mentionnerait une réouverture de la route vers Canillas de Albaida après stabilisation, sans date exacte trouvée.
 
-MAJ 27/07 : 8e tentative également infructueuse. L'alerte repasse au rythme nominal de vérification ES-AND (plus de recherche ciblée dédiée à chaque passage), sans être clôturée faute de source officielle explicite.
+MAJ 27/07 : 8e tentative également infructueuse. L'alerte repasse au rythme nominal de vérification ES-AND, sans être clôturée faute de source officielle explicite.
 
-MAJ 07/08 (clôture) : 9e recherche ciblée (carretera A-7206, site de la mairie de Cómpeta) toujours infructueuse, aucune source postérieure au 18/07 localisée. Compte tenu de l'absence de toute nouvelle activité du feu depuis trois semaines et du retour à la normale confirmé dès le 18/07 (confinement levé, évacués rentrés, INFOCA en préémergence), l'alerte est clôturée sur la base du seul fait établi : le feu n'a plus présenté d'activité. L'état précis de la route A-7206 reste non reconfirmé formellement, mais il n'appelle plus de suivi dédié.
+MAJ 07/08 (clôture) : une nouvelle vérification, la 9e (carretera A-7206, site de la mairie de Cómpeta), reste infructueuse, aucune source postérieure au 18/07 localisée. Compte tenu de l'absence de toute nouvelle activité du feu depuis trois semaines et du retour à la normale confirmé dès le 18/07 (confinement levé, évacués rentrés, INFOCA en préémergence), l'alerte est clôturée sur la base du seul fait établi : le feu n'a plus présenté d'activité. L'état précis de la route A-7206 reste non reconfirmé formellement, mais il n'appelle plus de suivi dédié.
 
 ## Source
 

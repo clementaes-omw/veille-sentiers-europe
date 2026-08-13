@@ -42,7 +42,7 @@ MAJ 10/08 : les arrêtés eux-mêmes ont été retrouvés et datés précisémen
 
 MAJ 12/08 : nouvelle vérification de l'existence d'une publication postérieure au 29/07 sur l'accès au massif (arrêtés des communes concernées, éventuelle levée). Aucune publication plus récente n'a été trouvée, et aucune trace de levée : les sources retrouvées continuent de décrire les arrêtés communaux comme étant en vigueur. Une cinquième commune, Laroque-des-Albères, publie elle aussi un « arrêté temporaire réglementant l'accès au massif des Albères », dont la date n'a pas pu être isolée ; il n'est pas ajouté en source tant qu'il n'est pas daté. La consultation directe des pages officielles (carte quotidienne d'accès aux massifs du 66, publication municipale de Sorède) n'a pas pu aboutir depuis l'environnement de ce contrôle, dont le proxy réseau bloque ces domaines ; elle reste à faire. Sévérité maintenue HAUTE : l'arrêté de Sorède (n°26.216) court explicitement jusqu'au 13/09/2026 et celui d'Argelès vaut « jusqu'à nouvel ordre ». Dégrader la sévérité sur la seule ancienneté d'un article de presse laisserait entendre une réouverture qu'aucune source n'atteste, alors que les textes qui fondent l'interdiction sont datés et non expirés.
 
-MAJ 13/08 : nouvelle recherche ciblée, aucune levée ni republication trouvée. L'état déjà décrit (arrêté de Sorède jusqu'au 13/09/2026, arrêté d'Argelès jusqu'à nouvel ordre) reste la donnée la plus récente.
+MAJ 13/08 : nouvelle vérification, aucune levée ni republication trouvée. L'état déjà décrit (arrêté de Sorède jusqu'au 13/09/2026, arrêté d'Argelès jusqu'à nouvel ordre) reste la donnée la plus récente.
 
 ## Source
 

@@ -56,7 +56,7 @@ MAJ 11/08 : ré-escalade à 4 massifs sur 9 fermés. Un article daté du 09/08 (
 
 MAJ 12/08 : désescalade totale, les 9 massifs sont ouverts au public pour la première fois depuis la mi-juillet 2026 (source : frequence-sud.fr, publié 09/08, mis à jour 10/08 18h08). Directement lié à la fixation puis à la maîtrise du feu du Gros Bessillon (voir ligne dédiée). Aucun communiqué var.gouv.fr distinct daté du 11 ou du 12/08 n'a pu être retrouvé pour confirmer nommément cette réouverture générale ; seule cette source datée l'annonce à ce stade.
 
-MAJ 13/08 : aucune source datée du 12 ou du 13/08 retrouvée malgré une recherche ciblée (var.gouv.fr, presse locale). La dernière donnée sûre reste la désescalade totale du 12/08 (0/9 massif fermé), traitée par défaut comme reconduite faute d'un signal contraire, mais non reconfirmée pour ce jour précis.
+MAJ 13/08 : aucune source datée du 12 ou du 13/08 retrouvée malgré une nouvelle vérification (var.gouv.fr, presse locale). La dernière donnée sûre reste la désescalade totale du 12/08 (0/9 massif fermé), traitée par défaut comme reconduite faute d'un signal contraire, mais non reconfirmée pour ce jour précis.
 
 ## Source
 

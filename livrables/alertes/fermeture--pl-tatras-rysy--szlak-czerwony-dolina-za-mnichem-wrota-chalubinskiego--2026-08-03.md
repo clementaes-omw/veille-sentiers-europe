@@ -6,12 +6,11 @@ sev: MOYENNE
 validite: fermé du 03/08/2026 au 12/08/2026 pour réfection ; rouvert depuis le 13/08/2026
 detection: 2026-08-06
 verif: 2026-08-13
-statut: [CLÔTURÉ] (2026-08-12). Le communiqué touristique du TPN (tpn.gov.pl/komunikat-turystyczny),
-  relu le 13/08/2026, borne désormais la fermeture à la période « du 3 au 12 août » et ne
-  liste plus aucune autre restriction sur ce secteur : les travaux (murs de soutènement,
-  dallage) se sont achevés plus tôt que la durée indicative de 3 semaines annoncée le 06/08,
-  vraisemblablement grâce à une météo favorable. Aucune annonce de réouverture séparée n'a
-  été trouvée au-delà de cette date bornée sur la page officielle.
+statut: [CLÔTURÉ] (2026-08-13). Le TPN a publié le 12/08/2026 l'annonce « Szlak na Wrota
+  Chałubińskiego ponownie otwarty », confirmant la réouverture du sentier à compter du
+  13/08/2026 : les travaux (murs de soutènement, dallage) se sont achevés plus tôt que la
+  durée indicative de 3 semaines annoncée le 06/08, vraisemblablement grâce à une météo
+  favorable.
 ordre: 101
 ---
 
@@ -31,4 +30,4 @@ Sans objet désormais : le sentier a rouvert. Pendant la fermeture, le sentier b
 
 ## Source
 
-[tpn.gov.pl, komunikat turystyczny](https://tpn.gov.pl/komunikat-turystyczny) (relu le 06/08/2026, puis le 13/08/2026) ; presse polonaise reprise (podhale24.pl, portalsamorzadowy.pl, rmf24.pl), datée 02-03/08/2026
+[tpn.gov.pl, komunikat turystyczny](https://tpn.gov.pl/komunikat-turystyczny) (relu le 06/08/2026, puis le 13/08/2026) ; [tpn.gov.pl, Szlak na Wrota Chałubińskiego ponownie otwarty (12/08/2026, annonce de réouverture au 13/08/2026)](https://tpn.gov.pl/aktualnosci/szlak-na-wrota-chalubinskiego-ponownie-otwarty) ; presse polonaise reprise (podhale24.pl, portalsamorzadowy.pl, rmf24.pl), datée 02-03/08/2026

@@ -33,7 +33,7 @@ Vérifié le 10/08/2026 : aucune source datée entre le 7 et le 10 août n'a ét
 
 Vérifié le 11/08/2026 : recherche élargie aux sources primaires (espace presse de la préfecture des Alpes-Maritimes consulté directement pour le mois d'août : deux communiqués seulement, aucun sur le risque incendie) et aux sites des trois communes du massif (Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron), sans résultat. La carte de risque Entente Valabre (risque-prevention-incendie.fr) existe mais son contenu, généré en JavaScript, ne s'affiche pas à la simple lecture de la page et n'a pas pu être consulté pour cette vérification. L'écart entre la dernière confirmation datée (6 août) et aujourd'hui atteint 5 jours.
 
-Vérifié le 13/08/2026 : nouvelle recherche ciblée (requête directe sur presseagence.fr, sites des trois communes du massif), toujours aucune publication postérieure au 6 août trouvée. L'écart atteint désormais 7 jours. Le fait qui justifie la sévérité HAUTE reste établi (le massif a fermé la quasi-totalité des jours classés très sévère depuis le 17 juillet, sur la base de sources datées jusqu'au 6 août) : ce qui manque est seulement la confirmation du statut du jour, pas la matérialité de la fermeture récurrente.
+Vérifié le 13/08/2026 : nouvelle vérification (requête directe sur presseagence.fr, sites des trois communes du massif), toujours aucune publication postérieure au 6 août trouvée. L'écart atteint désormais 7 jours. Le fait qui justifie la sévérité HAUTE reste établi (le massif a fermé la quasi-totalité des jours classés très sévère depuis le 17 juillet, sur la base de sources datées jusqu'au 6 août) : ce qui manque est seulement la confirmation du statut du jour, pas la matérialité de la fermeture récurrente.
 
 ## Source
 

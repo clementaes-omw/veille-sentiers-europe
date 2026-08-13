@@ -27,9 +27,9 @@ Pas d'alternative à prévoir : aucun impact sur un tracé de Camino n'est confi
 
 Le Camino de Invierno passe à proximité (secteur Bierzo/Ponferrada/Cacabelos/Villafranca del Bierzo), pas le Camino Francés directement.
 
-MAJ 26/07 (run Europe) : 6,5 des 8 km du front du feu sont désormais fermés ou maîtrisés, le secteur de Rosales est contrôlé, avec une stratégie de feu technique nocturne. Surface stable à ~2700 ha, pas de révision à 3000 ha trouvée. Vent fort du nord prévu, vigilance maintenue. Aucune source ne mentionne d'impact direct sur le Camino de Invierno ou le Camino Francés à ce stade.
+MAJ 26/07 : 6,5 des 8 km du front du feu sont désormais fermés ou maîtrisés, le secteur de Rosales est contrôlé, avec une stratégie de feu technique nocturne. Surface stable à ~2700 ha, pas de révision à 3000 ha trouvée. Vent fort du nord prévu, vigilance maintenue. Aucune source ne mentionne d'impact direct sur le Camino de Invierno ou le Camino Francés à ce stade.
 
-MAJ 27/07 (run Europe) : CLÔTURE, downgrade IGR-2→IGR-1 dans la soirée du 26/07, Cecopi désconvoqué, realojo autorisé pour Andarraso, Rosales et Folloso, qui s'ajoutent à Murias de Ponjos, Ponjos, Inicio et Trascastro déjà rentrés. Les 174 évacués sont donc tous rentrés chez eux. La zone nord-ouest a été liquidée par moyens terrestres et aériens ; quelques mètres du périmètre nord restent ouverts, à éteindre manuellement. Aucun impact sur un tracé de Camino n'a jamais été confirmé pendant tout l'épisode.
+MAJ 27/07 : CLÔTURE, downgrade IGR-2→IGR-1 dans la soirée du 26/07, Cecopi désconvoqué, realojo autorisé pour Andarraso, Rosales et Folloso, qui s'ajoutent à Murias de Ponjos, Ponjos, Inicio et Trascastro déjà rentrés. Les 174 évacués sont donc tous rentrés chez eux. La zone nord-ouest a été liquidée par moyens terrestres et aériens ; quelques mètres du périmètre nord restent ouverts, à éteindre manuellement. Aucun impact sur un tracé de Camino n'a jamais été confirmé pendant tout l'épisode.
 
 ## Source
 
