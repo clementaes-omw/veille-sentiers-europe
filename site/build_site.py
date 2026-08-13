@@ -516,8 +516,8 @@ ALIAS_ZONE = {
     # Sud-Est / Méditerranée
     "Calanques-13": "FR-13",
     "Var-83": "FR-83", "Var-Gros-Bessillon": "FR-83",
-    "Gard-30": "FR-30-48",
-    "Hérault-34": "FR-34-11", "Aude-11": "FR-34-11",
+    "Gard-30": "FR-30-48", "Lozere-Massegros-Causses-Gorges": "FR-30-48",
+    "Hérault-34": "FR-34-11", "Aude-11": "FR-34-11", "Aude-Montseret-Corbieres": "FR-34-11",
     "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
     "Drome-Justin-Die": "FR-84-26-07",
     "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE",
@@ -1128,7 +1128,7 @@ def build():
     s.onload = cb;
     s.onerror = function () {
       var el = document.getElementById('carte-compte');
-      if (el) el.textContent = 'Carte indisponible : la bibliothèque cartographique n\\'a pas pu être chargée.';
+      if (el) el.textContent = 'Carte indisponible : la biblioth\\'eque cartographique n\\'a pas pu être chargée.';
     };
     document.head.appendChild(s);
   }
@@ -1802,7 +1802,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   }});
 
   // impression : on ouvre les volets « Détails » le temps du tirage, sinon la
-  // feuille sort amputée de la moitié de ce qu'on venait chercher.
+  // feuille sort amputeé de la moitié de ce qu'on venait chercher.
   window.addEventListener('beforeprint', function () {{
     document.querySelectorAll('.card details:not([open])').forEach(function (d) {{
       d.open = true; d.setAttribute('data-print-open', '');
