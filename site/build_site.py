@@ -545,8 +545,14 @@ ALIAS_ZONE = {
     "CH-Europaweg-Randa-Zermatt": "CH-VALAIS-VAUD", "TMB-CH-Orsieres": "CH-VALAIS-VAUD",
     # Italie
     "IT-ValGrande": "IT-NO", "VF-Lazio-Prato-La-Corte": "IT-CENTRE",
-    # Royaume-Uni / Portugal
-    "UK-Cairngorms-Glenmore": "UK-IE", "Matosinhos-PT": "PT-NORTE",
+    # Allemagne — un code national ne peut pas porter un marqueur juste : le Malerweg
+    # (Suisse saxonne) et le Westweg (Forêt-Noire) sont à 600 km l'un de l'autre, et le
+    # centroïde « DE » tombait en Basse-Franconie, à 349 km du premier. DE ne sert plus
+    # que de repli pour un massif allemand encore sans code propre.
+    "DE-Sachsen-SaechsischeSchweiz": "DE-SACHSEN",
+    "DE-Schwarzwald-Oppenau": "DE-SW",
+    # Royaume-Uni / Portugal — même raison : les Cairngorms pointaient dans le Lake District.
+    "UK-Cairngorms-Glenmore": "UK-SCOTLAND", "Matosinhos-PT": "PT-NORTE",
     # Baléares
     "GR221-222-Mallorca": "ES-BALEARES",
     # Balkans / Tatras

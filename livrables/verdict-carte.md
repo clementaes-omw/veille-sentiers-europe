@@ -93,6 +93,27 @@ Signalés ici parce qu'ils rendent des marqueurs faux ou inutilisables, mais ils
    `.leaflet-bar a`, `.leaflet-control-attribution`) perdent la cascade et le fond redevient
    blanc, tandis que les couleurs de texte (sélecteurs à deux classes) restent claires.
 
+## Suite donnée — 2026-08-12, même jour
+
+Les trois recommandations de centroïdes ont été appliquées, et les deux défauts de la vue
+corrigés. Écarts mesurés après coup, aux mêmes repères :
+
+| Zone | Avant | Après | Alerte concernée |
+|---|---|---|---|
+| `DE-SACHSEN` (neuf) | 349 km | **4 km** | Malerweg, **rouge** |
+| `DE-SW` (neuf) | 177 km | **19 km** | Westweg |
+| `UK-SCOTLAND` (neuf) | 289 km | **23 km** | Cairngorms |
+| `FR-NOR` (déplacé) | 41 km | **11 km** | GR21 |
+
+`DE` et `UK-IE` restent au référentiel mais ne portent plus aucune alerte : ils ne servent
+plus que de **repli** pour un massif encore sans code propre. C'est un choix de prudence
+plutôt que de rigueur — les retirer ferait tomber la prochaine alerte allemande ou
+britannique non aliasée en « alerte perdue », donc en BLOQUANT, ce qui la rendrait visible
+tout de suite ; les garder la fera atterrir en silence sur un centroïde national faux. À
+trancher si un jour la carte devient la porte d'entrée principale du site.
+
+Le compte de marqueurs passe de 34 à **35** (l'Allemagne compte désormais pour deux).
+
 ## Recommandations laissées
 
 1. Scinder `DE` en `DE-SW` / `DE-SACHSEN` + 2 alias — **alerte rouge concernée**.
