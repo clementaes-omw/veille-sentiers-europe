@@ -5,17 +5,12 @@ itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Me
 sev: HAUTE
 validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
 detection: 2026-07-20
-verif: 2026-08-12
-statut: ACTIF — CHANGÉ 10/08 : recherche ciblée dédiée sur le défaut de source signalé par
-  l'audit qualité du 09/08. Les arrêtés qui fondent cette alerte sont désormais identifiés
-  précisément : Sorède (n°26.216, 17/06/2026, piétons et vélos musculaires/VAE seulement,
-  jusqu'au 13/09/2026 explicitement) et Argelès-sur-Mer (arrêté du 10/07, renforcé le 13/07
-  par l'ARR2026-024PM, dérogation VTT professionnels le 24/07 — déjà connus). Le point
-  soulevé par l'audit (absence de source postérieure au 29/07) s'explique : ces deux arrêtés
-  n'ont pas de clause de reconduction périodique à surveiller — celui de Sorède court jusqu'au
-  13/09 par construction, celui d'Argelès est « jusqu'à nouvel ordre » et reste donc valide
-  tant qu'aucune levée n'est publiée, sans qu'une republication soit attendue. Sévérité
-  maintenue HAUTE sur cette base.
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : nouvelle recherche ciblée, aucune levée trouvée, aucun texte
+  postérieur au 29/07 (ouillade.eu) ou aux arrêtés déjà identifiés (Sorède, Argelès) le 10/08.
+  Les deux arrêtés restent la base de l'alerte, sans échéance de republication à surveiller
+  entre-temps (Sorède court jusqu'au 13/09/2026 par construction, Argelès reste valide « jusqu'à
+  nouvel ordre »). Sévérité maintenue HAUTE.
 ordre: 35
 ---
 
@@ -46,6 +41,8 @@ Contrôle qualité 09/08 : la source ouillade.eu du 29/07 est toujours en ligne 
 MAJ 10/08 : les arrêtés eux-mêmes ont été retrouvés et datés précisément. Sorède, arrêté n°26.216 du 17/06/2026, restriction piétons et vélos musculaires uniquement, effective jusqu'au 13/09/2026. Argelès-sur-Mer, arrêté du 10/07/2026, renforcé par l'ARR2026-024PM du 13/07/2026. Les communes de Cerbère et Villelongue-dels-Monts sont citées comme concernées par des arrêtés similaires, sans que leurs dates propres n'aient été isolées. Aucune de ces mesures ne prévoit de republication périodique : l'arrêté de Sorède court par construction jusqu'au 13/09, celui d'Argelès reste valide tant qu'aucune levée officielle n'est publiée, sans qu'une nouvelle parution soit à attendre entre-temps.
 
 MAJ 12/08 : nouvelle vérification de l'existence d'une publication postérieure au 29/07 sur l'accès au massif (arrêtés des communes concernées, éventuelle levée). Aucune publication plus récente n'a été trouvée, et aucune trace de levée : les sources retrouvées continuent de décrire les arrêtés communaux comme étant en vigueur. Une cinquième commune, Laroque-des-Albères, publie elle aussi un « arrêté temporaire réglementant l'accès au massif des Albères », dont la date n'a pas pu être isolée ; il n'est pas ajouté en source tant qu'il n'est pas daté. La consultation directe des pages officielles (carte quotidienne d'accès aux massifs du 66, publication municipale de Sorède) n'a pas pu aboutir depuis l'environnement de ce contrôle, dont le proxy réseau bloque ces domaines ; elle reste à faire. Sévérité maintenue HAUTE : l'arrêté de Sorède (n°26.216) court explicitement jusqu'au 13/09/2026 et celui d'Argelès vaut « jusqu'à nouvel ordre ». Dégrader la sévérité sur la seule ancienneté d'un article de presse laisserait entendre une réouverture qu'aucune source n'atteste, alors que les textes qui fondent l'interdiction sont datés et non expirés.
+
+MAJ 13/08 : nouvelle vérification, aucune levée ni republication trouvée. L'état déjà décrit (arrêté de Sorède jusqu'au 13/09/2026, arrêté d'Argelès jusqu'à nouvel ordre) reste la donnée la plus récente.
 
 ## Source
 

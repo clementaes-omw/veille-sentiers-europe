@@ -5,12 +5,12 @@ itin: GR36 & GR78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (côté 
 sev: MOYENNE
 validite: 03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP
 detection: 2026-07-06
-verif: 2026-08-12
-statut: ACTIF — INCHANGÉ 07/08 : page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » republiée
-  avec une mise à jour datée du 06/08/2026 (elle était figée sur le 02/07 depuis un mois) —
-  contenu identique : mêmes 5 fermetures (Fontfroide, Pinèdes de Crémade, la Clape, Pinède
-  Lézignanaise 03/07→31/08 ; île Ste-Lucie ; Cavayère progressive ; Ribaute post-incendie).
-  Aucun nouveau départ de feu localisé.
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » revérifiée,
+  toujours datée du 06/08/2026, contenu identique : mêmes fermetures (Fontfroide, Pinèdes de
+  Crémade, la Clape, Pinède Lézignanaise 03/07→31/08 ; île Ste-Lucie ; Cavayère progressive ;
+  Ribaute post-incendie). Un feu distinct, sans lien avec ce régime de fermeture saisonnière,
+  s'est déclaré le 06/08 à Montséret (Corbières) : voir la fiche dédiée.
 ordre: 17
 ---
 

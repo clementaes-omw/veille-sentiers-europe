@@ -5,18 +5,18 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-12
-statut: ACTIF — CHANGÉ 12/08 : nouvelle donnée datée du 06/08 pour la journée du 07/08 :
-  le classement redescend de 6 à 3 massifs en alerte rouge (source secondaire, noms non
-  détaillés). Aucune source postérieure au 07/08 retrouvée malgré recherche. Sévérité
-  maintenue MOYENNE. herault.gouv.fr reste en JS, contournement presse toujours
-  nécessaire. Carlencas-et-Levas toujours fixé.
+verif: 2026-08-13
+statut: ACTIF — INCHANGÉ 13/08 : nouvelle recherche, aucune source postérieure au 07/08
+  retrouvée. Le classement à 3 massifs rouges (07/08) reste la dernière donnée connue.
+  herault.gouv.fr reste en JS, contournement presse toujours nécessaire. Carlencas-et-Levas
+  toujours fixé. Un feu distinct s'est déclaré le 06/08 à Montséret (Aude voisine, Corbières,
+  fixé à 100 ha le soir même) : voir la fiche dédiée, sans lien avec les massifs héraultais.
 ordre: 18
 ---
 
 ## Portion concernée
 
-Hérault : trois massifs classés en alerte rouge incendie au dernier classement daté connu (vendredi 07/08/2026), avec **accès et travaux interdits dans les espaces forestiers**, contre six lors du classement précédent (06/08). La liste nominative complète de ces 3 massifs n'a pas pu être confirmée : aucune source de presse ne l'énumère intégralement, et herault.gouv.fr reste en JavaScript. Aucun nouveau classement daté du 08 au 12 août n'a été retrouvé ; l'absence de page ne permet pas de conclure à une levée. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
+Hérault : trois massifs classés en alerte rouge incendie au dernier classement daté connu (vendredi 07/08/2026), avec **accès et travaux interdits dans les espaces forestiers**, contre six lors du classement précédent (06/08). La liste nominative complète de ces 3 massifs n'a pas pu être confirmée : aucune source de presse ne l'énumère intégralement, et herault.gouv.fr reste en JavaScript. Aucun nouveau classement daté du 08 au 13 août n'a été retrouvé ; l'absence de page ne permet pas de conclure à une levée. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
 
 ## Alternative
 
@@ -33,6 +33,8 @@ MAJ 06-07/08 : nouvelle escalade. Six massifs de l'Hérault sont classés en ale
 MAJ 11/08 : aucune page ni article postérieur au 06/08 retrouvé. La page informative herault.gouv.fr consultée reste datée du 17/07 et renvoie vers une carte quotidienne externe qui n'affiche pas son contenu en dehors d'un navigateur. Le classement du 06/08 reste donc la dernière donnée officielle connue.
 
 MAJ 12/08 : une donnée datée du 06/08 mais portant sur la journée du vendredi 07/08 a été retrouvée (shopping-beziers.com) : le classement redescend de 6 à 3 massifs en alerte rouge. Les noms précis de ces 3 massifs n'ont pas pu être extraits. Aucune source postérieure au 07/08 retrouvée malgré recherche active ; herault.gouv.fr ne publie toujours pas de carte quotidienne lisible directement.
+
+MAJ 13/08 : aucune source postérieure au 07/08 retrouvée malgré nouvelle recherche. Le classement à 3 massifs rouges reste la dernière donnée connue.
 
 ## Source
 
