@@ -5,11 +5,13 @@ itin: GR9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 26 communes actives (liste PNR Baronnies Provençales mise à jour le 12/08, arrêté le plus récent daté du 10/08 à La Charce) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-08-13
-statut: ACTIF — CHANGÉ 13/08 : une commune supplémentaire rejoint la liste PNR Baronnies
-  Provençales, La Charce, arrêté daté du 10/08. Saillans et Montclar-sur-Gervanne restent
-  absentes de cette liste à jour. Sévérité maintenue HAUTE pour les communes toujours
-  listées.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : liste PNR Baronnies Provençales revérifiée en direct,
+  toujours affichée « MAJ 12/08 », mêmes 26 communes que la veille, aucun ajout ni retrait.
+  Saillans, Montclar-sur-Gervanne, Beauvoisin et Bénivay-Ollon toujours absentes. mairiedesaillans26.fr
+  revérifiée (503 ce jour) ; PDF de l'arrêté-cadre départemental DDT-SEF-2026-0176 retesté,
+  toujours illisible en autonome. Piste Saillans déplacée vers les pistes abandonnées après
+  8e run infructueux, le constat étant déjà correctement reflété dans la portion ci-dessous.
 ordre: 32
 ---
 
