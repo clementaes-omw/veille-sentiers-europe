@@ -5,14 +5,13 @@ itin: GR54A (fermé) ; GR54 (itinéraire de repli, praticable)
 sev: HAUTE
 validite: incendie déclaré MAÏPTRISÉ (ram05.fr 31/07) ; GR54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15/22/23 fermés durée indéterminée (confirmé paysdesecrins.com, MAJ 06/08) ; interdiction cycliste route de Freissinières jusqu'au 14/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08 (arrêté de voirie), RD38 toujours fermée
 detection: 2026-07-22
-verif: 2026-08-13
-statut: ACTIF — CHANGÉ 13/08 : un arrêté de voirie du 06/08/2026 (hautes-alpes.fr, publications
-  des arrêtés de voirie) confirme la réouverture de la RD138A, jusque-là fermée depuis le
-  départ de feu ; selon la presse locale, la RD38B rouvre dans les mêmes conditions, après
-  étude de stabilité des versants par le bureau Géolithe. La RD38 elle-même reste fermée
-  (talus fragilisé, travaux de purge et pose de blocs béton en attente). paysdesecrins.com
-  toujours daté du 06/08, aucune évolution sur le fond de la fermeture du massif (parcours
-  2/6/7/14/15/22/23 fermés durée indéterminée). Sévérité maintenue HAUTE.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : paysdesecrins.com relu directement, toujours daté du
+  06/08/2026, aucune évolution sur le fond (parcours 2/6/7/14/15/22/23, VTT/VTTAE 7/8/16/17/
+  Enduroréac/GTHA, Tour du Pays des Écrins 6-7 jours, via ferrata Grande Falaise à
+  Freissinières et côte de Pallon toujours fermés, sans date de réouverture). hautes-alpes.gouv.fr
+  ne publie toujours aucun communiqué postérieur au 22/07 à l'URL vérifiée. Sévérité
+  maintenue HAUTE.
 ordre: 41
 ---
 

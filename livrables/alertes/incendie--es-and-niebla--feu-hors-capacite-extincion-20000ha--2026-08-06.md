@@ -7,17 +7,19 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: HAUTE
-validite: feu actif au 13/08/2026, hors capacité d'extinction, en phase opérationnelle 2
+validite: feu actif au 14/08/2026, hors capacité d'extinction, ralentissement confirmé sur
+  trois jours consécutifs
 detection: 2026-08-11
-verif: 2026-08-13
-statut: ACTIF — CHANGÉ 13/08 : périmètre porté à ~28 000 ha (contre ~25 000 ha), la
-  progression du feu ralentit nettement (7 fronts actifs, propagation réduite de
-  moitié par rapport à la veille et de 25 % par rapport à il y a trois jours) et la
-  stratégie passe à la périmétrage/consolidation. 11 à 12 routes désormais coupées
-  (contre 6). Les moyens aériens ont été suspendus sur l'ensemble de l'Espagne le
-  12/08 vers 19h30 sur ordre de l'AESA pour l'éclipse solaire totale, obligeant le
-  dispositif à reposer temporairement sur les seuls moyens terrestres. Sévérité
-  maintenue HAUTE.
+verif: 2026-08-14
+statut: ACTIF — CHANGÉ 14/08 : périmètre porté à environ 31 000 ha (contre ~28 000 ha),
+  dépassant le feu de Minas de Riotinto de 2004 comme référence régionale. Deux tiers du
+  flanc nord sécurisés (sans front actif), permettant le retour de 60 évacués
+  (Caballón, Raboconejo, La Florida, Las Arenas) ; le front est reste le secteur le plus
+  actif. Progression toujours en ralentissement net sur trois jours (+12 000 ha, puis
+  +6 000 ha, puis +3 000 ha en 24h). Une nuit du 13 au 14/08 qualifiée de « dure et
+  compliquée » par le vent, avec un épisode de rotation à 360° annoncé pour l'après-midi
+  du 13/08 (rafales de sud-ouest supérieures à 35 km/h, humidité sous 40 % entre 19h et
+  22h) ; baisse des températures attendue le vendredi 14/08. Sévérité maintenue HAUTE.
 ordre: 105
 ---
 
@@ -28,14 +30,16 @@ Zalamea la Real, Villarrasa, Paterna del Campo et La Palma del Condado, avec une
 extension confirmée sur des hameaux de la province de Séville (El Madroño et les
 pedanías d'El Álamo, Juan Antón, Juan Gallego, Villargordo, ainsi qu'un secteur naturel
 de la commune d'Aznalcóllar). Feu de forêt déclaré le jeudi 06/08/2026 au lieu-dit
-Raboconejo (Niebla), toujours actif au 13/08. Le périmètre atteint désormais environ
-28 000 ha après une nuit du 11 au 12/08 qualifiée de « complexe » par la Junta, mais la
-propagation se ralentit nettement depuis. Onze à douze routes restent coupées ou en
-circulation restreinte, en Huelva (HU-3106, A-493, HU-5104, HU-4103, HU-6104, HU-6106,
-HU-6108) comme en Séville (SE-6400, SE-6402, SE-5400, SE-538). Raison : incendie de
-forêt à comportement extrême (changements de vent continus, terrain de ravins, sauts de
-plusieurs kilomètres), classé hors capacité d'extinction le 10/08 par la Junta de
-Andalucía, non par manque de moyens.
+Raboconejo (Niebla), toujours actif au 14/08. Le périmètre atteint désormais environ
+31 000 ha, dépassant la surface du feu de référence régionale de Minas de Riotinto
+(2004), sur un pourtour d'environ 120 km. Deux tiers du flanc nord sont désormais
+sécurisés, sans front actif, ce qui a permis le retour de 60 habitants évacués
+(Caballón, Raboconejo, La Florida, Las Arenas) ; le front est reste le secteur le plus
+actif du dispositif. Onze routes restent coupées ou en circulation restreinte, en
+Huelva (HU-3106, A-493, HU-5104, HU-4103, HU-6104, HU-6106, HU-6108) comme en Séville
+(SE-6400, SE-6402, SE-5400, SE-538). Raison : incendie de forêt à comportement extrême
+(changements de vent continus, terrain de ravins, sauts de plusieurs kilomètres), classé
+hors capacité d'extinction le 10/08 par la Junta de Andalucía, non par manque de moyens.
 
 ## Alternative
 
@@ -51,13 +55,13 @@ Aulaga↔El Madroño), SE-5400 (El Álamo↔Villagordo) et SE-538 (Aznalcóllar�
 
 Le feu part le jeudi 06/08/2026 au lieu-dit Raboconejo, commune de Niebla (Huelva). Le
 07/08 au matin, la surface est estimée provisoirement à environ 380 ha sur un secteur
-mêllant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
+mêlllant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
 et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une évacuation
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogéés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -103,6 +107,8 @@ MAJ 12/08 (soir) : une éclipse solaire totale traversant l'Espagne oblige l'Age
 
 MAJ 13/08 : le premier vice-président du gouvernement andalou confirme un bilan de 28 000 ha parcourues après cette nuit du 12 au 13/08, tout en précisant que la croissance du feu « se frena ». Le dispositif atteint 695 effectifs et 257 moyens au sol.
 
+MAJ 14/08 : bilan porté à environ 31 000 ha au soir du 13/08, dépassant la surface de référence du feu de Minas de Riotinto (2004). Deux tiers du périmètre du flanc nord sont sécurisés sans front actif, un « avance important » qui permet le retour à domicile de 60 des 718 personnes évacuées (Caballón, Raboconejo, La Florida, Las Arenas) ; le front est devient le secteur le plus actif. La progression continue de ralentir sur trois jours consécutifs : +12 000 ha, puis +6 000 ha, puis +3 000 ha en 24h. Le vice-président annonce pour l'après-midi du 13/08 une rotation du vent à 360°, avec un pic de risque entre 19h et 22h (rafales de sud-ouest supérieures à 35 km/h, humidité sous 40 %) ; la nuit qui suit est qualifiée de « dure et compliquée » par le vent, freinant le périmétrage en attendant les moyens aériens du matin. Une baisse des températures est annoncée pour le vendredi 14/08. Toujours aucune source ne documente d'impact sur un itinéraire balisé nommé.
+
 ## Source
 
 [Tecnobosque, analyse technique, mis à jour 11/08/2026 09h20](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [Infobae 11/08/2026, une fenêtre d'opportunité s'ouvre à Huelva tandis que le feu avance à Huesca](https://www.infobae.com/espana/agencias/2026/08/11/el-fuego-avanza-en-huesca-mientras-se-abre-una-ventana-de-oportunidad-en-huelva/) ; [theobjective.com 11/08/2026, carte des incendies actifs Niebla/Riglos](https://theobjective.com/sociedad/suceso/2026-08-11/mapa-incendios-activos-espana-niebla-riglos/) ; [Cuatro.com 11/08/2026, évolution des feux Huelva/Huesca/Segovia/Castellón](https://www.cuatro.com/noticias/sociedad/20260811/evolucion-fuegos-huelva-huesca-segovia-castellon_18_019931088.html) ; [Infobae 09/08/2026, le feu de Niebla affecte déjà 8 000 ha, 467 personnes évacuées](https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/) ;
@@ -114,4 +120,7 @@ MAJ 13/08 : le premier vice-président du gouvernement andalou confirme un bilan
 [Moncloa.com 12/08/2026 09h14, le feu de Niebla réduit de moitié sa propagation, 7 fronts actifs, 25 000 ha](https://www.moncloa.com/2026/08/12/incendio-niebla-huelva-25000-hectareas-3414294/) ;
 [Huelva24.com 12/08/2026, carte DGT des routes coupées par le feu de Niebla](https://www.huelva24.com/provincia/carreteras-cortadas-huelva-incendio-niebla-mapa-dgt-20260812150135-nth.html) ;
 [Infobae 12/08/2026, l'éclipse solaire oblige à interrompre les opérations aériennes sur le feu de Niebla](https://www.infobae.com/espana/2026/08/12/el-eclipse-obliga-a-frenar-las-operaciones-de-los-medios-aereos-en-el-incendio-de-niebla-es-una-orden-para-toda-espana/) ;
-[Andalucía Información 12/08/2026, le feu de Niebla parcourt 28 000 ha après une nuit complexe mais ralentit](https://www.andaluciainformacion.es/articulo/huelva/incendio-niebla-huelva-recorre-28000-hectareas-noche-compleja-frena-crecimiento/202608121242463453337.html)
+[Andalucía Información 12/08/2026, le feu de Niebla parcourt 28 000 ha après une nuit complexe mais ralentit](https://www.andaluciainformacion.es/articulo/huelva/incendio-niebla-huelva-recorre-28000-hectareas-noche-compleja-frena-crecimiento/202608121242463453337.html) ;
+[Infobae 13/08/2026, le feu de Niebla perd de la force après 31 000 ha et 700 évacués](https://www.infobae.com/espana/2026/08/13/el-incendio-de-niebla-huelva-pierde-fuerza-tras-arrasar-31000-hectareas-y-dejar-a-700-vecinos-desalojados/) ;
+[Infobae (agences) 13/08/2026, les avancées sur le flanc nord permettent le retour de 60 évacués](https://www.infobae.com/espana/agencias/2026/08/13/avances-en-el-sector-norte-permiten-el-regreso-de-60-desalojados-por-incendio-de-niebla/) ;
+[La Región 13/08/2026, le feu de Huelva entre en Séville et parcourt déjà 31 000 ha](https://www.laregion.es/espana/incendio-huelva-entra-sevilla-arrasa_1_20260813-4382910.html)

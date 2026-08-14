@@ -5,15 +5,12 @@ itin: [HYPOTHÈSE] aucun GR référencé (Vía de la Plata, Camino de Madrid, Ca
 sev: MOYENNE (en décrue — stabilisé, retours en cours ; impact direct sur un itinéraire suivi toujours non confirmé)
 validite: stabilisé depuis le 23/07, niveau opérationnel 1 (le plus bas), jusqu'à nouvel ordre ; seuls 2 villages encore évacués au 25/07 (dernière donnée disponible)
 detection: 2026-07-24
-verif: 2026-08-07
-statut: ACTIF — CHANGÉ 31/07 : nette amélioration. Depuis le 23/07 : stabilisation, retours
-  progressifs des habitants (Río Frío del Llano, Cardeñosa, Palancares, Almiruete, Muriel,
-  La Mierla, Prádena de Atienza, Gascueña de Bornova, Semillas…). Au 25/07, seuls 2 villages
-  restaient encore évacués (Aldeanueva de Atienza, El Ordial). Incendie classé niveau
-  opérationnel 1 (le plus bas). [HYPOTHÈSE] toujours non confirmée : aucun croisement avéré
-  avec Vía de la Plata/Camino de Madrid/Camino de Levante/GR10-ES. Sévérité ramenée
-  HAUTE→MOYENNE (en décrue). Foyer secondaire Almorox (Toledo) également passé en niveau
-  opérationnel 1 au 30/07 ; foyer de Selas (~2 800 ha) sans nouvelle donnée, INCHANGÉ.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : incendie toujours donné comme contrôlé (« ya controlado »,
+  cmmedia.es 04/08, dernière source datée trouvée) en phase de stabilisation, ~33 000 ha au
+  bilan final. Aucune reprise ni nouvelle donnée postérieure au 04/08 trouvée. [HYPOTHÈSE]
+  toujours non confirmée : aucun croisement avéré avec Vía de la Plata/Camino de Madrid/
+  Camino de Levante/GR10-ES. Sévérité maintenue MOYENNE.
 ordre: 48
 ---
 

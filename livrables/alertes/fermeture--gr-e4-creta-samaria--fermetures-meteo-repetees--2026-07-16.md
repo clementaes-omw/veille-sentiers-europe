@@ -5,13 +5,12 @@ itin: E4 Crète (Samaria, Lefka Ori)
 sev: MOYENNE
 validite: fermetures décidées au jour le jour (quotidiennement), selon la météo (vent fort, canicule), sans calendrier fixe ; dernière fermeture confirmée le 31/07/2026, statut à vérifier sur samaria.gr avant l'étape
 detection: 2026-07-24
-verif: 2026-08-12
-statut: ACTIF — INCHANGÉ 12/08 : recherche bilingue étendue (samaria.gr, necca.gov.gr,
-  samaria-tickets.necca.gov.gr, cretalive.gr, ekriti.gr, creta24.gr, inewsgr.com) — aucune
-  source datée entre le 01/08 et le 12/08 trouvée, ni fermeture ni réouverture. Un article
-  necca.gov.gr évoquant une réouverture après séisme s'est révélé daté de 2023, écarté.
-  Pattern « jour le jour » reconduit par défaut, statut du jour non confirmable en
-  autonome.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : nouvelle recherche bilingue (samaria.gr, samaria-tickets.
+  necca.gov.gr, cretalive.gr, inewsgr.com, recherche grecque dédiée) — toujours aucune
+  source datée d'août 2026 trouvée, ni fermeture ni réouverture ; samaria-tickets.necca.
+  gov.gr ne publie pas de statut daté (billetterie uniquement). Pattern « jour le jour »
+  reconduit par défaut, statut du jour non confirmable en autonome.
 ordre: 49
 ---
 

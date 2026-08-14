@@ -5,15 +5,12 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation possible ; réouverture partielle depuis le 07/08/2026 (Basteiweg, Polenztal sud) ; le Polenztal entre le Gasthaus et la Waltersdorfer Mühle a refermé le 09/08/2026 pour chute d'arbres
 detection: 2026-08-06
-verif: 2026-08-13
-statut: ACTIF — CHANGÉ 11/08 : nouvelle fermeture ponctuelle constatée. Le tronçon du Polenztal
-  entre le Gasthaus Polenztal et la Waltersdorfer Mühle, rouvert le 07/08, a refermé le 09/08
-  pour des arbres qui continuent de tomber dans la zone sinistrée (nationalpark-saechsische-
-  schweiz.de, page « Eilmeldung Waldsperrung », MAJ 09/08). Le Basteiweg, la Basteiaussicht et
-  la partie sud du Polenztal (entre la Frinztalmühle et le Neuweg/Schulzengrund) restent
-  ouverts. Sévérité maintenue HAUTE : le Malerweg emprunte toujours Schwedenlöcher et Amselsee
-  sur son tracé classique (étape Stadt Wehlen↔Hohnstein), coupé depuis le 01/08 sans réouverture
-  à ce jour.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : relecture directe de nationalpark-saechsische-schweiz.de
+  (page « Eilmeldung Waldsperrung ») — la mise à jour du 09/08 reste la plus récente publiée,
+  aucun nouveau point de situation trouvé. Sévérité maintenue HAUTE : le Malerweg emprunte
+  toujours Schwedenlöcher et Amselsee sur son tracé classique (étape Stadt Wehlen↔Hohnstein),
+  coupé depuis le 01/08 sans réouverture à ce jour.
 ordre: 99
 ---
 

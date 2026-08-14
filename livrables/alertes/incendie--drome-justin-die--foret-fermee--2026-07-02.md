@@ -5,17 +5,12 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en
 sev: HAUTE (remontée 13/08 — arrêté préfectoral daté du 17/07 identifié nommément par une source datée du 12/08)
 validite: arrêté préfectoral du 17/07/2026 « accès interdit par arrêté préfectoral aux espaces forestiers des massifs de Justin, de Laup et de Solaure », toujours cité comme en vigueur par une source datée du 12/08 ; drome.gouv.fr n'a publié aucun point de situation depuis le 16/07 (ni confirmation ni levée directe de la préfecture elle-même)
 detection: 2026-07-18
-verif: 2026-08-13
-statut: ACTIF — CHANGÉ 13/08 : REMONTÉE MOYENNE→HAUTE. drome-cestmanature.com (fiche
-  Justin, MAJ affichée 12/08/2026) cite nommément un arrêté préfectoral daté du 17/07/2026
-  interdisant l'accès aux massifs de Justin, Laup et Solaure, toujours présenté comme actif
-  à cette date. C'est la première fois qu'une date d'arrêté précise (17/07, distincte de la
-  date du 16/07 retenue jusqu'ici) est identifiée, et la source qui la porte a moins de 48h
-  au moment de cette vérification : la fermeture redevient donc adossée à une confirmation
-  récente et non plus à un silence de 21 jours. Source secondaire (site touristique
-  départemental), pas la préfecture elle-même : drome.gouv.fr reste sans publication
-  postérieure au 16/07. Rattachement GR9/GR93 toujours affaibli (probable GR95, hors
-  périmètre).
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : drome-cestmanature.com revérifiée, toujours affichée
+  « MAJ 12/08/2026 », même texte (arrêté du 17/07 actif). drome.gouv.fr revérifiée en
+  direct, toujours datée du 16/07, aucune publication nouvelle. Sévérité maintenue HAUTE.
+  Rattachement GR9/GR93 non retesté ce jour, toujours affaibli depuis le 03/08 (probable
+  GR95).
 ordre: 31
 ---
 

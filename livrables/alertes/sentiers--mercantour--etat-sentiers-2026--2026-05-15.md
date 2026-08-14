@@ -5,8 +5,8 @@ itin: GR56 / GR52-GTM / GR5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les 4 secteurs ajoutés le 10/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 10/08/2026
 detection: 2026-07-02
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : page relue, toujours datée du 10/08/2026, mêmes fermetures
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : page relue, toujours datée du 10/08/2026, mêmes fermetures
   (Pezza Maurina, Pas de Colle Rousse, Tavels, Vallon de Mollières), rien de nouveau.
 ordre: 13
 ---
