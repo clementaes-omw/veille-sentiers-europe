@@ -5,9 +5,14 @@ itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-13
-statut: ACTIF (Illarata) — INCHANGÉ 13/08 : recherche dédiée refaite (corse-du-sud.gouv.fr/Actualites relu directement), toujours aucune actualité postérieure au 23/07/2026 sur Bavella ou Illarata. Écart désormais à 21 jours. Sévérité stable
-  MOYENNE (dégradée le 06/08 pour fraîcheur de source, pas pour doute sur le fait matériel).
+verif: 2026-08-14
+statut: ACTIF (Illarata) — INCHANGÉ 14/08 : recherche dédiée refaite avec une méthode
+  différente (gr20-infos.com/incendie relu directement, recherche ciblée sur la commune de
+  Quenza/Zonza pour un éventuel nouveau départ de feu), toujours aucune actualité postérieure
+  au 23/07/2026 sur Bavella ou Illarata. Un signal « feu de Quenza » trouvé lors de cette
+  recherche s'est révélé être un article daté du 02/07/2025, sans lien avec 2026 (piège
+  d'indexation écarté). Écart désormais à 22 jours. Sévérité stable MOYENNE (dégradée le
+  06/08 pour fraîcheur de source, pas pour doute sur le fait matériel).
 ordre: 30
 ---
 
@@ -40,6 +45,8 @@ MAJ 06/08 : DÉGRADATION HAUTE→MOYENNE pour fraîcheur de source. Recherche d�
 MAJ 11/08 : nouvelle vérification des arrêtés, cherchés cette fois directement par leur numéro (n°2A-2026-07-20-00006 et -00007), toujours aucune source postérieure au 23/07/2026. Situation traitée comme stable : Bavella rouvert, Illarata partiellement fermé (vallée du Cavu haute et moyenne, pistes Tova/Pré d'Agnellu/Ficaghjola, RD845).
 
 MAJ 13/08 : corse-du-sud.gouv.fr/Actualites relu directement, aucune actualité postérieure au 23/07/2026 ne concerne Bavella ou Illarata. Situation traitée comme stable pour la 4e vérification consécutive : Bavella rouvert, Illarata partiellement fermé.
+
+MAJ 14/08 : nouvelle vérification, plus large que les précédentes (gr20-infos.com/incendie lu directement : page toujours calée sur sa mise à jour du 22/07/2026, sans rien de nouveau sur Bavella/Illarata ; vérification d'un éventuel nouveau départ de feu dans les communes de Quenza et Zonza, sans résultat pour 2026). Un article évoquant un « incendie de Quenza, 170 hectares » a été vérifié et écarté : publié le 02/07/2025, année précédente. 5e vérification consécutive sans source postérieure au 23/07/2026 : Bavella rouvert, Illarata partiellement fermé (vallée du Cavu haute et moyenne, pistes Tova/Pré d'Agnellu/Ficaghjola, RD845).
 
 ## Source
 

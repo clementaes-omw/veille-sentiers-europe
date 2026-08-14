@@ -5,12 +5,15 @@ itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ;
 sev: MOYENNE
 validite: jusqu'à nouvel ordre ; vigilance rouge tous massifs confirmée du 26/07 au 27/07/2026 (dernière reconduction datée), aucune confirmation ni levée explicite retrouvée depuis ; l'indice officiel Météo des forêts situe le département en risque très élevé (pas exceptionnel) depuis le 06/08/2026
 detection: 2026-07-27
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : nouvelle recherche, aucun communiqué ni arrêté postérieur au
-  07/08 (extinction de Trévillach) retrouvé sur le risque incendie ou la vigilance rouge.
-  Aucun nouveau bulletin Météo des forêts postérieur au 06/08 localisé. Sévérité maintenue
-  MOYENNE, dégradée depuis le 09/08 faute de confirmation du maintien de la fermeture totale
-  des 9 massifs au-delà du 27/07. Un texte préfectoral explicite reste à trouver.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : nouvelle recherche ciblée d'un texte préfectoral explicite
+  (arrêté ou communiqué nommant les massifs), sans résultat : la page des communiqués d'août
+  de la préfecture 66 ne liste toujours que 4 titres (contrôle Fontpédrouse, cabanisation
+  Vernet-les-Bains, West Nile équin, extinction de Trévillach), aucun sur le risque incendie
+  ou la vigilance rouge. Aucun bulletin Météo des forêts postérieur au 06/08 localisé.
+  Sévérité maintenue MOYENNE, dégradée depuis le 09/08 faute de confirmation du maintien de la
+  fermeture totale des 9 massifs au-delà du 27/07. Un texte préfectoral explicite reste à
+  trouver.
 ordre: 56
 ---
 
@@ -37,6 +40,8 @@ MAJ 07/08 : la page des communiqués de presse d'août 2026 de la préfecture es
 MAJ 09/08 : les sources presse et officielles (pyrenees-orientales.gouv.fr, prevention-incendie66.com, risque-prevention-incendie.fr/66, L'Indépendant, madeinperpignan, ICI Roussillon, feuxdeforet.fr) ne portent aucun communiqué ni arrêté confirmant le maintien de la fermeture totale des 9 massifs depuis le 27/07. Élément nouveau : l'indice officiel Météo des forêts (relayé par feuxdeforet.fr, article du 06/08/2026 09h12) situe désormais le département en risque très élevé, aux côtés de l'Aude, des Bouches-du-Rhône, de la Drôme, de l'Hérault et du Vaucluse, tandis que le Var seul atteint le niveau exceptionnel : un classement différent de celui du 26/07, où les 9 massifs des Pyrénées-Orientales figuraient au niveau le plus haut de l'échelle. Météo-France confirme par ailleurs le maintien d'un risque élevé près de la Méditerranée jusqu'au dimanche 9 août, sans nouvelle aggravation annoncée. Un article de presse antérieur détaillant un risque exceptionnel limité à cinq massifs (Fenouillèdes, Corbières, Roussillon, Aspres, Albères) et un risque élevé sur les quatre autres s'est révélé daté du jeudi 23/07/2026, avant l'escalade tous-massifs du 26/07 : il ne documente donc pas l'état actuel. En l'absence d'un texte confirmant explicitement la fermeture générale et face à ce signal de désescalade partielle de l'indice officiel, l'alerte est dégradée de HAUTE à MOYENNE : le risque incendie reste réel et élevé dans le département, mais la fermeture totale des 9 massifs n'est plus établie par une source datée.
 
 MAJ 13/08 : nouvelle vérification, aucun communiqué ou arrêté postérieur au 07/08 (communiqué d'extinction du feu de Trévillach) retrouvé sur pyrenees-orientales.gouv.fr, prevention-incendie66.com, risque-prevention-incendie.fr/66, feuxdeforet.fr, L'Indépendant ou madeinperpignan. Aucun bulletin Météo des forêts postérieur au 06/08 localisé. Le classement du 06/08 (risque très élevé, sans le département en niveau exceptionnel) reste la dernière donnée officielle connue.
+
+MAJ 14/08 : la page listant les communiqués de presse d'août 2026 de la préfecture des Pyrénées-Orientales a été relue intégralement (4 titres au total à ce jour) : aucun ne porte sur le risque incendie ou la vigilance rouge départementale. Statut inchangé.
 
 ## Source
 
