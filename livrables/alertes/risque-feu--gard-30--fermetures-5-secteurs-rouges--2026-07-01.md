@@ -6,11 +6,11 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : tentative directe des pages Jeudi-13-août et Mercredi-12-août
-  sur gard.gouv.fr, 404 les deux ; toujours aucune page postérieure au 07/08. Dernière page
-  réelle = vendredi 07/08 (Gard Rhodanien + Garrigues rouges). Absence de signal traitée par
-  défaut comme un maintien.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : tentative directe de la page Vendredi-14-août sur gard.gouv.fr,
+  404 ; toujours aucune page postérieure au 07/08 (7e jour de silence). Dernière page réelle =
+  vendredi 07/08 (Gard Rhodanien + Garrigues rouges). Absence de signal traitée par défaut
+  comme un maintien.
 ordre: 15
 ---
 
@@ -38,6 +38,7 @@ Le recoupement fin du tracé du GR653 avec le périmètre interdit (communes de 
 - 09/08 : aucune page datée du 08 ou du 09/08 retrouvée sur gard.gouv.fr (recherche directe et via la liste des actualités) ; dernier classement connu reste celui du 07/08 (Gard Rhodanien, Garrigues). Recoupement du secteur Garrigues avec un GR référencé effectué : le GR6 traverse la zone (Pont-du-Gard, Remoulins, Uzès font partie des 49 communes du secteur), confirmé par plusieurs sources touristiques décrivant le tracé du GR6 le long du Gardon et de l'aqueduc romain entre Uzès et le Pont du Gard. La base interne de sentiers (`sentiers-db.csv`) n'associe pas encore le GR6 à la zone FR-30-48 (zones estimées à l'origine) : écart de référentiel noté, sans conséquence sur cette fiche.
 - 11/08 : les pages du lundi 10 et du dimanche 9 août ne sont pas publiées sur gard.gouv.fr. Un article évoquant le Gard Rhodanien et les Garrigues « ce dimanche » correspond en réalité au 9 août 2025, pas 2026 : le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis quatre jours.
 - 13/08 : les pages du mercredi 12 et du jeudi 13 août ne sont toujours pas publiées sur gard.gouv.fr (404 aux deux URL testées directement). Le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis six jours.
+- 14/08 : la page du vendredi 14 août n'est toujours pas publiée sur gard.gouv.fr (404). Le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis sept jours.
 
 ## Source
 

@@ -5,15 +5,18 @@ itin: GR51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: HAUTE
 validite: journalière ; fermé au 06/08 (dernière date confirmée), rouge très sévère
 detection: 2026-08-09
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : nouvelle recherche ciblée (presseagence.fr par requête
-  directe, sites des communes de Mandelieu-la-Napoule, Théoule-sur-Mer et Tanneron). Toujours
-  aucune publication postérieure au 06/08 trouvée. L'écart atteint désormais 7 jours
-  (07→13/08). Ce n'est pas une hypothèse non confirmée au sens de la règle des 14 jours : le
-  fait matériel (fermeture quasi quotidienne de ce massif en période de risque très sévère)
-  est établi par de multiples sources datées jusqu'au 06/08 ; ce qui manque est la
-  confirmation du jour précis. Sévérité maintenue HAUTE par prudence, statut du jour non
-  confirmé. Zone en escalade : recherche ciblée à reconduire chaque run.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : nouvelle recherche ciblée (presseagence.fr, nicepremium.fr,
+  info.fr, espace presse alpes-maritimes.gouv.fr, risque-prevention-incendie.fr/alpes-maritimes,
+  requêtes datées sur les 7-14/08). Toujours aucune publication postérieure au 06/08 trouvée.
+  L'écart atteint désormais 8 jours (07→14/08). Un article frequence-sud.fr évoquant une
+  fermeture du Mont Faron « ce mercredi 14 août » a été vérifié et écarté : daté du
+  13/08/2019, sans lien avec 2026 (piège d'indexation). Ce n'est pas une hypothèse non
+  confirmée au sens de la règle des 14 jours : le fait matériel (fermeture quasi quotidienne
+  de ce massif en période de risque très sévère) est établi par de multiples sources datées
+  jusqu'au 06/08 ; ce qui manque est la confirmation du jour précis. Sévérité maintenue HAUTE
+  par prudence, statut du jour non confirmé. Zone en escalade : recherche ciblée à reconduire
+  chaque run.
 ordre: 102
 ---
 
@@ -34,6 +37,8 @@ Vérifié le 10/08/2026 : aucune source datée entre le 7 et le 10 août n'a ét
 Vérifié le 11/08/2026 : recherche élargie aux sources primaires (espace presse de la préfecture des Alpes-Maritimes consulté directement pour le mois d'août : deux communiqués seulement, aucun sur le risque incendie) et aux sites des trois communes du massif (Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron), sans résultat. La carte de risque Entente Valabre (risque-prevention-incendie.fr) existe mais son contenu, généré en JavaScript, ne s'affiche pas à la simple lecture de la page et n'a pas pu être consulté pour cette vérification. L'écart entre la dernière confirmation datée (6 août) et aujourd'hui atteint 5 jours.
 
 Vérifié le 13/08/2026 : nouvelle vérification (requête directe sur presseagence.fr, sites des trois communes du massif), toujours aucune publication postérieure au 6 août trouvée. L'écart atteint désormais 7 jours. Le fait qui justifie la sévérité HAUTE reste établi (le massif a fermé la quasi-totalité des jours classés très sévère depuis le 17 juillet, sur la base de sources datées jusqu'au 6 août) : ce qui manque est seulement la confirmation du statut du jour, pas la matérialité de la fermeture récurrente.
+
+Vérifié le 14/08/2026 : recherche élargie (presseagence.fr, nicepremium.fr, info.fr, laclepublique.fr, cannes-actus.com, espace presse alpes-maritimes.gouv.fr pour août, risque-prevention-incendie.fr/alpes-maritimes), toujours aucune publication postérieure au 6 août trouvée. L'écart atteint désormais 8 jours. Un signal trouvé lors de cette recherche (fermeture du Mont Faron « ce mercredi 14 août », frequence-sud.fr) concerne en réalité le massif du Mont Faron à Toulon (Var, hors périmètre de cette fiche) et s'avère de toute façon daté du 13/08/2019 : écarté sans valeur probante pour 2026.
 
 ## Source
 

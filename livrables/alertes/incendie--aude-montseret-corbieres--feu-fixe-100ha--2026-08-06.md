@@ -4,15 +4,12 @@ type: incendie
 itin: GR36 (traversée des Corbières) ; GR367 Sentier Cathare (Corbières) — [HYPOTHÈSE]
   aucune source ne nomme un sentier, recoupement avec la commune de Montséret à confirmer
 sev: MOYENNE
-validite: feu fixé depuis le 06/08/2026 au soir, aucune fermeture de sentier documentée
+validite: feu fixé depuis le 06/08/2026 au soir, situation stable et revérifiée le 14/08/2026 (aucune source postérieure au 07/08 retrouvée), aucune fermeture de sentier documentée
 detection: 2026-08-13
-verif: 2026-08-13
-statut: ACTIF — NOUVEAU. Feu du massif des Corbières, commune de Montséret, parti le
-  06/08/2026 dans l'après-midi, fixé le soir même à environ 100 hectares. Aucun arrêté
-  d'interdiction d'accès au massif ni fermeture de sentier n'a été trouvé au-delà des routes
-  départementales coupées. À recouper au prochain passage sur FR-34-11 : évolution des
-  travaux de sécurisation et éventuelle publication d'un arrêté de mise en défens sur la
-  zone brûlée, comme cela s'est produit pour Trévillach (66).
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : aucune source postérieure au 07/08 retrouvée (recherche
+  régionale Aude/Corbières sans nouveau signal). Toujours aucun arrêté d'interdiction d'accès
+  ni de fermeture de sentier documenté au-delà des routes départementales déjà citées.
 ordre: 110
 ---
 

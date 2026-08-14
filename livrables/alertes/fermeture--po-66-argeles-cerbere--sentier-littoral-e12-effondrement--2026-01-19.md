@@ -5,11 +5,11 @@ itin: E12 Sentier littoral / Sentier des douaniers (Argelès-sur-Mer↔Cerbère)
 sev: MOYENNE
 validite: réouverture partielle actée par arrêté du 08/06/2026 ; 3 sections restent fermées jusqu'à nouvel ordre (Criques de Porteils/Argelès avec itinéraire bis, Grandes Elmes/Banyuls avec itinéraire bis, Aloès→RD914/Cerbère en attente de travaux à l'Anse de Terrimbo)
 detection: 2026-07-26
-verif: 2026-08-13
-statut: ACTIF — CHANGÉ 31/07 : source officielle confirmée (pyrenees-orientales.gouv.fr,
-  communiqué du 08/06/2026). 3 sections restent fermées jusqu'à nouvel ordre : Criques de
-  Porteils et Grandes Elmes (itinéraires bis en place), Aloès→RD914 à Cerbère (travaux de
-  sécurisation en cours, aucune réouverture annoncée).
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : nouvelle recherche, toujours aucune source postérieure au
+  communiqué du 08/06/2026. Les 3 sections (Criques de Porteils, Grandes Elmes, Aloès→RD914
+  à Cerbère) restent décrites comme fermées, sans annonce de reprise des travaux de
+  sécurisation de l'Anse de Terrimbo.
 ordre: 55
 ---
 

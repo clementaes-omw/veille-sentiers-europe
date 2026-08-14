@@ -5,12 +5,14 @@ itin: Vía de la Plata / Camino Sanabrés [HYPOTHÈSE] aucun tracé nommé ne tr
 sev: MOYENNE
 validite: jusqu'à nouvel ordre. Toutes les 14 localités évacuées sont rentrées, toutes les routes rouvertes ; feu « estabilizado » depuis début août, surveillance anti-reprise maintenue, pas formellement déclaré extinguido
 detection: 2026-08-02
-verif: 2026-08-13
+verif: 2026-08-14
 statut: ACTIF — CHANGÉ 08/08 : précision datée obtenue — le feu a été déclaré
   « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense, avec
   travaux de consolidation/liquidation de points chauds en cours sur les zones difficiles
   d'accès des Arribes del Duero. Aucune déclaration formelle d'« extinguido » trouvée,
   aucune nouvelle évacuation. Sévérité maintenue MOYENNE, situation en voie de résorption.
+  INCHANGÉ 14/08 : aucune source postérieure au 03/08 retrouvée malgré nouvelle recherche
+  ciblée. Statut de stabilisation reconfirmé, toujours pas d'extinction formelle publiée.
 ordre: 98
 ---
 
@@ -31,6 +33,8 @@ MAJ 03/08 : désescalade confirmée. 12 des 14 localités évacuées sont rentr�
 MAJ 05/08 : les 2 dernières localités (Pinilla de Fermoselle, Mámoles) sont également rentrées le 31/07 au soir (Guardia Civil). Les 14 localités évacuées sont donc toutes de retour, et toutes les routes ont été rouvertes. IGR ramené à 0 au 03/08, mais le feu n'est pas formellement déclaré éteint : une équipe de 16 personnes reste en surveillance anti-reprise.
 
 MAJ 08/08 : confirmation datée de la stabilisation. [FAIT] Le feu a été déclaré « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense ; les travaux de consolidation et de liquidation des points chauds sont toujours en cours sur les zones difficiles d'accès des Arribes del Duero. Aucune déclaration formelle d'extinction (« extinguido ») trouvée à ce jour, aucune nouvelle évacuation.
+
+MAJ 14/08 : aucune source postérieure au 03/08 retrouvée malgré nouvelle recherche ciblée (zamoranews.com, cope.es, tribunazamora.com, elDiario.es). Le statut de stabilisation reste inchangé, toujours pas d'extinction formelle publiée.
 
 ## Source
 

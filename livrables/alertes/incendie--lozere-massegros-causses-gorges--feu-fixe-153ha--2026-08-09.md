@@ -4,14 +4,12 @@ type: incendie
 itin: GR736 Sentier des gorges et de la vallée du Tarn ; GRP Tour du Causse de Sauveterre —
   [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement à confirmer
 sev: MOYENNE
-validite: feu fixé depuis le 10/08/2026 matin, aucune fermeture de sentier documentée
+validite: feu fixé depuis le 10/08/2026 matin, situation stable à la dernière vérification du 14/08/2026, aucune fermeture de sentier documentée
 detection: 2026-08-13
-verif: 2026-08-13
-statut: ACTIF — NOUVEAU. Feu sur la commune du Massegros-Causses-Gorges (Lozère, Causse de
-  Sauveterre), parti le 09/08/2026, fixé le lendemain matin à 153 hectares. Deux hameaux
-  évacués (La Tieule), route D67 coupée. Aucun arrêté d'interdiction d'accès ni fermeture de
-  sentier trouvé. À recouper au prochain passage FR-30-48 : état de la route D67 et de la
-  zone brûlée.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : aucune source postérieure au 10/08 retrouvée malgré nouvelle
+  recherche régionale (Lozère/Causse de Sauveterre). Toujours aucun arrêté d'interdiction
+  d'accès ni fermeture de sentier documenté au-delà de l'état de la RD67.
 ordre: 111
 ---
 

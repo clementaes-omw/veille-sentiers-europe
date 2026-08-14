@@ -5,12 +5,14 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : nouvelle recherche, aucune source postérieure au 07/08
-  retrouvée. Le classement à 3 massifs rouges (07/08) reste la dernière donnée connue.
-  herault.gouv.fr reste en JS, contournement presse toujours nécessaire. Carlencas-et-Levas
-  toujours fixé. Un feu distinct s'est déclaré le 06/08 à Montséret (Aude voisine, Corbières,
-  fixé à 100 ha le soir même) : voir la fiche dédiée, sans lien avec les massifs héraultais.
+verif: 2026-08-14
+statut: ACTIF — INCHANGÉ 14/08 : nouvelle recherche, aucune source postérieure au 07/08
+  retrouvée pour le classement par massif (bouzigues.fr du 11/08 ne publie que les vigilances
+  Bassin de Thau/Gardiole, pas le classement massifs rouges). Le classement à 3 massifs rouges
+  (07/08) reste la dernière donnée connue. herault.gouv.fr reste en JS, contournement presse
+  toujours nécessaire. Carlencas-et-Levas toujours fixé. Un feu distinct s'est déclaré le 06/08
+  à Montséret (Aude voisine, Corbières, fixé à 100 ha le soir même) : voir la fiche dédiée,
+  sans lien avec les massifs héraultais.
 ordre: 18
 ---
 
@@ -35,6 +37,8 @@ MAJ 11/08 : aucune page ni article postérieur au 06/08 retrouvé. La page infor
 MAJ 12/08 : une donnée datée du 06/08 mais portant sur la journée du vendredi 07/08 a été retrouvée (shopping-beziers.com) : le classement redescend de 6 à 3 massifs en alerte rouge. Les noms précis de ces 3 massifs n'ont pas pu être extraits. Aucune source postérieure au 07/08 retrouvée malgré recherche active ; herault.gouv.fr ne publie toujours pas de carte quotidienne lisible directement.
 
 MAJ 13/08 : aucune source postérieure au 07/08 retrouvée malgré nouvelle recherche. Le classement à 3 massifs rouges reste la dernière donnée connue.
+
+MAJ 14/08 : bouzigues.fr publie une page datée du 11/08 qui ne porte que sur le Bassin de Thau (orange) et le secteur 8 la Gardiole (jaune), sans reprendre le classement départemental à 3 massifs rouges. Aucune source ne contredit ni ne reconfirme ce classement du 07/08, qui reste la dernière donnée officielle connue.
 
 ## Source
 
