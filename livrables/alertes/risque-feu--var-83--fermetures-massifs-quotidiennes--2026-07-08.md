@@ -1,20 +1,25 @@
 ---
 cle: risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08
 type: risque feu / fermeture massifs (journalier)
-itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; GR9/GR99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 12/08, aucun massif fermé
-sev: MOYENNE (dégradée 12/08 — désescalade totale, 0/9 massif fermé, pour la première fois depuis la mi-juillet ; séquence du mois : 9→1→6→4→9→8→7→4→8→7→1→4→4→0)
-validite: journalière ; aucun massif fermé au 12/08, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
+itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; GR9/GR99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 13/08, aucun massif fermé, 5 en vigilance orange
+sev: MOYENNE (dégradée 12/08 — désescalade totale, 0/9 massif fermé, pour la première fois depuis la mi-juillet ; séquence du mois : 9→1→6→4→9→8→7→4→8→7→1→4→4→0→0)
+validite: journalière ; aucun massif fermé aux 12 et 13/08 (5 en vigilance orange le 13/08), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : aucune source datée du 12 ou du 13/08 retrouvée malgré
-  recherche ciblée (var.gouv.fr, presse locale). Dernière donnée sûre reste celle du 12/08
-  (0/9 massif fermé). Sévérité maintenue MOYENNE par défaut ; statut du jour non confirmé.
+verif: 2026-08-14
+statut: ACTIF — CHANGÉ 14/08 : confirmation obtenue pour le 12 et le 13/08 (recherche
+  ciblée varactu.fr). 12/08 : 6 massifs en vigilance orange (Sainte-Baume, Haut-Var, Maures,
+  Centre-Var, plateau de Canjuers, Estérel), aucun rouge/fermé. 13/08 : 5 massifs en
+  vigilance orange (Sainte-Baume, Haut-Var, Maures, Centre-Var, Estérel), accès déconseillé
+  mais permis, travaux interdits après 13h ; toujours aucun massif fermé. La désescalade du
+  12/08 se confirme donc sur deux jours supplémentaires. Aucune source datée du 14/08
+  retrouvée malgré nouvelle recherche : statut du jour non confirmé. Sévérité maintenue
+  MOYENNE.
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var, dernière situation confirmée par une source datée (12/08) : **aucun massif n'est fermé au public.** Les 9 massifs du département (Sainte-Baume, Haut-Var, Maures, Centre-Var, Monts Toulonnais, Corniche des Maures, Îles d'Hyères, plateau de Canjuers, Estérel) étaient ouverts pour la première fois depuis la mi-juillet 2026. Raison : amélioration liée à la maîtrise du feu du Gros Bessillon (voir ligne dédiée). Aucune source datée du 13/08 n'a été retrouvée pour confirmer si cette situation est reconduite ce jour : consulter var.gouv.fr avant de partir.
+Var, dernière situation confirmée par une source datée (13/08) : **aucun massif n'est fermé au public**, pour le 2e jour consécutif. Cinq massifs (Sainte-Baume, Haut-Var, Maures, Centre-Var, Estérel) sont classés en vigilance orange (risque sévère, accès déconseillé mais non interdit, travaux prohibés après 13h) ; les 4 autres (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, plateau de Canjuers) ne sont pas mentionnés en vigilance. Raison de la désescalade : maîtrise du feu du Gros Bessillon (voir ligne dédiée). Aucune source datée du 14/08 n'a été retrouvée pour confirmer si cette situation est reconduite ce jour : consulter var.gouv.fr avant de partir.
 
 ## Alternative
 
@@ -40,7 +45,7 @@ MAJ 30/07 (filet local) : la désescalade n'a tenu qu'une journée, RÉ-ESCALADE
 
 MAJ 01/08 : RECHUTE TOTALE, 9/9 massifs de nouveau fermés, département reclassé en risque EXTRÊME (Haut-Var, Sainte-Baume) et très sévère pour le reste, à la suite de la reprise du feu du Gros Bessillon dans la soirée du 31/07 (~1000 ha supplémentaires à l'époque, ~2500 évacués). Source presseagence.fr 01/08.
 
-MAJ 02/08 : légère décrue, 8/9 massifs fermés (rouge, très sévère), Sainte-Baume, Haut-Var, Maures, Monts Toulonnais, Corniche des Maures, Estérel, Îles d'Hyères et Centre-Var ; seul le plateau de Canjuers repasse en orange. Aires fermées : A57 (Lauvets, Suvé du Vent, Gonfaron, Les Sigues) et A8 (Saint-Hilaire, Barcelone, Candumy, Roudaï, Jas Pelicot). Nouveauté : c'est la 1re mention de fermetures d'aires sur l'A8 pour cet épisode, en plus des aires A57 habituelles. Le feu du Gros Bessillon reste actif et non fixé au 01/08 21h20 (point de situation n°42, voir ligne dédiée `incendie|Var-Gros-Bessillon|…`) : cette fermeture quasi-totale des massifs en est la conséquence directe, avec un motif explicitement préventif, ne pas surcharger des secours déjà mobilisés. Sources : [presseagence.fr 01/08](https://presseagence.fr/toulon-risque-incendie-tres-severe-huit-massifs-forestiers-du-var-fermes-au-public-ce-dimanche/) ; [tv83.info 01/08](https://www.tv83.info/var-huit-massifs-forestiers-fermes-dimanche-2-aout/).
+MAJ 02/08 : légère décrue, 8/9 massifs fermés (rouge, très sévère), Sainte-Baume, Haut-Var, Maures, Monts Toulonnais, Corniche des Maures, Estérel, Îles d'Hyères et Centre-Var ; seul le plateau de Canjuers repasse en orange. Aires fermées : A57 (Lauvets, Suvé du Vent, Gonfaron, Les Sigues) et A8 (Saint-Hilaire, Barcelone, Candumy, Roudàï, Jas Pelicot). Nouveauté : c'est la 1re mention de fermetures d'aires sur l'A8 pour cet épisode, en plus des aires A57 habituelles. Le feu du Gros Bessillon reste actif et non fixé au 01/08 21h20 (point de situation n°42, voir ligne dédiée `incendie|Var-Gros-Bessillon|…`) : cette fermeture quasi-totale des massifs en est la conséquence directe, avec un motif explicitement préventif, ne pas surcharger des secours déjà mobilisés. Sources : [presseagence.fr 01/08](https://presseagence.fr/toulon-risque-incendie-tres-severe-huit-massifs-forestiers-du-var-fermes-au-public-ce-dimanche/) ; [tv83.info 01/08](https://www.tv83.info/var-huit-massifs-forestiers-fermes-dimanche-2-aout/).
 
 MAJ 03/08 : nouvelle amélioration, 7/9 massifs fermés (rouge), les Monts Toulonnais rejoignent Canjuers en orange. Amélioration cohérente avec le point de situation n°46 du Gros Bessillon (« maîtrisée mais fragile », toujours pas fixé). Source : [presseagence.fr 03/08](https://presseagence.fr/toulon-risque-incendie-sept-massifs-forestiers-du-var-fermes-au-public-ce-lundi/).
 
@@ -57,6 +62,8 @@ MAJ 11/08 : ré-escalade à 4 massifs sur 9 fermés. Un article daté du 09/08 (
 MAJ 12/08 : désescalade totale, les 9 massifs sont ouverts au public pour la première fois depuis la mi-juillet 2026 (source : frequence-sud.fr, publié 09/08, mis à jour 10/08 18h08). Directement lié à la fixation puis à la maîtrise du feu du Gros Bessillon (voir ligne dédiée). Aucun communiqué var.gouv.fr distinct daté du 11 ou du 12/08 n'a pu être retrouvé pour confirmer nommément cette réouverture générale ; seule cette source datée l'annonce à ce stade.
 
 MAJ 13/08 : aucune source datée du 12 ou du 13/08 retrouvée malgré une nouvelle vérification (var.gouv.fr, presse locale). La dernière donnée sûre reste la désescalade totale du 12/08 (0/9 massif fermé), traitée par défaut comme reconduite faute d'un signal contraire, mais non reconfirmée pour ce jour précis.
+
+MAJ 14/08 : confirmation obtenue pour les deux jours restés non sourcés. Varactu.fr (article dédié au 12/08) confirme 6 massifs en vigilance orange ce mercredi (Sainte-Baume, Haut-Var, Maures, Centre-Var, plateau de Canjuers, Estérel), aucun massif rouge/fermé. Un second article varactu.fr, daté du 13/08, reconduit une vigilance orange sur 5 massifs (Sainte-Baume, Haut-Var, Maures, Centre-Var, Estérel), accès déconseillé mais non interdit, travaux prohibés après 13h dans ces secteurs ; là encore, aucun massif classé rouge/très sévère. La désescalade amorcée le 12/08 se confirme donc sur deux jours de plus. Aucune source datée du 14/08 trouvée malgré nouvelle recherche.
 
 ## Source
 
