@@ -5,13 +5,13 @@ itin: GR10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la 
 sev: MOYENNE (dégradée depuis HAUTE le 05/08 — 15 jours sans confirmation malgré recherche ciblée dédiée, règle des 14 jours)
 validite: depuis le 08/07/2026, fermeture présumée maintenue jusqu'à nouvel ordre ; aucune source ne confirme ni l'extinction ni une nouvelle progression depuis le 28/07 (150 ha, dernier chiffre confirmé le 22/07)
 detection: 2026-07-21
-verif: 2026-08-07
-statut: ACTIF — CHANGÉ 05/08 : dégradation HAUTE→MOYENNE (règle des 14 jours, agent-prompt.md)
-  — 15 jours après détection, aucune source (hautes-pyrenees.gouv.fr, presse locale) ne
-  confirme l'état actuel du feu ni de la piste malgré une recherche ciblée dédiée ce run.
-  Le seul fait établi reste le terrain fragilisé par un feu ayant brûlé au moins 150 ha en
-  altitude sur pente raide — justifie une alerte MOYENNE, plus une HAUTE en l'absence de
-  confirmation d'un péril actif.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : nouvelle recherche ciblée, toujours aucune source postérieure
+  au 28/07 (hautes-pyrenees.gouv.fr, lasemainedespyrenees.fr, toulouse7.com). Sévérité
+  maintenue MOYENNE (dégradation du 05/08, règle des 14 jours, agent-prompt.md) — 15 jours
+  après détection, aucune source ne confirmait l'état actuel du feu ni de la piste malgré une
+  recherche ciblée dédiée. Le seul fait établi reste le terrain fragilisé par un feu ayant
+  brûlé au moins 150 ha en altitude sur pente raide.
 ordre: 39
 ---
 

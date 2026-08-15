@@ -12,7 +12,7 @@ verif: 2026-08-15
 statut: ACTIF — NOUVEAU. Feu parti d'un véhicule en feu sur l'A75, propagé au causse du Larzac,
   fixé le soir même. Aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur au-delà
   du régime quotidien déjà suivi dans `risque-feu|Hérault-34|…`.
-ordre: 112
+ordre: 116
 ---
 
 ## Portion concernée

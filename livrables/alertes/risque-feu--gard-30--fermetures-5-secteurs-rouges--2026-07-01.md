@@ -6,11 +6,13 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : tentative directe de la page Vendredi-14-août sur gard.gouv.fr,
-  404 ; toujours aucune page postérieure au 07/08 (7e jour de silence). Dernière page réelle =
-  vendredi 07/08 (Gard Rhodanien + Garrigues rouges). Absence de signal traitée par défaut
-  comme un maintien.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : tentative directe de la page Vendredi-15-août sur gard.gouv.fr,
+  introuvable ; toujours aucune page postérieure au 07/08 (8e jour de silence). Piège
+  d'indexation déjoué : une page « Vendredi 15 août : risque incendie très sévère » remontée
+  par la recherche est en réalité datée du 18/08/2025 (dimanche 17 août 2025, 4 secteurs
+  rouges), écartée. Dernière page réelle = vendredi 07/08 (Gard Rhodanien + Garrigues rouges).
+  Absence de signal traitée par défaut comme un maintien.
 ordre: 15
 ---
 

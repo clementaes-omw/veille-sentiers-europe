@@ -15,7 +15,7 @@ statut: ACTIF — NOUVEAU. Feu majeur de la Drôme (massif du Claps, Bellegarde-
   malgré plusieurs points de situation officiels. Aucun sentier référencé nommé par les
   sources ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur précis
   (à distinguer de l'arrêté du massif de Justin, commune de Die, alerte distincte).
-ordre: 114
+ordre: 118
 ---
 
 ## Portion concernée

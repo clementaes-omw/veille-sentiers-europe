@@ -11,7 +11,7 @@ verif: 2026-08-15
 statut: ACTIF — NOUVEAU. Feu déclaré le 13/08 en fin d'après-midi, fixé le soir même. Une
   habitation détruite, cinq endommagées. Le GR36 traverse nommément Conques-sur-Orbiel :
   rattachement [FAIT], mais aucun arrêté ni communiqué de fermeture de sentier trouvé.
-ordre: 113
+ordre: 117
 ---
 
 ## Portion concernée
