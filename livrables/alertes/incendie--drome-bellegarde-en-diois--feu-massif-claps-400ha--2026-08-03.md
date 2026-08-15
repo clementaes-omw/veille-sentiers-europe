@@ -1,7 +1,7 @@
 ---
 cle: incendie|Drome-Bellegarde-en-Diois|feu-massif-Claps-400ha|2026-08-03
 type: incendie
-itin: GRP Tour des Baronnies provencales (Drôme/Hautes-Alpes/Vaucluse) — [HYPOTHÈSE]
+itin: GRP Tour des Baronnies provençales (Drôme/Hautes-Alpes/Vaucluse) — [HYPOTHÈSE]
   aucune source ne nomme un sentier, secteur du Diois sud/Haute Baronnie à recouper ; le GR93 (Peyrus↔La
   Roche-des-Arnauds) passe par le Vercors/Dévoluy, plus au nord, hors de la zone brûlée
 sev: MOYENNE

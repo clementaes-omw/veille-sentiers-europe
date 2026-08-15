@@ -37,7 +37,7 @@ MAJ 28/07 : statut de l'arrêté préfectoral après son échéance du 27/07. ar
 
 MAJ 29/07 : même constat, ariege.gouv.fr consulté directement, dernière actualité toujours datée du 20/07 (2e jour de silence depuis l'échéance du 27/07), aucune annonce de réouverture, bilan toujours à 240 ha.
 
-MAJ 31/07 : ariege.gouv.fr revérifiée, actualités toujours centrées sur l'eau et la sécheresse ainsi que sur le Tour de France (4e jour de silence depuis l'échéance du 27/07) ; aucune annonce de réouverture, bilan toujours à 240 ha.
+MAJ 31/07 : ariege.gouv.fr revérifié, actualités toujours centrées sur l'eau et la sécheresse ainsi que sur le Tour de France (4e jour de silence depuis l'échéance du 27/07) ; aucune annonce de réouverture, bilan toujours à 240 ha.
 
 MAJ 01/08 : le statut de l'arrêté est tranché par une source de presse. Pyrénées FM (27/07/2026) rapporte que la préfecture de l'Ariège a reconduit l'interdiction totale de l'usage du feu une 2e fois, jusqu'au 10/08/2026 inclus. Cette information, absente des vérifications directes répétées d'ariege.gouv.fr les 28, 29 et 31/07, comble le silence documenté sur 4 jours consécutifs. Toujours aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier, bilan toujours 240 ha (source unique, non recoupée).
 
