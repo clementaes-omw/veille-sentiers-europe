@@ -61,7 +61,7 @@ et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une �
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
-est également concerné par l'ordre d'évacuation mais est inhabité). Les évacuéés sont
+est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
 relogéés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
@@ -100,7 +100,7 @@ cours (même constat déjà fait pour les incendies de Chandrexa de Queixa et de
 Aucun incendie de cette ampleur n'est confirmé en Galice à la date de cette
 vérification : ce point est sans lien avec l'incendie de Niebla décrit ci-dessus.
 
-MAJ 12/08 : le périmètre atteint environ 25 000 ha (analyse technique Tecnobosque, 11/08 09h20). 795 personnes sont concernées par des mesures d'éloignement préventif ou d'évacuation, dont 27 encore hébergées au théâtre de Zalamea la Real ; les autres ont trouvé un hébergement alternatif. Une sixième route, la SE-6402 (versant séviллан), s'ajoute aux cinq déjà coupées. 652 effectifs et 225 moyens travaillent au périmétrage. Une fenêtre météo favorable (changement de vent) s'ouvre en fin de matinée du 11/08 pour tenter de ralentir la progression, avec une plage critique annoncée entre 14h et 20h (jusqu'à 37°C, humidité à 15 %). Le feu reste qualifié de hors de contrôle par la presse malgré cette accalmie relative.
+MAJ 12/08 : le périmètre atteint environ 25 000 ha (analyse technique Tecnobosque, 11/08 09h20). 795 personnes sont concernées par des mesures d'éloignement préventif ou d'évacuation, dont 27 encore hébergées au théâtre de Zalamea la Real ; les autres ont trouvé un hébergement alternatif. Une sixième route, la SE-6402 (versant sévillan), s'ajoute aux cinq déjà coupées. 652 effectifs et 225 moyens travaillent au périmétrage. Une fenêtre météo favorable (changement de vent) s'ouvre en fin de matinée du 11/08 pour tenter de ralentir la progression, avec une plage critique annoncée entre 14h et 20h (jusqu'à 37°C, humidité à 15 %). Le feu reste qualifié de hors de contrôle par la presse malgré cette accalmie relative.
 
 MAJ 12/08 (matin) : bilan à 25 000 ha avec 7 fronts actifs, la propagation ayant réduit de moitié par rapport à la veille et de 25 % par rapport à il y a trois jours. Le secteur critique se déplace vers l'est, près de La Pata del Caballo. Le dispositif passe en stratégie de périmétrage et de consolidation. 681 personnes restent évacuées à titre préventif (500 en Huelva, 181 en Séville), dont 59 encore hébergées à Zalamea la Real, El Castillo de las Guardas et Valverde del Camino. Un nouveau bataillon de l'UME arrive en renfort depuis León. Le Seprona enquête sur les causes. Onze routes sont recensées comme coupées (HU-3106, A-493, HU-5104, HU-4103, HU-6104, HU-6106, HU-6108 en Huelva ; SE-6400, SE-6402, SE-5400, SE-538 en Séville), en légère hausse par rapport aux six de la veille du fait d'un inventaire plus complet.
 
