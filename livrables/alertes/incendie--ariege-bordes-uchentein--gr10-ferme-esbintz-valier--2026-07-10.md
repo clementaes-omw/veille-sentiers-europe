@@ -5,13 +5,13 @@ itin: GR10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 3e fois jusqu'au 17/08/2026 inclus
 detection: 2026-07-20
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : ariege.gouv.fr revérifié, rien de postérieur au 10/08.
-  Toujours aucune source sur une éventuelle réouverture du tronçon Ayès↔Cap des Lauses.
-  Recherche complémentaire menée sur deux feux distincts de début août dans le même massif
-  (Col de Pause/Seix et Auzat, GR10 étapes 30-31 et secteur Vicdessos) : les deux feux sont
-  fixés depuis le 03/08, sans lien de cause avec Bordes-Uchentein (10/07) ; voir la note ajoutée
-  à la chronologie. Sévérité maintenue HAUTE.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : ariege.gouv.fr et la presse locale (Pyrénées FM, France 3
+  Occitanie) revérifiés, rien de postérieur au 10/08. Toujours aucune source sur une
+  éventuelle réouverture du tronçon Ayès↔Cap des Lauses. Nouvelle tentative sur le statut du
+  GR10 à Seix/Col de Pause et Auzat (feux distincts du 01-03/08) : toujours aucune page
+  municipale ni communiqué documentant l'état de cette portion (voir mémoire interne,
+  tentative 2). Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
@@ -37,7 +37,7 @@ MAJ 28/07 : statut de l'arrêté préfectoral après son échéance du 27/07. ar
 
 MAJ 29/07 : même constat, ariege.gouv.fr consulté directement, dernière actualité toujours datée du 20/07 (2e jour de silence depuis l'échéance du 27/07), aucune annonce de réouverture, bilan toujours à 240 ha.
 
-MAJ 31/07 : ariege.gouv.fr revérifié, actualités toujours centrées sur l'eau et la sécheresse ainsi que sur le Tour de France (4e jour de silence depuis l'échéance du 27/07) ; aucune annonce de réouverture, bilan toujours à 240 ha.
+MAJ 31/07 : ariege.gouv.fr revérifiée, actualités toujours centrées sur l'eau et la sécheresse ainsi que sur le Tour de France (4e jour de silence depuis l'échéance du 27/07) ; aucune annonce de réouverture, bilan toujours à 240 ha.
 
 MAJ 01/08 : le statut de l'arrêté est tranché par une source de presse. Pyrénées FM (27/07/2026) rapporte que la préfecture de l'Ariège a reconduit l'interdiction totale de l'usage du feu une 2e fois, jusqu'au 10/08/2026 inclus. Cette information, absente des vérifications directes répétées d'ariege.gouv.fr les 28, 29 et 31/07, comble le silence documenté sur 4 jours consécutifs. Toujours aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier, bilan toujours 240 ha (source unique, non recoupée).
 
