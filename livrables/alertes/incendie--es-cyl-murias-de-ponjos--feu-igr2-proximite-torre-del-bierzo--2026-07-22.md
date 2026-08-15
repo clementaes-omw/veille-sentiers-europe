@@ -5,7 +5,7 @@ itin: Camino de Invierno [HYPOTHÈSE]
 sev: MOYENNE
 validite: en cours au 25/07, évolution favorable mais IGR-2 maintenu
 detection: 2026-07-22
-verif: 2026-08-13
+verif: 2026-08-15
 statut: [CLÔTURÉ] (2026-07-27) — **désescalade complète confirmée la soirée du 26/07 : downgrade IGR-2 → IGR-1, Cecopi désconvoqué, realojo autorisé pour Andarraso/Rosales/Folloso** (s'ajoutant à Murias de Ponjos/Ponjos/Inicio/Trascastro déjà rentrés) — les 174 évacués sont donc tous rentrés chez eux ; zone nord-ouest liquidée par moyens terrestres/aériens, quelques mètres du périmètre nord restent ouverts à éteindre manuellement ; aucun impact sur un tracé de Camino n'a jamais été confirmé
 ordre: 52
 ---
