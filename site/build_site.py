@@ -515,11 +515,12 @@ ZONES_COORDS_CSV = HERE.parent / "referentiel" / "zones-coords.csv"
 ALIAS_ZONE = {
     # Sud-Est / Méditerranée
     "Calanques-13": "FR-13",
-    "Var-83": "FR-83", "Var-Gros-Bessillon": "FR-83",
+    "Var-83": "FR-83", "Var-Gros-Bessillon": "FR-83", "Var-Ginasservis": "FR-83",
     "Gard-30": "FR-30-48", "Lozere-Massegros-Causses-Gorges": "FR-30-48",
     "Hérault-34": "FR-34-11", "Aude-11": "FR-34-11", "Aude-Montseret-Corbieres": "FR-34-11",
+    "Aude-Conques-sur-Orbiel": "FR-34-11", "Herault-34-Pegairolles-Escalette": "FR-34-11",
     "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
-    "Drome-Justin-Die": "FR-84-26-07",
+    "Drome-Justin-Die": "FR-84-26-07", "Drome-Bellegarde-en-Diois": "FR-84-26-07",
     "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE",
     # Alpes du Sud / Écrins
     "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
