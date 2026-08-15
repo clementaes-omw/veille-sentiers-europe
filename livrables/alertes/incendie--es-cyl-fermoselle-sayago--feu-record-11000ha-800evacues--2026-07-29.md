@@ -35,7 +35,7 @@ MAJ 05/08 : les 2 dernières localités (Pinilla de Fermoselle, Mámoles) sont �
 
 MAJ 08/08 : confirmation datée de la stabilisation. [FAIT] Le feu a été déclaré « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense ; les travaux de consolidation et de liquidation des points chauds sont toujours en cours sur les zones difficiles d'accès des Arribes del Duero. Aucune déclaration formelle d'extinction (« extinguido ») trouvée à ce jour, aucune nouvelle évacuation.
 
-MAJ 14/08 : aucune source postérieure au 03/08 retrouvée malgré nouvelle recherche ciblée (zamoranews.com, cope.es, tribunazamora.com, elDiario.es). Le statut de stabilisation reste inchangé, toujours pas d'extinction formelle publiée.
+MAJ 14/08 : aucune source postérieure au 03/08 n'a été retrouvée (zamoranews.com, cope.es, tribunazamora.com, elDiario.es consultés). Le statut de stabilisation reste inchangé, toujours pas d'extinction formelle publiée.
 
 ## Source
 

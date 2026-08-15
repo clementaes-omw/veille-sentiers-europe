@@ -3,7 +3,7 @@ cle: incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10
 type: incendie / interdiction d'accès
 itin: Aucun P1 ; [HYPOTHÈSE] Sentiero Italia CAI (P3, secteur VCO) — recouper
 sev: MOYENNE
-validite: levée partielle depuis le 17/07 pour la fermeture incendie (2 itinéraires restaient fermés à Premosello Chiovenda, sans date de réouverture annoncée) ; dégâts d'orage distincts depuis le 04/08 sur la traversée Malesco↔Colloro via Lut/La Piana, sans date de réouverture non plus
+validite: fermeture jusqu'à nouvel ordre sur les deux volets, aucune date de levée annoncée pour l'un ni pour l'autre. Volet incendie : levée partielle depuis le 17/07 (2 itinéraires restent fermés à Premosello Chiovenda, sans date de réouverture annoncée). Volet orage, distinct : traversée Malesco↔Colloro via Lut/La Piana fermée depuis le 04/08, sans date de réouverture non plus
 detection: 2026-07-17 (avis du 10/07)
 verif: 2026-08-15
 statut: ACTIF — CHANGÉ 15/08 : nouvelle cause de fermeture, distincte de l'incendie de juillet.

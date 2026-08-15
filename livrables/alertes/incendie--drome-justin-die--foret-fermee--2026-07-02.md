@@ -3,7 +3,7 @@ cle: incendie|Drome-Justin-Die|foret-fermee|2026-07-02
 type: incendie / fermeture massif
 itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en plus douteux : la source normalement la plus autorisée pour les modifications de tracé (FFRandonnée Drôme) ne mentionne aucune alerte Justin/Solaure/Laup. Fermeture de fait du massif maintenue par prudence, rattachement au GR9/GR93 non confirmé
 sev: HAUTE (remontée 13/08 — arrêté préfectoral daté du 17/07 identifié nommément par une source datée du 12/08)
-validite: arrêté préfectoral du 17/07/2026 « accès interdit par arrêté préfectoral aux espaces forestiers des massifs de Justin, de Laup et de Solaure », toujours cité comme en vigueur par une source datée du 12/08 ; drome.gouv.fr n'a publié aucun point de situation depuis le 16/07 (ni confirmation ni levée directe de la préfecture elle-même)
+validite: arrêté préfectoral du 17/07/2026 « accès interdit par arrêté préfectoral aux espaces forestiers des massifs de Justin, de Laup et de Solaure », en vigueur jusqu'à nouvel ordre : aucune échéance calendaire ni date de levée n'est publiée ; la source la plus récente disponible (drome-cestmanature.com, mise à jour affichée 12/08) le cite toujours comme actif ; drome.gouv.fr n'a publié aucun point de situation depuis le 16/07 (ni confirmation ni levée directe de la préfecture elle-même)
 detection: 2026-07-18
 verif: 2026-08-15
 statut: ACTIF — INCHANGÉ 15/08 : drome-cestmanature.com revérifiée, toujours affichée
@@ -13,6 +13,9 @@ statut: ACTIF — INCHANGÉ 15/08 : drome-cestmanature.com revérifiée, toujour
   GR95). Un feu distinct, plus au sud du département (massif du Claps, Bellegarde-en-Diois,
   parti le 03/08, toujours pas fixé au 14/08), fait l'objet d'une fiche dédiée
   `incendie|Drome-Bellegarde-en-Diois|…`, sans lien de cause avec Justin/Die.
+  Contrôle qualité 15/08 (vérificateur, contrôle SOURCE VIVANTE) : drome-cestmanature.com
+  répond toujours, mise à jour affichée 12/08/2026 inchangée, arrêté du 17/07 toujours cité
+  comme actif, aucune mention de levée.
 ordre: 31
 ---
 

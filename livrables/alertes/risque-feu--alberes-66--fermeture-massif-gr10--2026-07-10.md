@@ -11,6 +11,12 @@ statut: ACTIF — INCHANGÉ 15/08 : nouvelle recherche ciblée, aucune levée tr
   arrêtés restent la base de l'alerte, sans échéance de republication à surveiller entre-temps
   (Sorède court jusqu'au 13/09/2026 par construction, Argelès reste valide « jusqu'à nouvel
   ordre »). Sévérité maintenue HAUTE.
+  Contrôle qualité 15/08 (vérificateur, contrôle SOURCE VIVANTE) : ouillade.eu (29/07) et
+  l'arrêté 26.238 (PDF) répondent toujours et portent le même contenu qu'à leur citation ;
+  aucune mention de levée. L'écart de 17 j entre cette source de presse et la date du jour
+  n'est pas jugé disqualifiant : les arrêtés qui fondent l'alerte n'ont pas de clause de
+  republication (Sorède jusqu'au 13/09 par construction, Argelès jusqu'à nouvel ordre) ; rien
+  n'indique qu'ils auraient dû être republiés entre-temps. Sévérité maintenue HAUTE.
 ordre: 35
 ---
 
