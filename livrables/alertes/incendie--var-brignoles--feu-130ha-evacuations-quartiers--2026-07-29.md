@@ -5,10 +5,11 @@ itin: GR9 & GR99 (Centre-Var, secteur Brignoles) — [HYPOTHÈSE] proximité de 
 sev: INFO (clôturée — feu maîtrisé depuis le 30/07, aucune source ne documente plus de coupure de route)
 validite: [CLÔTURÉ] (2026-08-10) — feu maîtrisé depuis le 30/07/2026 03h00 (130 ha), toutes évacuations levées le 30/07 ; aucune source postérieure au 31/07 n'a jamais documenté de coupure de route persistante
 detection: 2026-07-30
-verif: 2026-08-14
+verif: 2026-08-15
 statut: [CLÔTURÉ] (2026-08-10) — plus de 15 jours sans aucune source évoquant ce feu ni une
   coupure de route résiduelle (RD12) ; le feu est maîtrisé depuis le 30/07 et toutes les
   évacuations ont été levées le jour même. Clôturée faute de tout élément actif restant.
+  INCHANGÉ 15/08 : aucun signal nouveau.
 ordre: 59
 ---
 
