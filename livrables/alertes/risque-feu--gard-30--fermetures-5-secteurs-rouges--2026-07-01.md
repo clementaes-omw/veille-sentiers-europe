@@ -6,17 +6,21 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : tentative directe de la page Vendredi-14-août sur gard.gouv.fr,
-  404 ; toujours aucune page postérieure au 07/08 (7e jour de silence). Dernière page réelle =
-  vendredi 07/08 (Gard Rhodanien + Garrigues rouges). Absence de signal traitée par défaut
-  comme un maintien.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : tentative directe de la page Vendredi-15-août sur gard.gouv.fr,
+  introuvable ; toujours aucune page postérieure au 07/08 (8e jour de silence). Piège
+  d'indexation déjoué : une page « Vendredi 15 août : risque incendie très sévère » remontée
+  par la recherche est en réalité datée du 18/08/2025 (dimanche 17 août 2025, 4 secteurs
+  rouges), écartée. Dernière page réelle = vendredi 07/08 (Gard Rhodanien + Garrigues rouges).
+  Absence de signal traitée par défaut comme un maintien.
+  Contrôle qualité 15/08 (vérificateur, contrôle SOURCE VIVANTE) : la page gard.gouv.fr du
+  vendredi 07/08 répond toujours et confirme le même classement (Gard Rhodanien, Garrigues).
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : deux secteurs classés rouges au dernier classement daté connu (vendredi 07/08/2026), « Gard Rhodanien » (36 communes, dont Beaucaire, Fourques, Bagnols-sur-Cèze, Pont-Saint-Esprit) et « Garrigues » (49 communes, dont Nîmes, Remoulins, Vers-Pont-du-Gard) : **accès, circulation et présence interdits dans les massifs et espaces boisés concernés**. Aucun nouveau classement n'est publié depuis, du 8 au 13 août inclus ; la préfecture ne met en ligne une page que les jours de risque très sévère, donc l'absence de page ne permet pas de conclure à une levée. Le GR70 (Cévennes) reste hors zone rouge. En cause : un risque incendie très sévère.
+Gard : deux secteurs classés rouges au dernier classement daté connu (vendredi 07/08/2026), « Gard Rhodanien » (36 communes, dont Beaucaire, Fourques, Bagnols-sur-Cèze, Pont-Saint-Esprit) et « Garrigues » (49 communes, dont Nîmes, Remoulins, Vers-Pont-du-Gard) : **accès, circulation et présence interdits dans les massifs et espaces boisés concernés**. Aucun nouveau classement n'est publié depuis, du 8 au 13 août inclus, toujours vrai au 14/08 ; la préfecture ne met en ligne une page que les jours de risque très sévère, donc l'absence de page ne permet pas de conclure à une levée. Le GR70 (Cévennes) reste hors zone rouge. En cause : un risque incendie très sévère.
 
 ## Alternative
 
