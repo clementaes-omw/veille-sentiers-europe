@@ -3,7 +3,7 @@ cle: fermeture|IT-Dolomites-Pelmo|frana-versante-nordovest-borca-di-cadore|2026-
 type: fermeture / risque géologique
 itin: Alta Via 1 (P1) — les sentiers 472 et 480 (Rifugio Venezia ↔ Rifugio Città di Fiume), qui portent le tracé officiel de l'Alta Via 1 sur ce secteur, restent ouverts
 sev: MOYENNE
-validite: fermeture depuis le 10/08/2026, sans date de levée annoncée
+validite: fermeture jusqu'à nouvel ordre depuis le 10/08/2026, aucune date de levée annoncée
 detection: 2026-08-15
 verif: 2026-08-15
 statut: ACTIF — NOUVEAU 15/08
