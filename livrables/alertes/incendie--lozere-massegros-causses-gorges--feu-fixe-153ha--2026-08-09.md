@@ -6,8 +6,8 @@ itin: GR736 Sentier des gorges et de la vallée du Tarn ; GRP Tour du Causse de 
 sev: MOYENNE
 validite: feu fixé depuis le 10/08/2026 matin, situation stable à la dernière vérification du 14/08/2026, aucune fermeture de sentier documentée
 detection: 2026-08-13
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : aucune source postérieure au 10/08 retrouvée malgré nouvelle
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : aucune source postérieure au 10/08 retrouvée malgré nouvelle
   recherche régionale (Lozère/Causse de Sauveterre). Toujours aucun arrêté d'interdiction
   d'accès ni fermeture de sentier documenté au-delà de l'état de la RD67.
 ordre: 111

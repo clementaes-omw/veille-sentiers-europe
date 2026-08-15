@@ -5,15 +5,14 @@ itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ;
 sev: MOYENNE
 validite: jusqu'à nouvel ordre ; vigilance rouge tous massifs confirmée du 26/07 au 27/07/2026 (dernière reconduction datée), aucune confirmation ni levée explicite retrouvée depuis ; l'indice officiel Météo des forêts situe le département en risque très élevé (pas exceptionnel) depuis le 06/08/2026
 detection: 2026-07-27
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : nouvelle recherche ciblée d'un texte préfectoral explicite
-  (arrêté ou communiqué nommant les massifs), sans résultat : la page des communiqués d'août
-  de la préfecture 66 ne liste toujours que 4 titres (contrôle Fontpédrouse, cabanisation
-  Vernet-les-Bains, West Nile équin, extinction de Trévillach), aucun sur le risque incendie
-  ou la vigilance rouge. Aucun bulletin Météo des forêts postérieur au 06/08 localisé.
-  Sévérité maintenue MOYENNE, dégradée depuis le 09/08 faute de confirmation du maintien de la
-  fermeture totale des 9 massifs au-delà du 27/07. Un texte préfectoral explicite reste à
-  trouver.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : nouvelle recherche ciblée d'un texte préfectoral explicite
+  (arrêté ou communiqué nommant les massifs), sans résultat : la page réglementaire générale
+  « circulation dans les massifs » de pyrenees-orientales.gouv.fr, reconsultée, reste datée du
+  24/06/2025 et renvoie uniquement à la carte quotidienne externe non lisible en autonome.
+  Aucun bulletin Météo des forêts postérieur au 06/08 localisé. Sévérité maintenue MOYENNE,
+  dégradée depuis le 09/08 faute de confirmation du maintien de la fermeture totale des 9
+  massifs au-delà du 27/07. Un texte préfectoral explicite reste à trouver.
 ordre: 56
 ---
 

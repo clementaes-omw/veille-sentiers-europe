@@ -5,8 +5,10 @@ itin: GR10 (vallée d'Aspe)
 sev: MOYENNE
 validite: depuis le 05/01/2026, jusqu'à nouvel ordre
 detection: 2026-07-20
-verif: 2026-08-10
-statut: ACTIF — **CHANGÉ 03/08 : statut FERMÉ reconfirmé et renforcé par recoupement de 2 sources indépendantes — refuges.info (point 6895) liste explicitement le passage comme « FERMÉ » ; l'office de tourisme pyrenees-bearnaises.com maintient également son avertissement de fermeture. Un article isolé (travaux-cordiste.com, 22/03) annonçant une réouverture après travaux n'est corroboré par aucune source officielle ou presse indépendante — écarté comme non fiable/marketing. mairie-etsaut.fr injoignable (DNS ne résout pas)** ; INCHANGÉ 28/07 : reconfirmé toujours fermé (refuges.info liste toujours le passage comme « FERMÉ »), déviation par le col d'Arras toujours en place, aucune date de réouverture publiée
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : refuges.info (point 6895) liste toujours le passage comme
+  « FERMÉ », déviation par le col d'Arras toujours en place, aucune date de réouverture
+  publiée ; **CHANGÉ 03/08 : statut FERMÉ reconfirmé et renforcé par recoupement de 2 sources indépendantes — refuges.info (point 6895) liste explicitement le passage comme « FERMÉ » ; l'office de tourisme pyrenees-bearnaises.com maintient également son avertissement de fermeture. Un article isolé (travaux-cordiste.com, 22/03) annonçant une réouverture après travaux n'est corroboré par aucune source officielle ou presse indépendante — écarté comme non fiable/marketing. mairie-etsaut.fr injoignable (DNS ne résout pas)**
 ordre: 36
 ---
 

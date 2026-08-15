@@ -5,13 +5,15 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : interdiction générale de feu (15/06→30/09) toujours en
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : interdiction générale de feu (15/06→30/09) toujours en
   vigueur. Nouvelle vérification de la page haute-corse.gouv.fr « Accès aux massifs
   forestiers » : l'arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026) reste la
-  dernière pièce trouvée pour Fango/Bonifato/Agriate, aucun acte plus récent recensé. Traité
-  par défaut comme une reconduction de la fermeture, cohérent avec le régime quasi continu
-  observé depuis mi-juillet.
+  dernière pièce trouvée pour Fango/Bonifato/Agriate, aucun acte plus récent recensé. Un feu
+  de maquis distinct s'est déclaré le 13/08 à Venaco (Haute-Corse, ~4 ha), sans lien avec le
+  réseau GR20/Mare a Mare/Mare e Monti et sans fermeture de sentier rapportée. Traité par
+  défaut comme une reconduction de la fermeture Fango/Bonifato/Agriate, cohérent avec le
+  régime quasi continu observé depuis mi-juillet.
 ordre: 2
 ---
 
@@ -36,6 +38,8 @@ MAJ 28/07 : le foyer de Biguglia (secteur Furiani) a repris de façon importante
 MAJ 07/08 : le feu de la Restonica (Corte) a été donné fixé le 31/07 après 18 jours de lutte (France3 Corse : réouverture des vallées de la Restonica et du Tavignanu à midi, camping de Tuani rouvert, navette reprise le 01/08), puis a connu une reprise localisée le 01/08 dans le secteur du Tavignanu. Cette reprise est désormais résolue et l'avis pnr.corsica du 04/08 donne ouverts l'ensemble du GR20 et du Mare a Mare Nord (voir les fiches dédiées `incendie|Corse-Mare-a-Mare-Nord|…` et `incendie|GR20-Albertacce-Niolu|…` pour le détail complet). Fango/Bonifato/Agriate : la fermeture reste active au 02/08/2026, mais un signal indique un niveau de risque redescendu de « très sévère » à « élevé » (alerte orange) pour ce secteur. Aucune source postérieure au 02/08 n'a été localisée sur haute-corse.gouv.fr ni dans la presse locale. Les foyers de Biguglia et Oletta (fin juillet) restent hors des itinéraires suivis (secteur littoral Bastia/plaine orientale) et n'ont pas fait l'objet d'un nouveau point.
 
 MAJ 13/08 : la page haute-corse.gouv.fr « Accès aux massifs forestiers » relue directement référence un arrêté préfectoral n° 2B-2026-08-03-00009, publié le 04/08/2026, comme dernière pièce concernant Fango/Bonifato/Agriate : le gap sur ce secteur, qui datait du 02/08, est donc comblé de deux jours, mais le contenu détaillé de l'arrêté (niveau de risque exact, durée) n'a pas pu être extrait de cette page. Aucune source postérieure au 04/08 trouvée. Traité par défaut comme fermeture reconduite.
+
+MAJ 15/08 : page haute-corse.gouv.fr relue, toujours calée sur l'arrêté n° 2B-2026-08-03-00009 (04/08/2026), aucun acte plus récent trouvé. Un feu de maquis s'est déclaré le 13/08 à Venaco (Haute-Corse, au-dessus du camping Peridundellu, près du pont de Noceta), environ 4 hectares de maquis brûlés, sans mention de fermeture de route ou de sentier ; aucune correspondance avec le GR20, le Mare a Mare ou le Mare e Monti.
 
 ## Source
 

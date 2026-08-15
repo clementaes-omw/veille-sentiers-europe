@@ -6,10 +6,12 @@ itin: GR36 (traversée des Corbières) ; GR367 Sentier Cathare (Corbières) — 
 sev: MOYENNE
 validite: feu fixé depuis le 06/08/2026 au soir, situation stable et revérifiée le 14/08/2026 (aucune source postérieure au 07/08 retrouvée), aucune fermeture de sentier documentée
 detection: 2026-08-13
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : aucune source postérieure au 07/08 retrouvée (recherche
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : aucune source postérieure au 07/08 retrouvée (recherche
   régionale Aude/Corbières sans nouveau signal). Toujours aucun arrêté d'interdiction d'accès
-  ni de fermeture de sentier documenté au-delà des routes départementales déjà citées.
+  ni de fermeture de sentier documenté au-delà des routes départementales déjà citées. Un
+  autre feu, distinct, s'est déclaré le 13/08 à Conques-sur-Orbiel (nord de Carcassonne) :
+  voir la fiche dédiée `incendie|Aude-Conques-sur-Orbiel|…`.
 ordre: 110
 ---
 
