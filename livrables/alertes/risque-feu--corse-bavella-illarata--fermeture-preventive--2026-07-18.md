@@ -5,14 +5,12 @@ itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-14
-statut: ACTIF (Illarata) — INCHANGÉ 14/08 : recherche dédiée refaite avec une méthode
-  différente (gr20-infos.com/incendie relu directement, recherche ciblée sur la commune de
-  Quenza/Zonza pour un éventuel nouveau départ de feu), toujours aucune actualité postérieure
-  au 23/07/2026 sur Bavella ou Illarata. Un signal « feu de Quenza » trouvé lors de cette
-  recherche s'est révélé être un article daté du 02/07/2025, sans lien avec 2026 (piège
-  d'indexation écarté). Écart désormais à 22 jours. Sévérité stable MOYENNE (dégradée le
-  06/08 pour fraîcheur de source, pas pour doute sur le fait matériel).
+verif: 2026-08-15
+statut: ACTIF (Illarata) — INCHANGÉ 15/08 : nouvelle recherche dédiée (corse-du-sud.gouv.fr/
+  Actualites relu en direct, recherche ciblée Bavella/Illarata/Zonza/Quenza pour un
+  éventuel nouveau signal), toujours aucune actualité postérieure au 23/07/2026 sur Bavella
+  ou Illarata. Écart désormais à 23 jours. Sévérité stable MOYENNE (dégradée le 06/08 pour
+  fraîcheur de source, pas pour doute sur le fait matériel).
 ordre: 30
 ---
 

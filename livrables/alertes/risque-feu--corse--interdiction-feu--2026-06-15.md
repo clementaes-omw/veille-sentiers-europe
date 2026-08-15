@@ -5,13 +5,15 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : interdiction générale de feu (15/06→30/09) toujours en
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : interdiction générale de feu (15/06→30/09) toujours en
   vigueur. Nouvelle vérification de la page haute-corse.gouv.fr « Accès aux massifs
   forestiers » : l'arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026) reste la
-  dernière pièce trouvée pour Fango/Bonifato/Agriate, aucun acte plus récent recensé. Traité
-  par défaut comme une reconduction de la fermeture, cohérent avec le régime quasi continu
-  observé depuis mi-juillet.
+  dernière pièce trouvée pour Fango/Bonifato/Agriate, aucun acte plus récent recensé. Un feu
+  de maquis distinct s'est déclaré le 13/08 à Venaco (Haute-Corse, ~4 ha), sans lien avec le
+  réseau GR20/Mare a Mare/Mare e Monti et sans fermeture de sentier rapportée. Traité par
+  défaut comme une reconduction de la fermeture Fango/Bonifato/Agriate, cohérent avec le
+  régime quasi continu observé depuis mi-juillet.
 ordre: 2
 ---
 

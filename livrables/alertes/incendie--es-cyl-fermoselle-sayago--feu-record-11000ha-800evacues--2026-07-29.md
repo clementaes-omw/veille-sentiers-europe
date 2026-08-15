@@ -5,14 +5,15 @@ itin: Vía de la Plata / Camino Sanabrés [HYPOTHÈSE] aucun tracé nommé ne tr
 sev: MOYENNE
 validite: jusqu'à nouvel ordre. Toutes les 14 localités évacuées sont rentrées, toutes les routes rouvertes ; feu « estabilizado » depuis début août, surveillance anti-reprise maintenue, pas formellement déclaré extinguido
 detection: 2026-08-02
-verif: 2026-08-14
+verif: 2026-08-15
 statut: ACTIF — CHANGÉ 08/08 : précision datée obtenue — le feu a été déclaré
   « estabilizado » le lundi 03/08 vers 20h30, après six jours d'opération intense, avec
   travaux de consolidation/liquidation de points chauds en cours sur les zones difficiles
   d'accès des Arribes del Duero. Aucune déclaration formelle d'« extinguido » trouvée,
   aucune nouvelle évacuation. Sévérité maintenue MOYENNE, situation en voie de résorption.
-  INCHANGÉ 14/08 : aucune source postérieure au 03/08 retrouvée malgré nouvelle recherche
-  ciblée. Statut de stabilisation reconfirmé, toujours pas d'extinction formelle publiée.
+  INCHANGÉ 14/08 et 15/08 : aucune source postérieure au 03/08 retrouvée malgré nouvelle
+  recherche ciblée. Statut de stabilisation reconfirmé, toujours pas d'extinction formelle
+  publiée.
 ordre: 98
 ---
 

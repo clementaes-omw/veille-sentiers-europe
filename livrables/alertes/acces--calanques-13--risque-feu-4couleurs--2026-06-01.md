@@ -5,9 +5,9 @@ itin: GR98 (Calanques Marseille-Cassis) — rouvert (jaune) le 08/08, après une
 sev: MOYENNE (dégradée 08/08 — aucun massif fermé ce jour, désescalade complète après la fermeture du 07/08)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : cg13.eway.fr (prévision du 14-08-2026) reconduit exactement
-  le même classement qu'au 11 et 13/08, les 7 massifs suivis (Calanques Marseille-Cassis,
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : cg13.eway.fr (prévision du 15-08-2026) reconduit exactement
+  le même classement que du 11 au 14/08, les 7 massifs suivis (Calanques Marseille-Cassis,
   Concors, Sainte-Victoire, Côte Bleue, Sainte-Baume, Arbois, Montaiguet) en jaune, aucun
   rouge. Sévérité stable MOYENNE.
 ordre: 7
@@ -15,7 +15,7 @@ ordre: 7
 
 ## Portion concernée
 
-Massifs des Bouches-du-Rhône (GR98, GR51, GR9, PN des Calanques, Côte Bleue). Au 14/08, les massifs du département sont classés jaune : vigilance renforcée, accès permis, **aucun massif fermé**. Cette situation est stable depuis le 08/08, après la fermeture du GR98 (Calanques Marseille-Cassis) et de Concors le 07/08. Source officielle cg13.eway.fr, prévision du 14-08-2026.
+Massifs des Bouches-du-Rhône (GR98, GR51, GR9, PN des Calanques, Côte Bleue). Au 15/08, les massifs du département sont classés jaune : vigilance renforcée, accès permis, **aucun massif fermé**. Cette situation est stable depuis le 08/08, après la fermeture du GR98 (Calanques Marseille-Cassis) et de Concors le 07/08. Source officielle cg13.eway.fr, prévision du 15-08-2026.
 
 ## Alternative
 
@@ -48,6 +48,8 @@ MAJ 11/08 : situation stable, cg13.eway.fr (prévision du 11-08-2026) reconduit 
 MAJ 13/08 : troisième jour de stabilité, cg13.eway.fr (prévision du 13-08-2026) reconduit le jaune sur les 25 massifs du département, dont les Calanques Marseille-Cassis, Concors, Sainte-Victoire, la Côte Bleue, Sainte-Baume, l'Arbois et le Montaiguet. Aucun massif rouge, aucune fermeture.
 
 MAJ 14/08 : quatrième jour de stabilité, cg13.eway.fr (prévision du 14-08-2026) reconduit le jaune sur les mêmes massifs (Calanques Marseille-Cassis, Concors, Sainte-Victoire, Côte Bleue, Sainte-Baume, Arbois, Montaiguet). Aucun massif rouge, aucune fermeture.
+
+MAJ 15/08 : cinquième jour de stabilité, cg13.eway.fr (prévision du 15-08-2026) reconduit le jaune sur les mêmes massifs (Calanques Marseille-Cassis, Concors, Sainte-Victoire, Côte Bleue, Sainte-Baume, Arbois, Montaiguet). Aucun massif rouge, aucune fermeture.
 
 ## Source
 
