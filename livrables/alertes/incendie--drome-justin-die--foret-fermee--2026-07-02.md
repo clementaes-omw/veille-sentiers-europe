@@ -5,12 +5,14 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en
 sev: HAUTE (remontée 13/08 — arrêté préfectoral daté du 17/07 identifié nommément par une source datée du 12/08)
 validite: arrêté préfectoral du 17/07/2026 « accès interdit par arrêté préfectoral aux espaces forestiers des massifs de Justin, de Laup et de Solaure », toujours cité comme en vigueur par une source datée du 12/08 ; drome.gouv.fr n'a publié aucun point de situation depuis le 16/07 (ni confirmation ni levée directe de la préfecture elle-même)
 detection: 2026-07-18
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : drome-cestmanature.com revérifiée, toujours affichée
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : drome-cestmanature.com revérifiée, toujours affichée
   « MAJ 12/08/2026 », même texte (arrêté du 17/07 actif). drome.gouv.fr revérifiée en
   direct, toujours datée du 16/07, aucune publication nouvelle. Sévérité maintenue HAUTE.
   Rattachement GR9/GR93 non retesté ce jour, toujours affaibli depuis le 03/08 (probable
-  GR95).
+  GR95). Un feu distinct, plus au sud du département (massif du Claps, Bellegarde-en-Diois,
+  parti le 03/08, toujours pas fixé au 14/08), fait l'objet d'une fiche dédiée
+  `incendie|Drome-Bellegarde-en-Diois|…`, sans lien de cause avec Justin/Die.
 ordre: 31
 ---
 

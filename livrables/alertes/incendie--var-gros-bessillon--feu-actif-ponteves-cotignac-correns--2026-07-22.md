@@ -5,10 +5,11 @@ itin: GR9/GR51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
 sev: MOYENNE (maintenue 12/08 — feu déclaré MAÎtRISÉ le 11/08 après 22 jours de lutte, pas encore éteint)
 validite: maîtrisé depuis le 11/08 (surveillance des lisières maintenue, pas formellement éteint) ; phase de gestion post-incendie ouverte le 13/08 (réunion des maires à Montfort-sur-Argens) ; bilan confirmé stable au 14/08/2026 (~6 300 ha, ~370 pompiers et 80 engins toujours mobilisés)
 detection: 2026-07-25
-verif: 2026-08-14
-statut: ACTIF — CHANGÉ 14/08 : le feu reste au statut « maîtrisé » (11/08), mais la
-  préfecture a ouvert le 13/08 la phase de gestion post-incendie (réunion à Montfort-sur-Argens
-  sur le bois calciné, groupe de travail dédié). Sévérité stable MOYENNE.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : aucun nouvel élément trouvé au-delà de la réunion du 13/08
+  déjà documentée (groupe de travail bois calciné, prochaine réunion le 31/08). Le feu reste
+  au statut « maîtrisé » (11/08), pas de reprise signalée, RD45 toujours seule route coupée.
+  Sévérité stable MOYENNE.
 ordre: 50
 ---
 
