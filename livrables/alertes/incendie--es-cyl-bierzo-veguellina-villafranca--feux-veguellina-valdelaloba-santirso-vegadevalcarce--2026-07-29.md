@@ -5,7 +5,7 @@ itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierz
 sev: INFO (clôturée — extinction officielle du foyer principal)
 validite: [CLÔTURÉ] (2026-08-10) — feu de Veguellina déclaré ÉTEINT le 09/08/2026 17h50 après 12 jours ; les foyers de Valdelaloba, San Tirso, Laballos et La Faba étaient déjà tous à IGR-0/maîtrisés
 detection: 2026-08-02
-verif: 2026-08-13
+verif: 2026-08-15
 statut: [CLÔTURÉ] (2026-08-10) — le feu de Veguellina (Villafranca del Bierzo, ~1330 ha) est
   déclaré ÉTEINT le 09/08 à 17h50 après 12 jours d'activité, IGR passé à 0 le 10/08 au matin.
   Évacuations levées à Moreda, San Pedro de Olleros, Prado de la Somoza ; A-6 totalement
