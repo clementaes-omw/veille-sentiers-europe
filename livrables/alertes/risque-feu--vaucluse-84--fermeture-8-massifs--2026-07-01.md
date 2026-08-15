@@ -5,16 +5,17 @@ itin: GR9 (Dentelles de Montmirail), GR4/GR91 (Monts de Vaucluse, Petit Luberon,
 sev: HAUTE
 validite: jusqu'à nouvel ordre ; communiqué officiel vaucluse.gouv.fr du 05/08/2026 (11 massifs fermés) toujours la dernière référence connue, aucun communiqué de levée trouvé à ce jour ; son texte ne couvre explicitement que le 06-07/08, aucun communiqué de prolongation ni de levée n'a été publié pour la suite
 detection: 2026-07-18
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : vaucluse.gouv.fr revérifié (listing complet des
-  communiqués d'août), toujours aucun communiqué postérieur au 07/08. destinationluberon.com
-  reconduit le jaune sur les 3 massifs du Luberon/Monts de Vaucluse (MAJ affichée 12/08
-  17h45, pour le 13/08), 6e jour consécutif sous ce niveau. Le décalage entre ce texte
-  officiel (couvre seulement le 06-07/08) et l'absence de toute confirmation depuis dure 7
-  jours, sous le seuil des 14 jours qui imposerait une dégradation : sévérité maintenue
-  HAUTE sur la foi du dernier acte officiel. Statut du sommet du Ventoux non tranché depuis
-  le 21/07 (24 jours, 5 tentatives) : piste déplacée vers les pistes abandonnées, la portion
-  ci-dessous continue de dire explicitement au lecteur que ce point reste non tranché.
+verif: 2026-08-15
+statut: ACTIF — INCHANGÉ 15/08 : vaucluse.gouv.fr revérifié (listing complet des
+  communiqués d'août), toujours aucun communiqué postérieur au 07/08 ; un second communiqué
+  du 07/08 lui-même a été retrouvé (« Vigilance feux de forêt - Fermeture de massifs
+  forestiers le 7 août 2026 »), qui ne fait que reconfirmer le même jour et les mêmes
+  massifs, sans rien changer à l'état constaté. destinationluberon.com reconduit le jaune
+  sur les 3 massifs du Luberon/Monts de Vaucluse (MAJ affichée 13/08 17h45, pour le 14/08),
+  7e jour consécutif sous ce niveau. Le décalage entre le texte officiel (couvre seulement le
+  06-07/08) et l'absence de toute confirmation depuis dure désormais 8 jours, sous le seuil
+  des 14 jours qui imposerait une dégradation : sévérité maintenue HAUTE sur la foi du
+  dernier acte officiel. Statut du sommet du Ventoux toujours non tranché (piste abandonnée).
 ordre: 33
 ---
 
