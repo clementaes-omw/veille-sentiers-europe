@@ -1,116 +1,116 @@
-# Verdict qualité — 2026-08-15
+# Verdict qualité — 2026-08-16
 
-Vérificateur qualité, agent distinct de la veille du jour. Je n'ai pas écrit les fiches
-contrôlées : je les audite, je ne les refais pas. Périmètre de travail = les 7 constats
-communiqués (audit `livrables/audit-qualite.md` régénéré le jour même, 70 alertes actives,
-0 bloquant, 6 alertes, 1 info avant ce passage ; la section « Cohérence carte / registre »,
-5 bloquants au moment où la mission m'a été confiée, s'est révélée déjà résolue par le
-commit `bf8cd20` de la veille au moment où j'ai relancé l'audit — hors de mon périmètre de
-toute façon, elle relève de `agents/verificateur-carte.md`, non de moi).
+Vérificateur qualité, agent distinct de la veille du jour : je n'ai écrit aucune des fiches
+contrôlées (~25 fiches mises à jour aujourd'hui par 10 agents de veille distincts), je les
+audite, je ne les refais pas. Périmètre = les 7 constats de `livrables/audit-qualite.md`
+régénéré ce jour (87 alertes actives, 0 bloquant, 4 alertes, 3 infos avant ce passage).
 
-**7 fiches contrôlées.** Trois sources d'alertes ROUGE citées ont été vérifiées en direct
-(contrôle 7, SOURCE VIVANTE, via WebFetch) : ouillade.eu (Albères, 29/07),
-drome-cestmanature.com (Justin/Die, MAJ 12/08) et gard.gouv.fr (Gard, vendredi 07/08)
-répondent toutes les trois et portent exactement l'information annoncée dans les fiches.
+**6 fiches contrôlées** (une fiche, Esterel-Tanneron FR-06, portait deux constats) :
+- `incendie|AT-Vorarlberg-Silvretta|coulee-boue-sentiers-fermes|2026-07-12`
+- `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`
+- `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`
+- `risque-feu|Hérault-34|fermetures-massifs-quotidiennes|2026-07-02`
+- `incendie|Drome-Justin-Die|foret-fermee|2026-07-02`
+- `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`
 
 ## Résumé PASS/FAIL par contrôle
 
 | Contrôle | Résultat |
 |---|---|
-| 1. FRAÎCHEUR | PASS sur les 7 fiches (toutes vérifiées le jour même, `verif: 2026-08-15`) |
-| 2. CONCORDANCE INTERNE | FAIL corrigé sur 2 fiches (Gard-30, Hérault-34 : « Portion concernée » figée au 07/08 alors que le suivi savait le 14-15/08) ; PASS sur les 5 autres |
-| 3. HONNÊTETÉ | PASS sur les 7 fiches : chaque silence de source ou incertitude est déclaré en clair au lecteur (« aucun point de situation depuis le 16/07 », « aucun avis officiel du parc retrouvé », etc.) |
-| 4. PERTINENCE | PASS formel sur les 7 (aucune n'a perdu son sens) ; aucune clôture recommandée — pour chacune des 3 fiches à échéance dépassée, le fait matériel qui la fonde (arrêté non levé, versant instable, fermeture parc) reste établi |
-| 5. SÉVÉRITÉ JUSTE | PASS sur les 7 ; note motivée Albères-66 ci-dessous (règle des 14 jours vérifiée, jugée non applicable) |
-| 6. TON | FAIL corrigé sur 1 fiche (ES-CYL-Fermoselle-Sayago : jargon de veille dans « Zone (détails) ») |
-| 7. SOURCE VIVANTE | Vérifié en direct sur les 3 alertes ROUGE de la liste (Albères, Drôme-Justin, Gard) : les trois répondent et confirment le contenu cité, aucune levée mentionnée |
+| 1. FRAÎCHEUR | PASS sur les 6 fiches (`verif: 2026-08-16` sur 5 ; Silvretta `2026-08-13`, 3 j, sous le seuil MOYENNE de 12 j) |
+| 2. CONCORDANCE INTERNE | PASS sur les 6. Hérault-34 déclenchait l'audit (9 j d'écart apparent) mais c'est un faux positif du parseur de dates, détaillé ci-dessous — la fiche concorde réellement |
+| 3. HONNÊTETÉ | PASS sur les 6 : chaque silence de source est déclaré en clair (« aucune échéance annoncée », « aucun communiqué à ce jour », « la préfecture n'a publié aucun point de situation depuis le 16/07 ») |
+| 4. PERTINENCE | PASS. Silvretta n'est pas expirée : c'est une fermeture indéfinie mal formulée (corrigée), pas une échéance dépassée. Aucune clôture à faire |
+| 5. SÉVÉRITÉ JUSTE | PASS. Albères-66 et Esterel-Tanneron : interdictions sourcées par arrêtés/communiqués datés, non expirées sur le fond — seule la fraîcheur de la source de presse est en cause, pas l'existence de l'interdiction. Sévérité maintenue HAUTE sur les deux, aucune dégradation d'autorité (règle des 14 jours vérifiée et jugée non applicable, voir note) |
+| 6. TON | FAIL corrigé sur 3 fiches (Esterel-Tanneron « piège d'indexation », Drôme-Justin « recherche ciblée » / « règle d'escalade », Fontainebleau « au prochain passage ») |
+| 7. SOURCE VIVANTE | Vérifié en direct (WebFetch) sur les 4 sources les plus récentes des fiches HAUTE : ouillade.eu (Albères, 29/07), presseagence.fr (Esterel, 05/08), drome-cestmanature.com (Justin, MAJ affichée désormais 14/08 contre 12/08 cité dans la fiche — même contenu, pas une perte), seine-et-marne.gouv.fr (Fontainebleau, MAJ 14/08). Les 4 répondent et portent exactement l'information citée |
 
 ## Corrections appliquées (dans mon périmètre, à information constante)
 
-- `fermeture|IT-Dolomites-Pelmo|frana-versante-nordovest-borca-di-cadore|2026-08-10` —
-  RIEN À CORRIGER : le correctif manuel signalé en amont (`validite:` reformulée en
-  « fermeture jusqu'à nouvel ordre… aucune date de levée annoncée ») tient toujours ;
-  l'audit ne la signale plus.
-- `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — VALIDITÉ : le champ `validite:`
-  citait « une source datée du 12/08 » sans autre précision, que le contrôle déterministe
-  lisait comme une échéance expirée. Réécrit d'après la source déjà présente dans le
-  fichier (l'arrêté du 17/07, sans échéance calendaire connue, toujours cité actif au
-  12/08) : « … en vigueur jusqu'à nouvel ordre : aucune échéance calendaire ni date de
-  levée n'est publiée… ». Aucun fait nouveau, seule la formulation change. Contrôle 7
-  effectué en direct : drome-cestmanature.com répond toujours, contenu inchangé.
-- `incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10` — VALIDITÉ : même
-  défaut, le « 04/08 » de l'orage était lisible comme échéance dépassée. Réécrit en
-  « fermeture jusqu'à nouvel ordre sur les deux volets, aucune date de levée annoncée pour
-  l'un ni pour l'autre », sans toucher au détail déjà présent (volet incendie 17/07, volet
-  orage 04/08).
-- `risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01` — CONCORDANCE INTERNE :
-  « Portion concernée » s'arrêtait au 07/08 alors que `statut:` savait déjà, au 15/08,
-  qu'aucune page n'avait reparu depuis (8 jours d'écart, seuil de 7 dépassé). Complétée
-  avec le fait déjà connu du fichier (l'entrée du 14/08 de « Zone (détails) ») : « … du 8
-  au 13 août inclus, toujours vrai au 14/08 ». Écart ramené à 1 jour.
-- `risque-feu|Hérault-34|fermetures-massifs-quotidiennes|2026-07-02` — même défaut, même
-  correction : ajout de « toujours vrai au 14/08 », fait déjà présent dans la chronologie
-  de « Zone (détails) » (entrée MAJ 14/08).
-- `incendie|ES-CYL-Fermoselle-Sayago|feu-record-11000ha-800evacues|2026-07-29` — TON :
-  jargon de veille « recherche ciblée » dans « Zone (détails) » (MAJ 14/08) reformulé en
-  « aucune source postérieure au 03/08 n'a été retrouvée (zamoranews.com, cope.es,
-  tribunazamora.com, elDiario.es consultés) ». Même fait, sans vocabulaire de veille.
+- `incendie|AT-Vorarlberg-Silvretta|coulee-boue-sentiers-fermes|2026-07-12` — VALIDITÉ :
+  le champ `validite:` se terminait par « restent fermés au 13/08/2026 », lu par l'audit
+  déterministe comme une échéance dépassée alors que c'est une fermeture indéfinie (aucune
+  date de réouverture des sentiers n'est publiée par aucune des sources déjà citées dans la
+  fiche). Réécrit en clarifiant : « maintenue jusqu'à nouvel ordre : aucune source ne
+  documente d'échéance de réouverture […] (dernière confirmation directe de leur fermeture :
+  13/08/2026) ». Aucun fait nouveau, seule l'ambiguïté de formulation est levée.
+- `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17` — TON : « Zone
+  (détails) » disait qu'un article francebleu.fr « s'est révélée être un piège
+  d'indexation » (jargon de veille). Reformulé pour le lecteur : « semblait au premier abord
+  apporter une confirmation récente, mais porte en réalité sur une autre année », le constat
+  de fond (jour de semaine incohérent, article de 2023) restant identique au caractère près.
+- `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — TON : « recherche ciblée […]
+  conformément à la règle d'escalade » (vocabulaire de mécanique de veille) reformulé en
+  « vérification élargie aux sources officielles autres que drome.gouv.fr », même fait, sans
+  jargon.
+- `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12` — TON :
+  « à rechercher spécifiquement au prochain passage » (banni explicitement par
+  `agent-prompt.md`) reformulé en « son état après le 16/08 reste à confirmer » — dit au
+  lecteur ce qui n'est pas su, sans référence à la mécanique de la veille.
 
-`python3 site/verif_faits.py` (garde-fou anti-perte/invention de fait) confirmé propre sur
-les 6 fiches modifiées après ajustement des reformulations : 0 perte, 0 invention.
+`python3 site/verif_faits.py` vs HEAD est inexploitable tel quel aujourd'hui : il compare au
+dernier commit, qui précède les ~25 mises à jour non commitées des 10 agents de veille du
+jour, et signale donc en masse des « nombres inventés » qui sont en réalité le contenu ajouté
+ce matin (dates du 16/08, numéros d'arrêtés, etc.), sur des fiches que je n'ai pas touchées.
+Vérification faite à la place par comparaison directe avant/après sur chacun de mes 4 edits :
+aucun nombre, date, URL ou nom propre perdu ni ajouté — seule la formulation change.
 
-## Note motivée — Albères-66, signalé et non corrigé sur le fond
+## Hérault-34 : faux positif de l'audit, aucune correction
 
-`risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10` reste signalé par l'audit : alerte
-rouge appuyée sur une source de presse (ouillade.eu) datée du 29/07, 17 jours.
+`risque-feu|Hérault-34|fermetures-massifs-quotidiennes|2026-07-02` était signalé « Portion
+concernée parle du 07/08 alors que le suivi connaît la situation au 16/08 (9 j d'écart) ».
+Relecture : la « Portion concernée » décrit bien l'état courant (« au dernier classement
+connu, publié […] pour le samedi 15 août 2026, aucun secteur n'est classé en rouge […] 7 des
+9 secteurs […] en orange ») et ne cite le 07/08 que comme point de comparaison historique
+(« C'est une décrue par rapport au classement du 07/08 »). Le parseur de dates de l'audit ne
+lit que les dates au format chiffré (dd/mm) et ignore les dates en toutes lettres (« samedi
+15 août ») : il retient donc le 07/08 comme date la plus récente de la portion alors que le
+texte est à jour. Concordance réelle avec `statut:` et « Zone (détails) » (MAJ 16/08, même
+lecture de la carte @Prefet34) : PASS. Aucune fiche modifiée.
 
-Vérifié en direct (WebFetch) : ouillade.eu répond toujours et confirme exactement le
-contenu cité (interdiction municipale d'Argelès-sur-Mer, dérogation VTT du 24/07, aucune
-mention de levée) ; le PDF de l'arrêté 26.238 répond également (200, contenu image
-illisible en extraction automatique mais lien non mort). Contrôle 7 = PASS : la source
-n'est pas morte, elle est seulement ancienne. Trouver une publication de presse plus
-récente que le 29/07 est hors de mon périmètre (recherche web nouvelle, pas relecture) :
-signalé pour le prochain run plutôt que corrigé moi-même.
+## Note motivée — sévérité non dégradée sur Albères-66 et Esterel-Tanneron
 
-Règle des 14 jours (`agent-prompt.md` § DURÉE DE VIE D'UNE HYPOTHÈSE) vérifiée et jugée non
-applicable : elle vise une « Portion concernée » encore adossée à « à confirmer »,
-« probable », « non localisé » ou « recoupement en cours ». Ce n'est pas le cas ici — la
-« Portion concernée » s'appuie sur deux arrêtés municipaux nommés et datés (Sorède
-n°26.216 du 17/06/2026, jusqu'au 13/09/2026 ; Argelès-sur-Mer du 10/07/2026 renforcé par
-l'ARR2026-024PM du 13/07/2026, « jusqu'à nouvel ordre »), pas sur une hypothèse. Ces textes
-ont leur propre validité, indépendante de l'âge de l'article de presse qui les rapporte, et
-aucun des deux n'est expiré. Aucune dégradation appliquée ; sévérité maintenue HAUTE.
+Les deux fiches sont signalées pour une source de presse vieillissante (29/07 et 05/08) sous
+une alerte ROUGE. Dans les deux cas, l'interdiction elle-même repose sur un texte daté et non
+expiré (arrêtés Sorède/Argelès pour les Albères ; classement quotidien préfectoral pour
+l'Esterel, dont le motif — épisode de canicule et risque très sévère — reste en vigueur sans
+signal de fin), pas sur une hypothèse à confirmer. La règle des 14 jours de
+`agent-prompt.md` (dégradation HAUTE→MOYENNE) vise spécifiquement une « Portion concernée »
+encore adossée à « à confirmer »/« probable »/« non localisé » : ce n'est le cas d'aucune des
+deux. Elle ne s'applique donc pas ; aucune dégradation appliquée d'autorité. Les deux fiches
+documentent déjà elles-mêmes cette tension et se sur-vérifient à chaque run (« zone en
+escalade »).
 
-## À traiter au prochain run (hors périmètre du vérificateur — nécessite une source neuve)
+## À traiter au prochain run (nécessite une source neuve, hors de mon périmètre)
 
 - `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10` — retrouver une publication de
-  presse ou une source officielle postérieure au 29/07/2026 sur l'état d'accès au massif
-  des Albères (ou une levée). Voir note motivée ci-dessus : les arrêtés eux-mêmes ne sont
-  pas périmés, seule la couverture presse l'est.
-- `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — la préfecture (drome.gouv.fr) n'a
-  publié aucun point de situation depuis le 16/07/2026 ; seule une source touristique
-  (drome-cestmanature.com) confirme, au 12/08, que l'arrêté du 17/07 reste actif. Chercher
-  une confirmation ou une levée directement à la source préfectorale, ou tout acte de
-  reconduction/levée publié ailleurs (mairie-die.fr, presse locale).
-- `incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10` — le volet orage
-  (traversée Malesco↔Colloro via Lut/La Piana, dégâts du 04/08) n'est sourcé que par la
-  presse (La Prealpina, ~08/08) ; aucun avis officiel du parc (parcovalgrande.it) retrouvé.
-  Chercher la publication du parc pour confirmer le périmètre exact et une éventuelle date
-  de réouverture.
+  presse ou officielle postérieure au 29/07/2026 sur l'état d'accès au massif des Albères.
+- `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17` — confirmer le
+  classement du jour (aucune publication postérieure au 06/08 trouvée par la veille malgré
+  plusieurs tentatives) ; si l'écart continue de croître sans confirmation, réexaminer la
+  sévérité au prochain passage.
+- `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12` — la mesure
+  distincte sur les bois et forêts de l'Essonne (hors Trois-Pignons) arrivait à échéance le
+  16/08 ; aucun communiqué sur sa suite (prolongation ou levée) n'a été trouvé à ce jour.
+  Volet Seine-et-Marne (5 massifs, jusqu'au 21/08) non concerné, déjà confirmé par source
+  officielle.
+
+## Recommandations de sévérité non appliquées d'autorité
+
+Aucune. Les deux dégradations envisageables (Albères-66, Esterel-Tanneron) ont été examinées
+et jugées non fondées à ce stade (voir note motivée ci-dessus) : recommandation = maintenir
+HAUTE sur les deux, à réexaminer si l'écart de fraîcheur de source continue de croître sans
+qu'une confirmation ne soit trouvée.
 
 ## Vérifications techniques après corrections
 
-- `python3 site/audit_qualite.py --ecrire` : **1 constat restant** (Albères-66, source de
-  presse vieillie, signalé ci-dessus, hors périmètre), **0 bloquant**, contre 6 alertes +
-  1 info sur ces 7 fiches avant ce passage. Section carte : 0 bloquant (déjà résolue en
-  amont, hors de mon périmètre).
-- `python3 site/build_site.py` : **OK (QA passée)** → `site/index.html` (70 actives, 16
-  clôturées, 86 fichiers, registre 456 446 car.). Le « ⚠ ton » résiduel (2 fiches, jargon
-  « indexation » sur des fiches ES-CYL-Castropodame et ES-CYL-Bierzo) ne concerne pas les
-  fiches de ce passage et n'est pas touché (règle : une fiche non citée par l'audit ne se
-  touche pas).
-- `python3 site/verif_faits.py` : **0 perte(s)/invention(s) de fait** sur les 6 fiches
-  modifiées.
-- Aucune fiche n'a perdu de texte : les 6 fichiers corrigés ont tous grandi (ajouts, jamais
-  de résumé) ; le garde-fou d'intégrité du build (perte > 45 % par fiche) n'a jamais été
-  approché.
+- `python3 site/audit_qualite.py --ecrire` : **3 constats restants** (Albères-66 et
+  Esterel-Tanneron, sources de presse vieillies, signalées ci-dessus, hors périmètre ;
+  Hérault-34, faux positif documenté ci-dessus), **0 bloquant**, contre 4 alertes + 3 infos
+  sur ces 6 fiches avant ce passage. Section carte : 0 bloquant, 0 alerte perdue.
+- `python3 site/build_site.py` : **OK (QA passée)** → `site/index.html` (69 actives, 18
+  clôturées, 87 fichiers, registre 474 447 car.). Le « ⚠ ton » résiduel (2 fiches ES-CYL,
+  jargon « indexation ») ne concerne pas les fiches de ce passage et n'a pas été touché
+  (non citées par l'audit).
+- Garde-fou d'intégrité (perte > 45 % par fiche) : non approché, mes 4 corrections sont des
+  reformulations ponctuelles d'une à deux phrases, jamais des réécritures de section.
