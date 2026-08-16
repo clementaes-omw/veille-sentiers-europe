@@ -6,13 +6,14 @@ itin: GR70 (Cévennes ouvertes) ; GR653 (secteur Fourques/Beaucaire, Gard Rhodan
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-15
-statut: ACTIF — INCHANGÉ 15/08 : tentative directe de la page Vendredi-15-août sur gard.gouv.fr,
-  introuvable ; toujours aucune page postérieure au 07/08 (8e jour de silence). Piège
-  d'indexation déjoué : une page « Vendredi 15 août : risque incendie très sévère » remontée
-  par la recherche est en réalité datée du 18/08/2025 (dimanche 17 août 2025, 4 secteurs
-  rouges), écartée. Dernière page réelle = vendredi 07/08 (Gard Rhodanien + Garrigues rouges).
-  Absence de signal traitée par défaut comme un maintien.
+verif: 2026-08-16
+statut: ACTIF — INCHANGÉ 16/08 : liste des actualités de gard.gouv.fr revérifiée, les deux
+  articles les plus récents restent datés du 07/08 (« Vendredi 7 août 2026 : risque incendie
+  très sévère » et « Risque feux de forêt : ça suffit ! »), aucune page plus récente publiée
+  (9e jour de silence). Piège d'indexation déjoué : une page « Vendredi 15 août : risque
+  incendie très sévère » remontée par la recherche est en réalité datée du 18/08/2025
+  (dimanche 17 août 2025, 4 secteurs rouges), écartée. Dernière page réelle = vendredi 07/08
+  (Gard Rhodanien + Garrigues rouges). Absence de signal traitée par défaut comme un maintien.
   Contrôle qualité 15/08 (vérificateur, contrôle SOURCE VIVANTE) : la page gard.gouv.fr du
   vendredi 07/08 répond toujours et confirme le même classement (Gard Rhodanien, Garrigues).
 ordre: 15
@@ -43,6 +44,7 @@ Le recoupement fin du tracé du GR653 avec le périmètre interdit (communes de 
 - 11/08 : les pages du lundi 10 et du dimanche 9 août ne sont pas publiées sur gard.gouv.fr. Un article évoquant le Gard Rhodanien et les Garrigues « ce dimanche » correspond en réalité au 9 août 2025, pas 2026 : le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis quatre jours.
 - 13/08 : les pages du mercredi 12 et du jeudi 13 août ne sont toujours pas publiées sur gard.gouv.fr (404 aux deux URL testées directement). Le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis six jours.
 - 14/08 : la page du vendredi 14 août n'est toujours pas publiée sur gard.gouv.fr (404). Le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis sept jours.
+- 16/08 : aucune page datée du 08 au 16 août retrouvée sur gard.gouv.fr ; la liste des actualités du site place toujours les deux articles du 07/08 en tête. Le classement du vendredi 07/08/2026 (Gard Rhodanien, Garrigues) reste la dernière information officielle disponible, sans nouvelle page depuis neuf jours.
 
 ## Source
 
