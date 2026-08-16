@@ -5,17 +5,18 @@ itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en
 sev: HAUTE (remontée 13/08 — arrêté préfectoral daté du 17/07 identifié nommément par une source datée du 12/08)
 validite: arrêté préfectoral du 17/07/2026 « accès interdit par arrêté préfectoral aux espaces forestiers des massifs de Justin, de Laup et de Solaure », en vigueur jusqu'à nouvel ordre : aucune échéance calendaire ni date de levée n'est publiée ; la source la plus récente disponible (drome-cestmanature.com, mise à jour affichée 12/08) le cite toujours comme actif ; drome.gouv.fr n'a publié aucun point de situation depuis le 16/07 (ni confirmation ni levée directe de la préfecture elle-même)
 detection: 2026-07-18
-verif: 2026-08-15
-statut: ACTIF — INCHANGÉ 15/08 : drome-cestmanature.com revérifiée, toujours affichée
-  « MAJ 12/08/2026 », même texte (arrêté du 17/07 actif). drome.gouv.fr revérifiée en
-  direct, toujours datée du 16/07, aucune publication nouvelle. Sévérité maintenue HAUTE.
-  Rattachement GR9/GR93 non retesté ce jour, toujours affaibli depuis le 03/08 (probable
-  GR95). Un feu distinct, plus au sud du département (massif du Claps, Bellegarde-en-Diois,
-  parti le 03/08, toujours pas fixé au 14/08), fait l'objet d'une fiche dédiée
-  `incendie|Drome-Bellegarde-en-Diois|…`, sans lien de cause avec Justin/Die.
-  Contrôle qualité 15/08 (vérificateur, contrôle SOURCE VIVANTE) : drome-cestmanature.com
-  répond toujours, mise à jour affichée 12/08/2026 inchangée, arrêté du 17/07 toujours cité
-  comme actif, aucune mention de levée.
+verif: 2026-08-16
+statut: ACTIF — INCHANGÉ 16/08 : recherche ciblée dédiée à une source officielle alternative
+  (DDT Drôme, ONF gestionnaire du massif, listing complet des actualités 2026 de
+  drome.gouv.fr) : la liste des actualités 2026 ne compte que 4 titres au total, le plus
+  récent daté du 31/07 (élections sénatoriales), sans aucune publication sur le massif de
+  Justin postérieure à celle du 16/07 (plan de relance). Aucune page ONF ou DDT dédiée à la
+  levée de l'arrêté n'a été localisée. drome-cestmanature.com reste la seule source à jour,
+  toujours affichée « MAJ 12/08/2026 », arrêté du 17/07 toujours cité comme actif. Sévérité
+  maintenue HAUTE. Rattachement GR9/GR93 non retesté ce jour, toujours affaibli depuis le
+  03/08 (probable GR95). Un feu distinct, plus au sud du département (massif du Claps,
+  Bellegarde-en-Diois, parti le 03/08, toujours pas fixé au 16/08), fait l'objet d'une fiche
+  dédiée `incendie|Drome-Bellegarde-en-Diois|…`, sans lien de cause avec Justin/Die.
 ordre: 31
 ---
 
@@ -48,6 +49,8 @@ MAJ 03/08 : la page officielle « Modifications d'itinéraires » de la FFRandon
 MAJ 06/08 : DÉGRADATION HAUTE→MOYENNE. Après examen complet de drome.gouv.fr, de mairie-die.fr et de la presse récente, aucune publication postérieure au 22/07/2026 (article info.fr sur une reprise de feu localisée déjà connue) ne confirme explicitement le maintien de la fermeture. Un article France 3 Régions du 24/07/2026 sur le plan de reconstruction ONF du massif ne mentionne aucun statut d'accès. Faute de toute source datée des 15 derniers jours confirmant le maintien de l'interdiction, la sévérité est ramenée à MOYENNE : la fermeture reste la dernière information connue (arrêté « jusqu'à nouvel ordre »), mais rien de récent ne permet d'affirmer qu'elle est toujours en vigueur ni qu'elle a été levée.
 
 MAJ 13/08 : REMONTÉE MOYENNE→HAUTE. drome.gouv.fr revérifié en direct (page « Point de situation sur le feu dans le massif de Justin à Die »), toujours daté du 16/07, sans nouvelle publication. Mais une autre source, la fiche Justin de drome-cestmanature.com (Drôme Tourisme, MAJ affichée 12/08/2026), cite pour la première fois un arrêté préfectoral daté précisément du 17/07/2026, toujours présenté comme actif à cette date, et l'étend explicitement aux massifs voisins de Laup et de Solaure. C'est une confirmation datée de moins de 48 heures au moment de cette vérification, sur un texte réglementaire précis (numéro de date, périmètre nommé), même si la source qui la porte est un site touristique départemental et non la préfecture elle-même. Conformément à la règle des hypothèses non tranchées (« tu trouves la source → l'alerte est confirmée, elle reste/redevient HAUTE »), la sévérité remonte. Rattachement GR9/GR93 non retesté ce jour, toujours affaibli depuis le 03/08 (probable GR95).
+
+MAJ 16/08 : vérification élargie aux sources officielles autres que drome.gouv.fr (arrêté ou point de situation porté par la DDT Drôme ou le gestionnaire forestier du massif). La liste complète des actualités 2026 de drome.gouv.fr ne compte que 4 titres (fortes chaleurs le 02/07, plan de relance du Diois le 16/07, chantier du concours 101 entrepreneures le 01/04, élections sénatoriales le 31/07) : aucune actualité sur le massif de Justin n'a été publiée depuis le 16/07. Aucune page dédiée de la DDT Drôme ni de l'ONF concernant la levée de l'arrêté ou l'état du massif n'a été localisée par ailleurs. La fiche drome-cestmanature.com reste donc la seule source datée de moins d'un mois, inchangée depuis le 12/08.
 
 ## Source
 
