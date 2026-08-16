@@ -9,12 +9,13 @@ validite: feu déclaré le 03/08/2026, encore non officiellement fixé au 14/08/
   progresse plus » selon la dernière source datée), aucun arrêté d'interdiction d'accès aux
   massifs trouvé pour ce secteur au-delà du régime saisonnier de droit commun
 detection: 2026-08-15
-verif: 2026-08-15
-statut: ACTIF — NOUVEAU. Feu majeur de la Drôme (massif du Claps, Bellegarde-en-Diois),
-  parti le 03/08, plus de 400 ha parcourus, toujours pas déclaré fixé après 12 jours au 14/08
-  malgré plusieurs points de situation officiels. Aucun sentier référencé nommé par les
-  sources ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur précis
-  (à distinguer de l'arrêté du massif de Justin, commune de Die, alerte distincte).
+verif: 2026-08-16
+statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche, situation inchangée par rapport au
+  14/08 (feu toujours pas officiellement déclaré fixé, ne progresse plus, environ 450
+  sapeurs-pompiers mobilisés). Aucune source postérieure au 14/08 trouvée. Aucun sentier
+  référencé nommé par les sources ; aucun arrêté d'interdiction d'accès aux massifs trouvé
+  pour ce secteur précis (à distinguer de l'arrêté du massif de Justin, commune de Die,
+  alerte distincte).
 ordre: 118
 ---
 

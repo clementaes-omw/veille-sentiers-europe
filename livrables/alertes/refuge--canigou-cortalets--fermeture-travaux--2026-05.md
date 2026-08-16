@@ -5,8 +5,10 @@ itin: GR10
 sev: MOYENNE
 validite: fermé pour travaux jusqu'en 2029 ; accueil provisoire sous tente jusqu'à fin septembre 2026
 detection: 2026-05-20
-verif: 2026-08-15
-statut: ACTIF — **CHANGÉ 31/07 : détails précisés — chantier de rénovation estimé à plus de 3 M€, réouverture du bâtiment neuf désormais annoncée pour 2029 (pas de date précise auparavant). Un accueil provisoire sous tente (Barnum, 20 places) fonctionne jusqu'à fin septembre 2026, avec priorité aux randonneurs itinérants type Tour du Canigó ; pas de douches ni d'eau potable sur site, demi-pension servie dans un bungalow. La FFCAM relaie le conseil du GR10 : privilégier Mariailles → Saint-Guilhem → Batère pour éviter l'étape par les Cortalets** ; documenter la déviation hébergement ; gr10.org re-balayé 17/07 : rien de plus récent
+verif: 2026-08-16
+statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche, situation stable, mêmes informations
+  que le 31/07 (chantier estimé à plus de 3 M€, réouverture 2029, accueil provisoire sous
+  tente jusqu'à fin septembre 2026). Aucune source plus récente trouvée.
 ordre: 3
 ---
 

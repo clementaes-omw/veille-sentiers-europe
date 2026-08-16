@@ -5,12 +5,12 @@ itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrer
 sev: MOYENNE
 validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo confirmé résolu par absence totale des bilans provinciaux du 25/07 au 06/08
 detection: 2026-07-22
-verif: 2026-08-15
+verif: 2026-08-16
 statut: [CLÔTURÉ] (2026-08-07) — Castropodame confirmé « controlado » le 27/07 (suspect
   interpellé) ; La Baña/Encinedo absent de tous les bilans provinciaux de León du 25/07 au
   06/08, dont celui du 06/08 (ileon.eldiario.es) qui ne recense plus que Veguellina comme
   unique foyer encore actif dans la province — absence prolongée de 12 jours retenue comme
-  confirmation de résolution par convention, faute de source dédiée prononçant
+  confirmation de résolution par convention, faute de source dédiée pronçant
   explicitement l'extinction de ce foyer précis
 ordre: 80
 ---
@@ -35,7 +35,7 @@ Contexte régional : le 28/07/2026, le gouvernement espagnol a déclaré 58 zone
 
 MAJ 07/08 (clôture) : un bilan ileon.eldiario.es du 06/08 confirme que Veguellina (Villafranca del Bierzo, fiche séparée) est désormais l'unique foyer actif de la province de León. Ni Castropodame ni La Baña n'y figurent, ce qui confirme leur résolution. L'alerte est clôturée sur la base de cette absence prolongée (12 jours) des bilans provinciaux, faute de source dédiée qui prononce explicitement l'extinction de La Baña.
 
-Aucune source consultée (ileon.eldiario.es, leonoticias, cope, infobierzo, El Bierzo Digital) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Francés. Le tracé principal (Astorga→Rabanal→Foncebadón→Molinaseca→Ponferrada→Villafranca del Bierzo) reste géographiquement distinct des foyers de Castropodame et La Baña, situés plus au nord/nord-ouest dans le Bierzo et la Cabrera. Piège d'indexation déjoué : plusieurs recherches sur « incendio Camino Francés León » remontent des articles de la vague d'incendies d'août 2025 (feu de Yeres/Llamas de Cabrera, fermeture Astorga→Ponferrada→Villafranca annoncée par la Protection Civile le 17/08/2025). Ces articles ont été vérifiés datés 2025 (URLs en /202508…) et écartés du présent constat.
+Aucune source consultée (ileon.eldiario.es, leonoticias, cope, infobierzo, El Bierzo Digital) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Francés. Le tracé principal (Astorga→Rabanal→Foncebadón→Molinaseca→Ponferrada→Villafranca del Bierzo) reste géographiquement distinct des foyers de Castropodame et La Baña, situés plus au nord/nord-ouest dans le Bierzo et la Cabrera. Des articles évoquant une fermeture Astorga→Ponferrada→Villafranca (vague d'incendies de Yeres/Llamas de Cabrera) datent en réalité du 17/08/2025 et ne concernent pas la situation actuelle.
 
 ## Source
 

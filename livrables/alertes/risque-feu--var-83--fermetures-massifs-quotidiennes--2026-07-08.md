@@ -5,7 +5,7 @@ itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; 
 sev: MOYENNE (dégradée 12/08 — désescalade totale, 0/9 massif fermé, pour la première fois depuis la mi-juillet ; séquence du mois : 9→1→6→4→9→8→7→4→8→7→1→4→4→0→0→0→1)
 validite: journalière ; Haut-Var fermé ce 15/08 (rouge très sévère), 8 autres massifs en vigilance orange, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-15
+verif: 2026-08-16
 statut: ACTIF — CHANGÉ 15/08 : ré-escalade partielle confirmée par 2 sources datées du
   14/08 (presseagence.fr, frequence-sud.fr MAJ 14/08 18h16). Le Haut-Var repasse fermé au
   public (rouge très sévère) ce samedi 15/08, après deux jours sans aucun massif fermé

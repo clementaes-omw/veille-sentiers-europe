@@ -5,15 +5,15 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-15
-statut: ACTIF — INCHANGÉ 15/08 : interdiction générale de feu (15/06→30/09) toujours en
-  vigueur. Nouvelle vérification de la page haute-corse.gouv.fr « Accès aux massifs
-  forestiers » : l'arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026) reste la
-  dernière pièce trouvée pour Fango/Bonifato/Agriate, aucun acte plus récent recensé. Un feu
-  de maquis distinct s'est déclaré le 13/08 à Venaco (Haute-Corse, ~4 ha), sans lien avec le
-  réseau GR20/Mare a Mare/Mare e Monti et sans fermeture de sentier rapportée. Traité par
-  défaut comme une reconduction de la fermeture Fango/Bonifato/Agriate, cohérent avec le
-  régime quasi continu observé depuis mi-juillet.
+verif: 2026-08-16
+statut: ACTIF — CHANGÉ 16/08 : interdiction générale de feu (15/06→30/09) toujours en
+  vigueur. Page haute-corse.gouv.fr « Accès aux massifs forestiers » revérifiée, toujours
+  calée sur l'arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026), aucun acte plus
+  récent trouvé. Deux départs de feu par la foudre le 06/08 (Monte Calvi près de Ghisoni,
+  forêt de Forca entre Corte et Castirla) ont été ajoutés à la chronologie : aucune source
+  postérieure au 06/08 trouvée sur leur évolution, aucune fermeture de sentier rapportée.
+  pnr.corsica (dernière mise à jour 04/08) confirme toujours l'absence de fermeture sur le
+  GR20/Mare a Mare Nord.
 ordre: 2
 ---
 
@@ -41,6 +41,8 @@ MAJ 13/08 : la page haute-corse.gouv.fr « Accès aux massifs forestiers » relu
 
 MAJ 15/08 : page haute-corse.gouv.fr relue, toujours calée sur l'arrêté n° 2B-2026-08-03-00009 (04/08/2026), aucun acte plus récent trouvé. Un feu de maquis s'est déclaré le 13/08 à Venaco (Haute-Corse, au-dessus du camping Peridundellu, près du pont de Noceta), environ 4 hectares de maquis brûlés, sans mention de fermeture de route ou de sentier ; aucune correspondance avec le GR20, le Mare a Mare ou le Mare e Monti.
 
+MAJ 16/08 : deux départs de feu distincts causés par la foudre le 06/08 en fin d'après-midi, l'un sur les hauteurs du Monte Calvi près de Ghisoni, l'autre dans la forêt de Forca entre Corte et Castirla (France 3 Corse, 06/08 19h09). L'article ne précise ni surface ni statut de maîtrise ; aucune source postérieure au 06/08 n'a été trouvée sur leur évolution malgré une recherche dédiée, et aucune mention de fermeture de sentier, de route ou de massif n'accompagne ces départs de feu. Ghisoni se trouve à proximité du tracé du GR20 (secteur Col de Verde), mais rien ne relie ces deux foyers à une restriction d'accès. Page haute-corse.gouv.fr et pnr.corsica revérifiées : toujours aucun acte ni avis postérieur au 04/08/2026.
+
 ## Source
 
-[France3 Corse 31/07/2026 12h01, feu de Corte fixé, réouverture des vallées de la Restonica et du Tavignanu](https://france3-regions.franceinfo.fr/corse/feu-de-corte-l-incendie-est-fixe-les-vallees-de-la-restonica-et-du-tavignanu-rouvrent-au-public-ce-midi-3395008.html) ; [France3 Corse 30/07 16h43, reprise Biguglia, pompiers toujours mobilisés](https://france3-regions.franceinfo.fr/corse/haute-corse/incendies-en-haute-corse-le-feu-reprend-a-biguglia-les-pompiers-toujours-mobilises-3394723.html) ; corse-du-sud.gouv.fr ; haute-corse.gouv.fr ; [haute-corse.gouv.fr, Fango/Bonifato/Agriate fermés le 23/07/2026 (publié 22/07)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers) ; [corsenetinfos.corsica 25/07 20h, reconduction 26/07 confirmée](https://www.corsenetinfos.corsica/Corte-Oletta-Biguglia-les-foyers-d-incendie-se-multiplient_a91885.html) ; [alta-frequenza.corsica, l'incendie de Furiani et Biguglia en bonne voie d'être maîtrisé](https://www.alta-frequenza.corsica/actu/l_incendie_de_furiani_et_biguglia_en_bonne_voie_d_etre_maitrise_129286) ; [haute-corse.gouv.fr, Accès aux massifs forestiers, arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers)
+[France3 Corse 31/07/2026 12h01, feu de Corte fixé, réouverture des vallées de la Restonica et du Tavignanu](https://france3-regions.franceinfo.fr/corse/feu-de-corte-l-incendie-est-fixe-les-vallees-de-la-restonica-et-du-tavignanu-rouvrent-au-public-ce-midi-3395008.html) ; [France3 Corse 30/07 16h43, reprise Biguglia, pompiers toujours mobilisés](https://france3-regions.franceinfo.fr/corse/haute-corse/incendies-en-haute-corse-le-feu-reprend-a-biguglia-les-pompiers-toujours-mobilises-3394723.html) ; corse-du-sud.gouv.fr ; haute-corse.gouv.fr ; [haute-corse.gouv.fr, Fango/Bonifato/Agriate fermés le 23/07/2026 (publié 22/07)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers) ; [corsenetinfos.corsica 25/07 20h, reconduction 26/07 confirmée](https://www.corsenetinfos.corsica/Corte-Oletta-Biguglia-les-foyers-d-incendie-se-multiplient_a91885.html) ; [alta-frequenza.corsica, l'incendie de Furiani et Biguglia en bonne voie d'être maîtrisé](https://www.alta-frequenza.corsica/actu/l_incendie_de_furiani_et_biguglia_en_bonne_voie_d_etre_maitrise_129286) ; [haute-corse.gouv.fr, Accès aux massifs forestiers, arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026)](https://www.haute-corse.gouv.fr/Actions-de-l-Etat/Transition-ecologique-environnement-et-prevention-des-risques/Prevention-des-risques/Risques-naturels/Feux-de-foret/Acces-aux-massifs-forestiers) ; [France3 Corse 06/08/2026 19h09, deux départs de feu causés par la foudre sur le Monte Calvi et dans la forêt de Forca](https://france3-regions.franceinfo.fr/corse/deux-departs-de-feu-causes-par-la-foudre-sur-le-monte-calvi-et-dans-la-foret-de-forca-3397924.html) ; [pnr.corsica, avis de sécurité mis à jour le 04/08/2026 08h30](https://www.pnr.corsica/actualites/)

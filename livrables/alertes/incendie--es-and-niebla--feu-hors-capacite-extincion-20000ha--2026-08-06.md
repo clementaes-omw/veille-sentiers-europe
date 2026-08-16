@@ -7,18 +7,22 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: HAUTE
-validite: feu actif au 15/08/2026, sorti du régime « hors capacité d'extinction », en
-  phase de contrôle et d'extinction, front est toujours actif vers Aznalcóllar
+validite: feu actif au 16/08/2026, stabilisé sur l'ensemble de ses fronts depuis la nuit
+  du 14 au 15/08 (une première depuis le départ de feu), périmètre de 38 000 ha jugé
+  quasi définitif par la Junta, points chauds résiduels persistant sur le front est vers
+  Aznalcóllar
 detection: 2026-08-11
-verif: 2026-08-15
-statut: ACTIF — CHANGÉ 15/08 : périmètre parcouru porté à plus de 38 000 ha (contre
-  ~31 000 ha), la Junta précisant que la surface réellement brûlée est « sensiblement
-  inférieure » à ce chiffre de périmètre. Le feu sort du régime « hors capacité
-  d'extinction » et entre en phase de contrôle : flancs sud (secteur Los Carneros) et
-  nord (Berrocal↔El Álamo) sans front actif, nord-ouest sous simple surveillance de
-  points chauds ; seul le front est progresse encore, vers Aznalcóllar et El Castillo de
-  las Guardas. Sévérité maintenue HAUTE (feu toujours actif, source officielle Junta +
-  presse indépendante).
+verif: 2026-08-16
+statut: ACTIF — CHANGÉ 16/08 : pour la première fois depuis le 06/08, le feu n'a
+  progressé sur aucun front pendant la nuit du 14 au 15/08 (déclaration du vice-président
+  de la Junta, Antonio Sanz) ; la progression ralentit sur trois jours consécutifs
+  (+12 000 ha, +6 000 ha, +3 000 ha en 24h). La quasi-totalité des personnes évacuées a
+  été autorisée à rentrer (entre 268 et environ 400 retours selon les sources des 14 et
+  15/08, sur un total de 660-718 déplacés), un solde restant hébergé à Zalamea la Real et
+  El Castillo de las Guardas. La fumée a néanmoins entraîné la fermeture, le 15/08, de la
+  Reserva El Castillo de las Guardas (Séville), sans date de réouverture connue. Sévérité
+  maintenue HAUTE : feu toujours actif sur le front est, routes coupées, source officielle
+  Junta + presse indépendante convergentes.
 ordre: 105
 ---
 
@@ -28,17 +32,22 @@ ordre: 105
 Zalamea la Real, Villarrasa, Paterna del Campo et La Palma del Condado, avec une
 extension confirmée sur des hameaux de la province de Séville (El Madroño, Aznalcóllar
 et les pedanías d'El Álamo, Juan Antón, Juan Gallego, Villargordo). Feu de forêt déclaré
-le jeudi 06/08/2026 au lieu-dit Raboconejo (Niebla), toujours actif au 15/08. Le
-périmètre parcouru dépasse désormais 38 000 ha (la Junta précise que la surface
-réellement brûlée est inférieure à ce chiffre, qui mesure le pourtour touché plutôt que
-la totalité incendiée), sur un tour d'environ 120 km. Les flancs sud, nord et
-nord-ouest n'ont plus de front actif ; seul le front est progresse encore, vers
-Aznalcóllar et El Castillo de las Guardas, secteur désormais le plus préoccupant du
-dispositif. La route Valverde del Camino↔Niebla a rouvert ; celle reliant Aznalcóllar à
-El Álamo reste coupée par le passage du feu. Raison : incendie de forêt à comportement
-extrême (changements de vent continus, terrain de ravins, sauts de plusieurs kilomètres,
-foyers secondaires à 3,5 km du front par pyroconvection), classé hors capacité
-d'extinction le 10/08 par la Junta de Andalucía puis sorti de ce régime le 14/08.
+le jeudi 06/08/2026 au lieu-dit Raboconejo (Niebla), toujours actif au 16/08 mais
+stabilisé sur l'ensemble de ses fronts depuis la nuit du 14 au 15/08, une première
+depuis le départ de feu. Le périmètre parcouru dépasse 38 000 ha (la Junta précise que
+la surface réellement brûlée est inférieure à ce chiffre, qui mesure le pourtour touché
+plutôt que la totalité incendiée), sur un tour d'environ 120 km. La quasi-totalité du
+périmètre est désormais sans front actif ; seuls des points chauds résiduels subsistent
+sur le secteur est, vers Aznalcóllar et El Castillo de las Guardas, dernier point de
+vigilance du dispositif. La majorité des personnes évacuées a été autorisée à rentrer
+chez elle entre le 14 et le 15/08 ; un solde reste hébergé à Zalamea la Real et au
+centre d'El Castillo de las Guardas. La route Valverde del Camino↔Niebla (HU-3106) a
+rouvert ; celle reliant Aznalcóllar à El Álamo (SE-538) reste coupée par le passage du
+feu. La fumée a par ailleurs entraîné la fermeture, le 15/08, de la Reserva El Castillo
+de las Guardas (Séville). Raison : incendie de forêt à comportement extrême (changements
+de vent continus, terrain de ravins, sauts de plusieurs kilomètres, foyers secondaires à
+3,5 km du front par pyroconvection), classé hors capacité d'extinction le 10/08 par la
+Junta de Andalucía puis sorti de ce régime le 14/08.
 
 ## Alternative
 
@@ -52,17 +61,23 @@ Aulaga↔El Madroño), SE-5400 (El Álamo↔Villagordo) et SE-538 (Aznalcóllar�
 MAJ 15/08 : la route reliant Valverde del Camino à Niebla a rouvert ; celle
 d'Aznalcóllar à El Álamo reste coupée par le passage du feu sur le front est.
 
+MAJ 16/08 : douze voies secondaires restent coupées ou en circulation restreinte :
+A-493, HU-5104, HU-4103, HU-6104, HU-6107, HU-6106, HU-6108, SE-6402, SE-6400, SE-5400,
+SE-538 et SE-4401. La HU-3106 (Niebla↔Valverde del Camino) reste ouverte. La Reserva El
+Castillo de las Guardas (Séville) est fermée depuis le 15/08 en raison de la fumée, sans
+date de réouverture annoncée.
+
 ## Zone (détails)
 
 Le feu part le jeudi 06/08/2026 au lieu-dit Raboconejo, commune de Niebla (Huelva). Le
 07/08 au matin, la surface est estimée provisoirement à environ 380 ha sur un secteur
-mêlllant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
+mêllânt eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
 et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une évacuation
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogéés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -112,6 +127,28 @@ MAJ 14/08 : bilan porté à environ 31 000 ha au soir du 13/08, dépassant la su
 
 MAJ 15/08 : au 14/08 16h, le périmètre parcouru dépasse 38 000 ha ; la Junta précise que la surface réellement brûlée sera « sensiblement inférieure » à ce chiffre, la différence tenant à la méthode de mesure (pourtour touché contre surface effectivement calcinée). Le feu sort de la situation « hors capacité d'extinction » : le flanc sud n'a plus d'activité après la liquidation du secteur de Los Carneros, le flanc nord (Berrocal↔El Álamo) n'a plus de front actif, le nord-ouest reste sous surveillance de points chauds ponctuels. Seul le front est progresse, vers Aznalcóllar et El Castillo de las Guardas, jugé « particulièrement préoccupant ». 660 personnes restent déplacées à titre préventif, dont 53 encore hébergées au théâtre de Zalamea la Real et au centre d'El Castillo de las Guardas ; 114 riverains supplémentaires (Membrillo Alto, Pozuelo, Las Delgadas) sont autorisés à rentrer, après le retour de 60 autres la veille. Le dispositif atteint 875 effectifs, 33 moyens aériens et 352 moyens terrestres (dont 18 bulldozers). Des rafales dépassant 50 km/h sont attendues dans la nuit du 14 au 15/08 jusqu'à 11h, avec un nouvel assèchement et des rafales jusqu'à 47 km/h annoncées pour la fin d'après-midi du samedi 15/08. Toujours aucune source ne documente d'impact sur un itinéraire balisé nommé.
 
+MAJ 16/08 : le vice-président de la Junta, Antonio Sanz, confirme que le feu n'a
+progressé sur aucun de ses fronts pendant la nuit du 14 au 15/08, une première depuis le
+déclenchement du 06/08, après huit journées qualifiées de « grande complexité » ; les
+autorités évoquent le « début de la fin » de l'incendie, sous réserve que la fenêtre
+météo tienne sur le week-end. La croissance de la surface parcourue continue de
+ralentir sur trois jours consécutifs (+12 000 ha, puis +6 000 ha, puis +3 000 ha en
+24h). Les retours de population s'accélèrent : 60 riverains rentrés le 14/08 au soir,
+114 de plus dans la nuit du 14 au 15/08 (dispersés de Zalamea la Real, El Pozuelo,
+El Membrillo Alto, Las Delgadas et Montesorromero), puis un nouveau contingent dans la
+soirée du 15/08 ; les décomptes de presse divergent sur le solde exact de personnes
+encore déplacées au soir du 15/08 (entre une centaine et environ 550 selon les sources
+et le périmètre retenu (préventif strict ou hébergement d'urgence)), mais convergent sur
+une majorité de retours et un noyau résiduel hébergé à Zalamea la Real et au centre
+d'El Castillo de las Guardas. Le dispositif atteint environ 1 116 effectifs et 337
+moyens terrestres (21 camions-citernes, 18 engins lourds), avec 33 moyens aériens
+engagés le matin du 15/08. Le vent du sud-ouest se renforce l'après-midi du 15/08
+(rafales jusqu'à 40-43 km/h entre 19h et 20h, 35-36°C), mençant surtout le front est
+entre Aznalcóllar et El Castillo de las Guardas, seul secteur encore qualifié
+d'actif. La fumée du foyer a par ailleurs contraint la fermeture, le 15/08, de la
+Reserva El Castillo de las Guardas (Séville), sans réouverture annoncée à ce jour.
+Toujours aucune source ne documente d'impact sur un itinéraire balisé nommé.
+
 ## Source
 
 [Tecnobosque, analyse technique, mis à jour 11/08/2026 09h20](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [Infobae 11/08/2026, une fenêtre d'opportunité s'ouvre à Huelva tandis que le feu avance à Huesca](https://www.infobae.com/espana/agencias/2026/08/11/el-fuego-avanza-en-huesca-mientras-se-abre-una-ventana-de-oportunidad-en-huelva/) ; [theobjective.com 11/08/2026, carte des incendies actifs Niebla/Riglos](https://theobjective.com/sociedad/suceso/2026-08-11/mapa-incendios-activos-espana-niebla-riglos/) ; [Cuatro.com 11/08/2026, évolution des feux Huelva/Huesca/Segovia/Castellón](https://www.cuatro.com/noticias/sociedad/20260811/evolucion-fuegos-huelva-huesca-segovia-castellon_18_019931088.html) ; [Infobae 09/08/2026, le feu de Niebla affecte déjà 8 000 ha, 467 personnes évacuées](https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/) ;
@@ -130,4 +167,8 @@ MAJ 15/08 : au 14/08 16h, le périmètre parcouru dépasse 38 000 ha ; la Junta 
 [El Independiente 14/08/2026, le feu de Niebla entre en capacité d'extinction, 40 % du feu de Huesca consolidé](https://www.elindependiente.com/futuro/medio-ambiente/2026/08/14/el-fuego-de-niebla-en-huelva-entra-en-capacidad-de-extincion-y-se-consolida-el-40-del-de-huesca/) ;
 [Tecnobosque, mise à jour 14/08/2026 16h00](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ;
 [eldiario.es Andalucía 14/08/2026, le feu de Niebla freine son avancée sur le front nord tandis que les flammes s'étendent en Séville](https://www.eldiario.es/andalucia/incendio-niebla-frena-avance-frente-norte-llamas-extienden-provincia-sevilla_1_13446417.html) ;
-[Huelva24.com 14/08/2026, le feu de Niebla parcourt déjà plus de 38 000 ha](https://www.huelva24.com/provincia/incendio-niebla-recorre-38000-hectareas-20260814152141-nth.html)
+[Huelva24.com 14/08/2026, le feu de Niebla parcourt déjà plus de 38 000 ha](https://www.huelva24.com/provincia/incendio-niebla-recorre-38000-hectareas-20260814152141-nth.html) ;
+[El Español 15/08/2026, le feu de Niebla stagne et ouvre la voie à l'optimisme après 38 000 ha, 114 évacués rentrés](https://www.elespanol.com/espana/andalucia/20260815/incendio-niebla-estanca-abre-paso-optimismo-devastar-hectareas-desalojados-regresan-casa/1003744354032_0.amp.html) ;
+[Telecinco 15/08/2026, le feu de Niebla n'évolue « pour la première fois » pendant la nuit, retours d'évacués](https://www.telecinco.es/noticias/andalucia/20260815/ultima-hora-incendio-niebla-huelva-desalojados_18_019958529.html) ;
+[Canal Sur 15/08/2026 08h25, la fumée du feu de Niebla oblige à fermer la Reserva El Castillo de las Guardas](https://www.canalsur.es/noticias/andalucia/huelva/humo-incendio-niebla-obliga-cerrar_1_1429012.html) ;
+[Tecnobosque, mise à jour 15/08/2026 08h30](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/)
