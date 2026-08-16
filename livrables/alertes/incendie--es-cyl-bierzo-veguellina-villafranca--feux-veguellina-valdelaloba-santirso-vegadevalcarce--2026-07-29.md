@@ -5,12 +5,11 @@ itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierz
 sev: INFO (clôturée — extinction officielle du foyer principal)
 validite: [CLÔTURÉ] (2026-08-10) — feu de Veguellina déclaré ÉTEINT le 09/08/2026 17h50 après 12 jours ; les foyers de Valdelaloba, San Tirso, Laballos et La Faba étaient déjà tous à IGR-0/maîtrisés
 detection: 2026-08-02
-verif: 2026-08-15
+verif: 2026-08-16
 statut: [CLÔTURÉ] (2026-08-10) — le feu de Veguellina (Villafranca del Bierzo, ~1330 ha) est
   déclaré ÉTEINT le 09/08 à 17h50 après 12 jours d'activité, IGR passé à 0 le 10/08 au matin.
   Évacuations levées à Moreda, San Pedro de Olleros, Prado de la Somoza ; A-6 totalement
-  rouverte. Les foyers de Valdelaloba, San Tirso, Laballos et La Faba, déjà maîtrisés,
-  n'ont fait l'objet d'aucune reprise. Reste une zone de surveillance ponctuelle au nord de
+  rouverte. Les foyers de Valdelaloba, San Tirso, Laballos et La Faba, déjà maîtrisés, n'ont fait l'objet d'aucune reprise. Reste une zone de surveillance ponctuelle au nord de
   Veguellina (risque de réactivation, moyens aériens uniquement), sans lien avec un itinéraire
   suivi. Un nouveau foyer distinct est apparu le 09/08 à Barjas (frontière avec la Galice,
   sur le Camino de Invierno) : voir la fiche dédiée `incendie|ES-CYL-Barjas-Quintela|…`.
@@ -51,7 +50,7 @@ MAJ 05/08 : désescalade totale, Veguellina, Toreno et Vega de Valcarce (San Tir
 
 MAJ 08/08, nouveau départ de feu distinct à Vega de Valcarce. [FAIT] Un incendie s'est déclaré le vendredi 07/08 à 17h04 près du viaduc de Las Lamas, sur l'A-6, dans la commune de Vega de Valcarce : IGR-0 dès le départ, 11 moyens déployés (dont 2 brigades héliportées ELIF/BRIF et 3 moyens aériens), aucune coupure de l'A-6 signalée, pas d'évacuation. C'est le 3e départ de feu recensé dans cette même commune en une dizaine de jours (Herrerías, El Castro, puis Las Lamas), signe d'un terrain qui reste sensible plutôt que d'une reprise du foyer San Tirso déjà résolu. Les 3 foyers d'origine du complexe restent par ailleurs à IGR-0, sans extinction formelle prononcée.
 
-MAJ 09/08 : le feu de Veguellina touche formellement à sa fin après dix jours d'intervention (leonoticias, 08/08 : « toca así su fin el incendio de Veguellina, tras diez días desde su aparición »). Un nouveau départ de feu s'est déclaré le 08/08 vers 19h35 à La Faba, localité de la commune de Vega de Valcarce et étape nommée du Camino Francés entre Vega de Valcarce et O Cebreiro (12 moyens engagés au départ, dont un hélicoptère et une brigade héliportée) : aucune source ne documente d'impact sur le balisage ou sur l'albergue du village. Le départ de feu de Laballos, signalé le 07/08 près du viaduc de Las Lamas et toujours en phase de périmétrage le 08/08 en fin d'après-midi (15 moyens engagés, surface non déterminée), a été déclaré maîtrisé le même jour selon leonoticias, dans le même massif qu'un foyer antérieur d'une dizaine de jours. Aucune des deux localités (Laballos, La Faba) ne fait état de coupure de l'A-6 ni d'évacuation. Piège d'indexation déjoué : plusieurs articles trouvés sous les termes « incendio Laballós Vega de Valcarce » (elbierzodigital.com, bierzodiario.es) sont datés du 13/08/2025 et décrivent un épisode distinct de l'année précédente dans la même localité ; écartés après vérification de la date de publication.
+MAJ 09/08 : le feu de Veguellina touche formellement à sa fin après dix jours d'intervention (leonoticias, 08/08 : « toca así su fin el incendio de Veguellina, tras diez días desde su aparición »). Un nouveau départ de feu s'est déclaré le 08/08 vers 19h35 à La Faba, localité de la commune de Vega de Valcarce et étape nommée du Camino Francés entre Vega de Valcarce et O Cebreiro (12 moyens engagés au départ, dont un hélicoptère et une brigade héliportée) : aucune source ne documente d'impact sur le balisage ou sur l'albergue du village. Le départ de feu de Laballos, signalé le 07/08 près du viaduc de Las Lamas et toujours en phase de périmétrage le 08/08 en fin d'après-midi (15 moyens engagés, surface non déterminée), a été déclaré maîtrisé le même jour selon leonoticias, dans le même massif qu'un foyer antérieur d'une dizaine de jours. Aucune des deux localités (Laballos, La Faba) ne fait état de coupure de l'A-6 ni d'évacuation. Des articles évoquant un incendie à Laballós/Vega de Valcarce (elbierzodigital.com, bierzodiario.es) datent en réalité du 13/08/2025 et décrivent un épisode distinct de l'année précédente.
 
 ## Source
 
