@@ -7,27 +7,31 @@ design du 08/08 s'est retrouvé embarqué dans des commits dont le message parle
 chose, et rien n'expliquait plus pourquoi le générateur définit `--surface-invert` ou
 pourquoi le champ de recherche est figé à 16 px.
 
-## 2026-08-16 — Le header dit que Carte et Liste sont le même corpus
+## 2026-08-16 — Le header regroupe les trois vues du corpus
 
 Quatre onglets de même rang, dont « Carte » séparé d'« Alertes actives » par « Bivouac » :
-rien ne disait que les deux premiers montrent la même chose. Le header porte maintenant une
-étiquette de groupe et deux modes d'affichage sous elle, **Alertes actives : Carte • Liste**.
-L'étiquette et le séparateur ne se cliquent pas ; le `role="group"` porte le nom pour les
-lecteurs d'écran et les deux spans décoratifs sont `aria-hidden`, sinon l'annonce répétait
-« alertes actives, alertes actives, carte ».
+rien ne disait lesquels montrent la même matière. Le header tient maintenant en deux blocs,
+**Alertes actives : Carte • Liste • Réglementation bivouac** à gauche, **À propos** à
+droite. Les deux s'alignent au pixel sur le `h1` et sur les compteurs du bandeau (120 px et
+1160 px à 1280 px de large), pas sur le bord de la fenêtre.
 
-Les trois blocs sont posés en grille `1fr auto 1fr` plutôt qu'en `space-between`, qui
-n'aurait centré « Bivouac » que si les deux autres blocs avaient eu la même largeur. Écart
-au centre de la page mesuré : 0 px. Les colonnes sont assignées explicitement, faute de quoi
-« À propos » remonterait au milieu quand la base bivouac est absente. Les deux blocs
-extérieurs s'alignent au pixel sur le `h1` et sur les compteurs du bandeau (120 px et
-1160 px à 1280 px de large).
+Choix d'accessibilité qui mérite d'être écrit, parce qu'il est contre-intuitif. Une première
+version posait un `role="group"` nommé « Alertes actives » sur l'ensemble. Une fois la base
+bivouac entrée dans le groupe, ce nom devenait faux : la réglementation n'est pas une alerte,
+et un lecteur d'écran l'aurait rangée sous cette étiquette. Le groupe n'a donc plus de nom
+propre, et l'étiquette visible n'est plus `aria-hidden` : elle est lue comme du texte, si
+bien que l'annonce reprend mot pour mot ce qui est à l'écran. Seules les puces restent
+masquées, elles seraient annoncées « puce » entre chaque entrée.
 
 Le sélecteur de thème est retiré : bouton, CSS, script anti-scintillement du `<head>` et
 bascule JS. Le thème suit désormais le réglage du système, comme avant son ajout le 08/08 —
 `prefers-color-scheme` n'a pas bougé. Les sélecteurs `[data-theme]` de la palette et des
 tuiles Leaflet restent en place, inertes : plus rien ne pose l'attribut, mais les retirer
 demandait de toucher au rendu sombre de la carte pour un gain nul.
+
+Mesuré : étiquette à 4.98:1 en clair et 6.03:1 en sombre, cibles à 44 px, les trois vues et
+leurs fragments (`#carte`, `#bivouac`, racine) inchangés. Sous 760 px la barre défile de
+194 px, contre 263 px avant le retrait du bouton de thème.
 
 ## 2026-08-16 — Le ton des digests passe du prompt au build
 
