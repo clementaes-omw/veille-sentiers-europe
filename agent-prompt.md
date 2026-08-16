@@ -113,7 +113,15 @@ EMBEDDED (tu veux la prose, pas la cérémonie). Ce qu'elle impose ici, en clair
   digest. C'est le marqueur d'IA le plus fiable et le build le refuse. Un point, une
   virgule, deux-points ou des parenthèses font le travail, et souvent mieux. Le tiret
   reste autorisé dans le frontmatter, où il sépare des champs, et dans les intitulés de
-  source, qu'on cite sans les reformuler.
+  source, qu'on cite sans les reformuler. ⚠️ Le run du 16/08/2026 en a réintroduit sept,
+  tous là où le tiret sert de séparateur d'usage — voici les formes exactes à écrire :
+  · titre du digest : `# Digest Veille Sentiers, AAAA-MM-JJ` ;
+  · ligne itinéraires : `Itinéraires : Malerweg, secteur Bastei ↔ Rathen` et
+    `Itinéraires : Camino Sanabrés [HYPOTHÈSE] : Hermisende n'est pas une commune…` ;
+  · item de « Levées ou expirées » : `` - `clé` : feu éteint depuis le 15/08… `` ;
+  · attribution d'une source : `[gard.gouv.fr, Vendredi 7 août 2026](url)`.
+  Le build BLOQUE désormais sur tout digest daté du 09/08/2026 ou après (les précédents
+  sont l'archive et gardent leur prose d'origine).
 - ZÉRO emoji. Ni dans les titres de section du digest, ni devant un constat. Le niveau de
   gravité est déjà porté par le champ `sev:` et par la couleur de la carte.
 - GRAS : une seule emphase par fiche, celle qui porte la localisation dans « Portion
