@@ -2,10 +2,10 @@
 cle: incendie|Var-Gros-Bessillon|feu-actif-Ponteves-Cotignac-Correns|2026-07-22
 type: incendie
 itin: GR9/GR51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
-sev: MOYENNE (maintenue 12/08 — feu déclaré MAÎtRISÉ le 11/08 après 22 jours de lutte, pas encore éteint)
+sev: MOYENNE (maintenue 12/08 — feu déclaré MAÎlTRISÉ le 11/08 après 22 jours de lutte, pas encore éteint)
 validite: maîtrisé depuis le 11/08 (surveillance des lisières maintenue, pas formellement éteint) ; phase de gestion post-incendie ouverte le 13/08 (réunion des maires à Montfort-sur-Argens) ; bilan confirmé stable au 14/08/2026 (~6 300 ha, ~370 pompiers et 80 engins toujours mobilisés)
 detection: 2026-07-25
-verif: 2026-08-15
+verif: 2026-08-16
 statut: ACTIF — INCHANGÉ 15/08 : aucun nouvel élément trouvé au-delà de la réunion du 13/08
   déjà documentée (groupe de travail bois calciné, prochaine réunion le 31/08). Le feu reste
   au statut « maîtrisé » (11/08), pas de reprise signalée, RD45 toujours seule route coupée.
@@ -15,7 +15,7 @@ ordre: 50
 
 ## Portion concernée
 
-Gros Bessillon, entre Ponteves, Cotignac, Correns et Montfort-sur-Argens (Haut-Var/Centre-Var) : feu déclaré **MAÎTRISÉ le mardi 11/08/2026**, après 22 jours de lutte. Bilan final réévalué à environ 6 300 ha parcourus (contre ~5 700 ha annoncés le 08/08). Un dispositif de surveillance renforcée (~370 pompiers, 80 engins) reste engagé sur les lisières pour prévenir toute reprise, le feu n'étant pas formellement déclaré éteint. Aucune évacuation en cours. Communes concernées par l'épisode : Ponteves, Cotignac, Correns, Montfort-sur-Argens, Brue-Auriac, Châteauvert, Barjols, Le Val, Carcès. Seule la RD45 (Châteauvert↔Vallon Sourn/Correns) reste coupée ; les autres routes précédemment coupées (RD22, RD562) ont rouvert.
+Gros Bessillon, entre Ponteves, Cotignac, Correns et Montfort-sur-Argens (Haut-Var/Centre-Var) : feu déclaré **MAÎlTRISÉ le mardi 11/08/2026**, après 22 jours de lutte. Bilan final réévalué à environ 6 300 ha parcourus (contre ~5 700 ha annoncés le 08/08). Un dispositif de surveillance renforcée (~370 pompiers, 80 engins) reste engagé sur les lisières pour prévenir toute reprise, le feu n'étant pas formellement déclaré éteint. Aucune évacuation en cours. Communes concernées par l'épisode : Ponteves, Cotignac, Correns, Montfort-sur-Argens, Brue-Auriac, Châteauvert, Barjols, Le Val, Carcès. Seule la RD45 (Châteauvert↔Vallon Sourn/Correns) reste coupée ; les autres routes précédemment coupées (RD22, RD562) ont rouvert.
 
 ## Alternative
 
