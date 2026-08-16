@@ -1071,12 +1071,21 @@ def build():
     # le même corpus d'alertes actives. Les aligner comme deux onglets frères, séparés
     # par « Bivouac », laissait croire à deux contenus distincts. Le header porte donc
     # une étiquette de groupe et deux modes d'affichage sous elle.
+    puce = '<span class="navgroup-sep" aria-hidden="true">•</span>'
+    nav_biv = (puce + '<button class="navlink" data-view="bivouac">Réglementation bivouac'
+                      '</button>') if bivouac else ''
+    # L'étiquette n'est pas aria-hidden et le groupe n'a pas de nom propre : la base
+    # bivouac n'est pas une alerte, un role=group nommé « Alertes actives » l'aurait
+    # rangée sous une étiquette fausse pour les lecteurs d'écran. Lue en texte simple,
+    # l'annonce reprend exactement ce qui est à l'écran. Seule la puce est masquée,
+    # elle serait annoncée « puce » entre chaque entrée.
     nav_alertes = (
-        '<div class="navgroup" role="group" aria-label="Alertes actives">'
-        '<span class="navgroup-label" aria-hidden="true">Alertes actives&nbsp;:</span>'
+        '<div class="navgroup">'
+        '<span class="navgroup-label">Alertes actives&nbsp;:</span>'
         '<button class="navlink" data-view="carte">Carte</button>'
-        '<span class="navgroup-sep" aria-hidden="true">•</span>'
+        + puce +
         '<button class="navlink active" data-view="registre">Liste</button>'
+        + nav_biv +
         '</div>')
     marqueurs_txt = ("Aucune zone en alerte active sur la carte." if n_marqueurs == 0
                      else (f"{n_marqueurs} zone en alerte active." if n_marqueurs == 1
@@ -1355,17 +1364,10 @@ main:focus {{ outline: none; }}
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }}
 
 .topnav {{ background: var(--surface-invert); }}
-/* Trois blocs, trois positions : le groupe Alertes à gauche, Bivouac centré sur la
-   page, À propos à droite. Une grille 1fr auto 1fr plutôt qu'un space-between, qui
-   n'aurait centré le bloc du milieu que si les deux autres avaient la même largeur.
-   Les colonnes sont assignées explicitement : sans base bivouac, « À propos » doit
-   rester à droite au lieu de remonter dans la colonne du milieu. */
+/* Deux blocs : les vues du corpus à gauche, « À propos » à droite. */
 .topnav .nav-in {{ max-width: 1080px; margin: 0 auto; padding: 0 20px;
-  display: grid; grid-template-columns: 1fr auto 1fr;
+  display: flex; justify-content: space-between;
   align-items: stretch; gap: var(--s-5); overflow-x: auto; }}
-.topnav .navgroup {{ grid-column: 1; justify-self: start; }}
-.topnav .navlink[data-view="bivouac"] {{ grid-column: 2; justify-self: center; }}
-.topnav .navlink[data-view="apropos"] {{ grid-column: 3; justify-self: end; }}
 .topnav .navlink {{ display: inline-flex; align-items: center; justify-content: center;
   padding: var(--s-3) 0; min-height: 44px; min-width: 44px; border-left: 0; border-radius: 0;
   border-bottom: 2px solid transparent; white-space: nowrap; color: var(--on-invert-2); }}
@@ -1646,7 +1648,6 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
 <nav class="topnav" aria-label="Navigation">
   <div class="nav-in">
     {nav_alertes}
-    {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
     <button class="navlink" data-view="apropos">À propos</button>
   </div>
 </nav>
