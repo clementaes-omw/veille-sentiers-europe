@@ -5,7 +5,7 @@ itin: GR7-ES/E4 Sendero Andorra–Estrecho de Gibraltar [HYPOTHÈSE] le tracé t
 sev: MOYENNE
 validite: feu officiellement extinguido depuis le 24/07/2026 ; aucun arrêté d'interdiction d'accès à la zone brûlée n'a jamais été publié
 detection: 2026-07-09
-verif: 2026-08-15
+verif: 2026-08-16
 statut: [CLÔTURÉ] (2026-08-07) — clôturée faute d'arrêté d'interdiction d'accès trouvé,
   quatre semaines après l'extinction officielle (24/07) et malgré de nombreux passages de
   vérification (BOJA, Junta de Andalucía, presse locale Almanzora/Almería, dont une
@@ -21,7 +21,7 @@ Sierra de Cabrera-Bédar (Almería) : communes de Los Gallardos, Bédar, Antas, 
 
 ## Alternative
 
-Aucune alternative connue à ce jour : aucune fermeture nommée de sentier balisé n'a pu être sourcée. La zone brûlée (≈5200 ha selon le bilan final, jusqu'à 6800-7000 ha selon des estimations intermédiaires du 20-22/07) couvre une large part du massif de la Sierra Cabrera-Bédar, y compris des itinéraires locaux connus (Ruta del Agua de Bédar SL-A 76, Ruta de la Minería SL-A 77, PR-A 370 Turre↔El Jalí) : prudence de bon sens recommandée sans confirmation officielle d'interdiction.
+Aucune alternative connue à ce jour : aucune fermeture nommée de sentier balisé n'a pu être sourcée. La zone brûlée (≈ 5200 ha selon le bilan final, jusqu'à 6800-7000 ha selon des estimations intermédiaires du 20-22/07) couvre une large part du massif de la Sierra Cabrera-Bédar, y compris des itinéraires locaux connus (Ruta del Agua de Bédar SL-A 76, Ruta de la Minería SL-A 77, PR-A 370 Turre↔El Jalí) : prudence de bon sens recommandée sans confirmation officielle d'interdiction.
 
 ## Zone (détails)
 
