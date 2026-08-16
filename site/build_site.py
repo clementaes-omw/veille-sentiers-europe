@@ -810,6 +810,42 @@ def _age_jours(champ_date: str):
     return (date.today() - date.fromisoformat(m.group(1))).days
 
 
+# Les digests antérieurs à cette date sont l'archive : ils gardent la prose qu'ils
+# avaient le jour de leur publication (choix du 08/08/2026, réécrire un compte rendu
+# daté un mois plus tard n'est pas corriger un style, c'est retoucher un enregistrement).
+# Tout digest produit à partir de là relève des règles d'écriture d'agent-prompt.md.
+PREMIER_DIGEST_SOUS_REGLES = "2026-08-09"
+
+
+def digest_ton_errors() -> list:
+    """Le ton des digests récents, contrôlé comme celui des fiches.
+
+    Le prompt interdisait déjà le tiret cadratin dans le digest, mais rien ne le
+    vérifiait : le run du 16/08 en a réintroduit sept, tous sur le même motif (le
+    séparateur de la ligne « Itinéraires » et des items de « Levées »). Une règle
+    qu'aucun test ne défend finit toujours par céder.
+    """
+    errs = []
+    for p in sorted(LIVRABLES.glob("digest_*.md")):
+        iso = p.stem.replace("digest_", "")
+        if iso < PREMIER_DIGEST_SOUS_REGLES:
+            continue
+        txt = p.read_text(encoding="utf-8")
+        n = len(TIRETS_LONGS.findall(txt))
+        if n:
+            ex = TIRETS_LONGS.search(txt)
+            autour = " ".join(txt[max(0, ex.start() - 45):ex.end() + 45].split())
+            errs.append(
+                f"[ton] {n} tiret(s) cadratin(s) dans {p.name} : « …{autour}… ». "
+                f"Un point, une virgule, deux-points ou des parenthèses. "
+                f"Le tiret collé entre deux mots d'un nom propre est déjà exclu du contrôle.")
+        if emojis(txt):
+            errs.append(
+                f"[ton] emoji « {''.join(emojis(txt)[:3])} » dans {p.name} : la gravité "
+                f"est portée par le champ `sev:` et par la couleur, pas par un pictogramme.")
+    return errs
+
+
 def ton_warnings(cards) -> list:
     """Même contrôle de ton, appliqué à « Zone (détails) » — AVERTISSEMENT seulement.
     Ce champ porte le narratif historique de 30+ fiches héritées : on ne le réécrit pas
@@ -1953,7 +1989,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
 </body>
 </html>
 """
-    errs = qa_check(cards, page, bivouac) + registry_integrity_errors()
+    errs = qa_check(cards, page, bivouac) + registry_integrity_errors() + digest_ton_errors()
     warns = ton_warnings(cards)
     if warns:
         print(f"⚠ ton : {len(warns)} fiche(s) dont « Zone (détails) » raconte encore le "

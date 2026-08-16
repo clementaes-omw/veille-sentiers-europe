@@ -7,6 +7,26 @@ design du 08/08 s'est retrouvé embarqué dans des commits dont le message parle
 chose, et rien n'expliquait plus pourquoi le générateur définit `--surface-invert` ou
 pourquoi le champ de recherche est figé à 16 px.
 
+## 2026-08-16 — Le ton des digests passe du prompt au build
+
+Sept jours après le passage de la skill `humanizer`, les règles d'écriture tenaient : les
+digests du 09 au 15/08 ne portaient aucun tiret cadratin ni emoji, et le compteur de jargon
+de veille sur les fiches était tombé de 30 à 0, nettoyé au fil des passages par
+`agents/verificateur-alertes.md`.
+
+Le run du 16/08 en a réintroduit sept, tous au même endroit : le tiret comme séparateur
+d'usage, dans la ligne « Itinéraires » et dans les items de « Levées ou expirées ». Le
+prompt l'interdisait depuis le 08/08 ; rien ne le vérifiait. Une règle qu'aucun test ne
+défend finit toujours par céder, et elle cède exactement là où le tiret ne ressemble pas à
+un tic de style mais à de la mise en forme.
+
+`digest_ton_errors()` contrôle donc les digests comme les fiches : tiret cadratin ponctuant
+et emoji sont bloquants, et le message nomme l'occurrence avec son contexte. Le seuil est
+posé au 2026-08-09, premier digest écrit sous les nouvelles règles : les précédents sont
+l'archive et gardent la prose qu'ils avaient le jour de leur publication. Le prompt liste
+maintenant les quatre formes exactes à écrire plutôt que la seule interdiction, puisque
+c'est la mise en forme, pas le style, qui a rechuté.
+
 ## 2026-08-12 — Les codes de zone nationaux ne portent plus de marqueur
 
 Un code qui couvre un pays entier ne peut pas produire un repère juste. `DE` affichait
