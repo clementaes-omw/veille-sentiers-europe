@@ -1067,7 +1067,17 @@ def build():
     # --- Carte : bouton de nav, section, CSS et JS (Leaflet à la demande) ----
     # Ces morceaux sont construits hors de la grande f-string de page pour éviter le
     # doublement des accolades CSS/JS : ils y sont interpolés tels quels.
-    carte_nav = '<button class="navlink" data-view="carte">Carte</button>'
+    # Carte et Liste ne sont pas deux destinations : ce sont deux façons de regarder
+    # le même corpus d'alertes actives. Les aligner comme deux onglets frères, séparés
+    # par « Bivouac », laissait croire à deux contenus distincts. Le header porte donc
+    # une étiquette de groupe et deux modes d'affichage sous elle.
+    nav_alertes = (
+        '<div class="navgroup" role="group" aria-label="Alertes actives">'
+        '<span class="navgroup-label" aria-hidden="true">Alertes actives&nbsp;:</span>'
+        '<button class="navlink" data-view="carte">Carte</button>'
+        '<span class="navgroup-sep" aria-hidden="true">•</span>'
+        '<button class="navlink active" data-view="registre">Liste</button>'
+        '</div>')
     marqueurs_txt = ("Aucune zone en alerte active sur la carte." if n_marqueurs == 0
                      else (f"{n_marqueurs} zone en alerte active." if n_marqueurs == 1
                            else f"{n_marqueurs} zones en alerte active."))
@@ -1312,8 +1322,12 @@ def build():
   --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
   --s-6: 32px; --s-7: 48px; --s-8: 64px;
   --rythme: 160ms cubic-bezier(.2, 0, .2, 1);
-  /* posé sur --surface-invert, qui est sombre dans les deux thèmes */
+  /* posés sur --surface-invert, qui est sombre dans les deux thèmes.
+     -3 est l'étiquette de groupe du header : plus effacée que les onglets, mais
+     c'est du texte, donc elle reste au-dessus de 4.5:1 sur le fond le plus clair
+     des deux thèmes (#20261f). */
   --on-invert-2: #a9ada1;
+  --on-invert-3: #8f9489;
 }}
 @media (prefers-color-scheme: dark) {{
   :root:not([data-theme="light"]) {{ color-scheme: dark;{PALETTE_SOMBRE} }}
@@ -1341,24 +1355,32 @@ main:focus {{ outline: none; }}
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }}
 
 .topnav {{ background: var(--surface-invert); }}
-.topnav .nav-in {{ max-width: 1080px; margin: 0 auto; padding: 0 20px; display: flex;
-  justify-content: space-between; align-items: stretch; gap: var(--s-5); overflow-x: auto; }}
+/* Trois blocs, trois positions : le groupe Alertes à gauche, Bivouac centré sur la
+   page, À propos à droite. Une grille 1fr auto 1fr plutôt qu'un space-between, qui
+   n'aurait centré le bloc du milieu que si les deux autres avaient la même largeur.
+   Les colonnes sont assignées explicitement : sans base bivouac, « À propos » doit
+   rester à droite au lieu de remonter dans la colonne du milieu. */
+.topnav .nav-in {{ max-width: 1080px; margin: 0 auto; padding: 0 20px;
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  align-items: stretch; gap: var(--s-5); overflow-x: auto; }}
+.topnav .navgroup {{ grid-column: 1; justify-self: start; }}
+.topnav .navlink[data-view="bivouac"] {{ grid-column: 2; justify-self: center; }}
+.topnav .navlink[data-view="apropos"] {{ grid-column: 3; justify-self: end; }}
 .topnav .navlink {{ display: inline-flex; align-items: center; justify-content: center;
   padding: var(--s-3) 0; min-height: 44px; min-width: 44px; border-left: 0; border-radius: 0;
   border-bottom: 2px solid transparent; white-space: nowrap; color: var(--on-invert-2); }}
 .topnav .navlink:hover {{ background: none; color: var(--on-invert); }}
 .topnav .navlink.active {{ color: var(--on-invert); border-bottom-color: var(--haute); background: none; }}
 .topnav .navlink:focus-visible {{ outline: 2px solid var(--on-invert); outline-offset: -2px; }}
-.theme-btn {{ margin-left: auto; align-self: center; display: inline-flex; align-items: center;
-  justify-content: center; min-width: 44px; min-height: 44px; padding: 0 var(--s-2);
-  background: none; border: 0; cursor: pointer; color: var(--on-invert-2);
-  font-family: var(--mono); font-size: var(--t-xs); text-transform: uppercase;
-  letter-spacing: .06em; transition: color var(--rythme); }}
-.theme-btn:hover {{ color: var(--on-invert); }}
-.theme-btn:focus-visible {{ outline: 2px solid var(--on-invert); outline-offset: -2px; }}
-.theme-btn svg {{ width: 17px; height: 17px; fill: none; stroke: currentColor;
-  stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }}
-
+/* « Alertes actives : Carte • Liste ». L'étiquette nomme le groupe et ne se clique
+   pas ; les deux modes gardent le comportement des autres onglets. Le séparateur et
+   l'étiquette sont aria-hidden : le rôle group porte déjà le nom pour les lecteurs
+   d'écran, les répéter ferait « alertes actives alertes actives carte ». */
+.navgroup {{ display: inline-flex; align-items: stretch; gap: var(--s-2); }}
+.navgroup-label, .navgroup-sep {{ display: inline-flex; align-items: center;
+  font-family: var(--mono); font-size: var(--t-sm); letter-spacing: .02em;
+  text-transform: uppercase; white-space: nowrap; color: var(--on-invert-3); }}
+.navgroup-sep {{ font-size: var(--t-xs); }}
 nav.rail {{ position: sticky; top: 16px; align-self: start; display: flex;
   flex-direction: column; gap: 3px; max-height: calc(100vh - 40px); overflow: auto; }}
 .rail-label {{ font-family: var(--mono); font-weight: 700; font-size: .64rem;
@@ -1557,11 +1579,10 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   justify-content: center; text-align: center; }}
 
 @media (max-width: 760px) {{
-  .topnav .nav-in {{ justify-content: flex-start; gap: var(--s-4); padding: 0 var(--s-4); }}
-  /* la barre défile horizontalement : sans ça le bouton de thème se retrouve
-     hors écran, au bout du défilement */
-  .theme-btn {{ position: sticky; right: 0; background: var(--surface-invert);
-    box-shadow: -10px 0 10px -6px var(--surface-invert); }}
+  /* Sous 760px les trois blocs ne tiennent pas côte à côte : la grille laisse la
+     place à une file qui défile, comme le reste des barres d'onglets du site. */
+  .topnav .nav-in {{ display: flex; justify-content: flex-start;
+    gap: var(--s-4); padding: 0 var(--s-4); }}
   .layout {{ display: block; }}
   header.mast {{ padding: var(--s-4) 0 var(--s-2); gap: var(--s-3); }}
   .tagline {{ font-size: var(--t-base); }}
@@ -1599,7 +1620,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
    correctement sur papier, volets ouverts et URL des sources visibles. */
 @media print {{
   :root {{ color-scheme: light; }}
-  .topnav, nav.rail, .cats, .theme-btn, .skip, .contact, .search {{ display: none !important; }}
+  .topnav, nav.rail, .cats, .skip, .contact, .search {{ display: none !important; }}
   /* Une carte à tuiles ne s'imprime pas : sur papier c'est un rectangle vide, et le
      lecteur n'a de toute façon besoin que du registre, qui porte le détail des zones. */
   .carte-map {{ display: none !important; }}
@@ -1618,30 +1639,15 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
 }}
 {carte_css}
 </style>
-<script>
-/* Avant le premier pixel : sinon le thème choisi s'applique après coup et la page
-   clignote en clair chez quelqu'un qui a demandé sombre. */
-(function () {{
-  try {{
-    var t = localStorage.getItem('theme');
-    window.__theme = t || 'auto';
-    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
-  }} catch (e) {{}}
-}})();
-</script>
 </head>
 <body>
 <a class="skip" href="#main">Aller aux alertes</a>
 
 <nav class="topnav" aria-label="Navigation">
   <div class="nav-in">
-    <button class="navlink active" data-view="registre">Alertes actives</button>
+    {nav_alertes}
     {'<button class="navlink" data-view="bivouac">Bivouac &amp; réglementation</button>' if bivouac else ''}
-    {carte_nav}
     <button class="navlink" data-view="apropos">À propos</button>
-    <button class="theme-btn" id="theme-btn" type="button" aria-label="Changer de thème">
-      <span class="sr-only">Thème&nbsp;: </span><span id="theme-txt" aria-live="polite">auto</span>
-    </button>
   </div>
 </nav>
 
@@ -1826,22 +1832,6 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
       if (cible) {{ cible.scrollIntoView({{ behavior: 'smooth', block: 'start' }}); }}
       else {{ window.scrollTo({{ top: 0 }}); }}
     }});
-  }});
-
-  // thème : auto (système) → clair → sombre. L'état est relu au chargement par le
-  // script du <head>, celui-ci ne gère que la bascule et l'étiquette.
-  var THEMES = ['auto', 'light', 'dark'];
-  var LIB = {{ auto: 'auto', light: 'clair', dark: 'sombre' }};
-  var tbtn = document.getElementById('theme-btn');
-  var ttxt = document.getElementById('theme-txt');
-  var theme = (window.__theme && THEMES.indexOf(window.__theme) !== -1) ? window.__theme : 'auto';
-  if (ttxt) ttxt.textContent = LIB[theme];
-  if (tbtn) tbtn.addEventListener('click', function () {{
-    theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
-    if (theme === 'auto') document.documentElement.removeAttribute('data-theme');
-    else document.documentElement.setAttribute('data-theme', theme);
-    if (ttxt) ttxt.textContent = LIB[theme];
-    try {{ localStorage.setItem('theme', theme); }} catch (e) {{}}
   }});
 
   // impression : on ouvre les volets « Détails » le temps du tirage, sinon la
