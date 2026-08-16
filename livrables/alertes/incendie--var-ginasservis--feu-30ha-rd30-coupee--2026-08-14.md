@@ -5,7 +5,7 @@ itin: GR99 (nord Var, secteur Rians/Verdon) [HYPOTHÈSE — proximité de zone, 
 sev: INFO
 validite: feu fixé le 14/08/2026 vers 20h (~30 ha) ; RD30 toujours coupée entre les intersections RD70 et RD23 selon la dernière source datée
 detection: 2026-08-15
-verif: 2026-08-15
+verif: 2026-08-16
 statut: ACTIF — NOUVEAU : feu déjà fixé au moment de la détection, seule la coupure de la
   RD30 reste à confirmer/lever. Aucune source postérieure au 14/08 20h trouvée pour la
   réouverture de cette route.
