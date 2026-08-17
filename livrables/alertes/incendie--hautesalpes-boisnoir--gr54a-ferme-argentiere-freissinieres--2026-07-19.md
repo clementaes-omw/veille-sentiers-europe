@@ -5,7 +5,7 @@ itin: GR54A (fermé) ; GR54 (itinéraire de repli, praticable)
 sev: HAUTE
 validite: incendie déclaré ÉTEINT mais sous surveillance (paysdesecrins.com, MAJ 14/08) ; GR54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15/22/23 fermés durée indéterminée (confirmé paysdesecrins.com, MAJ 14/08) ; RD38 fermée à tous véhicules entre La Roche-de-Rame et Freissinières et interdite aux vélos entre Saint-Crépin et le hameau de Pallon jusqu'au 17/08/2026 17h (Bison Futé, incident daté du 16/08) ; RD138A et RD38B rouvertes depuis le 06/08 (arrêté de voirie)
 detection: 2026-07-22
-verif: 2026-08-16
+verif: 2026-08-17
 statut: ACTIF — CHANGÉ 16/08 : premier calendrier officiel trouvé pour la RD38 elle-même,
   via le flux d'incidents Bison Futé (tipi.bison-fute.gouv.fr, DIR, consulté en direct) :
   fermeture à tous véhicules entre La Roche-de-Rame et Freissinières (1,8 km) ET interdiction
