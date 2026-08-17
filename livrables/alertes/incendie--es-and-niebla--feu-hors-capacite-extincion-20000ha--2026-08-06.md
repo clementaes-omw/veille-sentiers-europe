@@ -67,13 +67,13 @@ date de réouverture annoncée.
 
 Le feu part le jeudi 06/08/2026 au lieu-dit Raboconejo, commune de Niebla (Huelva). Le
 07/08 au matin, la surface est estimée provisoirement à environ 380 ha sur un secteur
-mêllânt eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
+mêlant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
 et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une évacuation
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogegés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -139,7 +139,7 @@ une majorité de retours et un noyau résiduel hébergé à Zalamea la Real et a
 d'El Castillo de las Guardas. Le dispositif atteint environ 1 116 effectifs et 337
 moyens terrestres (21 camions-citernes, 18 engins lourds), avec 33 moyens aériens
 engagés le matin du 15/08. Le vent du sud-ouest se renforce l'après-midi du 15/08
-(rafales jusqu'à 40-43 km/h entre 19h et 20h, 35-36°C), meçant surtout le front est
+(rafales jusqu'à 40-43 km/h entre 19h et 20h, 35-36°C), mençant surtout le front est
 entre Aznalcóllar et El Castillo de las Guardas, seul secteur encore qualifié
 d'actif. La fumée du foyer a par ailleurs contraint la fermeture, le 15/08, de la
 Reserva El Castillo de las Guardas (Séville), sans réouverture annoncée à ce jour.
