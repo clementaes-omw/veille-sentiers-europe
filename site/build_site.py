@@ -678,7 +678,8 @@ JARGON_INTERNE = [
 # passent pas par ce contrôle.
 # Ce qui trahit la machine, c'est le tiret PONCTUANT, entouré d'espaces. Le tiret collé
 # entre deux mots relève de la typographie normale et appartient souvent à un nom propre
-# sourcé (« PR-A 370 Turre–El Jalí »). D'où l'espace exigée d'un côté au moins.
+# sourcé (« PR-A 370 Turre–El Jalí ») : le remplacer déformerait un fait. D'où l'espace
+# exigée d'un côté au moins.
 TIRETS_LONGS = re.compile(r"\s[—–]|[—–]\s")
 
 
