@@ -3,9 +3,9 @@ cle: incendie|Var-Ginasservis|feu-30ha-RD30-coupee|2026-08-14
 type: incendie
 itin: GR99 (nord Var, secteur Rians/Verdon) [HYPOTHÈSE — proximité de zone, aucune source ne confirme de fermeture de sentier propre à ce feu]
 sev: INFO
-validite: feu fixé le 14/08/2026 vers 20h (~30 ha) ; RD30 toujours coupée entre les intersections RD70 et RD23 selon la dernière source datée
+validite: feu fixé le 14/08/2026 vers 20h (~30 ha) ; RD30 toujours coupée entre les intersections RD70 et RD23 selon la dernière source datée (14/08 20h), sans nouvelle information à la vérification du 17/08/2026
 detection: 2026-08-15
-verif: 2026-08-16
+verif: 2026-08-17
 statut: ACTIF — NOUVEAU : feu déjà fixé au moment de la détection, seule la coupure de la
   RD30 reste à confirmer/lever. Aucune source postérieure au 14/08 20h trouvée pour la
   réouverture de cette route.

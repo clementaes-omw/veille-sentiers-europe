@@ -8,7 +8,7 @@ sev: MOYENNE
 validite: feu ÉTEINT depuis le 15/08/2026 à 00h01, tunnel de l'A75 rouvert dans les deux sens
   dès le soir du 14/08, aucune fermeture de sentier documentée
 detection: 2026-08-15
-verif: 2026-08-16
+verif: 2026-08-17
 statut: [CLÔTURÉ] (2026-08-16) — feu ÉTEINT : feuxdeforet.fr (fiche Saint-Félix-de-l'Héras,
   même événement, même tunnel, même origine) affiche la chronologie complète jusqu'à
   l'extinction à 00h01 le 15/08 ; le bulletin clickalert.org du 14/08 23h51 confirme le

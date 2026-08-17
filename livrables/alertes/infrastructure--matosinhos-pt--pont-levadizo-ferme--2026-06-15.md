@@ -3,9 +3,9 @@ cle: infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15
 type: infrastructure / traversée coupée
 itin: Camino Portugués da Costa (Central non concerné)
 sev: INFO
-validite: 15/06/2026 → 14/08/2026 (réouverture anticipée)
+validite: 15/06/2026 → 14/08/2026 (réouverture anticipée annoncée par l'APDL le 06/08/2026, non reconfirmée depuis par une source postérieure)
 detection: 2026-07-17
-verif: 2026-08-07
+verif: 2026-08-17
 statut: ACTIF — CHANGÉ 07/08 : réouverture anticipée annoncée pour le 14/08/2026 (au lieu
   de fin septembre initialement), circulation piétonne et automobile rétablies ce jour-là
   — 2 sources datées du 06/08 (Jornal Económico, Rádio Metropolitana Porto), APDL citée en
@@ -16,7 +16,7 @@ ordre: 29
 
 ## Portion concernée
 
-Camino Portugués da Costa, étape 1 (km ~11) : **pont mobile Matosinhos ↔ Leça da Palmeira fermé aux piétons depuis le 15/06/2026**. Raison : travaux sur le pont. La réouverture, initialement annoncée pour fin septembre, est désormais avancée au 14/08/2026, avec un mois d'avance sur le calendrier initial ; la circulation piétonne et automobile sera rétablie ce jour-là.
+Camino Portugués da Costa, étape 1 (km ~11) : **pont mobile Matosinhos ↔ Leça da Palmeira fermé aux piétons depuis le 15/06/2026**. Raison : travaux sur le pont. La réouverture, initialement annoncée pour fin septembre, avait été avancée au 14/08/2026 par l'APDL (communiqué du 06/08/2026), avec un mois d'avance sur le calendrier initial. Aucune source postérieure au 14/08/2026 ne confirme à ce jour que la circulation piétonne et automobile a effectivement repris : vérifier l'état du pont avant l'étape.
 
 ## Alternative
 

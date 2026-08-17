@@ -5,7 +5,7 @@ itin: GR11 (Senda Transpirenaica, secteur Huesca) — [FAIT] le tracé passe par
 sev: MOYENNE
 validite: sans activité confirmée depuis le 08/08/2026 (dernier point officiel : ~20 ha, stable) ; aucune détection thermique satellite depuis plusieurs jours
 detection: 2026-08-10
-verif: 2026-08-12
+verif: 2026-08-17
 statut: [CLÔTURÉ] (2026-08-12) — dernière confirmation d'activité officielle le 08/08
   (~20 ha, stable), plus aucune détection thermique satellite (incendiohoy.es) sur ce
   secteur depuis plusieurs jours au 12/08. Aucun communiqué d'extinction formel trouvé ;

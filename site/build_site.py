@@ -521,6 +521,7 @@ ALIAS_ZONE = {
     "Aude-Conques-sur-Orbiel": "FR-34-11", "Herault-34-Pegairolles-Escalette": "FR-34-11",
     "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
     "Drome-Justin-Die": "FR-84-26-07", "Drome-Bellegarde-en-Diois": "FR-84-26-07",
+    "Drome-Omblese": "FR-84-26-07",
     "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE",
     # Alpes du Sud / Écrins
     "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
@@ -535,6 +536,7 @@ ALIAS_ZONE = {
     "PN-Pyrénées": "FR-PYR-O", "PN-Pyrenees-Moundelhs": "FR-PYR-O",
     "Ariege-Bordes-Uchentein": "FR-PYR-O", "HautesPyrenees-Bareges": "FR-PYR-O",
     "Aspe-64-Chemin-Mature": "FR-PYR-O", "GR10-Luchon-Superbagnères": "FR-PYR-O",
+    "ES-ARA-Huesca-Riglos": "ES-NAV-RIO-ARA",
     # Ouest / Nord
     "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
     "GR21-Loges-Bénouville": "FR-NOR", "Pierrefiques-76": "FR-NOR",

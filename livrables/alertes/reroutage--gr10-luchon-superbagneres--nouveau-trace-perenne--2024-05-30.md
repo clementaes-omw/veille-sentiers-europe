@@ -5,7 +5,7 @@ itin: GR10
 sev: INFO (haute si la trace utilisée est l'ancien tracé)
 validite: pérenne
 detection: 2026-07-07
-verif: 2026-08-07
+verif: 2026-08-17
 statut: ACTIF — vérifier la trace GPX vs nouveau tracé
 ordre: 23
 ---

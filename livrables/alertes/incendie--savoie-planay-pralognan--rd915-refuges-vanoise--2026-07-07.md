@@ -2,16 +2,19 @@
 cle: incendie|Savoie-Planay-Pralognan|RD915-refuges-Vanoise|2026-07-07
 type: incendie / accès refuges
 itin: GR55 (Traversée de la Vanoise, via Pralognan/Col de la Vanoise) ; TGV (Tour des Glaciers de la Vanoise) — [HYPOTHÈSE] accès aux refuges impacté, fermeture du tracé GR lui-même non confirmée
-sev: MOYENNE (dégradée depuis HAUTE faute de confirmation post-15/07, à réévaluer d'urgence)
-validite: RD915 rouverte à la circulation depuis le 23/07 (restrictions piétons/cyclistes levées) ; statut des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset non confirmé par une source postérieure au 15/07, traités comme impactés jusqu'à nouvel ordre, par prudence
+sev: MOYENNE (statut des refuges toujours non tranché formellement, mais faisceau
+  d'indices de normalisation élargi le 17/08)
+validite: RD915 revenue à une circulation normale depuis le 08/08, travaux de sécurisation anti-chute de blocs programmés du 17/08 au 18/09/2026 pour rétablir la double voie avant l'hiver ; statut des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset toujours non confirmé explicitement par une source dédiée, traités comme impactés par prudence
 detection: 2026-07-21
-verif: 2026-08-13
-statut: ACTIF — INCHANGÉ 13/08 : savoie.gouv.fr (page dédiée) toujours daté du 23/07, aucune
-  source officielle postérieure trouvée. Les sites de réservation propres des trois refuges
-  (ffcam.fr pour Col de la Vanoise et Péclet-Polset, pralognan.com pour Grand Bec) affichent
-  des périodes de gardiennage normales pour l'été 2026, sans aucune mention de l'incendie ni
-  de fermeture : signal faible (silence plutôt que confirmation explicite), insuffisant pour
-  clore l'alerte. Sévérité maintenue MOYENNE.
+verif: 2026-08-17
+statut: ACTIF — CHANGÉ 17/08 : pralognan.com (page dédiée à l'incendie, MAJ 08/08)
+  confirme que la RD915 est revenue à une circulation normale et annonce des travaux de
+  sécurisation anti-chute de blocs du 17/08 au 18/09/2026. Cette page, pourtant mise à
+  jour récemment, ne mentionne toujours aucun refuge. Les trois pages de réservation
+  propres aux refuges restent également muettes sur l'incendie. Ce silence désormais
+  élargi à quatre sources distinctes suggère une normalisation, sans la confirmer
+  explicitement : sévérité maintenue MOYENNE, statut à trancher par contact direct des
+  gardiens si le silence persiste.
 ordre: 40
 ---
 
@@ -23,6 +26,8 @@ Mise à jour 28/07 : la RD915 a été rouverte à la circulation le 23/07/2026 �
 
 MAJ 13/08 : savoie.gouv.fr relu directement, la page reste datée du 23/07 (dernière mise à jour à 11h15), sans nouvelle information sur les trois refuges ni sur l'état résiduel de l'incendie. Par ailleurs, les pages de réservation propres à chaque refuge indiquent des saisons de gardiennage normales pour 2026 : Grand Bec ouvert tous les jours du 24/06 au 08/09, Péclet-Polset avec navette gratuite depuis Pralognan du 27/06 au 30/08, Col de la Vanoise gardé du 03/06 au 19/09 ; aucune de ces trois pages ne mentionne l'incendie ni de fermeture. Ce silence n'équivaut pas à une confirmation officielle de l'absence d'impact, mais il ne corrobore pas non plus un impact persistant : l'alerte reste ouverte par prudence, faute de source officielle tranchant la question.
 
+MAJ 17/08 : nouvelle source directe, pralognan.com/incendie-le-planay/, mise à jour du 08/08/2026 : « la RD915 est de nouveau ouverte à la circulation » (statut normalisé, au-delà du simple alternat), avec des travaux de sécurisation anti-chute de blocs programmés du 17/08 au 18/09/2026, objectif explicite de rétablir la circulation à double sens avant la saison hivernale. Cette page, dédiée à l'incendie et pourtant mise à jour récemment, ne mentionne toujours aucun refuge. Vérification directe des trois pages propres aux refuges (refugecoldelavanoise.ffcam.fr, refugedugrandbec.ffcam.fr/acces.html, refugepecletpolset.ffcam.fr) : toujours aucune mention d'incendie ni de restriction, cohérent avec la vérification du 13/08. Le silence converge désormais sur quatre sources (la page dédiée à l'incendie elle-même, en plus des trois pages de réservation), un faisceau plus large qu'au 13/08, mais ce n'est toujours pas une déclaration explicite « refuges accessibles ».
+
 ## Alternative
 
 Aucune déviation balisée officielle n'a été publiée : se renseigner directement auprès des gardiens de refuge.
@@ -33,4 +38,4 @@ Savoie (73) : feu parti par la foudre le 24/06, accéléré début juillet, déc
 
 ## Source
 
-[FFRandonnée 11/07](https://www.ffrandonnee.fr/s-informer/actualites/incendie-en-savoie-l-acces-a-certains-refuges-impacte-du-cote-de-pralognan-la-vanoise) ; [ICI Savoie 15/07](https://www.ici.fr/auvergne-rhone-alpes/savoie-73/planay/incendie-au-planay-la-d915-fermee-depuis-mardi-soir-doit-rouvrir-ce-mercredi-15-juillet-avec-des-restrictions-9765155) ; [préfecture Savoie](https://www.savoie.gouv.fr/Actualites/Actualites/Incendie-du-Planay-modalites-de-reouverture-de-la-RD-915) ; [Savoie News 23/07, Reprise de l'incendie et réouverture de la circulation](https://www.savoie-news.fr/reportages/societe/article/reprise-de-l-rsquo-incendie-et-reouverture-de-la-circulation)
+[pralognan.com/incendie-le-planay/, MAJ 08/08/2026, RD915 rouverte à la circulation normale, travaux de sécurisation programmés du 17/08 au 18/09/2026](https://www.pralognan.com/incendie-le-planay/) ; [refugecoldelavanoise.ffcam.fr](https://refugecoldelavanoise.ffcam.fr/) ; [refugedugrandbec.ffcam.fr/acces.html](https://refugedugrandbec.ffcam.fr/acces.html) ; [refugepecletpolset.ffcam.fr](https://refugepecletpolset.ffcam.fr/) ; [FFRandonnée 11/07](https://www.ffrandonnee.fr/s-informer/actualites/incendie-en-savoie-l-acces-a-certains-refuges-impacte-du-cote-de-pralognan-la-vanoise) ; [ICI Savoie 15/07](https://www.ici.fr/auvergne-rhone-alpes/savoie-73/planay/incendie-au-planay-la-d915-fermee-depuis-mardi-soir-doit-rouvrir-ce-mercredi-15-juillet-avec-des-restrictions-9765155) ; [préfecture Savoie](https://www.savoie.gouv.fr/Actualites/Actualites/Incendie-du-Planay-modalites-de-reouverture-de-la-RD-915) ; [Savoie News 23/07, Reprise de l'incendie et réouverture de la circulation](https://www.savoie-news.fr/reportages/societe/article/reprise-de-l-rsquo-incendie-et-reouverture-de-la-circulation)
