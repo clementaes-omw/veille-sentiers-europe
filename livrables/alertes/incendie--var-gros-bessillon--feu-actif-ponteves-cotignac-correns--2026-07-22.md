@@ -3,9 +3,9 @@ cle: incendie|Var-Gros-Bessillon|feu-actif-Ponteves-Cotignac-Correns|2026-07-22
 type: incendie
 itin: GR9/GR51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
 sev: MOYENNE (maintenue 12/08 — feu déclaré MAÎlTRISÉ le 11/08 après 22 jours de lutte, pas encore éteint)
-validite: maîtrisé depuis le 11/08 (surveillance des lisières maintenue, pas formellement éteint) ; phase de gestion post-incendie ouverte le 13/08 (réunion des maires à Montfort-sur-Argens) ; bilan confirmé stable au 14/08/2026 (~6 300 ha, ~370 pompiers et 80 engins toujours mobilisés)
+validite: maîtrisé depuis le 11/08/2026 (surveillance des lisières maintenue, pas formellement éteint) ; phase de gestion post-incendie ouverte le 13/08 (réunion des maires à Montfort-sur-Argens) ; bilan stable depuis le 14/08/2026 (~6 300 ha, ~370 pompiers et 80 engins), sans évolution à la vérification du 17/08/2026
 detection: 2026-07-25
-verif: 2026-08-16
+verif: 2026-08-17
 statut: ACTIF — INCHANGÉ 15/08 : aucun nouvel élément trouvé au-delà de la réunion du 13/08
   déjà documentée (groupe de travail bois calciné, prochaine réunion le 31/08). Le feu reste
   au statut « maîtrisé » (11/08), pas de reprise signalée, RD45 toujours seule route coupée.
