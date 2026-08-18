@@ -1,7 +1,7 @@
 ---
 cle: fermeture|CH-Vaud-Sainte-Croix-Baulmes|Gorges-Covatannaz-travaux|2026-08-17
 type: fermeture / travaux
-itin: Chemin des Gorges de Covatannaz (itinéraire n°107 La Suisse à pied, Sainte-Croix ↔ Baulmes/Vuiteboeuf, Vaud)
+itin: Chemin des Gorges de Covatannaz (itinéraire n°107 La Suisse à pied, Sainte-Croix ↔ Baulmes/Vuiteboëf, Vaud)
 sev: MOYENNE
 validite: 17/08/2026 → 18/09/2026 ; une fermeture complète d'une journée est prévue dans la semaine du 17 au 21/08/2026 pour la pose de résine, sous réserve de la météo
 detection: 2026-08-18
