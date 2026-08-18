@@ -9,7 +9,7 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
 sev: HAUTE
 validite: feu déclaré stabilisé par la Junta de Andalucía depuis le 16/08/2026, niveau
   d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite
-  Copernicus révalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
+  Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
   au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de
   Riotinto (34 000 ha) ; pas encore d'extinction formelle déclarée
 detection: 2026-08-11
