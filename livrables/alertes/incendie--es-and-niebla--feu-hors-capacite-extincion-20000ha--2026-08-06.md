@@ -1,7 +1,7 @@
 ---
 cle: incendie|ES-AND-Niebla|feu-hors-capacite-extincion-20000ha|2026-08-06
 type: incendie
-itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe por el norte de la provincia de Huelva
+itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Huelva
   (Encinasola, Cumbres de San Bartolomé, Cumbres Mayores) ; recoupement précis avec le
   périmètre brûlé (Niebla, Berrocal, Zalamea la Real, Paterna del Campo, La Palma del
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
@@ -9,7 +9,7 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe por el norte de la provincia de H
 sev: HAUTE
 validite: feu déclaré stabilisé par la Junta de Andalucía depuis le 16/08/2026, niveau
   d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite
-  Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
+  Copernicus révalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
   au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de
   Riotinto (34 000 ha) ; pas encore d'extinction formelle déclarée
 detection: 2026-08-11
@@ -69,13 +69,13 @@ date de réouverture annoncée.
 
 Le feu part le jeudi 06/08/2026 au lieu-dit Raboconejo, commune de Niebla (Huelva). Le
 07/08 au matin, la surface est estimée provisoirement à environ 380 ha sur un secteur
-mêant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
+mêlant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
 et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une évacuation
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
