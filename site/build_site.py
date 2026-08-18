@@ -527,6 +527,7 @@ ALIAS_ZONE = {
     "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
     # Alpes du Nord
     "Savoie-Planay-Pralognan": "FR-ALPES-N",
+    "Savoie-Maurienne-Belleville": "FR-ALPES-N",
     # Alpes-Maritimes / Mercantour
     "Mercantour": "FR-06", "Boréon-Mercantour": "FR-06",
     # Pyrénées
@@ -546,6 +547,7 @@ ALIAS_ZONE = {
     "Réunion-974": "FR-974",
     # Suisse
     "CH-Europaweg-Randa-Zermatt": "CH-VALAIS-VAUD", "TMB-CH-Orsieres": "CH-VALAIS-VAUD",
+    "CH-Vaud-Sainte-Croix-Baulmes": "CH-VALAIS-VAUD",
     # Italie
     "IT-ValGrande": "IT-NO", "VF-Lazio-Prato-La-Corte": "IT-CENTRE",
     # Allemagne — un code national ne peut pas porter un marqueur juste : le Malerweg
@@ -1838,7 +1840,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   }});
 
   // impression : on ouvre les volets « Détails » le temps du tirage, sinon la
-  // feuille sort amputeé de la moitié de ce qu'on venait chercher.
+  // feuille sort amputeée de la moitié de ce qu'on venait chercher.
   window.addEventListener('beforeprint', function () {{
     document.querySelectorAll('.card details:not([open])').forEach(function (d) {{
       d.open = true; d.setAttribute('data-print-open', '');
