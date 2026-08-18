@@ -5,21 +5,15 @@ itin: GR51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: HAUTE
 validite: journalière ; fermé au 06/08 (dernière date confirmée), rouge très sévère
 detection: 2026-08-09
-verif: 2026-08-17
-statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche ciblée (liste des communiqués de presse
-  d'août de la préfecture des Alpes-Maritimes relue directement, presseagence.fr,
-  risque-prevention-incendie.fr/alpes-maritimes retenté en fetch direct). Toujours aucune
-  publication postérieure au 06/08 trouvée pour ce massif : la préfecture n'a publié que trois
-  communiqués en août (sirènes le 04/08, Tour de France Femmes le 07/08, sécheresse le 13/08,
-  aucun sur le risque incendie) et la carte risque-prevention-incendie.fr reste inexploitable
-  en lecture directe (contenu JavaScript). Un article francebleu.fr au titre prometteur
-  (« ce mardi 15 août », massifs Estérel/Tanneron interdits) a été écarté après vérification :
-  le 15 août 2026 tombe un samedi, pas un mardi, ce qui date l'article de 2023 (piège
-  d'indexation déjoué). L'écart entre la dernière fermeture confirmée (06/08) et aujourd'hui
-  atteint désormais 10 jours. Le fait matériel (fermeture quasi quotidienne de ce massif en
-  période de risque très sévère) reste établi par de multiples sources datées jusqu'au 06/08 ;
-  ce qui manque est la confirmation du jour précis. Sévérité maintenue HAUTE par prudence,
-  statut du jour non confirmé. Zone en escalade : recherche ciblée à reconduire chaque run.
+verif: 2026-08-18
+statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche ciblée, aucune publication postérieure
+  au 06/08 trouvée pour ce massif spécifique. L'écart entre la dernière fermeture confirmée
+  (06/08) et aujourd'hui atteint désormais 12 jours. Le fait matériel (fermeture quasi
+  quotidienne de ce massif en période de risque très sévère) reste établi par de multiples
+  sources datées jusqu'au 06/08 ; ce qui manque est la confirmation du jour précis. Sévérité
+  maintenue HAUTE par prudence, statut du jour non confirmé. Détection le 09/08 : le seuil
+  des 14 jours de la règle sur les hypothèses serait atteint le 23/08 si aucune source plus
+  récente n'est trouvée d'ici là. Zone en escalade : recherche ciblée à reconduire chaque run.
 ordre: 102
 ---
 
@@ -46,6 +40,8 @@ Vérifié le 14/08/2026 : recherche élargie (presseagence.fr, nicepremium.fr, i
 Vérifié le 15/08/2026 : le communiqué de presse le plus récent de la préfecture des Alpes-Maritimes (alpes-maritimes.gouv.fr, « Sécheresse dans les Alpes-Maritimes », publié 13/08/2026) porte uniquement sur les restrictions d'eau et ne mentionne aucune fermeture de massif forestier. La carte risque-prevention-incendie.fr/alpes-maritimes reste inexploitable en lecture directe (contenu généré en JavaScript, colonne « Niveau d'accès » vide à la consultation). Aucune publication postérieure au 6 août n'a été trouvée pour ce massif. L'écart atteint désormais 9 jours (07→15/08). À titre de comparaison, la préfecture du Var publie un classement quotidien à jour pour son propre massif de l'Estérel (côté varois, sous vigilance orange depuis le 12/08, voir ligne `risque-feu|Var-83|…`) : cela ne renseigne pas sur le massif Esterel-Tanneron des Alpes-Maritimes, objet de cette fiche, dont la préfecture publie un classement distinct.
 
 Vérifié le 16/08/2026 : la liste des communiqués de presse d'août de la préfecture des Alpes-Maritimes (espace presse, consultée directement) ne compte que trois titres : le test des sirènes du 5 août, la Tour de France Femmes du 7 août et la sécheresse du 13 août, aucun sur le risque incendie. La carte de l'Entente Valabre (risque-prevention-incendie.fr/alpes-maritimes) reste illisible en fetch direct (contenu généré en JavaScript). Un article francebleu.fr titré « risque rouge ce mardi 15 août » semblait au premier abord apporter une confirmation récente, mais porte en réalité sur une autre année : le 15 août 2026 tombe un samedi, pas un mardi, ce qui situe l'article en 2023 (le 15 août 2023 était bien un mardi). Aucune publication datée de 2026 postérieure au 6 août n'a été trouvée pour ce massif. L'écart entre la dernière fermeture confirmée et aujourd'hui atteint 10 jours.
+
+Vérifié le 18/08/2026 : toujours aucune publication postérieure au 6 août trouvée pour le massif Esterel-Tanneron (Alpes-Maritimes). L'écart atteint désormais 12 jours. À titre de comparaison, côté Var, la préfecture a publié un classement à jour pour son propre massif de l'Estérel (voir ligne `risque-feu|Var-83|…`) : au 18/08, ce massif varois est classé orange (accès déconseillé, non interdit), ce qui ne renseigne pas sur le massif Esterel-Tanneron des Alpes-Maritimes objet de cette fiche, dont la préfecture publie un classement distinct et n'a rien communiqué depuis le 6 août.
 
 ## Source
 
