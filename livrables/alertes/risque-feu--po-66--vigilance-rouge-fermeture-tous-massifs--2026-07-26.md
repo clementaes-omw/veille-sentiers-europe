@@ -5,9 +5,11 @@ itin: GR10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ;
 sev: MOYENNE
 validite: jusqu'à nouvel ordre ; vigilance rouge tous massifs confirmée du 26/07 au 27/07/2026 (dernière reconduction datée), aucune confirmation ni levée explicite retrouvée depuis ; l'indice officiel Météo des forêts situe le département en risque très élevé (pas exceptionnel) depuis le 06/08/2026
 detection: 2026-07-27
-verif: 2026-08-17
-statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche ciblée d'un texte préfectoral explicite
-  postérieur au 07/08 (arrêté ou communiqué nommant les massifs), sans résultat. Aucun
+verif: 2026-08-18
+statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche ciblée d'un texte préfectoral explicite
+  postérieur au 07/08 (arrêté ou communiqué nommant les massifs), sans résultat ; la liste des
+  communiqués de presse d'août de la préfecture, relue, ne porte toujours que sur la
+  sensibilisation générale (communiqué du 14/08) sans carte ni fermeture nommée. Aucun
   bulletin Météo des forêts postérieur au 06/08 localisé. Sévérité maintenue MOYENNE, dégradée
   depuis le 09/08 faute de confirmation du maintien de la fermeture totale des 9 massifs
   au-delà du 27/07. Un texte préfectoral explicite reste à trouver.
