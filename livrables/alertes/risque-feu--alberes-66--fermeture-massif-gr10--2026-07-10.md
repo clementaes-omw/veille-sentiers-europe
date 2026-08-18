@@ -5,18 +5,20 @@ itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Me
 sev: HAUTE
 validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
 detection: 2026-07-20
-verif: 2026-08-17
-statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche ciblée sur l'accès au massif des Albères,
-  aucune levée trouvée, aucun texte postérieur au 29/07 (ouillade.eu) ou aux arrêtés déjà
-  identifiés (Sorède, Argelès). Les deux arrêtés restent la base de l'alerte, sans échéance de
-  republication à surveiller entre-temps (Sorède court jusqu'au 13/09/2026 par construction,
-  Argelès reste valide « jusqu'à nouvel ordre »). Sévérité maintenue HAUTE.
+verif: 2026-08-18
+statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche ciblée dans la presse quotidienne (requêtes
+  dédiées L'Indépendant, madeinperpignan, ICI Roussillon), aucun article postérieur au 29/07
+  (ouillade.eu) retrouvé. Un article intramuros.org remonté par la recherche s'est révélé
+  daté du 01/07/2026 (piège d'indexation, antérieur même à la détection de cette alerte) et
+  ne documente donc rien de nouveau. Aucun signal de levée. La base de l'alerte reste les deux
+  arrêtés eux-mêmes, non expirés (Sorède jusqu'au 13/09/2026, Argelès « jusqu'à nouvel ordre »),
+  pas la fraîcheur de la presse. Sévérité maintenue HAUTE.
 ordre: 35
 ---
 
 ## Portion concernée
 
-Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10 : **accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026** sur Argelès-sur-Mer (arrêté renforcé le 13/07, ARR2026-024PM), et **jusqu'au 13/09/2026 sur Sorède** (arrêté municipal n°26.216 du 17/06/2026, accès limité aux piétons et vélos musculaires/VAE). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels sur Argelès ; les randonneurs et cyclistes individuels restent interdits d'accès. Aucune de ces deux mesures n'a de clause de republication périodique : l'arrêté de Sorède court par construction jusqu'au 13/09, celui d'Argelès reste valide tant qu'aucune levée officielle n'est publiée. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée). Ces textes ont été retrouvés et datés précisément le 10/08/2026.
+Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10 : **accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026** sur Argelès-sur-Mer (arrêté renforcé le 13/07, ARR2026-024PM), et **jusqu'au 13/09/2026 sur Sorède** (arrêté municipal n°26.216 du 17/06/2026, accès limité aux piétons et vélos musculaires/VAE). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels sur Argelès ; les randonneurs et cyclistes individuels restent interdits d'accès. Aucune de ces deux mesures n'a de clause de republication périodique : l'arrêté de Sorède court par construction jusqu'au 13/09, celui d'Argelès reste valide tant qu'aucune levée officielle n'est publiée. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée). Ces textes ont été retrouvés et datés précisément le 10/08/2026. Vérifié à nouveau le 18/08/2026 : aucun signal de levée, les deux arrêtés demeurent en vigueur dans les mêmes termes.
 
 ## Alternative
 
@@ -45,6 +47,8 @@ MAJ 12/08 : nouvelle vérification de l'existence d'une publication postérieure
 MAJ 13/08 : nouvelle vérification, aucune levée ni republication trouvée. L'état déjà décrit (arrêté de Sorède jusqu'au 13/09/2026, arrêté d'Argelès jusqu'à nouvel ordre) reste la donnée la plus récente.
 
 MAJ 14/08 : nouvelle vérification ciblée, aucune levée ni republication trouvée. L'état décrit ci-dessus reste la donnée la plus récente.
+
+MAJ 18/08 : aucun article de presse postérieur au 29/07/2026 n'a été retrouvé sur l'accès au massif. Ce silence de la presse ne dit rien de l'état réel du terrain : l'interdiction repose sur deux arrêtés datés qui n'ont pas expiré, celui de Sorède jusqu'au 13/09/2026 et celui d'Argelès-sur-Mer jusqu'à nouvel ordre, et aucune source ne signale de levée de l'un ou de l'autre.
 
 ## Source
 

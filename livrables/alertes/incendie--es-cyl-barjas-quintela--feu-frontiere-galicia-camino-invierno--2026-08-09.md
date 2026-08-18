@@ -5,7 +5,7 @@ itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le trac�
 sev: MOYENNE
 validite: jusqu'à nouvel ordre ; dernier point connu 09/08/2026 20h22, IGR affiché à 0 (pas de confinement de population), aucune source postérieure trouvée à ce jour
 detection: 2026-08-10
-verif: 2026-08-17
+verif: 2026-08-18
 statut: ACTIF. Aucune source postérieure au 09/08 20h22 localisée malgré recherche ciblée
   (infobierzo, elbierzo.eldiario.es, presse Bierzo) : le foyer n'apparaît plus dans les
   derniers récapitulatifs provinciaux du 13/08, qui se concentrent sur les nouveaux départs
@@ -17,7 +17,10 @@ statut: ACTIF. Aucune source postérieure au 09/08 20h22 localisée malgré rech
   que le nom se répète dans plusieurs communes du Bierzo/León sans lien entre elles.
   15/08 : nouvelle recherche ciblée toujours infructueuse, le nom Barjas n'apparaît dans
   aucun récapitulatif postérieur au 09/08. Statut de résolution non tranché, à confirmer
-  au prochain passage.
+  au prochain passage. 18/08 : nouvelle recherche ciblée toujours infructueuse (requête
+  dédiée « incendio Barjas León agosto 2026 Quintela ») : seul l'article infobierzo du
+  09/08 remonte, aucun récapitulatif postérieur ne cite Barjas. Toujours pas au-delà du
+  délai de 14 jours (détection 10/08) : pas de dégradation de sévérité à ce stade.
 ordre: 103
 ---
 

@@ -3,16 +3,19 @@ cle: incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10
 type: incendie / fermeture sentier
 itin: GR10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
-validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 3e fois jusqu'au 17/08/2026 inclus
+validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 3e fois jusqu'au 17/08/2026 inclus, échéance atteinte sans confirmation de 4e reconduction à ce jour
 detection: 2026-07-20
-verif: 2026-08-17
-statut: ACTIF — INCHANGÉ 16/08 : ariege.gouv.fr et la presse locale (Pyrénées FM, France 3
-  Occitanie) revérifiés, rien de postérieur au 10/08. L'arrêté préfectoral d'interdiction de
-  l'usage du feu (3e reconduction) court jusqu'au 17/08/2026 inclus : son échéance n'est pas
-  encore atteinte à la date de cette vérification, une éventuelle 4e reconduction ou levée
-  reste à vérifier au prochain passage. Toujours aucune source sur une réouverture du
-  tronçon Ayès↔Cap des Lauses, qui reste fermé. Statut du GR10 à Seix/Col de Pause et Auzat
-  (feux distincts du 01-03/08) non retesté ce jour. Sévérité maintenue HAUTE.
+verif: 2026-08-18
+statut: ACTIF — INCHANGÉ 18/08 : recherche ciblée sur l'acte manquant (arrêté formel de
+  fermeture du tronçon Ayès↔Cap des Lauses, distinct de l'arrêté d'interdiction du feu) :
+  ariege.gouv.fr/Publications/Actualites relu directement, presse locale revérifiée (Pyrénées
+  FM, France 3 Occitanie, ruralites2024.fr), toujours aucun arrêté dédié trouvé ni aucune
+  source postérieure au 10/08 sur ce tronçon, qui reste sourcé par la presse citant l'ONF et
+  non par un acte publié. L'arrêté préfectoral d'interdiction totale de l'usage du feu (3e
+  reconduction) est arrivé à échéance le 17/08/2026 inclus : aucune 4e reconduction ni levée
+  n'a été trouvée à ce jour, à vérifier au prochain passage. Toujours aucune source sur une
+  réouverture du tronçon Ayès↔Cap des Lauses, qui reste fermé. Statut du GR10 à Seix/Col de
+  Pause et Auzat (feux distincts du 01-03/08) non retesté ce jour. Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
@@ -49,6 +52,8 @@ MAJ 05/08 : précision matérielle nouvelle, le GR10 est fermé entre l'étang d
 MAJ 13/08 : l'échéance du 10/08 de l'interdiction d'usage du feu, laissée ouverte au run précédent, est tranchée. Pyrénées FM publie le 10/08/2026 un article confirmant une 3e reconduction de l'arrêté préfectoral, désormais jusqu'au lundi 17/08/2026 inclus, motivée par l'engagement opérationnel intense des pompiers ariégeois en juillet et par des températures élevées attendues jusqu'au 15/08 (interdiction des feux d'artifice, feux de camp, barbecues à moins de 50 m de végétation, et de certains travaux forestiers ou de soudure). L'article ne mentionne pas le GR10 ni une éventuelle réouverture du tronçon Ayès↔Cap des Lauses, qui reste fermé faute de tout signal contraire.
 
 MAJ 14/08 : deux autres feux, distincts de celui de Bordes-Uchentein, sont apparus début août dans le même massif ariégeois du Couserans/Vicdessos, sans lien de cause établi avec l'incendie du 10/07 : au col de Pause (commune de Seix, sur le GR10 entre les étapes 30 et 31), un départ le 01/08 a parcouru 68 ha avant d'être fixé le 03/08 ; à Auzat (vallée du Vicdessos), un feu d'une dizaine d'hectares déclaré le même week-end a également été fixé le 03/08. La presse (Pyrénées FM, ruralites2024.fr) évoquait début août une fermeture partielle du GR10 décidée par la mairie d'Auzat pendant l'intervention, mais aucune source, y compris la page d'alertes municipales d'Auzat consultée le 14/08, ne documente l'état de cette portion depuis. Sans confirmation d'un tronçon fermé distinct de celui d'Ayès↔Cap des Lauses, aucune ligne registre séparée n'est créée ; piste ouverte en mémoire interne pour trancher l'état du secteur Seix/Auzat.
+
+MAJ 18/08 : toujours aucun arrêté formel de fermeture du tronçon Ayès↔Cap des Lauses localisé : ce tronçon reste sourcé par la presse (France 3 Occitanie, ruralites2024.fr) citant l'ONF, pas par un texte publié. L'arrêté d'interdiction totale de l'usage du feu, dont la 3e reconduction courait jusqu'au 17/08/2026 inclus, arrive à échéance sans qu'une 4e reconduction ou une levée n'ait été trouvée à ce jour sur ariege.gouv.fr ni dans la presse locale. Ce point, distinct de la fermeture du tronçon pour chutes de pierres, n'est pas encore tranché. Aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier.
 
 ## Source
 

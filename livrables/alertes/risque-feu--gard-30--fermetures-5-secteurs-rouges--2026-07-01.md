@@ -1,26 +1,27 @@
 ---
 cle: risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01
 type: risque feu / fermeture massifs
-itin: GR70 (Cévennes) — le secteur Nord Cévennes rejoint la liste rouge le 17/08, recoupement précis avec le tracé à faire ; GR653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR6
-  (corridor Pont-du-Gard/Remoulins/Uzès, secteur Garrigues)
+itin: GR653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR6 (corridor Pont-du-Gard/Remoulins/Uzès,
+  secteur Garrigues) ; GR70 (Cévennes) — hors zone rouge au classement du 18/08, était entré
+  brièvement le 17/08 dans le secteur Nord Cévennes
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-17
-statut: ACTIF — CHANGÉ 17/08 : après 9 jours de silence, gard.gouv.fr publie un nouveau
-  classement (« Lundi 17 août 2026 : risque incendie très sévère »), escaladé à 5 secteurs
-  rouges dont Nord Cévennes pour la première fois : le GR70 est potentiellement concerné,
-  sans que le tracé exact soit encore recoupé nommément avec la liste des communes.
+verif: 2026-08-18
+statut: ACTIF — CHANGÉ 18/08 : gard.gouv.fr publie un nouveau classement pour le mardi
+  18 août, qui retombe à 3 secteurs rouges (Gard Rhodanien, Garrigues, Costières Petite
+  Camargue, 94 communes), contre 5 la veille. Nord Cévennes et Gardon-Vidourle sortent de
+  la liste rouge après une seule journée : le GR70 n'est plus concerné.
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : cinq secteurs classés rouges au classement du lundi 17/08/2026, « Gard Rhodanien » (36 communes), « Garrigues » (49 communes), « Costières Petite Camargue » (9 communes), « Nord Cévennes » (44 communes) et « Gardon-Vidourle » (114 communes), soit 252 communes au total : **accès, circulation et présence interdits dans les massifs et espaces boisés concernés**. C'est une nette escalade par rapport au classement du 07/08 (2 secteurs rouges). Le secteur Nord Cévennes rejoint la liste rouge pour la première fois depuis le début du suivi de cette alerte : le GR70, qui traverse les Cévennes, est potentiellement concerné par ces 44 communes, sans que le tracé exact soit encore recoupé nommément avec la liste. En cause : un risque incendie très sévère.
+Gard : trois secteurs classés rouges au classement du mardi 18/08/2026, « Gard Rhodanien » (36 communes), « Garrigues » (49 communes) et « Costières Petite Camargue » (9 communes), soit 94 communes au total : **accès, circulation et présence interdits dans les massifs et espaces boisés concernés**. Les secteurs « Nord Cévennes » (44 communes) et « Gardon-Vidourle » (114 communes), classés rouges pour la première fois la veille, sortent de la liste après une seule journée : le GR70, qui traverse les Cévennes, n'est plus concerné par une interdiction d'accès à ce classement. En cause : un risque incendie très sévère.
 
 ## Alternative
 
-Le GR653 traverse le secteur Fourques/Beaucaire, en zone rouge (Gard Rhodanien) : consulter la page « risque incendie » de gard.gouv.fr le matin de l'étape. Le GR6 traverse le corridor Pont-du-Gard/Remoulins/Uzès, dans le secteur Garrigues, également classé rouge. Le statut du GR70 dans le nouveau secteur Nord Cévennes n'est pas encore recoupé précisément : par prudence, consulter la liste des 44 communes avant de partir. Le classement est décidé au jour le jour et un secteur peut rouvrir ou fermer sans préavis.
+Le GR653 traverse le secteur Fourques/Beaucaire, en zone rouge (Gard Rhodanien) : consulter la page « risque incendie » de gard.gouv.fr le matin de l'étape. Le GR6 traverse le corridor Pont-du-Gard/Remoulins/Uzès, dans le secteur Garrigues, également classé rouge. Le GR70 (Cévennes) n'est plus en zone rouge au classement du 18/08. Le classement est décidé au jour le jour et un secteur peut rouvrir ou fermer sans préavis : consulter la page « risque incendie » de gard.gouv.fr avant chaque étape.
 
 ## Zone (détails)
 
@@ -41,7 +42,8 @@ Le recoupement fin du tracé du GR653 avec le périmètre interdit (communes de 
 - 14/08 : la page du vendredi 14 août n'est toujours pas publiée sur gard.gouv.fr (404). Le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis sept jours.
 - 16/08 : aucune page datée du 08 au 16 août retrouvée sur gard.gouv.fr ; la liste des actualités du site place toujours les deux articles du 07/08 en tête. Le classement du vendredi 07/08/2026 (Gard Rhodanien, Garrigues) reste la dernière information officielle disponible, sans nouvelle page depuis neuf jours.
 - 17/08 : le silence de 9 jours se rompt. gard.gouv.fr publie « Lundi 17 août 2026 : risque incendie très sévère », qui escalade le classement à 5 secteurs rouges : Gard Rhodanien (36 communes), Garrigues (49 communes), Costières Petite Camargue (9 communes), Nord Cévennes (44 communes) et Gardon-Vidourle (114 communes), soit 252 communes au total. Le secteur Nord Cévennes rejoint la liste rouge pour la première fois depuis le début du suivi de cette alerte : le GR70 (Cévennes) était jusqu'ici jugé hors zone rouge, le recoupement nommé avec la liste des 44 communes n'est pas encore établi.
+- 18/08 : nouveau classement, publié le 17/08 pour le mardi 18 août. Le classement retombe à 3 secteurs rouges, Gard Rhodanien (36 communes), Garrigues (49 communes) et Costières Petite Camargue (9 communes), soit 94 communes au total. Nord Cévennes et Gardon-Vidourle, entrés dans la liste rouge la veille, en ressortent après une seule journée : le GR70 (Cévennes) n'est plus concerné par une interdiction d'accès à ce classement.
 
 ## Source
 
-[gard.gouv.fr, Lundi 17 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Lundi-17-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Vendredi 7 août 2026](https://www.gard.gouv.fr/Actualites/Vendredi-7-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 6 août 2026](https://www.gard.gouv.fr/Actualites/Jeudi-6-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 23 juillet 2026](https://www.gard.gouv.fr/Actualites/Jeudi-23-juillet-2026-risque-incendie-tres-severe)
+[gard.gouv.fr, Mardi 18 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Mardi-18-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Lundi 17 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Lundi-17-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Vendredi 7 août 2026](https://www.gard.gouv.fr/Actualites/Vendredi-7-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 6 août 2026](https://www.gard.gouv.fr/Actualites/Jeudi-6-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 23 juillet 2026](https://www.gard.gouv.fr/Actualites/Jeudi-23-juillet-2026-risque-incendie-tres-severe)

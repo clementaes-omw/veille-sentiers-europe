@@ -7,19 +7,19 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: HAUTE
-validite: feu déclaré stabilisé par la Junta de Andalucía au 16/08/2026 après dix jours
-  d'opération, niveau d'urgence redescendu de 2 à 1 dans le Plan Especial de Protección
-  Civil, retrait de l'UME entamé le 16/08 ; périmètre de 38 000 ha, phase finale mais pas
-  encore d'extinction formelle déclarée
+validite: feu déclaré stabilisé par la Junta de Andalucía depuis le 16/08/2026, niveau
+  d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite
+  Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
+  au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de
+  Riotinto (34 000 ha) ; pas encore d'extinction formelle déclarée
 detection: 2026-08-11
-verif: 2026-08-17
-statut: ACTIF — CHANGÉ 17/08 : le feu est désormais déclaré stabilisé par la Junta de
-  Andalucía après dix jours d'opération. Les 417 dernières personnes évacuées sont
-  autorisées à rentrer chez elles, le niveau d'urgence redescend de 2 à 1 et l'UME entame
-  son retrait le 16/08. Le feu entre en phase finale (refroidissement, surveillance des
-  points chauds) mais n'est pas encore formellement déclaré éteint. Sévérité maintenue
-  HAUTE en l'absence de déclaration d'extinction complète, à réévaluer à la baisse dès
-  qu'elle interviendra.
+verif: 2026-08-18
+statut: ACTIF — CHANGÉ 18/08 : le système satellite européen Copernicus, publié le
+  17/08, révise à la baisse la surface parcourue par le feu, de 38 000 à 33 000 ha,
+  ce qui replace l'incendie de Niebla au deuxième rang des plus grands feux
+  d'Andalousie derrière celui de Riotinto (2004, 34 000 ha). Le feu reste stabilisé
+  sans front actif depuis le 16/08, sévérité maintenue HAUTE en l'absence de
+  déclaration d'extinction formelle, à réévaluer à la baisse dès qu'elle interviendra.
 ordre: 105
 ---
 
@@ -30,10 +30,12 @@ Zalamea la Real, Villarrasa, Paterna del Campo et La Palma del Condado, avec une
 extension confirmée sur des hameaux de la province de Séville (El Madroño, Aznalcóllar
 et les pedanías d'El Álamo, Juan Antón, Juan Gallego, Villargordo). Feu de forêt déclaré
 le jeudi 06/08/2026 au lieu-dit Raboconejo (Niebla), désormais déclaré stabilisé par la
-Junta de Andalucía après dix jours d'opération. Le périmètre parcouru dépasse 38 000 ha
-(la Junta précise que la surface réellement brûlée est inférieure à ce chiffre, qui
-mesure le pourtour touché plutôt que la totalité incendiée), sur un tour d'environ
-120 km. Les 417 dernières personnes évacuées sont autorisées à rentrer chez elles, le
+Junta de Andalucía après dix jours d'opération. Le périmètre parcouru, d'abord estimé à
+38 000 ha sur le terrain (la Junta précisant que la surface réellement brûlée était
+inférieure à ce chiffre, qui mesure le pourtour touché plutôt que la totalité incendiée),
+sur un tour d'environ 120 km, a été réévalué le 17/08 à environ 33 000 ha par le système
+satellite européen Copernicus, ce qui en fait le deuxième plus grand feu d'Andalousie
+derrière celui de Riotinto (2004, 34 000 ha). Les 417 dernières personnes évacuées sont autorisées à rentrer chez elles, le
 niveau d'urgence redescend de 2 à 1 dans le Plan Especial de Protección Civil et l'UME
 entame son retrait le 16/08. Le feu entre en phase finale (refroidissement,
 surveillance des points chauds) mais n'est pas encore formellement déclaré éteint. La
@@ -147,6 +149,8 @@ Toujours aucune source ne documente d'impact sur un itinéraire balisé nommé.
 
 MAJ 17/08 : le feu est déclaré stabilisé par le président de la Junta de Andalucía après dix jours d'opération. Les 417 dernières personnes évacuées sont autorisées à rentrer chez elles. Le niveau d'urgence redescend de 2 à 1 dans le Plan Especial de Protección Civil ; l'UME entame son retrait dimanche 16/08. Le périmètre reste fixé à environ 38 000 ha ; le feu entre en phase finale mais n'est pas encore formellement déclaré éteint, les équipes poursuivant le refroidissement et la surveillance des points chauds. Toujours aucune source ne documente d'impact confirmé sur un itinéraire balisé nommé.
 
+MAJ 18/08 : le système satellite européen Copernicus, dans une mesure publiée le 17/08, réévalue la surface brûlée à environ 33 000 ha, contre 38 000 ha estimés jusque-là sur le terrain. Le feu de Niebla devient ainsi le deuxième plus grand incendie recensé en Andalousie, derrière celui de Riotinto en 2004 (34 000 ha). Des îlots de végétation préservés (jusqu'à 400 ha) subsistent à l'intérieur du périmètre parcouru, favorables à la régénération naturelle. Le feu reste stabilisé, sans front actif ; toujours aucune source ne documente d'impact confirmé sur un itinéraire balisé nommé.
+
 ## Source
 
 [Tecnobosque, analyse technique, mis à jour 11/08/2026 09h20](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [Infobae 11/08/2026, une fenêtre d'opportunité s'ouvre à Huelva tandis que le feu avance à Huesca](https://www.infobae.com/espana/agencias/2026/08/11/el-fuego-avanza-en-huesca-mientras-se-abre-una-ventana-de-oportunidad-en-huelva/) ; [theobjective.com 11/08/2026, carte des incendies actifs Niebla/Riglos](https://theobjective.com/sociedad/suceso/2026-08-11/mapa-incendios-activos-espana-niebla-riglos/) ; [Cuatro.com 11/08/2026, évolution des feux Huelva/Huesca/Segovia/Castellón](https://www.cuatro.com/noticias/sociedad/20260811/evolucion-fuegos-huelva-huesca-segovia-castellon_18_019931088.html) ; [Infobae 09/08/2026, le feu de Niebla affecte déjà 8 000 ha, 467 personnes évacuées](https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/) ;
@@ -169,4 +173,4 @@ MAJ 17/08 : le feu est déclaré stabilisé par le président de la Junta de And
 [El Español 15/08/2026, le feu de Niebla stagne et ouvre la voie à l'optimisme après 38 000 ha, 114 évacués rentrés](https://www.elespanol.com/espana/andalucia/20260815/incendio-niebla-estanca-abre-paso-optimismo-devastar-hectareas-desalojados-regresan-casa/1003744354032_0.amp.html) ;
 [Telecinco 15/08/2026, le feu de Niebla n'évolue « pour la première fois » pendant la nuit, retours d'évacués](https://www.telecinco.es/noticias/andalucia/20260815/ultima-hora-incendio-niebla-huelva-desalojados_18_019958529.html) ;
 [Canal Sur 15/08/2026 08h25, la fumée du feu de Niebla oblige à fermer la Reserva El Castillo de las Guardas](https://www.canalsur.es/noticias/andalucia/huelva/humo-incendio-niebla-obliga-cerrar_1_1429012.html) ;
-[Tecnobosque, mise à jour 15/08/2026 08h30](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [andaluciainformacion.es, 16/08/2026, le feu de Niebla est déclaré stabilisé, retour des derniers évacués](https://www.andaluciainformacion.es/) ; [infobae.com, 16/08/2026, le niveau d'urgence redescend de 2 à 1, retrait de l'UME](https://www.infobae.com/)
+[Tecnobosque, mise à jour 15/08/2026 08h30](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [andaluciainformacion.es, 16/08/2026, le feu de Niebla est déclaré stabilisé, retour des derniers évacués](https://www.andaluciainformacion.es/) ; [infobae.com, 16/08/2026, le niveau d'urgence redescend de 2 à 1, retrait de l'UME](https://www.infobae.com/) ; [El Español, 17/08/2026 14h28, le système Copernicus révise le feu de Niebla de 38 000 à 33 000 hectares brûlés, le deuxième plus grand d'Andalousie](https://www.elespanol.com/espana/andalucia/20260817/sistema-copernicus-rebaja-incendio-niebla-hectareas-quemadas-segundo-mayor-andalucia/1003744355319_0.html)

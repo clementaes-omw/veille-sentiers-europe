@@ -5,8 +5,10 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-17
-statut: ACTIF — CHANGÉ 16/08 : le compte officiel de la préfète de l'Hérault (X/Twitter,
+verif: 2026-08-18
+statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche, aucune carte plus récente que celle du
+  vendredi 14 août (7 secteurs orange, aucun rouge) localisée avec certitude. Le compte
+  officiel de la préfète de l'Hérault (X/Twitter,
   @Prefet34) publie une carte pour le vendredi 14 août sans secteur rouge, seulement
   7 secteurs classés en orange (risque élevé, accès déconseillé). Une nouvelle recherche
   confirme le même niveau pour le samedi 15/08/2026. C'est une décrue par rapport au dernier

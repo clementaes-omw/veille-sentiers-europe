@@ -5,7 +5,7 @@ itin: GRP Tour des Baronnies provençales (Drôme/Hautes-Alpes/Vaucluse) — [HY
 sev: MOYENNE
 validite: feu déclaré le 03/08/2026, encore non officiellement fixé (« ne progresse plus » selon la dernière source datée du 14/08/2026, sans nouvel élément à la vérification du 17/08/2026), aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur au-delà du régime saisonnier de droit commun
 detection: 2026-08-15
-verif: 2026-08-17
+verif: 2026-08-18
 statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche, situation inchangée par rapport au
   14/08 (feu toujours pas officiellement déclaré fixé, ne progresse plus, environ 450
   sapeurs-pompiers mobilisés). Aucune source postérieure au 14/08 trouvée. Aucun sentier

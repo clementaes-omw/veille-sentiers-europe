@@ -527,6 +527,7 @@ ALIAS_ZONE = {
     "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
     # Alpes du Nord
     "Savoie-Planay-Pralognan": "FR-ALPES-N",
+    "Savoie-Maurienne-Belleville": "FR-ALPES-N",
     # Alpes-Maritimes / Mercantour
     "Mercantour": "FR-06", "Boréon-Mercantour": "FR-06",
     # Pyrénées
@@ -546,6 +547,7 @@ ALIAS_ZONE = {
     "Réunion-974": "FR-974",
     # Suisse
     "CH-Europaweg-Randa-Zermatt": "CH-VALAIS-VAUD", "TMB-CH-Orsieres": "CH-VALAIS-VAUD",
+    "CH-Vaud-Sainte-Croix-Baulmes": "CH-VALAIS-VAUD",
     # Italie
     "IT-ValGrande": "IT-NO", "VF-Lazio-Prato-La-Corte": "IT-CENTRE",
     # Allemagne — un code national ne peut pas porter un marqueur juste : le Malerweg

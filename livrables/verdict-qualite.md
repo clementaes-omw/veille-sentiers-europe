@@ -1,118 +1,99 @@
-# Verdict qualité — 2026-08-17
+# Verdict qualité — 2026-08-18
 
-Vérificateur distinct de l'agent de veille du jour. 11 fiches contrôlées, celles listées par
-`livrables/audit-qualite.md` (run du 2026-08-17, avant correction) — aucune autre fiche du
-dossier n'a été ouverte ni modifiée. Deux fiches de ce lot (`Drome-Justin-Die`,
-`Savoie-Planay-Pralognan`) avaient été touchées ce matin par l'agent de veille ; leur contenu
-factuel a été confirmé correct, seul le format a été retouché, conformément au principe
-« un agent qui valide sa propre production ne valide rien ».
+Contrôle mené par l'agent Vérificateur Qualité (agent distinct de la veille : aucune des
+fiches ci-dessous n'a été écrite par ce contrôle). Périmètre : les 5 fiches citées par
+`livrables/audit-qualite.md` du 2026-08-18 (6 constats, 0 bloquant, sur 92 fiches / 73
+actives). Après corrections, `python3 site/build_site.py` rend « OK (QA passée) » et
+`python3 site/audit_qualite.py` ne signale plus aucun BLOQUANT sur les fiches touchées
+(0 bloquant avant comme après ; 6 constats ALERTE ramenés à 5, tous non bloquants).
 
-## ⚠️ Chantier de fond à signaler (ne pas traiter au fil de l'eau)
+## 1. `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`
 
-**Bug confirmé dans `site/build_site.py::parse_alerte()`** (non corrigé, hors périmètre de cet
-agent) : le parseur ne lit que la PREMIÈRE ligne de chaque champ de front-matter
-(`champ: valeur`) ; toute ligne de continuation indentée sans « : » est silencieusement
-ignorée — aussi bien par le site que par `audit_qualite.py`. Balayage du dossier complet
-(lecture seule, aucune modification) :
-- **70 des 89 fiches** ont au moins un champ de front-matter replié sur plusieurs lignes
-  (`cle`, `type`, `itin`, `sev`, `validite`, `detection`, `verif`, `statut`, `ordre`).
-  La plupart concernent `statut:`, qui est INVISIBLE sur le site et dont le marqueur utile
-  (`ACTIF`/`[CLÔTURÉ]`) est toujours en tête de champ : impact pratique nul dans ce cas.
-- **16 champs PUBLICS tronqués sur 11 fiches** (hors les 8 déjà corrigées ci-dessous) :
-  `fermeture--drome-omblese--…` (sev, validite), `incendie--aude-conques-sur-orbiel--…` (itin),
-  `incendie--es-and-niebla--…` (itin, validite),
-  `incendie--es-ara-huesca-riglos--…` (itin, validite),
-  `incendie--es-cyl-hermisende-sanabria--…` (itin, validite),
-  `incendie--gr34-capfrehel--…` (validite), `incendie--herault-34-pegairolles-escalette--…`
-  (itin, validite), `incendie--uk-cairngorms-glenmore--…` (validite),
-  `risque-feu--gard-30--…` (itin). Ces fiches affichent une phrase coupée en milieu de mot sur
-  le site (Itinéraires ou Validité) — c'est le même défaut que celui corrigé ce jour sur
-  `Drome-Bellegarde-en-Diois`, `Lozere-Massegros`, `Drome-Justin-Die`, `Savoie-Planay-Pralognan`,
-  `Aude-Montseret`. Aucune de ces 11 fiches n'était citée par l'audit du jour : je ne les ai
-  donc pas touchées (hors périmètre), mais elles justifient une passe dédiée, pas un
-  raccommodage fiche par fiche au fil des audits futurs.
+- **FRAÎCHEUR** : FAIL. Vérifiée il y a 4 j, seuil 2 j (fermetures décidées au jour le
+  jour, sans calendrier fixe). Corriger cela exige une lecture fraîche de samaria.gr — une
+  source nouvelle, hors périmètre du contrôle qualité.
+- **CONCORDANCE INTERNE** : PASS. Portion concernée, statut et zone racontent la même
+  chose.
+- **HONNÊTETÉ** : PASS. Le texte dit explicitement qu'aucune source postérieure au 31/07
+  n'a été trouvée et renvoie le lecteur à samaria.gr avant l'étape.
+- Aucune correction appliquée. **À traiter au prochain run** : revérifier le statut du jour
+  (samaria.gr, cretalive.gr, inewsgr.com) avant publication.
 
-## Corrections appliquées (dans mon périmètre — forme, information constante)
+## 2. `infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15`
 
-1. **`incendie|Aude-Montseret-Corbieres|feu-fixe-100ha|2026-08-06`** — `validite:` réécrite
-   (retire l'auto-référence datée du 14/08 qui se lisait comme une échéance expirée ;
-   `itin:` rejointe sur une ligne, elle était tronquée par le bug de parsing).
-2. **`incendie|Lozere-Massegros-Causses-Gorges|feu-fixe-153ha|2026-08-09`** — même correction
-   (`validite:` et `itin:`).
-3. **`incendie|Drome-Bellegarde-en-Diois|feu-massif-Claps-400ha|2026-08-03`** — `validite:` et
-   `itin:` rejointes (étaient tronquées : la validité s'arrêtait en plein milieu de phrase sur
-   « (« ne » avec un guillemet français non fermé, publié tel quel sur le site).
-4. **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — `validite:` rejointe sur une
-   ligne (le site affichait « …arrêté du 17/07/2026 » sans fermer la parenthèse). Contenu
-   factuel de la mise à jour du jour (dégradation HAUTE→MOYENNE, règle des 14 jours) laissé
-   intact : seul le format était en cause, comme annoncé.
-5. **`incendie|Savoie-Planay-Pralognan|RD915-refuges-Vanoise|2026-07-07`** — `validite:`
-   rejointe sur une ligne (le site affichait « …travaux de » coupé net, sans même mentionner
-   la date de fin des travaux). Contenu factuel du jour laissé intact.
-6. **`incendie|Var-Ginasservis|feu-30ha-RD30-coupee|2026-08-14`** — `validite:` complétée
-   (« sans nouvelle information à la vérification du 17/08/2026 ») pour ne plus se lire comme
-   une échéance dépassée alors que la coupure RD30 est un état constaté, pas expiré.
-7. **`incendie|Var-Gros-Bessillon|feu-actif-Ponteves-Cotignac-Correns|2026-07-22`** — même
-   correction sur `validite:`.
-8. **`infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15`** — « Portion concernée »
-   et `validite:` réécrites : le texte affirmait au présent que la circulation « sera
-   rétablie » le 14/08, date désormais passée sans confirmation. Reformulé pour dire au
-   lecteur ce qui est confirmé (annonce APDL du 06/08) et ce qui ne l'est pas (reprise
-   effective non reconfirmée) — cf. contrôle HONNÊTETÉ. **Reste listée « à traiter » :
-   nécessite une source nouvelle, voir ci-dessous.**
+- **FRAÎCHEUR** : PASS (vérifiée le 17/08, hier).
+- **validité échue alors que fiche ACTIVE** : FAIL déterministe (échéance 14/08 dépassée).
+  **Corrigé** : `validite:` et `statut:` réécrits pour dire en clair que l'échéance de
+  réouverture annoncée par l'APDL est dépassée et que la réouverture effective n'est
+  confirmée par aucune source postérieure — sans l'un ni l'autre affirmer une clôture non
+  établie. Aucun fait ajouté, aucun supprimé.
+- Reste **signalé, pas corrigé** (demande une source nouvelle) : confirmer si la
+  circulation a effectivement repris le 14/08 ou reste bloquée (chantier connu pour ses
+  retards) ; clôturer si confirmé.
 
-Après ces 8 corrections : `python3 site/build_site.py` → **OK (QA passée)** ;
-`python3 site/audit_qualite.py` → passé de 11 à **4 constats, 0 bloquant** (inchangé : le
-score bloquant était déjà à 0 avant intervention).
+## 3. `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`
 
-## À traiter au prochain run (nécessite une source nouvelle — hors périmètre)
+- **validité échue alors que fiche ACTIVE** : FAIL déterministe (échéance 15/08 dépassée).
+  **Corrigé** : `validite:`, `statut:`, « Portion concernée » et « Alternative » réécrits
+  pour dire en clair que la fenêtre annoncée (01-15/08) est dépassée et que la réouverture
+  n'est confirmée par aucune source. Pas de clôture appliquée : je n'ai pas de source
+  postérieure au 15/08 attestant d'une réouverture (ou de sa prolongation), et la clôture
+  n'est pas listée dans mon périmètre de correction directe pour une validité échue — seule
+  la reformulation l'est.
+- Reste **signalé, pas corrigé** : vérifier caminsdepedra.conselldemallorca.es pour
+  confirmer réouverture ou prolongation ; clôturer selon le résultat.
 
-- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — FAIL contrôle 1
-  (FRAÎCHEUR) : `verif: 2026-08-14`, soit 3 j, alors que la fiche annonce elle-même des
-  fermetures « décidées au jour le jour » (seuil 2 j). Action : revérifier samaria.gr /
-  sources grecques datées, mettre à jour `verif:` et la « Portion concernée » avec le statut
-  du jour.
-- **`infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15`** — FAIL contrôle 4
-  (PERTINENCE) : la réouverture était annoncée pour le 14/08/2026, désormais passé, sans
-  confirmation. Action : chercher une source postérieure au 14/08 confirmant (ou infirmant)
-  la reprise de la circulation ; si confirmée, clôturer la fiche.
-- **`risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`** — FAIL contrôle 7 (source
-  vieillie, 19 j) sur une alerte ROUGE. J'ai vérifié la source citée (ouillade.eu) : elle est
-  vivante et porte bien l'information annoncée (arrêté d'Argelès-sur-Mer du 10/07, dérogation
-  VTT du 24/07). **Recommandation : la sévérité HAUTE reste justifiée** — contrairement au cas
-  classique de l'« hypothèse non tranchée », cette alerte repose sur deux arrêtés municipaux
-  datés et retrouvés (Sorède n°26.216, valide jusqu'au 13/09/2026 ; Argelès ARR2026-024PM,
-  « jusqu'à nouvel ordre »), pas sur un « à confirmer ». Action : rechercher une publication
-  de moins de 10 j confirmant le statut du jour, sans urgence de dégradation.
-- **`risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`** — FAIL contrôle 7
-  (source vieillie, 12 j) sur une alerte ROUGE. Source citée (presseagence.fr) vérifiée
-  vivante et conforme. **Recommandation : HAUTE maintenue** pour l'instant (fermeture
-  quasi quotidienne documentée sur 7 dates distinctes depuis le 17/07, pas de mention
-  « à confirmer »/« probable » dans la Portion concernée — le déclencheur des 14 jours ne
-  s'applique donc pas littéralement). À surveiller : si aucune publication postérieure au
-  06/08 n'est trouvée d'ici le 23/08/2026 (14 j après détection du 09/08), réexaminer la
-  sévérité conformément à la règle du prompt.
+## 4. `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`
 
-## Contrôles — bilan sur les 11 fiches
+- **CONCORDANCE INTERNE** : FAIL déterministe (Portion concernée datée du 10/08, statut/zone
+  à jour au 18/08, 8 j d'écart). **Corrigé** : phrase ajoutée en fin de « Portion
+  concernée » portant le constat au 18/08 (aucun signal de levée, deux arrêtés toujours en
+  vigueur), sans rien retirer du texte existant.
+- **Règle des 14 jours (hypothèse non tranchée)** : vérifiée, NE S'APPLIQUE PAS. La
+  « Portion concernée » ne repose sur aucun des marqueurs d'hypothèse (« à confirmer »,
+  « probable », « non localisé », « recoupement en cours ») : l'alerte s'appuie sur deux
+  arrêtés municipaux datés et non expirés (Sorède jusqu'au 13/09/2026, Argelès « jusqu'à
+  nouvel ordre »), pas sur une allégation en attente de preuve. Détection le 20/07 (29 j),
+  mais rien à trancher : les actes sont déjà trouvés.
+- **SÉVÉRITÉ (source de 20 j)** : PASS motivé, pas de dégradation recommandée. La sévérité
+  HAUTE repose sur les arrêtés eux-mêmes, non sur l'ancienneté de la couverture presse.
+  Recommandation non appliquée : poursuivre la recherche ciblée d'une publication plus
+  récente pour rafraîchir la source, sans quoi rien ne change au fond.
+- **SOURCE VIVANTE** : PASS. Les 4 URLs de source répondent (HTTP 200 vérifié ce contrôle).
 
-| Contrôle | Résultat |
-|---|---|
-| 1. FRAÎCHEUR | 10 PASS, 1 FAIL non corrigeable en périmètre (Creta-Samaria, ci-dessus) |
-| 2. CONCORDANCE INTERNE | 8 FAIL corrigés (troncature multi-lignes ou auto-référence datée périmée) ; 3 PASS d'emblée (Ginasservis¹, Gros-Bessillon¹, Matosinhos corrigé en 3.) |
-| 3. HONNÊTETÉ | 1 FAIL corrigé (Matosinhos) ; 10 PASS |
-| 4. PERTINENCE | 11 PASS formel ; 1 recommandation de suivi (Matosinhos, clôture si non reconfirmé) ; note : Montseret et Massegros (feu fixé depuis 11 j / 7 j, aucune fermeture de sentier jamais documentée) sont à surveiller pour clôture si le silence des sources se prolonge encore 2-3 semaines — pas de FAIL aujourd'hui |
-| 5. SÉVÉRITÉ JUSTE | 11 PASS — les deux alertes ROUGE (Albères, Esterel-Tanneron) reposent sur des textes datés et non expirés, pas sur une hypothèse ; sévérité maintenue |
-| 6. TON | 11 PASS après correction (aucun jargon de veille détecté en public ; aucun tiret cadratin introduit) |
-| 7. SOURCE VIVANTE | vérifiée sur les 2 alertes ROUGE du lot (Albères, Esterel-Tanneron) : les deux sources citées répondent et portent bien l'information annoncée |
+## 5. `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`
 
-¹ Ginasservis et Gros-Bessillon avaient un FAIL contrôle 2 au sens strict de l'audit
-(validité lue comme expirée) mais la Portion concernée elle-même était déjà exacte — corrigé
-par la même réécriture de `validite:`.
+- **FRAÎCHEUR / CONCORDANCE** : PASS (vérifiée aujourd'hui, aucun décrochage détecté).
+- **Règle des 14 jours** : ne s'applique pas encore — détection 09/08, seuil atteint le
+  23/08 seulement, et le texte ne repose sur aucun marqueur d'hypothèse non tranchée (fait
+  matériel établi : fermetures quasi quotidiennes documentées jusqu'au 06/08).
+- **SÉVÉRITÉ (source de 13 j)** : PASS motivé, pas de dégradation recommandée à ce stade.
+  Aucune correction appliquée.
+- **SOURCE VIVANTE** : PASS. Les 5 URLs de source répondent (HTTP 200).
+- **À surveiller au prochain run** : si aucune source postérieure au 06/08 n'est trouvée
+  d'ici le 23/08, la règle des 14 jours s'appliquera d'autorité (dégradation MOYENNE +
+  mention explicite de l'absence d'acte).
 
-## Après correction
+## Corrections appliquées (fichiers touchés)
 
-- `python3 site/build_site.py` → `OK (QA passée) → site/index.html (71 actives, 18 clôturées, …)`
-- `python3 site/audit_qualite.py --ecrire` → **0 bloquant, 4 alerte(s), 0 info(s)** (contre 0
-  bloquant, 11 alerte(s) avant intervention). Les 4 constats restants nécessitent tous une
-  source nouvelle (voir section dédiée) : ce n'est pas du ressort du Vérificateur.
-- Carte : 0 alerte perdue, cohérence inchangée.
+- `livrables/alertes/infrastructure--matosinhos-pt--pont-levadizo-ferme--2026-06-15.md`
+- `livrables/alertes/refuge--gr221-222-mallorca--refuges-consell-fermes--2026-08-01.md`
+- `livrables/alertes/risque-feu--alberes-66--fermeture-massif-gr10--2026-07-10.md`
+
+Aucune fiche non citée par l'audit n'a été modifiée. Aucune fiche n'a été supprimée ni
+clôturée.
+
+## Actions laissées à l'agent de veille (prochain run)
+
+1. `fermeture|GR-E4-Creta-Samaria|…` — revérifier le statut du jour (samaria.gr et
+   presse grecque), fraîcheur en FAIL depuis 4 j sur un seuil de 2 j.
+2. `infrastructure|Matosinhos-PT|…` — confirmer ou infirmer la réouverture effective du
+   pont annoncée pour le 14/08 ; clôturer si confirmée.
+3. `refuge|GR221-222-Mallorca|…` — confirmer réouverture ou prolongation de la fermeture
+   des refuges (échéance 15/08 dépassée) ; clôturer selon le résultat.
+4. `risque-feu|Alberes-66|…` — recherche ciblée d'une publication de presse postérieure
+   au 29/07 pour rafraîchir la source (la sévérité reste justifiée par les arrêtés en
+   attendant).
+5. `risque-feu|FR-06-AlpesMaritimes|…` — recherche ciblée d'une publication postérieure au
+   06/08 ; à défaut, dégradation MOYENNE d'autorité si le seuil des 14 j (23/08) est atteint
+   sans nouvelle source.

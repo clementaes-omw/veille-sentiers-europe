@@ -6,18 +6,17 @@ sev: MOYENNE (dégradée 17/08 — règle des 14 jours : aucun arrêté officiel
   maintien de la fermeture n'a pu être localisé malgré recherche ciblée dédiée)
 validite: le massif reste fermé de fait (dernière fermeture connue : arrêté du 17/07/2026 cité par une source touristique départementale) ; aucune source officielle (préfecture, DDT, ONF, recueil des actes administratifs) ne confirme cet arrêté ni son maintien, y compris à la recherche ciblée menée le 17/08/2026 dans le recueil des actes administratifs
 detection: 2026-07-18
-verif: 2026-08-17
-statut: ACTIF — CHANGÉ 17/08 : dégradation HAUTE→MOYENNE (règle des 14 jours). Recherche
-  ciblée dédiée menée ce jour dans le recueil des actes administratifs de la Drôme, sur
-  drome.gouv.fr (page réglementaire « Accès aux massifs forestiers en période estivale »
-  et page « Point de situation ») : aucun texte officiel ne mentionne ni ne confirme
-  l'arrêté du 17/07/2026 cité par drome-cestmanature.com, seule source qui le porte
-  depuis le 12/08. La détection remonte au 18/07 (30 jours), le silence officiel de
-  drome.gouv.fr dure depuis le 16/07 (32 jours) : le seuil des 14 jours est franchi.
+verif: 2026-08-18
+statut: ACTIF — INCHANGÉ 18/08 : recherche ciblée reconduite sur l'acte manquant. Une
+  recherche sur le recueil des actes administratifs et la presse locale fait remonter un
+  arrêté préfectoral n°26-2026-6, daté du 3 juillet 2026, qui interdit l'accès au massif de
+  Justin jusqu'à nouvel ordre : c'est un texte distinct de celui du 17/07/2026 cité par
+  drome-cestmanature.com, et il ne fixe lui-même aucune échéance (ni date fixe, ni condition
+  de fin explicite retrouvée dans les extraits consultés). Il ne permet donc pas de confirmer
+  ni d'infirmer le maintien de l'arrêté du 17/07 ; le PDF officiel de l'arrêté n°26-2026-6
+  n'a pas pu être ouvert pour vérifier son texte complet, à retenter au run suivant.
   Rattachement GR9/GR93 non retesté ce jour, toujours affaibli depuis le 03/08 (probable
-  GR95). Un feu distinct, plus au sud du département (massif du Claps, Bellegarde-en-Diois,
-  parti le 03/08, toujours pas fixé au 16/08), fait l'objet d'une fiche dédiée
-  `incendie|Drome-Bellegarde-en-Diois|…`, sans lien de cause avec Justin/Die.
+  GR95). Sévérité maintenue MOYENNE.
 ordre: 31
 ---
 
