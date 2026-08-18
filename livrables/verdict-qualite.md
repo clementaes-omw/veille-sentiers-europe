@@ -9,7 +9,7 @@ actives). Après corrections, `python3 site/build_site.py` rend « OK (QA passé
 
 ## 1. `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`
 
-- **FRAÎPCHEUR** : FAIL. Vérifiée il y a 4 j, seuil 2 j (fermetures décidées au jour le
+- **FRAÎCHEUR** : FAIL. Vérifiée il y a 4 j, seuil 2 j (fermetures décidées au jour le
   jour, sans calendrier fixe). Corriger cela exige une lecture fraîche de samaria.gr — une
   source nouvelle, hors périmètre du contrôle qualité.
 - **CONCORDANCE INTERNE** : PASS. Portion concernée, statut et zone racontent la même
@@ -21,7 +21,7 @@ actives). Après corrections, `python3 site/build_site.py` rend « OK (QA passé
 
 ## 2. `infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15`
 
-- **FRAÎPCHEUR** : PASS (vérifiée le 17/08, hier).
+- **FRAÎCHEUR** : PASS (vérifiée le 17/08, hier).
 - **validité échue alors que fiche ACTIVE** : FAIL déterministe (échéance 14/08 dépassée).
   **Corrigé** : `validite:` et `statut:` réécrits pour dire en clair que l'échéance de
   réouverture annoncée par l'APDL est dépassée et que la réouverture effective n'est
@@ -55,15 +55,15 @@ actives). Après corrections, `python3 site/build_site.py` rend « OK (QA passé
   arrêtés municipaux datés et non expirés (Sorède jusqu'au 13/09/2026, Argelès « jusqu'à
   nouvel ordre »), pas sur une allégation en attente de preuve. Détection le 20/07 (29 j),
   mais rien à trancher : les actes sont déjà trouvés.
-- **SÉVÉRITÉ (source de 20 j)** : PASS motivé, pas de dégradation recommandée. La
-  sévérité HAUTE repose sur les arrêtés eux-mêmes, non sur l'ancienneté de la couverture
-  presse. Recommandation non appliquée : poursuivre la recherche ciblée d'une publication
-  plus récente pour rafraîchir la source, sans quoi rien ne change au fond.
+- **SÉVÉRITÉ (source de 20 j)** : PASS motivé, pas de dégradation recommandée. La sévérité
+  HAUTE repose sur les arrêtés eux-mêmes, non sur l'ancienneté de la couverture presse.
+  Recommandation non appliquée : poursuivre la recherche ciblée d'une publication plus
+  récente pour rafraîchir la source, sans quoi rien ne change au fond.
 - **SOURCE VIVANTE** : PASS. Les 4 URLs de source répondent (HTTP 200 vérifié ce contrôle).
 
 ## 5. `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`
 
-- **FRAÎPCHEUR / CONCORDANCE** : PASS (vérifiée aujourd'hui, aucun décrochage détecté).
+- **FRAÎCHEUR / CONCORDANCE** : PASS (vérifiée aujourd'hui, aucun décrochage détecté).
 - **Règle des 14 jours** : ne s'applique pas encore — détection 09/08, seuil atteint le
   23/08 seulement, et le texte ne repose sur aucun marqueur d'hypothèse non tranchée (fait
   matériel établi : fermetures quasi quotidiennes documentées jusqu'au 06/08).
@@ -85,15 +85,15 @@ clôturée.
 
 ## Actions laissées à l'agent de veille (prochain run)
 
-1. `fermeture|GR-E4-Creta-Samaria|...` — revérifier le statut du jour (samaria.gr et
+1. `fermeture|GR-E4-Creta-Samaria|…` — revérifier le statut du jour (samaria.gr et
    presse grecque), fraîcheur en FAIL depuis 4 j sur un seuil de 2 j.
-2. `infrastructure|Matosinhos-PT|...` — confirmer ou infirmer la réouverture effective du
+2. `infrastructure|Matosinhos-PT|…` — confirmer ou infirmer la réouverture effective du
    pont annoncée pour le 14/08 ; clôturer si confirmée.
-3. `refuge|GR221-222-Mallorca|...` — confirmer réouverture ou prolongation de la fermeture
+3. `refuge|GR221-222-Mallorca|…` — confirmer réouverture ou prolongation de la fermeture
    des refuges (échéance 15/08 dépassée) ; clôturer selon le résultat.
-4. `risque-feu|Alberes-66|...` — recherche ciblée d'une publication de presse postérieure
+4. `risque-feu|Alberes-66|…` — recherche ciblée d'une publication de presse postérieure
    au 29/07 pour rafraîchir la source (la sévérité reste justifiée par les arrêtés en
    attendant).
-5. `risque-feu|FR-06-AlpesMaritimes|...` — recherche ciblée d'une publication postérieure au
+5. `risque-feu|FR-06-AlpesMaritimes|…` — recherche ciblée d'une publication postérieure au
    06/08 ; à défaut, dégradation MOYENNE d'autorité si le seuil des 14 j (23/08) est atteint
    sans nouvelle source.
