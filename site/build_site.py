@@ -1840,7 +1840,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   }});
 
   // impression : on ouvre les volets « Détails » le temps du tirage, sinon la
-  // feuille sort amputeée de la moitié de ce qu'on venait chercher.
+  // feuille sort amputeé de la moitié de ce qu'on venait chercher.
   window.addEventListener('beforeprint', function () {{
     document.querySelectorAll('.card details:not([open])').forEach(function (d) {{
       d.open = true; d.setAttribute('data-print-open', '');
