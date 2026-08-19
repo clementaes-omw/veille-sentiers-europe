@@ -3,7 +3,10 @@ cle: incendie|Savoie-Maurienne-Belleville|feux-vegetation-lachapelle-saintpierre
 type: incendie
 itin: GRP Tour de la Haute-Maurienne (secteur La Chapelle) [HYPOTHÈSE — proximité de zone, aucune source consultée ne documente de fermeture de sentier ou de route liée à ces deux feux]
 sev: INFO
-validite: La Chapelle (Maurienne) stabilisé depuis le 16/08 au matin (18 ha) ; Saint-Pierre-de-Belleville en cours d'intensification au dernier point connu (16/08), aucune source postérieure trouvée
+validite: statut maintenu jusqu'à nouvel ordre en l'absence de source plus récente ; La
+  Chapelle (Maurienne) stabilisé depuis le 16/08 au matin (18 ha) ; Saint-Pierre-de-Belleville
+  en cours d'intensification au dernier point connu (16/08), aucune source postérieure
+  trouvée
 detection: 2026-08-18
 verif: 2026-08-18
 statut: ACTIF — NOUVEAU : deux feux de végétation distincts en Savoie, l'un stabilisé
