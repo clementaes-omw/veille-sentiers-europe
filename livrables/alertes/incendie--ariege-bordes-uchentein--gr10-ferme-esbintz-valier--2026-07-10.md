@@ -5,7 +5,7 @@ itin: GR10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 3e fois jusqu'au 17/08/2026 inclus, échéance atteinte sans confirmation de 4e reconduction à ce jour
 detection: 2026-07-20
-verif: 2026-08-18
+verif: 2026-08-19
 statut: ACTIF — INCHANGÉ 18/08 : recherche ciblée sur l'acte manquant (arrêté formel de
   fermeture du tronçon Ayès↔Cap des Lauses, distinct de l'arrêté d'interdiction du feu) :
   ariege.gouv.fr/Publications/Actualites relu directement, presse locale revérifiée (Pyrénées
