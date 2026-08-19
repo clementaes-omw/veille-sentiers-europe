@@ -7,13 +7,14 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: HAUTE
-validite: feu déclaré stabilisé par la Junta de Andalucía depuis le 16/08/2026, niveau
-  d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite
-  Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
-  au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de
-  Riotinto (34 000 ha) ; pas encore d'extinction formelle déclarée
+validite: statut maintenu jusqu'à nouvel ordre, dans l'attente d'une déclaration
+  d'extinction formelle non encore publiée ; feu déclaré stabilisé par la Junta de
+  Andalucía depuis le 16/08/2026, niveau d'urgence à 1 dans le Plan Especial de
+  Protección Civil ; le système satellite Copernicus réévalue le 17/08 la surface
+  brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le deuxième plus
+  grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
 detection: 2026-08-11
-verif: 2026-08-18
+verif: 2026-08-19
 statut: ACTIF — CHANGÉ 18/08 : le système satellite européen Copernicus, publié le
   17/08, révise à la baisse la surface parcourue par le feu, de 38 000 à 33 000 ha,
   ce qui replace l'incendie de Niebla au deuxième rang des plus grands feux
@@ -129,7 +130,7 @@ MAJ 16/08 : le vice-président de la Junta, Antonio Sanz, confirme que le feu n'
 progressé sur aucun de ses fronts pendant la nuit du 14 au 15/08, une première depuis le
 déclenchement du 06/08, après huit journées qualifiées de « grande complexité » ; les
 autorités évoquent le « début de la fin » de l'incendie, sous réserve que la fenêtre
-météo tienne sur le week-end. La croissance de la surface parcourue continue de
+méteo tienne sur le week-end. La croissance de la surface parcourue continue de
 ralentir sur trois jours consécutifs (+12 000 ha, puis +6 000 ha, puis +3 000 ha en
 24h). Les retours de population s'accélèrent : 60 riverains rentrés le 14/08 au soir,
 114 de plus dans la nuit du 14 au 15/08 (dispersés de Zalamea la Real, El Pozuelo,
