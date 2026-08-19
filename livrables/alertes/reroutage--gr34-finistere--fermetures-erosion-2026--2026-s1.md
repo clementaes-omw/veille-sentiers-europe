@@ -5,7 +5,7 @@ itin: GR34
 sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
-verif: 2026-08-12
+verif: 2026-08-19
 statut: ACTIF — INCHANGÉ 05/08 : reconfirmé via finistere.ffrandonnee.fr (MAJ 31/07), chaque
   site désormais daté individuellement à sa première publication. Aucune fermeture nouvelle.
   Point à trancher : Pointe de Rosmellec (Crozon, fermée depuis le 02/04) à ne pas confondre

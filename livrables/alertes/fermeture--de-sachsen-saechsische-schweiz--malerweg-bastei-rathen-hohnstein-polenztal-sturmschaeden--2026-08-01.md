@@ -5,7 +5,7 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation vraisemblable au-delà de cette date (le parc annonce des restrictions pour plusieurs semaines supplémentaires et des travaux de dégagement par hélicoptère début septembre) mais non confirmée officiellement ; réouverture progressive depuis le 07/08/2026 (Basteiweg puis Polenztal, Schwedenlöcher et haut de l'Amselgrund le 14/08) ; seuls l'Amselsee et le bas de l'Amselgrund (Rathen↔Schwedenlöcher) restent fermés au 16/08/2026
 detection: 2026-08-06
-verif: 2026-08-18
+verif: 2026-08-19
 statut: ACTIF — CHANGÉ 16/08 : aucun tronçon supplémentaire rouvert depuis le 14/08, mais
   l'article du parc daté du 14/08 (nationalpark-saechsische-schweiz.de, « Freischneidearbeiten
   schreiten weiter schnell voran ») précise pour la première fois que des restrictions restent

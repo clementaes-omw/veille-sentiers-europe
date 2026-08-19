@@ -5,7 +5,7 @@ itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le trac�
 sev: MOYENNE
 validite: jusqu'à nouvel ordre ; dernier point connu 09/08/2026 20h22, IGR affiché à 0 (pas de confinement de population), aucune source postérieure trouvée à ce jour
 detection: 2026-08-10
-verif: 2026-08-18
+verif: 2026-08-19
 statut: ACTIF. Aucune source postérieure au 09/08 20h22 localisée malgré recherche ciblée
   (infobierzo, elbierzo.eldiario.es, presse Bierzo) : le foyer n'apparaît plus dans les
   derniers récapitulatifs provinciaux du 13/08, qui se concentrent sur les nouveaux départs

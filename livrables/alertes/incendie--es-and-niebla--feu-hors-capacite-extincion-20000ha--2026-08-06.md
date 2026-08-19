@@ -7,13 +7,14 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: HAUTE
-validite: feu déclaré stabilisé par la Junta de Andalucía depuis le 16/08/2026, niveau
-  d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite
-  Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés
-  au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de
-  Riotinto (34 000 ha) ; pas encore d'extinction formelle déclarée
+validite: statut maintenu jusqu'à nouvel ordre, dans l'attente d'une déclaration
+  d'extinction formelle non encore publiée ; feu déclaré stabilisé par la Junta de
+  Andalucía depuis le 16/08/2026, niveau d'urgence à 1 dans le Plan Especial de
+  Protección Civil ; le système satellite Copernicus réévalue le 17/08 la surface
+  brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le deuxième plus
+  grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
 detection: 2026-08-11
-verif: 2026-08-18
+verif: 2026-08-19
 statut: ACTIF — CHANGÉ 18/08 : le système satellite européen Copernicus, publié le
   17/08, révise à la baisse la surface parcourue par le feu, de 38 000 à 33 000 ha,
   ce qui replace l'incendie de Niebla au deuxième rang des plus grands feux
@@ -69,7 +70,7 @@ date de réouverture annoncée.
 
 Le feu part le jeudi 06/08/2026 au lieu-dit Raboconejo, commune de Niebla (Huelva). Le
 07/08 au matin, la surface est estimée provisoirement à environ 380 ha sur un secteur
-mêlant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
+mêant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
 et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une évacuation
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
