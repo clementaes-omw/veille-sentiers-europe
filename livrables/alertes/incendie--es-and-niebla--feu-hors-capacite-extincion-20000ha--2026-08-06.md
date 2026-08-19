@@ -70,7 +70,7 @@ date de réouverture annoncée.
 
 Le feu part le jeudi 06/08/2026 au lieu-dit Raboconejo, commune de Niebla (Huelva). Le
 07/08 au matin, la surface est estimée provisoirement à environ 380 ha sur un secteur
-mêlant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
+mêant eucalyptus, dehesa et pinède. Le samedi 08/08 après-midi, le feu dépasse 4 000 ha
 et son périmètre provisoire atteint environ 8 000 ha sur près de 44 km. Une évacuation
 préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La Florida,
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
@@ -130,7 +130,7 @@ MAJ 16/08 : le vice-président de la Junta, Antonio Sanz, confirme que le feu n'
 progressé sur aucun de ses fronts pendant la nuit du 14 au 15/08, une première depuis le
 déclenchement du 06/08, après huit journées qualifiées de « grande complexité » ; les
 autorités évoquent le « début de la fin » de l'incendie, sous réserve que la fenêtre
-méteo tienne sur le week-end. La croissance de la surface parcourue continue de
+météo tienne sur le week-end. La croissance de la surface parcourue continue de
 ralentir sur trois jours consécutifs (+12 000 ha, puis +6 000 ha, puis +3 000 ha en
 24h). Les retours de population s'accélèrent : 60 riverains rentrés le 14/08 au soir,
 114 de plus dans la nuit du 14 au 15/08 (dispersés de Zalamea la Real, El Pozuelo,
