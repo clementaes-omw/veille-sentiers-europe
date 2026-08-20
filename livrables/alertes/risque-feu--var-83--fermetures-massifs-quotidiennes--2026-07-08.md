@@ -28,7 +28,7 @@ Var, chronologie des fermetures : 13/07, AUCUN massif fermé mais escalade de 4 
 
 MAJ 24/07 : réouverture générale annoncée pour le 24/07, mais non confirmée officiellement.
 
-MAJ 25/07 : la désescalade du 24/07 est INFIRMÉE. Retournement complet, TOUS les massifs du Var sont refermés (bulletin préfectoral 25/07, risque « TRÈS SÉVÈRE pour TOUS les massifs »), aggravation liée au nouvel incendie majeur du Gros Bessillon (~2 500-2 850 ha à l'époque).
+MAJ 25/07 : la désescalade du 24/07 est INFIRMÉE. Retournement complet, TOUS les massifs du Var sont reffermés (bulletin préfectoral 25/07, risque « TRÈS SÉVÈRE pour TOUS les massifs »), aggravation liée au nouvel incendie majeur du Gros Bessillon (~2 500-2 850 ha à l'époque).
 
 MAJ 26/07 : fermeture totale reconduite pour ce dimanche malgré les orages de la veille. frequence-sud.fr (MAJ 25/07 19h02) confirme « tous les massifs restent fermés ce dimanche 26 juillet », risque très sévère maintenu, mistral 60 km/h persistant, pompiers en repos après une semaine de lutte intense ; aires de repos Lauvets et Suvé du Vent fermées sur l'A57. Confirmé par tv83.info et presseagence.fr. Le feu du Gros Bessillon a désormais atteint 4 000 ha (voir ligne dédiée) et n'est toujours pas maîtrisé, avec un risque de reprise dimanche matin.
 
