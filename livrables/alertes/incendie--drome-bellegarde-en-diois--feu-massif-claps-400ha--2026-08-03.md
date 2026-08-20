@@ -1,11 +1,11 @@
 ---
 cle: incendie|Drome-Bellegarde-en-Diois|feu-massif-Claps-400ha|2026-08-03
 type: incendie
-itin: GRP Tour des Baronnies provençales (Drôme/Hautes-Alpes/Vaucluse) — [HYPOTHÈSE] aucune source ne nomme un sentier, secteur du Diois sud/Haute Baronnie à recouper ; le GR93 (Peyrus↔La Roche-des-Arnauds) passe par le Vercors/Dévoluy, plus au nord, hors de la zone brûlée
+itin: GRP Tour des Baronnies provencales (Drôme/Hautes-Alpes/Vaucluse) — [HYPOTHÈSE] aucune source ne nomme un sentier, secteur du Diois sud/Haute Baronnie à recouper ; le GR93 (Peyrus↔La Roche-des-Arnauds) passe par le Vercors/Dévoluy, plus au nord, hors de la zone brûlée
 sev: MOYENNE
-validite: feu déclaré le 03/08/2026, encore non officiellement fixé (« ne progresse plus » selon la dernière source datée du 14/08/2026, sans nouvel élément à la vérification du 17/08/2026), aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur au-delà du régime saisonnier de droit commun
+validite: feu déclaré le 03/08/2026, non officiellement déclaré fixé à ce jour (dernière source datée du 14/08/2026 : « ne progresse plus ») ; la situation reste valable jusqu'à nouvel ordre (déclaration officielle de fixation du feu), aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur au-delà du régime saisonnier de droit commun
 detection: 2026-08-15
-verif: 2026-08-19
+verif: 2026-08-20
 statut: ACTIF — INCHANGÉ 16/08 : nouvelle recherche, situation inchangée par rapport au
   14/08 (feu toujours pas officiellement déclaré fixé, ne progresse plus, environ 450
   sapeurs-pompiers mobilisés). Aucune source postérieure au 14/08 trouvée. Aucun sentier

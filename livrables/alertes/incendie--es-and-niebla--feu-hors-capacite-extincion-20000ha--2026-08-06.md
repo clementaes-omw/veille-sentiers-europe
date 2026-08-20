@@ -6,21 +6,24 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
   périmètre brûlé (Niebla, Berrocal, Zalamea la Real, Paterna del Campo, La Palma del
   Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
   traverse directement cette zone selon le référentiel interne.
-sev: HAUTE
-validite: statut maintenu jusqu'à nouvel ordre, dans l'attente d'une déclaration
-  d'extinction formelle non encore publiée ; feu déclaré stabilisé par la Junta de
-  Andalucía depuis le 16/08/2026, niveau d'urgence à 1 dans le Plan Especial de
-  Protección Civil ; le système satellite Copernicus réévalue le 17/08 la surface
-  brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le deuxième plus
-  grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
+sev: MOYENNE (dégradée depuis HAUTE le 20/08 — INFOCA en situation opérationnelle 0
+  depuis le 17/08, tous les évacués rentrés, aucun front actif depuis le 16/08, aucun
+  sentier balisé jamais documenté comme touché)
+validite: stabilisé sans front actif depuis le 16/08/2026 ; INFOCA en situation
+  opérationnelle 0 (préemergence) depuis le 17/08 18h13 ; niveau d'urgence à 1 dans le
+  Plan Especial de Protección Civil ; le système satellite Copernicus réévalue le 17/08
+  la surface brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le
+  deuxième plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha) ; pas
+  encore de déclaration d'extinction formelle
 detection: 2026-08-11
-verif: 2026-08-19
-statut: ACTIF — CHANGÉ 18/08 : le système satellite européen Copernicus, publié le
-  17/08, révise à la baisse la surface parcourue par le feu, de 38 000 à 33 000 ha,
-  ce qui replace l'incendie de Niebla au deuxième rang des plus grands feux
-  d'Andalousie derrière celui de Riotinto (2004, 34 000 ha). Le feu reste stabilisé
-  sans front actif depuis le 16/08, sévérité maintenue HAUTE en l'absence de
-  déclaration d'extinction formelle, à réévaluer à la baisse dès qu'elle interviendra.
+verif: 2026-08-20
+statut: ACTIF — CHANGÉ 20/08 : dégradation HAUTE→MOYENNE. Le Plan INFOCA est passé en
+  situation opérationnelle 0 (préemergence, le niveau le plus bas du dispositif actif)
+  le 17/08 à 18h13, les 417 dernières personnes évacuées sont rentrées, et aucun front
+  actif n'est documenté depuis le 16/08. Aucune source, à aucun moment de l'épisode,
+  n'a documenté de fermeture de sentier balisé dans le périmètre touché. Pas de
+  déclaration formelle d'« extinguido » à ce jour : à repasser en INFO ou clôturer dès
+  qu'elle interviendra.
 ordre: 105
 ---
 
@@ -76,7 +79,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogeeas au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -151,6 +154,8 @@ Toujours aucune source ne documente d'impact sur un itinéraire balisé nommé.
 MAJ 17/08 : le feu est déclaré stabilisé par le président de la Junta de Andalucía après dix jours d'opération. Les 417 dernières personnes évacuées sont autorisées à rentrer chez elles. Le niveau d'urgence redescend de 2 à 1 dans le Plan Especial de Protección Civil ; l'UME entame son retrait dimanche 16/08. Le périmètre reste fixé à environ 38 000 ha ; le feu entre en phase finale mais n'est pas encore formellement déclaré éteint, les équipes poursuivant le refroidissement et la surveillance des points chauds. Toujours aucune source ne documente d'impact confirmé sur un itinéraire balisé nommé.
 
 MAJ 18/08 : le système satellite européen Copernicus, dans une mesure publiée le 17/08, réévalue la surface brûlée à environ 33 000 ha, contre 38 000 ha estimés jusque-là sur le terrain. Le feu de Niebla devient ainsi le deuxième plus grand incendie recensé en Andalousie, derrière celui de Riotinto en 2004 (34 000 ha). Des îlots de végétation préservés (jusqu'à 400 ha) subsistent à l'intérieur du périmètre parcouru, favorables à la régénération naturelle. Le feu reste stabilisé, sans front actif ; toujours aucune source ne documente d'impact confirmé sur un itinéraire balisé nommé.
+
+MAJ 20/08 : dégradation de la sévérité. Le Plan INFOCA est passé en situation opérationnelle 0, le niveau le plus bas du dispositif actif (préemergence), le 17/08 à 18h13 (tecnobosque.es, article du 18/08). Aucun front actif n'est documenté depuis le 16/08, tous les évacués sont rentrés chez eux, et aucune source consultée depuis le départ du feu le 06/08 n'a jamais documenté de fermeture de sentier balisé dans le périmètre touché. Sévérité ramenée de HAUTE à MOYENNE en conséquence. Il manque encore une déclaration formelle d'« extinguido ».
 
 ## Source
 
