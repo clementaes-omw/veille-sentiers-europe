@@ -5,7 +5,7 @@ itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; 
 sev: MOYENNE (ré-escalade 19/08 — 5 massifs sur 9 fermés, dont Corniche des Maures et Îles d'Hyères qui rejoignent la liste, fermeture de nature préventive liée aux prévisions météo)
 validite: journalière ; 5 massifs sur 9 fermés ce 19/08 (Sainte-Baume, Haut-Var, Corniche des Maures, Maures, Îles d'Hyères), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-19
+verif: 2026-08-20
 statut: ACTIF — CHANGÉ 19/08 : ré-escalade, 5 massifs sur 9 fermés (Sainte-Baume, Haut-Var,
   Corniche des Maures, Maures, Îles d'Hyères, risque très sévère) contre 3 la veille. 4
   autres massifs (Monts Toulonnais, Centre-Var, plateau de Canjuers, Estérel) restent

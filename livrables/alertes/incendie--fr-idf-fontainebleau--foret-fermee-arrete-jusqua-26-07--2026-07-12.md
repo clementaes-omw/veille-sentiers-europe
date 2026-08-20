@@ -5,7 +5,7 @@ itin: GR1, GR2, GR3, GR11, GR13, GR655 — tous traversent le massif de Fontaine
 sev: HAUTE
 validite: prolongée jusqu'au 21/08/2026 inclus pour les cinq massifs (Trois-Pignons, Fontainebleau, Commanderie, Nanteau-Poligny, forêt communale de Nemours), confirmé par arrêtés de la préfecture de Seine-et-Marne signés les 13 et 14/08 ; les bois et forêts de l'Essonne (mesure générale distincte, hors Trois-Pignons) étaient fermés jusqu'au 16/08/2026 inclus, échéance atteinte ce jour sans communiqué connu sur la suite
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-19
+verif: 2026-08-20
 statut: ACTIF — CHANGÉ 16/08 : le doute relevé la veille est levé. La préfecture de
   Seine-et-Marne publie elle-même (page « Accès massifs forestiers et point circulation »,
   MAJ 14/08) la prolongation jusqu'au 21/08 inclus pour ses cinq massifs (Trois-Pignons,
@@ -14,7 +14,7 @@ statut: ACTIF — CHANGÉ 16/08 : le doute relevé la veille est levé. La préf
   générale distincte sur les bois et forêts de l'Essonne (hors Trois-Pignons) arrivait à
   échéance le 16/08 (aujourd'hui) et aucune source consultée ce jour n'indique prolongation
   ou levée pour cette mesure précise ; à rechercher spécifiquement au prochain passage.
-  Reste HAUTE (deux sources officielles distinctes). Zone à reprioriser en priorité absolue
+  Reste HAUTE (deux sources officielles distinctes). Zone à repriroriser en priorité absolue
   tant que l'échéance du 21/08 n'est pas tranchée.
 ordre: 42
 ---

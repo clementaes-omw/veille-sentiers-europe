@@ -5,7 +5,7 @@ itin: GR9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 26 communes actives (liste PNR Baronnies Provençales mise à jour le 12/08, arrêté le plus récent daté du 10/08 à La Charce) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-08-19
+verif: 2026-08-20
 statut: ACTIF — INCHANGÉ 16/08 : liste PNR Baronnies Provençales revérifiée en direct (fetch
   complet de la page), toujours affichée « MAJ 12/08 », mêmes 26 communes nommées, aucun
   ajout ni retrait. Saillans, Montclar-sur-Gervanne, Beauvoisin et Bénivay-Ollon confirmées

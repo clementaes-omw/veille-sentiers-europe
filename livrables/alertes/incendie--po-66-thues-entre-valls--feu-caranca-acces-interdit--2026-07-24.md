@@ -3,13 +3,15 @@ cle: incendie|PO-66-Thues-entre-Valls|feu-Caranca-acces-interdit|2026-07-24
 type: incendie / interdiction d'accès
 itin: GRT75 (Refuge du Ras de la Caranà ↔ Coll de Caranca) ; GR10 (Thuès-Entre-Valls, village-étape) et GR36 (Conflent) — [HYPOTHÈSE] portion exacte à recouper, aucune source ne nomme explicitement ces sentiers
 sev: MOYENNE
-validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; toujours non maîtrisé selon le dernier point de situation (65 ha, stable)
+validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait fixé depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
 detection: 2026-07-30
-verif: 2026-08-19
-statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche ciblée d'un CP n°10 ou postérieur, sans
-  résultat (7e tentative, voir mémoire interne) : le CP n°9 du 30/07 reste le dernier point de
-  situation connu, le silence officiel atteint désormais 19 jours. Interdiction d'accès au
-  secteur, gorges de la Caranca, reste la seule donnée ferme.
+verif: 2026-08-20
+statut: ACTIF — CHANGÉ 20/08 : une source non officielle (feuxdeforet.fr) indique le feu
+  fixé depuis le 02/08/2026, mais classe l'événement sous la commune de Nyer plutôt que
+  Thuès-Entre-Valls et n'est pas recoupée par un CP préfectoral (aucun CP n°10 ou postérieur
+  trouvé malgré nouvelle recherche, 8e tentative). Retenu en [HYPOTHÈSE] seulement, pas en
+  [FAIT]. L'interdiction d'accès au secteur, gorges de la Caranca, reste la seule donnée
+  ferme, aucune source ne documentant sa levée.
 ordre: 58
 ---
 
@@ -27,6 +29,8 @@ Zone FR-66 (Pyrénées-Orientales), massif du Conflent, secteur déjà concerné
 
 MAJ 14/08 : un CP n°9, daté du 30/07/2026 à 09h00, a été retrouvé (il n'avait pas été repéré par la veille jusqu'ici, qui pensait le CP n°8 du 29/07 comme dernier point publié). Il confirme une situation stabilisée, 65 ha parcourus (inchangé par rapport au 29/07), le feu toujours pas fixé (« quelques fumerolles persistent à l'intérieur du périmètre brûlé, sans propagation active »), 10 personnels en surveillance active, et rappelle que l'accès au secteur, en particulier aux gorges de la Caranca, demeure strictement interdit. Aucun communiqué postérieur au CP n°9 n'a été retrouvé : le silence officiel de la préfecture sur ce feu atteint désormais 15 jours (dernier point le 30/07). feuxdeforet.fr et la page des communiqués d'août de la préfecture (relue intégralement) ne mentionnent aucune suite.
 
+MAJ 20/08 : feuxdeforet.fr indique le feu fixé depuis le 02/08/2026, mais classe l'événement sous la commune de Nyer plutôt que Thuès-Entre-Valls et n'est pas une source officielle ; aucun communiqué préfectoral plus récent que le CP n°9 (postérieur au 30/07) n'a été retrouvé pour confirmer cette information. Retenu en [HYPOTHÈSE]. L'interdiction d'accès au secteur, gorges de la Caranca, n'est levée par aucune source : elle reste la seule donnée ferme.
+
 ## Source
 
-[pyrenees-orientales.gouv.fr, CP n°9 : feu d'espace naturel à Thuès-entre-Valls, point de situation du 30.07.2026 à 09h00](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/CP-n-9-Feu-d-espace-naturel-a-Thues-entre-Valls-point-de-situation-du-30.07.2026-a-09h00) ; [pyrenees-orientales.gouv.fr, CP n°8 : feu d'espace naturel à Thuès-entre-Valls, point de situation du 29.07.2026 à 09h30](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/CP-n-8-Feu-d-espace-naturel-a-Thues-entre-Valls-point-de-situation-du-29.07.2026-a-09h30) ; [pyrenees-orientales.gouv.fr, CP n°7, point de situation du 28.07.2026 à 12h00](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/CP-n-7-Feu-d-espace-naturel-a-Thues-entre-Valls-point-de-situation-du-28.07.2026-a-12h00) ; [ICI (ex-France Bleu) 28/07/2026 15h43, l'incendie de Thuès-Entre-Valls se réactive, massif de la Caranca](https://www.ici.fr/occitanie/pyrenees-orientales-66/thues-entre-valls/l-incendie-de-thues-entre-valls-se-reactive-6993871) ; [feuxdeforet.fr, foyers en cours dans les Pyrénées-Orientales (agrégateur, consulté le 30/07/2026)](https://feuxdeforet.fr/occitanie/pyrenees-orientales/)
+[pyrenees-orientales.gouv.fr, CP n°9 : feu d'espace naturel à Thuès-entre-Valls, point de situation du 30.07.2026 à 09h00](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/CP-n-9-Feu-d-espace-naturel-a-Thues-entre-Valls-point-de-situation-du-30.07.2026-a-09h00) ; [pyrenees-orientales.gouv.fr, CP n°8 : feu d'espace naturel à Thuès-entre-Valls, point de situation du 29.07.2026 à 09h30](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/CP-n-8-Feu-d-espace-naturel-a-Thues-entre-Valls-point-de-situation-du-29.07.2026-a-09h30) ; [pyrenees-orientales.gouv.fr, CP n°7, point de situation du 28.07.2026 à 12h00](https://www.pyrenees-orientales.gouv.fr/Actualites/Communique-de-presse/Annee-2026/Juillet-2026/CP-n-7-Feu-d-espace-naturel-a-Thues-entre-Valls-point-de-situation-du-28.07.2026-a-12h00) ; [ICI (ex-France Bleu) 28/07/2026 15h43, l'incendie de Thuès-Entre-Valls se réactive, massif de la Caranca](https://www.ici.fr/occitanie/pyrenees-orientales-66/thues-entre-valls/l-incendie-de-thues-entre-valls-se-reactive-6993871) ; [feuxdeforet.fr, foyers en cours dans les Pyrénées-Orientales (agrégateur, consulté le 30/07/2026)](https://feuxdeforet.fr/occitanie/pyrenees-orientales/) ; [feuxdeforet.fr, Nyer 24/07/2026, non officiel [HYPOTHÈSE]](https://feuxdeforet.fr/pyrenees-orientales-66/nyer-24-07-2026-5071/)

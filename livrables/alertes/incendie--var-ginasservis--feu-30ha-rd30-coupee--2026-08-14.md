@@ -3,12 +3,12 @@ cle: incendie|Var-Ginasservis|feu-30ha-RD30-coupee|2026-08-14
 type: incendie
 itin: GR99 (nord Var, secteur Rians/Verdon) [HYPOTHÈSE — proximité de zone, aucune source ne confirme de fermeture de sentier propre à ce feu]
 sev: INFO
-validite: feu fixé le 14/08/2026 vers 20h (~30 ha) ; RD30 toujours coupée entre les intersections RD70 et RD23 selon la dernière source datée (14/08 20h), sans nouvelle information à la vérification du 17/08/2026
+validite: feu éteint (confirmation datée du 14/08/2026, ~30 ha) ; RD30 toujours coupée entre les intersections RD70 et RD23 selon la dernière source datée (14/08 20h), sans nouvelle information à la vérification du 20/08/2026
 detection: 2026-08-15
-verif: 2026-08-19
-statut: ACTIF — NOUVEAU : feu déjà fixé au moment de la détection, seule la coupure de la
-  RD30 reste à confirmer/lever. Aucune source postérieure au 14/08 20h trouvée pour la
-  réouverture de cette route.
+verif: 2026-08-20
+statut: ACTIF — CHANGÉ 20/08 : feuxdeforet.fr (mise à jour du 14/08 15h19) confirme le feu
+  éteint, au-delà du simple statut « fixé » déjà connu. Le statut de réouverture de la RD30
+  reste non confirmé par une source datée : la coupure est maintenue par prudence.
 ordre: 112
 ---
 
@@ -26,6 +26,8 @@ Aucune alternative connue à ce jour pour la RD30 entre les intersections RD70 e
 
 Rattachement aux itinéraires : le GR99 (Revest-les-Eaux → Gorges du Verdon, zones FR-04-05|FR-83 selon `referentiel/sentiers-db.csv`) traverse le nord du Var en direction du Verdon, à proximité générale du secteur Rians/Ginasservis, mais aucune source lue ne mentionne de sentier, de GR ni de fermeture de massif spécifiquement liée à ce feu. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source dédiée. Ce foyer est distinct du feu du Gros Bessillon (Ponteves/Cotignac/Correns, voir ligne dédiée `incendie|Var-Gros-Bessillon|…`), situé plus au sud-est, et de la fermeture quotidienne des massifs varois (voir ligne `risque-feu|Var-83|…`), sans lien confirmé entre les deux événements.
 
+MAJ 20/08 : feuxdeforet.fr (mise à jour du 14/08 15h19) confirme le feu éteint, précision au-delà du simple statut « fixé » déjà connu. Toujours aucune source datée sur la réouverture de la RD30.
+
 ## Source
 
-[ICI, la foudre déclenche un incendie entre Ginasservis et Rians, plusieurs hameaux évacués](https://www.ici.fr/provence-alpes-cote-d-azur/var-83/ginasservis/la-foudre-declenche-un-incendie-entre-ginasservis-et-rians-plusieurs-hameaux-evacues-9207930) ; [presseagence.fr, incendie à Ginasservis : un feu de 30 hectares fixé, les habitants autorisés à regagner leur domicile (14/08/2026)](https://presseagence.fr/ginasservis-incendie-un-feu-de-30-hectares-fixe-les-habitants-autorises-a-regagner-leur-domicile/) ; [feuxdeforet.fr, incendie à Ginasservis, 14/08/2026](https://feuxdeforet.fr/var-83/ginasservis-14-08-2026-10075/)
+[ICI, la foudre déclenche un incendie entre Ginasservis et Rians, plusieurs hameaux évacués](https://www.ici.fr/provence-alpes-cote-d-azur/var-83/ginasservis/la-foudre-declenche-un-incendie-entre-ginasservis-et-rians-plusieurs-hameaux-evacues-9207930) ; [presseagence.fr, incendie à Ginasservis : un feu de 30 hectares fixé, les habitants autorisés à regagner leur domicile (14/08/2026)](https://presseagence.fr/ginasservis-incendie-un-feu-de-30-hectares-fixe-les-habitants-autorises-a-regagner-leur-domicile/) ; [feuxdeforet.fr, incendie à Ginasservis, mise à jour 14/08/2026 15h19 (feu éteint)](https://feuxdeforet.fr/var-83/ginasservis-14-08-2026-10075/)

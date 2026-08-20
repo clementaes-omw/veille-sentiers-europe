@@ -5,7 +5,7 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-19
+verif: 2026-08-20
 statut: ACTIF — CHANGÉ 16/08 : interdiction générale de feu (15/06→30/09) toujours en
   vigueur. Page haute-corse.gouv.fr « Accès aux massifs forestiers » revérifiée, toujours
   calée sur l'arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026), aucun acte plus

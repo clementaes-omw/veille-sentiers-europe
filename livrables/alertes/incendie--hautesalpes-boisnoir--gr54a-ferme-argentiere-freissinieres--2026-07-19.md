@@ -5,7 +5,7 @@ itin: GR54A (fermé) ; GR54 (itinéraire de repli, praticable)
 sev: HAUTE
 validite: incendie déclaré ÉTEINT mais sous surveillance (paysdesecrins.com, MAJ 14/08) ; GR54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15/22/23 fermés durée indéterminée (confirmé paysdesecrins.com, MAJ 14/08) ; RD38 (Champcella↔Freissinières) ROUVERTE depuis le 17/08/2026 (arrêté de voirie « 2026/ATB/réouverture RD 38 suite incendie ») ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-08-19
+verif: 2026-08-20
 statut: ACTIF — CHANGÉ 18/08 : le Département des Hautes-Alpes publie un arrêté de voirie
   de réouverture de la RD38 (Champcella↔Freissinières), daté du 17/08/2026, sur la même
   page hautes-alpes.fr que celui du 06/08 pour la RD138A. C'est la 1re route encore coupée
