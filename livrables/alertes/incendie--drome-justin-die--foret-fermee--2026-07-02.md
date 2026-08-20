@@ -3,7 +3,7 @@ cle: incendie|Drome-Justin-Die|foret-fermee|2026-07-02
 type: incendie / fermeture massif
 itin: GR9/GR93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en plus douteux : la source normalement la plus autorisée pour les modifications de tracé (FFRandonnée Drôme) ne mentionne aucune alerte Justin/Solaure/Laup. Fermeture de fait du massif maintenue par prudence, rattachement au GR9/GR93 non confirmé
 sev: MOYENNE (dégradée 17/08 — règle des 14 jours : aucun arrêté officiel confirmant le
-  maintien de la fermeture n'a pu être localisé malgré recherche ciblée)
+  maintien de la fermeture n'a pu être localisé malgré recherche ciblée dédiée)
 validite: le massif reste fermé de fait ; deux arrêtés distincts sont documentés (celui du 17/07/2026 cité par une source touristique départementale, et l'arrêté préfectoral n°26-2026-6 du 03/07/2026 retrouvé au recueil des actes administratifs), tous deux formulés jusqu'à nouvel ordre sans échéance propre ; aucune levée n'est publiée par une source officielle (préfecture, DDT, ONF, recueil des actes administratifs) à ce jour
 detection: 2026-07-18
 verif: 2026-08-20

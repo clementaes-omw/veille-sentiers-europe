@@ -9,12 +9,7 @@ itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Hue
 sev: MOYENNE (dégradée depuis HAUTE le 20/08 — INFOCA en situation opérationnelle 0
   depuis le 17/08, tous les évacués rentrés, aucun front actif depuis le 16/08, aucun
   sentier balisé jamais documenté comme touché)
-validite: stabilisé sans front actif depuis le 16/08/2026 ; INFOCA en situation
-  opérationnelle 0 (préemergence) depuis le 17/08 18h13 ; niveau d'urgence à 1 dans le
-  Plan Especial de Protección Civil ; le système satellite Copernicus réévalue le 17/08
-  la surface brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le
-  deuxième plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha) ; pas
-  encore de déclaration d'extinction formelle
+validite: stabilisé sans front actif depuis le 16/08/2026 ; INFOCA en situation opérationnelle 0 (préemergence) depuis le 17/08 18h13 ; niveau d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha) ; pas encore de déclaration d'extinction formelle, la situation reste valable jusqu'à nouvel ordre (déclaration d'« incendio extinguido ») ou nouvelle source
 detection: 2026-08-11
 verif: 2026-08-20
 statut: ACTIF — CHANGÉ 20/08 : dégradation HAUTE→MOYENNE. Le Plan INFOCA est passé en
@@ -79,7 +74,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogeeas au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
