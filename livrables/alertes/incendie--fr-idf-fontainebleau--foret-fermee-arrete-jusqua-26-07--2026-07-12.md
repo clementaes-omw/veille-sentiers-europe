@@ -14,7 +14,7 @@ statut: ACTIF — CHANGÉ 16/08 : le doute relevé la veille est levé. La préf
   générale distincte sur les bois et forêts de l'Essonne (hors Trois-Pignons) arrivait à
   échéance le 16/08 (aujourd'hui) et aucune source consultée ce jour n'indique prolongation
   ou levée pour cette mesure précise ; à rechercher spécifiquement au prochain passage.
-  Reste HAUTE (deux sources officielles distinctes). Zone à reprioriser en priorité absolue
+  Reste HAUTE (deux sources officielles distinctes). Zone à repriroriser en priorité absolue
   tant que l'échéance du 21/08 n'est pas tranchée.
 ordre: 42
 ---
