@@ -3,9 +3,7 @@ cle: infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15
 type: infrastructure / traversée coupée
 itin: Camino Portugués da Costa (Central non concerné)
 sev: INFO
-validite: 15/06/2026 → 14/08/2026 (échéance de réouverture annoncée par l'APDL le
-  06/08/2026) ; cette échéance est désormais dépassée et aucune source postérieure ne
-  confirme à ce jour que la circulation a effectivement repris
+validite: 15/06/2026 → 14/08/2026 (échéance de réouverture annoncée par l'APDL le 06/08/2026) ; cette échéance est désormais dépassée et aucune source postérieure ne confirme à ce jour que la circulation a effectivement repris
 detection: 2026-07-17
 verif: 2026-08-17
 statut: ACTIF — vérifié 17/08 : aucune source postérieure au 14/08/2026 confirmant la
