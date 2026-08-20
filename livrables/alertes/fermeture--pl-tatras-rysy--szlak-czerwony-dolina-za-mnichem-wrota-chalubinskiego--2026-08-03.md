@@ -5,7 +5,7 @@ itin: Tatranská magistrála / secteur Rysy (Tatras polonais) — sentier rouge 
 sev: MOYENNE
 validite: fermé du 03/08/2026 au 12/08/2026 pour réfection ; rouvert depuis le 13/08/2026
 detection: 2026-08-06
-verif: 2026-08-13
+verif: 2026-08-20
 statut: [CLÔTURÉ] (2026-08-13). Le TPN a publié le 12/08/2026 l'annonce « Szlak na Wrota
   Chałubińskiego ponownie otwarty », confirmant la réouverture du sentier à compter du
   13/08/2026 : les travaux (murs de soutènement, dallage) se sont achevés plus tôt que la

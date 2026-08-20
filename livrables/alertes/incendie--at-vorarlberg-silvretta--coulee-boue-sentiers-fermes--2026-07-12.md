@@ -5,7 +5,7 @@ itin: Aucun P1 identifié — sentier local de la vallée du Silvretta, à proxi
 sev: MOYENNE
 validite: fermeture pérenne depuis l'éboulement de mi-juillet 2024, aggravée par de nouveaux glissements de terrain en été 2025, maintenue jusqu'à nouvel ordre : aucune source ne documente d'échéance de réouverture pour le sentier du tour du lac (Uferweg/Rundweg Silvrettasee) ni pour la liaison pédestre Partenen ↔ Bielerhöhe (dernière confirmation directe de leur fermeture : 13/08/2026) ; la Silvretta-Hochalpenstraße elle-même ne rouvrira pas avant l'été 2030 (travaux de sécurisation 2027-2029)
 detection: 2026-07-23
-verif: 2026-08-13
+verif: 2026-08-20
 statut: ACTIF — CHANGÉ 13/08 : correction de sourcing. La source d'origine (vorarlberg.orf.at/stories/3269426/, « coulée de boue les 12-13/07 ») est datée du 17/08/2024, pas de 2026 : les dates « 12-13/07/2026 » et « détecté 23/07 » reposaient sur cette page mal datée. L'événement réel est l'éboulement de mi-juillet 2024, suivi de nouveaux glissements en été 2025 ; deux sources 2026 (tirol.orf.at 23/03/2026, presse spécialisée) confirment que la route reste fermée jusqu'à l'été 2030 et que le sentier du tour du lac ainsi que la liaison Partenen-Bielerhöhe sont toujours fermés à ce jour (outdooractive.com, statut consulté le 13/08/2026).
 ordre: 44
 ---
