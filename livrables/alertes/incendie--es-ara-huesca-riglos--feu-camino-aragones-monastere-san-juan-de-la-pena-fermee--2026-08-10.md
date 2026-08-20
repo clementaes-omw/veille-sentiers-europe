@@ -5,7 +5,7 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
   Arrés / Ena / Binacua, variante historique par le monastère de San Juan de la Peña ; GR1-ES
   (Sendero Histórico) qui cite nommément Riglos sur son tracé
 sev: HAUTE
-validite: le feu reste stabilisé depuis le 17/08/2026 sans front actif, mais pas encore contrôlé ni éteint ; réactivations ponctuelles autour de Santa Cruz de la Serós et de San Juan de la Peña au 18/08 ; monastère de San Juan de la Peña fermé au public depuis le 13-14/08, sa route d'accès (A-1603) toujours coupée ; 583 personnes de 13 núcleos rentrées, 320 personnes de 6 localités (Ena, Centenero, Botaya, Atárés, Santa Cruz de la Serós, Binacua) toujours évacuées au 19/08 ; situation valable jusqu'à nouvel ordre (déclaration officielle de contrôle ou d'extinction du feu)
+validite: le feu reste stabilisé depuis le 17/08/2026 sans front actif, mais pas encore contrôlé ni éteint ; réactivations ponctuelles autour de Santa Cruz de la Serós et de San Juan de la Peña au 18/08 ; monastère de San Juan de la Peña fermé au public depuis le 13-14/08, sa route d'accès (A-1603) toujours coupée ; 583 personnes de 13 núcleos rentrées, 320 personnes de 6 localités (Ena, Centenero, Botaya, Atarés, Santa Cruz de la Serós, Binacua) toujours évacuées au 19/08 ; situation valable jusqu'à nouvel ordre (déclaration officielle de contrôle ou d'extinction du feu)
 detection: 2026-08-17
 verif: 2026-08-20
 statut: ACTIF — CHANGÉ 20/08 : confirmation datée du 19/08 22h17 (tecnobosque.es) :
@@ -13,7 +13,7 @@ statut: ACTIF — CHANGÉ 20/08 : confirmation datée du 19/08 22h17 (tecnobosqu
   sans déclaration formelle. Une réactivation mineure au sud-ouest de Santa Cruz de la
   Serós dans la nuit du 18 au 19 n'a pas franchi les lignes de contrôle. Décompte précisé
   par localité : 583 personnes de 13 núcleos rentrées, 320 personnes de 6 localités
-  nommées (Ena, Centenero, Botaya, Atárés, Santa Cruz de la Serós, Binacua) toujours
+  nommées (Ena, Centenero, Botaya, Atarés, Santa Cruz de la Serós, Binacua) toujours
   évacuées. Ligne ferroviaire Sabiñánigo–Ayerbe rétablie. Aucune source ne documente la
   réouverture du Camino Aragónés ni de la route d'accès au monastère (A-1603) : la
   fermeture reste en vigueur par prudence. Sévérité maintenue HAUTE.
@@ -42,7 +42,7 @@ Aucune alternative connue à ce jour pour le tronçon du Camino Aragónés autou
 
 18/08 : le feu reste stabilisé après la nuit de pluie du 17/08, mais des réactivations ponctuelles apparaissent autour de Santa Cruz de la Serós et du monastère de San Juan de la Peña. Le périmètre est réévalué à environ 18 400 hectares, tour d'environ 100 km majoritairement consolidé. Sept des dix-neuf communes évacuées (dont Santa Cruz de la Serós) sont autorisées à rentrer à partir du 19/08 ; douze restent évacuées. Les deux monastères de San Juan de la Peña (Viejo et Nuevo) sont confirmés structurellement intacts par les autorités. Aucune source ne documente la réouverture de la route A-1603 ni celle du tronçon du Camino Aragónés touché.
 
-19/08 : le périmètre reste stable à ~18 400 ha, aucune progression (tecnobosque.es, 22h17). Une réactivation mineure au sud-ouest de Santa Cruz de la Serós dans la nuit du 18 au 19 n'a pas franchi les lignes de contrôle. Décompte précisé par localité : 583 personnes de 13 núcleos sont rentrées ; 320 personnes de 6 localités (Ena, Centenero, Botaya, Atárés, Santa Cruz de la Serós, Binacua) restent évacuées. La ligne ferroviaire Sabiñánigo–Ayerbe est rétablie depuis lundi. Toujours aucune source ne documente la réouverture de la route A-1603 ni celle du tronçon du Camino Aragónés touché.
+19/08 : le périmètre reste stable à ~18 400 ha, aucune progression (tecnobosque.es, 22h17). Une réactivation mineure au sud-ouest de Santa Cruz de la Serós dans la nuit du 18 au 19 n'a pas franchi les lignes de contrôle. Décompte précisé par localité : 583 personnes de 13 núcleos sont rentrées ; 320 personnes de 6 localités (Ena, Centenero, Botaya, Atarés, Santa Cruz de la Serós, Binacua) restent évacuées. La ligne ferroviaire Sabiñánigo–Ayerbe est rétablie depuis lundi. Toujours aucune source ne documente la réouverture de la route A-1603 ni celle du tronçon du Camino Aragónés touché.
 
 ## Source
 
