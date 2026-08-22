@@ -3,25 +3,27 @@ cle: incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10
 type: incendie / fermeture sentier
 itin: GR10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
-validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 3e fois jusqu'au 17/08/2026 inclus, échéance atteinte sans confirmation de 4e reconduction à ce jour
+validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08)
 detection: 2026-07-20
-verif: 2026-08-19
-statut: ACTIF — INCHANGÉ 18/08 : recherche ciblée sur l'acte manquant (arrêté formel de
-  fermeture du tronçon Ayès↔Cap des Lauses, distinct de l'arrêté d'interdiction du feu) :
-  ariege.gouv.fr/Publications/Actualites relu directement, presse locale revérifiée (Pyrénées
-  FM, France 3 Occitanie, ruralites2024.fr), toujours aucun arrêté dédié trouvé ni aucune
-  source postérieure au 10/08 sur ce tronçon, qui reste sourcé par la presse citant l'ONF et
-  non par un acte publié. L'arrêté préfectoral d'interdiction totale de l'usage du feu (3e
-  reconduction) est arrivé à échéance le 17/08/2026 inclus : aucune 4e reconduction ni levée
-  n'a été trouvée à ce jour, à vérifier au prochain passage. Toujours aucune source sur une
-  réouverture du tronçon Ayès↔Cap des Lauses, qui reste fermé. Statut du GR10 à Seix/Col de
-  Pause et Auzat (feux distincts du 01-03/08) non retesté ce jour. Sévérité maintenue HAUTE.
+verif: 2026-08-22
+statut: ACTIF — CHANGÉ 22/08 : la 4e reconduction de l'arrêté d'interdiction totale de
+  l'usage du feu, laissée ouverte le 18/08, est tranchée. Pyrénées FM (18/08/2026) publie
+  la prolongation jusqu'au lundi 24/08/2026 inclus (feux d'artifice, barbecues, travaux
+  forestiers/soudure toujours interdits). L'article ne mentionne ni le GR10 ni le tronçon
+  Ayès↔Cap des Lauses. Nouvelle recherche ciblée sur l'acte manquant (arrêté formel de
+  fermeture du tronçon, ou sa réouverture) : ariege.gouv.fr/Publications/Actualites relu
+  directement, toujours aucune actualité postérieure au 20/07/2026 trouvée sur cette page
+  précise (pagination du site non explorable en autonome) ; presse locale revérifiée sans
+  résultat plus récent que les sources déjà citées. Le tronçon reste donc sourcé par la
+  presse citant l'ONF, pas par un acte publié, et reste fermé faute de tout signal contraire.
+  Statut du GR10 à Seix/Col de Pause et Auzat (feux distincts du 01-03/08) non retesté ce
+  jour. Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
 ## Portion concernée
 
-**GR10 fermé entre l'étang d'Ayès et le Cap des Lauses** (Couserans, Ariège), depuis le 02/08/2026. En cause : des chutes de pierres devenues fréquentes et imprévisibles sur ce tronçon, où la végétation détruite par l'incendie ne stabilise plus le terrain. Portions supplémentaires touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus, lacs d'Ayes, de Bethmale et d'Eychelle ; la vallée du Ribérot est à éviter (utilisée par les secours). L'interdiction préfectorale totale de l'usage du feu en Ariège est reconduite une 3e fois, jusqu'au lundi 17/08/2026 inclus. À l'origine, un incendie de forêt est parti le 10/07/2026 vers 1800 m d'altitude (Bordes-sur-Lèz/Uchentein) ; il est fixé depuis le 18/07 au soir. Situation inchangée à la vérification du 14/08/2026 : aucune réouverture n'a été annoncée entre l'étang d'Ayès et le Cap des Lauses.
+**GR10 fermé entre l'étang d'Ayès et le Cap des Lauses** (Couserans, Ariège), depuis le 02/08/2026. En cause : des chutes de pierres devenues fréquentes et imprévisibles sur ce tronçon, où la végétation détruite par l'incendie ne stabilise plus le terrain. Portions supplémentaires touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus, lacs d'Ayes, de Bethmale et d'Eychelle ; la vallée du Ribérot est à éviter (utilisée par les secours). L'interdiction préfectorale totale de l'usage du feu en Ariège est reconduite une 4e fois, jusqu'au lundi 24/08/2026 inclus. À l'origine, un incendie de forêt est parti le 10/07/2026 vers 1800 m d'altitude (Bordes-sur-Lèz/Uchentein) ; il est fixé depuis le 18/07 au soir. Situation inchangée à la vérification du 22/08/2026 : aucune réouverture n'a été annoncée entre l'étang d'Ayès et le Cap des Lauses.
 
 ## Alternative
 
@@ -55,6 +57,8 @@ MAJ 14/08 : deux autres feux, distincts de celui de Bordes-Uchentein, sont appar
 
 MAJ 18/08 : toujours aucun arrêté formel de fermeture du tronçon Ayès↔Cap des Lauses localisé : ce tronçon reste sourcé par la presse (France 3 Occitanie, ruralites2024.fr) citant l'ONF, pas par un texte publié. L'arrêté d'interdiction totale de l'usage du feu, dont la 3e reconduction courait jusqu'au 17/08/2026 inclus, arrive à échéance sans qu'une 4e reconduction ou une levée n'ait été trouvée à ce jour sur ariege.gouv.fr ni dans la presse locale. Ce point, distinct de la fermeture du tronçon pour chutes de pierres, n'est pas encore tranché. Aucune annonce de réouverture du GR10 Esbintz↔Maison du Valier.
 
+MAJ 22/08 : l'échéance laissée ouverte le 18/08 est tranchée. Pyrénées FM (18/08/2026) publie une 4e reconduction de l'arrêté préfectoral d'interdiction totale de l'usage du feu, désormais jusqu'au lundi 24/08/2026 inclus, sans changement de motif ni mention du GR10. Nouvelle recherche dédiée sur le tronçon Ayès↔Cap des Lauses (ariege.gouv.fr/Publications/Actualites relu directement, presse locale revérifiée) : toujours aucun arrêté dédié ni aucune annonce de réouverture. Le tronçon reste fermé.
+
 ## Source
 
-[Pyrénées FM 10/08, interdictions de feux d'artifice et d'usage du feu prolongées jusqu'au 17 août](https://pyreneesfm.com/ariege-les-interdictions-de-feux-d-artifice-et-d-usage-du-feu-prolongees-jusqu-a) ; [France 3 Occitanie 04/08, une portion du GR10 fermée après un incendie, risque de chutes de pierres](https://france3-regions.franceinfo.fr/occitanie/ariege/foix/randonnee-dans-les-pyrenees-une-portion-du-gr10-fermee-apres-un-incendie-risque-de-chutes-de-pierres-3396373.html) ; [ruralites2024.fr 03/08, fermeture du GR10 en Ariège](https://ruralites2024.fr/47039-fermeture-du-gr10-en-ariege-un-secteur-touche-par-les-incendies/) ; [Pyrénées FM 20/07, restrictions prolongées jusqu'au 27 juillet](https://pyreneesfm.com/ariege-les-restrictions-face-au-risque-d-incendie-prolonges-jusqu-au-27-juillet) ; [Pyrénées FM 20/07, pompiers mobilisés sur plusieurs fronts](https://pyreneesfm.com/incendies-en-ariege-les-pompiers-restent-mobilises-sur-plusieurs-fronts) ; [info.fr, bilan 240ha, alternative Col de la Core](https://info.fr/ariege-incendie-haute-montagne-gr10-lacs-altitude-fermes/) ; [ffrandonnee.fr 14/07](https://www.ffrandonnee.fr/s-informer/actualites/en-ariege-les-incendies-impactent-les-sentiers-de-randonnee)
+[Pyrénées FM 10/08, interdictions de feux d'artifice et d'usage du feu prolongées jusqu'au 17 août](https://pyreneesfm.com/ariege-les-interdictions-de-feux-d-artifice-et-d-usage-du-feu-prolongees-jusqu-a) ; [France 3 Occitanie 04/08, une portion du GR10 fermée après un incendie, risque de chutes de pierres](https://france3-regions.franceinfo.fr/occitanie/ariege/foix/randonnee-dans-les-pyrenees-une-portion-du-gr10-fermee-apres-un-incendie-risque-de-chutes-de-pierres-3396373.html) ; [ruralites2024.fr 03/08, fermeture du GR10 en Ariège](https://ruralites2024.fr/47039-fermeture-du-gr10-en-ariege-un-secteur-touche-par-les-incendies/) ; [Pyrénées FM 20/07, restrictions prolongées jusqu'au 27 juillet](https://pyreneesfm.com/ariege-les-restrictions-face-au-risque-d-incendie-prolonges-jusqu-au-27-juillet) ; [Pyrénées FM 20/07, pompiers mobilisés sur plusieurs fronts](https://pyreneesfm.com/incendies-en-ariege-les-pompiers-restent-mobilises-sur-plusieurs-fronts) ; [info.fr, bilan 240ha, alternative Col de la Core](https://info.fr/ariege-incendie-haute-montagne-gr10-lacs-altitude-fermes/) ; [ffrandonnee.fr 14/07](https://www.ffrandonnee.fr/s-informer/actualites/en-ariege-les-incendies-impactent-les-sentiers-de-randonnee) ; [Pyrénées FM 18/08, interdictions de feux d'artifice et barbecues prolongées jusqu'au 24 août](https://pyreneesfm.com/ariege-feux-d-artifice-barbecues-les-interdictions-prolongees-face-au-risque-d-i)

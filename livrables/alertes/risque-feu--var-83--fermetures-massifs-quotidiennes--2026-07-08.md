@@ -5,12 +5,11 @@ itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; 
 sev: MOYENNE (ré-escalade 19/08 — 5 massifs sur 9 fermés, dont Corniche des Maures et Îles d'Hyères qui rejoignent la liste, fermeture de nature préventive liée aux prévisions météo)
 validite: journalière ; 5 massifs sur 9 fermés ce 19/08 (Sainte-Baume, Haut-Var, Corniche des Maures, Maures, Îles d'Hyères), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-20
-statut: ACTIF — CHANGÉ 19/08 : ré-escalade, 5 massifs sur 9 fermés (Sainte-Baume, Haut-Var,
-  Corniche des Maures, Maures, Îles d'Hyères, risque très sévère) contre 3 la veille. 4
-  autres massifs (Monts Toulonnais, Centre-Var, plateau de Canjuers, Estérel) restent
-  orange. Aucun incendie actif nouveau signalé, fermeture de nature préventive (prévisions
-  météo). Sévérité maintenue MOYENNE.
+verif: 2026-08-22
+statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (var.gouv.fr, presseagence.fr,
+  varactu.fr), aucune source datée postérieure au 19/08 retrouvée pour confirmer le
+  classement du jour. Dernier état sûr : 5 massifs sur 9 fermés (Sainte-Baume, Haut-Var,
+  Corniche des Maures, Maures, Îles d'Hyères). Sévérité maintenue MOYENNE.
 ordre: 20
 ---
 
@@ -42,7 +41,7 @@ MAJ 30/07 (filet local) : la désescalade n'a tenu qu'une journée, RÉ-ESCALADE
 
 MAJ 01/08 : RECHUTE TOTALE, 9/9 massifs de nouveau fermés, département reclassé en risque EXTRÊME (Haut-Var, Sainte-Baume) et très sévère pour le reste, à la suite de la reprise du feu du Gros Bessillon dans la soirée du 31/07 (~1000 ha supplémentaires à l'époque, ~2500 évacués). Source presseagence.fr 01/08.
 
-MAJ 02/08 : légère décrue, 8/9 massifs fermés (rouge, très sévère), Sainte-Baume, Haut-Var, Maures, Monts Toulonnais, Corniche des Maures, Estérel, Îles d'Hyères et Centre-Var ; seul le plateau de Canjuers repasse en orange. Aires fermées : A57 (Lauvets, Suvé du Vent, Gonfaron, Les Sigues) et A8 (Saint-Hilaire, Barcelone, Candumy, Roudàï, Jas Pelicot). Nouveauté : c'est la 1re mention de fermetures d'aires sur l'A8 pour cet épisode, en plus des aires A57 habituelles. Le feu du Gros Bessillon reste actif et non fixé au 01/08 21h20 (point de situation n°42, voir ligne dédiée `incendie|Var-Gros-Bessillon|…`) : cette fermeture quasi-totale des massifs en est la conséquence directe, avec un motif explicitement préventif, ne pas surcharger des secours déjà mobilisés. Sources : [presseagence.fr 01/08](https://presseagence.fr/toulon-risque-incendie-tres-severe-huit-massifs-forestiers-du-var-fermes-au-public-ce-dimanche/) ; [tv83.info 01/08](https://www.tv83.info/var-huit-massifs-forestiers-fermes-dimanche-2-aout/).
+MAJ 02/08 : légère décrue, 8/9 massifs fermés (rouge, très sévère), Sainte-Baume, Haut-Var, Maures, Monts Toulonnais, Corniche des Maures, Estérel, Îles d'Hyères et Centre-Var ; seul le plateau de Canjuers repasse en orange. Aires fermées : A57 (Lauvets, Suvé du Vent, Gonfaron, Les Sigues) et A8 (Saint-Hilaire, Barcelone, Candumy, Roudaï, Jas Pelicot). Nouveauté : c'est la 1re mention de fermetures d'aires sur l'A8 pour cet épisode, en plus des aires A57 habituelles. Le feu du Gros Bessillon reste actif et non fixé au 01/08 21h20 (point de situation n°42, voir ligne dédiée `incendie|Var-Gros-Bessillon|…`) : cette fermeture quasi-totale des massifs en est la conséquence directe, avec un motif explicitement préventif, ne pas surcharger des secours déjà mobilisés. Sources : [presseagence.fr 01/08](https://presseagence.fr/toulon-risque-incendie-tres-severe-huit-massifs-forestiers-du-var-fermes-au-public-ce-dimanche/) ; [tv83.info 01/08](https://www.tv83.info/var-huit-massifs-forestiers-fermes-dimanche-2-aout/).
 
 MAJ 03/08 : nouvelle amélioration, 7/9 massifs fermés (rouge), les Monts Toulonnais rejoignent Canjuers en orange. Amélioration cohérente avec le point de situation n°46 du Gros Bessillon (« maîtrisée mais fragile », toujours pas fixé). Source : [presseagence.fr 03/08](https://presseagence.fr/toulon-risque-incendie-sept-massifs-forestiers-du-var-fermes-au-public-ce-lundi/).
 
