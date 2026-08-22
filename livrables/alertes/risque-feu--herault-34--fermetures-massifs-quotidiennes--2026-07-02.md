@@ -5,14 +5,11 @@ itin: GR653 (34) — **recoupement RÉSOLU 22/07 : le GR653 (tronçon Montpellie
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-20
-statut: ACTIF — CHANGÉ 20/08 : le classement du mercredi 19/08 (relayé le 18/08) compte
-  9 secteurs orange (risque élevé, accès déconseillé, travaux réglementés), toujours
-  aucun secteur rouge, contre 7 secteurs orange au dernier classement daté (14-15/08).
-  Progression du nombre de secteurs sous vigilance, sans dégradation vers le rouge. Liste
-  nominative des 9 secteurs toujours non confirmée par lecture directe (herault.gouv.fr
-  et risque-prevention-incendie.fr/herault restent illisibles en autonome). Carlencas-et-
-  Levas toujours fixé.
+verif: 2026-08-22
+statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite, herault.gouv.fr et
+  risque-prevention-incendie.fr/herault toujours illisibles en autonome, aucun recoupement
+  presse plus récent que le 19/08 retrouvé. Dernier état sûr : 9 secteurs orange, aucun
+  rouge. Carlencas-et-Levas toujours fixé.
 ordre: 18
 ---
 
