@@ -5,14 +5,13 @@ itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Me
 sev: HAUTE
 validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
 detection: 2026-07-20
-verif: 2026-08-20
-statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche ciblée dans la presse quotidienne (requêtes
-  dédiées L'Indépendant, madeinperpignan, ICI Roussillon), aucun article postérieur au 29/07
-  (ouillade.eu) retrouvé. Un article intramuros.org remonté par la recherche s'est révélé
-  daté du 01/07/2026 (piège d'indexation, antérieur même à la détection de cette alerte) et
-  ne documente donc rien de nouveau. Aucun signal de levée. La base de l'alerte reste les deux
-  arrêtés eux-mêmes, non expirés (Sorède jusqu'au 13/09/2026, Argelès « jusqu'à nouvel ordre »),
-  pas la fraîcheur de la presse. Sévérité maintenue HAUTE.
+verif: 2026-08-22
+statut: ACTIF — INCHANGÉ 22/08 : nouvelle recherche ciblée, un article de mapetiterando.fr
+  confirme la fermeture toujours en vigueur « jusqu'à nouvel ordre » pour quatre communes
+  (Sorède, Argelès-sur-Mer, Cerbère, Villelongue-dels-Monts), sans date de publication
+  exploitable pour dater précisément ce constat. Aucun signal de levée trouvé. La base de
+  l'alerte reste les deux arrêtés eux-mêmes, non expirés (Sorède jusqu'au 13/09/2026, Argelès
+  « jusqu'à nouvel ordre »). Sévérité maintenue HAUTE.
 ordre: 35
 ---
 

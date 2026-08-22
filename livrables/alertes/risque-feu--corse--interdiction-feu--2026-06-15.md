@@ -5,15 +5,13 @@ itin: GR20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-20
-statut: ACTIF — CHANGÉ 16/08 : interdiction générale de feu (15/06→30/09) toujours en
-  vigueur. Page haute-corse.gouv.fr « Accès aux massifs forestiers » revérifiée, toujours
-  calée sur l'arrêté préfectoral n° 2B-2026-08-03-00009 (publié 04/08/2026), aucun acte plus
-  récent trouvé. Deux départs de feu par la foudre le 06/08 (Monte Calvi près de Ghisoni,
-  forêt de Forca entre Corte et Castirla) ont été ajoutés à la chronologie : aucune source
-  postérieure au 06/08 trouvée sur leur évolution, aucune fermeture de sentier rapportée.
-  pnr.corsica (dernière mise à jour 04/08) confirme toujours l'absence de fermeture sur le
-  GR20/Mare a Mare Nord.
+verif: 2026-08-22
+statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (haute-corse.gouv.fr), toujours
+  calée sur l'arrêté n° 2B-2026-08-03-00009 (04/08/2026), aucun acte plus récent trouvé. Une
+  mesure préventive distincte (Fango/Bonifato/ouest Agriate) a été signalée pour le mercredi
+  19/08 par une source de presse tierce, sans date de publication exploitable pour la
+  recouper directement sur haute-corse.gouv.fr ce jour ; à revérifier au prochain passage.
+  Interdiction générale de feu (15/06→30/09) toujours en vigueur.
 ordre: 2
 ---
 

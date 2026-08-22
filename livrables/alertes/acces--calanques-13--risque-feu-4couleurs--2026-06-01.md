@@ -5,11 +5,11 @@ itin: GR98 (Calanques Marseille-Cassis) — refermé (rouge) le 17/08, après 9 
 sev: MOYENNE (désescalade totale 20/08 — cg13.eway.fr classe les 24 massifs du département en vert, aucune vigilance renforcée, pour la première fois de la saison)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-08-20
-statut: ACTIF — CHANGÉ 20/08 : désescalade totale. cg13.eway.fr (prévision du 20-08-2026) classe
-  pour la première fois de la saison les 24 massifs du département en vert, aucune vigilance
-  renforcée. Sévérité maintenue MOYENNE par prudence : aucun recoupement presse daté ce jour,
-  et la situation a déjà basculé plusieurs fois d'un jour à l'autre cet été.
+verif: 2026-08-22
+statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (bouches-du-rhone.gouv.fr, presse
+  régionale), aucune source datée plus récente que le 20/08 retrouvée pour confirmer ou
+  infirmer le maintien du classement vert. Sévérité maintenue MOYENNE par prudence, la
+  situation ayant déjà basculé plusieurs fois d'un jour à l'autre cet été.
 ordre: 7
 ---
 
