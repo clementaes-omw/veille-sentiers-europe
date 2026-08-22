@@ -1,7 +1,7 @@
 ---
 cle: incendie|UK-Cairngorms-Glenmore|wildfire-Strathnethy-C7-fermee|2026-07-16
 type: incendie / fermeture accès
-itin: Aucun P1 identifié — secteur de randonnée majeur des Cairngorms (Glenmore Forest, Ryvoan Bothy), hors GR/National Trail référencés en base
+itin: Aucun P1 identifié — secteur de randonnée majeur des Cairngorms (Glenmore Forest, Ryvoan Bothy), hors GR®/National Trail référencés en base
 sev: MOYENNE
 validite: depuis le 15/07/2026 (même complexe d'incendie), jusqu'à nouvel ordre pour les
   secteurs résiduels : cordon d'exclusion levé pour la majeure partie de Glenmore depuis le

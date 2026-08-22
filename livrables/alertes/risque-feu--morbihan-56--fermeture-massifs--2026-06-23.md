@@ -1,12 +1,12 @@
 ---
 cle: risque-feu|Morbihan-56|fermeture-massifs|2026-06-23
 type: fermeture massif / risque feu
-itin: GR34 (impact à confirmer — tracé littoral)
+itin: GR®34 (impact à confirmer — tracé littoral)
 sev: MOYENNE
 validite: AP 23/06/2026, LEVÉ le 29/06/2026 à 5h
 detection: 2026-07-02
 verif: 2026-07-04
-statut: [CLÔTURÉ] (2026-07-04) — aucun impact GR34 confirmé
+statut: [CLÔTURÉ] (2026-07-04) — aucun impact GR®34 confirmé
 ordre: 14
 ---
 

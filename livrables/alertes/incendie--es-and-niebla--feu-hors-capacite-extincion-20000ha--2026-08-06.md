@@ -1,10 +1,10 @@
 ---
 cle: incendie|ES-AND-Niebla|feu-hors-capacite-extincion-20000ha|2026-08-06
 type: incendie
-itin: GR48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Huelva
+itin: GR®48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Huelva
   (Encinasola, Cumbres de San Bartolomé, Cumbres Mayores) ; recoupement précis avec le
   périmètre brûlé (Niebla, Berrocal, Zalamea la Real, Paterna del Campo, La Palma del
-  Condado) non confirmé par une source consultée. Aucun itinéraire GR référencé ne
+  Condado) non confirmé par une source consultée. Aucun itinéraire GR® référencé ne
   traverse directement cette zone selon le référentiel interne.
 sev: MOYENNE (dégradée depuis HAUTE le 20/08 — INFOCA en situation opérationnelle 0
   depuis le 17/08, tous les évacués rentrés, aucun front actif depuis le 16/08, aucun
@@ -99,7 +99,7 @@ secteur entre El Pozuelo, Marigenta et El Berrocal, en combinant engins lourds, 
 terrestres et brûlages dirigés d'élargissement. Aucune source consultée ne documente
 d'impact sur un itinéraire balisé nommé ; les localités touchées se situent dans une
 zone de plaine agricole et de dehesa (Condado de Huelva), à l'écart des tracés connus
-du GR7/E4 ou du Camino Mozárabe, qui ne traversent pas cette partie de la province selon
+du GR®7/E4 ou du Camino Mozárabe, qui ne traversent pas cette partie de la province selon
 le référentiel interne.
 
 Précision utile pour éviter une confusion avec un autre incendie : une recherche sur

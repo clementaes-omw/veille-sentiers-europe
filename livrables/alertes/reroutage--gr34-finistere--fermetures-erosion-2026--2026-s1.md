@@ -1,7 +1,7 @@
 ---
 cle: reroutage|GR34-Finistère|fermetures-érosion-2026|2026-S1
 type: reroutage / fermetures locales
-itin: GR34
+itin: GR®34
 sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
@@ -15,7 +15,7 @@ ordre: 9
 
 ## Portion concernée
 
-**GR34 dans le Finistère : 15+ fermetures ou déviations locales.** Loctudy, Trégunc-Minaÿët (marées coef. >90), Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau, Névez, Crozon (×3), Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier. Raison : érosion et effondrements du littoral.
+**GR®34 dans le Finistère : 15+ fermetures ou déviations locales.** Loctudy, Trégunc-Minaÿët (marées coef. >90), Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau, Névez, Crozon (×3), Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier. Raison : érosion et effondrements du littoral.
 
 ## Alternative
 

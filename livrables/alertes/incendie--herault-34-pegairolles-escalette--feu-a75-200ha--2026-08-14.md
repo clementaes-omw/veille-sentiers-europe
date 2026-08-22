@@ -1,8 +1,8 @@
 ---
 cle: incendie|Herault-34-Pegairolles-Escalette|feu-A75-200ha|2026-08-14
 type: incendie
-itin: GR7 (secteur Lodève, causse du Larzac) — [HYPOTHÈSE] aucune source ne nomme un sentier,
-  le GR7 traverse le Lodévois-Larzac mais le recoupement précis avec le secteur brûlé du pas
+itin: GR®7 (secteur Lodève, causse du Larzac) — [HYPOTHÈSE] aucune source ne nomme un sentier,
+  le GR®7 traverse le Lodévois-Larzac mais le recoupement précis avec le secteur brûlé du pas
   de l'Escalette reste à établir
 sev: MOYENNE
 validite: feu ÉTEINT depuis le 15/08/2026 à 00h01, tunnel de l'A75 rouvert dans les deux sens
@@ -31,7 +31,7 @@ Sans objet : le feu est éteint et la circulation sur l'A75 et dans le tunnel du
 
 14/08/2026, vers 16h00 : un véhicule léger prend feu sur l'A75 au niveau du tunnel du Pas de l'Escalette (Pégairolles-de-l'Escalette, Hérault). Les flammes se propagent à la végétation environnante, favorisées par le vent, et gagnent le plateau du Larzac en direction de La Couvertoirade. Plus de 350 sapeurs-pompiers sont engagés, appuyés par 3 Canadair, 1 Dash-8 et 2 Thrush 710P (avions bombardiers d'eau légers départementaux), ainsi qu'un hélicoptère de commandement. L'A75 est fermée à la circulation dans les deux sens vers 15h30 au niveau du tunnel.
 
-Le feu est déclaré fixé le soir même, vers 21h30, à environ 200 hectares parcourus (bilan porté de 10 ha à l'estimation initiale à 200 ha au bilan du soir). Les pompiers poursuivent le traitement des lisières et des points chauds pour prévenir toute reprise. Aucun blessé ni dégât matériel n'est signalé. Aucun sentier de grande randonnée n'est nommé par les articles disponibles ; le secteur (Lodévois, pas de l'Escalette, bordure du Larzac) est traversé par le GR7, mais le recoupement précis du tracé avec la zone brûlée reste à établir.
+Le feu est déclaré fixé le soir même, vers 21h30, à environ 200 hectares parcourus (bilan porté de 10 ha à l'estimation initiale à 200 ha au bilan du soir). Les pompiers poursuivent le traitement des lisières et des points chauds pour prévenir toute reprise. Aucun blessé ni dégât matériel n'est signalé. Aucun sentier de grande randonnée n'est nommé par les articles disponibles ; le secteur (Lodévois, pas de l'Escalette, bordure du Larzac) est traversé par le GR®7, mais le recoupement précis du tracé avec la zone brûlée reste à établir.
 
 MAJ 16/08 : la chronologie complète de l'événement (fiche feuxdeforet.fr, qui référence le même feu sous la commune voisine de Saint-Félix-de-l'Héras) situe le tunnel du Pas de l'Escalette partiellement rouvert dès 21h48 le 14/08, le feu maîtrisé entre 23h54 et 23h57, puis déclaré éteint à 00h01 le 15/08. Le bulletin clickalert.org publié le 14/08 à 23h51 confirme qu'« une voie sur deux est ouverte dans le sens Millau-Montpellier » et que « le tunnel du Pas de l'Escalette est à nouveau ouvert dans les deux sens » dès ce soir-là, et non seulement le lendemain matin comme rapporté au premier passage. Aucune fermeture de sentier n'a été publiée à aucun moment de l'épisode. Alerte close.
 

@@ -12,7 +12,7 @@ statut: [CLÔTURÉ] (2026-08-05) — Mare a Mare Nord entièrement rouvert (3 é
   une reprise de feu du 01-02/08 avait brièvement refermé le sentier et le refuge de la Sega
   entre les deux réouvertures déjà connues (31/07 puis 04/08) ; statut inchangé, toujours
   rouvert. INCHANGÉ 15/08 : pnr.corsica (dernière mise à jour 04/08/2026) confirme toujours
-  « tous les massifs sont ouverts », GR20 et Mare a Mare Nord accessibles sans restriction ;
+  « tous les massifs sont ouverts », GR®20 et Mare a Mare Nord accessibles sans restriction ;
   aucune source ne signale de nouvelle reprise.
 ordre: 37
 ---

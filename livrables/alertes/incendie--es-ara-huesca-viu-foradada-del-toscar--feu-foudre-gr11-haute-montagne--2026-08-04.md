@@ -1,7 +1,7 @@
 ---
 cle: incendie|ES-ARA-Huesca-Viu-Foradada-del-Toscar|feu-foudre-GR11-haute-montagne|2026-08-04
 type: incendie
-itin: GR11 (Senda Transpirenaica, secteur Huesca) — [FAIT] le tracé passe par la zone de Foradada del Toscar, commune de Viu
+itin: GR®11 (Senda Transpirenaica, secteur Huesca) — [FAIT] le tracé passe par la zone de Foradada del Toscar, commune de Viu
 sev: MOYENNE
 validite: sans activité confirmée depuis le 08/08/2026 (dernier point officiel : ~20 ha, stable) ; aucune détection thermique satellite depuis plusieurs jours
 detection: 2026-08-10
@@ -10,18 +10,18 @@ statut: [CLÔTURÉ] (2026-08-12) — dernière confirmation d'activité officiel
   (~20 ha, stable), plus aucune détection thermique satellite (incendiohoy.es) sur ce
   secteur depuis plusieurs jours au 12/08. Aucun communiqué d'extinction formel trouvé ;
   clôture par convention (absence de source neuve + absence de signal de terrain), sur
-  le modèle déjà appliqué à La Baña/Encinedo. Le GR11 n'a jamais été signalé fermé ni
+  le modèle déjà appliqué à La Baña/Encinedo. Le GR®11 n'a jamais été signalé fermé ni
   dévié à aucun moment de l'épisode.
 ordre: 104
 ---
 
 ## Portion concernée
 
-**Feu de forêt sans activité confirmée** à Foradada del Toscar (commune de Viu, Huesca), zone de haute montagne traversée par le GR11. Déclenché par la foudre le 04/08/2026, il est resté stable à environ 20 ha jusqu'à sa dernière confirmation d'activité le 08/08/2026. Aucune détection thermique satellite n'est plus enregistrée sur ce secteur depuis plusieurs jours. Raison : incendie de foudre en zone difficile d'accès, résolu depuis.
+**Feu de forêt sans activité confirmée** à Foradada del Toscar (commune de Viu, Huesca), zone de haute montagne traversée par le GR®11. Déclenché par la foudre le 04/08/2026, il est resté stable à environ 20 ha jusqu'à sa dernière confirmation d'activité le 08/08/2026. Aucune détection thermique satellite n'est plus enregistrée sur ce secteur depuis plusieurs jours. Raison : incendie de foudre en zone difficile d'accès, résolu depuis.
 
 ## Alternative
 
-Sans objet : aucune fermeture ni déviation du GR11 n'a été signalée à aucun moment de l'épisode.
+Sans objet : aucune fermeture ni déviation du GR®11 n'a été signalée à aucun moment de l'épisode.
 
 ## Zone (détails)
 

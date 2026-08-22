@@ -1,7 +1,7 @@
 ---
 cle: risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21
 type: risque feu / réglementation accès
-itin: GR65 (traversée des Landes), GR8, GR654 — impact direct sur les randonneurs itinérants prévoyant un bivouac en forêt landaise/girondine
+itin: GR®65 (traversée des Landes), GR®8, GR®654 — impact direct sur les randonneurs itinérants prévoyant un bivouac en forêt landaise/girondine
 sev: MOYENNE (Gironde repassée en ROUGE le 08/08, les Landes restent en ORANGE)
 validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; désescalade ROUGE→ORANGE le 04/08/2026 dans les deux départements, puis nouvelle escalade ORANGE→ROUGE en Gironde à compter du 08/08/2026 12h (les Landes restent en vigilance orange, dernier communiqué daté du 03/08) ; zones brûlées et bivouac/camping isolé restent interdits jusqu'à nouvel ordre, sans échéance de levée annoncée par les arrêtés préfectoraux cités
 detection: 2026-07-24
@@ -12,18 +12,18 @@ statut: ACTIF — CHANGÉ 14/08 : la Gironde est repassée en vigilance ROUGE à
   dédiée sur landes.gouv.fr). Sévérité maintenue MOYENNE : le critère HAUTE (vigilance rouge/
   noire disposant de 2 sources) ne concerne de nouveau qu'un seul des deux départements, le
   reste de la fiche (bivouac interdit, zones brûlées fermées) est inchangé. Statut d'un
-  tronçon GR8 dans le secteur brûlé landais toujours non confirmé (ni fermé ni rouvert
+  tronçon GR®8 dans le secteur brûlé landais toujours non confirmé (ni fermé ni rouvert
   officiellement) malgré nouvelle recherche ciblée.
 ordre: 47
 ---
 
 ## Portion concernée
 
-Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born) : complexe d'incendies de fin juillet 2026, fixé dans les deux départements. La Gironde est repassée en vigilance ROUGE le 08/08/2026 à midi, après une désescalade en orange qui n'aura duré que quatre jours ; les Landes restent en vigilance ORANGE (dernier communiqué daté du 03/08). **Zones brûlées toujours fermées au public, bivouac/camping isolé toujours interdit en forêt (jusqu'à 200 m de lisière) dans les deux départements.** Le secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) est traversé par le GR8 ; le statut d'un éventuel tronçon fermé n'est toujours pas confirmé officiellement.
+Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born) : complexe d'incendies de fin juillet 2026, fixé dans les deux départements. La Gironde est repassée en vigilance ROUGE le 08/08/2026 à midi, après une désescalade en orange qui n'aura duré que quatre jours ; les Landes restent en vigilance ORANGE (dernier communiqué daté du 03/08). **Zones brûlées toujours fermées au public, bivouac/camping isolé toujours interdit en forêt (jusqu'à 200 m de lisière) dans les deux départements.** Le secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) est traversé par le GR®8 ; le statut d'un éventuel tronçon fermé n'est toujours pas confirmé officiellement.
 
 ## Alternative
 
-Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born : à confirmer directement auprès de la FFRandonnée Landes avant l'étape. Le bivouac isolé en forêt reste interdit malgré le passage en vigilance orange.
+Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR®8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born : à confirmer directement auprès de la FFRandonnée Landes avant l'étape. Le bivouac isolé en forêt reste interdit malgré le passage en vigilance orange.
 
 ## Zone (détails)
 
@@ -31,9 +31,9 @@ Landes + Gironde : massifs forestiers landais et girondins exposés (zones forê
 
 21-31/07 : escalade majeure, avec un complexe d'incendies déclaré, ~42 000 ha brûlés en Gironde (jusqu'à 220 000 évacués, vigilance NOIRE), ~3 600 ha dans les Landes (jusqu'à 40 000 évacués), fixé le 27/07 (Landes) puis le 01/08 (Gironde).
 
-MAJ 05/08 : désescalade officielle. gironde.gouv.fr (04/08) et landes.gouv.fr (03/08) abaissent tous deux la vigilance de ROUGE à ORANGE à compter du 04/08/2026, les deux volets du complexe étant fixés. Sous vigilance orange, des restrictions restent en vigueur : usage du feu, sorties isolées, et surtout bivouac/camping isolé restent interdits en forêt et jusqu'à 200 m de sa lisière ; les zones brûlées (Saumos/Le Porge en Gironde, Biscarrosse/Gastes/Sainte-Eulalie-en-Born dans les Landes) restent fermées au public non autorisé. Statut d'un éventuel tronçon fermé du GR8 toujours non confirmé (aucune source landes.ffrandonnee.fr postérieure trouvée).
+MAJ 05/08 : désescalade officielle. gironde.gouv.fr (04/08) et landes.gouv.fr (03/08) abaissent tous deux la vigilance de ROUGE à ORANGE à compter du 04/08/2026, les deux volets du complexe étant fixés. Sous vigilance orange, des restrictions restent en vigueur : usage du feu, sorties isolées, et surtout bivouac/camping isolé restent interdits en forêt et jusqu'à 200 m de sa lisière ; les zones brûlées (Saumos/Le Porge en Gironde, Biscarrosse/Gastes/Sainte-Eulalie-en-Born dans les Landes) restent fermées au public non autorisé. Statut d'un éventuel tronçon fermé du GR®8 toujours non confirmé (aucune source landes.ffrandonnee.fr postérieure trouvée).
 
-MAJ 14/08 : nouvelle escalade en Gironde. gironde.gouv.fr publie un communiqué de presse annonçant le passage en vigilance ROUGE à compter du samedi 8 août 2026 à midi. Les mêmes restrictions que lors du premier épisode rouge de juillet s'appliquent : dans les communes à dominante forestière, en zone exposée, interdiction des engins thermiques et électriques ainsi que de toute source d'inflammation de 14h à 22h, et interdiction de pratiquer le bivouac et le camping isolé sur terrain privé. Les Landes restent en vigilance orange, le dernier communiqué retrouvé sur landes.gouv.fr datant toujours du 03/08 malgré une recherche dédiée. Le tronçon éventuellement fermé du GR8 dans le secteur brûlé landais reste sans confirmation officielle, ni fermeture ni réouverture publiée.
+MAJ 14/08 : nouvelle escalade en Gironde. gironde.gouv.fr publie un communiqué de presse annonçant le passage en vigilance ROUGE à compter du samedi 8 août 2026 à midi. Les mêmes restrictions que lors du premier épisode rouge de juillet s'appliquent : dans les communes à dominante forestière, en zone exposée, interdiction des engins thermiques et électriques ainsi que de toute source d'inflammation de 14h à 22h, et interdiction de pratiquer le bivouac et le camping isolé sur terrain privé. Les Landes restent en vigilance orange, le dernier communiqué retrouvé sur landes.gouv.fr datant toujours du 03/08 malgré une recherche dédiée. Le tronçon éventuellement fermé du GR®8 dans le secteur brûlé landais reste sans confirmation officielle, ni fermeture ni réouverture publiée.
 
 ## Source
 

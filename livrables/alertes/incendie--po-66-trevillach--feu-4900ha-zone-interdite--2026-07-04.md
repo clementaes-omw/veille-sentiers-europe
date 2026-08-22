@@ -1,7 +1,7 @@
 ---
 cle: incendie|PO-66-Trévillach|feu-4900ha-zone-interdite|2026-07-04
 type: incendie / fermetures post-incendie
-itin: GR36 (66, traversée Fenouillèdes/basse Têt) ; GR10 NON concerné (Canigou/Albères, au sud)
+itin: GR®36 (66, traversée Fenouillèdes/basse Têt) ; GR®10 NON concerné (Canigou/Albères, au sud)
 sev: MOYENNE
 validite: zone brûlée : durable, aucun arrêté d'interdiction publié à ce jour
 detection: 2026-07-14 (feu du 04/07)
@@ -15,7 +15,7 @@ ordre: 21
 
 ## Portion concernée
 
-Zone brûlée de 4 936 ha (bilan officiel final), entre Ille-sur-Têt, Trévillach, Montalba-le-Château et Tarerach (Fenouillèdes / basse Têt, 66), traversée par le GR36. Le feu est officiellement déclaré éteint par la préfecture depuis le 07/08/2026. Aucun arrêté d'interdiction d'accès à la zone incendiée n'est publié sur le site de la préfecture des Pyrénées-Orientales : le terrain n'est pas juridiquement fermé à ce titre, mais il est brûlé sur toute sa largeur (sol instable, arbres fragilisés, balisage détruit). **Le massif des Fenouillèdes est par ailleurs fermé au titre du risque incendie**, régime distinct et décidé au jour le jour. Raison : feu majeur du 04/07/2026, fixé le 07/07, éteint le 07/08. Le GR10 n'est pas concerné.
+Zone brûlée de 4 936 ha (bilan officiel final), entre Ille-sur-Têt, Trévillach, Montalba-le-Château et Tarerach (Fenouillèdes / basse Têt, 66), traversée par le GR®36. Le feu est officiellement déclaré éteint par la préfecture depuis le 07/08/2026. Aucun arrêté d'interdiction d'accès à la zone incendiée n'est publié sur le site de la préfecture des Pyrénées-Orientales : le terrain n'est pas juridiquement fermé à ce titre, mais il est brûlé sur toute sa largeur (sol instable, arbres fragilisés, balisage détruit). **Le massif des Fenouillèdes est par ailleurs fermé au titre du risque incendie**, régime distinct et décidé au jour le jour. Raison : feu majeur du 04/07/2026, fixé le 07/07, éteint le 07/08. Le GR®10 n'est pas concerné.
 
 ## Alternative
 

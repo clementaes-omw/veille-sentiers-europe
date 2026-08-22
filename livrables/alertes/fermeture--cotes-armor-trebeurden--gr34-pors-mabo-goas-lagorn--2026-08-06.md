@@ -1,7 +1,7 @@
 ---
 cle: fermeture|Cotes-Armor-Trebeurden|GR34-Pors-Mabo-Goas-Lagorn|2026-08-06
 type: fermeture
-itin: GR34
+itin: GR®34
 sev: MOYENNE
 validite: depuis le 06/08/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-08-19
@@ -14,7 +14,7 @@ ordre: 175
 
 ## Portion concernée
 
-GR34 entre **Pors Mabo et le vallon de Goas Lagorn** (Trébeurden, Côtes-d'Armor) : accès interdit aux randonneurs depuis l'incendie déclenché dans la soirée du 5 août 2026. Raison : terrain sous surveillance après le passage du feu.
+GR®34 entre **Pors Mabo et le vallon de Goas Lagorn** (Trébeurden, Côtes-d'Armor) : accès interdit aux randonneurs depuis l'incendie déclenché dans la soirée du 5 août 2026. Raison : terrain sous surveillance après le passage du feu.
 
 ## Alternative
 
@@ -22,7 +22,7 @@ Déviation balisée mise en place en coordination avec la mairie de Trébeurden,
 
 ## Zone (détails)
 
-05/08/2026 au soir : un incendie se déclare sur le secteur du vallon de Goas Lagorn, entre Pors Mabo et le Cap. Le comité FFRandonnée des Côtes-d'Armor publie le 06/08/2026 un avis de fermeture du GR34 sur cette portion, le temps de sécuriser le terrain, avec une déviation balisée obligatoire.
+05/08/2026 au soir : un incendie se déclare sur le secteur du vallon de Goas Lagorn, entre Pors Mabo et le Cap. Le comité FFRandonnée des Côtes-d'Armor publie le 06/08/2026 un avis de fermeture du GR®34 sur cette portion, le temps de sécuriser le terrain, avec une déviation balisée obligatoire.
 
 ## Source
 

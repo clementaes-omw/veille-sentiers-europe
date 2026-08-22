@@ -1,7 +1,7 @@
 ---
 cle: risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10
 type: risque feu / fermeture massif
-itin: GR10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Mer)
+itin: GR®10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Mer)
 sev: HAUTE
 validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
 detection: 2026-07-20
@@ -17,7 +17,7 @@ ordre: 35
 
 ## Portion concernée
 
-Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR10 : **accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026** sur Argelès-sur-Mer (arrêté renforcé le 13/07, ARR2026-024PM), et **jusqu'au 13/09/2026 sur Sorède** (arrêté municipal n°26.216 du 17/06/2026, accès limité aux piétons et vélos musculaires/VAE). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels sur Argelès ; les randonneurs et cyclistes individuels restent interdits d'accès. Aucune de ces deux mesures n'a de clause de republication périodique : l'arrêté de Sorède court par construction jusqu'au 13/09, celui d'Argelès reste valide tant qu'aucune levée officielle n'est publiée. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée). Ces textes ont été retrouvés et datés précisément le 10/08/2026. Vérifié à nouveau le 18/08/2026 : aucun signal de levée, les deux arrêtés demeurent en vigueur dans les mêmes termes.
+Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR®10 : **accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026** sur Argelès-sur-Mer (arrêté renforcé le 13/07, ARR2026-024PM), et **jusqu'au 13/09/2026 sur Sorède** (arrêté municipal n°26.216 du 17/06/2026, accès limité aux piétons et vélos musculaires/VAE). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels sur Argelès ; les randonneurs et cyclistes individuels restent interdits d'accès. Aucune de ces deux mesures n'a de clause de republication périodique : l'arrêté de Sorède court par construction jusqu'au 13/09, celui d'Argelès reste valide tant qu'aucune levée officielle n'est publiée. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée). Ces textes ont été retrouvés et datés précisément le 10/08/2026. Vérifié à nouveau le 18/08/2026 : aucun signal de levée, les deux arrêtés demeurent en vigueur dans les mêmes termes.
 
 ## Alternative
 

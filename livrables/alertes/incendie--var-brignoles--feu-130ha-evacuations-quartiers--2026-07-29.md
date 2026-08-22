@@ -1,7 +1,7 @@
 ---
 cle: incendie|Var-Brignoles|feu-130ha-evacuations-quartiers|2026-07-29
 type: incendie / évacuations
-itin: GR9 & GR99 (Centre-Var, secteur Brignoles) — [HYPOTHÈSE] proximité de zone, aucune source ne documente de fermeture de sentier propre à ce feu
+itin: GR®9 & GR®99 (Centre-Var, secteur Brignoles) — [HYPOTHÈSE] proximité de zone, aucune source ne documente de fermeture de sentier propre à ce feu
 sev: INFO (clôturée — feu maîtrisé depuis le 30/07, aucune source ne documente plus de coupure de route)
 validite: [CLÔTURÉ] (2026-08-10) — feu maîtrisé depuis le 30/07/2026 03h00 (130 ha), toutes évacuations levées le 30/07 ; aucune source postérieure au 31/07 n'a jamais documenté de coupure de route persistante
 detection: 2026-07-30
@@ -29,7 +29,7 @@ Zone FR-83 (Var), massif Centre-Var. La zone est concernée par des fermetures q
 
 Les opérations se sont poursuivies dans la matinée du 30/07, avant la hausse des températures et le retour annoncé de vents de sud à sud-ouest l'après-midi, avec environ dix kilomètres de lisières restant à traiter pour sécuriser les quartiers de Brignoles qui avaient été menacés. C'est ce feu, autant que le retour de la canicule, qui pèse sur le contexte varois du jour : le massif Centre-Var figure parmi les 6 massifs sur 9 refermés au public le 30/07.
 
-Rattachement aux itinéraires : le GR9 et le GR99 traversent le Centre-Var (`referentiel/sentiers-db.csv`, zone FR-83), mais aucune source lue ne mentionne de sentier, de GR ni de fermeture de massif spécifiquement liée à ce feu. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source. Suivi : confirmer l'extinction complète, la levée des deux dernières consignes d'évacuation et la réouverture de la RD12.
+Rattachement aux itinéraires : le GR®9 et le GR®99 traversent le Centre-Var (`referentiel/sentiers-db.csv`, zone FR-83), mais aucune source lue ne mentionne de sentier, de GR® ni de fermeture de massif spécifiquement liée à ce feu. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source. Suivi : confirmer l'extinction complète, la levée des deux dernières consignes d'évacuation et la réouverture de la RD12.
 
 ## Source
 

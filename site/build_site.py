@@ -390,6 +390,46 @@ def cles_du_jour() -> set:
     return _CLES_DU_JOUR
 
 
+def _longueur_visible(part: str) -> int:
+    """Longueur approximative telle que lue à l'écran : liens réduits à leur texte,
+    marqueurs gras retirés (sert seulement au calcul de budget, jamais au rendu)."""
+    return len(LINK_RE.sub(lambda m: m.group(1), part).replace("**", ""))
+
+
+def shorten_sources(text: str, limit: int = 150) -> str:
+    """Réduit la ligne Sources à ~150 caractères visibles sans casser les liens :
+    on garde les citations dans l'ordre tant qu'elles tiennent dans le budget (une
+    citation gardée l'est intégralement, markdown compris — c'est un fragment déjà
+    valide de la source). Si la première seule dépasse déjà le budget à elle seule,
+    on ne reconstruit qu'un lien tronqué à partir de son titre (`search`, pas
+    `match` : le lien peut être précédé d'un marqueur gras) pour ne jamais couper
+    en plein milieu d'une syntaxe markdown et laisser un `**` ou un `[...]` orphelin."""
+    parts = [p.strip() for p in text.split(" ; ") if p.strip()]
+    if not parts:
+        return text
+    kept, used, i = [], 0, 0
+    for i, part in enumerate(parts):
+        taille = _longueur_visible(part)
+        if not kept and taille > limit:
+            m = LINK_RE.search(part)
+            titre = m.group(1) if m else part.replace("**", "")
+            coupe = titre[:limit].rsplit(" ", 1)[0].strip() or titre[:limit]
+            kept.append(f"[{coupe}…]({m.group(2)})" if m else coupe + "…")
+            i += 1
+            break
+        sep = 3 if kept else 0  # " ; "
+        if used + sep + taille > limit:
+            break
+        kept.append(part)
+        used += sep + taille
+    else:
+        i = len(parts)
+    reste = " ; ".join(kept)
+    if reste.count("**") % 2:      # sécurité : jamais de marqueur gras orphelin
+        reste = reste.replace("**", "")
+    return reste + " …" if i < len(parts) else reste
+
+
 def render_card(c) -> str:
     statut_txt = c["statut"]
     closed = "CLÔTURÉ" in statut_txt.upper()
@@ -401,14 +441,6 @@ def render_card(c) -> str:
     if changed and not closed:
         chips += ('<span class="chip changed" title="Alerte déjà connue dont la situation a '
                   'évolué au dernier passage de veille (surface, dates, périmètre…)">changé</span>')
-    iso_re = re.compile(r"^\d{4}-\d{2}-\d{2}")
-    det_txt = (fr_date(c["detection"][:10], True) if iso_re.match(c["detection"])
-               else html.escape(c["detection"][:16]))
-    ver_txt = (fr_date(c["verif"][:10], True) if iso_re.match(c["verif"])
-               else html.escape(c["verif"][:16]))
-    dates = (f'<span title="Première détection">détectée {det_txt}</span>'
-             f'<span class="sep">·</span>'
-             f'<span title="Dernière vérification">vérifiée {ver_txt}</span>')
     searchable = re.sub(r"[*`~\[\]\\]|\([^)]*\)$", "",
                         " ".join([c["itin"], c["portion"], c["zone"]]))
     searchable = unicodedata.normalize("NFD", searchable)
@@ -437,8 +469,7 @@ def render_card(c) -> str:
     <summary>Détails</summary>
     <p>{inline(c["zone"])}</p>
   </details>
-  <p class="meta dates"><span title="Validité">{inline(c["validite"])}</span><span class="sep">·</span>{dates}</p>
-  <p class="meta sources">Sources : {inline(c["source"])}</p>
+  <p class="meta sources">Sources : {inline(shorten_sources(c["source"]))}</p>
 </article>"""
 
 
@@ -936,8 +967,8 @@ def qa_check(cards, page: str, bivouac=None):
     n_biv = len(bivouac or [])
     if page.count('class="meta sources"') != len(cards) + n_biv:
         errs.append("[structure] ligne Sources manquante sur au moins une carte/fiche")
-    if page.count('class="meta dates"') != len(cards) + n_biv:
-        errs.append("[structure] ligne validité/dates manquante sur au moins une carte/fiche")
+    if page.count('class="meta dates"') != n_biv:
+        errs.append("[structure] ligne date manquante sur au moins une fiche bivouac")
     if 'id="q"' not in page or 'id="noresult"' not in page:
         errs.append("[structure] recherche sentier absente")
     if UMAMI_WEBSITE_ID and UMAMI_WEBSITE_ID not in page:
@@ -1335,6 +1366,7 @@ def build():
   --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
   --s-6: 32px; --s-7: 48px; --s-8: 64px;
   --rythme: 160ms cubic-bezier(.2, 0, .2, 1);
+  --topbar-h: 48px;
   /* posés sur --surface-invert, qui est sombre dans les deux thèmes.
      -3 est l'étiquette de groupe du header : plus effacée que les onglets, mais
      c'est du texte, donc elle reste au-dessus de 4.5:1 sur le fond le plus clair
@@ -1364,6 +1396,9 @@ del {{ color: var(--ink-2); }}
   padding: var(--s-3) var(--s-4); border-radius: 0 0 8px 0; }}
 .skip:focus {{ left: 0; }}
 main:focus {{ outline: none; }}
+/* Bouton « remonter en haut » : masqué par défaut, réservé au mobile (où le
+   pouce n'atteint pas la barre du haut). */
+.to-top {{ display: none; }}
 .sr-only {{ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }}
 
@@ -1589,6 +1624,21 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
      place à une file qui défile, comme le reste des barres d'onglets du site. */
   .topnav .nav-in {{ display: flex; justify-content: flex-start;
     gap: var(--s-4); padding: 0 var(--s-4); }}
+  /* Fixe au scroll : sur un long registre d'alertes, la barre de navigation
+     (Alertes/Bivouac/À propos) reste à portée de pouce plutôt que de défiler
+     hors champ. Le padding-top du body compense la perte du flux normal. */
+  .topnav {{ position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    height: var(--topbar-h); }}
+  .topnav .nav-in {{ height: 100%; }}
+  body {{ padding-top: var(--topbar-h); }}
+  .to-top {{ display: flex; align-items: center; justify-content: center;
+    position: fixed; right: var(--s-4); bottom: var(--s-4); width: 44px; height: 44px;
+    border: 0; border-radius: 50%; background: var(--surface-invert); color: var(--on-invert);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .25); cursor: pointer; z-index: 90;
+    opacity: 0; pointer-events: none; transform: translateY(6px);
+    transition: opacity var(--rythme), transform var(--rythme); }}
+  .to-top.visible {{ opacity: 1; pointer-events: auto; transform: translateY(0); }}
+  .to-top:focus-visible {{ outline: 2px solid var(--on-invert); outline-offset: 2px; }}
   .layout {{ display: block; }}
   header.mast {{ padding: var(--s-4) 0 var(--s-2); gap: var(--s-3); }}
   .tagline {{ font-size: var(--t-base); }}
@@ -1772,6 +1822,13 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   <button class="footlink" data-view="apropos" data-anchor="contact">Contact</button>
 </footer>
 </div>
+
+<button type="button" id="totop" class="to-top" aria-label="Remonter en haut de la page">
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+    <path d="M10 15V5M10 5l-5 5M10 5l5 5" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
 
 <script>window.__ZONES = {zones_json};</script>
 <script>
@@ -1979,6 +2036,16 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
       applyFilters();
     }});
   }});
+
+  var totop = document.getElementById('totop');
+  if (totop) {{
+    window.addEventListener('scroll', function () {{
+      totop.classList.toggle('visible', window.scrollY > 400);
+    }}, {{ passive: true }});
+    totop.addEventListener('click', function () {{
+      window.scrollTo({{ top: 0, behavior: 'smooth' }});
+    }});
+  }}
 }})();
 </script>
 </body>

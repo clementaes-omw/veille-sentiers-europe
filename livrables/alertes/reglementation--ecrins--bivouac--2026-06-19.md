@@ -1,7 +1,7 @@
 ---
 cle: réglementation|Écrins|bivouac|2026-06-19
 type: réglementation
-itin: GR54 / Tour Oisans-Écrins
+itin: GR®54 / Tour Oisans-Écrins
 sev: MOYENNE
 validite: arrêté-cadre du 16/06/2026, en vigueur jusqu'à nouvel ordre ; quotas possibles ultérieurement selon la fréquentation
 detection: 2026-06-19

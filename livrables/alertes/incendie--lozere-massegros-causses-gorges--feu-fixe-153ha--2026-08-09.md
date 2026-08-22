@@ -1,7 +1,7 @@
 ---
 cle: incendie|Lozere-Massegros-Causses-Gorges|feu-fixe-153ha|2026-08-09
 type: incendie
-itin: GR736 Sentier des gorges et de la vallée du Tarn ; GRP Tour du Causse de Sauveterre — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement à confirmer
+itin: GR®736 Sentier des gorges et de la vallée du Tarn ; GRP Tour du Causse de Sauveterre — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement à confirmer
 sev: MOYENNE
 validite: feu fixé depuis le 10/08/2026 matin, situation stable ; aucune source postérieure retrouvée depuis, y compris à la nouvelle vérification du 18/08/2026 ; aucune fermeture de sentier documentée
 detection: 2026-08-13
@@ -26,7 +26,7 @@ Aucune fermeture de sentier n'est publiée à ce jour. Se renseigner sur l'état
 
 10/08/2026, au matin : le feu est déclaré fixé, la surface parcourue est stabilisée à 153 hectares. Deux maisons directement menacées ont été préservées, aucun blessé parmi la population n'est signalé. Selon les titres de presse consultés, les habitants évacués ont pu regagner leur domicile.
 
-Aucun sentier de grande randonnée n'est nommé par les articles disponibles. Le secteur (Causse de Sauveterre, abords des Gorges du Tarn) est traversé par le GR736 (Sentier des gorges et de la vallée du Tarn) et par le tracé local du GRP Tour du Causse de Sauveterre, mais le recoupement précis avec la zone brûlée reste à établir.
+Aucun sentier de grande randonnée n'est nommé par les articles disponibles. Le secteur (Causse de Sauveterre, abords des Gorges du Tarn) est traversé par le GR®736 (Sentier des gorges et de la vallée du Tarn) et par le tracé local du GRP Tour du Causse de Sauveterre, mais le recoupement précis avec la zone brûlée reste à établir.
 
 ## Source
 

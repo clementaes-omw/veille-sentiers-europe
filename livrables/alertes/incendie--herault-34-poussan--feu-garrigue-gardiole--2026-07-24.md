@@ -1,7 +1,7 @@
 ---
 cle: incendie|Herault-34-Poussan|feu-garrigue-Gardiole|2026-07-24
 type: incendie
-itin: GR51 [HYPOTHÈSE]
+itin: GR®51 [HYPOTHÈSE]
 sev: MOYENNE
 validite: sous contrôle depuis le 24/07 22h, vigilance de nuit maintenue (vents violents)
 detection: 2026-07-25

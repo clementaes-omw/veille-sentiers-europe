@@ -1,7 +1,7 @@
 ---
 cle: reroutage|GR34-rade-de-Brest|nouveau-tracé-officiel|2026-05-28
 type: reroutage pérenne
-itin: GR34
+itin: GR®34
 sev: MOYENNE (haute pour la trace)
 validite: durable (reroutage pérenne), inauguré le 28/05/2026 ; le nouveau tracé remplace définitivement l'ancien, aucune échéance
 detection: 2026-07-03
@@ -13,7 +13,7 @@ ordre: 10
 
 ## Portion concernée
 
-GR34, rade de Brest : **nouveau tracé côtier officiel de 29 km**, de Daoulas à Logonna-Daoulas puis L'Hôpital-Camfrout, en remplacement de 5,5 km de tracé intérieur. Raison : reroutage pérenne inauguré le 28/05/2026.
+GR®34, rade de Brest : **nouveau tracé côtier officiel de 29 km**, de Daoulas à Logonna-Daoulas puis L'Hôpital-Camfrout, en remplacement de 5,5 km de tracé intérieur. Raison : reroutage pérenne inauguré le 28/05/2026.
 
 ## Alternative
 

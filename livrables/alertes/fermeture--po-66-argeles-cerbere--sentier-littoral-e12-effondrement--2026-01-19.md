@@ -1,7 +1,7 @@
 ---
 cle: fermeture|PO-66-Argeles-Cerbere|sentier-littoral-E12-effondrement|2026-01-19
 type: fermeture / glissement de terrain
-itin: E12 Sentier littoral / Sentier des douaniers (Argelès-sur-Mer↔Cerbère) — hors GR P1 référencé
+itin: E12 Sentier littoral / Sentier des douaniers (Argelès-sur-Mer↔Cerbère) — hors GR® P1 référencé
 sev: MOYENNE
 validite: réouverture partielle actée par arrêté du 08/06/2026 ; 3 sections restent fermées jusqu'à nouvel ordre (Criques de Porteils/Argelès avec itinéraire bis, Grandes Elmes/Banyuls avec itinéraire bis, Aloès→RD914/Cerbère en attente de travaux à l'Anse de Terrimbo)
 detection: 2026-07-26

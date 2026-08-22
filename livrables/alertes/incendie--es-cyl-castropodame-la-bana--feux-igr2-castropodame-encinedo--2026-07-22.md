@@ -1,7 +1,7 @@
 ---
 cle: incendie|ES-CYL-Castropodame-La-Bana|feux-IGR2-Castropodame-Encinedo|2026-07-22
 type: incendie
-itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrera/Bierzo, à l'écart du tracé principal Astorga–Ponferrada–Villafranca del Bierzo ; Camino de Santiago de Levante (GR239-ES) [HYPOTHÈSE] recoupement non sourcé
+itin: Camino Francés [HYPOTHÈSE] impact non confirmé — secteur de la Cabrera/Bierzo, à l'écart du tracé principal Astorga–Ponferrada–Villafranca del Bierzo ; Camino de Santiago de Levante (GR®239-ES) [HYPOTHÈSE] recoupement non sourcé
 sev: MOYENNE
 validite: Castropodame/Villaverde de los Cestos formellement « controlado », suspect interpellé (bilan 01/08) ; La Baña/Encinedo confirmé résolu par absence totale des bilans provinciaux du 25/07 au 06/08
 detection: 2026-07-22

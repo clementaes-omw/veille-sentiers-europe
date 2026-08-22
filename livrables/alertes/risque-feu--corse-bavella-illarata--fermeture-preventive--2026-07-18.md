@@ -1,7 +1,7 @@
 ---
 cle: risque-feu|Corse-Bavella-Illarata|fermeture-preventive|2026-07-18
 type: risque feu / fermeture massif (préventive)
-itin: GR20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
+itin: GR®20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
@@ -15,7 +15,7 @@ ordre: 30
 
 ## Portion concernée
 
-Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza) : **fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre**, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). GR20 interrompu entre Asinau et Paliri. Raison : risque incendie très sévère et vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. La fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) est également en vigueur depuis le 18/07 16h00 (piste distincte, hors GR20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) : cette échéance est atteinte sans confirmation de levée ni de prolongation, à traiter par défaut comme toujours fermé. Situation vérifiée au 15/08, stable pour ce qu'on en sait mais sur source vieillissante : Bavella entièrement accessible, Illarata rouvert partiellement (vallée du Cavu basse accessible, haute et moyenne toujours interdites), RD268 toujours déviée. Aucune publication n'a reconduit ni levé cette fermeture depuis le 23/07/2026.
+Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza) : **fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre**, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). GR®20 interrompu entre Asinau et Paliri. Raison : risque incendie très sévère et vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. La fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) est également en vigueur depuis le 18/07 16h00 (piste distincte, hors GR®20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) : cette échéance est atteinte sans confirmation de levée ni de prolongation, à traiter par défaut comme toujours fermé. Situation vérifiée au 15/08, stable pour ce qu'on en sait mais sur source vieillissante : Bavella entièrement accessible, Illarata rouvert partiellement (vallée du Cavu basse accessible, haute et moyenne toujours interdites), RD268 toujours déviée. Aucune publication n'a reconduit ni levé cette fermeture depuis le 23/07/2026.
 
 ## Alternative
 
@@ -23,15 +23,15 @@ Aucune alternative connue à ce jour pour Bavella et Illarata (navettes gratuite
 
 ## Zone (détails)
 
-Corse-du-Sud, Bavella ROUVERT : arrêté du 17/07 abrogé, réouverture confirmée le 20/07 au soir puis reconfirmée le 21/07 16h51 (« massif entièrement accessible »). GR20 Asinau↔Paliri ROUVERT, les étapes Asinao↔Bavella, Bavella↔Paliri et Paliri↔Conca sont de nouveau accessibles. Le statut d'accueil du refuge de Paliri lui-même [HYPOTHÈSE] n'est pas confirmé par une source dédiée : seul l'accès sentier est confirmé rouvert.
+Corse-du-Sud, Bavella ROUVERT : arrêté du 17/07 abrogé, réouverture confirmée le 20/07 au soir puis reconfirmée le 21/07 16h51 (« massif entièrement accessible »). GR®20 Asinau↔Paliri ROUVERT, les étapes Asinao↔Bavella, Bavella↔Paliri et Paliri↔Conca sont de nouveau accessibles. Le statut d'accueil du refuge de Paliri lui-même [HYPOTHÈSE] n'est pas confirmé par une source dédiée : seul l'accès sentier est confirmé rouvert.
 
 Illarata-Taglio Rosso (Zonza) reste fermé, un nouvel arrêté du 20/07 remplaçant celui du 17/07. Détail clarifié 23/07 : les deux versions relevées sont complémentaires (arrêté n° 2A-2026-07-20-00007), avec d'une part les pistes forestières Tova/Pré d'Agnellu/Ficaghjola et la RD845 fermées, d'autre part la vallée du Cavu fermée dans ses parties haute et moyenne, la partie basse étant rouverte.
 
 Haute-Corse : massifs du Fango, forêt de Bonifato, ouest du Territoire de l'Agriate, reconduction confirmée 18/19/07 [FAIT]. Une entrée « du 20/07 au 21/07 » existe mais son contenu est inaccessible (401 x2) ; aucune entrée 2026 n'a été trouvée pour le 22/07, la seule page portant ce titre étant un piège daté 2025.
 
-MAJ 24/07 : Bavella toujours rouvert (GR20 Asinau↔Paliri praticable) ; Illarata (haute et moyenne vallée du Cavu, pistes Tova/Pré d'Agnellu/Ficaghjola/RD845) toujours fermé, aucune levée trouvée ; statut d'accueil du refuge de Paliri toujours non confirmé.
+MAJ 24/07 : Bavella toujours rouvert (GR®20 Asinau↔Paliri praticable) ; Illarata (haute et moyenne vallée du Cavu, pistes Tova/Pré d'Agnellu/Ficaghjola/RD845) toujours fermé, aucune levée trouvée ; statut d'accueil du refuge de Paliri toujours non confirmé.
 
-MAJ 29/07 : aucune source postérieure au 21/07 trouvée malgré recherche dédiée. Bavella toujours rouvert, Illarata toujours fermé, refuge de Paliri (accueil) toujours non confirmé ; le fetch de gr20-infos.com (toujours daté 22/07 18h) indique que les étapes de la section Bavella sont de nouveau praticables, ce qui est cohérent avec Bavella rouvert et ne contredit pas la fermeture d'Illarata (massif distinct, hors tracé GR20).
+MAJ 29/07 : aucune source postérieure au 21/07 trouvée malgré recherche dédiée. Bavella toujours rouvert, Illarata toujours fermé, refuge de Paliri (accueil) toujours non confirmé ; le fetch de gr20-infos.com (toujours daté 22/07 18h) indique que les étapes de la section Bavella sont de nouveau praticables, ce qui est cohérent avec Bavella rouvert et ne contredit pas la fermeture d'Illarata (massif distinct, hors tracé GR®20).
 
 MAJ 31/07 : aucune source postérieure au 23/07 trouvée malgré recherche dédiée. Bavella toujours rouvert, Illarata toujours fermé (pistes Tova/Pré d'Agnellu/Ficaghjola et RD845, vallée du Cavu haute et moyenne). Un article info.fr du 23/07 12h22 confirme l'état déjà enregistré (arrêté du 20/07 en vigueur, alerte FR-ALERT géolocalisée diffusée le 23/07 pour rappeler les interdictions) sans rien trancher de nouveau.
 

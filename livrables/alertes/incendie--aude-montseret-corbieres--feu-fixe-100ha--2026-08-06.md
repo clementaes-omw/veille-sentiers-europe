@@ -1,7 +1,7 @@
 ---
 cle: incendie|Aude-Montseret-Corbieres|feu-fixe-100ha|2026-08-06
 type: incendie
-itin: GR36 (traversée des Corbières) ; GR367 Sentier Cathare (Corbières) — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement avec la commune de Montséret à confirmer
+itin: GR®36 (traversée des Corbières) ; GR®367 Sentier Cathare (Corbières) — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement avec la commune de Montséret à confirmer
 sev: MOYENNE
 validite: feu fixé depuis le 06/08/2026 au soir, situation stable ; aucune source postérieure au 07/08/2026 retrouvée, y compris à la nouvelle vérification du 18/08/2026 ; aucune fermeture de sentier documentée
 detection: 2026-08-13
@@ -29,7 +29,7 @@ Aucune fermeture de sentier n'est publiée à ce jour. Se renseigner sur l'état
 
 07/08/2026 : le feu est confirmé fixé, la surface reste stabilisée à environ 100 hectares. 120 sapeurs-pompiers assurent la surveillance nocturne et le traitement des points chauds pour prévenir toute reprise.
 
-Ce départ de feu survient à proximité du secteur ravagé par le mégafeu des Corbières de 2025, sans lien de cause direct établi par les sources consultées. Aucun sentier de grande randonnée n'est nommé par les articles disponibles : le massif des Corbières est traversé par le GR36 (Ouistreham↔Bourg-Madame) et par le GR367 Sentier Cathare, mais le recoupement précis du tracé avec le secteur brûlé de Montséret reste à établir.
+Ce départ de feu survient à proximité du secteur ravagé par le mégafeu des Corbières de 2025, sans lien de cause direct établi par les sources consultées. Aucun sentier de grande randonnée n'est nommé par les articles disponibles : le massif des Corbières est traversé par le GR®36 (Ouistreham↔Bourg-Madame) et par le GR®367 Sentier Cathare, mais le recoupement précis du tracé avec le secteur brûlé de Montséret reste à établir.
 
 ## Source
 

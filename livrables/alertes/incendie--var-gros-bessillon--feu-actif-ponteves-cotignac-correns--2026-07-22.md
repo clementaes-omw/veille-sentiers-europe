@@ -1,7 +1,7 @@
 ---
 cle: incendie|Var-Gros-Bessillon|feu-actif-Ponteves-Cotignac-Correns|2026-07-22
 type: incendie
-itin: GR9/GR51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
+itin: GR®9/GR®51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
 sev: INFO (clôturée — extinction officielle confirmée le 19/08/2026 après un mois de lutte)
 validite: [CLÔTURÉ] (2026-08-19) — feu déclaré officiellement éteint après un mois de combat, bilan final 6 300 ha parcourus
 detection: 2026-07-25
