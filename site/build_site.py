@@ -373,6 +373,19 @@ def itin_badge(c) -> str:
     return itin_badges(c)[0]
 
 
+# Les deux états du bouton « sources » sont posés ensemble ; c'est le CSS qui montre
+# l'un ou l'autre selon aria-expanded. La flèche est dessinée et non écrite : « ← »
+# n'est pas dans le sous-ensemble Roboto embarqué, il tombait sur une police de repli
+# et s'affichait fin à côté de points en gras. Le SVG suit currentColor et garde le
+# même trait que la flèche « remonter en haut ».
+SRC_ICONES = (
+    '<span class="src-ico-ouvre">…</span>'
+    '<svg class="src-ico-ferme" width="13" height="13" viewBox="0 0 16 16" fill="none"'
+    ' aria-hidden="true" focusable="false">'
+    '<path d="M13 8H3M3 8l4-4M3 8l4 4" stroke="currentColor" stroke-width="2.2"'
+    ' stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
 def badge_texte(b: str) -> str:
     """Texte d'un badge sentier, ® passé en exposant. L'échappement vient d'abord :
     `html.escape` ne touche pas au ®, donc le remplacement qui suit ne peut injecter
@@ -410,14 +423,16 @@ def _equilibre_gras(s: str) -> str:
     return s.replace("**", "") if s.count("**") % 2 else s
 
 
-def shorten_sources(text: str, limit: int = 150):
+def shorten_sources(text: str, limit: int = 200):
     """Coupe la ligne Sources en deux : ce qui s'affiche d'emblée, et le reste, que
     le « … » révèle. On ne coupe JAMAIS à l'intérieur d'une citation — une source
-    gardée l'est entière, markdown compris. Une première source qui dépasse à elle
-    seule le budget est donc affichée complète (190 caractères au pire, mesuré sur
-    le registre) plutôt que tranchée en plein titre : le « … » garde ainsi un sens
-    unique, « il y a d'autres sources », au lieu de signifier tantôt cela, tantôt
-    « ce titre continue ». Renvoie (affiché, reste), reste vide si tout tient."""
+    gardée l'est entière, markdown compris. Une première source qui dépasserait à
+    elle seule le budget sort donc complète plutôt que tranchée en plein titre : le
+    « … » garde ainsi un sens unique, « il y a d'autres sources », au lieu de
+    signifier tantôt cela, tantôt « ce titre continue ». Aucune ne dépasse à ce jour
+    (la plus longue du registre fait 190 caractères pour un budget de 200), mais les
+    sources changent à chaque run : la règle vaut pour celles à venir.
+    Renvoie (affiché, reste), reste vide si tout tient."""
     parts = [p.strip() for p in text.split(" ; ") if p.strip()]
     if not parts:
         return text, ""
@@ -462,7 +477,7 @@ def render_card(c) -> str:
         sources_html += (
             f'<span class="src-suite" hidden> ; {inline(src_reste)}</span>'
             f'<button type="button" class="src-plus" aria-expanded="false"'
-            f' aria-label="Afficher toutes les sources">…</button>')
+            f' aria-label="Afficher toutes les sources">{SRC_ICONES}</button>')
     # La ligne de tête (sentiers, gravité, type) sert de TITRE de la fiche : sans elle,
     # 167 articles se suivaient sans un seul point de saut pour un lecteur d'écran.
     # L'infobulle qui portait la légende de gravité est retirée : répétée 71 fois,
@@ -1303,8 +1318,10 @@ def build():
         setTimeout(function () {
           var cible = slug && document.getElementById('a-' + slug);
           if (cible) {
-            var det = cible.querySelector('details');
-            if (det && !det.open) det.open = true;
+            // Le volet « Détails » n'est PAS ouvert d'office : une fiche atteinte
+            // depuis la carte doit se présenter exactement comme dans la liste.
+            // Ouvert, son narratif s'intercalait entre « Détails » et « Sources »
+            // et redonnait à la carte l'encombrement qu'on venait de retirer.
             // scroll instantané : le smooth entre en course avec le reflow de la vue
             // qui vient de passer de display:none à visible (position décalée).
             cible.scrollIntoView({ block: 'start' });
@@ -1614,19 +1631,27 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .card .meta {{ margin: 0; color: var(--ink-2); font-size: var(--t-sm); }}
 .card .meta.dates {{ margin-top: var(--s-3); padding-top: var(--s-2); border-top: 1px solid var(--line); }}
 .card .meta.sources {{ margin-top: var(--s-1); }}
-/* Le « … » qui déplie le reste des sources. Il reste du texte dans la phrase :
-   un vrai bouton dessiné couperait la ligne en deux. Le rembourrage élargit la
-   cible tactile sans décaler la ligne — sur un élément inline, le rembourrage
-   vertical déborde la boîte de ligne au lieu de la grandir.
-   Soulignement POINTILLÉ, et non plein : sur cette ligne, tout ce qui est souligné
-   en plein quitte le site. Avec le même trait, « réduire » se lisait comme une
-   source de plus. Le pointillé dit « ça s'ouvre ici ». */
-.src-plus {{ font: inherit; color: var(--pine); background: none; border: 0;
-  padding: 12px 10px; margin-left: 2px; cursor: pointer;
-  text-decoration: underline dotted; text-underline-offset: 3px; }}
-.src-plus:hover {{ color: var(--ink); }}
-.src-plus:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px;
-  border-radius: 3px; }}
+/* Le « … » qui déplie le reste des sources, puis « ← » qui replie. Pas de
+   soulignement : sur cette ligne tout ce qui est souligné est un lien qui quitte
+   le site, et le contrôle s'y noyait — trois points fins perdus au bout d'une
+   suite de liens. Il se distingue maintenant par la graisse et un fond au survol.
+   Les points sont grossis et espacés : au corps du texte méta ils étaient à peine
+   visibles. Le rembourrage porte la cible à 44 px sans décaler la ligne — sur un
+   élément inline, le rembourrage vertical déborde la boîte de ligne au lieu de
+   la grandir. */
+.src-plus {{ font: inherit; font-weight: 700; font-size: 1.15em; line-height: 1;
+  color: var(--pine); background: none; border: 0; border-radius: 5px;
+  padding: 15px 10px; margin-left: 4px; cursor: pointer; letter-spacing: .1em;
+  vertical-align: baseline; transition: background-color var(--rythme), color var(--rythme); }}
+.src-plus:hover {{ color: var(--on-accent); background: var(--pine); }}
+.src-plus:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px; }}
+/* Les deux icônes sont dans le bouton ; aria-expanded décide de celle qui s'affiche.
+   Le JS n'a donc rien à réécrire : il bascule l'attribut, le CSS suit. */
+.src-plus .src-ico-ferme {{ display: none; }}
+.src-plus[aria-expanded="true"] .src-ico-ouvre {{ display: none; }}
+.src-plus[aria-expanded="true"] .src-ico-ferme {{ display: block; }}
+/* La flèche n'a pas besoin de l'espacement qui aère les trois points. */
+.src-plus[aria-expanded="true"] {{ letter-spacing: 0; padding: 16px 10px; }}
 .card .meta .sep {{ margin: 0 6px; }}
 .card details {{ margin-top: var(--s-3); font-size: var(--t-md); }}
 .card summary {{ display: inline-flex; align-items: center; min-height: 44px;
@@ -2080,8 +2105,11 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
     if (!suite || !suite.classList.contains('src-suite')) return;
     var ouvert = b.getAttribute('aria-expanded') === 'true';
     suite.hidden = ouvert;
+    // L'icône visible est choisie par le CSS d'après cet attribut : rien à réécrire.
+    // Flèche vers la GAUCHE et non vers le haut — la page porte déjà une flèche
+    // haute, le bouton flottant qui remonte en tête ; deux flèches identiques pour
+    // deux gestes différents se confondraient.
     b.setAttribute('aria-expanded', ouvert ? 'false' : 'true');
-    b.textContent = ouvert ? '…' : 'réduire';
     b.setAttribute('aria-label',
       ouvert ? 'Afficher toutes les sources' : 'Masquer les sources supplémentaires');
   }});
