@@ -403,38 +403,34 @@ def _longueur_visible(part: str) -> int:
     return len(LINK_RE.sub(lambda m: m.group(1), part).replace("**", ""))
 
 
-def shorten_sources(text: str, limit: int = 150) -> str:
-    """Réduit la ligne Sources à ~150 caractères visibles sans casser les liens :
-    on garde les citations dans l'ordre tant qu'elles tiennent dans le budget (une
-    citation gardée l'est intégralement, markdown compris — c'est un fragment déjà
-    valide de la source). Si la première seule dépasse déjà le budget à elle seule,
-    on ne reconstruit qu'un lien tronqué à partir de son titre (`search`, pas
-    `match` : le lien peut être précédé d'un marqueur gras) pour ne jamais couper
-    en plein milieu d'une syntaxe markdown et laisser un `**` ou un `[...]` orphelin."""
+def _equilibre_gras(s: str) -> str:
+    """Un `**` orphelin resterait affiché tel quel : le build le refuse (« markdown
+    gras non rendu »). Couper entre deux citations ne peut en produire que si une
+    emphase enjambait le séparateur ; on la retire alors des deux côtés."""
+    return s.replace("**", "") if s.count("**") % 2 else s
+
+
+def shorten_sources(text: str, limit: int = 150):
+    """Coupe la ligne Sources en deux : ce qui s'affiche d'emblée, et le reste, que
+    le « … » révèle. On ne coupe JAMAIS à l'intérieur d'une citation — une source
+    gardée l'est entière, markdown compris. Une première source qui dépasse à elle
+    seule le budget est donc affichée complète (190 caractères au pire, mesuré sur
+    le registre) plutôt que tranchée en plein titre : le « … » garde ainsi un sens
+    unique, « il y a d'autres sources », au lieu de signifier tantôt cela, tantôt
+    « ce titre continue ». Renvoie (affiché, reste), reste vide si tout tient."""
     parts = [p.strip() for p in text.split(" ; ") if p.strip()]
     if not parts:
-        return text
-    kept, used, i = [], 0, 0
-    for i, part in enumerate(parts):
+        return text, ""
+    garde, used = [], 0
+    for part in parts:
         taille = _longueur_visible(part)
-        if not kept and taille > limit:
-            m = LINK_RE.search(part)
-            titre = m.group(1) if m else part.replace("**", "")
-            coupe = titre[:limit].rsplit(" ", 1)[0].strip() or titre[:limit]
-            kept.append(f"[{coupe}…]({m.group(2)})" if m else coupe + "…")
-            i += 1
+        sep = 3 if garde else 0        # " ; "
+        if garde and used + sep + taille > limit:
             break
-        sep = 3 if kept else 0  # " ; "
-        if used + sep + taille > limit:
-            break
-        kept.append(part)
+        garde.append(part)
         used += sep + taille
-    else:
-        i = len(parts)
-    reste = " ; ".join(kept)
-    if reste.count("**") % 2:      # sécurité : jamais de marqueur gras orphelin
-        reste = reste.replace("**", "")
-    return reste + " …" if i < len(parts) else reste
+    return (_equilibre_gras(" ; ".join(garde)),
+            _equilibre_gras(" ; ".join(parts[len(garde):])))
 
 
 def render_card(c) -> str:
@@ -458,6 +454,15 @@ def render_card(c) -> str:
     cat_slug = cat["slug"] if cat else "inconnue"
     badges_html = "\n    ".join(f'<span class="badge itin">{badge_texte(b)}</span>'
                                 for b in itin_badges(c))
+    # Sources : les premières s'affichent, les autres attendent derrière le « … ».
+    # Le bouton n'existe QUE s'il y a un reste — sinon il promettrait un dépliage vide.
+    src_vu, src_reste = shorten_sources(c["source"])
+    sources_html = inline(src_vu)
+    if src_reste:
+        sources_html += (
+            f'<span class="src-suite" hidden> ; {inline(src_reste)}</span>'
+            f'<button type="button" class="src-plus" aria-expanded="false"'
+            f' aria-label="Afficher toutes les sources">…</button>')
     # La ligne de tête (sentiers, gravité, type) sert de TITRE de la fiche : sans elle,
     # 167 articles se suivaient sans un seul point de saut pour un lecteur d'écran.
     # L'infobulle qui portait la légende de gravité est retirée : répétée 71 fois,
@@ -476,7 +481,7 @@ def render_card(c) -> str:
     <summary>Détails</summary>
     <p>{inline(c["zone"])}</p>
   </details>
-  <p class="meta sources">Sources : {inline(shorten_sources(c["source"]))}</p>
+  <p class="meta sources">Sources : {sources_html}</p>
 </article>"""
 
 
@@ -1609,6 +1614,19 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .card .meta {{ margin: 0; color: var(--ink-2); font-size: var(--t-sm); }}
 .card .meta.dates {{ margin-top: var(--s-3); padding-top: var(--s-2); border-top: 1px solid var(--line); }}
 .card .meta.sources {{ margin-top: var(--s-1); }}
+/* Le « … » qui déplie le reste des sources. Il reste du texte dans la phrase :
+   un vrai bouton dessiné couperait la ligne en deux. Le rembourrage élargit la
+   cible tactile sans décaler la ligne — sur un élément inline, le rembourrage
+   vertical déborde la boîte de ligne au lieu de la grandir.
+   Soulignement POINTILLÉ, et non plein : sur cette ligne, tout ce qui est souligné
+   en plein quitte le site. Avec le même trait, « réduire » se lisait comme une
+   source de plus. Le pointillé dit « ça s'ouvre ici ». */
+.src-plus {{ font: inherit; color: var(--pine); background: none; border: 0;
+  padding: 12px 10px; margin-left: 2px; cursor: pointer;
+  text-decoration: underline dotted; text-underline-offset: 3px; }}
+.src-plus:hover {{ color: var(--ink); }}
+.src-plus:focus-visible {{ outline: 2px solid var(--pine); outline-offset: 1px;
+  border-radius: 3px; }}
 .card .meta .sep {{ margin: 0 6px; }}
 .card details {{ margin-top: var(--s-3); font-size: var(--t-md); }}
 .card summary {{ display: inline-flex; align-items: center; min-height: 44px;
@@ -1702,6 +1720,11 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   a {{ color: #000; text-decoration: underline; }}
   .card .meta.sources a::after {{ content: " (" attr(href) ")"; font-size: 8pt;
     word-break: break-all; }}
+  /* Sur papier il n'y a rien à déplier : toutes les sources sortent, le « … » part.
+     C'est la raison d'être de cette feuille — on imprime pour marcher sans réseau,
+     et une source repliée serait une source perdue. */
+  .src-suite[hidden] {{ display: inline !important; }}
+  .src-plus {{ display: none !important; }}
   footer {{ border-top: 1px solid #000; }}
 }}
 {carte_css}
@@ -2046,6 +2069,21 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
       if (document.getElementById('registre').hidden) show('registre', true);
       applyFilters();
     }});
+  }});
+
+  // Sources dépliables. Un seul écouteur sur le document plutôt qu'un par carte :
+  // il y en a 94, et les cartes cachées des autres vues comptent aussi.
+  document.addEventListener('click', function (e) {{
+    var b = e.target.closest ? e.target.closest('.src-plus') : null;
+    if (!b) return;
+    var suite = b.previousElementSibling;
+    if (!suite || !suite.classList.contains('src-suite')) return;
+    var ouvert = b.getAttribute('aria-expanded') === 'true';
+    suite.hidden = ouvert;
+    b.setAttribute('aria-expanded', ouvert ? 'false' : 'true');
+    b.textContent = ouvert ? '…' : 'réduire';
+    b.setAttribute('aria-label',
+      ouvert ? 'Afficher toutes les sources' : 'Masquer les sources supplémentaires');
   }});
 
   var totop = document.getElementById('totop');
