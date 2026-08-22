@@ -1,7 +1,7 @@
 ---
 cle: incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16
 type: incendie
-itin: [HYPOTHÈSE] aucun GR référencé (Vía de la Plata, Camino de Madrid, Camino de Levante, GR10-ES) confirmé traversant le secteur exact Jadraque/Sigüenza — recoupement à faire ; signalé pour vigilance régionale au vu de l'ampleur (record depuis 1994)
+itin: [HYPOTHÈSE] aucun GR® référencé (Vía de la Plata, Camino de Madrid, Camino de Levante, GR®10-ES) confirmé traversant le secteur exact Jadraque/Sigüenza — recoupement à faire ; signalé pour vigilance régionale au vu de l'ampleur (record depuis 1994)
 sev: MOYENNE (en décrue — stabilisé, retours en cours ; impact direct sur un itinéraire suivi toujours non confirmé)
 validite: stabilisé depuis le 23/07, niveau opérationnel 1 (le plus bas), jusqu'à nouvel ordre ; seuls 2 villages encore évacués au 25/07 (dernière donnée disponible)
 detection: 2026-07-24
@@ -10,7 +10,7 @@ statut: ACTIF — INCHANGÉ 14/08 : incendie toujours donné comme contrôlé (�
   cmmedia.es 04/08, dernière source datée trouvée) en phase de stabilisation, ~33 000 ha au
   bilan final. Aucune reprise ni nouvelle donnée postérieure au 04/08 trouvée. [HYPOTHÈSE]
   toujours non confirmée : aucun croisement avéré avec Vía de la Plata/Camino de Madrid/
-  Camino de Levante/GR10-ES. Sévérité maintenue MOYENNE.
+  Camino de Levante/GR®10-ES. Sévérité maintenue MOYENNE.
 ordre: 48
 ---
 

@@ -1,12 +1,12 @@
 ---
 cle: risque-feu|Var-83|fermetures-massifs-rouges|2026-07-01
 type: fermeture massif / risque feu
-itin: GR51 & GR98 (Estérel, Maures traversés)
+itin: GR®51 & GR®98 (Estérel, Maures traversés)
 sev: HAUTE
 validite: épisode 01-02/07 terminé : tous massifs 83 ouverts les 03 et 04/07
 detection: 2026-07-03
 verif: 2026-08-17
-statut: [CLÔTURÉ] (2026-07-04) — retirer l'alerte temporaire GR51/98 ; vigilance saisonnière continue
+statut: [CLÔTURÉ] (2026-07-04) — retirer l'alerte temporaire GR®51/98 ; vigilance saisonnière continue
 ordre: 8
 ---
 

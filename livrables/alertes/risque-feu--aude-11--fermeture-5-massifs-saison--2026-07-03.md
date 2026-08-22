@@ -1,7 +1,7 @@
 ---
 cle: risque-feu|Aude-11|fermeture-5-massifs-saison|2026-07-03
 type: risque feu / fermeture massifs saisonnière
-itin: GR36 & GR78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (côté littoral) ; Ribaute (Corbières) à recouper
+itin: GR®36 & GR®78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (côté littoral) ; Ribaute (Corbières) à recouper
 sev: MOYENNE
 validite: 03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP
 detection: 2026-07-06
@@ -16,7 +16,7 @@ ordre: 17
 
 ## Portion concernée
 
-**Aude : massifs de Fontfroide, Pinèdes de Crémade, la Clape et Pinède Lézignanaise fermés du 03/07 au 31/08.** L'île Ste-Lucie est fermée les jours très sévère/extrême et la zone incendiée de Ribaute est interdite. A priori hors tracés GR36/GR78 (à recouper). Raison : risque incendie saisonnier.
+**Aude : massifs de Fontfroide, Pinèdes de Crémade, la Clape et Pinède Lézignanaise fermés du 03/07 au 31/08.** L'île Ste-Lucie est fermée les jours très sévère/extrême et la zone incendiée de Ribaute est interdite. A priori hors tracés GR®36/GR®78 (à recouper). Raison : risque incendie saisonnier.
 
 ## Alternative
 

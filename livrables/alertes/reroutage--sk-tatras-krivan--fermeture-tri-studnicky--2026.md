@@ -1,7 +1,7 @@
 ---
 cle: reroutage|SK-Tatras-Krivan|fermeture-Tri-studnicky|2026
 type: reroutage / fermeture
-itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la Tatranská magistrála — aucun GR référencé (P1) directement concerné
+itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la Tatranská magistrála — aucun GR® référencé (P1) directement concerné
 sev: MOYENNE
 validite: travaux en cours, réouverture estimée septembre-octobre 2026
 detection: 2026-07-23

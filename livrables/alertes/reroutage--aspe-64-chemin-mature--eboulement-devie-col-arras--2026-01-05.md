@@ -1,7 +1,7 @@
 ---
 cle: reroutage|Aspe-64-Chemin-Mature|eboulement-devie-col-Arras|2026-01-05
 type: reroutage / fermeture locale
-itin: GR10 (vallée d'Aspe)
+itin: GR®10 (vallée d'Aspe)
 sev: MOYENNE
 validite: depuis le 05/01/2026, jusqu'à nouvel ordre
 detection: 2026-07-20
@@ -14,7 +14,7 @@ ordre: 36
 
 ## Portion concernée
 
-Chemin de la Mâture (vallée d'Aspe, Pyrénées-Atlantiques), portion du GR10 : **fermé depuis le 05/01/2026 par arrêté municipal, « jusqu'à nouvel ordre »**. Raison : éboulement.
+Chemin de la Mâture (vallée d'Aspe, Pyrénées-Atlantiques), portion du GR®10 : **fermé depuis le 05/01/2026 par arrêté municipal, « jusqu'à nouvel ordre »**. Raison : éboulement.
 
 ## Alternative
 
@@ -22,7 +22,7 @@ Déviation officielle balisée par le col d'Arras. La boucle historique n'est pl
 
 ## Zone (détails)
 
-Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR10, est fermé depuis le 05/01/2026 après un éboulement ; déviation balisée par le col d'Arras. Détection tardive : l'événement de janvier a été découvert au run du 20/07.
+Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR®10, est fermé depuis le 05/01/2026 après un éboulement ; déviation balisée par le col d'Arras. Détection tardive : l'événement de janvier a été découvert au run du 20/07.
 
 MAJ 03/08 : statut FERMÉ confirmé par recoupement de 2 sources indépendantes (refuges.info + office de tourisme des Pyrénées béarnaises). Cela résout le signal contradictoire relevé au 01/08 : l'article annonçant une réouverture après travaux n'est corroboré par aucune source fiable.
 

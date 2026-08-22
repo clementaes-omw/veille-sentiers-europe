@@ -1,7 +1,7 @@
 ---
 cle: risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08
 type: risque feu / fermeture massifs (journalier)
-itin: GR51 & GR98 (Estérel) ; GR51 & GR90 (Maures) ; GR9/GR51 (Sainte-Baume) ; GR9/GR99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 19/08, Sainte-Baume, Haut-Var, Corniche des Maures, Maures et les Îles d'Hyères sont fermés
+itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sainte-Baume) ; GR®9/GR®99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 19/08, Sainte-Baume, Haut-Var, Corniche des Maures, Maures et les Îles d'Hyères sont fermés
 sev: MOYENNE (ré-escalade 19/08 — 5 massifs sur 9 fermés, dont Corniche des Maures et Îles d'Hyères qui rejoignent la liste, fermeture de nature préventive liée aux prévisions météo)
 validite: journalière ; 5 massifs sur 9 fermés ce 19/08 (Sainte-Baume, Haut-Var, Corniche des Maures, Maures, Îles d'Hyères), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
@@ -15,7 +15,7 @@ ordre: 20
 
 ## Portion concernée
 
-Var, situation confirmée par une source datée (19/08) : **5 massifs sur 9 sont fermés au public : Sainte-Baume, Haut-Var, Corniche des Maures, Maures et les Îles d'Hyères**, classés en risque incendie très sévère, accès et présence humaine formellement interdits toute la journée. Les 4 autres massifs (Monts Toulonnais, Centre-Var, plateau de Canjuers, Estérel) sont classés orange (accès fortement déconseillé mais non interdit, travaux limités à 5h-13h pour l'agricole/sylvicole). Cette ré-escalade fait suite à la désescalade de la veille (3 massifs fermés). Le GR9/GR51 (Sainte-Baume) et le GR51/GR90 (Maures) restent donc fermés ce jour ; le GR51/GR98 (Estérel) et le GR9/GR99 (Centre-Var) restent praticables. Consulter var.gouv.fr avant de partir, la carte étant republiée chaque soir avant 19h pour le lendemain.
+Var, situation confirmée par une source datée (19/08) : **5 massifs sur 9 sont fermés au public : Sainte-Baume, Haut-Var, Corniche des Maures, Maures et les Îles d'Hyères**, classés en risque incendie très sévère, accès et présence humaine formellement interdits toute la journée. Les 4 autres massifs (Monts Toulonnais, Centre-Var, plateau de Canjuers, Estérel) sont classés orange (accès fortement déconseillé mais non interdit, travaux limités à 5h-13h pour l'agricole/sylvicole). Cette ré-escalade fait suite à la désescalade de la veille (3 massifs fermés). Le GR®9/GR®51 (Sainte-Baume) et le GR®51/GR®90 (Maures) restent donc fermés ce jour ; le GR®51/GR®98 (Estérel) et le GR®9/GR®99 (Centre-Var) restent praticables. Consulter var.gouv.fr avant de partir, la carte étant republiée chaque soir avant 19h pour le lendemain.
 
 ## Alternative
 

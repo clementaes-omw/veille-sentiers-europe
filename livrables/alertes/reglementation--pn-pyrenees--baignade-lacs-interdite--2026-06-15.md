@@ -1,7 +1,7 @@
 ---
 cle: réglementation|PN-Pyrénées|baignade-lacs-interdite|2026-06-15
 type: réglementation
-itin: GR10 / HRP / HRMP
+itin: GR®10 / HRP / HRMP
 sev: MOYENNE
 validite: permanente (arrêtés directeur 2026-45 et 2026-112)
 detection: 2026-07-02
@@ -12,7 +12,7 @@ ordre: 11
 
 ## Portion concernée
 
-Tous les lacs, laquets et cours d'eau du cœur du PN des Pyrénées (GR10, HRP) : **baignade et immersion interdites, aquarando interdite, à titre permanent**. Raison : protection des milieux aquatiques.
+Tous les lacs, laquets et cours d'eau du cœur du PN des Pyrénées (GR®10, HRP) : **baignade et immersion interdites, aquarando interdite, à titre permanent**. Raison : protection des milieux aquatiques.
 
 ## Alternative
 

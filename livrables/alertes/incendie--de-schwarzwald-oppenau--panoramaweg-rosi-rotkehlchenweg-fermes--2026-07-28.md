@@ -1,7 +1,7 @@
 ---
 cle: incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28
 type: incendie / fermeture sentiers locaux
-itin: sentiers locaux d'Oppenau (Forêt-Noire nord) — lien avec le Westweg (GR Forêt-Noire) non confirmé
+itin: sentiers locaux d'Oppenau (Forêt-Noire nord) — lien avec le Westweg (GR® Forêt-Noire) non confirmé
 sev: MOYENNE
 validite: « jusqu'à nouvel ordre », aucune date de réouverture annoncée
 detection: 2026-08-06
@@ -24,7 +24,7 @@ Le secteur de la Kleinebene n'est pas touché et reste utilisable sans restricti
 
 ## Zone (détails)
 
-06/08 : la commune d'Oppenau a fermé, à compter du 28/07/2026 et jusqu'à nouvel ordre, le Panoramaweg via le Burgerwald, le Rosi-Rotkehlchen-Weg et l'ensemble des chemins à proximité immédiate de la zone sinistrée par un incendie de forêt survenu dans les jours précédents. Le 29/07, la commune a précisé un risque de chute de pierres et de bois lié aux travaux de sécurisation menés par le service forestier. Seuls ces trois itinéraires locaux sont nommément cités par la source. Aucune information ne confirme que le Westweg (GR de la Forêt-Noire) traverse directement la zone fermée : le lien n'est donc pas établi.
+06/08 : la commune d'Oppenau a fermé, à compter du 28/07/2026 et jusqu'à nouvel ordre, le Panoramaweg via le Burgerwald, le Rosi-Rotkehlchen-Weg et l'ensemble des chemins à proximité immédiate de la zone sinistrée par un incendie de forêt survenu dans les jours précédents. Le 29/07, la commune a précisé un risque de chute de pierres et de bois lié aux travaux de sécurisation menés par le service forestier. Seuls ces trois itinéraires locaux sont nommément cités par la source. Aucune information ne confirme que le Westweg (GR® de la Forêt-Noire) traverse directement la zone fermée : le lien n'est donc pas établi.
 
 MAJ 07/08 : la page « Aufhebung Wegsperrungen » d'oppenau.de (31/07/2026) annonce une réouverture partielle. Le Promenadenweg, le Schlossgrundweg, l'accès à la Kletthütte via les sentiers du Burgerwald et l'accès à la Friedenseiche via la Kleinebene sont rouverts après déblaiement de la zone sinistrée. Restent fermés « pour raisons de sécurité » le tronçon entre la Kletthütte et le Scheibenfelsen, ainsi que le sentier de raccordement au Schlossgrundweg. La page principale « Wegsperrungen », revérifiée séparément, liste toujours sans changement le Panoramaweg et le Rosi-Rotkehlchen-Weg comme fermés jusqu'à nouvel ordre, dernière date visible le 28/07. Les deux pages décrivent des états complémentaires d'un même réseau de sentiers, pas une contradiction : la fermeture initiale s'est partiellement résorbée, mais le cœur de la zone sinistrée (Panoramaweg, Rosi-Rotkehlchen-Weg, tronçon Kletthütte↔Scheibenfelsen) reste fermé.
 

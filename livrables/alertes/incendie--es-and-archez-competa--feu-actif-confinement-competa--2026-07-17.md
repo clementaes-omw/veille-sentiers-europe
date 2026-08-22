@@ -1,7 +1,7 @@
 ---
 cle: incendie|ES-AND-Archez-Competa|feu-actif-confinement-Competa|2026-07-17
 type: incendie / évacuations
-itin: GR249 Gran Senda de Málaga (étapes Cómpeta–Canillas) — [HYPOTHÈSE] impact non confirmé par une source ; GR242 Sierra Tejeda-Almijara (Árchez/Cómpeta) — [HYPOTHÈSE] idem
+itin: GR®249 Gran Senda de Málaga (étapes Cómpeta–Canillas) — [HYPOTHÈSE] impact non confirmé par une source ; GR®242 Sierra Tejeda-Almijara (Árchez/Cómpeta) — [HYPOTHÈSE] idem
 sev: MOYENNE
 validite: sans activité depuis le 18/07 ; feu considéré résolu par convention, jamais formellement classé « extinguido »
 detection: 2026-07-17
@@ -24,7 +24,7 @@ Axarquía (Málaga) : feu parti près d'une route et d'un point de collecte de d
 
 MAJ 18/07 : désescalade confirmée (stabilisé 23h40 17/07, confinement levé, évacués rentrés, INFOCA en préémergence).
 
-MAJ 19/07 : nouvelle confirmation officielle de la Junta, le feu « ne présente plus d'activité », dossier proche de la clôture mais pas formellement classé « extinguido » ; route A-7206 toujours sans confirmation de réouverture. Aucune source ne nomme explicitement le GR249/GR242 en lien avec cet épisode.
+MAJ 19/07 : nouvelle confirmation officielle de la Junta, le feu « ne présente plus d'activité », dossier proche de la clôture mais pas formellement classé « extinguido » ; route A-7206 toujours sans confirmation de réouverture. Aucune source ne nomme explicitement le GR®249/GR®242 en lien avec cet épisode.
 
 MAJ 26/07 : 7e tentative de vérification infructueuse (recherches ciblées « incendio extinguido », « carretera reabierta », sans résultat postérieur au 18/07). La mairie de Cómpeta mentionnerait une réouverture de la route vers Canillas de Albaida après stabilisation, sans date exacte trouvée.
 

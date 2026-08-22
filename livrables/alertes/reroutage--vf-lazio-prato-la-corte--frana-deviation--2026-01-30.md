@@ -22,7 +22,7 @@ Itinéraire de substitution officiel indiqué par le parc : Via dell'Ara (Monte 
 
 ## Zone (détails)
 
-Parco di Veio (Latium) : fermeture « temporaire » sans date de réouverture. La détection est tardive (publication en 01/2026), le statut actuel reste donc à confirmer, comme sur le GR21 entre Loges et Bénouville.
+Parco di Veio (Latium) : fermeture « temporaire » sans date de réouverture. La détection est tardive (publication en 01/2026), le statut actuel reste donc à confirmer, comme sur le GR®21 entre Loges et Bénouville.
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 cle: reroutage|Pierrefiques-76|déviation|2025-05-18
 type: reroutage
-itin: GR21
+itin: GR®21
 sev: MOYENNE
 validite: jusqu'au 18/09/2026
 detection: 2025-05-18
@@ -14,7 +14,7 @@ ordre: 4
 
 ## Portion concernée
 
-GR21 entre Beaurepaire et Pierrefiques (chemin de la Dragonnerie, Seine-Maritime), jusqu'au 18/09/2026. Raison : réhabilitation d'une ancienne station d'épuration désaffectée à Beaurepaire.
+GR®21 entre Beaurepaire et Pierrefiques (chemin de la Dragonnerie, Seine-Maritime), jusqu'au 18/09/2026. Raison : réhabilitation d'une ancienne station d'épuration désaffectée à Beaurepaire.
 
 ## Alternative
 

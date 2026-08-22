@@ -32,7 +32,7 @@ Sans objet à ce jour : aucune fermeture de sentier ni de route n'est rapportée
 
 À Saint-Pierre-de-Belleville (vallée des Belleville) : un feu distinct est parti le samedi 15/08 vers 15h50, au lieu-dit Les Ruines. Au dernier point de situation daté (dimanche 16/08), les pompiers le décrivaient comme en cours d'intensification, sans bilan de surface communiqué. Aucune source postérieure au 16/08 n'a été trouvée malgré une recherche dédiée : le statut au 17-18/08 (fixé, maîtrisé, ou toujours actif) n'est pas confirmé.
 
-Rattachement aux itinéraires : le GRP Tour de la Haute-Maurienne (référentiel/sentiers-db.csv, zone FR-ALPES-N, priorité P3) passe dans le secteur général de la Maurienne, mais aucune source lue ne mentionne de sentier, de GR ni de fermeture liée nommément à l'un ou l'autre de ces deux feux. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source dédiée. Reste à confirmer : le statut actualisé de Saint-Pierre-de-Belleville, et l'extinction complète à La Chapelle.
+Rattachement aux itinéraires : le GRP Tour de la Haute-Maurienne (référentiel/sentiers-db.csv, zone FR-ALPES-N, priorité P3) passe dans le secteur général de la Maurienne, mais aucune source lue ne mentionne de sentier, de GR® ni de fermeture liée nommément à l'un ou l'autre de ces deux feux. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source dédiée. Reste à confirmer : le statut actualisé de Saint-Pierre-de-Belleville, et l'extinction complète à La Chapelle.
 
 ## Source
 

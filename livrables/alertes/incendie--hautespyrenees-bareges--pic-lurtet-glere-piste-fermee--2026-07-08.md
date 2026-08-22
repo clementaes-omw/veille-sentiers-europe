@@ -1,7 +1,7 @@
 ---
 cle: incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08
 type: incendie / fermeture piste
-itin: GR10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la Glère) — [HYPOTHÈSE] portion exacte du sentier HRP vs piste de la Glère à recouper
+itin: GR®10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la Glère) — [HYPOTHÈSE] portion exacte du sentier HRP vs piste de la Glère à recouper
 sev: MOYENNE (dégradée depuis HAUTE le 05/08 — 15 jours sans confirmation malgré recherche ciblée dédiée, règle des 14 jours)
 validite: depuis le 08/07/2026, fermeture présumée maintenue jusqu'à nouvel ordre ; aucune source ne confirme ni l'extinction ni une nouvelle progression depuis le 28/07 (150 ha, dernier chiffre confirmé le 22/07)
 detection: 2026-07-21
