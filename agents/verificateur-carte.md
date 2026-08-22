@@ -19,7 +19,7 @@ de code. Deux façons de mentir au randonneur par la carte, et aucune ne saute a
 - **une alerte sans marqueur** → sa zone ne se résout vers aucun code de `zones-coords.csv`. Le
   build ne le crie que sur stderr (`⚠ carte`), sans bloquer : l'alerte reste publiée dans la
   liste mais **invisible sur la carte**. Un randonneur qui se fie à la carte croit la zone sûre.
-- **un marqueur au mauvais endroit** → une alerte du GR10 en Ariège dont la zone pointe au centre
+- **un marqueur au mauvais endroit** → une alerte du GR®10 en Ariège dont la zone pointe au centre
   de l'Espagne. Le point existe, mais il désigne un massif que l'alerte ne concerne pas.
 
 Le contrôle déterministe (`site/audit_qualite.py`) attrape le premier cas (« alerte perdue »,
@@ -64,7 +64,7 @@ c'est un jugement géographique, et c'est le tien.
      tu le RECOMMANDES en verdict, précisément (clé d'alias → code cible).
 2. **PLAUSIBILITÉ DES CENTROÏDES EXISTANTS** — pour chaque zone qui porte au moins une alerte
    active, vérifie que son `lat;lon` tombe bien dans la région que ses alertes concernent. Une
-   alerte GR10 / Ariège dont la zone pointe au centre de l'Espagne, un massif corse pointé sur le
+   alerte GR®10 / Ariège dont la zone pointe au centre de l'Espagne, un massif corse pointé sur le
    continent : signale le centroïde douteux en verdict, avec le repère attendu. Tu ne corriges
    PAS d'autorité une entrée existante (voir Périmètre).
 3. **COMPTE DE MARQUEURS** — vérifie que le nombre de marqueurs annoncé sur le site

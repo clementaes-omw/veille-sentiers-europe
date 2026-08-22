@@ -15,7 +15,7 @@ Benelux, îles Britanniques, Scandinavie, Islande. 32 zones-sources, cadence ét
 Créé le 2026-07-17. Même mécanique que la veille OMW (`../veille-critique` + agent 07),
 avec deux différences structurantes :
 1. **L'unité de veille est la zone-source**, pas le sentier (un arrêté du Var couvre d'un
-   coup GR51/GR98/GR9/GR49…) — voir `referentiel/zones-sources.md`.
+   coup GR®51/GR®98/GR®9/GR®49…) — voir `referentiel/zones-sources.md`.
 2. **Cadence étagée** pour contenir le coût : T1 quotidien en saison (zones à risque),
    T2 hebdo en rotation (6 lots), T3 mensuel, escalade → quotidien si alerte HAUTE.
 
