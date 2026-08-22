@@ -69,7 +69,13 @@ def sections(txt: str) -> str:
 
 
 def faits(txt: str) -> dict:
-    """Les trois familles de faits qu'une réécriture ne doit jamais toucher."""
+    """Les trois familles de faits qu'une réécriture ne doit jamais toucher.
+
+    Le ® de « GR® » est retiré d'abord : c'est une mention de marque, pas un fait.
+    Sans ce retrait il coupe le nom propre pour PROPRE (« GR®10 » ne rend plus le
+    jeton `gr10`), et le passage du registre à la marque déposée remontait en 50
+    pertes de noms de sentiers qui étaient pourtant tous encore là."""
+    txt = txt.replace("®", "")
     nombres = {re.sub(r"[   ]", "", n).rstrip(".,") for n in NOMBRE.findall(txt)}
     urls = set(URL.findall(txt))
     propres = {plie(p) for p in PROPRE.findall(txt)}

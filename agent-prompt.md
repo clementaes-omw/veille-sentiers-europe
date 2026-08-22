@@ -210,7 +210,7 @@ Format exact d'un fichier :
 ---
 cle: incendie|Var-Gros-Bessillon|feu-actif-Ponteves|2026-07-22
 type: incendie
-itin: GR9/GR51 (Haut-Var)
+itin: GR®9/GR®51 (Haut-Var)
 sev: HAUTE
 validite: non maîtrisé au 25/07
 detection: 2026-07-22
@@ -264,6 +264,17 @@ qui te dit si l'alerte existe déjà.
   journal à empiler : ne recopie pas les cinq passages précédents, remplace. Commence par
   `ACTIF`, `[CLÔTURÉ] (date)`, ou `ACTIF — CHANGÉ` le jour d'un changement seulement —
   le site en tire la pastille « changé », qui doit disparaître dès le passage suivant.
+- **GR®** = « GR » est une marque déposée de la FFRandonnée : partout où un sigle GR est
+  ÉCRIT POUR ÊTRE LU sur le site, il porte le ® collé aux deux lettres — `GR®10`, `GR®54A`,
+  `GR®52-GTM`, `GR® R2` (Réunion), et `GR®` seul pour le label sans numéro (« tracé GR® »).
+  Cela vaut pour `itin:`, `validite:`, `statut:`, les trois sections de prose, et les lignes
+  `Itinéraires :` / `Suivi à prévoir :` du digest.
+  N'en mets JAMAIS dans : la clé `cle:` et le nom de fichier (identifiants de déduplication —
+  un ® les casserait et l'alerte se dédoublerait au run suivant), la section « Source » et la
+  ligne `Sources :` du digest (on y cite le titre exact d'un tiers, on ne le corrige pas), et
+  les URL. Ne marque pas non plus ce qui n'est pas le label : `GRP` et `GRT` sont d'autres
+  sigles, `IGR-2` est l'indice de gravité espagnol, « SG/GR » est le canton des Grisons, et
+  `gr20-infos.com` est un nom de domaine.
 - **Type** = pilote le filtre catégories du site via referentiel/categories.json (mots-clés).
   Utilise en priorité le vocabulaire existant (incendie, risque feu, fermeture, reroutage,
   refuge, réglementation, infrastructure, éboulement/conditions, réouverture…). Si un
@@ -380,7 +391,7 @@ mise à jour part dans `statut:` sans jamais atteindre le texte publié.
    LE LUNDI, ou dès qu'une zone a été ajoutée à `zones-coords.csv` depuis le dernier
    `livrables/verdict-carte.md` : passe la main à un SOUS-AGENT DISTINCT — prompt
    `agents/verificateur-carte.md`. Aucun test ne peut juger qu'un marqueur EXISTANT tombe au
-   bon endroit : une alerte du GR10 pointée au centre de l'Espagne s'affiche sans rien casser.
+   bon endroit : une alerte du GR®10 pointée au centre de l'Espagne s'affiche sans rien casser.
    Un code qui couvre un pays entier ne peut pas produire de repère juste — c'est ainsi que
    le Malerweg s'est affiché 349 km à côté de son massif jusqu'au 12/08.
 

@@ -6,7 +6,7 @@
 # Colonnes : code;nom;lat;lon   (séparateur « ; », WGS84 degrés décimaux)
 code;nom;lat;lon
 # --- FRANCE (T1 saison feux) ---
-FR-CORSE;Corse (2A/2B, GR20);42.15;9.10
+FR-CORSE;Corse (2A/2B, GR®20);42.15;9.10
 FR-13;Bouches-du-Rhône (Calanques, Sainte-Victoire);43.42;5.35
 FR-83;Var (Estérel, Maures, Sainte-Baume);43.45;6.25
 FR-06;Alpes-Maritimes (Mercantour);43.95;7.15
@@ -20,9 +20,9 @@ FR-974;La Réunion;-21.10;55.52
 FR-PYR-O;Pyrénées occidentales (64/65/31/09);42.85;0.55
 FR-ALPES-N;Alpes du Nord (38/73/74/01, Vanoise, Mont-Blanc);45.50;6.50
 FR-MC;Massif Central (Aubrac, Volcans, Cévennes nord);45.10;2.85
-FR-BRE;Bretagne (GR34 littoral);48.20;-3.20
-Cotes-Armor-Trebeurden;Trébeurden (GR34, Côtes-d'Armor);48.77;-3.58
-FR-NOR;Normandie (GR21, côte d'Albâtre);49.70;0.35
+FR-BRE;Bretagne (GR®34 littoral);48.20;-3.20
+Cotes-Armor-Trebeurden;Trébeurden (GR®34, Côtes-d'Armor);48.77;-3.58
+FR-NOR;Normandie (GR®21, côte d'Albâtre);49.70;0.35
 FR-EST;Grand Est & Jura (Vosges);48.10;6.80
 FR-SO;Sud-Ouest (Gascogne, Landes, Lot);44.10;0.50
 FR-IDF-CVL;Île-de-France & Centre-Val de Loire (Fontainebleau);48.30;2.60
