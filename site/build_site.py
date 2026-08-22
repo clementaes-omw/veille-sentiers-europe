@@ -373,6 +373,13 @@ def itin_badge(c) -> str:
     return itin_badges(c)[0]
 
 
+def badge_texte(b: str) -> str:
+    """Texte d'un badge sentier, ® passé en exposant. L'échappement vient d'abord :
+    `html.escape` ne touche pas au ®, donc le remplacement qui suit ne peut injecter
+    que la balise voulue, jamais du balisage venu du registre."""
+    return html.escape(b).replace("®", "<sup>®</sup>")
+
+
 _CLES_DU_JOUR = None
 
 
@@ -449,7 +456,7 @@ def render_card(c) -> str:
     alt = c["alternative"] or "Aucune alternative connue à ce jour."
     cat = categorize(c)
     cat_slug = cat["slug"] if cat else "inconnue"
-    badges_html = "\n    ".join(f'<span class="badge itin">{html.escape(b)}</span>'
+    badges_html = "\n    ".join(f'<span class="badge itin">{badge_texte(b)}</span>'
                                 for b in itin_badges(c))
     # La ligne de tête (sentiers, gravité, type) sert de TITRE de la fiche : sans elle,
     # 167 articles se suivaient sans un seul point de saut pour un lecteur d'écran.
@@ -1572,6 +1579,10 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .badge {{ font-family: var(--mono); font-size: .69rem; font-weight: 700;
   padding: 3px 8px; border-radius: 5px; }}
 .badge.itin {{ background: var(--ink); color: var(--paper); }}
+/* Le ® des badges sentier en exposant. `line-height: 0` l'empêche d'agrandir la
+   boîte de ligne : sans lui, les badges portant un ® seraient plus hauts que les
+   autres et la rangée de tête se désalignerait. */
+.badge sup {{ font-size: .72em; line-height: 0; vertical-align: super; }}
 .badge.sev-haute {{ background: var(--haute-bg); color: var(--haute); }}
 .badge.sev-moyenne {{ background: var(--moy-bg); color: var(--moy); }}
 .badge.sev-info {{ background: var(--info-bg); color: var(--info); }}
