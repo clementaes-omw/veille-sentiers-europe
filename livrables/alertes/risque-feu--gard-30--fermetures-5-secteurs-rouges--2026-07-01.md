@@ -7,11 +7,10 @@ itin: GR653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR6 (corridor Pont-du
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-20
-statut: ACTIF — CHANGÉ 18/08 : gard.gouv.fr publie un nouveau classement pour le mardi
-  18 août, qui retombe à 3 secteurs rouges (Gard Rhodanien, Garrigues, Costières Petite
-  Camargue, 94 communes), contre 5 la veille. Nord Cévennes et Gardon-Vidourle sortent de
-  la liste rouge après une seule journée : le GR70 n'est plus concerné.
+verif: 2026-08-22
+statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (gard.gouv.fr), aucun classement
+  daté postérieur au 18/08 retrouvé. Dernier état sûr : 3 secteurs rouges (Gard Rhodanien,
+  Garrigues, Costières Petite Camargue), GR70 hors zone rouge.
 ordre: 15
 ---
 
