@@ -5,7 +5,7 @@ itin: sentiers locaux d'Oppenau (Forêt-Noire nord) — lien avec le Westweg (GR
 sev: MOYENNE
 validite: « jusqu'à nouvel ordre », aucune date de réouverture annoncée
 detection: 2026-08-06
-verif: 2026-08-20
+verif: 2026-08-23
 statut: ACTIF — CHANGÉ 07/08 : réouverture PARTIELLE confirmée (« Aufhebung Wegsperrungen »,
   oppenau.de, 31/07) — le Promenadenweg, le Schlossgrundweg (hors tronçon cité ci-dessous),
   l'accès à la Kletthütte par le Burgerwald et l'accès à la Friedenseiche par la Kleinebene

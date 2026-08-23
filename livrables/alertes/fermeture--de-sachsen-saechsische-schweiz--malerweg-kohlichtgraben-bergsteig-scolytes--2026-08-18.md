@@ -1,19 +1,12 @@
 ---
 cle: fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Kohlichtgraben-Bergsteig-scolytes|2026-08-18
 type: fermeture
-itin: Malerweg (Suisse Saxonne) — étape 3 (Kohlichtgraben, et Schindergraben↔Halbenweg) et
-  étape 5 (Bergsteig, partie basse)
+itin: Malerweg (Suisse Saxonne) — étape 3 (Kohlichtgraben, et Schindergraben↔Halbenweg) et étape 5 (Bergsteig, partie basse)
 sev: MOYENNE
-validite: Kohlichtgraben et Bergsteig depuis le 18/08/2026 ; Schindergraben↔Halbenweg depuis
-  la nuit du 19 au 20/08/2026 (nouvelle tempête) ; sans échéance annoncée, déviations
-  balisées en place pour les trois secteurs
+validite: Kohlichtgraben et Bergsteig fermés jusqu'à nouvel ordre depuis le 18/08/2026 ; Schindergraben↔Halbenweg fermé jusqu'à nouvel ordre depuis la nuit du 19 au 20/08/2026 (nouvelle tempête) ; aucune échéance annoncée pour les trois secteurs, déviations balisées en place
 detection: 2026-08-18
-verif: 2026-08-22
-statut: ACTIF — CHANGÉ 22/08 : une nouvelle tempête dans la nuit du 19 au 20/08 a fait
-  tomber un arbre en travers du sentier entre le Schindergraben et le Halbenweg (étape 3,
-  secteur voisin du Kohlichtgraben déjà fermé), rendant le passage impossible. Déviation
-  balisée par la Max-Jacob-Straße et le Neuweg. Les fermetures du Kohlichtgraben et du
-  Bergsteig, elles, restent inchangées depuis le 18/08.
+verif: 2026-08-23
+statut: ACTIF — CHANGÉ 22/08 : une nouvelle tempête dans la nuit du 19 au 20/08 a fait tomber un arbre en travers du sentier entre le Schindergraben et le Halbenweg (étape 3, secteur voisin du Kohlichtgraben déjà fermé), rendant le passage impossible. Déviation balisée par la Max-Jacob-Straße et le Neuweg. Les fermetures du Kohlichtgraben et du Bergsteig, elles, restent inchangées depuis le 18/08.
 ordre: 176
 ---
 

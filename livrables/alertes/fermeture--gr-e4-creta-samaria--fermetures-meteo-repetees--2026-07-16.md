@@ -16,7 +16,7 @@ ordre: 49
 
 ## Portion concernée
 
-Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo. **Fermetures répétées en 2026, décidées par l'OFYPEKA/NECCA au jour le jour selon la météo.** La saison est ouverte depuis le 19/05/2026, avec un dispositif renforcé (système d'alerte météo, casques distribués), mais la gorge a fermé le 16/07 pour vents violents (jusqu'à force 9 Beaufort), le 22/07 pour canicule (>36°C à La Canée), puis de nouveau le 31/07 (vent et risque incendie). Aucune source postérieure au 31/07 n'a été trouvée à la vérification du 07/08 : ni fermeture ni réouverture confirmée pour les jours suivants. Raison : conditions météorologiques dangereuses (vent, chaleur extrême). Le phénomène est répété et non isolé. Vérifier systématiquement le statut du jour sur samaria.gr avant l'étape.
+Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo. **Fermetures répétées en 2026, décidées par l'OFYPEKA/NECCA au jour le jour selon la météo.** La saison est ouverte depuis le 19/05/2026, avec un dispositif renforcé (système d'alerte météo, casques distribués), mais la gorge a fermé le 16/07 pour vents violents (jusqu'à force 9 Beaufort), le 22/07 pour canicule (>36°C à La Canée), puis de nouveau le 31/07 (vent et risque incendie). Aucune source postérieure au 31/07 n'a été trouvée lors de la dernière vérification, le 14/08 (recherche élargie sans nouveau résultat) : ni fermeture ni réouverture confirmée depuis. Raison : conditions météorologiques dangereuses (vent, chaleur extrême). Le phénomène est répété et non isolé. Vérifier systématiquement le statut du jour sur samaria.gr avant l'étape.
 
 ## Alternative
 
@@ -27,6 +27,8 @@ Aucune alternative connue à ce jour. Se renseigner sur samaria.gr avant de part
 Parc national de Samaria (Lefka Ori), cœur de l'E4 Crète. 1er passage sérieux sur cette zone, jamais vérifiée jusqu'ici. Statut du jour (24/07) non confirmé par une source datée : un changement météo (orages, baisse de température) était prévu à partir du 24/07 et pouvait permettre une réouverture.
 
 MAJ 07/08 : la saison 2026 est ouverte depuis le 19/05/2026 (annonce OFYPEKA/greekcitytimes, dispositif renforcé avec système d'alerte météo et casques distribués aux visiteurs). Les fermetures évoquées ci-dessus ne sont donc pas une fermeture saisonnière prolongée, mais des coupures ponctuelles au jour le jour, comme documenté depuis la mi-juillet. Aucune source datée entre le 01/08 et le 07/08 n'a été trouvée : ni fermeture ni réouverture spécifique annoncée pour cette période. Un article de gavdos888.gr (22/06/2026, antérieur à la détection de cette fiche) documente une tension chronique entre l'OFYPEKA/NECCA et les acteurs locaux (mairie d'Agia Roumeli, club alpin de La Canée), qui jugent excessifs certains critères de fermeture (dès 6 Beaufort selon le club alpin). Ce contexte confirme le caractère répété plutôt qu'exceptionnel des fermetures, sans changer la conduite à tenir pour le randonneur : vérifier le statut du jour avant de partir.
+
+MAJ 14/08 : nouvelle recherche élargie (samaria.gr, la billetterie officielle samaria-tickets.necca.gov.gr, cretalive.gr, inewsgr.com, presse grecque), toujours aucune source datée d'août 2026, ni fermeture ni réouverture. La billetterie officielle ne publie pas de statut journalier, seulement la vente des billets. Le schéma de fermetures décidées au jour le jour reste la meilleure information disponible : se renseigner sur samaria.gr avant de partir.
 
 ## Source
 
