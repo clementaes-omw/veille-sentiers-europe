@@ -5,7 +5,7 @@ itin: GR®36 & GR®78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (cô
 sev: MOYENNE
 validite: 03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP
 detection: 2026-07-06
-verif: 2026-08-22
+verif: 2026-08-23
 statut: ACTIF — INCHANGÉ 22/08 : page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » non
   rouverte ce run (zone à cadence T1 vérifiée via son classement du 06/08, non recontrôlée
   aujourd'hui faute de signal contraire dans la presse locale). Dernier état sûr inchangé :

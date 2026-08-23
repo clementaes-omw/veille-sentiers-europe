@@ -5,19 +5,18 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 26 communes actives (liste PNR Baronnies Provençales mise à jour le 12/08, arrêté le plus récent daté du 10/08 à La Charce) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-08-20
-statut: ACTIF — INCHANGÉ 16/08 : liste PNR Baronnies Provençales revérifiée en direct (fetch
-  complet de la page), toujours affichée « MAJ 12/08 », mêmes 26 communes nommées, aucun
-  ajout ni retrait. Saillans, Montclar-sur-Gervanne, Beauvoisin et Bénivay-Ollon confirmées
-  absentes de cette liste à jour. Recherche complémentaire (cc-bdp.fr, article du 11/08) :
-  rappelle la règle générale de fermeture des massifs mais ne nomme aucune commune, sans
-  apport nouveau.
+verif: 2026-08-23
+statut: ACTIF — INCHANGÉ 23/08 : liste PNR Baronnies Provençales revérifiée en direct,
+  toujours affichée « MAJ 12/08 », mêmes 26 communes nommées, aucun ajout ni retrait. La
+  Charce porte désormais un numéro d'arrêté précis (n°16-2026, effet 10/08). Saillans,
+  Montclar-sur-Gervanne, Beauvoisin et Bénivay-Ollon toujours sans acte confirmé malgré
+  recherche ciblée dédiée (cc-bdp.fr revérifié, aucun apport nouveau).
 ordre: 32
 ---
 
 ## Portion concernée
 
-GR®9 dans les Baronnies (Drôme) : **au moins 26 communes sous arrêté de fermeture de massifs** (liste PNR Baronnies Provençales du 12/08/2026) : Bellecombe-Tarendol, Châteauneuf-de-Bordette, Condorcet, Curnier, La Charce (nouvelle, arrêté du 10/08), La Penne-sur-Ouvèze, La Roche-sur-le-Buis, Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Nyons, Pierrelongue, Pommerol, Roche-Saint-Secret-Béconne, Sahune, Sainte-Euphémie-sur-Ouvèze, Sainte-Jalle, Saint-Sauveur-Gouvernet, Teyssières, Valouse, Venterol, Verclause, Vercoiran, Vinsobres. Raison : risque incendie (canicule).
+GR®9 dans les Baronnies (Drôme) : **au moins 26 communes sous arrêté de fermeture de massifs** (liste PNR Baronnies Provençales mise à jour le 12/08/2026, revérifiée en direct le 23/08/2026 : mêmes 26 communes, aucun ajout ni retrait) : Bellecombe-Tarendol, Châteauneuf-de-Bordette, Condorcet, Curnier, La Charce (nouvelle depuis le 12/08, arrêté municipal n°16-2026 du 10/08), La Penne-sur-Ouvèze, La Roche-sur-le-Buis, Le Poët-Sigillat, Le Poët-en-Percip, Lemps, Les Pilles, Mirabel-aux-Baronnies, Nyons, Pierrelongue, Pommerol, Roche-Saint-Secret-Béconne, Sahune, Sainte-Euphémie-sur-Ouvèze, Sainte-Jalle, Saint-Sauveur-Gouvernet, Teyssières, Valouse, Venterol, Verclause, Vercoiran, Vinsobres. Raison : risque incendie (canicule).
 
 Saillans, Beauvoisin et Bénivay-Ollon ne figurent pas dans cette liste de référence du 10/08. Pour Saillans, aucun arrêté ni aucune mention d'une fermeture de massif n'apparaît dans l'actualité publiée par la mairie depuis juillet : **aucune restriction n'est confirmée en vigueur sur cette commune à ce jour.** Beauvoisin et Bénivay-Ollon restent rattachées à une fermeture « depuis le 10/07, jusqu'à nouvel ordre » par une seule source (drome-cestmanature.com), non recoupée par la liste du PNR ni par une source officielle.
 

@@ -6,19 +6,16 @@ itin: GR®48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de H
   périmètre brûlé (Niebla, Berrocal, Zalamea la Real, Paterna del Campo, La Palma del
   Condado) non confirmé par une source consultée. Aucun itinéraire GR® référencé ne
   traverse directement cette zone selon le référentiel interne.
-sev: MOYENNE (dégradée depuis HAUTE le 20/08 — INFOCA en situation opérationnelle 0
-  depuis le 17/08, tous les évacués rentrés, aucun front actif depuis le 16/08, aucun
-  sentier balisé jamais documenté comme touché)
-validite: stabilisé sans front actif depuis le 16/08/2026 ; INFOCA en situation opérationnelle 0 (préemergence) depuis le 17/08 18h13 ; niveau d'urgence à 1 dans le Plan Especial de Protección Civil ; le système satellite Copernicus réévalue le 17/08 la surface brûlée à 33 000 ha (contre 38 000 ha estimés au sol), ce qui en fait le deuxième plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha) ; pas encore de déclaration d'extinction formelle, la situation reste valable jusqu'à nouvel ordre (déclaration d'« incendio extinguido ») ou nouvelle source
+sev: INFO (extinction officielle 21/08 — aucun sentier balisé jamais documenté comme
+  touché sur l'ensemble de l'épisode)
+validite: éteint (« incendio extinguido ») depuis le vendredi 21/08/2026 21h00, quatorze
+  jours après le déclenchement ; surface finale ~33 000 ha (mesure Copernicus), deuxième
+  plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
 detection: 2026-08-11
-verif: 2026-08-20
-statut: ACTIF — CHANGÉ 20/08 : dégradation HAUTE→MOYENNE. Le Plan INFOCA est passé en
-  situation opérationnelle 0 (préemergence, le niveau le plus bas du dispositif actif)
-  le 17/08 à 18h13, les 417 dernières personnes évacuées sont rentrées, et aucun front
-  actif n'est documenté depuis le 16/08. Aucune source, à aucun moment de l'épisode,
-  n'a documenté de fermeture de sentier balisé dans le périmètre touché. Pas de
-  déclaration formelle d'« extinguido » à ce jour : à repasser en INFO ou clôturer dès
-  qu'elle interviendra.
+verif: 2026-08-23
+statut: [CLÔTURÉ] (2026-08-21) — le feu est déclaré officiellement éteint le 21/08/2026
+  21h00 par plusieurs sources de presse concordantes. Aucune fermeture de sentier balisé
+  n'a jamais été documentée sur l'ensemble de l'épisode.
 ordre: 105
 ---
 
@@ -74,7 +71,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -152,6 +149,8 @@ MAJ 18/08 : le système satellite européen Copernicus, dans une mesure publiée
 
 MAJ 20/08 : dégradation de la sévérité. Le Plan INFOCA est passé en situation opérationnelle 0, le niveau le plus bas du dispositif actif (préemergence), le 17/08 à 18h13 (tecnobosque.es, article du 18/08). Aucun front actif n'est documenté depuis le 16/08, tous les évacués sont rentrés chez eux, et aucune source consultée depuis le départ du feu le 06/08 n'a jamais documenté de fermeture de sentier balisé dans le périmètre touché. Sévérité ramenée de HAUTE à MOYENNE en conséquence. Il manque encore une déclaration formelle d'« extinguido ».
 
+MAJ 23/08 : le feu est déclaré officiellement éteint (« extinguido ») le vendredi 21/08/2026 à 21h00, quatorze jours après son déclenchement, confirmé par plusieurs sources de presse concordantes (Huelva24, Telemadrid, The Objective, Infobae, Moncloa, El Pespunte). Surface finale confirmée à environ 33 000 ha, deuxième plus grand incendie de l'histoire d'Andalousie derrière celui de Riotinto (2004). Aucune fermeture de sentier balisé n'a été documentée à aucun moment de l'épisode.
+
 ## Source
 
 [Tecnobosque, analyse technique, mis à jour 11/08/2026 09h20](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [Infobae 11/08/2026, une fenêtre d'opportunité s'ouvre à Huelva tandis que le feu avance à Huesca](https://www.infobae.com/espana/agencias/2026/08/11/el-fuego-avanza-en-huesca-mientras-se-abre-una-ventana-de-oportunidad-en-huelva/) ; [theobjective.com 11/08/2026, carte des incendies actifs Niebla/Riglos](https://theobjective.com/sociedad/suceso/2026-08-11/mapa-incendios-activos-espana-niebla-riglos/) ; [Cuatro.com 11/08/2026, évolution des feux Huelva/Huesca/Segovia/Castellón](https://www.cuatro.com/noticias/sociedad/20260811/evolucion-fuegos-huelva-huesca-segovia-castellon_18_019931088.html) ; [Infobae 09/08/2026, le feu de Niebla affecte déjà 8 000 ha, 467 personnes évacuées](https://www.infobae.com/espana/2026/08/09/el-incendio-forestal-de-niebla-en-huelva-ya-afecta-a-8000-hectareas-mientras-467-personas-siguen-desalojadas/) ;
@@ -174,4 +173,4 @@ MAJ 20/08 : dégradation de la sévérité. Le Plan INFOCA est passé en situati
 [El Español 15/08/2026, le feu de Niebla stagne et ouvre la voie à l'optimisme après 38 000 ha, 114 évacués rentrés](https://www.elespanol.com/espana/andalucia/20260815/incendio-niebla-estanca-abre-paso-optimismo-devastar-hectareas-desalojados-regresan-casa/1003744354032_0.amp.html) ;
 [Telecinco 15/08/2026, le feu de Niebla n'évolue « pour la première fois » pendant la nuit, retours d'évacués](https://www.telecinco.es/noticias/andalucia/20260815/ultima-hora-incendio-niebla-huelva-desalojados_18_019958529.html) ;
 [Canal Sur 15/08/2026 08h25, la fumée du feu de Niebla oblige à fermer la Reserva El Castillo de las Guardas](https://www.canalsur.es/noticias/andalucia/huelva/humo-incendio-niebla-obliga-cerrar_1_1429012.html) ;
-[Tecnobosque, mise à jour 15/08/2026 08h30](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [andaluciainformacion.es, 16/08/2026, le feu de Niebla est déclaré stabilisé, retour des derniers évacués](https://www.andaluciainformacion.es/) ; [infobae.com, 16/08/2026, le niveau d'urgence redescend de 2 à 1, retrait de l'UME](https://www.infobae.com/) ; [El Español, 17/08/2026 14h28, le système Copernicus révise le feu de Niebla de 38 000 à 33 000 hectares brûlés, le deuxième plus grand d'Andalousie](https://www.elespanol.com/espana/andalucia/20260817/sistema-copernicus-rebaja-incendio-niebla-hectareas-quemadas-segundo-mayor-andalucia/1003744355319_0.html)
+[Tecnobosque, mise à jour 15/08/2026 08h30](https://tecnobosque.es/analisis-tecnico-incendio-de-niebla-huelva/) ; [andaluciainformacion.es, 16/08/2026, le feu de Niebla est déclaré stabilisé, retour des derniers évacués](https://www.andaluciainformacion.es/) ; [infobae.com, 16/08/2026, le niveau d'urgence redescend de 2 à 1, retrait de l'UME](https://www.infobae.com/) ; [El Español, 17/08/2026 14h28, le système Copernicus révise le feu de Niebla de 38 000 à 33 000 hectares brûlés, le deuxième plus grand d'Andalousie](https://www.elespanol.com/espana/andalucia/20260817/sistema-copernicus-rebaja-incendio-niebla-hectareas-quemadas-segundo-mayor-andalucia/1003744355319_0.html) ; [Huelva24, 21/08/2026 21h56, extinguido el incendio de Niebla](https://www.huelva24.com/provincia/incendio-niebla-extinguido-fin-dos-semanas-despues-20260821215631-nth.html) ; [Telemadrid, 21/08/2026](https://www.telemadrid.es/noticias/sociedad/Extinguido-el-incendio-de-Niebla-Huelva-tras-dos-semanas-de-lucha-contra-el-fuego-y-33000-hectareas-afectadas-0-2918408150--20260821095942.html) ; [The Objective, 21/08/2026](https://theobjective.com/sociedad/suceso/2026-08-21/extinguido-incendio-niebla-huelva/) ; [Infobae (agences), 22/08/2026](https://www.infobae.com/espana/agencias/2026/08/22/extinguido-el-incendio-de-niebla-huelva-despues-de-15-dias-y-33000-hectareas-quemadas/) ; [Moncloa.com, 22/08/2026](https://www.moncloa.com/2026/08/22/incendio-niebla-huelva-extinguido-3419478/)

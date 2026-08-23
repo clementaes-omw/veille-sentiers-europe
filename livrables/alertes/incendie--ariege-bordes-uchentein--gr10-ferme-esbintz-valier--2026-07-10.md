@@ -5,19 +5,15 @@ itin: GR®10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08)
 detection: 2026-07-20
-verif: 2026-08-22
-statut: ACTIF — CHANGÉ 22/08 : la 4e reconduction de l'arrêté d'interdiction totale de
-  l'usage du feu, laissée ouverte le 18/08, est tranchée. Pyrénées FM (18/08/2026) publie
-  la prolongation jusqu'au lundi 24/08/2026 inclus (feux d'artifice, barbecues, travaux
-  forestiers/soudure toujours interdits). L'article ne mentionne ni le GR®10 ni le tronçon
-  Ayès↔Cap des Lauses. Nouvelle recherche ciblée sur l'acte manquant (arrêté formel de
-  fermeture du tronçon, ou sa réouverture) : ariege.gouv.fr/Publications/Actualites relu
-  directement, toujours aucune actualité postérieure au 20/07/2026 trouvée sur cette page
-  précise (pagination du site non explorable en autonome) ; presse locale revérifiée sans
-  résultat plus récent que les sources déjà citées. Le tronçon reste donc sourcé par la
-  presse citant l'ONF, pas par un acte publié, et reste fermé faute de tout signal contraire.
-  Statut du GR®10 à Seix/Col de Pause et Auzat (feux distincts du 01-03/08) non retesté ce
-  jour. Sévérité maintenue HAUTE.
+verif: 2026-08-23
+statut: ACTIF — INCHANGÉ 23/08 : nouvelle recherche ciblée sur l'acte manquant
+  (ariege.gouv.fr/Publications/Actualites relu directement, tag Pyrénées FM dédié, page
+  CDRP09/FFRandonnée Ariège, ariegenews.com) : toujours aucun arrêté formel de fermeture ou
+  de réouverture du tronçon Ayès↔Cap des Lauses retrouvé. Le tronçon reste sourcé par la
+  presse citant l'ONF. La 4e reconduction de l'interdiction totale du feu en Ariège arrive à
+  échéance demain (24/08) ; aucune 5e reconduction ni levée n'est encore publiée, ce qui est
+  normal à J-1 de l'échéance — à revérifier après le 24/08. Statut du GR®10 à Seix/Col de
+  Pause et Auzat non retesté ce jour. Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
