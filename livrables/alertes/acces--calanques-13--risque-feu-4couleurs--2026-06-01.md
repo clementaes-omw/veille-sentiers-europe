@@ -2,14 +2,15 @@
 cle: accès|Calanques-13|risque-feu-4couleurs|2026-06-01
 type: accès / risque feu
 itin: GR®98 (Calanques Marseille-Cassis) — refermé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
-sev: MOYENNE (désescalade totale 20/08 — cg13.eway.fr classe les 24 massifs du département en vert, aucune vigilance renforcée, pour la première fois de la saison)
+sev: MOYENNE (dégradation 23/08 — cg13.eway.fr reclasse les 24 massifs du département en
+  jaune, aucun rouge, après un jour de vert intégral)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-08-22
-statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (bouches-du-rhone.gouv.fr, presse
-  régionale), aucune source datée plus récente que le 20/08 retrouvée pour confirmer ou
-  infirmer le maintien du classement vert. Sévérité maintenue MOYENNE par prudence, la
-  situation ayant déjà basculé plusieurs fois d'un jour à l'autre cet été.
+verif: 2026-08-23
+statut: ACTIF — CHANGÉ 23/08 : lecture directe de cg13.eway.fr (23-08-2026), les 24 massifs
+  du département sont classés jaune (accès permis, vigilance renforcée), aucun rouge, contre
+  le vert intégral confirmé le 20/08. Aucune fermeture : le GR®98 reste praticable. Sévérité
+  maintenue MOYENNE.
 ordre: 7
 ---
 
@@ -23,7 +24,7 @@ Sans objet ce jour : aucun massif n'est fermé ni sous vigilance renforcée, le 
 
 ## Zone (détails)
 
-Massifs Bouches-du-Rhône (Calanques) ; épisodes : 25/25 fermés 01/07, décrue 11/24 le 04/07, ré-escalade 13/24 fermés 05/07, 9/26 fermés le 18/07, 21/25 fermés le 19/07, décrue à 13/26 le 20/07, retournement 12 fermés le 21/07, aggravation 23/25 fermés (Côte Bleue refermée) le 22/07, fermeture totale annoncée par communiqué préfectoral pour le 23/07 (avec divergence relevée vs carte technique mixte).
+Massifs Bouches-du-Rhône (Calanques) ; épisodes : 25/25 fermés 01/07, décrue 11/24 le 04/07, ré-escalade 13/24 fermés 05/07, 9/26 fermés le 18/07, 21/25 fermés le 19/07, décrue à 13/26 le 20/07, retournement 12 fermés le 21/07, aggravation 23/25 fermés (Côte Bleue refermee) le 22/07, fermeture totale annoncée par communiqué préfectoral pour le 23/07 (avec divergence relevée vs carte technique mixte).
 
 MAJ 24/07 : cg13.eway.fr ne recense plus aucun massif rouge/orange.
 
@@ -60,6 +61,8 @@ MAJ 18/08 : aggravation. cg13.eway.fr (prévision du 18-08-2026) maintient les C
 MAJ 19/08 : nette désescalade. cg13.eway.fr (prévision du 19-08-2026) fait passer les 24 massifs du département, dont les Calanques Marseille-Cassis et Concors, du rouge/orange au jaune : plus aucun massif classé rouge ou fermé. Aucun communiqué préfectoral ni article de presse daté du 19/08 n'a été retrouvé pour recouper cette carte technique ; comme lors des précédentes désescalades non recoupées (24/07, 08/08, 12/08), la source unique est retenue par défaut mais la sévérité est abaissée par prudence à MOYENNE plutôt que d'être immédiatement clôturée.
 
 MAJ 20/08 : nouvelle amélioration. cg13.eway.fr (prévision du 20-08-2026) fait passer les 24 massifs du département, dont les Calanques Marseille-Cassis et Concors, du jaune au vert : plus aucune vigilance renforcée. C'est la première fois de la saison que la carte affiche un vert intégral. Aucun communiqué préfectoral ni article de presse daté du 20/08 n'a été retrouvé pour recouper cette carte technique.
+
+MAJ 23/08 : dégradation, cg13.eway.fr (prévision du 23-08-2026) fait repasser les 24 massifs du département, dont les Calanques Marseille-Cassis et Concors, du vert au jaune. Aucun massif rouge, aucune fermeture : le GR®98 reste accessible sans restriction, avec une vigilance renforcée. Aucun communiqué préfectoral ni article de presse daté du 23/08 n'a été retrouvé pour recouper cette carte technique.
 
 ## Source
 
