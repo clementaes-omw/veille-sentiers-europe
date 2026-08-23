@@ -8,7 +8,7 @@ validite: arrêté municipal n°10-2026 ; sentiers du Pas du Gouillat et du Pas 
   Comberoufle fermés du 28/07 au 31/08/2026 (prolongation d'une première fermeture du
   07/07 au 31/07/2026)
 detection: 2026-08-17
-verif: 2026-08-20
+verif: 2026-08-23
 statut: ACTIF — NOUVEAU 17/08 : signal trouvé par le cluster Vaucluse-Drôme-Ardèche lors
   de la couverture de la zone voisine des Baronnies. Source unique (gervanne-sye.com,
   site intercommunal, pas gouv.fr) : à recouper avec une source officielle (mairie
