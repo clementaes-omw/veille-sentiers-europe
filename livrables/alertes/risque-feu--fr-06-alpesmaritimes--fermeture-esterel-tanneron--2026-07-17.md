@@ -5,16 +5,12 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (dégradée 22/08 — aucun communiqué préfectoral retrouvé depuis le 06/08, seuil des 14 jours dépassé)
 validite: journalière selon la préfecture ; dernière fermeture confirmée par une source datée : 06/08 (rouge très sévère) ; aucun communiqué plus récent retrouvé à ce jour
 detection: 2026-08-09
-verif: 2026-08-22
-statut: ACTIF — INCHANGÉ 22/08 : nouvelle recherche ciblée (presseagence.fr, sites des trois
-  communes du massif), toujours aucune publication postérieure au 06/08 trouvée pour ce
-  massif spécifique. L'écart entre la dernière fermeture confirmée (06/08) et aujourd'hui
-  atteint 16 jours ; le seuil des 14 jours après détection (09/08), qui tombait le 23/08, est
-  désormais dépassé sans acte retrouvé. DÉGRADATION HAUTE→MOYENNE appliquée conformément à la
-  règle sur la durée de vie d'une hypothèse : le fait matériel établi (fermetures récurrentes
-  quasi quotidiennes depuis le 17/07 jusqu'au 06/08) justifie le maintien de l'alerte, pas une
-  interdiction supposée toujours active à ce jour. Zone en escalade : recherche ciblée à
-  reconduire chaque run.
+verif: 2026-08-23
+statut: ACTIF — INCHANGÉ 23/08 : recherche ciblée reconduite (presseagence.fr, espace presse
+  alpes-maritimes.gouv.fr, sites des trois communes du massif), toujours aucune publication
+  postérieure au 06/08 trouvée pour ce massif spécifique. L'écart atteint désormais 17 jours.
+  Sévérité maintenue MOYENNE (dégradée le 22/08, règle des 14 jours). Zone en escalade :
+  recherche ciblée à reconduire chaque run.
 ordre: 102
 ---
 
