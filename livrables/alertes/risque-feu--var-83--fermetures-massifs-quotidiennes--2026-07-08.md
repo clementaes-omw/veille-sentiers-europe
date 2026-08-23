@@ -5,11 +5,12 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (ré-escalade 19/08 — 5 massifs sur 9 fermés, dont Corniche des Maures et Îles d'Hyères qui rejoignent la liste, fermeture de nature préventive liée aux prévisions météo)
 validite: journalière ; 5 massifs sur 9 fermés ce 19/08 (Sainte-Baume, Haut-Var, Corniche des Maures, Maures, Îles d'Hyères), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-22
-statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (var.gouv.fr, presseagence.fr,
-  varactu.fr), aucune source datée postérieure au 19/08 retrouvée pour confirmer le
-  classement du jour. Dernier état sûr : 5 massifs sur 9 fermés (Sainte-Baume, Haut-Var,
-  Corniche des Maures, Maures, Îles d'Hyères). Sévérité maintenue MOYENNE.
+verif: 2026-08-23
+statut: ACTIF — INCHANGÉ 23/08 : recherche ciblée reconduite (var.gouv.fr, presseagence.fr,
+  varactu.fr, tv83.info), toujours aucune source datée postérieure au 19/08 retrouvée pour
+  confirmer le classement du jour. Écart désormais à 4 jours. Dernier état sûr : 5 massifs
+  sur 9 fermés (Sainte-Baume, Haut-Var, Corniche des Maures, Maures, Îles d'Hyères).
+  Sévérité maintenue MOYENNE.
 ordre: 20
 ---
 
