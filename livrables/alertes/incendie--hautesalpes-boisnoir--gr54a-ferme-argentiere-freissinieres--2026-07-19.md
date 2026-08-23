@@ -3,18 +3,25 @@ cle: incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-
 type: incendie / fermeture massif
 itin: GR®54A (fermé) ; GR®54 (itinéraire de repli, praticable)
 sev: HAUTE
-validite: incendie déclaré ÉTEINT mais sous surveillance (paysdesecrins.com, MAJ 14/08) ; GR®54A et massif du Bois Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15/22/23 fermés durée indéterminée (confirmé paysdesecrins.com, MAJ 14/08) ; RD38 (Champcella↔Freissinières) ROUVERTE depuis le 17/08/2026 (arrêté de voirie « 2026/ATB/réouverture RD 38 suite incendie ») ; RD138A et RD38B rouvertes depuis le 06/08
+validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur du massif du Bois
+  Noir toujours fermés « jusqu'à nouvel ordre » ; parcours de randonnée 2/6/7/14/15 fermés
+  durée indéterminée, **parcours 22 et 23 ainsi que la côte de Pallon rouverts depuis le
+  20/08/2026** (paysdesecrins.com) ; RD38 (Champcella↔Freissinières) rouverte depuis le
+  17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-08-22
-statut: ACTIF — INCHANGÉ 22/08 : paysdesecrins.com et hautes-alpes.fr revérifiés, aucune
-  mise à jour postérieure au 17/08 (réouverture RD38) trouvée. Le massif du Bois Noir et le
-  GR®54A restent fermés « jusqu'à nouvel ordre ». Sévérité maintenue HAUTE.
+verif: 2026-08-23
+statut: ACTIF — CHANGÉ 23/08 : paysdesecrins.com mis à jour le 20/08/2026, les parcours
+  pédestres 22 et 23 ainsi que la côte de Pallon et les routes communales rouvrent. Le
+  GR®54A n'est nommé par aucune des deux pages consultées (paysdesecrins raisonne en
+  numéros locaux, la page de vigilance incendie du PN Écrins date du 28/07 sans MAJ) : par
+  prudence, le repli par le GR®54 classique reste recommandé. Sévérité maintenue HAUTE, le
+  cœur du massif (parcours 2/6/7/14/15) restant fermé.
 ordre: 41
 ---
 
 ## Portion concernée
 
-**Massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) entièrement fermé** (randonnée, escalade, via ferrata, VTT) ; GR®54A fermé, avec accès interdit au col de la Pousterle et au vallon du Fournel. La RD38 (route principale de Freissinières), seule route encore coupée par l'incendie, **a rouvert le 17/08/2026** selon l'arrêté de voirie du Département des Hautes-Alpes ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. Situation vérifiée au 18/08 (source la plus fraîche sur le massif lui-même : paysdesecrins.com, 14/08) : l'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est désormais donné éteint mais sous surveillance, mais le massif et les sept parcours de randonnée numérotés 2/6/7/14/15/22/23 restent fermés pour une durée indéterminée, sans date de réouverture.
+**Cœur du massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) fermé** (parcours pédestres 2/6/7/14/15, via ferrata Grande Falaise, KV Freissinières) ; GR®54A fermé par prudence, avec accès interdit au col de la Pousterle et au vallon du Fournel. La RD38 (route principale de Freissinières) a rouvert le 17/08/2026 ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. **Depuis le 20/08/2026, les parcours pédestres 22 et 23, ainsi que la côte de Pallon et l'ensemble des routes communales, ont rouvert** (paysdesecrins.com). L'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est donné éteint mais sous surveillance.
 
 ## Alternative
 
@@ -51,6 +58,8 @@ MAJ 15/08 : paysdesecrins.com mis à jour le 14/08/2026, première évolution de
 MAJ 16/08 : le flux d'incidents Bison Futé (tipi.bison-fute.gouv.fr, DIR, consulté en direct) publie pour la première fois un calendrier officiel sur la RD38 elle-même, jusqu'ici seulement conditionnée aux études géotechniques sans date : une fermeture à tous véhicules entre La Roche-de-Rame et Freissinières (1,8 km) et une interdiction aux vélos entre Saint-Crépin et le hameau de Pallon (4,4 km, ce lieu-dit correspondant à la « côte de Pallon » déjà signalée fermée le 07/08), toutes deux annoncées jusqu'au 17/08/2026 17h. paysdesecrins.com n'a pas de mise à jour postérieure au 14/08 : le fond de la fermeture du massif (parcours 2/6/7/14/15/22/23, KV Freiss, via ferrata Grande Falaise) reste inchangé.
 
 MAJ 18/08 : la RD38 a rouvert. Le Département des Hautes-Alpes publie sur hautes-alpes.fr un arrêté de voirie « 2026/ATB/réouverture RD 38 suite incendie », concernant le tronçon Champcella↔Freissinières, daté du 17/08/2026, soit le jour même où le précédent calendrier Bison Futé annonçait l'échéance de la fermeture. La page listant cet arrêté ne détaille pas d'éventuelles restrictions résiduelles (vélos, horaires) ; le PDF de l'arrêté n'a pas pu être consulté pour vérifier ce point, à recouper. Le fond de la fermeture du massif du Bois Noir (GR®54A, parcours 2/6/7/14/15/22/23, KV Freiss, via ferrata Grande Falaise) reste inchangé : paysdesecrins.com n'a pas de mise à jour postérieure au 14/08.
+
+MAJ 23/08 : paysdesecrins.com mis à jour le 20/08/2026, première évolution depuis le 14/08. Les parcours pédestres 22 et 23 rouvrent, ainsi que « la côte de Pallon » et l'ensemble des routes communales, « de nouveau circulables ». Le sigle GR®54A n'est nommé par aucune des deux pages consultées (paysdesecrins raisonne en numéros locaux ; la page de vigilance incendie du PN Écrins, qui le nomme explicitement, reste datée du 28/07 sans MAJ). Faute de confirmation directe, le repli par le GR®54 classique (Vallouise → col de l'Aup Martin) reste la recommandation prudente. Le cœur du massif (parcours 2/6/7/14/15, KV Freiss, via ferrata Grande Falaise) reste fermé.
 
 ## Source
 
