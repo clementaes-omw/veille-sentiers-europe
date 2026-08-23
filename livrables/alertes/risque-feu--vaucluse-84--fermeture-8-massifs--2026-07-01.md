@@ -5,10 +5,12 @@ itin: GR®9 (Dentelles de Montmirail), GR®4/GR®91 (Monts de Vaucluse, Petit Lu
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien ; 13 massifs interdits d'accès ce mardi 18/08/2026, le Mont Ventoux (sommet compris) restant nommément excepté
 detection: 2026-07-18
-verif: 2026-08-22
-statut: ACTIF — INCHANGÉ 22/08 : recherche ciblée reconduite (vaucluse.gouv.fr, ici.fr),
-  aucun communiqué daté postérieur au 18/08 retrouvé pour confirmer le classement du jour.
-  Dernier état sûr : 13 massifs fermés, Mont Ventoux excepté. Sévérité maintenue HAUTE.
+verif: 2026-08-23
+statut: ACTIF — INCHANGÉ 23/08 : recherche ciblée reconduite (vaucluse.gouv.fr, listing
+  complet des communiqués d'août), toujours aucun communiqué massifs daté postérieur au
+  18/08. Un communiqué distinct du 20/08 porte sur une interdiction d'accès aux gorges du
+  Toulourenc, site sans GR® identifié, sans lien avec cette fiche. Dernier état sûr pour les
+  massifs : 13 fermés, Mont Ventoux excepté. Sévérité maintenue HAUTE.
 ordre: 33
 ---
 
