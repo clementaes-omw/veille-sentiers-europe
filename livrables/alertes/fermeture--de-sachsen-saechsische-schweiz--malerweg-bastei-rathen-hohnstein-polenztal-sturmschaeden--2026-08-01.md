@@ -5,14 +5,12 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation vraisemblable au-delà de cette date (le parc annonce des restrictions pour plusieurs semaines supplémentaires et des travaux de dégagement par hélicoptère début septembre) mais non confirmée officiellement ; réouverture progressive depuis le 07/08/2026 (Basteiweg puis Polenztal, Schwedenlöcher et haut de l'Amselgrund le 14/08) ; seuls l'Amselsee et le bas de l'Amselgrund (Rathen↔Schwedenlöcher) restent fermés au 16/08/2026
 detection: 2026-08-06
-verif: 2026-08-22
-statut: ACTIF — INCHANGÉ 22/08 : saechsische-schweiz.de/gut-zu-wissen/aktuelles revérifiée,
-  périmètre fermé inchangé depuis le 18/08 (Amselsee, bas de l'Amselgrund, Ziegenrücken). La
-  page signale par ailleurs une tempête distincte dans la nuit du 19 au 20/08, sans lien avec
-  les dégâts du 31/07 : voir la fiche dédiée `fermeture|DE-Sachsen-SaechsischeSchweiz|
-  Malerweg-Kohlichtgraben-Bergsteig-scolytes` pour le nouveau tronçon touché
-  (Schindergraben↔Halbenweg). Sévérité maintenue HAUTE : le tracé d'origine du Malerweg reste
-  coupé sur l'Amselsee.
+verif: 2026-08-23
+statut: ACTIF — INCHANGÉ 23/08 : reconfirmée par 3 sources officielles distinctes
+  (Nationalpark, Landratsamt Pirna, saechsische-schweiz.de/aktuelles), toutes datées du
+  14-18/08, aucune mise à jour plus récente publiée. Périmètre fermé inchangé (Amselsee, bas
+  de l'Amselgrund, Ziegenrücken). Sévérité maintenue HAUTE : le tracé d'origine du Malerweg
+  reste coupé sur l'Amselsee.
 ordre: 99
 ---
 
