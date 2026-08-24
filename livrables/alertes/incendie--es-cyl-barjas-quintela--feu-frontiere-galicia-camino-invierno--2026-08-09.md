@@ -5,7 +5,7 @@ itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le trac�
 sev: MOYENNE
 validite: jusqu'à nouvel ordre ; dernier point connu 09/08/2026 20h22, IGR affiché à 0 (pas de confinement de population), aucune source postérieure trouvée à ce jour
 detection: 2026-08-10
-verif: 2026-08-23
+verif: 2026-08-24
 statut: ACTIF. Aucune source postérieure au 09/08 20h22 localisée malgré recherche ciblée
   (infobierzo, elbierzo.eldiario.es, presse Bierzo) : le foyer n'apparaît plus dans les
   derniers récapitulatifs provinciaux du 13/08, qui se concentrent sur les nouveaux départs
@@ -21,6 +21,16 @@ statut: ACTIF. Aucune source postérieure au 09/08 20h22 localisée malgré rech
   dédiée « incendio Barjas León agosto 2026 Quintela ») : seul l'article infobierzo du
   09/08 remonte, aucun récapitulatif postérieur ne cite Barjas. Toujours pas au-delà du
   délai de 14 jours (détection 10/08) : pas de dégradation de sévérité à ce stade.
+  24/08 : 4e recherche ciblée toujours infructueuse (requêtes dédiées « Barjas Quintela
+  extinguido/estabilizado », balance provincial León du 21-23/08) : le foyer de Caboalles
+  de Abajo/Villablino (13-14/08, distinct) et celui de Vega de Espinareda sont les seuls
+  nommés dans les bilans les plus récents, toujours sans mention de Barjas ni en positif ni
+  en négatif, 15 jours après le dernier point connu. Cette absence prolongée, dans une
+  actualité qui continue par ailleurs de couvrir en détail des foyers bien plus petits du
+  Bierzo, est un signal de résolution silencieuse plutôt que d'un foyer encore actif, mais
+  reste non confirmée formellement : sévérité maintenue à MOYENNE, prochain passage à
+  reconsidérer la clôture par convention si le silence se prolonge, comme pour les fiches
+  Castropodame/La Baña et Murias de Ponjos.
 ordre: 103
 ---
 
