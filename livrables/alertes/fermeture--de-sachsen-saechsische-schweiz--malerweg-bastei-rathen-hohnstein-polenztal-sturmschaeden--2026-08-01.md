@@ -5,18 +5,17 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation vraisemblable au-delà de cette date (le parc annonce des restrictions pour plusieurs semaines supplémentaires et des travaux de dégagement par hélicoptère début septembre) mais non confirmée officiellement ; réouverture progressive depuis le 07/08/2026 (Basteiweg puis Polenztal, Schwedenlöcher et haut de l'Amselgrund le 14/08) ; seuls l'Amselsee et le bas de l'Amselgrund (Rathen↔Schwedenlöcher) restent fermés au 16/08/2026
 detection: 2026-08-06
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 23/08 : reconfirmée par 3 sources officielles distinctes
-  (Nationalpark, Landratsamt Pirna, saechsische-schweiz.de/aktuelles), toutes datées du
-  14-18/08, aucune mise à jour plus récente publiée. Périmètre fermé inchangé (Amselsee, bas
-  de l'Amselgrund, Ziegenrücken). Sévérité maintenue HAUTE : le tracé d'origine du Malerweg
-  reste coupé sur l'Amselsee.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : saechsische-schweiz.de/gut-zu-wissen/aktuelles revérifié,
+  toujours daté de sa mise à jour du 18/08/2026 15h00, aucun contenu plus récent publié.
+  Périmètre fermé inchangé (Amselsee, bas de l'Amselgrund, Ziegenrücken). Sévérité maintenue
+  HAUTE : le tracé d'origine du Malerweg reste coupé sur l'Amselsee.
 ordre: 99
 ---
 
 ## Portion concernée
 
-Parc national de la Suisse Saxonne (Saxe, Allemagne) : **seuls l'Amselsee et la partie basse de l'Amselgrund, entre Rathen et la jonction des Schwedenlöcher, restent fermés au 16/08/2026**, avec le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg). Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; les travaux de sécurisation se poursuivent sur ce dernier tronçon. Les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg et le Polenztal sur toute sa longueur (y compris le secteur de la Waltersdorfer Mühle, brièvement refermé le 09/08 pour chute d'arbres) ont rouvert le 14/08/2026. Le Basteiweg (montée de Rathen vers la Bastei), la Basteiaussicht et l'accès au Gamrig depuis Waltersdorf restent ouverts depuis le 07/08. Le Malerweg, qui traverse l'Amselsee sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce seul point, désormais plus limité que le tronçon initial. Le parc précise que les habitants de Rathen et les randonneurs doivent encore compter avec des restrictions pendant plusieurs semaines, avec des travaux de dégagement par hélicoptère prévus à partir de début septembre : la levée totale annoncée pour le 31/08/2026 paraît optimiste, sans qu'aucune prolongation officielle ne soit publiée à ce jour. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
+Parc national de la Suisse Saxonne (Saxe, Allemagne) : **seuls l'Amselsee et la partie basse de l'Amselgrund, entre Rathen et la jonction des Schwedenlöcher, restent fermés au 24/08/2026**, avec le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg). Ce périmètre est inchangé depuis le 14/08 et a été revérifié sans changement le 24/08. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; les travaux de sécurisation se poursuivent sur ce dernier tronçon. Les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg et le Polenztal sur toute sa longueur (y compris le secteur de la Waltersdorfer Mühle, brièvement refermé le 09/08 pour chute d'arbres) ont rouvert le 14/08/2026. Le Basteiweg (montée de Rathen vers la Bastei), la Basteiaussicht et l'accès au Gamrig depuis Waltersdorf restent ouverts depuis le 07/08. Le Malerweg, qui traverse l'Amselsee sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce seul point, désormais plus limité que le tronçon initial. Le parc précise que les habitants de Rathen et les randonneurs doivent encore compter avec des restrictions pendant plusieurs semaines, avec des travaux de dégagement par hélicoptère prévus à partir de début septembre : la levée totale annoncée pour le 31/08/2026 paraît optimiste, sans qu'aucune prolongation officielle ne soit publiée à ce jour. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
 
 ## Alternative
 
