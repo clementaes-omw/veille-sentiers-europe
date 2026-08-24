@@ -1,136 +1,97 @@
-# Verdict qualité — 2026-08-23
+# Verdict qualité — 2026-08-24
 
-Vérificateur distinct de l'agent de veille du jour. 14 fiches contrôlées (celles citées par
-`livrables/audit-qualite.md`, relancé en début de passage). 73 alertes actives au total, 95
-fiches au dossier ; les fiches non citées par l'audit n'ont pas été touchées.
+Vérificateur qualité, exécution distincte de la veille du jour (aucune fiche listée
+ci-dessous n'a été rédigée par cet agent). Point de départ : `livrables/audit-qualite.md`
+généré aujourd'hui, 15 fiches avec au moins un constat sur 74 alertes actives.
 
-`python3 site/build_site.py` → **OK (QA passée)** (73 actives, 22 clôturées, 95 fichiers).
-`python3 site/audit_qualite.py` → **0 BLOQUANT sur les fiches touchées** (1 BLOQUANT restant,
-Creta-Samaria, hors périmètre de correction — voir plus bas).
-`python3 site/verif_faits.py` → 1 point relevé, expliqué et jugé non problématique (voir
-« Corrections appliquées », fiche Creta-Samaria).
+## Action prioritaire laissée à la veille
 
-## Constat le plus important : troncature silencieuse du frontmatter multi-ligne
+- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** (BLOQUANT) —
+  vérifiée il y a 10 j contre un seuil de 2 j (restriction décidée au jour le jour, Crète,
+  hors périmètre du jour). Corriger cette fiche demande une recherche de source nouvelle
+  (l'accès à la gorge de Samaria a-t-il été rouvert/refermé depuis ?), ce qui sort du rôle
+  du vérificateur qualité (audit de forme, pas de recherche de nouveaux constats). À traiter
+  au prochain passage de veille sur la zone Crète/GR-E4.
 
-`site/build_site.py::parse_alerte` ne lit qu'une ligne par champ de frontmatter
-(`cle, sep, val = ligne.partition(":")` puis boucle sans accumulation). Toute ligne de
-continuation sans `:` est silencieusement ignorée — le champ est tronqué à sa première ligne,
-**sans erreur, sans avertissement**, y compris pour des champs PUBLICS (`itin:`, `validite:`,
-`sev:`, `type:`) affichés tels quels sur le site. Le format documenté dans `agent-prompt.md`
-(« un champ par ligne ») l'interdit déjà, mais rien ne le fait respecter.
+## PASS / FAIL par contrôle (sur les 15 fiches citées par l'audit)
 
-Conséquence vérifiée sur 3 fiches de ce lot : `validite:`/`itin:` coupés en plein mot,
-et — pour Malerweg — deux dates de tempête (18/08, 19-20/08) mal réparties dans le texte
-tronqué, ce qui a produit un faux « validité expirée » dans l'audit. Corrigé (voir plus bas).
+1. **FRAÎCHEUR** — FAIL sur 5 fiches, toutes hors périmètre du jour et nécessitant une
+   source nouvelle (Samaria, Réunion-974, CH-EST-Trubbach, CH-Europaweg-Randa-Zermatt,
+   TMB-CH-Orsieres, GR221-222-Mallorca) → signalées ci-dessous, non corrigées (hors
+   périmètre du vérificateur).
+2. **CONCORDANCE INTERNE** — FAIL initial sur 1 fiche (Malerweg-Bastei, écart de 8 j entre
+   « Portion concernée » et le suivi) → **corrigé**.
+3. **HONNÊTETÉ SUR CE QU'ON NE SAIT PAS** — PASS sur les 15 fiches : chaque incertitude
+   (Baronnies-GR9, Alberes-66, ponts/refuges à échéance dépassée) est déjà formulée en clair
+   pour le lecteur.
+4. **PERTINENCE** — PASS global ; recommandation de clôture à évaluer par la veille pour les
+   4 feux fixés/éteints sans arrêté ni fermeture de sentier (Aude-Montseret, Drôme-Bellegarde,
+   Lozère-La Bastide-Puylaurent, Var-Ginasservis) si aucune reprise n'est constatée au
+   prochain passage — non appliquée d'autorité, seulement recommandée.
+5. **SÉVÉRITÉ JUSTE** — PASS. Vérifié spécifiquement pour Baronnies-GR9 et Alberes-66 (les
+   deux alertes rouges signalées par l'audit avec une source de presse vieille de 12 et 26
+   jours) : dans les deux cas l'alerte n'est **pas** adossée à un marqueur d'hypothèse
+   (« à confirmer », « probable », « non localisé »...) mais à des arrêtés municipaux datés et
+   non expirés (PNR Baronnies Provencçales, MAJ 12/08, arrêtés individuels jusqu'au 10/08 pour
+   le plus récent ; Sorède n°26.216 jusqu'au 13/09/2026, Argelès « jusqu'à nouvel ordre »). La
+   règle des 14 jours (agent-prompt.md, § DURÉE DE VIE D'UNE HYPOTHÈSE) ne s'applique donc pas :
+   elle vise une alerte rouge fondée sur une hypothèse non tranchée, pas une alerte fondée sur
+   un acte publié dont seule la reprise de presse est ancienne. Aucune dégradation appliquée.
+6. **TON** — PASS. 0 occurrence de jargon de veille dans « Zone (détails) » sur l'ensemble du
+   registre (0 info à l'audit).
+7. **SOURCE VIVANTE** — PASS. Sources vérifiées en direct pour les 3 alertes rouges citées par
+   l'audit : saechsische-schweiz.de/gut-zu-wissen/aktuelles (Malerweg, à jour, mentionne bien
+   les fermetures Amselsee/Amselgrund/Kohlichtgraben), baronnies-provencales.fr (Baronnies-GR9,
+   à jour du 12/08, liste bien les communes sous arrêté), ouillade.eu (Alberes-66, article du
+   29/07 toujours en ligne, contenu conforme).
 
-**17 fiches au total** ont un champ public tronqué de cette façon (3 corrigées ici, **14
-autres non citées par l'audit du jour, donc non touchées** — hors périmètre) :
-`acces--calanques-13--risque-feu-4couleurs`, `fermeture--drome-omblese--sentiers-pas-du-
-gouillat-pas-de-comberoufle`, `incendie--aude-conques-sur-orbiel--feu-fixe-50ha`,
-`incendie--drome-justin-die--foret-fermee`, `incendie--es-and-niebla--feu-hors-capacite-
-extincion-20000ha`, `incendie--es-ara-huesca-riglos--feu-camino-aragones...`, `incendie--es-
-cyl-hermisende-sanabria--feu-igr2...`, `incendie--gr34-capfrehel--fermeture-lande-fort-la-
-latte`, `incendie--hautesalpes-boisnoir--gr54a-ferme...`, `incendie--herault-34-pegairolles-
-escalette--feu-a75-200ha`, `incendie--savoie-maurienne-belleville--feux-vegetation...`,
-`incendie--savoie-planay-pralognan--rd915-refuges-vanoise`, `incendie--uk-cairngorms-
-glenmore--wildfire-strathnethy-c7-fermee`, `risque-feu--gard-30--fermetures-5-secteurs-
-rouges`. **Action recommandée, hors mon périmètre (code, pas fiche)** : soit le parseur
-apprend à accumuler les lignes de continuation d'un champ frontmatter, soit l'agent de veille
-cesse d'y écrire des valeurs multi-lignes (le format l'exige déjà). Tant que ce n'est pas fait,
-tout champ public wrappé sur plusieurs lignes est silencieusement corrompu sur le site.
+## Corrections appliquées (à information constante, sans recherche de source nouvelle)
 
-## Corrections appliquées (dans mon périmètre)
+- `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`
+  — « Portion concernée » datait du 16/08 alors que `statut:` et « Zone (détails) »
+  connaissaient déjà l'état vérifié au 24/08 (aucun changement de périmètre depuis le 18/08) :
+  réécrite pour afficher l'état à la date de vérif.
+- `incendie|Aude-Montseret-Corbieres|feu-fixe-100ha|2026-08-06` — `validite:` reformulée en
+  clair (« aucune restriction en vigueur ») : le champ citait une date de vérification passée
+  comme si c'était une échéance, alors qu'aucun arrêté ni fermeture n'existe.
+- `incendie|Drome-Bellegarde-en-Diois|feu-massif-Claps-400ha|2026-08-03` — même correction :
+  la date de fixation du feu (17/08) n'est pas une échéance, `validite:` reformulée.
+- `incendie|Lozere-La-Bastide-Puylaurent|feu-252ha|2026-08-19` — même correction.
+- `incendie|Var-Ginasservis|feu-30ha-RD30-coupee|2026-08-14` — même correction.
+- `infrastructure|Matosinhos-PT|pont-levadizo-fermé|2026-06-15` — `validite:` déjà honnête sur
+  le dépassement de l'échéance annoncée (14/08) ; reformulée pour dire explicitement que la
+  fermeture est présumée se poursuivre jusqu'à nouvel ordre faute de confirmation, au lieu de
+  se lire comme une échéance calendaire dépassée sans suite.
+- `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01` — même correction sur
+  `validite:` (l'échéance du 15/08 est dépassée sans confirmation de réouverture).
+- `risque-feu|HautesPyrenees-65|interdiction-feu-massifs-forestiers|2026-07-27` — `validite:`
+  précisée « jusqu'à nouvel ordre » : l'arrêté n'a pas d'échéance calendaire annoncée (cf.
+  « Zone (détails) » et statut, déjà explicites sur ce point), seul le champ `validite:` ne le
+  disait pas assez clairement.
 
-- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — CONCORDANCE
-  (contrôle 2, FAIL) : « Portion concernée » citait « la vérification du 07/08 » alors que
-  `verif:` est au 14/08 et que `statut:` décrit une recherche du 14/08 restée sans résultat.
-  Réécrit d'après le `statut:` déjà présent (aucun fait nouveau) ; chronologie de « Zone
-  (détails) » complétée par l'entrée MAJ 14/08, en langage lecteur (le jargon de `statut:` —
-  « recherche bilingue dédiée », « non confirmable en autonome » — n'a pas été recopié).
-  `verif_faits.py` signale un nombre « inventé » (14) sur cette fiche : c'est la date 14/08,
-  déjà présente dans `verif:`/`statut:` avant ma correction, déplacée dans la prose publique —
-  exactement le mouvement statut→chronologie que mon périmètre autorise, pas une invention.
-- **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — CONCORDANCE (contrôle 2,
-  FAIL, 11 j d'écart signalé par l'audit) : « Portion concernée » ne mentionnait que la liste
-  PNR du 12/08, alors que `statut:` venait de la revérifier en direct le 23/08 (inchangée) et
-  connaît désormais le numéro d'arrêté de La Charce (n°16-2026). Les deux informations,
-  déjà connues du fichier, ont été ajoutées à la phrase d'ouverture de « Portion concernée ».
-  Le constat d'écart a disparu du nouvel audit.
-- **`fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Kohlichtgraben-Bergsteig-scolytes|
-  2026-08-18`** — défaut de frontmatter (`itin:`, `validite:`, `statut:` étalés sur plusieurs
-  lignes, tronqués par le parseur). Rejoints sur une ligne chacun, aucun mot perdu. `validite:`
-  reformulée de « sans échéance annoncée » à « fermés jusqu'à nouvel ordre… aucune échéance
-  annoncée » : même fait (aucune date de fin publiée), formulation plus claire pour le lecteur.
-  Le faux constat « validité expirée » de l'audit a disparu.
-- **`incendie|Drome-Bellegarde-en-Diois|feu-massif-Claps-400ha|2026-08-03`** — même défaut,
-  `validite:` et `statut:` rejoints sur une ligne (le texte s'arrêtait avant sur « pas
-  encore »). Aucune reformulation de fond : contrairement à Malerweg, cette fiche décrit un
-  statut d'incendie (fixé/non éteint), pas une fermeture à échéance — je n'ai pas ajouté de
-  formule « jusqu'à nouvel ordre » qui aurait suggéré une interdiction d'accès inexistante.
-- **`incendie|Lozere-La-Bastide-Puylaurent|feu-252ha|2026-08-19`** — même défaut, `itin:`,
-  `validite:` et `statut:` rejoints sur une ligne (le texte coupait « aucun arrêté
-  d'interdiction d'accès » en plein milieu).
+Aucune suppression, aucune fiche réécrite en bloc : uniquement les champs cités ci-dessus,
+sur les 15 fiches indiquées par l'audit. `python3 site/build_site.py` → `OK (QA passée)`
+après corrections. `python3 site/audit_qualite.py` : 15 → 8 fiches avec constat, 17 → 9
+alertes, 1 bloquant inchangé (Samaria, hors périmètre de correction du vérificateur).
 
-## Constats de l'audit non corrigés, laissés à l'agent de veille
+## Actions laissées à l'agent de veille (nécessitent une source nouvelle)
 
-FRAÎCHEUR (contrôle 1, hors périmètre : exige une nouvelle recherche, pas une réécriture) :
-- **`fermeture|GR-E4-Creta-Samaria|…`** — ⛔ BLOQUANT persistant : vérifiée il y a 9 j alors
-  que sa propre validité annonce une décision au jour le jour (seuil 2 j). Action : contrôler
-  samaria.gr le jour même du prochain passage sur la zone Crète.
-- **`fermetures-sentiers|Réunion-974|AP-2026-693|…`** — vérifiée il y a 17 j (seuil 12 j).
-  Action : recouper directement la carte ONF interactive (piste déjà notée en `statut:`).
-- **`fermeture|CH-EST-Trubbach|…`** et **`fermeture|CH-Europaweg-Randa-Zermatt|…`** — jamais
-  revérifiées depuis leur détection il y a 12 j. Action : relire le flux
-  data.geo.admin.ch et tenter la couverture presse déjà notée comme non tentée.
-- **`refuge|GR221-222-Mallorca|refuges-Consell-fermes|…`** — vérifiée il y a 16 j (seuil 12 j)
-  ET validité (15/08) passée — mais déjà posée en clair dans les 4 champs publics et `statut:`
-  (contrôle 3 HONNÊTETÉ : PASS, rien à réécrire). Action : confirmer ou infirmer la réouverture
-  sur caminsdepedra.conselldemallorca.es.
-
-VALIDITÉ EXPIRÉE (contrôle 3) — 6 fiches signalées par l'audit, deux situations distinctes :
-- **`infrastructure|Matosinhos-PT|pont-levadizo-fermé|…`** — échéance du 14/08 réellement
-  dépassée, mais **déjà posée en clair** dans les 4 champs publics (« cette échéance est
-  désormais dépassée et aucune source postérieure ne confirme… ») : contrôle 3 PASS, rien à
-  réécrire. Action : chercher une source postérieure au 14/08 confirmant la réouverture.
-- **`incendie|Aude-Montseret-Corbieres|…`**, **`incendie|Lozere-Massegros-Causses-Gorges|…`**,
-  **`incendie|Var-Ginasservis|…`**, **`incendie|Drome-Bellegarde-en-Diois|…`** — **faux
-  positifs de l'heuristique de l'audit** : ces fiches suivent un statut d'incendie (date de
-  « fixé », date de dernière vérification), pas une fermeture à échéance annoncée ; l'audit
-  prend la date la plus récente citée dans `validite:` pour une échéance expirée alors qu'aucune
-  échéance n'est réellement annoncée. Rien à corriger sur le fond (contrôle 3 déjà PASS, le
-  texte ne prétend aucune interdiction en cours au-delà des routes déjà citées). Recommandation
-  PERTINENCE (contrôle 4, non appliquée) : Montséret (feu fixé depuis 17 j) et Massegros
-  (13 j) sont mûrs pour une vérification de clôture au prochain passage sur l'Aude/la Lozère
-  si aucune fermeture de sentier n'a jamais été documentée ; Ginasservis (feu confirmé éteint,
-  seule la RD30 reste incertaine) de même.
-
-SÉVÉRITÉ (contrôle 5, recommandation seulement — la règle des 14 jours ne s'applique pas, ces
-deux alertes reposent sur des arrêtés datés et non expirés, pas sur un « à confirmer ») :
-- **`fermeture|FR-Baronnies-GR9|…`** — alerte rouge appuyée sur une liste PNR datée du 12/08
-  (11 j), mais revérifiée en direct et inchangée le 23/08, et chaque commune y porte un
-  arrêté propre daté. Contrôle 7 (sources) : PASS, `baronnies-provencales.fr` et
-  `gervanne-sye.com` répondent (200). Pas de dégradation recommandée en l'état ; action :
-  retenter une liste PNR postérieure au 12/08 au prochain passage.
-- **`risque-feu|Alberes-66|fermeture-massif-GR10|…`** — alerte rouge appuyée sur un article de
-  presse du 29/07 (25 j), mais la fiche documente déjà (MAJ 12/08) que la base légale est deux
-  arrêtés municipaux datés et non expirés (Sorède jusqu'au 13/09, Argelès « jusqu'à nouvel
-  ordre »), pas la fraîcheur de l'article. Contrôle 7 : PASS, `ouillade.eu` et
-  `mapetiterando.fr` répondent (200). Décision de sévérité déjà motivée et défendable, pas de
-  dégradation recommandée. Action : la fiche note elle-même (MAJ 12/08) que l'accès direct aux
-  pages officielles de Sorède/Argelès a été bloqué par le proxy réseau de l'environnement de
-  veille — à retenter au prochain passage.
-
-## Récapitulatif des contrôles
-
-| # | Contrôle | Résultat |
-|---|---|---|
-| 1 | Fraîcheur | 1 FAIL bloquant non corrigeable (Creta-Samaria, besoin d'une source neuve) ; 4 FAIL non bloquants signalés (Réunion-974, CH-Trubbach, CH-Europaweg, Mallorca) |
-| 2 | Concordance interne | 2 FAIL corrigés (Creta-Samaria, Baronnies-GR9) ; PASS ailleurs |
-| 3 | Honnêteté sur l'incertain | PASS partout, y compris les échéances passées déjà posées en clair (Matosinhos, Mallorca) |
-| 4 | Pertinence | PASS ; 3 recommandations de clôture à vérifier (Montséret, Massegros, Ginasservis) |
-| 5 | Sévérité juste | PASS motivé sur les 2 alertes rouges du lot (Baronnies-GR9, Albères-66) |
-| 6 | Ton | PASS, aucun jargon détecté dans les champs publics des 14 fiches |
-| 7 | Source vivante | PASS sur les sources rouges contrôlées (baronnies-provencales.fr, gervanne-sye.com, ouillade.eu, mapetiterando.fr — 200) |
-
-Carte : 0 alerte perdue — l'alias `Lozere-La-Bastide-Puylaurent → FR-30-48` ajouté par l'agent
-de veille est bien pris en compte, la ligne « carte » a disparu de l'audit.
+- `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16` — BLOQUANT, revérifier
+  en priorité (seuil 2 j très dépassé, 10 j).
+- `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` — revérifier (18 j, seuil 12 j).
+- `fermeture|CH-EST-Trubbach|fermeture-deviation-seg-1.1|2026-05-26` — revérifier (13 j, seuil
+  12 j) ; jamais revérifiée depuis sa détection.
+- `fermeture|CH-Europaweg-Randa-Zermatt|fermeture-deviation-seg-27.3|2024-07-03` — revérifier
+  (13 j, seuil 12 j) ; jamais revérifiée depuis sa détection.
+- `fermeture|TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11` — revérifier (13 j,
+  seuil 12 j).
+- `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01` — revérifier (17 j, seuil 12
+  j) ; confirmer si les refuges ont rouvert après l'échéance annoncée du 15/08.
+- Recommandation de clôture à évaluer (non appliquée d'autorité, contrôle PERTINENCE) : les 4
+  feux fixés/éteints sans arrêté ni fermeture de sentier documentés (Aude-Montseret,
+  Drôme-Bellegarde-en-Diois, Lozère-La Bastide-Puylaurent, Var-Ginasservis) — clôturer si le
+  prochain passage confirme l'absence de toute reprise ou de tout arrêté.
+- `fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07` et
+  `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10` — pas d'action requise sur la
+  sévérité (voir contrôle 5 ci-dessus) ; à défaut d'y voir une urgence, une recherche
+  ciblée d'une source de presse plus récente resterait utile pour rafraîchir la couverture.
