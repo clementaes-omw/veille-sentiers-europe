@@ -3,10 +3,12 @@ cle: incendie|Lozere-La-Bastide-Puylaurent|feu-252ha|2026-08-19
 type: incendie
 itin: GR®70 (Chemin de Stevenson, étape de La Bastide-Puylaurent) — [HYPOTHÈSE] aucune source consultée ne nomme le GR® nommément, la commune est une étape classique du tracé
 sev: MOYENNE
-validite: feu déclaré le 19/08/2026, fixé le 20/08/2026 ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur, seule la RD151 est documentée coupée
+validite: aucune restriction en vigueur : feu fixé dès le lendemain du départ ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur, seule la RD151 reste documentée coupée
 detection: 2026-08-23
-verif: 2026-08-23
-statut: ACTIF — NOUVEAU 23/08 : événement distinct du feu de Massegros (09/08), repéré lors de la couverture T1 du jour. Aucun sentier fermé documenté par les sources, seule la RD151 est citée coupée.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : nouvelle recherche, aucune reprise ni nouvelle publication
+  au-delà du fixé du 20/08. Aucun sentier fermé documenté par les sources, seule la RD151
+  est citée coupée.
 ordre: 177
 ---
 
