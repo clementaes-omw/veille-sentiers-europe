@@ -5,18 +5,22 @@ itin: GR®9 (Dentelles de Montmirail), GR®4/GR®91 (Monts de Vaucluse, Petit Lu
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien ; 13 massifs interdits d'accès ce mardi 18/08/2026, le Mont Ventoux (sommet compris) restant nommément excepté
 detection: 2026-07-18
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 23/08 : recherche ciblée reconduite (vaucluse.gouv.fr, listing
-  complet des communiqués d'août), toujours aucun communiqué massifs daté postérieur au
-  18/08. Un communiqué distinct du 20/08 porte sur une interdiction d'accès aux gorges du
-  Toulourenc, site sans GR® identifié, sans lien avec cette fiche. Dernier état sûr pour les
-  massifs : 13 fermés, Mont Ventoux excepté. Sévérité maintenue HAUTE.
+verif: 2026-08-24
+statut: ACTIF — CHANGÉ 24/08 : recherche ciblée reconduite (vaucluse.gouv.fr, listing
+  complet des communiqués d'août), toujours aucun communiqué massifs officiel daté
+  postérieur au 18/08. Premier signal de détente depuis le communiqué du 18/08 : la source
+  touristique destinationluberon.com (MAJ affichée 23/08 18h, pour le 24/08) affiche Petit
+  Luberon, Grand Luberon et Monts de Vaucluse tous trois en jaune (sortie recommandée le
+  matin), un cran sous la fermeture totale listée par le communiqué officiel du 16/08. Non
+  officiel, non confirmé par la préfecture : traité comme un indice, pas comme une levée.
+  Dernier état officiel sûr pour les massifs : 13 fermés au 18/08, Mont Ventoux excepté.
+  Sévérité maintenue HAUTE.
 ordre: 33
 ---
 
 ## Portion concernée
 
-Vaucluse : [FAIT] **13 massifs forestiers interdits d'accès ce mardi 18/08/2026**, dont Bollène-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Monts de Vaucluse, Vallée d'Apt, Grand Luberon, Collines de Basse Durance et Enclave des Papes sont cités nommément par la presse (communiqué officiel vaucluse.gouv.fr, repris par ici.fr le jour même). Le massif du Mont Ventoux, sommet compris, est nommément excepté de cette liste et reste accessible. Exceptions encadrées : sites bénéficiant d'une dérogation, groupes accompagnés par un professionnel formé, travaux forestiers le matin uniquement (5h-13h). Raison : risque incendie jugé très sévère. La fermeture n'est plus fixée par un texte à échéance de plusieurs jours mais reconduite communiqué par communiqué, quasi quotidiennement depuis le 16/08 (communiqués du 16/08 pour le 17/08, puis nouveau communiqué pour le 18/08) : la carte quotidienne du risque (risque-prevention-incendie.fr/84) fait foi au jour le jour mais n'est pas exploitable à distance.
+Vaucluse : [FAIT] **13 massifs forestiers interdits d'accès ce mardi 18/08/2026**, dont Bollene-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Monts de Vaucluse, Vallée d'Apt, Grand Luberon, Collines de Basse Durance et Enclave des Papes sont cités nommément par la presse (communiqué officiel vaucluse.gouv.fr, repris par ici.fr le jour même). Le massif du Mont Ventoux, sommet compris, est nommément excepté de cette liste et reste accessible. Exceptions encadrées : sites bénéficiant d'une dérogation, groupes accompagnés par un professionnel formé, travaux forestiers le matin uniquement (5h-13h). Raison : risque incendie jugé très sévère. La fermeture n'est plus fixée par un texte à échéance de plusieurs jours mais reconduite communiqué par communiqué, quasi quotidiennement depuis le 16/08 (communiqués du 16/08 pour le 17/08, puis nouveau communiqué pour le 18/08) : la carte quotidienne du risque (risque-prevention-incendie.fr/84) fait foi au jour le jour mais n'est pas exploitable à distance.
 
 ## Alternative
 
@@ -54,7 +58,9 @@ MAJ 13/08 : le listing complet des communiqués de presse d'août 2026 de vauclu
 
 MAJ 17/08 : la source manquante depuis le 05/08 apparaît enfin, par la presse plutôt que par un nouveau communiqué officiel. ici.fr publie ce lundi 17/08 un article confirmant que le Vaucluse est classé rouge sur la carte Météo des forêts, aux côtés des Bouches-du-Rhône et du Var, et que les 11 massifs restent interdits d'accès ce jour. Le communiqué officiel vaucluse.gouv.fr lui-même reste celui du 05/08, non renouvelé : la fermeture semble désormais pilotée au jour le jour par la carte de risque plutôt que par des communiqués successifs. Ce constat écarte le franchissement du seuil des 14 jours identifié le 13/08.
 
-MAJ 18/08 : le vide de communiqué officiel identifié depuis le 05/08 est comblé. vaucluse.gouv.fr a publié un communiqué daté du 16/08/2026 (« Vigilance Feu de forêts, Interdiction d'accès dans certains massifs forestiers de Vaucluse »), valable pour le 17/08, listant onze massifs : Bollène-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Monts de Vaucluse, Vallée d'Apt, Grand Luberon, Collines de Basse Durance et Enclave des Papes. Cette liste remplace le Petit Luberon des communiqués antérieurs par la Vallée d'Apt. Pour aujourd'hui, mardi 18/08, ici.fr titre sur « Tous les massifs forestiers du Vaucluse, hormis ceux du Ventoux, interdits d'accès en raison du risque incendie ce mardi » et chiffre à 13 le nombre de massifs concernés, sans lister deux d'entre eux au-delà des onze déjà nommés le 16/08 (écart de comptage non résolu, à l'image de celui déjà rencontré le 23/07). Point décisif : le Mont Ventoux, sommet compris, est cette fois nommément excepté de la fermeture, ce qui tranche enfin, dans le sens de l'ouverture, la question restée en suspens depuis le 28/07.
+MAJ 18/08 : le vide de communiqué officiel identifié depuis le 05/08 est comblé. vaucluse.gouv.fr a publié un communiqué daté du 16/08/2026 (« Vigilance Feu de forêts, Interdiction d'accès dans certains massifs forestiers de Vaucluse »), valable pour le 17/08, listant onze massifs : Bollene-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Monts de Vaucluse, Vallée d'Apt, Grand Luberon, Collines de Basse Durance et Enclave des Papes. Cette liste remplace le Petit Luberon des communiqués antérieurs par la Vallée d'Apt. Pour aujourd'hui, mardi 18/08, ici.fr titre sur « Tous les massifs forestiers du Vaucluse, hormis ceux du Ventoux, interdits d'accès en raison du risque incendie ce mardi » et chiffre à 13 le nombre de massifs concernés, sans lister deux d'entre eux au-delà des onze déjà nommés le 16/08 (écart de comptage non résolu, à l'image de celui déjà rencontré le 23/07). Point décisif : le Mont Ventoux, sommet compris, est cette fois nommément excepté de la fermeture, ce qui tranche enfin, dans le sens de l'ouverture, la question restée en suspens depuis le 28/07.
+
+MAJ 24/08 : toujours aucun communiqué officiel postérieur au 16/08 sur vaucluse.gouv.fr (listing complet des communiqués d'août revu en direct). Premier signal non officiel de détente : destinationluberon.com, mise à jour affichée le 23/08 à 18h pour la journée du 24/08, affiche Petit Luberon, Grand Luberon et Monts de Vaucluse tous trois en jaune (« sortie recommandée le matin »), alors que ces trois massifs figuraient parmi les treize fermés au communiqué officiel du 16/08. Cette source n'est pas la préfecture et ne documente qu'une partie des massifs listés par le communiqué officiel (les autres, Dentelles de Montmirail, Enclave des Papes, Bollene-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Vallée d'Apt et Collines de Basse Durance, restent sans recoupement) : le lecteur doit continuer de considérer les treize massifs comme fermés tant qu'aucun communiqué de la préfecture ne vient confirmer une réouverture, même partielle.
 
 ## Source
 

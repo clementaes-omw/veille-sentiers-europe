@@ -398,7 +398,7 @@ _CLES_DU_JOUR = None
 
 def cles_du_jour() -> set:
     """Clés citées par le digest le plus récent = les alertes réellement bougées au
-    dernier passage. C'est la seule définition qui s'EFFACE toute seule : tirée du champ
+    dernier passage de veille. C'est la seule définition qui s'EFFACE toute seule : tirée du champ
     `statut:`, la pastille « changé » restait collée à la fiche des semaines après le
     changement (25 cartes sur 60 la portaient le 02/08/2026, dont des reroutages de 2025).
     Le digest, lui, ne liste que le NOUVEAU/CHANGÉ du jour."""
@@ -596,6 +596,8 @@ ALIAS_ZONE = {
     "PN-Pyrénées": "FR-PYR-O", "PN-Pyrenees-Moundelhs": "FR-PYR-O",
     "Ariege-Bordes-Uchentein": "FR-PYR-O", "HautesPyrenees-Bareges": "FR-PYR-O",
     "Aspe-64-Chemin-Mature": "FR-PYR-O", "GR10-Luchon-Superbagnères": "FR-PYR-O",
+    "Ariege-Saurat": "FR-PYR-O", "HautesPyrenees-65": "FR-PYR-O",
+    "HauteGaronne-31": "FR-PYR-O",
     "ES-ARA-Huesca-Riglos": "ES-NAV-RIO-ARA",
     # Ouest / Nord
     "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
@@ -1604,7 +1606,7 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .badge.itin {{ background: var(--ink); color: var(--paper); }}
 /* Le ® des badges sentier en exposant. `line-height: 0` l'empêche d'agrandir la
    boîte de ligne : sans lui, les badges portant un ® seraient plus hauts que les
-   autres et la rangée de tête se désalignerait. */
+   autres et la rangée de tête se désalignerâit. */
 .badge sup {{ font-size: .72em; line-height: 0; vertical-align: super; }}
 .badge.sev-haute {{ background: var(--haute-bg); color: var(--haute); }}
 .badge.sev-moyenne {{ background: var(--moy-bg); color: var(--moy); }}
@@ -1957,7 +1959,7 @@ footer {{ margin-top: var(--s-7); padding-top: var(--s-4); border-top: 1.5px sol
   }});
 
   // impression : on ouvre les volets « Détails » le temps du tirage, sinon la
-  // feuille sort amputeé de la moitié de ce qu'on venait chercher.
+  // feuille sort amputée de la moitié de ce qu'on venait chercher.
   window.addEventListener('beforeprint', function () {{
     document.querySelectorAll('.card details:not([open])').forEach(function (d) {{
       d.open = true; d.setAttribute('data-print-open', '');

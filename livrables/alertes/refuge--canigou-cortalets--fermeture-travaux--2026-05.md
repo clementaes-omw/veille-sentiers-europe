@@ -5,11 +5,10 @@ itin: GR®10
 sev: MOYENNE
 validite: fermé pour travaux jusqu'en 2029 ; accueil provisoire sous tente jusqu'à fin septembre 2026
 detection: 2026-05-20
-verif: 2026-08-18
-statut: ACTIF — INCHANGÉ 18/08 : nouvelle recherche, situation stable, mêmes informations
-  que le 31/07 (chantier désormais chiffré à 4,15 M€ études et héliportage compris,
-  réouverture 2029, accueil provisoire sous tente jusqu'à fin septembre 2026). Aucune source
-  de levée trouvée.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : nouvelle recherche, situation stable, mêmes informations
+  (chantier de rénovation sur trois saisons, réouverture 2029, accueil provisoire sous
+  tente jusqu'à fin septembre 2026). Aucune source de levée trouvée.
 ordre: 3
 ---
 

@@ -7,13 +7,11 @@ itin: GR®653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR®6 (corridor Pon
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 23/08 : recherche ciblée reconduite (gard.gouv.fr), toujours aucun
-  classement daté postérieur au 18/08 retrouvé. Une page « Vendredi 22 août, risque incendie
-  très sévère » remontée en recherche a été vérifiée et écartée : elle date en réalité du
-  21/08/2025, pas 2026 (classement pour 2025, un seul secteur rouge). Dernier état sûr :
-  3 secteurs rouges (Gard Rhodanien, Garrigues, Costières Petite Camargue), GR®70 hors zone
-  rouge.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : recherche ciblée reconduite (gard.gouv.fr, liste des
+  actualités et recherche directe), toujours aucun classement daté postérieur au 18/08
+  retrouvé, soit six jours de silence. Dernier état sûr : 3 secteurs rouges (Gard Rhodanien,
+  Garrigues, Costières Petite Camargue), GR®70 hors zone rouge.
 ordre: 15
 ---
 

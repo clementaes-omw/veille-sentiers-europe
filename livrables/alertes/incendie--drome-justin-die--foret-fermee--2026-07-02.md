@@ -6,17 +6,12 @@ sev: MOYENNE (dégradée 17/08 — règle des 14 jours : aucun arrêté officiel
   maintien de la fermeture n'a pu être localisé malgré recherche ciblée dédiée)
 validite: le massif reste fermé de fait ; deux arrêtés distincts sont documentés (celui du 17/07/2026 cité par une source touristique départementale, et l'arrêté préfectoral n°26-2026-6 du 03/07/2026 retrouvé au recueil des actes administratifs), tous deux formulés jusqu'à nouvel ordre sans échéance propre ; aucune levée n'est publiée par une source officielle (préfecture, DDT, ONF, recueil des actes administratifs) à ce jour
 detection: 2026-07-18
-verif: 2026-08-20
-statut: ACTIF — INCHANGÉ 18/08 : recherche ciblée reconduite sur l'acte manquant. Une
-  recherche sur le recueil des actes administratifs et la presse locale fait remonter un
-  arrêté préfectoral n°26-2026-6, daté du 3 juillet 2026, qui interdit l'accès au massif de
-  Justin jusqu'à nouvel ordre : c'est un texte distinct de celui du 17/07/2026 cité par
-  drome-cestmanature.com, et il ne fixe lui-même aucune échéance (ni date fixe, ni condition
-  de fin explicite retrouvée dans les extraits consultés). Il ne permet donc pas de confirmer
-  ni d'infirmer le maintien de l'arrêté du 17/07 ; le PDF officiel de l'arrêté n°26-2026-6
-  n'a pas pu être ouvert pour vérifier son texte complet, à retenter au run suivant.
-  Rattachement GR®9/GR®93 non retesté ce jour, toujours affaibli depuis le 03/08 (probable
-  GR®95). Sévérité maintenue MOYENNE.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : nouvelle recherche sur drome.gouv.fr et le recueil des
+  actes administratifs, toujours aucune publication postérieure au 3 juillet 2026 (arrêté
+  n°26-2026-6) ni au 17 juillet 2026 (arrêté cité par drome-cestmanature.com) confirmant ou
+  levant la fermeture. Rattachement GR®9/GR®93 non retesté ce jour, toujours affaibli depuis
+  le 03/08 (probable GR®95). Sévérité maintenue MOYENNE.
 ordre: 31
 ---
 

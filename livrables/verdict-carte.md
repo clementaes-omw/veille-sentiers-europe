@@ -1,123 +1,155 @@
-# Verdict carte — 2026-08-12
+# Verdict carte — 2026-08-24
 
-Contrôle de `agents/verificateur-carte.md` exécuté sur la carte issue de la PR #39.
-**34 zones contrôlées** (celles portant au moins une alerte active), sur 45 zones
+Contrôle de `agents/verificateur-carte.md`, contrôle périodique du lundi. Base : registre du
+jour (74 alertes actives, dont 2 zones nouvellement créées le 24/08 — `HauteGaronne-31` et
+`HautesPyrenees-65` — déjà raccrochées par l'agent de veille via alias `ALIAS_ZONE → FR-PYR-O`
+avant mon passage), `livrables/audit-qualite.md` du 24/08, et le verdict précédent du 12/08
+(PR #41).
+
+**36 zones contrôlées** (celles portant au moins une alerte active aujourd'hui), sur 45 zones
 présentes dans `referentiel/zones-coords.csv`.
 
-- Alertes perdues (BLOQUANT) : **0** — aucune ligne à ajouter au CSV.
-- Compte de marqueurs : **34 attendus / 34 affichés** — vérifié dans un vrai navigateur,
-  le libellé public dit « 34 zones en alerte active. »
-- Centroïdes contrôlés : 34 — **2 à revoir**, 9 acceptables mais larges, 23 plausibles.
+- Alertes perdues (BLOQUANT) : **0** — confirmé par `site/audit_qualite.py`
+  (« 0 alerte perdue (carte cohérente avec le registre) ») et par un calcul direct de
+  `zones_carte()` : `bs.zones_carte(actives, coords)` renvoie `non_mappées = []` sur les 74
+  actives. Rien à ajouter au CSV.
+- Compte de marqueurs : **36 attendus / 36 affichés** — `site/index.html` ligne 5170 affiche
+  « 36 zones en alerte active. », et `len(zones_carte(...))` = 36. Cohérent.
+- `python3 site/build_site.py` → `OK (QA passée)` (aucune nouvelle `⚠ carte`).
+  `python3 site/audit_qualite.py` → section carte : `0 alerte perdue`, 0 bloquant côté carte.
 
-Aucune entrée existante n'a été modifiée (le périmètre de l'agent l'interdit) : tout ce qui
-suit est une recommandation.
+Aucune entrée existante de `zones-coords.csv` n'a été modifiée (mission 2 = signalement
+seulement, jamais correction d'autorité). Aucune ligne n'a été ajoutée (mission 1 sans objet
+aujourd'hui, voir ci-dessous).
 
-Méthode : pour chaque zone, distance orthodromique entre le marqueur publié et un repère
-géographique connu du terrain réellement visé par ses alertes. Le repère utilisé est cité à
-chaque fois — aucune coordonnée n'a été inventée.
+Je n'ai pas rédigé les alertes que je contrôle : ce contrôle porte sur des fiches écrites par
+l'agent de veille, pas par moi. Rien à signaler sur ce point (règle « pas de fond »).
 
-## ⛔ Centroïdes à revoir
+## Mission 1 — nouvelle zone perdue : rien à traiter
 
-- **`DE`** — Allemagne (Forêt-Noire, Saxe, Rhin), marqueur `49.80;9.50` (Basse-Franconie).
-  Le code est un fourre-tout national dont les deux alertes actives sont aux antipodes l'une
-  de l'autre : la **rouge** (Malerweg / Sächsische Schweiz, repère Bastei `50.96;14.07`) est
-  affichée à **349 km** de son massif, l'orange (Westweg, repère Oppenau `48.47;8.17`) à
-  **177 km**. Le marqueur ne désigne aucun des deux terrains — il tombe dans une région que
-  ni l'une ni l'autre alerte ne concerne. C'est le cas d'école décrit par la spec de l'agent.
-  *Recommandation* : scinder en deux codes — `DE-SW` (Forêt-Noire, repère Fribourg-en-Brisgau
-  ≈ `48.00;8.10`) et `DE-SACHSEN` (Suisse saxonne, repère Bastei ≈ `50.95;14.07`) — puis
-  aliaser `DE-Schwarzwald-Oppenau → DE-SW` et `DE-Sachsen-SaechsischeSchweiz → DE-SACHSEN`
-  dans `ALIAS_ZONE`. Priorité : c'est la seule alerte **rouge** mal placée du lot.
-- **`UK-IE`** — Îles Britanniques & Irlande, marqueur `54.50;-3.50` (Cumbria / Lake District).
-  L'unique alerte active porte sur **Glenmore, dans les Cairngorms** (repère `57.10;-3.67`),
-  soit **289 km** au nord. Un code couvrant deux nations et l'Irlande ne peut pas produire un
-  marqueur juste. *Recommandation* : créer `UK-SCOTLAND` (repère Aviemore ≈ `57.19;-3.83`) et
-  aliaser `UK-Cairngorms-Glenmore` dessus.
+Vérifié moi-même plutôt que pris sur la foi de l'audit : `HauteGaronne-31` et
+`HautesPyrenees-65` figurent bien dans `ALIAS_ZONE` (`site/build_site.py` lignes 599-600),
+toutes deux → `FR-PYR-O` (départements 31 et 65, cohérent avec `zones-sources.md` §5b :
+FR-PYR-O = 64, 65, 31, 09). Un calcul direct confirme que les 74 alertes actives se résolvent
+toutes vers un code présent dans `zones-coords.csv` (`non_mappées = []`). Aucune ligne CSV,
+aucun alias supplémentaire à recommander.
 
-## ⚠️ Acceptables, mais larges — à surveiller
+## Mission 2 — plausibilité des centroïdes existants
 
-Marqueur régionalement correct, mais la zone est si vaste que le repère s'éloigne du terrain.
-Aucune action tant que la zone ne porte qu'une alerte ; à scinder si elle en accumule.
+### Réévaluation du lot « à surveiller » du 12/08
 
-| Zone | Marqueur | Terrain réel de l'alerte (repère) | Écart |
+Le verdict du 12/08 listait 9 zones « acceptables mais larges » avec la consigne « à scinder
+si elle en accumule ». Situation au 24/08 :
+
+| Zone | Alertes actives 24/08 | Évolution depuis le 12/08 | Verdict |
 |---|---|---|---|
-| `ES-AND` | 37.50;-4.60 | Niebla, Huelva (37.36;-6.68) | 184 km |
-| `ES-CENTRO` | 39.60;-4.20 | La Mierla, Guadalajara (40.95;-3.25) | 170 km |
-| `ES-CYL` | 42.35;-5.70 | Fermoselle, Zamora (41.32;-6.40) | 128 km |
-| `IT-CENTRE` | 43.50;11.20 | Carrare, Apuanes (44.08;10.10) | 109 km |
-| `AT` | 47.20;11.40 | Silvretta, Vorarlberg (46.90;10.10) | 104 km |
-| `IT-NO` | 45.70;7.40 | PN Val Grande, Verbano (46.05;8.45) | 90 km |
-| `IT-DOLOMITES` | 46.40;11.80 | Dolomites de Brenta (46.17;10.88) | 75 km |
-| `CH-EST` | 46.60;8.90 | Trübbach, vallée du Rhin SG (47.07;9.48) | 68 km |
-| `FR-NOR` | 49.35;0.35 | Étretat / Les Loges (49.71;0.20) | 41 km |
+| `ES-AND` | **0** (les 3 alertes actives du 12/08 sont closes : Cómpeta, Los Gallardos, Niebla) | sort du lot | sans objet — plus aucune alerte à placer |
+| `ES-CENTRO` | 1 (Guadalajara-LaMierla, même alerte) | inchangé | acceptable mais large, à surveiller (repère La Mierla ≈ 40.95;-3.25, ~170 km du marqueur 39.60;-4.20) |
+| `ES-CYL` | 1 (Barjas-Quintela — nouvelle, l'alerte Fermoselle du 12/08 est close) | alerte différente, distance comparable | acceptable mais large, à surveiller (repère Barjas, León ≈ 42.60;-6.97, ~108 km du marqueur 42.35;-5.70) |
+| `AT` | 1 (Silvretta, même alerte) | inchangé | acceptable mais large, à surveiller (~104 km) |
+| `IT-NO` | 1 (Val Grande, même alerte) | inchangé | acceptable mais large, à surveiller (~90 km) |
+| `FR-NOR` | 2 (Loges-Bénouville, Pierrefiques-76) | **déjà corrigé le 12/08** (marqueur déplacé sur la côte d'Albâtre, 49.70;0.35) | plausible — sort du lot, les deux alertes sont à ≤15 km du marqueur |
+| `IT-DOLOMITES` | **2** (Brenta + Pelmo, nouvelle) | **accumulée** | voir ci-dessous — reste « à surveiller », pas d'escalade |
+| `CH-EST` | **2** (Trübbach + Frutigen, nouvelle) | **accumulée** | **⛔ escalade — à scinder** |
+| `IT-CENTRE` | **2** (Carrara + Prato-La-Corte/Veio, nouvelle) | **accumulée** | **⛔ escalade — à scinder** |
 
-Deux remarques de fond sur ce tableau :
+### ⛔ Escalade — deux zones ont accumulé une deuxième alerte aux antipodes l'une de l'autre
 
-- **`FR-NOR`** est le plus facile à améliorer : la zone s'intitule « Normandie (GR21, côte
-  d'Albâtre) » et ses deux alertes sont sur la côte, mais le marqueur est posé **au sud de
-  l'estuaire de la Seine**, hors de la côte d'Albâtre. Repère attendu ≈ `49.70;0.35` (entre
-  Fécamp et Étretat). Recommandé, non appliqué.
-- **`CH-EST`** : Trübbach est dans la vallée du Rhin saint-galloise, hors des trois régions
-  que le code annonce (Oberland, Grisons, Tessin). Le marqueur reste plausible à l'échelle
-  suisse ; c'est le rattachement de la zone qui est discutable, pas la coordonnée.
+- **`CH-EST`** — marqueur `46.60;8.90`. Porte désormais deux alertes actives :
+  - `CH-EST-Trubbach` (fermeture, déviation seg. 1.1) : Trübbach, vallée du Rhin
+    saint-galloise, repère `47.07;9.47` → **68 km** du marqueur (déjà signalé le 12/08).
+  - `CH-EST-Frutigen` (fermeture, Kander-Uferweg impraticable, détectée le 18/08) :
+    Frutigen, Oberland bernois, repère `46.59;7.65` → **96 km** du marqueur, à l'**opposé**
+    de Trübbach (**148 km** séparent les deux localités).
+  Le code couvre nominalement « Oberland, Grisons & Tessin » ; les deux alertes actuelles
+  sont toutes deux en périphérie de cette zone (Rhin saint-gallois et Oberland bernois), sur
+  des versants opposés, et le marqueur ne désigne vraiment ni l'une ni l'autre. C'est le même
+  schéma que le cas `DE` tranché le 12/08 (deux terrains éloignés, un centroïde qui ne sert
+  aucun des deux). *Recommandation, non appliquée* : si une troisième alerte confirme que
+  `CH-EST` sert de fourre-tout, scinder en `CH-EST-RHIN` (repère Sargans/Trübbach ≈
+  `47.05;9.45`) et `CH-OBERLAND` (repère Frutigen/Kandersteg ≈ `46.55;7.70`), avec alias
+  `CH-EST-Trubbach → CH-EST-RHIN` et `CH-EST-Frutigen → CH-OBERLAND` dans `ALIAS_ZONE`. Les
+  deux alertes sont de sévérité MOYENNE (pas d'urgence rouge comme pour le cas DE) : l'action
+  peut attendre une troisième occurrence sans induire le randonneur en erreur dans
+  l'intervalle — le marqueur reste dans le bon pays et le bon massif alpin, seule la
+  localisation fine à l'intérieur de la Suisse orientale est approximative.
 
-## ✅ Centroïdes plausibles (23)
+- **`IT-CENTRE`** — marqueur `43.50;11.20` (« Toscane, Latium & Émilie »). Porte désormais
+  deux alertes actives :
+  - `IT-Centre-Carrara` (fermeture, Via Francigena, Nazzano-Bonascola, éboulement) :
+    Carrare, Alpes apuanes, repère `44.08;10.10` → **110 km** du marqueur (déjà signalé le
+    12/08).
+  - `VF-Lazio-Prato-La-Corte` (reroutage, Via Francigena, Formello → La Storta) : Parco di
+    Veio / Formello, Latium, aux portes de Rome, repère `42.15;12.41` → **180 km** du
+    marqueur, à l'**opposé** de Carrare (**285 km** séparent les deux localités — plus loin
+    que Trübbach-Frutigen, du même ordre que Malerweg-Westweg avant la scission du 12/08).
+  Le code regroupe tout le tracé italien de la Via Francigena de la Toscane au Latium : les
+  deux alertes actuelles sont à ses deux extrémités, et le marqueur (posé entre Florence et
+  Sienne) ne représente ni la Toscane du nord ni le Latium. *Recommandation, non appliquée* :
+  scinder en `IT-TOSCANE-NO` (repère Carrare ≈ `44.08;10.10`, tronçon Cisa → Lucca/Apuanes)
+  et `IT-LAZIO` (repère Formello/Veio ≈ `42.15;12.41`, tronçon Viterbe → Rome), avec alias
+  `IT-Centre-Carrara → IT-TOSCANE-NO` et `VF-Lazio-Prato-La-Corte → IT-LAZIO`. Sévérité
+  MOYENNE des deux côtés — même remarque que `CH-EST` : pas d'urgence rouge, mais l'écart de
+  285 km entre les deux terrains rend la scission plus justifiée ici que pour `CH-EST`.
 
-`CH-VALAIS-VAUD` (Sion, alertes Europaweg/TMB à ≤40 km) · `ES-BALEARES` (centre de Majorque)
-· `ES-CANARIAS` (côte est de Tenerife) · `FR-04-05` (Embrun/Guillestre, GR54) · `FR-06`
-(haute Vésubie, Mercantour) · `FR-13` (entre Aix et les Calanques) · `FR-30-48` (Florac /
-mont Lozère) · `FR-34-11` (milieu exact Hérault–Aude) · `FR-66` (Canigou, 42.55;2.45) ·
-`FR-83` (centre du Var) · `FR-84-26-07` (Vaucluse/Drôme/Ardèche) · `FR-974` (centre de La
-Réunion, exact) · `FR-ALPES-N` (Vanoise) · `FR-BRE` (centre du corridor GR34 ; un sentier en
-boucle littorale a par construction son centroïde à l'intérieur des terres — le moins mauvais
-choix) · `FR-CORSE` (centre de l'île, GR20) · `FR-EST` (Vosges, 88) · `FR-IDF-CVL`
-(Fontainebleau) · `FR-PYR-O` (Luchonnais, milieu du 64–09) · `FR-SO` (Agenais, milieu
-Landes–Lot) · `GR-E4` (Crète ouest, Samaria) · `PL-SK-TATRAS` (Tatras, exact : Rysy et Kriváň
-à moins de 10 km) · `PT-NORTE` (milieu Porto–Valença) · `SI-HR` (Alpes juliennes, 30 km de
-Triglav).
+### ⚠️ Accumulée mais pas aux antipodes — pas d'escalade
 
-## Hors périmètre « coordonnées » — deux défauts de la vue
+- **`IT-DOLOMITES`** — marqueur `46.40;11.80` (« Dolomites, Trentin-Haut-Adige, Vénétie »).
+  Porte deux alertes actives :
+  - `IT-DOLOMITES-Brenta` (fermeture, Cima Falkner/Bocchette) : Dolomites de Brenta, repère
+    `46.17;10.88` → **75 km** du marqueur (déjà signalé le 12/08, à l'ouest).
+  - `IT-Dolomites-Pelmo` (fermeture, versant NO du Monte Pelmo, Borca di Cadore, Belluno) :
+    repère `46.43;12.14` → **26 km** du marqueur seulement, à l'est.
+  Contrairement à `CH-EST` et `IT-CENTRE`, les deux alertes ne sont pas aux extrémités
+  opposées d'une zone démesurée : le marqueur reste proche (26 km) de l'alerte la plus
+  récente, et l'alerte de Brenta, bien qu'à 75 km, reste dans la même chaîne montagneuse
+  contiguë (Trentin). Reste « acceptable mais large, à surveiller » ; pas de scission
+  recommandée tant qu'une troisième alerte ne confirme pas un massif tiers (ex. Sella,
+  Sesto) qui étirerait encore le centroïde.
 
-Signalés ici parce qu'ils rendent des marqueurs faux ou inutilisables, mais ils relèvent de
-`site/build_site.py`, que cet agent ne modifie pas.
+### Zones non listées « à surveiller » le 12/08 — contrôle de cohérence rapide
 
-1. **Le marqueur de La Réunion est inatteignable.** Sa coordonnée est pourtant exacte. Le
-   `maxBounds` de la carte s'arrête à la longitude **40° E** alors que La Réunion est à
-   **55,52° E**. Vérifié au navigateur : demander à centrer dessus aux zooms 4 à 8 recale le
-   centre à la longitude 37,92° et le marqueur **reste hors écran** ; il n'apparaît qu'aux
-   zooms ≤ 3, en vue monde. L'alerte GRR2 (orange, fermetures de sentiers) est donc publiée
-   sur une carte qui interdit d'y accéder. Correctif : porter la limite est à ≈ 60° E.
-2. **Popups illisibles en thème sombre.** Contraste mesuré du nom de sentier : **1,27:1**
-   (seuil AA : 4,5:1). Cause : `leaflet.css` est injecté *après* le `<style>` de la page, donc
-   les règles à une seule classe de la feuille du site (`.leaflet-popup-content-wrapper`,
-   `.leaflet-bar a`, `.leaflet-control-attribution`) perdent la cascade et le fond redevient
-   blanc, tandis que les couleurs de texte (sélecteurs à deux classes) restent claires.
+Pour les 27 zones restantes portant une alerte active aujourd'hui, j'ai vérifié que le
+département/la province/le massif de chaque nouvelle alerte correspond bien au périmètre
+déclaré de son code dans `zones-sources.md` (§1 T1/T2/T3, §2/2b/2c, §5b) :
+`FR-PYR-O` (8 alertes : 64/65/31/09, cohérent), `FR-66` (6 : Pyrénées-Orientales, cohérent),
+`FR-84-26-07`, `FR-06`, `FR-34-11`, `FR-30-48`, `FR-04-05`, `FR-83`, `FR-BRE`, `FR-CORSE`,
+`FR-ALPES-N`, `FR-EST`, `FR-SO`, `FR-13`, `FR-974`, `FR-IDF-CVL`, `DE-SACHSEN`, `DE-SW`,
+`UK-SCOTLAND` (codes créés le 12/08, alertes toujours cohérentes avec leur repère de
+fondation), `CH-VALAIS-VAUD`, `ES-BALEARES`, `ES-CANARIAS`, `ES-NAV-RIO-ARA`, `PT-NORTE`,
+`SI-HR`, `PL-SK-TATRAS`, `GR-E4`, `Cotes-Armor-Trebeurden`. Aucune anomalie : rien ne pointe
+vers un pays ou un massif que l'alerte ne concerne pas. Verdict : **plausibles**, sans
+recalcul de distance individuel (pas de changement de marqueur ni de nouvelle alerte
+« limite » depuis le 12/08 pour ces zones).
 
-## Suite donnée — 2026-08-12, même jour
+## Mission 3 — compte de marqueurs
 
-Les trois recommandations de centroïdes ont été appliquées, et les deux défauts de la vue
-corrigés. Écarts mesurés après coup, aux mêmes repères :
+`site/index.html` (ligne 5170) : « **36 zones en alerte active.** » — confirmé identique au
+calcul direct de `zones_carte(actives, coords)` sur les 74 fiches actives du registre
+(`site/build_site.py`). Compte juste.
 
-| Zone | Avant | Après | Alerte concernée |
-|---|---|---|---|
-| `DE-SACHSEN` (neuf) | 349 km | **4 km** | Malerweg, **rouge** |
-| `DE-SW` (neuf) | 177 km | **19 km** | Westweg |
-| `UK-SCOTLAND` (neuf) | 289 km | **23 km** | Cairngorms |
-| `FR-NOR` (déplacé) | 41 km | **11 km** | GR21 |
+## Hors périmètre — rappel, non retouché
 
-`DE` et `UK-IE` restent au référentiel mais ne portent plus aucune alerte : ils ne servent
-plus que de **repli** pour un massif encore sans code propre. C'est un choix de prudence
-plutôt que de rigueur — les retirer ferait tomber la prochaine alerte allemande ou
-britannique non aliasée en « alerte perdue », donc en BLOQUANT, ce qui la rendrait visible
-tout de suite ; les garder la fera atterrir en silence sur un centroïde national faux. À
-trancher si un jour la carte devient la porte d'entrée principale du site.
-
-Le compte de marqueurs passe de 34 à **35** (l'Allemagne compte désormais pour deux).
+Les deux défauts de vue signalés le 12/08 restent hors du périmètre de cet agent
+(`build_site.py` au sens visuel) : vérification rapide, non exhaustive, pour information —
+`maxBounds` de la carte va bien jusqu'à 60° E (`site/index.html`, commentaire « La limite EST
+doit englober La Réunion ») et `leaflet.css` est chargé dynamiquement (`site/index.html`
+ligne 6725) — les deux correctifs du 12/08 semblent tenus. Je n'ai pas revérifié le contraste
+des popups en conditions réelles de navigateur : hors périmètre, non ré-audité ici.
 
 ## Recommandations laissées
 
-1. Scinder `DE` en `DE-SW` / `DE-SACHSEN` + 2 alias — **alerte rouge concernée**.
-2. Créer `UK-SCOTLAND` + alias `UK-Cairngorms-Glenmore`.
-3. Déplacer `FR-NOR` sur la côte d'Albâtre (≈ 49.70;0.35).
-4. Étendre le `maxBounds` de la carte à la longitude 60° E (sinon La Réunion reste hors d'accès).
-5. Charger `leaflet.css` avant le `<style>` de la page, ou renforcer les sélecteurs du thème.
+1. **`CH-EST`** — scinder en `CH-EST-RHIN` (repère Trübbach/Sargans ≈ `47.05;9.45`) et
+   `CH-OBERLAND` (repère Frutigen ≈ `46.55;7.70`) + alias `CH-EST-Trubbach` /
+   `CH-EST-Frutigen`, si une 3ᵉ alerte confirme l'usage fourre-tout du code. Sévérité MOYENNE
+   des deux alertes actuelles : pas d'urgence.
+2. **`IT-CENTRE`** — scinder en `IT-TOSCANE-NO` (repère Carrare ≈ `44.08;10.10`) et `IT-LAZIO`
+   (repère Formello/Veio ≈ `42.15;12.41`) + alias `IT-Centre-Carrara` /
+   `VF-Lazio-Prato-La-Corte`. Écart de 285 km entre les deux terrains actuels — la plus
+   fondée des deux recommandations de ce verdict.
+3. **`IT-DOLOMITES`** — à surveiller : une 3ᵉ alerte dans un massif tiers (Sella, Sesto,
+   Civetta) justifierait de revoir le découpage.
+4. Recommandations non appliquées du 12/08 toujours valables si le nombre d'alertes
+   augmente sur ces zones : `ES-AND` (sans objet aujourd'hui, plus d'alerte active),
+   `ES-CENTRO`, `ES-CYL`, `AT`, `IT-NO` — un seul repère à surveiller par zone, rien
+   d'urgent.

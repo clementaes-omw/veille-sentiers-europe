@@ -3,15 +3,16 @@ cle: incendie|PO-66-Thues-entre-Valls|feu-Caranca-acces-interdit|2026-07-24
 type: incendie / interdiction d'accès
 itin: GRT75 (Refuge du Ras de la Caranà ↔ Coll de Caranca) ; GR®10 (Thuès-Entre-Valls, village-étape) et GR®36 (Conflent) — [HYPOTHÈSE] portion exacte à recouper, aucune source ne nomme explicitement ces sentiers
 sev: MOYENNE
-validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait fixé depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
+validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
 detection: 2026-07-30
-verif: 2026-08-23
-statut: ACTIF — CHANGÉ 20/08 : une source non officielle (feuxdeforet.fr) indique le feu
-  fixé depuis le 02/08/2026, mais classe l'événement sous la commune de Nyer plutôt que
-  Thuès-Entre-Valls et n'est pas recoupée par un CP préfectoral (aucun CP n°10 ou postérieur
-  trouvé malgré nouvelle recherche, 8e tentative). Retenu en [HYPOTHÈSE] seulement, pas en
-  [FAIT]. L'interdiction d'accès au secteur, gorges de la Caranca, reste la seule donnée
-  ferme, aucune source ne documentant sa levée.
+verif: 2026-08-24
+statut: ACTIF — CHANGÉ 24/08 : la source non officielle feuxdeforet.fr, qui classait encore
+  l'événement comme fixé depuis le 02/08 lors du dernier passage, l'affiche désormais comme
+  éteint (même date du 02/08, sous la commune de Nyer plutôt que Thuès-Entre-Valls). Toujours
+  pas de CP préfectoral postérieur au n°9 du 30/07 (page des communiqués d'août revue en
+  entier, aucun titre sur ce feu). Retenu en [HYPOTHÈSE] seulement. L'interdiction d'accès au
+  secteur, gorges de la Caranca, reste la seule donnée ferme, aucune source ne documentant sa
+  levée.
 ordre: 58
 ---
 
@@ -30,6 +31,8 @@ Zone FR-66 (Pyrénées-Orientales), massif du Conflent, secteur déjà concerné
 MAJ 14/08 : un CP n°9, daté du 30/07/2026 à 09h00, a été retrouvé (il n'avait pas été repéré par la veille jusqu'ici, qui pensait le CP n°8 du 29/07 comme dernier point publié). Il confirme une situation stabilisée, 65 ha parcourus (inchangé par rapport au 29/07), le feu toujours pas fixé (« quelques fumerolles persistent à l'intérieur du périmètre brûlé, sans propagation active »), 10 personnels en surveillance active, et rappelle que l'accès au secteur, en particulier aux gorges de la Caranca, demeure strictement interdit. Aucun communiqué postérieur au CP n°9 n'a été retrouvé : le silence officiel de la préfecture sur ce feu atteint désormais 15 jours (dernier point le 30/07). feuxdeforet.fr et la page des communiqués d'août de la préfecture (relue intégralement) ne mentionnent aucune suite.
 
 MAJ 20/08 : feuxdeforet.fr indique le feu fixé depuis le 02/08/2026, mais classe l'événement sous la commune de Nyer plutôt que Thuès-Entre-Valls et n'est pas une source officielle ; aucun communiqué préfectoral plus récent que le CP n°9 (postérieur au 30/07) n'a été retrouvé pour confirmer cette information. Retenu en [HYPOTHÈSE]. L'interdiction d'accès au secteur, gorges de la Caranca, n'est levée par aucune source : elle reste la seule donnée ferme.
+
+MAJ 24/08 : la même fiche feuxdeforet.fr (commune de Nyer) affiche désormais le feu comme éteint, toujours à la date du 02/08/2026, sans reprise depuis. Source non officielle, non recoupée par un CP préfectoral : le statut du feu lui-même reste une hypothèse. L'interdiction d'accès au secteur, en particulier aux gorges de la Caranca, n'est levée par aucune source officielle ni de presse : elle reste la seule donnée ferme de cette fiche.
 
 ## Source
 

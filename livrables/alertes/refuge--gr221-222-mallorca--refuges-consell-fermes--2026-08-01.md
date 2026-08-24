@@ -3,7 +3,7 @@ cle: refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01
 type: refuge
 itin: GR®221, GR®222
 sev: MOYENNE
-validite: 01/08 → 15/08/2026 (fermeture annoncée par le Consell de Mallorca) ; cette échéance est désormais dépassée et aucune source postérieure au 15/08 ne confirme à ce jour la réouverture effective des refuges
+validite: fermeture annoncée par le Consell de Mallorca du 01/08 au 15/08/2026 ; cette échéance est dépassée et aucune source postérieure au 15/08 ne confirme la réouverture effective, la fermeture est donc présumée se poursuivre jusqu'à nouvel ordre en l'absence de confirmation
 detection: 2026-07-17
 verif: 2026-08-07
 statut: ACTIF — la fermeture annoncée courait du 01/08 au 15/08/2026 ; cette échéance est
