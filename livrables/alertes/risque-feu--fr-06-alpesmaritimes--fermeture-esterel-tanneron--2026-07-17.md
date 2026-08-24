@@ -5,12 +5,12 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (dégradée 22/08 — aucun communiqué préfectoral retrouvé depuis le 06/08, seuil des 14 jours dépassé)
 validite: journalière selon la préfecture ; dernière fermeture confirmée par une source datée : 06/08 (rouge très sévère) ; aucun communiqué plus récent retrouvé à ce jour
 detection: 2026-08-09
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 23/08 : recherche ciblée reconduite (presseagence.fr, espace presse
-  alpes-maritimes.gouv.fr, sites des trois communes du massif), toujours aucune publication
-  postérieure au 06/08 trouvée pour ce massif spécifique. L'écart atteint désormais 17 jours.
-  Sévérité maintenue MOYENNE (dégradée le 22/08, règle des 14 jours). Zone en escalade :
-  recherche ciblée à reconduire chaque run.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : recherche ciblée reconduite (liste complète des communiqués
+  de presse d'août de la préfecture des Alpes-Maritimes relue directement : sirènes du 5,
+  Tour de France Femmes du 7, sécheresse du 13, vigilance orage du 20, vigilance pluie du 21 ;
+  aucun sur le risque incendie ni sur l'Esterel-Tanneron). L'écart atteint désormais 18 jours.
+  Sévérité maintenue MOYENNE. Zone en escalade : recherche ciblée à reconduire chaque run.
 ordre: 102
 ---
 
@@ -28,7 +28,7 @@ Depuis le 17 juillet 2026, la préfecture des Alpes-Maritimes classe le massif d
 
 Vérifié le 10/08/2026 : aucune source datée entre le 7 et le 10 août n'a été retrouvée ; la dernière confirmation disponible reste celle du 6 août. Le classement du massif change chaque soir pour le lendemain, cette absence de publication récente ne permet donc pas de conclure à une reconduction ni à une levée.
 
-Vérifié le 11/08/2026 : recherche élargie aux sources primaires (espace presse de la préfecture des Alpes-Maritimes consulté directement pour le mois d'août : deux communiqués seulement, aucun sur le risque incendie) et aux sites des trois communes du massif (Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron), sans résultat. La carte de risque Entente Valabre (risque-prevention-incendie.fr) existe mais son contenu, généré en JavaScript, ne s'affiche pas à la simple lecture de la page et n'a pas pu être consulté pour cette vérification. L'écart entre la dernière confirmation datée (6 août) et aujourd'hui atteint 5 jours.
+Vérifié le 11/08/2026 : recherche élargie aux sources primaires (espace presse de la préfecture des Alpes-Maritimes consultée directement pour le mois d'août : deux communiqués seulement, aucun sur le risque incendie) et aux sites des trois communes du massif (Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron), sans résultat. La carte de risque Entente Valabre (risque-prevention-incendie.fr) existe mais son contenu, généré en JavaScript, ne s'affiche pas à la simple lecture de la page et n'a pas pu être consulté pour cette vérification. L'écart entre la dernière confirmation datée (6 août) et aujourd'hui atteint 5 jours.
 
 Vérifié le 13/08/2026 : nouvelle vérification (requête directe sur presseagence.fr, sites des trois communes du massif), toujours aucune publication postérieure au 6 août trouvée. L'écart atteint désormais 7 jours. Le fait qui justifie la sévérité HAUTE reste établi (le massif a fermé la quasi-totalité des jours classés très sévère depuis le 17 juillet, sur la base de sources datées jusqu'au 6 août) : ce qui manque est seulement la confirmation du statut du jour, pas la matérialité de la fermeture récurrente.
 
