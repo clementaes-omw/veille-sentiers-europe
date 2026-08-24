@@ -5,15 +5,16 @@ itin: GR®10 (secteur Couserans/Val du Biros)
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses fermé depuis le 02/08 (chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08)
 detection: 2026-07-20
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 23/08 : nouvelle recherche ciblée sur l'acte manquant
-  (ariege.gouv.fr/Publications/Actualites relu directement, tag Pyrénées FM dédié, page
-  CDRP09/FFRandonnée Ariège, ariegenews.com) : toujours aucun arrêté formel de fermeture ou
-  de réouverture du tronçon Ayès↔Cap des Lauses retrouvé. Le tronçon reste sourcé par la
-  presse citant l'ONF. La 4e reconduction de l'interdiction totale du feu en Ariège arrive à
-  échéance demain (24/08) ; aucune 5e reconduction ni levée n'est encore publiée, ce qui est
-  normal à J-1 de l'échéance — à revérifier après le 24/08. Statut du GR®10 à Seix/Col de
-  Pause et Auzat non retesté ce jour. Sévérité maintenue HAUTE.
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : nouvelle recherche ciblée le jour même de l'échéance de la
+  4e reconduction (pyreneesfm.com revérifié, ariege.gouv.fr/Publications/Actualites relu
+  directement, azinat.com et radiocouserans.fr consultés) : toujours aucun arrêté formel de
+  fermeture ou de réouverture du tronçon Ayès↔Cap des Lauses retrouvé, qui reste sourcé par
+  la presse citant l'ONF. Aucune 5e reconduction ni levée de l'interdiction totale du feu
+  n'est encore publiée à J0 de l'échéance du 24/08 ; à trancher au prochain passage. Statut
+  du GR®10 à Seix (col de Pause) et Auzat toujours non tranché : un feu distinct y a motivé
+  une fermeture par la mairie d'Auzat début août, sans confirmation d'un état depuis.
+  Sévérité maintenue HAUTE.
 ordre: 34
 ---
 

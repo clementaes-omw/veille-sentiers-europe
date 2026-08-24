@@ -3,10 +3,10 @@ cle: incendie|Aude-Montseret-Corbieres|feu-fixe-100ha|2026-08-06
 type: incendie
 itin: GR®36 (traversée des Corbières) ; GR®367 Sentier Cathare (Corbières) — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement avec la commune de Montséret à confirmer
 sev: MOYENNE
-validite: feu fixé depuis le 06/08/2026 au soir, situation stable ; aucune source postérieure au 07/08/2026 retrouvée, y compris à la nouvelle vérification du 18/08/2026 ; aucune fermeture de sentier documentée
+validite: aucune restriction en vigueur : feu fixé dès le soir du départ, situation stable depuis lors, aucun arrêté d'interdiction d'accès ni fermeture de sentier publié à ce jour
 detection: 2026-08-13
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 18/08 : aucune source postérieure au 07/08 retrouvée (nouvelle
+verif: 2026-08-24
+statut: ACTIF — INCHANGÉ 24/08 : aucune source postérieure au 07/08 retrouvée (nouvelle
   recherche régionale Aude/Corbières sans nouveau signal, ni reprise ni annonce
   d'extinction explicite). Toujours aucun arrêté d'interdiction d'accès ni de fermeture de
   sentier documenté au-delà des routes départementales déjà citées. Un autre feu, distinct,
