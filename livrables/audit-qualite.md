@@ -25,3 +25,4 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 ## 🗺 Cohérence carte / registre
 
 0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
+
