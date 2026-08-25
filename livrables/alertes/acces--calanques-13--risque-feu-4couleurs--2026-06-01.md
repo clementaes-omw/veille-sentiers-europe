@@ -2,21 +2,21 @@
 cle: accès|Calanques-13|risque-feu-4couleurs|2026-06-01
 type: accès / risque feu
 itin: GR®98 (Calanques Marseille-Cassis) — refermé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
-sev: MOYENNE (dégradation 23/08 — cg13.eway.fr reclasse les 24 massifs du département en
-  jaune, aucun rouge, après un jour de vert intégral)
+sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-08-23
-statut: ACTIF — CHANGÉ 23/08 : lecture directe de cg13.eway.fr (23-08-2026), les 24 massifs
-  du département sont classés jaune (accès permis, vigilance renforcée), aucun rouge, contre
-  le vert intégral confirmé le 20/08. Aucune fermeture : le GR®98 reste praticable. Sévérité
-  maintenue MOYENNE.
+verif: 2026-08-25
+statut: ACTIF — CHANGÉ 25/08 : lecture directe de cg13.eway.fr (25-08-2026), les 24 massifs
+  du département repassent au vert intégral, aucun rouge ni jaune, après une seule journée
+  de jaune. Aucune fermeture : le GR®98 reste praticable. Source unique non recoupée par la
+  presse ce jour, comme lors des précédentes désescalades non recoupées. Sévérité maintenue
+  MOYENNE par prudence.
 ordre: 7
 ---
 
 ## Portion concernée
 
-Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce jeudi 20/08, **les 24 massifs du département, dont les Calanques entre Marseille et Cassis (GR®98), sont classés en vert : accès permis, sans vigilance renforcée**, aucun massif jaune, orange ou rouge. Raison : poursuite de l'accalmie amorcée la veille. Source officielle cg13.eway.fr, prévision du 20-08-2026 ; aucun article de presse daté n'a été trouvé pour recouper cette information ce jour précis : vérifier la carte avant de partir.
+Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce mardi 25/08, **les 24 massifs du département, dont les Calanques entre Marseille et Cassis (GR®98), sont classés en vert : accès permis, sans vigilance renforcée**, aucun massif jaune, orange ou rouge. Source officielle cg13.eway.fr, prévision du 25-08-2026 ; aucun article de presse daté n'a été trouvé pour recouper cette information ce jour précis : vérifier la carte avant de partir.
 
 ## Alternative
 
@@ -63,6 +63,8 @@ MAJ 19/08 : nette désescalade. cg13.eway.fr (prévision du 19-08-2026) fait pas
 MAJ 20/08 : nouvelle amélioration. cg13.eway.fr (prévision du 20-08-2026) fait passer les 24 massifs du département, dont les Calanques Marseille-Cassis et Concors, du jaune au vert : plus aucune vigilance renforcée. C'est la première fois de la saison que la carte affiche un vert intégral. Aucun communiqué préfectoral ni article de presse daté du 20/08 n'a été retrouvé pour recouper cette carte technique.
 
 MAJ 23/08 : dégradation, cg13.eway.fr (prévision du 23-08-2026) fait repasser les 24 massifs du département, dont les Calanques Marseille-Cassis et Concors, du vert au jaune. Aucun massif rouge, aucune fermeture : le GR®98 reste accessible sans restriction, avec une vigilance renforcée. Aucun communiqué préfectoral ni article de presse daté du 23/08 n'a été retrouvé pour recouper cette carte technique.
+
+MAJ 25/08 : nouvelle amélioration, cg13.eway.fr (prévision du 25-08-2026) fait repasser les 24 massifs du département, dont les Calanques Marseille-Cassis et Concors, du jaune au vert intégral. Aucun massif rouge ni jaune, aucune fermeture. Aucun communiqué préfectoral ni article de presse daté du 25/08 n'a été retrouvé pour recouper cette carte technique : source unique, comme lors des précédentes désescalades.
 
 ## Source
 
