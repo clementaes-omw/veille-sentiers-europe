@@ -1,6 +1,6 @@
-# Audit qualité du registre — 2026-08-24
+# Audit qualité du registre — 2026-08-25
 
-74 alertes actives · 8 fiches avec au moins un constat · **1 bloquant(s)**, 9 alerte(s), 0 info(s).
+74 alertes actives · 5 fiches avec au moins un constat · **1 bloquant(s)**, 4 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -8,21 +8,15 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## ⛔ Bloquants — à corriger avant le prochain run
 
-- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 10 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
+- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 11 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
 
 ## ⚠️ À traiter
 
-- **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — vérifiée il y a 18 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|CH-EST-Trubbach|fermeture-deviation-seg-1.1|2026-05-26`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|CH-EST-Trubbach|fermeture-deviation-seg-1.1|2026-05-26`** — jamais revérifiée depuis sa détection il y a 13 j.
-- **`fermeture|CH-Europaweg-Randa-Zermatt|fermeture-deviation-seg-27.3|2024-07-03`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|CH-Europaweg-Randa-Zermatt|fermeture-deviation-seg-27.3|2024-07-03`** — jamais revérifiée depuis sa détection il y a 13 j.
-- **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — alerte rouge appuyée sur une source datée du 12/08 (12 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`fermeture|TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`** — alerte rouge appuyée sur une source datée du 29/07 (26 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — vérifiée il y a 19 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — alerte rouge appuyée sur une source datée du 12/08 (13 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`** — vérifiée il y a 18 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`** — alerte rouge appuyée sur une source datée du 29/07 (27 j) — retrouver une publication récente ou dégrader la sévérité.
 
 ## 🗺 Cohérence carte / registre
 
 0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
-
