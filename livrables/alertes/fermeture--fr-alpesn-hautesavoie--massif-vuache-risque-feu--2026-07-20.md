@@ -5,7 +5,7 @@ itin: Tour du Vuache (GRP local, Haute-Savoie) — [HYPOTHÈSE] aucun itinérair
 sev: MOYENNE
 validite: 20/07 au 31/08/2026 inclus, arrêtés municipaux
 detection: 2026-08-11
-verif: 2026-08-19
+verif: 2026-08-25
 statut: ACTIF — NOUVEAU
 ordre: 108
 ---
