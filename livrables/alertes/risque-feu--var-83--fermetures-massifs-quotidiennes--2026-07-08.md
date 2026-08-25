@@ -5,7 +5,7 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (désescalade 23/08 — plus aucun massif fermé, 3 massifs sur 9 en risque sévère orange, 6 en risque modéré jaune)
 validite: journalière ; 0 massif fermé au 23/08 (Centre-Var, Maures, Estérel en orange ; Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Sainte-Baume, Haut-Var, plateau de Canjuers en jaune), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-24
+verif: 2026-08-25
 statut: ACTIF — CHANGÉ 24/08 : nette désescalade confirmée entre le 19 et le 23/08 (varactu.fr).
   Le 20/08, les 9 massifs sont repassés en risque modéré (jaune), aucun fermé. Le 23/08,
   Centre-Var, Maures et Estérel remontent en risque sévère (orange, accès déconseillé,
