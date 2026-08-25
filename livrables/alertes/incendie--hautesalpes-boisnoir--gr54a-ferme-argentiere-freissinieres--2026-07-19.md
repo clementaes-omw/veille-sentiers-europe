@@ -9,7 +9,7 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   20/08/2026** (paysdesecrins.com) ; RD38 (Champcella↔Freissinières) rouverte depuis le
   17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-08-24
+verif: 2026-08-25
 statut: ACTIF — CHANGÉ 23/08 : paysdesecrins.com mis à jour le 20/08/2026, les parcours
   pédestres 22 et 23 ainsi que la côte de Pallon et les routes communales rouvrent. Le
   GR®54A n'est nommé par aucune des deux pages consultées (paysdesecrins raisonne en

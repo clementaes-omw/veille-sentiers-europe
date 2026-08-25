@@ -6,7 +6,7 @@ sev: MOYENNE (statut des refuges toujours non tranché formellement, mais faisce
   d'indices de normalisation élargi le 17/08)
 validite: RD915 revenue à une circulation normale depuis le 08/08, travaux de sécurisation anti-chute de blocs programmés du 17/08 au 18/09/2026 pour rétablir la double voie avant l'hiver ; statut des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset toujours non confirmé explicitement par une source dédiée, traités comme impactés par prudence
 detection: 2026-07-21
-verif: 2026-08-17
+verif: 2026-08-25
 statut: ACTIF — CHANGÉ 17/08 : pralognan.com (page dédiée à l'incendie, MAJ 08/08)
   confirme que la RD915 est revenue à une circulation normale et annonce des travaux de
   sécurisation anti-chute de blocs du 17/08 au 18/09/2026. Cette page, pourtant mise à

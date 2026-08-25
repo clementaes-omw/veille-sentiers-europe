@@ -5,7 +5,7 @@ itin: GRT75 (Refuge du Ras de la Caranà ↔ Coll de Caranca) ; GR®10 (Thuès-E
 sev: MOYENNE
 validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
 detection: 2026-07-30
-verif: 2026-08-24
+verif: 2026-08-25
 statut: ACTIF — CHANGÉ 24/08 : la source non officielle feuxdeforet.fr, qui classait encore
   l'événement comme fixé depuis le 02/08 lors du dernier passage, l'affiche désormais comme
   éteint (même date du 02/08, sous la commune de Nyer plutôt que Thuès-Entre-Valls). Toujours

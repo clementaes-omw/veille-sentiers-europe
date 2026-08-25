@@ -3,7 +3,7 @@ cle: incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12
 type: incendie / fermeture massif
 itin: GR®1, GR®2, GR®3, GR®11, GR®13, GR®655 — tous traversent le massif de Fontainebleau, fermeture de facto par arrêté de massif (détail tronçon par tronçon non publié)
 sev: MOYENNE (dégradée 22/08 — 80 % du massif rouvre, la fermeture ne porte plus que sur les parcelles brûlées et leur périmètre de sécurité)
-validite: 80 % du massif (18 000 ha sur 22 000) rouvert au public depuis le samedi 22/08/2026 ; les parcelles incendiées et une bande de sécurité autour restent fermées sans échéance annoncée
+validite: 80 % du massif (18 000 ha sur 22 000) restent ouverts au public depuis le samedi 22/08/2026, jusqu'à nouvel ordre, sans échéance de réouverture annoncée pour les parcelles incendiées et leur périmètre de sécurité, qui restent fermées
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
 verif: 2026-08-22
 statut: ACTIF — CHANGÉ 22/08 : réouverture massive. La préfecture de Seine-et-Marne annonce
@@ -20,7 +20,7 @@ ordre: 42
 
 ## Portion concernée
 
-**80 % du massif de Fontainebleau (18 000 ha sur 22 000) rouvre au public depuis le samedi 22/08/2026**, mettant fin à la fermeture totale des cinq massifs (Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny, forêt communale de Nemours) en vigueur depuis le 12/07. Restent fermées les parcelles directement atteintes par l'incendie et une zone tampon de sécurité autour d'elles, signalées sur le terrain par l'ONF ; leur tracé précis, et son recoupement avec les GR® (GR®1, GR®2, GR®3, GR®11, GR®13, GR®655) qui traversent le massif, ne sont pas encore publiés dans le détail par la préfecture. Raison du maintien de cette fermeture résiduelle : sol par endroits tourbeux qui continue de couver sous la surface, chutes d'arbres aux racines brûlées, fragilité du sol dans les parcelles sinistrées. Aucune date de réouverture de ces dernières parcelles n'est annoncée.
+**80 % du massif de Fontainebleau (18 000 ha sur 22 000) rouvre au public depuis le samedi 22/08/2026**, mettant fin à la fermeture totale des cinq massifs (Fontainebleau, Trois-Pignons, Commanderie, Nanteau-Poligny, forêt communale de Nemours) en vigueur depuis le 12/07. Restent fermées les parcelles directement atteintes par l'incendie et une zone tampon de sécurité autour d'elles, signalées sur le terrain par l'ONF ; leur tracé précis, et son recoupement avec les GR® (GR®1, GR®2, GR®3, GR®11, GR®13, GR®655) qui traversent le massif, ne sont pas encore publiés dans le détail par la préfecture. Raison du maintien de cette fermeture résiduelle : sol par endroits tourbeux qui continue de couver sous la surface, chutes d'arbres aux racines brûlées, fragilité du sol dans les parcelles sinistrées. Aucune date de réouverture de ces dernières parcelles n'est annoncée, restent fermées **jusqu'à nouvel ordre**.
 
 ## Alternative
 

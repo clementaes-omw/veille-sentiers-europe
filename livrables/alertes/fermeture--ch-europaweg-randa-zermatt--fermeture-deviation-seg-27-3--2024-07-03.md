@@ -5,7 +5,7 @@ itin: Haute Route Chamonix-Zermatt (Europaweg, tronçon suisse Randa/St-Niklaus 
 sev: MOYENNE
 validite: 03/07/2024 → jusqu'à nouvel ordre (échéance administrative au 28/07/2027)
 detection: 2026-08-11
-verif: 2026-08-11
+verif: 2026-08-25
 statut: ACTIF — NOUVEAU. Source unique : flux officiel data.geo.admin.ch (id 2596502), segment 27.3, revalidé au 29/07/2026. Aucune couverture presse trouvée à ce jour (à tenter au run suivant).
 ordre: 106
 ---
@@ -20,7 +20,7 @@ Une déviation figure dans les données cartographiques officielles, mais leur p
 
 ## Zone (détails)
 
-11/08/2026 : repéré dans le flux officiel data.geo.admin.ch. Le tronçon est fermé depuis le 03/07/2024, sans date de fin ferme ("jusqu'à nouvel ordre", échéance administrative fixée au 28/07/2027 dans le flux). Motif constant : chutes de pierres. La fiche a été revalidée par Suisse Rando le 29/07/2026, sans changement de tracé ni de motif depuis sa création (10/12/2024).
+11/08/2026 : repréré dans le flux officiel data.geo.admin.ch. Le tronçon est fermé depuis le 03/07/2024, sans date de fin ferme ("jusqu'à nouvel ordre", échéance administrative fixée au 28/07/2027 dans le flux). Motif constant : chutes de pierres. La fiche a été revalidée par Suisse Rando le 29/07/2026, sans changement de tracé ni de motif depuis sa création (10/12/2024).
 
 ## Source
 

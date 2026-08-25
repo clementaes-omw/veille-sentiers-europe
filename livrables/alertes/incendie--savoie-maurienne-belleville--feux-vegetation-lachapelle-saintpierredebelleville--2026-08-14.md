@@ -8,7 +8,7 @@ validite: statut maintenu jusqu'à nouvel ordre en l'absence de source plus réc
   en cours d'intensification au dernier point connu (16/08), aucune source postérieure
   trouvée
 detection: 2026-08-18
-verif: 2026-08-18
+verif: 2026-08-25
 statut: ACTIF — NOUVEAU : deux feux de végétation distincts en Savoie, l'un stabilisé
   (La Chapelle), l'autre sans statut confirmé depuis le 16/08 (Saint-Pierre-de-Belleville).
   Aucune fermeture de sentier ni de route documentée à ce jour, distinct de l'épisode
