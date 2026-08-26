@@ -5,12 +5,11 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (dégradée 22/08 — aucun communiqué préfectoral retrouvé depuis le 06/08, seuil des 14 jours dépassé)
 validite: journalière selon la préfecture ; dernière fermeture confirmée par une source datée : 06/08 (rouge très sévère) ; aucun communiqué plus récent retrouvé à ce jour
 detection: 2026-08-09
-verif: 2026-08-25
-statut: ACTIF — INCHANGÉ 24/08 : recherche ciblée reconduite (liste complète des communiqués
-  de presse d'août de la préfecture des Alpes-Maritimes relue directement : sirènes du 5,
-  Tour de France Femmes du 7, sécheresse du 13, vigilance orage du 20, vigilance pluie du 21 ;
-  aucun sur le risque incendie ni sur l'Esterel-Tanneron). L'écart atteint désormais 18 jours.
-  Sévérité maintenue MOYENNE. Zone en escalade : recherche ciblée à reconduire chaque run.
+verif: 2026-08-26
+statut: ACTIF — INCHANGÉ 26/08 : recherche ciblée reconduite (presse locale, préfecture des
+  Alpes-Maritimes), toujours aucun communiqué postérieur au 6 août sur le risque incendie ni
+  sur l'Esterel-Tanneron. L'écart atteint désormais 20 jours. Sévérité maintenue MOYENNE.
+  Zone en escalade : recherche ciblée à reconduire chaque run.
 ordre: 102
 ---
 

@@ -5,13 +5,11 @@ itin: GR®20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-25
-statut: ACTIF (Illarata) — INCHANGÉ 24/08 : toujours aucun arrêté ni levée postérieur au
-  23/07/2026 trouvé pour Illarata. Un signal partiel et distinct est apparu le 23/08 (ici.fr,
-  15h04) : le massif de l'Ospedale et la vallée du Cavu sont classés en vigilance orange
-  incendie ce jour-là, accès déconseillé depuis 11h ; c'est une recommandation météo
-  journalière, pas l'arrêté d'interdiction suivi ici, mais elle est cohérente avec un massif
-  toujours sensible. Écart désormais à 32 jours. Sévérité stable MOYENNE.
+verif: 2026-08-26
+statut: ACTIF (Illarata) — INCHANGÉ 26/08 : 7e recherche ciblée (corse-du-sud.gouv.fr/Actualites
+  relu en direct, gr20-infos.com relu, requêtes sur « Illarata », « Zonza », « Bavella » + août
+  2026), toujours aucun arrêté ni levée postérieur au 23/07/2026 trouvé. Écart désormais à
+  34 jours. Sévérité stable MOYENNE.
 ordre: 30
 ---
 
