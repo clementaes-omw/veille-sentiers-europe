@@ -5,7 +5,7 @@ itin: Vía de la Plata / Camino Sanabrés [HYPOTHÈSE] aucun tracé nommé ne tr
 sev: MOYENNE
 validite: éteint depuis le 19/08/2026 (déclaration officielle de la Junta de Castilla y León). Toutes les 14 localités évacuées étaient rentrées depuis le 31/07, toutes les routes rouvertes
 detection: 2026-08-02
-verif: 2026-08-24
+verif: 2026-08-26
 statut: [CLÔTURÉ] (2026-08-19) — extinction officielle déclarée par la Junta de Castilla y León.
 ---
 
