@@ -5,10 +5,9 @@ itin: GR®21
 sev: MOYENNE
 validite: jusqu'au 18/09/2026
 detection: 2025-05-18
-verif: 2026-08-19
-statut: ACTIF — CHANGÉ 05/08 : raison précisée — réhabilitation d'une ancienne station
-  d'épuration désaffectée à Beaurepaire (decathlon-outdoor.com), et non plus seulement
-  « travaux/sécurisation » générique. Déviation toujours active, aucun changement de fond.
+verif: 2026-08-26
+statut: ACTIF — INCHANGÉ 26/08 : déviation toujours active jusqu'à l'échéance du 18/09/2026,
+  aucun changement de fond trouvé.
 ordre: 4
 ---
 

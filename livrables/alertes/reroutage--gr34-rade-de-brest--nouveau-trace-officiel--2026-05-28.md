@@ -5,9 +5,9 @@ itin: GR®34
 sev: MOYENNE (haute pour la trace)
 validite: durable (reroutage pérenne), inauguré le 28/05/2026 ; le nouveau tracé remplace définitivement l'ancien, aucune échéance
 detection: 2026-07-03
-verif: 2026-08-19
-statut: ACTIF — INCHANGÉ 06/08 : reroutage pérenne confirmé stable, aucune source contraire
-  trouvée.
+verif: 2026-08-26
+statut: ACTIF — INCHANGÉ 26/08 : finistere.ffrandonnee.fr revérifié, reroutage pérenne
+  confirmé stable, aucune source contraire trouvée.
 ordre: 10
 ---
 
