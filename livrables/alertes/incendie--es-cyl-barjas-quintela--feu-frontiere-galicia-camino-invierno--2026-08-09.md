@@ -32,7 +32,7 @@ statut: ACTIF. Aucune source postérieure au 09/08 20h22 localisée malgré rech
   reconsidérer la clôture par convention si le silence se prolonge, comme pour les fiches
   Castropodame/La Baña et Murias de Ponjos.
   26/08 : 5e recherche ciblée toujours infructueuse (bilans provinciaux de León et agrégateur
-  incendiosesña du 18-26/08, requêtes dédiées Barjas/Quintela) : aucune mention positive ou
+  incendiosespaña du 18-26/08, requêtes dédiées Barjas/Quintela) : aucune mention positive ou
   négative postérieure au 09/08 20h22. 17 jours de silence total. La clôture par convention
   est désormais recommandée au prochain passage sauf signal contraire, au même titre que les
   fiches Castropodame/La Baña et Murias de Ponjos déjà closes sur ce principe.
