@@ -5,7 +5,7 @@ itin: GR®98 (Calanques Marseille-Cassis) — refermé (rouge) le 17/08, après 
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-08-25
+verif: 2026-08-26
 statut: ACTIF — CHANGÉ 25/08 : lecture directe de cg13.eway.fr (25-08-2026), les 24 massifs
   du département repassent au vert intégral, aucun rouge ni jaune, après une seule journée
   de jaune. Aucune fermeture : le GR®98 reste praticable. Source unique non recoupée par la

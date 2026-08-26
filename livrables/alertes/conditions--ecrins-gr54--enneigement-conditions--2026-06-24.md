@@ -5,12 +5,15 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 16/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
-  toujours datée du 24 juin 2026 (53 jours sans mise à jour, 28 jours depuis la fermeture du
-  GR®54A). Elle continue de recommander le GR®54A via le col de la Pousterle sans aucune
-  mention de l'incendie ni de la fermeture. Contradiction non résolue, sévérité maintenue
-  MOYENNE sur ce point.
+verif: 2026-08-26
+statut: ACTIF — CHANGÉ 26/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
+  relue en direct, toujours datée du 24 juin 2026 (63 jours sans mise à jour), toujours
+  aucune mention de l'incendie ni de sa fermeture. Le fait sous-jacent a évolué : l'incendie
+  du Bois Noir est désormais déclaré éteint et le vallon du Fournel (l'une des deux portions
+  nommées par cette page) a rouvert le 24/08, mais le col de la Pousterle, sur le tracé même
+  de la variante recommandée ici, n'est mentionné nulle part comme rouvert, et un arrêté
+  municipal du 15/08/2026 couvre désormais tout le secteur du Bois Noir. Contradiction non
+  résolue, sévérité maintenue MOYENNE sur ce point.
 ordre: 12
 ---
 
@@ -20,7 +23,7 @@ GR®54 : **passage de l'Aup Martin déconseillé.** Des cols restent enneigés e
 
 ## Alternative
 
-Le parc recommandait la variante GR®54A à la place de l'Aup Martin, mais **le GR®54A est fermé depuis le 19/07/2026 pour incendie** (massif du Bois Noir, voir la fiche dédiée `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres`) : ne pas l'emprunter. La page du parc qui recommande encore le GR®54A (ecrins-parcnational.fr/actualite/gr54-informations-recommandations) reste datée du 24 juin 2026 et n'a pas été mise à jour depuis : elle ne tient pas compte de cette fermeture. Le repli confirmé pour le GR®54A est le GR®54 classique lui-même, par le col de l'Aup Martin (Vallouise → col de l'Aup Martin → Pré de la Chaumette) ; vérifier avant de partir si les conditions de neige de début de saison décrites ci-dessus sont encore d'actualité, la dernière source sur ce point datant du 02/07/2026.
+Le parc recommandait la variante GR®54A à la place de l'Aup Martin, mais **le GR®54A reste fermé depuis le 19/07/2026** (massif du Bois Noir, voir la fiche dédiée `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres`) : ne pas l'emprunter. L'incendie qui a motivé cette fermeture est désormais éteint, mais un arrêté municipal du 15/08/2026 interdit toujours l'accès et la circulation dans tout le secteur du Bois Noir pour risque de chutes d'arbres, de pierres et d'éboulements ; le vallon du Fournel, fermé conjointement avec le col de la Pousterle depuis juillet, a rouvert le 24/08/2026, mais aucune source ne confirme la réouverture du col de la Pousterle lui-même, sur le tracé de cette variante. La page du parc qui recommande encore le GR®54A (ecrins-parcnational.fr/actualite/gr54-informations-recommandations) reste datée du 24 juin 2026 et n'a pas été mise à jour depuis : elle ne tient pas compte de cette fermeture. Le repli confirmé pour le GR®54A est le GR®54 classique lui-même, par le col de l'Aup Martin (Vallouise → col de l'Aup Martin → Pré de la Chaumette) ; vérifier avant de partir si les conditions de neige de début de saison décrites ci-dessus sont encore d'actualité, la dernière source sur ce point datant du 02/07/2026.
 
 ## Zone (détails)
 
@@ -43,6 +46,8 @@ MAJ 11/08 : toujours aucun changement (48 jours sans mise à jour, 23 jours depu
 MAJ 13/08 : toujours aucun changement (50 jours sans mise à jour, 25 jours depuis la fermeture du GR®54A). La page recommande toujours explicitement la variante du GR®54A via le col de la Pousterle, le vallon du Fournel et le pas de la Cavale pour rejoindre le Pré de la Chaumette, sans aucune mention de l'incendie ni de la fermeture.
 
 MAJ 15/08 : toujours aucun changement (52 jours sans mise à jour, 27 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A, sans mention de l'incendie.
+
+MAJ 26/08 : la page reste datée du 24 juin 2026 (63 jours sans mise à jour) et continue de recommander explicitement le GR®54A via le col de la Pousterle, sans mention de l'incendie ni de sa fermeture. Le terrain, lui, a bougé : l'incendie est désormais déclaré éteint (paysdesecrins.com, 24/08/2026) et un arrêté municipal du 15/08/2026, jusqu'ici manquant, couvre tout le secteur du Bois Noir pour risque de chutes d'arbres, de pierres et d'éboulements. Le vallon du Fournel, fermé depuis juillet avec le col de la Pousterle, a rouvert le 24/08, mais aucune source ne mentionne la réouverture du col de la Pousterle lui-même. Un randonneur qui suivrait cette page serait donc toujours dirigé vers un secteur dont le statut exact reste incertain.
 
 ## Source
 

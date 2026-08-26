@@ -5,10 +5,9 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis le 06/08/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-08-19
-verif: 2026-08-19
-statut: ACTIF — NOUVEAU. Incendie du 05/08/2026 au soir, terrain sous surveillance. Déviation
-  balisée coordonnée avec la mairie de Trébeurden. Détection tardive de cette veille (2
-  semaines après les faits) : événement absent du registre jusqu'à ce run.
+verif: 2026-08-26
+statut: ACTIF — INCHANGÉ 26/08 : cotes-d-armor.ffrandonnee.fr revérifié, aucune mise à jour
+  postérieure à l'avis initial du 06/08 trouvée. Déviation balisée toujours en place.
 ordre: 175
 ---
 
