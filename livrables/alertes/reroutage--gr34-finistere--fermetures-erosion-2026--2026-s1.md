@@ -15,7 +15,7 @@ ordre: 9
 
 ## Portion concernée
 
-**GR®34 dans le Finistère : 15+ fermetures ou déviations locales.** Loctudy, Trégunc-Minayët (marées coef. >90), Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau, Névez, Crozon (×3), Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier. Raison : érosion et effondrements du littoral.
+**GR®34 dans le Finistère : 15+ fermetures ou déviations locales.** Loctudy, Trégunc-Minaÿët (marées coef. >90), Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau, Névez, Crozon (×3), Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier. Raison : érosion et effondrements du littoral.
 
 ## Alternative
 
@@ -23,7 +23,7 @@ Déviations locales balisées pour la plupart des sites (détail par commune : F
 
 ## Zone (détails)
 
-15+ fermetures/déviations érosion-effondrements dans le 29 (Loctudy, Trégunc-Minayët marées coef>90, Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau tracé modifié, Névez, Crozon ×3, Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier ; Daoulas-Rosmellec = levée). Détail : rapport du 2026-07-03
+15+ fermetures/déviations érosion-effondrements dans le 29 (Loctudy, Trégunc-Minaÿët marées coef>90, Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau tracé modifié, Névez, Crozon ×3, Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier ; Daoulas-Rosmellec = levée). Détail : rapport du 2026-07-03
 
 ## Source
 
