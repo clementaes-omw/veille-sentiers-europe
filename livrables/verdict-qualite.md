@@ -68,7 +68,7 @@ l'écart de 8 jours sur cette clé.
    des 4 communes ; `ouillade.eu` a renvoyé 403 et `rnnmassane.fr` 503 à la vérification de
    ce jour, l'arrêté PDF n'a pas pu être relu (extraction illisible). Rien ne prouve que ces
    pages soient réellement mortes (403/503 ponctuels compatibles avec un blocage anti-robot),
-   mais je n'ai pas pu les confirmer vivantes non plus. **Signalé, non corrigé** : à revuerifier
+   mais je n'ai pas pu les confirmer vivantes non plus. **Signalé, non corrigé** : à revérifier
    au prochain passage avec un accès direct ; si `ouillade.eu` est bien mort, le retirer des
    sources ou le remplacer.
 **Correction appliquée** : la fin de « Portion concernée » ne citait qu'une vérification du
@@ -119,7 +119,7 @@ ONF interactive au prochain passage sur la zone, comme déjà noté en `statut:`
    explicitement que l'échéance du 15/08 est dépassée sans confirmation de réouverture —
    c'est exactement la formulation honnête attendue). 7 non contrôlée.
 **Non corrigé — hors périmètre** (pas de nouvelle source aujourd'hui). **Action laissée à
-la veille** : revuerifier caminsdepedra.conselldemallorca.es au prochain passage sur la zone.
+la veille** : revérifier caminsdepedra.conselldemallorca.es au prochain passage sur la zone.
 
 ## Corrections appliquées (résumé, avec clés)
 
@@ -137,7 +137,7 @@ la veille** : revuerifier caminsdepedra.conselldemallorca.es au prochain passage
 ## Actions laissées à l'agent de veille (à traiter au prochain run, par ordre de priorité)
 
 1. **Bloquant** — `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16` :
-   revuerifier samaria.gr / presse crétoise, la fiche n'a pas été revue depuis 12 jours sur
+   revérifier samaria.gr / presse crétoise, la fiche n'a pas été revue depuis 12 jours sur
    une restriction annoncée « au jour le jour ».
 2. `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10` : retrouver une source postérieure
    au 29/07/2026 sur l'accès au massif des Albères, ou confirmer que `ouillade.eu` et
@@ -145,7 +145,7 @@ la veille** : revuerifier caminsdepedra.conselldemallorca.es au prochain passage
    cet environnement).
 3. `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` : recouper l'AP 2026-693 avec la
    carte ONF interactive au prochain passage sur la zone 974.
-4. `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01` : revuerifier
+4. `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01` : revérifier
    caminsdepedra.conselldemallorca.es, l'échéance du 15/08 est dépassée depuis 11 jours.
 
 Aucune fiche n'a été clôturée, supprimée ni dégradée en sévérité par ce contrôle.
