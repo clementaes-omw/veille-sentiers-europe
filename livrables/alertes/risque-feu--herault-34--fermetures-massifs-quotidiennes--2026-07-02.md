@@ -1,7 +1,7 @@
 ---
 cle: risque-feu|Hérault-34|fermetures-massifs-quotidiennes|2026-07-02
 type: risque feu / fermeture massifs (journalier)
-itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas (secteur Bédarieux/Fauguères, nord du département) — aucun impact confirmé**
+itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas (secteur Bédarieux/Faugères, nord du département) — aucun impact confirmé**
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
