@@ -8,13 +8,12 @@ validite: depuis le 15/07/2026 (même complexe d'incendie), jusqu'à nouvel ordr
   07/08/2026, foyer résiduel toujours actif en profondeur (tourbe, secteur d'Abernethy),
   fermetures localisées (Ryvoan Trail, Lodge Trail, Green Lochan) sans date de fin annoncée
 detection: 2026-07-22
-verif: 2026-08-19
-statut: ACTIF — INCHANGÉ 12/08 : confirmation croisée (Police Scotland 03/08,
-  deadlinenews.co.uk 07/08, pressandjournal.co.uk) que la fiche reste à l'état de l'art.
-  Toujours fermés : Ryvoan Trail, Lodge Trail, Green Lochan/An Lochan Uaine, parkings Allt
-  Ban/Allt Mor, routes Forest Lodge/Lettoch/Dorback. C7, Loch Morlich, Beach/Pine Knoll
-  Trail, Meall a' Bhuachaille (accès ouest) rouverts depuis le 07/08. Aucune mise à jour
-  officielle postérieure au 06/08 trouvée. Sévérité stable MOYENNE.
+verif: 2026-08-26
+statut: ACTIF — INCHANGÉ 26/08 : cairngorms.co.uk/alerts et walkhighlands.co.uk revérifiés,
+  aucune mise à jour postérieure au 07/08 trouvée. Toujours fermés : Ryvoan Trail, Lodge
+  Trail, Green Lochan/An Lochan Uaine, parkings Allt Ban/Allt Mor, routes Forest
+  Lodge/Lettoch/Dorback. C7, Loch Morlich, Beach/Pine Knoll Trail, Meall a' Bhuachaille
+  (accès ouest) toujours rouverts depuis le 07/08. Sévérité stable MOYENNE.
 ordre: 43
 ---
 
