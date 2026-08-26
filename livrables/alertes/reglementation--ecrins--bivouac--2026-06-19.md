@@ -5,9 +5,9 @@ itin: GR®54 / Tour Oisans-Écrins
 sev: MOYENNE
 validite: arrêté-cadre du 16/06/2026, en vigueur jusqu'à nouvel ordre ; quotas possibles ultérieurement selon la fréquentation
 detection: 2026-06-19
-verif: 2026-08-23
-statut: ACTIF — INCHANGÉ 16/08 : règle reconfirmée (arrêté du 16/06/2026 inchangé, toujours
-  aucun quota appliqué pour l'été 2026).
+verif: 2026-08-26
+statut: ACTIF — INCHANGÉ 26/08 : page ecrins-parcnational.fr relue en direct, arrêté du
+  16/06/2026 inchangé, toujours aucun quota appliqué pour l'été 2026.
 ordre: 1
 ---
 

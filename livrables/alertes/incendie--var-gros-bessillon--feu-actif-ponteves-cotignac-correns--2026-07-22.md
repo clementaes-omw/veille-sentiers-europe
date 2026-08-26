@@ -5,7 +5,7 @@ itin: GR®9/GR®51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
 sev: INFO (clôturée — extinction officielle confirmée le 19/08/2026 après un mois de lutte)
 validite: [CLÔTURÉ] (2026-08-19) — feu déclaré officiellement éteint après un mois de combat, bilan final 6 300 ha parcourus
 detection: 2026-07-25
-verif: 2026-08-24
+verif: 2026-08-26
 statut: [CLÔTURÉ] (2026-08-19) — le feu du Gros Bessillon, le plus long de l'histoire du Var,
   est officiellement déclaré éteint après un mois de combat (dépêche AFP relayée par DH Les
   Sports+, 19/08/2026 00h15). Bilan final confirmé à 6 300 ha parcourus, chiffre inchangé
