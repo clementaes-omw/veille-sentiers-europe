@@ -5,19 +5,16 @@ itin: GR®20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-25
-statut: ACTIF (Illarata) — INCHANGÉ 24/08 : toujours aucun arrêté ni levée postérieur au
-  23/07/2026 trouvé pour Illarata. Un signal partiel et distinct est apparu le 23/08 (ici.fr,
-  15h04) : le massif de l'Ospedale et la vallée du Cavu sont classés en vigilance orange
-  incendie ce jour-là, accès déconseillé depuis 11h ; c'est une recommandation météo
-  journalière, pas l'arrêté d'interdiction suivi ici, mais elle est cohérente avec un massif
-  toujours sensible. Écart désormais à 32 jours. Sévérité stable MOYENNE.
+verif: 2026-08-27
+statut: ACTIF (Illarata) — INCHANGÉ 27/08 : nouvelle recherche ciblée (corse-du-sud.gouv.fr
+  actualités, presse locale), toujours aucun arrêté ni levée postérieur au 23/07/2026 trouvé
+  pour Illarata. Écart désormais à 35 jours. Sévérité stable MOYENNE.
 ordre: 30
 ---
 
 ## Portion concernée
 
-Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza) : **fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre**, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). GR®20 interrompu entre Asinau et Paliri. Raison : risque incendie très sévère et vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. La fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) est également en vigueur depuis le 18/07 16h00 (piste distincte, hors GR®20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) : cette échéance est atteinte sans confirmation de levée ni de prolongation, à traiter par défaut comme toujours fermé. Situation vérifiée au 15/08, stable pour ce qu'on en sait mais sur source vieillissante : Bavella entièrement accessible, Illarata rouvert partiellement (vallée du Cavu basse accessible, haute et moyenne toujours interdites), RD268 toujours déviée. Aucune publication n'a reconduit ni levé cette fermeture depuis le 23/07/2026.
+Massifs de Bavella (commune de Quenza) et Illarata-Taglio Rosso (commune de Zonza) : **fermés à l'accès depuis le 18/07/2026 jusqu'à nouvel ordre**, RD268 coupée entre PK28+742 et PK10+089 (déviation par RT10/RD368). GR®20 interrompu entre Asinau et Paliri. Raison : risque incendie très sévère et vents forts (arrêtés préfectoraux Corse-du-Sud du 17/07, effectifs 18/07, « conditions réévaluées selon niveau de risque »), mesure préventive sans feu actif signalé sur ces deux massifs. La fermeture du sentier local U Chjassu di a muntagnera / U Chjassu di u Finellu (Haute-Corse) est également en vigueur depuis le 18/07 16h00 (piste distincte, hors GR®20 P1). Refuge de Paliri fermé « au moins jusqu'au 21/07 » selon info.fr (18/07) : cette échéance est atteinte sans confirmation de levée ni de prolongation, à traiter par défaut comme toujours fermé. Situation vérifiée au 27/08, stable pour ce qu'on en sait mais sur source vieillissante : Bavella entièrement accessible, Illarata rouvert partiellement (vallée du Cavu basse accessible, haute et moyenne toujours interdites), RD268 toujours déviée. Aucune publication n'a reconduit ni levé cette fermeture depuis le 23/07/2026.
 
 ## Alternative
 
