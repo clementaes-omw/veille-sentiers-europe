@@ -1,131 +1,100 @@
-# Verdict qualité — 2026-08-25
+# Verdict qualité du registre — 2026-08-27
 
-Vérificateur qualité, agent distinct de la veille (voir `agents/verificateur-alertes.md`).
-Périmètre : les 6 fiches citées par `livrables/audit-qualite.md` du jour, plus 1 fiche
-signalée par l'opérateur pour vérification d'un correctif déjà appliqué en amont
-(`incendie|Drome-Justin-Die`). **7 fiches contrôlées** sur 98 (le reste du dossier n'a pas
-été relu, conformément au périmètre).
+Agent Vérificateur Qualité, distinct de l'agent de veille du jour : aucune des fiches
+contrôlées ci-dessous n'a été rédigée par cet agent, la condition d'indépendance est
+respectée.
 
-Contrôles appliqués : les 7 de `agents/verificateur-alertes.md`
-(1 FRAÎCHEUR, 2 CONCORDANCE INTERNE, 3 HONNÊTETÉ, 4 PERTINENCE, 5 SÉVÉRITÉ JUSTE, 6 TON,
-7 SOURCE VIVANTE).
+Périmètre de travail : les 10 constats de `livrables/audit-qualite.md` (généré le jour
+même par `python3 site/audit_qualite.py --ecrire`, aucun relancement nécessaire) — 1
+bloquant, 8 alertes, 1 dette de forme. Aucune autre fiche du registre (98 fichiers) n'a
+été ouverte ni touchée.
 
-## Résultat par fiche
+## Fiches contrôlées (10)
 
-### `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`
-1 FRAÎCHEUR **FAIL** — vérifiée il y a 11 j, seuil 2 j (fermetures décidées au jour le jour).
-2 CONCORDANCE **PASS** · 3 HONNÊTETÉ **PASS** · 4 PERTINENCE **PASS** · 5 SÉVÉRITÉ **PASS**
-(MOYENNE cohérente) · 6 TON **PASS** · 7 non requis (MOYENNE).
-→ Hors périmètre du run du jour (zone Crète = lot T2 du vendredi). Aucune source nouvelle
-disponible pour trancher si la gorge est ouverte ou fermée aujourd'hui : **signalé, non
-corrigé**, cf. « à traiter au prochain run ».
+1. `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16` — BLOQUANT
+2. `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`
+3. `fermeture|Cotes-Armor-Trebeurden|GR34-Pors-Mabo-Goas-Lagorn|2026-08-06`
+4. `incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16`
+5. `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`
+6. `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`
+7. `risque-feu|ES-CANARIAS-GranCanaria-Tenerife|interdiction-pistes-sentiers-forestiers|2026-07-05`
+8. `risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21`
+9. `risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01`
+10. `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`
 
-### `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`
-1 FRAÎCHEUR **FAIL** — vérifiée il y a 19 j, seuil 12 j.
-2 CONCORDANCE **PASS** · 3 HONNÊTETÉ **PASS** · 4 PERTINENCE **PASS** · 5 SÉVÉRITÉ **PASS**
-· 6 TON **PASS** · 7 source ONF testée, répond (200), non requis à ce niveau de sévérité.
-→ Hors périmètre du jour. **Signalé, non corrigé.**
+## PASS / FAIL par contrôle
 
-### `fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`
-1 FRAÎCHEUR **PASS** (`verif:` du jour même). 2 CONCORDANCE **PASS** · 3 HONNÊTETÉ **PASS**
-(le texte dit explicitement quelles communes ne sont pas confirmées) · 4 PERTINENCE **PASS**
-· 6 TON **PASS** · 7 SOURCE VIVANTE **PASS** (les 6 URL de la section Source répondent 200,
-testées ce jour).
-5 SÉVÉRITÉ **PASS — verdict indépendant.** L'audit signale une source datée du 12/08 (13 j)
-sous une alerte rouge ; relecture complète de la fiche : ce qui fait foi n'est pas un article
-de presse mais la **liste officielle du PNR Baronnies Provençales**, qui recense nommément
-26 communes sous arrêté municipal daté (le plus récent, La Charce, du 10/08), et qui a été
-**revérifiée en direct le 24/08/2026** (hier), sans changement. L'ancienneté affichée (« MAJ
-12/08 ») est la date de dernière modification du contenu de la page, pas la date de la
-dernière vérification par la veille. Aucun arrêté cité n'a d'échéance dépassée. Sévérité HAUTE
-maintenue, aucune dégradation appliquée.
+| Contrôle | Résultat |
+|---|---|
+| 1. FRAÎCHEUR | FAIL sur 7/10 (#1 à #5, #7, #8) — toutes hors périmètre géographique du run d'aujourd'hui, nécessitent une source nouvelle. PASS sur #6, #9, #10 (revérifiées ce jour). |
+| 2. CONCORDANCE INTERNE | FAIL initial sur #9 (Gard-30) et #4 (ES-CENTRO) — corrigés ci-dessous, PASS après correction. PASS sur les 8 autres. |
+| 3. HONNÊTETÉ SUR CE QU'ON NE SAIT PAS | PASS sur les 10 : aucune fiche ne présente une hypothèse comme un fait acquis (Albères et Esterel-Tanneron documentent explicitement l'absence de communiqué récent ; Mallorca et Réunion documentent explicitement ce qui reste à confirmer). |
+| 4. PERTINENCE | PASS sur les 10 : rien, dans les éléments déjà écrits, ne justifie une clôture. |
+| 5. SÉVÉRITÉ JUSTE | PASS sur les 2 alertes rouges (#6, #9) : leur HAUTE repose sur des textes datés et non expirés (arrêtés municipaux pour Albères, classement préfectoral officiel pour le Gard), pas sur un « à confirmer ». La règle des 14 jours ne s'applique à aucune des deux, faute d'hypothèse en attente. #10 a déjà été correctement dégradée HAUTE→MOYENNE par la veille le 22/08 en application de cette règle. Pas de recommandation de mouvement de sévérité sur les 7 autres (MOYENNE déjà). |
+| 6. TON | FAIL initial sur #10 (jargon « recherche ciblée » dans Zone (détails)) — corrigé, PASS après correction. PASS sur les 9 autres. |
+| 7. SOURCE VIVANTE (rouges #6, #9) | PASS. Gard-30 : 3 URL gard.gouv.fr testées, 200 OK. Albères-66 : arrêté PDF, rnnmassane.fr, mapetiterando.fr vivants (200) ; ouillade.eu répond 403 (probable protection anti-bot du site, testé avec deux user-agents) mais n'est pas la source qui fonde la sévérité — celle-ci repose sur les deux arrêtés municipaux, vérifiés vivants. |
 
-### `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`
-1 FRAÎCHEUR **PASS** (`verif:` du 22/08, 3 j). 2 CONCORDANCE **PASS** · 3 HONNÊTETÉ **PASS**
-· 4 PERTINENCE **PASS** (fermeture résiduelle réelle, 20 % du massif) · 5 SÉVÉRITÉ **PASS**
-(MOYENNE cohérente) · 6 TON **PASS** · 7 non requis (MOYENNE), sources contrôlées vivantes.
-Constat initial de l'audit : « validité expirée le 22/08 ». **Vérification directe** : le
-22/08 est la date de RÉOUVERTURE de 80 % du massif (déjà passée par construction), pas une
-échéance de fermeture — la fermeture résiduelle des parcelles brûlées n'a « aucune échéance
-annoncée ». C'est une ambiguïté de formulation qui a fait lire au script déterministe une date
-de réouverture comme une date d'expiration, exactement le type de faux positif déjà rencontré
-sur `Drome-Justin-Die`. Aucune source nouvelle n'était nécessaire : **corrigé moi-même**
-(champ `validite:` reformulé, aucun fait ajouté ni retiré). Confirmé : ne réapparaît plus dans
-l'audit après correction.
+## Corrections appliquées (dans le périmètre, à information constante)
 
-### `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`
-1 FRAÎCHEUR **FAIL** — vérifiée il y a 18 j, seuil 12 j ; l'échéance de fermeture annoncée
-(15/08) est elle-même dépassée sans confirmation de réouverture.
-2 CONCORDANCE **PASS** · 3 HONNÊTETÉ **PASS** (la fiche dit explicitement que la réouverture
-n'est pas confirmée) · 4 PERTINENCE — signal, cf. ci-dessous · 5 SÉVÉRITÉ **PASS** · 6 TON
-**PASS** · 7 source testée, répond (200).
-→ Hors périmètre du jour. **Signalé, non corrigé** : nécessite de revérifier si les refuges
-ont rouvert après le 15/08, information que seule une nouvelle lecture de la source peut
-donner.
+- **`risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01`** — « Portion concernée »
+  complétée d'une phrase indiquant qu'aucun classement plus récent que celui du 18/08
+  n'a été publié (neuf jours de silence au 27/08), information déjà présente dans
+  « Zone (détails) » et le champ `statut:` mais absente du texte affiché. Aucun fait
+  ajouté ou retiré.
+- **`risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`** —
+  reformulation d'une phrase de « Zone (détails) » contenant le jargon de veille
+  « recherche ciblée » (remplacée par « une source jusqu'ici non consultée »), sans
+  changer le fait rapporté.
+- **`incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16`** —
+  « Portion concernée » ne décrivait que l'épisode initial (34 localités évacuées, 14
+  confinées, ~32 000 ha au 23/07) sans mentionner la stabilisation de l'incendie
+  (maîtrisé au 04/08, ~33 000 ha au bilan final, évacuations progressivement levées),
+  pourtant déjà connue via `statut:` et `validite:`. Réécrite en conséquence ; une
+  entrée datée « MAJ 04/08 » a été ajoutée à la chronologie de « Zone (détails) » pour
+  que l'information ne reste plus seulement dans un champ invisible du site.
 
-### `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`
-1 FRAÎCHEUR **PASS** (`verif:` du jour même). 2 CONCORDANCE **PASS** · 3 HONNÊTETÉ **PASS**
-· 4 PERTINENCE **PASS** · 6 TON **PASS**.
-5 SÉVÉRITÉ **PASS — verdict indépendant.** Même raisonnement que Baronnies-GR9 : l'audit
-signale une source de presse du 29/07 (27 j) sous une alerte rouge, mais ce qui fonde
-l'interdiction est **deux arrêtés municipaux datés et non expirés** : Sorède (n°26.216,
-jusqu'au 13/09/2026, échéance explicite non atteinte) et Argelès-sur-Mer (ARR2026-024PM,
-« jusqu'à nouvel ordre », donc par construction sans republication à attendre). Dégrader sur
-la seule ancienneté de l'article de presse ferait dire au site qu'une réouverture est
-possible alors qu'aucune source ne l'atteste et que les textes réglementaires restent
-en vigueur. Sévérité HAUTE maintenue, aucune dégradation appliquée.
-7 SOURCE VIVANTE **PASS avec réserve** : sur les 4 sources citées, 3 répondent (200) —
-dont les deux textes réglementaires eux-mêmes (arrêté PDF, rnnmassane.fr) qui portent la
-base légale de l'alerte. La 4e, ouillade.eu (29/07), renvoie 403 à la fois en curl (avec et
-sans en-tête navigateur) et via l'outil de récupération web : plus probablement un blocage
-anti-robot (Cloudflare) qu'une page réellement supprimée, et ce n'est de toute façon pas la
-source qui fait foi ici. Non bloquant ; à retester au prochain passage.
+Après ces trois corrections : `python3 site/build_site.py` rend « OK (QA passée) »
+(73 actives, 25 clôturées, 98 fichiers) et `python3 site/audit_qualite.py` ne signale
+plus aucun de ces trois constats (ni le bloquant ni la dette de forme touchés par cette
+session) ; aucune boucle supplémentaire n'a été nécessaire.
 
-### `incendie|Drome-Justin-Die|foret-fermee|2026-07-02`
-Hors liste de l'audit du jour (l'audit ne la signale plus) — contrôlée sur demande explicite
-pour vérifier la correction déjà appliquée en amont (champ `validite:` réécrit pour restaurer
-« jusqu'à nouvel ordre » après une lecture erronée d'une date isolée comme échéance passée).
-Les 7 contrôles **PASS** : concordance interne cohérente avec la remontée HAUTE du jour
-(nouvel arrêté préfectoral du 21/08 retrouvé via presse, motif chutes de pierres/arbres),
-sévérité justifiée et documentée dans le raisonnement des `MAJ` successives, ton propre,
-aucun jargon de veille en champ public, les 6 sources de la section Source répondent toutes
-(200). **Confirmé : le correctif tient, aucune action supplémentaire nécessaire.**
+## Actions laissées à l'agent de veille (nécessitent une source nouvelle)
 
-## Corrections appliquées (dans mon périmètre, sans nouvelle source)
+- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** (BLOQUANT) —
+  vérifiée il y a 13 jours pour une restriction décidée au jour le jour (seuil 2 jours).
+  Zone hors périmètre géographique du run d'aujourd'hui (Grèce, lot T2 du vendredi) :
+  non touchée. Le digest du jour (`livrables/digest_2026-08-27.md`) mentionne déjà ce
+  constat en tête, conformément à la consigne de mention obligatoire d'un bloquant non
+  traité. Action attendue au prochain passage sur la zone : revérifier samaria.gr /
+  samaria-tickets.necca.gov.gr.
+- **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — vérifiée il y a 21
+  jours (seuil 12 j). Action : consulter directement la carte ONF interactive plutôt
+  qu'une recherche texte, comme déjà noté en `statut:`.
+- **`fermeture|Cotes-Armor-Trebeurden|GR34-Pors-Mabo-Goas-Lagorn|2026-08-06`** — jamais
+  revérifiée depuis sa détection (8 j). Action : confirmer auprès du comité
+  FFRandonnée 22 si la déviation et la fermeture sont toujours en place.
+- **`incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16`** —
+  vérifiée il y a 13 jours (seuil 12 j). Action : chercher une source postérieure au
+  04/08 confirmant le maintien de la maîtrise du feu, et trancher enfin le recoupement
+  avec un itinéraire GR® référencé (toujours en [HYPOTHÈSE]).
+- **`refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`** — vérifiée il y a
+  20 jours (seuil 12 j), échéance annoncée du 15/08 dépassée sans confirmation de
+  réouverture. Action : relire caminsdepedra.conselldemallorca.es pour trancher.
+- **`risque-feu|ES-CANARIAS-GranCanaria-Tenerife|interdiction-pistes-sentiers-forestiers|2026-07-05`**
+  — vérifiée il y a 13 jours (seuil 12 j). Action : mise à jour sur les 5 îles
+  (INFOGRAN Gran Canaria, sentiers de pèlerinage Candelaria à Tenerife, La Palma/La
+  Gomera/El Hierro).
+- **`risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21`** —
+  vérifiée il y a 13 jours (seuil 12 j). Action : statut de vigilance Gironde/Landes à
+  date, et confirmation (toujours en attente depuis le 24/07) du statut du tronçon
+  GR®8 à Biscarrosse/Gastes/Sainte-Eulalie-en-Born.
+- **`risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10`** — non bloquant : la
+  sévérité HAUTE repose sur deux arrêtés municipaux datés et non expirés (Sorède
+  jusqu'au 13/09, Argelès jusqu'à nouvel ordre), tous deux vérifiés vivants aujourd'hui ;
+  la règle des 14 jours sur les hypothèses non tranchées ne s'applique pas ici, faute
+  d'« à confirmer » en attente. Recommandation non impérative : continuer à chercher une
+  publication de presse plus récente que le 29/07 pour documenter l'état du terrain
+  au-delà des seuls textes réglementaires.
 
-- **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** : champ
-  `validite:` reformulé (« restent fermés **jusqu'à nouvel ordre**, sans échéance de
-  réouverture annoncée » au lieu de « sans échéance annoncée ») — aucun fait ajouté ni
-  retiré, seule la formulation change pour lever l'ambiguïté entre date de réouverture (déjà
-  passée, normal) et date d'expiration (qui n'existe pas). Vérifié : ne réapparaît plus dans
-  `audit_qualite.py` après correction.
-
-Aucune autre fiche n'a été modifiée.
-
-## Vérification post-correction
-
-`python3 site/build_site.py` → `OK (QA passée)` (74 actives, 24 clôturées, 98 fichiers).
-`python3 site/audit_qualite.py --ecrire` → passe de 6 à 5 constats registre (le constat
-Fontainebleau a disparu) ; toujours 1 bloquant, mais sur une fiche non touchée par ce
-passage (voir ci-dessous). 0 alerte carte.
-
-## Actions laissées à l'agent de veille (prochain run concerné)
-
-- **`fermeture|GR-E4-Creta-Samaria|...`** (BLOQUANT) : revérifier le statut du jour sur
-  samaria.gr au prochain passage T2 (vendredi) — la fiche est vérifiée depuis 11 jours sur
-  une restriction qui se décide au jour le jour.
-- **`fermetures-sentiers|Réunion-974|AP-2026-693|...`** : revérifier la carte ONF interactive
-  au prochain passage sur La Réunion (19 j depuis la dernière vérification, seuil 12 j).
-- **`refuge|GR221-222-Mallorca|...`** : revérifier caminsdepedra.conselldemallorca.es/en/refuges
-  au prochain passage — l'échéance de fermeture annoncée (15/08) est dépassée sans
-  confirmation de réouverture ; si la page confirme que les refuges ont rouvert, clôturer
-  l'alerte plutôt que de simplement remettre `verif:` à jour.
-- **`fermeture|FR-Baronnies-GR9|...`** : PASS confirmé aujourd'hui, aucune action urgente.
-  L'audit déterministe continuera de signaler « source datée du 12/08 » tant que le PNR
-  n'actualise pas sa page — c'est attendu, pas une anomalie. Au prochain passage T1 sur la
-  zone, revérifier simplement que la liste des 26 communes n'a pas bougé.
-- **`risque-feu|Alberes-66|...`** : PASS confirmé aujourd'hui, aucune action urgente. Point de
-  vigilance : ouillade.eu (source de presse du 29/07) renvoie 403 — à retester au prochain
-  passage ; si la source est bien morte, chercher une source de presse plus récente pour
-  desserrer le flag résiduel de l'audit (non bloquant, la base légale des deux arrêtés reste
-  intacte).
+Aucune suppression, aucune clôture, aucune dégradation ou remontée de sévérité n'a été
+appliquée d'autorité par cet agent.
