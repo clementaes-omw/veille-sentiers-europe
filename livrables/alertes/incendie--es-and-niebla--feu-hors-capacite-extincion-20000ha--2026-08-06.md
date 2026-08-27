@@ -12,7 +12,7 @@ validite: éteint (« incendio extinguido ») depuis le vendredi 21/08/2026 21h0
   jours après le déclenchement ; surface finale ~33 000 ha (mesure Copernicus), deuxième
   plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
 detection: 2026-08-11
-verif: 2026-08-24
+verif: 2026-08-27
 statut: [CLÔTURÉ] (2026-08-21) — le feu est déclaré officiellement éteint le 21/08/2026
   21h00 par plusieurs sources de presse concordantes. Aucune fermeture de sentier balisé
   n'a jamais été documentée sur l'ensemble de l'épisode.

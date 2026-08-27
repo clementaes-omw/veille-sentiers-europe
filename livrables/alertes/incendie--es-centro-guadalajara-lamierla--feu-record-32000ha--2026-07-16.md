@@ -5,18 +5,18 @@ itin: [HYPOTHÈSE] aucun GR® référencé (Vía de la Plata, Camino de Madrid, 
 sev: MOYENNE (en décrue — stabilisé, retours en cours ; impact direct sur un itinéraire suivi toujours non confirmé)
 validite: stabilisé depuis le 23/07, niveau opérationnel 1 (le plus bas), jusqu'à nouvel ordre ; seuls 2 villages encore évacués au 25/07 (dernière donnée disponible)
 detection: 2026-07-24
-verif: 2026-08-14
-statut: ACTIF — INCHANGÉ 14/08 : incendie toujours donné comme contrôlé (« ya controlado »,
-  cmmedia.es 04/08, dernière source datée trouvée) en phase de stabilisation, ~33 000 ha au
-  bilan final. Aucune reprise ni nouvelle donnée postérieure au 04/08 trouvée. [HYPOTHÈSE]
-  toujours non confirmée : aucun croisement avéré avec Vía de la Plata/Camino de Madrid/
-  Camino de Levante/GR®10-ES. Sévérité maintenue MOYENNE.
+verif: 2026-08-27
+statut: ACTIF — INCHANGÉ 27/08 : incendie toujours donné comme maîtrisé, en phase de
+  stabilisation. Aucune source postérieure au 04/08 retrouvée ; recoupement itinéraire
+  toujours non tranché (Contrôle qualité 27/08 : « Portion concernée » réécrite pour refléter
+  la stabilisation déjà connue du `statut:` du 14/08, corrigeant un décalage entre les deux
+  champs).
 ordre: 48
 ---
 
 ## Portion concernée
 
-Incendie de La Mierla, Sierra Norte de Guadalajara (Castilla-La Mancha), le pire épisode d'incendies de juillet dans la région depuis 1994. Périmètre de ~120 km, ~32 000 ha brûlées au 23/07, plus de 40 municipes dans le périmètre, 34 localités évacuées (Navas de Jadraque, Umbralejo, Semillas, Bustares…) et 14 confinées. Raison : incendie déclaré vers le 16-17/07/2026, combustion continue depuis plus de 6 jours.
+Incendie de La Mierla, Sierra Norte de Guadalajara (Castilla-La Mancha), le pire épisode d'incendies de juillet dans la région depuis 1994. Au plus fort de l'épisode : périmètre de ~120 km, plus de 40 municipes touchés, 34 localités évacuées (Navas de Jadraque, Umbralejo, Semillas, Bustares…) et 14 confinées. L'incendie est stabilisé depuis le 23/07/2026 (niveau opérationnel 1, le plus bas) et **désormais donné comme maîtrisé (« ya controlado ») depuis le 04/08/2026, dernière source datée disponible, pour un bilan final d'environ 33 000 ha brûlées** ; les évacuations se sont progressivement levées, dont deux municipes supplémentaires le 25/07. Aucune source postérieure au 04/08 ne signale de reprise. Raison : incendie déclaré vers le 16-17/07/2026, combustion continue depuis plus de 6 jours avant stabilisation.
 
 ## Alternative
 
@@ -25,6 +25,8 @@ Aucune alternative connue à ce jour : **éviter le secteur Jadraque/Sigüenza**
 ## Zone (détails)
 
 Sierra Norte de Guadalajara (parc naturel, ~90% brûlé). Feux simultanés dans la région : Selas (~2 800 ha) et Almorox (~1 000 ha, Tolède). 1er passage sérieux sur la zone ES-CENTRO, jamais vérifiée jusqu'ici.
+
+MAJ 04/08 : l'incendie est donné comme maîtrisé, en phase de stabilisation depuis le 23/07 (niveau opérationnel 1, le plus bas), pour un bilan final d'environ 33 000 ha. Aucune source postérieure au 04/08 n'a été retrouvée à ce jour, ni pour signaler une reprise ni pour ajouter des éléments nouveaux. Le recoupement avec un itinéraire GR® référencé (Vía de la Plata, Camino de Madrid, Camino de Levante, GR®10-ES) traversant le secteur exact Jadraque/Sigüenza reste à établir.
 
 ## Source
 
