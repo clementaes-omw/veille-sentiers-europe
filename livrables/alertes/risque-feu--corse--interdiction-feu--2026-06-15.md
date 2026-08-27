@@ -5,7 +5,7 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-25
+verif: 2026-08-27
 statut: ACTIF — CHANGÉ 24/08 : la fermeture du 19/08 des massifs du Fango, de Bonifato et de
   l'ouest de l'Agriate, jusque-là signalée par une seule source de presse non datable, est
   confirmée par lecture directe de haute-corse.gouv.fr (page « Accès aux massifs

@@ -5,8 +5,12 @@ itin: Juliana Trail, Alpe-Adria Trail
 sev: MOYENNE
 validite: pérenne depuis octobre 2025
 detection: 2026-07-23
-verif: 2026-08-20
-statut: ACTIF — NOUVEAU 23/07 : 1ère détection au registre (1er passage sérieux de la zone SI-HR, lot T2 jeudi) ; le cœur du massif du Triglav (stanje-poti.pzs.si) ne recense aucune fermeture active
+verif: 2026-08-27
+statut: ACTIF — INCHANGÉ 27/08 : soca-valley.com et tnp.si/en/visiting-park/latest/actual-conditions
+  revérifiés, aucune mention d'une levée de la déviation Trnovo ob Soči↔Srpenica ni d'un
+  retour à la normale ; le flux d'actualités ne republie pas cette information ancienne
+  (pérenne depuis oct. 2025), ce qui ne permet ni de confirmer ni d'infirmer sa clôture.
+  stanje-poti.pzs.si ne recense toujours aucune fermeture active dans les Julijske Alpe.
 ordre: 45
 ---
 

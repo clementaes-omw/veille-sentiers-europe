@@ -5,7 +5,7 @@ itin: GR®249 Gran Senda de Málaga (étapes Cómpeta–Canillas) — [HYPOTHÈS
 sev: MOYENNE
 validite: sans activité depuis le 18/07 ; feu considéré résolu par convention, jamais formellement classé « extinguido »
 detection: 2026-07-17
-verif: 2026-08-24
+verif: 2026-08-27
 statut: [CLÔTURÉ] (2026-08-07) — clôturée faute de toute nouvelle activité du feu constatée depuis le 18/07 malgré 9 passages de vérification successifs (dont une nouvelle recherche ciblée ce jour sur la carretera A-7206 et le site de la mairie de Cómpeta, restée infructueuse) ; aucune source n'a jamais formellement confirmé ni l'extinction ni la réouverture de l'A-7206, mais le fait établi (absence d'activité du feu pendant trois semaines, confinement levé et évacués rentrés dès le 18/07, INFOCA en préémergence) suffit à motiver la clôture, conformément à la règle de durée de vie des hypothèses
 ordre: 24
 ---
