@@ -8,7 +8,7 @@ validite: arrêté municipal n°10-2026 ; sentiers du Pas du Gouillat et du Pas 
   Comberoufle fermés du 28/07 au 31/08/2026 (prolongation d'une première fermeture du
   07/07 au 31/07/2026)
 detection: 2026-08-17
-verif: 2026-08-24
+verif: 2026-08-27
 statut: ACTIF — INCHANGÉ 24/08 : recherche de recoupement menée (mairie d'Omblèze, presse
   locale), toujours aucune source alternative à gervanne-sye.com trouvée pour cet arrêté.
   Source unique maintenue, à recouper avec une source officielle au prochain passage.
