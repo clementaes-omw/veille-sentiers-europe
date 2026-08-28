@@ -7,11 +7,12 @@ validite: en vigueur depuis le 27/07/2026 jusqu'à nouvel ordre, mise à jour pa
   30/07/2026 ; aucune levée publiée, la préfecture indique une évolution selon les conditions
   climatiques
 detection: 2026-08-24
-verif: 2026-08-24
-statut: ACTIF — NOUVEAU. Le sentier lui-même n'est pas fermé, la marche à pied n'est pas
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche (zone FR-PYR-O en escalade, alerte HAUTE
+  active en Ariège), toujours aucune source postérieure au 06/08/2026 (hapy.chambres-agriculture.fr)
+  ni levée publiée. Le sentier lui-même n'est pas fermé, la marche à pied n'est pas
   explicitement interdite par le texte (seuls l'accès motorisé et l'usage du feu le sont), mais
-  l'accès aux massifs est présenté comme fortement déconseillé. Dernière mise à jour publique
-  identifiée : 06/08/2026 (hapy.chambres-agriculture.fr). Distinct de l'incendie du Pic de
+  l'accès aux massifs est présenté comme fortement déconseillé. Distinct de l'incendie du Pic de
   Lurtet à Barèges (fiche dédiée) et de l'interdiction totale de l'usage du feu en Ariège
   (fiche dédiée) : cet arrêté couvre l'ensemble du département des Hautes-Pyrénées.
 ordre: 179
