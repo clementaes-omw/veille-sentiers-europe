@@ -5,7 +5,7 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-08-27
+verif: 2026-08-28
 statut: ACTIF — CHANGÉ 27/08 : page mise à jour le 22/08/2026 (12 jours après celle du
   10/08). Deux nouveautés : un sentier vers le Col du Sabion (Tende) est fermé entre les
   balises 372, et le sentier vers la cime de Pelousette (vallée de la Tinée, depuis la
