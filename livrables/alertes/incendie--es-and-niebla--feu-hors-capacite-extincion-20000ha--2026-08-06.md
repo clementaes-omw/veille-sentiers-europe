@@ -1,18 +1,18 @@
 ---
 cle: incendie|ES-AND-Niebla|feu-hors-capacite-extincion-20000ha|2026-08-06
-type: incendie
 itin: GR®48-ES Sierra Morena [HYPOTHÈSE] passe par le nord de la province de Huelva
   (Encinasola, Cumbres de San Bartolomé, Cumbres Mayores) ; recoupement précis avec le
   périmètre brûlé (Niebla, Berrocal, Zalamea la Real, Paterna del Campo, La Palma del
   Condado) non confirmé par une source consultée. Aucun itinéraire GR® référencé ne
   traverse directement cette zone selon le référentiel interne.
+type: incendie
 sev: INFO (extinction officielle 21/08 — aucun sentier balisé jamais documenté comme
   touché sur l'ensemble de l'épisode)
 validite: éteint (« incendio extinguido ») depuis le vendredi 21/08/2026 21h00, quatorze
   jours après le déclenchement ; surface finale ~33 000 ha (mesure Copernicus), deuxième
   plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
 detection: 2026-08-11
-verif: 2026-08-27
+verif: 2026-08-28
 statut: [CLÔTURÉ] (2026-08-21) — le feu est déclaré officiellement éteint le 21/08/2026
   21h00 par plusieurs sources de presse concordantes. Aucune fermeture de sentier balisé
   n'a jamais été documentée sur l'ensemble de l'épisode.
@@ -71,7 +71,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogeés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogéés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
