@@ -7,7 +7,7 @@ validite: jour par jour, par communiqué officiel quotidien ; 13 massifs interdi
 detection: 2026-07-18
 verif: 2026-08-28
 statut: ACTIF — CHANGÉ 28/08 : listing complet des communiqués vaucluse.gouv.fr d'août
-  revu en direct, toujours aucun communiqué massifs officiel daté postérieur au 18/08
+  revérifié en direct, toujours aucun communiqué massifs officiel daté postérieur au 18/08
   (10 jours de silence officiel). Troisième jour consécutif de signal de détente non
   officielle : destinationluberon.com (MAJ affichée 27/08 18h, pour le 28/08) maintient
   Petit Luberon, Grand Luberon et Monts de Vaucluse tous trois en VERT (accès et travaux
