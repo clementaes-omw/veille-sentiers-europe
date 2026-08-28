@@ -5,8 +5,8 @@ itin: GR®70 (Chemin de Stevenson, étape de La Bastide-Puylaurent) — [HYPOTH�
 sev: MOYENNE
 validite: aucune restriction en vigueur : feu fixé dès le lendemain du départ ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur, seule la RD151 reste documentée coupée
 detection: 2026-08-23
-verif: 2026-08-27
-statut: ACTIF — INCHANGÉ 27/08 : nouvelle recherche, aucune reprise ni nouvelle publication
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche, aucune reprise ni nouvelle publication
   au-delà du fixé du 20/08. Aucun sentier fermé documenté par les sources, seule la RD151
   est citée coupée.
 ordre: 177

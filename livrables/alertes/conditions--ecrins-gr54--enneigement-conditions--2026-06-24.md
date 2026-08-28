@@ -5,9 +5,9 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-08-27
-statut: ACTIF — INCHANGÉ 27/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
-  toujours datée du 24 juin 2026 (64 jours sans mise à jour, 39 jours depuis la fermeture du
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
+  toujours datée du 24 juin 2026 (65 jours sans mise à jour, 40 jours depuis la fermeture du
   GR®54A). Elle continue de recommander le GR®54A via le col de la Pousterle sans aucune
   mention de l'incendie ni de la fermeture. Contradiction non résolue, sévérité maintenue
   MOYENNE sur ce point.

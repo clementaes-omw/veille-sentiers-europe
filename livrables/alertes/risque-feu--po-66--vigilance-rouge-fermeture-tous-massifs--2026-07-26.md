@@ -2,20 +2,31 @@
 cle: risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26
 type: risque feu / fermeture massifs
 itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ; HRP — [HYPOTHÈSE] recoupement tronçon par tronçon non fait
-sev: MOYENNE
-validite: jusqu'à nouvel ordre ; vigilance rouge tous massifs confirmée du 26/07 au 27/07/2026 (dernière reconduction datée), aucune confirmation ni levée explicite retrouvée depuis ; l'indice officiel Météo des forêts situe le département en risque très élevé (pas exceptionnel) depuis le 06/08/2026
+sev: HAUTE
+validite: vigilance rouge confirmée par communiqué préfectoral daté du jeudi 27/08/2026 sur 5
+  des 9 massifs (Corbières, Fenouillèdes, Aspres, Roussillon, Albères) ; statut des 4 autres
+  massifs (Capcir, Cerdagne, Conflent, Vallespir) non tranché par ce texte
 detection: 2026-07-27
-verif: 2026-08-27
-statut: ACTIF — INCHANGÉ 27/08 : nouvelle recherche (presse quotidienne 66), toujours aucun
-  texte préfectoral explicite postérieur au 07/08 nommant les massifs. Sévérité maintenue
-  MOYENNE, dégradée depuis le 09/08 faute de confirmation du maintien de la fermeture totale
-  des 9 massifs au-delà du 27/07. Un texte préfectoral explicite reste à trouver.
+verif: 2026-08-28
+statut: ACTIF — CHANGÉ 28/08 : un communiqué de la préfecture des Pyrénées-Orientales daté du
+  27/08/2026, cité intégralement par la mairie de Tordères, confirme la vigilance rouge et
+  l'interdiction totale d'accès/de feu sur 5 massifs. Sévérité remontée MOYENNE→HAUTE : le
+  texte explicite qui manquait depuis le 09/08 est retrouvé. Capcir/Cerdagne/Conflent/Vallespir
+  non cités par ce communiqué, à recouper au prochain passage.
 ordre: 56
 ---
 
 ## Portion concernée
 
-**Massifs forestiers des Pyrénées-Orientales (66)** : aucun texte officiel ne confirme, à ce jour, le maintien de la fermeture totale des 9 massifs départementaux (Capcir, Cerdagne, Conflent, Vallespir, Fenouillèdes, Aspres, Corbières, Roussillon, Albères) décidée le 26/07/2026. Raison : la préfecture n'a publié aucun communiqué sur le risque incendie depuis la reconduction du 27/07 (la page des communiqués d'août, de nouveau consultable, ne contient aucun texte sur le sujet), et l'indice officiel Météo des forêts situe le département en risque très élevé au 6 août 2026, un niveau sous celui qui justifiait la fermeture générale fin juillet. Le risque reste réel : Météo-France annonce son maintien à un niveau élevé autour de la Méditerranée jusqu'au dimanche 9 août, dans un contexte de sécheresse marquée. La fermeture du massif des Albères, décidée par arrêté municipal distinct depuis le 10/07, n'est pas concernée par cette évolution et continue de s'appliquer.
+**Massifs des Corbières, du Fenouillèdes, des Aspres, du Roussillon et des Albères (Pyrénées-Orientales)** : un communiqué de la préfecture, daté du jeudi 27/08/2026, confirme
+le maintien du risque incendie exceptionnel et le classement en vigilance rouge sur ces 5
+massifs. L'accès y est interdit à pied, à cheval, à vélo et en véhicule motorisé, ainsi que
+tout usage du feu, y compris le brûlage des végétaux, et les travaux susceptibles de produire
+des étincelles. Les 4 autres massifs du département (Capcir, Cerdagne, Conflent, Vallespir)
+ne sont pas cités par ce communiqué, ce qui ne permet pas de conclure sur leur statut. La
+fermeture du massif des Albères, décidée par arrêté municipal distinct depuis le 10/07,
+recoupe désormais cette vigilance rouge départementale (voir fiche dédiée
+`risque-feu|Alberes-66|…`).
 
 ## Alternative
 
@@ -39,6 +50,8 @@ MAJ 13/08 : nouvelle vérification, aucun communiqué ou arrêté postérieur au
 
 MAJ 14/08 : la page listant les communiqués de presse d'août 2026 de la préfecture des Pyrénées-Orientales a été relue intégralement (4 titres au total à ce jour) : aucun ne porte sur le risque incendie ou la vigilance rouge départementale. Statut inchangé.
 
+MAJ 28/08 : un communiqué de la préfecture des Pyrénées-Orientales, daté du jeudi 27/08/2026 à 8h12 et cité intégralement par la mairie de Tordères (commune du massif des Aspres), confirme que « le risque incendie reste exceptionnel dans les massifs des Corbières, Fenouillèdes, Aspres, Roussillon et Albères » et que « les massifs sont en vigilance rouge », avec interdiction totale d'accès et d'usage du feu. Ce texte, reproduction directe de la communication préfectorale, comble le silence documenté depuis le 07/08 et confirme le maintien de la fermeture sur ces 5 massifs : la sévérité repasse de MOYENNE à HAUTE. Les massifs du Capcir, de la Cerdagne, du Conflent et du Vallespir ne sont pas mentionnés par ce communiqué, leur statut individuel reste donc non tranché.
+
 ## Source
 
-[France3 Occitanie, 26/07/2026 10h37, risque incendie : massifs fermés, barbecues interdits, ce que l'on sait de la vigilance rouge](https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/risque-incendie-massifs-fermes-barbecues-interdits-ce-que-l-on-sait-de-la-vigilance-rouge-declenchee-dans-ce-departement-3392272.html) [FAIT] ; [Seven Radio, 27/07/2026, Pyrénées-Orientales : alerte rouge incendie, accès aux massifs proscrits](https://sevenradio.fr/2026/07/27/pyrenees-orientales-alerte-rouge-incendie-acces-aux-massifs-proscrits/) [FAIT, 2e source indépendante datée, confirme la reconduction au 27/07 et attribue la décision à la préfecture] ; [info.fr, 26/07/2026 16h24, Pyrénées-Orientales : vigilance rouge feux de forêt, restrictions maximales](https://info.fr/pyrenees-orientales-vigilance-rouge-feux-foret-restrictions-maximales-dimanche-2026-07/) [FAIT, 3e source, cite la préfecture (Twitter/X) et ICI Roussillon], reclassée HAUTE au 28/07 sur la base de ces 3 sources de presse indépendantes et datées. [Feux de Forêt, 06/08/2026 09h12, Sud : feux de forêt sous haute tension face à la canicule et au mistral](https://feuxdeforet.fr/meteo-des-forets/sud-feux-de-foret-sous-haute-tension-face-a-la-canicule-et-au-mistral-06-08-2026-7235/) [FAIT, classe les Pyrénées-Orientales en risque très élevé (Météo des forêts), motive la dégradation HAUTE→MOYENNE du 09/08] ; [Météo-France, actualités, Feux de forêts : dangers globalement en baisse, sauf près de la Méditerranée](https://meteofrance.com/actualites-et-dossiers/actualites/attention-au-danger-feux-de-forets-eleve-tres-eleve) [FAIT, confirme un risque élevé maintenu près de la Méditerranée jusqu'au 09/08 sans nouvelle aggravation].
+[France3 Occitanie, 26/07/2026 10h37, risque incendie : massifs fermés, barbecues interdits, ce que l'on sait de la vigilance rouge](https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/risque-incendie-massifs-fermes-barbecues-interdits-ce-que-l-on-sait-de-la-vigilance-rouge-declenchee-dans-ce-departement-3392272.html) [FAIT] ; [Seven Radio, 27/07/2026, Pyrénées-Orientales : alerte rouge incendie, accès aux massifs proscrits](https://sevenradio.fr/2026/07/27/pyrenees-orientales-alerte-rouge-incendie-acces-aux-massifs-proscrits/) [FAIT, 2e source indépendante datée, confirme la reconduction au 27/07 et attribue la décision à la préfecture] ; [info.fr, 26/07/2026 16h24, Pyrénées-Orientales : vigilance rouge feux de forêt, restrictions maximales](https://info.fr/pyrenees-orientales-vigilance-rouge-feux-foret-restrictions-maximales-dimanche-2026-07/) [FAIT, 3e source, cite la préfecture (Twitter/X) et ICI Roussillon], reclassée HAUTE au 28/07 sur la base de ces 3 sources de presse indépendantes et datées. [Feux de Forêt, 06/08/2026 09h12, Sud : feux de forêt sous haute tension face à la canicule et au mistral](https://feuxdeforet.fr/meteo-des-forets/sud-feux-de-foret-sous-haute-tension-face-a-la-canicule-et-au-mistral-06-08-2026-7235/) [FAIT, classe les Pyrénées-Orientales en risque très élevé (Météo des forêts), motive la dégradation HAUTE→MOYENNE du 09/08] ; [Météo-France, actualités, Feux de forêts : dangers globalement en baisse, sauf près de la Méditerranée](https://meteofrance.com/actualites-et-dossiers/actualites/attention-au-danger-feux-de-forets-eleve-tres-eleve) [FAIT, confirme un risque élevé maintenu près de la Méditerranée jusqu'au 09/08 sans nouvelle aggravation] ; [Préfecture des Pyrénées-Orientales, communiqué du 27/08/2026 relayé par la mairie de Tordères, Les Aspres placés en risque incendie exceptionnel (rouge) ce jeudi 27 août 2026](http://torderes.unblog.fr/2026/08/27/les-aspres-places-en-risque-incendie-exceptionnel-rouge-ce-jeudi-27-aout-2026/) [FAIT, reproduction intégrale du communiqué préfectoral, motive la remontée MOYENNE→HAUTE du 28/08].

@@ -5,23 +5,21 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (désescalade 25/08 — les 9 massifs repassent en risque modéré jaune, aucun en sévère ni fermé)
 validite: journalière ; 0 massif fermé au 26/08 (les 9 massifs du département en modéré/jaune), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-27
-statut: ACTIF — CHANGÉ 27/08 : nouvelle désescalade, les 9 massifs repassent en risque
-  modéré (jaune) le 25/08 puis le 26/08 (varactu.fr, deux titres distincts), contre 3 en
-  sévère orange (Centre-Var, Maures, Estérel) le 23/08. Aucun massif classé rouge/fermé
-  depuis le 19/08. Aucune source datée du 27/08 retrouvée : le dernier état sûr reste celui
-  du 26/08. Sévérité maintenue MOYENNE.
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche (varactu.fr, presseagence.fr), aucune
+  source datée du 27 ou du 28/08 retrouvée. Le dernier état sûr reste celui du 26/08 (9
+  massifs modéré/jaune). Sévérité maintenue MOYENNE.
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var, situation confirmée par une source datée (26/08) : **aucun massif n'est fermé, les 9 massifs du département sont classés en risque modéré (jaune).** Aucune source datée du 27/08 n'a été retrouvée pour confirmer le classement de ce jour précis : la tendance la plus récente, sur deux jours consécutifs (25 et 26/08), est à la stabilité en modéré. Consulter var.gouv.fr avant de partir, la carte étant republiée chaque soir avant 19h pour le lendemain.
+Var, dernière situation confirmée par une source datée (26/08) : **aucun massif n'est fermé, les 9 massifs du département sont classés en risque modéré (jaune).** Aucune source datée du 27 ou du 28/08 n'a été retrouvée pour confirmer le classement de ces deux jours : la tendance la plus récente, sur deux jours consécutifs (25 et 26/08), est à la stabilité en modéré. Consulter var.gouv.fr avant de partir, la carte étant republiée chaque soir avant 19h pour le lendemain.
 
 ## Alternative
 
 Sans objet ce jour : aucun massif n'est fermé selon la dernière source datée (23/08). La carte d'accès est publiée chaque soir avant 19h pour le lendemain sur var.gouv.fr : la consulter avant toute sortie, la situation ayant déjà basculé plusieurs fois d'un jour à l'autre ce mois-ci (9/9 le 28/07, 1/9 le 29/07, 6/9 le 30/07, 4/9 le 31/07, 9/9 le 01/08, 8/9 le 02/08, 7/9 le 03/08, 4/9 le 04-05/08, 8/9 le 06/08, 7/9 le 07/08, 1/9 le 08/08, 4/9 le 10 et le 11/08, 0/9 le 12 et le 13/08, 1/9 le 15/08, tous fermés le 17/08, 3/9 le 18/08, 5/9 le 19/08, 0/9 le 20/08, 0/9 (3 en orange) le 23/08,
-0/9 (tous modérés) le 25 et le 26/08).
+0/9 (tous modérés) le 25 et le 26/08, situation non re-sourcée pour le 27 et le 28/08).
 
 ## Zone (détails)
 

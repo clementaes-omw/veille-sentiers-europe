@@ -9,14 +9,15 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-08-27
-statut: ACTIF — CHANGÉ 27/08 : paysdesecrins.com mis à jour le 24/08/2026 confirme un
-  arrêté MUNICIPAL daté du 15/08/2026 qui interdit formellement l'accès et la circulation
-  dans le secteur du Bois Noir à tous les usagers (piétons, cyclistes, cavaliers, véhicules),
-  pour risque de chutes d'arbres, de pierres et d'éboulements. C'est la première base
-  réglementaire nommée pour cette fermeture, jusqu'ici connue par la seule page de l'office
-  de tourisme. Le GR®54A n'est toujours nommé par aucune des deux pages consultées : par
-  prudence, le repli par le GR®54 classique reste recommandé. Sévérité maintenue HAUTE.
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : recherche ciblée reconduite pour retrouver un acte nommant
+  explicitement le GR®54A (requis par l'escalade au-delà de 14 jours) : la page
+  cc-paysdesecrins.fr/actualites/665-ndonnee (« Fermeture des sentiers de randonnée, liaison
+  Freissinières/L'Argentière-La Bessée », datée du 20/07/2026, déjà ancienne) ne le nomme pas
+  davantage et ne cite aucun numéro d'arrêté. paysdesecrins.com non revérifié ce jour (dernière
+  version connue toujours celle du 24/08). Aucune source postérieure au 24/08 trouvée. La
+  sévérité reste justifiée par l'arrêté municipal du 15/08 sur le cœur de massif, fait établi
+  indépendant du sigle GR®54A lui-même : sévérité maintenue HAUTE.
 ordre: 41
 ---
 

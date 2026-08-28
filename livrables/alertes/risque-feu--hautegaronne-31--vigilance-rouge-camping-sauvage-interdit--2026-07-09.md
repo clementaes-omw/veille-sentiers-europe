@@ -7,12 +7,13 @@ validite: arrêté du 09/07/2026, applicable jusqu'au 01/09/2026, mais seulement
   en vigilance rouge (très élevée) de la météo des forêts ; dernière mise à jour publique
   identifiée le 30/07/2026, aucune levée
 detection: 2026-08-24
-verif: 2026-08-24
-statut: ACTIF — NOUVEAU. Restriction conditionnelle, activée uniquement les jours de vigilance
-  rouge (à vérifier chaque jour sur la météo des forêts Météo-France), pas une fermeture
-  permanente. Le sort du camping sauvage est clair (interdit) ; celui du bivouac itinérant
-  classique (halte d'une nuit, sans feu) n'est pas explicitement tranché par la source
-  officielle, qui ne vise nommément que le « camping sauvage ».
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche (zone FR-PYR-O en escalade), toujours
+  aucune source postérieure au 30/07 ni levée trouvée. Restriction conditionnelle, activée
+  uniquement les jours de vigilance rouge (à vérifier chaque jour sur la météo des forêts
+  Météo-France), pas une fermeture permanente. Le sort du camping sauvage est clair (interdit) ;
+  celui du bivouac itinérant classique (halte d'une nuit, sans feu) n'est pas explicitement
+  tranché par la source officielle, qui ne vise nommément que le « camping sauvage ».
 ordre: 180
 ---
 
