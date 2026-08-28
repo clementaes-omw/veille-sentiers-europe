@@ -1,7 +1,7 @@
 ---
 cle: fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16
 type: fermeture / conditions météo (vent, canicule)
-itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canée: Balos, Krios-Elafonissi, Sougia-Agia Roumeli)
+itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canée : Balos, Krios-Elafonissi, Sougia-Agia Roumeli)
 sev: MOYENNE
 validite: fermetures décidées au jour le jour (quotidiennement), selon la météo et le risque incendie, sans calendrier fixe ; dernière fermeture confirmée le 28/08/2026 (quatre tronçons E4 à La Canée), statut à vérifier sur samaria.gr et auprès de la Région de Crète avant l'étape
 detection: 2026-07-24
