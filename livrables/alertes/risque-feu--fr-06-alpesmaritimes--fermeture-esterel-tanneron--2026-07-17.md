@@ -5,14 +5,11 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (dégradée 22/08 — aucun communiqué préfectoral retrouvé depuis le 06/08, seuil des 14 jours dépassé)
 validite: journalière selon la préfecture ; dernière fermeture confirmée par une source datée : 06/08 (rouge très sévère) ; aucun communiqué plus récent retrouvé à ce jour
 detection: 2026-08-09
-verif: 2026-08-27
-statut: ACTIF — INCHANGÉ 27/08 : nouvelle recherche ciblée (page dédiée
-  alpes-maritimes.gouv.fr/Actualites/Risque-feux-de-foret-dans-les-Alpes-Maritimes relue
-  directement : toujours datée du 08/06/2026, ne mentionne ni l'Esterel-Tanneron ni aucun
-  arrêté d'août ; page des communiqués de presse et recherche dédiée sur le recueil des
-  actes administratifs sans résultat exploitable). Toujours aucune publication postérieure
-  au 6 août trouvée. L'écart atteint désormais 21 jours. Sévérité maintenue MOYENNE. Zone
-  en escalade : recherche ciblée à reconduire chaque run.
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche ciblée (presse locale, requêtes dédiées
+  sur les communiqués de la préfecture d'août), toujours aucune publication postérieure au 6
+  août trouvée. L'écart atteint désormais 22 jours. Sévérité maintenue MOYENNE. Zone en
+  escalade : recherche ciblée à reconduire chaque run.
 ordre: 102
 ---
 
@@ -47,6 +44,8 @@ Vérifié le 20/08/2026 : la liste des communiqués de presse d'août de la pré
 Vérifié le 22/08/2026 : presseagence.fr et les sites des communes du massif consultés de nouveau, toujours aucune publication postérieure au 6 août. L'écart atteint 16 jours, au-delà du seuil de 14 jours après détection. Aucun arrêté de levée n'a non plus été trouvé : faute de source pour trancher soit la reconduction soit la levée, l'alerte est dégradée en MOYENNE, avec pour seul fait établi les fermetures répétées documentées entre le 17 juillet et le 6 août.
 
 Vérifié le 27/08/2026 : une source jusqu'ici non consultée a été relue directement, la page dédiée de la préfecture « Risque feux de forêt dans les Alpes-Maritimes » (alpes-maritimes.gouv.fr). Elle reste datée du 8 juin 2026 et ne mentionne ni le massif de l'Esterel-Tanneron ni aucun arrêté d'août 2026 : elle ne peut donc pas trancher. Une recherche sur le recueil des actes administratifs de la préfecture n'a pas permis de localiser un acte exploitable pour ce massif sur la période. Toujours aucune publication postérieure au 6 août trouvée pour ce massif. L'écart atteint désormais 21 jours. Le seul fait établi reste celui des fermetures répétées documentées entre le 17 juillet et le 6 août : aucun arrêté d'interdiction n'est publié à ce jour sur le site de la préfecture pour la période postérieure.
+
+Vérifié le 28/08/2026 : nouvelle recherche dédiée (presse locale, requêtes ciblées sur les communiqués d'août de la préfecture), toujours aucune publication postérieure au 6 août trouvée pour ce massif. L'écart atteint désormais 22 jours.
 
 ## Source
 

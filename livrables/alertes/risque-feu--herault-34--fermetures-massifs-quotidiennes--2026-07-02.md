@@ -5,9 +5,9 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-27
-statut: ACTIF — INCHANGÉ 27/08 : nouvelle recherche (compte officiel @Prefet34, presse
-  locale), aucun classement daté postérieur au samedi 22/08 retrouvé, soit cinq jours de
+verif: 2026-08-28
+statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche (compte officiel @Prefet34, presse
+  locale), aucun classement daté postérieur au samedi 22/08 retrouvé, soit six jours de
   silence. Dernier état sûr inchangé : 8 secteurs sur 9 en orange, aucun rouge.
   herault.gouv.fr toujours illisible en autonome. Carlencas-et-Levas toujours fixé.
 ordre: 18
@@ -42,6 +42,8 @@ MAJ 16/08 : le compte officiel de la préfète de l'Hérault publie, pour le ven
 MAJ 20/08 : le classement relayé pour le mercredi 19/08 (shopping-beziers.com, 18/08/2026) compte désormais 9 secteurs orange sur 9, toujours aucun rouge. La liste nominative des secteurs reste non confirmée par une lecture directe de la carte officielle.
 
 MAJ 23/08 : le compte officiel de la préfète de l'Hérault (@Prefet34) publie une carte datée du samedi 22/08/2026 : 8 secteurs sur 9 en orange, aucun rouge, léger mieux par rapport aux 9/9 orange du 19/08. La liste nominative des secteurs reste non confirmée par une lecture directe de la carte officielle (herault.gouv.fr toujours en JavaScript).
+
+MAJ 28/08 : nouvelle recherche (compte @Prefet34, shopping-beziers.com), aucune carte ni article postérieur au 22/08 retrouvé, soit six jours de silence. Le classement du 22/08 (8 secteurs orange sur 9, aucun rouge) reste la dernière donnée officielle connue.
 
 ## Source
 
