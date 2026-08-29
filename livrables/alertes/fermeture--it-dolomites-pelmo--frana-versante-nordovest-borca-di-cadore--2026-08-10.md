@@ -5,11 +5,11 @@ itin: Alta Via 1 (P1) — les sentiers 472 et 480 (Rifugio Venezia ↔ Rifugio C
 sev: MOYENNE
 validite: fermeture jusqu'à nouvel ordre depuis le 10/08/2026, aucune date de levée annoncée ; nouveaux éboulements le 13/08 (6-7 chutes de pierres par jour)
 detection: 2026-08-15
-verif: 2026-08-22
-statut: ACTIF — CHANGÉ 22/08 : de nouveaux éboulements sont documentés le 13/08/2026 sur le
-  même versant nord-ouest, à raison de 6 à 7 chutes de pierres par jour (ildolomiti.it). La
-  zone interdite (versant nord-ouest, hors tracé 472/480 de l'Alta Via 1) n'est pas étendue
-  par cette nouvelle activité. Aucune source postérieure au 13/08 retrouvée ce jour.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : aucune source postérieure au 13/08/2026 retrouvée (presse
+  et ilgazzettino.it inaccessibles en fetch direct ce jour). Statut inchangé depuis le 22/08 :
+  périmètre interdit toujours limité au versant nord-ouest, sentiers 472/480 de l'Alta Via 1
+  toujours ouverts.
 ordre: 115
 ---
 
