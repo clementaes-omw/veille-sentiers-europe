@@ -5,15 +5,16 @@ itin: Mare a Mare Nord (GRP)
 sev: MOYENNE
 validite: fermé du 19/07 au 03/08/2026 inclus ; rouvert depuis le 04/08/2026 (avis pnr.corsica)
 detection: 2026-07-20
-verif: 2026-08-28
+verif: 2026-08-29
 statut: [CLÔTURÉ] (2026-08-05) — Mare a Mare Nord entièrement rouvert (3 étapes + refuge
   de la Sega), le feu de la Restonica qui mençait le tronçon étant désormais maîtrisé
   après 21 jours de lutte (pnr.corsica, MAJ 04/08 8h30). MAJ 07/08 : chronologie complétée —
   une reprise de feu du 01-02/08 avait brièvement refermé le sentier et le refuge de la Sega
   entre les deux réouvertures déjà connues (31/07 puis 04/08) ; statut inchangé, toujours
-  rouvert. INCHANGÉ 15/08 : pnr.corsica (dernière mise à jour 04/08/2026) confirme toujours
+  rouvert. INCHANGÉ 29/08 : pnr.corsica (dernière mise à jour 04/08/2026) confirme toujours
   « tous les massifs sont ouverts », GR®20 et Mare a Mare Nord accessibles sans restriction ;
-  aucune source ne signale de nouvelle reprise.
+  aucune source ne signale de nouvelle reprise. Le feu distinct de Calenzana/Montegrosso
+  (27-28/08, voir fiche dédiée) est sans lien avec ce tronçon.
 ordre: 37
 ---
 

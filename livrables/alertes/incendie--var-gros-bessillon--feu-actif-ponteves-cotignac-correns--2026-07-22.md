@@ -5,11 +5,11 @@ itin: GR®9/GR®51 (Haut-Var/Centre-Var) [HYPOTHÈSE]
 sev: INFO (clôturée — extinction officielle confirmée le 19/08/2026 après un mois de lutte)
 validite: [CLÔTURÉ] (2026-08-19) — feu déclaré officiellement éteint après un mois de combat, bilan final 6 300 ha parcourus
 detection: 2026-07-25
-verif: 2026-08-28
+verif: 2026-08-29
 statut: [CLÔTURÉ] (2026-08-19) — le feu du Gros Bessillon, le plus long de l'histoire du Var,
   est officiellement déclaré éteint après un mois de combat (dépêche AFP relayée par DH Les
   Sports+, 19/08/2026 00h15). Bilan final confirmé à 6 300 ha parcourus, chiffre inchangé
-  depuis le 12/08. Aucune reprise signalée.
+  depuis le 12/08. INCHANGÉ 29/08 : aucune reprise signalée.
 ordre: 50
 ---
 
@@ -29,7 +29,7 @@ MAJ 26/07 : bilan officiel réévalué à 4 000 ha (point de situation n°19, va
 
 MAJ 27/07 : bilan réévalué à ~4 500 ha (presseagence.fr 26/07, corroboré 2 fois) ; feu toujours pas fixé, ~200 km de lisières restant à traiter, mistral persistant + températures hautes + humidité très basse = risque de reprise ; retours partiels à domicile dimanche soir (Brue-Auriac, quartiers Carmes/Gavottes de Barjols), restrictions encore actives à Barjols/Correns/Châteauvert ; bilan matériel réévalué à ~50 maisons touchées dont 27 détruites [HYPOTHÈSE, non recoupé par une 2e source à ce chiffre exact] ; var.gouv.fr inaccessible (503 x2), contournement presse appliqué.
 
-MAJ 28/07 : nouvelles reprises lundi après-midi (27/07) en trois points distincts, Barjols, Châteauvert et Correns, après une stabilisation de la surface parcourue dimanche 26/07 ; bilan confirmé à 4 500 ha parcourus / 4 100 ha brûlés (communiqué du lundi 27/07 matin, cité par le suivi en direct frequence-sud.fr, dernier point à 07h05 le 28/07) ; retours à domicile précisés : dimanche 26/07 fin d'après-midi, en plus de Brue-Auriac et des quartiers Carmes/Gavottes de Barjols déjà connus, les quartiers Laus et Camps de Barjols ont également été autorisés à rentrer ; le reste de Barjols, Correns et Châteauvert restent sous mesure d'évacuation ; toujours pas de pourcentage de fixation officiel publié ; var.gouv.fr non revérifié pour cette mise à jour (contournement presse jugé suffisant vu la fermeture totale des massifs reconduite le même jour, voir ligne `risque-feu|Var-83|…`).
+MAJ 28/07 : nouvelles reprises lundi après-midi (27/07) en trois points distincts, Barjols, Châteauvert et Correns, après une stabilisation de la surface parcourue dimanche 26/07 ; bilan confirmé à 4 500 ha parcourus / 4 100 ha brûlés (communiqué du lundi 27/07 matin, cité par le suivi en direct frequence-sud.fr, dernier point à 07h05 le 28/07) ; retours à domicile précisés : dimanche 26/07 fin d'après-midi, en plus de Brue-Auriac et des quartiers Carmes/Gavottes de Barjols déjà connus, les quartiers Laus et Camps de Barjols ont également été autorisés à rentrer ; le reste de Barjols, Correns et Châteauvert restent sous mesure d'évacuation ; toujours pas de pourcentage de fixation officiel publié ; var.gouv.fr non revuérifié pour cette mise à jour (contournement presse jugé suffisant vu la fermeture totale des massifs reconduite le même jour, voir ligne `risque-feu|Var-83|…`).
 
 MAJ 29/07 : le feu du Gros Bessillon a été officiellement déclaré FIXÉ le mardi 28/07 à 19h, après 8 jours de lutte, confirmé par 2 sources concordantes : var.gouv.fr (page dédiée « Le feu du Gros Bessillon est fixé ») et frequence-sud.fr (dernier point 28/07 20h03). Surface inchangée par rapport au dernier bilan : ~4 500 ha parcourus / 4 100 ha brûlés. Retours à domicile élargis mardi soir : quartiers Carmes et Gavottes (Barjols), commune de Brue-Auriac, centre du village de Barjols (Les Laus et Les Camps, confinement levé). Évacuations maintenues pour Correns, Châteauvert, Montfort-sur-Argens et le reste de Barjols, avec ~5 000 personnes évacuées au total sur l'épisode. Bilan matériel révisé à ~30 maisons détruites [HYPOTHÈSE, source unique non recoupée, à confirmer par une 2e source avant consolidation définitive, contre 27 précédemment]. « Fixé » ne signifie pas éteint : la préfecture maintient une « extrême vigilance », 4 routes départementales restent coupées (RD35, RD560, RD554, RD45), moyens toujours mobilisés (plus de 1000 pompiers, renforts militaires et aériens européens).
 

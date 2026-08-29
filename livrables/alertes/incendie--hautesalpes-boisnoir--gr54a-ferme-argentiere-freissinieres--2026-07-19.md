@@ -9,15 +9,15 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : recherche ciblée reconduite pour retrouver un acte nommant
-  explicitement le GR®54A (requis par l'escalade au-delà de 14 jours) : la page
-  cc-paysdesecrins.fr/actualites/665-ndonnee (« Fermeture des sentiers de randonnée, liaison
-  Freissinières/L'Argentière-La Bessée », datée du 20/07/2026, déjà ancienne) ne le nomme pas
-  davantage et ne cite aucun numéro d'arrêté. paysdesecrins.com non revérifié ce jour (dernière
-  version connue toujours celle du 24/08). Aucune source postérieure au 24/08 trouvée. La
-  sévérité reste justifiée par l'arrêté municipal du 15/08 sur le cœur de massif, fait établi
-  indépendant du sigle GR®54A lui-même : sévérité maintenue HAUTE.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : paysdesecrins.com revérifié directement, toujours daté
+  24/08/2026, aucune évolution (parcours 22/23 et côte de Pallon rouverts, cœur de massif
+  2/6/7/14/15, KV Freiss et via ferrata Grande Falaise toujours fermés par l'arrêté municipal
+  du 15/08). Aucune source postérieure au 24/08 trouvée pour le GR®54A nommément ni pour la
+  RD38. Sévérité maintenue HAUTE : fait établi (arrêté municipal sur le cœur de massif),
+  indépendant du sigle GR®54A. Ancienneté de la fermeture désormais 41 jours (détection
+  19/07) : le fait matériel (fermeture du massif) reste confirmé par un acte officiel daté du
+  15/08, donc non concerné par la règle de dégradation des hypothèses non confirmées.
 ordre: 41
 ---
 

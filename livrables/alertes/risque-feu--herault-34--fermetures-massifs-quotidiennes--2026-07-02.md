@@ -5,11 +5,11 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche (compte officiel @Prefet34, presse
-  locale), aucun classement daté postérieur au samedi 22/08 retrouvé, soit six jours de
-  silence. Dernier état sûr inchangé : 8 secteurs sur 9 en orange, aucun rouge.
-  herault.gouv.fr toujours illisible en autonome. Carlencas-et-Levas toujours fixé.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : nouvelle recherche (compte officiel @Prefet34, presse
+  locale shopping-beziers.com), aucun classement daté postérieur au samedi 22/08 retrouvé,
+  soit sept jours de silence. Dernier état sûr inchangé : 8 secteurs sur 9 en orange, aucun
+  rouge. herault.gouv.fr toujours illisible en autonome. Carlencas-et-Levas toujours fixé.
 ordre: 18
 ---
 

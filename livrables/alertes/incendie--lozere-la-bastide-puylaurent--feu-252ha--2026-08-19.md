@@ -5,8 +5,8 @@ itin: GR®70 (Chemin de Stevenson, étape de La Bastide-Puylaurent) — [HYPOTH�
 sev: MOYENNE
 validite: aucune restriction en vigueur : feu fixé dès le lendemain du départ ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur, seule la RD151 reste documentée coupée
 detection: 2026-08-23
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche, aucune reprise ni nouvelle publication
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : nouvelle recherche, aucune reprise ni nouvelle publication
   au-delà du fixé du 20/08. Aucun sentier fermé documenté par les sources, seule la RD151
   est citée coupée.
 ordre: 177
@@ -28,4 +28,4 @@ Aucune alternative connue à ce jour : aucune fermeture de sentier n'est documen
 
 ## Source
 
-[ICI.fr, 19/08/2026 16h34, MAJ 20/08 09h10, un violent incendie à La Bastide-Puylaurent en Lozère](https://www.ici.fr/occitanie/lozere-48/la-bastide-puylaurent/un-violent-incendie-a-la-bastide-puylaurent-en-lozere-3263855) ; [France 3 Occitanie, incendie en Lozère, 250 hectares ravagés par un violent feu de forêt qui mobilise 250 pompiers et huit Canadair](https://france3-regions.franceinfo.fr/occitanie/lozere/mende/incendie-en-lozere-250-hectares-ravages-par-un-violent-feu-de-foret-qui-mobilise-250-pompiers-et-huit-canadair-3403888.html) ; [feuxdeforet.fr, Prévenchères 19/08/2026](https://feuxdeforet.fr/lozere-48/prevencheres-19-08-2026-10639/)
+[ICI.fr, 19/08/2026 16h34, MAJ 20/08 09h10, un violent incendie à La Bastide-Puylaurent en Lozère](https://www.ici.fr/occitanie/lozere-48/la-bastide-puylaurent/un-violent-incendie-a-la-bastide-puylaurent-en-lozere-3263855) ; [France 3 Occitanie, incendie en Lozère, 250 hectares ravagés par un violent feu de forêt qui mobilise 250 pompiers et huit Canadair](https://france3-regions.franceinfo.fr/occitanie/lozere/mende/incendie-en-lozere-250-hectares-ravages-par-un-violent-feu-de-foret-qui-mobilise-250-pompiers-et-huit-canadair-3403888.html) ; [feuxdeforet.fr, Prevenchères 19/08/2026](https://feuxdeforet.fr/lozere-48/prevencheres-19-08-2026-10639/)

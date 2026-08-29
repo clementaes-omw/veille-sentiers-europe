@@ -6,7 +6,7 @@ itin: GR®36 (traversée Montagne Noire↔Canal du Midi, via Sallèles-Cabardès
 sev: MOYENNE
 validite: feu ÉTEINT depuis le 14/08/2026 vers 18h55, aucune fermeture de sentier documentée
 detection: 2026-08-15
-verif: 2026-08-17
+verif: 2026-08-29
 statut: [CLÔTURÉ] (2026-08-16) — feu ÉTEINT : feuxdeforet.fr annonce l'extinction le 14/08 vers
   18h55, sans reprise depuis. Une habitation détruite, cinq endommagées. Le GR®36 traverse
   nommément Conques-sur-Orbiel, mais aucun arrêté ni communiqué de fermeture de sentier n'a
