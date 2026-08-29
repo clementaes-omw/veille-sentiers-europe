@@ -501,6 +501,7 @@ def render_card(c) -> str:
 
 
 
+
 # ---------------------------------------------------------------- bivouac
 
 BIV_COLS = ["pays", "zone", "nom", "type", "regle", "conditions", "feu", "sentiers",
@@ -581,7 +582,7 @@ ALIAS_ZONE = {
     "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
     "Drome-Justin-Die": "FR-84-26-07", "Drome-Bellegarde-en-Diois": "FR-84-26-07",
     "Drome-Omblese": "FR-84-26-07",
-    "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE",
+    "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE", "Corse-Calenzana": "FR-CORSE",
     # Alpes du Sud / Écrins
     "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
     # Alpes du Nord
