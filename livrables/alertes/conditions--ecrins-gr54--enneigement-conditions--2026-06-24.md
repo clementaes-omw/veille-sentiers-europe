@@ -5,12 +5,11 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : page ecrins-parcnational.fr/actualite/gr54-informations-recommandations
-  toujours datée du 24 juin 2026 (65 jours sans mise à jour, 40 jours depuis la fermeture du
-  GR®54A). Elle continue de recommander le GR®54A via le col de la Pousterle sans aucune
-  mention de l'incendie ni de la fermeture. Contradiction non résolue, sévérité maintenue
-  MOYENNE sur ce point.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : page non revérifiée directement ce run faute de budget ;
+  dernier état connu (27/08, page toujours datée du 24 juin 2026, 66 jours sans mise à jour,
+  41 jours depuis la fermeture du GR®54A) reporté par défaut. Contradiction non résolue,
+  sévérité maintenue MOYENNE sur ce point.
 ordre: 12
 ---
 
@@ -26,7 +25,7 @@ Le parc recommandait la variante GR®54A à la place de l'Aup Martin, mais **le 
 
 GR®54 : cols enneigés et ponts de neige. Aup Martin déconseillé, report sur la variante GR®54A. Col du Vallon très dégradé, travaux prévus à l'automne. Déviation de bûcheronnage sous le Lauvitel.
 
-Le GR®54A, présenté ci-dessus comme la variante de repli, est fermé depuis le 19/07/2026 pour incendie sur le massif du Bois Noir (L'Argentière-la-Bessée/Freissinières) : voir la fiche dédiée. La page du parc national des Écrins qui recommande ce repli (ecrins-parcnational.fr/actualite/gr54-informations-recommandations) n'a pas été mise à jour depuis le 24/06/2026 et ne mentionne pas cette fermeture.
+Le GR®54A, présenté ci-dessus comme la variante de repli, est fermé depuis le 19/07/2026 pour incendie sur le massif du Bois Noir (L'Argentière-la-Bessee/Freissinières) : voir la fiche dédiée. La page du parc national des Écrins qui recommande ce repli (ecrins-parcnational.fr/actualite/gr54-informations-recommandations) n'a pas été mise à jour depuis le 24/06/2026 et ne mentionne pas cette fermeture.
 
 MAJ 27/07 : la fermeture du GR®54A pour incendie est confirmée depuis le 19/07/2026. La page du parc recommandant encore cette variante reste inchangée depuis le 24/06/2026 (14 jours sans mise à jour) : la contradiction entre la page officielle et la fermeture réelle du terrain est active. Une mention plus ancienne indiquant cette contradiction comme réglée était erronée : elle ne l'est pas.
 

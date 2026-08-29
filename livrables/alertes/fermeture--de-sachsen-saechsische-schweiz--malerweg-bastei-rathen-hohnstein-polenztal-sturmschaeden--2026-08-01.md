@@ -5,12 +5,17 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation de fait au-delà de cette date : un déploiement d'hélicoptère pour l'évacuation du bois endommagé est en cours depuis le 26/08/2026 autour de Rathen, avec fermetures annoncées jusqu'au 18/09/2026 environ, sans qu'aucune prolongation formelle de l'arrêté du 01/08 (échéance 31/08) ne soit publiée à ce jour ; réouverture progressive depuis le 07/08/2026 (Basteiweg puis Polenztal, Schwedenlöcher et haut de l'Amselgrund le 14/08) ; l'Amselsee et le bas de l'Amselgrund (Rathen↔Schwedenlöcher) restent fermés au 28/08/2026, et le secteur du Gamrig, rouvert le 07/08, referme le 26/08 pour la durée du chantier héliporté
 detection: 2026-08-06
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : saechsische-schweiz.de/gut-zu-wissen/aktuelles revérifié
-  (mise à jour du 26/08/2026 12h10, aucune publication plus récente). Périmètre inchangé
-  depuis le 27/08 : Schwedenlöcher et haut de l'Amselgrund toujours ouverts, Amselsee et
-  bas de l'Amselgrund toujours fermés, chantier héliporté sur le Gamrig et la Rathener
-  Straße toujours en cours jusqu'au 18/09 environ.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : saechsische-schweiz.de/gut-zu-wissen/aktuelles et
+  nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung revérifiés,
+  toujours datés du 26/08/2026, aucune publication plus récente. Périmètre identique à
+  celui du 27-28/08 : Amselsee et bas de l'Amselgrund toujours fermés, chantier héliporté
+  sur le Gamrig et la Rathener Straße toujours en cours jusqu'au 18/09 environ. Recherche
+  ciblée d'une prolongation officielle de l'Allgemeinverfügung au-delà de son échéance du
+  31/08 : aucune n'est publiée sur landratsamt-pirna.de à ce jour (la dernière ordonnance
+  retrouvée reste celle du 07/08, portant adaptations et libérations partielles) ; le
+  calendrier du chantier héliporté (jusqu'au 18/09) rend toutefois improbable une levée
+  totale au 31/08.
 ordre: 99
 ---
 
@@ -36,7 +41,7 @@ MAJ 11/08 : nouvelle fermeture ponctuelle. [FAIT, nationalpark-saechsische-schwe
 
 MAJ 15/08 : nouvelle réouverture, la plus large depuis le début de l'épisode. [FAIT, nationalpark-saechsische-schweiz.de, page « Eilmeldung Waldsperrung », mise à jour du 14/08/2026] Sont désormais rouverts les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg vers les Schwedenlöcher, et le Polenztal sur toute sa longueur, y compris le tronçon de la Waltersdorfer Mühle refermé le 09/08. Ne restent fermés que l'Amselsee, la partie basse de l'Amselgrund (entre Rathen et la jonction des Schwedenlöcher) et le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg), toujours interdit au public. Le Malerweg, qui passe par l'Amselsee sur son étape Stadt Wehlen↔Hohnstein, reste donc coupé, mais sur un point du parcours nettement plus limité qu'au début du mois.
 
-MAJ 16/08 : aucun tronçon supplémentaire rouvert, mais l'horizon de la fermeture se précise. [FAIT, nationalpark-saechsische-schweiz.de, article « Freischneidearbeiten im Nationalpark Sächsische Schweiz schreiten weiter schnell voran », publié le 14/08/2026] Le parc indique que le service de randonnée et les habitants de Rathen doivent encore compter avec des restrictions pendant plusieurs semaines, et annonce des travaux de dégagement par hélicoptère à partir de début septembre 2026 sur les zones les plus abîmées autour de l'Amselsee. Aucune prolongation formelle de l'arrêté du 01/08 (échéance du 31/08) n'est publiée à ce jour, mais ce calendrier rend une levée totale au 31/08 peu probable. Le périmètre resté fermé (Amselsee, bas de l'Amselgrund, Ziegenrücken) est inchangé par rapport au 14/08.
+MAJ 16/08 : aucun tronçon supplémentaire rouvert, mais l'horizon de la fermeture se précise. [FAIT, nationalpark-saechsische-schweiz.de, article « Freischneidearbeiten im Nationalpark Sächsische Schweiz schreiten weiter schnell voran », publié le 14/08/2026] Le parc indique que le service de randonnée et les habitants de Rathen doivent encore compter avec des restrictions pendant plusieurs semaines, et annonce des travaux de dégagement par hélicoptère à partir de début septembre 2026 sur les zones les plus abimées autour de l'Amselsee. Aucune prolongation formelle de l'arrêté du 01/08 (échéance du 31/08) n'est publiée à ce jour, mais ce calendrier rend une levée totale au 31/08 peu probable. Le périmètre resté fermé (Amselsee, bas de l'Amselgrund, Ziegenrücken) est inchangé par rapport au 14/08.
 
 MAJ 20/08 : la page saechsische-schweiz.de/gut-zu-wissen/aktuelles, mise à jour le 18/08/2026 15h00, publie pour la première fois une déviation balisée et nommée pour contourner le secteur fermé sur l'étape 2 du Malerweg (Stadt Wehlen→Hohnstein) : trait bleu jusqu'aux Schwedenlöcher, puis trait vert jusqu'au château de Hohnstein ; le Schindergraben (montée classique vers Hohnstein) est fermé. Le périmètre fermé (Amselsee, bas de l'Amselgrund, Ziegenrücken) reste inchangé. La même page signale, sans lien avec les dégâts de tempête, deux fermetures distinctes sur d'autres étapes du Malerweg : voir la fiche dédiée `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Kohlichtgraben-Bergsteig-scolytes|2026-08-18`.
 
