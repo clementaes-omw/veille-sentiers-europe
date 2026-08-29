@@ -7,13 +7,13 @@ itin: GR®653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR®6 (corridor Pon
 sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour
 detection: 2026-07-04
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : recherche ciblée reconduite (gard.gouv.fr, liste complète des
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : recherche ciblée reconduite (gard.gouv.fr, liste complète des
   actualités relue), toujours aucun classement risque incendie daté postérieur au 18/08, soit
-  dix jours de silence. La liste des actualités du 28/08 porte en revanche un article « Épisode
-  orageux, vigilance Orange sur le Gard » daté du 24/08 et un article sécheresse daté du 22/08,
-  sans lien explicite établi avec le classement incendie. Dernier état sûr inchangé : 3 secteurs
-  rouges (Gard Rhodanien, Garrigues, Costières Pétite Camargue), GR®70 hors zone rouge.
+  onze jours de silence. La liste des actualités reste dominée par des sujets distincts
+  (arrêté rassemblements festifs 28/08, patrimoine, sénatoriales, orages 24/08, sécheresse
+  22/08), sans lien explicite établi avec le classement incendie. Dernier état sûr inchangé : 3
+  secteurs rouges (Gard Rhodanien, Garrigues, Costières Pétite Camargue), GR®70 hors zone rouge.
 ordre: 15
 ---
 
@@ -36,7 +36,7 @@ Chronologie du classement des massifs gardois, saison 2026 :
 - 06/08 : nouveau classement publié après ce silence de 14 jours. Le Gard Rhodanien reste classé rouge (36 communes), mais Costières/Petite Camargue n'y figure plus ; un nouveau secteur, Val de Cèze (43 communes : Barjac, Goudargues, Lussan, Saint-Julien-de-Peyrolas et autres), est classé rouge à sa place. Toujours 2 secteurs rouges au total, les Cévennes restent hors zone rouge.
 - 07/08 : nouveau classement. Le Gard Rhodanien reste classé rouge, mais Val de Cèze n'y figure plus après une seule journée ; un secteur « Garrigues » (49 communes), jamais vu dans les classements précédents, est classé rouge à sa place. Toujours 2 secteurs rouges au total.
 
-Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes de Fourques et Beaucaire) reste à établir : la préfecture publie une liste de communes, pas un périmètre cartographié au sentier près.
+Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes de Fourques et Beaucaire) reste à établir ; la préfecture publie une liste de communes, pas un périmètre cartographié au sentier près.
 
 - 09/08 : aucune page datée du 08 ou du 09/08 retrouvée sur gard.gouv.fr (recherche directe et via la liste des actualités) ; dernier classement connu reste celui du 07/08 (Gard Rhodanien, Garrigues). Recoupement du secteur Garrigues avec un GR® référencé effectué : le GR®6 traverse la zone (Pont-du-Gard, Remoulins, Uzès font partie des 49 communes du secteur), confirmé par plusieurs sources touristiques décrivant le tracé du GR®6 le long du Gardon et de l'aqueduc romain entre Uzès et le Pont du Gard. La base interne de sentiers (`sentiers-db.csv`) n'associe pas encore le GR®6 à la zone FR-30-48 (zones estimées à l'origine) : écart de référentiel noté, sans conséquence sur cette fiche.
 - 11/08 : les pages du lundi 10 et du dimanche 9 août ne sont pas publiées sur gard.gouv.fr. Un article évoquant le Gard Rhodanien et les Garrigues « ce dimanche » correspond en réalité au 9 août 2025, pas 2026 : le classement du vendredi 07/08/2026 reste la dernière information officielle disponible, sans nouvelle page depuis quatre jours.
