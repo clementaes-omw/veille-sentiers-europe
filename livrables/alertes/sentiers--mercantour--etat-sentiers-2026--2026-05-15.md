@@ -5,14 +5,10 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-08-28
-statut: ACTIF — CHANGÉ 27/08 : page mise à jour le 22/08/2026 (12 jours après celle du
-  10/08). Deux nouveautés : un sentier vers le Col du Sabion (Tende) est fermé entre les
-  balises 372, et le sentier vers la cime de Pelousette (vallée de la Tinée, depuis la
-  balise 41b Camp des Fourches) est interdit d'accès depuis un affaissement de terrain
-  survenu l'hiver 2025-2026. Un passage rendu délicat par les intempéries d'août 2026 entre
-  le col de la Petite Cayolle (balise 297) et le pas du Lausson (balise 296, vallée du
-  Verdon) est signalé sans être fermé. Sévérité maintenue MOYENNE.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : page non revuérifiée ce run faute de budget ; dernier état
+  connu (22/08) reporté par défaut : Col du Sabion et cime de Pelousette fermés, Petite
+  Cayolle↔pas du Lausson signalé délicat sans fermeture.
 ordre: 13
 ---
 

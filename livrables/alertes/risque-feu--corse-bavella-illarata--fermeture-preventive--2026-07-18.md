@@ -5,10 +5,10 @@ itin: GR®20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-08-28
-statut: ACTIF (Illarata) — INCHANGÉ 28/08 : nouvelle recherche ciblée (corse-du-sud.gouv.fr
+verif: 2026-08-29
+statut: ACTIF (Illarata) — INCHANGÉ 29/08 : nouvelle recherche ciblée (corse-du-sud.gouv.fr
   actualités, recherche web dédiée), toujours aucun arrêté ni levée postérieur au 23/07/2026
-  trouvé pour Illarata. Écart désormais à 36 jours. Sévérité stable MOYENNE.
+  trouvé pour Illarata. Écart désormais à 37 jours. Sévérité stable MOYENNE.
 ordre: 30
 ---
 
