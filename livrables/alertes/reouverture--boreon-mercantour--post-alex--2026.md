@@ -5,11 +5,10 @@ itin: GR®52 / GTM (Mercantour)
 sev: INFO
 validite: rouvert 2026 via déviations rive g./dr.
 detection: 2026-06-29
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 27/08 : page mercantour-parcnational.fr info-sentiers mise à jour
-  le 22/08/2026 (voir ligne `sentiers|Mercantour|etat-sentiers-2026`), sans changement sur
-  le Boréon lui-même, toujours rouvert via déviations ; liste FFRando 06 (MAJ 12/07) ne
-  mentionne toujours pas le Boréon comme fermé.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : non revuérifié ce run faute de budget ; dernier état connu
+  (27/08, page mercantour-parcnational.fr du 22/08) reporté par défaut, Boréon toujours
+  rouvert via déviations.
 ordre: 6
 ---
 

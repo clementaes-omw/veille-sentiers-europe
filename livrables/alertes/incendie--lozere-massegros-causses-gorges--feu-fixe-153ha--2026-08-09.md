@@ -5,7 +5,7 @@ itin: GR®736 Sentier des gorges et de la vallée du Tarn ; GRP Tour du Causse d
 sev: MOYENNE
 validite: feu ÉTEINT depuis le 09/08/2026 16h31, aucune fermeture de sentier documentée
 detection: 2026-08-13
-verif: 2026-08-24
+verif: 2026-08-29
 statut: [CLÔTURÉ] (2026-08-24) — feu ÉTEINT : feuxdeforet.fr affiche désormais l'extinction
   du feu le 09/08/2026 à 16h31, sans reprise depuis. Aucun arrêté d'interdiction d'accès ni
   fermeture de sentier n'a jamais été documenté au-delà de l'état ponctuel de la RD67.
