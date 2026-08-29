@@ -7,12 +7,12 @@ validite: vigilance rouge confirmée par communiqué préfectoral daté du jeudi
   des 9 massifs (Corbières, Fenouillèdes, Aspres, Roussillon, Albères) ; statut des 4 autres
   massifs (Capcir, Cerdagne, Conflent, Vallespir) non tranché par ce texte
 detection: 2026-07-27
-verif: 2026-08-28
-statut: ACTIF — CHANGÉ 28/08 : un communiqué de la préfecture des Pyrénées-Orientales daté du
-  27/08/2026, cité intégralement par la mairie de Tordères, confirme la vigilance rouge et
-  l'interdiction totale d'accès/de feu sur 5 massifs. Sévérité remontée MOYENNE→HAUTE : le
-  texte explicite qui manquait depuis le 09/08 est retrouvé. Capcir/Cerdagne/Conflent/Vallespir
-  non cités par ce communiqué, à recouper au prochain passage.
+verif: 2026-08-29
+statut: ACTIF — INCHANGÉ 29/08 : nouvelle recherche, aucun communiqué ou article postérieur
+  au 27/08 retrouvé ; le texte préfectoral du 27/08 (5 massifs en vigilance rouge, cité par
+  la mairie de Tordères) reste la dernière donnée officielle. Sévérité maintenue HAUTE.
+  Capcir/Cerdagne/Conflent/Vallespir toujours non cités par ce communiqué, statut individuel
+  toujours non tranché.
 ordre: 56
 ---
 
