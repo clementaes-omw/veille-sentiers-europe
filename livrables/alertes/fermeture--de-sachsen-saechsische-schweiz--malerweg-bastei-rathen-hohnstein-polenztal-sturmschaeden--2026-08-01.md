@@ -5,17 +5,14 @@ itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ 
 sev: HAUTE
 validite: du 01/08 au 31/08/2026, prolongation de fait au-delà de cette date : un déploiement d'hélicoptère pour l'évacuation du bois endommagé est en cours depuis le 26/08/2026 autour de Rathen, avec fermetures annoncées jusqu'au 18/09/2026 environ, sans qu'aucune prolongation formelle de l'arrêté du 01/08 (échéance 31/08) ne soit publiée à ce jour ; réouverture progressive depuis le 07/08/2026 (Basteiweg puis Polenztal, Schwedenlöcher et haut de l'Amselgrund le 14/08) ; l'Amselsee et le bas de l'Amselgrund (Rathen↔Schwedenlöcher) restent fermés au 28/08/2026, et le secteur du Gamrig, rouvert le 07/08, referme le 26/08 pour la durée du chantier héliporté
 detection: 2026-08-06
-verif: 2026-08-29
-statut: ACTIF — INCHANGÉ 29/08 : saechsische-schweiz.de/gut-zu-wissen/aktuelles et
-  nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung revérifiés,
-  toujours datés du 26/08/2026, aucune publication plus récente. Périmètre identique à
-  celui du 27-28/08 : Amselsee et bas de l'Amselgrund toujours fermés, chantier héliporté
-  sur le Gamrig et la Rathener Straße toujours en cours jusqu'au 18/09 environ. Recherche
-  ciblée d'une prolongation officielle de l'Allgemeinverfügung au-delà de son échéance du
-  31/08 : aucune n'est publiée sur landratsamt-pirna.de à ce jour (la dernière ordonnance
-  retrouvée reste celle du 07/08, portant adaptations et libérations partielles) ; le
-  calendrier du chantier héliporté (jusqu'au 18/09) rend toutefois improbable une levée
-  totale au 31/08.
+verif: 2026-08-30
+statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, toujours aucune publication plus
+  récente que celle du 26/08 sur saechsische-schweiz.de/gut-zu-wissen/aktuelles et
+  nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung. Périmètre
+  inchangé : Amselsee et bas de l'Amselgrund toujours fermés, chantier héliporté sur le
+  Gamrig et la Rathener Straße en cours jusqu'au 18/09 environ. Aucune prolongation
+  formelle de l'Allgemeinverfügung (échéance du 31/08) retrouvée à ce jour, ce que le
+  calendrier du chantier héliporté rend improbable de toute façon.
 ordre: 99
 ---
 
