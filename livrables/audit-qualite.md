@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-08-30
 
-76 alertes actives · 2 fiches avec au moins un constat · **0 bloquant(s)**, 2 alerte(s), 0 info(s).
+76 alertes actives · 3 fiches avec au moins un constat · **0 bloquant(s)**, 2 alerte(s), 1 info(s).
 
 Carte : **2 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -10,6 +10,10 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 - **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — alerte rouge appuyée sur une source datée du 18/08 (12 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — la validité annoncée s'arrête au 27/08/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
+
+## · Dette de forme
+
+- **`risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01`** — « Zone (détails) » contient encore du jargon de veille (recherche ciblee) au lieu de l'état du terrain.
 
 ## 🗺 Cohérence carte / registre
 
