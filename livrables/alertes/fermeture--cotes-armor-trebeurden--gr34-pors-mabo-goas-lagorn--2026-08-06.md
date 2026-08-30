@@ -5,10 +5,10 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis le 06/08/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-08-19
-verif: 2026-08-19
-statut: ACTIF — NOUVEAU. Incendie du 05/08/2026 au soir, terrain sous surveillance. Déviation
-  balisée coordonnée avec la mairie de Trébeurden. Détection tardive de cette veille (2
-  semaines après les faits) : événement absent du registre jusqu'à ce run.
+verif: 2026-08-30
+statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, aucune annonce de réouverture ni
+  nouvelle publication du comité FFRandonnée 22 postérieure au 06/08 retrouvée. La
+  déviation balisée reste la seule information disponible.
 ordre: 175
 ---
 
