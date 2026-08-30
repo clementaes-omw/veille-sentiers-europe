@@ -9,15 +9,12 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-08-29
-statut: ACTIF — INCHANGÉ 29/08 : paysdesecrins.com revérifié directement, toujours daté
-  24/08/2026, aucune évolution (parcours 22/23 et côte de Pallon rouverts, cœur de massif
-  2/6/7/14/15, KV Freiss et via ferrata Grande Falaise toujours fermés par l'arrêté municipal
-  du 15/08). Aucune source postérieure au 24/08 trouvée pour le GR®54A nommément ni pour la
-  RD38. Sévérité maintenue HAUTE : fait établi (arrêté municipal sur le cœur de massif),
-  indépendant du sigle GR®54A. Ancienneté de la fermeture désormais 41 jours (détection
-  19/07) : le fait matériel (fermeture du massif) reste confirmé par un acte officiel daté du
-  15/08, donc non concerné par la règle de dégradation des hypothèses non confirmées.
+verif: 2026-08-30
+statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, aucune page paysdesecrins.com ni aucun
+  communiqué postérieur au 24/08 retrouvé. Cœur de massif (parcours 2/6/7/14/15, KV Freiss,
+  via ferrata Grande Falaise) toujours fermé par l'arrêté municipal du 15/08 ; parcours 22/23
+  et côte de Pallon restent rouverts depuis le 20/08. Sévérité maintenue HAUTE : fait établi
+  (arrêté municipal sur le cœur de massif), indépendant du sigle GR®54A.
 ordre: 41
 ---
 
