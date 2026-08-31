@@ -5,15 +5,13 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-29
-statut: ACTIF — CHANGÉ 29/08 : nouveau départ de feu distinct à Calenzana/Montegrosso
-  (27-28/08, 60-64 ha, fixé puis sous contrôle, voir fiche dédiée
-  `incendie|Corse-Calenzana|feu-Montegrosso-64ha|2026-08-27`), sans impact confirmé sur le
-  GR®20 lui-même. Fango/Bonifato/Agriate : une fermeture datée de 24h (samedi 29/08 7h au
-  dimanche 30/08 7h) est confirmée par corsenetinfos.corsica, portant pour la première fois
-  sur 4 secteurs nommés (Agriate Est, Agriate Ouest, Fangu, Bonifatu) contre 3 précédemment
-  (Fango/Bonifato/ouest Agriate seul). haute-corse.gouv.fr reste calé sur l'acte du 19/08.
-  Interdiction générale de feu (15/06→30/09) toujours en vigueur.
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche, haute-corse.gouv.fr toujours calé sur
+  l'acte du 19/08/2026 (13 jours de silence). Aucune source datée ne confirme la reconduction
+  de la fermeture ponctuelle de 24h du week-end (29/08 7h→30/08 7h, 4 secteurs Agriate Est,
+  Agriate Ouest, Fangu, Bonifatu) pour la semaine en cours : cette mesure ponctuelle est donc
+  traitée comme expirée sauf nouvelle publication. Interdiction générale de feu
+  (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 

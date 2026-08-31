@@ -3,14 +3,14 @@ cle: risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26
 type: risque feu / fermeture massifs
 itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ; HRP — [HYPOTHÈSE] recoupement tronçon par tronçon non fait
 sev: HAUTE
-validite: vigilance rouge confirmée par communiqué préfectoral daté du jeudi 27/08/2026 sur 5
-  des 9 massifs (Corbières, Fenouillèdes, Aspres, Roussillon, Albères) ; statut des 4 autres
-  massifs (Capcir, Cerdagne, Conflent, Vallespir) non tranché par ce texte
+validite: vigilance rouge en vigueur jusqu'à levée officielle sur 5 des 9 massifs (Corbières, Fenouillèdes, Aspres, Roussillon, Albères), confirmée par communiqué préfectoral du jeudi 27/08/2026 ; statut des 4 autres massifs (Capcir, Cerdagne, Conflent, Vallespir) non tranché par ce texte
 detection: 2026-07-27
-verif: 2026-08-30
-statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, aucun communiqué ou article postérieur
-  au 27/08 retrouvé ; le texte préfectoral du 27/08 (5 massifs en vigilance rouge, cité par
-  la mairie de Tordères) reste la dernière donnée officielle. Sévérité maintenue HAUTE.
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche (page officielle des communiqués d'août
+  de pyrenees-orientales.gouv.fr revérifiée en direct, dernier communiqué listé daté du
+  26/08 sur un tout autre sujet), aucun communiqué ou article postérieur au 27/08 retrouvé ;
+  le texte préfectoral du 27/08 (5 massifs en vigilance rouge, cité par la mairie de
+  Tordères) reste la dernière donnée officielle. Sévérité maintenue HAUTE.
   Capcir/Cerdagne/Conflent/Vallespir toujours non cités par ce communiqué, statut individuel
   toujours non tranché.
 ordre: 56

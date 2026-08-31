@@ -7,17 +7,13 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
 sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalité des évacués sont rentrés)
 validite: incendie déclaré CONTRÔLÉ le 21/08/2026 à 15h30 ; tous les évacués sont rentrés, y compris les 74 derniers habitants de Santa Cruz de la Serós ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) reste réglementée jusqu'au 15/09/2026 au moins, pour finir les opérations de sécurisation
 detection: 2026-08-17
-verif: 2026-08-24
-statut: ACTIF — CHANGÉ 22/08 : le feu passe de stabilisé à CONTRÔLÉ (déclaration officielle
-  du gouvernement d'Aragon, 21/08 15h30), après une phase de stabilisation confirmée la
-  veille. Les 74 derniers évacués, tous de Santa Cruz de la Serós, sont rentrés le 21/08 :
-  plus aucune commune n'est évacuée. Reste fermée, distincte du feu lui-même désormais
-  maîtrisé : la route A-1603 entre Santa Cruz de la Serós et Botaya, réglementée jusqu'au
-  15/09/2026 au moins pour terminer les travaux de sécurisation (chaussée sinueuse, pentes,
-  arbres autour du monastère vieux). Statut du monastère lui-même (rouvert ou non au public)
-  et du Camino Aragónés non tranché par les sources consultées ce jour. Sévérité dégradée
-  HAUTE→MOYENNE : le feu n'est plus une urgence active, la situation résiduelle est une
-  fermeture de route pour travaux avec échéance connue.
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche (mapasdeincendios.es consulté pour
+  l'Aragón, aucun incident recensé à Riglos), rien n'indique d'évolution depuis le 22/08. La
+  route A-1603 entre Santa Cruz de la Serós et Botaya reste réglementée jusqu'au 15/09/2026
+  au moins pour travaux de sécurisation. Statut du monastère lui-même (rouvert ou non au
+  public) et du Camino Aragónés toujours non tranché par les sources consultées. Sévérité
+  maintenue MOYENNE.
 ordre: 170
 ---
 

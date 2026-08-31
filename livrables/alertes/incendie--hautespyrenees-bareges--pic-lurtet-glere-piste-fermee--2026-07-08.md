@@ -2,20 +2,24 @@
 cle: incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08
 type: incendie / fermeture piste
 itin: GR®10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la Glère) — [HYPOTHÈSE] portion exacte du sentier HRP vs piste de la Glère à recouper
-sev: MOYENNE (dégradée depuis HAUTE le 05/08 — 15 jours sans confirmation malgré recherche ciblée dédiée, règle des 14 jours)
-validite: depuis le 08/07/2026, fermeture présumée maintenue jusqu'à nouvel ordre ; aucune source ne confirme ni l'extinction ni une nouvelle progression depuis le 28/07 (150 ha, dernier chiffre confirmé le 22/07)
+sev: MOYENNE (feu éteint selon deux sources recoupées le 31/08 ; piste de la Glère toujours non confirmée rouverte)
+validite: feu éteint (feuxdeforet.fr ; plus aucune détection satellite NASA FIRMS depuis début août) ; piste de la Glère présumée fermée jusqu'à nouvel ordre, faute de source confirmant sa réouverture
 detection: 2026-07-21
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche ciblée, toujours aucune source postérieure
-  au 28/07. Écart désormais à 31 jours. Sévérité maintenue MOYENNE (dégradation du 05/08,
-  règle des 14 jours). Le seul fait établi reste le terrain fragilisé par un feu ayant brûlé
-  au moins 150 ha en altitude sur pente raide.
+verif: 2026-08-31
+statut: ACTIF — CHANGÉ 31/08 : deux sources indépendantes convergent vers un feu éteint :
+  feuxdeforet.fr affiche désormais « le feu est éteint », et incendieencours.fr (données
+  satellite NASA FIRMS/VIIRS) ne relève plus aucune détection thermique sur ce foyer depuis
+  le 02/08/2026. Aucune source officielle (préfecture 65) ni presse ne confirme l'extinction
+  en propres termes datés, mais le recoupement est jugé suffisant pour mettre à jour la
+  fiche. L'état de la piste de la Glère elle-même (chutes de pierres, accès au refuge) reste
+  en revanche non tranché : aucune source ne mentionne sa réouverture. Sévérité maintenue
+  MOYENNE, la fermeture de la piste restant présumée par prudence.
 ordre: 39
 ---
 
 ## Portion concernée
 
-**Piste de la Glère (au-dessus de Barèges, 65) présumée toujours fermée par prudence.** Le sentier menant au refuge de la Glère est praticable, mais avec une grande prudence (risque de chutes de pierres). Aucun communiqué officiel disponible sur hautes-pyrenees.gouv.fr ne confirme l'état actuel du feu ni de la piste depuis le 28/07/2026, soit un silence de 8 jours. Le fait établi est un terrain fragilisé par le feu de forêt du Pic de Lurtet, déclenché par la foudre le 08/07/2026, dont ni l'extinction ni une reprise ne sont confirmées à ce jour.
+**Piste de la Glère (au-dessus de Barèges, 65) : feu de forêt du Pic de Lurtet déclaré éteint, état de la piste elle-même non confirmé.** feuxdeforet.fr affiche désormais le feu comme éteint, confirmé par l'absence de toute détection thermique satellite (NASA FIRMS/VIIRS) depuis le 02/08/2026. Aucune source, officielle ou de presse, ne documente en revanche la réouverture de la piste elle-même (risque de chutes de pierres sur le terrain fragilisé par le feu, qui avait brûlé au moins 150 ha en altitude sur pente raide) : elle reste présumée fermée par prudence.
 
 ## Alternative
 
@@ -37,6 +41,8 @@ MAJ 03/08 : toujours aucune source postérieure au 28/07 trouvée, silence déso
 
 MAJ 05/08 : dégradation HAUTE→MOYENNE appliquée (règle des 14 jours d'agent-prompt.md). 15 jours après la détection (21/07), aucune source postérieure au 28/07 n'a été retrouvée malgré une vérification dédiée de plusieurs sources (hautes-pyrenees.gouv.fr, lasemainedespyrenees.fr, toulouse7.com, feuxdeforet.fr). Ni l'extinction ni une nouvelle progression du feu ne sont confirmées ; la piste de la Glère reste présumée fermée par prudence, sur la seule base du terrain fragilisé constaté (150 ha brûlés en altitude, terrain instable).
 
+MAJ 31/08 : feuxdeforet.fr affiche désormais explicitement « le feu est éteint ». Recoupement obtenu via incendieencours.fr (données satellite NASA FIRMS/VIIRS) : plus aucune détection thermique sur ce foyer depuis le 02/08/2026 (dernières détections les 16/07, 28/07 et 02/08). Aucune source officielle (préfecture 65) ni presse datée ne confirme l'extinction en propres termes, mais le recoupement de deux sources indépendantes, dont une mesure satellite, est jugé suffisant pour acter le fait. L'état de la piste de la Glère elle-même (accès au refuge, risque de chutes de pierres) n'est en revanche mentionné par aucune source : elle reste présumée fermée par prudence, sévérité maintenue MOYENNE.
+
 ## Source
 
-[toulouse7.com 22/07, des foyers résiduels mais l'incendie est fixé](https://toulouse7.com/2026/07/22/des-foyers-residuels-mais-lincendie-a-bareges-est-fixe/) ; [lasemainedespyrenees.fr 22/07, le feu est fixé, la vigilance reste de mise](https://www.lasemainedespyrenees.fr/incendie-de-vegetation-a-bareges-le-feu-est-fixe-mais-la-vigilance-reste-de-mise) ; [france3-regions.franceinfo.fr 22/07 16h15, le feu près de Barèges est désormais fixé, 150 hectares](https://france3-regions.franceinfo.fr/occitanie/hautes-pyrenees/tarbes/incendie-en-cours-depuis-14-jours-le-feu-pres-de-bareges-est-desormais-fixe-3390430.html) ; [lasemainedespyrenees.fr 28/07, un feu toujours actif et qui progresse lentement](https://www.lasemainedespyrenees.fr/incendie-a-bareges-un-feu-toujours-actif-et-qui-progresse-lentement) ; [toulouse7.com 28/07, un incendie progresse depuis plus de 10 jours](https://toulouse7.com/2026/07/28/pyrenees-incendie/)
+[feuxdeforet.fr, fiche incendie Barèges, statut « éteint » relevé le 31/08/2026](https://feuxdeforet.fr/hautes-pyrenees-65/bareges-08-07-2026/) ; [incendieencours.fr, détections satellite NASA FIRMS, département Hautes-Pyrénées, consulté 31/08/2026](https://incendieencours.fr/) ; [toulouse7.com 22/07, des foyers résiduels mais l'incendie est fixé](https://toulouse7.com/2026/07/22/des-foyers-residuels-mais-lincendie-a-bareges-est-fixe/) ; [lasemainedespyrenees.fr 22/07, le feu est fixé, la vigilance reste de mise](https://www.lasemainedespyrenees.fr/incendie-de-vegetation-a-bareges-le-feu-est-fixe-mais-la-vigilance-reste-de-mise) ; [france3-regions.franceinfo.fr 22/07 16h15, le feu près de Barèges est désormais fixé, 150 hectares](https://france3-regions.franceinfo.fr/occitanie/hautes-pyrenees/tarbes/incendie-en-cours-depuis-14-jours-le-feu-pres-de-bareges-est-desormais-fixe-3390430.html) ; [lasemainedespyrenees.fr 28/07, un feu toujours actif et qui progresse lentement](https://www.lasemainedespyrenees.fr/incendie-a-bareges-un-feu-toujours-actif-et-qui-progresse-lentement) ; [toulouse7.com 28/07, un incendie progresse depuis plus de 10 jours](https://toulouse7.com/2026/07/28/pyrenees-incendie/)

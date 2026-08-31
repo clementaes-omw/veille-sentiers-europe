@@ -5,10 +5,12 @@ itin: Aucun P1 identifié — sentier local du PN des Pyrénées, à recouper
 sev: INFO
 validite: fermeture depuis le 15/07/2026, maintenue jusqu'à nouvel ordre (aucune date de réouverture annoncée)
 detection: 2026-07-20
-verif: 2026-08-24
-statut: ACTIF — INCHANGÉ 16/08 : pyrenees-parcnational.fr revérifié, le chantier forestier
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : pyrenees-parcnational.fr revérifié, le chantier forestier
   du Moundelhs reste la seule fermeture de sentier annoncée dans le Parc national des
-  Pyrénées, toujours « jusqu'à nouvel ordre », aucune mise à jour depuis le 10/07.
+  Pyrénées, toujours « jusqu'à nouvel ordre », aucune mise à jour depuis le 10/07. Une
+  actualité distincte du 04/08 sur la réglementation des cours d'eau et zones humides dans
+  le cœur du parc a été relevée mais ne concerne aucun sentier nommé, sans action requise.
 ordre: 38
 ---
 

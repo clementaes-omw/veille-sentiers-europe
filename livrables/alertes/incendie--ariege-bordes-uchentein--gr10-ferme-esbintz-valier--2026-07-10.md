@@ -5,13 +5,14 @@ itin: GR®10 (secteur Couserans/Val du Biros, tronçon Ayès↔Cap des Lauses al
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses (alias secteur Bassiès) fermé depuis le 02/08 (incendie/éboulement, chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (6 jours de silence au 30/08)
 detection: 2026-07-20
-verif: 2026-08-30
-statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, aucune annonce de réouverture du GR®10
-  Ayès↔Cap des Lauses trouvée. AP interdiction totale du feu : 6 jours de silence depuis
-  l'échéance du 24/08 (ariege.gouv.fr/Publications/Actualites relu, pyreneesfm.com
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche, aucune annonce de réouverture du GR®10
+  Ayès↔Cap des Lauses trouvée. AP interdiction totale du feu : 7 jours de silence depuis
+  l'échéance du 24/08 (ariege.gouv.fr/Publications/Actualites relu, pyreneesfm.com/departement/ariege
   revérifié) sans 5e reconduction ni levée trouvée ; la sévérité HAUTE ne repose pas sur cet
   arrêté mais sur les sources datées de la fermeture GR®10, donc la règle des 14 jours ne
-  s'applique pas ici.
+  s'applique pas ici. Une mention non datée et non corroborée d'un feu à la frontière
+  Ariège/Haute-Garonne, relevée sur un réseau social, reste à recouper au prochain passage.
 ordre: 34
 ---
 
