@@ -2,25 +2,22 @@
 cle: risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17
 type: risque feu / fermeture massif (journalier)
 itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
-sev: MOYENNE (gap comblé 29/08 — nouvelle fermeture confirmée par une source de presse unique pour le 29/08 ; reste MOYENNE faute d'une 2e source ou d'un communiqué officiel)
-validite: journalière selon la préfecture ; fermeture confirmée pour le samedi 29/08/2026 (rouge, très sévère) par presseagence.fr, publié 28/08 ; le gap de 22 jours sans source (07→28/08) est comblé
+sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
+validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-08-29
-statut: ACTIF — CHANGÉ 29/08 : le silence de 22 jours est rompu. presseagence.fr (publié
-  28/08/2026, date vérifiée directement) annonce la fermeture du massif Esterel-Tanneron
-  (rouge, très sévère, accès/circulation/travaux interdits) pour ce samedi 29/08/2026.
-  Toujours aucun communiqué officiel de la préfecture des Alpes-Maritimes trouvé (espace
-  presse non revuérifié ce jour, la dernière liste connue au 27/08 ne comptait que 3 titres
-  d'août sans rapport). Source de presse unique : sévérité maintenue MOYENNE. Le fait que le
-  massif recommence à fermer confirme qu'il n'y a pas eu de levée silencieuse depuis le 06/08 ;
-  reste inconnu ce qui s'est passé entre le 07 et le 28/08 (fermetures non publiées, ou
-  absence de journées à risque très sévère).
+verif: 2026-08-31
+statut: ACTIF — CHANGÉ 31/08 : la fermeture du massif Esterel-Tanneron est reconfirmée pour
+  ce lundi 31/08/2026 par presseagence.fr (publié 30/08/2026), cohérente avec la fermeture
+  confirmée le même week-end côté Var (Estérel varois, voir `risque-feu|Var-83|…`). C'est la
+  2e confirmation depuis la reprise du 29/08, après 22 jours de silence entre le 07 et le
+  28/08. Toujours aucun communiqué officiel de la préfecture des Alpes-Maritimes trouvé.
+  Source de presse unique : sévérité maintenue MOYENNE.
 ordre: 102
 ---
 
 ## Portion concernée
 
-**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : **fermé (accès, circulation et travaux interdits) ce samedi 29/08/2026**, classé risque incendie très sévère (rouge). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère ; un silence de 22 jours dans les sources suivies (07 au 28/08) est comblé par cette nouvelle fermeture confirmée. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction.
+**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : **fermé (accès, circulation et travaux interdits) ce lundi 31/08/2026**, classé risque incendie très sévère (rouge), pour la deuxième fois depuis la reprise du 29/08 qui avait mis fin à un silence de 22 jours dans les sources suivies (07 au 28/08). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction.
 
 ## Alternative
 
@@ -54,6 +51,8 @@ Vérifié le 28/08/2026 : nouvelle recherche dédiée (presse locale, requêtes 
 
 Vérifié le 29/08/2026 : le silence est rompu. presseagence.fr publie le 28/08/2026 (date de publication vérifiée directement par lecture de la page) l'annonce d'une fermeture du massif Esterel-Tanneron pour le samedi 29/08/2026, classé rouge/très sévère, accès et circulation strictement interdits. C'est la première confirmation d'une fermeture depuis celle du 6 août. Aucune 2e source de presse indépendante n'a été trouvée pour recouper cette annonce précise du 29/08 (nicepremium.fr et cannes-actus.com n'ont livré que des articles anciens lors de la recherche) ; aucun communiqué officiel de la préfecture des Alpes-Maritimes daté du 28/08 n'a été localisé. Ce qui s'est passé entre le 7 et le 28 août (22 jours) reste non documenté : fermetures possibles mais non publiées dans les sources suivies, ou absence de journées classées très sévère sur cette période. Sévérité maintenue MOYENNE (source de presse unique).
 
+Vérifié le 31/08/2026 : nouvelle fermeture confirmée pour ce lundi 31/08/2026 par presseagence.fr (publié 30/08/2026), cohérente avec la fermeture du même massif côté Var (Estérel varois) confirmée sur la même période. C'est la 2e confirmation en 3 jours, après la reprise du 29/08. Toujours aucun communiqué officiel de la préfecture des Alpes-Maritimes localisé.
+
 ## Source
 
-[presseagence.fr, publié 28/08/2026, fermeture des massifs Esterel-Tanneron pour risque très sévère ce samedi 29 août](https://presseagence.fr/nice-vigilance-incendie-fermeture-des-massifs-esterel-tanneron-pour-risque-tres-severe/) ; [presseagence.fr, 05/08/2026, risque incendie très sévère dans le massif de l'Esterel ce jeudi 6 août](https://presseagence.fr/nice-feux-de-foret-risque-tres-severe-dans-le-massif-de-lesterel-ce-jeudi-6-aout/) ; [presseagence.fr, risque incendie très sévère dans l'Esterel ce lundi 3 août](https://presseagence.fr/nice-feux-de-foret-risque-dincendie-tres-severe-ce-lundi-dans-le-massif-de-lesterel-tanneron/) ; [presseagence.fr, risque d'incendie très sévère dans l'Esterel ce dimanche 2 août](https://presseagence.fr/nice-feux-de-foret-le-massif-de-lesterel-tanneron-place-en-risque-tres-severe-ce-dimanche/) ; [presseagence.fr, accès interdit dans l'Estérel et le Tanneron ce samedi 1er août](https://presseagence.fr/nice-incendies-risque-tres-severe-les-massifs-de-lesterel-et-du-tanneron-fermes-ce-samedi/) ; [nicepremium.fr, 03/08/2026, 7e journée classée en risque très sévère depuis le 17 juillet](https://www.nicepremium.fr/actualites/feux-de-foret-dans-les-alpes-maritimes-7e-journee-en-risque-tres-severe-sur-fond-de-canicule/) ; [cannes-actus.com, massifs du Tanneron et de l'Estérel fermés ce lundi 27 juillet](https://cannes-actus.com/faits-divers/risque-incendie-esterel-tanneron/) ; [france3-regions.franceinfo.fr, massifs interdits au public lundi 27 juillet](https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/risque-d-incendie-les-massifs-forestiers-de-l-esterel-et-du-tanneron-interdits-au-public-lundi-27-juillet-3392554.html)
+[presseagence.fr, publié 30/08/2026, risque très sévère, les massifs Estérel et Tanneron fermés ce lundi](https://presseagence.fr/nice-feux-de-foret-risque-tres-severe-les-massifs-esterel-et-tanneron-fermes-ce-lundi/) ; [presseagence.fr, publié 28/08/2026, fermeture des massifs Esterel-Tanneron pour risque très sévère ce samedi 29 août](https://presseagence.fr/nice-vigilance-incendie-fermeture-des-massifs-esterel-tanneron-pour-risque-tres-severe/) ; [presseagence.fr, 05/08/2026, risque incendie très sévère dans le massif de l'Esterel ce jeudi 6 août](https://presseagence.fr/nice-feux-de-foret-risque-tres-severe-dans-le-massif-de-lesterel-ce-jeudi-6-aout/) ; [presseagence.fr, risque incendie très sévère dans l'Esterel ce lundi 3 août](https://presseagence.fr/nice-feux-de-foret-risque-dincendie-tres-severe-ce-lundi-dans-le-massif-de-lesterel-tanneron/) ; [presseagence.fr, risque d'incendie très sévère dans l'Esterel ce dimanche 2 août](https://presseagence.fr/nice-feux-de-foret-le-massif-de-lesterel-tanneron-place-en-risque-tres-severe-ce-dimanche/) ; [presseagence.fr, accès interdit dans l'Estérel et le Tanneron ce samedi 1er août](https://presseagence.fr/nice-incendies-risque-tres-severe-les-massifs-de-lesterel-et-du-tanneron-fermes-ce-samedi/) ; [nicepremium.fr, 03/08/2026, 7e journée classée en risque très sévère depuis le 17 juillet](https://www.nicepremium.fr/actualites/feux-de-foret-dans-les-alpes-maritimes-7e-journee-en-risque-tres-severe-sur-fond-de-canicule/) ; [cannes-actus.com, massifs du Tanneron et de l'Estérel fermés ce lundi 27 juillet](https://cannes-actus.com/faits-divers/risque-incendie-esterel-tanneron/) ; [france3-regions.franceinfo.fr, massifs interdits au public lundi 27 juillet](https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/risque-d-incendie-les-massifs-forestiers-de-l-esterel-et-du-tanneron-interdits-au-public-lundi-27-juillet-3392554.html)

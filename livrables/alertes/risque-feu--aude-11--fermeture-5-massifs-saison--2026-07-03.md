@@ -5,11 +5,14 @@ itin: GR®36 & GR®78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (cô
 sev: MOYENNE
 validite: 03/07→31/08/2026 (prolongation possible) ; Ribaute jusqu'à levée AP
 detection: 2026-07-06
-verif: 2026-08-29
-statut: ACTIF — INCHANGÉ 29/08 : nouvelle recherche, page aude.gouv.fr « FERMETURE DES
-  MASSIFS 2026 » toujours datée MAJ 06/08, contenu identique. Dernier état sûr inchangé :
-  mêmes fermetures (Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise
-  03/07→31/08 ; île Ste-Lucie ; Cavayrère progressive ; Ribaute post-incendie).
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » toujours
+  datée MAJ 06/08, contenu identique. Point de vigilance pour le prochain passage : la
+  fermeture de la Pinède Lézignanaise (03/07→31/08) arrive à échéance ce jour même, sans
+  qu'aucune prolongation n'ait été publiée à ce stade (le texte mentionne une
+  « prolongation possible ») ; à trancher lors de la prochaine vérification. Les autres
+  fermetures (Fontfroide, Pinèdes de Crémade, la Clape ; île Ste-Lucie ; Cavayrère
+  progressive ; Ribaute post-incendie) restent inchangées.
 ordre: 17
 ---
 
