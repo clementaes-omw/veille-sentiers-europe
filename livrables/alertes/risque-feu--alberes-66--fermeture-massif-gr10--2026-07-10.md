@@ -5,8 +5,8 @@ itin: GR®10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-
 sev: HAUTE
 validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
 detection: 2026-07-20
-verif: 2026-08-30
-statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, aucune levée ni republication trouvée sur
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche, aucune levée ni republication trouvée sur
   les deux arrêtés municipaux eux-mêmes (Sorède jusqu'au 13/09/2026, Argelès « jusqu'à nouvel
   ordre »). Le communiqué préfectoral du 27/08 sur la vigilance rouge départementale (voir
   `risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|…`), qui cite nommément les
@@ -30,7 +30,7 @@ MAJ 24/07 : 2 communes supplémentaires sont précisées comme concernées par d
 
 MAJ 26/07 : la référence de l'arrêté qui renforce l'interdiction dans ces 4 communes a été retrouvée, ARR2026-024PM (17/07/2026).
 
-Distinct de l'incendie de Trévillach (Fenouillèdes, secteur géographique différent) ET distinct de la fermeture du sentier littoral E12 Argelès↔Cerbère (glissement de terrain depuis janvier 2026, cause non incendiaire, voir ligne dédiée `fermeture|PO-66-Argeles-Cerbere|…`).
+Distinct de l'incendie de Trévillach (Fenouilledes, secteur géographique différent) ET distinct de la fermeture du sentier littoral E12 Argelès↔Cerbère (glissement de terrain depuis janvier 2026, cause non incendiaire, voir ligne dédiée `fermeture|PO-66-Argeles-Cerbere|…`).
 
 MAJ 31/07 : toujours en vigueur, aucune source de levée trouvée ; le massif est de toute façon recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales déclenchée le 26/07 (voir fiche `risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs`).
 
