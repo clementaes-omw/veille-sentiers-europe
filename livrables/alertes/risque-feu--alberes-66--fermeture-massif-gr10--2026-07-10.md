@@ -30,7 +30,7 @@ MAJ 24/07 : 2 communes supplémentaires sont précisées comme concernées par d
 
 MAJ 26/07 : la référence de l'arrêté qui renforce l'interdiction dans ces 4 communes a été retrouvée, ARR2026-024PM (17/07/2026).
 
-Distinct de l'incendie de Trévillach (Fenouilledes, secteur géographique différent) ET distinct de la fermeture du sentier littoral E12 Argelès↔Cerbère (glissement de terrain depuis janvier 2026, cause non incendiaire, voir ligne dédiée `fermeture|PO-66-Argeles-Cerbere|…`).
+Distinct de l'incendie de Trévillach (Fenouillèdes, secteur géographique différent) ET distinct de la fermeture du sentier littoral E12 Argelès↔Cerbère (glissement de terrain depuis janvier 2026, cause non incendiaire, voir ligne dédiée `fermeture|PO-66-Argeles-Cerbere|…`).
 
 MAJ 31/07 : toujours en vigueur, aucune source de levée trouvée ; le massif est de toute façon recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales déclenchée le 26/07 (voir fiche `risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs`).
 

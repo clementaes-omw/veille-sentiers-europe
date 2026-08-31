@@ -20,7 +20,7 @@ ordre: 179
 
 ## Portion concernée
 
-**Tous les massifs forestiers des Hautes-Pyrénées (formations boisées de plus de 0,5 hectare)** : l'emploi du feu est interdit en forêt et jusqu'à 200 mètres des bois, l'accès à l'aide de véhicules à moteur est interdit hors voies revetêes, et la pénétration dans les massifs est fortement déconseillée à tous les usagers. Raison : risque d'incendie très élevé, arrêté préfectoral du 24/07/2026 applicable depuis le 27/07/2026, complété par un second arrêté le 30/07/2026.
+**Tous les massifs forestiers des Hautes-Pyrénées (formations boisées de plus de 0,5 hectare)** : l'emploi du feu est interdit en forêt et jusqu'à 200 mètres des bois, l'accès à l'aide de véhicules à moteur est interdit hors voies revêtues, et la pénétration dans les massifs est fortement déconseillée à tous les usagers. Raison : risque d'incendie très élevé, arrêté préfectoral du 24/07/2026 applicable depuis le 27/07/2026, complété par un second arrêté le 30/07/2026.
 
 ## Alternative
 
@@ -28,7 +28,7 @@ Sans objet : aucun sentier n'est fermé par ce texte, qui réglemente l'usage du
 
 ## Zone (détails)
 
-28/07 : la préfecture des Hautes-Pyrénées publie un communiqué annonçant un arrêté (n° 65-2026-07-24-00002) réglementant l'accès et les activités dans et à proximité de tous les massifs forestiers du département, en vigueur depuis le lundi 27/07/2026. Sont interdits l'emploi du feu en forêt et jusqu'à 200 m des bois, ainsi que l'accès motorisé hors voies revetêes. Les travaux professionnels capables de produire des étincelles restent autorisés sous conditions (créneaux horaires, moyens d'extinction sur place), avec des dérogations pour les activités agricoles et pastorales. Les mesures s'appliquent « à compter de lundi 27 juillet et évolueront en fonction des conditions climatiques », sans date de fin annoncée.
+28/07 : la préfecture des Hautes-Pyrénées publie un communiqué annonçant un arrêté (n° 65-2026-07-24-00002) réglementant l'accès et les activités dans et à proximité de tous les massifs forestiers du département, en vigueur depuis le lundi 27/07/2026. Sont interdits l'emploi du feu en forêt et jusqu'à 200 m des bois, ainsi que l'accès motorisé hors voies revêtues. Les travaux professionnels capables de produire des étincelles restent autorisés sous conditions (créneaux horaires, moyens d'extinction sur place), avec des dérogations pour les activités agricoles et pastorales. Les mesures s'appliquent « à compter de lundi 27 juillet et évolueront en fonction des conditions climatiques », sans date de fin annoncée.
 
 30/07 : un second arrêté (n° 65-2026-07-30-00004) précise le dispositif, en confirmant qu'il couvre toutes les formations boisées de plus de 0,5 hectare du département. La levée de la mesure est conditionnée à l'amélioration du climat et de l'humidité des sols.
 
