@@ -3,17 +3,15 @@ cle: incendie|Corse-Calenzana|feu-Montegrosso-64ha|2026-08-27
 type: incendie
 itin: GR®20 (départ de Calenzana, étape 1 Calenzana↔Ortu di u Piobbu) [HYPOTHÈSE — aucune source ne confirme de fermeture du sentier lui-même, le feu a touché la plaine et le lotissement de Pantanacce à Montegrosso, en contrebas du village de départ]
 sev: MOYENNE
-validite: feu fixé dans la nuit du 27 au 28/08/2026, donné « sous contrôle » depuis le 28/08 après-midi ; aucune restriction de sentier confirmée à ce jour
+validite: feu de Calenzana-Montegrosso fixé dans la nuit du 27 au 28/08/2026, sous contrôle depuis le 28/08 après-midi ; aucune restriction de sentier confirmée à ce jour, situation suivie jusqu'à nouvel ordre
 detection: 2026-08-29
-verif: 2026-08-29
-statut: ACTIF — NOUVEAU 29/08 : feu de Calenzana/Montegrosso (parti le 27/08), fixé le
-  soir même puis donné « sous contrôle » le 28/08 après-midi. Aucune source (pnr.corsica,
-  gr20-infos.com, haute-corse.gouv.fr) ne documente de fermeture du GR®20 lui-même : la
-  page gr20-infos.com/incendie/ reste calée sur sa version du 22/07 (épisode Albertacce,
-  déjà clôturé), sans mention de Calenzana. À recouper au prochain run : réouverture
-  complète confirmée, éventuel impact sur les navettes/hébergements de départ du GR®20 à
-  Calenzana lui-même (village non touché directement, c'est le hameau de Pantanacce à
-  Montegrosso qui est sinistré).
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche, gr20-infos.com/incendie/ toujours calée
+  sur sa version du 22/07 (épisode Albertacce, déjà clôturé), sans mention de Calenzana ni
+  de Montegrosso. Aucune source ne documente d'impact sur le GR®20 lui-même. Aucun bilan de
+  réouverture complète ni de conséquence sur les navettes/hébergements de départ à Calenzana
+  retrouvé (village non touché directement, c'est le hameau de Pantanacce à Montegrosso qui
+  est sinistré). Sévérité maintenue MOYENNE.
 ordre: 181
 ---
 
