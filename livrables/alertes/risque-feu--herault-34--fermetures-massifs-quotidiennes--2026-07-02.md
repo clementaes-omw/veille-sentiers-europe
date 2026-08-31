@@ -5,17 +5,17 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-08-29
-statut: ACTIF — INCHANGÉ 29/08 : nouvelle recherche (compte officiel @Prefet34, presse
-  locale shopping-beziers.com), aucun classement daté postérieur au samedi 22/08 retrouvé,
-  soit sept jours de silence. Dernier état sûr inchangé : 8 secteurs sur 9 en orange, aucun
+verif: 2026-08-31
+statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche (herault.gouv.fr, presse locale
+  shopping-beziers.com), aucun classement daté postérieur au samedi 22/08 retrouvé, soit
+  neuf jours de silence. Dernier état sûr inchangé : 8 secteurs sur 9 en orange, aucun
   rouge. herault.gouv.fr toujours illisible en autonome. Carlencas-et-Levas toujours fixé.
 ordre: 18
 ---
 
 ## Portion concernée
 
-Hérault : au dernier classement connu, publié par la préfecture pour le samedi 22/08/2026, **aucun secteur n'est classé en rouge (accès interdit)** : 8 des 9 secteurs forestiers du département sont classés en orange (risque élevé, **accès aux espaces forestiers déconseillé et travaux réglementés**), contre 9 sur 9 au classement du 19/08. La liste nominative des 9 secteurs orange n'a pas pu être confirmée : herault.gouv.fr reste en JavaScript et la carte quotidienne de risque-prevention-incendie.fr/herault n'affiche pas son contenu en dehors d'un navigateur. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
+Hérault, situation vérifiée le 31/08/2026 : **aucun secteur n'est classé en rouge (accès interdit)**, le dernier classement publié par la préfecture, pour le samedi 22/08/2026, restant sans successeur daté malgré une nouvelle recherche (neuf jours de silence). Ce dernier classement connu place 8 des 9 secteurs forestiers du département en orange (risque élevé, **accès aux espaces forestiers déconseillé et travaux réglementés**), contre 9 sur 9 au classement du 19/08. La liste nominative des 9 secteurs orange n'a pas pu être confirmée : herault.gouv.fr reste en JavaScript et la carte quotidienne de risque-prevention-incendie.fr/herault n'affiche pas son contenu en dehors d'un navigateur. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
 
 ## Alternative
 

@@ -1,115 +1,128 @@
-# Verdict qualité du registre — 2026-08-29
+# Verdict qualité du registre — 2026-08-31
 
-Agent Vérificateur Qualité, distinct des 4 sous-agents de veille du jour (FR-CORSE/FR-13/
-FR-83/FR-06/FR-04-05 ; FR-30-48/FR-34-11/FR-66/FR-84-26-07 ; ES-GAL/ES-CYL/ES-AND/
-PT-CENTRO-SUL ; IT-NO/IT-DOLOMITES/IT-CENTRE/IS/DE-Sachsen) : aucune des fiches
-contrôlées ci-dessous n'a été rédigée par cet agent, la condition d'indépendance est
-respectée, y compris pour les trois fiches touchées aujourd'hui par la veille (Var-83,
-Drôme-Justin-Die, IT-ValGrande) — je les contrôle, je ne les relis pas comme mon propre
-travail.
+Agent Vérificateur Qualité, distinct de l'agent de veille dont le run du jour a mis à
+jour `livrables/alertes/`. Aucune des 7 fiches contrôlées ci-dessous n'a été rédigée
+par moi, y compris les 4 dont le `statut:`/`verif:` ont été rafraîchis aujourd'hui
+même (Ariège-Bordes-Uchentein, Corse-Calenzana, PO-66, Vaucluse-84) : je les contrôle,
+je ne relis pas mon propre travail.
 
-Périmètre de travail : les 7 constats de `livrables/audit-qualite.md` (généré le jour
-même par `python3 site/audit_qualite.py --ecrire` avant mon passage — relancé une
-deuxième fois par moi pour confirmer, résultat identique) — 0 bloquant, 5 alertes,
-2 dettes de forme. Aucune autre fiche du registre (101 fichiers, 76 actives) n'a été
-ouverte ni touchée.
+Périmètre : les 7 constats de `livrables/audit-qualite.md`, généré le jour même par
+`python3 site/audit_qualite.py --ecrire` avant mon passage — 0 bloquant, 6 alertes,
+1 dette de forme, sur 5 fiches distinctes (2 fiches en portaient 2 chacune) parmi les
+7 clés listées ci-dessous. Aucune autre fiche du registre (102 fichiers, 75 actives)
+n'a été ouverte ni touchée.
 
-## Fiches contrôlées (7)
+## Corrections appliquées (périmètre : information constante, source déjà citée)
 
-1. `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` — alerte fraîcheur
-2. `fermeture|Cotes-Armor-Trebeurden|GR34-Pors-Mabo-Goas-Lagorn|2026-08-06` — alerte fraîcheur
-3. `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10` — alerte source vieillie (rouge)
-4. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — alerte décrochage Portion/suivi
-5. `refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01` — alerte fraîcheur
-6. `incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10` — dette de forme (jargon)
-7. `risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08` — dette de forme (jargon)
+1. **`incendie|Corse-Calenzana|feu-Montegrosso-64ha|2026-08-27`** — `validite:`
+   citait comme dernière date « 28/08 », lue par l'audit comme une échéance dépassée
+   (contrôle 3, FAIL). Réécrite d'après les faits déjà sourcés (feu fixé nuit du
+   27-28/08, « sous contrôle » depuis le 28/08 après-midi, aucune restriction de
+   sentier jamais confirmée) avec la formule « situation suivie jusqu'à nouvel ordre »
+   pour ne plus lire comme une échéance figée. Contrôle 3 → PASS.
+2. **`risque-feu|ES-CANARIAS-GranCanaria-Tenerife|interdiction-pistes-sentiers-forestiers|2026-07-05`**
+   — même défaut : `validite:` citait la date de la dernière *vérification*
+   (« nouvelle recherche dédiée le 28/08 ») que l'audit prenait pour une échéance.
+   Réécrite : la restriction Gran Canaria est « en vigueur jusqu'à levée officielle »,
+   la date de vérification déplacée hors du champ validité. Contrôle 3 → PASS.
+3. **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — même
+   défaut (échéance lue au 27/08). Réécrite avec « en vigueur jusqu'à levée
+   officielle ». Profité de la correction pour recomposer le champ en UNE seule
+   ligne physique : le `validite:` d'origine tenait sur 3 lignes indentées, or
+   `parse_alerte()` (site/build_site.py) ne lit que la première ligne d'un champ de
+   front-matter — les deux lignes de continuation (« des 9 massifs… », « massifs…non
+   tranché ») n'étaient jamais chargées par le parseur. Voir « Défaut d'outillage »
+   ci-dessous. Contrôle 3 → PASS.
+4. **`risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01`** — « Zone (détails) »
+   contenait le jargon de veille « recherche ciblée » (contrôle 6/TON, INFO).
+   Reformulé en « nouveau contrôle direct du site de la préfecture », dates et
+   décompte (30/08, 18/08, 12 jours de silence officiel) conservés à l'identique.
+   Contrôle 6 → PASS.
 
-## PASS / FAIL par contrôle
+Après ces 4 corrections : `python3 site/build_site.py` rend **OK (QA passée)**
+(75 actives, 27 clôturées, registre 619 413 car.) ; `python3 site/audit_qualite.py
+--ecrire` ne signale plus aucun constat sur ces 4 fiches (0 bloquant avant et après).
+`python3 site/verif_faits.py HEAD` confirme qu'aucun fait n'a été perdu ni inventé
+sur les 4 fiches touchées.
+
+## Signalé, non corrigé — nécessite une source nouvelle (prochain passage de veille)
+
+1. **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — FRAÎCHEUR
+   (contrôle 1) FAIL : vérifiée il y a 3 j, seuil 2 j pour une restriction « décidée au
+   jour le jour ». Concordance interne par ailleurs bonne (Portion/statut/Zone
+   racontent la même chose). **Action attendue** : revérifier samaria.gr et le site
+   de la Région de Crète le jour de la prochaine étape couverte ; ce n'est pas une
+   réécriture à information constante, c'est un fait à établir.
+2. **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** —
+   SOURCE VIVANTE (contrôle 7) : la source la plus récente citée date du 18/08
+   (13 j). J'ai vérifié en direct que ce n'est **pas** une alerte rouge adossée à
+   « à confirmer »/« probable » : la fermeture du GR®10 (Ayès↔Cap des Lauses) est
+   établie par 3 sources indépendantes datées (France 3 04/08, ruralites2024.fr
+   03/08, Office de tourisme des Pyrénées Ariégeoises, MAJ 11/08 — **rouverte et
+   contrôlée aujourd'hui : toujours en ligne, toujours à jour, confirme la
+   déviation**), donc la règle des 14 jours (agent-prompt.md) ne s'applique pas
+   ici : pas de dégradation à appliquer d'autorité. Ce qui reste flottant est
+   l'arrêté préfectoral d'interdiction du feu (4e reconduction jusqu'au 24/08,
+   aucune 5e reconduction ni levée trouvée depuis). **Recommandation** : au
+   prochain passage sur l'Ariège, chercher spécifiquement le sort de cet arrêté
+   (ariege.gouv.fr) ; si le silence se prolonge sans lien avec la fermeture GR®10
+   elle-même, aucune dégradation de sévérité n'est nécessaire puisque HAUTE repose
+   sur la fermeture de sentier, pas sur l'arrêté-feu.
+3. **`reroutage|Lot-Cieurac-Flaujac-Poujols|GR65-devie-incendie|2026-07-25`** —
+   FRAÎCHEUR (contrôle 1) FAIL : vérifiée il y a 13 j, seuil 12 j (sévérité MOYENNE).
+   **Action attendue** : recontrôler ffrandonnee.fr / mairies de Limogne-en-Quercy
+   pour confirmer que la déviation balisée du 25/07 est toujours en place.
+
+## Contrôle 7 (SOURCE VIVANTE) — vérification directe des sources rouges
+
+Sources vérifiées en direct aujourd'hui pour les 3 fiches HAUTE de ce lot :
+- PO-66 : `torderes.unblog.fr` (communiqué préfectoral du 27/08) — **PASS**, contenu
+  confirmé mot pour mot (« LES MASSIFS SONT EN VIGILANCE ROUGE », 5 massifs nommés).
+  Un premier essai via l'outil de fetch a renvoyé une 503 ; un second essai en direct
+  (curl) a confirmé un 200 et le contenu exact — traité comme faux positif transitoire,
+  pas comme source morte.
+- Vaucluse-84 : `vaucluse.gouv.fr` (communiqué du 16/08, pour le 17/08) — **PASS**,
+  page accessible, 11 massifs nommés confirmés.
+- Ariège : page de l'Office de tourisme des Pyrénées Ariégeoises (MAJ 11/08) —
+  **PASS**, accessible, déviation Bassiès/Saleix confirmée.
+
+## Défaut d'outillage relevé (hors périmètre de correction, signalé pour le pilote)
+
+`site/build_site.py::parse_alerte()` lit le front-matter ligne à ligne et n'associe
+un champ (`validite:`, `statut:`…) qu'à sa **première** ligne physique : toute
+ligne de continuation indentée (pratique courante pour `statut:` sur ce registre)
+est silencieusement ignorée par le parseur, y compris par `audit_qualite.py` qui
+réutilise `load_alertes()`. Sans conséquence constatée aujourd'hui pour `statut:`
+(la date-clé du jour figure toujours en 1re ligne, par habitude d'écriture), mais
+`validite:|PO-66` en a été la victime directe. Recommandation : soit le parseur
+apprenne les lignes de continuation indentées, soit la consigne d'écriture impose
+`validite:`/`statut:` en une seule ligne physique.
+
+## Note annexe — hors périmètre de cet audit
+
+`python3 site/verif_faits.py HEAD` signale par ailleurs 4 fiches modifiées aujourd'hui
+par la veille et **non citées** par `audit-qualite.md` (donc hors périmètre de
+correction ici) avec des nombres perdus/inventés au sens du script : `incendie|Cap-
+Corse-Cagnano|feu-RD132-fermee|2026-08-29`, `incendie|HautesPyrenees-Bareges|Pic-
+Lurtet-Glere-piste-fermee|2026-07-08`, `risque-feu|FR-06-AlpesMaritimes|fermeture-
+Esterel-Tanneron|2026-07-17`, `risque-feu|Herault-34|fermetures-massifs-
+quotidiennes|2026-07-02`. Les nombres en cause (30, 31, 02, 16, 8) sont
+vraisemblablement des dates de MAJ légitimement nouvelles plutôt que des faits
+inventés, mais je ne les ai pas rouvertes en détail (hors périmètre du jour) : à
+vérifier par un prochain passage de ce même agent une fois qu'elles remonteront,
+le cas échéant, dans `audit-qualite.md`.
+
+## Bilan des 7 contrôles sur les 7 fiches auditées
 
 | Contrôle | Résultat |
 |---|---|
-| 1. FRAÎCHEUR | FAIL sur #1 (23 j, seuil 12 j), #2 (jamais revuérifiée depuis la détection, 10 j) et #5 (22 j, seuil 12 j) : les trois nécessitent une source nouvelle (carte ONF, comité FFRandonnée 22, site Camins de Pedra) que seule la veille peut apporter au prochain passage sur ces zones. PASS sur #3, #4, #6, #7 : toutes revuérifiées ce jour même (`verif: 2026-08-29`) ou dans le délai de leur sévérité. |
-| 2. CONCORDANCE INTERNE | FAIL initial sur #4 (Drôme) : « Portion concernée » citait comme dernière date le 21/08 alors que `statut:` savait déjà, au 29/08, qu'aucune levée n'était intervenue et que drome.gouv.fr restait figé au 16/07 — c'est le défaut n°1 du registre. Corrigé (voir ci-dessous), PASS après correction. PASS sur #3 : « Portion concernée », `statut:` et « Zone (détails) » racontent la même chose (fermeture Ayès↔Cap des Lauses au 02/08, silence de l'arrêté feu depuis le 24/08), aucune divergence. Non applicable à #1, #2, #5 (aucun décrochage relevé par l'audit sur ces fiches, seulement de la fraîcheur). |
-| 3. HONNÊTETÉ SUR CE QU'ON NE SAIT PAS | PASS sur #3 (Ariège) : le texte dit noir sur blanc au lecteur qu'aucune 5e reconduction ni levée de l'arrêté feu n'est publiée à ce jour, sans le présenter comme probable. PASS sur #4 (Drôme) après correction : « aucune levée de l'arrêté du 21/08 n'a été annoncée » est maintenant explicite dans le texte public. PASS sur #5 (Mallorca) : la fiche dit explicitement que l'échéance du 15/08 est dépassée sans confirmation de réouverture. |
-| 4. PERTINENCE | PASS sur les 7 : aucune n'a plus lieu d'être (aucun signal de levée, de réouverture ou de tracé redevenu officiel n'a été trouvé dans les fiches elles-mêmes) ; aucune clôture recommandée. |
-| 5. SÉVÉRITÉ JUSTE | PASS sur #3 (Ariège, HAUTE) — voir motivation détaillée ci-dessous, § « Ariège : décision sur la sévérité ». PASS sur #4 (Drôme, HAUTE, arrêté du 21/08 confirmé par source officielle relayée par la mairie de Die). PASS sur #1, #2, #5, #6, #7 (MOYENNE, cohérente avec des restrictions réelles sans interdiction rouge injustifiée). |
-| 6. TON | FAIL initial sur #6 (IT-ValGrande, « piège d'indexation ») et #7 (Var-83, « piège d'indexation »), jargon de veille dans « Zone (détails) ». Corrigés, PASS après correction. Non applicable à #1-#5. |
-| 7. SOURCE VIVANTE (alerte rouge #3 uniquement) | PASS. Les deux sources les plus citées ont été re-fetchées indépendamment : pyreneesfm.com (18/08, reconduction du feu jusqu'au 24/08, aucune mention GR10) et France3 Occitanie (04/08, ferme la portion Ayès↔Cap des Lauses depuis le 02/08 pour chutes de pierres) répondent toutes deux et portent bien l'information annoncée dans la fiche. Aucune source morte sous cette alerte rouge. |
+| 1. Fraîcheur | FAIL sur 2 fiches (Creta-Samaria, Lot-Cieurac) — signalées, source nouvelle requise |
+| 2. Concordance interne | PASS sur les 7 (écarts Portion/statut ≤ 4 j, sous le seuil de 7 j) |
+| 3. Honnêteté sur l'incertain | PASS — aucune restriction présentée comme probable sans le dire |
+| 4. Pertinence | PASS sur les 7 ; Corse-Calenzana à surveiller (aucun impact sentier confirmé, feu contrôlé) si le silence persiste, pas encore un FAIL |
+| 5. Sévérité juste | PASS sur les 7 |
+| 6. Ton | 1 FAIL corrigé (Vaucluse-84, jargon), PASS sur les 6 autres |
+| 7. Source vivante | PASS sur les 3 fiches HAUTE vérifiées en direct (Ariège, PO-66, Vaucluse-84) ; source Ariège vieillissante (18/08) signalée en recommandation |
 
-## Ariège : décision sur la sévérité (constat #3, traitement prioritaire)
-
-L'audit signale une alerte ROUGE appuyée sur une source datée du 18/08 (11 j). J'ai
-vérifié `detection: 2026-07-20` (40 j) et testé l'applicabilité de la règle des 14 jours
-de `agent-prompt.md` (§ DURÉE DE VIE D'UNE HYPOTHÈSE).
-
-Cette règle vise une « Portion concernée » qui repose encore sur « à confirmer » /
-« probable » / « non localisé » plus de 14 jours après détection. Ce n'est pas le cas
-ici : le contrôle déterministe #5 de l'audit (hypothèse jamais tranchée) ne s'est
-d'ailleurs pas déclenché sur cette fiche, faute de marqueur d'hypothèse dans « Portion
-concernée ». Le fait qui porte la sévérité HAUTE — la fermeture du GR®10 entre l'étang
-d'Ayès et le Cap des Lauses depuis le 02/08, pour chutes de pierres sur un sol
-déstabilisé par l'incendie — est établi par trois sources de presse indépendantes et
-datées (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr 02/08),
-toutes deux re-vérifiées vivantes par moi ce jour pour au moins la première. C'est un
-fait constaté, pas une hypothèse en attente de confirmation.
-
-Ce que l'audit détecte réellement, c'est que le texte du « Source » ne contient aucune
-URL datée après le 18/08 : la source la plus récente qui y est citée porte sur l'arrêté
-préfectoral d'interdiction totale de l'usage du feu (distinct de la fermeture du GR10),
-dont la veille documente elle-même l'absence de 5e reconduction depuis 4 jours de
-recherches ciblées répétées. Dégrader la sévérité par prudence excessive reviendrait à
-punir une fiche qui a déjà correctement isolé ce qui est confirmé (fermeture GR10) de ce
-qui ne l'est pas (statut de l'arrêté feu), et qui le dit en clair au lecteur.
-
-**Décision : je ne dégrade PAS la sévérité.** Je signale la source vieillissante comme
-action à traiter au prochain passage FR-PYR-O (voir ci-dessous), sans appliquer la règle
-des 14 jours qui ne s'applique pas à cette situation.
-
-## Corrections appliquées (dans mon périmètre, à information constante)
-
-- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — décrochage entre « Portion
-  concernée » (dernière date citée : 21/08) et `statut:` (qui sait, au 29/08, qu'aucune
-  levée n'est intervenue et que drome.gouv.fr n'a pas bougé depuis le 16/07). Ajouté en
-  fin de « Portion concernée » : « Situation inchangée à la vérification du 29/08/2026 :
-  aucune levée de l'arrêté du 21/08 n'a été annoncée, et drome.gouv.fr reste daté du
-  16/07/2026 sans mise à jour. » Réécriture à information constante : rien n'est ajouté
-  qui ne figurait déjà dans `statut:` et « Zone (détails) ».
-- **`incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10`** — dans « Zone
-  (détails) », remplacé « Piège d'indexation signalé : une page … » par « Précision :
-  une autre page du même site … », en gardant intacts la page citée, sa date réelle
-  (03/05/2022) et la conclusion (source non retenue). Jargon retiré, aucun fait modifié.
-- **`risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08`** — dans « Zone
-  (détails) », remplacé « … (probablement 2025, où le 29 août était un vendredi) ;
-  piège d'indexation, non retenu. » par « … (probablement 2025, où le 29 août était un
-  vendredi), donc non retenu. » Jargon retiré, aucun fait modifié.
-
-Après ces trois corrections : `python3 site/build_site.py` rend **OK (QA passée)**
-(76 actives, 25 clôturées, 41 digests, 101 fichiers). `python3 site/audit_qualite.py`
-ne signale plus aucun bloquant ni aucune dette de forme sur les fiches touchées : il
-reste 4 constats, tous en dehors de mon périmètre (voir section suivante), 0 bloquant.
-
-## Actions laissées à l'agent de veille (nécessitent une source nouvelle)
-
-- **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — vérifiée il y a 23
-  jours (seuil 12 j, sévérité moyenne). Action : consulter la carte ONF interactive
-  (recommandation déjà notée dans `statut:`) pour confirmer le maintien de l'AP
-  2026-693, une recherche texte simple ayant déjà échoué à le faire au 06/08.
-- **`fermeture|Cotes-Armor-Trebeurden|GR34-Pors-Mabo-Goas-Lagorn|2026-08-06`** — jamais
-  revuérifiée depuis sa détection (10 j). Action : confirmer auprès du comité
-  FFRandonnée 22 (ou de la mairie de Trébeurden) si la déviation balisée et la fermeture
-  du tronçon Pors Mabo↔Goas Lagorn sont toujours en place.
-- **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — source la
-  plus récente citée datée du 18/08 (11 j). Action pour le prochain passage FR-PYR-O :
-  recherche ciblée d'une publication plus récente que le 18/08, sur deux fronts
-  distincts — (a) l'état du tronçon Ayès↔Cap des Lauses lui-même (une réouverture a-t-elle
-  été annoncée ?) et (b) le sort de l'arrêté préfectoral d'interdiction totale du feu,
-  échu depuis le 24/08 sans 5e reconduction ni levée retrouvée à ce jour. Ne pas
-  dégrader par défaut : voir ma motivation ci-dessus, la sévérité HAUTE repose sur le
-  fait de fermeture (établi), pas sur cet arrêté.
-- **`refuge|GR221-222-Mallorca|refuges-Consell-fermes|2026-08-01`** — vérifiée il y a 22
-  jours (seuil 12 j, sévérité moyenne), échéance annoncée (15/08) dépassée depuis 14
-  jours. Action : relire caminsdepedra.conselldemallorca.es/en/refuges pour trancher la
-  réouverture effective des refuges du Consell de Mallorca.
-
-Aucune suppression, aucune clôture, aucune dégradation ou remontée de sévérité n'a été
-appliquée d'autorité par cet agent.
+7 fiches contrôlées, 4 corrections appliquées, 3 actions laissées au prochain passage
+de veille, 4 fiches hors périmètre signalées en note annexe.
