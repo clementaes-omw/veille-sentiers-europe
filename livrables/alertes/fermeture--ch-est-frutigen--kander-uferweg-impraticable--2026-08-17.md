@@ -5,10 +5,9 @@ itin: Kander Uferweg, Frutigen ↔ Reichenbach im Kandertal (Oberland bernois) ;
 sev: MOYENNE
 validite: 17/08/2026 → 14/09/2026
 detection: 2026-08-18
-verif: 2026-08-25
-statut: ACTIF — NOUVEAU. Source unique : flux officiel data.geo.admin.ch (id 2600749).
-  Motif publié limité à « chemin impraticable », sans détail supplémentaire trouvé dans la
-  presse locale. Aucune couverture presse trouvée à ce jour (à tenter au run suivant).
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : CSV officiel data.geo.admin.ch revérifié, entrée id
+  2600749 inchangée (validité 17/08→14/09/2026). Toujours aucune couverture presse trouvée.
 ordre: 173
 ---
 

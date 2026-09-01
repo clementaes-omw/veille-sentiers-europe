@@ -5,8 +5,10 @@ itin: Via Alpina (Suisse, tronçon 1.1, secteur Trübbach/Sargans, frontière SG
 sev: MOYENNE
 validite: 26/05/2026 → 30/09/2026
 detection: 2026-08-11
-verif: 2026-08-25
-statut: ACTIF — NOUVEAU. Source unique : flux officiel data.geo.admin.ch (id 2596318), segment 1.1. Aucune couverture presse trouvée à ce jour (à tenter au run suivant).
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : CSV officiel data.geo.admin.ch revérifié, entrée id
+  2596318 inchangée (fermée depuis le 22/06/2026, sans date de fin dans le flux). Toujours
+  aucune couverture presse trouvée.
 ordre: 107
 ---
 
