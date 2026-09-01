@@ -5,13 +5,12 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 16 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 27/08, en retrait par rapport aux 19 communes nommées le 24/08) ; dix communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-08-31
-statut: ACTIF — INCHANGÉ 31/08 : la liste de référence PNR Baronnies Provencales,
-  revérifiée en direct poste par poste, porte toujours la mention « mise à jour le
-  27/08/26 » et nomme toujours les 16 mêmes communes, avec les mêmes numéros d'arrêté
-  (dates du 08/07 au 10/08 selon la commune). Aucun changement. Saillans, Montclar-sur-
-  Gervanne, Beauvoisin et Bénivay-Ollon restent absentes de cette liste, sans source
-  nouvelle. Sévérité maintenue HAUTE : 16 communes restent actives par arrêté daté.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : la liste de référence PNR Baronnies Provençales (bonne URL
+  vérifiée : /actualite/envie-de-balader-fermeture-des-acces-aux-massifs-en-ete/), relue en
+  direct, porte toujours la mention « mise à jour le 27/08/26 » et nomme toujours les 16
+  mêmes communes. Aucun changement. Saillans, Montclar-sur-Gervanne, Beauvoisin et
+  Bénivay-Ollon restent absentes, sans source nouvelle. Sévérité maintenue HAUTE.
 ordre: 32
 ---
 
