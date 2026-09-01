@@ -5,12 +5,11 @@ itin: GR®98 (Calanques Marseille-Cassis) — refermé (rouge) le 17/08, après 
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-08-31
-statut: ACTIF — CHANGÉ 31/08 : légère amélioration. cg13.eway.fr (prévision 31-08-2026) fait
-  repasser la Côte Bleue et l'Arbois du jaune au vert ; Sainte-Victoire et le Montaiguet
-  restent jaune. Calanques Marseille-Cassis, Concors et Sainte-Baume restent vert. Aucun
-  massif rouge, aucune fermeture : le GR®98 reste praticable. Source unique non recoupée
-  par la presse ce jour. Sévérité maintenue MOYENNE.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : cg13.eway.fr a renvoyé une erreur 403 lors de cette
+  vérification (source temporairement inaccessible, pas un signal d'aggravation). Dernier
+  état sûr inchangé (31/08) : aucun massif rouge, GR®98 praticable. Sévérité maintenue
+  MOYENNE.
 ordre: 7
 ---
 

@@ -8,11 +8,11 @@ validite: statut maintenu jusqu'à nouvel ordre en l'absence de source plus réc
   en cours d'intensification au dernier point connu (16/08), aucune source postérieure
   trouvée
 detection: 2026-08-18
-verif: 2026-08-25
-statut: ACTIF — NOUVEAU : deux feux de végétation distincts en Savoie, l'un stabilisé
-  (La Chapelle), l'autre sans statut confirmé depuis le 16/08 (Saint-Pierre-de-Belleville).
-  Aucune fermeture de sentier ni de route documentée à ce jour, distinct de l'épisode
-  Planay/Pralognan de juillet (voir ligne dédiée `incendie|Savoie-Planay-Pralognan|…`).
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (savoie.gouv.fr, presse locale), toujours
+  aucun point de situation postérieur au 16/08 pour Saint-Pierre-de-Belleville (statut
+  d'intensification non tranché), La Chapelle restant stabilisé. Aucune fermeture de sentier
+  ni de route documentée à ce jour.
 ordre: 172
 ---
 

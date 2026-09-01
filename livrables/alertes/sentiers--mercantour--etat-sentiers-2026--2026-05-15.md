@@ -5,10 +5,11 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-08-29
-statut: ACTIF — INCHANGÉ 29/08 : page non revuérifiée ce run faute de budget ; dernier état
-  connu (22/08) reporté par défaut : Col du Sabion et cime de Pelousette fermés, Petite
-  Cayolle↔pas du Lausson signalé délicat sans fermeture.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : page mercantour-parcnational.fr (Info sentiers) revérifiée,
+  toujours calée sur sa mise à jour du 22/08 : Col du Sabion et cime de Pelousette fermés,
+  Petite Cayolle↔pas du Lausson signalé délicat sans fermeture, les 4 secteurs du 10/08
+  (Pezza Maurina, Pas de Colle Rousse, Tavels, Vallon de Mollières) inchangés.
 ordre: 13
 ---
 

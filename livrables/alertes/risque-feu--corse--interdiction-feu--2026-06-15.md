@@ -5,13 +5,11 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-08-31
-statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche, haute-corse.gouv.fr toujours calé sur
-  l'acte du 19/08/2026 (13 jours de silence). Aucune source datée ne confirme la reconduction
-  de la fermeture ponctuelle de 24h du week-end (29/08 7h→30/08 7h, 4 secteurs Agriate Est,
-  Agriate Ouest, Fangu, Bonifatu) pour la semaine en cours : cette mesure ponctuelle est donc
-  traitée comme expirée sauf nouvelle publication. Interdiction générale de feu
-  (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche, haute-corse.gouv.fr toujours calé sur
+  l'acte du 19/08/2026 (14 jours de silence). La fermeture ponctuelle de 24h du week-end
+  29-30/08 reste sans reconduction publiée pour la semaine en cours. Interdiction générale
+  de feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 

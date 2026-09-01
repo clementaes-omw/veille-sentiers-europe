@@ -5,8 +5,10 @@ itin: TMB (variante suisse Champex/Orsières, Val Ferret) ; [HYPOTHÈSE] tronço
 sev: MOYENNE
 validite: 11/07/2026 → 07/07/2027
 detection: 2026-07-17
-verif: 2026-08-25
-statut: ACTIF — INCHANGÉ 28/07 : entrée toujours présente dans le flux data.geo.admin.ch (segment 6.35, id 2599515, validité 11.07.2026-07.07.2027 inchangée, change_date flux 08/07/2026 non réactualisé) ; tronçon et motif précisés (chutes de pierres, Prayon↔Branche via rive droite de la Dranse de Ferret), déviation confirmée balisée et opérationnelle
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : CSV officiel data.geo.admin.ch revérifié, entrée toujours
+  présente (segment 6.35, id 2599515, validité 11.07.2026-07.07.2027 inchangée) ; déviation
+  toujours balisée et opérationnelle (Prayon↔Branche via rive droite de la Dranse de Ferret).
 ordre: 26
 ---
 

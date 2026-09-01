@@ -5,10 +5,13 @@ itin: GR®9 (Dentelles de Montmirail), GR®4/GR®91 (Monts de Vaucluse, Petit Lu
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien ; 13 massifs interdits d'accès ce mardi 18/08/2026, le Mont Ventoux (sommet compris) restant nommément excepté
 detection: 2026-07-18
-verif: 2026-08-31
-statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche ciblée (listing complet des communiqués
-  d'août de vaucluse.gouv.fr, pages 1 et 2, revérifié en direct), toujours aucun communiqué
-  massifs officiel postérieur au 18/08 (13 jours de silence officiel). Dernier état officiel
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche ciblée (listing complet des communiqués
+  d'août et de septembre de vaucluse.gouv.fr revérifié en direct), toujours aucun communiqué
+  massifs officiel postérieur au 18/08 (14 jours de silence officiel). destinationluberon.com
+  repasse le 31/08 au soir Petit Luberon, Grand Luberon et Monts de Vaucluse du vert au jaune
+  (« sortie recommandée le matin »), un cran plus restrictif qu'entre le 27/08 et le 29/08,
+  mais toujours sans confirmation ni levée officielle de la préfecture. Dernier état officiel
   sûr pour l'ensemble des massifs : 13 fermés au 18/08, Mont Ventoux excepté. Sévérité
   maintenue HAUTE.
 ordre: 33
@@ -65,6 +68,8 @@ MAJ 28/08 : listing complet des communiqués vaucluse.gouv.fr d'août revérifi�
 MAJ 29/08 : listing complet des communiqués vaucluse.gouv.fr d'août revérifié en direct, toujours aucun communiqué massifs postérieur au 18/08, soit 11 jours de silence officiel. destinationluberon.com, mise à jour affichée le 28/08 18h, pour le 29/08, maintient Petit Luberon, Grand Luberon et Monts de Vaucluse en VERT, 4e jour consécutif à ce niveau. Toujours aucun recoupement officiel pour les dix autres massifs de la liste du 16/08 (Dentelles de Montmirail, Enclave des Papes, Bollene-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Vallée d'Apt et Collines de Basse Durance), qui restent traités comme fermés faute de communiqué de levée.
 
 MAJ 30/08 : nouveau contrôle direct du site de la préfecture, toujours aucun communiqué massifs officiel postérieur au 18/08, soit 12 jours de silence officiel.
+
+MAJ 01/09 : listing complet des communiqués vaucluse.gouv.fr d'août et de septembre revérifié en direct, toujours aucun communiqué massifs officiel postérieur au 18/08, soit 14 jours de silence officiel. destinationluberon.com, mise à jour affichée le 31/08 à 18h pour le 01/09, repasse Petit Luberon, Grand Luberon et Monts de Vaucluse du vert au jaune (« sortie recommandée le matin ») après cinq jours consécutifs de vert (27/08→29/08) : un cran plus restrictif, mais toujours en dessous du niveau « fermé » du dernier communiqué officiel et sans confirmation ni levée par la préfecture. Les dix autres massifs de la liste du 16/08 (Dentelles de Montmirail, Enclave des Papes, Bollene-Uchaux, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Vallée du Rhône, Vallée d'Apt et Collines de Basse Durance) restent sans recoupement et traités comme fermés faute de communiqué de levée.
 
 ## Source
 

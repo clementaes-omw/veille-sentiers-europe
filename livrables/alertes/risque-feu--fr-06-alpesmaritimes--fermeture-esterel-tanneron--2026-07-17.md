@@ -5,13 +5,11 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-08-31
-statut: ACTIF — CHANGÉ 31/08 : la fermeture du massif Esterel-Tanneron est reconfirmée pour
-  ce lundi 31/08/2026 par presseagence.fr (publié 30/08/2026), cohérente avec la fermeture
-  confirmée le même week-end côté Var (Estérel varois, voir `risque-feu|Var-83|…`). C'est la
-  2e confirmation depuis la reprise du 29/08, après 22 jours de silence entre le 07 et le
-  28/08. Toujours aucun communiqué officiel de la préfecture des Alpes-Maritimes trouvé.
-  Source de presse unique : sévérité maintenue MOYENNE.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : dernière donnée sûre inchangée (fermeture confirmée le
+  31/08 par presseagence.fr). La carte du jour, republiée chaque soir avant 19h par la
+  préfecture, reste en JavaScript et n'a pas pu être lue directement pour le 01/09 ; aucun
+  communiqué officiel des Alpes-Maritimes localisé. Sévérité maintenue MOYENNE.
 ordre: 102
 ---
 
