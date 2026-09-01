@@ -4,23 +4,29 @@ type: fermeture
 itin: GRP Grand Tour de la Gervanne, secteur Plateau d'Ambel
 sev: MOYENNE ([HYPOTHÈSE] source unique, non officielle gouv.fr, mais arrêté municipal
   nommément numéroté)
-validite: arrêté municipal n°10-2026 ; sentiers du Pas du Gouillat et du Pas de
-  Comberoufle fermés du 28/07 au 31/08/2026 (prolongation d'une première fermeture du
-  07/07 au 31/07/2026)
+validite: arrêté municipal n°10-2026, prolongé par le n°12-2026 jusqu'au 31/08/2026 inclus
+  (échéance atteinte, aucune reconduction trouvée à ce jour) ; par ailleurs, un régime
+  préfectoral distinct (arrêté DDT-SEF-2026-0176 du 04/06/2026) réévalue chaque soir pour
+  le lendemain le risque incendie sur les forêts de Saoû et le plateau d'Ambel jusqu'au
+  15/09/2026, indépendamment du sort de l'arrêté municipal
 detection: 2026-08-17
-verif: 2026-08-31
-statut: ACTIF — INCHANGÉ 31/08 : nouvelle recherche de recoupement menée (mairie
-  d'Omblèze, presse locale, sources touristiques de la vallée de la Gervanne), toujours
-  aucune source alternative à gervanne-sye.com trouvée pour cet arrêté. Point de vigilance
-  pour le prochain passage : la fermeture (28/07→31/08) arrive à échéance ce jour même,
-  sans qu'aucune prolongation n'ait été publiée à ce stade ; à trancher lors de la
-  prochaine vérification. Source unique maintenue par ailleurs.
+verif: 2026-09-01
+statut: ACTIF — CHANGÉ 01/09 : l'arrêté municipal n°12-2026, qui prolongeait la fermeture du
+  Pas du Gouillat et du Pas de Comberoufle jusqu'au 31/08/2026 inclus, est arrivé à son
+  terme hier sans reconduction publiée trouvée à ce jour [à vérifier manuellement : son
+  existence même n'a pu être confirmée que par des résultats de recherche indexés, pas par
+  lecture directe d'un PDF officiel]. Un second texte, distinct et plus large, est
+  identifié pour la première fois : l'arrêté préfectoral DDT-SEF-2026-0176 (signé 04/06,
+  publié 11/06/2026) soumet l'accès à la forêt de Saoû et au plateau d'Ambel à une carte de
+  risque incendie réévaluée chaque soir, valable jusqu'au 15/09/2026, indépendamment du
+  sort de l'arrêté municipal. L'accès au secteur reste donc à vérifier au jour le jour
+  jusqu'à mi-septembre même si la fermeture nommée ici est levée par expiration de terme.
 ordre: 171
 ---
 
 ## Portion concernée
 
-**Commune d'Omblèze (secteur Gervanne-Sye, Drôme), Plateau d'Ambel.** L'arrêté municipal n°10-2026 interdit l'accès à tous les sentiers partant de la mairie d'Omblèze, ainsi qu'au sentier du Pas du Gouillat (hameau de Boutons) et au sentier du Pas de Comberoufle (hameau de Bertrands). La fermeture, initialement prévue du 07/07 au 31/07/2026, a été prolongée du 28/07 au 31/08/2026 pour ces deux derniers sentiers. Raison : arrêté municipal, motif non précisé par la source consultée.
+**Commune d'Omblèze (secteur Gervanne-Sye, Drôme), Plateau d'Ambel.** L'arrêté municipal n°10-2026, prolongé par le n°12-2026 jusqu'au 31/08/2026 inclus, interdisait l'accès à tous les sentiers partant de la mairie d'Omblèze, ainsi qu'au sentier du Pas du Gouillat (hameau de Boutons) et au sentier du Pas de Comberoufle (hameau de Bertrands) ; cette échéance est désormais dépassée sans reconduction connue. Le secteur reste toutefois soumis à un régime distinct, l'arrêté préfectoral DDT-SEF-2026-0176, qui réévalue chaque soir pour le lendemain le risque incendie sur la forêt de Saoû et le plateau d'Ambel jusqu'au 15/09/2026 : consulter la carte quotidienne avant l'étape.
 
 ## Alternative
 
@@ -34,6 +40,8 @@ Aucune alternative connue à ce jour.
 
 17/08 : signal repéré lors de la couverture de la zone voisine des Baronnies (17/08/2026), aucune évolution connue depuis le 28/07.
 
+01/09 : l'échéance du 31/08 de l'arrêté municipal n°12-2026 est dépassée sans reconduction trouvée. Un régime distinct est découvert : l'arrêté préfectoral DDT-SEF-2026-0176 (signé 04/06/2026, publié 11/06/2026) réglemente la pénétration dans les massifs forestiers de la Drôme, dont la forêt de Saoû et le plateau d'Ambel, via une carte de risque incendie réévaluée chaque soir pour le lendemain, valable du 1er juillet au 15 septembre 2026. Ce mécanisme quotidien s'applique indépendamment du sort de l'arrêté municipal propre à Omblèze.
+
 ## Source
 
-[gervanne-sye.com, arrêté municipal n°10-2026, commune d'Omblèze](https://www.gervanne-sye.com/)
+[gervanne-sye.com, arrêté municipal n°10-2026, commune d'Omblèze](https://www.gervanne-sye.com/) ; [drome.gouv.fr, arrêté préfectoral DDT-SEF-2026-0176 réglementant la pénétration et les travaux dans les massifs forestiers de la Drôme (04/06/2026)](https://www.drome.gouv.fr/Media/Fichiers/Arrete-prefectoral-DDT-SEF-2026-0176-reglementant-la-penetration-et-les-travaux-dans-les-massifs-forestiers-de-la-drome-4-juin-2026)

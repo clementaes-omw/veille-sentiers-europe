@@ -5,9 +5,9 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre (arrêtés de 2019 à 2025, aucune date de levée annoncée pour les sections suivies) ; page FFRando 06 consultée le 12/07/2026
 detection: 2026-08-01
-verif: 2026-08-29
-statut: ACTIF — INCHANGÉ 29/08 : page non revérifiée ce run faute de budget ; dernier état
-  connu (27/08) reporté par défaut, page FFRando 06 toujours datée du 12/07/2026 à cette date.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : page FFRando 06 revérifiée directement, toujours datée du
+  12/07/2026, aucune évolution des fermetures GR®510/GR®52-GTM/GR®52A.
 ordre: 64
 ---
 
