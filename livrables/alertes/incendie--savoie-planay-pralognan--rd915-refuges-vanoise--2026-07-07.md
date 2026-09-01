@@ -2,25 +2,23 @@
 cle: incendie|Savoie-Planay-Pralognan|RD915-refuges-Vanoise|2026-07-07
 type: incendie / accès refuges
 itin: GR®55 (Traversée de la Vanoise, via Pralognan/Col de la Vanoise) ; TGV (Tour des Glaciers de la Vanoise) — [HYPOTHÈSE] accès aux refuges impacté, fermeture du tracé GR® lui-même non confirmée
-sev: MOYENNE (statut des refuges toujours non tranché formellement, mais faisceau
-  d'indices de normalisation élargi le 17/08)
-validite: RD915 revenue à une circulation normale depuis le 08/08, travaux de sécurisation anti-chute de blocs programmés du 17/08 au 18/09/2026 pour rétablir la double voie avant l'hiver ; statut des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset toujours non confirmé explicitement par une source dédiée, traités comme impactés par prudence
+sev: INFO (motif requalifié 01/09 : chantier routier programmé et borné, plus une
+  conséquence de l'incendie)
+validite: chantier de protection anti-chutes de blocs en cours sur la RD915 jusqu'au 18/09/2026 (fermetures par créneaux horaires, ex. 8h30-10h, 10h30-12h, 13h30-15h, 15h30-17h, et circulation alternée le reste du temps, aucune déviation possible pendant les créneaux fermés) ; circulation normale rétablie depuis le 08/08 en dehors de ces créneaux ; refuges du Grand Bec (gardé jusqu'au 08/09), de Péclet-Polset (navette jusqu'au 30/08) et du Col de la Vanoise (gardé jusqu'au 19/09) en saison normale de gardiennage, sans restriction documentée
 detection: 2026-07-21
-verif: 2026-08-25
-statut: ACTIF — CHANGÉ 17/08 : pralognan.com (page dédiée à l'incendie, MAJ 08/08)
-  confirme que la RD915 est revenue à une circulation normale et annonce des travaux de
-  sécurisation anti-chute de blocs du 17/08 au 18/09/2026. Cette page, pourtant mise à
-  jour récemment, ne mentionne toujours aucun refuge. Les trois pages de réservation
-  propres aux refuges restent également muettes sur l'incendie. Ce silence désormais
-  élargi à quatre sources distinctes suggère une normalisation, sans la confirmer
-  explicitement : sévérité maintenue MOYENNE, statut à trancher par contact direct des
-  gardiens si le silence persiste.
+verif: 2026-09-01
+statut: ACTIF — CHANGÉ 01/09 : le motif de la fermeture n'est plus l'incendie mais un chantier de
+  protection anti-chute de blocs, programmé et daté (17/08→18/09/2026), avec des créneaux
+  horaires précis publiés par le Département de la Savoie. Les trois refuges affichent des
+  saisons de gardiennage normales pour 2026, sans mention de l'incendie ni de fermeture.
+  Sévérité ramenée à INFO : il ne s'agit plus d'une restriction d'accès liée à un sinistre,
+  mais d'un chantier routier daté et borné.
 ordre: 40
 ---
 
 ## Portion concernée
 
-RD915 et RD91D, accès à Pralognan-la-Vanoise et Champagny-en-Vanoise : routes coupées puis rouvertes en alternat depuis le 15/07 (450 blocs béton anti-chute de pierres), piétons et cyclistes toujours interdits sur ce tronçon au 15/07. **Accès aux refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset impacté.** Raison : incendie parti par la foudre le 24/06, accéléré puis déclaré sur la commune du Planay (versant Tour du Merle) le 07/07 au soir.
+RD915 et RD91D, accès à Pralognan-la-Vanoise et Champagny-en-Vanoise : circulation normale rétablie depuis le 08/08/2026. Un chantier de protection anti-chute de blocs, distinct de l'incendie qui a motivé l'ouverture de cette alerte, ferme la route par créneaux horaires du 17/08 au 18/09/2026 (objectif : rétablir la double voie avant l'hiver), sans déviation possible pendant ces créneaux. Les refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset affichent des saisons de gardiennage 2026 normales, sans restriction documentée.
 
 Mise à jour 28/07 : la RD915 a été rouverte à la circulation le 23/07/2026 à 9h30 [FAIT] (Savoie News, article du 23/07 10h22), le Département ayant annoncé la réouverture après inspection des falaises par des équipes spécialisées. Des foyers restés actifs ont toutefois nécessité des largages héliportés dans la matinée du 23/07 : le feu n'est pas déclaré totalement éteint, la plus grande prudence est recommandée lors de la traversée de la zone. Aucune source datée postérieure au 15/07 ne confirme la réouverture des refuges du Grand Bec, du Col de la Vanoise et de Péclet-Polset : ils restent considérés comme impactés par défaut [HYPOTHÈSE], et les randonneurs sont invités à contacter directement les gardiens avant de partir.
 
@@ -28,9 +26,11 @@ MAJ 13/08 : savoie.gouv.fr relu directement, la page reste datée du 23/07 (dern
 
 MAJ 17/08 : nouvelle source directe, pralognan.com/incendie-le-planay/, mise à jour du 08/08/2026 : « la RD915 est de nouveau ouverte à la circulation » (statut normalisé, au-delà du simple alternat), avec des travaux de sécurisation anti-chute de blocs programmés du 17/08 au 18/09/2026, objectif explicite de rétablir la circulation à double sens avant la saison hivernale. Cette page, dédiée à l'incendie et pourtant mise à jour récemment, ne mentionne toujours aucun refuge. Vérification directe des trois pages propres aux refuges (refugecoldelavanoise.ffcam.fr, refugedugrandbec.ffcam.fr/acces.html, refugepecletpolset.ffcam.fr) : toujours aucune mention d'incendie ni de restriction, cohérent avec la vérification du 13/08. Le silence converge désormais sur quatre sources (la page dédiée à l'incendie elle-même, en plus des trois pages de réservation), un faisceau plus large qu'au 13/08, mais ce n'est toujours pas une déclaration explicite « refuges accessibles ».
 
+MAJ 01/09 : savoie.fr publie le détail du chantier de protection anti-chute de blocs annoncé le 17/08 : fermetures par créneaux horaires du 31/08 au 18/09/2026 (8h30-10h, 10h30-12h, 13h30-15h, 15h30-17h), circulation alternée le reste du temps, aucune déviation possible pendant les créneaux fermés. Les trois pages de réservation des refuges (Grand Bec ouvert tous les jours jusqu'au 08/09, Péclet-Polset avec navette jusqu'au 30/08, Col de la Vanoise gardé jusqu'au 19/09) confirment des saisons normales, sans mention d'incendie. Le motif de la fermeture n'est donc plus l'incendie de juillet mais ce chantier routier daté : sévérité ramenée à INFO.
+
 ## Alternative
 
-Aucune déviation balisée officielle n'a été publiée : se renseigner directement auprès des gardiens de refuge.
+Aucune déviation balisée officielle n'a été publiée pour les créneaux de fermeture du chantier : circuler aux heures d'ouverture (8h30-10h30, 12h-13h30, 15h-15h30, après 17h) ou par la circulation alternée. Se renseigner directement auprès des gardiens de refuge en cas de doute.
 
 ## Zone (détails)
 
