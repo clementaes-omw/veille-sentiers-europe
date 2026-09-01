@@ -5,23 +5,26 @@ itin: GR®653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR®6 (corridor Pon
   secteur Garrigues) ; GR®70 (Cévennes) — hors zone rouge au classement du 18/08, était entré
   brièvement le 17/08 dans le secteur Nord Cévennes
 sev: HAUTE
-validite: journalière, la préfecture du Gard publie le classement au jour le jour
+validite: journalière, la préfecture du Gard publie le classement au jour le jour ; aucune
+  page « risque incendie très sévère » publiée depuis le 18/08/2026
 detection: 2026-07-04
-verif: 2026-08-31
-statut: ACTIF — INCHANGÉ 31/08 : recherche ciblée reconduite (gard.gouv.fr), toujours aucun
-  classement risque incendie daté postérieur au 18/08, soit treize jours de silence. Dernier
-  état sûr inchangé : 3 secteurs rouges (Gard Rhodanien, Garrigues, Costières Pétite
-  Camargue), GR®70 hors zone rouge.
+verif: 2026-09-01
+statut: [CLÔTURÉ] (2026-09-01) — gard.gouv.fr publie une page datée uniquement les jours où
+  un secteur passe en risque très sévère : aucune page de ce type n'existe pour le 19/08, le
+  31/08 ni le 1er/09 (les trois URL datées testées directement renvoient 404), soit 14 jours
+  sans nouveau secteur rouge. Le classement du 18/08 (3 secteurs) est donc retombé sans
+  successeur : le Gard Rhodanien, les Garrigues et les Costières Petite Camargue sont
+  redescendus sous le seuil rouge.
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : trois secteurs classés rouges au classement du mardi 18/08/2026, « Gard Rhodanien » (36 communes), « Garrigues » (49 communes) et « Costières Petite Camargue » (9 communes), soit 94 communes au total : **accès, circulation et présence interdits dans les massifs et espaces boisés concernés**. Les secteurs « Nord Cévennes » (44 communes) et « Gardon-Vidourle » (114 communes), classés rouges pour la première fois la veille, sortent de la liste après une seule journée : le GR®70, qui traverse les Cévennes, n'est plus concerné par une interdiction d'accès à ce classement. En cause : un risque incendie très sévère. La préfecture n'a publié aucun nouveau classement depuis (dernière vérification le 27/08/2026, neuf jours sans nouvelle page) : ce classement du 18/08 reste donc la référence en vigueur à ce jour.
+Gard : **aucun secteur n'est classé en risque incendie très sévère** à ce jour. Le dernier classement rouge connu remonte au mardi 18/08/2026 (Gard Rhodanien, Garrigues, Costières Petite Camargue) ; gard.gouv.fr ne publie une page dédiée que les jours où un secteur atteint ce niveau, et aucune page de ce type n'existe pour les journées suivantes, y compris pour aujourd'hui. Le GR®653 (secteur Fourques/Beaucaire) et le GR®6 (corridor Pont-du-Gard/Remoulins/Uzès) sont donc praticables sans restriction incendie à la date de cette vérification.
 
 ## Alternative
 
-Le GR®653 traverse le secteur Fourques/Beaucaire, en zone rouge (Gard Rhodanien) : consulter la page « risque incendie » de gard.gouv.fr le matin de l'étape. Le GR®6 traverse le corridor Pont-du-Gard/Remoulins/Uzès, dans le secteur Garrigues, également classé rouge. Le GR®70 (Cévennes) n'est plus en zone rouge au classement du 18/08. Le classement est décidé au jour le jour et un secteur peut rouvrir ou fermer sans préavis : consulter la page « risque incendie » de gard.gouv.fr avant chaque étape.
+Sans objet : aucun secteur n'est actuellement fermé. La préfecture republie une page dédiée chaque fois qu'un secteur repasse en risque très sévère : la consulter avant une étape en période de sécheresse, la situation ayant déjà basculé plusieurs fois d'un jour à l'autre cet été.
 
 ## Zone (détails)
 
@@ -45,6 +48,7 @@ Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes d
 - 18/08 : nouveau classement, publié le 17/08 pour le mardi 18 août. Le classement retombe à 3 secteurs rouges, Gard Rhodanien (36 communes), Garrigues (49 communes) et Costières Petite Camargue (9 communes), soit 94 communes au total. Nord Cévennes et Gardon-Vidourle, entrés dans la liste rouge la veille, en ressortent après une seule journée : le GR®70 (Cévennes) n'est plus concerné par une interdiction d'accès à ce classement.
 - 27/08 : aucune page datée du 19 au 27 août retrouvée sur gard.gouv.fr, dont la liste des actualités ne porte plus, à cette date, aucun article sur le risque incendie parmi ses dix titres les plus récents. Le classement du mardi 18/08/2026 (3 secteurs rouges) reste donc la dernière information officielle disponible, sans nouvelle page depuis neuf jours.
 - 28/08 : toujours aucune page de classement postérieure au 18/08 sur gard.gouv.fr, dixième jour de silence. La liste des actualités affiche en revanche « Épisode orageux, vigilance Orange sur le Gard » (24/08) et un article sur les restrictions liées à la sécheresse (22/08) : un épisode pluvieux a donc traversé le département dans l'intervalle, sans qu'aucune source ne relie explicitement cet épisode à une levée ou à une nouvelle du classement incendie. Le classement du 18/08 (3 secteurs rouges) reste la dernière donnée officielle disponible.
+- 01/09 : les URL datées « Mercredi-19-aout-2026 », « Lundi-31-aout-2026 » et « Mardi-1er-septembre-2026 » sont testées directement sur gard.gouv.fr : les trois renvoient 404. Conformément à la convention de publication de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en risque très sévère), l'absence de page pour ces trois dates signifie qu'aucun secteur n'a été classé rouge depuis le 18/08. Le classement retombe donc à 0 secteur rouge : alerte clôturée.
 
 ## Source
 
