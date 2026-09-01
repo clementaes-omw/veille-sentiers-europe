@@ -5,11 +5,11 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (désescalade 31/08 — 1 seul massif fermé, source de presse unique)
 validite: journalière ; 1 massif fermé au 31/08 (Estérel), 6 en orange (Monts Toulonnais, Sainte-Baume, Haut-Var, Corniche des Maures, Maures, Centre-Var), situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-08-31
-statut: ACTIF — CHANGÉ 31/08 : nette désescalade, un seul massif (Estérel) reste fermé ce
-  lundi 31/08, contre 3 le samedi 29/08 (Centre-Var et Maures rejoignent l'orange).
-  presseagence.fr (publié 30/08), source de presse unique, non recoupée par var.gouv.fr
-  (carte JS non lisible) : sévérité maintenue MOYENNE.
+verif: 2026-09-01
+statut: ACTIF — INCHANGÉ 01/09 : confirmation indépendante que le 31/08 seul l'Estérel
+  était fermé (6 autres massifs en sévère/orange). var.gouv.fr et risque-prevention-incendie.fr
+  restent en JavaScript, non lisibles pour le classement du jour même. Sévérité maintenue
+  MOYENNE.
 ordre: 20
 ---
 
@@ -34,7 +34,7 @@ MAJ 26/07 : fermeture totale reconduite pour ce dimanche malgré les orages de l
 
 MAJ 27/07 : reconduction confirmée, 9/9 massifs toujours fermés pour ce lundi 27/07 (presseagence.fr 26/07), soit Maures, Centre-Var, Estérel, Monts Toulonnais, Sainte-Baume, Haut-Var, Corniche des Maures, plateau de Canjuers et îles d'Hyères ; aires A57 (Gonfaron, Lauvets, Suvé du Vent) fermées. Rien de matériel n'a changé depuis le 26/07.
 
-MAJ 28/07 : reconduction confirmée pour ce mardi 28/07. frequence-sud.fr (article MAJ le 27/07 à 18h46) : « tous les massifs restent fermés au public ce mardi 28 juillet », feu du Gros Bessillon toujours non fixé (4 500 ha parcourus / 4 100 ha brûlés, reprises lundi après-midi à Barjols/Châteauvert/Correns, voir ligne dédiée) ; l'article confirme aussi les fermetures d'aires A57 (Suvé du Vent, Lauvets, Gonfaron, Les Sigues). Rien de matériel n'a changé depuis le 26/07 hormis la reconduction quotidienne ; var.gouv.fr n'a pas été revérifié pour cette mise à jour, le contournement presse étant jugé suffisant vu la continuité de situation.
+MAJ 28/07 : reconduction confirmée pour ce mardi 28/07. frequence-sud.fr (article MAJ le 27/07 à 18h46) : « tous les massifs restent fermés au public ce mardi 28 juillet », feu du Gros Bessillon toujours non fixé (4 500 ha parcourus / 4 100 ha brûlés, reprises lundi après-midi à Barjols/Châteauvert/Correns, voir ligne dédiée) ; l'article confirme aussi les fermetures d'aires A57 (Suvé du Vent, Lauvets, Gonfaron, Les Sigues). Rien de matériel n'a changé depuis le 26/07 hormis la reconduction quotidienne ; var.gouv.fr n'a pas été revuérifié pour cette mise à jour, le contournement presse étant jugé suffisant vu la continuité de situation.
 
 MAJ 29/07 : DÉSESCALADE MAJEURE, pour le mercredi 29/07 un seul massif reste fermé, le Haut-Var, classé risque « très sévère » (rouge). Les 8 autres massifs (Monts Toulonnais, Sainte-Baume, Corniche des Maures, Maures, Centre-Var, Estérel, plateau de Canjuers, îles d'Hyères) repassent en risque « sévère » (orange), accès « fortement déconseillé » mais non interdit (source : presseagence.fr, 29/07, https://presseagence.fr/toulon-prevention-incendie-le-massif-du-haut-var-ferme-au-public-ce-mercredi-pour-risque-tres-severe/ ; confirmation croisée via frequence-sud.fr daté du 29/07). Aires A57 (Suvé du Vent, Lauvets, Gonfaron, Sigues) toujours fermées. Travaux autorisés uniquement pour activité agricole ou sylvicole entre 5h-13h dans les 8 massifs orange. Conséquence directe du feu du Gros Bessillon déclaré fixé le 28/07 19h (voir ligne dédiée). Sévérité repassée de HAUTE à MOYENNE, 1re désescalade depuis le 22/07.
 
