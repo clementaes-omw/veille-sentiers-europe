@@ -8,7 +8,7 @@ validite: depuis le 15/07/2026 (même complexe d'incendie), jusqu'à nouvel ordr
   07/08/2026, foyer résiduel toujours actif en profondeur (tourbe, secteur d'Abernethy),
   fermetures localisées (Ryvoan Trail, Lodge Trail, Green Lochan) sans date de fin annoncée
 detection: 2026-07-22
-verif: 2026-08-19
+verif: 2026-09-02
 statut: ACTIF — INCHANGÉ 12/08 : confirmation croisée (Police Scotland 03/08,
   deadlinenews.co.uk 07/08, pressandjournal.co.uk) que la fiche reste à l'état de l'art.
   Toujours fermés : Ryvoan Trail, Lodge Trail, Green Lochan/An Lochan Uaine, parkings Allt

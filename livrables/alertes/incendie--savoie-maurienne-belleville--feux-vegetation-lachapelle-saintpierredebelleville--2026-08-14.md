@@ -8,11 +8,12 @@ validite: statut maintenu jusqu'à nouvel ordre en l'absence de source plus réc
   en cours d'intensification au dernier point connu (16/08), aucune source postérieure
   trouvée
 detection: 2026-08-18
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (savoie.gouv.fr, presse locale), toujours
-  aucun point de situation postérieur au 16/08 pour Saint-Pierre-de-Belleville (statut
-  d'intensification non tranché), La Chapelle restant stabilisé. Aucune fermeture de sentier
-  ni de route documentée à ce jour.
+verif: 2026-09-02
+statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche ciblée (savoie.gouv.fr inaccessible en
+  503, presse locale ICI/odsradio/feuxdeforet.fr), toujours aucun point de situation daté
+  postérieur au 16/08 pour Saint-Pierre-de-Belleville (statut d'intensification non tranché),
+  La Chapelle restant stabilisé. Aucune fermeture de sentier ni de route documentée à ce
+  jour.
 ordre: 172
 ---
 
