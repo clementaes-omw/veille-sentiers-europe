@@ -2,7 +2,7 @@
 
 76 alertes actives · 4 fiches avec au moins un constat · **0 bloquant(s)**, 4 alerte(s), 0 info(s).
 
-Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
+Carte : **4 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
 Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement sur le fond — la source dit-elle vraiment cela, l'alerte a-t-elle encore un sens sur le terrain — relève de `agents/verificateur-alertes.md` ; la plausibilité des centroïdes de la carte, de `agents/verificateur-carte.md`.
 
@@ -15,4 +15,10 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## 🗺 Cohérence carte / registre
 
-0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
+### ⛔ Alertes actives invisibles sur la carte / compte incohérent
+
+- **`(carte)`** — regroupement incohérent : 73 alerte(s) réparties sur 35 marqueur(s) pour 76 active(s) — 3 alerte(s) hors carte.
+- **`fermeture|Ille-et-Vilaine-Dinard|GR34-Port-Vicomte-Port-Bernard|2026-04-20`** — zone « Ille-et-Vilaine-Dinard » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+- **`fermeture|Ille-et-Vilaine-Saint-Briac-sur-Mer|GR34-Petite-Salinette-Grande-Salinette|2026-02-09`** — zone « Ille-et-Vilaine-Saint-Briac-sur-Mer » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+- **`fermeture|Loire-Atlantique-Piriac-sur-Mer|GR34-Pointe-du-Castelli|2026-02-22`** — zone « Loire-Atlantique-Piriac-sur-Mer » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+
