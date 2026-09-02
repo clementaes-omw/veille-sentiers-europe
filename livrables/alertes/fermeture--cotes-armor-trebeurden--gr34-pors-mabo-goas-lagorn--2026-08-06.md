@@ -5,7 +5,7 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis le 06/08/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-08-19
-verif: 2026-08-30
+verif: 2026-09-02
 statut: ACTIF — INCHANGÉ 30/08 : nouvelle recherche, aucune annonce de réouverture ni
   nouvelle publication du comité FFRandonnée 22 postérieure au 06/08 retrouvée. La
   déviation balisée reste la seule information disponible.

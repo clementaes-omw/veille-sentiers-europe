@@ -602,6 +602,8 @@ ALIAS_ZONE = {
     "ES-ARA-Huesca-Riglos": "ES-NAV-RIO-ARA",
     # Ouest / Nord
     "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
+    "Ille-et-Vilaine-Dinard": "FR-BRE", "Ille-et-Vilaine-Saint-Briac-sur-Mer": "FR-BRE",
+    "Loire-Atlantique-Piriac-sur-Mer": "FR-BRE",
     "GR21-Loges-Bénouville": "FR-NOR", "Pierrefiques-76": "FR-NOR",
     "Lot-Cieurac-Flaujac-Poujols": "FR-SO", "FR-Landes-Gironde": "FR-SO",
     "FR-IDF-Fontainebleau": "FR-IDF-CVL",

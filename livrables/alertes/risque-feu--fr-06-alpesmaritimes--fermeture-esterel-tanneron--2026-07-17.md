@@ -5,11 +5,12 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : dernière donnée sûre inchangée (fermeture confirmée le
-  31/08 par presseagence.fr). La carte du jour, republiée chaque soir avant 19h par la
-  préfecture, reste en JavaScript et n'a pas pu être lue directement pour le 01/09 ; aucun
-  communiqué officiel des Alpes-Maritimes localisé. Sévérité maintenue MOYENNE.
+verif: 2026-09-02
+statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche dédiée (presseagence.fr, nicepremium.fr),
+  aucune publication postérieure au 31/08 trouvée pour ce massif. La carte du jour, republiée
+  chaque soir avant 19h par la préfecture, reste en JavaScript et n'a pas pu être lue
+  directement ; aucun communiqué officiel des Alpes-Maritimes localisé. Dernière donnée sûre
+  inchangée (fermeture confirmée le 31/08). Sévérité maintenue MOYENNE.
 ordre: 102
 ---
 

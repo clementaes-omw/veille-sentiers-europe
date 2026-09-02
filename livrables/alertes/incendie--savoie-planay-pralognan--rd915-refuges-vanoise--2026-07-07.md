@@ -6,8 +6,9 @@ sev: INFO (motif requalifié 01/09 : chantier routier programmé et borné, plus
   conséquence de l'incendie)
 validite: chantier de protection anti-chutes de blocs en cours sur la RD915 jusqu'au 18/09/2026 (fermetures par créneaux horaires, ex. 8h30-10h, 10h30-12h, 13h30-15h, 15h30-17h, et circulation alternée le reste du temps, aucune déviation possible pendant les créneaux fermés) ; circulation normale rétablie depuis le 08/08 en dehors de ces créneaux ; refuges du Grand Bec (gardé jusqu'au 08/09), de Péclet-Polset (navette jusqu'au 30/08) et du Col de la Vanoise (gardé jusqu'au 19/09) en saison normale de gardiennage, sans restriction documentée
 detection: 2026-07-21
-verif: 2026-09-01
-statut: ACTIF — CHANGÉ 01/09 : le motif de la fermeture n'est plus l'incendie mais un chantier de
+verif: 2026-09-02
+statut: ACTIF — INCHANGÉ 02/09 : chantier de créneaux horaires confirmé toujours en cours
+  jusqu'au 18/09/2026, sans changement depuis le 01/09. CHANGÉ 01/09 : le motif de la fermeture n'est plus l'incendie mais un chantier de
   protection anti-chute de blocs, programmé et daté (17/08→18/09/2026), avec des créneaux
   horaires précis publiés par le Département de la Savoie. Les trois refuges affichent des
   saisons de gardiennage normales pour 2026, sans mention de l'incendie ni de fermeture.
