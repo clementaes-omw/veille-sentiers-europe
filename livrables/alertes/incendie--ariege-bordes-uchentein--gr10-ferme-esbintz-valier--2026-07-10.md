@@ -5,14 +5,19 @@ itin: GR®10 (secteur Couserans/Val du Biros, tronçon Ayès↔Cap des Lauses al
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses (alias secteur Bassiès) fermé depuis le 02/08 (incendie/éboulement, chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (6 jours de silence au 30/08)
 detection: 2026-07-20
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche ciblée, aucune annonce de réouverture du
-  GR®10 Ayès↔Cap des Lauses trouvée. AP interdiction totale du feu : 8 jours de silence
-  depuis l'échéance du 24/08, toujours aucune 5e reconduction ni levée trouvée ; la sévérité
-  HAUTE ne repose pas sur cet arrêté mais sur les 3 sources datées de la fermeture GR®10, la
-  règle des 14 jours ne s'applique donc pas ici. Aucun foyer actif détecté par satellite en
-  Ariège ce jour. La mention non datée d'un feu à la frontière Ariège/Haute-Garonne relevée
-  sur un réseau social s'avère datée du 05/07/2026 (antérieure à l'épisode) : écartée.
+verif: 2026-09-02
+statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche ciblée (ariege.gouv.fr/Publications/Actualites
+  inaccessible, HTTP 503 ; pyreneesfm.com/departement/ariege relu, dernier article sur les
+  interdictions daté du 10/08), aucune 5e reconduction ni levée de l'arrêté trouvée, soit
+  9 jours de silence depuis l'échéance du 24/08. Aucune annonce de réouverture du GR®10
+  Ayès↔Cap des Lauses trouvée non plus ; la fermeture reste confirmée par les 3 sources
+  datées déjà retenues (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr
+  02/08). La sévérité HAUTE repose sur ce fait de terrain, distinct de l'arrêté feu : la
+  règle des 14 jours ne s'applique donc pas ici, et aucune dégradation n'est justifiée tant
+  que la fermeture GR®10 elle-même n'est pas infirmée. lepetitjournal.net signale le
+  01/09/2026 un feu de végétation distinct (5 ha) près d'Ax-les-Thermes/Bonascre : secteur
+  différent (Haute-Ariège, pas le Couserans/Bassiès), sans lien établi avec cet épisode ;
+  hors périmètre de cette fiche.
 ordre: 34
 ---
 
@@ -57,6 +62,8 @@ MAJ 22/08 : l'échéance laissée ouverte le 18/08 est tranchée. Pyrénées FM 
 MAJ 27/08 : la page de l'Office de tourisme des Pyrénées Ariégeoises consacrée au GR®10 en Ariège (secteur Auzat), mise à jour le 11/08/2026, décrit une « déviation secteur Bassiès (incendie/éboulement) par Saleix », avec pour itinéraire de repli le col de Saleix, la descente vers Auzat par la vallée de Saleix (GRP Tour des Trois Seigneurs), puis la remontée vers Marc par le fond de la vallée du Vicdessos ; l'accès au refuge de Bassiès reste possible par Saleix ou par la Coumebière. La cause indiquée (incendie suivi d'éboulement) et la localisation (même tronçon du GR®10, entre le secteur de Bassiès et Marc, immédiatement voisin d'Ayès et du Cap des Lauses) correspondent au constat déjà documenté ci-dessus plutôt qu'à un événement distinct : les deux descriptions, l'une préfectorale/ONF côté Couserans (Maison du Valier↔Col de la Core), l'autre touristique côté Vicdessos (Saleix↔Auzat↔Marc), portent sur la même contrainte de terrain durable, chacune donnant l'accès de repli utile depuis son côté de la fermeture. Aucune réouverture n'est annoncée par cette source, dernière mise à jour connue du 11/08. Sur l'arrêté d'interdiction totale du feu, arrivé à échéance le 24/08 : nouvelle recherche dédiée le 27/08 (ariege.gouv.fr/Publications/Actualites relu en entier, pyreneesfm.com revuérifié), toujours aucune 5e reconduction ni levée publiée, soit 3 jours de silence.
 
 MAJ 28/08 : une source de presse antérieure, retrouvée ce jour, apporte une troisième confirmation indépendante de la fermeture du GR®10 dans le secteur de Seix. radiocouserans.fr (02/08/2026) rapporte, à propos du feu de Seix (14 ha à cette date, flammes progressant en terrain rocheux escarpé) : « le sentier de grande randonnée GR®10, situé en contrebas de la zone, a été fermé par mesure de sécurité ». Cette source de presse datée, distincte de la page de l'Office de tourisme des Pyrénées Ariégeoises citée le 27/08, corrobore par un troisième canal la convergence déjà retenue entre les fermetures documentées côté Couserans (Ayès↔Cap des Lauses) et côté Vicdessos (Seix/Auzat) : une même contrainte de terrain, décrite depuis plusieurs points d'accès. Sur l'arrêté d'interdiction totale du feu, arrivé à échéance le 24/08 : nouvelle recherche dédiée le 28/08 (ariege.gouv.fr/Publications/Actualites relu en entier, pyreneesfm.com revuérifié), toujours aucune 5e reconduction ni levée publiée, soit 4 jours de silence.
+
+MAJ 02/09 : la page des actualités de la préfecture de l'Ariège (ariege.gouv.fr/Publications/Actualites) reste inaccessible (erreur serveur) ; pyreneesfm.com/departement/ariege, consulté en entier, ne liste aucun article postérieur au 10/08 sur les interdictions d'usage du feu. Aucune 5e reconduction ni levée de l'arrêté n'est publiée à ce jour, soit 9 jours sans nouvelle depuis l'échéance du 24/08. Aucune réouverture du GR®10 entre l'étang d'Ayès et le Cap des Lauses n'est annoncée. lepetitjournal.net (01/09/2026) signale un feu de végétation distinct de 5 ha près d'Ax-les-Thermes/Bonascre, en Haute-Ariège : un secteur sans rapport géographique avec le Couserans/Bassiès, sans lien avec cette fermeture.
 
 ## Source
 

@@ -5,11 +5,13 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche, haute-corse.gouv.fr toujours calé sur
-  l'acte du 19/08/2026 (14 jours de silence). La fermeture ponctuelle de 24h du week-end
-  29-30/08 reste sans reconduction publiée pour la semaine en cours. Interdiction générale
-  de feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+verif: 2026-09-02
+statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche, haute-corse.gouv.fr reste inaccessible
+  (503) à deux tentatives ; aucune source de presse ne signale de nouvel arrêté ni de
+  nouveau feu significatif sur le tracé suivi depuis le 29/08 (un feu isolé et un départ de
+  feu mineur signalés début août sur Montegrossu/San Lorenzu, déjà résolus, sans lien avec
+  le tracé). Dernier acte connu inchangé (19/08/2026). Interdiction générale de feu
+  (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 

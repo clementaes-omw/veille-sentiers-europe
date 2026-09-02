@@ -5,15 +5,15 @@ itin: GR®9 (Dentelles de Montmirail), GR®4/GR®91 (Monts de Vaucluse, Petit Lu
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien ; 13 massifs interdits d'accès ce mardi 18/08/2026, le Mont Ventoux (sommet compris) restant nommément excepté
 detection: 2026-07-18
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche ciblée (listing complet des communiqués
-  d'août et de septembre de vaucluse.gouv.fr revérifié en direct), toujours aucun communiqué
-  massifs officiel postérieur au 18/08 (14 jours de silence officiel). destinationluberon.com
-  repasse le 31/08 au soir Petit Luberon, Grand Luberon et Monts de Vaucluse du vert au jaune
-  (« sortie recommandée le matin »), un cran plus restrictif qu'entre le 27/08 et le 29/08,
-  mais toujours sans confirmation ni levée officielle de la préfecture. Dernier état officiel
-  sûr pour l'ensemble des massifs : 13 fermés au 18/08, Mont Ventoux excepté. Sévérité
-  maintenue HAUTE.
+verif: 2026-09-02
+statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche ciblée (site vaucluse.gouv.fr en 503 au
+  moment du passage, requêtes indexées ne remontant aucun communiqué massifs postérieur au
+  18/08, soit 15 jours de silence officiel). destinationluberon.com, mise à jour affichée
+  01/09 18h, maintient Petit Luberon, Grand Luberon et Monts de Vaucluse en jaune (« sortie
+  recommandée le matin »), 2e jour consécutif à ce niveau après le passage du vert au jaune
+  le 31/08. Ce n'est ni une fermeture ni une levée officielle : dernier état officiel sûr
+  pour l'ensemble des massifs, 13 fermés au 18/08, Mont Ventoux excepté. Sévérité maintenue
+  HAUTE.
 ordre: 33
 ---
 

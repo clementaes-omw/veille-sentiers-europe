@@ -5,7 +5,7 @@ itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le trac�
 sev: MOYENNE
 validite: [CLÔTURÉ] (2026-08-27) — plus aucune source ne mentionne ce foyer depuis le 09/08/2026 20h22 ; l'agrégateur des incidents forestiers de Castilla y León ne le recense plus, ni comme actif ni comme récemment éteint
 detection: 2026-08-10
-verif: 2026-08-28
+verif: 2026-09-02
 statut: [CLÔTURÉ] (2026-08-27) — 18 jours sans aucune source postérieure au 09/08 20h22
   malgré une nouvelle recherche ciblée ce jour (requêtes dédiées « incendio Barjas León
   agosto 2026 Quintela ») : seuls les articles du 09/08 remontent. L'agrégateur
@@ -23,7 +23,7 @@ statut: [CLÔTURÉ] (2026-08-27) — 18 jours sans aucune source postérieure au
   négatif. ⚠️ Piège écarté : l'article infobierzo du 28/07 sur des incendies « stabilisés »
   en province de León cite un autre foyer « Quintela », situé à Balboa, distinct de celui-ci
   (commune de Barjas) ; un troisième lieu-dit « Quintela », rattaché cette fois au complexe
-  Murias de Ponjos (Оmaa, fiche clôturée `incendie|ES-CYL-Murias-de-Ponjos|…`), confirme
+  Murias de Ponjos (Омaa, fiche clôturée `incendie|ES-CYL-Murias-de-Ponjos|…`), confirme
   que le nom se répète dans plusieurs communes du Bierzo/León sans lien entre elles.
   15/08 : nouvelle recherche ciblée toujours infructueuse, le nom Barjas n'apparaît dans
   aucun récapitulatif postérieur au 09/08. Statut de résolution non tranché, à confirmer

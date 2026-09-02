@@ -5,17 +5,18 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (herault.gouv.fr, presse locale),
-  aucun classement daté postérieur au samedi 22/08 retrouvé, soit dix jours de silence.
-  Dernier état sûr inchangé : 8 secteurs sur 9 en orange, aucun rouge. herault.gouv.fr
-  toujours illisible en autonome. Carlencas-et-Levas toujours fixé.
+verif: 2026-09-02
+statut: ACTIF — CHANGÉ 02/09 : la préfète de l'Hérault (@Prefet34) a publié une carte
+  datée du mardi 01/09/2026 : 6 secteurs sur 9 en orange (risque élevé, accès déconseillé,
+  travaux réglementés), aucun rouge, en baisse par rapport aux 8/9 du 22/08. herault.gouv.fr
+  toujours illisible en autonome, liste nominative des 6 secteurs non confirmée par lecture
+  directe. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
 ordre: 18
 ---
 
 ## Portion concernée
 
-Hérault, situation vérifiée le 31/08/2026 : **aucun secteur n'est classé en rouge (accès interdit)**, le dernier classement publié par la préfecture, pour le samedi 22/08/2026, restant sans successeur daté malgré une nouvelle recherche (neuf jours de silence). Ce dernier classement connu place 8 des 9 secteurs forestiers du département en orange (risque élevé, **accès aux espaces forestiers déconseillé et travaux réglementés**), contre 9 sur 9 au classement du 19/08. La liste nominative des 9 secteurs orange n'a pas pu être confirmée : herault.gouv.fr reste en JavaScript et la carte quotidienne de risque-prevention-incendie.fr/herault n'affiche pas son contenu en dehors d'un navigateur. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
+Hérault, situation vérifiée le 02/09/2026 : **aucun secteur n'est classé en rouge (accès interdit)**. La préfecture publie une carte datée du mardi 01/09/2026 qui place 6 des 9 secteurs forestiers du département en orange (risque élevé, **accès aux espaces forestiers déconseillé et travaux réglementés**), contre 8 sur 9 au classement du 22/08. La liste nominative des 9 secteurs orange n'a pas pu être confirmée : herault.gouv.fr reste en JavaScript et la carte quotidienne de risque-prevention-incendie.fr/herault n'affiche pas son contenu en dehors d'un navigateur. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
 
 ## Alternative
 
@@ -45,6 +46,8 @@ MAJ 23/08 : le compte officiel de la préfète de l'Hérault (@Prefet34) publie 
 
 MAJ 28/08 : nouvelle recherche (compte @Prefet34, shopping-beziers.com), aucune carte ni article postérieur au 22/08 retrouvé, soit six jours de silence. Le classement du 22/08 (8 secteurs orange sur 9, aucun rouge) reste la dernière donnée officielle connue.
 
+MAJ 02/09 : le compte officiel de la préfète de l'Hérault (@Prefet34) publie une carte datée du mardi 01/09/2026 : 6 secteurs sur 9 en orange, aucun rouge, nouvelle amélioration par rapport aux 8/9 du 22/08. La liste nominative des secteurs reste non confirmée par une lecture directe de la carte officielle (herault.gouv.fr toujours en JavaScript).
+
 ## Source
 
-[shopping-beziers.com 05/08/2026, six massifs de l'Hérault en alerte rouge incendie, source préfecture](https://www.shopping-beziers.com/2026/08/05/six-massifs-de-lherault-en-alerte-rouge-incendie-acces-et-travaux-interdits-dans-les-espaces-forestiers-ce-jeudi-6-aout/) ; [bouzigues.fr, vigilances en vigueur pour le 06/08/2026](https://www.bouzigues.fr/vigilances-en-vigueur-pour-le-06-aout-2026/) ; [France 3 08/07](https://france3-regions.franceinfo.fr/occitanie/herault/beziers/on-a-plus-d-eau-ni-d-electricite-un-feu-en-progression-est-desormais-contenu-les-habitants-de-carlencas-et-levas-n-ont-pas-ete-evacues-mais-restent-tres-inquiets-a-cause-des-reprises-3383524.html) ; [Hérault Tribune 21/07, Minervois/Saint-Chinianais en alerte rouge](https://echo-des-tribunes.com/herault-tribune/articles/risque-dincendie-deux-massifs-du-departement-places-en-alerte-rouge) ; [info.fr 23/07, Minervois/Saint-Chinianais de nouveau en alerte rouge](https://info.fr/herault-alerte-rouge-incendie-jeudi-minervois-saint-chinianais-2026-07/) ; [Préfète de l'Hérault (@Prefet34), X, carte du risque incendie pour le vendredi 14 août 2026](https://x.com/Prefet34/status/2087920247005167654) ; [shopping-beziers.com, 18/08/2026, neuf massifs de l'Hérault en alerte orange incendie ce mercredi 19 août](https://www.shopping-beziers.com/2026/08/18/neuf-massifs-de-lherault-en-alerte-orange-incendie-acces-et-travaux-deconseilles-dans-les-espaces-forestiers-ce-mercredi-19-aout/) ; [Préfète de l'Hérault (@Prefet34), X, carte du risque incendie samedi 22 août 2026](https://x.com/Prefet34/status/2090818129404256440)
+[shopping-beziers.com 05/08/2026, six massifs de l'Hérault en alerte rouge incendie, source préfecture](https://www.shopping-beziers.com/2026/08/05/six-massifs-de-lherault-en-alerte-rouge-incendie-acces-et-travaux-interdits-dans-les-espaces-forestiers-ce-jeudi-6-aout/) ; [bouzigues.fr, vigilances en vigueur pour le 06/08/2026](https://www.bouzigues.fr/vigilances-en-vigueur-pour-le-06-aout-2026/) ; [France 3 08/07](https://france3-regions.franceinfo.fr/occitanie/herault/beziers/on-a-plus-d-eau-ni-d-electricite-un-feu-en-progression-est-desormais-contenu-les-habitants-de-carlencas-et-levas-n-ont-pas-ete-evacues-mais-restent-tres-inquiets-a-cause-des-reprises-3383524.html) ; [Hérault Tribune 21/07, Minervois/Saint-Chinianais en alerte rouge](https://echo-des-tribunes.com/herault-tribune/articles/risque-dincendie-deux-massifs-du-departement-places-en-alerte-rouge) ; [info.fr 23/07, Minervois/Saint-Chinianais de nouveau en alerte rouge](https://info.fr/herault-alerte-rouge-incendie-jeudi-minervois-saint-chinianais-2026-07/) ; [Préfète de l'Hérault (@Prefet34), X, carte du risque incendie pour le vendredi 14 août 2026](https://x.com/Prefet34/status/2087920247005167654) ; [shopping-beziers.com, 18/08/2026, neuf massifs de l'Hérault en alerte orange incendie ce mercredi 19 août](https://www.shopping-beziers.com/2026/08/18/neuf-massifs-de-lherault-en-alerte-orange-incendie-acces-et-travaux-deconseilles-dans-les-espaces-forestiers-ce-mercredi-19-aout/) ; [Préfète de l'Hérault (@Prefet34), X, carte du risque incendie samedi 22 août 2026](https://x.com/Prefet34/status/2090818129404256440) ; [Préfète de l'Hérault (@Prefet34), carte du risque incendie mardi 1er septembre 2026 (6 secteurs orange sur 9)](https://x.com/Prefet34)
