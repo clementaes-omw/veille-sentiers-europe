@@ -5,15 +5,13 @@ itin: GR®10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de l
 sev: MOYENNE (feu éteint selon deux sources recoupées le 31/08 ; piste de la Glère toujours non confirmée rouverte)
 validite: feu éteint (feuxdeforet.fr ; plus aucune détection satellite NASA FIRMS depuis début août) ; piste de la Glère présumée fermée jusqu'à nouvel ordre, faute de source confirmant sa réouverture
 detection: 2026-07-21
-verif: 2026-08-31
-statut: ACTIF — CHANGÉ 31/08 : deux sources indépendantes convergent vers un feu éteint :
-  feuxdeforet.fr affiche désormais « le feu est éteint », et incendieencours.fr (données
-  satellite NASA FIRMS/VIIRS) ne relève plus aucune détection thermique sur ce foyer depuis
-  le 02/08/2026. Aucune source officielle (préfecture 65) ni presse ne confirme l'extinction
-  en propres termes datés, mais le recoupement est jugé suffisant pour mettre à jour la
-  fiche. L'état de la piste de la Glère elle-même (chutes de pierres, accès au refuge) reste
-  en revanche non tranché : aucune source ne mentionne sa réouverture. Sévérité maintenue
-  MOYENNE, la fermeture de la piste restant présumée par prudence.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche, aucune source ne documente la
+  réouverture de la piste de la Glère ni un nouvel épisode sur ce feu, toujours donné
+  éteint depuis le 31/08 (feuxdeforet.fr, recoupé par l'absence de détection satellite
+  NASA FIRMS/VIIRS depuis le 02/08). L'état de la piste de la Glère elle-même (chutes de
+  pierres, accès au refuge) reste non tranché : aucune source ne mentionne sa réouverture.
+  Sévérité maintenue MOYENNE, la fermeture de la piste restant présumée par prudence.
 ordre: 39
 ---
 

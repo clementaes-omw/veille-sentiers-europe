@@ -5,11 +5,10 @@ itin: GRP Tour des Baronnies provencales (Drôme/Hautes-Alpes/Vaucluse) — [HYP
 sev: MOYENNE
 validite: aucune restriction en vigueur : feu déclaré fixé après deux semaines de lutte, pas encore déclaré éteint, pompiers maintenus pour noyer les foyers résiduels ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur au-delà du régime saisonnier de droit commun
 detection: 2026-08-15
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche, aucune déclaration d'extinction
-  trouvée au-delà du fixé du 17/08 (le fil ICI.fr Bellegarde-en-Diois s'arrête au 15/08).
-  Toujours aucun sentier référencé nommé par les sources, aucun arrêté d'interdiction
-  d'accès aux massifs pour ce secteur précis.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche, aucune déclaration d'extinction
+  trouvée au-delà du fixé du 17/08. Toujours aucun sentier référencé nommé par les sources,
+  aucun arrêté d'interdiction d'accès aux massifs pour ce secteur précis.
 ordre: 118
 ---
 

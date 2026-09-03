@@ -5,9 +5,13 @@ itin: **GR®20 FERMÉ : Ciottulu di i Mori ↔ Asco + Tighjettu ↔ bergeries de
 sev: HAUTE
 validite: [CLÔTURÉ] rouvert depuis le 30/07/2026 selon le PNRC, incendie désormais maîtrisé
 detection: 2026-07-15 (feu du 12/07)
-verif: 2026-09-02
-statut: [CLÔTURÉ] (2026-08-01) — INCHANGÉ 02/09 : aucune source ne signale de nouvelle reprise
-  sur Albertacce/Niolu. MAJ 29/08 : un feu distinct, sans lien avec l'épisode
+verif: 2026-09-03
+statut: [CLÔTURÉ] (2026-08-01) — INCHANGÉ 03/09 : aucune source ne signale de nouvelle reprise
+  sur Albertacce/Niolu. MAJ 03/09 : un feu distinct s'est déclaré le 01/09 à Venaco (secteur
+  Corte, ~20 ha, tête de feu stoppée le soir même par un largage de retardant, deux
+  randonneuses évacuées par hélicoptère depuis un secteur surplombant la zone) ; aucune source
+  ne documente de fermeture de sentier ni de lien avec le GR®20 lui-même. MAJ 29/08 : un feu
+  distinct, sans lien avec l'épisode
   Albertacce/Restonica ici clôturé, s'est déclaré le 27/08 à Calenzana/Montegrosso (60-64 ha,
   fixé, sous contrôle depuis le 28/08, voir fiche dédiée
   `incendie|Corse-Calenzana|feu-Montegrosso-64ha|2026-08-27`) ; aucune source ne documente de

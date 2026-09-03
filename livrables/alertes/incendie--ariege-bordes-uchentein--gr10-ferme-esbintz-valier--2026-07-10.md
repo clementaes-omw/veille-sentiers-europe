@@ -5,19 +5,14 @@ itin: GR®10 (secteur Couserans/Val du Biros, tronçon Ayès↔Cap des Lauses al
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses (alias secteur Bassiès) fermé depuis le 02/08 (incendie/éboulement, chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (6 jours de silence au 30/08)
 detection: 2026-07-20
-verif: 2026-09-02
-statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche ciblée (ariege.gouv.fr/Publications/Actualites
-  inaccessible, HTTP 503 ; pyreneesfm.com/departement/ariege relu, dernier article sur les
-  interdictions daté du 10/08), aucune 5e reconduction ni levée de l'arrêté trouvée, soit
-  9 jours de silence depuis l'échéance du 24/08. Aucune annonce de réouverture du GR®10
-  Ayès↔Cap des Lauses trouvée non plus ; la fermeture reste confirmée par les 3 sources
-  datées déjà retenues (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr
-  02/08). La sévérité HAUTE repose sur ce fait de terrain, distinct de l'arrêté feu : la
-  règle des 14 jours ne s'applique donc pas ici, et aucune dégradation n'est justifiée tant
-  que la fermeture GR®10 elle-même n'est pas infirmée. lepetitjournal.net signale le
-  01/09/2026 un feu de végétation distinct (5 ha) près d'Ax-les-Thermes/Bonascre : secteur
-  différent (Haute-Ariège, pas le Couserans/Bassiès), sans lien établi avec cet épisode ;
-  hors périmètre de cette fiche.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche ciblée sur le tronçon GR®10
+  Ayès↔Cap des Lauses (presse pyrénéenne, pyreneesfm.com) et sur l'arrêté d'interdiction
+  totale du feu, aucune annonce de réouverture ni de 5e reconduction/levée retrouvée, soit
+  10 jours de silence depuis l'échéance du 24/08 de l'arrêté feu. La fermeture du GR®10
+  reste confirmée par les 3 sources datées déjà retenues (France 3 Occitanie 04/08,
+  ruralites2024.fr 03/08, radiocouserans.fr 02/08). La sévérité HAUTE repose sur ce fait de
+  terrain, distinct de l'arrêté feu : la règle des 14 jours ne s'applique donc pas ici.
 ordre: 34
 ---
 

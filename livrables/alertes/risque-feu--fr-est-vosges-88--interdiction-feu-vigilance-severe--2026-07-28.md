@@ -3,31 +3,33 @@ cle: risque-feu|FR-EST-Vosges-88|interdiction-feu-vigilance-severe|2026-07-28
 type: risque feu / réglementation accès
 itin: GR®5 & GR®53 (massif des Vosges) ; GR®531, GR®532, GR®533 (Vosges) — département 88, zone FR-EST
 sev: MOYENNE
-validite: interdiction des feux, feux d'artifice et feux festifs PROLONGÉE du 01/08 8h au 01/09 8h 2026 (arrêté du 19/06/2026 confirmé directement sur vosges.gouv.fr le 06/08, régime confirmé toujours en vigueur le 24/08) ; le niveau de vigilance feu de forêt est redescendu à « modéré » du 18 au 20/08 (dernier bulletin public connu, aucun bulletin plus récent trouvé), après le pic « sévère » de fin juillet ; sécheresse en niveau « crise » depuis le 16/07 ; règle de fond distincte : interdiction du feu en forêt/200m du 15/03 au 30/09
+validite: l'interdiction spécifique des feux d'artifice/festifs/chavandes, en vigueur du 01/08 au 01/09 8h, est arrivée à son terme sans reconduction retrouvée à ce jour ; la règle de fond reste pleinement en vigueur : interdiction du feu en forêt/à moins de 200m du 15/03 au 30/09 (arrêté n°172/2026), et alerte sécheresse renforcée sur tout le département jusqu'au 30/09 (restrictions d'arrosage, de lavage et de remplissage de piscines) ; niveau de vigilance feu de forêt toujours « modéré » sur le dernier bulletin public connu (18-20/08)
 detection: 2026-07-30
-verif: 2026-08-27
-statut: ACTIF — CHANGÉ 27/08 : le niveau de vigilance feu de forêt, resté « sévère » fin
-  juillet/début août, est redescendu à « modéré » sur le dernier bulletin public retrouvé
-  (clickalert.org, bulletin du 17/08/2026 16h16, période 18-20/08) ; aucun bulletin plus
-  récent n'est indexé. La page réglementaire de vosges.gouv.fr, mise à jour le 24/08/2026,
-  confirme que l'arrêté de fond (interdiction du feu en forêt/200m, 15/03-30/09) reste en
-  vigueur, ainsi que l'arrêté n°172/2026 encadrant les usages du feu par niveau de risque.
-  L'interdiction spécifique des feux d'artifice/festifs/chavandes court toujours jusqu'au
-  01/09 8h. Aucune fermeture de sentier ni de massif toujours pas documentée.
+verif: 2026-09-03
+statut: ACTIF — CHANGÉ 03/09 : l'interdiction temporaire des feux d'artifice/festifs/
+  chavandes, qui courait du 01/08 au 01/09 8h, s'est achevée à son terme ; aucune presse ni
+  page officielle ne documente de nouvelle reconduction pour septembre. La règle de fond
+  (interdiction du feu en forêt/200m, 15/03-30/09, arrêté n°172/2026) reste elle en vigueur
+  jusqu'au 30/09, tout comme l'alerte sécheresse renforcée départementale (jusqu'au 30/09),
+  qui durcit désormais l'arrosage, le lavage et le remplissage de piscines. Aucun bulletin de
+  vigilance incendie postérieur au 17/08 n'a été retrouvé ; toujours aucune fermeture de
+  sentier ni de massif documentée.
 ordre: 60
 ---
 
 ## Portion concernée
 
-Département des Vosges (88), ensemble des massifs forestiers traversés par les GR®5, GR®53, GR®531, GR®532 et GR®533 : **pas de fermeture d'accès, mais interdiction stricte de tout feu** (feux de camp, feux festifs, feux d'artifice) jusqu'au 01/09/2026 8h. Le niveau de vigilance incendie, monté jusqu'à « sévère » fin juillet, est redescendu à « modéré » sur le dernier bulletin connu (18-20/08/2026). Raison : sécheresse persistante (département en niveau « crise » depuis le 16/07) rendant les massifs vosgiens vulnérables aux départs de feu, même si la pression s'est atténuée depuis le pic de fin juillet.
+Département des Vosges (88), ensemble des massifs forestiers traversés par les GR®5, GR®53, GR®531, GR®532 et GR®533 : **pas de fermeture d'accès**. L'interdiction spécifique des feux d'artifice, feux festifs et feux de camp, qui courait du 01/08 au 01/09/2026 8h, est arrivée à échéance sans qu'une reconduction ait été retrouvée. Reste en vigueur la règle de fond, qui couvre déjà largement le massif : interdiction de tout feu en forêt et à moins de 200 m des forêts jusqu'au 30/09/2026 (arrêté n°172/2026), et une alerte sécheresse renforcée sur l'ensemble du département jusqu'au 30/09 (restrictions d'arrosage, de lavage de véhicules/façades, remplissage de piscines interdit). Le niveau de vigilance incendie, monté jusqu'à « sévère » fin juillet, reste à « modéré » sur le dernier bulletin connu (18-20/08/2026), sans bulletin plus récent retrouvé. Raison : sécheresse persistante rendant les massifs vosgiens vulnérables aux départs de feu.
 
 MAJ 02/08 : l'interdiction n'a PAS été levée, elle est PROLONGÉE. Un nouvel arrêté préfectoral daté du 30/07/2026 reconduit l'interdiction des feux d'artifice, spectacles pyrotechniques, chavandes, feux de joie et feux de camp du samedi 01/08 8h au mardi 01/09 8h 2026. La sécheresse et la vulnérabilité des massifs restent la raison invoquée ; contrôles de gendarmerie renforcés dans le massif vosgien annoncés le 02/08.
 
 ## Alternative
 
-Sans objet : aucun sentier n'est fermé, les GR® restent praticables. La contrainte porte sur l'usage du feu, non sur l'accès. Pour le bivouac sur les GR®5/GR®53, réchaud et feu de camp sont à considérer comme interdits dans le département jusqu'au 01/09 inclus ; se replier sur les hébergements et aires autorisés, et vérifier le niveau de vigilance du jour avant chaque sortie.
+Sans objet : aucun sentier n'est fermé, les GR® restent praticables. La contrainte porte sur l'usage du feu, non sur l'accès. Pour le bivouac sur les GR®5/GR®53, réchaud et feu de camp restent à proscrire dans les bois et à moins de 200 m de ceux-ci, en vertu de la règle de fond en vigueur jusqu'au 30/09/2026 ; se replier sur les hébergements et aires autorisés, et vérifier le niveau de vigilance du jour avant chaque sortie.
 
 MAJ 02/08 : cette recommandation reste valable et s'étend désormais jusqu'au 01/09 2026 inclus (nouvelle échéance de l'arrêté du 30/07/2026). Bivouac et feu de camp toujours à proscrire sur les GR®5/GR®53 et GR® de liaison vosgiens durant tout le mois d'août.
+
+MAJ 03/09 : l'échéance du 01/09 est passée sans reconduction retrouvée pour l'interdiction spécifique des feux d'artifice/festifs/chavandes ; la contrainte opposable au randonneur reste néanmoins la même sur le fond, puisque le feu en forêt et à moins de 200 m de celle-ci demeure interdit jusqu'au 30/09/2026 sur l'ensemble du massif vosgien.
 
 ## Zone (détails)
 
@@ -39,6 +41,8 @@ MAJ 06/08 : [HYPOTHÈSE] levée par lecture directe de vosges.gouv.fr. L'interdi
 
 MAJ 27/08 : le niveau de vigilance incendie retombe à « modéré ». [FAIT, clickalert.org, bulletin FR88 du 17/08/2026 16h16, période couverte 18-20/08/2026] Aucun bulletin plus récent n'a été retrouvé, sans que cela permette de conclure à une fin de la vigilance : c'est le dernier constat public disponible. Par ailleurs, un arrêté municipal du maire de Gérardmer daté du 03/08/2026 a institué des mesures de prévention incendie exceptionnelles sur l'ensemble du massif forestier communal, en complément du régime préfectoral. La page réglementaire de vosges.gouv.fr, mise à jour le 24/08/2026, confirme sans changement l'arrêté de fond sur le feu en forêt (15/03-30/09) et l'arrêté n°172/2026. L'interdiction des feux d'artifice/festifs/chavandes reste en vigueur jusqu'au 01/09 8h. Toujours aucune fermeture de sentier ni de massif documentée.
 
+MAJ 03/09 : l'interdiction temporaire des feux d'artifice/festifs/chavandes s'est achevée à son terme du 01/09 8h. [FAIT, vosges.gouv.fr, page « Interdiction temporaire des feux d'artifice et des feux festifs dans les Vosges », mise à jour du 30/07/2026, relue le 03/09/2026] Aucune presse ni page officielle ne documente une nouvelle reconduction pour le mois de septembre. La page réglementaire de vosges.gouv.fr, mise à jour le 1er septembre 2026, confirme sans changement l'arrêté de fond sur le feu en forêt (15/03-30/09, arrêté n°172/2026). Une recherche croisée retrouve par ailleurs que l'ensemble du département reste en alerte sécheresse renforcée jusqu'au 30/09/2026, avec un durcissement des restrictions d'usage de l'eau sur les bassins versants de la Meuse, de la Moselle et de la Saône (arrosage entre 9h et 20h interdit, lavage de façades et véhicules restreint, remplissage de piscines individuelles proscrit) : mesure sans incidence directe sur la pratique du GR®, mais qui confirme que la pression sécheresse à l'origine de l'alerte n'est pas retombée. Aucun bulletin de vigilance incendie postérieur au 17/08 n'a été retrouvé ; toujours aucune fermeture de sentier ni de massif documentée.
+
 ## Source
 
 [remiremontvallees.com (Communauté de communes de la Porte des Vosges Méridionales), 28/07/2026, risque incendie : les Vosges placées en vigilance sévère jusqu'au 30 juillet 2026](https://remiremontvallees.com/2026/07/28/risque-incendie-les-vosges-placees-en-vigilance-severe-jusquau-30-juillet-2026/) ; [info.fr, Vosges : risque incendie modéré maintenu jusqu'au 27 juillet](https://info.fr/vosges-risque-incendie-modere-maintenu-27/) ; [info.fr, Vosges : risque incendie maintenu à niveau modéré jusqu'au 23 juillet](https://info.fr/vosges-risque-incendie-maintenu-niveau-modere-23/) ; [Club Vosgien, fermeture temporaire des sentiers autour du lac du Schiessrothried (motif distinct, cité pour écarter la confusion)](https://www.club-vosgien.eu/randonner-avec-le-club-vosgien/fermeture-temporaire-des-sentiers-de-randonnee-autour-du-lac-du-schiessrothried-informations-importantes/)
@@ -46,3 +50,5 @@ MAJ 27/08 : le niveau de vigilance incendie retombe à « modéré ». [FAIT, cl
 MAJ 02/08 : [vosgesinfo.fr (La Plaine des Vosges Info), Dans les Vosges, l'interdiction des feux d'artifice prolongée jusqu'au 1er septembre](https://vosgesinfo.fr/laplainedesvosgesinfo/2026/07/dans-les-vosges-linterdiction-des-feux-dartifice-prolongee-jusquau-1er-septembre/) (arrêté du 30/07/2026) ; [remiremontvallees.com, Risque incendie : les contrôles de la gendarmerie renforcés dans le massif vosgien, 02/08/2026](https://remiremontvallees.com/2026/08/02/risque-incendie-les-controles-de-la-gendarmerie-renforces-dans-le-massif-vosgien/)
 
 MAJ 27/08 : [clickalert.org, bulletin FR88, Risque incendie modéré dans les Vosges du 18 au 20 août 2026, publié le 17/08/2026 16h16](https://www.clickalert.org/bulletins/fr88-risque-incendie-modere-dans-les-vosges-du-18-au-20-aout-2026) ; [vosges.gouv.fr, Mesures de protection contre les incendies de forêts, mise à jour du 24/08/2026](https://www.vosges.gouv.fr/Actions-de-l-Etat/Agriculture-Foret/Foret/Reglementation/Mesures-de-protection-contre-les-incendies-de-forets) ; [magnumlaradio.com, Canicule, sécheresse et risque d'incendie : le préfet des Vosges serre la vis (arrêté municipal Gérardmer du 03/08/2026)](https://www.magnumlaradio.com/canicule-secheresse-et-risque-d-incendie-le-prefet-des-vosges-serre-la-vis)
+
+MAJ 03/09 : [vosges.gouv.fr, Interdiction temporaire des feux d'artifice et des feux festifs dans les Vosges, mise à jour du 30/07/2026, relue le 03/09/2026 (échéance du 01/09 8h, sans reconduction retrouvée)](https://www.vosges.gouv.fr/Actualites/Interdiction-temporaire-des-feux-d-artifice-et-des-feux-festifs-dans-les-Vosges) ; [vosges.gouv.fr, Mesures de protection contre les incendies de forêts, mise à jour du 01/09/2026](https://www.vosges.gouv.fr/Actions-de-l-Etat/Agriculture-Foret/Foret/Reglementation/Mesures-de-protection-contre-les-incendies-de-forets) ; presse (vosgesinfo.fr, ici.fr, info.fr, 30-31/07/2026, sur l'échéance initiale du 01/09) ; recherche du 03/09/2026 sur l'alerte sécheresse renforcée départementale (restrictions d'eau jusqu'au 30/09/2026)
