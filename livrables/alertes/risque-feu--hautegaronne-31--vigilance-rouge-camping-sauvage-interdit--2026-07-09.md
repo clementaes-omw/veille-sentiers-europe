@@ -3,12 +3,7 @@ cle: risque-feu|HauteGaronne-31|vigilance-rouge-camping-sauvage-interdit|2026-07
 type: risque-feu
 itin: GR®10 (secteur Luchon-Superbagnères), HRP
 sev: MOYENNE
-validite: arrêté du 09/07/2026, activé seulement les jours classés en vigilance rouge (très
-  élevée) de la météo des forêts, sans échéance calendaire fixe selon le texte officiel de
-  la préfecture ; une source de presse secondaire évoquait une validité « jusqu'au
-  01/09/2026 », mais la page officielle haute-garonne.gouv.fr (MAJ 30/07) dit seulement que
-  la mesure « restera en vigueur durant toute la durée de vigilance très élevée (rouge) »,
-  sans date de fin
+validite: arrêté du 09/07/2026, activé seulement les jours classés en vigilance rouge (très élevée) de la météo des forêts, en vigueur jusqu'à nouvel ordre selon le texte officiel de la préfecture (sans échéance calendaire fixe) ; une source de presse secondaire évoquait une validité « jusqu'au 01/09/2026 », mais la page officielle haute-garonne.gouv.fr (MAJ 30/07) dit seulement que la mesure « restera en vigueur durant toute la durée de vigilance très élevée (rouge) », sans date de fin
 detection: 2026-08-24
 verif: 2026-09-03
 statut: ACTIF — CHANGÉ 03/09 : relecture directe de haute-garonne.gouv.fr (page officielle,
