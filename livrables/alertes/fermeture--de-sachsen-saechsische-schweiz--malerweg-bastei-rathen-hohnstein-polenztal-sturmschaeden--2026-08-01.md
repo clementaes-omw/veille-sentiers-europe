@@ -11,7 +11,7 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-02
+verif: 2026-09-03
 statut: ACTIF — CHANGÉ 01/09 : la FAQ officielle du parc
   (nationalpark-saechsische-schweiz.de/faq-zur-situation-in-rathen, MAJ 27/08) précise que
   l'Allgemeinverfügung amendée est valable « bis auf Widerruf », sans échéance calendaire

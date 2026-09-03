@@ -5,12 +5,11 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-02
-statut: ACTIF — CHANGÉ 02/09 : la préfète de l'Hérault (@Prefet34) a publié une carte
-  datée du mardi 01/09/2026 : 6 secteurs sur 9 en orange (risque élevé, accès déconseillé,
-  travaux réglementés), aucun rouge, en baisse par rapport aux 8/9 du 22/08. herault.gouv.fr
-  toujours illisible en autonome, liste nominative des 6 secteurs non confirmée par lecture
-  directe. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche (herault.gouv.fr toujours illisible en
+  autonome, aucune nouvelle carte @Prefet34 postérieure au 01/09 retrouvée). Le classement
+  du mardi 01/09/2026 (6 secteurs sur 9 en orange, aucun rouge) reste la dernière donnée
+  officielle connue. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
 ordre: 18
 ---
 

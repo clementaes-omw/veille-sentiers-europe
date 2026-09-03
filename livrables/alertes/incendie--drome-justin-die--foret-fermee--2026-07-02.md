@@ -6,12 +6,12 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-09-02
-statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche ciblée (mairie-die.fr, drome.gouv.fr,
-  presse), l'arrêté du 21/08/2026 reste la donnée la plus récente et rien n'indique une
-  levée ni une étude de risque achevée. Sévérité maintenue HAUTE. Rattachement GR®9/GR®93
-  toujours affaibli depuis le 03/08 (probable GR®95). drome.gouv.fr reste daté du 16/07/2026
-  sans mise à jour.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche ciblée (mairie-die.fr, drome.gouv.fr,
+  presse), l'arrêté du 21/08/2026 reste la donnée la plus récente ; l'étude de risque
+  restant la condition de levée est toujours présentée comme en cours, sans échéance
+  communiquée. Sévérité maintenue HAUTE. Rattachement GR®9/GR®93 toujours affaibli depuis
+  le 03/08 (probable GR®95). drome.gouv.fr reste daté du 16/07/2026 sans mise à jour.
 ordre: 31
 ---
 

@@ -10,17 +10,11 @@ validite: arrêté municipal n°10-2026, prolongé par le n°12-2026 jusqu'au 31
   le lendemain le risque incendie sur les forêts de Saoû et le plateau d'Ambel jusqu'au
   15/09/2026, indépendamment du sort de l'arrêté municipal
 detection: 2026-08-17
-verif: 2026-09-01
-statut: ACTIF — CHANGÉ 01/09 : l'arrêté municipal n°12-2026, qui prolongeait la fermeture du
-  Pas du Gouillat et du Pas de Comberoufle jusqu'au 31/08/2026 inclus, est arrivé à son
-  terme hier sans reconduction publiée trouvée à ce jour [à vérifier manuellement : son
-  existence même n'a pu être confirmée que par des résultats de recherche indexés, pas par
-  lecture directe d'un PDF officiel]. Un second texte, distinct et plus large, est
-  identifié pour la première fois : l'arrêté préfectoral DDT-SEF-2026-0176 (signé 04/06,
-  publié 11/06/2026) soumet l'accès à la forêt de Saoû et au plateau d'Ambel à une carte de
-  risque incendie réévaluée chaque soir, valable jusqu'au 15/09/2026, indépendamment du
-  sort de l'arrêté municipal. L'accès au secteur reste donc à vérifier au jour le jour
-  jusqu'à mi-septembre même si la fermeture nommée ici est levée par expiration de terme.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche, rien de neuf sur une éventuelle
+  reconduction de l'arrêté municipal n°12-2026 (échu le 31/08). L'arrêté préfectoral
+  DDT-SEF-2026-0176, qui réévalue chaque soir le risque incendie sur la forêt de Saoû et le
+  plateau d'Ambel jusqu'au 15/09/2026, reste le régime de référence pour ce secteur.
 ordre: 171
 ---
 

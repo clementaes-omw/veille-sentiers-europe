@@ -5,7 +5,7 @@ itin: Juliana Trail, Alpe-Adria Trail
 sev: MOYENNE
 validite: pérenne depuis octobre 2025
 detection: 2026-07-23
-verif: 2026-08-27
+verif: 2026-09-03
 statut: ACTIF — INCHANGÉ 27/08 : soca-valley.com et tnp.si/en/visiting-park/latest/actual-conditions
   revérifiés, aucune mention d'une levée de la déviation Trnovo ob Soči↔Srpenica ni d'un
   retour à la normale ; le flux d'actualités ne republie pas cette information ancienne

@@ -9,18 +9,14 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-02
-statut: ACTIF — CONFIRMÉ HAUTE 02/09 : recherche ciblée sur l'acte manquant (au-delà de
-  paysdesecrins.com déjà connu), page officielle de la mairie de L'Argentière-la-Bessée
-  (ville-argentiere.fr/feu-bois-noir-informations) lue directement. Elle confirme que
-  l'arrêté municipal du 15/08/2026 reste en vigueur, présenté comme « une mesure de
-  protection des usagers en attendant de recevoir l'ensemble des avis des autorités
-  compétentes en vue d'une réouverture » : c'est un acte officiel de la commune elle-même,
-  pas une hypothèse ni une source de presse à recouper. La fermeture du cœur de massif
-  n'est donc pas une hypothèse vieillissante mais un fait établi et actuellement en
-  vigueur ; la règle des 14 jours ne s'applique pas ici, la sévérité HAUTE reste confirmée.
-  Aucune date de réouverture n'est annoncée : la procédure d'avis préalable est en cours.
-  Parcours 22/23 et côte de Pallon restent rouverts depuis le 20/08.
+verif: 2026-09-03
+statut: ACTIF — CONFIRMÉ HAUTE 03/09 : nouvelle recherche ciblée sur l'acte manquant
+  (ville-argentiere.fr relue, presse Hautes-Alpes), aucune évolution trouvée au-delà du
+  constat du 02/09. L'arrêté municipal du 15/08/2026 reste la base réglementaire en vigueur,
+  toujours présenté comme une mesure en attendant l'ensemble des avis des autorités
+  compétentes ; aucune date de réouverture annoncée. La règle des 14 jours ne s'applique pas
+  ici (acte officiel en vigueur, pas une hypothèse). Parcours 22/23 et côte de Pallon
+  restent rouverts depuis le 20/08.
 ordre: 41
 ---
 

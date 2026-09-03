@@ -8,13 +8,10 @@ sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour ; aucune
   page « risque incendie très sévère » publiée depuis le 18/08/2026
 detection: 2026-07-04
-verif: 2026-09-01
-statut: [CLÔTURÉ] (2026-09-01) — gard.gouv.fr publie une page datée uniquement les jours où
-  un secteur passe en risque très sévère : aucune page de ce type n'existe pour le 19/08, le
-  31/08 ni le 1er/09 (les trois URL datées testées directement renvoient 404), soit 14 jours
-  sans nouveau secteur rouge. Le classement du 18/08 (3 secteurs) est donc retombé sans
-  successeur : le Gard Rhodanien, les Garrigues et les Costières Petite Camargue sont
-  redescendus sous le seuil rouge.
+verif: 2026-09-03
+statut: [CLÔTURÉ] (2026-09-01) — reconfirmé 03/09 : gard.gouv.fr ne publie toujours aucune
+  page « risque incendie très sévère » postérieure au 18/08/2026, 16e jour sans nouveau
+  secteur rouge. Le classement du 18/08 (3 secteurs) reste retombé sans successeur.
 ordre: 15
 ---
 

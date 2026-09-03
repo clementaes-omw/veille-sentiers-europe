@@ -5,12 +5,15 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-02
-statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche dédiée (presseagence.fr, nicepremium.fr),
-  aucune publication postérieure au 31/08 trouvée pour ce massif. La carte du jour, republiée
-  chaque soir avant 19h par la préfecture, reste en JavaScript et n'a pas pu être lue
-  directement ; aucun communiqué officiel des Alpes-Maritimes localisé. Dernière donnée sûre
-  inchangée (fermeture confirmée le 31/08). Sévérité maintenue MOYENNE.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche ciblée sur l'acte manquant (recueil des
+  actes administratifs des Alpes-Maritimes, presseagence.fr, nicepremium.fr), toujours aucune
+  publication postérieure au 31/08 trouvée pour ce massif côté Alpes-Maritimes, et aucun
+  arrêté nommant l'Esterel-Tanneron localisé sur le recueil des actes. À noter : côté Var, le
+  massif de l'Estérel (zone distincte, préfecture du Var) est classé orange/sévère le 02/09
+  (voir ligne `risque-feu|Var-83|…`), ce qui ne renseigne pas sur le massif Esterel-Tanneron
+  des Alpes-Maritimes objet de cette fiche. Dernière donnée sûre inchangée (fermeture
+  confirmée le 31/08). Sévérité maintenue MOYENNE.
 ordre: 102
 ---
 
@@ -51,6 +54,8 @@ Vérifié le 28/08/2026 : nouvelle recherche dédiée (presse locale, requêtes 
 Vérifié le 29/08/2026 : le silence est rompu. presseagence.fr publie le 28/08/2026 (date de publication vérifiée directement par lecture de la page) l'annonce d'une fermeture du massif Esterel-Tanneron pour le samedi 29/08/2026, classé rouge/très sévère, accès et circulation strictement interdits. C'est la première confirmation d'une fermeture depuis celle du 6 août. Aucune 2e source de presse indépendante n'a été trouvée pour recouper cette annonce précise du 29/08 (nicepremium.fr et cannes-actus.com n'ont livré que des articles anciens lors de la recherche) ; aucun communiqué officiel de la préfecture des Alpes-Maritimes daté du 28/08 n'a été localisé. Ce qui s'est passé entre le 7 et le 28 août (22 jours) reste non documenté : fermetures possibles mais non publiées dans les sources suivies, ou absence de journées classées très sévère sur cette période. Sévérité maintenue MOYENNE (source de presse unique).
 
 Vérifié le 31/08/2026 : nouvelle fermeture confirmée pour ce lundi 31/08/2026 par presseagence.fr (publié 30/08/2026), cohérente avec la fermeture du même massif côté Var (Estérel varois) confirmée sur la même période. C'est la 2e confirmation en 3 jours, après la reprise du 29/08. Toujours aucun communiqué officiel de la préfecture des Alpes-Maritimes localisé.
+
+Vérifié le 03/09/2026 : recherche ciblée sur l'acte manquant (recueil des actes administratifs de la préfecture des Alpes-Maritimes, presseagence.fr, nicepremium.fr), toujours aucune publication postérieure au 31/08 trouvée pour ce massif. Aucun arrêté préfectoral nommant l'Esterel-Tanneron n'est publié à ce jour sur le recueil des actes administratifs consulté. Le massif de l'Estérel côté Var, objet d'une fiche distincte, est classé orange (sévère, non fermé) le 02/09 : cela ne renseigne pas sur le statut du massif Esterel-Tanneron des Alpes-Maritimes, dont la préfecture publie un classement séparé.
 
 ## Source
 

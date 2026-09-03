@@ -5,7 +5,7 @@ itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la 
 sev: MOYENNE
 validite: travaux en cours, réouverture estimée septembre-octobre 2026
 detection: 2026-07-23
-verif: 2026-08-27
+verif: 2026-09-03
 statut: ACTIF — CHANGÉ 27/08 : la fermeture principale (Kriváň, Tri studničky ↔ Krivánsky žľab)
   reste en cours, réouverture toujours estimée septembre-octobre 2026 (tanap.sk reconfirmé :
   « chodník z Troch Studničiek na Kriváň je naďalej uzavretý »). Le sentier vers le Sedielko

@@ -5,10 +5,10 @@ itin: GR®52 / GTM (Mercantour)
 sev: INFO
 validite: rouvert 2026 via déviations rive g./dr.
 detection: 2026-06-29
-verif: 2026-09-02
-statut: ACTIF — INCHANGÉ 02/09 : page FFRando 06 « Fermeture des sentiers GR Alpes-Maritimes »
-  relue directement (mise à jour au 01/09/2026) : le GR®52 dans la vallée du Boréon n'y
-  figure toujours pas, cohérent avec un tronçon praticable via les déviations existantes.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : aucune nouvelle vérification de la page FFRando 06 ce run
+  (dernière lecture directe le 02/09, page à jour au 01/09/2026, GR®52 Boréon absent de la
+  liste des fermetures). Aucun signal contraire trouvé par ailleurs.
 ordre: 6
 ---
 

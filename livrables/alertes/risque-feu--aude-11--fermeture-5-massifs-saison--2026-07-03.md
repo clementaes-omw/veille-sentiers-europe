@@ -5,13 +5,11 @@ itin: GR®36 & GR®78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (cô
 sev: MOYENNE
 validite: île Ste-Lucie fermée les seuls jours très sévère/extrême jusqu'au 15/09/2026 ; Ribaute jusqu'à levée AP ; Fontfroide, Pinèdes de Crémade, la Clape et Pinède Lézignanaise fermés du 03/07 au 31/08/2026 inclus, échéance déjà atteinte et non prolongée à ce jour (ces quatre massifs sont traités comme rouverts, cf. Portion concernée)
 detection: 2026-07-06
-verif: 2026-09-02
-statut: ACTIF — INCHANGÉ 02/09 : nouvelle recherche ciblée sur une éventuelle prolongation de
-  l'arrêté Fontfroide/Crémade/Clape/Lézignanaise au-delà du 31/08, aucune publication trouvée
-  sur aude.gouv.fr (page en 503 au moment du passage) ni en presse datée de 2026. Un article
-  Aude Tribune évoquant une prolongation au 16 septembre s'est révélé daté d'août 2024, piège
-  d'indexation écarté. Sévérité maintenue MOYENNE, portée par l'île Sainte-Lucie (jusqu'au
-  15/09) et Ribaute.
+verif: 2026-09-03
+statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche ciblée sur aude.gouv.fr (page
+  « FERMETURE DES MASSIFS 2026 » relue), toujours aucune prolongation publiée pour
+  Fontfroide/Crémade/Clape/Lézignanaise au-delà du 31/08. Sévérité maintenue MOYENNE, portée
+  par l'île Sainte-Lucie (jusqu'au 15/09) et Ribaute.
 ordre: 17
 ---
 
