@@ -1,130 +1,167 @@
-# Verdict qualité du registre — 2026-09-03
+# Verdict qualité — 2026-09-04
 
-Agent Vérificateur Qualité, distinct de l'agent de veille du jour. Aucune des 8 fiches
-listées ci-dessous n'a été écrite par moi aujourd'hui : je les contrôle, je ne relis pas
-mon propre travail.
+Agent Vérificateur Qualité, distinct de l'agent de veille qui a produit le run du jour.
+Périmètre : les 5 constats de `livrables/audit-qualite.md` (généré par
+`python3 site/audit_qualite.py --ecrire`, 0 bloquant / 5 alerte / 0 info sur 105 fiches).
+Aucune fiche hors de cette liste n'a été touchée.
 
-Périmètre : les 8 constats de `livrables/audit-qualite.md` régénéré en tête de passage
-(1 bloquant, 5 alertes, 2 dette de forme), sur 8 fiches distinctes. Aucune autre fiche du
-registre (105 fichiers, 76 actives) n'a été ouverte ni touchée.
+**5 fiches contrôlées.** 3 corrections appliquées (reformulations à information constante).
+0 dégradation de sévérité appliquée. 2 actions laissées à l'agent de veille.
 
-## À traiter au prochain run (nécessite une source nouvelle, hors de mon périmètre)
+---
 
-1. **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — BLOQUANT.
-   FRAÎCHEUR (contrôle 1) FAIL : vérifiée il y a 6 j, seuil 2 j pour une restriction
-   « décidée au jour le jour ». Concordance interne bonne (Portion concernée, `statut:`
-   et Zone détails datent tous du 28/08, sans contradiction). Zone E4 Crète hors
-   périmètre des agents de veille d'aujourd'hui (Sud-Est/Pyrénées, Provence-Corse,
-   Est/Alpin/Nord, Iberia) : pas de recherche de source de ma part, je ne peux pas
-   revérifier ce que la veille du jour n'a pas couvert. **Action attendue au prochain
-   passage sur la zone Grèce/E4 Crète** : revérifier le statut du jour sur samaria.gr et
-   crete.gov.gr (Région de Crète) avant de republier « ACTIF » sans changement de date.
-2. **`incendie|GR34-CapFrehel|fermeture-lande-fort-la-latte|2026-07-15`** — ALERTE.
-   FRAÎCHEUR (contrôle 1) FAIL : vérifiée il y a 15 j, seuil 12 j (sévérité MOYENNE).
-   Concordance interne bonne, validité « jusqu'à nouvel ordre » (non expirée). Zone
-   Bretagne non couverte par le run du jour. **Action attendue au prochain passage
-   FR-BRE** : recontrôler auprès de la mairie de Plévenon ou de la FFRandonnée
-   Côtes-d'Armor si l'arrêté municipal du 15/07 a été levé, un mois et demi après
-   l'incendie et la publication de la déviation officielle.
+## 1. `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`
 
-## Vérifié sans dégradation — règle des 14 jours correctement appliquée
-
-3. **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — ALERTE
-   audit (contrôle 7, source vieillie) : la source la plus récente citée date du 18/08
-   (16 j). L'agent de veille du jour a déjà mené une recherche ciblée (`statut:` du
-   03/09 : ariège.gouv.fr et pyreneesfm.com relus, aucune 5e reconduction ni levée de
-   l'arrêté anti-feu trouvée). Vérification du raisonnement : la sévérité HAUTE de
-   cette fiche repose sur la **fermeture du GR®10** elle-même (chutes de pierres,
-   secteur Ayès↔Cap des Lauses), un fait établi et recoupé par 3 sources indépendantes
-   (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr 02/08), décrit
-   comme tel dans « Portion concernée » sans aucun marqueur d'hypothèse (« à confirmer »,
-   « probable »…). L'échéance non reconduite de l'arrêté préfectoral anti-feu est un
-   sujet distinct, correctement isolé dans le texte (« ce point, distinct de la
-   fermeture du tronçon pour chutes de pierres, n'est pas encore tranché »). La règle
-   des 14 jours (`agent-prompt.md` § DURÉE DE VIE D'UNE HYPOTHÈSE) porte sur une
-   alerte dont la sévérité repose sur une hypothèse non confirmée : ce n'est pas le cas
-   ici, elle ne s'applique donc pas au fait de fermeture. Raisonnement bien documenté
-   dans `statut:`. Contrôles 3 et 5 → PASS. Aucune dégradation appliquée, aucune
-   correction nécessaire.
-4. **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — même situation : source la
-   plus récente datée du 21/08 (13 j), déjà revérifiée aujourd'hui par l'agent de veille
-   (`statut:` du 03/09 : mairie-die.fr, drome.gouv.fr et presse relus, l'arrêté du 21/08
-   reste la donnée la plus récente). « Portion concernée » décrit un arrêté préfectoral
-   déjà publié et confirmé par 2 sources indépendantes (mairie-die.fr, ici.fr), qui
-   abroge explicitement celui du 24/07 ; l'absence de date de levée tient au fait que
-   la sortie dépend d'une étude de risque en cours, pas d'une hypothèse non tranchée.
-   Aucun marqueur d'hypothèse dans « Portion concernée ». Contrôles 3 et 5 → PASS.
-   Aucune dégradation appliquée, aucune correction nécessaire.
-
-## Corrections appliquées (périmètre : réécriture à information constante)
-
-5. **`fermeture|Drome-Omblese|sentiers-pas-du-gouillat-pas-de-comberoufle|2026-07-07`**
-   — l'audit signalait une `validite:` expirée au 31/08/2026. Vérification : la fiche
-   contient déjà, depuis le run précédent (MAJ 01/09 en « Zone (détails) »), le second
-   régime préfectoral (arrêté DDT-SEF-2026-0176, valable jusqu'au 15/09/2026) qui prend
-   le relais de l'arrêté municipal échu — et « Portion concernée » le disait déjà
-   correctement. La cause du faux signal est mécanique : le parseur de front-matter de
-   `site/build_site.py` (`parse_alerte`) ne recolle pas les lignes de continuation d'un
-   champ replié sur plusieurs lignes ; seule la première ligne du `validite:` était
-   effectivement lue par l'audit, qui n'y voyait que la date expirée du 31/08 sans la
-   suite mentionnant le 15/09. Correction : `validite:` reformaté sur une seule ligne
-   physique, aucun fait ajouté ni retiré. Contrôle 2 (concordance interne) → PASS déjà
-   avant correction sur le texte affiché ; correction de forme pour que l'audit lise le
-   même état que le lecteur.
-6. **`risque-feu|HauteGaronne-31|vigilance-rouge-camping-sauvage-interdit|2026-07-09`**
-   — l'audit signalait une `validite:` expirée au 09/07/2026. Vérification : cette
-   fiche vient justement d'être corrigée aujourd'hui par l'agent de veille — la source
-   officielle (haute-garonne.gouv.fr, MAJ 30/07) ne fixe aucune date de fin, la mesure
-   s'appliquant tant que dure la vigilance rouge, et « Portion concernée » a bien été
-   réécrite en conséquence (aucune échéance n'y est affichée). Même cause mécanique que
-   ci-dessus : le `validite:` replié sur plusieurs lignes n'était lu par l'audit que
-   jusqu'à sa première ligne, qui contient la seule date du 09/07/2026 (date de
-   signature de l'arrêté, pas d'échéance) sans la suite qui écarte explicitement la
-   fausse échéance de presse du 01/09. Correction : `validite:` reformaté sur une seule
-   ligne, avec la formule « en vigueur jusqu'à nouvel ordre » ajoutée en paraphrase
-   fidèle de ce que dit déjà la source citée (« restera en vigueur durant toute la
-   durée de vigilance très élevée », « sans date de fin ») — aucun fait nouveau, mais
-   une formulation qui met l'information décisive dans la partie du champ que le
-   contrôle automatique retient, pour que ce faux positif ne se reproduise pas les
-   prochains jours. Contrôle 2 → PASS, déjà correct côté « Portion concernée » avant
-   ma correction.
-7. **`risque-feu|Corse-Bavella-Illarata|fermeture-preventive|2026-07-18`** — TON
-   (contrôle 6) : le paragraphe « Zone (détails) » MAJ 03/09 contenait « nouvelle
-   recherche ciblée sur l'arrêté n°2A-2026-07-20-00007 par son numéro », jargon de
-   veille banni des champs publics. Reformulé en décrivant l'état du terrain (« toujours
-   aucune publication postérieure au 23/07/2026 trouvée, ni sur l'arrêté … ni sur
-   l'actualité récente de Corse-du-Sud ») : mêmes faits, même source, aucune date ni
-   numéro d'arrêté modifié. Contrôle 6 → PASS.
-8. **`risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`** — même
-   défaut, paragraphe « Vérifié le 03/09/2026 » : « recherche ciblée sur l'acte manquant »
-   reformulé en « toujours aucune publication postérieure au 31/08 trouvée pour ce
-   massif (recueil des actes administratifs …, presseagence.fr, nicepremium.fr) ».
-   Contrôle 6 → PASS.
-
-Après les 4 corrections (items 5 à 8) : `python3 site/build_site.py` rend
-**OK (QA passée)** (76 actives, 29 clôturées, 105 fichiers, registre 641 747 car.).
-`python3 site/audit_qualite.py --ecrire` : les 4 fiches corrigées ne remontent plus
-aucun constat (registre passé de 8 à 4 constats ; le compteur de dette de forme
-« Zone (détails) » passe de 2 à 0). Restent, sans que je les aie touchées, le 1 bloquant
-et les 3 alertes hors de mon périmètre (items 1 à 4 ci-dessus), conformes à la règle de
-sortie : je ne corrige pas ce qui exige une source nouvelle, je le signale.
-
-## Bilan des 7 contrôles sur les 8 fiches auditées
-
-| Contrôle | Résultat |
+| Contrôle | Verdict |
 |---|---|
-| 1. Fraîcheur | PASS sur Omblèze, HauteGaronne, Bavella-Illarata, AlpesMaritimes, Ariège, Justin-Die (verif du jour ou validité cohérente) ; FAIL signalé (non corrigé) sur Creta-Samaria (6 j / seuil 2 j, zone hors périmètre du jour) et CapFrehel (15 j / seuil 12 j, zone Bretagne non couverte) |
-| 2. Concordance interne | PASS sur les 8 fiches — Portion concernée, `statut:` et Zone (détails) racontent le même état ; sur Omblèze et HauteGaronne, seul le `validite:` du front-matter (non affiché au lecteur) a dû être reformaté pour que l'audit automatique le lise correctement |
-| 3. Honnêteté sur l'incertain | PASS sur les 8 — aucune restriction non confirmée présentée comme certaine sans le dire ; Ariège et Justin-Die distinguent clairement le fait établi (fermeture) de l'incertitude résiduelle (reconduction de l'arrêté anti-feu, échéance de l'étude de risque) |
-| 4. Pertinence | PASS sur les 8, aucune clôture à recommander |
-| 5. Sévérité juste | PASS sur les 8 ; pas de dégradation appliquée sur Ariège ni Justin-Die, la règle des 14 jours ne s'appliquant pas à une sévérité HAUTE qui repose sur un fait déjà établi et non sur une hypothèse non tranchée (voir sections dédiées) |
-| 6. Ton | 2 FAIL non bloquants corrigés (Bavella-Illarata, AlpesMaritimes) → PASS ; PASS d'emblée sur les 6 autres |
-| 7. Source vivante | FAIL non bloquant persistant, signalé sans correction, sur Ariège (18/08, 16 j) et Justin-Die (21/08, 13 j) : recherche ciblée déjà menée aujourd'hui par l'agent de veille sans résultat nouveau, fait de fermeture établi indépendamment de l'âge de la source la plus récente |
+| Fraîcheur | PASS — vérifiée le jour même (04/09) |
+| Concordance interne | FAIL → **corrigé** |
+| Honnêteté sur ce qu'on ne sait pas | PASS |
+| Pertinence | PASS |
+| Sévérité | PASS |
+| Ton | PASS |
+| Source vivante | PASS |
 
-8 fiches contrôlées, 4 corrections appliquées (Omblèze, HauteGaronne, Bavella-Illarata,
-AlpesMaritimes — 2 réécritures de `validite:` à information constante, 2 nettoyages de
-jargon de veille), 4 constats laissés au prochain passage de veille par zone (E4 Crète,
-FR-BRE, et 2 rappels de recherche ciblée sur Ariège/Vaucluse-Drôme-Ardèche déjà en cours
-de suivi, sans dégradation de sévérité requise). `python3 site/audit_qualite.py --ecrire` :
-1 bloquant avant et après (Creta-Samaria, hors périmètre), 8 → 4 constats au total.
-`python3 site/build_site.py` : **OK (QA passée)**.
+- **Concordance** : « Portion concernée » se terminait sur « vérification du 28/08/2026 »
+  alors que `statut:` (vérif 04/09) et la chronologie de « Zone (détails) » (MAJ 02/09)
+  attestaient déjà un état plus récent, inchangé. Corrigé à information constante : la date
+  est recalée sur 04/09, le fait rapporté (aucune réouverture annoncée) ne change pas.
+- **Sévérité** : l'audit signale une alerte rouge appuyée sur une source du 18/08 (17 j).
+  Vérifié : `statut:` justifie explicitement le maintien HAUTE sur un fait de terrain
+  (chutes de pierres sur sol déstabilisé par l'incendie, tronçon Ayès↔Cap des Lauses),
+  distinct et indépendant de l'arrêté préfectoral d'interdiction du feu qui, lui, est
+  échu. Ce n'est pas une hypothèse « à confirmer »/« probable » au sens de la règle des
+  14 jours, mais un constat matériel étayé par 3 sources de presse indépendantes et
+  datées (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr 02/08),
+  ce qui satisfait par ailleurs l'exigence de 2 sources indépendantes pour une alerte
+  rouge. **Aucune dégradation recommandée.**
+- **Source vivante** : France 3 Occitanie (04/08) revérifiée en direct — en ligne, contenu
+  conforme (fermeture GR®10 Ayès↔Cap des Lauses, chutes de pierres).
+
+## 2. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02`
+
+| Contrôle | Verdict |
+|---|---|
+| Fraîcheur | PASS |
+| Concordance interne | FAIL → **corrigé** |
+| Honnêteté | PASS |
+| Pertinence | PASS |
+| Sévérité | PASS |
+| Ton | PASS |
+| Source vivante | PASS |
+
+- **Concordance** : même défaut que la fiche précédente, « Portion concernée » figée sur
+  « vérification du 29/08/2026 » pendant que `statut:` (04/09) confirmait déjà l'absence de
+  changement. Date recalée sur 04/09, aucun fait ajouté ni retiré.
+- **Sévérité** : l'audit signale une source du 21/08 (14 j). `statut:` justifie
+  explicitement le maintien HAUTE : l'arrêté préfectoral du 21/08/2026 est un acte
+  officiel en vigueur, pas une hypothèse non confirmée, et il n'a volontairement aucune
+  échéance calendaire (fermeture liée à une étude de risque en cours) — l'écoulement des
+  jours ne l'invalide donc pas comme le ferait un arrêté à durée fixe non reconduit. La
+  règle des 14 jours, qui vise les hypothèses « à confirmer »/« probable », ne s'applique
+  pas à un acte confirmé. **Aucune dégradation recommandée.**
+- **Source vivante** : mairie-die.fr revérifiée en direct — en ligne, arrêté du 21/08/2026
+  confirmé (interdiction d'accès aux forêts de Justin, Laup et Solaure-en-Diois).
+
+## 3. `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`
+
+| Contrôle | Verdict |
+|---|---|
+| Fraîcheur | **FAIL** (vérifiée il y a 13 j, seuil MOYENNE 12 j) |
+| Concordance interne | PASS |
+| Honnêteté | PASS |
+| Pertinence | PASS |
+| Sévérité | PASS (MOYENNE cohérente : 80 % du massif rouvert, fermeture résiduelle localisée) |
+| Ton | PASS |
+| Source vivante | non contrôlée (hors périmètre obligatoire : alerte MOYENNE, hors zone du run du jour) |
+
+Fiche hors périmètre du run d'aujourd'hui, non revue par la veille depuis le 22/08. Le FAIL
+fraîcheur demande une source nouvelle (le détail cartographique des parcelles encore
+fermées et son recoupement avec les GR® n'est toujours pas publié par la préfecture) : ce
+n'est pas mon rôle d'aller la chercher. **Recommandation : à inscrire au périmètre du
+prochain passage**, avec pour objectif précis de vérifier si la fermeture résiduelle
+(parcelles brûlées + zone tampon) est toujours en vigueur et si le détail par tracé GR® a
+été publié depuis.
+
+## 4. `incendie|GR34-CapFrehel|fermeture-lande-fort-la-latte|2026-07-15`
+
+| Contrôle | Verdict |
+|---|---|
+| Fraîcheur | **FAIL** (vérifiée il y a 16 j, seuil MOYENNE 12 j) |
+| Concordance interne | PASS |
+| Honnêteté | PASS |
+| Pertinence | à surveiller (voir ci-dessous) |
+| Sévérité | PASS (MOYENNE cohérente : arrêté municipal, déviation balisée existante, pas de blocage total) |
+| Ton | PASS |
+| Source vivante | non contrôlée (hors périmètre obligatoire, hors zone du run du jour) |
+
+Fiche hors périmètre du run d'aujourd'hui. Elle n'a été vérifiée qu'une seule fois (19/08)
+depuis sa détection tardive (12/08, soit un mois après l'incendie du 12-13/07). L'arrêté
+municipal du 15/07 ferme la portion « le temps que la végétation se régénère », sans
+échéance annoncée — ce type de fermeture temporaire est justement celui qui risque le plus
+d'être levé sans que le site s'en aperçoive. **Recommandation : à inscrire en priorité au
+périmètre du prochain passage**, pour vérifier si la portion Cap Fréhel ↔ Fort La Latte a
+rouvert (arrêté municipal levé) depuis le 19/08.
+
+## 5. `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`
+
+| Contrôle | Verdict |
+|---|---|
+| Fraîcheur | PASS |
+| Concordance interne | FAIL (mineur) → **corrigé** |
+| Honnêteté | PASS |
+| Pertinence | PASS |
+| Sévérité | PASS |
+| Ton | PASS |
+| Source vivante | PASS |
+
+- **Concordance** : « Portion concernée » indiquait « Vérifié à nouveau le 02/09/2026 »
+  alors que `statut:` (vérif 04/09) précise qu'une nouvelle recherche ciblée a bien été
+  menée le 04/09, sans rien trouver au-delà du constat du 02/09. Corrigé à information
+  constante : la phrase distingue maintenant la date de la dernière vérification (04/09)
+  de la date du dernier fait constaté (02/09), sans ajouter ni retirer d'information.
+- **Sévérité** : l'audit signale une source du 24/08 (11 j). `statut:` justifie
+  explicitement le maintien HAUTE : l'arrêté municipal du 15/08/2026 est un acte officiel
+  en vigueur, présenté par la mairie elle-même comme valable « en attendant l'ensemble
+  des avis des autorités compétentes », sans échéance — la règle des 14 jours (hypothèses
+  non confirmées) ne s'applique pas à un acte confirmé. **Aucune dégradation
+  recommandée.**
+- **Source vivante** : ville-argentiere.fr revérifiée en direct — en ligne, arrêté du
+  15/08/2026 confirmé (interdiction d'accès et de circulation dans le secteur du Bois
+  Noir).
+
+---
+
+## Corrections appliquées
+
+Les 3 corrections suivantes sont des reformulations à information constante (recalage
+d'une date de vérification citée en « Portion concernée » sur l'état déjà présent dans
+`statut:`/« Zone (détails) »), conformes au périmètre autorisé. Aucun fait ajouté, retiré
+ni modifié.
+
+- `livrables/alertes/incendie--ariege-bordes-uchentein--gr10-ferme-esbintz-valier--2026-07-10.md`
+- `livrables/alertes/incendie--drome-justin-die--foret-fermee--2026-07-02.md`
+- `livrables/alertes/incendie--hautesalpes-boisnoir--gr54a-ferme-argentiere-freissinieres--2026-07-19.md`
+
+Vérification post-correction : `python3 site/build_site.py` → **OK (QA passée)** (76
+actives, 29 clôturées, 47 digests, registre 105 fichiers). `python3 site/audit_qualite.py
+--ecrire` relancé → toujours **0 bloquant**, mêmes 5 alertes (attendu : elles portent sur
+la fraîcheur des sources/vérifications dans le frontmatter, pas sur le texte public
+retouché).
+
+## Actions laissées à l'agent de veille (prochain run)
+
+1. **Fontainebleau** (`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`)
+   — revérifier la fermeture résiduelle (parcelles brûlées + zone tampon) et chercher le
+   détail cartographique par tracé GR®, non publié à ce jour.
+2. **GR34 Cap Fréhel** (`incendie|GR34-CapFrehel|fermeture-lande-fort-la-latte|2026-07-15`)
+   — priorité : vérifier si l'arrêté municipal du 15/07 (fermeture pour régénération de la
+   végétation, sans échéance) a été levé ; une seule vérification en un mois et demi
+   d'existence de la fiche.
+
+Aucune autre action : sur les 3 alertes rouges (Ariège, Drôme, Hautes-Alpes), le motif de
+sévérité HAUTE est déjà justifié en clair dans `statut:` par un fait de terrain ou un acte
+officiel sans échéance, distinct d'une hypothèse non confirmée — pas de recherche de
+source supplémentaire à mener sur ce point précis.
+
+VERIFICATEUR QUALITE COMPLETE
