@@ -5,20 +5,22 @@ itin: GR®10 (secteur Couserans/Val du Biros, tronçon Ayès↔Cap des Lauses al
 sev: HAUTE (feu fixé, surveillance)
 validite: depuis le 10/07/2026, jusqu'à nouvel ordre ; tronçon Ayès↔Cap des Lauses (alias secteur Bassiès) fermé depuis le 02/08 (incendie/éboulement, chutes de pierres) ; AP interdiction feu Ariège reconduite une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (6 jours de silence au 30/08)
 detection: 2026-07-20
-verif: 2026-09-03
-statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche ciblée sur le tronçon GR®10
-  Ayès↔Cap des Lauses (presse pyrénéenne, pyreneesfm.com) et sur l'arrêté d'interdiction
-  totale du feu, aucune annonce de réouverture ni de 5e reconduction/levée retrouvée, soit
-  10 jours de silence depuis l'échéance du 24/08 de l'arrêté feu. La fermeture du GR®10
-  reste confirmée par les 3 sources datées déjà retenues (France 3 Occitanie 04/08,
-  ruralites2024.fr 03/08, radiocouserans.fr 02/08). La sévérité HAUTE repose sur ce fait de
-  terrain, distinct de l'arrêté feu : la règle des 14 jours ne s'applique donc pas ici.
+verif: 2026-09-04
+statut: ACTIF — INCHANGÉ 04/09 : ariege.gouv.fr/Publications/Actualites relu en direct
+  (dernières actualités : Journées du patrimoine 01/09, arrêtés festivités du 14 juillet
+  20/07), toujours aucune actualité sur l'usage du feu ou le GR®10 postérieure au 20/07,
+  soit 11 jours de silence depuis l'échéance du 24/08 de l'arrêté feu. La page de l'Office
+  de tourisme des Pyrénées Ariégeoises (GR®10 Auzat) reste datée du 11/08, mention
+  inchangée. La fermeture du GR®10 reste confirmée par les 3 sources datées déjà retenues
+  (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr 02/08). La sévérité
+  HAUTE repose sur ce fait de terrain, distinct de l'arrêté feu : la règle des 14 jours ne
+  s'applique donc pas ici.
 ordre: 34
 ---
 
 ## Portion concernée
 
-**GR®10 fermé entre l'étang d'Ayès et le Cap des Lauses** (secteur localement appelé « Bassiès », Couserans/Vicdessos, Ariège), depuis le 02/08/2026. En cause : des chutes de pierres devenues fréquentes et imprévisibles sur ce tronçon, où la végétation détruite par l'incendie ne stabilise plus le terrain. Portions supplémentaires touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus, lacs d'Ayes, de Bethmale et d'Eychelle ; la vallée du Ribérot est à éviter (utilisée par les secours). Le GR®10 est également fermé côté Seix, en contrebas d'un feu distinct parti début août, par mesure de sécurité. L'interdiction préfectorale totale de l'usage du feu en Ariège, reconduite une 4e fois jusqu'au lundi 24/08/2026 inclus, n'a fait l'objet d'aucune 5e reconduction ni levée publiée à ce jour. À l'origine, un incendie de forêt est parti le 10/07/2026 vers 1800 m d'altitude (Bordes-sur-Lèz/Uchentein) ; il est fixé depuis le 18/07 au soir. Situation inchangée à la vérification du 28/08/2026 : aucune réouverture n'a été annoncée entre l'étang d'Ayès et le Cap des Lauses.
+**GR®10 fermé entre l'étang d'Ayès et le Cap des Lauses** (secteur localement appelé « Bassiès », Couserans/Vicdessos, Ariège), depuis le 02/08/2026. En cause : des chutes de pierres devenues fréquentes et imprévisibles sur ce tronçon, où la végétation détruite par l'incendie ne stabilise plus le terrain. Portions supplémentaires touchées : accès à Campuls via la piste du Mont Ner, col de la Core, circuit de la Crouzette, étang de Milouga/cabane de Taus, lacs d'Ayes, de Bethmale et d'Eychelle ; la vallée du Ribérot est à éviter (utilisée par les secours). Le GR®10 est également fermé côté Seix, en contrebas d'un feu distinct parti début août, par mesure de sécurité. L'interdiction préfectorale totale de l'usage du feu en Ariège, reconduite une 4e fois jusqu'au lundi 24/08/2026 inclus, n'a fait l'objet d'aucune 5e reconduction ni levée publiée à ce jour. À l'origine, un incendie de forêt est parti le 10/07/2026 vers 1800 m d'altitude (Bordes-sur-Lèz/Uchentein) ; il est fixé depuis le 18/07 au soir. Situation inchangée à la vérification du 04/09/2026 : aucune réouverture n'a été annoncée entre l'étang d'Ayès et le Cap des Lauses.
 
 ## Alternative
 
