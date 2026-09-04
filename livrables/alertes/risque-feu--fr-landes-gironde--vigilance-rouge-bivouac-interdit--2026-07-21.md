@@ -5,7 +5,7 @@ itin: GR®65 (traversée des Landes), GR®8, GR®654 — impact direct sur les r
 sev: MOYENNE (Gironde et Landes toutes deux en ORANGE depuis le 20/08)
 validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; désescalade ROUGE→ORANGE le 04/08/2026 dans les deux départements, escalade ORANGE→ROUGE en Gironde à compter du 08/08/2026 12h, puis nouvelle désescalade ROUGE→ORANGE en Gironde à compter du 20/08/2026 ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental ; zones brûlées et bivouac/camping isolé restent interdits jusqu'à nouvel ordre, sans échéance de levée annoncée par les arrêtés préfectoraux cités
 detection: 2026-07-24
-verif: 2026-08-28
+verif: 2026-09-04
 statut: ACTIF — CHANGÉ 28/08 : la Gironde est repassée en vigilance ORANGE à compter du 20/08
   (gironde.gouv.fr, communiqué daté), après l'escalade du 08/08 ; les deux départements sont
   de nouveau alignés en orange. Nouveau feu à Luglon (Landes) du 13 au 21/08, ~1 300-1 700 ha,
