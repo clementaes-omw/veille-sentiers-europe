@@ -9,20 +9,20 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-03
-statut: ACTIF — CONFIRMÉ HAUTE 03/09 : nouvelle recherche ciblée sur l'acte manquant
-  (ville-argentiere.fr relue, presse Hautes-Alpes), aucune évolution trouvée au-delà du
-  constat du 02/09. L'arrêté municipal du 15/08/2026 reste la base réglementaire en vigueur,
-  toujours présenté comme une mesure en attendant l'ensemble des avis des autorités
-  compétentes ; aucune date de réouverture annoncée. La règle des 14 jours ne s'applique pas
-  ici (acte officiel en vigueur, pas une hypothèse). Parcours 22/23 et côte de Pallon
-  restent rouverts depuis le 20/08.
+verif: 2026-09-04
+statut: ACTIF — CONFIRMÉ HAUTE 04/09 : nouvelle recherche ciblée sur l'acte manquant
+  (ville-argentiere.fr relue, ecrins-parcnational.fr relue, toujours datée du 28/07 sans
+  MAJ), aucune évolution trouvée au-delà du constat du 02/09. L'arrêté municipal du
+  15/08/2026 reste la base réglementaire en vigueur, toujours présenté comme une mesure en
+  attendant l'ensemble des avis des autorités compétentes ; aucune date de réouverture
+  annoncée. La règle des 14 jours ne s'applique pas ici (acte officiel en vigueur, pas une
+  hypothèse). Parcours 22/23 et côte de Pallon restent rouverts depuis le 20/08.
 ordre: 41
 ---
 
 ## Portion concernée
 
-**Cœur du massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) fermé** (parcours pédestres 2/6/7/14/15, via ferrata Grande Falaise, KV Freissinières) ; GR®54A fermé par prudence, avec accès interdit au col de la Pousterle et au vallon du Fournel. Un arrêté municipal du 15/08/2026 interdit formellement l'accès et la circulation dans ce secteur à tous les usagers, piétons, cyclistes, cavaliers et véhicules, en raison des risques de chutes d'arbres, de pierres et d'éboulements. La mairie de L'Argentière-la-Bessée le présente, sur sa page dédiée, comme une mesure en vigueur en attendant l'ensemble des avis des autorités compétentes nécessaires à une réouverture, sans date annoncée. La RD38 (route principale de Freissinières) a rouvert le 17/08/2026 ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. Depuis le 20/08/2026, les parcours pédestres 22 et 23, ainsi que la côte de Pallon et l'ensemble des routes communales, ont rouvert (paysdesecrins.com, mise à jour du 24/08/2026). L'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est donné éteint mais sous surveillance. Vérifié à nouveau le 02/09/2026 (mairie de L'Argentière-la-Bessée, communauté de communes du Pays des Écrins, Parc national des Écrins) : aucun communiqué plus récent que celui du 24/08/2026 sur le détail des parcours, situation inchangée sur le fond.
+**Cœur du massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) fermé** (parcours pédestres 2/6/7/14/15, via ferrata Grande Falaise, KV Freissinières) ; GR®54A fermé par prudence, avec accès interdit au col de la Pousterle et au vallon du Fournel. Un arrêté municipal du 15/08/2026 interdit formellement l'accès et la circulation dans ce secteur à tous les usagers, piétons, cyclistes, cavaliers et véhicules, en raison des risques de chutes d'arbres, de pierres et d'éboulements. La mairie de L'Argentière-la-Bessée le présente, sur sa page dédiée, comme une mesure en vigueur en attendant l'ensemble des avis des autorités compétentes nécessaires à une réouverture, sans date annoncée. La RD38 (route principale de Freissinières) a rouvert le 17/08/2026 ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. Depuis le 20/08/2026, les parcours pédestres 22 et 23, ainsi que la côte de Pallon et l'ensemble des routes communales, ont rouvert (paysdesecrins.com, mise à jour du 24/08/2026). L'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est donné éteint mais sous surveillance. Vérifié à nouveau le 04/09/2026 (mairie de L'Argentière-la-Bessée, communauté de communes du Pays des Écrins, Parc national des Écrins) : aucun communiqué plus récent que celui du 24/08/2026 sur le détail des parcours, situation inchangée sur le fond depuis le constat du 02/09/2026.
 
 ## Alternative
 

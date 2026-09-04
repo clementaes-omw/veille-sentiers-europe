@@ -5,7 +5,7 @@ itin: GR®131 (toutes les îles) — [HYPOTHÈSE] portée exacte non nommée par
 sev: MOYENNE
 validite: Gran Canaria : dispositif INFOGRAN actif depuis le 13/08/2026 11h, accès et transit interdits sur pistes et sentiers forestiers au-dessus de 400-600 m selon versant, en vigueur jusqu'à levée officielle (aucune levée trouvée à ce jour) ; alerte régionale par ailleurs redescendue en « prealerta » depuis le 15/08 8h, sans effet constaté sur l'INFOGRAN ; Tenerife : alerte désactivée le 15/08 8h sur l'île entière (grade 0/préalerte), sentiers, pistes forestières et sentiers de pèlerinage vers Candelaria rouverts ; La Palma, La Gomera et El Hierro : en préalerte depuis le 13/08 11h (aucune restriction spécifique par sentier publiée)
 detection: 2026-07-31
-verif: 2026-09-02
+verif: 2026-09-04
 ordre: 62
 statut: ACTIF — CHANGÉ 28/08 : Tenerife lève ses restrictions, Gran Canaria les maintient.
   Le Cabildo de Tenerife désactive l'alerte incendie sur l'île entière à compter du 15/08 8h

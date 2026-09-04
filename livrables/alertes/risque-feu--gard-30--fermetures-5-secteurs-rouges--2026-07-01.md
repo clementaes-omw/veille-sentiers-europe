@@ -8,7 +8,7 @@ sev: HAUTE
 validite: journalière, la préfecture du Gard publie le classement au jour le jour ; aucune
   page « risque incendie très sévère » publiée depuis le 18/08/2026
 detection: 2026-07-04
-verif: 2026-09-03
+verif: 2026-09-04
 statut: [CLÔTURÉ] (2026-09-01) — reconfirmé 03/09 : gard.gouv.fr ne publie toujours aucune
   page « risque incendie très sévère » postérieure au 18/08/2026, 16e jour sans nouveau
   secteur rouge. Le classement du 18/08 (3 secteurs) reste retombé sans successeur.

@@ -3,19 +3,16 @@ cle: fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16
 type: fermeture / conditions météo (vent, canicule)
 itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canée : Balos, Krios-Elafonissi, Sougia-Agia Roumeli)
 sev: MOYENNE
-validite: fermetures décidées au jour le jour (quotidiennement), selon la météo et le risque incendie, sans calendrier fixe ; dernière fermeture confirmée le 28/08/2026 (quatre tronçons E4 à La Canée), statut à vérifier sur samaria.gr et auprès de la Région de Crète avant l'étape
+validite: fermetures décidées au jour le jour (quotidiennement), selon la météo et le risque incendie, sans calendrier fixe ; dernière fermeture confirmée le 04/09/2026 (trois tronçons E4 à La Canée), statut à vérifier sur samaria.gr et auprès de la Région de Crète avant l'étape
 detection: 2026-07-24
-verif: 2026-08-28
-statut: ACTIF — CHANGÉ 28/08 : le blocage signalé le 24/08 (silence de 10 jours) est levé par
-  deux sources fraîches. hania.news (26/08) confirme la continuité du fonctionnement :
-  100 jours de saison, plus de 64 000 visiteurs, gorge accessible 90 jours sur 100 (soit
-  ~10% de jours fermés, cohérent avec le pattern « jour le jour »). crete.gov.gr (27/08,
-  officiel) et neakriti.gr (27/08) documentent en plus, pour la première fois, des fermetures
-  nommées de tronçons E4 hors Samaria à Chania (Balos-Falassarna, Krios-Elafonissi,
-  Sougia-Gyaliskari, Sougia-Agia Roumeli), fermés le 28/08 pour risque incendie extrême
-  (catégorie 4 à Chania, 5 dans le reste de la Crète). Portée élargie à l'ensemble du réseau
-  E4 crétois, pas seulement Samaria. Sévérité maintenue MOYENNE (pattern confirmé, pas
-  d'interdiction permanente ni de fermeture prolongée).
+verif: 2026-09-04
+statut: ACTIF — CHANGÉ 04/09 : nouvelle occurrence du même mécanisme. crete.gov.gr (03/09,
+  officiel) et iraklionews.gr (03/09) annoncent pour le vendredi 04/09 un risque incendie de
+  catégorie 4 (très élevé) sur toute la Crète, avec trois tronçons E4 fermés à La Canée
+  (Krios-Elafonissi, Sougia-Gyaliskari, Sougia-Agia Roumeli) ; Balos-Falassarna n'est pas cité
+  cette fois. La gorge de Samaria elle-même n'est pas nommée dans ces sources : probablement
+  ouverte (aucune confirmation directe sur samaria-tickets.necca.gov.gr). Sévérité maintenue
+  MOYENNE, le mécanisme se poursuit en septembre, pas seulement en juillet-août.
 ordre: 49
 ---
 
@@ -37,6 +34,8 @@ MAJ 14/08 : nouvelle recherche élargie (samaria.gr, la billetterie officielle s
 
 MAJ 28/08 : le silence signalé le 24/08 est comblé par deux sources datées récentes. La gorge a fermé le 18/08 pour pluies prévues (jusqu'à 9 mm à Xyloskalo, au-delà du seuil de sécurité fixé par la région de La Canée). hania.news (26/08) rapporte que le parc a fonctionné 90 des 100 premiers jours de sa saison 2026, pour plus de 64 000 visiteurs : le rythme d'environ un jour de fermeture sur dix, au jour le jour selon la météo, se confirme sur toute la saison plutôt que de reposer sur trois épisodes isolés de juillet. Nouveauté : crete.gov.gr (officiel, 27/08) et neakriti.gr (27/08) publient, pour la journée du 28/08, un dispositif de fermetures nommées qui dépasse Samaria. Réthymnon, Héraklion et Lassithi passent en catégorie de risque incendie 5 (extrême), La Canée en catégorie 4 (très élevé) ; à La Canée, quatre tronçons du sentier européen E4 sont fermés au public : Balos↔Falassarna, Krios↔Elafonissi, Sougia↔Gyaliskari et Sougia↔Agia Roumeli, ce dernier prolongeant directement la sortie sud de Samaria. Le statut de la gorge de Samaria elle-même pour cette même journée n'a pas été retrouvé par une source dédiée, mais le mécanisme (fermeture au jour le jour sur décision régionale selon le risque du jour) est désormais documenté pour l'ensemble du réseau E4 de Crète occidentale, pas seulement pour Samaria.
 
+MAJ 04/09 : nouvelle occurrence, une semaine plus tard. crete.gov.gr (03/09, officiel) et iraklionews.gr (03/09, 17h20) annoncent un risque incendie de catégorie 4 (très élevé) sur toute la Crète pour le vendredi 04/09. À La Canée, trois tronçons de l'E4 sont fermés : Krios↔Elafonissi, Sougia↔Gyaliskari et Sougia↔Agia Roumeli. Contrairement à l'épisode du 28/08, Balos↔Falassarna n'est pas cité cette fois, et la gorge de Samaria elle-même n'apparaît dans aucune des deux sources : elle reste vraisemblablement ouverte (le calendrier normal de la saison va jusqu'à la mi-octobre), sans confirmation directe trouvée sur samaria-tickets.necca.gov.gr. Le mécanisme documenté depuis juillet se poursuit donc au début de septembre.
+
 ## Source
 
-[Cretalive 30/07, risque incendie très élevé, fermée aussi demain vendredi 31/07](https://www.cretalive.gr/kriti/poly-ypsilos-kindynos-pyrkagias-kai-ayrio-paraskeyi-3107-se-oli-tin-kriti) ; [inewsgr, Samaria fermée demain](https://www.inewsgr.com/364/kleisto-kai-avrio-gia-tous-episkeptes-to-farangi-tis-samaria.htm) ; [Τα Νέα 21/07, fermeture 22/07 pour canicule](https://www.tanea.gr/2026/07/21/greece/xania-kleisto-tha-parameinei-to-faraggi-tis-samarias-tin-tetarti22-7-logo-kaysona/) ; [ekriti.gr, fermeture urgente, fortes températures](https://www.ekriti.gr/kriti/ektaktos-kleisto-to-faraggi-tis-samarias-logo-ypsilon-thermokrasion) ; [hania.news 18/08, gorge fermée pour pluies prévues](https://hania.news/2026/08/18/kleisto-simera-to-farangi-tis-samarias-logo-provlepsis-gia-vrochoptoseis/) ; [hania.news 26/08, plus de 64 000 visiteurs en 100 jours](https://hania.news/2026/08/26/farangi-samarias-perissoteroi-apo-64-000-episkeptes-stis-protes-100-imeres-leitourgias) ; [crete.gov.gr 27/08, catégorie de risque incendie du 28/08 par préfecture](https://www.crete.gov.gr/katastasi-synagermoy-ston-kindyno-pyrkagias-stis-p-e-rethymnoy-irakleioy-lasithioy-kai-poly-ypsilos-kindynos-pyrkagias-stin-p-e-chanion-tin-paraskeyi-28-aygoystoy-2026/) ; [neakriti.gr 27/08, fermetures nommées de forêts, gorges et tronçons E4](https://www.neakriti.gr/kriti/2196680_synagermos-gia-foties-stin-kriti-aystiro-apagoreytiko-se-dasi-faraggia-kai-monopatia)
+[Cretalive 30/07, risque incendie très élevé, fermée aussi demain vendredi 31/07](https://www.cretalive.gr/kriti/poly-ypsilos-kindynos-pyrkagias-kai-ayrio-paraskeyi-3107-se-oli-tin-kriti) ; [inewsgr, Samaria fermée demain](https://www.inewsgr.com/364/kleisto-kai-avrio-gia-tous-episkeptes-to-farangi-tis-samaria.htm) ; [Τα Νέα 21/07, fermeture 22/07 pour canicule](https://www.tanea.gr/2026/07/21/greece/xania-kleisto-tha-parameinei-to-faraggi-tis-samarias-tin-tetarti22-7-logo-kaysona/) ; [ekriti.gr, fermeture urgente, fortes températures](https://www.ekriti.gr/kriti/ektaktos-kleisto-to-faraggi-tis-samarias-logo-ypsilon-thermokrasion) ; [hania.news 18/08, gorge fermée pour pluies prévues](https://hania.news/2026/08/18/kleisto-simera-to-farangi-tis-samarias-logo-provlepsis-gia-vrochoptoseis/) ; [hania.news 26/08, plus de 64 000 visiteurs en 100 jours](https://hania.news/2026/08/26/farangi-samarias-perissoteroi-apo-64-000-episkeptes-stis-protes-100-imeres-leitourgias) ; [crete.gov.gr 27/08, catégorie de risque incendie du 28/08 par préfecture](https://www.crete.gov.gr/katastasi-synagermoy-ston-kindyno-pyrkagias-stis-p-e-rethymnoy-irakleioy-lasithioy-kai-poly-ypsilos-kindynos-pyrkagias-stin-p-e-chanion-tin-paraskeyi-28-aygoystoy-2026/) ; [neakriti.gr 27/08, fermetures nommées de forêts, gorges et tronçons E4](https://www.neakriti.gr/kriti/2196680_synagermos-gia-foties-stin-kriti-aystiro-apagoreytiko-se-dasi-faraggia-kai-monopatia) ; [crete.gov.gr 03/09, risque incendie catégorie 4 pour le 04/09](https://www.crete.gov.gr/) ; [iraklionews.gr 03/09 17h20, alerte incendie vendredi 4 septembre](https://iraklionews.gr/)
