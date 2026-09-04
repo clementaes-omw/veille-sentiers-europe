@@ -1,7 +1,7 @@
 ---
 cle: incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16
 type: incendie
-itin: GR®167 Sierra Norte de Guadalajara, étape 1 (Majadas del Bornoba↔Pradena de Atienza↔Albendiego) et variante GR®167.1 — balisage détruit por l'incendie, fermeture officielle [FAIT] ; Camino de Madrid/Vía de la Plata/Camino de Levante/GR®10-ES non concernés (hors secteur)
+itin: GR®167 Sierra Norte de Guadalajara, étape 1 (Majadas del Bornoba↔Pradena de Atienza↔Albendiego) et variante GR®167.1 — balisage détruit par l'incendie, fermeture officielle [FAIT] ; Camino de Madrid/Vía de la Plata/Camino de Levante/GR®10-ES non concernés (hors secteur)
 sev: HAUTE (fermeture officielle de balisage, sans date de réouverture)
 validite: incendie stabilisé depuis le 23/07, non déclaré officiellement éteint (braises résiduelles) ; GR®167 étape 1 et GR®167.1 fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée
 detection: 2026-07-24
