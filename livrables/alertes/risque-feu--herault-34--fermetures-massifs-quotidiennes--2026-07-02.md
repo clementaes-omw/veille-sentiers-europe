@@ -5,7 +5,7 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-04
+verif: 2026-09-05
 statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche (herault.gouv.fr toujours illisible en
   autonome, aucune nouvelle carte @Prefet34 postérieure au 01/09 retrouvée). Le classement
   du mardi 01/09/2026 (6 secteurs sur 9 en orange, aucun rouge) reste la dernière donnée

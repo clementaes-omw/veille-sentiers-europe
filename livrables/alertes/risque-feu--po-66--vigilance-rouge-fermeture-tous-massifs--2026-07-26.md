@@ -5,7 +5,7 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: HAUTE
 validite: vigilance rouge en vigueur jusqu'à levée officielle sur au moins 2 massifs (Corbières, Roussillon), confirmée par un article de presse daté du 03/09/2026 ; statut des 7 autres massifs (Fenouillèdes, Aspres, Albères, Capcir, Cerdagne, Conflent, Vallespir) non repris par ce texte, non tranché
 detection: 2026-07-27
-verif: 2026-09-04
+verif: 2026-09-05
 statut: ACTIF — CHANGÉ 04/09 : titrespresse.com (article daté « ce jeudi 3 septembre »)
   rapporte que la préfecture place les Corbières et le Roussillon en risque incendie
   exceptionnel ce jour-là, contre 5 massifs nommés le 27/08 (Corbières, Fenouillèdes,
