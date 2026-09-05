@@ -5,7 +5,7 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-09-03
+verif: 2026-09-05
 statut: ACTIF — INCHANGÉ 03/09 : aucune nouvelle recherche dédiée ce jour au-delà du suivi
   de la fiche `incendie|HautesAlpes-BoisNoir|…` (même massif) ; la page du parc restait
   encore datée du 24 juin 2026 au dernier passage direct (02/09), 71 jours sans mise à jour,
