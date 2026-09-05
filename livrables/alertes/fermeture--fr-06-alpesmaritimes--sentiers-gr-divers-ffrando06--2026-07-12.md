@@ -5,7 +5,7 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; nouvelle fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; page FFRando 06 mise à jour au 01/09/2026
 detection: 2026-08-01
-verif: 2026-09-04
+verif: 2026-09-05
 statut: ACTIF — INCHANGÉ 03/09 : aucune nouvelle vérification de la page FFRando 06 ce run
   (dernière lecture directe le 02/09, page à jour au 01/09/2026). Aucun signal contraire
   trouvé par ailleurs. Fermetures inchangées.

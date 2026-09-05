@@ -5,7 +5,7 @@ itin: Réseau Bocchette (hors P1)
 sev: MOYENNE
 validite: depuis juillet 2025
 detection: 2025-07
-verif: 2026-08-29
+verif: 2026-09-05
 statut: ACTIF — CHANGÉ 29/08 : source officielle SAT retrouvée, précisant les sentiers
   fermés par leur numéro (au lieu de la seule mention de presse). Statut de fond inchangé.
 ordre: 53
