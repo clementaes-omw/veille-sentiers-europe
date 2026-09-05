@@ -5,7 +5,7 @@ itin: GR®65 (Chemin de Saint-Jacques / Via Podiensis, Lot)
 sev: MOYENNE
 validite: déviation en vigueur jusqu'à nouvel ordre (durée indéterminée), mise en place le 25/07/2026 suite à l'incendie de mi-juillet 2026
 detection: 2026-07-28
-verif: 2026-09-01
+verif: 2026-09-05
 statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (ffrandonnee.fr, mairies de
   Limogne-en-Quercy/Flaujac-Poujols), aucune source postérieure au 25/07 retrouvée. Rien
   n'indique une levée de l'interdiction d'accès ni un retrait de la déviation balisée.
@@ -18,7 +18,7 @@ GR®65, communes de Cieurac et Flaujac-Poujols (Lot, 46), lieux-dits Gariat, Boi
 
 ## Alternative
 
-Déviation officielle balisée (panneau, fléchage, QR code avec trace GPX) : depuis un croisement de chemin avant la traversée de la D49 (à proximité du pont autoroutier et du croisement avec la D6), le tracé suit la vallée du Tréboulou jusqu'à Flaujac-Poujols, lieu-dit Les Pradelles. La déviation fait 4,5 km et raccourcit l'itinéraire initial de 200 m.
+Déviation officielle balisée (panneau, fléchage, QR code avec trace GPX) : depuis un croisement de chemin avant la traversée de la D49 (à proximité du pont autoroutier et du croisement avec la D6), le tracé suit la vallée du Treboulou jusqu'à Flaujac-Poujols, lieu-dit Les Pradelles. La déviation fait 4,5 km et raccourcit l'itinéraire initial de 200 m.
 
 ## Zone (détails)
 

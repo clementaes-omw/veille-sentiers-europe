@@ -5,7 +5,7 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 12 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 01/09, en retrait par rapport aux 16 communes nommées le 27/08) ; quatorze communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sahune, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-09-04
+verif: 2026-09-05
 statut: ACTIF — INCHANGÉ 04/09 : liste de référence PNR Baronnies Provençales relue en
   direct, toujours datée « mise à jour le 01/09/26 », toujours 12 communes nommées, aucune
   nouvelle disparition ni nouvel ajout. La page précise que ce type de restriction court

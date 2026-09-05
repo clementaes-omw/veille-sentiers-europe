@@ -8,7 +8,7 @@ itin: Aucun P1 confirmé ; [HYPOTHÈSE] la GTA (Grande Traversata delle Alpi) tr
 sev: MOYENNE
 validite: ordonnances communales en vigueur jusqu'à nouvel ordre, aucune date de levée annoncée ; incendie éteint depuis le 21/08/2026 mais accès aux sentiers toujours interdit au 27/08/2026
 detection: 2026-08-29
-verif: 2026-08-29
+verif: 2026-09-05
 statut: ACTIF — NOUVEAU
 ordre: 211
 ---

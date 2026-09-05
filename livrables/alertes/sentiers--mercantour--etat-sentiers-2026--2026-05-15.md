@@ -5,17 +5,17 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-09-04
-statut: ACTIF — CHANGÉ 04/09 : page mercantour-parcnational.fr (Info sentiers) toujours calée
-  sur sa mise à jour du 22/08, mais lecture intégrale ce jour : deux secteurs déjà listés sur
-  la page n'avaient jamais été repris dans cette fiche (Fontanalba à Tende, Valabres à Roure),
-  ajoutés ci-dessous. Aucun changement de fond depuis le 22/08.
+verif: 2026-09-05
+statut: ACTIF — CHANGÉ 05/09 : lecture intégrale de mercantour-parcnational.fr (page toujours
+  datée du 22/08/2026) fait apparaître un secteur supplémentaire jamais repris jusqu'ici dans
+  cette fiche : le sentier des Barels depuis Bouchanières (Guillaumes), fermé entre les
+  balises 152 et 155. Aucun changement de fond par ailleurs.
 ordre: 13
 ---
 
 ## Portion concernée
 
-GR®56A : le tracé historique du Cimet (Allos) **est dangereux et a été dévié**. GR®52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR®5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été). Depuis le 10/08/2026, le parc liste aussi 4 secteurs fermés : Pezza Maurina (Breil-sur-Roya, éboulements), Pas de Colle Rousse (Tende, risque de chute de blocs), Tavels (Valdeblore, séquelles de la tempête Alex) et le Vallon de Mollières (Saint-Sauveur-sur-Tinée, travaux 2025-2026). Depuis le 22/08/2026, deux secteurs supplémentaires sont fermés : le sentier vers le **col du Sabion** (Tende, vallée de la Roya-Bévéra, entre les balises 372) et le sentier vers la **cime de Pelousette** (vallée de la Tinée, depuis la balise 41b Camp des Fourches), fermé après un affaissement de terrain survenu l'hiver 2025-2026. Un passage rendu délicat sans être fermé est aussi signalé entre le col de la Petite Cayolle (balise 297) et le pas du Lausson (balise 296, vallée du Verdon), à la suite des intempéries d'août 2026. La page mentionne aussi, sans date précise, deux fermetures locales : la piste de **Fontanalba** (Tende, entre les balises 389 et 387, une alternative existe) et le hameau de **Valabres** (Roure, interdit pour risque de chute de blocs).
+GR®56A : le tracé historique du Cimet (Allos) **est dangereux et a été dévié**. GR®52 : gués délicats (refuge de Nice b.415, Cougourde b.424, Cavalet b.374-375), dangereux en crue. GR®5 : piste de Sallevieille fermée chaque hiver (31/10→30/04, ouverte l'été). Depuis le 10/08/2026, le parc liste aussi 4 secteurs fermés : Pezza Maurina (Breil-sur-Roya, éboulements), Pas de Colle Rousse (Tende, risque de chute de blocs), Tavels (Valdeblore, séquelles de la tempête Alex) et le Vallon de Mollières (Saint-Sauveur-sur-Tinée, travaux 2025-2026). Depuis le 22/08/2026, deux secteurs supplémentaires sont fermés : le sentier vers le **col du Sabion** (Tende, vallée de la Roya-Bévéra, entre les balises 372) et le sentier vers la **cime de Pelousette** (vallée de la Tinée, depuis la balise 41b Camp des Fourches), fermé après un affaissement de terrain survenu l'hiver 2025-2026. Un passage rendu délicat sans être fermé est aussi signalé entre le col de la Petite Cayolle (balise 297) et le pas du Lausson (balise 296, vallée du Verdon), à la suite des intempéries d'août 2026. La page mentionne aussi, sans date précise, trois fermetures locales : la piste de **Fontanalba** (Tende, entre les balises 389 et 387, une alternative existe), le hameau de **Valabres** (Roure, interdit pour risque de chute de blocs) et le sentier des **Barels** au départ de Bouchanières (Guillaumes, vallée du Var, interdit entre les balises 152 et 155 pour risque de crue lors d'orages récurrents).
 
 ## Alternative
 
@@ -36,6 +36,8 @@ MAJ 12/08 : la page, figée depuis le 09/07 (32 jours), a été mise à jour le 
 MAJ 27/08 : nouvelle mise à jour de la page, datée du 22/08/2026 (12 jours après celle du 10/08). Deux secteurs supplémentaires apparaissent comme fermés : « le sentier menant au col du Sabion depuis la baisse de Peyrafique sur la commune de Tende est fermé entre les balises 372 et 372 pour des questions de sécurité » (vallée de la Roya-Bévéra) ; « suite à un affaissement de terrain survenu pendant l'hiver 2025-26, le sentier menant à la cime de Pelousette depuis la balise 41b Camp des Fourches est interdit d'accès » (vallée de la Tinée). La page signale par ailleurs, sans fermeture formelle, que « suite aux intempéries du mois d'août 2026, le sentier entre le col de la Petite Cayolle (balise 297) et le pas du Lausson (balise 296) présente des franchissements de ravines délicats » (vallée du Verdon). Les quatre secteurs signalés le 10/08 (Pezza Maurina, Pas de Colle Rousse, Tavels, Vallon de Mollières) restent mentionnés dans les mêmes termes.
 
 MAJ 04/09 : la page reste calée sur sa mise à jour du 22/08, sans changement de fond. Une lecture intégrale du jour relève deux mentions déjà présentes sur la page mais jamais reprises jusqu'ici dans cette fiche : la piste de **Fontanalba** (Tende) est interdite entre les balises 389 et 387, une alternative existant sur place ; le hameau de **Valabres** (Roure) est interdit d'accès pour risque de chute de blocs. Aucune date d'entrée en vigueur n'est précisée pour ces deux mentions.
+
+MAJ 05/09 : lecture intégrale de mercantour-parcnational.fr (page toujours datée du 22/08/2026) : un secteur déjà listé sur la page n'avait jamais été repris dans cette fiche, le sentier des Barels depuis Bouchanières (Guillaumes), fermé entre les balises 152 et 155 pour risque de crue lors d'orages récurrents. Aucun changement de fond par ailleurs.
 
 ## Source
 
