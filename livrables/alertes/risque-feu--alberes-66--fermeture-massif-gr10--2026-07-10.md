@@ -2,28 +2,27 @@
 cle: risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10
 type: risque feu / fermeture massif
 itin: GR®10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-Mer)
-sev: HAUTE
-validite: Sorède : arrêté n°26.216 du 17/06/2026, jusqu'au 13/09/2026 (échéance explicite, non expirée) ; Argelès-sur-Mer : arrêté du 10/07 renforcé le 13/07 (ARR2026-024PM), « jusqu'à nouvel ordre » (pas d'échéance calendaire, donc pas de reconduction à rechercher)
+sev: MOYENNE (dégradée HAUTE→MOYENNE le 05/09 : l'interdiction totale d'Argelès-sur-Mer est levée)
+validite: Argelès-sur-Mer : arrêté ARR2026-024PM levé le 03/09/2026 ; Sorède : arrêté n°26.216 du 17/06/2026, accès piétons/vélos musculaires maintenu jusqu'au 13/09/2026 (véhicules à moteur interdits, marche à pied non concernée) ; Cerbère et Villelongue-dels-Monts non tranchés à ce jour
 detection: 2026-07-20
-verif: 2026-09-04
-statut: ACTIF — INCHANGÉ 04/09 : signal non confirmé à trancher en priorité au prochain
-  passage FR-66. Un titre daté du jour même (titrespresse.com, relayant actu.fr, slug
-  ciblant Argelès-sur-Mer) annonce la réouverture « ce vendredi 4 septembre » d'un massif
-  resté interdit tout l'été dans les Pyrénées-Orientales, sans que le texte intégral ni le
-  nom exact du massif n'aient pu être ouverts (actu.fr inaccessible en fetch direct). Ne pas
-  publier de levée sur cette seule base : ni la mairie d'Argelès-sur-Mer ni celle de Sorède
-  n'ont publié à ce jour d'acte de levée. Sévérité maintenue HAUTE dans l'attente d'une
-  confirmation directe.
+verif: 2026-09-05
+statut: ACTIF — CHANGÉ 05/09 : le signal du 04/09 est confirmé et daté. actu.fr
+  (Margaux Masson, publié 04/09 06h08, MAJ 09h22, vérifié par double fetch indépendant)
+  précise que la municipalité d'Argelès-sur-Mer a levé le 03/09/2026 l'arrêté
+  ARR2026-024PM en vigueur depuis le 10/07 : la Tour de la Massane redevient accessible.
+  Le risque incendie reste qualifié d'important par la même source. Sorède maintient son
+  régime propre jusqu'au 13/09/2026, sans restriction pour la marche à pied. Dégradation
+  HAUTE→MOYENNE : le facteur bloquant (interdiction piétonne totale à Argelès) est levé.
 ordre: 35
 ---
 
 ## Portion concernée
 
-Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR®10 : **accès interdit « jusqu'à nouvel ordre » depuis le 10/07/2026** sur Argelès-sur-Mer (arrêté renforcé le 13/07, ARR2026-024PM), et **jusqu'au 13/09/2026 sur Sorède** (arrêté municipal n°26.216 du 17/06/2026, accès limité aux piétons et vélos musculaires/VAE). L'accès à la réserve naturelle de la Massane est également interdit. Raison : risque incendie. Depuis le 24/07, une dérogation encadrée est accordée aux groupes VTT professionnels sur Argelès ; les randonneurs et cyclistes individuels restent interdits d'accès. Aucune de ces deux mesures n'a de clause de republication périodique : l'arrêté de Sorède court par construction jusqu'au 13/09, celui d'Argelès reste valide tant qu'aucune levée officielle n'est publiée. Le massif est par ailleurs recouvert par la vigilance rouge départementale tous-massifs des Pyrénées-Orientales (voir alerte dédiée). Ces textes ont été retrouvés et datés précisément le 10/08/2026. Vérifié à nouveau le 24/08/2026 puis le 01/09/2026 : aucun signal de levée, les deux arrêtés demeurent en vigueur dans les mêmes termes ; le communiqué préfectoral du 27/08/2026 place toujours les Albères parmi les massifs en vigilance rouge.
+Massif des Albères (Argelès-sur-Mer, Sorède, Cerbère, Villelongue-dels-Monts), traversé par le GR®10 : **l'accès à pied, à vélo et à cheval est de nouveau autorisé sur Argelès-sur-Mer depuis le 3 septembre 2026**, la municipalité ayant levé l'arrêté ARR2026-024PM en vigueur depuis le 10/07. Le risque incendie reste toutefois qualifié d'important par la même source. Sur **Sorède, l'accès reste limité aux piétons et vélos musculaires/VAE jusqu'au 13 septembre 2026** (arrêté n°26.216 du 17/06), sans restriction pour la marche à pied. Le statut de Cerbère et de Villelongue-dels-Monts n'est confirmé par aucune source datée à ce jour. Le massif reste par ailleurs concerné par le régime départemental quotidien des Pyrénées-Orientales (voir alerte dédiée).
 
 ## Alternative
 
-Aucune alternative connue à ce jour : éviter le massif des Albères.
+Sans objet sur Argelès-sur-Mer depuis la levée du 03/09/2026. Sur Sorède, la marche à pied reste autorisée ; seuls les véhicules à moteur et les VTT électriques restent interdits jusqu'au 13/09/2026.
 
 ## Zone (détails)
 
@@ -51,6 +50,8 @@ MAJ 14/08 : nouvelle vérification ciblée, aucune levée ni republication trouv
 
 MAJ 18/08 : aucun article de presse postérieur au 29/07/2026 n'a été retrouvé sur l'accès au massif. Ce silence de la presse ne dit rien de l'état réel du terrain : l'interdiction repose sur deux arrêtés datés qui n'ont pas expiré, celui de Sorède jusqu'au 13/09/2026 et celui d'Argelès-sur-Mer jusqu'à nouvel ordre, et aucune source ne signale de levée de l'un ou de l'autre.
 
+MAJ 05/09 : levée confirmée pour Argelès-sur-Mer. actu.fr (Margaux Masson, publié le 04/09/2026 06h08, mis à jour 09h22) rapporte que la municipalité a levé le 03/09/2026 l'arrêté ARR2026-024PM en vigueur depuis le 10/07 : l'accès à pied, à vélo et à cheval est de nouveau autorisé, la Tour de la Massane redevient accessible. Le texte rappelle que le risque incendie reste important. Sorède, Cerbère et Villelongue-dels-Monts : statut inchangé, aucune source nouvelle.
+
 ## Source
 
-[ouillade.eu, 29/07/2026, « Massif des Albères / Accès interdits par arrêté municipal : mais si tu payes, tu peux rouler »](https://ouillade.eu/politique/massif-des-alberes-acces-interdits-par-arrete-municipal-mais-si-tu-payes-tu-peux-rouler/341509) ; [arrêté 26.238 (PDF)](https://www.tourisme-pyrenees-mediterranee.com/app/uploads/2026/07/arrete-26.238-arrete-de-circulation-interdisant-lacces-au-massif-des-alberes.pdf) ; [rnnmassane.fr 13/07](http://www.rnnmassane.fr/2026/07/13/renforcement-interdictionaccesmassifalberes-communeargeles/) ; [mapetiterando.fr](https://mapetiterando.fr/actualites/massif-alberes-ferme-randonneurs-risque-incendie/) ; [Préfecture des Pyrénées-Orientales, communiqué du 27/08/2026 relayé par la mairie de Torderès, cite les Albères parmi les massifs en vigilance rouge](http://torderes.unblog.fr/2026/08/27/les-aspres-places-en-risque-incendie-exceptionnel-rouge-ce-jeudi-27-aout-2026/)
+[ouillade.eu, 29/07/2026, « Massif des Albères / Accès interdits par arrêté municipal : mais si tu payes, tu peux rouler »](https://ouillade.eu/politique/massif-des-alberes-acces-interdits-par-arrete-municipal-mais-si-tu-payes-tu-peux-rouler/341509) ; [arrêté 26.238 (PDF)](https://www.tourisme-pyrenees-mediterranee.com/app/uploads/2026/07/arrete-26.238-arrete-de-circulation-interdisant-lacces-au-massif-des-alberes.pdf) ; [rnnmassane.fr 13/07](http://www.rnnmassane.fr/2026/07/13/renforcement-interdictionaccesmassifalberes-communeargeles/) ; [mapetiterando.fr](https://mapetiterando.fr/actualites/massif-alberes-ferme-randonneurs-risque-incendie/) ; [Préfecture des Pyrénées-Orientales, communiqué du 27/08/2026 relayé par la mairie de Torderès, cite les Albères parmi les massifs en vigilance rouge](http://torderes.unblog.fr/2026/08/27/les-aspres-places-en-risque-incendie-exceptionnel-rouge-ce-jeudi-27-aout-2026/) ; actu.fr, Margaux Masson, 04/09/2026 06h08 (MAJ 09h22), levée de l'arrêté ARR2026-024PM à Argelès-sur-Mer

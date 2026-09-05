@@ -5,7 +5,7 @@ itin: Aucun P1 ; [HYPOTHÈSE] Sentiero Italia CAI (P3, secteur VCO) — recouper
 sev: MOYENNE
 validite: fermetures multiples jusqu'à nouvel ordre, aucune date de levée annoncée pour aucune d'elles. Volet incendie Premosello Chiovenda : levée partielle depuis le 17/07 (2 itinéraires restent fermés, sans date de réouverture). Volet orage (Colloro↔Alpe Lut↔La Piana) : fermé le 04-06/08, reouvert le 05/08 puis refermé le 06/08, toujours fermé au 29/08. Volet incendie Val Caurì : Via Ferrata Selvaggio Verde (Ponte Velina↔l'Arca↔In la Piana) fermée depuis le 17/08 13h00. Volet éboulement : sentiero Cossogno-Cicogna (P00) fermé depuis le 21/08
 detection: 2026-07-17 (avis du 10/07)
-verif: 2026-08-29
+verif: 2026-09-05
 statut: ACTIF — CHANGÉ 29/08 : deux nouvelles fermetures officielles s'ajoutent au périmètre,
   sans lien avec l'incendie de juillet ni l'orage d'août. [FAIT, parcovalgrande.it, avviso du
   21/08] Le sentiero Cossogno-Cicogna (P00), qui dessert Cicogna, porte d'entrée principale du
