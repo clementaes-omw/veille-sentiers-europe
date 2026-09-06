@@ -11,17 +11,19 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-05
-statut: ACTIF — INCHANGÉ 05/09 : re-vérification complète (aktuelles, eilmeldung, FAQ,
-  landratsamt-pirna.de), aucune source postérieure au 01/09 trouvée. L'Amselsee reste
-  rouvert, le bas de l'Amselgrund (Rathen↔Schwedenlöcher) reste fermé, le chantier
-  héliporté du Gamrig/Rathener Straße reste en cours jusqu'au ~18/09.
+verif: 2026-09-06
+statut: ACTIF — INCHANGÉ 06/09 : re-vérification complète (aktuelles, eilmeldung, FAQ),
+  aucune source postérieure au 01/09 sur le périmètre fermé. La page aktuelles porte un
+  ajout daté du 04/09/2026 (niveau d'eau bas, sans rapport avec les sentiers), preuve
+  qu'elle reste activement tenue à jour. L'Amselsee reste rouvert, le bas de l'Amselgrund
+  (Rathen↔Schwedenlöcher) reste fermé, le chantier héliporté du Gamrig/Rathener Straße
+  reste en cours jusqu'au ~18/09.
 ordre: 99
 ---
 
 ## Portion concernée
 
-Parc national de la Suisse Saxonne (Saxe, Allemagne) : **l'Amselsee est rouvert** (ponton et abri de l'embarcadère dégagés), mais la partie basse de l'Amselgrund, entre Rathen et la jonction des Schwedenlöcher, reste fermée à la date de cette vérification, avec le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg). Un déploiement d'hélicoptère pour évacuer le bois endommagé par la tempête est en cours autour de Rathen depuis le 25/08/2026, jusqu'au 18/09/2026 environ : il ferme les deux parkings du Gamrig, le rocher du Gamrig lui-même et un tronçon de la Rathener Straße à Waltersdorf, tous rouverts depuis le 07/08. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; l'évacuation par hélicoptère cible le bois resté inaccessible aux équipes au sol autour de la Felsenbühne. Les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg et le Polenztal sur toute sa longueur (y compris le secteur de la Waltersdorfer Mühle) restent ouverts, comme le Basteiweg (montée de Rathen vers la Bastei) et la Basteiaussicht. Le Malerweg, qui traverse l'Amselgrund sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce point précis, et l'accès au Gamrig, un temps rouvert, est de nouveau fermé pour la durée du chantier héliporté. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
+Parc national de la Suisse Saxonne (Saxe, Allemagne), situation au 06/09/2026 : **l'Amselsee est rouvert** (ponton et abri de l'embarcadère dégagés), mais la partie basse de l'Amselgrund, entre Rathen et la jonction des Schwedenlöcher, reste fermée, avec le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg). Un déploiement d'hélicoptère pour évacuer le bois endommagé par la tempête est en cours autour de Rathen depuis le 25/08/2026, jusqu'au 18/09/2026 environ : il ferme les deux parkings du Gamrig, le rocher du Gamrig lui-même et un tronçon de la Rathener Straße à Waltersdorf, tous rouverts depuis le 07/08. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; l'évacuation par hélicoptère cible le bois resté inaccessible aux équipes au sol autour de la Felsenbühne. Les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg et le Polenztal sur toute sa longueur (y compris le secteur de la Waltersdorfer Mühle) restent ouverts, comme le Basteiweg (montée de Rathen vers la Bastei) et la Basteiaussicht. Le Malerweg, qui traverse l'Amselgrund sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce point précis, et l'accès au Gamrig, un temps rouvert, est de nouveau fermé pour la durée du chantier héliporté. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
 
 ## Alternative
 
@@ -50,6 +52,8 @@ MAJ 27/08 : le déploiement d'hélicoptère pour évacuer le bois endommagé, ju
 MAJ 01/09 : la FAQ dédiée du parc (nationalpark-saechsische-schweiz.de/faq-zur-situation-in-rathen, MAJ 27/08) est relue en entier. Elle clarifie un point resté flou depuis plusieurs passages : l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jusqu'à révocation), sans échéance calendaire propre ; la date du 31/08, jusqu'ici présentée comme une échéance non reconduite, n'a donc jamais été le terme de ce texte. Sur le terrain, l'Amselsee est confirmé rouvert : le ponton et l'abri de l'embarcadère ont été dégagés. Le bas de l'Amselgrund (Rathen↔Schwedenlöcher) reste fermé. saechsische-schweiz.de/gut-zu-wissen/aktuelles, consultée le même jour, confirme le Basteiweg, les Schwedenlöcher et l'Amselgrund côté Rathewalde ouverts, et rappelle le chantier héliporté du Gamrig jusqu'au ~18/09.
 
 MAJ 05/09 : re-vérification complète, aucune source postérieure au 01/09 trouvée ; le périmètre reste inchangé (Amselsee ouvert, bas de l'Amselgrund fermé, chantier héliporté du Gamrig/Rathener Straße en cours jusqu'au ~18/09). L'avis du Landratsamt de Pirna du 14/08 (av-waldbetretungsrecht-freigaben), déjà cité, nomme aussi le Wehlgrund, le Raaber Kessel, le Höllgrund et le Koppelsgrundweg parmi les secteurs restés fermés, en plus du Pionierweg, du Knotenweg et du Füllhölzelweg déjà cités ci-dessus : une précision d'un acte déjà connu, sans changement de périmètre par rapport aux passages précédents.
+
+MAJ 06/09 : nouvelle re-vérification complète (eilmeldung, aktuelles). Le périmètre reste inchangé. La page aktuelles, mise à jour le 26/08 à 10h15, porte un ajout daté du 04/09/2026 concernant le niveau d'eau bas (Niedrigwasser) de l'Elbe, sans rapport avec l'état des sentiers : la page reste activement tenue à jour, mais rien de nouveau n'y est publié sur l'Amselgrund ou le Ziegenrücken depuis fin août. Aucune couverture de presse régionale postérieure au 01/09 trouvée.
 
 ## Source
 
