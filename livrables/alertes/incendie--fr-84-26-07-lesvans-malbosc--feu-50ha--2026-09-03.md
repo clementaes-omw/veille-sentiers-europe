@@ -3,16 +3,20 @@ cle: incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03
 type: incendie
 itin: GR®44 (Des Vans à Champerboux, départ Les Vans) ; GRP de la Haute Cévenne d'Ardèche — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement géographique
 sev: MOYENNE
-validite: foyer des Vans contenu depuis le 04/09 mi-journée ; foyer de Malbosc actif et non fixé à la même date
+validite: foyer des Vans contenu depuis le 04/09 mi-journée ; foyer de Malbosc toujours
+  actif et non fixé au 05/09 en soirée ; aucun bilan retrouvé pour le 06/09
 detection: 2026-09-05
-verif: 2026-09-05
-statut: ACTIF — NOUVEAU
+verif: 2026-09-06
+statut: ACTIF — CHANGÉ 06/09 : confirmation que le foyer de Malbosc reste actif au 05/09
+  en soirée (la préfète cité : « le feu n'est pas fixé, n'est pas circonscrit, n'est pas
+  éteint »), le foyer des Vans restant contenu depuis le 04/09. Aucun bilan retrouvé pour
+  le 06/09.
 ordre: 218
 ---
 
 ## Portion concernée
 
-**Hameau de Brahic (commune des Vans) et commune de Malbosc (Ardèche), sud du département, aux portes des Cévennes.** Environ 36 à 50 hectares parcourus (11 ha aux Vans, 25 à 39 ha à Malbosc selon les sources) depuis le départ de feu du jeudi 03/09/2026 en fin d'après-midi. Le foyer des Vans est contenu depuis le vendredi 04/09 mi-journée ; celui de Malbosc restait actif et non fixé à la même date. Le camping du Moulin de Gournier (Malbosc) et le hameau de Sabuscles ont été évacués par précaution (une trentaine de personnes) ; les habitants de Sabuscles ont pu regagner leur domicile le 04/09, les campeurs du Moulin de Gournier restaient évacués à cette date. Aucune fermeture de sentier n'est documentée à ce stade.
+**Hameau de Brahic (commune des Vans) et commune de Malbosc (Ardèche), sud du département, aux portes des Cévennes.** Environ 36 à 50 hectares parcourus (11 ha aux Vans, 25 à 39 ha à Malbosc selon les sources) depuis le départ de feu du jeudi 03/09/2026 en fin d'après-midi. Le foyer des Vans est contenu depuis le vendredi 04/09 mi-journée ; celui de Malbosc reste actif et non fixé au samedi 05/09 en soirée, dernier point de situation retrouvé. Le camping du Moulin de Gournier (Malbosc) et le hameau de Sabuscles ont été évacués par précaution (une trentaine de personnes) ; les habitants de Sabuscles ont pu regagner leur domicile le 04/09, les campeurs du Moulin de Gournier restaient évacués à cette date. Aucune fermeture de sentier n'est documentée à ce stade.
 
 ## Alternative
 
@@ -20,7 +24,9 @@ Aucune alternative connue à ce jour.
 
 ## Zone (détails)
 
-03/09/2026, fin d'après-midi : feu de forêt entre le hameau de Brahic et Malbosc. Près de 220 à 300 sapeurs-pompiers et forestiers-sapeurs mobilisés (5 GIFF, 1 groupe d'appui tactique feu, 8 Canadair, 2 Dash, 3 hélicoptères). 04/09 : foyer des Vans contenu, foyer de Malbosc toujours actif au nord de la commune. Le secteur est traversé par le GR®44, dont le départ se situe précisément aux Vans, et par le GRP de la Haute Cévenne d'Ardèche ; aucune source ne les nomme explicitement, rattachement en hypothèse. Aucun bilan postérieur au 04/09 mi-journée trouvé.
+03/09/2026, fin d'après-midi : feu de forêt entre le hameau de Brahic et Malbosc. Près de 220 à 300 sapeurs-pompiers et forestiers-sapeurs mobilisés (5 GIFF, 1 groupe d'appui tactique feu, 8 Canadair, 2 Dash, 3 hélicoptères). 04/09 : foyer des Vans contenu, foyer de Malbosc toujours actif au nord de la commune. Le secteur est traversé par le GR®44, dont le départ se situe précisément aux Vans, et par le GRP de la Haute Cévenne d'Ardèche ; aucune source ne les nomme explicitement, rattachement en hypothèse.
+
+MAJ 06/09 : confirmation par France 3 (04/09 19h30) que le foyer de Malbosc restait actif en soirée du 05/09, la préfète de l'Ardèche déclarant que « le feu n'est pas fixé, n'est pas circonscrit, n'est pas éteint ». Le foyer des Vans reste contenu depuis le 04/09 mi-journée. Aucun bilan ni communiqué retrouvé pour le dimanche 06/09 malgré recherche dédiée.
 
 ## Source
 
