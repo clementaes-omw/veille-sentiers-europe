@@ -5,11 +5,11 @@ itin: GR®20 (départ de Calenzana, étape 1 Calenzana↔Ortu di u Piobbu) [HYPO
 sev: MOYENNE
 validite: feu de Calenzana-Montegrosso fixé dans la nuit du 27 au 28/08/2026, sous contrôle depuis le 28/08 après-midi ; aucune restriction de sentier confirmée à ce jour, situation suivie jusqu'à nouvel ordre
 detection: 2026-08-29
-verif: 2026-09-05
-statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche générale sur les feux de Corse, aucune
-  reprise de foyer signalée depuis la fixation, aucun résultat mentionnant Calenzana ou
-  Montegrosso. Aucune source ne documente toujours d'impact sur le GR®20 lui-même. Sévérité
-  maintenue MOYENNE.
+verif: 2026-09-06
+statut: ACTIF — INCHANGÉ 06/09 : nouvelle recherche, aucune reprise de foyer signalée
+  depuis la fixation. Un second départ de feu distinct, au lieu-dit Luzzipeo (Calenzana),
+  s'est produit le 02/09 (environ 500 m², maîtrisé le jour même), sans impact sur le GR®20
+  ni lien avec le feu de Montegrosso. Sévérité maintenue MOYENNE.
 ordre: 181
 ---
 
