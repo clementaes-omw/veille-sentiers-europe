@@ -6,12 +6,12 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-09-04
-statut: ACTIF — INCHANGÉ 04/09 : nouvelle recherche ciblée (mairie-die.fr relu en direct),
-  l'arrêté du 21/08/2026 reste la donnée la plus récente, toujours sans échéance calendaire :
-  la fermeture court jusqu'à la fin des opérations d'étude et de sécurisation. Sévérité
-  maintenue HAUTE. Rattachement GR®9/GR®93 toujours affaibli depuis le 03/08 (probable
-  GR®95). drome.gouv.fr reste daté du 16/07/2026 sans mise à jour.
+verif: 2026-09-06
+statut: ACTIF — INCHANGÉ 06/09 : recoupement indirect via la presse (titrespresse.com) :
+  la fermeture perdure au point d'empêcher l'accès des chasseurs au massif de
+  Justin/Claps à l'ouverture de la chasse générale prévue le 13/09 dans la Drôme,
+  cohérent avec l'arrêté du 21/08 sans échéance calendaire. Sévérité maintenue HAUTE.
+  Rattachement GR®9/GR®93 toujours affaibli depuis le 03/08 (probable GR®95).
 ordre: 31
 ---
 

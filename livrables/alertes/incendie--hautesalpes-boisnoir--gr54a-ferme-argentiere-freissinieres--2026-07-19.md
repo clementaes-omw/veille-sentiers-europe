@@ -9,14 +9,13 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-05
-statut: ACTIF — INCHANGÉ 05/09 : ville-argentiere.fr relue, cc-paysdesecrins.fr relue
-  (actualité datée 20/07, rien de nouveau), les deux pages du PN Écrins toujours datées du
-  28/07, recueil des actes administratifs d'août consulté sans acte plus récent localisé.
-  L'arrêté municipal du 15/08/2026 reste la base réglementaire en vigueur, sans date de
-  réouverture annoncée ; la règle des 14 jours ne s'applique pas ici (acte officiel en
-  vigueur, pas une hypothèse). Source à corriger : paysdesecrins.com/vigileance-feu-en-cours/
-  renvoie désormais une erreur 404, à remplacer par cc-paysdesecrins.fr ou une source
+verif: 2026-09-06
+statut: ACTIF — INCHANGÉ 06/09 : ville-argentiere.fr relue en direct, toujours l'arrêté
+  municipal du 15/08/2026 sans date de levée annoncée ; ecrins-parcnational.fr toujours
+  daté du 28/07. Aucune source ne signale d'allègement ni de réouverture du GR®54A depuis
+  le 24/08. La règle des 14 jours ne s'applique pas ici (acte officiel en vigueur, pas une
+  hypothèse). Source à corriger : paysdesecrins.com/vigileance-feu-en-cours/ renvoie
+  désormais une erreur 404, à remplacer par cc-paysdesecrins.fr ou une source
   équivalente au prochain passage.
 ordre: 41
 ---

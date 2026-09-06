@@ -3,24 +3,22 @@ cle: infrastructure|Matosinhos-PT|pont-levadiço-fermé|2026-06-15
 type: infrastructure / traversée coupée
 itin: Camino Portugués da Costa (Central non concerné)
 sev: INFO
-validite: fermé depuis le 15/06/2026 ; réouverture annoncée par l'APDL pour le 14/08/2026, échéance désormais dépassée sans confirmation postérieure : la fermeture est donc présumée se poursuivre jusqu'à nouvel ordre, faute de source attestant la reprise effective de la circulation
+validite: fermé du 15/06/2026 au 14/08/2026 ; pont rouvert à la circulation piétonne et automobile depuis cette date
 detection: 2026-07-17
-verif: 2026-08-17
-statut: ACTIF — vérifié 17/08 : aucune source postérieure au 14/08/2026 confirmant la
-  réouverture effective retrouvée. La réouverture anticipée annoncée par l'APDL pour le
-  14/08 (communiqué du 06/08, Jornal Económico et Rádio Metropolitana Porto) reste donc à
-  confirmer par une source postérieure à cette date. Alternative bus maintenue jusqu'au
-  20/08/2026 selon la même annonce. À vérifier au prochain passage sur la zone.
+verif: 2026-09-06
+statut: [CLÔTURÉ] (2026-08-14) — pont rouvert à la circulation piétonne et automobile le
+  14/08/2026 à 6h, confirmé par deux sources datées du jour même (Rádio Metropolitana
+  Porto, viva-porto.pt reprenant l'APDL). Aucune fermeture postérieure signalée au 06/09.
 ordre: 29
 ---
 
 ## Portion concernée
 
-Camino Portugués da Costa, étape 1 (km ~11) : **pont mobile Matosinhos ↔ Leça da Palmeira fermé aux piétons depuis le 15/06/2026**. Raison : travaux sur le pont. La réouverture, initialement annoncée pour fin septembre, avait été avancée au 14/08/2026 par l'APDL (communiqué du 06/08/2026), avec un mois d'avance sur le calendrier initial. Aucune source postérieure au 14/08/2026 ne confirme à ce jour que la circulation piétonne et automobile a effectivement repris : vérifier l'état du pont avant l'étape.
+Camino Portugués da Costa, étape 1 (km ~11) : le **pont mobile Matosinhos ↔ Leça da Palmeira** est rouvert à la circulation piétonne et automobile depuis le 14/08/2026, au terme de deux mois de travaux commencés le 15/06/2026. La réouverture est intervenue avec un mois d'avance sur le calendrier initial (mi-septembre annoncée au départ).
 
 ## Alternative
 
-Bus gratuit toutes les 15 minutes entre les deux rives (vélos et trottinettes acceptés). La municipalité l'a mis en place et le maintient jusqu'au 20/08/2026 pour accompagner la reprise de la circulation.
+Sans objet : le pont est rouvert depuis le 14/08/2026, la circulation piétonne comme automobile y est rétablie.
 
 ## Zone (détails)
 
@@ -30,6 +28,8 @@ MAJ 06/08 : situation confirmée stable. [41N.pt, 10/06/2026](https://www.41n.pt
 
 MAJ 07/08 : changement de calendrier. L'APDL (gestionnaire du port de Leixões) annonce une réouverture anticipée au 14/08/2026, avec circulation automobile et piétonne rétablies « en plein » ce jour-là, soit environ un mois d'avance sur le calendrier initial (mi-septembre). Le service de bus gratuit pour piétons, cyclistes et usagers de trottinettes est maintenu jusqu'au 20/08/2026 pour accompagner la transition.
 
+MAJ 06/09 : la réouverture a bien eu lieu comme annoncé. Deux articles datés du 14/08/2026 (Rádio Metropolitana Porto, viva-porto.pt reprenant un communiqué de l'APDL) confirment la reprise effective de la circulation piétonne et automobile ce jour-là à 6h. Aucune source postérieure ne signale de nouvelle fermeture.
+
 ## Source
 
-[41N.pt, 10/06/2026, ponte móvel de Leça da Palmeira fechada durante três meses](https://www.41n.pt/2026/06/10/ponte-movel-de-leca-da-palmeira-fechada-durante-tres-meses/) ; [JN, moradores « desesperados » com a ponte fechada](https://www.jn.pt/pais/artigo/desesperados-com-ponte-movel-de-leca-fechada-ha-quase-um-mes/13624110) ; [Gronze noticia 40446](https://www.gronze.com/noticias/camino-portugues-costa-cierra-temporalmente-puente-levadizo-matosinhos-40446) ; caminhoportuguesdacosta.com ; [Jornal Económico, 06/08/2026, Ponte Móvel de Leixões reabre a 14 de agosto](https://jornaleconomico.sapo.pt/noticias/ponte-movel-de-leixoes-reabre-a-14-de-agosto/) ; [Rádio Metropolitana Porto, 06/08/2026, Ponte Móvel de Leixões reabre a 14 de agosto e antecipa conclusão das obras](https://www.radiometropolitanaporto.pt/ponte-movel-de-leixoes-reabre-a-14-de-agosto-e-antecipa-conclusao-das-obras/)
+[41N.pt, 10/06/2026, ponte móvel de Leça da Palmeira fechada durante três meses](https://www.41n.pt/2026/06/10/ponte-movel-de-leca-da-palmeira-fechada-durante-tres-meses/) ; [JN, moradores « desesperados » com a ponte fechada](https://www.jn.pt/pais/artigo/desesperados-com-ponte-movel-de-leca-fechada-ha-quase-um-mes/13624110) ; [Gronze noticia 40446](https://www.gronze.com/noticias/camino-portugues-costa-cierra-temporalmente-puente-levadizo-matosinhos-40446) ; caminhoportuguesdacosta.com ; [Jornal Económico, 06/08/2026, Ponte Móvel de Leixões reabre a 14 de agosto](https://jornaleconomico.sapo.pt/noticias/ponte-movel-de-leixoes-reabre-a-14-de-agosto/) ; [Rádio Metropolitana Porto, 14/08/2026, Ponte Móvel de Leixões reabre com um mês de antecedencia e retoma circulação entre Matosinhos e Leça da Palmeira](https://www.radiometropolitanaporto.pt/ponte-movel-de-leixoes-reabre-com-um-mes-de-antecedencia-e-retoma-circulacao-entre-matosinhos-e-leca-da-palmeira/) ; [Viva Porto, 14/08/2026, Ponte móvel de Leixões reabre hoje, um mês mais cedo do que estava previsto](https://viva-porto.pt/ponte-movel-de-leixoes-reabre-hoje-um-mes-mais-cedo-do-que-estava-previsto/)

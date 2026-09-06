@@ -4,26 +4,28 @@ type: risque feu / fermeture massifs
 itin: GR®653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR®6 (corridor Pont-du-Gard/Remoulins/Uzès,
   secteur Garrigues) ; GR®70 (Cévennes) — hors zone rouge au classement du 18/08, était entré
   brièvement le 17/08 dans le secteur Nord Cévennes
-sev: HAUTE
-validite: journalière, la préfecture du Gard publie le classement au jour le jour ; secteur
-  Gard Rhodanien (36 communes) reclassé rouge pour le 03/09/2026, statut des 04 et 05/09
-  non confirmé par une page officielle datée
+sev: MOYENNE (aucun secteur classé rouge depuis le 03/09)
+validite: journalière, la préfecture du Gard publie le classement au jour le jour ; aucune
+  page datée n'existe pour les 4, 5 et 6 septembre, ce qui, par la convention de publication
+  de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en rouge),
+  signifie qu'aucun secteur n'est classé rouge depuis le 03/09/2026
 detection: 2026-07-04
-verif: 2026-09-05
-statut: ACTIF — CHANGÉ 05/09 : réouverture d'un secteur rouge (Gard Rhodanien) 3 jours
-  après la clôture du 01/09. Sévérité remontée à HAUTE. gard.gouv.fr a republié le 02/09
-  une page classant le Gard Rhodanien en rouge pour le 03/09, reprise par TV Sud Magazine ;
-  aucune page officielle datée trouvée pour le 04 ou le 05/09.
+verif: 2026-09-06
+statut: ACTIF — CHANGÉ 06/09 : désescalade. gard.gouv.fr relu en direct (liste complète des
+  actualités et tentatives d'URL datées des 4, 5 et 6 septembre) : aucune page de classement
+  postérieure au 03/09 n'existe, ce qui, selon la convention déjà établie sur cette fiche,
+  signifie qu'aucun secteur n'est classé rouge depuis 3 jours. Sévérité redescendue à MOYENNE,
+  faute d'acte explicite de levée publié par la préfecture.
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : le secteur du **Gard Rhodanien (36 communes) est de nouveau classé en risque incendie très sévère** pour le jeudi 03/09/2026, après une clôture de l'alerte le 01/09 faute de secteur rouge depuis le 18/08. Accès, circulation et présence sont interdits en forêt, lande, maquis et garrigue. Le GR®653 (secteur Fourques/Beaucaire) est concerné. Le statut des 04 et 05/09 n'a pas pu être confirmé par une page officielle datée à ce stade. Raison : absence de précipitations, fortes chaleurs.
+Gard : **aucun secteur n'est classé en risque incendie très sévère** depuis le 03/09/2026. Le Gard Rhodanien (36 communes, dont Fourques et Beaucaire, GR®653) avait été reclassé rouge pour cette seule journée du 3 septembre, après une première clôture de l'alerte le 01/09 faute de secteur rouge depuis le 18/08. Aucune page de classement n'a été publiée depuis pour le département : selon la pratique observée tout l'été sur ce site (une page dédiée n'existe que les jours où un secteur bascule au rouge), l'absence de page vaut absence de secteur classé. Aucun communiqué explicite de levée n'a en revanche été retrouvé. Raison de l'épisode du 03/09 : absence de précipitations, fortes chaleurs.
 
 ## Alternative
 
-Aucune alternative connue à ce jour pour le Gard Rhodanien (secteur Fourques/Beaucaire, GR®653). La préfecture republie une page dédiée chaque fois qu'un secteur change de classement : la consulter avant une étape, la situation ayant déjà basculé plusieurs fois d'un jour à l'autre cet été.
+Sans objet à ce jour : aucun secteur n'est classé rouge dans le Gard. La préfecture republie une page dédiée chaque fois qu'un secteur bascule au rouge : la consulter avant une étape, la situation ayant déjà basculé plusieurs fois d'un jour à l'autre cet été.
 
 ## Zone (détails)
 
@@ -49,6 +51,7 @@ Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes d
 - 28/08 : toujours aucune page de classement postérieure au 18/08 sur gard.gouv.fr, dixième jour de silence. La liste des actualités affiche en revanche « Épisode orageux, vigilance Orange sur le Gard » (24/08) et un article sur les restrictions liées à la sécheresse (22/08) : un épisode pluvieux a donc traversé le département dans l'intervalle, sans qu'aucune source ne relie explicitement cet épisode à une levée ou à une nouvelle du classement incendie. Le classement du 18/08 (3 secteurs rouges) reste la dernière donnée officielle disponible.
 - 01/09 : les URL datées « Mercredi-19-aout-2026 », « Lundi-31-aout-2026 » et « Mardi-1er-septembre-2026 » sont testées directement sur gard.gouv.fr : les trois renvoient 404. Conformément à la convention de publication de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en risque très sévère), l'absence de page pour ces trois dates signifie qu'aucun secteur n'a été classé rouge depuis le 18/08. Le classement retombe donc à 0 secteur rouge : alerte clôturée.
 - 03/09 : réactivation. gard.gouv.fr publie une page « Jeudi 3 septembre 2026 » classant le Gard Rhodanien (36 communes : Aramon, Bagnols-sur-Cèze, Beaucaire, Bellegarde et 32 autres) en rouge, après 3 jours sans secteur classé. Confirmé par TV Sud Magazine. Statut des 04 et 05/09 non confirmé par une source officielle datée (URL testée en 401).
+- 06/09 : nouvelle désescalade. La liste complète des actualités de gard.gouv.fr est relue en direct, et aucune page dédiée au risque incendie n'existe pour le 4, le 5 ou le 6 septembre. Le classement du 03/09 (Gard Rhodanien seul) n'a donc duré qu'un jour : aucun secteur n'est classé rouge depuis 3 jours, selon la même convention de publication déjà observée sur cette fiche depuis juillet.
 
 ## Source
 

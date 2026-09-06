@@ -1,235 +1,145 @@
-# Verdict qualité — 2026-09-05
+# Verdict qualité — 2026-09-06
 
-Agent Vérificateur Qualité, distinct de l'agent de veille qui a produit le run du jour
-(4 nouvelles alertes, plusieurs fiches mises à jour, 2 alias `ALIAS_ZONE` ajoutés à
-`site/build_site.py`). Je n'ai écrit aucune des fiches contrôlées ci-dessous : audit
-indépendant.
+Vérificateur distinct de l'agent de veille du jour. Périmètre : les 6 fiches citées par
+`livrables/audit-qualite.md` (régénéré ce jour, 0 bloquant, 6 avertissements). Aucune autre
+fiche du dossier n'a été ouverte ni modifiée.
 
-Périmètre : les 7 constats de `livrables/audit-qualite.md` (généré le jour même par
-`python3 site/audit_qualite.py --ecrire`, 0 bloquant / 7 alerte / 0 info sur 80 fiches
-actives). Aucune fiche hors de cette liste n'a été touchée. Aucune recherche web nouvelle
-n'a été effectuée (hors périmètre de ce rôle sur ce passage) : le contrôle 7 (source
-vivante) s'appuie sur ce que les fiches documentent déjà, pas sur un re-fetch des URLs.
+## Fiches contrôlées (6)
 
-**7 fiches contrôlées.** 2 corrections appliquées (réécritures à information constante,
-aucun fait créé). 0 dégradation de sévérité appliquée (les deux cas où l'audit
-soupçonnait une hypothèse vieillissante reposent en fait sur un fait de terrain ou un
-arrêté en vigueur, pas sur un « à confirmer » — la règle des 14 jours ne se déclenche
-donc pas). 4 actions laissées à l'agent de veille (3 fiches MOYENNE hors cadence du jour
-à revérifier avec une source fraîche, plus le remplacement d'une source rouge tombée en
-404, déjà noté par la veille elle-même).
+1. `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`
+2. `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`
+3. `incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`
+4. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02`
+5. `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`
+6. `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`
 
----
+## PASS / FAIL par contrôle
 
-## 1. `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`
+### 1, 2, 4, 6 — zones revérifiées aujourd'hui (verif: 2026-09-06)
 
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | PASS — vérifiée le jour même (05/09) |
-| Concordance interne | PASS (constat de l'audit : faux positif, voir ci-dessous) |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS |
-| Sévérité | PASS |
-| Ton | PASS |
-| Source vivante | non re-testée (pas de recherche web sur ce passage) |
+| # | Fraîcheur | Concordance interne | Honnêteté | Pertinence | Sévérité juste | Ton | Source vivante |
+|---|---|---|---|---|---|---|---|
+| Malerweg | PASS | PASS | PASS | PASS | PASS | PASS | PASS |
+| Ariège Esbintz-Valier | PASS | PASS | PASS | PASS | PASS | PASS | PASS |
+| Drôme Justin | PASS | PASS | PASS | PASS | PASS | PASS | PASS |
+| Bois Noir | PASS | PASS | PASS (FAIL mineur corrigé) | PASS | PASS | PASS | PASS* |
 
-- **Faux positif de l'audit déterministe** : le script signale un écart de 11 jours entre
-  la date la plus récente antérieure à aujourd'hui citée dans « Portion concernée »
-  (25/08, début du chantier héliporté) et celle citée dans `statut:` (05/09, date de la
-  revérification). Le script prend la première comme un signe de gel du texte. Ce n'est
-  pas le cas ici : la date du 25/08 est la date de DÉBUT d'une opération en cours, encore
-  valide au 05/09 (« jusqu'au 18/09/2026 environ », date future donc ignorée par l'outil
-  qui ne compare qu'aux dates passées). L'entrée `MAJ 05/09` de « Zone (détails) » («
-  re-vérification complète… le périmètre reste inchangé ») dit exactement ce que dit la
-  « Portion concernée » (Amselsee rouvert, bas de l'Amselgrund fermé, chantier héliporté
-  du Gamrig en cours). Aucun décrochage réel : le texte affiché correspond à l'état
-  constaté aujourd'hui. Aucune correction nécessaire.
+Détail :
+- **Fraîcheur** : les 4 fiches portent `verif: 2026-09-06`, à jour du jour même. PASS.
+- **Concordance interne** : dans les 4 cas, « Portion concernée » reflète exactement l'état
+  décrit par `statut:` et « Zone (détails) » (fermeture réelle en vigueur, dernière source
+  citée). Aucune divergence trouvée.
+- **Honnêteté sur ce qu'on ne sait pas** : les 4 fiches disent explicitement au lecteur ce
+  qui n'est pas publié plutôt que de le présenter comme probable — Malerweg (« bis auf
+  Widerruf, sans date de fin fixe »), Ariège (« n'a fait l'objet d'aucune 5e reconduction ni
+  levée publiée à ce jour »), Drôme (« aucune date de levée n'est précisée, la sortie
+  dépendant d'une étude de risque en cours »), Bois Noir (« mesure … en attendant l'ensemble
+  des avis des autorités compétentes … sans date annoncée »). PASS.
+- **Sévérité juste (contrôle 5, appliqué avec prudence)** : dans les 4 cas, la HAUTE ne
+  repose PAS sur une hypothèse non tranchée logée dans la « Portion concernée » — elle
+  repose sur un fait établi et sourcé indépendamment de la question de l'arrêté feu/de la
+  date de son texte : fermeture de terrain confirmée par 3 sources de presse citant l'ONF
+  pour l'Ariège (chutes de pierres), arrêté préfectoral du 21/08 en vigueur (motif chutes de
+  pierres/arbres, distinct de l'incendie) pour la Drôme, arrêté municipal du 15/08 en
+  vigueur pour Bois Noir, Allgemeinverfügung toujours en vigueur avec chantier héliporté en
+  cours pour le Malerweg. La règle des 14 jours (§ DURÉE DE VIE D'UNE HYPOTHÈSE) ne
+  s'applique à aucune des 4 : leur « Portion concernée » n'est adossée ni à « à confirmer »,
+  ni à « probable », ni à « non localisé » — elle énonce des faits. Aucune dégradation
+  appliquée. Recommandation : maintenir HAUTE pour les 4, l'audit re-signalera tant que la
+  source datée la plus récente vieillit, ce qui est le comportement voulu (pousser la veille
+  à rechercher un texte plus récent), pas un défaut de la fiche elle-même.
+- **Ton** : aucun jargon de veille (« ce run », « réindexation », etc.) trouvé dans
+  « Portion concernée » ou « Alternative » des 4 fiches ; le build le confirme (aucune
+  violation `[ton]`).
+- **Source vivante (contrôle 7)** : vérifié en direct par fetch des sources portant le fait
+  central de chaque fiche :
+  - Malerweg : `nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung`
+    répond, confirme le bas de l'Amselgrund fermé et l'Amselsee mentionné dans le texte
+    (nuance : la page que le fetch a rendue affiche encore l'Amselsee comme fermé alors que
+    la fiche le dit rouvert depuis le 01/09 sur la foi de la FAQ dédiée — à surveiller au
+    prochain passage, sans être un FAIL : deux pages du même site peuvent être à des états
+    de mise à jour différents, la fiche cite sa source précise pour ce fait).
+  - Ariège : `pyreneesfm.com/…-interdictions-prolongees-face-au-risque-d-i` (18/08) répond et
+    confirme la 4e reconduction jusqu'au 24/08 telle que citée.
+  - Drôme : `mairie-die.fr/acces-interdit-forets-justin-laup-solaure/` répond et confirme
+    l'arrêté du 21/08, l'absence d'échéance calendaire, et l'abrogation de l'arrêté du 24/07,
+    conformes au texte de la fiche.
+  - Bois Noir : `ville-argentiere.fr/feu-bois-noir-informations` répond et confirme l'arrêté
+    municipal du 15/08 et l'absence de date de levée. En revanche
+    `paysdesecrins.com/vigileance-feu-en-cours/` (citée deux fois en Source, et à l'appui de
+    la réouverture des parcours 22/23 dans « Portion concernée ») renvoie une 404 confirmée
+    par fetch direct. Ce point était déjà identifié dans `statut:` par le run du jour lui-même
+    (« Source à corriger … au prochain passage ») — je ne l'ai pas re-signalé comme nouveau,
+    je le fais remonter formellement ci-dessous. Il n'invalide pas la sévérité HAUTE : le
+    fait qui la justifie (arrêté municipal du 15/08 sur le cœur de massif) est sourcé
+    ailleurs et vérifié vivant.
 
----
+**Correction appliquée** : `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`
+— le champ `statut:` (invisible sur le site) portait une phrase dupliquée par accident
+(« renvoie désormais une erreur 404 » répétée sur deux passages consécutifs, laissant une
+phrase orpheline « désormais une erreur 404. »). Fusionné en une seule phrase, aucune
+information supprimée ni ajoutée. C'est un nettoyage de forme sur un champ interne, pas une
+correction de fond.
 
-## 2. `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`
+### 3, 5 — zones hors périmètre du jour (Allemagne / Île-de-France, T3, non escaladées)
 
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | PASS — vérifiée le jour même (05/09) |
-| Concordance interne | FAIL (champ `validite:`) → **corrigé** |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS |
-| Sévérité | PASS — pas de dégradation |
-| Ton | PASS |
-| Source vivante | non re-testée (pas de recherche web sur ce passage) |
+| # | Fraîcheur | Concordance interne | Honnêteté | Pertinence | Sévérité juste | Ton | Source vivante |
+|---|---|---|---|---|---|---|---|
+| Schwarzwald-Oppenau | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
+| Fontainebleau | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
 
-- **Sévérité** : l'audit signale une source rouge datée du 18/08 (18 j). Vérifié : la
-  sévérité HAUTE de cette fiche repose sur un fait de terrain confirmé et sourcé trois
-  fois indépendamment (France 3 Occitanie 04/08, ruralites2024.fr 03/08, radiocouserans.fr
-  02/08) — la fermeture du GR®10 entre l'étang d'Ayès et le Cap des Lauses pour risque de
-  chutes de pierres — et non sur un « à confirmer »/« probable » concernant l'arrêté
-  d'interdiction du feu, qui est un second sujet, distinct, déjà traité en toute
-  transparence (« aucune 5e reconduction ni levée… publiée à ce jour »). La règle des 14
-  jours ne s'applique donc pas : **aucune dégradation recommandée**, conforme à ce que
-  `statut:` affirme déjà lui-même.
-- **Concordance interne** : le champ `validite:` (non affiché sur le site mais partie du
-  front-matter) affirmait encore « 6 jours de silence au 30/08 » sur l'échéance du 24/08,
-  alors que `statut:` porte la donnée à jour (« 12 jours de silence » à la vérification du
-  05/09). Réécriture à information constante : la mise à jour était déjà arrivée dans
-  `statut:` sans être répercutée dans `validite:`. **Corrigé.**
-
----
-
-## 3. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02`
-
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | PASS — vérifiée le 04/09 (veille de la revue), verif à jour |
-| Concordance interne | PASS |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS |
-| Sévérité | PASS — pas de dégradation |
-| Ton | PASS (champs publics) |
-| Source vivante | non re-testée (pas de recherche web sur ce passage) |
-
-- **Sévérité** : l'audit signale une source rouge datée du 21/08 (15 j). Vérifié : cette
-  source (ici.fr, 21/08, citant la préfecture de la Drôme) rapporte un arrêté préfectoral
-  officiel toujours en vigueur, sans échéance calendaire (la levée dépend d'une étude de
-  risque en cours), confirmé et daté précisément par une seconde source (mairie-die.fr,
-  28/08, citant le texte de l'arrêté et sa clause d'abrogation). C'est un acte
-  administratif en vigueur, pas une hypothèse « à confirmer »/« probable » : la règle des
-  14 jours ne se déclenche pas. **Aucune dégradation recommandée**, conforme à `statut:`.
-- **Observation, non corrigée** : le champ `itin:` porte depuis le 03/08 la mention que le
-  rattachement au GR®9/GR®93 est « affaibli », la FFRandonnée Drôme (source faisant
-  autorité) ne listant aucune modification d'itinéraire pour ce secteur et suggérant que
-  le sentier réellement concerné serait le GR®95 (hors périmètre du référentiel). Le
-  moteur de badges du site (`itin_badges`) extrait néanmoins « GR®9 » et « GR®93 » de ce
-  texte et les affiche comme itinéraires impactés, sans transmettre le doute au lecteur.
-  Trancher quel sigle badge afficher demande un jugement sur un point que la fiche
-  elle-même documente encore comme non confirmé : je le signale plutôt que de le corriger
-  d'autorité. **Recommandation à l'agent de veille** : au prochain passage sur cette zone,
-  soit confirmer/infirmer le rattachement GR®9/GR®93 (une recherche déjà tentée sans
-  succès trois fois), soit reformuler `itin:` sans citer GR®9/GR®93 tant que ce n'est pas
-  tranché, pour que les badges publics n'affichent pas des sentiers dont l'atteinte reste
-  douteuse.
-
----
-
-## 4. `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`
-
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | PASS — vérifiée le jour même (05/09) |
-| Concordance interne | FAIL mineur (écart d'un jour) → **corrigé** |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS |
-| Sévérité | PASS — pas de dégradation |
-| Ton | PASS |
-| Source vivante | FAIL sur une source déjà identifiée comme morte (voir ci-dessous) |
-
-- **Sévérité** : l'audit signale une source rouge datée du 24/08 (12 j). Vérifié :
-  `statut:` justifie explicitement le maintien HAUTE sur l'arrêté municipal du 15/08/2026,
-  toujours en vigueur (confirmé le 02/09 par une lecture directe de la page de la mairie
-  de L'Argentière-la-Bessée), pas sur une hypothèse non tranchée. La règle des 14 jours ne
-  s'applique pas ici. **Aucune dégradation recommandée.**
-- **Concordance interne** : « Portion concernée » se terminait sur « Vérifié à nouveau le
-  04/09/2026 » alors que `verif:` et `statut:` de cette même fiche portent la date du
-  05/09 (jour de la revérification qui a produit ce fichier). Écart d'un jour, réécriture
-  à information constante (le constat rapporté — aucun changement — reste identique).
-  **Corrigé.**
-- **Source vivante — à traiter au prochain run** : `statut:` note déjà que
-  `paysdesecrins.com/vigileance-feu-en-cours/`, citée deux fois en source, renvoie
-  désormais une erreur 404. C'est un FAIL de contrôle 7 sur une alerte rouge : le lecteur
-  ne peut plus vérifier ce point par lui-même. La veille l'a déjà identifié et propose
-  `cc-paysdesecrins.fr` en remplacement ; je ne peux pas retrouver ni valider une URL de
-  remplacement sans recherche web, donc je ne touche pas à la section Source. **Action
-  laissée à l'agent de veille** : remplacer la source mortes par une source vivante
-  équivalente au prochain passage sur cette zone.
-
----
-
-## 5. `incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`
-
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | FAIL — vérifiée il y a 13 j (seuil 12 j, MOYENNE) |
-| Concordance interne | PASS |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS (rien n'indique une réouverture ni une caducité) |
-| Sévérité | PASS |
-| Ton | PASS |
-| Source vivante | non testée (zone hors périmètre du jour) |
-
-- Zone hors cadence T2 aujourd'hui, donc non re-vérifiable par moi (pas de recherche
-  web). « Portion concernée », `statut:` et « Zone (détails) » racontent la même chose
-  (Panoramaweg et Rosi-Rotkehlchen-Weg fermés jusqu'à nouvel ordre, réouvertures
-  partielles du 31/07 déjà actées) : pas de décrochage, pas de jargon dans les champs
-  publics. **À traiter au prochain run** : revérifier `oppenau.de/…/wegsperrungen.html`
-  (et sa page « Aufhebung ») pour une éventuelle évolution depuis le 31/07/2026.
-
-## 6. `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`
-
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | FAIL — vérifiée il y a 14 j (seuil 12 j, MOYENNE) |
-| Concordance interne | PASS |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS |
-| Sévérité | PASS (dégradée à raison le 22/08, cohérente aujourd'hui) |
-| Ton | PASS |
-| Source vivante | non testée (zone hors périmètre du jour) |
-
-- Zone hors cadence du jour. Fiche interne cohérente : les 80 % rouverts et les parcelles
-  encore fermées sont décrits de façon identique dans `statut:`, « Portion concernée » et
-  « Alternative ». **À traiter au prochain run** : revérifier
-  `seine-et-marne.gouv.fr/Actualites/…` pour une actualisation du détail cartographique
-  des parcelles brûlées, resté non publié depuis le 22/08.
-
-## 7. `incendie|GR34-CapFrehel|fermeture-lande-fort-la-latte|2026-07-15`
-
-| Contrôle | Verdict |
-|---|---|
-| Fraîcheur | FAIL — vérifiée il y a 17 j (seuil 12 j, MOYENNE) |
-| Concordance interne | PASS |
-| Honnêteté sur ce qu'on ne sait pas | PASS |
-| Pertinence | PASS |
-| Sévérité | PASS |
-| Ton | PASS |
-| Source vivante | non testée (zone hors périmètre du jour) |
-
-- Zone hors cadence du jour, fiche récente (créée le 12/08, un seul passage depuis).
-  Cohérence interne correcte, rien à corriger. **À traiter au prochain run** :
-  revérifier la déviation FFRandonnée Côtes-d'Armor et l'arrêté municipal du 15/07/2026
-  (aucune échéance annoncée à ce stade — vérifier qu'il n'a pas été levé depuis).
-
----
+- **Fraîcheur** : Oppenau `verif: 2026-08-23` (14 jours), Fontainebleau `verif: 2026-08-22`
+  (15 jours) ; seuil 12 jours pour une sévérité MOYENNE. FAIL sur les deux, confirmé par
+  l'audit déterministe.
+- Le reste des contrôles est PASS : dans les deux fiches, « Portion concernée » correspond
+  exactement à `statut:` et « Zone (détails) », le texte dit clairement ce qui n'est pas
+  encore publié (détail cartographique fin pour Fontainebleau, absence de déviation balisée
+  pour Oppenau) plutôt que de le présenter comme tranché, aucune des deux ne s'appuie sur
+  « à confirmer »/« probable » dans la Portion concernée, aucun jargon de veille dans les
+  champs publics, sévérité MOYENNE cohérente avec des fermetures locales/partielles sans
+  blocage d'étape.
+- **Correction que j'aurais pu faire moi-même** : aucune trouvée. Rien à reformuler, aucune
+  « Portion concernée » décrochée de `statut:`/« Zone (détails) », pas de `validite:`
+  échue à réécrire d'après une source déjà citée.
+- **Ce qui manque relève d'une source nouvelle** (confirmer si la fermeture résiduelle est
+  toujours en vigueur ou levée) : hors de mon périmètre. Inscrit ci-dessous comme action
+  laissée à l'agent de veille ; ces deux zones entrent en escalade au prochain run qui les
+  couvre (Allemagne / Île-de-France).
 
 ## Corrections appliquées
 
-- `livrables/alertes/incendie--ariege-bordes-uchentein--gr10-ferme-esbintz-valier--2026-07-10.md` :
-  `validite:` recalé sur l'état du 05/09 (12 j de silence, au lieu de 6 j au 30/08).
-- `livrables/alertes/incendie--hautesalpes-boisnoir--gr54a-ferme-argentiere-freissinieres--2026-07-19.md` :
-  « Portion concernée » recalée du 04/09 au 05/09 (date de la revérification qui a produit
-  ce fichier).
+- `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19` : fusion
+  d'une phrase dupliquée dans `statut:` (champ interne, aucun fait modifié).
 
-## Actions laissées à l'agent de veille
+Après cette correction : `python3 site/build_site.py` → « OK (QA passée) » (79 actives, 30
+clôturées, 109 fichiers) ; `python3 site/audit_qualite.py` → 6 constats, **0 bloquant**
+(inchangé : la correction ne portait pas sur les critères de l'audit déterministe).
 
-1. `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19` —
-   remplacer la source `paysdesecrins.com/vigileance-feu-en-cours/` (404) par
-   `cc-paysdesecrins.fr` ou une source vivante équivalente.
-2. `incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28` —
-   revérifier avec une source fraîche (13 j sans nouvelle).
-3. `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12` —
-   revérifier avec une source fraîche (14 j sans nouvelle), en particulier le détail
-   cartographique des parcelles encore fermées.
-4. `incendie|GR34-CapFrehel|fermeture-lande-fort-la-latte|2026-07-15` — revérifier avec
-   une source fraîche (17 j sans nouvelle).
-5. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — trancher le rattachement au
-   GR®9/GR®93 (probablement GR®95) pour que les badges d'itinéraire publics reflètent
-   un fait confirmé plutôt qu'une hypothèse affaiblie depuis le 03/08.
+## Actions laissées à l'agent de veille (à traiter au prochain run)
 
-## Vérification finale
+1. **Malerweg** (`fermeture|DE-Sachsen-…|2026-08-01`) — retrouver une source postérieure au
+   01/09 sur le bas de l'Amselgrund/Ziegenrücken, ou confirmer explicitement qu'aucune n'est
+   parue. Pas de dégradation requise : la Portion concernée repose sur un fait (fermeture
+   active, chantier héliporté en cours), pas sur une hypothèse.
+2. **Ariège Esbintz-Valier** (`incendie|Ariege-Bordes-Uchentein|…`) — poursuivre la
+   recherche ciblée d'une 5e reconduction/levée de l'arrêté feu (13 jours de silence au
+   06/09) ; sans effet sur la sévérité HAUTE, déjà justifiée par la fermeture de terrain.
+3. **Drôme Justin** (`incendie|Drome-Justin-Die|…`) — même remarque : rechercher une mise à
+   jour de l'étude de risque ONF ou une date de levée ; sévérité HAUTE déjà justifiée par
+   l'arrêté du 21/08 en vigueur.
+4. **Bois Noir** (`incendie|HautesAlpes-BoisNoir|…`) — remplacer la source morte
+   `paysdesecrins.com/vigileance-feu-en-cours/` (404 confirmée) par `cc-paysdesecrins.fr` ou
+   une source équivalente pour le détail des parcours 22/23 ; rechercher aussi une mise à
+   jour sur la levée éventuelle de l'arrêté municipal du 15/08.
+5. **Schwarzwald-Oppenau** (`incendie|DE-Schwarzwald-Oppenau|…`) — FAIL fraîcheur (14 j,
+   seuil 12 j) : revérifier oppenau.de (pages « Wegsperrungen » et « Aufhebung
+   Wegsperrungen ») pour confirmer le maintien ou la levée de la fermeture du Panoramaweg et
+   du Rosi-Rotkehlchen-Weg.
+6. **Fontainebleau** (`incendie|FR-IDF-Fontainebleau|…`) — FAIL fraîcheur (15 j, seuil 12 j) :
+   revérifier seine-et-marne.gouv.fr pour le détail cartographique des parcelles encore
+   fermées et leur recoupement avec les GR® (GR®1/2/3/11/13/655), toujours non publié au
+   22/08.
 
-- `python3 site/build_site.py` → `OK (QA passée)` (80 actives, 29 clôturées, 48 digests ;
-  registre 666145 car. / 109 fichiers).
-- `python3 site/audit_qualite.py` → 0 bloquant, 7 alerte(s) (inchangé en nombre : les 7
-  constats sont soit des faux positifs documentés ci-dessus, soit des dégradations
-  couvertes par l'exception de la règle des 14 jours, soit des zones hors cadence dont la
-  fraîcheur ne peut être rétablie que par une nouvelle recherche — donc non « corrigibles »
-  au sens de ce rôle). Aucun nouveau bloquant introduit par les corrections appliquées.
+Aucune suppression, aucune clôture et aucune dégradation de sévérité appliquée : les 6
+fiches restent ACTIVES, les 4 alertes rouges restent HAUTE (justifiées par un fait établi,
+pas par une hypothèse non tranchée), les 2 alertes orange restent MOYENNE.

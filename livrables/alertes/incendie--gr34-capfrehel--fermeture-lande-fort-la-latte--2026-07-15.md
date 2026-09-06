@@ -6,11 +6,11 @@ sev: MOYENNE
 validite: jusqu'à nouvel ordre ; fermeture par arrêté municipal depuis le 15/07/2026, le
   temps que la végétation se régénère, aucune échéance de levée annoncée
 detection: 2026-08-12
-verif: 2026-08-19
-statut: ACTIF — NOUVEAU. Incendie du 12-13/07/2026 (deux départs distincts, Cap Fréhel et
-  Fort La Latte), éteint le 16/07. Arrêté municipal du 15/07 interdit toujours l'accès à
-  la portion brûlée du GR®34 un mois plus tard. Détection tardive de cette veille (un mois
-  après les faits) : événement absent du registre jusqu'à ce run.
+verif: 2026-09-06
+statut: ACTIF — INCHANGÉ 06/09 : nouvelle recherche, aucune annonce de réouverture
+  retrouvée. La fermeture reste justifiée par la régénération de la végétation, sans
+  échéance annoncée ; la reprise des travaux de sécurisation est évoquée après la saison
+  touristique, sans date fixée.
 ordre: 109
 ---
 
