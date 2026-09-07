@@ -5,11 +5,9 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-09-05
-statut: ACTIF — CHANGÉ 05/09 : lecture intégrale de mercantour-parcnational.fr (page toujours
-  datée du 22/08/2026) fait apparaître un secteur supplémentaire jamais repris jusqu'ici dans
-  cette fiche : le sentier des Barels depuis Bouchanières (Guillaumes), fermé entre les
-  balises 152 et 155. Aucun changement de fond par ailleurs.
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : page relue en direct, toujours datée du 22/08/2026, aucun
+  changement de fond depuis le dernier passage.
 ordre: 13
 ---
 

@@ -6,12 +6,13 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-09-06
-statut: ACTIF — INCHANGÉ 06/09 : recoupement indirect via la presse (titrespresse.com) :
-  la fermeture perdure au point d'empêcher l'accès des chasseurs au massif de
-  Justin/Claps à l'ouverture de la chasse générale prévue le 13/09 dans la Drôme,
-  cohérent avec l'arrêté du 21/08 sans échéance calendaire. Sévérité maintenue HAUTE.
-  Rattachement GR®9/GR®93 toujours affaibli depuis le 03/08 (probable GR®95).
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : confirmation recoupée (titrespresse.com, article publié
+  vers le 03/09) : la fermeture des massifs du Claps et de Justin empêche l'accès des
+  chasseurs à l'ouverture de la chasse générale prévue le 13/09 dans la Drôme, le
+  président de la fédération de chasse jugeant la mesure compréhensible ; cohérent avec
+  l'arrêté du 21/08 sans échéance calendaire. Sévérité maintenue HAUTE. Rattachement
+  GR®9/GR®93 toujours affaibli depuis le 03/08 (probable GR®95).
 ordre: 31
 ---
 
@@ -55,6 +56,8 @@ MAJ 25/08 : un troisième arrêté préfectoral, daté du 21/08/2026, est retrou
 
 MAJ 28/08 : mairie-die.fr (article « Accès interdit aux forêts de Justin, Laup et Solaure ») précise le texte exact de l'arrêté du 21/08/2026 : il « abroge le précédent arrêté du 24 juillet 2026 relatif à la réglementation de l'accès aux espaces exposés aux risques d'incendie de forêt ». Cette clarification corrige la date de l'arrêté intermédiaire, jusqu'ici connue uniquement via drome-cestmanature.com qui la datait du 17/07/2026 : la source officielle relayée par la mairie situe cet arrêté intermédiaire au 24/07/2026. L'arrêté du 21/08 ne fixe toujours aucune échéance calendaire, seulement la fin des opérations d'étude et de sécurisation. drome.gouv.fr, revuérifié, reste daté du 16/07/2026 sans mise à jour.
 
+MAJ 07/09 : nouvelle confirmation indirecte, via un article titrespresse.com daté d'environ début septembre (« La chasse interdite sur le massif de Justin, une décision comprise par la fédération de chasse ») : l'ouverture générale de la chasse dans la Drôme, fixée au 13/09/2026, exclut explicitement les massifs du Claps et de Justin, touchés par les incendies de l'été. Le président de la fédération départementale de chasse dit comprendre cette restriction. C'est une confirmation datée récente que la fermeture reste effective, cohérente avec l'arrêté du 21/08 (sans échéance calendaire). Aucune autre source plus directe (drome.gouv.fr, RAA) n'a produit de texte plus récent.
+
 ## Source
 
-[mairie-die.fr, Accès interdit aux forêts de Justin, Laup et Solaure-en-Diois (arrêté du 21/08/2026 abrogeant celui du 24/07/2026)](https://www.mairie-die.fr/acces-interdit-forets-justin-laup-solaure/) ; [drome.ffrandonnee.fr, Modifications d'itinéraires (aucune entrée Justin/Solaure/Laup)](https://drome.ffrandonnee.fr/) ; [info.fr, 22/07/2026 11h28, Die : reprise de feu locale, situation maîtrisée, accès massif toujours interdit](https://info.fr/die-reprise-feu-locale-maitrisee-massif-justin-2026-07/) ; [drome.gouv.fr, Point de situation / plan de relance](https://www.drome.gouv.fr/Actualites/Actualites-2026/Point-de-situation-sur-le-feu-dans-le-massif-de-Justin-a-Die) (MAJ 16/07/2026) ; [mairie-die.fr, accès interdit au massif de Justin](https://www.mairie-die.fr/acces-interdit-au-massif-de-justin/) (photos datées 20/07/2026) ; [drome-cestmanature.com, fiche Justin, MAJ 12/08/2026 (arrêté préfectoral du 17/07/2026, massifs de Justin, Laup et Solaure)](https://www.drome-cestmanature.com/fiches/8-justin/) ; [ici.fr, 21/08/2026 15h40, chutes de pierres/d'arbres après l'incendie de Die, la préfecture de la Drôme interdit l'accès à plusieurs massifs](https://www.ici.fr/auvergne-rhone-alpes/drome-26/bellegarde-en-diois/chutes-de-pierres-d-arbres-apres-l-incendie-de-die-la-prefecture-de-la-drome-interdit-l-acces-a-plusieurs-massifs-2810093)
+[mairie-die.fr, Accès interdit aux forêts de Justin, Laup et Solaure-en-Diois (arrêté du 21/08/2026 abrogeant celui du 24/07/2026)](https://www.mairie-die.fr/acces-interdit-forets-justin-laup-solaure/) ; [drome.ffrandonnee.fr, Modifications d'itinéraires (aucune entrée Justin/Solaure/Laup)](https://drome.ffrandonnee.fr/) ; [info.fr, 22/07/2026 11h28, Die : reprise de feu locale, situation maîtrisée, accès massif toujours interdit](https://info.fr/die-reprise-feu-locale-maitrisee-massif-justin-2026-07/) ; [drome.gouv.fr, Point de situation / plan de relance](https://www.drome.gouv.fr/Actualites/Actualites-2026/Point-de-situation-sur-le-feu-dans-le-massif-de-Justin-a-Die) (MAJ 16/07/2026) ; [mairie-die.fr, accès interdit au massif de Justin](https://www.mairie-die.fr/acces-interdit-au-massif-de-justin/) (photos datées 20/07/2026) ; [drome-cestmanature.com, fiche Justin, MAJ 12/08/2026 (arrêté préfectoral du 17/07/2026, massifs de Justin, Laup et Solaure)](https://www.drome-cestmanature.com/fiches/8-justin/) ; [ici.fr, 21/08/2026 15h40, chutes de pierres/d'arbres après l'incendie de Die, la préfecture de la Drôme interdit l'accès à plusieurs massifs](https://www.ici.fr/auvergne-rhone-alpes/drome-26/bellegarde-en-diois/chutes-de-pierres-d-arbres-apres-l-incendie-de-die-la-prefecture-de-la-drome-interdit-l-acces-a-plusieurs-massifs-2810093) ; [titrespresse.com, la chasse interdite sur le massif de Justin, une décision comprise par la fédération de chasse](https://www.titrespresse.com/19932992603/justin-drome-claps)
