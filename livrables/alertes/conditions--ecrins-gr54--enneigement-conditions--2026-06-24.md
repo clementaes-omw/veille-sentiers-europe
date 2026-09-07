@@ -5,12 +5,10 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-09-05
-statut: ACTIF — INCHANGÉ 03/09 : aucune nouvelle recherche dédiée ce jour au-delà du suivi
-  de la fiche `incendie|HautesAlpes-BoisNoir|…` (même massif) ; la page du parc restait
-  encore datée du 24 juin 2026 au dernier passage direct (02/09), 71 jours sans mise à jour,
-  46 jours depuis la fermeture du GR®54A. Contradiction non résolue, sévérité maintenue
-  MOYENNE sur ce point.
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : page relue en direct, toujours datée du 24 juin 2026,
+  75 jours sans mise à jour, 50 jours depuis la fermeture du GR®54A. Contradiction non
+  résolue, sévérité maintenue MOYENNE sur ce point.
 ordre: 12
 ---
 
@@ -47,6 +45,8 @@ MAJ 15/08 : toujours aucun changement (52 jours sans mise à jour, 27 jours depu
 MAJ 27/08 : toujours aucun changement (64 jours sans mise à jour, 39 jours depuis la fermeture du GR®54A). La page recommande toujours explicitement la variante du GR®54A via le col de la Pousterle et le vallon du Fournel, sans aucune mention de l'incendie ni de la fermeture.
 
 MAJ 02/09 : toujours aucun changement (70 jours sans mise à jour, 45 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A via le col de la Pousterle, sans mention de l'incendie ni de la fermeture.
+
+MAJ 07/09 : toujours aucun changement (75 jours sans mise à jour, 50 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A, sans mention de l'incendie ni de la fermeture.
 
 ## Source
 

@@ -3,7 +3,7 @@ cle: fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10
 type: fermeture / risque géologique
 itin: Aucun P1 confirmé ; via ferrata locale (secteur Alpi Giulie, CAI FVG), hors tracé de l'Alpe-Adria-Trail et du Sentiero Italia CAI dans leur passage régional connu
 sev: MOYENNE (source unique à ce jour : il Dolomiti + relais CAI)
-validite: fermée depuis le 04/09/2026, aucune échéance de réouverture annoncée
+validite: fermée depuis le 04/09/2026, jusqu'à nouvel ordre : le CAI n'annonce aucune échéance de réouverture
 detection: 2026-09-05
 verif: 2026-09-05
 statut: ACTIF — NOUVEAU
