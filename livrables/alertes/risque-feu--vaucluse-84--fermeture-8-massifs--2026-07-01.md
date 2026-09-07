@@ -5,17 +5,11 @@ itin: GR®9 (Dentelles de Montmirail) — statut non tranché depuis le 18/08 ; 
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien, publication reprise le 02/09 après 16 jours de silence ; un seul massif nommé pour le 03/09/2026, la Vallée du Rhône
 detection: 2026-07-18
-verif: 2026-09-06
-statut: ACTIF — INCHANGÉ 06/09 : listing complet des communiqués de septembre relu en
-  direct sur vaucluse.gouv.fr, toujours un seul communiqué (celui du 02/09 pour le 03/09),
-  rien de postérieur trouvé. MAJ 04/09 : la préfecture a repris la publication de communiqués
-  officiels quotidiens (vaucluse.gouv.fr, communiqué du 02/09 pour le 03/09), après 16 jours
-  de silence depuis le 18/08. Le nouveau format ne nomme plus qu'un seul massif interdit, la
-  Vallée du Rhône, contre 11 à 13 dans les précédents communiqués groupés. Les dix autres
-  massifs de la liste du 18/08 n'y figurent plus, mais cette absence n'est pas traitée comme
-  une levée officielle en l'absence d'un texte explicite de réouverture. Un feu (deux
-  départs, Sorgues) a par ailleurs touché ce même secteur de la Vallée du Rhône le 03/09,
-  éteint le jour même. Sévérité maintenue HAUTE (source officielle datée, fermeture active).
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : listing complet des communiqués de septembre relu en
+  direct sur vaucluse.gouv.fr, toujours un seul communiqué massifs (celui du 02/09 pour le
+  03/09, Vallée du Rhône), rien de postérieur trouvé. Sévérité maintenue HAUTE (source
+  officielle datée, fermeture active).
 ordre: 33
 ---
 
