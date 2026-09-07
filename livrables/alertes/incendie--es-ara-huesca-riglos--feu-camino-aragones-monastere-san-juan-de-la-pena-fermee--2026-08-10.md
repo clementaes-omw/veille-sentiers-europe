@@ -7,15 +7,15 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
 sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalité des évacués sont rentrés)
 validite: incendie déclaré CONTRÔLÉ le 21/08/2026 à 15h30 ; tous les évacués sont rentrés, y compris les 74 derniers habitants de Santa Cruz de la Serós ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) reste réglementée jusqu'au 15/09/2026 au moins, pour finir les opérations de sécurisation
 detection: 2026-08-17
-verif: 2026-09-03
-statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche ciblée (Infobae, El Español, ultimahora.es,
-  tecnobosque.es, cope.es) ne retrouve aucune évolution postérieure au 21/08. Seule nouveauté
-  trouvée : l'annonce d'une réouverture de l'hospedería du monastère après 3,2 M€ de travaux,
-  projet distinct et sans rapport avec l'incendie ou la route A-1603. Celle-ci reste
-  réglementée jusqu'au 15/09/2026 au moins ; le statut du monastère au public et celui du
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : nouvelle recherche ciblée, aucune évolution postérieure au
+  21/08 retrouvée. Le calendrier de fin des travaux de sécurisation de la route A-1603 (au
+  moins jusqu'au 15/09/2026) est reconfirmé par une source distincte (ondaaragonesa.com,
+  20/08), qui précise que l'A-1205 nécessite les mêmes travaux de dégagement des arbres
+  fragilisés par le feu avant réouverture. Le statut du monastère au public et celui du
   Camino Aragónés lui-même restent non tranchés par les sources consultées. Sévérité
-  maintenue MOYENNE. Précédent point : INCHANGÉ 31/08 (mapasdeincendios.es, aucun incident
-  recensé à Riglos).
+  maintenue MOYENNE. Précédent point : INCHANGÉ 03/09 (Infobae, El Español, ultimahora.es,
+  tecnobosque.es, cope.es, aucune évolution).
 ordre: 170
 ---
 
