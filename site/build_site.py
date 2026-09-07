@@ -598,7 +598,7 @@ ALIAS_ZONE = {
     "Ariege-Bordes-Uchentein": "FR-PYR-O", "HautesPyrenees-Bareges": "FR-PYR-O",
     "Aspe-64-Chemin-Mature": "FR-PYR-O", "GR10-Luchon-Superbagnères": "FR-PYR-O",
     "Ariege-Saurat": "FR-PYR-O", "HautesPyrenees-65": "FR-PYR-O",
-    "HauteGaronne-31": "FR-PYR-O",
+    "HauteGaronne-31": "FR-PYR-O", "Pyrenees-Atlantiques-Etsaut": "FR-PYR-O",
     "ES-ARA-Huesca-Riglos": "ES-NAV-RIO-ARA",
     # Ouest / Nord
     "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
