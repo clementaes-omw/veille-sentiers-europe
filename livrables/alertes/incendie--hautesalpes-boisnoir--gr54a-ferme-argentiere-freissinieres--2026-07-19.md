@@ -9,14 +9,17 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-06
-statut: ACTIF — INCHANGÉ 06/09 : ville-argentiere.fr relue en direct, toujours l'arrêté
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : ville-argentiere.fr relue en direct, toujours l'arrêté
   municipal du 15/08/2026 sans date de levée annoncée ; ecrins-parcnational.fr toujours
   daté du 28/07. Aucune source ne signale d'allègement ni de réouverture du GR®54A depuis
   le 24/08. La règle des 14 jours ne s'applique pas ici (acte officiel en vigueur, pas une
-  hypothèse). Source à corriger : paysdesecrins.com/vigileance-feu-en-cours/ renvoie
-  désormais une erreur 404, à remplacer par cc-paysdesecrins.fr ou une source
-  équivalente au prochain passage.
+  hypothèse). Recherche de remplacement pour paysdesecrins.com/vigileance-feu-en-cours/
+  (toujours 404) : cc-paysdesecrins.fr/actualites/665-ndonnee retrouvée mais datée du
+  20/07/2026 (antérieure à ce qu'on sait déjà, sans détail par numéro de parcours) ;
+  paysdesecrins.com/etat-des-sentiers/ existe mais ne mentionne pas du tout le Bois Noir ni
+  les parcours fermés, donc pas exploitable comme remplacement. ville-argentiere.fr reste
+  la seule source à jour sur la base réglementaire de la fermeture.
 ordre: 41
 ---
 
@@ -67,6 +70,8 @@ MAJ 27/08 : paysdesecrins.com mis à jour le 24/08/2026 nomme pour la première 
 MAJ 02/09 : nouvelle source consultée sur la base réglementaire de la fermeture, au-delà de la seule mention relayée par paysdesecrins.com. La page dédiée de la mairie de L'Argentière-la-Bessée (ville-argentiere.fr/feu-bois-noir-informations), consultée directement, confirme que l'arrêté municipal du 15/08/2026 est toujours en vigueur et le présente comme « une mesure de protection des usagers en attendant de recevoir l'ensemble des avis des autorités compétentes en vue d'une réouverture » : la procédure administrative vers une levée est engagée mais non aboutie, sans date annoncée. Cette page ne détaille pas l'état des parcours numérotés ni du GR®54A. Fond inchangé par ailleurs : cœur de massif (parcours 2/6/7/14/15, KV Freiss, via ferrata Grande Falaise) toujours fermé, parcours 22/23 et côte de Pallon toujours rouverts depuis le 20/08.
 
 MAJ 05/09 : la page de l'Office de tourisme du Pays des Écrins jusqu'ici citée pour le détail des parcours, paysdesecrins.com/vigileance-feu-en-cours/, renvoie désormais une erreur 404. Recherche de remplacement : cc-paysdesecrins.fr consultée directement (actualité la plus récente datée du 20/07, sans mise à jour sur le Bois Noir), les deux pages du Parc national des Écrins toujours datées du 28/07. Fond inchangé : l'arrêté municipal du 15/08/2026 reste en vigueur, aucune date de réouverture annoncée.
+
+MAJ 07/09 : paysdesecrins.com/vigileance-feu-en-cours/ toujours en erreur 404. Deux pistes de remplacement testées sans succès : cc-paysdesecrins.fr/actualites/665-ndonnee (« Fermeture des sentiers de randonnée, liaison Freissinières/L'Argentière-La Bessée ») est datée du 20/07/2026, antérieure aux informations déjà connues et sans détail par numéro de parcours ; paysdesecrins.com/etat-des-sentiers/, page générale sur l'état des sentiers du secteur, ne mentionne ni le Bois Noir ni les parcours fermés (elle se limite au GR®54, au Tour du Pays des Écrins et à deux autres itinéraires, sans évoquer la fermeture en cours) : son silence ne vaut pas levée de la fermeture, il signale seulement qu'elle ne traite pas ce sujet. ville-argentiere.fr, relue en direct, confirme l'arrêté municipal du 15/08/2026 toujours en vigueur, sans date de levée. ecrins-parcnational.fr toujours daté du 28/07, GR®54A toujours donné fermé.
 
 ## Source
 
