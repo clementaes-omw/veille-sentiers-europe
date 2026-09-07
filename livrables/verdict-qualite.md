@@ -58,7 +58,7 @@ Détail :
   qui m'incombe : reste en actions laissées à l'agent de veille, sans effet sur la sévérité.
 - **Honnêteté** : les 4 fiches disent explicitement au lecteur ce qui n'est pas publié
   (« aucune 5e reconduction ni levée publiée à ce jour », « aucune date de levée n'est
-  communiquée », etc.) plutôt que de le présenter comme tranchée. PASS.
+  communiquée », etc.) plutôt que de le présenter comme tranché. PASS.
 - **Source vivante (contrôle 7)** : vérifiée en direct par fetch des 4 sources qui portent le
   fait central de chaque fiche — toutes répondent et confirment le texte de la fiche :
   `nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung` (Amselsee/Amselgrund
@@ -133,15 +133,15 @@ des groupes A et C restent volontairement affichés, voir ci-dessus).
    Ziegenrücken, ou confirmer explicitement qu'aucune n'est parue. Sans effet sur la
    sévérité HAUTE (fait établi, pas hypothèse).
 2. **Creta-Samaria** — FAIL fraîcheur (3 j, seuil 2 j, restriction décidée au jour le jour) :
-   revuérifier samaria.gr et crete.gov.gr pour le statut du jour.
+   revérifier samaria.gr et crete.gov.gr pour le statut du jour.
 3. **Ariège Esbintz-Valier** — poursuivre la recherche ciblée d'une 5e reconduction ou d'une
    levée de l'arrêté feu (14 j de silence au 07/09) ; sans effet sur la sévérité HAUTE, déjà
    justifiée par la fermeture de terrain (chutes de pierres).
-4. **Schwarzwald-Oppenau** — FAIL fraîcheur (15 j, seuil 12 j) : revuérifier oppenau.de
+4. **Schwarzwald-Oppenau** — FAIL fraîcheur (15 j, seuil 12 j) : revérifier oppenau.de
    (« Wegsperrungen » et « Aufhebung Wegsperrungen ») pour confirmer maintien ou levée.
 5. **Drôme Justin** — rechercher une mise à jour de l'étude de risque ONF ou une date de
    levée ; sévérité HAUTE déjà justifiée par l'arrêté du 21/08 en vigueur.
-6. **Fontainebleau** — FAIL fraîcheur (16 j, seuil 12 j) : revuérifier seine-et-marne.gouv.fr
+6. **Fontainebleau** — FAIL fraîcheur (16 j, seuil 12 j) : revérifier seine-et-marne.gouv.fr
    pour le détail cartographique des parcelles encore fermées et leur recoupement GR®.
 7. **Bois Noir** — remplacer si possible la source `paysdesecrins.com/vigileance-feu-en-cours/`
    (toujours 404 au 07/09, deux pistes de remplacement testées sans succès par la veille) ;
