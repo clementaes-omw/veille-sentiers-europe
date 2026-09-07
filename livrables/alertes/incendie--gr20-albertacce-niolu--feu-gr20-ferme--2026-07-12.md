@@ -5,8 +5,8 @@ itin: **GR®20 FERMÉ : Ciottulu di i Mori ↔ Asco + Tighjettu ↔ bergeries de
 sev: HAUTE
 validite: [CLÔTURÉ] rouvert depuis le 30/07/2026 selon le PNRC, incendie désormais maîtrisé
 detection: 2026-07-15 (feu du 12/07)
-verif: 2026-09-03
-statut: [CLÔTURÉ] (2026-08-01) — INCHANGÉ 03/09 : aucune source ne signale de nouvelle reprise
+verif: 2026-09-07
+statut: [CLÔTURÉ] (2026-08-01) — INCHANGÉ 07/09 : aucune source ne signale de nouvelle reprise
   sur Albertacce/Niolu. MAJ 03/09 : un feu distinct s'est déclaré le 01/09 à Venaco (secteur
   Corte, ~20 ha, tête de feu stoppée le soir même par un largage de retardant, deux
   randonneuses évacuées par hélicoptère depuis un secteur surplombant la zone) ; aucune source
