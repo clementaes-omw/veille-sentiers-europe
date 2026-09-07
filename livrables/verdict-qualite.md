@@ -86,7 +86,7 @@ Détail :
   connue de `site/build_site.py`, hors de mon périmètre de correction), ce qui coupait la
   phrase juste avant la date du 06/09 et faisait lire le 04/09 comme la seule échéance,
   passée. Fusionné sur une seule ligne, à information constante (la fiche a déjà été
-  revuérifiée aujourd'hui même par l'agent de veille) : « foyer des Vans contenu depuis le
+  revérifiée aujourd'hui même par l'agent de veille) : « foyer des Vans contenu depuis le
   04/09 mi-journée ; foyer de Malbosc actif mais en nette amélioration au 06/09/2026
   (110 pompiers contre 250 au pic, camping du Moulin de Gournier rouvert) ; aucune date de
   fixation ni d'extinction confirmée à ce jour. » Je n'ai PAS clôturé l'alerte : le foyer de
