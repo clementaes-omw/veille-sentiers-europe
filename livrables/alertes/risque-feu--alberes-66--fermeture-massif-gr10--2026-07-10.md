@@ -5,16 +5,10 @@ itin: GR®10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-
 sev: MOYENNE (dégradée HAUTE→MOYENNE le 05/09 : l'interdiction totale d'Argelès-sur-Mer est levée)
 validite: Argelès-sur-Mer : arrêté ARR2026-024PM levé le 03/09/2026 ; Sorède : arrêté n°26.216 du 17/06/2026, accès piétons/vélos musculaires maintenu jusqu'au 13/09/2026 (véhicules à moteur interdits, marche à pied non concernée) ; Cerbère et Villelongue-dels-Monts non tranchés à ce jour
 detection: 2026-07-20
-verif: 2026-09-06
-statut: ACTIF — INCHANGÉ 06/09 : confirmation croisée (titrespresse.com, 04/09) de la
-  levée d'Argelès-sur-Mer, sans élément nouveau. Cerbère et Villelongue-dels-Monts
-  toujours sans source. MAJ 05/09 : le signal du 04/09 est confirmé et daté. actu.fr
-  (Margaux Masson, publié 04/09 06h08, MAJ 09h22, vérifié par double fetch indépendant)
-  précise que la municipalité d'Argelès-sur-Mer a levé le 03/09/2026 l'arrêté
-  ARR2026-024PM en vigueur depuis le 10/07 : la Tour de la Massane redevient accessible.
-  Le risque incendie reste qualifié d'important par la même source. Sorède maintient son
-  régime propre jusqu'au 13/09/2026, sans restriction pour la marche à pied. Dégradation
-  HAUTE→MOYENNE : le facteur bloquant (interdiction piétonne totale à Argelès) est levé.
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : nouvelle recherche, rien de postérieur au 04/09 trouvé
+  sur la levée d'Argelès-sur-Mer. Cerbère et Villelongue-dels-Monts toujours sans source.
+  Sorède maintient son régime propre jusqu'au 13/09/2026. Sévérité maintenue MOYENNE.
 ordre: 35
 ---
 
