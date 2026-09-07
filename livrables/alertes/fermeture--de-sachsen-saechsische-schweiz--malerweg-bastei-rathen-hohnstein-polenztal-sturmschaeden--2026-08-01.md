@@ -11,13 +11,17 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-06
-statut: ACTIF — INCHANGÉ 06/09 : re-vérification complète (aktuelles, eilmeldung, FAQ),
-  aucune source postérieure au 01/09 sur le périmètre fermé. La page aktuelles porte un
-  ajout daté du 04/09/2026 (niveau d'eau bas, sans rapport avec les sentiers), preuve
-  qu'elle reste activement tenue à jour. L'Amselsee reste rouvert, le bas de l'Amselgrund
-  (Rathen↔Schwedenlöcher) reste fermé, le chantier héliporté du Gamrig/Rathener Straße
-  reste en cours jusqu'au ~18/09.
+verif: 2026-09-07
+statut: ACTIF — INCHANGÉ 07/09 : re-vérification complète (aktuelles, eilmeldung, FAQ,
+  page landratsamt-pirna.de déjà écartée comme événement 2024), aucune source postérieure
+  au 01/09 sur le périmètre fermé. La page aktuelles reste datée du 26/08/2026 10h15 pour
+  Rathen (dernier ajout le 04/09 sur le niveau d'eau bas, sans rapport avec les sentiers).
+  L'Amselsee reste rouvert, le bas de l'Amselgrund (Rathen↔Schwedenlöcher) reste fermé, le
+  chantier héliporté du Gamrig/Rathener Straße reste en cours jusqu'au ~18/09. La sévérité
+  HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf Widerruf),
+  fermeture de fait sourcée indépendamment de toute échéance à renouveler, pas sur une
+  hypothèse « à confirmer » : la règle des 14 jours sur les hypothèses non tranchées ne
+  s'applique donc pas ici, malgré l'ancienneté relative (12 j) de la dernière page datée.
 ordre: 99
 ---
 
