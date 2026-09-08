@@ -5,8 +5,8 @@ itin: GR®36 (traversée des Corbières) ; GR®367 Sentier Cathare (Corbières) 
 sev: MOYENNE
 validite: aucune restriction en vigueur : feu fixé dès le soir du départ, situation stable depuis lors, aucun arrêté d'interdiction d'accès ni fermeture de sentier publié à ce jour
 detection: 2026-08-13
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : nouvelle recherche, toujours aucune source postérieure au
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche, toujours aucune source postérieure au
   07/08 (ni reprise ni annonce d'extinction explicite). Toujours aucun arrêté d'interdiction
   d'accès ni de fermeture de sentier documenté au-delà des routes départementales déjà
   citées.

@@ -5,11 +5,10 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-07
-statut: ACTIF — CHANGÉ 07/09 : la liste nominative des 8 secteurs orange du 05/09 est enfin
-  trouvée (infoccitanie.fr, 05/09 09h22), ce qui manquait depuis plusieurs mises à jour ;
-  aucune carte postérieure au 05/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité
-  maintenue MOYENNE.
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche (compte @Prefet34, presse), aucune carte
+  postérieure au 05/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue
+  MOYENNE.
 ordre: 18
 ---
 

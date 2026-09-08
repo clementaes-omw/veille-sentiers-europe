@@ -6,8 +6,8 @@ sev: MOYENNE ([HYPOTHÈSE] source unique, non officielle gouv.fr, mais arrêté 
   nommément numéroté)
 validite: arrêté municipal n°10-2026, prolongé par le n°12-2026 jusqu'au 31/08/2026 inclus (échéance atteinte, aucune reconduction trouvée à ce jour) ; par ailleurs, un régime préfectoral distinct (arrêté DDT-SEF-2026-0176 du 04/06/2026) réévalue chaque soir pour le lendemain le risque incendie sur les forêts de Saoû et le plateau d'Ambel jusqu'au 15/09/2026, indépendamment du sort de l'arrêté municipal
 detection: 2026-08-17
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : nouvelle recherche, rien de neuf sur une éventuelle
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche, rien de neuf sur une éventuelle
   reconduction de l'arrêté municipal n°12-2026 (échu le 31/08). L'arrêté préfectoral
   DDT-SEF-2026-0176, qui réévalue chaque soir le risque incendie sur la forêt de Saoû et le
   plateau d'Ambel jusqu'au 15/09/2026, reste le régime de référence pour ce secteur.

@@ -5,10 +5,16 @@ itin: TMB (variante suisse Champex/Orsières, Val Ferret) ; [HYPOTHÈSE] tronço
 sev: MOYENNE
 validite: 11/07/2026 → 07/07/2027
 detection: 2026-07-17
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : CSV officiel data.geo.admin.ch revérifié, entrée toujours
-  présente (segment 6.35, id 2599515, validité 11.07.2026-07.07.2027 inchangée) ; déviation
-  toujours balisée et opérationnelle (Prayon↔Branche via rive droite de la Dranse de Ferret).
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revérifié, entrée toujours
+  présente (segment 6.35, id 2599515, validité 11.07.2026-07.07.2027, change_date 08/07/2026
+  inchangée) ; déviation toujours balisée et opérationnelle (Prayon↔Branche via rive droite
+  de la Dranse de Ferret). Une synthèse de presse (Le Nouvelliste, non datée avec certitude)
+  évoque un tronçon TMB « Prayon-Saleinaz » rouvert après le coup de sang du 24/08 dans le
+  val Ferret : cela concerne vraisemblablement un tronçon distinct de celui-ci (voir la
+  nouvelle fiche `fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29`),
+  le flux officiel ne montrant aucun changement sur ce segment précis depuis le 08/07. À
+  reconfirmer au prochain passage CH-VALAIS-VAUD.
 ordre: 26
 ---
 

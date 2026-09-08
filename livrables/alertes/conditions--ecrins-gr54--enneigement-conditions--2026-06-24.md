@@ -5,9 +5,9 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : page relue en direct, toujours datée du 24 juin 2026,
-  75 jours sans mise à jour, 50 jours depuis la fermeture du GR®54A. Contradiction non
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : page relue en direct, toujours datée du 24 juin 2026,
+  76 jours sans mise à jour, 51 jours depuis la fermeture du GR®54A. Contradiction non
   résolue, sévérité maintenue MOYENNE sur ce point.
 ordre: 12
 ---
@@ -47,6 +47,8 @@ MAJ 27/08 : toujours aucun changement (64 jours sans mise à jour, 39 jours depu
 MAJ 02/09 : toujours aucun changement (70 jours sans mise à jour, 45 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A via le col de la Pousterle, sans mention de l'incendie ni de la fermeture.
 
 MAJ 07/09 : toujours aucun changement (75 jours sans mise à jour, 50 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A, sans mention de l'incendie ni de la fermeture.
+
+MAJ 08/09 : toujours aucun changement (76 jours sans mise à jour, 51 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A via le col de la Pousterle, le vallon du Fournel et le pas de la Cavale, sans mention de l'incendie ni de la fermeture.
 
 ## Source
 

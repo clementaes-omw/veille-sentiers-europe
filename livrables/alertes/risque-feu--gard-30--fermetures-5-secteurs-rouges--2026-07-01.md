@@ -10,9 +10,9 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en rouge),
   signifie qu'aucun secteur n'est classé rouge depuis le 03/09/2026
 detection: 2026-07-04
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : gard.gouv.fr relu en direct, toujours aucune page de
-  classement postérieure au 03/09/2026. Aucun secteur classé rouge depuis 4 jours, selon la
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : gard.gouv.fr relu en direct, toujours aucune page de
+  classement postérieure au 03/09/2026. Aucun secteur classé rouge depuis 5 jours, selon la
   même convention de publication. Sévérité maintenue MOYENNE.
 ordre: 15
 ---
