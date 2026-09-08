@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: 03/07/2024 → jusqu'à nouvel ordre (échéance administrative au 28/07/2027)
 detection: 2026-08-11
 verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revuérifié, entrée id
+statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revérifié, entrée id
   2596502 inchangée (segment 27.3, échéance administrative 28/07/2027, change_date toujours
   18/08/2026, contenu inchangé). Toujours aucune couverture presse trouvée.
 ordre: 106

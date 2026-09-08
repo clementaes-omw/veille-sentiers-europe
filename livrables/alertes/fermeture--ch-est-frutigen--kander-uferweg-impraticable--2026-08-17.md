@@ -7,7 +7,7 @@ validite: 17/08/2026 → 21/09/2026 (échéance prolongée d'une semaine le 07/0
   14/09/2026 aux deux vérifications précédentes)
 detection: 2026-08-18
 verif: 2026-09-08
-statut: ACTIF — CHANGÉ 08/09 : CSV officiel data.geo.admin.ch revuérifié, entrée id
+statut: ACTIF — CHANGÉ 08/09 : CSV officiel data.geo.admin.ch revérifié, entrée id
   2600749 modifiée le 07/09/2026 (change_date), échéance repoussée du 14/09 au
   21/09/2026, sans changement de motif ni de tracé. Toujours aucune couverture presse
   trouvée.
