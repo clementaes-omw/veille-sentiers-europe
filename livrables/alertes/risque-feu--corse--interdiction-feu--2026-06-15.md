@@ -5,12 +5,12 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-07
-statut: ACTIF — CHANGÉ 07/09 : haute-corse.gouv.fr relu en direct, toujours calé sur
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : haute-corse.gouv.fr relu en direct, toujours calé sur
   l'arrêté du 19/08/2026 (dernière mise à jour de la page datée du 18/08), aucun acte plus
-  récent trouvé. Un troisième feu mineur (Calenzana, lieu-dit Marsulinu, ~200 m², véhicule
-  à l'origine) s'est produit le 05/09, sans fermeture de sentier. Interdiction générale de
-  feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+  récent trouvé. Recherche générale sur les feux corses du jour : aucun nouveau départ de
+  feu trouvé au-delà de ceux déjà connus (Calenzana Marsulinu, 05/09). Interdiction générale
+  de feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 
@@ -51,6 +51,8 @@ MAJ 03/09 : la page haute-corse.gouv.fr « Accès aux massifs forestiers », rel
 MAJ 05/09 : haute-corse.gouv.fr relu directement, toujours calé sur l'arrêté du 19/08/2026, aucun acte plus récent trouvé. Deux nouveaux départs de feu mineurs le 02/09/2026 : à Tallone, en bordure de la RT10 près du karting, vers 12h30 (environ 1 hectare de maquis et chênes) ; à Calenzana, au lieu-dit Luzzipeo, vers 13h30 (environ 500 m², feu distinct de celui de Montegrosso du 27/08). Aucune fermeture de sentier ni de route rapportée pour ces deux départs. Le 03/09, le président du SIS 2B a publiquement alerté sur un risque de rupture des capacités de lutte, citant jusqu'à dix départs de feu volontaires par semaine depuis le début de l'été ; l'article ne mentionne aucune fermeture de sentier ou de massif nouvelle.
 
 MAJ 07/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate). Un troisième feu mineur s'est déclaré le 05/09/2026 à Calenzana, au lieu-dit Marsulinu : un véhicule prend feu et se propage au maquis environnant sur trois points distincts, pour environ 200 m² de végétation brûlée, la RD81 étant temporairement coupée avant de rouvrir. Aucune fermeture de sentier rapportée. Toujours aucune reprise signalée sur le feu de Montegrosso (27/08) ni sur le secteur Albertacce/Niolu.
+
+MAJ 08/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026, aucun acte plus récent trouvé. Une recherche générale sur l'actualité des incendies corses (Haute-Corse et Corse-du-Sud) ne fait remonter aucun nouveau départ de feu ce jour, hors un incendie de six véhicules survenu de nuit à Bastia (fait divers urbain, sans lien avec un massif ou un sentier).
 
 ## Source
 
