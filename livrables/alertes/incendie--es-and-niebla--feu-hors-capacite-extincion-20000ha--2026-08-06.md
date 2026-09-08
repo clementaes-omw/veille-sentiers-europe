@@ -71,7 +71,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+relogés au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -147,7 +147,7 @@ MAJ 17/08 : le feu est déclaré stabilisé par le président de la Junta de And
 
 MAJ 18/08 : le système satellite européen Copernicus, dans une mesure publiée le 17/08, réévalue la surface brûlée à environ 33 000 ha, contre 38 000 ha estimés jusque-là sur le terrain. Le feu de Niebla devient ainsi le deuxième plus grand incendie recensé en Andalousie, derrière celui de Riotinto en 2004 (34 000 ha). Des îlots de végétation préservés (jusqu'à 400 ha) subsistent à l'intérieur du périmètre parcouru, favorables à la régénération naturelle. Le feu reste stabilisé, sans front actif ; toujours aucune source ne documente d'impact confirmé sur un itinéraire balisé nommé.
 
-MAJ 20/08 : dégradation de la sévérité. Le Plan INFOCA est passé en situation opérationnelle 0, le niveau le plus bas du dispositif actif (préémergence), le 17/08 à 18h13 (tecnobosque.es, article du 18/08). Aucun front actif n'est documenté depuis le 16/08, tous les évacués sont rentrés chez eux, et aucune source consultée depuis le départ du feu le 06/08 n'a jamais documenté de fermeture de sentier balisé dans le périmètre touché. Sévérité ramenée de HAUTE à MOYENNE en conséquence. Il manque encore une déclaration formelle d'« extinguido ».
+MAJ 20/08 : dégradation de la sévérité. Le Plan INFOCA est passé en situation opérationnelle 0, le niveau le plus bas du dispositif actif (préemergence), le 17/08 à 18h13 (tecnobosque.es, article du 18/08). Aucun front actif n'est documenté depuis le 16/08, tous les évacués sont rentrés chez eux, et aucune source consultée depuis le départ du feu le 06/08 n'a jamais documenté de fermeture de sentier balisé dans le périmètre touché. Sévérité ramenée de HAUTE à MOYENNE en conséquence. Il manque encore une déclaration formelle d'« extinguido ».
 
 MAJ 23/08 : le feu est déclaré officiellement éteint (« extinguido ») le vendredi 21/08/2026 à 21h00, quatorze jours après son déclenchement, confirmé par plusieurs sources de presse concordantes (Huelva24, Telemadrid, The Objective, Infobae, Moncloa, El Pespunte). Surface finale confirmée à environ 33 000 ha, deuxième plus grand incendie de l'histoire d'Andalousie derrière celui de Riotinto (2004). Aucune fermeture de sentier balisé n'a été documentée à aucun moment de l'épisode.
 
