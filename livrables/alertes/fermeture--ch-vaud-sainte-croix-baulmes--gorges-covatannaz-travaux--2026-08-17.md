@@ -5,10 +5,12 @@ itin: Chemin des Gorges de Covatannaz (itinéraire n°107 La Suisse à pied, Sai
 sev: MOYENNE
 validite: 17/08/2026 → 18/09/2026 (déviation en place) ; fermeture complète sans déviation possible les 26 et 27 août 2026, pour travaux sur une passerelle et travaux forestiers
 detection: 2026-08-18
-verif: 2026-09-01
-statut: ACTIF — INCHANGÉ 01/09 : CSV officiel data.geo.admin.ch revérifié, les deux entrées
-  (id 2600748 déviation jusqu'au 18/09, id 2600875 fermeture totale du 26-27/08 déjà passée)
-  restent inchangées. Déviation toujours en place jusqu'au 18/09/2026.
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revuérifié, l'entrée
+  id 2600748 (déviation) reste inchangée, validité toujours jusqu'au 18/09/2026.
+  L'entrée id 2600875 (fermeture totale du 26-27/08, déjà passée) n'apparaît plus dans
+  l'extraction du jour, cohérent avec un événement ponctuel révolu ; sans effet sur le
+  statut actuel puisque la déviation reste la seule restriction active.
 ordre: 174
 ---
 
@@ -24,7 +26,7 @@ Une déviation est mise en place pendant la durée des travaux, sans détail de 
 
 18/08/2026 : repréré dans le flux officiel data.geo.admin.ch (Suisse Rando), motif « travaux de construction et d'entretien ». La commune de Sainte-Croix et la presse régionale (Radio Lac, blue News) confirment des travaux de réfection du sentier des gorges à partir du 17/08, avec une déviation en place et un jour de fermeture totale prévu dans la semaine pour la pose de résine.
 
-25/08/2026 : le flux officiel data.geo.admin.ch porte désormais une entrée distincte (id 2600875, créée le 20/08) qui précise cette fermeture totale : elle n'a pas eu lieu dans la semaine du 17 au 21/08 comme d'abord annoncé, mais est reprogrammée les 26 et 27 août 2026, pour des travaux sur une passerelle et des travaux forestiers, sans déviation possible ces deux jours-là. L'entrée initiale (id 2600748, déviation en place jusqu'au 18/09) reste par ailleurs inchangée.
+25/08/2026 : le flux officiel data.geo.admin.ch porte désormais une entrée distincte (id 2600875, créée le 20/08) qui précise cette fermeture totale : elle n'a pas eu lieu dans la semaine du 17 au 21/08 comme d'abord annoncée, mais est reprogrammée les 26 et 27 août 2026, pour des travaux sur une passerelle et des travaux forestiers, sans déviation possible ces deux jours-là. L'entrée initiale (id 2600748, déviation en place jusqu'au 18/09) reste par ailleurs inchangée.
 
 ## Source
 

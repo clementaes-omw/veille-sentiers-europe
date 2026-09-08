@@ -4,8 +4,7 @@ type: fermeture / éboulement
 itin: TMB (val Ferret, secteur Praz-de-Fort) ; [HYPOTHÈSE] chemin d'accès à un refuge CAS
   (cabane de Saleinaz), hors tracé balisé principal du TMB
 sev: MOYENNE
-validite: fermé depuis le 29/07/2026, sans échéance annoncée par la commune ; le flux
-  officiel Suisse Rando affiche une validité du 01/09/2026 au 31/01/2027
+validite: fermé depuis le 29/07/2026, sans échéance annoncée par la commune ; le flux officiel Suisse Rando affiche une validité du 01/09/2026 au 31/01/2027
 detection: 2026-09-08
 verif: 2026-09-08
 statut: ACTIF — NOUVEAU 08/09 : détecté via le flux officiel data.geo.admin.ch (id
