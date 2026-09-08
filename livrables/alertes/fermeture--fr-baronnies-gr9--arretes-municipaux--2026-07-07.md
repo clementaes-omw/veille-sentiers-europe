@@ -8,7 +8,7 @@ detection: 2026-07-18
 verif: 2026-09-08
 statut: ACTIF — INCHANGÉ 08/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
   municipaux datés, pas une hypothèse à 14 jours). Liste de référence PNR Baronnies
-  Provencales relue en direct, toujours datée « mise à jour le 01/09/26 », toujours les 12
+  Provençales relue en direct, toujours datée « mise à jour le 01/09/26 », toujours les 12
   mêmes communes nommées avec leurs arrêtés datés (Châteauneuf-de-Bordette, Curnier,
   La Charce, La Penne-sur-Ouvèze, Lemps, Les Pilles, Pierrelongue, Pommerol,
   Sainte-Euphémie-sur-Ouvèze, Saint-Sauveur-Gouvernet, Teyssières, Verclause), aucune
