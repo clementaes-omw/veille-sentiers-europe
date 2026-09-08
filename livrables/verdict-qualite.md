@@ -1,152 +1,211 @@
-# Verdict qualité — 2026-09-07
+# Verdict qualité — 2026-09-08
 
-Vérificateur distinct de l'agent de veille qui a produit ce run (5 agents parallèles,
-44 fichiers touchés dans `livrables/alertes/`, dont une nouvelle alerte). Périmètre : les
-9 fiches citées par `livrables/audit-qualite.md` régénéré ce jour (0 bloquant, 9 alertes,
-2 infos). Les 2 infos (jargon « recherche ciblée » sur Ariège-Bordes-Uchentein et
-ES-CENTRO-Guadalajara-LaMierla) ont été revérifiées : le terme n'existe plus que dans le
-champ `statut:` (invisible), pas dans « Zone (détails) » — déjà réglées avant mon passage,
-conformément à la consigne. Aucune autre fiche du dossier n'a été ouverte ni modifiée.
+Vérificateur distinct des 5 agents de veille parallèles qui ont produit le run du jour. Je
+n'ai écrit aucune des fiches auditées. Périmètre : les **12 fiches** citées par
+`livrables/audit-qualite.md` régénéré ce jour à l'ouverture (0 bloquant, 11 alertes,
+3 infos). Aucune autre fiche du dossier n'a été ouverte ni modifiée.
 
-## Fiches contrôlées (9)
+## ⚠️ Constat transversal prioritaire — bug de parsing du frontmatter multi-ligne
+
+En creusant deux des « validités expirées » signalées par l'audit, j'ai trouvé la cause
+réelle : `parse_alerte()` dans `site/build_site.py` (partagé par `audit_qualite.py`) ne lit
+que la **première ligne physique** d'un champ de frontmatter. Une valeur écrite sur deux
+lignes selon la convention `champ: texte…\n  suite du texte` — utilisée dans une bonne partie
+du registre pour `validite:`/`statut:` — perd silencieusement tout ce qui suit la première
+ligne pour la lecture programmatique (le rendu du site n'en souffre pas : `validite` n'est
+jamais affiché, et `statut` n'est testé que pour la sous-chaîne `CLÔTURÉ`, toujours en tête).
+Conséquence concrète aujourd'hui : `VS-Orsieres-ValFerret` et `FR-84-26-07-LesVans-Malbosc`
+étaient signalées « validité expirée le 29/07 » et « le 04/09 » alors que la suite, coupée à
+la lecture, portait respectivement une validité Suisse Rando jusqu'au 31/01/2027 et la
+mention que le foyer de Malbosc n'était pas encore éteint au 07/09. **Ce n'est pas un cas
+isolé** : un balayage du dossier montre des dizaines de fichiers avec ce même motif de
+continuation, et le risque n'est pas seulement le faux positif observé ici — un champ
+`validite:` dont l'échéance réelle tomberait sur la ligne de continuation resterait, lui,
+invisible à l'audit (faux négatif). J'ai retrouvé la même remarque, avec le même luxe de
+précaution (« hors de mon périmètre de correction »), dans le verdict du 2026-09-07 : le
+correctif appliqué ce jour-là (fusionner le champ sur une ligne) a été repris sans le savoir
+par la veille du jour, qui a réécrit `validite:` en deux lignes sur ces mêmes fiches — le
+palliatif fiche par fiche ne tient pas dans la durée. **Je n'ai pas touché au générateur**
+(hors de mon rôle de vérificateur de contenu) : j'ai seulement refusionné les deux champs
+concernés sur une ligne, à information constante, pour lever le faux signal du jour. Le
+correctif structurel (faire lire `parse_alerte()` sur les lignes indentées de continuation,
+comme un scalaire replié YAML) reste à faire une fois pour toutes dans `site/build_site.py` —
+je le signale au pilote plutôt que de le coder moi-même.
+
+De même, l'alerte rouge PO-66 était signalée sur une source « vieille de 28/08 » alors que la
+fiche cite en réalité une source du 03/09 : celle-ci est datée en toutes lettres (« ce jeudi
+3 septembre ») dans la section Source, un format que la regex de dates de l'audit ne
+reconnaît pas (elle ne lit que les dates chiffrées). Pas un défaut de la fiche : à corriger
+dans `audit_qualite.py` si on veut fiabiliser ce contrôle particulier.
+
+## Fiches contrôlées (12)
 
 1. `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01` — HAUTE
 2. `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16` — MOYENNE
-3. `fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10-11|2026-09-04` — MOYENNE
+3. `fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29` — MOYENNE
 4. `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10` — HAUTE
 5. `incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28` — MOYENNE
 6. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — HAUTE
 7. `incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03` — MOYENNE
 8. `incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12` — MOYENNE
 9. `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19` — HAUTE
+10. `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17` — MOYENNE
+11. `risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26` — HAUTE
+12. `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10` — MOYENNE
 
 ## PASS / FAIL par contrôle
 
-### Groupe A — 4 alertes rouges, « source vieillie » signalée par l'audit (#1, #4, #6, #9)
+### Groupe A — 4 alertes rouges « source vieillie », établies par un fait, pas une hypothèse (#1, #6, #9, #11)
 
-Pour chacune, l'audit déterministe signale une source vieillie (12 à 20 j) sous une alerte
-rouge et suggère « retrouver une publication récente ou dégrader la sévérité ». Diagnostic
-demandé : la « Portion concernée » de ces 4 fiches est-elle encore adossée à une formule
-« à confirmer »/« probable »/« non localisé » (→ règle des 14 jours, dégradation MOYENNE),
-ou décrit-elle déjà un fait établi indépendant de l'acte administratif manquant (→ pas de
-dégradation) ?
+Diagnostic demandé par la consigne : la fermeture repose-t-elle encore sur « à confirmer »/
+« probable », ou sur un acte/fait sourcé indépendamment ? Dans les 4 cas la « Portion
+concernée » ne porte aucun marqueur d'hypothèse et cite un texte daté et en vigueur :
+Malerweg (Allgemeinverfügung « bis auf Widerruf », sans échéance à renouveler), Drôme Justin
+(arrêté préfectoral du 21/08, motif désormais distinct de l'incendie — chutes de pierres),
+Bois Noir (arrêté municipal du 15/08, chutes de pierres/arbres/éboulements), PO-66 (classement
+officiel du 03/09 sur Corbières/Roussillon). **La règle des 14 jours ne s'applique à aucune
+des 4 : aucune dégradation appliquée.** Ce diagnostic était déjà écrit en clair dans `statut:`
+par la veille du jour elle-même pour Drôme, Bois Noir et PO-66 — je le confirme, sans le
+répéter comme nouveau.
 
-| # | Fraîcheur | Concordance interne | Honnêteté | Pertinence | Sévérité juste | Ton | Source vivante |
+| # | Fraîcheur | Concordance | Honnêteté | Pertinence | Sévérité | Ton | Source vivante |
 |---|---|---|---|---|---|---|---|
-| Malerweg | FAIL (audit, voir note) | PASS | PASS | PASS | PASS | PASS | PASS |
-| Ariège Esbintz-Valier | FAIL (audit, voir note) | PASS | PASS | PASS | PASS | PASS | PASS |
-| Drôme Justin | FAIL (audit, voir note) | PASS | PASS | PASS | PASS | PASS | PASS |
-| Bois Noir | FAIL (audit, voir note) | PASS | PASS | PASS | PASS | PASS | PASS |
+| Malerweg | FAIL (audit, attendu) | PASS | PASS | PASS | PASS | PASS | PASS (200) |
+| Drôme Justin | FAIL (audit, attendu) | PASS→corrigé | PASS | PASS | PASS | PASS | PASS (200) |
+| Bois Noir | FAIL (audit, attendu) | PASS | PASS | PASS | PASS | FAIL→corrigé | PASS (200) |
+| PO-66 | FAIL (audit, faux positif regex) | PASS | PASS | PASS | PASS | PASS | PASS (200) |
 
-Détail :
-- **Diagnostic fait établi vs hypothèse** : dans les 4 cas, la « Portion concernée » n'énonce
-  ni « à confirmer », ni « probable », ni « non localisé », ni « recoupement en cours ». Elle
-  décrit un fait sourcé indépendamment de la question du texte manquant : Malerweg
-  (Allgemeinverfügung en vigueur « bis auf Widerruf », jusqu'à révocation, pas d'échéance à
-  renouveler), Ariège (fermeture de terrain — chutes de pierres — confirmée par 3 sources de
-  presse citant l'ONF, distincte de l'arrêté feu dont la 5e reconduction manque), Drôme
-  (arrêté préfectoral du 21/08 en vigueur pour risque de chutes de pierres/arbres, motif
-  désormais distinct de l'incendie), Bois Noir (arrêté municipal du 15/08 en vigueur, motif
-  chutes de pierres/arbres/éboulements). **La règle des 14 jours ne s'applique à aucune des
-  4 : aucune dégradation appliquée.** Pour Ariège, Drôme et Bois Noir, ce diagnostic et cette
-  décision étaient déjà documentés en clair dans `statut:` par le run du jour lui-même — je
-  les confirme, je ne les répète pas comme nouveaux. Pour Malerweg, la fiche ne portait pas
-  encore cette justification explicite : je l'ai ajoutée à `statut:` (voir Corrections).
-- **Fraîcheur (constat de l'audit)** : le signal reste affiché volontairement — il pousse la
-  veille à rechercher un texte plus récent (arrêté renouvelé, communiqué) au prochain passage
-  sur ces 4 zones. Ce n'est pas un défaut de rédaction de la fiche, donc pas une correction
-  qui m'incombe : reste en actions laissées à l'agent de veille, sans effet sur la sévérité.
-- **Honnêteté** : les 4 fiches disent explicitement au lecteur ce qui n'est pas publié
-  (« aucune 5e reconduction ni levée publiée à ce jour », « aucune date de levée n'est
-  communiquée », etc.) plutôt que de le présenter comme tranché. PASS.
-- **Source vivante (contrôle 7)** : vérifiée en direct par fetch des 4 sources qui portent le
-  fait central de chaque fiche — toutes répondent et confirment le texte de la fiche :
-  `nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung` (Amselsee/Amselgrund
-  toujours dans l'état décrit), `pyreneesfm.com/departement/ariege` (dernier article connu sur
-  l'interdiction du feu reste celui du 10/08, aucune 5e reconduction publiée — cohérent avec le
-  constat de la fiche), `mairie-die.fr/acces-interdit-forets-justin-laup-solaure/` (arrêté du
-  21/08 confirmé, sans échéance), `ville-argentiere.fr/feu-bois-noir-informations` (arrêté du
-  15/08 confirmé, sans date de levée annoncée). PASS pour les 4.
+- **Bois Noir** : « Portion concernée » contenait le jargon interne banni « recherche ciblée »
+  — le build QA **échouait déjà** avant mon passage (`[ton] jargon de veille « recherche
+  ciblee » dans portion`, bloquant, site NON généré). Corrigé (voir Corrections). C'est le
+  seul vrai bloquant technique du jour.
+- **Source vivante** : les 4 sources qui portent le fait central de chaque fiche répondent en
+  HTTP 200 et portent le contenu cité : `nationalpark-saechsische-schweiz.de/warnungen/
+  eilmeldung-waldsperrung`, `mairie-die.fr/acces-interdit-forets-justin-laup-solaure/`,
+  `ville-argentiere.fr/feu-bois-noir-informations`, `titrespresse.com/…/feu-pyrenees-
+  orientales`.
+- **Fraîcheur** : le signal audit reste affiché volontairement (recherche d'une publication
+  plus récente à retenter au prochain passage) ; ce n'est pas un défaut de rédaction, donc pas
+  une correction qui m'incombe.
 
-### Groupe B — 2 validités passées, corrigées (#3, #7)
+### Groupe B — décrochage Portion/statut, corrigé (#4, #10)
 
-| # | Fraîcheur | Concordance interne | Honnêteté | Pertinence | Sévérité juste | Ton | Source vivante |
-|---|---|---|---|---|---|---|---|
-| Montasio (via ferrata Amalia) | PASS | PASS | FAIL→corrigé | PASS | PASS | PASS | n/a (MOYENNE) |
-| Les Vans-Malbosc | PASS | PASS | FAIL→corrigé | PASS | PASS | PASS | n/a (MOYENNE) |
-
-- **Montasio** : `validite:` disait « fermée depuis le 04/09/2026, aucune échéance de
-  réouverture annoncée » — le tour de phrase, sans marqueur d'ouverture reconnu, faisait lire
-  le 04/09 comme une échéance dépassée alors que la fermeture est indéfinie (le CAI n'a fixé
-  aucune date). Réécrit à information constante : « fermée depuis le 04/09/2026, jusqu'à
-  nouvel ordre : le CAI n'annonce aucune échéance de réouverture ». Aucune fiche à clôturer,
-  aucune source nouvelle nécessaire.
-- **Les Vans-Malbosc** : `validite:` avait été rédigée sur deux lignes de frontmatter ; le
-  générateur ne lit que la première ligne d'un champ multi-ligne du frontmatter (limite
-  connue de `site/build_site.py`, hors de mon périmètre de correction), ce qui coupait la
-  phrase juste avant la date du 06/09 et faisait lire le 04/09 comme la seule échéance,
-  passée. Fusionné sur une seule ligne, à information constante (la fiche a déjà été
-  revérifiée aujourd'hui même par l'agent de veille) : « foyer des Vans contenu depuis le
-  04/09 mi-journée ; foyer de Malbosc actif mais en nette amélioration au 06/09/2026
-  (110 pompiers contre 250 au pic, camping du Moulin de Gournier rouvert) ; aucune date de
-  fixation ni d'extinction confirmée à ce jour. » Je n'ai PAS clôturé l'alerte : le foyer de
-  Malbosc reste actif sans preuve d'extinction, conformément à la « Zone (détails) » déjà à
-  jour.
-
-### Groupe C — 3 fraîcheurs en retard, hors périmètre du run (#2, #5, #8)
-
-| # | Fraîcheur | Concordance interne | Honnêteté | Pertinence | Sévérité juste | Ton |
+| # | Fraîcheur | Concordance | Honnêteté | Pertinence | Sévérité | Ton |
 |---|---|---|---|---|---|---|
-| Creta-Samaria | **FAIL** (3 j, seuil 2 j) | PASS | PASS | PASS | PASS | PASS |
-| Schwarzwald-Oppenau | **FAIL** (15 j, seuil 12 j) | PASS | PASS | PASS | PASS | PASS |
-| Fontainebleau | **FAIL** (16 j, seuil 12 j) | PASS | PASS | PASS | PASS | PASS |
+| Ariège Esbintz-Valier | PASS | FAIL→corrigé | PASS | PASS | PASS | PASS |
+| Esterel-Tanneron (06) | PASS | FAIL→corrigé | FAIL→corrigé | PASS | PASS | FAIL→corrigé |
 
-Les 3 fiches restent honnêtes sur ce qu'elles savent (Creta-Samaria dit explicitement « à
-vérifier sur samaria.gr avant l'étape » ; Oppenau et Fontainebleau ne prétendent rien de plus
-récent que leur dernière source citée) et aucune « Portion concernée » n'est décrochée du
-`statut:`/de la « Zone (détails) » de la même fiche. Il n'y a rien à reformuler à information
-constante : ce qui manque, c'est une vérification neuve sur des zones hors du périmètre de ce
-run (Crète T2/T3, Forêt-Noire et Île-de-France T3). Ce n'est pas mon rôle de produire cette
-source — inscrit ci-dessous comme actions laissées à l'agent de veille.
+- **Ariège** : « Portion concernée » citait l'arrêté du 31/08 sans dire qu'il venait d'être
+  retrouvé le 08/09 sur le site de la mairie (absent des relectures directes de
+  ariege.gouv.fr) — écart de 8 j entre la date citée et la date de vérification. La fermeture
+  du GR®10 est un fait établi par ce texte propre, indépendant de l'arrêté feu (dont la
+  5e reconduction manque toujours, sans effet sur cette fermeture-ci) : pas la règle des
+  14 jours, une simple mise en concordance. Corrigé.
+- **Esterel-Tanneron** : restriction **journalière** (décidée jour par jour), silence des
+  sources depuis le 31/08 (8 j). Contrairement au Groupe A, un acte ancien ne vaut *rien* ici
+  sur le statut du jour même : la « Portion concernée » présentait le 31/08 sans le dire au
+  lecteur → FAIL honnêteté, corrigé en ajoutant explicitement l'absence de confirmation
+  depuis et le renvoi à la préfecture avant de partir. Jargon « recherche ciblée » retiré de
+  « Zone (détails) ».
+
+### Groupe C — jargon seul, corrigé (#12)
+
+`Alberes-66` : « Zone (détails) » contenait « recherche ciblée sur les deux communes non
+tranchées » (jargon de veille, INFO à l'audit, non bloquant). Reformulé pour le lecteur.
+Aucun autre contrôle en défaut sur cette fiche (les 4 arrêtés communaux distincts — Argelès
+levé, Sorède/Villelongue/Cerbère actifs — sont tous datés et sourcés, la concordance est déjà
+bonne).
+
+### Groupe D — validités « expirées », faux positifs de parsing, corrigés sans changer un fait (#3, #7)
+
+| # | Fraîcheur | Concordance | Honnêteté | Pertinence | Sévérité | Ton |
+|---|---|---|---|---|---|---|
+| VS-Orsières Saleinaz | PASS | PASS | PASS | PASS | PASS | PASS |
+| Les Vans-Malbosc | PASS | PASS | PASS | PASS | PASS | PASS |
+
+Voir le constat transversal ci-dessus : `validite:` était coupée par le parseur au premier
+retour à la ligne. Le contenu réel (validité Suisse Rando jusqu'au 31/01/2027 ; foyer de
+Malbosc fixé le 07/09 mais pas encore éteint) n'appelait ni clôture ni réécriture de fond —
+seule la mise en forme frontmatter était en cause. Fusionné sur une ligne, aucun fait
+modifié.
+
+### Groupe E — fraîcheurs en retard, hors de mon périmètre de correction (#2, #5, #8)
+
+| # | Fraîcheur | Concordance | Honnêteté | Pertinence | Sévérité | Ton |
+|---|---|---|---|---|---|---|
+| Creta-Samaria | **FAIL** (4 j, seuil 2 j) | PASS | PASS | PASS | PASS | PASS |
+| Schwarzwald-Oppenau | **FAIL** (16 j, seuil 12 j) | PASS | PASS | PASS | PASS | PASS |
+| Fontainebleau | **FAIL** (17 j, seuil 12 j) | PASS | PASS | PASS | PASS | PASS |
+
+Les 3 fiches restent honnêtes sur ce qu'elles savent et aucune « Portion concernée » n'est
+décrochée de son propre `statut:`/« Zone (détails) ». Rien à reformuler à information
+constante : il manque une vérification neuve sur des zones hors périmètre du run du jour
+(Crète, Forêt-Noire, Fontainebleau/IDF). Ce n'est pas mon rôle de produire cette source —
+inscrit ci-dessous.
 
 ## Corrections appliquées
 
-- `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01` :
-  ajout à `statut:` (champ interne) de la justification explicite du maintien HAUTE (fait
-  établi — Allgemeinverfügung en vigueur — vs hypothèse non tranchée). Aucun fait ajouté ni
-  supprimé.
-- `fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10-11|2026-09-04` :
-  `validite:` réécrite pour porter un marqueur d'échéance ouverte (« jusqu'à nouvel ordre »)
-  au lieu de laisser lire le 04/09 comme une date dépassée. Information constante.
-- `incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03` : `validite:` fusionnée sur une
-  ligne et mise en cohérence avec la « Zone (détails) » du jour (foyer de Malbosc actif, pas
-  de date de fixation/extinction confirmée). Alerte maintenue ACTIVE, pas clôturée.
+- `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19` : jargon
+  « recherche ciblée » retiré de « Portion concernée » (bloquant le build) et de « Zone
+  (détails) », reformulé pour le lecteur. Aucun fait changé.
+- `risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17` : « Portion
+  concernée » complétée pour dire explicitement au lecteur qu'aucune publication n'est
+  parue depuis le 31/08 (8 j) et qu'il doit se renseigner avant de partir ; jargon
+  « recherche ciblée » retiré de « Zone (détails) ».
+- `risque-feu|Alberes-66|fermeture-massif-GR10|2026-07-10` : jargon « recherche ciblée »
+  retiré de « Zone (détails) ».
+- `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10` : « Portion
+  concernée » précisée pour dire que l'arrêté du 31/08 a été retrouvé le 08/09 sur le site de
+  la mairie, absent jusque-là des relectures directes de ariege.gouv.fr (concordance avec
+  `statut:`).
+- `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` : « Portion concernée » — date de
+  vérification remise à jour (04/09→08/09) et ajout de la confirmation indirecte par
+  l'exclusion du massif de l'ouverture de la chasse au 13/09 (déjà connue en « Zone
+  (détails) »).
+- `fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29` : `validite:`
+  refusionnée sur une ligne (faux positif de parsing, aucun fait changé).
+- `incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03` : `validite:` refusionnée sur
+  une ligne (faux positif de parsing, aucun fait changé). Alerte maintenue ACTIVE, pas
+  clôturée : le foyer de Malbosc n'est pas déclaré éteint.
 
-Après ces corrections : `python3 site/build_site.py` → « OK (QA passée) » (80 actives, 30
-clôturées, 110 fichiers) ; `python3 site/audit_qualite.py --ecrire` → 7 constats restants,
-**0 bloquant** (les 2 constats de validité expirée ont disparu ; les 7 constats de fraîcheur
-des groupes A et C restent volontairement affichés, voir ci-dessus).
+Après ces corrections : `python3 site/build_site.py` → **OK (QA passée)** (84 actives,
+30 clôturées, 114 fichiers) ; `python3 site/audit_qualite.py --ecrire` → **7 constats
+restants, 0 bloquant** (contre 14 constats, 0 bloquant au départ — le build lui-même était en
+échec avant ma correction du jargon Bois Noir). Les 7 constats restants sont volontairement
+laissés affichés (Groupes A et E ci-dessus) : ils poussent la veille à re-chercher une source
+plus récente, ce n'est pas un défaut de rédaction des fiches.
 
 ## Actions laissées à l'agent de veille (à traiter au prochain run)
 
-1. **Malerweg** — retrouver une source postérieure au 01/09 sur le bas de l'Amselgrund/
-   Ziegenrücken, ou confirmer explicitement qu'aucune n'est parue. Sans effet sur la
-   sévérité HAUTE (fait établi, pas hypothèse).
-2. **Creta-Samaria** — FAIL fraîcheur (3 j, seuil 2 j, restriction décidée au jour le jour) :
-   revérifier samaria.gr et crete.gov.gr pour le statut du jour.
-3. **Ariège Esbintz-Valier** — poursuivre la recherche ciblée d'une 5e reconduction ou d'une
-   levée de l'arrêté feu (14 j de silence au 07/09) ; sans effet sur la sévérité HAUTE, déjà
-   justifiée par la fermeture de terrain (chutes de pierres).
-4. **Schwarzwald-Oppenau** — FAIL fraîcheur (15 j, seuil 12 j) : revérifier oppenau.de
-   (« Wegsperrungen » et « Aufhebung Wegsperrungen ») pour confirmer maintien ou levée.
-5. **Drôme Justin** — rechercher une mise à jour de l'étude de risque ONF ou une date de
+1. **Corriger le générateur** (`site/build_site.py`, fonction `parse_alerte`) : les champs de
+   frontmatter multi-lignes (`validite:`, `statut:`…) doivent accumuler leurs lignes de
+   continuation indentées au lieu de s'arrêter à la première ligne. Ce n'est pas une tâche de
+   veille de contenu, mais elle conditionne la fiabilité de l'audit qualité lui-même
+   (faux positifs constatés ce jour, risque de faux négatif non exclu sur une autre fiche).
+   Accessoirement, `audit_qualite.py` (`dates_citees`) ne reconnaît que les dates chiffrées :
+   la source PO-66 du « jeudi 3 septembre » n'a pas été comptée.
+2. **Malerweg** — retrouver une source postérieure au 26/08 sur le bas de l'Amselgrund/
+   Ziegenrücken, ou confirmer explicitement qu'aucune n'est parue. Sans effet sur la sévérité
+   HAUTE (fait établi, pas hypothèse).
+3. **Creta-Samaria** — FAIL fraîcheur (4 j, seuil 2 j, restriction décidée au jour le jour) :
+   revuérifier samaria.gr et crete.gov.gr pour le statut du jour.
+4. **Ariège Esbintz-Valier** — poursuivre la recherche d'une 5e reconduction ou d'une levée de
+   l'arrêté feu séparé (15 j de silence au 08/09) ; sans effet sur la sévérité HAUTE, déjà
+   justifiée par la fermeture de terrain (arrêté du 31/08, chutes de pierres).
+5. **Schwarzwald-Oppenau** — FAIL fraîcheur (16 j, seuil 12 j) : revuérifier oppenau.de
+   (« Wegsperrungen » et « Aufhebung Wegsperrungen »).
+6. **Drôme Justin** — rechercher une mise à jour de l'étude de risque ONF ou une date de
    levée ; sévérité HAUTE déjà justifiée par l'arrêté du 21/08 en vigueur.
-6. **Fontainebleau** — FAIL fraîcheur (16 j, seuil 12 j) : revérifier seine-et-marne.gouv.fr
-   pour le détail cartographique des parcelles encore fermées et leur recoupement GR®.
-7. **Bois Noir** — remplacer si possible la source `paysdesecrins.com/vigileance-feu-en-cours/`
-   (toujours 404 au 07/09, deux pistes de remplacement testées sans succès par la veille) ;
-   rechercher une mise à jour sur la levée éventuelle de l'arrêté municipal du 15/08.
+7. **Fontainebleau** — FAIL fraîcheur (17 j, seuil 12 j) : revuérifier seine-et-marne.gouv.fr
+   pour le détail cartographique des parcelles encore fermées.
+8. **Bois Noir** — remplacer si possible la source `paysdesecrins.com/vigileance-feu-en-
+   cours/` (toujours 404) ; rechercher une mise à jour sur la levée éventuelle de l'arrêté
+   municipal du 15/08.
+9. **PO-66** — les 7 massifs hors Corbières/Roussillon restent non tranchés depuis le
+   communiqué du 27/08 ; poursuivre le recoupement au prochain passage.
+10. **Esterel-Tanneron (06)** — le classement du jour est inconnu depuis 8 jours (restriction
+    journalière) : revuérifier presseagence.fr/alpes-maritimes.gouv.fr.
 
 Aucune suppression, aucune clôture et aucune dégradation de sévérité appliquée : les
-9 fiches restent ACTIVES, les 4 alertes rouges restent HAUTE (justifiées par un fait établi,
-pas par une hypothèse non tranchée), les 5 alertes orange restent MOYENNE.
+12 fiches restent ACTIVES, les 4 alertes rouges restent HAUTE (justifiées par un fait établi,
+pas par une hypothèse non tranchée), les 8 alertes orange restent MOYENNE.

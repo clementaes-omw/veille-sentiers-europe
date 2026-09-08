@@ -1,3 +1,135 @@
+# Verdict carte — 2026-09-08
+
+Contrôle DÉCLENCHÉ (pas le contrôle périodique du lundi) : deux lignes ont été ajoutées à
+`referentiel/zones-coords.csv` par l'opérateur humain (pas par l'agent de veille) pour
+raccrocher deux zones nouvellement créées le 08/09 et jusque-là perdues de la carte —
+`CH-Valais-Arolla` (46.03;7.48) et `VS-Orsieres-ValFerret` (45.90;7.15). Conformément à
+`agents/verificateur-carte.md` (mission 1, dernier paragraphe : un centroïde ajouté à la main
+ne peut être jugé juste par aucun test automatique), je vérifie ces deux centroïdes de façon
+autonome, sans les prendre pour acquis. Base : `livrables/audit-qualite.md` régénéré le
+08/09 (`python3 site/audit_qualite.py --ecrire`, section carte : 0 alerte perdue), les trois
+fiches d'alerte concernées, `referentiel/zones-sources.md` (§ tableau Alpes, ligne
+CH-VALAIS-VAUD), et un recoupement géographique externe (Wikipédia / offices de tourisme
+locaux) pour les coordonnées réelles des lieux cités.
+
+**2 zones contrôlées** (les deux ajouts du jour), sur 51 zones désormais présentes dans
+`referentiel/zones-coords.csv` (49 préexistantes + les 2 vérifiées ici).
+
+Je n'ai pas rédigé les fiches d'alerte que je contrôle (agent de veille du run du 08/09, pas
+moi) : rien à signaler sur la règle « pas de fond ». Je n'ai pas non plus ajouté ces deux
+lignes CSV — elles étaient déjà posées avant mon passage par l'opérateur humain — mais je les
+ai vérifiées avec la même rigueur que si je les avais créées moi-même (mission 1).
+
+## `CH-Valais-Arolla` — 46.03;7.48 — CONFIRMÉ, repère fiable
+
+- **Repère utilisé** : le village d'Arolla lui-même (commune d'Évolène, Valais), coordonnées
+  publiques ≈ **46.0254;7.4836** (recoupement Wikipédia/geoview.info). Écart avec le
+  centroïde du CSV : ≈ **0,7 km**. Quasi exact.
+- **Cohérence avec les deux fiches concernées** :
+  - `fermeture|CH-Valais-Arolla|Pas-de-Chevre-chemin-impraticable|2026-08-24` — secteur du
+    Pas de Chèvre, entre le glacier de Cheilon et Arolla : le col est sur l'itinéraire
+    Arolla → cabane des Dix, à quelques km au nord-ouest du village. Bien dans le même
+    versant que le marqueur.
+  - `fermeture|CH-Valais-Arolla|Bertol-Haut-Glacier-deviation|2026-05-11` — accès à la
+    cabane de Bertol depuis Arolla par le haut glacier : la cabane de Bertol est à
+    ≈ 46.006;7.528 (repère public), soit **≈ 4,3 km** du marqueur. Bien dans le même massif.
+  - Les deux fiches situent explicitement l'incident « commune d'Évolène » et « val
+    d'Hérens » : cohérent avec le nom donné à la zone dans le CSV.
+- **Cohérence avec `zones-sources.md`** : la ligne CH-VALAIS-VAUD (§ tableau Alpes) couvre
+  nominalement tout le Valais, y compris la Haute Route Chamonix-Zermatt — Arolla en fait
+  bien partie administrativement — mais son centroïde générique (46.15;7.30) est posé dans
+  la vallée du Rhône (axe Martigny–Sion), à **≈ 19 km** du village d'Arolla, qui se trouve
+  dans le val d'Hérens, une vallée latérale distincte débouchant sur le Rhône à Sion/Euseigne
+  (pas la même vallée que Martigny/Sembrancher). Un marqueur distinct est donc justifié :
+  pas de doublon, la localisation réelle est significativement différente du repère
+  générique. Verdict : **coordonnées confirmées, aucune correction nécessaire**.
+
+## `VS-Orsieres-ValFerret` — 45.90;7.15 — CONFIRMÉ, repère fiable
+
+- **Repères utilisés** : commune d'Orsières ≈ **46.033;7.150** (Wikipédia) et La Fouly, à
+  l'autre bout du val Ferret (frontière italienne) ≈ **45.933;7.099** (Wikipédia/registre
+  cadastral). Le centroïde du CSV (45.90;7.15) est légèrement au sud du milieu de ce corridor
+  (qui serait plutôt ≈ 45.98;7.12) mais reste dans la même vallée, à l'écart le plus
+  défavorable d'environ **9-10 km** du point médian théorique du corridor — bien en-deçà du
+  seuil de correction (« plusieurs dizaines de km »).
+- **Cohérence avec la fiche concernée** :
+  `fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29` situe l'incident
+  au « chemin de Praz-de-Fort à la cabane de Saleinaz », au lieu-dit Petit Clocher des
+  Planereuses, val Ferret, commune d'Orsières. Praz-de-Fort est à ≈ 45.989;7.125 (repère
+  public), donc **≈ 8 km** du marqueur — le point tombe bien dans le corridor du val Ferret,
+  pas dans une autre vallée.
+- **Cohérence avec `zones-sources.md`** : même lecture que pour Arolla — CH-VALAIS-VAUD
+  couvre nominalement le Valais et cite le TMB parmi ses sentiers, mais son centroïde
+  générique (46.15;7.30) est à **≈ 30 km** du marqueur du val Ferret, dans la vallée
+  principale du Rhône plutôt que dans le val d'Entremont/val Ferret qui s'en détache à
+  Sembrancher. Écart plus marqué que pour Arolla : un marqueur distinct est d'autant plus
+  justifié. Verdict : **coordonnées confirmées, aucune correction nécessaire**.
+
+## Vérification anti-doublon avec `CH-VALAIS-VAUD` (46.15;7.30)
+
+Recalcul direct de `zones_carte()` sur le registre du 08/09 (84 alertes actives) : les trois
+zones concernées se résolvent bien séparément, sans collision ni chevauchement —
+- `CH-Valais-Arolla` → 2 alertes (Pas-de-Chèvre, Bertol) ;
+- `VS-Orsieres-ValFerret` → 1 alerte (Saleinaz) ;
+- `CH-VALAIS-VAUD` → 3 alertes distinctes, toutes différentes (`TMB-CH-Orsieres`
+  Prayon-Branche via alias `ALIAS_ZONE`, `CH-Europaweg-Randa-Zermatt` via alias,
+  `CH-Vaud-Sainte-Croix-Baulmes` via alias).
+Aucune des trois alertes historiquement rattachées à `CH-VALAIS-VAUD` ne concerne Arolla ou
+le val Ferret : pas de doublon, pas de perte d'alerte par confusion de zone.
+
+**Observation, non bloquante, hors du périmètre d'aujourd'hui** : l'alerte
+`TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11` (secteur Treutsebo, Prayon↔Branche,
+« rive droite de la Dranse de Ferret ») est elle aussi géographiquement dans le val Ferret /
+commune d'Orsières — donc dans la même vallée que le nouveau code `VS-Orsieres-ValFerret` —
+mais reste alias vers `CH-VALAIS-VAUD` (à ≈ 17 km de son terrain réel, un écart comparable à
+celui qui a justifié la création du marqueur Arolla). Je ne touche pas à `ALIAS_ZONE`
+(mission 2 = signalement, jamais correction d'autorité, et cet alias est antérieur à mon
+passage) : *recommandation* à considérer par l'agent de veille ou un futur passage — si une
+prochaine confirmation situe bien Treutsebo/Prayon-Branche dans le corridor val Ferret plutôt
+que dans un tronçon distinct côté Champex, ré-aliaser
+`TMB-CH-Orsieres → VS-Orsieres-ValFerret` rapprocherait son marqueur de son terrain réel.
+Point de style mineur, également non bloquant : les deux nouveaux codes (`CH-Valais-Arolla`,
+`VS-Orsieres-ValFerret`) sont en casse mixte alors que les codes existants du référentiel sont
+en majuscules (`CH-EST`, `FR-PYR-O`…) ; `resolve_zone()` compare en `fold_txt` (insensible à
+la casse) donc cela ne casse rien fonctionnellement, mais une harmonisation en majuscules
+serait plus propre si le référentiel est retouché à l'occasion.
+
+## Compte de marqueurs — confirmé
+
+`site/index.html` (ligne 5943) : « **36 zones en alerte active.** » — identique au calcul
+direct de `zones_carte(actives, coords)` sur les 84 fiches actives du registre du 08/09
+(`len(zones_liste) == 36`, `non_mappées == []`). Le nombre de marqueurs n'a pas bougé malgré
++10 alertes actives depuis le 24/08 et les 2 nouveaux codes : cohérent (les nouvelles alertes
+se répartissent sur des zones déjà comptées, et les 2 nouveaux marqueurs remplacent ce qui
+aurait sinon été des alertes perdues, sans en ajouter au compte visible avant elles).
+
+## Build & audit — statut final
+
+- `python3 site/audit_qualite.py --ecrire` → section carte : **0 alerte perdue**, 0
+  bloquant côté carte (7 constats registre sans lien avec la carte, hors périmètre).
+- `python3 site/build_site.py` → **`OK (QA passée)`** (84 actives, 30 clôturées, 51 digests,
+  114 fiches), aucune nouvelle `⚠ carte` sur stderr.
+- Aucune modification appliquée à `referentiel/zones-coords.csv` par moi : les deux lignes de
+  l'opérateur sont confirmées telles quelles, aucune correction n'était nécessaire (écarts de
+  moins d'1 km et moins de 10 km respectivement, très en-deçà du seuil de correction).
+
+## Recommandations laissées
+
+1. **`TMB-CH-Orsieres` (alias → `CH-VALAIS-VAUD`)** : à réévaluer pour un ré-aliasage vers
+   `VS-Orsieres-ValFerret` si une confirmation situe bien son terrain (Treutsebo,
+   Prayon↔Branche) dans le corridor val Ferret plutôt que sur un tronçon distinct. Non
+   appliqué (hors périmètre, alias antérieur à mon passage, mission 2 = signalement).
+2. Casse des codes `CH-Valais-Arolla` / `VS-Orsieres-ValFerret` : harmoniser en majuscules
+   (`CH-VALAIS-AROLLA` / `CH-VALAIS-ORSIERES-FERRET`) par cohérence de style avec le reste du
+   référentiel, sans urgence fonctionnelle (le fold insensible à la casse évite tout bug).
+3. Recommandations non appliquées du 24/08 toujours valables si le nombre d'alertes augmente
+   sur ces zones : `CH-EST` (scission `CH-EST-RHIN`/`CH-OBERLAND`), `IT-CENTRE` (scission
+   `IT-TOSCANE-NO`/`IT-LAZIO`), `IT-DOLOMITES` (à surveiller), `ES-CENTRO`, `ES-CYL`, `AT`,
+   `IT-NO` — non revuérifiées aujourd'hui, hors périmètre du déclenchement du 08/09 qui ne
+   portait que sur les deux zones perdues.
+
+---
+
 # Verdict carte — 2026-08-24
 
 Contrôle de `agents/verificateur-carte.md`, contrôle périodique du lundi. Base : registre du
@@ -134,7 +266,7 @@ Les deux défauts de vue signalés le 12/08 restent hors du périmètre de cet a
 (`build_site.py` au sens visuel) : vérification rapide, non exhaustive, pour information —
 `maxBounds` de la carte va bien jusqu'à 60° E (`site/index.html`, commentaire « La limite EST
 doit englober La Réunion ») et `leaflet.css` est chargé dynamiquement (`site/index.html`
-ligne 6725) — les deux correctifs du 12/08 semblent tenus. Je n'ai pas revérifié le contraste
+ligne 6725) — les deux correctifs du 12/08 semblent tenus. Je n'ai pas revuérifié le contraste
 des popups en conditions réelles de navigateur : hors périmètre, non ré-audité ici.
 
 ## Recommandations laissées
