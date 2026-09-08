@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: 11/07/2026 → 07/07/2027
 detection: 2026-07-17
 verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revuérifié, entrée toujours
+statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revérifié, entrée toujours
   présente (segment 6.35, id 2599515, validité 11.07.2026-07.07.2027, change_date 08/07/2026
   inchangée) ; déviation toujours balisée et opérationnelle (Prayon↔Branche via rive droite
   de la Dranse de Ferret). Une synthèse de presse (Le Nouvelliste, non datée avec certitude)

@@ -5,14 +5,14 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 12 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 01/09, en retrait par rapport aux 16 communes nommées le 27/08) ; quatorze communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sahune, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : liste de référence PNR Baronnies Provençales relue en
-  direct, toujours datée « mise à jour le 01/09/26 », toujours les 12 mêmes communes
-  nommées avec leurs arrêtés datés (Châteauneuf-de-Bordette, Curnier, La Charce,
-  La Penne-sur-Ouvèze, Lemps, Les Pilles, Pierrelongue, Pommerol, Sainte-Euphémie-sur-Ouvèze,
-  Saint-Sauveur-Gouvernet, Teyssières, Verclause), aucune nouvelle disparition ni nouvel
-  ajout. Sévérité maintenue HAUTE : ce ne sont pas des hypothèses mais des arrêtés
-  municipaux datés et toujours en vigueur.
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
+  municipaux datés, pas une hypothèse à 14 jours). Liste de référence PNR Baronnies
+  Provencales relue en direct, toujours datée « mise à jour le 01/09/26 », toujours les 12
+  mêmes communes nommées avec leurs arrêtés datés (Châteauneuf-de-Bordette, Curnier,
+  La Charce, La Penne-sur-Ouvèze, Lemps, Les Pilles, Pierrelongue, Pommerol,
+  Sainte-Euphémie-sur-Ouvèze, Saint-Sauveur-Gouvernet, Teyssières, Verclause), aucune
+  nouvelle disparition ni nouvel ajout. Sévérité maintenue HAUTE.
 ordre: 32
 ---
 
