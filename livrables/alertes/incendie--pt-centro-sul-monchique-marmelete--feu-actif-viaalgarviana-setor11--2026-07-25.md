@@ -20,8 +20,8 @@ Sans objet : **aucune fermeture de sentier n'a été confirmée à aucun moment 
 
 ## Zone (détails)
 
-Pic de mobilisation : 107 effectifs, 33 véhicules terrestres, 2 engins à chenilles et 3 moyens aériens en phase de consolidation (matinée du 25/07) ; vent de 49 km/h Nord au moment du départ de feu. Au 26/07, l'API fogos.pt affiche le statut « Vigilância » (vert), 22 personnels, 7 véhicules terrestres et 0 moyen aérien engagé. Aucun avis de fermeture n'a été trouvé sur blog.rotavicentina.com/mapa-de-avisos ni dans la presse (Barlavento, Renaçenca, Agroportal, Postal.pt) pour le GR®13 et la Via Algarviana.
+Pic de mobilisation : 107 effectifs, 33 véhicules terrestres, 2 engins à chenilles et 3 moyens aériens en phase de consolidation (matinée du 25/07) ; vent de 49 km/h Nord au moment du départ de feu. Au 26/07, l'API fogos.pt affiche le statut « Vigilância » (vert), 22 personnels, 7 véhicules terrestres et 0 moyen aérien engagé. Aucun avis de fermeture n'a été trouvé sur blog.rotavicentina.com/mapa-de-avisos ni dans la presse (Barlavento, Renaçença, Agroportal, Postal.pt) pour le GR®13 et la Via Algarviana.
 
 ## Source
 
-[api.fogos.pt/new/fires](https://api.fogos.pt/new/fires) ; [Barlavento, 25/07/2026, incêndio em Monchique dominado](https://www.barlavento.pt/incendio-monchique-vale-agua-dominado-manha/) ; [Renaçenca, 25/07/2026](https://rr.pt/noticia/pais/2026/07/25/perto-de-uma-centena-de-operacionais-combatem-fogo-em-monchique/479530/) ; [Agroportal, 25/07/2026](https://www.agroportal.pt/incendios-fogo-em-monchique-foi-dominado/)
+[api.fogos.pt/new/fires](https://api.fogos.pt/new/fires) ; [Barlavento, 25/07/2026, incêndio em Monchique dominado](https://www.barlavento.pt/incendio-monchique-vale-agua-dominado-manha/) ; [Renaçença, 25/07/2026](https://rr.pt/noticia/pais/2026/07/25/perto-de-uma-centena-de-operacionais-combatem-fogo-em-monchique/479530/) ; [Agroportal, 25/07/2026](https://www.agroportal.pt/incendios-fogo-em-monchique-foi-dominado/)
