@@ -23,7 +23,7 @@ statut: [CLÔTURÉ] (2026-08-27) — 18 jours sans aucune source postérieure au
   négatif. ⚠️ Piège écarté : l'article infobierzo du 28/07 sur des incendies « stabilisés »
   en province de León cite un autre foyer « Quintela », situé à Balboa, distinct de celui-ci
   (commune de Barjas) ; un troisième lieu-dit « Quintela », rattaché cette fois au complexe
-  Murias de Ponjos (Омаa, fiche clôturée `incendie|ES-CYL-Murias-de-Ponjos|…`), confirme
+  Murias de Ponjos (Омaa, fiche clôturée `incendie|ES-CYL-Murias-de-Ponjos|…`), confirme
   que le nom se répète dans plusieurs communes du Bierzo/León sans lien entre elles.
   15/08 : nouvelle recherche ciblée toujours infructueuse, le nom Barjas n'apparaît dans
   aucun récapitulatif postérieur au 09/08. Statut de résolution non tranché, à confirmer
