@@ -125,7 +125,7 @@ aurait sinon été des alertes perdues, sans en ajouter au compte visible avant 
 3. Recommandations non appliquées du 24/08 toujours valables si le nombre d'alertes augmente
    sur ces zones : `CH-EST` (scission `CH-EST-RHIN`/`CH-OBERLAND`), `IT-CENTRE` (scission
    `IT-TOSCANE-NO`/`IT-LAZIO`), `IT-DOLOMITES` (à surveiller), `ES-CENTRO`, `ES-CYL`, `AT`,
-   `IT-NO` — non revuérifiées aujourd'hui, hors périmètre du déclenchement du 08/09 qui ne
+   `IT-NO` — non revérifiées aujourd'hui, hors périmètre du déclenchement du 08/09 qui ne
    portait que sur les deux zones perdues.
 
 ---
@@ -266,7 +266,7 @@ Les deux défauts de vue signalés le 12/08 restent hors du périmètre de cet a
 (`build_site.py` au sens visuel) : vérification rapide, non exhaustive, pour information —
 `maxBounds` de la carte va bien jusqu'à 60° E (`site/index.html`, commentaire « La limite EST
 doit englober La Réunion ») et `leaflet.css` est chargé dynamiquement (`site/index.html`
-ligne 6725) — les deux correctifs du 12/08 semblent tenus. Je n'ai pas revuérifié le contraste
+ligne 6725) — les deux correctifs du 12/08 semblent tenus. Je n'ai pas revérifié le contraste
 des popups en conditions réelles de navigateur : hors périmètre, non ré-audité ici.
 
 ## Recommandations laissées

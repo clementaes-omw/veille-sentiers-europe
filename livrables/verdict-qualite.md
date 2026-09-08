@@ -188,15 +188,15 @@ plus récente, ce n'est pas un défaut de rédaction des fiches.
    Ziegenrücken, ou confirmer explicitement qu'aucune n'est parue. Sans effet sur la sévérité
    HAUTE (fait établi, pas hypothèse).
 3. **Creta-Samaria** — FAIL fraîcheur (4 j, seuil 2 j, restriction décidée au jour le jour) :
-   revuérifier samaria.gr et crete.gov.gr pour le statut du jour.
+   revérifier samaria.gr et crete.gov.gr pour le statut du jour.
 4. **Ariège Esbintz-Valier** — poursuivre la recherche d'une 5e reconduction ou d'une levée de
    l'arrêté feu séparé (15 j de silence au 08/09) ; sans effet sur la sévérité HAUTE, déjà
    justifiée par la fermeture de terrain (arrêté du 31/08, chutes de pierres).
-5. **Schwarzwald-Oppenau** — FAIL fraîcheur (16 j, seuil 12 j) : revuérifier oppenau.de
+5. **Schwarzwald-Oppenau** — FAIL fraîcheur (16 j, seuil 12 j) : revérifier oppenau.de
    (« Wegsperrungen » et « Aufhebung Wegsperrungen »).
 6. **Drôme Justin** — rechercher une mise à jour de l'étude de risque ONF ou une date de
    levée ; sévérité HAUTE déjà justifiée par l'arrêté du 21/08 en vigueur.
-7. **Fontainebleau** — FAIL fraîcheur (17 j, seuil 12 j) : revuérifier seine-et-marne.gouv.fr
+7. **Fontainebleau** — FAIL fraîcheur (17 j, seuil 12 j) : revérifier seine-et-marne.gouv.fr
    pour le détail cartographique des parcelles encore fermées.
 8. **Bois Noir** — remplacer si possible la source `paysdesecrins.com/vigileance-feu-en-
    cours/` (toujours 404) ; rechercher une mise à jour sur la levée éventuelle de l'arrêté
@@ -204,7 +204,7 @@ plus récente, ce n'est pas un défaut de rédaction des fiches.
 9. **PO-66** — les 7 massifs hors Corbières/Roussillon restent non tranchés depuis le
    communiqué du 27/08 ; poursuivre le recoupement au prochain passage.
 10. **Esterel-Tanneron (06)** — le classement du jour est inconnu depuis 8 jours (restriction
-    journalière) : revuérifier presseagence.fr/alpes-maritimes.gouv.fr.
+    journalière) : revérifier presseagence.fr/alpes-maritimes.gouv.fr.
 
 Aucune suppression, aucune clôture et aucune dégradation de sévérité appliquée : les
 12 fiches restent ACTIVES, les 4 alertes rouges restent HAUTE (justifiées par un fait établi,
