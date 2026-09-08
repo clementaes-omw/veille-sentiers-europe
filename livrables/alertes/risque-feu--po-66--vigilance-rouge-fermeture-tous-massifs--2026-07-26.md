@@ -5,13 +5,11 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: HAUTE
 validite: vigilance rouge en vigueur jusqu'à levée officielle sur au moins 2 massifs (Corbières, Roussillon), confirmée par un article de presse daté du 03/09/2026 ; statut des 7 autres massifs (Fenouillèdes, Aspres, Albères, Capcir, Cerdagne, Conflent, Vallespir) non repris par ce texte, non tranché
 detection: 2026-07-27
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : nouvelle recherche, rien de postérieur au 03/09 retrouvé
-  sur le statut nommé des massifs. Corroboration indirecte trouvée : au moins cinq départs
-  de feu distincts ont été maîtrisés en quelques heures entre le 03 et le 04/09 dans le
-  secteur Corbières/Roussillon (Tautavel, Canet-en-Roussillon, Sainte-Marie-la-Mer,
-  Perpignan), cohérents avec le classement en risque exceptionnel de ces deux massifs ce
-  jour-là. Statut des 7 autres massifs toujours non tranché. Sévérité maintenue HAUTE.
+verif: 2026-09-08
+statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche ciblée (pyrenees-orientales.gouv.fr,
+  presse quotidienne 66), rien de postérieur au 03/09 retrouvé sur le statut nommé des
+  massifs. Statut des 7 autres massifs toujours non tranché. Sévérité maintenue HAUTE (base
+  = classement officiel daté du 03/09, pas une hypothèse à 14 jours).
 ordre: 56
 ---
 
