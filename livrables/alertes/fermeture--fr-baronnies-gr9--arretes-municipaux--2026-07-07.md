@@ -38,7 +38,7 @@ MAJ 27/07 : échéance désormais dépassée sans confirmation ; mairiedesaillan
 
 MAJ 28/07 : fetch direct de mairiedesaillans26.fr tenté. Le seul contenu pertinent est une page du 01/07/2026 sur l'arrêté préfectoral sécheresse (restriction d'eau), sans page sur l'arrêté de fermeture de massif ni sur son échéance du 26/07 ; statut de Saillans toujours indéterminé.
 
-MAJ 29/07 : mairiedesaillans26.fr raîfraîchie en direct, toujours aucune page dédiée ; fiche drome-cestmanature.com raîfraîchie le 27/07 mais texte Saillans identique et Plan de Baix toujours affiché comme actif, ce qui confirme le retard structurel de cette source.
+MAJ 29/07 : mairiedesaillans26.fr rafraîchie en direct, toujours aucune page dédiée ; fiche drome-cestmanature.com rafraîchie le 27/07 mais texte Saillans identique et Plan de Baix toujours affiché comme actif, ce qui confirme le retard structurel de cette source.
 
 MAJ 31/07 : mairiedesaillans26.fr re-vérifié en direct, toujours aucune page dédiée à l'arrêté ni à son échéance ; aucune autre source (drome-cestmanature.com, baronnies-provencales.fr) avec une date postérieure au 27/07 n'a été trouvée, le trou structurel déjà identifié se confirme. Saillans traitée par défaut comme toujours active (absence de signal ≠ levée).
 

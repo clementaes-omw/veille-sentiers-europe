@@ -56,7 +56,7 @@ MAJ 28/08 : mairie-die.fr (article « Accès interdit aux forêts de Justin, Lau
 
 MAJ 07/09 : nouvelle confirmation indirecte, via un article titrespresse.com daté d'environ début septembre (« La chasse interdite sur le massif de Justin, une décision comprise par la fédération de chasse ») : l'ouverture générale de la chasse dans la Drôme, fixée au 13/09/2026, exclut explicitement les massifs du Claps et de Justin, touchés par les incendies de l'été. Le président de la fédération départementale de chasse dit comprendre cette restriction. C'est une confirmation datée récente que la fermeture reste effective, cohérente avec l'arrêté du 21/08 (sans échéance calendaire). Aucune autre source plus directe (drome.gouv.fr, RAA) n'a produit de texte plus récent.
 
-MAJ 09/09 : mairie-die.fr et drome.gouv.fr revuérifiés, aucun texte postérieur au 21/08 retrouvé. L'arrêté du 21/08/2026 reste le dernier acte connu, sans échéance calendaire ni levée publiée.
+MAJ 09/09 : mairie-die.fr et drome.gouv.fr revérifiés, aucun texte postérieur au 21/08 retrouvé. L'arrêté du 21/08/2026 reste le dernier acte connu, sans échéance calendaire ni levée publiée.
 
 ## Source
 
