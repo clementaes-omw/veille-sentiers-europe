@@ -57,7 +57,8 @@ DE-SW;Forêt-Noire (Bade-Wurtemberg, Westweg);48.30;8.20
 DE-SACHSEN;Suisse saxonne (Malerweg, Elbsandstein);50.93;14.10
 BENELUX;Belgique, Luxembourg & Pays-Bas (Ardennes);50.20;5.50
 # --- Extension v3 (Scandinavie, Balkans, Grèce, Tatras) ---
-SCAND-NO;Norvège (Jotunheimen, Hardangervidda, Lofoten);61.50;8.50
+SCAND-NO;Norvège (Jotunheimen, Hardangervidda);61.50;8.50
+SCAND-NO-Lofoten;Lofoten (Kvalvika, Ryten);68.10;13.10
 SCAND-SE;Suède (Laponie, Kungsleden);67.80;18.50
 SI-HR;Slovénie & Croatie (Alpes juliennes, Triglav);46.20;14.10
 GR-E4;Grèce (Crète, Péloponnèse — E4);35.30;24.00
