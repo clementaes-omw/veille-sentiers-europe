@@ -5,7 +5,7 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (désescalade totale depuis le 01/09 — aucun massif fermé, source de presse unique)
 validite: journalière ; aucun massif fermé au 08/09, 3 en orange (Centre-Var, Estérel, Maures), les 6 autres en modéré, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-09-08
+verif: 2026-09-09
 statut: ACTIF — CHANGÉ 08/09 : varactu.fr (mardi 8 septembre), légère décrue, trois massifs
   classés sévère (orange) : Centre-Var, Estérel et Maures, contre quatre la veille (la
   Corniche des Maures repasse en modéré). Les six autres (Monts Toulonnais, Sainte-Baume,

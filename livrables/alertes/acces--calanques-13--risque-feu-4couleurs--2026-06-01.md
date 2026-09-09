@@ -5,16 +5,16 @@ itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : cg13.eway.fr consultée en direct (prévision du 08-09-2026),
-  2e jour de vert intégral sur les 24 massifs du département. Aucun massif jaune, orange
+verif: 2026-09-09
+statut: ACTIF — INCHANGÉ 09/09 : cg13.eway.fr consultée en direct (prévision du 09-09-2026),
+  3e jour de vert intégral sur les 24 massifs du département. Aucun massif jaune, orange
   ou rouge. Sévérité maintenue MOYENNE (situation redevenue calme).
 ordre: 7
 ---
 
 ## Portion concernée
 
-Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce mardi 08/09, **les 24 massifs du département sont classés vert** pour un 2e jour consécutif, dont les Calanques entre Marseille et Cassis (GR®98), la Côte Bleue, Concors, Sainte-Victoire, Sainte-Baume, l'Arbois et le Montaiguet : aucune restriction en cours. Source : cg13.eway.fr, conditions.php (prévision du 08-09-2026).
+Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce mercredi 09/09, **les 24 massifs du département sont classés vert** pour un 3e jour consécutif, dont les Calanques entre Marseille et Cassis (GR®98), la Côte Bleue, Concors, Sainte-Victoire, Sainte-Baume, l'Arbois et le Montaiguet : aucune restriction en cours. Source : cg13.eway.fr, conditions.php (prévision du 09-09-2026).
 
 ## Alternative
 
@@ -81,6 +81,8 @@ MAJ 05/09 : la Côte Bleue et l'Arbois repassent au rouge (fermés), confirmé p
 MAJ 07/09 : nouvelle désescalade totale, cg13.eway.fr (prévision du 07-09-2026) repasse les 24 massifs du département au vert, y compris la Côte Bleue et l'Arbois qui étaient rouges le 05/09. Aucun massif jaune, orange ou rouge.
 
 MAJ 08/09 : stabilité confirmée, cg13.eway.fr (prévision du 08-09-2026) reconduit le vert intégral sur les 24 massifs du département pour un 2e jour consécutif. Aucun massif jaune, orange ou rouge.
+
+MAJ 09/09 : stabilité confirmée, cg13.eway.fr (prévision du 09-09-2026) reconduit le vert intégral sur les 24 massifs du département pour un 3e jour consécutif. Aucun massif jaune, orange ou rouge.
 
 ## Source
 

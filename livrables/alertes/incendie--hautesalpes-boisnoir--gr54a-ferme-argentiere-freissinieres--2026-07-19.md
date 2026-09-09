@@ -9,24 +9,14 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : recherche CIBLÉE sur l'acte manquant (reconduction, levée,
-  ou disparition de trace), conforme à l'escalade des 14 jours. Deux pages de la mairie de
-  L'Argentière-la-Bessée relues en direct (ville-argentiere.fr/feu-bois-noir-informations
-  et sa page « vie pratique » dédiée) : l'arrêté municipal du 15/08/2026 reste celui cité
-  comme en vigueur, présenté comme une mesure de protection maintenue « en attendant de
-  recevoir l'ensemble des avis des autorités compétentes » en vue d'une réouverture, sans
-  échéance calendaire ni nouvel arrêté de reconduction distinct. Aucun acte de levée
-  trouvé. La règle des 14 jours (agent-prompt.md) porte sur les portions fondées sur « à
-  confirmer »/« probable », pas sur un acte officiel republié et confirmé par lecture
-  directe de la source qui l'administre : elle ne s'applique donc pas ici, l'alerte reste
-  fondée sur un fait établi (arrêté en vigueur), pas une hypothèse. hautes-alpes.gouv.fr et
-  ecrins-parcnational.fr (page vigilance incendie) toujours calés respectivement sur leurs
-  dernières dates connues (30-31/07 et 28/07). paysdesecrins.com/vigileance-feu-en-cours/
-  toujours en 404 ; paysdesecrins.com/etat-des-sentiers/ relue en direct : mentionne le
-  GR®54 comme « presque entièrement praticable » mais ne dit toujours rien du Bois Noir ni
-  des parcours numérotés fermés, donc pas exploitable comme remplacement. ville-argentiere.fr
-  reste la seule source à jour sur la base réglementaire de la fermeture.
+verif: 2026-09-09
+statut: ACTIF — INCHANGÉ 09/09 : nouvelle recherche (hautes-alpes.gouv.fr, ecrins-parcnational.fr,
+  presse), rien de postérieur trouvé sur le massif du Bois Noir lui-même. L'arrêté municipal
+  du 15/08/2026 reste, à la connaissance de cette veille, le dernier acte cité en vigueur.
+  Sévérité maintenue HAUTE (fait établi, pas une hypothèse à 14 jours). À noter : le Parc
+  national des Écrins publie le 04/09/2026 un point de situation distinct sur les dégâts de
+  crue du 27-28/08 dans le massif voisin (Vallouise, Oisans, Valgaudemar), traité dans une
+  fiche séparée `conditions|Ecrins-GR54|crue-degats-vallouise-oisans-valgaudemar|2026-08-27`.
 ordre: 41
 ---
 
@@ -81,6 +71,8 @@ MAJ 05/09 : la page de l'Office de tourisme du Pays des Écrins jusqu'ici citée
 MAJ 07/09 : paysdesecrins.com/vigileance-feu-en-cours/ toujours en erreur 404. Deux pistes de remplacement testées sans succès : cc-paysdesecrins.fr/actualites/665-ndonnee (« Fermeture des sentiers de randonnée, liaison Freissinières/L'Argentière-La Bessée ») est datée du 20/07/2026, antérieure aux informations déjà connues et sans détail par numéro de parcours ; paysdesecrins.com/etat-des-sentiers/, page générale sur l'état des sentiers du secteur, ne mentionne ni le Bois Noir ni les parcours fermés (elle se limite au GR®54, au Tour du Pays des Écrins et à deux autres itinéraires, sans évoquer la fermeture en cours) : son silence ne vaut pas levée de la fermeture, il signale seulement qu'elle ne traite pas ce sujet. ville-argentiere.fr, relue en direct, confirme l'arrêté municipal du 15/08/2026 toujours en vigueur, sans date de levée. ecrins-parcnational.fr toujours daté du 28/07, GR®54A toujours donné fermé.
 
 MAJ 08/09 : nouvelle vérification de la base réglementaire de la fermeture, plus de trois semaines après la signature de l'arrêté. Deux pages distinctes de la mairie de L'Argentière-la-Bessée (la page dédiée déjà citée et une page « vie pratique » listant les documents 2026 liés au feu du Bois Noir) confirment toutes deux que l'arrêté municipal du 15/08/2026 reste l'acte en vigueur, sans reconduction formalisée par un nouvel arrêté ni levée. Aucune trace d'un acte plus récent n'a été trouvée sur hautes-alpes.gouv.fr, ecrins-parcnational.fr ou dans la presse locale. Faute d'un acte de levée et compte tenu que la fermeture repose sur un texte officiel republié et confirmé, et non sur une simple hypothèse à recouper, l'alerte reste au niveau HAUTE.
+
+MAJ 09/09 : nouvelle recherche générale sur le massif du Bois Noir, rien de postérieur trouvé. Un point de situation distinct du Parc national des Écrins, daté du 04/09/2026, documente des dégâts de crue du 27-28/08 dans les vallées voisines (Vallouise, Oisans, Valgaudemar) : voir la fiche dédiée `conditions|Ecrins-GR54|crue-degats-vallouise-oisans-valgaudemar|2026-08-27`, sans lien de cause avec l'incendie du Bois Noir.
 
 ## Source
 

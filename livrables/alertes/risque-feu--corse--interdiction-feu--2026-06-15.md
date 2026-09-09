@@ -5,12 +5,12 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : haute-corse.gouv.fr relu en direct, toujours calé sur
+verif: 2026-09-09
+statut: ACTIF — INCHANGÉ 09/09 : haute-corse.gouv.fr relu en direct, toujours calé sur
   l'arrêté du 19/08/2026 (dernière mise à jour de la page datée du 18/08), aucun acte plus
-  récent trouvé. Recherche générale sur les feux corses du jour : aucun nouveau départ de
-  feu trouvé au-delà de ceux déjà connus (Calenzana Marsulinu, 05/09). Interdiction générale
-  de feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+  récent trouvé. Un feu mineur supplémentaire (Ajaccio-Castelluccio, 08/09, déjà éteint) est
+  documenté ci-dessous. Interdiction générale de feu (15/06→30/09) toujours en vigueur par
+  défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 
@@ -53,6 +53,8 @@ MAJ 05/09 : haute-corse.gouv.fr relu directement, toujours calé sur l'arrêté 
 MAJ 07/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate). Un troisième feu mineur s'est déclaré le 05/09/2026 à Calenzana, au lieu-dit Marsulinu : un véhicule prend feu et se propage au maquis environnant sur trois points distincts, pour environ 200 m² de végétation brûlée, la RD81 étant temporairement coupée avant de rouvrir. Aucune fermeture de sentier rapportée. Toujours aucune reprise signalée sur le feu de Montegrosso (27/08) ni sur le secteur Albertacce/Niolu.
 
 MAJ 08/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026, aucun acte plus récent trouvé. Une recherche générale sur l'actualité des incendies corses (Haute-Corse et Corse-du-Sud) ne fait remonter aucun nouveau départ de feu ce jour, hors un incendie de six véhicules survenu de nuit à Bastia (fait divers urbain, sans lien avec un massif ou un sentier).
+
+MAJ 09/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026. Deux départs de feu distincts se sont déclarés le 08/09/2026 à Castelluccio (commune d'Ajaccio, Corse-du-Sud), vers 14h40, pour 500 m² et 50 m² de végétation en accès terrestre difficile ; les deux foyers sont éteints le jour même, seize sapeurs-pompiers et des moyens aériens engagés. Ajaccio n'est traversé par aucun itinéraire suivi (GR®20, Mare a Mare, Mare e Monti passent plus au nord), aucune fermeture de sentier ni de route n'en résulte.
 
 ## Source
 

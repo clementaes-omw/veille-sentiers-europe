@@ -576,7 +576,7 @@ ALIAS_ZONE = {
     "Calanques-13": "FR-13",
     "Var-83": "FR-83", "Var-Gros-Bessillon": "FR-83", "Var-Ginasservis": "FR-83",
     "Gard-30": "FR-30-48", "Lozere-Massegros-Causses-Gorges": "FR-30-48",
-    "Lozere-La-Bastide-Puylaurent": "FR-30-48",
+    "Lozere-La-Bastide-Puylaurent": "FR-30-48", "Lozere-Bondons": "FR-30-48",
     "Hérault-34": "FR-34-11", "Aude-11": "FR-34-11", "Aude-Montseret-Corbieres": "FR-34-11",
     "Aude-Conques-sur-Orbiel": "FR-34-11", "Herault-34-Pegairolles-Escalette": "FR-34-11",
     "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
@@ -622,6 +622,9 @@ ALIAS_ZONE = {
     "DE-Schwarzwald-Oppenau": "DE-SW",
     # Royaume-Uni / Portugal — même raison : les Cairngorms pointaient dans le Lake District.
     "UK-Cairngorms-Glenmore": "UK-SCOTLAND", "Matosinhos-PT": "PT-NORTE",
+    "UK-PennineWay-AlstonGarrigill": "UK-IE",
+    # Norvège — Lofoten est à ~750 km du centroïde SCAND-NO (Jotunheimen) : code dédié.
+    "NO-Lofoten-KvalvikaRyten": "SCAND-NO-Lofoten",
     # Baléares
     "GR221-222-Mallorca": "ES-BALEARES",
     # Balkans / Tatras

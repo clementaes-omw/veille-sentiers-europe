@@ -5,19 +5,12 @@ itin: GR®167 Sierra Norte de Guadalajara, étape 1 (Majadas del Bornoba↔Prade
 sev: HAUTE (fermeture officielle de balisage, sans date de réouverture)
 validite: incendie de La Mierla déclaré officiellement éteint le 04/09/2026 à 18h30 après 51 jours d'opération (bilan final 34 447 ha) ; GR®167 étape 1 et GR®167.1 restent fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée ; GR®10-ES (Cogolludo↔Muriel↔Tamajón) fermé depuis le 17/07/2026 pour la même raison, également sans date de réouverture
 detection: 2026-07-24
-verif: 2026-09-08
-statut: ACTIF — CHANGÉ 07/09 : recherche ciblée sur senderosdecastillalamancha.org (source
-  officielle) : un second tronçon est fermé pour le même incendie depuis le 17/07/2026 sans
-  aucune mise à jour depuis cette date, le GR®10-ES entre Cogolludo, Muriel et Tamajón (avis
-  « CIERRE DEL GR 10 entre Cogolludo y Tamajón », index.php/noticias/124) ; il avait été omis
-  du recoupement du 04/09. GR®167 étape 1 et GR®167.1 : page de l'étape reconsultée
-  directement, statut « en révision » inchangé depuis le 29/07, toujours aucune annonce de
-  réouverture. Acte officiel nouveau trouvé : DOCM n°169 du 03/09/2026, accord du Conseil de
-  gouvernement du 01/09/2026 fixant le périmètre du Plan de récupération de la Sierra Norte de
-  Guadalajara (recouvrement environnemental, infrastructures, économie) ; ne fixe aucune date
-  de réouverture de sentier. Sévérité maintenue HAUTE : fermeture officielle confirmée sur
-  deux tronçons, sans date de fin sur aucun des deux. Piste ouverte : réouverture du GR®167 et
-  du GR®10-ES, levée éventuelle des douze pistes forestières de la Sierra Oeste de Madrid.
+verif: 2026-09-09
+statut: ACTIF — INCHANGÉ 09/09 : pages officielles senderosdecastillalamancha.org
+  reconsultées directement (étape 1 du GR®167, GR®167.1, noticias) : statut « En revisión »
+  inchangé sur les deux tronçons, aucune mise à jour de l'avis GR®10-ES (Cogolludo↔Tamajón)
+  du 17/07. Aucune recherche (ES ou presse Guadalajara) ne remonte de date de réouverture.
+  Sévérité maintenue HAUTE.
 ordre: 48
 ---
 
@@ -42,6 +35,8 @@ MAJ 04/09 : deux faits nouveaux. Premièrement, un recoupement itinéraire direc
 MAJ 05/09 : l'incendie de La Mierla est officiellement déclaré éteint le vendredi 4 septembre 2026 à 18h30, après 51 jours d'opération depuis sa détection le 16/07, pour un bilan final de 34 447 ha. Plus de 1 125 effectifs et 240 moyens, dont l'Unité militaire d'urgence espagnole, ont été mobilisés au total sur la durée de l'intervention. La déclaration d'extinction ne s'accompagne d'aucune annonce de réouverture : le site officiel des sentiers de Castille-La Manche, reconsulté ce jour, ne porte toujours aucun avis postérieur au 29/07/2026 sur le GR®167 étape 1 et le GR®167.1, dont le balisage reste à reconstituer sans date annoncée. Aucune information nouvelle sur les douze pistes forestières fermées dans la Sierra Oeste de Madrid.
 
 MAJ 07/09 : nouvelle vérification sur senderosdecastillalamancha.org, source officielle des sentiers homologués de Castille-La Manche. Un second tronçon fermé pour le même incendie, jamais recoupé jusqu'ici, est identifié : le GR®10-ES entre Cogolludo, Muriel et Tamajón, fermé depuis le 17/07/2026 par un avis intitulé « CIERRE DEL GR 10 entre Cogolludo y Tamajón », qui recommande d'éviter en particulier l'accès à la zone du río Sorbe dans son cours moyen ; aucune mise à jour n'a été publiée depuis. La page dédiée à l'étape 1 du GR®167 a également été reconsultée directement (pas seulement la liste des actualités) : elle affiche toujours le statut « en révision », sans date. Sur le plan administratif, le DOCM n°169 du 03/09/2026 publie un accord du Conseil de gouvernement de Castille-La Manche du 01/09/2026 fixant le périmètre territorial du Plan de récupération de la Sierra Norte de Guadalajara (volets environnemental, infrastructures, économique) ; ce texte ne fixe aucune date de réouverture de sentier. La Diputación de Guadalajara a par ailleurs approuvé un plan de signalisation de 16 itinéraires de randonnée et cyclotourisme (340 000 euros, 9 mois d'exécution), mais la source trouvée ne permet pas de confirmer s'il inclut le GR®167 ou le GR®10-ES, ni sa date de publication exacte : piste non confirmée.
+
+MAJ 09/09 : pages officielles reconsultées directement (étape 1 du GR®167, GR®167.1, liste des noticias) : statut « En revisión » identique sur les deux tronçons, aucune mise à jour de l'avis GR®10-ES du 17/07. Aucune date de réouverture trouvée pour l'un ou l'autre des trois tronçons.
 
 ## Source
 
