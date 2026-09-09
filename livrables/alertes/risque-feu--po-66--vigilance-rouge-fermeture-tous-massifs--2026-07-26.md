@@ -5,11 +5,13 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: HAUTE
 validite: vigilance rouge en vigueur jusqu'à levée officielle sur au moins 2 massifs (Corbières, Roussillon), confirmée par un article de presse daté du 03/09/2026 ; statut des 7 autres massifs (Fenouillèdes, Aspres, Albères, Capcir, Cerdagne, Conflent, Vallespir) non repris par ce texte, non tranché
 detection: 2026-07-27
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche ciblée (pyrenees-orientales.gouv.fr,
-  presse quotidienne 66), rien de postérieur au 03/09 retrouvé sur le statut nommé des
-  massifs. Statut des 7 autres massifs toujours non tranché. Sévérité maintenue HAUTE (base
-  = classement officiel daté du 03/09, pas une hypothèse à 14 jours).
+verif: 2026-09-09
+statut: ACTIF — INCHANGÉ 09/09 : nouvelle recherche (pyrenees-orientales.gouv.fr,
+  madeinperpignan.com), rien de postérieur au 03/09 retrouvé sur le statut nommé des
+  massifs. madeinperpignan.com ne porte que des articles du 07/09 sur la reconstruction et
+  l'indemnisation post-incendies, aucun nouveau départ de feu. Statut des 7 autres massifs
+  toujours non tranché. Sévérité maintenue HAUTE (base = classement officiel daté du 03/09,
+  pas une hypothèse à 14 jours).
 ordre: 56
 ---
 
@@ -42,6 +44,8 @@ MAJ 14/08 : la page listant les communiqués de presse d'août 2026 de la préfe
 MAJ 28/08 : un communiqué de la préfecture des Pyrénées-Orientales, daté du jeudi 27/08/2026 à 8h12 et cité intégralement par la mairie de Torderès (commune du massif des Aspres), confirme que « le risque incendie reste exceptionnel dans les massifs des Corbières, Fenouillèdes, Aspres, Roussillon et Albères » et que « les massifs sont en vigilance rouge », avec interdiction totale d'accès et d'usage du feu. Ce texte, reproduction directe de la communication préfectorale, comble le silence documenté depuis le 07/08 et confirme le maintien de la fermeture sur ces 5 massifs : la sévérité repasse de MOYENNE à HAUTE. Les massifs du Capcir, de la Cerdagne, du Conflent et du Vallespir ne sont pas mentionnés par ce communiqué, leur statut individuel reste donc non tranché.
 
 MAJ 04/09 : titrespresse.com, article daté « ce jeudi 3 septembre » (jour de semaine cohérent avec le calendrier 2026), rapporte que la préfecture place les Corbières et le Roussillon en risque incendie exceptionnel ce jour-là. Le Fenouillèdes, les Aspres et les Albères, nommés le 27/08, n'apparaissent plus dans ce texte plus court : signal possible d'un resserrement du périmètre, mais non traité comme une levée en l'absence d'un acte explicite pour ces trois massifs. Sévérité maintenue HAUTE pour Corbières/Roussillon, seuls massifs confirmés par une source datée du jour.
+
+MAJ 09/09 : aucun texte postérieur au 03/09 retrouvé sur pyrenees-orientales.gouv.fr ni madeinperpignan.com. Le seul fait nouveau relevé dans le département est un feu de véhicule propagé à la végétation le 31/08/2026 à Laroque-des-Albères, déjà résolu, sans lien avec le classement rouge des Corbières et du Roussillon ni avec le massif des Albères (voir la fiche dédiée). Statut des Corbières et du Roussillon inchangé, celui des 7 autres massifs toujours non tranché.
 
 ## Source
 
