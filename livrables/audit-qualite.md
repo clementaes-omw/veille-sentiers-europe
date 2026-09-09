@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-09-09
 
-88 alertes actives · 9 fiches avec au moins un constat · **0 bloquant(s)**, 9 alerte(s), 0 info(s).
+88 alertes actives · 7 fiches avec au moins un constat · **0 bloquant(s)**, 7 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -8,9 +8,7 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## ⚠️ À traiter
 
-- **`conditions|Ecrins-GR54|crue-degats-vallouise-oisans-valgaudemar|2026-08-27`** — la validité annoncée s'arrête au 28/08/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`** — alerte rouge appuyée sur une source datée du 26/08 (14 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — « Portion concernée » parle du 01/09 alors que le suivi connaît la situation au 09/09 (8 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 5 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
 - **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (19 j) — retrouver une publication récente ou dégrader la sévérité.

@@ -1,11 +1,9 @@
 ---
 cle: conditions|Ecrins-GR54|crue-degats-vallouise-oisans-valgaudemar|2026-08-27
 type: conditions / terrain
-itin: GR®54 (Tour de l'Oisans, secteurs Vallouise, Oisans et Valgaudemar) ; cols de la Muzelle
-  et de Côte Belle (Valbonnais) déjà réparés
+itin: GR®54 (Tour de l'Oisans, secteurs Vallouise, Oisans et Valgaudemar) ; cols de la Muzelle et de Côte Belle (Valbonnais) déjà réparés
 sev: MOYENNE
-validite: dégâts constatés après la crue du 27-28/08/2026, plusieurs points déjà réparés ou
-  contournés par des passages provisoires, réparations complémentaires annoncées mi-septembre
+validite: dégâts constatés après la crue du 27-28/08/2026, plusieurs points déjà réparés ou contournés par des passages provisoires, réparations complémentaires annoncées mi-septembre 2026
 detection: 2026-09-09
 verif: 2026-09-09
 statut: ACTIF — NOUVEAU
