@@ -3,21 +3,21 @@ cle: incendie|FR-34-11-Puilaurens-Axat|feu-150ha-Camperie|2026-09-04
 type: incendie
 itin: GR®367 (Sentier Cathare, château de Puilaurens) ; GR®36 (gorges de l'Aude, secteur Axat) — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement géographique
 sev: MOYENNE
-validite: feu toujours actif et non fixé au lundi 07/09/2026, environ 250 hectares parcourus,
-  ne progresse plus
+validite: feu déclaré fixé le mardi 09/09/2026 matin, surface stabilisée à 225 hectares ;
+  70 pompiers restent mobilisés pour le noyage des points chauds résiduels
 detection: 2026-09-05
-verif: 2026-09-08
-statut: ACTIF — CHANGÉ 08/09 : le feu reste non fixé le lundi 07/09 (SDIS de l'Aude, relayé
-  par lejournaltoulousain.fr et titrespresse.com), surface révisée à environ 250 hectares
-  (contre 225 ha les jours précédents), moyens réduits à 150 pompiers. Les habitants du
-  hameau de Lavagnac, évacués, ont été autorisés à regagner leur domicile. Statut du château
-  de Puilaurens et de la D117 toujours non reconfirmé par une source dédiée.
+verif: 2026-09-09
+statut: ACTIF — CHANGÉ 09/09 : le feu est déclaré fixé le mardi 09/09 matin (infoccitanie.fr,
+  ICI.fr, titrespresse.com citant l'AFP), après cinq jours actif ; surface revue à 225 ha
+  (légère baisse par rapport aux ~250 ha estimés le 07/09). 70 pompiers et 23 véhicules
+  restent mobilisés pour le noyage des points chauds résiduels dans le massif. Statut du
+  château de Puilaurens et de la D117 toujours non reconfirmé par une source dédiée.
 ordre: 217
 ---
 
 ## Portion concernée
 
-**Commune de Puilaurens (Aude), entre le village et Axat, secteur du col de Camperie.** Le feu, toujours actif le lundi 07/09/2026, trois jours après son départ, a parcouru environ 250 hectares ; il ne progresse plus mais reste non fixé, les pompiers devant encore traiter les points chauds et noyer les lisières pour prévenir toute reprise, opérations qui doivent se poursuivre plusieurs jours. Raison : feu de forêt, propagation rapide favorisée par une chaleur de 40°C au moment du départ de feu, le vendredi 04/09 vers 16h. Les habitants du hameau de Lavagnac, évacués par précaution, ont été autorisés à regagner leur domicile. Le statut du château de Puilaurens (évacué par précaution le premier jour) et de la route départementale D117, coupée entre le rond-point de l'Ours et le hameau de La Pradelle, n'a pas été reconfirmé par une source postérieure au week-end. Aucune fermeture de sentier n'est documentée à ce stade.
+**Commune de Puilaurens (Aude), entre le village et Axat, secteur du col de Camperie.** Le feu est déclaré fixé le mardi 09/09/2026 au matin, cinq jours après son départ, pour une surface stabilisée à 225 hectares ; 70 pompiers et 23 véhicules restent sur place pour noyer les points chauds résiduels dans le massif, opérations qui se poursuivent encore. Raison : feu de forêt, propagation rapide favorisée par une chaleur de 40°C au moment du départ de feu, le vendredi 04/09 vers 16h. Les habitants du hameau de Lavagnac, évacués par précaution, ont été autorisés à regagner leur domicile depuis le 07/09. Le statut du château de Puilaurens (évacué par précaution le premier jour) et de la route départementale D117, coupée entre le rond-point de l'Ours et le hameau de La Pradelle, n'a pas été reconfirmé par une source dédiée. Aucune fermeture de sentier n'est documentée à ce stade.
 
 ## Alternative
 
@@ -32,6 +32,8 @@ MAJ 06/09 : le feu progresse à 225 hectares au matin du samedi 05/09 (contre 12
 MAJ 07/09 : point de situation de la préfecture de l'Aude du dimanche 06/09 à 10h30 (relayé par ICI et intelli.news) : le feu reste à 225 hectares, sans progression depuis la veille, mais toujours non fixé, la préfecture citant « des points chauds inaccessibles ». Un changement de direction du vent transforme l'arrière du feu en front actif, obligeant les pompiers à redéployer leur dispositif sur l'ensemble des 8 km de périmètre, en terrain très pentu (dénivelés jusqu'à 400 m). Plus de 300 pompiers restent mobilisés, avec 150 tuyaux déployés sur 3 km, des renforts venus de l'Hérault, du Tarn, de l'Aveyron, de l'Ariège, de la Haute-Garonne, des Pyrénées-Orientales, des marins-pompiers de Marseille et des militaires de la sécurité civile. La météo reste jugée « plutôt favorable » malgré des températures encore élevées (autour de 34°C). Aucun bilan postérieur au 06/09 10h30 retrouvé ; statut du château de Puilaurens et de la D117 toujours non reconfirmé.
 
 MAJ 08/09 : le lundi 07/09, trois jours après le départ de feu, le SDIS de l'Aude indique que le feu « n'est pas fixé » mais que les flammes ne progressent plus ; la surface parcourue est révisée à environ 250 hectares (contre 225 ha samedi et dimanche), et les moyens sont réduits à 150 pompiers. Les pompiers doivent traiter les points chauds et noyer les lisières, opérations qui doivent se poursuivre plusieurs jours. Les habitants du hameau de Lavagnac, évacués depuis le premier jour, ont été autorisés à regagner leur domicile. Aucune source consultée ne redonne le statut du château de Puilaurens ni de la D117 (rond-point de l'Ours↔La Pradelle) à cette date.
+
+MAJ 09/09 : le feu est déclaré fixé le mardi matin, après cinq jours actif (infoccitanie.fr, ICI.fr, titrespresse.com citant l'AFP). La surface est stabilisée à 225 hectares, une légère révision à la baisse par rapport à l'estimation de 250 ha du 07/09. 70 pompiers et 23 véhicules restent mobilisés pour le noyage des points chauds résiduels dans le massif. Le statut du château de Puilaurens et de la D117 reste non reconfirmé par une source dédiée.
 
 ## Source
 
