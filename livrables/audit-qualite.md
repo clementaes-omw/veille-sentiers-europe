@@ -1,4 +1,4 @@
-# Audit qualité du registre — 2026-09-08
+# Audit qualité du registre — 2026-09-09
 
 84 alertes actives · 7 fiches avec au moins un constat · **0 bloquant(s)**, 7 alerte(s), 0 info(s).
 
@@ -8,13 +8,13 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## ⚠️ À traiter
 
-- **`fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`** — alerte rouge appuyée sur une source datée du 26/08 (13 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 4 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
-- **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 16 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (18 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (15 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — alerte rouge appuyée sur une source datée du 28/08 (11 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`** — alerte rouge appuyée sur une source datée du 26/08 (14 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 5 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
+- **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (19 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** — vérifiée il y a 18 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (16 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — alerte rouge appuyée sur une source datée du 28/08 (12 j) — retrouver une publication récente ou dégrader la sévérité.
 
 ## 🗺 Cohérence carte / registre
 
