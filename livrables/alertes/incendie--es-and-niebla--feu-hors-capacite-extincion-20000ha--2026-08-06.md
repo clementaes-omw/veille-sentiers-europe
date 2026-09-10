@@ -12,7 +12,7 @@ validite: éteint (« incendio extinguido ») depuis le vendredi 21/08/2026 21h0
   jours après le déclenchement ; surface finale ~33 000 ha (mesure Copernicus), deuxième
   plus grand feu d'Andalousie derrière celui de Riotinto (34 000 ha)
 detection: 2026-08-11
-verif: 2026-09-08
+verif: 2026-09-10
 statut: [CLÔTURÉ] (2026-08-21) — le feu est déclaré officiellement éteint le 21/08/2026
   21h00 par plusieurs sources de presse concordantes. Aucune fermeture de sentier balisé
   n'a jamais été documentée sur l'ensemble de l'épisode.
@@ -71,7 +71,7 @@ préventive touche d'abord 70 personnes des lieux-dits Raboconejo, Caballón, La
 Las Arenas et El Manzanito, avant qu'un envoi d'ES-Alert n'élargisse l'évacuation à 340
 personnes supplémentaires de Berrocal, Marigenta, El Membrillo et El Pozuelo (El Guijo
 est également concerné par l'ordre d'évacuation mais est inhabité). Les évacués sont
-relogés au théâtre municipal Ruiz Tatay de Zalamea la Real.
+reloges au théâtre municipal Ruiz Tatay de Zalamea la Real.
 
 Le dispositif, coordonné par le Plan INFOCA en situation opérationnelle 2, mobilise plus
 de 500 personnes au sol au pic de l'intervention : 250 militaires de l'UME (avec 3
@@ -96,14 +96,14 @@ secteur entre El Pozuelo, Marigenta et El Berrocal, en combinant engins lourds, 
 terrestres et brûlages dirigés d'élargissement. Aucune source consultée ne documente
 d'impact sur un itinéraire balisé nommé ; les localités touchées se situent dans une
 zone de plaine agricole et de dehesa (Condado de Huelva), à l'écart des tracés connus
-du GR®7/E4 ou du Camino Mozárabe, qui ne traversent pas cette partie de la province selon
+du GR®7/E4 ou du Camino Mozarabe, qui ne traversent pas cette partie de la province selon
 le référentiel interne.
 
 Précision utile pour éviter une confusion avec un autre incendie : une recherche sur
 les incendies actifs en Galice (« incendios activos Galicia agosto 2026 ») a remonté un
-article évoquant huit incendies actifs en Galice dont un complexe à Oímbra/A
-Mezquita/Vilardevós (Ourense, plus de 78 500 ha). Vérification faite, ces chiffres
-(10 000 ha à Oímbra, 9-10 000 ha à A Mezquita) correspondent en réalité au bilan du
+article évoquant huit incendies actifs en Galice dont un complexe à Oimbra/A
+Mezquita/Vilardevos (Ourense, plus de 78 500 ha). Vérification faite, ces chiffres
+(10 000 ha à Oimbra, 9-10 000 ha à A Mezquita) correspondent en réalité au bilan du
 complexe d'incendies d'Ourense d'août 2025, un an plus tôt, et non à un incendie en
 cours (même constat déjà fait pour les incendies de Chandrexa de Queixa et de Larouco).
 Aucun incendie de cette ampleur n'est confirmé en Galice à la date de cette
@@ -137,7 +137,7 @@ une majorité de retours et un noyau résiduel hébergé à Zalamea la Real et a
 d'El Castillo de las Guardas. Le dispositif atteint environ 1 116 effectifs et 337
 moyens terrestres (21 camions-citernes, 18 engins lourds), avec 33 moyens aériens
 engagés le matin du 15/08. Le vent du sud-ouest se renforce l'après-midi du 15/08
-(rafales jusqu'à 40-43 km/h entre 19h et 20h, 35-36°C), mençant surtout le front est
+(rafales jusqu'à 40-43 km/h entre 19h et 20h, 35-36°C), menacant surtout le front est
 entre Aznalcóllar et El Castillo de las Guardas, seul secteur encore qualifié
 d'actif. La fumée du foyer a par ailleurs contraint la fermeture, le 15/08, de la
 Reserva El Castillo de las Guardas (Séville), sans réouverture annoncée à ce jour.
