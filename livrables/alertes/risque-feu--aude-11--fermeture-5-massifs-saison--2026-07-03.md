@@ -5,10 +5,13 @@ itin: GR®36 & GR®78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (cô
 sev: MOYENNE
 validite: île Ste-Lucie fermée les seuls jours très sévère/extrême jusqu'au 15/09/2026 ; Ribaute jusqu'à levée AP ; Fontfroide, Pinèdes de Crémade, la Clape et Pinède Lézignanaise : fermeture prolongée jusqu'au 14/09/2026 (aude.gouv.fr, mise à jour du 01/09/2026)
 detection: 2026-07-06
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : aude.gouv.fr « FERMETURE DES MASSIFS 2026 » relu en
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : aude.gouv.fr « FERMETURE DES MASSIFS 2026 » relu en
   direct, toujours daté de la mise à jour du 01/09, prolongation jusqu'au 14/09/2026
-  inchangée pour les 4 massifs. Sévérité maintenue MOYENNE.
+  inchangée pour Fontfroide, les Pinèdes de Crémade, la Clape et la Pinède Lézignanaise ;
+  île Sainte-Lucie et lac de la Cavayère toujours sous leur régime propre jusqu'au 15/09 ;
+  zone brûlée de Ribaute toujours fermée jusqu'à levée de l'arrêté. Sévérité maintenue
+  MOYENNE.
 ordre: 17
 ---
 
@@ -27,6 +30,8 @@ Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés
 01/09 : la page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » reste datée de sa mise à jour du 06/08, qui annonçait l'échéance du 31/08 pour Fontfroide, les Pinèdes de Crémade, la Clape et la Pinède Lézignanaise. Cette échéance est désormais dépassée sans qu'aucune prolongation n'ait été publiée : ces quatre massifs sont traités comme rouverts. L'île Sainte-Lucie et Ribaute restent sous leur régime propre, inchangé.
 
 05/09 : correction, aude.gouv.fr (relu en direct, deux fetches convergents) affiche désormais explicitement une « prolongation de la fermeture jusqu'au 14 septembre 2026 » pour les 4 massifs, sur une page mise à jour le 01/09/2026 : ces massifs n'ont donc jamais rouvert, contrairement à la lecture du 03/09.
+
+10/09 : aude.gouv.fr relu en direct, page toujours datée de sa mise à jour du 01/09/2026, aucun changement : Fontfroide, Pinèdes de Crémade, la Clape et Pinède Lézignanaise restent fermés jusqu'au 14/09/2026, l'île Sainte-Lucie et le lac de la Cavayère jusqu'au 15/09 (régime conditionnel), la zone brûlée de Ribaute jusqu'à levée de l'arrêté préfectoral.
 
 ## Source
 
