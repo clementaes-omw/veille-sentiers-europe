@@ -5,11 +5,11 @@ itin: GR®44 (Des Vans à Champerboux, départ Les Vans) ; GRP de la Haute Céve
 sev: MOYENNE
 validite: foyer des Vans éteint depuis le 04/09 mi-journée ; foyer de Malbosc déclaré fixé le lundi 07/09/2026 après cinq jours de lutte, pas encore déclaré éteint
 detection: 2026-09-05
-verif: 2026-09-08
-statut: ACTIF — CHANGÉ 08/09 : la préfecture de l'Ardèche annonce le lundi 07/09 (ICI.fr) que
-  le feu de Malbosc est désormais fixé après cinq jours de lutte ; celui des Vans était déjà
-  éteint. Pas de déclaration d'extinction pour Malbosc à ce stade. Une enquête reste ouverte
-  (brigade de recherches de Largentière, parquet de Privas).
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche, aucune déclaration d'extinction trouvée
+  pour Malbosc au-delà du fixé du 07/09 (ICI.fr). Aucun nouveau point de situation
+  préfectoral localisé pour la période du 08 au 10/09. Le foyer des Vans reste éteint depuis
+  le 04/09.
 ordre: 218
 ---
 
@@ -30,6 +30,8 @@ MAJ 06/09 : confirmation par France 3 (04/09 19h30) que le foyer de Malbosc rest
 MAJ 07/09 : amélioration confirmée au dimanche 06/09 (ICI.fr, communiqué préfectoral relayé). Le foyer de Malbosc n'est plus décrit comme progressant, les moyens engagés sont réduits à 110 pompiers contre 250 au pic, et la préfecture autorise la réouverture du camping du Moulin de Gournier. Le bilan de surface est revu à la baisse par un communiqué préfectoral du 9h30/13h00 des 04-05/09 : environ 25 à 30 hectares parcourus au total (contre 36 à 50 ha selon les premières estimations), sans que la cause de cet écart soit précisée par les sources. Une enquête sur l'origine du sinistre est ouverte par la brigade de recherches de Largentière (parquet de Privas). Aucune fermeture de sentier n'est toujours documentée.
 
 MAJ 08/09 : le feu de Malbosc est déclaré fixé le lundi 07/09/2026, après cinq jours de lutte (ICI.fr, article publié 07/09 19h14) ; celui des Vans était déjà éteint depuis le 04/09. Aucune déclaration d'extinction n'est publiée pour Malbosc à cette date. Aucune fermeture de sentier n'est toujours documentée.
+
+MAJ 10/09 : nouvelle recherche, aucun point de situation préfectoral ni article de presse postérieur au 07/09 localisé. Aucune déclaration d'extinction trouvée pour Malbosc ; aucune fermeture de sentier toujours documentée.
 
 ## Source
 
