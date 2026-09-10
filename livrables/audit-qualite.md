@@ -9,9 +9,9 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 ## ⚠️ À traiter
 
 - **`fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`** — alerte rouge appuyée sur une source datée du 26/08 (15 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`fermeture|Ille-et-Vilaine-Dinard|GR34-Port-Vicomte-Port-Bernard|2026-04-20`** — jamais revuérifiée depuis sa détection il y a 8 j.
-- **`fermeture|Ille-et-Vilaine-Saint-Briac-sur-Mer|GR34-Petite-Salinette-Grande-Salinette|2026-02-09`** — jamais revuérifiée depuis sa détection il y a 8 j.
-- **`fermeture|Loire-Atlantique-Piriac-sur-Mer|GR34-Pointe-du-Castelli|2026-02-22`** — jamais revuérifiée depuis sa détection il y a 8 j.
+- **`fermeture|Ille-et-Vilaine-Dinard|GR34-Port-Vicomte-Port-Bernard|2026-04-20`** — jamais revérifiée depuis sa détection il y a 8 j.
+- **`fermeture|Ille-et-Vilaine-Saint-Briac-sur-Mer|GR34-Petite-Salinette-Grande-Salinette|2026-02-09`** — jamais revérifiée depuis sa détection il y a 8 j.
+- **`fermeture|Loire-Atlantique-Piriac-sur-Mer|GR34-Pointe-du-Castelli|2026-02-22`** — jamais revérifiée depuis sa détection il y a 8 j.
 - **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (20 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03`** — la validité annoncée s'arrête au 07/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (17 j) — retrouver une publication récente ou dégrader la sévérité.
@@ -21,3 +21,4 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 ## 🗺 Cohérence carte / registre
 
 0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
+
