@@ -5,8 +5,8 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; nouvelle fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; page FFRando 06 mise à jour au 01/09/2026
 detection: 2026-08-01
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : page FFRando 06 relue en direct, toujours datée du
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : page FFRando 06 relue en direct, toujours datée du
   01/09/2026, aucune nouvelle fermeture. Fermetures inchangées.
 ordre: 64
 ---
@@ -26,6 +26,8 @@ Consolidation d'un relevé complet de la page FFRando 06 « Fermeture des sentie
 Le GR®52 (vallée du Boréon) n'apparaît PAS dans cette page, ce qui reste cohérent avec l'alerte `réouverture|Boréon-Mercantour|post-Alex` du registre : déviations en place, pas de fermeture résiduelle listée. Ces fermetures GR®510, GR®52-GTM et GR®52A n'étaient pas encore documentées dans le registre. Elles sont anciennes et stables (2019 à 2025) mais actives à ce jour selon la source officielle FFRando 06, et elles ne bloquent aucun itinéraire P1 dans son ensemble puisqu'il s'agit de sections ponctuelles, d'où une sévérité MOYENNE plutôt que HAUTE.
 
 MAJ 02/09 : page FFRando 06 relue directement, mise à jour au 01/09/2026. Une nouvelle fermeture datée apparaît sur le GR®52A à Beuil : travaux de restauration entre les balises 101 et 59, du 31/08 au 02/10/2026. Les fermetures déjà connues (GR®510 à Rigaud et Massoins, GR®52-GTM à Entraunes, GR®52A à Entraunes et à Tende) restent inchangées ; le GR®5 comporte toujours la fermeture temporaire de Levens (jusqu'à fin février 2026) et la fermeture saisonnière de Beuil (31/10→30/04). Les GR®51, GR®4 et GR®653A restent « Néant ».
+
+MAJ 10/09 : page FFRando 06 relue directement, toujours datée du 01/09/2026, aucune fermeture nouvelle ni levée depuis 9 jours. Fermetures inchangées sur GR®510, GR®52-GTM, GR®52A et GR®5 ; GR®51, GR®4 et GR®653A restent « Néant ».
 
 ## Source
 
