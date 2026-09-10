@@ -1,24 +1,26 @@
 ---
 cle: accès|Calanques-13|risque-feu-4couleurs|2026-06-01
 type: accès / risque feu
-itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
+itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte
 detection: 2026-06-01
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : cg13.eway.fr consultée en direct (prévision du 08-09-2026),
-  2e jour de vert intégral sur les 24 massifs du département. Aucun massif jaune, orange
-  ou rouge. Sévérité maintenue MOYENNE (situation redevenue calme).
+verif: 2026-09-10
+statut: ACTIF — CHANGÉ 10/09 : cg13.eway.fr consultée en direct (prévision du 10-09-2026),
+  légère dégradation après le vert intégral des 07-08/09. Les Calanques Marseille-Cassis,
+  la Côte Bleue et l'Arbois repassent au jaune ; Concors, Sainte-Victoire, Sainte-Baume et
+  le Montaiguet restent vert. Aucun massif orange ou rouge, aucune fermeture. Sévérité
+  maintenue MOYENNE.
 ordre: 7
 ---
 
 ## Portion concernée
 
-Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce mardi 08/09, **les 24 massifs du département sont classés vert** pour un 2e jour consécutif, dont les Calanques entre Marseille et Cassis (GR®98), la Côte Bleue, Concors, Sainte-Victoire, Sainte-Baume, l'Arbois et le Montaiguet : aucune restriction en cours. Source : cg13.eway.fr, conditions.php (prévision du 08-09-2026).
+Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce jeudi 10/09, **les Calanques entre Marseille et Cassis (GR®98) sont classées jaune**, avec la Côte Bleue et l'Arbois ; Concors, Sainte-Victoire, Sainte-Baume et le Montaiguet restent vert. Aucun massif orange ou rouge : le GR®98 reste accessible sans restriction, avec une vigilance renforcée. Source : cg13.eway.fr, conditions.php (prévision du 10-09-2026).
 
 ## Alternative
 
-Sans objet ce jour : aucun massif n'est fermé, le GR®98 (Calanques Marseille-Cassis) est accessible sans restriction. Se reporter chaque jour à cg13.eway.fr avant l'étape : la situation a déjà basculé plusieurs fois d'un jour à l'autre cet été.
+Sans objet ce jour : aucun massif n'est fermé, le GR®98 (Calanques Marseille-Cassis) est accessible avec vigilance renforcée. Se reporter chaque jour à cg13.eway.fr avant l'étape : la situation a déjà basculé plusieurs fois d'un jour à l'autre cet été.
 
 ## Zone (détails)
 
@@ -82,8 +84,10 @@ MAJ 07/09 : nouvelle désescalade totale, cg13.eway.fr (prévision du 07-09-2026
 
 MAJ 08/09 : stabilité confirmée, cg13.eway.fr (prévision du 08-09-2026) reconduit le vert intégral sur les 24 massifs du département pour un 2e jour consécutif. Aucun massif jaune, orange ou rouge.
 
+MAJ 10/09 : légère dégradation, cg13.eway.fr (prévision du 10-09-2026) fait repasser les Calanques Marseille-Cassis, la Côte Bleue et l'Arbois du vert au jaune. Concors, Sainte-Victoire, Sainte-Baume et le Montaiguet restent vert. Aucun massif orange ou rouge, aucune fermeture.
+
 ## Source
 
-[cg13.eway.fr, conditions.php (08-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr, conditions.php (07-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr, conditions.php (05-09-2026)](https://cg13.eway.fr/conditions.php) ; [frequence-sud.fr, publié et mis à jour 04/09/2026 17h47, canicule et mistral, 9 massifs fermés ce samedi dans les Bouches-du-Rhône](https://www.frequence-sud.fr/art-112936-canicule_et_mistral__9_massifs_fermes_ce_samedi_dans_les_bouches-du-rhone_en_raison_de_risques_tres_severes_d_incendies_bouches_du_rhone)
+[cg13.eway.fr, conditions.php (10-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr, conditions.php (08-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr, conditions.php (07-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr, conditions.php (05-09-2026)](https://cg13.eway.fr/conditions.php) ; [frequence-sud.fr, publié et mis à jour 04/09/2026 17h47, canicule et mistral, 9 massifs fermés ce samedi dans les Bouches-du-Rhône](https://www.frequence-sud.fr/art-112936-canicule_et_mistral__9_massifs_fermes_ce_samedi_dans_les_bouches-du-rhone_en_raison_de_risques_tres_severes_d_incendies_bouches_du_rhone)
 
 [cg13.eway.fr/conditions.php (04-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (03-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (02-09-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (31-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (29-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (28-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (27-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (20-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (19-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (18-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (17-08-2026)](https://cg13.eway.fr/conditions.php) ; [frequence-sud.fr, publié et mis à jour 16/08/2026 18h31, risque incendie extrême ce lundi dans les Bouches-du-Rhône et le Var, massifs fermés, plages et calanques interdites d'accès, région PACA](https://www.frequence-sud.fr/art-112518-risques_incendies_extreme_ce_lundi_dans_les_bouches_du_rhone_et_le_var__les_massifs_fermes__des_plages_et_calanques_interdites_d_acces_region_paca) ; [cg13.eway.fr/conditions.php (16-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (07-08-2026)](https://cg13.eway.fr/conditions.php) ; [frequence-sud.fr, MAJ 05/08/2026 18h21, risque extrême d'incendies ce jeudi en région PACA, 50 massifs fermés, plages et calanques interdites d'accès](https://www.frequence-sud.fr/art-112335-risques_extreme_d_incendies_ce_jeudi_dans_la_region_paca__50_massifs_fermes__des_plages_et_calanques_interdites_d_acces_region_paca) ; [cg13.eway.fr/conditions.php (05-08-2026)](https://cg13.eway.fr/conditions.php) ; [cg13.eway.fr/conditions.php (03-08-2026)](https://cg13.eway.fr/conditions.php) ; [ffrandonnee.fr, Sainte-Victoire, deux sentiers fermés après un éboulement (confirme le GR9 comme voie d'accès à la Croix de Provence)](https://www.ffrandonnee.fr/s-informer/actualites/sainte-victoire-deux-sentiers-fermes-apres-un-eboulement) ; calanques-parcnational.fr ; bouches-du-rhone.gouv.fr ; [cg13.eway.fr/conditions.php (02-08-2026)](https://cg13.eway.fr/conditions.php) ; [frequence-sud.fr 23/07 18h55, réouverture des massifs ce vendredi 24 juillet](https://www.frequence-sud.fr/art-112020-les_risques_incendies_baissent_d_un_cran__les_massifs_rouverts_au_public_ce_vendredi_24_juillet_dans_la_region_region_paca) ; [frequence-sud.fr 26/07 20h56, quatre massifs fermés ce lundi dans les Bouches-du-Rhône](https://www.frequence-sud.fr/art-112079-risques_incendies__quatre_massifs_fermes_ce_lundi_dans_les_bouches-du-rhone_bouches_du_rhone) ; [bouches-du-rhone.gouv.fr, Fermeture des massifs de l'Arbois, Montaiguet, Sainte-Victoire et Concors, lundi 27 juillet 2026 (aucun article équivalent daté du 28/07 trouvé)](https://www.bouches-du-rhone.gouv.fr/Actualites/Fermeture-des-massifs-de-l-Arbois-Montaiguet-Sainte-Victoire-et-Concors-Lundi-27-juillet-2026)
