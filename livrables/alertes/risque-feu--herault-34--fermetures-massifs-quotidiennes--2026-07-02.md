@@ -5,10 +5,10 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche (compte @Prefet34, presse), aucune carte
-  postérieure au 05/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue
-  MOYENNE.
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche (compte @Prefet34, infoccitanie.fr,
+  shopping-beziers.com dont la liste d'articles s'arrête au 18/08), aucune carte postérieure
+  au 05/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
 ordre: 18
 ---
 
@@ -49,6 +49,8 @@ MAJ 02/09 : le compte officiel de la préfète de l'Hérault (@Prefet34) publie 
 MAJ 06/09 : nouvelle carte (@Prefet34) datée du samedi 05/09/2026 : 8 secteurs sur 9 en orange, toujours aucun rouge, légère dégradation par rapport aux 6/9 du 01/09. La liste nominative des secteurs reste non confirmée par une lecture directe de la carte officielle (herault.gouv.fr toujours en JavaScript).
 
 MAJ 07/09 : la liste nominative des 8 secteurs orange du 05/09 est retrouvée via infoccitanie.fr (article du 05/09 09h22) : Escandorgue et Larzac, Gangeois, Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, Plaine viticole Cœur Hérault et Plaines littorales, La Gardiole, Plaine viticole de l'Est héraultais. Aucun secteur rouge. Aucune carte postérieure au 05/09 retrouvée malgré recherche.
+
+MAJ 10/09 : nouvelle recherche dédiée (infoccitanie.fr, shopping-beziers.com relu en liste complète, compte @Prefet34), toujours aucune carte ni article postérieur au 05/09 retrouvé. La liste des articles de shopping-beziers.com sur les massifs s'arrête au 18/08/2026, ce site n'ayant apparemment pas republié depuis. Le classement du 05/09 (8 secteurs orange sur 9, aucun rouge) reste la dernière donnée officielle connue, soit cinq jours de silence.
 
 ## Source
 
