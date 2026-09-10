@@ -5,14 +5,11 @@ itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la 
 sev: MOYENNE
 validite: travaux en cours, réouverture estimée septembre-octobre 2026
 detection: 2026-07-23
-verif: 2026-09-03
-statut: ACTIF — CHANGÉ 27/08 : la fermeture principale (Kriváň, Tri studničky ↔ Krivánsky žľab)
-  reste en cours, réouverture toujours estimée septembre-octobre 2026 (tanap.sk reconfirmé :
-  « chodník z Troch Studničiek na Kriváň je naďalej uzavretý »). Le sentier vers le Sedielko
-  (Malá Studená dolina ↔ Rázcestie pod Sedielkom ↔ Javorová dolina), mentionné en travaux
-  dans la chronologie, a rouvert en juillet 2026 après plusieurs mois de reconstruction : la
-  section abîmée par l'érosion a été redéplacée sur un fond rocheux stable, projet mené avec
-  le club Hikemates. Mise à jour de la « Portion concernée » en conséquence.
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : tanap.sk reconfirmé, la page d'accueil affiche toujours
+  « chodník z Troch Studničiek na Kriváň je nadďalej uzavretý » (le sentier de Tri Studničky
+  vers le Kriváň demeure fermé), sans date de réouverture précisée au-delà de l'estimation
+  septembre-octobre 2026 déjà connue.
 ordre: 46
 ---
 
@@ -31,6 +28,8 @@ Tatras slovaques, en complément. Le tronçon entre Ždiar et Široké sedlo res
 13/08 : le tronçon Hrebienok ↔ Rázcestie nad Rainerovou chatou, fermé depuis le 11/05/2026 après un glissement de terrain sur la pente affectant les vallées de Studený potok, a rouvert le 01/08/2026 (source : tatry.sk, page des restrictions actuelles sur les sentiers). La fermeture principale du Kriváň entre Tri studničky et le Krivánsky žľab n'est pas concernée par cette réouverture et reste en vigueur.
 
 27/08 : le sentier balisé vert du Sedielko (Malá Studená dolina ↔ Rázcestie pod Sedielkom ↔ Javorová dolina), fermé pour travaux, a rouvert en juillet 2026 après plusieurs mois de reconstruction menée avec le club de randonneurs Hikemates. Le tronçon abîmé par l'érosion, jugé à risque en haute montagne, a été redéplacé sur un fond rocheux plus stable. [FAIT, tanap.sk, « Obnovený turistický chodník na Sedielko je opäť otvorený »] La fermeture principale du Kriváň entre Tri studničky et le Krivánsky žľab reste en vigueur, réouverture toujours estimée septembre-octobre 2026 (tanap.sk reconfirmé le 27/08).
+
+10/09 : nouvelle re-vérification, aucun changement. La page d'accueil de tanap.sk reconfirme littéralement le même texte qu'au 27/08 : le sentier de Tri Studničky vers le Kriváň demeure fermé. Aucune date de réouverture plus précise que l'estimation septembre-octobre 2026 n'est publiée.
 
 ## Source
 

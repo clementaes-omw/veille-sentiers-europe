@@ -5,13 +5,15 @@ itin: GR®10 (vallée d'Aspe)
 sev: MOYENNE
 validite: depuis le 05/01/2026, jusqu'à nouvel ordre
 detection: 2026-07-20
-verif: 2026-08-28
-statut: ACTIF — INCHANGÉ 28/08 : nouvelle recherche, refuges.info (point 6895) et l'office de
-  tourisme pyrenees-bearnaises.com décrivent toujours le passage comme fermé pour éboulement,
-  déviation par le col d'Arras toujours en place. Piège d'indexation déjoué : plusieurs
-  articles ffrandonnee.fr/mongr.fr évoquant une fermeture « à partir du 23 août » pour travaux
-  de la passerelle du Sescoué remontent en recherche, mais sont datés de 2019 et 2020, pas
-  2026 — écartés. ; **CHANGÉ 03/08 : statut FERMÉ reconfirmé et renforcé par recoupement de 2 sources indépendantes — refuges.info (point 6895) liste explicitement le passage comme « FERMÉ » ; l'office de tourisme pyrenees-bearnaises.com maintient également son avertissement de fermeture. Un article isolé (travaux-cordiste.com, 22/03) annonçant une réouverture après travaux n'est corroboré par aucune source officielle ou presse indépendante — écarté comme non fiable/marketing. mairie-etsaut.fr injoignable (DNS ne résout pas)**
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche (seuil de revuérification à 12 jours
+  atteint), refuges.info (point 6895) affiche toujours le passage comme « FERMÉ », avec pour
+  dernière mise à jour de la fiche le 03/02/2026 (« fermé depuis le 5 janvier 2026 et jusqu'à
+  nouvel ordre suite à un éboulement »), sans qu'aucune source plus récente ne documente de
+  réouverture. L'article travaux-cordiste.com annonçant des travaux de sécurisation (main
+  courante à chaîne, 30 m) reste un article isolé, non corroboré par une source officielle ou
+  de presse indépendante : toujours écarté comme non fiable/marketing. Déviation par le col
+  d'Arras toujours en place.
 ordre: 36
 ---
 
@@ -29,6 +31,8 @@ Vallée d'Aspe (64) : le Chemin de la Mâture, portion emblématique du GR®10, 
 
 MAJ 03/08 : statut FERMÉ confirmé par recoupement de 2 sources indépendantes (refuges.info + office de tourisme des Pyrénées béarnaises). Cela résout le signal contradictoire relevé au 01/08 : l'article annonçant une réouverture après travaux n'est corroboré par aucune source fiable.
 
+MAJ 10/09 : nouvelle recherche, refuges.info (point 6895) reste la source la plus autoritative et continue d'afficher le passage « FERMÉ », sa fiche étant mise à jour au 03/02/2026 sans changement depuis. Aucune source, officielle ou de presse, postérieure ne documente une réouverture. L'article de travaux-cordiste.com sur des travaux de sécurisation (main courante à chaîne) reste isolé et non recoupé : toujours écarté. Statut inchangé, déviation par le col d'Arras toujours la seule option documentée.
+
 ## Source
 
-[refuges.info, point 6895, Chemin de la Mâture, FERMÉ](https://www.refuges.info/point/6895) ; [pyrenees-bearnaises.com, avertissement de fermeture](https://www.pyrenees-bearnaises.com/) ; [FFRandonnée, Pyrénées-Atlantiques, chemin de la mature fermé](https://www.ffrandonnee.fr/s-informer/actualites/pyrenees-atlantiques-le-chemin-de-la-mature-ferme-apres-un-eboulement)
+[refuges.info, point 6895, Chemin de la Mature, FERMÉ](https://www.refuges.info/point/6895) ; [pyrenees-bearnaises.com, avertissement de fermeture](https://www.pyrenees-bearnaises.com/) ; [FFRandonnée, Pyrénées-Atlantiques, chemin de la mature fermé](https://www.ffrandonnee.fr/s-informer/actualites/pyrenees-atlantiques-le-chemin-de-la-mature-ferme-apres-un-eboulement)

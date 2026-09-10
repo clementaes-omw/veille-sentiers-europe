@@ -5,11 +5,10 @@ itin: GR®10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-
 sev: MOYENNE (dégradée HAUTE→MOYENNE le 05/09 : l'interdiction totale d'Argelès-sur-Mer est levée)
 validite: Argelès-sur-Mer : arrêté ARR2026-024PM levé le 03/09/2026 ; Sorède : arrêté n°26.216 du 17/06/2026, accès piétons/vélos musculaires maintenu jusqu'au 13/09/2026 (véhicules à moteur interdits, marche à pied non concernée) ; Villelongue-dels-Monts : arrêté municipal n°18-2026 du 15/07/2026, jusqu'à nouvel ordre, aucune levée trouvée ; Cerbère : fermeture confirmée depuis le 17/07/2026 par arrêté municipal propre, numéro non isolé, aucune levée trouvée
 detection: 2026-07-20
-verif: 2026-09-08
-statut: ACTIF — CHANGÉ 08/09 : Villelongue-dels-Monts est désormais sourcée directement (site
-  de la mairie) : arrêté municipal n°18-2026 du 15/07/2026, jusqu'à nouvel ordre. Cerbère est
-  confirmée par une deuxième source comme l'une des 4 communes fermées depuis le 17/07/2026
-  par arrêté municipal propre, sans que son numéro exact ait pu être isolé. Sévérité
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche ciblée sur le numéro exact de l'arrêté
+  de Cerbère, toujours non isolé malgré recherche dédiée. Aucune levée trouvée pour Sorède,
+  Villelongue-dels-Monts ou Cerbère ; Argelès-sur-Mer reste rouverte depuis le 03/09. Sévérité
   maintenue MOYENNE.
 ordre: 35
 ---
@@ -51,6 +50,8 @@ MAJ 18/08 : aucun article de presse postérieur au 29/07/2026 n'a été retrouv�
 MAJ 05/09 : levée confirmée pour Argelès-sur-Mer. actu.fr (Margaux Masson, publié le 04/09/2026 06h08, mis à jour 09h22) rapporte que la municipalité a levé le 03/09/2026 l'arrêté ARR2026-024PM en vigueur depuis le 10/07 : l'accès à pied, à vélo et à cheval est de nouveau autorisé, la Tour de la Massane redevient accessible. Le texte rappelle que le risque incendie reste important. Sorède, Cerbère et Villelongue-dels-Monts : statut inchangé, aucune source nouvelle.
 
 MAJ 08/09 : nouvelle vérification sur les deux communes dont le statut restait incertain. Le site de la mairie de Villelongue-dels-Monts (rubrique des arrêtés municipaux) référence directement un « arrêté municipal n°18-2026 portant interdiction temporaire d'accès au massif des Albères en raison du risque exceptionnel d'incendie », daté du 15/07/2026 : la fermeture est donc confirmée par une source primaire, sans échéance ni levée publiée. Pour Cerbère, une deuxième source (récapitulatif de presse sur les fermetures du massif) confirme que la commune fait partie, depuis le 17/07/2026, des quatre communes ayant fermé l'accès au massif par arrêté municipal propre (avec Argelès-sur-Mer, Sorède et Villelongue-dels-Monts), effectif jusqu'à nouvel ordre ; le numéro et la date exacte de l'arrêté de Cerbère lui-même restent à isoler.
+
+MAJ 10/09 : nouvelle vérification du numéro et de la date exacts de l'arrêté municipal de Cerbère, toujours non isolés malgré une recherche dédiée (pages d'arrêtés municipaux de la commune, recoupements de presse). Aucune levée n'est trouvée pour Sorède, Villelongue-dels-Monts ou Cerbère ; le statut d'Argelès-sur-Mer (rouverte depuis le 03/09) reste inchangé.
 
 ## Source
 

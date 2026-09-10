@@ -10,16 +10,18 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en rouge),
   signifie qu'aucun secteur n'est classé rouge depuis le 03/09/2026
 detection: 2026-07-04
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : gard.gouv.fr relu en direct, toujours aucune page de
-  classement postérieure au 03/09/2026. Aucun secteur classé rouge depuis 5 jours, selon la
-  même convention de publication. Sévérité maintenue MOYENNE.
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : liste complète des actualités de gard.gouv.fr relue en
+  direct, toujours aucune page de classement postérieure au 03/09/2026 (les items les plus
+  récents portent sur les Journées du patrimoine, un arrêté sur les rassemblements musicaux
+  et la vigilance canicule orange). Aucun secteur classé rouge depuis 7 jours, selon la même
+  convention de publication. Sévérité maintenue MOYENNE.
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : **aucun secteur n'est classé en risque incendie très sévère** depuis le 03/09/2026. Le Gard Rhodanien (36 communes, dont Fourques et Beaucaire, GR®653) avait été reclassé rouge pour cette seule journée du 3 septembre, après une première clôture de l'alerte le 01/09 faute de secteur rouge depuis le 18/08. Aucune page de classement n'a été publiée depuis pour le département : selon la pratique observée tout l'été sur ce site (une page dédiée n'existe que les jours où un secteur bascule au rouge), l'absence de page vaut absence de secteur classé. Aucun communiqué explicite de levée n'a en revanche été retrouvé. Raison de l'épisode du 03/09 : absence de précipitations, fortes chaleurs.
+Gard : **aucun secteur n'est classé en risque incendie très sévère** depuis le 03/09/2026. Le Gard Rhodanien (36 communes, dont Fourques et Beaucaire, GR®653) avait été reclassé rouge pour cette seule journée du 3 septembre, après une première clôture de l'alerte le 01/09 faute de secteur rouge depuis le 18/08. Aucune page de classement n'a été publiée depuis pour le département, malgré sept jours écoulés : selon la pratique observée tout l'été sur ce site (une page dédiée n'existe que les jours où un secteur bascule au rouge), l'absence de page vaut absence de secteur classé. Aucun communiqué explicite de levée n'a en revanche été retrouvé. Raison de l'épisode du 03/09 : absence de précipitations, fortes chaleurs.
 
 ## Alternative
 
@@ -50,6 +52,7 @@ Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes d
 - 01/09 : les URL datées « Mercredi-19-aout-2026 », « Lundi-31-aout-2026 » et « Mardi-1er-septembre-2026 » sont testées directement sur gard.gouv.fr : les trois renvoient 404. Conformément à la convention de publication de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en risque très sévère), l'absence de page pour ces trois dates signifie qu'aucun secteur n'a été classé rouge depuis le 18/08. Le classement retombe donc à 0 secteur rouge : alerte clôturée.
 - 03/09 : réactivation. gard.gouv.fr publie une page « Jeudi 3 septembre 2026 » classant le Gard Rhodanien (36 communes : Aramon, Bagnols-sur-Cèze, Beaucaire, Bellegarde et 32 autres) en rouge, après 3 jours sans secteur classé. Confirmé par TV Sud Magazine. Statut des 04 et 05/09 non confirmé par une source officielle datée (URL testée en 401).
 - 06/09 : nouvelle désescalade. La liste complète des actualités de gard.gouv.fr est relue en direct, et aucune page dédiée au risque incendie n'existe pour le 4, le 5 ou le 6 septembre. Le classement du 03/09 (Gard Rhodanien seul) n'a donc duré qu'un jour : aucun secteur n'est classé rouge depuis 3 jours, selon la même convention de publication déjà observée sur cette fiche depuis juillet.
+- 10/09 : nouvelle relecture directe de la liste complète des actualités de gard.gouv.fr, toujours aucune page de classement postérieure au 03/09/2026. Les publications les plus récentes du site portent sur les Journées du patrimoine (07/09), un arrêté préfectoral sur les rassemblements musicaux non déclarés (04/09) et la vigilance canicule orange (03/09), sans aucune mention du risque incendie. Aucun secteur classé rouge depuis 7 jours.
 
 ## Source
 

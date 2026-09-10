@@ -5,11 +5,13 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche ciblée sur l'acte manquant
-  (presseagence.fr, alpes-maritimes.gouv.fr), toujours aucune publication postérieure au
-  31/08 trouvée pour ce massif côté Alpes-Maritimes. L'écart avec la dernière confirmation
-  datée atteint désormais 8 jours. Sévérité maintenue MOYENNE.
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche ciblée sur l'acte manquant
+  (presseagence.fr, recherche générale), toujours aucune publication postérieure au 31/08
+  trouvée pour ce massif côté Alpes-Maritimes. Un article presseagence.fr titré « vendredi 5
+  septembre » a été vérifié et écarté : daté du 04/09/2025, un an plus tôt (piège
+  d'indexation). L'écart avec la dernière confirmation datée atteint désormais 10 jours.
+  Sévérité maintenue MOYENNE.
 ordre: 102
 ---
 
@@ -56,6 +58,8 @@ Vérifié le 03/09/2026 : toujours aucune publication postérieure au 31/08 trou
 Vérifié le 07/09/2026 : nouvelle recherche (presseagence.fr, alpes-maritimes.gouv.fr), toujours aucune publication postérieure au 31/08 trouvée pour ce massif. Deux articles presseagence.fr semblaient au premier abord apporter une confirmation récente (« vendredi 5 septembre » et « mercredi 10 septembre »), mais portent en réalité sur une autre année : le 5 septembre 2026 tombe un samedi (pas un vendredi) et le 10 septembre 2026 un jeudi (pas un mercredi), ce qui situe ces deux articles en 2025 ; ils sont écartés. L'écart avec la dernière confirmation datée (31/08) atteint désormais 7 jours.
 
 Vérifié le 08/09/2026 : toujours aucune publication postérieure au 31/08 trouvée pour ce massif. L'écart atteint désormais 8 jours.
+
+Vérifié le 10/09/2026 : nouvelle recherche dédiée (presseagence.fr), toujours aucune publication postérieure au 31/08 trouvée pour ce massif. Un article presseagence.fr titré « Vendredi 5 septembre, vigilance feux de forêt, risque très sévère dans le massif Esterel-Tanneron » a été vérifié directement : il est en réalité daté du 04/09/2025 (fermeture annoncée pour le vendredi 05/09/2025), un an avant la période suivie ici ; il est écarté. L'écart avec la dernière confirmation datée de 2026 (31/08) atteint désormais 10 jours.
 
 ## Source
 

@@ -5,7 +5,7 @@ itin: GR®7-ES/E4 Sendero Andorra–Estrecho de Gibraltar [HYPOTHÈSE] le tracé
 sev: MOYENNE
 validite: feu officiellement extinguido depuis le 24/07/2026 ; aucun arrêté d'interdiction d'accès à la zone brûlée n'a jamais été publié
 detection: 2026-07-09
-verif: 2026-09-08
+verif: 2026-09-10
 statut: [CLÔTURÉ] (2026-08-07) — clôturée faute d'arrêté d'interdiction d'accès trouvé,
   quatre semaines après l'extinction officielle (24/07) et malgré de nombreux passages de
   vérification (BOJA, Junta de Andalucía, presse locale Almanzora/Almería, dont une
@@ -33,4 +33,4 @@ MAJ 07/08 (clôture) : une nouvelle vérification (BOJA, presse locale) reste in
 
 ## Source
 
-[lavozdealmeria.com, Bédar reprend vie après l'incendie](https://www.lavozdealmeria.com/almeria/sucesos/600547/bedar-vuelve-vida-incendio-gallardos-reencuentros-pesadilla.html) ; [actualidadalmanzora.es, le gouvernement déclarera zone catastrophe et débloquera des aides](https://www.actualidadalmanzora.es/zona-catastrofica-incendio-los-gallardos) ; [Wikipedia ES, Incendio de Los Gallardos (synthèse, chronologie complète)](https://es.wikipedia.org/wiki/Incendio_de_Los_Gallardos) ; [Junta de Andalucía, Portavoz del Gobierno Andaluz, Plan Infoca phase emergencia](https://www.juntadeandalucia.es/presidencia/portavoz/emergencias112/217421/Incendio/LosGallardos/desalojos/emergencia/PlanInfoca) ; [eldiario.es 24/07, « incendio Gallardos extinguido tras dos semanas, causó la muerte de 13 personas »](https://www.eldiario.es/andalucia/incendio-gallardos-extinguido-semanas-fuego-causo-muerte-13-personas_1_13406026.html) ; [Actualidad Almanzora 22/07, « más del 80% del territorio de Bédar quemado »](https://www.actualidadalmanzora.es/superficie-afectada-incendio-bedar)
+[lavozdealmeria.com, Bédar reprend vie après l'incendie](https://www.lavozdealmeria.com/almeria/sucesos/600547/bedar-vuelve-vida-incendio-gallardos-reencuentros-pesadilla.html) ; [actualidadalmanzora.es, le gouvernement déclarera zone catastrophe et débloquera des aides](https://www.actualidadalmanzora.es/zona-catastrofica-incendio-los-gallardos) ; [Wikipedia ES, Incendio de Los Gallardos (synthèse, chronologie complète)](https://es.wikipedia.org/wiki/Incendio_de_Los_Gallardos) ; [Junta de Andalucía, Portavoz del Gobierno Andaluz, Plan Infoca fase emergencia](https://www.juntadeandalucia.es/presidencia/portavoz/emergencias112/217421/Incendio/LosGallardos/desalojos/emergencia/PlanInfoca) ; [eldiario.es 24/07, « incendio Gallardos extinguido tras dos semanas, causó la muerte de 13 personas »](https://www.eldiario.es/andalucia/incendio-gallardos-extinguido-semanas-fuego-causo-muerte-13-personas_1_13406026.html) ; [Actualidad Almanzora 22/07, « más del 80% del territorio de Bédar quemado »](https://www.actualidadalmanzora.es/superficie-afectada-incendio-bedar)
