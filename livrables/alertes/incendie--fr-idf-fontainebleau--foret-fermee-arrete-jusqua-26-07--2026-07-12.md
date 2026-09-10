@@ -5,16 +5,13 @@ itin: GR®1, GR®2, GR®3, GR®11, GR®13, GR®655 — tous traversent le massif
 sev: MOYENNE (dégradée 22/08 — 80 % du massif rouvre, la fermeture ne porte plus que sur les parcelles brûlées et leur périmètre de sécurité)
 validite: 80 % du massif (18 000 ha sur 22 000) restent ouverts au public depuis le samedi 22/08/2026, jusqu'à nouvel ordre, sans échéance de réouverture annoncée pour les parcelles incendiées et leur périmètre de sécurité, qui restent fermées
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
-verif: 2026-08-22
-statut: ACTIF — CHANGÉ 22/08 : réouverture massive. La préfecture de Seine-et-Marne annonce
-  (« 80 % du massif forestier de Fontainebleau rouvrent samedi 22 août ») que l'échéance du
-  21/08 marque la fin de la fermeture totale : 18 000 des 22 000 ha du massif redeviennent
-  accessibles ce jour. Seules les parcelles atteintes par les flammes et une zone tampon de
-  sécurité autour restent interdites, sans date de réouverture annoncée. Sévérité dégradée
-  HAUTE→MOYENNE : la fermeture n'est plus celle d'un massif entier bloquant toute traversée,
-  mais celle, plus classique, de secteurs brûlés localisés. Détail cartographique fin
-  (parcelles précises, tracé GR® par tracé GR®) non publié par la préfecture à ce stade ; à
-  rechercher au prochain passage sur cette zone.
+verif: 2026-09-10
+statut: ACTIF — INCHANGÉ 10/09 : re-vérification (salle de presse seine-et-marne.gouv.fr),
+  aucun article publié en septembre 2026 sur la forêt de Fontainebleau ; le dernier article
+  du fil reste celui du 28/08 qui rapporte la réouverture des 80 % du massif au 22/08.
+  Aucune date de réouverture des parcelles brûlées et de leur zone tampon n'est annoncée ;
+  détail cartographique fin (parcelles précises, tracé GR® par tracé GR®) toujours non
+  publié par la préfecture.
 ordre: 42
 ---
 
@@ -61,6 +58,8 @@ MAJ 15/08 : l'échéance du 14/08 est passée sans réouverture, avec une nouvel
 MAJ 16/08 : le détail manquant la veille pour le volet Seine-et-Marne hors Trois-Pignons est trouvé. [FAIT, seine-et-marne.gouv.fr/Actualites/Acces-massifs-forestiers-et-point-circulation, MAJ 14/08/2026] La préfecture de Seine-et-Marne y confirme elle-même, arrêtés à l'appui (signés les 13 et 14/08), la prolongation jusqu'au 21/08/2026 inclus pour ses cinq massifs : Trois-Pignons, forêt domaniale de Fontainebleau, forêt domaniale de la Commanderie, forêt domaniale de Nanteau-Poligny et forêt communale de Nemours. Deux arrêtés départementaux de circulation (D301 : 20260814-CD77-2026-00382-T ; D152 : 20260814-CD77-2026-00383-T) prolongent en parallèle la réglementation routière jusqu'à la même date. Recherche dédiée sur la mesure générale distincte des bois et forêts de l'Essonne (hors Trois-Pignons), dont l'échéance du 16/08 tombe aujourd'hui : ni essonne.gouv.fr (page dédiée du 14/08, page « Risques d'incendie - Actualités 2026 »), ni la presse ne publient à ce jour de communiqué sur une prolongation ou une levée pour cette mesure précise : son état après le 16/08 reste à confirmer.
 
 MAJ 22/08 : réouverture de 80 % du massif. [FAIT, seine-et-marne.gouv.fr/Actualites/Salle-de-presse/80-du-massif-forestier-de-Fontainebleau-rouvrent-samedi-22-aout] L'échéance du 21/08 n'est pas reconduite en fermeture totale : la préfecture annonce la réouverture de 18 000 des 22 000 ha du massif à compter du samedi 22/08/2026. Seules les parcelles brûlées et une zone de sécurité autour restent interdites d'accès, pour prévenir la chute d'arbres aux racines fragilisées et le risque de reprise sur le foyer de tourbière qui couve toujours par endroits sous le sol. Le détail cartographique fin des secteurs encore fermés, et leur recoupement précis avec les GR® du massif, ne sont pas publiés à ce stade.
+
+MAJ 10/09 : re-vérification de la salle de presse de la préfecture de Seine-et-Marne, près de trois semaines après le dernier passage. Aucun article publié en septembre 2026 sur la forêt de Fontainebleau ; l'article le plus récent visible reste celui du 28/08, qui rapporte la réouverture de 80 % du massif au 22/08 déjà connue. L'état reste donc inchangé : parcelles brûlées et zone tampon de sécurité fermées, sans échéance de réouverture annoncée, reste du massif (18 000 ha) ouvert.
 
 ## Source
 
