@@ -3,7 +3,7 @@ cle: risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21
 type: risque feu / réglementation accès
 itin: GR®65 (traversée des Landes), GR®8, GR®654 — impact direct sur les randonneurs itinérants prévoyant un bivouac en forêt landaise/girondine
 sev: MOYENNE (Gironde repassée en JAUNE le 08/09, Landes en ORANGE)
-validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; Gironde abaissée à JAUNE à compter du 08/09/2026 (seul l'accès aux zones brûlées reste interdit) ; Landes toujours en ORANGE (dernier communiqué daté du 03/08, bivouac/camping isolé interdit en forêt) ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental
+validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; Gironde abaissée à JAUNE à compter du 08/09/2026 (seul l'accès aux zones brûlées reste interdit) ; Landes toujours en ORANGE jusqu'à nouvel ordre (dernier communiqué daté du 03/08, bivouac/camping isolé interdit en forêt) ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental
 detection: 2026-07-24
 verif: 2026-09-11
 statut: ACTIF — CHANGÉ 11/09 : la Gironde abaisse son niveau de vigilance feux de forêt à

@@ -3,8 +3,7 @@ cle: incendie|FR-34-11-Puilaurens-Axat|feu-150ha-Camperie|2026-09-04
 type: incendie
 itin: GR®367 (Sentier Cathare, château de Puilaurens) ; GR®36 (gorges de l'Aude, secteur Axat) — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement géographique
 sev: MOYENNE
-validite: feu fixé depuis le mardi 08/09/2026 au matin, environ 225 hectares parcourus ;
-  surveillance active maintenue
+validite: feu fixé depuis le mardi 08/09/2026 au matin, environ 225 hectares parcourus ; surveillance active maintenue jusqu'à nouvel ordre, aucune levée annoncée à ce jour
 detection: 2026-09-05
 verif: 2026-09-11
 statut: ACTIF — CHANGÉ 10/09 : le feu est déclaré fixé le mardi 08/09/2026 (SDIS de l'Aude,

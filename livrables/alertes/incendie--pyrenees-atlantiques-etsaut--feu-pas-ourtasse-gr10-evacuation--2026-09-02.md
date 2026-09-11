@@ -3,10 +3,7 @@ cle: incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-
 type: incendie
 itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: HAUTE
-validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone
-  du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau
-  autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et
-  bergers, aucune date de réouverture du GR®10 annoncée
+validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et bergers jusqu'à nouvel ordre, aucune date de réouverture du GR®10 annoncée
 detection: 2026-09-07
 verif: 2026-09-11
 statut: ACTIF — CHANGÉ 11/09 : lasemainedespyrenees.fr (10/09) confirme le feu fixé et sous
