@@ -5,8 +5,9 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis février 2026, jusqu'à nouvel ordre ; aucune déviation officielle connue
 detection: 2026-09-02
-verif: 2026-09-02
-statut: ACTIF — NOUVEAU
+verif: 2026-09-11
+statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'article FFRandonnée national, toujours
+  en ligne à l'identique, sans mention de réouverture.
 ordre: 216
 ---
 
@@ -21,6 +22,8 @@ Aucune déviation officielle connue à ce jour. Des randonneurs signalent un pas
 ## Zone (détails)
 
 22/02/2026 : la Fédération française de la randonnée pédestre publie un article national sur les dégâts causés par les intempéries hivernales au GR®34 en Bretagne, qui cite un effondrement récent à la pointe du Castelli, à Piriac-sur-Mer, sur une section du sentier tout juste réhabilitée. Le même article mentionne, sans détail suffisant pour ouvrir des fiches séparées, des affaissements à Plérin et à la pointe du Roselier (Côtes-d'Armor) ainsi qu'à Saint-Lunaire (Ille-et-Vilaine). Des retours de randonneurs datés d'août 2026 (fiches AllTrails et Decathlon Outdoor sur ce secteur) continuent de signaler la fermeture en cours, sans nouvelle source officielle postérieure au 22/02.
+
+MAJ 11/09 : re-vérification directe de l'article FFRandonnée. Le texte reste en ligne à l'identique, sans mention de réouverture ni de date de levée pour la pointe du Castelli.
 
 ## Source
 

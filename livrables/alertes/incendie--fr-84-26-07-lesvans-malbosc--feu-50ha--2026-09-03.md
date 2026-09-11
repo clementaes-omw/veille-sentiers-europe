@@ -3,9 +3,9 @@ cle: incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03
 type: incendie
 itin: GR®44 (Des Vans à Champerboux, départ Les Vans) ; GRP de la Haute Cévenne d'Ardèche — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement géographique
 sev: MOYENNE
-validite: foyer des Vans éteint depuis le 04/09 mi-journée ; foyer de Malbosc déclaré fixé le lundi 07/09/2026 après cinq jours de lutte, pas encore déclaré éteint
+validite: foyer des Vans éteint depuis le 04/09 mi-journée ; foyer de Malbosc déclaré fixé le lundi 07/09/2026 après cinq jours de lutte, surveillance en cours jusqu'à nouvel ordre, pas encore déclaré éteint
 detection: 2026-09-05
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche, aucune déclaration d'extinction trouvée
   pour Malbosc au-delà du fixé du 07/09 (ICI.fr). Aucun nouveau point de situation
   préfectoral localisé pour la période du 08 au 10/09. Le foyer des Vans reste éteint depuis

@@ -5,8 +5,9 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis le 20/04/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-09-02
-verif: 2026-09-02
-statut: ACTIF — NOUVEAU
+verif: 2026-09-11
+statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'avis FFRandonnée 35, toujours affiché
+  à l'identique, sans mention de réouverture.
 ordre: 214
 ---
 
@@ -21,6 +22,8 @@ Déviation balisée par le comité FFRandonnée 35 : au niveau du chemin du Port
 ## Zone (détails)
 
 20/04/2026 : le comité FFRandonnée d'Ille-et-Vilaine publie un avis de fermeture du GR®34 à Dinard entre le chemin du Port de la Vicomté et la rue du Port-Bernard, avec une déviation balisée par les avenues du Manoir et du Port-Bernard. L'avis reste affiché sur la page d'accueil du comité à la vérification du 02/09/2026, sans mention de réouverture.
+
+MAJ 11/09 : re-vérification directe de la page du comité FFRandonnée d'Ille-et-Vilaine. L'avis de fermeture reste affiché à l'identique, sans mention de réouverture ni de date de levée.
 
 ## Source
 

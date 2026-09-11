@@ -5,7 +5,7 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche (compte @Prefet34, infoccitanie.fr,
   shopping-beziers.com dont la liste d'articles s'arrête au 18/08), aucune carte postérieure
   au 05/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.

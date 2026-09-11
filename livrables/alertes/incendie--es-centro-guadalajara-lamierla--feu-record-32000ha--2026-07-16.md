@@ -5,7 +5,7 @@ itin: GR®167 Sierra Norte de Guadalajara, étape 1 (Majadas del Bornoba↔Prade
 sev: HAUTE (fermeture officielle de balisage, sans date de réouverture)
 validite: incendie de La Mierla déclaré officiellement éteint le 04/09/2026 à 18h30 après 51 jours d'opération (bilan final 34 447 ha) ; GR®167 étape 1 et GR®167.1 restent fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée ; GR®10-ES (Cogolludo↔Muriel↔Tamajón) fermé depuis le 17/07/2026 pour la même raison, également sans date de réouverture
 detection: 2026-07-24
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — vérification du 10/09 sur senderosdecastillalamancha.org : aucun changement.
   La page dédiée à l'étape 1 du GR®167 affiche toujours le statut « en révision », sans date,
   identique au 07/09. Le fil d'actualités du site ne porte toujours aucun avis postérieur au
