@@ -5,7 +5,7 @@ itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canea : Balos, Kri
 sev: MOYENNE
 validite: fermetures décidées au jour le jour (quotidiennement), selon la météo et le risque incendie, sans calendrier fixe ; le 10/09/2026, le risque incendie est redescendu en catégorie 3 (élevé, et non plus très élevé/extrême) sur toute la Crète, sans liste de tronçons E4 fermés publiée pour cette journée ; statut à vérifier sur samaria.gr et auprès de la Région de Crète avant l'étape
 detection: 2026-07-24
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — CHANGÉ 10/09 : nouvelle occurrence du même mécanisme, avec un niveau de
   risque en baisse. La Direction générale de la protection civile (carte quotidienne,
   relayée le 09/09 par politikakritis.gr, iraklionews.gr et neakriti.gr) place les quatre

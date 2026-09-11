@@ -9,7 +9,7 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche CIBLÉE sur l'acte manquant. La page
   dédiée de la mairie de L'Argentière-la-Bessée (ville-argentiere.fr/feu-bois-noir-informations)
   relue en direct confirme toujours l'arrêté municipal du 15/08/2026 comme seul texte en

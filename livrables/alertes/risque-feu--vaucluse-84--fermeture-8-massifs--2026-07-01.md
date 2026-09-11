@@ -5,7 +5,7 @@ itin: GR®9 (Dentelles de Montmirail) — statut non tranché depuis le 18/08 ; 
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien, publication reprise le 02/09 après 16 jours de silence ; un seul massif nommé pour le 03/09/2026, la Vallée du Rhône
 detection: 2026-07-18
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche ciblée (listing des communiqués de
   septembre sur vaucluse.gouv.fr, requêtes datées), toujours aucun communiqué massifs
   postérieur au 02/09 (pour le 03/09, Vallée du Rhône). Statut du 10/09 non tranché par un

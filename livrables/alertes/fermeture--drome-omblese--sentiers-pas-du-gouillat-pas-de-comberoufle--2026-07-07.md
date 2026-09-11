@@ -6,11 +6,13 @@ sev: MOYENNE ([HYPOTHÈSE] source unique, non officielle gouv.fr, mais arrêté 
   nommément numéroté)
 validite: arrêté municipal n°10-2026, prolongé par le n°12-2026 jusqu'au 31/08/2026 inclus (échéance atteinte, aucune reconduction trouvée à ce jour) ; par ailleurs, un régime préfectoral distinct (arrêté DDT-SEF-2026-0176 du 04/06/2026) réévalue chaque soir pour le lendemain le risque incendie sur les forêts de Saoû et le plateau d'Ambel jusqu'au 15/09/2026, indépendamment du sort de l'arrêté municipal
 detection: 2026-08-17
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche, rien de neuf sur une éventuelle
-  reconduction de l'arrêté municipal n°12-2026 (échu le 31/08). L'arrêté préfectoral
-  DDT-SEF-2026-0176, qui réévalue chaque soir le risque incendie sur la forêt de Saoû et le
-  plateau d'Ambel jusqu'au 15/09/2026, reste le régime de référence pour ce secteur.
+verif: 2026-09-11
+statut: ACTIF — CHANGÉ 11/09 : la page des arrêtés municipaux en vigueur de la commune
+  (gervanne-sye.com) ne liste aucun arrêté actif de fermeture de massif pour Omblèze, seul
+  un arrêté de 2023 (cascade de la Druise) y figure encore. Signal négatif en faveur d'une
+  non-reconduction du n°12-2026, sans constituer un acte de levée explicite. Le régime
+  préfectoral quotidien DDT-SEF-2026-0176 reste en vigueur jusqu'au 15/09/2026 quel que soit
+  le sort de l'arrêté municipal.
 ordre: 171
 ---
 
@@ -31,6 +33,8 @@ Aucune alternative connue à ce jour.
 17/08 : signal repéré lors de la couverture de la zone voisine des Baronnies (17/08/2026), aucune évolution connue depuis le 28/07.
 
 01/09 : l'échéance du 31/08 de l'arrêté municipal n°12-2026 est dépassée sans reconduction trouvée. Un régime distinct est découvert : l'arrêté préfectoral DDT-SEF-2026-0176 (signé 04/06/2026, publié 11/06/2026) réglemente la pénétration dans les massifs forestiers de la Drôme, dont la forêt de Saoû et le plateau d'Ambel, via une carte de risque incendie réévaluée chaque soir pour le lendemain, valable du 1er juillet au 15 septembre 2026. Ce mécanisme quotidien s'applique indépendamment du sort de l'arrêté municipal propre à Omblèze.
+
+11/09 : consultation directe de la page « Arrêtés municipaux du moment » de gervanne-sye.com : aucun arrêté actif de fermeture de massif n'y figure pour Omblèze, seul un arrêté de 2023 sur la cascade de la Druise reste listé. Ce signal négatif va dans le sens d'une non-reconduction du n°12-2026, sans constituer à lui seul un acte de levée officiel.
 
 ## Source
 

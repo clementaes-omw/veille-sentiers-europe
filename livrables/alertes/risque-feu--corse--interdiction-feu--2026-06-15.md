@@ -5,7 +5,7 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — CHANGÉ 10/09 : recherche générale sur les feux corses du jour. France 3
   Corse (09/09) signale la Corse-du-Sud classée en risque incendie élevé ce mercredi, avec
   un feu à Sarrola-Carcopino (~10 ha, en cours de traitement). Aucun rattachement à un GR®

@@ -2,27 +2,30 @@
 cle: risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21
 type: risque feu / réglementation accès
 itin: GR®65 (traversée des Landes), GR®8, GR®654 — impact direct sur les randonneurs itinérants prévoyant un bivouac en forêt landaise/girondine
-sev: MOYENNE (Gironde et Landes toutes deux en ORANGE depuis le 20/08)
-validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; désescalade ROUGE→ORANGE le 04/08/2026 dans les deux départements, escalade ORANGE→ROUGE en Gironde à compter du 08/08/2026 12h, puis nouvelle désescalade ROUGE→ORANGE en Gironde à compter du 20/08/2026 ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental ; zones brûlées et bivouac/camping isolé restent interdits jusqu'à nouvel ordre, sans échéance de levée annoncée par les arrêtés préfectoraux cités
+sev: MOYENNE (Gironde repassée en JAUNE le 08/09, Landes en ORANGE)
+validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; Gironde abaissée à JAUNE à compter du 08/09/2026 (seul l'accès aux zones brûlées reste interdit) ; Landes toujours en ORANGE (dernier communiqué daté du 03/08, bivouac/camping isolé interdit en forêt) ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental
 detection: 2026-07-24
-verif: 2026-09-04
-statut: ACTIF — CHANGÉ 28/08 : la Gironde est repassée en vigilance ORANGE à compter du 20/08
-  (gironde.gouv.fr, communiqué daté), après l'escalade du 08/08 ; les deux départements sont
-  de nouveau alignés en orange. Nouveau feu à Luglon (Landes) du 13 au 21/08, ~1 300-1 700 ha,
-  550 évacués, maîtrisé sans passage en vigilance rouge départementale (landes.gouv.fr,
-  franceinfo.fr). Sévérité maintenue MOYENNE. Statut d'un tronçon GR®8 dans le secteur brûlé
-  landais toujours non confirmé (ni fermé ni rouvert officiellement) malgré nouvelle
-  recherche ciblée ; aucun recoupement GR® trouvé non plus pour le secteur de Luglon.
+verif: 2026-09-11
+statut: ACTIF — CHANGÉ 11/09 : la Gironde abaisse son niveau de vigilance feux de forêt à
+  JAUNE à compter du 08/09/2026 (gironde.gouv.fr) : restrictions sur les engins thermiques/
+  électriques, les sources d'ignition et les manifestations levées, seul l'accès aux
+  secteurs déjà incendiés reste interdit au public. Les Landes restent en ORANGE (aucun
+  communiqué landes.gouv.fr postérieur au 03/08 retrouvé, bivouac/camping isolé toujours
+  interdit en forêt). Statut d'un tronçon GR®8 dans le secteur brûlé landais toujours non
+  confirmé malgré nouvelle recherche ciblée. Nouveau signal non versé au registre (à
+  recouper au prochain passage) : passerelle piétonne du pont de Castets-en-Dorthe (RD15,
+  Gironde) fermée depuis le 23/07/2026 pour contrôle technique, circulation alternée mise en
+  place pour maintenir le passage des randonneurs, GR® exact non identifié.
 ordre: 47
 ---
 
 ## Portion concernée
 
-Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born, puis Luglon/Garein) : complexe d'incendies de fin juillet 2026, fixé dans les deux départements, suivi d'un feu distinct à Luglon (13-21/08). La Gironde est repassée en vigilance ORANGE le 20/08/2026, après un nouvel épisode rouge entamé le 08/08 ; les Landes restent en vigilance ORANGE (dernier communiqué de passage de niveau daté du 03/08, le feu de Luglon n'ayant pas entraîné de nouvelle escalade départementale d'après les sources consultées). **Zones brûlées toujours fermées au public, bivouac/camping isolé toujours interdit en forêt (jusqu'à 200 m de lisière) dans les deux départements sous vigilance orange.** Le secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) est traversé par le GR®8 ; le statut d'un éventuel tronçon fermé n'est toujours pas confirmé officiellement.
+Gironde (Saumos/Le Porge) et Landes (Biscarrosse/Parentis-en-Born, puis Luglon/Garein) : complexe d'incendies de fin juillet 2026, fixé dans les deux départements, suivi d'un feu distinct à Luglon (13-21/08). **La Gironde est abaissée en vigilance JAUNE depuis le 8 septembre 2026** : les engins thermiques/électriques, les sources d'ignition et les manifestations en forêt sont de nouveau autorisés, seul l'accès aux secteurs déjà incendiés reste interdit au public. **Les Landes restent en vigilance ORANGE** (dernier communiqué de passage de niveau daté du 03/08) : bivouac et camping isolé toujours interdits en forêt et jusqu'à 200 m de sa lisière. Le secteur brûlé landais (Biscarrosse, Gastes, Sainte-Eulalie-en-Born) est traversé par le GR®8 ; le statut d'un éventuel tronçon fermé n'est toujours pas confirmé officiellement.
 
 ## Alternative
 
-Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR®8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born : à confirmer directement auprès de la FFRandonnée Landes avant l'étape. Le bivouac isolé en forêt reste interdit malgré le passage en vigilance orange.
+Aucune alternative officielle publiée pour un éventuel tronçon fermé du GR®8 dans le secteur Biscarrosse/Gastes/Sainte-Eulalie-en-Born : à confirmer directement auprès de la FFRandonnée Landes avant l'étape. En Gironde, le bivouac isolé n'est plus spécifiquement interdit par un texte de niveau jaune (seuls les secteurs brûlés restent fermés) ; dans les Landes, le bivouac isolé en forêt reste interdit tant que le niveau orange est maintenu.
 
 ## Zone (détails)
 
@@ -35,6 +38,8 @@ MAJ 05/08 : désescalade officielle. gironde.gouv.fr (04/08) et landes.gouv.fr (
 MAJ 14/08 : nouvelle escalade en Gironde. gironde.gouv.fr publie un communiqué de presse annonçant le passage en vigilance ROUGE à compter du samedi 8 août 2026 à midi. Les mêmes restrictions que lors du premier épisode rouge de juillet s'appliquent : dans les communes à dominante forestière, en zone exposée, interdiction des engins thermiques et électriques ainsi que de toute source d'inflammation de 14h à 22h, et interdiction de pratiquer le bivouac et le camping isolé sur terrain privé. Les Landes restent en vigilance orange, le dernier communiqué retrouvé sur landes.gouv.fr datant toujours du 03/08 malgré une recherche dédiée. Le tronçon éventuellement fermé du GR®8 dans le secteur brûlé landais reste sans confirmation officielle, ni fermeture ni réouverture publiée.
 
 MAJ 28/08 : désescalade en Gironde et nouveau feu dans les Landes. gironde.gouv.fr publie le 20/08 un communiqué abaissant la vigilance de ROUGE à ORANGE à compter du jeudi 20 août 2026 ; les restrictions de niveau orange s'appliquent de nouveau (bivouac et camping isolé interdits en zone exposée, engins thermiques et électriques interdits de 14h à 22h dans les communes à dominante forestière). Un feu distinct s'est déclaré entre-temps à Luglon (Landes, nord-ouest de Mont-de-Marsan) : déclenché le 13/08, il a parcouru environ 1 300 à 1 700 ha et entraîné l'évacuation d'environ 550 habitants de Luglon et Garein ; il a été circonscrit le 17/08 puis maîtrisé le 21/08 (communiqués landes.gouv.fr, franceinfo.fr). Landes.gouv.fr ne publie aucun communiqué de passage à un niveau de vigilance rouge lié à ce feu : le département reste sous le régime orange en vigueur depuis le 03/08, dernier communiqué de changement de niveau retrouvé pour les Landes malgré une nouvelle recherche dédiée. Aucun recoupement avec un GR® référencé n'a été trouvé pour le secteur de Luglon. Le tronçon éventuellement fermé du GR®8 dans le secteur brûlé de Biscarrosse/Gastes/Sainte-Eulalie-en-Born reste sans confirmation officielle.
+
+MAJ 11/09 : nouvelle désescalade en Gironde. [FAIT, gironde.gouv.fr, communiqué du 08/09/2026] Le niveau de vigilance feux de forêt en Gironde est abaissé en JAUNE à compter du mardi 8 septembre 2026 : les restrictions sur les engins thermiques/électriques, les sources d'ignition et les manifestations en forêt sont levées ; seul l'accès aux secteurs déjà incendiés reste interdit au public. Les Landes restent en ORANGE, aucun communiqué landes.gouv.fr postérieur au 03/08 n'ayant été retrouvé malgré nouvelle recherche ; le statut du tronçon GR®8 dans le secteur brûlé landais reste sans confirmation officielle. Nouveau signal repéré, non encore recoupé avec un GR® précis : la passerelle piétonne du pont de Castets-en-Dorthe (RD15, Gironde) est fermée depuis le 23/07/2026 pour contrôle technique, avec une circulation alternée par feu tricolore mise en place sur la chaussée pour maintenir le passage des randonneurs sans détour, gironde.fr.
 
 ## Source
 

@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: feu fixé depuis le mardi 08/09/2026 au matin, environ 225 hectares parcourus ;
   surveillance active maintenue
 detection: 2026-09-05
-verif: 2026-09-10
+verif: 2026-09-11
 statut: ACTIF — CHANGÉ 10/09 : le feu est déclaré fixé le mardi 08/09/2026 (SDIS de l'Aude,
   relayé par france3-regions, titrespresse.com et boursorama), après plus de trois jours et
   quatre nuits de lutte. Surface retenue 225 hectares (le chiffre de 250 ha avancé le 07/09

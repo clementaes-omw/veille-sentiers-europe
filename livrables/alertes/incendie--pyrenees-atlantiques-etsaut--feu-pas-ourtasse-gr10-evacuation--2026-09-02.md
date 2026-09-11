@@ -3,18 +3,19 @@ cle: incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-
 type: incendie
 itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: HAUTE
-validite: depuis le 02/09/2026 ; feu fixé (« ne progresse plus ») confirmé par la préfecture
-  le mercredi 09/09/2026 au matin, bilan final 130 ha ; secteur toujours interdit aux
-  randonneurs et bergers, survol civil et drones toujours interdit, aucune date de
-  réouverture annoncée
+validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone
+  du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau
+  autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et
+  bergers, aucune date de réouverture du GR®10 annoncée
 detection: 2026-09-07
-verif: 2026-09-10
-statut: ACTIF — CHANGÉ 10/09 : la préfecture des Pyrénées-Atlantiques confirme le mercredi
-  09/09/2026 au matin (ICI, 08h50) que le feu ne progresse plus, bilan final maintenu à 130
-  hectares après une semaine de lutte. L'arrêté préfectoral maintient formellement le secteur
-  interdit aux randonneurs (« forbidden to hikers ») ainsi qu'aux survols civils et drones et
-  au parapente, sans date de levée annoncée : la sévérité reste HAUTE au titre de cette
-  fermeture active, indépendamment du statut du feu lui-même désormais fixé.
+verif: 2026-09-11
+statut: ACTIF — CHANGÉ 11/09 : lasemainedespyrenees.fr (10/09) confirme le feu fixé et sous
+  surveillance, une reconnaissance par drone le 09/09 n'ayant détecté ni fumée ni signe de
+  reprise. Les survols civils, le parapente et l'ULM, interdits depuis le 05/09, sont de
+  nouveau autorisés. L'accès au sol reste en revanche strictement interdit à tous les
+  usagers, randonneurs et bergers compris, sans date de levée annoncée : la sévérité reste
+  HAUTE au titre de cette fermeture du GR®10 toujours active, indépendamment de la levée des
+  restrictions aériennes.
 ordre: 221
 ---
 
@@ -42,6 +43,8 @@ Dimanche soir : la préfecture porte le bilan à 125 hectares et qualifie la sit
 
 09/09 (mercredi), 08h50 : la préfecture des Pyrénées-Atlantiques confirme que le feu « ne progresse plus », un pas de plus que le « stabilisé » de la veille. Le bilan reste fixé à 130 hectares après une semaine d'intervention. L'arrêté préfectoral maintient le secteur interdit aux randonneurs, ainsi que le survol civil, les drones et le parapente ; aucune date de levée de ces interdictions n'est précisée par la source consultée.
 
+10/09 (jeudi) : le feu est désormais qualifié de fixé et placé sous surveillance ; une reconnaissance par drone menée le 09/09 n'a détecté aucune fumée ni signe de reprise. Les survols civils, le parapente et l'ULM, interdits par arrêté depuis le 05/09, sont de nouveau autorisés. L'accès du secteur au sol reste en revanche « strictement interdit à tous les usagers », randonneurs et bergers compris, sans date de réouverture du GR®10 entre Etsaut et Cette-Eygun annoncée.
+
 ## Source
 
-[lasemainedespyrenees.fr, 05/09/2026, incendie entre Etsaut et Cette-Eygun, d'importants moyens engagés et les randonneurs et usagers priés de quitter la zone](https://www.lasemainedespyrenees.fr/pyrenees-atlantiques-incendie-entre-etsaut-et-cette-eygun-dimportants-moyens-engages-et-les-randonneurs-et-usagers-pries-de-quitter-la-zone) ; [ICI, 06/09/2026, vallée d'Aspe, l'incendie a déjà ravagé 105 hectares, le feu toujours pas maîtrisé](https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/etsaut/vallee-d-aspe-l-incendie-a-deja-ravage-77-hectares-le-feu-toujours-pas-maitrise-3563267) ; [ICI, 06/09/2026 18h38, incendie en vallée d'Aspe, le feu toujours pas fixé, 120 hectares brûlés](https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/etsaut/incendie-en-vallee-d-aspe-le-feu-toujours-pas-fixe-120-hectares-brules-3647991) ; [France 3 Nouvelle-Aquitaine, 06/09/2026, 105 hectares brûlés en vallée d'Aspe dans les Pyrénées, un feu compliqué, très singulier](https://france3-regions.franceinfo.fr/nouvelle-aquitaine/pyrenees-atlantiques/pau/incendie-105-hectares-brules-en-vallee-d-aspe-dans-les-pyrenees-c-est-un-feu-complique-tres-singulier-pour-les-autorites-3412310.html) ; [TRT Français, incendie, 105 hectares ravagés en Pyrénées-Atlantiques, les pompiers face à un feu compliqué](https://www.trtfrancais.com/article/4d20df58de40) ; [France 24, 06/09/2026 21h03, Pyrénées-Atlantiques, 125 ha de surface brûlée en vallée d'Aspe, feu plutôt stable](https://www.france24.com/fr/info-en-continu/20260906-pyr%C3%A9n%C3%A9es-atlantiques-125-ha-de-surface-br%C3%BBl%C3%A9e-en-vall%C3%A9e-d-aspe-feu-plut%C3%B4t-stable) ; [lasemainedespyrenees.fr, 07/09/2026, vallée d'Aspe, 130 hectares de végétation déjà brûlés, le point ce lundi](https://www.lasemainedespyrenees.fr/vallee-daspe-130-hectares-de-vegetation-deja-brules-le-point-ce-lundi) ; [ICI, 09/09/2026 08h50, l'incendie de la vallée d'Aspe est « fixé », assure la préfecture des Pyrénées-Atlantiques](https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/lescun/l-incendie-de-la-vallee-d-aspe-est-fixe-3817924)
+[lasemainedespyrenees.fr, 05/09/2026, incendie entre Etsaut et Cette-Eygun, d'importants moyens engagés et les randonneurs et usagers priés de quitter la zone](https://www.lasemainedespyrenees.fr/pyrenees-atlantiques-incendie-entre-etsaut-et-cette-eygun-dimportants-moyens-engages-et-les-randonneurs-et-usagers-pries-de-quitter-la-zone) ; [ICI, 06/09/2026, vallée d'Aspe, l'incendie a déjà ravagé 105 hectares, le feu toujours pas maîtrisé](https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/etsaut/vallee-d-aspe-l-incendie-a-deja-ravage-77-hectares-le-feu-toujours-pas-maitrise-3563267) ; [ICI, 06/09/2026 18h38, incendie en vallée d'Aspe, le feu toujours pas fixé, 120 hectares brûlés](https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/etsaut/incendie-en-vallee-d-aspe-le-feu-toujours-pas-fixe-120-hectares-brules-3647991) ; [France 3 Nouvelle-Aquitaine, 06/09/2026, 105 hectares brûlés en vallée d'Aspe dans les Pyrénées, un feu compliqué, très singulier](https://france3-regions.franceinfo.fr/nouvelle-aquitaine/pyrenees-atlantiques/pau/incendie-105-hectares-brules-en-vallee-d-aspe-dans-les-pyrenees-c-est-un-feu-complique-tres-singulier-pour-les-autorites-3412310.html) ; [TRT Français, incendie, 105 hectares ravagés en Pyrénées-Atlantiques, les pompiers face à un feu compliqué](https://www.trtfrancais.com/article/4d20df58de40) ; [France 24, 06/09/2026 21h03, Pyrénées-Atlantiques, 125 ha de surface brûlée en vallée d'Aspe, feu plutôt stable](https://www.france24.com/fr/info-en-continu/20260906-pyr%C3%A9n%C3%A9es-atlantiques-125-ha-de-surface-br%C3%BBl%C3%A9e-en-vall%C3%A9e-d-aspe-feu-plut%C3%B4t-stable) ; [lasemainedespyrenees.fr, 07/09/2026, vallée d'Aspe, 130 hectares de végétation déjà brûlés, le point ce lundi](https://www.lasemainedespyrenees.fr/vallee-daspe-130-hectares-de-vegetation-deja-brules-le-point-ce-lundi) ; [ICI, 09/09/2026 08h50, l'incendie de la vallée d'Aspe est « fixé », assure la préfecture des Pyrénées-Atlantiques](https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/lescun/l-incendie-de-la-vallee-d-aspe-est-fixe-3817924) ; [lasemainedespyrenees.fr, 10/09/2026, le feu fixé et sous surveillance, survols de nouveau autorisés, accès au sol toujours strictement interdit]
