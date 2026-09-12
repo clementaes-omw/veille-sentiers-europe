@@ -9,21 +9,22 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche CIBLÉE sur l'acte manquant. La page
+verif: 2026-09-12
+statut: ACTIF — INCHANGÉ 12/09 : nouvelle recherche CIBLÉE sur l'acte manquant. La page
   dédiée de la mairie de L'Argentière-la-Bessée (ville-argentiere.fr/feu-bois-noir-informations)
   relue en direct confirme toujours l'arrêté municipal du 15/08/2026 comme seul texte en
-  vigueur, sans reconduction formalisée ni levée. Recherche complémentaire (presse locale,
-  hautes-alpes.gouv.fr) sans résultat plus récent. L'écart atteint 26 jours depuis la
-  signature de l'arrêté. Conformément au raisonnement déjà retenu le 08/09, la fermeture
-  reposant sur un texte officiel republié et confirmé (pas une hypothèse à recouper), la
-  règle des 14 jours ne s'applique pas ici : sévérité maintenue HAUTE.
+  vigueur, présenté comme une mesure en attendant les avis des autorités compétentes en vue
+  de la réouverture, sans reconduction formalisée ni levée. Recherche complémentaire (mairie
+  de Freissinières, presse Hautes-Alpes) sans résultat plus récent. L'écart atteint 28 jours
+  depuis la signature de l'arrêté. Conformément au raisonnement déjà retenu le 08/09, la
+  fermeture reposant sur un texte officiel republié et confirmé (pas une hypothèse à
+  recouper), la règle des 14 jours ne s'applique pas ici : sévérité maintenue HAUTE.
 ordre: 41
 ---
 
 ## Portion concernée
 
-**Cœur du massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) fermé** (parcours pédestres 2/6/7/14/15, via ferrata Grande Falaise, KV Freissinières) ; GR®54A fermé par prudence, avec accès interdit au col de la Pousterle et au vallon du Fournel. Un arrêté municipal du 15/08/2026 interdit formellement l'accès et la circulation dans ce secteur à tous les usagers, piétons, cyclistes, cavaliers et véhicules, en raison des risques de chutes d'arbres, de pierres et d'éboulements. La mairie de L'Argentière-la-Bessée le présente, sur sa page dédiée, comme une mesure en vigueur en attendant l'ensemble des avis des autorités compétentes nécessaires à une réouverture, sans date annoncée. La RD38 (route principale de Freissinières) a rouvert le 17/08/2026 ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. Depuis le 20/08/2026, les parcours pédestres 22 et 23, ainsi que la côte de Pallon et l'ensemble des routes communales, ont rouvert (paysdesecrins.com, mise à jour du 24/08/2026). L'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est donné éteint mais sous surveillance. Revuérifié le 08/09/2026 auprès de la mairie de L'Argentière-la-Bessée (page dédiée et page « vie pratique »), de la communauté de communes du Pays des Écrins et du Parc national des Écrins : l'arrêté municipal du 15/08/2026 reste la seule base réglementaire connue, toujours présentée comme en vigueur en attendant les avis des autorités compétentes, sans nouvel arrêté ni levée publiés. Situation inchangée sur le fond depuis le constat du 02/09/2026.
+**Cœur du massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) fermé** (parcours pédestres 2/6/7/14/15, via ferrata Grande Falaise, KV Freissinières) ; GR®54A fermé par prudence, avec accès interdit au col de la Pousterle et au vallon du Fournel. Un arrêté municipal du 15/08/2026 interdit formellement l'accès et la circulation dans ce secteur à tous les usagers, piétons, cyclistes, cavaliers et véhicules, en raison des risques de chutes d'arbres, de pierres et d'éboulements. La mairie de L'Argentière-la-Bessée le présente, sur sa page dédiée, comme une mesure en vigueur en attendant l'ensemble des avis des autorités compétentes nécessaires à une réouverture, sans date annoncée. La RD38 (route principale de Freissinières) a rouvert le 17/08/2026 ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. Depuis le 20/08/2026, les parcours pédestres 22 et 23, ainsi que la côte de Pallon et l'ensemble des routes communales, ont rouvert (paysdesecrins.com, mise à jour du 24/08/2026). L'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est donné éteint mais sous surveillance. Revuérifié à plusieurs reprises jusqu'au 12/09/2026 auprès de la mairie de L'Argentière-la-Bessée (page dédiée et page « vie pratique »), de la communauté de communes du Pays des Écrins et du Parc national des Écrins : l'arrêté municipal du 15/08/2026 reste la seule base réglementaire connue, toujours présentée comme en vigueur en attendant les avis des autorités compétentes, sans nouvel arrêté ni levée publiés. Situation inchangée sur le fond depuis le constat du 02/09/2026.
 
 ## Alternative
 
@@ -37,7 +38,7 @@ MAJ 24/07 : le feu N'EST PAS contenu, 400 ha confirmés au matin du 24/07 (vs 24
 
 MAJ 26/07 : au 25/07 12h, le feu reste actif avec « de nombreux points chauds persistants » en secteur montagneux inaccessible, moyens aériens toujours engagés (~200 largages ce jour-là) ; aucun statut « fixé » ou « maîtrisé » trouvé. Fermeture GR®54A reconfirmée par le PN Écrins (23/07) : « Ne pas emprunter le GR®54A ! Accès au col de la Pousterle et au vallon du Fournel interdits », repli confirmé par le GR®54 classique via Vallouise → col de l'Aup Martin. À recouper avec la ligne `conditions|Écrins-GR54|enneigement-conditions` (même massif).
 
-MAJ 27/07 : les titres successifs de l'article évolutif alpes1.com (id 112356) montrent une progression « stabilisé depuis plus de 24 heures » → « reste fixé à 510 hectares, 170 pompiers toujours mobilisés ». La surface est stable à 510 ha sur ces deux versions, ce qui laisse penser à un passage au stade « fixé », mais le fetch direct est impossible (alpes1.com 403 x2, hautes-alpes.gouv.fr pages « Feu de forêt » et « Point de situation » en 503 x2 chacune) : contenu obtenu uniquement via extraits de moteur de recherche, pas la source primaire. Statut à confirmer par une nouvelle vérification (retenter hautes-alpes.gouv.fr). Aucune source n'annonce de réouverture du GR®54A.
+MAJ 27/07 : les titres successifs de l'article évolutif alpes1.com (id 112356) montrent une progression « stabilisé depuis plus de 24 heures » → « reste fixé à 510 hectares, 170 pompiers toujours mobilisés ». La surface est stable à 510 ha sur ces deux versions, ce qui laisse penser à un passage au stade « fixé », mais la consultation directe est impossible (alpes1.com renvoie une erreur 403 à deux reprises, les pages « Feu de forêt » et « Point de situation » de hautes-alpes.gouv.fr renvoient chacune une erreur 503 à deux reprises) : contenu obtenu uniquement via extraits de moteur de recherche, pas la source primaire. Statut à confirmer par une nouvelle vérification (retenter hautes-alpes.gouv.fr). Aucune source n'annonce de réouverture du GR®54A.
 
 Correction de fond (27/07) : la page `ecrins-parcnational.fr/actualite/gr54-informations-recommandations` a été rouverte directement. Elle est toujours datée du mercredi 24/06/2026, sans mise à jour, et recommande TOUJOURS explicitement le GR®54A comme variante de l'Aup Martin, sans mention de la fermeture incendie. La mention « contradiction résolue » portée par un run antérieur dans le champ `itin` de ce fichier confondait la page de vigilance incendie (qui, elle, est correcte et inchangée) avec cette page de conditions GR®54 générale (qui reste fautive, 14 jours de retard sur une fermeture active).
 
