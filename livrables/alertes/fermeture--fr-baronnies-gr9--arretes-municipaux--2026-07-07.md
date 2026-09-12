@@ -5,8 +5,8 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 12 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 01/09, en retrait par rapport aux 16 communes nommées le 27/08) ; quatorze communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sahune, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
+verif: 2026-09-12
+statut: ACTIF — INCHANGÉ 12/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
   municipaux datés, pas une hypothèse à 14 jours). Liste de référence PNR Baronnies
   Provençales relue en direct, toujours datée « mise à jour le 01/09/26 », toujours les 12
   mêmes communes nommées avec leurs arrêtés datés (Châteauneuf-de-Bordette, Curnier,
@@ -18,7 +18,7 @@ ordre: 32
 
 ## Portion concernée
 
-GR®9 dans les Baronnies (Drôme) : **au moins 12 communes sous arrêté de fermeture de massifs**, liste confirmée à l'identique ce jeudi 10/09/2026 sur la page de référence du PNR Baronnies Provencales (toujours datée de sa mise à jour du 01/09) : Châteauneuf-de-Bordette, Curnier, La Charce (arrêté municipal n°16-2026 du 10/08), La Penne-sur-Ouvèze, Lemps, Les Pilles, Pierrelongue, Pommerol, Sainte-Euphémie-sur-Ouvèze, Saint-Sauveur-Gouvernet, Teyssières, Verclause. Raison : risque incendie (canicule). Quatorze communes citées le 12/08 ont disparu de cette liste depuis (Bellecombe-Tarendol, Le Poët-Sigillat, Mirabel-aux-Baronnies, Roche-Saint-Secret-Béconne, Valouse, Venterol, Vercoiran retirées au 24/08 ; Nyons, Sainte-Jalle et Vinsobres retirées au 27/08 ; Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip et Sahune retirées au 01/09) : aucun arrêté de levée n'a été retrouvé les concernant nommément, leur statut n'est donc pas confirmé comme levé à ce jour.
+GR®9 dans les Baronnies (Drôme) : **au moins 12 communes sous arrêté de fermeture de massifs**, liste confirmée à l'identique le 12/09/2026 sur la page de référence du PNR Baronnies Provencales (toujours datée de sa mise à jour du 01/09) : Châteauneuf-de-Bordette, Curnier, La Charce (arrêté municipal n°16-2026 du 10/08), La Penne-sur-Ouvèze, Lemps, Les Pilles, Pierrelongue, Pommerol, Sainte-Euphémie-sur-Ouvèze, Saint-Sauveur-Gouvernet, Teyssières, Verclause. Raison : risque incendie (canicule). Quatorze communes citées le 12/08 ont disparu de cette liste depuis (Bellecombe-Tarendol, Le Poët-Sigillat, Mirabel-aux-Baronnies, Roche-Saint-Secret-Béconne, Valouse, Venterol, Vercoiran retirées au 24/08 ; Nyons, Sainte-Jalle et Vinsobres retirées au 27/08 ; Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip et Sahune retirées au 01/09) : aucun arrêté de levée n'a été retrouvé les concernant nommément, leur statut n'est donc pas confirmé comme levé à ce jour.
 
 Saillans, Beauvoisin et Bénivay-Ollon ne figurent pas dans cette liste de référence du 10/08. Pour Saillans, aucun arrêté ni aucune mention d'une fermeture de massif n'apparaît dans l'actualité publiée par la mairie depuis juillet : **aucune restriction n'est confirmée en vigueur sur cette commune à ce jour.** Beauvoisin et Bénivay-Ollon restent rattachées à une fermeture « depuis le 10/07, jusqu'à nouvel ordre » par une seule source (drome-cestmanature.com), non recoupée par la liste du PNR ni par une source officielle.
 
@@ -40,7 +40,7 @@ MAJ 26/07 : point de vigilance méthodologique confirmé, la fiche drome-cestman
 
 MAJ 27/07 : échéance désormais dépassée sans confirmation ; mairiedesaillans26.fr non recoupée directement (pas de page dédiée trouvée).
 
-MAJ 28/07 : fetch direct de mairiedesaillans26.fr tenté. Le seul contenu pertinent est une page du 01/07/2026 sur l'arrêté préfectoral sécheresse (restriction d'eau), sans page sur l'arrêté de fermeture de massif ni sur son échéance du 26/07 ; statut de Saillans toujours indéterminé.
+MAJ 28/07 : consultation directe de mairiedesaillans26.fr tentée. Le seul contenu pertinent est une page du 01/07/2026 sur l'arrêté préfectoral sécheresse (restriction d'eau), sans page sur l'arrêté de fermeture de massif ni sur son échéance du 26/07 ; statut de Saillans toujours indéterminé.
 
 MAJ 29/07 : mairiedesaillans26.fr rafraîchie en direct, toujours aucune page dédiée ; fiche drome-cestmanature.com rafraîchie le 27/07 mais texte Saillans identique et Plan de Baix toujours affiché comme actif, ce qui confirme le retard structurel de cette source.
 

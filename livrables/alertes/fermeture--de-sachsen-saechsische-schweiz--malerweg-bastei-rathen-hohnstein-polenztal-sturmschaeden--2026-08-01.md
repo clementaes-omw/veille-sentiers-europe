@@ -11,18 +11,19 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : nouvelle re-vérification ciblée (aktuelles,
-  eilmeldung-waldsperrung), aucun changement de périmètre. La page aktuelles reste datée
-  du 26/08/2026 pour la section Kurort Rathen (un ajout du 09/09 12h00 porte uniquement sur
-  le niveau d'eau bas de l'Elbe pour les bateaux à vapeur, sans rapport avec les sentiers).
-  L'eilmeldung-waldsperrung, revérifiée séparément, redonne le même périmètre que le 14/08 :
-  Schwedenlöcher et Amselgrund côté Rathewalde ouverts, Amselsee/bas de l'Amselgrund/
-  Pionierweg/Knotenweg/Füllhölzelweg toujours fermés. Le chantier héliporté du Gamrig reste
-  annoncé jusqu'au 18/09. La sévérité HAUTE repose sur une Allgemeinverfügung en vigueur
-  jusqu'à révocation (bis auf Widerruf), fermeture de fait sourcée indépendamment de toute
-  échéance à renouveler, pas sur une hypothèse « à confirmer » : la règle des 14 jours sur
-  les hypothèses non tranchées ne s'applique donc pas ici.
+verif: 2026-09-12
+statut: ACTIF — INCHANGÉ 12/09 : nouvelle recherche ciblée (page aktuelles Kurort Rathen,
+  eilmeldung-waldsperrung en version allemande, page du Nationalpark sur les travaux
+  héliportés). Rien de postérieur au 26/08/2026 trouvé pour Kurort Rathen ; le même
+  périmètre reste fermé (bas de l'Amselgrund entre Rathen et la jonction des
+  Schwedenlöcher, secteur du Ziegenrücken). Le Nationalpark confirme par ailleurs, dans un
+  article du 14/08/2026, la réduction de l'Allgemeinverfügung générale ce jour-là et
+  l'annonce du transport héliporté par une entreprise autrichienne pour les zones
+  difficiles d'accès, cohérente avec le chantier déjà connu (25/08→18/09 environ). La
+  sévérité HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf
+  Widerruf), fermeture de fait sourcée indépendamment de toute échéance à renouveler, pas
+  sur une hypothèse « à confirmer » : la règle des 14 jours sur les hypothèses non
+  tranchées ne s'applique donc pas ici.
 ordre: 99
 ---
 

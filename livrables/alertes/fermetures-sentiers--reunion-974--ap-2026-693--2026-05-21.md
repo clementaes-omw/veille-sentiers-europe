@@ -19,7 +19,7 @@ ordre: 16
 
 ## Portion concernée
 
-La Réunion : **sentiers fermés régis depuis le 27/08/2026 par l'arrêté n°2026-1415**, qui remplace l'AP 2026-693 du 21/05/2026 sur lequel cette fiche s'appuyait jusqu'ici (Augustave/Mafate rouvert selon ce dernier). Le contenu précis du nouvel arrêté (liste des sentiers concernés) n'a pas pu être consulté à distance ce jour : le PDF publié par l'ONF n'est pas lisible en fetch automatisé. Le recoupement avec le tracé du GR® R2 reste à faire. Raison : sécurité (éboulements, état des sentiers).
+La Réunion : **sentiers fermés régis depuis le 27/08/2026 par l'arrêté n°2026-1415**, qui remplace l'AP 2026-693 du 21/05/2026 sur lequel cette fiche s'appuyait jusqu'ici (Augustave/Mafate rouvert selon ce dernier). Le contenu précis du nouvel arrêté (liste des sentiers concernés) n'est pas accessible en ligne à ce jour : le PDF publié par l'ONF ne s'ouvre pas depuis ce site. Le recoupement avec le tracé du GR® R2 reste à faire. Raison : sécurité (éboulements, état des sentiers).
 
 ## Alternative
 
