@@ -5,12 +5,15 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
 detection: 2026-07-20
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche ciblée sur la suite de l'arrêté du
-  31/08/2026 (ariege.gouv.fr/Publications/Actualites relu en direct, site de la mairie de
-  Bordes-Uchentein, presse locale), aucun acte plus récent ni annonce de réouverture
+verif: 2026-09-12
+statut: ACTIF — INCHANGÉ 12/09 : nouvelle recherche ciblée (page Publications/Actualités
+  d'ariege.gouv.fr, page réglementaire sur l'emploi du feu du même site, presse locale
+  actu.fr/ici.fr sur Bethmale/Ayes), aucun acte plus récent ni annonce de réouverture
   retrouvés. L'arrêté du 31/08 (Cap des Lauzes↔Étang d'Ayes, jusqu'à nouvel ordre) reste le
-  texte en vigueur. Sévérité maintenue HAUTE.
+  texte en vigueur. La page réglementaire sur l'emploi du feu ne référence qu'un arrêté-cadre
+  ancien (21/10/2024) et ne permet pas de confirmer une éventuelle reconduction 2026 de
+  l'interdiction saisonnière ; à retester via le recueil des actes administratifs plutôt que
+  cette page. Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
