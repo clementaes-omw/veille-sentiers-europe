@@ -5,19 +5,25 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: HAUTE
 validite: vigilance rouge en vigueur jusqu'à levée officielle sur au moins 2 massifs (Corbières, Roussillon), confirmée par un article de presse daté du 03/09/2026 ; statut des 7 autres massifs (Fenouillèdes, Aspres, Albères, Capcir, Cerdagne, Conflent, Vallespir) non repris par ce texte, non tranché
 detection: 2026-07-27
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche ciblée (pyrenees-orientales.gouv.fr,
-  risque-prevention-incendie.fr/pyrenees-orientales — carte quotidienne toujours en JS,
-  illisible en autonome —, L'Indépendant, madeinperpignan), rien de postérieur au 03/09
-  retrouvé sur le statut nommé des massifs. Statut des 7 autres massifs toujours non tranché.
-  Sévérité maintenue HAUTE (base = classement officiel daté du 03/09, pas une hypothèse à 14
-  jours).
+verif: 2026-09-12
+statut: ACTIF — INCHANGÉ 12/09 : nouvelle recherche ciblée (page pyrenees-orientales.gouv.fr
+  sur la circulation dans les massifs — toujours une page réglementaire générale sans statut
+  nominatif daté —, madeinperpignan, titrespresse.com, mapetiterando.fr), rien de postérieur
+  au 03/09 confirmé sur le statut nommé des 7 massifs restants. Une mention isolée
+  (titrespresse.com, renvoyant vers actu.fr) évoque « un massif » redevenu accessible le
+  04/09, sans que le nom du massif soit identifiable avec certitude, à vérifier en priorité
+  au prochain passage avant de la traiter comme un fait distinct. Par ailleurs, un feu de
+  végétation (~2 ha, cabanons) s'est déclaré le 11/09 à Pézilla-la-Rivière (secteur El
+  Ribéral, à l'ouest de Perpignan), rapidement maîtrisé : sans lien avec les 7 massifs sous
+  surveillance, mentionné pour mémoire (risque incendie toujours actif mi-septembre). Statut
+  des 7 autres massifs toujours non tranché. Sévérité maintenue HAUTE (base = classement
+  officiel daté du 03/09, pas une hypothèse à 14 jours).
 ordre: 56
 ---
 
 ## Portion concernée
 
-**Massifs des Corbières et du Roussillon (Pyrénées-Orientales)** : un article de presse daté du jeudi 03/09/2026 rapporte que la préfecture place ces deux massifs en risque incendie exceptionnel, vigilance rouge, ce jour-là. L'accès y est interdit à pied, à cheval, à vélo et en véhicule motorisé, ainsi que tout usage du feu, y compris le brûlage des végétaux, et les travaux susceptibles de produire des étincelles. Le Fenouillèdes, les Aspres et les Albères, nommés dans le communiqué du 27/08, n'apparaissent plus dans ce texte du 03/09 ; faute d'un acte de levée explicite, leur statut individuel n'est pas tranché. Les 4 autres massifs du département (Capcir, Cerdagne, Conflent, Vallespir) ne sont cités par aucun des deux textes. La fermeture du massif des Albères, décidée par arrêté municipal distinct depuis le 10/07, reste documentée séparément (voir fiche dédiée `risque-feu|Alberes-66|…`), indépendamment de son statut dans cette vigilance rouge départementale.
+**Massifs des Corbières et du Roussillon (Pyrénées-Orientales)** : un article de presse daté du jeudi 03/09/2026 rapporte que la préfecture place ces deux massifs en risque incendie exceptionnel, vigilance rouge, ce jour-là. L'accès y est interdit à pied, à cheval, à vélo et en véhicule motorisé, ainsi que tout usage du feu, y compris le brûlage des végétaux, et les travaux susceptibles de produire des étincelles. Le Fenouillèdes, les Aspres et les Albères, nommés dans le communiqué du 27/08, n'apparaissent plus dans ce texte du 03/09 ; faute d'un acte de levée explicite, leur statut individuel n'est pas tranché. Les 4 autres massifs du département (Capcir, Cerdagne, Conflent, Vallespir) ne sont cités par aucun des deux textes. La fermeture du massif des Albères, décidée par arrêté municipal distinct depuis le 10/07, reste documentée séparément (voir fiche dédiée `risque-feu|Alberes-66|…`), indépendamment de son statut dans cette vigilance rouge départementale. Aucun texte plus récent que celui du 03/09 n'est publié à ce jour (12/09/2026) : la situation reste identique.
 
 ## Alternative
 
