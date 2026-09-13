@@ -3,7 +3,8 @@ cle: eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-c
 type: eboulement
 itin: Alta Via 1 (Dolomites), segment Rifugio Città di Fiume ↔ Palafavera, au niveau du Passo Staulanza — la route d'accès et le parking sont touchés, aucun signalement de coupure du sentier de randonnée lui-même
 sev: MOYENNE
-validite: éboulement du 10/09/2026, vérifications en cours, aucune confirmation de fermeture prolongée ni de levée trouvée à ce jour
+validite: éboulement du 10/09/2026 ; route et parking restent fermés jusqu'à nouvel ordre, le
+  temps des vérifications de sécurité, sans échéance de réouverture annoncée à ce jour
 detection: 2026-09-12
 verif: 2026-09-12
 statut: ACTIF — NOUVEAU
