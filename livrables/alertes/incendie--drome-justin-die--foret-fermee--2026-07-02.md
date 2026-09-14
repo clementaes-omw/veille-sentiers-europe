@@ -61,7 +61,7 @@ MAJ 07/09 : nouvelle confirmation indirecte, via un article titrespresse.com dat
 
 MAJ 10/09 : mairie-die.fr relue en direct, l'arrêté du 21/08/2026 (interdiction d'accès, de circulation et de présence dans les forêts de Justin, Laup et Solaure-en-Diois, motif chutes de pierres/arbres/branches fragilisés) reste le seul texte cité, sans reconduction formalisée ni levée. Recherche complémentaire sans résultat plus récent. Rattachement GR®9/GR®93 non retesté ce jour, toujours affaibli.
 
-MAJ 14/09 : mairie-die.fr relue directement, aucun changement : l'accès aux trois forêts reste interdit, sans échéance annoncée, la sortie de la fermeture restant conditionnée à une étude de risque toujours en cours. drome.gouv.fr a renvoyé une erreur 503 lors de cette vérification (page « Point de situation », inaccessible en autonome) ; aucune source de remplacement (RAA Drôme, ONF, DDT) n'a produit de texte plus récent que l'arrêté du 21/08. Rattachement GR®9/GR®93 non retesté ce jour, toujours affaibli depuis le 03/08.
+MAJ 14/09 : mairie-die.fr relue directement, aucun changement : l'accès aux trois forêts reste interdit, sans échéance annoncée, la sortie de la fermeture restant conditionnée à une étude de risque toujours en cours. drome.gouv.fr a renvoyé une erreur 503 lors de cette vérification (page « Point de situation » indisponible) ; aucune source de remplacement (RAA Drôme, ONF, DDT) n'a produit de texte plus récent que l'arrêté du 21/08. Rattachement GR®9/GR®93 non retesté ce jour, toujours affaibli depuis le 03/08.
 
 ## Source
 
