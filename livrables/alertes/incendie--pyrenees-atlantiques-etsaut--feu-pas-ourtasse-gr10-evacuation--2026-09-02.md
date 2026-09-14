@@ -40,7 +40,7 @@ Dimanche soir : la préfecture porte le bilan à 125 hectares et qualifie la sit
 
 10/09 (jeudi) : le feu est désormais qualifié de fixé et placé sous surveillance ; une reconnaissance par drone menée le 09/09 n'a détecté aucune fumée ni signe de reprise. Les survols civils, le parapente et l'ULM, interdits par arrêté depuis le 05/09, sont de nouveau autorisés. L'accès du secteur au sol reste en revanche « strictement interdit à tous les usagers », randonneurs et bergers compris, sans date de réouverture du GR®10 entre Etsaut et Cette-Eygun annoncée.
 
-14/09 (lundi) : nouvelle recherche ciblée sur une éventuelle levée. lasemainedespyrenees.fr relu (aucun article postérieur au 10/09 retrouvé sur ce feu), ICI Nouvelle-Aquitaine et France 3 Nouvelle-Aquitaine revérifiés sans résultat nouveau ; le site de la préfecture des Pyrénées-Atlantiques renvoie une erreur serveur au moment de la consultation. Aucune source ne documente à ce jour une réouverture du secteur au sol ni du GR®10 entre Etsaut et Cette-Eygun, douze jours après le départ de feu.
+14/09 (lundi) : lasemainedespyrenees.fr relu (aucun article postérieur au 10/09 retrouvé sur ce feu), ICI Nouvelle-Aquitaine et France 3 Nouvelle-Aquitaine revérifiés sans résultat nouveau ; le site de la préfecture des Pyrénées-Atlantiques renvoie une erreur serveur au moment de la consultation. Aucune source ne documente à ce jour une réouverture du secteur au sol ni du GR®10 entre Etsaut et Cette-Eygun, douze jours après le départ de feu.
 
 ## Source
 

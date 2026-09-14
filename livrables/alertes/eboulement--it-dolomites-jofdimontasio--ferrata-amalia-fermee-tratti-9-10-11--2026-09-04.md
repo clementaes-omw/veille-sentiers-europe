@@ -5,8 +5,13 @@ itin: Via ferrata Amalia Zuani Bornettini (Jôf di Montasio, Alpes Juliennes, Fr
 sev: MOYENNE
 validite: fermée depuis le 04/09/2026 jusqu'à nouvel ordre, dégâts qualifiés d'importants par le CAI, aucun calendrier de réouverture annoncé
 detection: 2026-09-12
-verif: 2026-09-12
-statut: ACTIF — NOUVEAU
+verif: 2026-09-14
+statut: [CLÔTURÉ] (2026-09-14) doublon : cette fiche décrit le même éboulement (même via
+  ferrata, même date du 04/09/2026, mêmes tronçons 9-10-11) que
+  fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10-11|2026-09-04,
+  créée dès le 05/09/2026 sous un intitulé de zone différent. La fiche fermeture|... reste
+  la fiche active et à jour pour cette fermeture ; celle-ci est close pour éviter le doublon
+  sur le site, son contenu est conservé pour mémoire.
 ordre: 228
 ---
 

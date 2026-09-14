@@ -2,7 +2,7 @@
 cle: incendie|ES-NAV-Roncal-Urzainki|feu-longue-duree-Pena-Gazpar|2026-08-14
 type: incendie
 itin: Aucun P1 identifié traversant directement Urzainki ; le GR®11 (Senda Transpirenaica,
-  étape Isaba↔Zuriza) et le GR13-ES (Cañada Real de los Roncaleses) passent dans la vallée
+  étape Isaba↔Zuriza) et le GR®13-ES (Cañada Real de los Roncaleses) passent dans la vallée
   du Roncal, à quelques kilomètres du secteur touché [HYPOTHÈSE non confirmée par une
   source dédiée au sentier]
 sev: MOYENNE

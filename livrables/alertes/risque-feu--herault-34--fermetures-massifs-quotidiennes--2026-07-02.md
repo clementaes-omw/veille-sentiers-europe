@@ -5,10 +5,11 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche (compte @Prefet34, infoccitanie.fr,
-  shopping-beziers.com dont la liste d'articles s'arrête au 18/08), aucune carte postérieure
-  au 05/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
+verif: 2026-09-14
+statut: ACTIF — CHANGÉ 14/09 : nouvelle recherche, cartes @Prefet34 retrouvées pour le 04/09
+  (8/9 orange), le 09/09 (5/9 orange) et le 10/09 (6/9 orange, dont Minervois et Gardiole) :
+  aucune n'a jamais fait apparaître de secteur rouge depuis le 22/08. Aucune carte postérieure
+  au 10/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
 ordre: 18
 ---
 
