@@ -10,18 +10,19 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en rouge),
   signifie qu'aucun secteur n'est classé rouge depuis le 03/09/2026
 detection: 2026-07-04
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : liste complète des actualités de gard.gouv.fr relue en
-  direct, toujours aucune page de classement postérieure au 03/09/2026 (les items les plus
-  récents portent sur les Journées du patrimoine, un arrêté sur les rassemblements musicaux
-  et la vigilance canicule orange). Aucun secteur classé rouge depuis 7 jours, selon la même
-  convention de publication. Sévérité maintenue MOYENNE.
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : liste complète des actualités de gard.gouv.fr relue en
+  direct, toujours aucune page de classement postérieure au 03/09/2026. Un article de presse
+  du 10/09 confirme le Gard toujours en vigilance orange (pas rouge) aux côtés de l'Aude, de
+  l'Hérault et des Pyrénées-Orientales. Un feu agricole (bottes de foin, Mas de la Fraiseraie,
+  Saint-Gilles, 04/09) a été rapidement maîtrisé, sans lien avec un massif forestier ni un
+  itinéraire balisé. Aucun secteur classé rouge depuis 11 jours. Sévérité maintenue MOYENNE.
 ordre: 15
 ---
 
 ## Portion concernée
 
-Gard : **aucun secteur n'est classé en risque incendie très sévère** depuis le 03/09/2026. Le Gard Rhodanien (36 communes, dont Fourques et Beaucaire, GR®653) avait été reclassé rouge pour cette seule journée du 3 septembre, après une première clôture de l'alerte le 01/09 faute de secteur rouge depuis le 18/08. Aucune page de classement n'a été publiée depuis pour le département, malgré sept jours écoulés : selon la pratique observée tout l'été sur ce site (une page dédiée n'existe que les jours où un secteur bascule au rouge), l'absence de page vaut absence de secteur classé. Aucun communiqué explicite de levée n'a en revanche été retrouvé. Raison de l'épisode du 03/09 : absence de précipitations, fortes chaleurs.
+Gard : **aucun secteur n'est classé en risque incendie très sévère**, confirmé le 14/09/2026 (onze jours sans nouveau classement rouge). Le Gard Rhodanien (36 communes, dont Fourques et Beaucaire, GR®653) avait été reclassé rouge pour la seule journée du 3 septembre, après une première clôture de l'alerte le 01/09 faute de secteur rouge depuis le 18/08. Depuis, gard.gouv.fr n'a publié aucune nouvelle page de classement (selon la pratique observée tout l'été sur ce site, une page dédiée n'existe que les jours où un secteur bascule au rouge : son absence vaut absence de secteur classé, sans qu'aucun communiqué explicite de levée n'ait par ailleurs été retrouvé) et un article de presse du 10/09/2026 confirme le département toujours en vigilance orange, pas rouge, aux côtés de l'Aude, de l'Hérault et des Pyrénées-Orientales. Un feu agricole isolé (bottes de foin, mas de la Fraiseraie, Saint-Gilles, 04/09) a été rapidement maîtrisé sans lien avec un massif forestier ni un itinéraire balisé. Raison de l'épisode du 03/09 : absence de précipitations, fortes chaleurs.
 
 ## Alternative
 
@@ -53,7 +54,8 @@ Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes d
 - 03/09 : réactivation. gard.gouv.fr publie une page « Jeudi 3 septembre 2026 » classant le Gard Rhodanien (36 communes : Aramon, Bagnols-sur-Cèze, Beaucaire, Bellegarde et 32 autres) en rouge, après 3 jours sans secteur classé. Confirmé par TV Sud Magazine. Statut des 04 et 05/09 non confirmé par une source officielle datée (URL testée en 401).
 - 06/09 : nouvelle désescalade. La liste complète des actualités de gard.gouv.fr est relue en direct, et aucune page dédiée au risque incendie n'existe pour le 4, le 5 ou le 6 septembre. Le classement du 03/09 (Gard Rhodanien seul) n'a donc duré qu'un jour : aucun secteur n'est classé rouge depuis 3 jours, selon la même convention de publication déjà observée sur cette fiche depuis juillet.
 - 10/09 : nouvelle relecture directe de la liste complète des actualités de gard.gouv.fr, toujours aucune page de classement postérieure au 03/09/2026. Les publications les plus récentes du site portent sur les Journées du patrimoine (07/09), un arrêté préfectoral sur les rassemblements musicaux non déclarés (04/09) et la vigilance canicule orange (03/09), sans aucune mention du risque incendie. Aucun secteur classé rouge depuis 7 jours.
+- 14/09 : nouvelle relecture directe de gard.gouv.fr, aucune page de classement postérieure au 03/09/2026. Un article de presse daté du 10/09/2026 confirme le Gard toujours en vigilance orange (pas rouge) selon l'indice Météo des forêts, aux côtés de l'Aude, de l'Hérault et des Pyrénées-Orientales. Un feu de bottes de foin (environ 1 000 unités) au mas de la Fraiseraie, sur la commune de Saint-Gilles, déclaré le 04/09/2026 vers 5h du matin, a mobilisé les pompiers du Gard pour des opérations de noyage : feu agricole sur une exploitation privée, sans lien avec un massif forestier classé ni avec un itinéraire balisé (secteur Costières/Petite Camargue). Aucun secteur classé rouge depuis 11 jours.
 
 ## Source
 
-[gard.gouv.fr, Mardi 18 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Mardi-18-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Lundi 17 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Lundi-17-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Vendredi 7 août 2026](https://www.gard.gouv.fr/Actualites/Vendredi-7-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 6 août 2026](https://www.gard.gouv.fr/Actualites/Jeudi-6-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 23 juillet 2026](https://www.gard.gouv.fr/Actualites/Jeudi-23-juillet-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 3 septembre 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Jeudi-3-septembre-2026-risque-incendie-tres-severe) ; TV Sud Magazine, 03/09/2026, reprise du classement Gard Rhodanien
+[gard.gouv.fr, Mardi 18 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Mardi-18-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Lundi 17 août 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Lundi-17-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Vendredi 7 août 2026](https://www.gard.gouv.fr/Actualites/Vendredi-7-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 6 août 2026](https://www.gard.gouv.fr/Actualites/Jeudi-6-aout-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 23 juillet 2026](https://www.gard.gouv.fr/Actualites/Jeudi-23-juillet-2026-risque-incendie-tres-severe) ; [gard.gouv.fr, Jeudi 3 septembre 2026, risque incendie très sévère](https://www.gard.gouv.fr/Actualites/Jeudi-3-septembre-2026-risque-incendie-tres-severe) ; TV Sud Magazine, 03/09/2026, reprise du classement Gard Rhodanien ; [titrespresse.com/Centre Presse Aveyron, 10/09/2026, risque incendie, le danger reste élevé dans quatre départements d'Occitanie](https://www.titrespresse.com/20787762603/occitanie-carte-risque) ; [objectifsud.fr / infoccitanie.fr, incendie au mas de la Fraiseraie à Saint-Gilles, 04/09/2026](https://infoccitanie.fr/gard-un-hectare-brule-par-les-flammes-a-saint-gilles/) [FAIT, feu agricole, sans lien avec un massif classé]

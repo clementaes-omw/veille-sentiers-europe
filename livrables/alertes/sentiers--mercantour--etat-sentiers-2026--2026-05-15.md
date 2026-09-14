@@ -5,8 +5,8 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 08/09 : page relue en direct, toujours datée du 22/08/2026, aucun
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : page relue en direct, toujours datée du 22/08/2026, aucun
   changement de fond depuis le dernier passage.
 ordre: 13
 ---
@@ -36,6 +36,8 @@ MAJ 27/08 : nouvelle mise à jour de la page, datée du 22/08/2026 (12 jours apr
 MAJ 04/09 : la page reste calée sur sa mise à jour du 22/08, sans changement de fond. Une lecture intégrale du jour relève deux mentions déjà présentes sur la page mais jamais reprises jusqu'ici dans cette fiche : la piste de **Fontanalba** (Tende) est interdite entre les balises 389 et 387, une alternative existant sur place ; le hameau de **Valabres** (Roure) est interdit d'accès pour risque de chute de blocs. Aucune date d'entrée en vigueur n'est précisée pour ces deux mentions.
 
 MAJ 05/09 : lecture intégrale de mercantour-parcnational.fr (page toujours datée du 22/08/2026) : un secteur déjà listé sur la page n'avait jamais été repris dans cette fiche, le sentier des Barels depuis Bouchanières (Guillaumes), fermé entre les balises 152 et 155 pour risque de crue lors d'orages récurrents. Aucun changement de fond par ailleurs.
+
+MAJ 14/09 : mercantour-parcnational.fr relu en direct, page toujours datée du 22/08/2026, aucun changement de fond ni nouveau secteur signalé.
 
 ## Source
 

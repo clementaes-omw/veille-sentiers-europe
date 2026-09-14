@@ -5,14 +5,15 @@ itin: Malerweg (Suisse Saxonne) — étape 3 (Kohlichtgraben, et Schindergraben�
 sev: MOYENNE
 validite: Kohlichtgraben et Bergsteig fermés jusqu'à nouvel ordre depuis le 18/08/2026 ; Schindergraben↔Halbenweg fermé jusqu'à nouvel ordre depuis la nuit du 19 au 20/08/2026 (nouvelle tempête) ; aucune échéance annoncée pour les trois secteurs, déviations balisées en place
 detection: 2026-08-18
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : saechsische-schweiz.de/gut-zu-wissen/aktuelles revérifié
-  une nouvelle fois, le Kohlichtgraben (étape 3) reste explicitement listé impraticable
-  (« ist derzeit unpassierbar »), cause scolytes ; le Bergsteig (étape 5, partie basse)
-  reste listé impraticable pour risque de chute d'arbres ; le Schindergraben↔Halbenweg
-  reste mentionné fermé, déviation par le balisage vert toujours recommandée. Les trois
-  secteurs restent fermés sans changement depuis le 08/09, avec les mêmes déviations
-  balisées.
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : saechsische-schweiz.de/gut-zu-wissen/aktuelles et
+  sandsteinwandern.de (source distincte, mise à jour le 08/09/2026) revérifiés, le
+  Kohlichtgraben (étape 3) reste explicitement listé impraticable (« ist derzeit
+  unpassierbar »), cause scolytes, sur terrain forestier privé donc non déblayable par le
+  parc ; le Bergsteig (étape 5, partie basse) reste listé impraticable pour risque de chute
+  d'arbres ; le Schindergraben↔Halbenweg reste mentionné fermé, déviation par le balisage
+  vert toujours recommandée. Les trois secteurs restent fermés sans changement depuis le
+  22/08, aucune échéance de réouverture publiée.
 ordre: 176
 ---
 
@@ -32,6 +33,8 @@ Kohlichtgraben (étape 3) : déviation balisée par Goßdorf, allongement d'envi
 
 MAJ 10/09 : re-vérification complète de la page aktuelles. Les trois secteurs restent dans le même état qu'au 22/08 : Kohlichtgraben impraticable (scolytes), Bergsteig partie basse impraticable (chute d'arbres), Schindergraben↔Halbenweg fermé avec déviation balisée par la Max-Jacob-Straße et le Neuweg. Aucune échéance de réouverture n'est toujours publiée pour l'un ou l'autre des trois secteurs.
 
+MAJ 14/09 : nouvelle re-vérification, avec une source distincte. [FAIT, sandsteinwandern.de, page « ÖPNV, Straßen- und Wegsperrungen », mise à jour du 08/09/2026] Cette page confirme, indépendamment de saechsische-schweiz.de, le même état pour les trois secteurs : Kohlichtgraben impraticable pour les épicéas scolytés, sur une portion de forêt privée que le parc ne peut pas déblayer lui-même ; Bergsteig (partie basse) impraticable, déviation par l'Erlsgrund et la Winterbergstraße ; aucune date de réouverture annoncée pour l'un ou l'autre secteur.
+
 ## Source
 
-[saechsische-schweiz.de, ‼️Aktuelles zur Sächsischen Schweiz, mise à jour du 18/08/2026 15h00](https://www.saechsische-schweiz.de/gut-zu-wissen/aktuelles) ; [saechsische-schweiz.de, ‼️Aktuelles zur Sächsischen Schweiz, consultée le 22/08/2026 (fermeture Schindergraben↔Halbenweg suite à la tempête du 19-20/08)](https://www.saechsische-schweiz.de/gut-zu-wissen/aktuelles)
+[saechsische-schweiz.de, ‼️Aktuelles zur Sächsischen Schweiz, mise à jour du 18/08/2026 15h00](https://www.saechsische-schweiz.de/gut-zu-wissen/aktuelles) ; [saechsische-schweiz.de, ‼️Aktuelles zur Sächsischen Schweiz, consultée le 22/08/2026 (fermeture Schindergraben↔Halbenweg suite à la tempête du 19-20/08)](https://www.saechsische-schweiz.de/gut-zu-wissen/aktuelles) ; [sandsteinwandern.de, Service : ÖPNV, Straßen- und Wegsperrungen, mise à jour du 08/09/2026](https://www.sandsteinwandern.de/wandern/?page_id=398)

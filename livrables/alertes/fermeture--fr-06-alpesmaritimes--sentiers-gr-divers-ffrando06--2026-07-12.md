@@ -3,11 +3,12 @@ cle: fermeture|FR-06-AlpesMaritimes|sentiers-gr-divers-ffrando06|2026-07-12
 type: fermeture
 itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36) ; GR®52A (Entraunes ravin du Brec, Tende baisse de la Lagouna, Beuil balises 101-59)
 sev: MOYENNE
-validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; nouvelle fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; page FFRando 06 mise à jour au 01/09/2026
+validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; nouvelle fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; page FFRando 06 mise à jour au 12/09/2026
 detection: 2026-08-01
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : page FFRando 06 relue en direct, toujours datée du
-  01/09/2026, aucune nouvelle fermeture. Fermetures inchangées.
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : page FFRando 06 relue en direct, désormais datée du
+  12/09/2026 (contre 01/09 précédemment), mais aucune fermeture nouvelle ni levée. Fermetures
+  inchangées.
 ordre: 64
 ---
 
@@ -29,6 +30,8 @@ MAJ 02/09 : page FFRando 06 relue directement, mise à jour au 01/09/2026. Une n
 
 MAJ 10/09 : page FFRando 06 relue directement, toujours datée du 01/09/2026, aucune fermeture nouvelle ni levée depuis 9 jours. Fermetures inchangées sur GR®510, GR®52-GTM, GR®52A et GR®5 ; GR®51, GR®4 et GR®653A restent « Néant ».
 
+MAJ 14/09 : page FFRando 06 relue directement, désormais datée du 12/09/2026. Les fermetures listées restent identiques : GR®510 (Rigaud b.205-206, Massoins b.69-72/68-69/66-68), GR®52-GTM (Entraunes b.35-36), GR®52A (Entraunes borne 266, ravin du Brec, Tende baisse de la Lagouna b.334-335a, Beuil b.101-59 jusqu'au 02/10/2026), GR®5 (Levens, Beuil saisonnier, Roure b.238). GR®51, GR®4 et GR®653A restent « Néant ». Aucune fermeture nouvelle ni levée malgré le changement de date de la page.
+
 ## Source
 
-[FFRando 06, Fermeture des sentiers GR Alpes-Maritimes](https://alpes-maritimes.ffrandonnee.fr/post/fermeture-des-sentiers-gr-alpes-maritimes/) (page mise à jour au 01/09/2026, consultée le 12/07/2026 puis le 02/09/2026)
+[FFRando 06, Fermeture des sentiers GR Alpes-Maritimes](https://alpes-maritimes.ffrandonnee.fr/post/fermeture-des-sentiers-gr-alpes-maritimes/) (page mise à jour au 12/09/2026, consultée le 12/07/2026, le 02/09/2026 puis le 14/09/2026)

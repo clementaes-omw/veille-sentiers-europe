@@ -600,6 +600,7 @@ ALIAS_ZONE = {
     "Ariege-Saurat": "FR-PYR-O", "HautesPyrenees-65": "FR-PYR-O",
     "HauteGaronne-31": "FR-PYR-O", "Pyrenees-Atlantiques-Etsaut": "FR-PYR-O",
     "ES-ARA-Huesca-Riglos": "ES-NAV-RIO-ARA",
+    "ES-NAV-Roncal-Urzainki": "ES-NAV-RIO-ARA",
     # Ouest / Nord
     "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
     "Ille-et-Vilaine-Dinard": "FR-BRE", "Ille-et-Vilaine-Saint-Briac-sur-Mer": "FR-BRE",

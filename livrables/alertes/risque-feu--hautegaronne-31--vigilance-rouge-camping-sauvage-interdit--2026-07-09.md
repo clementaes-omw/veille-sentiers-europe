@@ -5,11 +5,12 @@ itin: GR®10 (secteur Luchon-Superbagnères), HRP
 sev: MOYENNE
 validite: arrêté du 09/07/2026, activé seulement les jours classés en vigilance rouge (très élevée) de la météo des forêts, en vigueur jusqu'à nouvel ordre selon le texte officiel de la préfecture (sans échéance calendaire fixe) ; une source de presse secondaire évoquait une validité « jusqu'au 01/09/2026 », mais la page officielle haute-garonne.gouv.fr (MAJ 30/07) dit seulement que la mesure « restera en vigueur durant toute la durée de vigilance très élevée (rouge) », sans date de fin
 detection: 2026-08-24
-verif: 2026-09-07
-statut: ACTIF — INCHANGÉ 07/09 : nouvelle recherche, aucune page postérieure au 30/07/2026
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune page postérieure au 30/07/2026
   retrouvée sur haute-garonne.gouv.fr ni de levée publiée ; le texte préfectoral ne fixe
-  toujours aucune échéance calendaire. Précédent point : CHANGÉ 03/09 (retrait de la date du
-  01/09 portée à tort par une source de presse secondaire).
+  toujours aucune échéance calendaire. Le Gers a levé ses propres restrictions le 13/09
+  (lepetitjournal.net), mais aucune levée équivalente n'est publiée pour la Haute-Garonne à
+  ce jour.
 ordre: 180
 ---
 

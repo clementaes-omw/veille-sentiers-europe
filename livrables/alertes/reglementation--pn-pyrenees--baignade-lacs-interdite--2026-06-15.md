@@ -5,8 +5,8 @@ itin: GR®10 / HRP / HRMP
 sev: MOYENNE
 validite: permanente (arrêtés directeur 2026-45 et 2026-112)
 detection: 2026-07-02
-verif: 2026-09-03
-statut: ACTIF — INCHANGÉ 03/09 : réglementation permanente (arrêtés directeur 2026-45 et
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : réglementation permanente (arrêtés directeur 2026-45 et
   2026-112), rien à signaler de nouveau.
 ordre: 11
 ---

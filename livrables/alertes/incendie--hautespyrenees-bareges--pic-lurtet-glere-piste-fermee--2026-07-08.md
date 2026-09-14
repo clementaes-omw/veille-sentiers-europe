@@ -5,8 +5,8 @@ itin: GR®10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de l
 sev: MOYENNE (feu éteint selon deux sources recoupées le 31/08 ; piste de la Glère toujours non confirmée rouverte)
 validite: feu éteint (feuxdeforet.fr ; plus aucune détection satellite NASA FIRMS depuis début août) ; piste de la Glère présumée fermée jusqu'à nouvel ordre, faute de source confirmant sa réouverture
 detection: 2026-07-21
-verif: 2026-09-03
-statut: ACTIF — INCHANGÉ 03/09 : nouvelle recherche, aucune source ne documente la
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune source ne documente la
   réouverture de la piste de la Glère ni un nouvel épisode sur ce feu, toujours donné
   éteint depuis le 31/08 (feuxdeforet.fr, recoupé par l'absence de détection satellite
   NASA FIRMS/VIIRS depuis le 02/08). L'état de la piste de la Glère elle-même (chutes de
@@ -40,6 +40,8 @@ MAJ 03/08 : toujours aucune source postérieure au 28/07 trouvée, silence déso
 MAJ 05/08 : dégradation HAUTE→MOYENNE appliquée (règle des 14 jours d'agent-prompt.md). 15 jours après la détection (21/07), aucune source postérieure au 28/07 n'a été retrouvée malgré une vérification dédiée de plusieurs sources (hautes-pyrenees.gouv.fr, lasemainedespyrenees.fr, toulouse7.com, feuxdeforet.fr). Ni l'extinction ni une nouvelle progression du feu ne sont confirmées ; la piste de la Glère reste présumée fermée par prudence, sur la seule base du terrain fragilisé constaté (150 ha brûlés en altitude, terrain instable).
 
 MAJ 31/08 : feuxdeforet.fr affiche désormais explicitement « le feu est éteint ». Recoupement obtenu via incendieencours.fr (données satellite NASA FIRMS/VIIRS) : plus aucune détection thermique sur ce foyer depuis le 02/08/2026 (dernières détections les 16/07, 28/07 et 02/08). Aucune source officielle (préfecture 65) ni presse datée ne confirme l'extinction en propres termes, mais le recoupement de deux sources indépendantes, dont une mesure satellite, est jugé suffisant pour acter le fait. L'état de la piste de la Glère elle-même (accès au refuge, risque de chutes de pierres) n'est en revanche mentionné par aucune source : elle reste présumée fermée par prudence, sévérité maintenue MOYENNE.
+
+MAJ 14/09 : nouvelle recherche dédiée (feuxdeforet.fr, lasemainedespyrenees.fr, toulouse7.com), toujours aucune mention de la réouverture de la piste de la Glère ni du refuge. Le feu reste donné éteint depuis fin août, sans nouvelle source sur l'état du terrain lui-même.
 
 ## Source
 

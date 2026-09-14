@@ -1,109 +1,97 @@
-# Verdict qualité du registre — 2026-09-13
+# Verdict qualité du registre — 2026-09-14
 
-Agent : `agents/verificateur-alertes.md`, distinct de l'agent de veille du jour. Aucune des
-fiches ci-dessous n'a été écrite par moi : audit réel, pas relecture de complaisance.
+Agent : `agents/verificateur-alertes.md`, distinct des 6 agents de recherche qui ont produit
+ou modifié les fiches du jour (incendies Espagne/Corse/Var/Aude/Hérault/
+Pyrénées-Orientales, remontée de sévérité Réunion). Aucune des fiches contrôlées ci-dessous
+n'a été écrite par moi : audit indépendant, pas relecture de complaisance.
 
-`python3 site/audit_qualite.py --ecrire` relancé en préambule (résultat identique à celui déjà
-annoncé par la veille : 9 constats non bloquants, 0 bloquant, avant mes corrections).
+`python3 site/audit_qualite.py --ecrire` relancé en préambule : **8 constats, 0 bloquant**,
+sur 121 fiches (90 actives). Périmètre de contrôle = ces 8 fiches, et elles seules (le
+dossier complet n'a pas été relu).
 
-**9 fiches contrôlées en profondeur** (les seules avec un `verif:` du 13/09/2026, périmètre
-du jour) + **4 fiches supplémentaires** traitées partiellement (constats de l'audit non liés
-au périmètre du jour, corrigées sur le seul point « validité », sans audit complet des 7
-contrôles). Aucune autre fiche du dossier (105 restantes) n'a été ouverte ni modifiée.
+Après corrections : `python3 site/build_site.py` → **OK (QA passée)** (90 actives, 31
+clôturées, 121 fichiers). `python3 site/audit_qualite.py` relancé → **0 bloquant**, **6
+constats résiduels** (5 faux positifs documentés ci-dessous + 1 fraîcheur réelle laissée à
+la veille). Garde-fou d'intégrité du build (perte de texte) : 0 déclenchement.
 
-Après corrections : `python3 site/build_site.py` → **OK (QA passée)** (88 actives, 30
-clôturées, 118 fichiers). `python3 site/audit_qualite.py` → **0 bloquant**, 7 constats
-restants (tous hors de mon périmètre, détaillés plus bas).
-
-## PASS / FAIL par contrôle — 9 fiches du périmètre du jour
+## PASS / FAIL par contrôle — 8 fiches citées par l'audit
 
 | Fiche | 1 Fraîcheur | 2 Concordance | 3 Honnêteté | 4 Pertinence | 5 Sévérité | 6 Ton | 7 Source vivante |
 |---|---|---|---|---|---|---|---|
-| `fermeture\|DE-Sachsen-SaechsischeSchweiz\|…\|2026-08-01` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
-| `fermeture\|FR-Baronnies-GR9\|arretes-municipaux\|2026-07-07` | PASS | PASS | PASS | PASS | PASS | PASS | PASS |
-| `incendie\|Ariege-Bordes-Uchentein\|…\|2026-07-10` | PASS | PASS | PASS | PASS | PASS | PASS | PASS |
+| `fermetures-sentiers\|Réunion-974\|AP-2026-693\|2026-05-21` | PASS | PASS | PASS | PASS | PASS | PASS (corrigé) | PASS (vérifié) |
+| `fermeture\|FR-Baronnies-GR9\|arretes-municipaux\|2026-07-07` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié) |
+| `fermeture\|GR-E4-Creta-Samaria\|fermetures-meteo-repetees\|2026-07-16` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
+| `incendie\|Ariege-Bordes-Uchentein\|GR10-ferme-Esbintz-Valier\|2026-07-10` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (source réachable, PDF non OCRisable) |
 | `incendie\|Drome-Justin-Die\|foret-fermee\|2026-07-02` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
-| `incendie\|ES-CENTRO-Guadalajara-LaMierla\|…\|2026-07-16` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
-| `incendie\|HautesAlpes-BoisNoir\|…\|2026-07-19` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
-| `incendie\|Pyrenees-Atlantiques-Etsaut\|…\|2026-09-02` | PASS | PASS | PASS | PASS | PASS | PASS | **FAIL → corrigé** |
-| `risque-feu\|PO-66\|vigilance-rouge-…\|2026-07-26` | PASS | PASS | PASS | PASS | PASS (dégradation du jour validée) | PASS | PASS |
-| `risque-feu\|Vaucluse-84\|fermeture-8-massifs\|2026-07-01` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
+| `incendie\|ES-NAV-Roncal-Urzainki\|feu-longue-duree-Pena-Gazpar\|2026-08-14` | PASS | PASS | PASS (corrigé) | PASS | PASS | PASS | n/a (pas de fermeture sourcée) |
+| `incendie\|HautesAlpes-BoisNoir\|GR54A-ferme-Argentiere-Freissinieres\|2026-07-19` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié) |
+| `risque-feu\|Gard-30\|fermetures-5-secteurs-rouges\|2026-07-01` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
 
-Détail des FAIL et de leur traitement :
+Détail :
 
-- **Contrôle 7 (source vivante), `incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** :
-  la dernière citation de la section Source (lasemainedespyrenees.fr, 10/09, « le feu fixé et
-  sous surveillance, survols de nouveau autorisés, accès au sol toujours strictement
-  interdit ») n'avait pas d'URL — un lien markdown non fermé, invérifiable pour le lecteur.
-  Recherche et vérification directe : l'article existe bien
-  (`https://www.lasemainedespyrenees.fr/pyrenees-atlantiques-vallee-daspe-le-feu-fixe-la-zone-reste-interdite-dacces`,
-  daté du 10/09/2026, contenu conforme au fait cité). URL ajoutée. Ce n'était pas une source à
-  chercher, seulement une citation à compléter : dans mon périmètre.
-- **Contrôle 2 (concordance), 5 fiches** : la « Portion concernée » portait une date de
-  dernière constatation (« situation au 06/09 », « à ce jour (12/09/2026) », « vérifié
-  jusqu'au 12/09 ») restée en retard d'un jour sur `verif: 2026-09-13`, alors que le `statut:`
-  documente une re-vérification du jour donnant le même résultat. Écart sous le seuil
-  bloquant de l'audit (7 j), mais c'est exactement le défaut n°1 du registre (portion
-  périmée pendant que le fichier est à jour) : corrigé par réécriture à information
-  constante, aucun fait ajouté ni supprimé — Sachsen, Drôme-Justin, ES-Centro-Guadalajara,
-  Hautes-Alpes-Bois Noir, Vaucluse-84. `fermeture|FR-Baronnies-GR9|…` n'a PAS été touchée sur
-  ce point : sa date du 12/09 est la bonne, la tentative de re-vérification du jour (page PNR
-  Baronnies) a échoué à s'ouvrir, donc rien de plus récent n'a réellement été confirmé
-  aujourd'hui.
-- **Contrôle 5 (sévérité), `risque-feu|PO-66|…`** : dégradation HAUTE→MOYENNE appliquée par
-  la veille aujourd'hui, motivée (10 jours sans communiqué nommant un massif en rouge +
-  indice général repassé en orange, méthode déjà appliquée deux fois sur cette même fiche en
-  août). Vérifiée : les deux articles titrespresse.com cités (12/09, 04/09) sont en ligne et
-  disent bien ce que la fiche rapporte. Dégradation validée, rien à corriger.
-
-## Autres constats de l'audit traités (hors périmètre du jour, temps disponible)
-
-Deux fermetures récentes signalées par l'audit comme « validité expirée » étaient en réalité
-un faux positif de l'outil : le seul chiffre présent dans `validite:` était la date de
-l'événement lui-même (l'éboulement/la fermeture du 10/09), pas une échéance, faute d'un
-marqueur de validité ouverte reconnu par le script. Corrigé par reformulation factuelle
-(« jusqu'à nouvel ordre »), sans invention :
-- `eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`
-- `fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10`
+- **5 fiches rouges « source datée » (Réunion, Baronnies, Ariège, Drôme-Justin,
+  Hautes-Alpes-Bois Noir)** : l'audit déterministe signale une source de plus de 10 jours
+  sous une alerte HAUTE. Dans les 5 cas, la source la plus ancienne citée n'est pas la source
+  réelle de l'interdiction : chacune repose sur un **arrêté (préfectoral ou municipal) « jusqu'à
+  nouvel ordre »**, qui ne se republie pas tant qu'il n'est ni abrogé ni prolongé — les 5
+  fiches documentent une revérification directe **le 14/09** (même jour) sans texte plus
+  récent trouvé. Contrôle 7 vérifié par mes soins par récupération directe des pages :
+  onf.fr (Réunion, arrêté n°2026-1415 confirmé en ligne), baronnies-provencales.fr (Baronnies,
+  toujours datée du 01/09, 12 communes confirmées), ville-argentiere.fr (Bois Noir, arrêté du
+  15/08 confirmé en ligne). Le PDF Ariège (bordesuchentein.fr) se télécharge (3,5 Mo) mais
+  n'a pas pu être OCRisé par l'outil de vérification : source vivante, pas morte. Aucune
+  correction requise ; ces 5 constats sont des faux positifs de l'heuristique d'audit, non de
+  vrais défauts du registre.
+- **`GR-E4-Creta-Samaria` — FAIL réel sur le contrôle 1** : `validite:` annonce des fermetures
+  décidées AU JOUR LE JOUR (seuil 2 j), mais `verif: 2026-09-11` a 3 jours. Corriger exige de
+  consulter le statut du 12, 13 ou 14/09 sur samaria.gr / crete.gov.gr — une source nouvelle,
+  hors de mon périmètre (je ne fais pas de veille). Inscrit ci-dessous pour le prochain
+  passage.
+- **`ES-NAV-Roncal-Urzainki` — contrôle 3, corrigé** : le champ `validite:` citait une date
+  d'échéance (07/09) qui, lue seule, donnait l'impression fausse d'une restriction expirée,
+  alors qu'il n'y a jamais eu de fermeture officielle, seulement une consigne générale
+  d'éloignement. Reformulé pour dire le constat en clair (aucune fermeture en vigueur), sans
+  ajouter ni retirer un fait.
+- **`Drome-Justin-Die` et `Gard-30` — contrôle 2, corrigés** : la « Portion concernée »
+  affichait un état antérieur (vérification du 13/09 pour l'une, aucune mention du 04-14/09
+  pour l'autre) pendant que `statut:`/« Zone (détails) » de la même fiche connaissaient déjà
+  la situation du jour (erreur 503 sur drome.gouv.fr ; confirmation de presse du 10/09 +
+  feu agricole isolé du 04/09 sur le Gard). Réécriture à information constante : aucun fait
+  ajouté, seulement déplacé de « Zone (détails) » vers « Portion concernée ».
 
 ## Corrections appliquées — récapitulatif par clé
 
-1. `fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01` — date de tête de « Portion concernée » 06/09→13/09 (situation confirmée inchangée).
-2. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — date de vérification citée en fin de portion 12/09→13/09.
-3. `incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16` — idem, 12/09→13/09.
-4. `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19` — idem, 12/09→13/09.
-5. `risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01` — idem, 12/09→13/09.
-6. `incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02` — URL de source manquante retrouvée et ajoutée (contenu vérifié conforme).
-7. `eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10` — `validite:` reformulée (faux positif « échéance dépassée »).
-8. `fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10` — idem.
+1. `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` — « Zone (détails) » : suppression
+   de la mention interne « 1ère ligne du registre pour le 974 », sans valeur pour le lecteur ;
+   sigle « AP » développé en « arrêté préfectoral ».
+2. `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — « Portion concernée » : date de
+   vérification 13/09→14/09, et mention de l'erreur 503 rencontrée ce jour sur drome.gouv.fr
+   (au lieu de répéter la date de MAJ du 16/07, périmée).
+3. `risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01` — « Portion concernée » :
+   ajout de la confirmation de presse du 10/09 (Gard toujours en vigilance orange) et du feu
+   agricole isolé du 04/09, déjà connus de « Zone (détails) » mais absents du texte affiché.
+4. `incendie|ES-NAV-Roncal-Urzainki|feu-longue-duree-Pena-Gazpar|2026-08-14` — `validite:`
+   reformulée pour énoncer d'abord l'absence de fermeture officielle, plutôt qu'une date
+   d'échéance lue comme expirée.
 
-Aucune fiche n'a été clôturée, aucune sévérité changée par moi, aucune section « Zone
-(détails) » ni « Source » réduite (garde-fou d'intégrité du build : 0 déclenchement).
+Aucune fiche clôturée, aucune sévérité modifiée par moi, aucune section réduite (garde-fou
+d'intégrité : 0 déclenchement).
 
 ## À traiter au prochain run de veille (nécessite une source nouvelle, hors de mon périmètre)
 
-- `fermeture|DE-Sachsen-SaechsischeSchweiz|…|2026-08-01` — dernière source datée du 26/08
-  (18 j). Rechercher une publication postérieure sur Kurort Rathen (nationalpark-saechsische-schweiz.de,
-  saechsische-schweiz.de/aktuelles) avant l'échéance annoncée du chantier héliporté (~18/09) :
-  vérifier si le Gamrig et la Rathener Straße rouvrent à cette date.
-- `fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07` — dernière source datée du 01/09
-  (12 j). Rouvrir la liste de référence PNR Baronnies Provençales (échec de connexion
-  aujourd'hui) pour confirmer si elle a évolué depuis. Rappel : la restriction municipale
-  court structurellement jusqu'au 30/09, échéance de fin de saison à surveiller.
-- `incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10` — dernière source
-  datée du 31/08 (13 j, arrêté préfectoral). Recherche ciblée d'un arrêté plus récent ou d'une
-  levée sur ariege.gouv.fr/bordesuchentein.fr.
-- `incendie|Drome-Justin-Die|foret-fermee|2026-07-02` — dernière source datée du 21/08 (23 j).
-  Recherche ciblée sur mairie-die.fr/drome.gouv.fr d'un résultat de l'étude de risque en
-  cours ou d'une échéance.
-- `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19` — dernière
-  source datée du 24/08 (20 j). Recherche ciblée d'une suite à l'arrêté municipal du 15/08 sur
-  ville-argentiere.fr/paysdesecrins.com.
-- `fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10-11|2026-09-04`
-  — jamais revérifiée depuis sa détection (8 j). Revisiter il Dolomiti / CAI FVG.
-- `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` — vérifiée il y a 14 j (seuil 12
-  j). Le contenu détaillé de l'arrêté n°2026-1415 (PDF ONF, jamais lu) reste à recouper avec
-  le tracé du GR® R2 : c'est la piste ouverte depuis le 30/08, toujours non tranchée.
+- `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16` — **FAIL fraîcheur** :
+  `verif: 2026-09-11` (3 j) sur une restriction décidée au jour le jour (seuil 2 j). Revérifier
+  le statut du jour sur samaria.gr et auprès de la Région de Crète avant publication d'une
+  nouvelle « Dernière vérif ».
+- `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` — point non tranché déjà noté en
+  `statut:` par la veille : le rattachement du Bras des Merles au GR® R2 repose sur des sites
+  tiers (AllTrails, trails-viewer.com), pas sur le topo-guide FFRandonnée (page ffrandonnee.fr
+  en 404 au dernier essai). À retenter pour confirmer ou infirmer le tracé exact.
+- `fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07` — Saillans, Montclar-sur-Gervanne,
+  Beauvoisin et Bénivay-Ollon restent sans source directe malgré des mois de tentatives ;
+  l'échéance structurelle de fin de saison (30/09) approche pour les 12 communes actives, à
+  surveiller au prochain passage.
 
-Aucun de ces 7 constats n'est bloquant ; aucune correction de sévérité n'est recommandée au-delà
-de celle déjà appliquée par la veille sur PO-66 (validée ci-dessus).
+Aucun de ces 3 constats n'est bloquant ; aucune dégradation ni clôture de sévérité n'est
+recommandée au-delà de ce que la veille a déjà appliqué aujourd'hui (remontée Réunion, motivée
+par la lecture intégrale de l'arrêté n°2026-1415).
