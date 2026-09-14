@@ -6,9 +6,10 @@ itin: Aucun P1 identifié traversant directement Urzainki ; le GR®11 (Senda Tra
   du Roncal, à quelques kilomètres du secteur touché [HYPOTHÈSE non confirmée par une
   source dédiée au sentier]
 sev: MOYENNE
-validite: feu déclaré le 14/08/2026, éteint le 04/09/2026, foyers résiduels surveillés
-  jusqu'au 07/09/2026 au moins ; aucune fermeture officielle de sentier retrouvée, seule une
-  consigne générale de se tenir à l'écart de la zone d'intervention
+validite: aucune fermeture officielle de sentier n'est en vigueur à ce jour ; feu déclaré le
+  14/08/2026, éteint le 04/09/2026, foyers résiduels sous surveillance au 07/09/2026 (dernière
+  source datée) ; seule reste une consigne générale des autorités d'éviter la zone
+  d'intervention, sans échéance annoncée
 detection: 2026-09-14
 verif: 2026-09-14
 statut: ACTIF — NOUVEAU 14/09 : feu de longue durée (le plus long de l'histoire récente

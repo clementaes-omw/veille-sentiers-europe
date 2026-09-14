@@ -37,7 +37,7 @@ Consulter la carte ONF interactive des sentiers fermés avant de partir (lien en
 
 ## Zone (détails)
 
-La Réunion : liste des sentiers fermés initialement régie par l'AP 2026-693 du 21/05/2026 (Augustave/Mafate rouvert). 1ère ligne du registre pour le 974.
+La Réunion : liste des sentiers fermés initialement régie par l'arrêté préfectoral n°2026-693 du 21/05/2026 (le sentier d'Augustave, à Mafate, a depuis rouvert).
 
 MAJ 30/08 : la page ONF affiche désormais l'arrêté n°2026-1415 du 27/08/2026 comme texte de référence, l'AP 2026-693 ayant donc été abrogé conformément au fonctionnement habituel (« chaque nouvel arrêté préfectoral abroge systématiquement le précédent »). Le PDF de ce nouvel arrêté n'a pas pu être ouvert à distance : son contenu détaillé (sentiers concernés, éventuel impact sur le GR® R2) reste à lire.
 
