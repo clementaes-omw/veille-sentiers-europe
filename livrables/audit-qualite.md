@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-09-14
 
-89 alertes actives · 9 fiches avec au moins un constat · **0 bloquant(s)**, 8 alerte(s), 2 info(s).
+90 alertes actives · 9 fiches avec au moins un constat · **0 bloquant(s)**, 8 alerte(s), 2 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
