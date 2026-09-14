@@ -18,7 +18,7 @@ statut: ACTIF — NOUVEAU 14/09 : feu de longue durée (le plus long de l'histoi
   d'intervention. Le rattachement au GR®11 (étape voisine Isaba-Zuriza) est une hypothèse de
   proximité géographique, non confirmée par une source dédiée aux itinéraires de randonnée :
   à vérifier au prochain passage.
-ordre: 230
+ordre: 232
 ---
 
 ## Portion concernée
