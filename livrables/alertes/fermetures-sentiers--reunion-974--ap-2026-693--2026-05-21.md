@@ -1,12 +1,11 @@
 ---
 cle: fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21
 type: fermetures sentiers
-itin: GR® R2 (fermeture confirmée sur le tronçon Deux Bras ↔ Aurère, cirque de Mafate,
-  secteur du Bras des Merles)
+itin: GR® R2 (fermeture confirmée sur le tronçon Deux Bras ↔ Aurère, cirque de Mafate, secteur du Bras des Merles)
 sev: HAUTE
-validite: arrêté préfectoral n°2026-1415 du 26/08/2026 (publié le 27/08/2026), en vigueur
-  jusqu'à nouvel ordre, ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme le
-  sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
+validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1415 du 26/08/2026,
+  publié le 27/08/2026) ; ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme
+  le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
 verif: 2026-09-14
 statut: ACTIF — CHANGÉ 14/09 : le PDF de l'arrêté n°2026-1415 (26/08/2026, publié 27/08) a
@@ -20,7 +19,11 @@ statut: ACTIF — CHANGÉ 14/09 : le PDF de l'arrêté n°2026-1415 (26/08/2026,
   tracé actuel du GR® R2 repose sur des sites de randonnée tiers, pas sur un topo-guide
   FFRandonnée consulté directement (page ffrandonnee.fr correspondante en 404 ce run). Les
   autres sentiers fermés par l'arrêté (Saint-Denis, Cilaos, Salazie, Sainte-Rose,
-  Saint-Philippe, etc.) ne sont pas rattachés aux GR® R1/R2/R3 dans le référentiel.
+  Saint-Philippe, etc.) ne sont pas rattachés aux GR® R1/R2/R3 dans le référentiel. La
+  source la plus récente reste datée du 26-27/08 (signature et publication de l'arrêté) :
+  comme pour une Allgemeinverfügung allemande « bis auf Widerruf », un arrêté préfectoral
+  en vigueur ne se republie pas à date fixe tant qu'il n'est ni abrogé ni prolongé, donc
+  l'absence de source plus récente que 18 jours ne signale pas une hypothèse non tranchée.
 ordre: 16
 ---
 
@@ -42,4 +45,4 @@ MAJ 14/09 : le PDF de l'arrêté n°2026-1415 a été téléchargé et lu intég
 
 ## Source
 
-[ONF Réunion, Randonnée à La Réunion : cartes des sentiers et des routes forestières accessibles (arrêté n°2026-1415 du 27/08/2026)](https://www.onf.fr/vivre-la-foret/+/b90::randonnee-la-reunion-connaitre-les-sentiers-fermes.html) ; [Arrêté préfectoral n°2026-1415 du 26 août 2026 réglementant l'accès des personnes sur certains sentiers de randonnée, préfecture de La Réunion (PDF)](https://www.onf.fr/outils/articles/4d994260-fa0f-4716-92f1-eccafed0b199/++versions++/345/++paras++/12/++ass++/78/++i18n++data:fr?download=1) ; [AllTrails, GR®R2: Deux-Bras to Aurère, Saint-Paul, Réunion](https://www.alltrails.com/trail/reunion/saint-paul/grr2-deux-bras-to-aurere) ; [trails-viewer.com, Réunion, Dos d'Âne, Aurère, montée par Bras des Merles](https://fr-fr.trails-viewer.com/trail-srxb3/R%C3%A9union-dos-d-%C3%A2ne-aur%C3%A8re-dos-d-%C3%A2ne-mont%C3%A9e-par-bras-des-merles/)
+[ONF Réunion, Randonnée à La Réunion : cartes des sentiers et des routes forestières accessibles (arrêté n°2026-1415 du 27/08/2026)](https://www.onf.fr/vivre-la-foret/+/b90::randonnee-la-reunion-connaitre-les-sentiers-fermes.html) ; [Arrêté préfectoral n°2026-1415 du 26 août 2026 réglementant l'accès des personnes sur certains sentiers de randonnée, préfecture de La Réunion (PDF)](https://www.onf.fr/outils/articles/4d994260-fa0f-4716-92f1-eccafed0b199/++versions++/345/++paras++/12/++ass++/78/++i18n++data:fr?download=1) ; [AllTrails, GR R2: Deux-Bras to Aurère, Saint-Paul, Réunion](https://www.alltrails.com/trail/reunion/saint-paul/grr2-deux-bras-to-aurere) ; [trails-viewer.com, Réunion, Dos d'Âne, Aurère, montée par Bras des Merles](https://fr-fr.trails-viewer.com/trail-srxb3/R%C3%A9union-dos-d-%C3%A2ne-aur%C3%A8re-dos-d-%C3%A2ne-mont%C3%A9e-par-bras-des-merles/)
