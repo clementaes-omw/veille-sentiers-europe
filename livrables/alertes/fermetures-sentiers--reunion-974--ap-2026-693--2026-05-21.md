@@ -1,19 +1,26 @@
 ---
 cle: fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21
 type: fermetures sentiers
-itin: GR® R2 (impact exact à confirmer)
-sev: MOYENNE
-validite: jusqu'à nouvel ordre (le régime se reconduit d'arrêté en arrêté) ; l'arrêté
-  d'origine a été remplacé par un nouveau texte, chaque arrêté ONF/préfecture abrogeant
-  systématiquement le précédent, liste précise des sentiers concernés non encore lue
+itin: GR® R2 (fermeture confirmée sur le tronçon Deux Bras ↔ Aurère, cirque de Mafate,
+  secteur du Bras des Merles)
+sev: HAUTE
+validite: arrêté préfectoral n°2026-1415 du 26/08/2026 (publié le 27/08/2026), en vigueur
+  jusqu'à nouvel ordre, ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme le
+  sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-08-30
-statut: ACTIF — CHANGÉ 30/08 : la page ONF référence désormais l'arrêté n°2026-1415 du
-  27/08/2026 (« réglementant l'accès des personnes sur certains sentiers de randonnée »),
-  qui a remplacé l'AP 2026-693 cité par cette fiche depuis sa création. Le contenu précis du
-  PDF (liste des sentiers concernés, statut du GR® R2/Mafate) n'a pas pu être lu à distance
-  ce run : à recouper au prochain passage sur la carte ONF interactive. [HYPOTHÈSE] toujours
-  non tranchée : recoupement du tracé exact du GR® R2 avec la liste de l'arrêté en vigueur.
+verif: 2026-09-14
+statut: ACTIF — CHANGÉ 14/09 : le PDF de l'arrêté n°2026-1415 (26/08/2026, publié 27/08) a
+  été lu en entier. Il liste 49 sentiers fermés sur 14 communes ; parmi eux, le Bras des
+  Merles (Deux Bras à Aurère, Mafate) correspond, selon plusieurs descriptifs de randonnée
+  indépendants (AllTrails, trails-viewer.com), au tracé de l'étape 1 du GR® R2. La fiche
+  passe de MOYENNE à HAUTE : source officielle lue en entier + interdiction totale sans
+  exception pour les randonneurs sur ce tronçon. Point non tranché : l'arrêté lui-même ne
+  nomme pas le GR® R2 pour ce sentier (contrairement au Bras Plat de Saint-Philippe, qu'il
+  identifie explicitement comme « ancien GRR2 ») ; l'identification du Bras des Merles comme
+  tracé actuel du GR® R2 repose sur des sites de randonnée tiers, pas sur un topo-guide
+  FFRandonnée consulté directement (page ffrandonnee.fr correspondante en 404 ce run). Les
+  autres sentiers fermés par l'arrêté (Saint-Denis, Cilaos, Salazie, Sainte-Rose,
+  Saint-Philippe, etc.) ne sont pas rattachés aux GR® R1/R2/R3 dans le référentiel.
 ordre: 16
 ---
 
