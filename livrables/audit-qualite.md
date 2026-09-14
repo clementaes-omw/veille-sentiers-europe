@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-09-14
 
-90 alertes actives · 9 fiches avec au moins un constat · **0 bloquant(s)**, 8 alerte(s), 2 info(s).
+90 alertes actives · 8 fiches avec au moins un constat · **0 bloquant(s)**, 8 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -16,11 +16,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`incendie|ES-NAV-Roncal-Urzainki|feu-longue-duree-Pena-Gazpar|2026-08-14`** — la validité annoncée s'arrête au 04/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (21 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`risque-feu|Gard-30|fermetures-5-secteurs-rouges|2026-07-01`** — « Portion concernée » parle du 03/09 alors que le suivi connaît la situation au 14/09 (11 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
-
-## · Dette de forme
-
-- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — « Zone (détails) » contient encore du jargon de veille (en autonome) au lieu de l'état du terrain.
-- **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — « Zone (détails) » contient encore du jargon de veille (indexation) au lieu de l'état du terrain.
 
 ## 🗺 Cohérence carte / registre
 
