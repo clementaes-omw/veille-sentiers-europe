@@ -11,22 +11,25 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-13
-statut: ACTIF — INCHANGÉ 13/09 : nouvelle recherche ciblée (eilmeldung-waldsperrung,
-  page aktuelles Kurort Rathen, FAQ du parc). Rien de postérieur au 26/08/2026 trouvé pour
-  Kurort Rathen ; le même périmètre reste fermé (bas de l'Amselgrund entre Rathen et la
-  jonction des Schwedenlöcher, secteur du Ziegenrücken), le chantier héliporté d'évacuation
-  du bois autour du Gamrig restant annoncé jusqu'au ~18/09/2026. La sévérité HAUTE repose
-  sur une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf Widerruf), fermeture de
-  fait sourcée indépendamment de toute échéance à renouveler, pas sur une hypothèse « à
-  confirmer » : la règle des 14 jours sur les hypothèses non tranchées ne s'applique donc
-  pas ici.
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche ciblée (eilmeldung-waldsperrung,
+  page aktuelles Kurort Rathen, FAQ du parc, et une source distincte, sandsteinwandern.de,
+  mise à jour le 08/09/2026). Rien de postérieur au 26/08/2026 trouvé sur les pages du parc
+  pour Kurort Rathen ; sandsteinwandern.de (08/09) confirme sans changement le même
+  périmètre et la même échéance de chantier. Le bas de l'Amselgrund entre Rathen et la
+  jonction des Schwedenlöcher et le secteur du Ziegenrücken restent fermés, le chantier
+  héliporté d'évacuation du bois autour du Gamrig restant annoncé jusqu'au ~18/09/2026 sans
+  qu'aucune publication ne confirme ni n'infirme cette échéance à 4 jours de son terme. La
+  sévérité HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf
+  Widerruf), fermeture de fait sourcée indépendamment de toute échéance à renouveler, pas
+  sur une hypothèse « à confirmer » : la règle des 14 jours sur les hypothèses non tranchées
+  ne s'applique donc pas ici. Prochain point utile : ~18/09/2026 (terme annoncé du chantier).
 ordre: 99
 ---
 
 ## Portion concernée
 
-Parc national de la Suisse Saxonne (Saxe, Allemagne), situation au 13/09/2026 (inchangée depuis le 06/09) : **l'Amselsee est rouvert** (ponton et abri de l'embarcadère dégagés), mais la partie basse de l'Amselgrund, entre Rathen et la jonction des Schwedenlöcher, reste fermée, avec le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg). Un déploiement d'hélicoptère pour évacuer le bois endommagé par la tempête est en cours autour de Rathen depuis le 25/08/2026, jusqu'au 18/09/2026 environ : il ferme les deux parkings du Gamrig, le rocher du Gamrig lui-même et un tronçon de la Rathener Straße à Waltersdorf, tous rouverts depuis le 07/08. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; l'évacuation par hélicoptère cible le bois resté inaccessible aux équipes au sol autour de la Felsenbühne. Les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg et le Polenztal sur toute sa longueur (y compris le secteur de la Waltersdorfer Mühle) restent ouverts, comme le Basteiweg (montée de Rathen vers la Bastei) et la Basteiaussicht. Le Malerweg, qui traverse l'Amselgrund sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce point précis, et l'accès au Gamrig, un temps rouvert, est de nouveau fermé pour la durée du chantier héliporté. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
+Parc national de la Suisse Saxonne (Saxe, Allemagne), situation au 14/09/2026 (inchangée depuis le 06/09) : **l'Amselsee est rouvert** (ponton et abri de l'embarcadère dégagés), mais la partie basse de l'Amselgrund, entre Rathen et la jonction des Schwedenlöcher, reste fermée, avec le secteur du Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg). Un déploiement d'hélicoptère pour évacuer le bois endommagé par la tempête est en cours autour de Rathen depuis le 25/08/2026, jusqu'au 18/09/2026 environ : il ferme les deux parkings du Gamrig, le rocher du Gamrig lui-même et un tronçon de la Rathener Straße à Waltersdorf, tous rouverts depuis le 07/08. Raison : un orage violent le 31/07/2026 a provoqué d'importants dégâts forestiers sur ce secteur de la division forestière de Hohnstein (arbres déracinés, branches instables) ; l'évacuation par hélicoptère cible le bois resté inaccessible aux équipes au sol autour de la Felsenbühne. Les Schwedenlöcher, la partie haute de l'Amselgrund (jonction Schwedenlöcher↔Rathewalde), le Gansweg et le Polenztal sur toute sa longueur (y compris le secteur de la Waltersdorfer Mühle) restent ouverts, comme le Basteiweg (montée de Rathen vers la Bastei) et la Basteiaussicht. Le Malerweg, qui traverse l'Amselgrund sur son étape entre Stadt Wehlen et Hohnstein, reste donc coupé sur ce point précis, et l'accès au Gamrig, un temps rouvert, est de nouveau fermé pour la durée du chantier héliporté. L'orage du 31/07 a fait 1 mort, par chute d'arbre sur le sentier de la Bastei, et 3 blessés de gravité moyenne ; 40 personnes ont été évacuées par les pompiers.
 
 ## Alternative
 

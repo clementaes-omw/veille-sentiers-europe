@@ -5,8 +5,8 @@ itin: GR®99 (nord Var, secteur Rians/Verdon) [HYPOTHÈSE — proximité de zone
 sev: INFO
 validite: feu éteint, aucune restriction de sentier en vigueur ; seule la RD30 reste coupée entre les intersections RD70 et RD23 selon la dernière source disponible, sans confirmation de réouverture à ce jour
 detection: 2026-08-15
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche sur la réouverture de la RD30, sans
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche sur la réouverture de la RD30, sans
   résultat nouveau. Le statut de réouverture reste non confirmé par une source datée : la
   coupure est maintenue par prudence.
 ordre: 112
@@ -27,6 +27,8 @@ Aucune alternative connue à ce jour pour la RD30 entre les intersections RD70 e
 Rattachement aux itinéraires : le GR®99 (Revest-les-Eaux → Gorges du Verdon, zones FR-04-05|FR-83 selon `referentiel/sentiers-db.csv`) traverse le nord du Var en direction du Verdon, à proximité générale du secteur Rians/Ginasservis, mais aucune source lue ne mentionne de sentier, de GR® ni de fermeture de massif spécifiquement liée à ce feu. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source dédiée. Ce foyer est distinct du feu du Gros Bessillon (Ponteves/Cotignac/Correns, voir ligne dédiée `incendie|Var-Gros-Bessillon|…`), situé plus au sud-est, et de la fermeture quotidienne des massifs varois (voir ligne `risque-feu|Var-83|…`), sans lien confirmé entre les deux événements.
 
 MAJ 20/08 : feuxdeforet.fr (mise à jour du 14/08 15h19) confirme le feu éteint, précision au-delà du simple statut « fixé » déjà connu. Toujours aucune source datée sur la réouverture de la RD30.
+
+MAJ 14/09 : nouvelle recherche dédiée sur la réouverture de la RD30 entre les intersections RD70 et RD23, sans résultat. Aucune source datée ne documente ni la persistance de la coupure ni sa levée depuis le 20/08.
 
 ## Source
 

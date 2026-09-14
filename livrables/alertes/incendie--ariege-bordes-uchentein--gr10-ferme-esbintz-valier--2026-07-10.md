@@ -5,12 +5,12 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
 detection: 2026-07-20
-verif: 2026-09-13
-statut: ACTIF — INCHANGÉ 13/09 : nouvelle recherche ciblée (ariege.gouv.fr Publications/
-  Actualités, page réglementaire emploi du feu, presse Pyrénées FM/radiocouserans.fr),
-  aucun acte plus récent ni annonce de réouverture retrouvés. L'arrêté du 31/08 (Cap des
-  Lauzes↔Étang d'Ayes, jusqu'à nouvel ordre) reste le texte en vigueur, dix-sept jours après
-  sa publication. Sévérité maintenue HAUTE.
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche ciblée (bordesuchentein.fr relu en
+  entier, ariege.gouv.fr/Publications/Actualites, recueil des actes administratifs,
+  presse locale), aucun acte plus récent ni annonce de réouverture retrouvés. L'arrêté du
+  31/08 (Cap des Lauzes↔Étang d'Ayes, jusqu'à nouvel ordre) reste le texte en vigueur,
+  dix-huit jours après sa publication. Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
@@ -65,6 +65,8 @@ MAJ 07/09 : nouvelle vérification de l'arrêté feu, sans résultat supplément
 MAJ 08/09 : le site de la mairie de Bordes-Uchentein publie les arrêtés préfectoraux d'interdiction d'accès au GR®10 pris depuis le début de l'été, jamais retrouvés dans les vérifications directes de ariege.gouv.fr. Chronologie reconstituée à partir des textes eux-mêmes : un premier arrêté du 04/08/2026 fermait déjà Cap des Lauzes↔Étang d'Ayes (Bordes-Uchentein, Arrien-en-Bethmale, Bethmale) ; il est abrogé et remplacé par un arrêté du 07/08/2026, qui étend la fermeture à deux tronçons supplémentaires après de nouveaux feux fin juillet/début août : entre le hameau de Faup et le col de Pause, sous la Serre de Durban (Seix, feu du 31/07), et sur la partie domaniale sous le pic de Sauve, entre Marc et l'étang d'Escalès (Auzat, feu du 01/08). Cet arrêté du 07/08 est à son tour abrogé par un arrêté du 14/08/2026, qui ne reconduit plus le tronçon de Seix (rouvert depuis cette date). Un dernier arrêté, daté du 31/08/2026 et actuellement en vigueur, abroge celui du 14/08 et ne maintient que la fermeture initiale entre le Cap des Lauzes et l'étang d'Ayes, « à compter du 7 août 2026 et jusqu'à nouvel ordre » : le tronçon d'Auzat est donc rouvert lui aussi depuis fin août. Cet arrêté d'interdiction d'accès au GR®10, motivé par le seul risque de chutes de pierres, est un texte distinct de l'arrêté préfectoral d'interdiction totale de l'usage du feu en Ariège (reconduit une 4e fois jusqu'au 24/08, sans 5e reconduction ni levée retrouvée depuis, 15 jours de silence à ce jour) : la fermeture du sentier repose désormais sur un acte officiel propre, sans lien de dépendance avec le sort de l'interdiction du feu.
 
 MAJ 10/09 : nouvelle vérification sur une éventuelle suite à l'arrêté du 31/08/2026 : ariege.gouv.fr/Publications/Actualites relu en direct ne porte aucune actualité sur le GR®10, le risque incendie ou une réouverture de sentier parmi les items récents, qui portent sur les Journées du patrimoine, le 14 juillet, la gestion de la sécheresse et les alertes canicule. Aucun nouvel arrêté ni communiqué de réouverture retrouvé sur bordesuchentein.fr. L'arrêté du 31/08/2026 (fermeture Cap des Lauzes↔Étang d'Ayes, sans échéance) reste donc le texte en vigueur, seize jours après sa publication.
+
+MAJ 14/09 : nouvelle recherche ciblée sur un arrêté plus récent ou une levée. bordesuchentein.fr relu en entier : aucun document postérieur à l'arrêté du 31/08/2026 n'y est publié. ariege.gouv.fr/Publications/Actualites reconsulté en direct : toujours aucune actualité sur le GR®10 ou le risque incendie, les items les plus récents restant ceux déjà notés (patrimoine, 14 juillet, sécheresse, canicule). Une recherche sur le recueil des actes administratifs de la préfecture et sur la presse locale (Pyrénées FM, radiocouserans.fr) ne retrouve aucun texte postérieur au 31/08. L'arrêté du 31/08/2026 (fermeture Cap des Lauzes↔Étang d'Ayes, jusqu'à nouvel ordre) reste donc le texte en vigueur, dix-huit jours après sa publication, sans aucune annonce de réouverture du GR®10.
 
 ## Source
 

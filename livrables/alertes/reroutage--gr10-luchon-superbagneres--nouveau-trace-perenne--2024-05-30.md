@@ -5,8 +5,10 @@ itin: GR®10
 sev: INFO (haute si la trace utilisée est l'ancien tracé)
 validite: pérenne
 detection: 2026-07-07
-verif: 2026-09-11
-statut: ACTIF — vérifier la trace GPX vs nouveau tracé
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : reroutage pérenne, balisage confirmé toujours en place
+  (avril à mi-novembre selon les fiches de randonnée locales) ; reste à vérifier la trace GPX
+  vs nouveau tracé.
 ordre: 23
 ---
 

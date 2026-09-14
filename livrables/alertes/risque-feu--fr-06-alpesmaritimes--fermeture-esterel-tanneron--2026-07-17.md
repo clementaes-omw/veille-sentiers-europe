@@ -5,19 +5,19 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-11
-statut: ACTIF — INCHANGÉ 10/09 : nouvelle recherche ciblée sur l'acte manquant
-  (presseagence.fr, recherche générale), toujours aucune publication postérieure au 31/08
-  trouvée pour ce massif côté Alpes-Maritimes. Un article presseagence.fr titré « vendredi 5
-  septembre » a été vérifié et écarté : daté du 04/09/2025, un an plus tôt (piège
-  d'indexation). L'écart avec la dernière confirmation datée atteint désormais 10 jours.
-  Sévérité maintenue MOYENNE.
+verif: 2026-09-14
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche ciblée sur l'acte manquant
+  (presseagence.fr, alpes-maritimes.gouv.fr/Risque-feux-de-foret-dans-les-Alpes-Maritimes
+  relue en direct, toujours datée du 08/06/2026), toujours aucune publication postérieure au
+  31/08 trouvée pour ce massif côté Alpes-Maritimes. L'écart avec la dernière confirmation
+  datée atteint désormais 14 jours. Sévérité maintenue MOYENNE ; point de vigilance à
+  surveiller si le silence se prolonge encore.
 ordre: 102
 ---
 
 ## Portion concernée
 
-**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : **fermé (accès, circulation et travaux interdits) ce lundi 31/08/2026**, classé risque incendie très sévère (rouge), pour la deuxième fois depuis la reprise du 29/08 qui avait mis fin à un silence de 22 jours dans les sources suivies (07 au 28/08). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction. Aucune publication postérieure au 31/08 n'a été retrouvée depuis (vérifié le 08/09/2026, soit 8 jours sans nouvelle confirmation) : le classement du jour n'est pas connu à l'avance, se renseigner auprès de la préfecture avant de partir.
+**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : dernière fermeture confirmée (accès, circulation et travaux interdits) le lundi 31/08/2026, classée risque incendie très sévère (rouge), pour la deuxième fois depuis la reprise du 29/08 qui avait mis fin à un silence de 22 jours dans les sources suivies (07 au 28/08). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction. Aucune publication postérieure au 31/08 n'a été retrouvée depuis (vérifié le 14/09/2026, soit 14 jours sans nouvelle confirmation) : le classement du jour n'est pas connu à l'avance, se renseigner auprès de la préfecture avant de partir.
 
 ## Alternative
 
@@ -60,6 +60,8 @@ Vérifié le 07/09/2026 : nouvelle recherche (presseagence.fr, alpes-maritimes.g
 Vérifié le 08/09/2026 : toujours aucune publication postérieure au 31/08 trouvée pour ce massif. L'écart atteint désormais 8 jours.
 
 Vérifié le 10/09/2026 : nouvelle recherche dédiée (presseagence.fr), toujours aucune publication postérieure au 31/08 trouvée pour ce massif. Un article presseagence.fr titré « Vendredi 5 septembre, vigilance feux de forêt, risque très sévère dans le massif Esterel-Tanneron » a été vérifié directement : il est en réalité daté du 04/09/2025 (fermeture annoncée pour le vendredi 05/09/2025), un an avant la période suivie ici ; il est écarté. L'écart avec la dernière confirmation datée de 2026 (31/08) atteint désormais 10 jours.
+
+Vérifié le 14/09/2026 : nouvelle recherche dédiée (presseagence.fr, alpes-maritimes.gouv.fr). La page dédiée de la préfecture « Risque feux de forêt dans les Alpes-Maritimes » reste datée du 8 juin 2026, sans mention de l'Esterel-Tanneron ni d'aucun arrêté de septembre. Un article presseagence.fr titré « Mercredi 10 septembre, vigilance feux de forêt, risque très sévère dans le massif Estérel-Tanneron » a été écarté : le 10 septembre 2026 tombe un jeudi, pas un mercredi (le 10 septembre 2025, lui, tombait un mercredi), ce qui situe cet article en 2025, un an avant la période suivie ici. Toujours aucune publication postérieure au 31/08/2026 confirmée pour ce massif. L'écart atteint désormais 14 jours.
 
 ## Source
 
