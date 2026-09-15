@@ -5,13 +5,10 @@ itin: GR®36 (66, traversée Fenouillèdes/basse Têt) ; GR®10 NON concerné (C
 sev: MOYENNE
 validite: zone brûlée : durable, aucun arrêté d'interdiction publié à ce jour
 detection: 2026-07-14 (feu du 04/07)
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche (préfecture 66, presse quotidienne 66),
-  aucun arrêté d'interdiction d'accès à la zone brûlée ni de calendrier de réouverture
-  retrouvé postérieurement au communiqué d'extinction du 07/08/2026. Les seules actualités de
-  septembre concernant Trévillach portent sur l'indemnisation des sinistrés et une décision
-  du tribunal administratif de Montpellier sur les jardins familiaux d'Ille-sur-Têt, sans
-  rapport avec l'accès à la zone brûlée. Statut inchangé, alerte maintenue MOYENNE au seul
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche, toujours aucun arrêté d'interdiction
+  d'accès à la zone brûlée ni de calendrier de réouverture retrouvé postérieurement au
+  communiqué d'extinction du 07/08/2026. Statut inchangé, alerte maintenue MOYENNE au seul
   titre de l'état du terrain (zone brûlée impraticable, balisage détruit, aucun arrêté
   réglementaire).
 ordre: 21

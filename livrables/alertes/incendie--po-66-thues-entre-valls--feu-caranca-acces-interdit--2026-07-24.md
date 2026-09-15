@@ -5,11 +5,12 @@ itin: GRT75 (Refuge du Ras de la Caranà ↔ Coll de Caranca) ; GR®10 (Thuès-E
 sev: MOYENNE
 validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
 detection: 2026-07-30
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, toujours aucun CP préfectoral postérieur
-  au n°9 du 30/07. Le statut d'extinction du 02/08 reste une [HYPOTHÈSE] non officielle
-  (feuxdeforet.fr). L'interdiction d'accès au secteur, gorges de la Caranca, reste la seule
-  donnée ferme, aucune source ne documentant sa levée.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche, toujours aucun CP préfectoral postérieur
+  au n°9 du 30/07. Un article ffrandonnee.fr sur une réouverture de la passerelle des gorges
+  de la Carança a été écarté, daté du 29/10/2024 (piège d'indexation, épisode d'éboulement
+  distinct et antérieur). Le statut d'extinction du 02/08 reste une [HYPOTHÈSE] non
+  officielle. L'interdiction d'accès au secteur reste la seule donnée ferme.
 ordre: 58
 ---
 
