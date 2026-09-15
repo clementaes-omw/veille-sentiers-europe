@@ -6,14 +6,12 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche ciblée de l'acte manquant
-  (mairie-die.fr relue directement, drome.gouv.fr inaccessible en erreur 503, presse), sans
-  résultat au-delà de ce qui est déjà cité : l'arrêté du 21/08 (abrogeant celui du 24/07,
-  lui-même postérieur au n°26-2026-6 du 03/07) reste le dernier texte connu, l'étude de
-  risque toujours qualifiée « en cours » sans échéance ni résultat publié. Sévérité
-  maintenue HAUTE (fondement = arrêté daté, pas une hypothèse à 14 jours). Rattachement
-  GR®9/GR®93 toujours affaibli depuis le 03/08 (probable GR®95).
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée de l'acte manquant (mairie-die.fr,
+  presse), sans résultat au-delà de ce qui est déjà cité : l'arrêté du 21/08 reste le dernier
+  texte connu, l'étude de risque toujours qualifiée « en cours » sans échéance ni résultat
+  publié. Sévérité maintenue HAUTE (fondement = arrêté daté, pas une hypothèse à 14 jours).
+  Rattachement GR®9/GR®93 toujours affaibli depuis le 03/08 (probable GR®95).
 ordre: 31
 ---
 
@@ -33,7 +31,7 @@ MAJ 19/07 : l'État a annoncé le 18/07 un plan de relance de 1 M€ pour le Dio
 
 MAJ 26/07 : un diagnostic ONF des risques post-incendie (chablis, éboulements) est en cours dans le cadre du plan de relance, préalable annoncé à toute décision de levée.
 
-MAJ 28/07 : nouvelle tentative de recoupement GR®9/GR®93 vs massif de Justin. Recherche sur les itinéraires de randonnée du secteur (Diois, Die, montagne de Justin) : aucune source (FFRandonnée Drôme, Drôme Tourisme, presse) ne mentionne explicitement un passage du GR®9 ou du GR®93 sur le massif de Justin lui-même. Le GR®93 est documenté dans le secteur du Vercors (Peyrus↔Lus-la-Croix-Haute via Léoncel, Omblèze, Bouvante, Vassieux, Saint-Agnan, Gresse, Treschenu-Creyers), un tracé qui ne cite pas nommément Justin. Recoupement toujours non tranché ; aucun point de situation drome.gouv.fr postérieur au 16/07 trouvé.
+MAJ 28/07 : nouvelle tentative de recoupement GR®9/GR®93 vs massif de Justin. Recherche sur les itinéraires de randonnée du secteur (Diois, Die, montagne de Justin) : aucune source (FFRandonnée Drôme, Drôme Tourisme, presse) ne mentionne explicitement un passage du GR®9 ou du GR®93 sur le massif de Justin lui-même. Le GR®93 est documenté dans le secteur du Vercors (Peyrus↔Lus-la-Croix-Haute via Léoncel, Omblezè, Bouvante, Vassieux, Saint-Agnan, Gresse, Treschenu-Creyers), un tracé qui ne cite pas nommément Justin. Recoupement toujours non tranché ; aucun point de situation drome.gouv.fr postérieur au 16/07 trouvé.
 
 MAJ 29/07 : page drome.gouv.fr toujours datée du 16/07 (revue complète de la liste des actualités 2026 du site) ; aucun signal de levée trouvé ; recoupement GR®9/GR®93 non retenté ce jour.
 
