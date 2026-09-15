@@ -9,11 +9,12 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche CIBLÉE sur l'acte manquant
-  (ville-argentiere.fr, paysdesecrins.com, cc-paysdesecrins.fr, presse Hautes-Alpes), sans
-  résultat plus récent que le 24/08. L'arrêté municipal du 15/08/2026 reste le seul texte
-  en vigueur, sans reconduction formalisée ni levée, trente jours après sa signature.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche CIBLÉE sur l'acte manquant
+  (alpesdusud.alpes1.com, presse Hautes-Alpes), qui confirme que la RD38 reste fermée dans
+  l'attente de l'étude géotechnique Géolithe sur la stabilité des berges, sans date de
+  réouverture annoncée. Sans résultat plus récent que le 24/08 sur l'arrêté municipal du
+  15/08/2026, qui reste le seul texte en vigueur, trente et un jours après sa signature.
   Conformément au raisonnement déjà retenu le 08/09, la fermeture reposant sur un texte
   officiel republié et confirmé (pas une hypothèse à recouper), la règle des 14 jours ne
   s'applique pas ici : sévérité maintenue HAUTE.
