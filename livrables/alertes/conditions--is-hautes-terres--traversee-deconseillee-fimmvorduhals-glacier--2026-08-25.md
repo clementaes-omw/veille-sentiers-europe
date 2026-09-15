@@ -1,9 +1,9 @@
 ---
 cle: conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25
 type: info sentier / conditions
-itin: Fimmvörðuháls (traversée Skógar ↔ Þórsmörk), secteur Baldvinsskáli ↔ Fimmvörðuhálsskáli
+itin: Fimmvörðuháls (traversée Skógar ↔ Þorsmörk), secteur Baldvinsskáli ↔ Fimmvörðuhálsskáli
 sev: MOYENNE
-validite: avertissement émis le 25/08/2026, toujours actif au 12/09/2026, sans levée annoncée
+validite: reste actif jusqu'à nouvel ordre : avertissement émis le 25/08/2026 par Ferðafélag Íslands, Útivist et Dagrenning, sans échéance annoncée par les trois organismes (aucune levée constatée lors de la dernière vérification, le 12/09/2026)
 detection: 2026-09-12
 verif: 2026-09-12
 statut: ACTIF — NOUVEAU

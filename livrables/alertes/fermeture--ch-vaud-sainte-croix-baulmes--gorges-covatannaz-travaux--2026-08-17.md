@@ -5,11 +5,10 @@ itin: Chemin des Gorges de Covatannaz (itinéraire n°107 La Suisse à pied, Sai
 sev: MOYENNE
 validite: 17/08/2026 → 18/09/2026 (déviation en place) ; fermeture complète sans déviation possible les 26 et 27 août 2026, pour travaux sur une passerelle et travaux forestiers
 detection: 2026-08-18
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : CSV officiel data.geo.admin.ch revérifié, l'entrée
-  id 2600748 (déviation) reste inchangée, validité toujours jusqu'au 18/09/2026.
-  L'entrée id 2600875 (fermeture totale du 26-27/08, déjà passée) n'apparaît plus dans
-  l'extraction du jour, cohérent avec un événement ponctuel révolu ; sans effet sur le
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : CSV officiel data.geo.admin.ch revérifié directement,
+  l'entrée id 2600748 (déviation) reste inchangée, validité toujours jusqu'au 18/09/2026,
+  dans 3 jours. Sans effet sur le
   statut actuel puisque la déviation reste la seule restriction active.
 ordre: 174
 ---
