@@ -7,8 +7,12 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1415 d
   publié le 27/08/2026) ; ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme
   le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-14
-statut: ACTIF — CHANGÉ 14/09 : le PDF de l'arrêté n°2026-1415 (26/08/2026, publié 27/08) a
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée (ONF Réunion, ffrandonnee.fr),
+  toujours aucun acte plus récent que l'arrêté n°2026-1415 du 26/08/2026, et toujours
+  aucune source directe (topo-guide FFRandonnée) confirmant le rattachement du Bras des
+  Merles au GR®R2. Sévérité maintenue HAUTE sur la base de l'interdiction totale en vigueur.
+  Ancien historique : le PDF de l'arrêté n°2026-1415 (26/08/2026, publié 27/08) a
   été lu en entier. Il liste 49 sentiers fermés sur 14 communes ; parmi eux, le Bras des
   Merles (Deux Bras à Aurère, Mafate) correspond, selon plusieurs descriptifs de randonnée
   indépendants (AllTrails, trails-viewer.com), au tracé de l'étape 1 du GR® R2. La fiche
