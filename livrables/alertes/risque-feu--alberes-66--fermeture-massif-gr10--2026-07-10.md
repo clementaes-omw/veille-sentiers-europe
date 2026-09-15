@@ -5,13 +5,12 @@ itin: GR®10 (traversée du massif des Albères, Argelès-sur-Mer↔Banyuls-sur-
 sev: MOYENNE (dégradée HAUTE→MOYENNE le 05/09 : l'interdiction totale d'Argelès-sur-Mer est levée)
 validite: Argelès-sur-Mer : arrêté ARR2026-024PM levé le 03/09/2026 ; Sorède : arrêté n°26.216 du 17/06/2026, accès piétons/vélos musculaires maintenu jusqu'au 13/09/2026 (véhicules à moteur interdits, marche à pied non concernée) ; Villelongue-dels-Monts : arrêté municipal n°18-2026 du 15/07/2026, jusqu'à nouvel ordre, aucune levée trouvée ; Cerbère : fermeture confirmée depuis le 17/07/2026 par arrêté municipal propre, numéro non isolé, aucune levée trouvée
 detection: 2026-07-20
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : l'échéance du 13/09/2026 de l'arrêté de Sorède (n°26.216,
-  accès piétons/vélos musculaires) est atteinte, mais aucune source (site de la mairie de
-  Sorède, presse) ne documente ni prolongation ni levée à ce jour : traité par défaut comme
-  toujours en vigueur (absence de signal ≠ levée), à revérifier au prochain passage. Numéro
-  exact de l'arrêté de Cerbère toujours non isolé (4e tentative infructueuse). Sévérité
-  maintenue MOYENNE.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (site de la mairie de Sorède, presse),
+  toujours aucune source documentant une prolongation ou une levée de l'arrêté de Sorède
+  (n°26.216, échéance du 13/09 dépassée) : traité par défaut comme toujours en vigueur
+  (absence de signal ≠ levée). Numéro exact de l'arrêté de Cerbère toujours non isolé.
+  Sévérité maintenue MOYENNE.
 ordre: 35
 ---
 

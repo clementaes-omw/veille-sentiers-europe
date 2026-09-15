@@ -11,19 +11,15 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche ciblée (eilmeldung-waldsperrung,
-  page aktuelles Kurort Rathen, FAQ du parc, et une source distincte, sandsteinwandern.de,
-  mise à jour le 08/09/2026). Rien de postérieur au 26/08/2026 trouvé sur les pages du parc
-  pour Kurort Rathen ; sandsteinwandern.de (08/09) confirme sans changement le même
-  périmètre et la même échéance de chantier. Le bas de l'Amselgrund entre Rathen et la
-  jonction des Schwedenlöcher et le secteur du Ziegenrücken restent fermés, le chantier
-  héliporté d'évacuation du bois autour du Gamrig restant annoncé jusqu'au ~18/09/2026 sans
-  qu'aucune publication ne confirme ni n'infirme cette échéance à 4 jours de son terme. La
-  sévérité HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf
-  Widerruf), fermeture de fait sourcée indépendamment de toute échéance à renouveler, pas
-  sur une hypothèse « à confirmer » : la règle des 14 jours sur les hypothèses non tranchées
-  ne s'applique donc pas ici. Prochain point utile : ~18/09/2026 (terme annoncé du chantier).
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée (eilmeldung-waldsperrung, page
+  aktuelles Kurort Rathen), rien de postérieur au 26/08/2026 trouvé sur les pages du parc. Le
+  bas de l'Amselgrund entre Rathen et la jonction des Schwedenlöcher et le secteur du
+  Ziegenrücken restent fermés, le chantier héliporté d'évacuation du bois autour du Gamrig
+  restant annoncé jusqu'au ~18/09/2026, à 3 jours de son terme. La sévérité HAUTE repose sur
+  une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf Widerruf) : la règle des 14
+  jours sur les hypothèses non tranchées ne s'applique pas ici. Prochain point utile :
+  ~18/09/2026 (terme annoncé du chantier).
 ordre: 99
 ---
 

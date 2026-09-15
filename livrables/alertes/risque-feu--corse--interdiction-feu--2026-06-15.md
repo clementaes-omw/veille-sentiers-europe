@@ -5,13 +5,12 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-14
-statut: ACTIF — CHANGÉ 14/09 : nouveau feu à Appietto (2A) le 13/09, environ 80 hectares de
-  maquis, fixé le soir même, hors itinéraires suivis (façade ouest, secteur Ajaccio). Aucun
-  rattachement à un GR® ou GRP suivi n'est documenté par les sources consultées.
-  haute-corse.gouv.fr revérifié directement : dernier acte connu toujours l'arrêté du
-  19/08/2026 (Fango/Bonifato/ouest Agriate), aucun acte plus récent publié. Interdiction
-  générale de feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (risque-prevention-incendie.fr/corse,
+  haute-corse.gouv.fr, presse), aucun acte plus récent que celui du 19/08/2026
+  (Fango/Bonifato/ouest Agriate) retrouvé, et aucun nouveau feu que celui d'Appietto (13/09,
+  déjà fixé, hors itinéraires suivis). Interdiction générale de feu (15/06→30/09) toujours en
+  vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 

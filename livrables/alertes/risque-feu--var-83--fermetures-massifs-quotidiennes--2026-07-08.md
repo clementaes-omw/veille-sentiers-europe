@@ -1,24 +1,23 @@
 ---
 cle: risque-feu|Var-83|fermetures-massifs-quotidiennes|2026-07-08
 type: risque feu / fermeture massifs (journalier)
-itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sainte-Baume) ; GR®9/GR®99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 14/09, aucun massif fermé, 2 en orange (Centre-Var, Maures)
+itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sainte-Baume) ; GR®9/GR®99 (Centre-Var) ; Monts Toulonnais/Haut-Var ; GRP Tour de l'Artuby (plateau de Canjuers) — au 15/09, aucun massif fermé, 2 en orange (Centre-Var, Maures)
 sev: MOYENNE (aucun massif fermé depuis le 19/08)
-validite: journalière ; aucun massif fermé au 14/09 (dernière donnée confirmée), 2 en orange (Centre-Var, Maures), les 7 autres en modéré, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
+validite: journalière ; aucun massif fermé au 15/09 (dernière donnée confirmée), 2 en orange (Centre-Var, Maures), les 7 autres en modéré, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-09-14
-statut: ACTIF — CHANGÉ 14/09 : désescalade nette depuis le pic à 4 massifs des 10-11/09.
-  varactu.fr confirme 2 massifs sévère (orange), Centre-Var et Maures, reconduits du samedi
-  12/09 au lundi 14/09. Un feu de végétation à Entrecasteaux le 10/09 (secteur Rivauguier,
-  ~3000 m², circonscrit le jour même) explique le maintien à 4 massifs les 10-11/09.
-  Aucun massif fermé/rouge depuis le 19/08. Sévérité maintenue MOYENNE (source de presse
-  unique, var.gouv.fr non consulté directement, sa carte restant en JavaScript non
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : varactu.fr confirme le maintien du classement sévère
+  (orange) sur les 2 mêmes massifs, Centre-Var et Maures, reconduit ce mardi 15/09, un
+  4e jour consécutif. Aucun massif fermé/rouge depuis le 19/08. Sévérité maintenue MOYENNE
+  (source de presse unique, var.gouv.fr non consulté directement, sa carte restant en
+  JavaScript non
   exploitable).
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var, lundi 14/09 : **aucun massif n'est fermé.** Deux massifs sont classés sévère (orange, accès déconseillé, travaux autorisés de 5h à 13h puis interdits) : Centre-Var et Maures. Les sept autres (Îles d'Hyères, Haut-Var, Corniche des Maures, Estérel, plateau de Canjuers, Monts Toulonnais, Sainte-Baume) restent en modéré (jaune). Consulter var.gouv.fr avant de partir, la carte étant republiée chaque soir avant 19h pour le lendemain.
+Var, mardi 15/09 : **aucun massif n'est fermé.** Deux massifs sont classés sévère (orange, accès déconseillé, travaux autorisés de 5h à 13h puis interdits) : Centre-Var et Maures. Les sept autres (Îles d'Hyères, Haut-Var, Corniche des Maures, Estérel, plateau de Canjuers, Monts Toulonnais, Sainte-Baume) restent en modéré (jaune). Consulter var.gouv.fr avant de partir, la carte étant republiée chaque soir avant 19h pour le lendemain.
 
 ## Alternative
 

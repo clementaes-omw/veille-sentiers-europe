@@ -6,10 +6,11 @@ itin: Haute Route Chamonix-Zermatt (étape Arolla ↔ cabane de Bertol, via le h
 sev: MOYENNE
 validite: 11/05/2026 → 01/02/2027
 detection: 2026-09-08
-verif: 2026-09-08
-statut: ACTIF — NOUVEAU 08/09 : détecté via le flux officiel data.geo.admin.ch (id
-  2596615, chemin impraticable, inchangé depuis sa création le 27/05/2026), aucune
-  couverture de presse trouvée.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : flux officiel data.geo.admin.ch (CSV
+  ch.astra.wanderland-sperrungen_umleitungen) interrogé directement pour l'identifiant
+  2596615 : entrée inchangée depuis sa création le 27/05/2026, toujours valable jusqu'à
+  révocation (échéance administrative au 01/02/2027). Aucune couverture de presse trouvée.
 ordre: 224
 ---
 

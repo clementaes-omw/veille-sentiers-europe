@@ -1,16 +1,16 @@
 ---
 cle: accès|Calanques-13|risque-feu-4couleurs|2026-06-01
 type: accès / risque feu
-itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
+itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
-validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 14/09
+validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 15/09
 detection: 2026-06-01
-verif: 2026-09-14
-statut: ACTIF — CHANGÉ 14/09 : cg13.eway.fr consultée en direct (prévision du 14-09-2026),
-  amélioration, retour au vert intégral sur les 7 massifs suivis (Calanques Marseille-Cassis,
-  Côte Bleue, Sainte-Victoire, Sainte-Baume, Concors, Arbois, Montaiguet) après le jaune
-  partiel du 10/09. Aucun massif orange ou rouge, aucune fermeture. Sévérité maintenue
-  MOYENNE.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (bouches-du-rhone.gouv.fr, page « Accès
+  aux massifs forestiers »), aucun signal de fermeture retrouvé pour aujourd'hui ; le vert
+  intégral constaté le 14/09 sur les 7 massifs suivis (Calanques Marseille-Cassis, Côte
+  Bleue, Sainte-Victoire, Sainte-Baume, Concors, Arbois, Montaiguet) n'est pas contredit.
+  Sévérité maintenue MOYENNE.
 ordre: 7
 ---
 
@@ -87,6 +87,8 @@ MAJ 08/09 : stabilité confirmée, cg13.eway.fr (prévision du 08-09-2026) recon
 MAJ 10/09 : légère dégradation, cg13.eway.fr (prévision du 10-09-2026) fait repasser les Calanques Marseille-Cassis, la Côte Bleue et l'Arbois du vert au jaune. Concors, Sainte-Victoire, Sainte-Baume et le Montaiguet restent vert. Aucun massif orange ou rouge, aucune fermeture.
 
 MAJ 14/09 : nouvelle amélioration, cg13.eway.fr (prévision du 14-09-2026) fait repasser les Calanques Marseille-Cassis, la Côte Bleue et l'Arbois du jaune au vert : les 7 massifs suivis affichent un vert intégral. Aucun massif jaune, orange ou rouge, aucune fermeture. Aucun communiqué préfectoral ni article de presse daté du 14/09 n'a été retrouvé pour recouper cette carte technique.
+
+MAJ 15/09 : nouvelle recherche (bouches-du-rhone.gouv.fr, page « Accès aux massifs forestiers »), aucun signal de fermeture retrouvé pour aujourd'hui ; le vert intégral constaté le 14/09 sur les 7 massifs suivis n'est pas contredit. Sévérité maintenue MOYENNE.
 
 ## Source
 

@@ -5,15 +5,11 @@ itin: Malerweg (Suisse Saxonne) — étape 3 (Kohlichtgraben, et Schindergraben�
 sev: MOYENNE
 validite: Kohlichtgraben et Bergsteig fermés jusqu'à nouvel ordre depuis le 18/08/2026 ; Schindergraben↔Halbenweg fermé jusqu'à nouvel ordre depuis la nuit du 19 au 20/08/2026 (nouvelle tempête) ; aucune échéance annoncée pour les trois secteurs, déviations balisées en place
 detection: 2026-08-18
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : saechsische-schweiz.de/gut-zu-wissen/aktuelles et
-  sandsteinwandern.de (source distincte, mise à jour le 08/09/2026) revérifiés, le
-  Kohlichtgraben (étape 3) reste explicitement listé impraticable (« ist derzeit
-  unpassierbar »), cause scolytes, sur terrain forestier privé donc non déblayable par le
-  parc ; le Bergsteig (étape 5, partie basse) reste listé impraticable pour risque de chute
-  d'arbres ; le Schindergraben↔Halbenweg reste mentionné fermé, déviation par le balisage
-  vert toujours recommandée. Les trois secteurs restent fermés sans changement depuis le
-  22/08, aucune échéance de réouverture publiée.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : saechsische-schweiz.de/gut-zu-wissen/aktuelles revérifiée,
+  toujours datée de son dernier ajout du 26/08. Les trois secteurs (Kohlichtgraben, Bergsteig
+  partie basse, Schindergraben↔Halbenweg) restent fermés sans changement depuis le 22/08,
+  aucune échéance de réouverture publiée.
 ordre: 176
 ---
 
