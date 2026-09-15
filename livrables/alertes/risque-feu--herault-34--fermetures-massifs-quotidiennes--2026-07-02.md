@@ -5,17 +5,18 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-14
-statut: ACTIF — CHANGÉ 14/09 : nouvelle recherche, cartes @Prefet34 retrouvées pour le 04/09
-  (8/9 orange), le 09/09 (5/9 orange) et le 10/09 (6/9 orange, dont Minervois et Gardiole) :
-  aucune n'a jamais fait apparaître de secteur rouge depuis le 22/08. Aucune carte postérieure
-  au 10/09 retrouvée. Carlencas-et-Levas toujours fixé. Sévérité maintenue MOYENNE.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (@Prefet34, infoccitanie.fr,
+  shopping-beziers.com), toujours aucune carte postérieure au 10/09 retrouvée (5 jours de
+  silence). Le classement du 10/09 (6/9 secteurs orange, dont Minervois et Gardiole, aucun
+  rouge depuis le 22/08) reste la dernière donnée officielle connue. Carlencas-et-Levas
+  toujours fixé. Sévérité maintenue MOYENNE.
 ordre: 18
 ---
 
 ## Portion concernée
 
-Hérault, situation vérifiée le 14/09/2026 : **aucun secteur n'est classé en rouge (accès interdit)** depuis le 22/08. La dernière carte retrouvée, datée du jeudi 10/09/2026, place 6 des 9 secteurs forestiers du département en orange (risque élevé, **accès aux espaces forestiers déconseillé et travaux réglementés**), notamment le Minervois et la Gardiole ; la liste nominative complète des 6 secteurs n'a pas été confirmée par une lecture directe de la carte officielle. La carte du 05/09/2026 (8 secteurs orange sur 9) reste la dernière à liste nominative complète confirmée : Escandorgue et Larzac, Gangeois, Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, Plaine viticole Cœur Hérault et Plaines littorales, La Gardiole, Plaine viticole de l'Est héraultais. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
+Hérault, situation vérifiée le 15/09/2026 : **aucun secteur n'est classé en rouge (accès interdit)** depuis le 22/08. La dernière carte retrouvée, datée du jeudi 10/09/2026, place 6 des 9 secteurs forestiers du département en orange (risque élevé, **accès aux espaces forestiers déconseillé et travaux réglementés**), notamment le Minervois et la Gardiole ; la liste nominative complète des 6 secteurs n'a pas été confirmée par une lecture directe de la carte officielle. La carte du 05/09/2026 (8 secteurs orange sur 9) reste la dernière à liste nominative complète confirmée : Escandorgue et Larzac, Gangeois, Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, Plaine viticole Cœur Hérault et Plaines littorales, La Gardiole, Plaine viticole de l'Est héraultais. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé. Raison : risque incendie, canicule persistante.
 
 ## Alternative
 

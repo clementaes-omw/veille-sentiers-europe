@@ -10,13 +10,10 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   de cette préfecture (une page dédiée n'existe que les jours où un secteur passe en rouge),
   signifie qu'aucun secteur n'est classé rouge depuis le 03/09/2026
 detection: 2026-07-04
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : liste complète des actualités de gard.gouv.fr relue en
-  direct, toujours aucune page de classement postérieure au 03/09/2026. Un article de presse
-  du 10/09 confirme le Gard toujours en vigilance orange (pas rouge) aux côtés de l'Aude, de
-  l'Hérault et des Pyrénées-Orientales. Un feu agricole (bottes de foin, Mas de la Fraiseraie,
-  Saint-Gilles, 04/09) a été rapidement maîtrisé, sans lien avec un massif forestier ni un
-  itinéraire balisé. Aucun secteur classé rouge depuis 11 jours. Sévérité maintenue MOYENNE.
+verif: 2026-09-15
+statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (gard.gouv.fr), toujours aucune page de
+  classement postérieure au 03/09/2026. Aucun secteur classé rouge depuis 12 jours. Sévérité
+  maintenue MOYENNE.
 ordre: 15
 ---
 
