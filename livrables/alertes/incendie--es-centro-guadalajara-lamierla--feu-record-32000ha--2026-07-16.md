@@ -1,11 +1,11 @@
 ---
 cle: incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16
-type: incendie
 itin: GR®167 Sierra Norte de Guadalajara, étape 1 (Majadas del Bornoba↔Pradena de Atienza↔Albendiego) et variante GR®167.1 — balisage détruit par l'incendie, fermeture officielle [FAIT] ; GR®10-ES, tronçon Cogolludo↔Muriel↔Tamajón — fermé depuis le 17/07/2026 pour le même incendie, sans mise à jour depuis [FAIT] ; Camino de Madrid/Vía de la Plata/Camino de Levante non concernés (hors secteur)
+type: incendie
 sev: HAUTE (fermeture officielle de balisage, sans date de réouverture)
 validite: incendie de La Mierla déclaré officiellement éteint le 04/09/2026 à 18h30 après 51 jours d'opération (bilan final 34 447 ha) ; GR®167 étape 1 et GR®167.1 restent fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée ; GR®10-ES (Cogolludo↔Muriel↔Tamajón) fermé depuis le 17/07/2026 pour la même raison, également sans date de réouverture
 detection: 2026-07-24
-verif: 2026-09-15
+verif: 2026-09-16
 statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée sur senderosdecastillalamancha.org,
   toujours aucun avis postérieur au 29/07/2026 (GR®167/GR®167.1) ni au 17/07/2026 (GR®10-ES
   Cogolludo↔Muriel↔Tamajón). Sévérité maintenue HAUTE : fermeture officielle confirmée sur
