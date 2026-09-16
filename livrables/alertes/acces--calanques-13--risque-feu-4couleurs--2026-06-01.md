@@ -5,7 +5,7 @@ itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 15/09
 detection: 2026-06-01
-verif: 2026-09-15
+verif: 2026-09-16
 statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (bouches-du-rhone.gouv.fr, page « Accès
   aux massifs forestiers »), aucun signal de fermeture retrouvé pour aujourd'hui ; le vert
   intégral constaté le 14/09 sur les 7 massifs suivis (Calanques Marseille-Cassis, Côte

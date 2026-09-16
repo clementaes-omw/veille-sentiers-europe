@@ -5,7 +5,7 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis le 09/02/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-09-02
-verif: 2026-09-11
+verif: 2026-09-16
 statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'avis FFRandonnée 35, toujours affiché
   à l'identique, sans mention de réouverture.
 ordre: 215

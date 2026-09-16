@@ -623,6 +623,8 @@ ALIAS_ZONE = {
     "DE-Schwarzwald-Oppenau": "DE-SW",
     # Royaume-Uni / Portugal — même raison : les Cairngorms pointaient dans le Lake District.
     "UK-Cairngorms-Glenmore": "UK-SCOTLAND", "Matosinhos-PT": "PT-NORTE",
+    "UK-Devon-Branscombe": "UK-Devon", "UK-Devon-Shaldon": "UK-Devon",
+    "Cotes-Armor-Plerin": "FR-BRE",
     # Baléares
     "GR221-222-Mallorca": "ES-BALEARES",
     # Balkans / Tatras

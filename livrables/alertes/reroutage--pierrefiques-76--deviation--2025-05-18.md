@@ -5,7 +5,7 @@ itin: GR®21
 sev: MOYENNE
 validite: jusqu'au 18/09/2026
 detection: 2025-05-18
-verif: 2026-09-02
+verif: 2026-09-16
 statut: ACTIF — déviation toujours active, aucun changement de fond depuis le 05/08.
 ordre: 4
 ---
