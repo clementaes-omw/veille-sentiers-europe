@@ -5,7 +5,7 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-15
+verif: 2026-09-16
 statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (risque-prevention-incendie.fr/corse,
   haute-corse.gouv.fr, presse), aucun acte plus récent que celui du 19/08/2026
   (Fango/Bonifato/ouest Agriate) retrouvé, et aucun nouveau feu que celui d'Appietto (13/09,
