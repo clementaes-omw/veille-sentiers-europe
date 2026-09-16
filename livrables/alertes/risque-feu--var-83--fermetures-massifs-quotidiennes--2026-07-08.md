@@ -5,7 +5,7 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (aucun massif fermé depuis le 19/08)
 validite: journalière ; aucun massif fermé au 15/09 (dernière donnée confirmée), 2 en orange (Centre-Var, Maures), les 7 autres en modéré, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-09-15
+verif: 2026-09-16
 statut: ACTIF — INCHANGÉ 15/09 : varactu.fr confirme le maintien du classement sévère
   (orange) sur les 2 mêmes massifs, Centre-Var et Maures, reconduit ce mardi 15/09, un
   4e jour consécutif. Aucun massif fermé/rouge depuis le 19/08. Sévérité maintenue MOYENNE

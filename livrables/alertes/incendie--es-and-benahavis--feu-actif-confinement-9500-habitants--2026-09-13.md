@@ -11,7 +11,7 @@ validite: incendie stabilisé le 14/09/2026 en fin de journée après un peu plu
   plus de 300 hectares parcourus ; moyens réduits à 5 appareils aériens et 153 sapeurs
   pour les travaux de contrôle, avant extinction complète
 detection: 2026-09-13
-verif: 2026-09-15
+verif: 2026-09-16
 statut: ACTIF — CHANGÉ 15/09 : le feu, déclaré le 13/09, est stabilisé depuis le 14/09 en
   fin de journée (plus de 24h d'intervention), le plan Infoca redescend en préemergence
   (situation opérationnelle 0). Les habitants surpris hors de chez eux ont pu rentrer, seule

@@ -11,7 +11,7 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-15
+verif: 2026-09-16
 statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée (eilmeldung-waldsperrung, page
   aktuelles Kurort Rathen), rien de postérieur au 26/08/2026 trouvé sur les pages du parc. Le
   bas de l'Amselgrund entre Rathen et la jonction des Schwedenlöcher et le secteur du
