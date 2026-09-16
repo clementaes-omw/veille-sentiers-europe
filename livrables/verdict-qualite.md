@@ -1,123 +1,99 @@
-# Verdict qualité du registre — 2026-09-15
+# Verdict qualité du registre — 2026-09-16
 
-Agent : `agents/verificateur-alertes.md`, distinct de l'agent qui a mené la veille du jour.
-Aucune des fiches contrôlées ci-dessous n'a été écrite par moi : audit indépendant, pas
-relecture de complaisance.
+Agent : `agents/verificateur-alertes.md`, distinct de l'agent qui a mené la veille du jour
+(4 fiches créées, 2 fiches modifiées matériellement, 40 dates `verif:` rafraîchies). Aucune
+des fiches contrôlées ci-dessous n'a été écrite par moi : audit indépendant, pas relecture de
+complaisance.
 
-`livrables/audit-qualite.md` (déjà généré par `python3 site/audit_qualite.py --ecrire`) :
-**15 constats, 0 bloquant**, sur 121 fiches (90 actives). Périmètre de contrôle = ces 15
-fiches, et elles seules ; le dossier complet `livrables/alertes/` n'a pas été relu.
+`livrables/audit-qualite.md` (déjà généré par `python3 site/audit_qualite.py --ecrire`,
+2026-09-16) : **9 constats, 0 bloquant**, sur 125 fiches (94 actives). Périmètre de contrôle
+= ces 9 fiches, et elles seules ; le dossier complet `livrables/alertes/` n'a pas été relu.
+Les 9 constats portent sur des sources vieillissantes / dates de vérification en retard pour
+des zones déjà en escalade (recherche ciblée de l'acte manquant déjà tentée par la veille du
+jour, sans résultat) : conformément au périmètre de cet agent, ces gaps ne sont pas comblés
+ici (il faudrait une source nouvelle), seulement vérifiés pour concordance et honnêteté.
 
-Après corrections : `python3 site/audit_qualite.py --ecrire` relancé → **0 bloquant, 12
-constats résiduels** (tous des demandes de source nouvelle ou de revérification, transmises
-ci-dessous à la veille). `python3 site/build_site.py` → **OK (QA passée)** (90 actives, 31
-clôturées, 121 fichiers, registre 793 802 car.). Garde-fou d'intégrité du build (perte de
-texte) : 0 déclenchement.
+`python3 site/build_site.py` → **OK (QA passée)** (94 actives, 31 clôturées, 58 digests, 125
+fichiers, registre 801 165 car.). Garde-fou d'intégrité du build (perte de texte) : 0
+déclenchement — logique, aucune fiche n'a été modifiée ce passage.
 
-Note indépendante du périmètre : `python3 site/verif_faits.py` signale par ailleurs 3 fiches
-avec des nombres apparemment « inventés » vs le dernier commit git (dont
-`risque-feu|PO-66|…`) — vérification faite, ces écarts viennent de contenu ajouté par la
-veille du jour (ex. le nouveau feu d'Opoul-Périllos, jamais présent au commit précédent), pas
-d'une reformulation de ma part : je n'ai touché que le champ `validite:` de cette fiche, pas
-sa prose « Zone (détails) ». Signalé pour mémoire, sans action de mon ressort.
+`python3 site/audit_qualite.py` relancé après contrôle : toujours **9 constats, 0 bloquant**
+(inchangé, aucune correction n'était nécessaire ni applicable dans mon périmètre).
 
-## PASS / FAIL par contrôle — 15 fiches citées par l'audit
+## PASS / FAIL par contrôle — 9 fiches citées par l'audit
 
 | Fiche | 1 Fraîcheur | 2 Concordance | 3 Honnêteté | 4 Pertinence | 5 Sévérité | 6 Ton | 7 Source vivante |
 |---|---|---|---|---|---|---|---|
-| `conditions\|IS-Hautes-Terres\|traversee-deconseillee-fimmvorduhals-glacier\|2026-08-25` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS |
 | `fermetures-sentiers\|Réunion-974\|AP-2026-693\|2026-05-21` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié en direct) |
-| `fermeture\|Cotes-Armor-Trebeurden\|GR34-Pors-Mabo-Goas-Lagorn\|2026-08-06` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
+| `fermeture\|CH-EST-Kandersteg\|Spitze-Stei-deviation-seg-1.13\|2023-05-08` | PASS (INFO, 8 j < seuil 45 j) | PASS | PASS | PASS | PASS | PASS | n/a (INFO, non vérifié) |
 | `fermeture\|FR-Baronnies-GR9\|arretes-municipaux\|2026-07-07` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié en direct) |
-| `fermeture\|GR-E4-Creta-Samaria\|fermetures-meteo-repetees\|2026-07-16` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
+| `fermeture\|GR-E4-Creta-Samaria\|fermetures-meteo-repetees\|2026-07-16` | **FAIL** (5 j, seuil 2 j) | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE, non vérifié) |
 | `incendie\|Ariege-Bordes-Uchentein\|GR10-ferme-Esbintz-Valier\|2026-07-10` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié en direct) |
+| `incendie\|AT-Vorarlberg-Silvretta\|coulee-boue-sentiers-fermes\|2026-07-12` | **FAIL** (13 j, seuil 12 j) | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE, non vérifié) |
 | `incendie\|Drome-Justin-Die\|foret-fermee\|2026-07-02` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié en direct) |
 | `incendie\|HautesAlpes-BoisNoir\|GR54A-ferme-Argentiere-Freissinieres\|2026-07-19` | PASS | PASS | PASS | PASS | PASS | PASS | PASS (vérifié en direct) |
-| `incendie\|Pyrenees-Atlantiques-Etsaut\|feu-pas-ourtasse-gr10-evacuation\|2026-09-02` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | PASS (fiche du jour) |
-| `incendie\|UK-Cairngorms-Glenmore\|wildfire-Strathnethy-C7-fermee\|2026-07-16` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
-| `reroutage\|GR21-Loges-Bénouville\|glissement-fermeture\|2026-02-17` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
-| `reroutage\|GR34-Finistère\|fermetures-érosion-2026\|2026-S1` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
-| `reroutage\|GR34-rade-de-Brest\|nouveau-tracé-officiel\|2026-05-28` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
-| `reroutage\|Pierrefiques-76\|déviation\|2025-05-18` | **FAIL** | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
-| `risque-feu\|PO-66\|vigilance-rouge-fermeture-tous-massifs\|2026-07-26` | PASS | PASS (corrigé) | PASS | PASS | PASS | PASS | n/a (MOYENNE) |
+| `risque-feu\|FR-EST-Vosges-88\|interdiction-feu-vigilance-severe\|2026-07-28` | **FAIL** (13 j, seuil 12 j) | PASS | PASS | PASS | PASS | PASS | n/a (MOYENNE, non vérifié) |
 
-15 fiches contrôlées. 3 FAIL corrigés par mes soins (concordance interne / validité
-trompeuse). 7 FAIL de fraîcheur laissés à la veille (hors de mon périmètre : ils exigent une
-revérification de source, pas une réécriture). 0 FAIL sur les contrôles 3, 4, 5 et 6.
+9 fiches contrôlées. 0 correction appliquée ce passage : les 3 FAIL sont tous des retards de
+revérification (contrôle 1) qui exigent une source nouvelle du jour (samaria.gr/crete.gov.gr,
+montafon.at, vosges.gouv.fr) — hors de mon périmètre, transmis à la veille ci-dessous. 0 FAIL
+sur les contrôles 2 à 7.
 
-### Détail — 5 alertes ROUGES « source datée de plus de 10 jours » : faux positifs vérifiés
+### Détail — les 5 alertes ROUGES « source vieillissante » : vérifiées en direct, pas de défaut
 
 L'audit déterministe signale une source de plus de 10 jours sous une alerte HAUTE pour
-Réunion, Baronnies, Ariège, Drôme-Justin et Hautes-Alpes-Bois Noir. Dans les 5 cas, ce n'est
-pas la fiche qui est en défaut : chacune repose sur un **arrêté (préfectoral ou municipal)
-« jusqu'à nouvel ordre »**, qui ne se republie pas tant qu'il n'est ni abrogé ni prolongé — le
-texte lui-même, pas sa date de republication, est la source de vérité. J'ai vérifié en direct
-(contrôle 7, WebFetch) les 5 URL citées :
-- `onf.fr` (Réunion) : l'arrêté n°2026-1415 du 27/08/2026 est toujours en ligne, téléchargeable.
-- `baronnies-provencales.fr` (Baronnies) : page toujours datée « mise à jour le 01/09/26 »,
-  12 communes nommément listées, cohérent avec la fiche.
-- `bordesuchentein.fr` (Ariège) : l'arrêté du 31/08/2026 (Cap des Lauzes ↔ étang d'Ayes) est
-  cité et disponible.
-- `mairie-die.fr` (Drôme) : l'arrêté du 21/08/2026 est présenté comme applicable jusqu'à la
-  fin des opérations d'étude et de sécurisation, donc toujours en vigueur.
-- `ville-argentiere.fr` (Hautes-Alpes) : l'arrêté municipal du 15/08/2026 est cité comme la
-  mesure en vigueur, réouverture conditionnée aux avis des autorités compétentes.
+Réunion, Baronnies, Ariège, Drôme-Justin et Hautes-Alpes-Bois-Noir. Dans les 5 cas, la
+sévérité HAUTE repose sur un **arrêté (préfectoral ou municipal) « jusqu'à nouvel ordre »**
+déjà lu en entier par la veille, pas sur une hypothèse (« à confirmer », « probable »,
+« non localisé »… absents des 5 « Portion concernée ») — la règle des 14 jours ne s'applique
+donc pas ici. J'ai vérifié
+en direct (contrôle 7, WebFetch + curl) les sources citées :
+- `onf.fr` (Réunion) : page vivante, propose toujours le téléchargement de l'arrêté
+  n°2026-1415 (27/08/2026) comme document de référence.
+- `baronnies-provencales.fr` (Baronnies) : page vivante, toujours « mis à jour le 01/09/26 »,
+  12 communes nommées — identique à ce qu'affiche la fiche.
+- `bordesuchentein.fr` (Ariège) : le PDF de l'arrêté du 31/08/2026 répond HTTP 200
+  (3,6 Mo, `application/pdf` ; illisible par l'outil de résumé automatique faute d'OCR, mais
+  bien en ligne et de la taille attendue — pas une source morte).
+- `mairie-die.fr` (Drôme-Justin) : page vivante, confirme l'arrêté du 21/08/2026 (forêts de
+  Justin/Laup/Solaure), motif chutes de pierres, aucune date de levée annoncée — conforme à
+  la fiche.
+- `ville-argentiere.fr` (Hautes-Alpes-Bois-Noir) : page vivante, confirme l'arrêté municipal
+  du 15/08/2026 toujours en vigueur, sans date de réouverture — conforme à la fiche.
 
-Sources vivantes, contenu conforme à ce que chaque fiche affiche : aucune correction requise.
-Ces 5 constats sont des faux positifs de l'heuristique d'audit (elle ne sait pas distinguer
-un arrêté « jusqu'à nouvel ordre » d'une alerte qui se serait tue), pas de vrais défauts du
-registre. Transmis malgré tout ci-dessous, car une confirmation plus récente reste utile au
-lecteur si l'occasion se présente.
+Sur ces 5 fiches, honnêteté déjà correcte : chacune dit au lecteur, en clair, ce qui n'est
+*pas* publié (date de levée non fixée pour Drôme-Justin et Hautes-Alpes-Bois-Noir ; communes
+sans arrêté retrouvé listées nommément pour Baronnies ; identification GR®R2 non confirmée
+par un topo-guide officiel pour Réunion). Aucune correction requise.
 
-## Corrections appliquées — récapitulatif par clé
+## Corrections appliquées — aucune ce passage
 
-1. `conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25` —
-   `validite:` reformulée : le champ citait « toujours actif au 12/09/2026 » comme unique
-   repère temporel, lu par l'audit comme une échéance dépassée alors que l'avertissement
-   safetravel.is reste actif sans levée annoncée. Réécrit « reste actif jusqu'à nouvel ordre »
-   en tête de champ, à information constante (aucune date ni fait ajouté ou retiré).
-2. `incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02` —
-   « Portion concernée » réalignée sur le suivi déjà à jour : le texte affiché s'arrêtait au
-   point du 07/09 (« stabilisé... 130 hectares ») alors que `statut:`/« Zone (détails) »
-   documentaient déjà, au 15/09, un feu fixé et sous surveillance (reconnaissance drone du
-   09/09 sans reprise) et un accès au sol toujours strictement interdit sans date de
-   réouverture. Réécriture à information constante : rien n'est ajouté, l'état le plus récent
-   déjà connu de la fiche est simplement remonté dans le texte public.
-3. `risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26` — `validite:`
-   reformulée : les dates du 11-12/09 citées comme dernier repère laissaient croire à une
-   échéance dépassée, alors que le classement orange reste la donnée de référence faute de
-   publication plus récente (déjà dit dans `statut:`). Ajout de « qui reste en vigueur
-   jusqu'à nouvel ordre faute de publication plus récente », à information constante.
+Les 9 fiches citées par l'audit sont, sur le fond, correctement écrites : « Portion
+concernée » reflète déjà l'état le plus récent connu par `statut:`/« Zone (détails) », aucun
+jargon de veille (« ce run », « recherche ciblée », « en autonome »…) dans les champs
+publics, aucune validité expirée à réécrire, aucun `statut:` empilé à ramener à l'état
+courant. Rien dans mon périmètre à corriger ce passage.
 
-Aucune fiche clôturée, aucune sévérité modifiée par moi, aucune section réduite (garde-fou
-d'intégrité du build : 0 déclenchement).
+## À traiter au prochain run de veille (nécessite une source nouvelle, hors de mon périmètre)
 
-## À traiter au prochain run de veille (nécessite une source nouvelle ou une revérification, hors de mon périmètre)
-
-**Revérification de fraîcheur (pas de doute sur le fond, juste une date à rafraîchir) :**
-
-- `fermeture|Cotes-Armor-Trebeurden|GR34-Pors-Mabo-Goas-Lagorn|2026-08-06` — `verif:
-  2026-09-02` (13 j, seuil 12 j moyenne). Revisiter la page du comité FFRandonnée 22 pour
-  confirmer que la déviation reste la seule information disponible.
-- `incendie|UK-Cairngorms-Glenmore|wildfire-Strathnethy-C7-fermee|2026-07-16` — `verif:
-  2026-09-02` (13 j). Revérifier cairngorms.co.uk / firescotland.gov.uk pour une éventuelle
-  levée des dernières fermetures localisées (Ryvoan Trail, Lodge Trail, Green Lochan).
-- `reroutage|GR21-Loges-Bénouville|glissement-fermeture|2026-02-17` — `verif: 2026-09-02`
-  (13 j). Retenter une source 2026 postérieure à février (déjà signalé infructueux au run du
-  05/08 ; recherche ciblée à refaire).
-- `reroutage|GR34-Finistère|fermetures-érosion-2026|2026-S1` — `verif: 2026-09-02` (13 j).
-  Revisiter finistere.ffrandonnee.fr pour confirmer qu'aucune des 15+ fermetures n'a évolué.
-- `reroutage|GR34-rade-de-Brest|nouveau-tracé-officiel|2026-05-28` — `verif: 2026-09-02`
-  (13 j). Confirmer que le reroutage pérenne reste stable (faible risque, mais la date de
-  vérification doit être rafraîchie).
-- `reroutage|Pierrefiques-76|déviation|2025-05-18` — `verif: 2026-09-02` (13 j). La validité
-  annoncée court jusqu'au 18/09/2026 : revérifier avant cette échéance.
 - `fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16` — `verif: 2026-09-11`
-  (4 j, seuil 2 j : restriction décidée au jour le jour). Revérifier le statut du jour sur
+  (5 j, seuil 2 j : restriction décidée au jour le jour). Revérifier le statut du jour sur
   samaria.gr et crete.gov.gr avant toute nouvelle publication de « Dernière vérif ».
+- `incendie|AT-Vorarlberg-Silvretta|coulee-boue-sentiers-fermes|2026-07-12` — `verif:
+  2026-09-03` (13 j, seuil 12 j moyenne). Revisiter montafon.at (Bielerhöhe Seerundweg) pour
+  confirmer que le sentier du tour du lac et la liaison Partenen↔Bielerhöhe restent fermés.
+- `risque-feu|FR-EST-Vosges-88|interdiction-feu-vigilance-severe|2026-07-28` — `verif:
+  2026-09-03` (13 j, seuil 12 j moyenne). Revisiter vosges.gouv.fr / clickalert.org pour un
+  bulletin de vigilance incendie plus récent que le 17/08, et confirmer qu'aucune fermeture
+  de sentier n'est apparue depuis.
+- `fermeture|CH-EST-Kandersteg|Spitze-Stei-deviation-seg-1.13|2023-05-08` — `verif:
+  2026-09-08`, jamais revérifiée depuis sa détection (8 j ; non bloquant, INFO, seuil réel
+  45 j). Sans urgence : à revisiter (data.geo.admin.ch) à la prochaine couverture de la
+  Suisse plutôt qu'en priorité.
 
 **Confirmation de maintien souhaitable (faux positifs vérifiés vivants par mes soins, non
-urgents) :**
+urgents, arrêtés « jusqu'à nouvel ordre » qui ne se republient pas tant qu'ils ne sont ni
+abrogés ni prolongés) :**
 
 - `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`
 - `fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`
@@ -125,11 +101,5 @@ urgents) :**
 - `incendie|Drome-Justin-Die|foret-fermee|2026-07-02`
 - `incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`
 
-Pour ces 5, j'ai confirmé en direct (WebFetch, contrôle 7) que l'arrêté cité par chaque fiche
-est toujours en ligne et toujours présenté comme en vigueur (voir détail ci-dessus) : aucune
-dégradation ni action urgente. Une prochaine visite de zone peut simplement rafraîchir la date
-si une publication plus récente existe, sans quoi l'audit continuera de les signaler par
-construction (heuristique sur l'âge de la source, pas sur son contenu).
-
-Aucune dégradation ni clôture de sévérité n'est recommandée sur les 12 fiches ci-dessus : dans
-les 12 cas, le fond de l'alerte reste correctement établi par les fiches elles-mêmes.
+Aucune dégradation ni clôture de sévérité n'est recommandée sur les 9 fiches ci-dessus : dans
+les 9 cas, le fond de l'alerte reste correctement établi et honnêtement présenté au lecteur.
