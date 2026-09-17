@@ -5,7 +5,7 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; nouvelle fermeture programmée sur la Piste des Merveilles (Tende), du 29/09 au 30/10/2026 ; page FFRando 06 mise à jour au 12/09/2026
 detection: 2026-08-01
-verif: 2026-09-16
+verif: 2026-09-17
 statut: ACTIF — CHANGÉ 16/09 : la page FFRando 06 ajoute une fermeture programmée sur la
   Piste des Merveilles (Tende), du 29/09 au 30/10/2026 (travaux de restauration), en plus des
   sections déjà connues. Aucune levée constatée par ailleurs.
