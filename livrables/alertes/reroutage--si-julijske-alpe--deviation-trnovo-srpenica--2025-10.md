@@ -5,7 +5,7 @@ itin: Juliana Trail, Alpe-Adria Trail
 sev: MOYENNE
 validite: pérenne depuis octobre 2025
 detection: 2026-07-23
-verif: 2026-09-10
+verif: 2026-09-17
 statut: ACTIF — INCHANGÉ 10/09 : stanje-poti.pzs.si revuérifié, toujours aucune fermeture
   active recensée dans les Julijske Alpe (les fermetures actuellement listées portent sur
   les massifs de Kamnik-Savinja, des Karavanke, de Pohorje et des environs de Ljubljana).

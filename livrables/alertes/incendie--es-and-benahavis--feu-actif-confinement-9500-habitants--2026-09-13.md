@@ -6,12 +6,13 @@ itin: GR®249 Gran Senda de Málaga [HYPOTHÈSE] le feu progresse vers Pujerra, 
   GR®249 ; aucun recoupement précis ni fermeture de tronçon n'est confirmé par une source
   consultée à ce jour
 sev: HAUTE
-validite: incendie stabilisé le 14/09/2026 en fin de journée après un peu plus de 24h
-  d'intervention ; plan Infoca redescendu en préemergence (situation opérationnelle 0) ;
-  plus de 300 hectares parcourus ; moyens réduits à 5 appareils aériens et 153 sapeurs
-  pour les travaux de contrôle, avant extinction complète
+validite: en vigueur jusqu'à confirmation de l'extinction complète (aucune échéance fixe) ;
+  incendie stabilisé depuis le 14/09/2026 en fin de journée (plan Infoca en préemergence,
+  situation opérationnelle 0), mais l'extinction totale n'est annoncée par aucune source
+  datée à ce jour ; plus de 300 hectares parcourus ; moyens réduits à 5 appareils aériens
+  et 153 sapeurs pour les travaux de contrôle
 detection: 2026-09-13
-verif: 2026-09-16
+verif: 2026-09-17
 statut: ACTIF — CHANGÉ 15/09 : le feu, déclaré le 13/09, est stabilisé depuis le 14/09 en
   fin de journée (plus de 24h d'intervention), le plan Infoca redescend en préemergence
   (situation opérationnelle 0). Les habitants surpris hors de chez eux ont pu rentrer, seule

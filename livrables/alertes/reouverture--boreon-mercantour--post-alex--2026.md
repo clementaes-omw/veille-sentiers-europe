@@ -5,7 +5,7 @@ itin: GR®52 / GTM (Mercantour)
 sev: INFO
 validite: rouvert 2026 via déviations rive g./dr.
 detection: 2026-06-29
-verif: 2026-09-16
+verif: 2026-09-17
 statut: ACTIF — INCHANGÉ 14/09 : page FFRando 06 relue en direct, désormais à jour au
   12/09/2026, GR®52 Boréon toujours absent de la liste des fermetures. Aucun signal contraire
   trouvé par ailleurs.

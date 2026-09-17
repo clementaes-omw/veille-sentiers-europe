@@ -5,7 +5,7 @@ type: incendie
 sev: HAUTE (fermeture officielle de balisage, sans date de réouverture)
 validite: incendie de La Mierla déclaré officiellement éteint le 04/09/2026 à 18h30 après 51 jours d'opération (bilan final 34 447 ha) ; GR®167 étape 1 et GR®167.1 restent fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée ; GR®10-ES (Cogolludo↔Muriel↔Tamajón) fermé depuis le 17/07/2026 pour la même raison, également sans date de réouverture
 detection: 2026-07-24
-verif: 2026-09-16
+verif: 2026-09-17
 statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée sur senderosdecastillalamancha.org,
   toujours aucun avis postérieur au 29/07/2026 (GR®167/GR®167.1) ni au 17/07/2026 (GR®10-ES
   Cogolludo↔Muriel↔Tamajón). Sévérité maintenue HAUTE : fermeture officielle confirmée sur

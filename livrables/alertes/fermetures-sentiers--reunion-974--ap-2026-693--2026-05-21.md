@@ -7,11 +7,15 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1415 d
   publié le 27/08/2026) ; ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme
   le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-16
-statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée (ONF Réunion, ffrandonnee.fr),
-  toujours aucun acte plus récent que l'arrêté n°2026-1415 du 26/08/2026, et toujours
-  aucune source directe (topo-guide FFRandonnée) confirmant le rattachement du Bras des
-  Merles au GR®R2. Sévérité maintenue HAUTE sur la base de l'interdiction totale en vigueur.
+verif: 2026-09-17
+statut: ACTIF — CONTRÔLE QUALITÉ 17/09 : la page ONF Réunion référence désormais un arrêté
+  n°2026-1617 du 16/09/2026, absent des vérifications précédentes (dernière recherche
+  ciblée 15/09, encore fondée sur le n°2026-1415). Son contenu n'a pas été lu : à traiter en
+  priorité au prochain passage (lire le PDF, vérifier le sort du Bras des Merles/GR®R2).
+  Sévérité maintenue HAUTE dans l'intervalle, sur la base de la dernière interdiction
+  confirmée. Ancien historique : nouvelle recherche ciblée du 15/09 (ONF Réunion,
+  ffrandonnee.fr), toujours aucune source directe (topo-guide FFRandonnée) confirmant le
+  rattachement du Bras des Merles au GR®R2.
   Ancien historique : le PDF de l'arrêté n°2026-1415 (26/08/2026, publié 27/08) a
   été lu en entier. Il liste 49 sentiers fermés sur 14 communes ; parmi eux, le Bras des
   Merles (Deux Bras à Aurère, Mafate) correspond, selon plusieurs descriptifs de randonnée
@@ -33,7 +37,7 @@ ordre: 16
 
 ## Portion concernée
 
-La Réunion : **sentier du Bras des Merles fermé entre Deux Bras et Aurère, dans le cirque de Mafate (communes de La Possession et Saint-Paul)**, ainsi que 48 autres sentiers sur 13 autres communes, en vertu de l'arrêté préfectoral n°2026-1415 du 26/08/2026 (publié le 27/08/2026, en vigueur au 14/09/2026). Le Bras des Merles correspond au tronçon emprunté par la première étape du GR® R2 entre Dos-d'Âne et Aurère. Raison : sécurité, selon les visas de l'arrêté (risques sur les sentiers du domaine forestier géré par l'ONF), sans détail supplémentaire par sentier dans le texte.
+La Réunion : **sentier du Bras des Merles fermé entre Deux Bras et Aurère, dans le cirque de Mafate (communes de La Possession et Saint-Paul)**, ainsi que 48 autres sentiers sur 13 autres communes, en vertu de l'arrêté préfectoral n°2026-1415 du 26/08/2026 (publié le 27/08/2026, en vigueur au 14/09/2026). Le Bras des Merles correspond au tronçon emprunté par la première étape du GR® R2 entre Dos-d'Âne et Aurère. Raison : sécurité, selon les visas de l'arrêté (risques sur les sentiers du domaine forestier géré par l'ONF), sans détail supplémentaire par sentier dans le texte. Contrôle du 17/09/2026 : la page ONF Réunion référence désormais un texte plus récent, l'arrêté n°2026-1617 du 16/09/2026, sans que son contenu ait encore été lu. Selon le fonctionnement habituel de ces textes (chaque nouvel arrêté abroge le précédent), il a sans doute remplacé l'arrêté n°2026-1415 décrit ci-dessus. La liste de sentiers fermés présentée ici s'appuie donc sur un texte désormais susceptible d'être caduc ; elle sera recoupée avec l'arrêté n°2026-1617 lors de la prochaine vérification.
 
 ## Alternative
 
