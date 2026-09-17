@@ -5,7 +5,7 @@ itin: GR®5 & GR®53 (massif des Vosges) ; GR®531, GR®532, GR®533 (Vosges) �
 sev: MOYENNE
 validite: l'interdiction spécifique des feux d'artifice/festifs/chavandes, en vigueur du 01/08 au 01/09 8h, est arrivée à son terme sans reconduction retrouvée à ce jour ; la règle de fond reste pleinement en vigueur : interdiction du feu en forêt/à moins de 200m du 15/03 au 30/09 (arrêté n°172/2026), et alerte sécheresse renforcée sur tout le département jusqu'au 30/09 (restrictions d'arrosage, de lavage et de remplissage de piscines) ; niveau de vigilance feu de forêt toujours « modéré » sur le dernier bulletin public connu (18-20/08)
 detection: 2026-07-30
-verif: 2026-09-03
+verif: 2026-09-17
 statut: ACTIF — CHANGÉ 03/09 : l'interdiction temporaire des feux d'artifice/festifs/
   chavandes, qui courait du 01/08 au 01/09 8h, s'est achevée à son terme ; aucune presse ni
   page officielle ne documente de nouvelle reconduction pour septembre. La règle de fond
