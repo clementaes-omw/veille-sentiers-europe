@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-09-17
 
-94 alertes actives · 9 fiches avec au moins un constat · **1 bloquant(s)**, 8 alerte(s), 0 info(s).
+94 alertes actives · 7 fiches avec au moins un constat · **1 bloquant(s)**, 6 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -17,9 +17,7 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — alerte rouge appuyée sur une source datée du 01/09 (16 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — alerte rouge appuyée sur une source datée du 31/08 (17 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (27 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`incendie|ES-AND-Benahavis|feu-actif-confinement-9500-habitants|2026-09-13`** — la validité annoncée s'arrête au 14/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (24 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26`** — la validité annoncée s'arrête au 14/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 
 ## 🗺 Cohérence carte / registre
 
