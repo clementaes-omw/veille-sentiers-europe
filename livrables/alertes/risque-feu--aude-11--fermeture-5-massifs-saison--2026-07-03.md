@@ -26,7 +26,7 @@ ordre: 17
 
 ## Zone (détails)
 
-Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin <11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayère : fermeture progressive 3 niveaux. S'y ajoute la zone incendiée de Ribaute, fermée jusqu'à levée AP (AP-2026-024, post-incendie).
+Aude : Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise fermés 03/07→31/08 (Clape/Lézignanaise : « zones vertes » circulables le matin <11h jusqu'en risque sévère) ; île Ste-Lucie : arrêté-cadre 15/06→15/09, fermée uniquement les jours très sévère/extrême ; Cavayre : fermeture progressive 3 niveaux. S'y ajoute la zone incendiée de Ribaute, fermée jusqu'à levée AP (AP-2026-024, post-incendie).
 
 01/09 : la page aude.gouv.fr « FERMETURE DES MASSIFS 2026 » reste datée de sa mise à jour du 06/08, qui annonçait l'échéance du 31/08 pour Fontfroide, les Pinèdes de Crémade, la Clape et la Pinède Lézignanaise. Cette échéance est désormais dépassée sans qu'aucune prolongation n'ait été publiée : ces quatre massifs sont traités comme rouverts. L'île Sainte-Lucie et Ribaute restent sous leur régime propre, inchangé.
 
