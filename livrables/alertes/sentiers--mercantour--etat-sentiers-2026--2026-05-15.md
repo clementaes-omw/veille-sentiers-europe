@@ -5,9 +5,11 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 14/09 : page relue en direct, toujours datée du 22/08/2026, aucun
-  changement de fond depuis le dernier passage.
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : WebFetch indisponible ce run (proxy réseau en panne, erreurs
+  503 systématiques), la page mercantour-parcnational.fr n'a pas pu être relue directement ;
+  aucune recherche web de contournement n'a fait apparaître de changement. À relire
+  directement au prochain passage.
 ordre: 13
 ---
 
@@ -38,6 +40,8 @@ MAJ 04/09 : la page reste calée sur sa mise à jour du 22/08, sans changement d
 MAJ 05/09 : lecture intégrale de mercantour-parcnational.fr (page toujours datée du 22/08/2026) : un secteur déjà listé sur la page n'avait jamais été repris dans cette fiche, le sentier des Barels depuis Bouchanières (Guillaumes), fermé entre les balises 152 et 155 pour risque de crue lors d'orages récurrents. Aucun changement de fond par ailleurs.
 
 MAJ 14/09 : mercantour-parcnational.fr relu en direct, page toujours datée du 22/08/2026, aucun changement de fond ni nouveau secteur signalé.
+
+MAJ 18/09 : lecture directe impossible le 18/09 (WebFetch indisponible, panne du proxy réseau, erreurs 503 systématiques constatées même sur des sites de test hors périmètre). Aucun changement n'a été trouvé par recherche web de contournement ; dernière donnée sûre inchangée, page datée du 22/08/2026.
 
 ## Source
 
