@@ -5,18 +5,20 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (risque-prevention-incendie.fr/corse,
-  haute-corse.gouv.fr, presse), aucun acte plus récent que celui du 19/08/2026
-  (Fango/Bonifato/ouest Agriate) retrouvé, et aucun nouveau feu que celui d'Appietto (13/09,
-  déjà fixé, hors itinéraires suivis). Interdiction générale de feu (15/06→30/09) toujours en
-  vigueur par défaut sur l'ensemble de l'île.
+verif: 2026-09-18
+statut: ACTIF — CHANGÉ 18/09 : nouveau feu distinct le 17/09 sur la route de l'aéroport de
+  Calvi (28 ha, fixé le jour même, voir fiche dédiée
+  `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`) ; aucun acte plus récent que celui
+  du 19/08/2026 (Fango/Bonifato/ouest Agriate) retrouvé pour le reste de l'île. WebFetch
+  indisponible ce run (proxy en panne, 503 systématiques) : haute-corse.gouv.fr n'a pas pu
+  être relu directement, recherche web utilisée en contournement. Interdiction générale de
+  feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 
 ## Portion concernée
 
-Tout le GR®20 : **feux et réchauds interdits du 15/06 au 30/09.** Seuls les réchauds à gaz sont tolérés, hors canicule. Les massifs sont fermables au jour le jour selon la carte préfectorale, publiée la veille vers 18h. Raison : risque incendie estival, sécheresse 2A. Dernier arrêté connu (19/08/2026) : massifs du Fango, de Bonifatu et de l'ouest de l'Agriate, toujours en vigueur au 14/09, aucun acte plus récent publié. Deux feux mineurs se sont déclarés le 02/09/2026 à Tallone (RT10, environ 1 hectare) et à Calenzana (lieu-dit Luzzipeo, environ 500 m², distinct du feu de Montegrosso du 27/08), tous deux hors des itinéraires suivis et sans fermeture de sentier. Le président du service d'incendie de Haute-Corse a alerté le 03/09 sur un risque de rupture des capacités de lutte face à la récurrence des feux volontaires, sans annonce de fermeture supplémentaire à ce jour. Un troisième feu mineur s'est déclaré le 05/09 à Calenzana (lieu-dit Marsulinu, environ 200 m², véhicule à l'origine, RD81 temporairement coupée), sans fermeture de sentier. La Corse-du-Sud a été classée en risque incendie élevé le 09/09/2026 (France 3 Corse), avec un feu à Sarrola-Carcopino (environ 10 ha, en cours de traitement) ; aucune fermeture de sentier documentée pour ce foyer. Un nouveau feu de maquis s'est déclaré le dimanche 13/09/2026 vers 14h30 à Appietto (2A, route de Lava, secteur d'Ajaccio), parcourant environ 80 hectares de petit et moyen maquis avant d'être fixé le soir même vers 19h30 ; les routes D81, du village d'Appietto et de Lava ont été coupées le temps de l'intervention, trois pompiers ont été légèrement blessés, aucune fermeture de sentier ni proximité avec un GR® ou GRP suivi n'est documentée.
+Tout le GR®20 : **feux et réchauds interdits du 15/06 au 30/09.** Seuls les réchauds à gaz sont tolérés, hors canicule. Les massifs sont fermables au jour le jour selon la carte préfectorale, publiée la veille vers 18h. Raison : risque incendie estival, sécheresse 2A. Dernier arrêté connu (19/08/2026) : massifs du Fango, de Bonifatu et de l'ouest de l'Agriate, toujours en vigueur au 14/09, aucun acte plus récent publié. Deux feux mineurs se sont déclarés le 02/09/2026 à Tallone (RT10, environ 1 hectare) et à Calenzana (lieu-dit Luzzipeo, environ 500 m², distinct du feu de Montegrosso du 27/08), tous deux hors des itinéraires suivis et sans fermeture de sentier. Le président du service d'incendie de Haute-Corse a alerté le 03/09 sur un risque de rupture des capacités de lutte face à la récurrence des feux volontaires, sans annonce de fermeture supplémentaire à ce jour. Un troisième feu mineur s'est déclaré le 05/09 à Calenzana (lieu-dit Marsulinu, environ 200 m², véhicule à l'origine, RD81 temporairement coupée), sans fermeture de sentier. La Corse-du-Sud a été classée en risque incendie élevé le 09/09/2026 (France 3 Corse), avec un feu à Sarrola-Carcopino (environ 10 ha, en cours de traitement) ; aucune fermeture de sentier documentée pour ce foyer. Un nouveau feu de maquis s'est déclaré le dimanche 13/09/2026 vers 14h30 à Appietto (2A, route de Lava, secteur d'Ajaccio), parcourant environ 80 hectares de petit et moyen maquis avant d'être fixé le soir même vers 19h30 ; les routes D81, du village d'Appietto et de Lava ont été coupées le temps de l'intervention, trois pompiers ont été légèrement blessés, aucune fermeture de sentier ni proximité avec un GR® ou GRP suivi n'est documentée. Un nouveau feu s'est déclaré le jeudi 17/09/2026 sur la route de l'aéroport de Calvi (secteur Signoria-Sablière), parcourant environ 28 hectares avant d'être fixé le soir même ; aucune fermeture de sentier documentée (détail complet dans la fiche dédiée `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`).
 
 ## Alternative
 
@@ -57,6 +59,8 @@ MAJ 08/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du
 MAJ 10/09 : France 3 Corse (09/09/2026) rapporte la Corse-du-Sud classée en risque incendie élevé ce mercredi, avec deux zones qualifiées de « dangereuses » (secteur de Conca et Extrême-Sud), et un feu à Sarrola-Carcopino (environ 10 ha, en cours de traitement) ; aucune fermeture de sentier documentée pour ce foyer, aucun rattachement à un GR®/GRP suivi. La page haute-corse.gouv.fr reste calée sur son dernier arrêté connu, celui du 19/08/2026.
 
 MAJ 14/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate), aucun acte plus récent trouvé. Un feu de maquis s'est déclaré le dimanche 13/09/2026 vers 14h30 sur la route de Lava, à Appietto (Corse-du-Sud, secteur d'Ajaccio) : environ 80 hectares de petit et moyen maquis parcourus, feu fixé le soir même vers 19h30 après l'engagement de 62 sapeurs-pompiers, 14 camions, 2 Canadair et 2 hélicoptères bombardiers d'eau. Un vent soutenu a compliqué l'intervention, des habitations se trouvaient dans la trajectoire de propagation, trois pompiers ont subi des blessures légères. Les routes D81, du village d'Appietto et de Lava ont été fermées le temps de l'intervention. Aucune mention de fermeture de sentier ni de proximité avec un itinéraire suivi (Appietto est en façade ouest, hors GR®20/Mare a Mare/Mare e Monti).
+
+MAJ 18/09 : un nouveau feu s'est déclaré le jeudi 17/09/2026 vers 13h20 sur la route de l'aéroport de Calvi (D81), entre les lieux-dits la Signoria et la Sablière, secteur Calvi-Calenzana (Haute-Corse). Il a parcouru environ 28 hectares avant d'être fixé en fin d'après-midi, coupant temporairement la D81 et interrompant le trafic aérien de l'aéroport de Calvi-Sainte-Catherine pendant environ 3 heures. Aucune fermeture de sentier documentée (détail complet dans la fiche dédiée `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`). Recherche par ailleurs sur haute-corse.gouv.fr non aboutie le 18/09 (WebFetch indisponible, erreurs 503 sur le proxy réseau, y compris sur des sites de test hors périmètre corse) : contournement par recherche web appliqué, aucun acte plus récent que celui du 19/08/2026 trouvé pour le reste de l'île.
 
 ## Source
 
