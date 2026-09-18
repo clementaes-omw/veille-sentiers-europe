@@ -11,15 +11,14 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée (eilmeldung-waldsperrung, page
-  aktuelles Kurort Rathen), rien de postérieur au 26/08/2026 trouvé sur les pages du parc. Le
-  bas de l'Amselgrund entre Rathen et la jonction des Schwedenlöcher et le secteur du
-  Ziegenrücken restent fermés, le chantier héliporté d'évacuation du bois autour du Gamrig
-  restant annoncé jusqu'au ~18/09/2026, à 3 jours de son terme. La sévérité HAUTE repose sur
-  une Allgemeinverfügung en vigueur jusqu'à révocation (bis auf Widerruf) : la règle des 14
-  jours sur les hypothèses non tranchées ne s'applique pas ici. Prochain point utile :
-  ~18/09/2026 (terme annoncé du chantier).
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : jour de l'échéance annoncée du chantier héliporté du Gamrig,
+  nouvelle recherche ciblée (eilmeldung-waldsperrung, aktuelles Kurort Rathen, sandsteinwandern.de),
+  aucune source ne confirme ni sa fin ni sa prolongation à ce jour. Périmètre inchangé : Amselsee
+  ouvert, bas de l'Amselgrund et Ziegenrücken fermés, Gamrig et Rathener Straße fermés pour la
+  durée du chantier. La sévérité HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à
+  révocation (bis auf Widerruf) : la règle des 14 jours sur les hypothèses non tranchées ne
+  s'applique pas ici. Prochain point utile : confirmation de la fin du chantier héliporté.
 ordre: 99
 ---
 
@@ -60,6 +59,8 @@ MAJ 06/09 : nouvelle re-vérification complète (eilmeldung, aktuelles). Le pér
 MAJ 10/09 : nouvelle re-vérification complète (aktuelles, eilmeldung-waldsperrung). La page aktuelles porte désormais un ajout daté du 09/09/2026 12h00, mais celui-ci concerne uniquement les horaires des bateaux à vapeur sur l'Elbe en période de basses eaux, sans rapport avec l'état des sentiers ; la section Kurort Rathen elle-même reste inchangée depuis le 26/08. L'eilmeldung-waldsperrung confirme le même périmètre que le 14/08 : Schwedenlöcher et Amselgrund côté Rathewalde ouverts, Amselsee, bas de l'Amselgrund (Rathen↔Schwedenlöcher) et Ziegenrücken (Pionierweg, Knotenweg, Füllhölzelweg) toujours fermés. Le chantier héliporté d'évacuation du bois autour du Gamrig reste annoncé jusqu'au ~18/09/2026, avec les deux parkings du Gamrig, le rocher du Gamrig et le tronçon de la Rathener Straße à Waltersdorf toujours fermés pour sa durée.
 
 MAJ 14/09 : nouvelle re-vérification complète, à 4 jours de l'échéance annoncée du chantier. [FAIT, nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung et saechsische-schweiz.de/gut-zu-wissen/aktuelles, toujours affichées avec leur dernier ajout du 26/08 ; FAIT, sandsteinwandern.de, page « ÖPNV, Straßen- und Wegsperrungen », mise à jour le 08/09/2026, source distincte confirmant sans changement le même état] Aucune publication, sur aucune des sources consultées, n'annonce de report ni de confirmation de la date de fin du chantier héliporté autour du Gamrig, ni de réouverture anticipée. Le périmètre reste identique à celui du 10/09 : Amselsee ouvert, bas de l'Amselgrund (Rathen↔Schwedenlöcher) et Ziegenrücken fermés, Gamrig et tronçon de la Rathener Straße à Waltersdorf fermés pour la durée du chantier.
+
+MAJ 18/09 : jour de l'échéance annoncée du chantier héliporté d'évacuation du bois autour du Gamrig. Aucune source, officielle ou de presse, n'annonce à ce jour sa fin ni une prolongation. Le périmètre reste identique à celui du 14/09 : l'Amselsee est ouvert, le bas de l'Amselgrund (Rathen↔Schwedenlöcher) et le Ziegenrücken restent fermés, et les deux parkings du Gamrig, le rocher du Gamrig et le tronçon de la Rathener Straße à Waltersdorf demeurent fermés pour la durée du chantier.
 
 ## Source
 
