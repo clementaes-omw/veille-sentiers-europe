@@ -5,7 +5,7 @@ itin: Camino Francés [FAIT] le tracé traverse nommément Villafranca del Bierz
 sev: INFO (clôturée — extinction officielle du foyer principal)
 validite: [CLÔTURÉ] (2026-08-10) — feu de Veguellina déclaré ÉTEINT le 09/08/2026 17h50 après 12 jours ; les foyers de Valdelaloba, San Tirso, Laballos et La Faba étaient déjà tous à IGR-0/maîtrisés
 detection: 2026-08-02
-verif: 2026-09-10
+verif: 2026-09-18
 statut: [CLÔTURÉ] (2026-08-10) — le feu de Veguellina (Villafranca del Bierzo, ~1330 ha) est
   déclaré ÉTEINT le 09/08 à 17h50 après 12 jours d'activité, IGR passé à 0 le 10/08 au matin.
   Évacuations levées à Moreda, San Pedro de Olleros, Prado de la Somoza ; A-6 totalement
@@ -25,14 +25,14 @@ le plus important du complexe (~1330 ha), a été déclaré éteint le 09/08/202
 après 12 jours d'activité. Les départs plus récents à Laballos et La Faba (Vega de
 Valcarce, 07 et 08/08) ont été déclarés maîtrisés le 08/08, sans coupure de l'A-6 ni
 évacuation. Villafranca del Bierzo et Vega de Valcarce sont deux étapes nommées du Camino
-Francés, **sans impact documenté sur le balisage** à aucun moment de l'épisode. À
+Français, **sans impact documenté sur le balisage** à aucun moment de l'épisode. À
 l'origine, une vague d'incendies de forêt a touché la Castilla y León fin juillet 2026, et
 Vega de Valcarce en reste un point chaud récurrent (un nouveau foyer distinct est apparu
 le 09/08 à Barjas, à l'ouest, voir la fiche dédiée).
 
 ## Alternative
 
-Sans objet : aucune source consultée n'a jamais documenté de fermeture ou de déviation du balisage pédestre du Camino Francés à Villafranca del Bierzo ou Vega de Valcarce. L'A-6 a retrouvé une circulation normale et le bypass routier PK 422-428 n'est plus nécessaire.
+Sans objet : aucune source consultée n'a jamais documenté de fermeture ou de déviation du balisage pédestre du Camino Français à Villafranca del Bierzo ou Vega de Valcarce. L'A-6 a retrouvé une circulation normale et le bypass routier PK 422-428 n'est plus nécessaire.
 
 ## Zone (détails)
 
@@ -42,15 +42,15 @@ Valdelaloba (Toreno) : IGR-2 les 29-30/07, avec 60 évacués entre Valdelaloba e
 
 San Tirso (Vega de Valcarce) : déclaré le 30/07 vers 15h30, IGR-1. Il a entraîné la coupure de l'autoroute A-6 (voies fermées), avec un bypass entre les PK 422 et 428.
 
-Aucune source consultée (infobierzo, ileon.eldiario.es, El Español Castilla y León, leonoticias, El Progreso, eldebate.com) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Francés à Villafranca del Bierzo ou Vega de Valcarce ; ces deux communes sont cependant des étapes nommées du tracé, directement affectées par les évacuations et les coupures d'infrastructure routière. À reconfirmer en priorité pour l'état de l'A-6 et une éventuelle mention officielle du GR®/Camino.
+Aucune source consultée (infobierzo, ileon.eldiario.es, El Español Castilla y León, leonoticias, El Progreso, eldebate.com) ne documente d'impact direct sur le balisage ou la praticabilité du Camino Français à Villafranca del Bierzo ou Vega de Valcarce ; ces deux communes sont cependant des étapes nommées du tracé, directement affectées par les évacuations et les coupures d'infrastructure routière. À reconfirmer en priorité pour l'état de l'A-6 et une éventuelle mention officielle du GR®/Camino.
 
-MAJ 03/08 : Veguellina/Villafranca del Bierzo confirmé en désescalade nette, périmètre « assuré » (asegurado), les 3 localités évacuées toutes rentrées (elbierzonoticias.com, 02/08 10h29). San Tirso/Vega de Valcarce est alors le seul foyer encore actif du complexe (ileon.eldiario.es). A-6 : coupure initiale le 31/07, bypass PK 422-424 en place depuis le 31/07 18h15 (1 voie sens A Coruña + 2 voies sens Madrid) ; poids-lourds déviés N-120, véhicules légers N-6 durant la fermeture complète. Le retour à une réouverture intégrale n'est pas confirmé, San Tirso restant actif. Toujours aucune source ne mentionne le Camino Francés.
+MAJ 03/08 : Veguellina/Villafranca del Bierzo confirmé en désescalade nette, périmètre « assuré » (asegurado), les 3 localités évacuées toutes rentrées (elbierzonoticias.com, 02/08 10h29). San Tirso/Vega de Valcarce est alors le seul foyer encore actif du complexe (ileon.eldiario.es). A-6 : coupure initiale le 31/07, bypass PK 422-424 en place depuis le 31/07 18h15 (1 voie sens A Coruña + 2 voies sens Madrid) ; poids-lourds déviés N-120, véhicules légers N-6 durant la fermeture complète. Le retour à une réouverture intégrale n'est pas confirmé, San Tirso restant actif. Toujours aucune source ne mentionne le Camino Français.
 
-MAJ 05/08 : désescalade totale, Veguellina, Toreno et Vega de Valcarce (San Tirso) sont tous les trois à IGR-0 (infobierzo, bilan du 03-04/08). L'A-6 a retrouvé une circulation normale dans les deux sens et le bypass PK 422-424 n'est plus nécessaire. Toujours aucune mention du Camino Francés dans les sources consultées.
+MAJ 05/08 : désescalade totale, Veguellina, Toreno et Vega de Valcarce (San Tirso) sont tous les trois à IGR-0 (infobierzo, bilan du 03-04/08). L'A-6 a retrouvé une circulation normale dans les deux sens et le bypass PK 422-424 n'est plus nécessaire. Toujours aucune mention du Camino Français dans les sources consultées.
 
 MAJ 08/08, nouveau départ de feu distinct à Vega de Valcarce. [FAIT] Un incendie s'est déclaré le vendredi 07/08 à 17h04 près du viaduc de Las Lamas, sur l'A-6, dans la commune de Vega de Valcarce : IGR-0 dès le départ, 11 moyens déployés (dont 2 brigades héliportées ELIF/BRIF et 3 moyens aériens), aucune coupure de l'A-6 signalée, pas d'évacuation. C'est le 3e départ de feu recensé dans cette même commune en une dizaine de jours (Herrerías, El Castro, puis Las Lamas), signe d'un terrain qui reste sensible plutôt que d'une reprise du foyer San Tirso déjà résolu. Les 3 foyers d'origine du complexe restent par ailleurs à IGR-0, sans extinction formelle prononcée.
 
-MAJ 09/08 : le feu de Veguellina touche formellement à sa fin après dix jours d'intervention (leonoticias, 08/08 : « toca así su fin el incendio de Veguellina, tras diez días desde su aparición »). Un nouveau départ de feu s'est déclaré le 08/08 vers 19h35 à La Faba, localité de la commune de Vega de Valcarce et étape nommée du Camino Francés entre Vega de Valcarce et O Cebreiro (12 moyens engagés au départ, dont un hélicoptère et une brigade héliportée) : aucune source ne documente d'impact sur le balisage ou sur l'albergue du village. Le départ de feu de Laballos, signalé le 07/08 près du viaduc de Las Lamas et toujours en phase de périmétrage le 08/08 en fin d'après-midi (15 moyens engagés, surface non déterminée), a été déclaré maîtrisé le même jour selon leonoticias, dans le même massif qu'un foyer antérieur d'une dizaine de jours. Aucune des deux localités (Laballos, La Faba) ne fait état de coupure de l'A-6 ni d'évacuation. Des articles évoquant un incendie à Laballos/Vega de Valcarce (elbierzodigital.com, bierzodiario.es) datent en réalité du 13/08/2025 et décrivent un épisode distinct de l'année précédente.
+MAJ 09/08 : le feu de Veguellina touche formellement à sa fin après dix jours d'intervention (leonoticias, 08/08 : « toca así su fin el incendio de Veguellina, tras diez días desde su aparición »). Un nouveau départ de feu s'est déclaré le 08/08 vers 19h35 à La Faba, localité de la commune de Vega de Valcarce et étape nommée du Camino Français entre Vega de Valcarce et O Cebreiro (12 moyens engagés au départ, dont un hélicoptère et une brigade héliportée) : aucune source ne documente d'impact sur le balisage ou sur l'albergue du village. Le départ de feu de Laballos, signalé le 07/08 près du viaduc de Las Lamas et toujours en phase de périmétrage le 08/08 en fin d'après-midi (15 moyens engagés, surface non déterminée), a été déclaré maîtrisé le même jour selon leonoticias, dans le même massif qu'un foyer antérieur d'une dizaine de jours. Aucune des deux localités (Laballos, La Faba) ne fait état de coupure de l'A-6 ni d'évacuation. Des articles évoquant un incendie à Laballos/Vega de Valcarce (elbierzodigital.com, bierzodiario.es) datent en réalité du 13/08/2025 et décrivent un épisode distinct de l'année précédente.
 
 ## Source
 
