@@ -5,7 +5,7 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: MOYENNE (source de presse unique pour le retour en vigilance rouge du 14/09 ; une seconde source ou un acte officiel serait nécessaire pour repasser en HAUTE)
 validite: accès aux massifs réglementé selon le niveau de risque quotidien, restrictions prolongées jusqu'au 25/09/2026 ; usage du feu par les particuliers interdit jusqu'au 01/10/2026 ; écobuage agricole reporté au 30/09/2026 (préfecture des Pyrénées-Orientales citée par mawebtv.fr, 16/09/2026) ; le secteur du Roussillon est par ailleurs repassé en vigilance rouge le lundi 14/09/2026 selon une source de presse (accès aux massifs forestiers interdit, tout emploi du feu interdit), non corroborée par un acte préfectoral ni une seconde source indépendante ; statut des 8 autres massifs non tranché par cette même source
 detection: 2026-07-27
-verif: 2026-09-17
+verif: 2026-09-18
 statut: ACTIF — CHANGÉ 17/09 : une seconde source (mawebtv.fr, 16/09) confirme que le risque
   reste élevé et que les restrictions sont prolongées (usage du feu par les particuliers
   interdit jusqu'au 01/10, écobuage reporté au 30/09), sans toutefois nommer explicitement
@@ -54,7 +54,7 @@ MAJ 15/09 : un feu de végétation distinct s'est déclaré le lundi 14/09/2026 
 
 MAJ 16/09 : lasemainedespyrenees.fr rapporte que le secteur du Roussillon est repassé en vigilance rouge le lundi 14/09/2026, avec accès aux massifs forestiers interdit (piétons et véhicules) et tout emploi du feu interdit. Cette information provient d'une seule source de presse ; aucun acte préfectoral ni seconde source indépendante n'a été retrouvé pour la corroborer, et le statut des 8 autres massifs (Capcir, Cerdagne, Conflent, Vallespir, Fenouillèdes, Aspres, Corbières, Albères) n'est pas précisé par cette source.
 
-MAJ 17/09 : mawebtv.fr (16/09/2026) confirme que la végétation reste fortement desséchée et que les conditions météorologiques demeurent favorables à la propagation des feux ; la préfecture prolonge plusieurs mesures de restriction jusqu'au 25 septembre pour l'accès aux massifs selon le niveau de risque du jour, interdit l'emploi du feu par les particuliers jusqu'au 1er octobre et reporte l'écobuage agricole au 30 septembre. Cet article ne nomme cependant aucun massif ni ne confirme explicitement un classement rouge : il corrobore la persistance du risque élevé sans constituer la seconde source nominative requise pour repasser l'alerte à HAUTE.
+MAJ 17/09 : mawebtv.fr (16/09/2026) confirme que la végétation reste fortement dessechée et que les conditions météorologiques demeurent favorables à la propagation des feux ; la préfecture prolonge plusieurs mesures de restriction jusqu'au 25 septembre pour l'accès aux massifs selon le niveau de risque du jour, interdit l'emploi du feu par les particuliers jusqu'au 1er octobre et reporte l'écobuage agricole au 30 septembre. Cet article ne nomme cependant aucun massif ni ne confirme explicitement un classement rouge : il corrobore la persistance du risque élevé sans constituer la seconde source nominative requise pour repasser l'alerte à HAUTE.
 
 ## Source
 
