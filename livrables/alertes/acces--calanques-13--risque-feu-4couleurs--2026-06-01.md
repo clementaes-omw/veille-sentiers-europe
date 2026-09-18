@@ -5,12 +5,14 @@ itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 15/09
 detection: 2026-06-01
-verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche (bouches-du-rhone.gouv.fr, page « Accès
-  aux massifs forestiers »), aucun signal de fermeture retrouvé pour aujourd'hui ; le vert
-  intégral constaté le 14/09 sur les 7 massifs suivis (Calanques Marseille-Cassis, Côte
-  Bleue, Sainte-Victoire, Sainte-Baume, Concors, Arbois, Montaiguet) n'est pas contredit.
-  Sévérité maintenue MOYENNE.
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : cg13.eway.fr n'a pas pu être relu directement ce run
+  (WebFetch indisponible, proxy réseau en panne, erreurs 503 systématiques y compris sur des
+  sites hors périmètre) ; recherche web de contournement sans résultat daté du 16, 17 ou
+  18/09 pour les massifs des Bouches-du-Rhône. Aucun signal de fermeture ni de reprise
+  d'incendie retrouvé par ailleurs. Le vert intégral constaté le 14/09 sur les 7 massifs
+  suivis n'est pas contredit, mais reste à reconfirmer au prochain passage par une lecture
+  directe de la carte. Sévérité maintenue MOYENNE.
 ordre: 7
 ---
 
@@ -89,6 +91,8 @@ MAJ 10/09 : légère dégradation, cg13.eway.fr (prévision du 10-09-2026) fait 
 MAJ 14/09 : nouvelle amélioration, cg13.eway.fr (prévision du 14-09-2026) fait repasser les Calanques Marseille-Cassis, la Côte Bleue et l'Arbois du jaune au vert : les 7 massifs suivis affichent un vert intégral. Aucun massif jaune, orange ou rouge, aucune fermeture. Aucun communiqué préfectoral ni article de presse daté du 14/09 n'a été retrouvé pour recouper cette carte technique.
 
 MAJ 15/09 : nouvelle recherche (bouches-du-rhone.gouv.fr, page « Accès aux massifs forestiers »), aucun signal de fermeture retrouvé pour aujourd'hui ; le vert intégral constaté le 14/09 sur les 7 massifs suivis n'est pas contredit. Sévérité maintenue MOYENNE.
+
+MAJ 18/09 : cg13.eway.fr et bouches-du-rhone.gouv.fr n'ont pas pu être relus directement le 18/09 (WebFetch indisponible, panne du proxy réseau, erreurs 503 systématiques constatées même sur des sites de test hors périmètre) ; recherche web de contournement appliquée, sans résultat daté postérieur au 14/09 pour l'état des massifs des Bouches-du-Rhône. Aucun signal de fermeture ni de nouvel incendie sur le secteur des Calanques n'a été trouvé par ailleurs. Dernière donnée sûre inchangée : vert intégral sur les 7 massifs suivis au 14/09.
 
 ## Source
 

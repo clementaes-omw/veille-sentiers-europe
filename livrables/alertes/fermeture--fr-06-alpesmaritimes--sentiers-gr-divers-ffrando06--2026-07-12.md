@@ -5,10 +5,11 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; nouvelle fermeture programmée sur la Piste des Merveilles (Tende), du 29/09 au 30/10/2026 ; page FFRando 06 mise à jour au 12/09/2026
 detection: 2026-08-01
-verif: 2026-09-17
-statut: ACTIF — CHANGÉ 16/09 : la page FFRando 06 ajoute une fermeture programmée sur la
-  Piste des Merveilles (Tende), du 29/09 au 30/10/2026 (travaux de restauration), en plus des
-  sections déjà connues. Aucune levée constatée par ailleurs.
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : WebFetch indisponible ce run (proxy réseau en panne, erreurs
+  503 systématiques), la page FFRando 06 n'a pas pu être relue directement. Recherche web de
+  contournement sans élément contredisant les fermetures déjà connues ; aucune levée ni
+  fermeture supplémentaire confirmée.
 ordre: 64
 ---
 
@@ -33,6 +34,8 @@ MAJ 10/09 : page FFRando 06 relue directement, toujours datée du 01/09/2026, au
 MAJ 14/09 : page FFRando 06 relue directement, désormais datée du 12/09/2026. Les fermetures listées restent identiques : GR®510 (Rigaud b.205-206, Massoins b.69-72/68-69/66-68), GR®52-GTM (Entraunes b.35-36), GR®52A (Entraunes borne 266, ravin du Brec, Tende baisse de la Lagouna b.334-335a, Beuil b.101-59 jusqu'au 02/10/2026), GR®5 (Levens, Beuil saisonnier, Roure b.238). GR®51, GR®4 et GR®653A restent « Néant ». Aucune fermeture nouvelle ni levée malgré le changement de date de la page.
 
 MAJ 16/09 : la page FFRando 06 (mise à jour au 12/09/2026) porte désormais une fermeture supplémentaire, distincte des précédentes : sur le GR®52A, la **Piste des Merveilles** à Tende, entre le refuge du CAF et la zone des bergeries, ferme pour travaux de restauration du 29/09 au 30/10/2026 (arrêté n°103-2026, qui couvre par ailleurs la fermeture déjà connue de Beuil entre les balises 101 et 59). Les autres fermetures restent inchangées.
+
+MAJ 18/09 : la page FFRando 06 n'a pas pu être relue directement le 18/09 (WebFetch indisponible, panne du proxy réseau, erreurs 503 systématiques constatées y compris sur des sites hors périmètre de test). Une recherche web de contournement ne fait apparaître aucun élément contredisant l'état déjà connu (GR®510, GR®52-GTM, GR®52A avec la Piste des Merveilles depuis le 12/09, GR®5) ; à relire directement lors d'une prochaine vérification.
 
 ## Source
 

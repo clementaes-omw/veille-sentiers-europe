@@ -5,11 +5,12 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche, toujours aucune publication postérieure
-  au 31/08 trouvée pour ce massif côté Alpes-Maritimes. L'écart avec la dernière confirmation
-  datée atteint désormais 15 jours. Sévérité maintenue MOYENNE ; point de vigilance à
-  surveiller si le silence se prolonge encore.
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : nouvelle recherche (WebFetch indisponible ce run, proxy en
+  panne ; contournement par recherche web), toujours aucune publication postérieure au 31/08
+  trouvée pour ce massif côté Alpes-Maritimes. L'écart avec la dernière confirmation datée
+  atteint désormais 18 jours. Sévérité maintenue MOYENNE ; point de vigilance à surveiller si
+  le silence se prolonge encore.
 ordre: 102
 ---
 
@@ -60,6 +61,8 @@ Vérifié le 08/09/2026 : toujours aucune publication postérieure au 31/08 trou
 Vérifié le 10/09/2026 : nouvelle recherche dédiée (presseagence.fr), toujours aucune publication postérieure au 31/08 trouvée pour ce massif. Un article presseagence.fr titré « Vendredi 5 septembre, vigilance feux de forêt, risque très sévère dans le massif Esterel-Tanneron » a été vérifié directement : il est en réalité daté du 04/09/2025 (fermeture annoncée pour le vendredi 05/09/2025), un an avant la période suivie ici ; il est écarté. L'écart avec la dernière confirmation datée de 2026 (31/08) atteint désormais 10 jours.
 
 Vérifié le 14/09/2026 : nouvelle recherche dédiée (presseagence.fr, alpes-maritimes.gouv.fr). La page dédiée de la préfecture « Risque feux de forêt dans les Alpes-Maritimes » reste datée du 8 juin 2026, sans mention de l'Esterel-Tanneron ni d'aucun arrêté de septembre. Un article presseagence.fr titré « Mercredi 10 septembre, vigilance feux de forêt, risque très sévère dans le massif Estérel-Tanneron » a été écarté : le 10 septembre 2026 tombe un jeudi, pas un mercredi (le 10 septembre 2025, lui, tombait un mercredi), ce qui situe cet article en 2025, un an avant la période suivie ici. Toujours aucune publication postérieure au 31/08/2026 confirmée pour ce massif. L'écart atteint désormais 14 jours.
+
+Vérifié le 18/09/2026 : nouvelle recherche dédiée par mots-clés (presseagence.fr, WebSearch), WebFetch étant resté indisponible toute la journée du 18/09 (panne du proxy réseau, erreurs 503 y compris sur des sites de test hors périmètre) : la page de la préfecture n'a pas pu être relue directement. Aucune publication postérieure au 31/08/2026 n'a été trouvée pour ce massif spécifique des Alpes-Maritimes. L'écart atteint désormais 18 jours. Par comparaison, côté Var, le massif de l'Estérel (fiche distincte) était classé orange le 17/09, sans fermeture ni sur ce massif ni sur les 8 autres du département : cela ne renseigne pas directement sur le massif Esterel-Tanneron des Alpes-Maritimes, dont la préfecture publie un classement séparé.
 
 ## Source
 

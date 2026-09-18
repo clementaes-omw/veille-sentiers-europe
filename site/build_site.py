@@ -583,6 +583,7 @@ ALIAS_ZONE = {
     "Drome-Justin-Die": "FR-84-26-07", "Drome-Bellegarde-en-Diois": "FR-84-26-07",
     "Drome-Omblese": "FR-84-26-07",
     "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE", "Corse-Calenzana": "FR-CORSE",
+    "Corse-Calvi": "FR-CORSE",
     # Alpes du Sud / Écrins
     "Écrins": "FR-04-05", "Écrins-GR54": "FR-04-05", "HautesAlpes-BoisNoir": "FR-04-05",
     # Alpes du Nord

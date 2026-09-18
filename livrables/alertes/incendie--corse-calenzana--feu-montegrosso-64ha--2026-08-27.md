@@ -5,10 +5,12 @@ itin: GR®20 (départ de Calenzana, étape 1 Calenzana↔Ortu di u Piobbu) [HYPO
 sev: MOYENNE
 validite: feu de Calenzana-Montegrosso fixé dans la nuit du 27 au 28/08/2026, sous contrôle depuis le 28/08 après-midi ; aucune restriction de sentier confirmée à ce jour, situation suivie jusqu'à nouvel ordre
 detection: 2026-08-29
-verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 14/09 : recherche générale sur les feux corses du jour, aucun
-  nouveau départ à Calenzana ni reprise sur le feu de Montegrosso du 27/08 depuis le
-  troisième départ du 05/09 (Marsulinu). Sévérité maintenue MOYENNE.
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : aucune reprise sur le feu de Montegrosso du 27/08 ni nouveau
+  départ à Calenzana même depuis le troisième départ du 05/09 (Marsulinu). Un feu distinct
+  s'est déclaré le 17/09 sur la route de l'aéroport de Calvi, à proximité géographique mais
+  sans lien établi (voir fiche dédiée
+  `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`). Sévérité maintenue MOYENNE.
 ordre: 181
 ---
 
@@ -29,6 +31,8 @@ MAJ 02/09 : un second départ de feu, distinct de celui du 27/08, s'est produit 
 MAJ 07/09 (constat du 05/09) : troisième départ de feu distinct sur la commune de Calenzana, au lieu-dit Marsulinu. Une voiture prend feu et se propage au maquis environnant sur trois points distincts, pour environ 200 m² de végétation brûlée. La RD81 est temporairement coupée à la circulation, provoquant des embouteillages, avant de rouvrir. Aucun impact documenté sur le GR®20, aucun lien établi avec le feu de Montegrosso.
 
 MAJ 14/09 : recherche générale sur les feux corses du jour (corsenetinfos.corsica, France 3 Corse), aucun nouveau départ de feu à Calenzana depuis le 05/09, aucune reprise sur le feu de Montegrosso.
+
+MAJ 18/09 : un feu distinct s'est déclaré le 17/09/2026 sur la route de l'aéroport de Calvi (D81, secteur la Signoria-la Sablière), à quelques kilomètres au nord-ouest de Calenzana, pour environ 28 hectares parcourus avant fixation le soir même. Aucune source ne relie ce nouveau feu à la commune de Calenzana elle-même ni au feu de Montegrosso du 27/08 : traité comme un événement distinct, avec sa propre fiche dédiée (`incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`). Aucune reprise sur Montegrosso, aucun nouveau départ à Calenzana même.
 
 ## Source
 
