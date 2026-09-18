@@ -5,15 +5,15 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
   Arrés / Ena / Binacua, variante historique par le monastère de San Juan de la Peña ; GR®1-ES
   (Sendero Histórico) qui cite nommément Riglos sur son tracé
 sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalité des évacués sont rentrés)
-validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) restait réglementée jusqu'au 15/09/2026 au moins pour finir les opérations de sécurisation, échéance non encore atteinte à la date de vérification ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées
+validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) était réglementée jusqu'au 15/09/2026 au moins pour finir les opérations de sécurisation : cette échéance est désormais dépassée, sans qu'aucune source consultée ne documente sa levée ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées
 detection: 2026-08-17
 verif: 2026-09-14
 statut: ACTIF — CHANGÉ 14/09 : le gouvernement d'Aragon déclare l'incendie ÉTEINT le
   12/09/2026 (moncloa.com), 34 jours après son départ, le dernier foyer chaud ayant été
   localisé le 11/09. Le gouvernement d'Aragon engage désormais la surveillance et les
   travaux de régénération sur les 18 000 ha touchés. Aucune source ne documente encore la
-  réouverture de la route A-1603 (échéance annoncée le 15/09, non encore atteinte au jour de
-  la vérification) ni celle du monastère de San Juan de la Peña au public, ni l'état du
+  réouverture de la route A-1603 (échéance annoncée le 15/09, désormais dépassée sans
+  confirmation) ni celle du monastère de San Juan de la Peña au public, ni l'état du
   Camino Aragónés lui-même : ces trois points restent à vérifier au prochain passage.
   Sévérité maintenue MOYENNE.
 ordre: 170
@@ -21,11 +21,11 @@ ordre: 170
 
 ## Portion concernée
 
-**Secteur de Las Peñas de Riglos (Huesca, Aragón), à cheval sur le Camino Aragónés entre Jaca et Santa Cruz de la Serós.** Incendie déclaré le 10/08/2026, déclaré ÉTEINT le 12/09/2026 par le gouvernement d'Aragon, 34 jours après son départ (dernier foyer chaud localisé le 11/09). Tous les évacués étaient rentrés depuis le 21/08, dont les 74 derniers habitants de Santa Cruz de la Serós. Le gouvernement d'Aragon engage désormais la surveillance et la régénération des 18 000 hectares touchés. Reste réglementée, en tant que mesure de sécurité distincte du feu lui-même : la route A-1603 entre Santa Cruz de la Serós et Botaya, qui dessert le monastère de San Juan de la Peña, dont la réouverture était annoncée pour le 15/09/2026 au plus tôt afin de terminer les travaux de sécurisation d'une chaussée sinueuse bordée d'arbres autour du monastère vieux ; cette échéance n'est pas encore atteinte à la date de vérification. Les bâtiments du monastère sont confirmés structurellement intacts, mais leur ouverture au public n'est documentée par aucune source consultée. Raison de l'incendie initial : feu de forêt d'ampleur majeure ; un militaire de l'Unité Militaire d'Urgence est mort dans un accident de la route pendant les opérations d'extinction.
+**Secteur de Las Peñas de Riglos (Huesca, Aragón), à cheval sur le Camino Aragónés entre Jaca et Santa Cruz de la Serós.** Incendie déclaré le 10/08/2026, déclaré ÉTEINT le 12/09/2026 par le gouvernement d'Aragon, 34 jours après son départ (dernier foyer chaud localisé le 11/09). Tous les évacués étaient rentrés depuis le 21/08, dont les 74 derniers habitants de Santa Cruz de la Serós. Le gouvernement d'Aragon engage désormais la surveillance et la régénération des 18 000 hectares touchés. Reste réglementée, en tant que mesure de sécurité distincte du feu lui-même : la route A-1603 entre Santa Cruz de la Serós et Botaya, qui dessert le monastère de San Juan de la Peña, dont la réouverture était annoncée pour le 15/09/2026 au plus tôt afin de terminer les travaux de sécurisation d'une chaussée sinueuse bordée d'arbres autour du monastère vieux ; cette échéance du 15/09/2026 est désormais dépassée, sans qu'aucune source consultée ne documente une réouverture de cette route. Les bâtiments du monastère sont confirmés structurellement intacts, mais leur ouverture au public n'est documentée par aucune source consultée. Raison de l'incendie initial : feu de forêt d'ampleur majeure ; un militaire de l'Unité Militaire d'Urgence est mort dans un accident de la route pendant les opérations d'extinction.
 
 ## Alternative
 
-Aucune alternative connue à ce jour pour le tronçon de la route A-1603 (Santa Cruz de la Serós ↔ Botaya, desserte du monastère de San Juan de la Peña), dont la réouverture n'était pas annoncée avant le 15/09/2026. Le statut du Camino Aragónés lui-même (praticabilité du chemin de randonnée, distinct de la route) et celui du monastère au public ne sont pas documentés par les sources consultées ce jour ; toutes les communes évacuées sont rentrées.
+Aucune alternative connue à ce jour pour le tronçon de la route A-1603 (Santa Cruz de la Serós ↔ Botaya, desserte du monastère de San Juan de la Peña), dont la réouverture n'était annoncée qu'à partir du 15/09/2026 au plus tôt ; cette date est désormais dépassée sans confirmation d'une réouverture effective. Le statut du Camino Aragónés lui-même (praticabilité du chemin de randonnée, distinct de la route) et celui du monastère au public ne sont pas documentés par les sources consultées ce jour ; toutes les communes évacuées sont rentrées.
 
 ## Zone (détails)
 
@@ -46,6 +46,8 @@ Aucune alternative connue à ce jour pour le tronçon de la route A-1603 (Santa 
 21/08 : le feu, stabilisé la veille (~14 500 ha réellement brûlés dans un périmètre de ~18 400 ha), est déclaré CONTRÔLÉ à 15h30 par le gouvernement d'Aragon. Les 74 derniers évacués, tous de Santa Cruz de la Serós, rentrent chez eux : plus aucune commune n'est évacuée. Les deux monastères de San Juan de la Peña (vieux et nouveau) restent structurellement intacts. La route A-1603 (Santa Cruz de la Serós ↔ Botaya) reste réglementée jusqu'au 15/09/2026 au moins pour terminer les travaux de sécurisation, motivés par une chaussée sinueuse et des arbres fragilisés autour du monastère vieux. Moyens toujours engagés en surveillance : 3 hélicoptères légers, 10 équipes au sol, 7 camions-citernes. Statut du monastère au public et du Camino Aragónés lui-même non documentés par les sources consultées.
 
 12/09 : le gouvernement d'Aragon déclare l'incendie ÉTEINT, 34 jours après son départ du 10/08. Le dernier foyer chaud avait été localisé le 11/09. Le gouvernement engage désormais la surveillance du secteur et les travaux de régénération sur les 18 000 hectares touchés au total. L'échéance du 15/09/2026 pour la réouverture de la route A-1603 n'est pas encore atteinte à la date de cette mise à jour ; aucune source ne documente la réouverture du monastère au public ni l'état du Camino Aragónés lui-même.
+
+18/09 : l'échéance du 15/09/2026 annoncée pour la fin des travaux de sécurisation de la route A-1603 est désormais dépassée ; aucune source consultée ne documente à ce jour sa levée, ni la réouverture du monastère au public, ni l'état du Camino Aragónés lui-même.
 
 ## Source
 
