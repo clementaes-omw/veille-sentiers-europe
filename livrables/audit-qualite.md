@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-09-18
 
-96 alertes actives · 16 fiches avec au moins un constat · **0 bloquant(s)**, 16 alerte(s), 0 info(s).
+96 alertes actives · 15 fiches avec au moins un constat · **0 bloquant(s)**, 15 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -20,7 +20,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (25 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|IT-NO-Biellese|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio|2026-08-03`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — « Portion concernée » parle du 10/09 alors que le suivi connaît la situation au 18/09 (8 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`reroutage|Lot-Cieurac-Flaujac-Poujols|GR65-devie-incendie|2026-07-25`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`terrain|IS-HautesTerres|Fimmvorduhals-recul-glaciaire-crevasses|2026-08`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
@@ -28,3 +27,4 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 ## 🗺 Cohérence carte / registre
 
 0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
+
