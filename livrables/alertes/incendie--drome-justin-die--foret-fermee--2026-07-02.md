@@ -32,7 +32,7 @@ MAJ 19/07 : l'État a annoncé le 18/07 un plan de relance de 1 M€ pour le Dio
 
 MAJ 26/07 : un diagnostic ONF des risques post-incendie (chablis, éboulements) est en cours dans le cadre du plan de relance, préalable annoncé à toute décision de levée.
 
-MAJ 28/07 : nouvelle tentative de recoupement GR®9/GR®93 vs massif de Justin. Recherche sur les itinéraires de randonnée du secteur (Diois, Die, montagne de Justin) : aucune source (FFRandonnée Drôme, Drôme Tourisme, presse) ne mentionne explicitement un passage du GR®9 ou du GR®93 sur le massif de Justin lui-même. Le GR®93 est documenté dans le secteur du Vercors (Peyrus↔Lus-la-Croix-Haute via Léoncel, Ombleze, Bouvante, Vassieux, Saint-Agnan, Gresse, Treschenu-Creyers), un tracé qui ne cite pas nommément Justin. Recoupement toujours non tranché ; aucun point de situation drome.gouv.fr postérieur au 16/07 trouvé.
+MAJ 28/07 : nouvelle tentative de recoupement GR®9/GR®93 vs massif de Justin. Recherche sur les itinéraires de randonnée du secteur (Diois, Die, montagne de Justin) : aucune source (FFRandonnée Drôme, Drôme Tourisme, presse) ne mentionne explicitement un passage du GR®9 ou du GR®93 sur le massif de Justin lui-même. Le GR®93 est documenté dans le secteur du Vercors (Peyrus↔Lus-la-Croix-Haute via Léoncel, Omblezè, Bouvante, Vassieux, Saint-Agnan, Gresse, Treschenu-Creyers), un tracé qui ne cite pas nommément Justin. Recoupement toujours non tranché ; aucun point de situation drome.gouv.fr postérieur au 16/07 trouvé.
 
 MAJ 29/07 : page drome.gouv.fr toujours datée du 16/07 (revue complète de la liste des actualités 2026 du site) ; aucun signal de levée trouvé ; recoupement GR®9/GR®93 non retenté ce jour.
 
