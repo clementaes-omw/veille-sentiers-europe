@@ -7,8 +7,15 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1415 d
   publié le 27/08/2026) ; ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme
   le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-18
-statut: ACTIF — INCHANGÉ 18/09 : recherche ciblée sur l'arrêté n°2026-1617 du 16/09/2026,
+verif: 2026-09-19
+statut: ACTIF — INCHANGÉ 19/09 : nouvelle tentative de lecture directe du PDF de l'arrêté
+  n°2026-1617 via la page ONF (Randonnée à La Réunion, sentiers fermés), toujours en échec
+  technique (le lien pointe vers le PDF sans que son contenu soit exploitable à distance).
+  Les mêmes sources convergentes (Office de tourisme de l'Ouest, Réunion-Mafate) continuent
+  de lister le Bras des Merles parmi les sentiers fermés du cirque de Mafate ce jour, sans
+  mention de réouverture. Sévérité maintenue HAUTE sur cette base ; lecture intégrale du PDF
+  toujours à traiter au prochain passage.
+  Ancien historique : recherche ciblée sur l'arrêté n°2026-1617 du 16/09/2026,
   identifié le 17/09 sur la page ONF. Son PDF n'a pas pu être ouvert ce jour (échec technique
   de lecture à distance) ; son existence et son objet (mise à jour de la liste des sentiers
   fermés, avec l'ajout d'au moins une fermeture distincte, la Canalisation des Orangers à
