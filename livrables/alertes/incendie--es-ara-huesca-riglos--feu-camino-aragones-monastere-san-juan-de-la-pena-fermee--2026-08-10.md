@@ -7,15 +7,14 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
 sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalité des évacués sont rentrés)
 validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) était réglementée jusqu'au 15/09/2026 au moins pour finir les opérations de sécurisation : cette échéance est désormais dépassée, sans qu'aucune source consultée ne documente sa levée ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées
 detection: 2026-08-17
-verif: 2026-09-14
-statut: ACTIF — CHANGÉ 14/09 : le gouvernement d'Aragon déclare l'incendie ÉTEINT le
+verif: 2026-09-18
+statut: ACTIF — INCHANGÉ 18/09 : le gouvernement d'Aragon a déclaré l'incendie ÉTEINT le
   12/09/2026 (moncloa.com), 34 jours après son départ, le dernier foyer chaud ayant été
-  localisé le 11/09. Le gouvernement d'Aragon engage désormais la surveillance et les
-  travaux de régénération sur les 18 000 ha touchés. Aucune source ne documente encore la
-  réouverture de la route A-1603 (échéance annoncée le 15/09, désormais dépassée sans
-  confirmation) ni celle du monastère de San Juan de la Peña au public, ni l'état du
-  Camino Aragónés lui-même : ces trois points restent à vérifier au prochain passage.
-  Sévérité maintenue MOYENNE.
+  localisé le 11/09. Le gouvernement d'Aragon a engagé la surveillance et les travaux de
+  régénération sur les 18 000 ha touchés. Aucune source ne documente la réouverture de la
+  route A-1603 (échéance annoncée le 15/09, désormais dépassée sans confirmation) ni celle
+  du monastère de San Juan de la Peña au public, ni l'état du Camino Aragónés lui-même :
+  ces trois points restent à vérifier au prochain passage. Sévérité maintenue MOYENNE.
 ordre: 170
 ---
 
