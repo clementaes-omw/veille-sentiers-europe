@@ -5,10 +5,10 @@ itin: GR®99 (nord Var, secteur Rians/Verdon) [HYPOTHÈSE — proximité de zone
 sev: INFO
 validite: feu éteint, aucune restriction de sentier en vigueur ; seule la RD30 reste coupée entre les intersections RD70 et RD23 selon la dernière source disponible, sans confirmation de réouverture à ce jour
 detection: 2026-08-15
-verif: 2026-09-18
-statut: ACTIF — INCHANGÉ 18/09 : nouvelle recherche sur la réouverture de la RD30 (WebFetch
-  indisponible ce run, contournement par recherche web), sans résultat nouveau. Le statut de
-  réouverture reste non confirmé par une source datée : la coupure est maintenue par
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche dédiée sur la réouverture de la RD30 entre
+  les intersections RD70 et RD23, sans résultat. Aucune source datée ne documente ni la
+  persistance de la coupure ni sa levée depuis le 20/08 : la coupure est maintenue par
   prudence.
 ordre: 112
 ---

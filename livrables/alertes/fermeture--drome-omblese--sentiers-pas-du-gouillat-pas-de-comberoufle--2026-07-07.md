@@ -6,13 +6,12 @@ sev: MOYENNE ([HYPOTHÈSE] source unique, non officielle gouv.fr, mais arrêté 
   nommément numéroté)
 validite: arrêté municipal n°10-2026, prolongé par le n°12-2026 jusqu'au 31/08/2026 inclus : échéance dépassée, aucune reconduction trouvée, et la page des arrêtés en vigueur de la commune ne liste plus aucune fermeture de massif pour Omblèze depuis le relevé du 11/09 ; le régime préfectoral distinct (arrêté DDT-SEF-2026-0176 du 04/06/2026), qui réévaluait chaque soir le risque incendie sur les forêts de Saoû et le plateau d'Ambel, était lui-même borné au 15/09/2026 : cette échéance est désormais dépassée. Aucune des deux bases réglementaires citées par cette fiche ne documente plus de restriction en vigueur sur ce secteur.
 detection: 2026-08-17
-verif: 2026-09-18
-statut: ACTIF — les deux bases réglementaires citées par cette fiche sont désormais échues
-  (arrêté municipal n°12-2026, expiré le 31/08 sans reconduction, confirmé par l'absence
-  d'arrêté actif sur gervanne-sye.com au 11/09 ; arrêté préfectoral DDT-SEF-2026-0176, borné
-  à sa propre période de validité, expiré le 15/09) sans qu'une prolongation ait été
-  retrouvée dans les sources déjà citées. Clôture à envisager au prochain passage si aucune
-  source de reconduction n'apparaît.
+verif: 2026-09-20
+statut: "[CLÔTURÉ] (2026-09-20) : les deux bases réglementaires citées par cette fiche sont
+  échues (arrêté municipal n°12-2026, expiré le 31/08 sans reconduction, confirmé par
+  l'absence d'arrêté actif sur gervanne-sye.com au 11/09 ; arrêté préfectoral
+  DDT-SEF-2026-0176, expiré le 15/09) sans qu'une prolongation ait été retrouvée. Aucune
+  restriction en vigueur documentée sur ce secteur à cette date."
 ordre: 171
 ---
 
