@@ -5,8 +5,9 @@ itin: **GR®20 FERMÉ : Ciottulu di i Mori ↔ Asco + Tighjettu ↔ bergeries de
 sev: HAUTE
 validite: [CLÔTURÉ] rouvert depuis le 30/07/2026 selon le PNRC, incendie désormais maîtrisé
 detection: 2026-07-15 (feu du 12/07)
-verif: 2026-09-18
-statut: [CLÔTURÉ] (2026-08-01) — INCHANGÉ 18/09 : recherche générale du jour, aucune reprise
+verif: 2026-09-20
+statut: [CLÔTURÉ] (2026-08-01) — INCHANGÉ 20/09 : recherche générale du jour, aucune reprise
+  signalée sur Albertacce/Niolu. INCHANGÉ 18/09 : recherche générale du jour, aucune reprise
   signalée sur Albertacce/Niolu ; un feu distinct s'est déclaré le 17/09 près de l'aéroport de
   Calvi (voir fiche dédiée `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`), sans lien
   avec ce secteur. INCHANGÉ 08/09 : aucune source ne signale de nouvelle reprise

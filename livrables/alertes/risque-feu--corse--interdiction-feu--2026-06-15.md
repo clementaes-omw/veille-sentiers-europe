@@ -5,14 +5,13 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-18
-statut: ACTIF — CHANGÉ 18/09 : nouveau feu distinct le 17/09 sur la route de l'aéroport de
-  Calvi (28 ha, fixé le jour même, voir fiche dédiée
-  `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`) ; aucun acte plus récent que celui
-  du 19/08/2026 (Fango/Bonifato/ouest Agriate) retrouvé pour le reste de l'île. WebFetch
-  indisponible ce run (proxy en panne, 503 systématiques) : haute-corse.gouv.fr n'a pas pu
-  être relu directement, recherche web utilisée en contournement. Interdiction générale de
-  feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : haute-corse.gouv.fr relu directement (WebFetch de nouveau
+  disponible), toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate), aucun
+  acte plus récent trouvé. Aucun nouveau feu de sentier suivi trouvé pour le 19-20/09 (un
+  incendie de trois véhicules à Ghisonaccia dans la nuit du 18 au 19/09 est un fait divers
+  urbain, sans lien avec un massif ou un sentier). Interdiction générale de feu (15/06→30/09)
+  toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 
