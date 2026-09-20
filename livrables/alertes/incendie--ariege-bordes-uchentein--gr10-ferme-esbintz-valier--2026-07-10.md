@@ -5,15 +5,15 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
 detection: 2026-07-20
-verif: 2026-09-18
-statut: ACTIF — INCHANGÉ 18/09 : nouvelle recherche ciblée, aucun acte plus récent ni annonce
-  de réouverture retrouvés. L'arrêté du 31/08 (Cap des Lauzes↔Étang d'Ayes, jusqu'à nouvel
-  ordre) reste le texte en vigueur, dix-huit jours après sa publication ; le feu de
-  Bordes-Uchentein est éteint et tous les autres tronçons du GR®10 concernés cet été sont
-  rouverts. Sur l'arrêté distinct d'interdiction totale de l'usage du feu (4e reconduction
-  échue le 24/08) : toujours aucune 5e reconduction ni levée retrouvée, soit 25 jours de
-  silence, sans conséquence sur la fermeture du sentier qui repose sur un acte propre.
-  Sévérité maintenue HAUTE.
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche ciblée (ariege.gouv.fr/Publications/Actualites,
+  bordesuchentein.fr), aucun acte plus récent ni annonce de réouverture retrouvés. L'arrêté du
+  31/08 (Cap des Lauzes↔Étang d'Ayes, jusqu'à nouvel ordre) reste le texte en vigueur, vingt
+  jours après sa publication ; le feu de Bordes-Uchentein est éteint et tous les autres
+  tronçons du GR®10 concernés cet été sont rouverts. Sur l'arrêté distinct d'interdiction
+  totale de l'usage du feu (4e reconduction échue le 24/08) : toujours aucune 5e reconduction
+  ni levée retrouvée, sans conséquence sur la fermeture du sentier qui repose sur un acte
+  propre. Sévérité maintenue HAUTE.
 ordre: 34
 ---
 
