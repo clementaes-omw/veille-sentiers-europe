@@ -5,18 +5,22 @@ type: incendie
 sev: HAUTE (fermeture officielle de balisage, sans date de réouverture)
 validite: incendie de La Mierla déclaré officiellement éteint le 04/09/2026 à 18h30 après 51 jours d'opération (bilan final 34 447 ha) ; GR®167 étape 1 et GR®167.1 restent fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée ; GR®10-ES (Cogolludo↔Muriel↔Tamajón) fermé depuis le 17/07/2026 pour la même raison, également sans date de réouverture
 detection: 2026-07-24
-verif: 2026-09-18
-statut: ACTIF — INCHANGÉ 15/09 : nouvelle recherche ciblée sur senderosdecastillalamancha.org,
-  toujours aucun avis postérieur au 29/07/2026 (GR®167/GR®167.1) ni au 17/07/2026 (GR®10-ES
-  Cogolludo↔Muriel↔Tamajón). Sévérité maintenue HAUTE : fermeture officielle confirmée sur
-  deux tronçons, sans date de fin sur aucun des deux, fait établi et non une hypothèse. Piste
-  ouverte inchangée : réouverture du GR®167 et du GR®10-ES.
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche ciblée (relecture directe de
+  senderosdecastillalamancha.org/index.php/noticias, requêtes dédiées « GR 167 Guadalajara
+  reapertura calendario 2026 »), toujours aucun avis postérieur au 29/07/2026 (GR®167/
+  GR®167.1) ni au 17/07/2026 (GR®10-ES Cogolludo↔Muriel↔Tamajón), et aucun calendrier de
+  réouverture publié par ailleurs (caminosdeguadalajara.es et senderismoguadalajara.es ne
+  publient qu'une description générale du tracé, sans mention de fermeture ni de date).
+  Sévérité maintenue HAUTE : fermeture officielle confirmée sur deux tronçons, sans date de
+  fin sur aucun des deux, fait établi et non une hypothèse. Piste ouverte inchangée :
+  réouverture du GR®167 et du GR®10-ES.
 ordre: 48
 ---
 
 ## Portion concernée
 
-**GR®167 (Sierra Norte de Guadalajara), étape 1 entre Majadas del Bornoba et Albendiego (via Pradena de Atienza), sa variante GR®167.1, ainsi que le GR®10-ES entre Cogolludo, Muriel et Tamajón, restent fermés.** Raison : l'incendie de La Mierla, déclaré éteint le 04/09/2026 après 51 jours et 34 447 ha brûlés, a détruit le balisage sur ces trois tronçons ; aucune date de réouverture n'est annoncée pour l'un ou l'autre à ce jour. L'organisme officiel des sentiers de Castille-La Manche recommande en particulier d'éviter l'accès à la zone du río Sorbe dans son cours moyen. Le plan de récupération régional, présenté le 13/09/2026, prévoit un diagnostic des sentiers, géoroutes et panneaux touristiques du parc en vue de réparations, sans calendrier de réouverture publié. Situation inchangée depuis, aucune date de réouverture ni source plus récente retrouvée à ce jour (15/09/2026).
+**GR®167 (Sierra Norte de Guadalajara), étape 1 entre Majadas del Bornoba et Albendiego (via Pradena de Atienza), sa variante GR®167.1, ainsi que le GR®10-ES entre Cogolludo, Muriel et Tamajón, restent fermés.** Raison : l'incendie de La Mierla, déclaré éteint le 04/09/2026 après 51 jours et 34 447 ha brûlés, a détruit le balisage sur ces trois tronçons ; aucune date de réouverture n'est annoncée pour l'un ou l'autre à ce jour. L'organisme officiel des sentiers de Castille-La Manche recommande en particulier d'éviter l'accès à la zone du río Sorbe dans son cours moyen. Le plan de récupération régional, présenté le 13/09/2026, prévoit un diagnostic des sentiers, géoroutes et panneaux touristiques du parc en vue de réparations, sans calendrier de réouverture publié. Situation inchangée depuis, aucune date de réouverture ni source plus récente retrouvée à ce jour (20/09/2026).
 
 ## Alternative
 
@@ -39,6 +43,8 @@ MAJ 07/09 : nouvelle vérification sur senderosdecastillalamancha.org, source of
 MAJ 10/09 : la page de l'étape 1 du GR®167, consultée directement, affiche toujours le statut « en révision », sans date de fin annoncée. Le fil d'actualités de senderosdecastillalamancha.org ne porte toujours aucun avis postérieur au 29/07/2026 sur le GR®167/GR®167.1, ni au 17/07/2026 sur le GR®10-ES entre Cogolludo, Muriel et Tamajón. La page de la Diputación de Guadalajara consacrée au plan de signalisation de 16 itinéraires (340 000 euros, mentionné le 07/09) reste inaccessible ; le lien éventuel avec le GR®167 ou le GR®10-ES demeure non confirmé.
 
 MAJ 14/09 : recherche élargie à la presse régionale (elDiario.es Castilla-La Mancha, nuevaalcarria.com), faute d'avis nouveau sur senderosdecastillalamancha.org. Un article d'elDiario.es daté du 13/09/2026 détaille le plan de récupération de la Sierra Norte présenté par le gouvernement régional (trois axes : restauration environnementale, réparation des infrastructures publiques, réactivation économique) : il prévoit un diagnostic des sentiers, géoroutes, points de vue et panneaux touristiques du parc pour déterminer ce qui doit être réparé ou remplacé, mais ne fixe aucune date de réouverture. La page dédiée à l'étape 1 du GR®167, revérifiée directement, affiche toujours « en révision » sans date. La page dguadalajara.es du plan de signalisation reste en erreur 503 pour la 4e fois. Aucune source ne documente de restriction ou de réouverture pour le Hayedo de Tejera Negra en lien avec cet incendie à la date de cette vérification.
+
+MAJ 20/09 : toujours aucun calendrier de réouverture publié. La page senderosdecastillalamancha.org/index.php/noticias, relue directement, ne porte toujours aucun avis postérieur au 29/07/2026 pour le GR®167/GR®167.1 ni au 17/07/2026 pour le GR®10-ES. Des recherches complémentaires sur caminosdeguadalajara.es (portail des sentiers du Club Azuandarines) et senderismoguadalajara.es ne remontent qu'une présentation générale du tracé du GR®167 (Cantalojas↔Prádena de Atienza en trois étapes), sans mention de fermeture, de travaux de rebalisage ou de date de réouverture. Aucun calendrier n'est donc publié à ce jour, ni par l'organisme officiel des sentiers ni par la Diputación de Guadalajara (dont la page du plan de signalisation restait en erreur 503 lors de la dernière tentative).
 
 ## Source
 

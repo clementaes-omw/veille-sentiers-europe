@@ -3,51 +3,29 @@ cle: fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21
 type: fermetures sentiers
 itin: GR® R2 (fermeture confirmée sur le tronçon Deux Bras ↔ Aurère, cirque de Mafate, secteur du Bras des Merles)
 sev: HAUTE
-validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1415 du 26/08/2026,
-  publié le 27/08/2026) ; ferme 49 sentiers sur 14 communes ; sur le tracé du GR® R2, ferme
-  le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
+validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1617 du 16/09/2026, qui
+  abroge l'arrêté n°2026-1415 du 26/08/2026) ; reprend le même périmètre de 49 sentiers sur
+  14 communes, avec l'ajout du sentier de la Canalisation des Orangers (Mafate, secteur de
+  Sans-Souci, éboulement) ; sur le tracé du GR® R2, ferme le sentier du Bras des Merles entre
+  Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-19
-statut: ACTIF — INCHANGÉ 19/09 : nouvelle tentative de lecture directe du PDF de l'arrêté
-  n°2026-1617 via la page ONF (Randonnée à La Réunion, sentiers fermés), toujours en échec
-  technique (le lien pointe vers le PDF sans que son contenu soit exploitable à distance).
-  Les mêmes sources convergentes (Office de tourisme de l'Ouest, Réunion-Mafate) continuent
-  de lister le Bras des Merles parmi les sentiers fermés du cirque de Mafate ce jour, sans
-  mention de réouverture. Sévérité maintenue HAUTE sur cette base ; lecture intégrale du PDF
-  toujours à traiter au prochain passage.
-  Ancien historique : recherche ciblée sur l'arrêté n°2026-1617 du 16/09/2026,
-  identifié le 17/09 sur la page ONF. Son PDF n'a pas pu être ouvert ce jour (échec technique
-  de lecture à distance) ; son existence et son objet (mise à jour de la liste des sentiers
-  fermés, avec l'ajout d'au moins une fermeture distincte, la Canalisation des Orangers à
-  Mafate, pour éboulement) sont confirmés par plusieurs sources convergentes. Ces mêmes
-  sources (Office de tourisme de l'Ouest, Réunion-Mafate) continuent de lister le Bras des
-  Merles parmi les sentiers fermés du cirque de Mafate à la date du jour, sans mention de
-  réouverture. Sévérité maintenue HAUTE sur cette base ; lecture intégrale du PDF de l'arrêté
-  n°2026-1617 à traiter au prochain passage. Ancien historique : nouvelle recherche ciblée du
-  15/09 (ONF Réunion, ffrandonnee.fr), toujours aucune source directe (topo-guide
-  FFRandonnée) confirmant le rattachement du Bras des Merles au GR®R2.
-  Ancien historique : le PDF de l'arrêté n°2026-1415 (26/08/2026, publié 27/08) a
-  été lu en entier. Il liste 49 sentiers fermés sur 14 communes ; parmi eux, le Bras des
-  Merles (Deux Bras à Aurère, Mafate) correspond, selon plusieurs descriptifs de randonnée
-  indépendants (AllTrails, trails-viewer.com), au tracé de l'étape 1 du GR® R2. La fiche
-  passe de MOYENNE à HAUTE : source officielle lue en entier + interdiction totale sans
-  exception pour les randonneurs sur ce tronçon. Point non tranché : l'arrêté lui-même ne
-  nomme pas le GR® R2 pour ce sentier (contrairement au Bras Plat de Saint-Philippe, qu'il
-  identifie explicitement comme « ancien GRR2 ») ; l'identification du Bras des Merles comme
-  tracé actuel du GR® R2 repose sur des sites de randonnée tiers, pas sur un topo-guide
-  FFRandonnée consulté directement (page ffrandonnee.fr correspondante en 404 ce run). Les
-  autres sentiers fermés par l'arrêté (Saint-Denis, Cilaos, Salazie, Sainte-Rose,
-  Saint-Philippe, etc.) ne sont pas rattachés aux GR® R1/R2/R3 dans le référentiel. La
-  source la plus récente reste datée du 26-27/08 (signature et publication de l'arrêté) :
-  comme pour une Allgemeinverfügung allemande « bis auf Widerruf », un arrêté préfectoral
-  en vigueur ne se republie pas à date fixe tant qu'il n'est ni abrogé ni prolongé, donc
-  l'absence de source plus récente que 18 jours ne signale pas une hypothèse non tranchée.
+verif: 2026-09-20
+statut: ACTIF — CHANGÉ 20/09 : lecture intégrale obtenue de l'arrêté n°2026-1617, en
+  contournant le blocage technique précédent (PDF récupéré directement, une version plus
+  récente du même document que celle qui échouait). Le texte confirme noir sur blanc que le
+  Bras des Merles reste interdit à la circulation, qu'il abroge l'arrêté n°2026-1415 et
+  n'ajoute qu'une seule fermeture nouvelle, la Canalisation des Orangers. Sévérité maintenue
+  HAUTE, désormais sur la base du texte officiel lu en entier, plus deux sources de presse
+  convergentes datées du même jour. Point non tranché inchangé : l'arrêté ne nomme pas le
+  GR® R2 pour le Bras des Merles ; l'identification à ce tracé repose toujours sur des sites
+  de randonnée tiers (AllTrails, trails-viewer.com), la page ffrandonnee.fr correspondante
+  restant à recouper.
 ordre: 16
 ---
 
 ## Portion concernée
 
-La Réunion : **sentier du Bras des Merles fermé entre Deux Bras et Aurère, dans le cirque de Mafate (communes de La Possession et Saint-Paul)**, ainsi que 48 autres sentiers sur 13 autres communes, en vertu de l'arrêté préfectoral n°2026-1415 du 26/08/2026 (publié le 27/08/2026, en vigueur au 14/09/2026). Le Bras des Merles correspond au tronçon emprunté par la première étape du GR® R2 entre Dos-d'Âne et Aurère. Raison : sécurité, selon les visas de l'arrêté (risques sur les sentiers du domaine forestier géré par l'ONF), sans détail supplémentaire par sentier dans le texte. Un arrêté plus récent, le n°2026-1617 du 16/09/2026, a depuis été identifié sur la page ONF : selon le fonctionnement habituel de ces textes (chaque nouvel arrêté abroge le précédent), il a vraisemblablement remplacé l'arrêté n°2026-1415 décrit ci-dessus. Son texte intégral n'a pas pu être lu en ligne au 18/09/2026. Il met à jour la liste des sentiers fermés et y ajoute au moins une fermeture distincte, celle du sentier de la Canalisation des Orangers à Mafate (secteur de Sans-Souci, Saint-Paul), pour un éboulement rendant le passage dangereux. Sur le Bras des Merles lui-même, plusieurs sites d'information touristique de l'île (Office de tourisme de l'Ouest, Réunion-Mafate) continuent de le lister au 18/09/2026 parmi les sentiers fermés du cirque de Mafate, sans qu'aucune source ne signale sa réouverture ; le tronçon est donc considéré comme toujours fermé, dans l'attente d'une lecture directe de l'arrêté n°2026-1617.
+La Réunion : **sentier du Bras des Merles fermé entre Deux Bras et Aurère, dans le cirque de Mafate (communes de La Possession et Saint-Paul)**, ainsi que 49 autres sentiers sur 13 autres communes, en vertu de l'arrêté préfectoral n°2026-1617 du 16/09/2026, dont le texte intégral a désormais été lu en entier. Cet arrêté abroge celui du 26/08/2026 (n°2026-1415) et en reprend le périmètre, en y ajoutant une seule fermeture nouvelle : le sentier de la Canalisation des Orangers, à Sans-Souci (Saint-Paul, cirque de Mafate), fermé pour un éboulement rendant le passage dangereux. Le Bras des Merles correspond au tronçon emprunté par la première étape du GR® R2 entre Dos-d'Âne et Aurère. Raison : sécurité, selon les visas de l'arrêté (risques sur les sentiers du domaine forestier géré par l'ONF) ; l'éboulement de la Canalisation des Orangers fait l'objet d'un motif propre dans le texte. Aucune autre modification du périmètre par rapport à l'arrêté précédent.
 
 ## Alternative
 
@@ -63,6 +41,8 @@ MAJ 14/09 : le PDF de l'arrêté n°2026-1415 a été téléchargé et lu intég
 
 MAJ 18/09 : vérification ciblée sur l'arrêté n°2026-1617 du 16/09/2026, dont l'existence avait été relevée la veille sur la page ONF sans lecture de son contenu. Son PDF n'a pas pu être ouvert en ligne ce jour. Plusieurs sources convergentes (dont l'Office de tourisme de l'Ouest et le site Réunion-Mafate, relayant la mise à jour du 16/09) indiquent que ce nouvel arrêté ajoute au moins une fermeture distincte de celles listées dans l'arrêté n°2026-1415 : le sentier de la Canalisation des Orangers, au départ de Sans-Souci (Saint-Paul, cirque de Mafate), fermé à la demande de l'ONF après un éboulement rendant le passage dangereux. Ce sentier n'est identifié, dans aucune source consultée, comme un tronçon du GR® R2 ou d'un autre GR® de l'île ; aucune ligne registre distincte n'est créée pour lui. Sur le Bras des Merles, les mêmes sources touristiques continuent de le lister parmi les sentiers actuellement fermés du cirque de Mafate, sans annonce de réouverture. La lecture intégrale du PDF de l'arrêté n°2026-1617, qui permettrait de confirmer directement le sort du Bras des Merles dans le texte le plus récent, reste à faire.
 
+MAJ 20/09 : lecture intégrale de l'arrêté préfectoral n°2026-1617 du 16 septembre 2026, obtenue directement en PDF (le lien ONF avait changé de version depuis le 18/09, une nouvelle tentative a permis de récupérer un exemplaire exploitable). [FAIT, arrêté préfectoral n°2026-1617 du 16 septembre 2026, signé par délégation par le directeur de cabinet du préfet] Le texte confirme que cet arrêté abroge l'arrêté n°2026-1415 du 26/08/2026 (article 2) et reprend, à son article 1, le même périmètre de fermeture par commune (cirque de Mafate, Bras-Panon, Entre-Deux, Cilaos, Plaine des Palmistes, La Possession, Saint-Benoît, Saint-Denis, Saint-Joseph, Saint-Louis, Saint-Philippe, Sainte-Marie, Sainte-Rose, Salazie), en y ajoutant une seule fermeture nouvelle : le sentier de la Canalisation des Orangers, visé par un considérant propre (« un éboulement a impacté le sentier de la Canalisation des Orangers, rendant le passage dangereux »). Dans le cirque de Mafate, l'article 1 liste nommément Maison Laclos-Kerval, le sentier du Bras des Merles (de Deux Bras à Aurère), le sentier La Nouvelle-Maison Laclos (alternative par le PR25) et désormais la Canalisation des Orangers : le Bras des Merles reste donc interdit à la circulation des personnes, confirmé cette fois directement par le texte de l'arrêté en vigueur, et non plus seulement par des sources touristiques tierces le décrivant comme toujours fermé. Comme pour l'arrêté précédent, ce texte ne qualifie pas lui-même le Bras des Merles de tronçon du GR® R2 (à la différence du sentier de Bras Plat, identifié comme « ancien GRR2 » à Saint-Philippe) : l'identification au tracé actuel du GR® R2 continue de reposer sur des sites de randonnée tiers (AllTrails, trails-viewer.com), la page ffrandonnee.fr correspondante restant à recouper. L'article 3 précise les exceptions d'accès (SDIS, SAMU, ONF, forces de l'ordre, BRGM, agents habilités du Parc national, ayants-droit ONF). Un article de presse daté du même jour (imazpress.com, 16/09/2026 17h01) confirme indépendamment la fermeture de la Canalisation des Orangers pour éboulement ; à noter qu'un article au titre très proche, annonçant sa réouverture, retrouvé lors de cette recherche sur le même site, s'est révélé daté du 15/04/2023 : un épisode antérieur de trois ans, sans lien avec celui suivi ici, écarté après vérification de sa date. reunion-mafate.com, reconsultée le 20/09, cite désormais nommément l'arrêté n°2026-1617 comme texte de référence et continue de lister le Bras des Merles parmi les sentiers fermés du cirque de Mafate.
+
 ## Source
 
-[ONF Réunion, Randonnée à La Réunion : cartes des sentiers et des routes forestières accessibles (arrêté n°2026-1415 du 27/08/2026)](https://www.onf.fr/vivre-la-foret/+/b90::randonnee-la-reunion-connaitre-les-sentiers-fermes.html) ; [Arrêté préfectoral n°2026-1415 du 26 août 2026 réglementant l'accès des personnes sur certains sentiers de randonnée, préfecture de La Réunion (PDF)](https://www.onf.fr/outils/articles/4d994260-fa0f-4716-92f1-eccafed0b199/++versions++/345/++paras++/12/++ass++/78/++i18n++data:fr?download=1) ; [AllTrails, GR R2: Deux-Bras to Aurère, Saint-Paul, Réunion](https://www.alltrails.com/trail/reunion/saint-paul/grr2-deux-bras-to-aurere) ; [trails-viewer.com, Réunion, Dos d'Âne, Aurère, montée par Bras des Merles](https://fr-fr.trails-viewer.com/trail-srxb3/R%C3%A9union-dos-d-%C3%A2ne-aur%C3%A8re-dos-d-%C3%A2ne-mont%C3%A9e-par-bras-des-merles/) ; [Office de tourisme de l'Ouest 974, Les sentiers ouverts et fermés dans le cirque de Mafate et dans l'Ouest, arrêté n°2026-1617 du 16/09/2026 cité (fermeture Canalisation des Orangers), Bras des Merles listé parmi les sentiers fermés](https://www.ouest-lareunion.com/les-sentiers-ouverts-et-fermes-dans-l-ouest) ; [Réunion-Mafate, Les sentiers fermés / ouverts à Mafate](https://www.reunion-mafate.com/sejour/randonnees/sentiers)
+[ONF Réunion, Randonnée à La Réunion : cartes des sentiers et des routes forestières accessibles (arrêté n°2026-1415 du 27/08/2026)](https://www.onf.fr/vivre-la-foret/+/b90::randonnee-la-reunion-connaitre-les-sentiers-fermes.html) ; [Arrêté préfectoral n°2026-1415 du 26 août 2026 réglementant l'accès des personnes sur certains sentiers de randonnée, préfecture de La Réunion (PDF)](https://www.onf.fr/outils/articles/4d994260-fa0f-4716-92f1-eccafed0b199/++versions++/345/++paras++/12/++ass++/78/++i18n++data:fr?download=1) ; [AllTrails, GR R2: Deux-Bras to Aurère, Saint-Paul, Réunion](https://www.alltrails.com/trail/reunion/saint-paul/grr2-deux-bras-to-aurere) ; [trails-viewer.com, Réunion, Dos d'Âne, Aurère, montée par Bras des Merles](https://fr-fr.trails-viewer.com/trail-srxb3/R%C3%A9union-dos-d-%C3%A2ne-aur%C3%A8re-dos-d-%C3%A2ne-mont%C3%A9e-par-bras-des-merles/) ; [Office de tourisme de l'Ouest 974, Les sentiers ouverts et fermés dans le cirque de Mafate et dans l'Ouest, arrêté n°2026-1617 du 16/09/2026 cité (fermeture Canalisation des Orangers), Bras des Merles listé parmi les sentiers fermés](https://www.ouest-lareunion.com/les-sentiers-ouverts-et-fermes-dans-l-ouest) ; [Réunion-Mafate, Les sentiers fermés / ouverts à Mafate](https://www.reunion-mafate.com/sejour/randonnees/sentiers) ; [Arrêté préfectoral n°2026-1617 du 16 septembre 2026 réglementant l'accès des personnes sur certains sentiers de randonnée, préfecture de La Réunion (PDF, lu en entier le 20/09/2026)](https://www.onf.fr/outils/articles/4d994260-fa0f-4716-92f1-eccafed0b199/++versions++/346/++paras++/12/++ass++/78/++i18n++data:fr?download=1) ; [imazpress.com, ONF : le sentier de la Canalisation des Orangers fermé jusqu'à nouvel ordre (16/09/2026 17h01)](https://imazpress.com/toute-l-actu/onf-le-sentier-de-la-canalisation-des-orangers-ferme-jusqu-a-nouvel-ordre)

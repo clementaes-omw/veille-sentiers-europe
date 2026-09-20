@@ -5,11 +5,10 @@ itin: GR®20 (départ de Calenzana, étape 1 Calenzana↔Ortu di u Piobbu) [HYPO
 sev: MOYENNE
 validite: feu de Calenzana-Montegrosso fixé dans la nuit du 27 au 28/08/2026, sous contrôle depuis le 28/08 après-midi ; aucune restriction de sentier confirmée à ce jour, situation suivie jusqu'à nouvel ordre
 detection: 2026-08-29
-verif: 2026-09-18
-statut: ACTIF — INCHANGÉ 18/09 : aucune reprise sur le feu de Montegrosso du 27/08 ni nouveau
-  départ à Calenzana même depuis le troisième départ du 05/09 (Marsulinu). Un feu distinct
-  s'est déclaré le 17/09 sur la route de l'aéroport de Calvi, à proximité géographique mais
-  sans lien établi (voir fiche dédiée
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche générale sur les feux corses du jour,
+  aucune reprise sur le feu de Montegrosso du 27/08 ni nouveau départ à Calenzana même depuis
+  le feu de l'aéroport de Calvi du 17/09 (voir fiche dédiée
   `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`). Sévérité maintenue MOYENNE.
 ordre: 181
 ---

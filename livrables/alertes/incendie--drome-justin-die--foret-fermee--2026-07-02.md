@@ -6,13 +6,13 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-09-18
-statut: ACTIF — INCHANGÉ 18/09 : nouvelle recherche ciblée de l'acte manquant (mairie-die.fr,
-  presse), sans résultat au-delà de ce qui est déjà cité : l'arrêté du 21/08 reste le dernier
-  texte connu et le seul en vigueur, l'étude de risque toujours qualifiée « en cours » sans
-  échéance ni résultat publié. Sévérité maintenue HAUTE (fondement = arrêté daté, pas une
-  hypothèse à 14 jours). Rattachement GR®9/GR®93 toujours affaibli depuis le 03/08 (probable
-  GR®95).
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche ciblée de l'acte manquant (mairie-die.fr
+  relue directement), sans résultat au-delà de ce qui est déjà cité : l'arrêté du 21/08 reste
+  le dernier texte connu et le seul en vigueur, l'étude de risque toujours qualifiée
+  « en cours » sans échéance ni résultat publié. Sévérité maintenue HAUTE (fondement = arrêté
+  daté, pas une hypothèse à 14 jours). Rattachement GR®9/GR®93 toujours affaibli depuis le
+  03/08 (probable GR®95).
 ordre: 31
 ---
 
@@ -63,6 +63,8 @@ MAJ 10/09 : mairie-die.fr relue en direct, l'arrêté du 21/08/2026 (interdictio
 MAJ 14/09 : mairie-die.fr relue directement, aucun changement : l'accès aux trois forêts reste interdit, sans échéance annoncée, la sortie de la fermeture restant conditionnée à une étude de risque toujours en cours. drome.gouv.fr a renvoyé une erreur 503 lors de cette vérification (page « Point de situation » indisponible) ; aucune source de remplacement (RAA Drôme, ONF, DDT) n'a produit de texte plus récent que l'arrêté du 21/08. Rattachement GR®9/GR®93 non retesté ce jour, toujours affaibli depuis le 03/08.
 
 MAJ 18/09 : nouvelle vérification ciblée, mairie-die.fr toujours identique : l'arrêté du 21/08/2026 reste le seul texte en vigueur, accès aux trois forêts toujours interdit, étude de risque toujours « en cours » sans échéance ni résultat publié. Aucune source plus récente trouvée.
+
+MAJ 20/09 : nouvelle vérification ciblée, mairie-die.fr relue directement, contenu identique : l'arrêté du 21/08/2026 (« l'interdiction est applicable dès l'entrée en vigueur de l'arrêté et jusqu'à la fin des opérations d'étude et de sécurisation ») reste le seul texte en vigueur, sans reconduction ni levée publiée. Aucune source plus récente trouvée.
 
 ## Source
 

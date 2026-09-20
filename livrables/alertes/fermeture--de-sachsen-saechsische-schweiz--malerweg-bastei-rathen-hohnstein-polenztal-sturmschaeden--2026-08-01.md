@@ -11,15 +11,16 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-19
-statut: ACTIF — INCHANGÉ 19/09 : l'échéance annoncée du chantier héliporté du Gamrig (18/09)
-  est désormais dépassée d'un jour, nouvelle recherche ciblée (eilmeldung-waldsperrung,
-  aktuelles Kurort Rathen), aucune source ne confirme ni sa fin ni sa prolongation à ce jour.
-  Périmètre inchangé : Amselsee ouvert, bas de l'Amselgrund et Ziegenrücken fermés, Gamrig et
-  Rathener Straße fermés pour la durée du chantier. La sévérité HAUTE repose sur une
-  Allgemeinverfügung en vigueur jusqu'à révocation (bis auf Widerruf) : la règle des 14 jours
-  sur les hypothèses non tranchées ne s'applique pas ici. Prochain point utile : confirmation
-  de la fin du chantier héliporté.
+verif: 2026-09-20
+statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche ciblée (saechsische-schweiz.de/gut-zu-wissen/aktuelles,
+  nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung) sur la fin du
+  chantier héliporté du Gamrig, dont l'échéance annoncée (18/09) est désormais dépassée de
+  deux jours : les deux pages restent affichées avec leur dernier ajout du 26/08, sans
+  confirmation de fin ni de prolongation. Périmètre inchangé : Amselsee ouvert, bas de
+  l'Amselgrund et Ziegenrücken fermés, Gamrig et Rathener Straße fermés pour la durée du
+  chantier. La sévérité HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à révocation
+  (bis auf Widerruf) : la règle des 14 jours sur les hypothèses non tranchées ne s'applique
+  pas ici. Prochain point utile : confirmation de la fin du chantier héliporté.
 ordre: 99
 ---
 

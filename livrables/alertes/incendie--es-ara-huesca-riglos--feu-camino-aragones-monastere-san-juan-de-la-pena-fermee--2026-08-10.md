@@ -5,7 +5,7 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
   Arrés / Ena / Binacua, variante historique par le monastère de San Juan de la Peña ; GR®1-ES
   (Sendero Histórico) qui cite nommément Riglos sur son tracé
 sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalité des évacués sont rentrés)
-validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) était réglementée jusqu'au 15/09/2026 au moins pour finir les opérations de sécurisation : cette échéance est désormais dépassée, sans qu'aucune source consultée ne documente sa levée ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées
+validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; la route d'accès au monastère (A-1603, entre Santa Cruz de la Serós et Botaya) était réglementée jusqu'au 15/09/2026 au moins pour finir les opérations de sécurisation : cette échéance est désormais dépassée, sans qu'aucune source consultée ne documente sa levée ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées ; nouvelle vérification effectuée le 18/09/2026, sans confirmation de réouverture de la route ni du monastère
 detection: 2026-08-17
 verif: 2026-09-18
 statut: ACTIF — INCHANGÉ 18/09 : le gouvernement d'Aragon a déclaré l'incendie ÉTEINT le
