@@ -11,16 +11,20 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-20
-statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche ciblée (saechsische-schweiz.de/gut-zu-wissen/aktuelles,
-  nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung) sur la fin du
-  chantier héliporté du Gamrig, dont l'échéance annoncée (18/09) est désormais dépassée de
-  deux jours : les deux pages restent affichées avec leur dernier ajout du 26/08, sans
-  confirmation de fin ni de prolongation. Périmètre inchangé : Amselsee ouvert, bas de
+verif: 2026-09-21
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche sur la fin du chantier héliporté du
+  Gamrig, dont l'échéance annoncée (18/09) est désormais dépassée de trois jours : les pages
+  officielles restent affichées avec leur dernier ajout connu, sans confirmation explicite de
+  fin ni de prolongation. Élément indirect trouvé : le parc annonce un nouveau chantier
+  héliporté d'évacuation de bois, à partir du 21/09 et jusqu'au 09/10 selon la météo, dans
+  des secteurs forestiers distincts (Ottomühle, Berggießhübel, Gohrisch), sans rapport
+  géographique avec le Gamrig ni l'Amselgrund : ce nouveau chantier ne referme donc rien de
+  plus sur le tracé du Malerweg, mais ne confirme pas non plus la réouverture du Gamrig.
+  Périmètre traité comme inchangé faute de source contraire : Amselsee ouvert, bas de
   l'Amselgrund et Ziegenrücken fermés, Gamrig et Rathener Straße fermés pour la durée du
   chantier. La sévérité HAUTE repose sur une Allgemeinverfügung en vigueur jusqu'à révocation
   (bis auf Widerruf) : la règle des 14 jours sur les hypothèses non tranchées ne s'applique
-  pas ici. Prochain point utile : confirmation de la fin du chantier héliporté.
+  pas ici. Prochain point utile : confirmation de la fin du chantier héliporté du Gamrig.
 ordre: 99
 ---
 
@@ -65,6 +69,8 @@ MAJ 14/09 : nouvelle re-vérification complète, à 4 jours de l'échéance anno
 MAJ 18/09 : jour de l'échéance annoncée du chantier héliporté d'évacuation du bois autour du Gamrig. Aucune source, officielle ou de presse, n'annonce à ce jour sa fin ni une prolongation. Le périmètre reste identique à celui du 14/09 : l'Amselsee est ouvert, le bas de l'Amselgrund (Rathen↔Schwedenlöcher) et le Ziegenrücken restent fermés, et les deux parkings du Gamrig, le rocher du Gamrig et le tronçon de la Rathener Straße à Waltersdorf demeurent fermés pour la durée du chantier.
 
 MAJ 19/09 : l'échéance du 18/09 est désormais dépassée d'un jour sans qu'aucune source ne confirme la fin du chantier héliporté ni une prolongation. Le périmètre reste identique : Amselsee ouvert, bas de l'Amselgrund et Ziegenrücken fermés, Gamrig et tronçon de la Rathener Straße à Waltersdorf fermés pour la durée du chantier.
+
+MAJ 21/09 : toujours aucune confirmation explicite de la fin du chantier héliporté du Gamrig, dont l'échéance annoncée (18/09) est désormais dépassée de trois jours. Un nouveau chantier héliporté d'évacuation de bois est annoncé par le parc à partir du 21/09 (et jusqu'au 09/10 selon la météo), mais dans des secteurs forestiers distincts (Ottomühle, Berggießhübel, Gohrisch), sans lien géographique avec le Gamrig ni le tracé du Malerweg : ce nouveau chantier n'apporte donc ni confirmation ni infirmation sur l'état du Gamrig lui-même. Périmètre traité comme inchangé faute de source contraire.
 
 ## Source
 

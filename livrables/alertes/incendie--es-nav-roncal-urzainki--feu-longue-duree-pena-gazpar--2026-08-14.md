@@ -11,14 +11,12 @@ validite: aucune fermeture officielle de sentier n'est en vigueur à ce jour ; f
   source datée) ; seule reste une consigne générale des autorités d'éviter la zone
   d'intervention, sans échéance annoncée
 detection: 2026-09-14
-verif: 2026-09-14
-statut: ACTIF — NOUVEAU 14/09 : feu de longue durée (le plus long de l'histoire récente
-  navarraise selon la presse), découvert lors du passage ES-NAV-RIO-ARA de ce jour. Aucune
-  fermeture de sentier ni arrêté d'accès nommé n'est publié : seule une consigne générale du
-  Gobierno de Navarra invite la population et les tiers à rester à l'écart de la zone
-  d'intervention. Le rattachement au GR®11 (étape voisine Isaba-Zuriza) est une hypothèse de
-  proximité géographique, non confirmée par une source dédiée aux itinéraires de randonnée :
-  à vérifier au prochain passage.
+verif: 2026-09-21
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche (lot T2 lundi), rien de postérieur au
+  point du 07/09 retrouvé, le feu restant donné éteint depuis début septembre sans nouvelle
+  reprise signalée. Aucune fermeture de sentier ni arrêté d'accès nommé toujours publié.
+  Rattachement au GR®11 (étape voisine Isaba-Zuriza) toujours une hypothèse de proximité
+  géographique, non confirmée par une source dédiée aux itinéraires de randonnée.
 ordre: 232
 ---
 

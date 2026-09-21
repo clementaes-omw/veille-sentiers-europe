@@ -5,13 +5,12 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-20
-statut: ACTIF — CHANGÉ 20/09 : recherche complémentaire, un classement plus sévère que
-  celui déjà noté avait précédé l'épisode du 17/09 : le mercredi 16/09/2026, six secteurs
-  étaient en rouge (accès interdit), retombés à un seul dès le lendemain. Aucune carte
-  nominative retrouvée pour le 18, 19 ou 20/09 malgré recherche dédiée : le classement du
-  17/09 (un secteur rouge, sept orange) reste la dernière donnée officielle datée connue.
-  Sévérité maintenue MOYENNE. Carlencas-et-Levas toujours fixé.
+verif: 2026-09-21
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucune carte nominative retrouvée
+  postérieure au 17/09 malgré recherche dédiée : le classement du 17/09 (un secteur rouge,
+  sept orange) reste la dernière donnée officielle datée connue. Le département reste par
+  ailleurs cité en vigilance orange/rouge Météo des forêts aux côtés de l'Aude, du Gard et
+  des Pyrénées-Orientales dans les bulletins des 20-21/09. Sévérité maintenue MOYENNE.
 ordre: 18
 ---
 
