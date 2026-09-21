@@ -9,13 +9,10 @@ validite: les deux foyers (Alvito da Beira et Atalaia) sont passés au statut «
   (surveillance, l'échelon le plus bas encore suivi) selon l'API officielle
   api.fogos.pt, interrogée le 18/09/2026 ; non encore déclarés éteints
 detection: 2026-09-14
-verif: 2026-09-20
-statut: ACTIF — CHANGÉ 18/09 : les deux foyers passent du statut « Conclusão » à
-  « Vigilância » (surveillance) selon l'API officielle api.fogos.pt, interrogée
-  directement le 18/09 (données mises à jour la veille à 22h30). Alvito da Beira reste à
-  1089,87 ha avec 24 personnels et 9 véhicules terrestres ; Atalaia à 98,69 ha avec 20
-  personnels et 6 véhicules terrestres. Aucune déclaration d'extinction officielle ni
-  fermeture de sentier n'est documentée à ce jour. Sévérité maintenue MOYENNE.
+verif: 2026-09-21
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucune source postérieure au point du
+  18/09 (statut « Vigilância » pour les deux foyers) retrouvée. Aucune déclaration
+  d'extinction officielle ni fermeture de sentier documentée. Sévérité maintenue MOYENNE.
 ordre: 234
 ---
 

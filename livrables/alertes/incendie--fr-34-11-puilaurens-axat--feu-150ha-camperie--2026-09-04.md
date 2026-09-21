@@ -5,13 +5,10 @@ itin: GR®367 (Sentier Cathare, château de Puilaurens) ; GR®36 (gorges de l'Au
 sev: MOYENNE
 validite: feu fixé depuis le mardi 08/09/2026 au matin, environ 225 hectares parcourus ; surveillance active maintenue jusqu'à nouvel ordre, aucune levée annoncée à ce jour
 detection: 2026-09-05
-verif: 2026-09-20
-statut: ACTIF — CHANGÉ 18/09 : la D117 est rouverte à la circulation entre le rond-point de
-  l'Ours et le hameau de La Pradelle, avec restriction (50 km/h, arrêt et stationnement
-  interdits), selon inforoute11.fr. Statut des habitants de Lavagnac inchangé (déjà autorisés
-  à rentrer depuis le 07/09). L'avis rando-pyreneesaudoises.com du 05/09 (sentiers d'Axat,
-  Lapradelle-Puilaurens, Salvezines à éviter) n'a pas été retesté ce jour, toujours sans levée
-  connue depuis le 14/09.
+verif: 2026-09-21
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucun élément plus récent que le point
+  du 18/09 (D117 rouverte avec restriction). L'avis rando-pyreneesaudoises.com du 05/09
+  (sentiers d'Axat, Lapradelle-Puilaurens, Salvezines à éviter) reste sans levée connue.
 ordre: 217
 ---
 
