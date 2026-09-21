@@ -5,15 +5,11 @@ itin: Camino de Invierno (étape A Rúa ↔ Quiroga puis Quiroga ↔ Monforte de
 sev: MOYENNE
 validite: feu déclaré contrôlé (controlado) le vendredi 18/09/2026 à 21h00, environ 460 ha parcourus, non encore déclaré éteint
 detection: 2026-09-18
-verif: 2026-09-20
-statut: ACTIF — CHANGÉ 20/09 : feu passé au statut « controlado » le vendredi 18/09 à
-  21h00, surface révisée à environ 460 ha (source teleprensa.com publiée le lendemain
-  matin, 19/09 08h27 ; piège d'indexation écarté : l'article date l'événement « viernes 19
-  de septiembre », mais le 19/09/2026 est un samedi — le jour de semaine « vendredi »
-  prime sur le quantième, l'événement est donc daté du 18/09 au soir). Aucune source ne
-  documente de fermeture du Camino de Invierno ni du balisage sur l'ensemble de
-  l'épisode. Sévérité maintenue MOYENNE, à reconfirmer au prochain passage : déclaration
-  d'extinction totale.
+verif: 2026-09-21
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucune source postérieure au contrôle
+  du 18/09 (21h00, ~460 ha) retrouvée ; extinction totale toujours non déclarée, le foyer
+  restant couvant selon la presse galicienne. Aucune fermeture du Camino de Invierno
+  documentée. Sévérité maintenue MOYENNE.
 ordre: 235
 ---
 
