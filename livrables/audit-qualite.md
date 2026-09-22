@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-09-22
 
-96 alertes actives · 27 fiches avec au moins un constat · **0 bloquant(s)**, 27 alerte(s), 0 info(s).
+96 alertes actives · 26 fiches avec au moins un constat · **0 bloquant(s)**, 26 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -28,7 +28,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`incendie|IT-NO-Biellese|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio|2026-08-03`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — alerte rouge appuyée sur une source datée du 10/09 (12 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`incendie|Savoie-Planay-Pralognan|RD915-refuges-Vanoise|2026-07-07`** — la validité annoncée s'arrête au 19/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`refuge|IT-Dolomites-Friuli-Cimoliana|bivacco-gervasutti-amianto-inagibile|2026-09-09`** — jamais revérifiée depuis sa détection il y a 8 j.
 - **`reroutage|Lot-Cieurac-Flaujac-Poujols|GR65-devie-incendie|2026-07-25`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`reroutage|Pierrefiques-76|déviation|2025-05-18`** — la validité annoncée s'arrête au 18/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
@@ -39,3 +38,4 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 ## 🗺 Cohérence carte / registre
 
 0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
+
