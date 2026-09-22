@@ -5,7 +5,7 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-20
+verif: 2026-09-22
 statut: ACTIF — INCHANGÉ 20/09 : haute-corse.gouv.fr relu directement (WebFetch de nouveau
   disponible), toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate), aucun
   acte plus récent trouvé. Aucun nouveau feu de sentier suivi trouvé pour le 19-20/09 (un

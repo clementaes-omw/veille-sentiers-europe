@@ -1,164 +1,138 @@
-# Verdict qualité — 2026-09-20
+# Verdict qualité du registre — 2026-09-22
 
-Vérificateur qualité, agent distinct de la veille : aucune des 24 fiches contrôlées n'a été
-rédigée par cette session. Périmètre : les 24 constats de `livrables/audit-qualite.md`
-généré le jour même (0 bloquant, 21 alerte(s), 3 info(s), 0 carte). Aucune recherche web
-n'a été effectuée par ce vérificateur ; les corrections ci-dessous sont des réécritures à
-information constante, à partir de ce que chaque fiche contenait déjà. Aucune fiche hors de
-cette liste n'a été ouverte ni modifiée.
+Agent Vérificateur Qualité, distinct de l'agent de veille du jour. Aucune des 27 fiches
+listées par `livrables/audit-qualite.md` (généré le 2026-09-22, après le run du jour) n'a
+été écrite par cet agent : audit mené en toute indépendance, conformément à
+`agents/verificateur-alertes.md`.
 
-## Corrections appliquées (8 fiches)
+**27 fiches contrôlées** (liste de travail = intégralité des constats de l'audit déterministe,
+aucune autre fiche du dossier n'a été ouverte). **2 corrections appliquées**, **9 PASS motivés
+sans correction**, **16 actions laissées à l'agent de veille** (nécessitent une source
+nouvelle, hors périmètre de ce rôle).
 
-**Ton — jargon de veille retiré de « Zone (détails) » (3 fiches, sans perte de fait) :**
+## PASS / FAIL par contrôle (sur les 27 fiches examinées)
 
-- `fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21` — « (piège d'indexation, écarté) »
-  → reformulé en clair : un article homonyme daté du 15/04/2023, sans lien avec l'épisode
-  suivi, écarté après vérification de sa date. Même fait, vocabulaire de veille retiré.
-- `incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16` — « nouvelle
-  recherche ciblée sur l'acte manquant » → « toujours aucun calendrier de réouverture publié »
-  (le reste de la phrase, qui liste les sources consultées, est inchangé).
-- `reroutage|Pierrefiques-76|déviation|2025-05-18` — « à revérifier au prochain passage
-  FR-NOR » → « en l'absence de toute confirmation de fin de chantier ».
+1. **FRAÎCHEUR** — 16 FAIL (revérification hors délai ou jamais revérifiée depuis
+   détection) → tous signalés « à traiter au prochain run », aucun ne peut être corrigé sans
+   recherche d'une source nouvelle. 11 PASS (délai respecté ou fiche revérifiée le jour même
+   par l'agent de veille).
+2. **CONCORDANCE INTERNE** — 2 FAIL trouvés et corrigés (Covatannaz, Savoie Planay-Pralognan :
+   la « Portion concernée » citait une échéance de validité désormais dépassée sans le dire).
+   25 PASS.
+3. **HONNÊTETÉ SUR CE QU'ON NE SAIT PAS** — 27 PASS après corrections. Quatre fiches
+   (ES-ARA-Huesca-Riglos, ES-GAL-Quiroga, Pierrefiques-76, FR-Landes-Gironde) déclarées « à
+   traiter » par l'audit déterministe se sont révélées, à la lecture, déjà parfaitement
+   honnêtes sur ce point : voir « Faux positifs de l'audit » ci-dessous.
+4. **PERTINENCE** — 27 PASS. Aucune fiche ne présente de preuve de résolution complète qui
+   justifierait une clôture (feux « contrôlés » mais pas « éteints », déviations et chantiers
+   sans confirmation de fin) : aucune clôture appliquée, aucune recommandée.
+5. **SÉVÉRITÉ JUSTE** — 5 alertes ROUGE/HAUTE contrôlées une à une contre la règle des 14
+   jours (agent-prompt.md) : 5 PASS motivés, sévérité maintenue à raison (voir détail).
+6. **TON** — 27 PASS. Aucun jargon de veille repéré dans les champs publics des fiches lues ;
+   les deux fiches corrigées respectent la même exigence (zéro tiret cadratin dans les
+   sections publiques, formulé pour le lecteur).
+7. **SOURCE VIVANTE** — contrôlée sur les 5 alertes ROUGE (minimum exigé par le rôle) : 5
+   PASS, les 5 URLs sources rouvertes et confirmées conformes au contenu de la fiche (voir
+   détail).
 
-**Validité — champ `validite:` réécrit (5 fiches) :**
+## Corrections appliquées (périmètre : forme, à information constante)
 
-En creusant les 5 constats « validité annoncée dépassée » de l'audit, j'ai trouvé la cause
-commune : `parse_alerte()` (site/build_site.py) ne lit QUE la première ligne d'un champ de
-frontmatter quand sa valeur est répartie sur plusieurs lignes indentées (`cle, sep, val =
-ligne.partition(":")`, appliqué ligne par ligne, sans fusion). Résultat : le mot-clé
-« durable » ou la date de dernière vérification, écrits sur une ligne de continuation,
-étaient invisibles à la fois pour `audit_qualite.py` ET pour le site lui-même — pas
-seulement un faux positif de l'audit, un vrai trou d'information côté lecteur. J'ai donc
-réécrit ces 5 champs sur une seule ligne, en y intégrant la date de vérification déjà
-connue de la fiche (celle du champ `verif:`, jamais une date inventée) plutôt que de me
-contenter d'un correctif cosmétique qui aurait laissé le défaut de lecture actif :
+- **`fermeture\|CH-Vaud-Sainte-Croix-Baulmes\|Gorges-Covatannaz-travaux\|2026-08-17`** — la
+  validité annonçait une déviation « jusqu'au 18/09/2026 » sans qu'aucun passage postérieur
+  n'ait constaté la fin des travaux ; le site affichait donc une échéance passée comme si elle
+  restait à venir. Réécrit `validite:`, « Portion concernée » et `statut:` pour dire
+  explicitement que l'échéance est dépassée et que la fin des travaux n'est pas confirmée,
+  sans inventer ni la réouverture ni la prolongation.
+- **`incendie\|Savoie-Planay-Pralognan\|RD915-refuges-Vanoise\|2026-07-07`** — même défaut :
+  le chantier de créneaux horaires sur la RD915 était donné « jusqu'au 18/09/2026 » sans
+  qu'un passage postérieur au 08/09 n'ait confirmé sa fin. Réécrit `validite:`, « Portion
+  concernée » et `statut:` en conséquence ; noté au passage que les trois saisons de
+  gardiennage de refuge citées (Grand Bec, Péclet-Polset, Col de la Vanoise) sont closes
+  depuis, par calendrier normal, sans rapport avec l'incendie.
 
-- `crue|Écrins-GR54|sentiers-refuges-endommages-crues-27-28-aout|2026-08-27` — validité
-  refondue en une ligne, mot-clé « durable » réintégré, vérification du 20/09 explicitée
-  (aucune source postérieure au 07/09 retrouvée).
-- `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17` — idem, vérification du 20/09
-  explicitée (feu fixé le 17/09, D81 et aéroport rouverts le jour même, aucune reprise).
-- `incendie|ES-AND-Benahavis|feu-actif-confinement-9500-habitants|2026-09-13` — idem,
-  vérification du 20/09 explicitée (contrôlé depuis le 17/09, rien de nouveau).
-- `incendie|ES-ARA-Huesca-Riglos|feu-camino-aragones-monastere-san-juan-de-la-pena-fermee|2026-08-10`
-  — idem, en restituant la vérification déjà réalisée le 18/09 (`verif:` n'a pas bougé,
-  aucune nouvelle recherche faite par moi).
-- `risque-feu|FR-Landes-Gironde|vigilance-rouge-bivouac-interdit|2026-07-21` — idem,
-  vérification déjà réalisée le 18/09 restituée.
+Après ces deux corrections : `python3 site/build_site.py` → **OK (QA passée)** (96 actives,
+32 clôturées, 128 fichiers, aucune fiche sous le seuil d'intégrité de 45 %).
+`python3 site/audit_qualite.py --ecrire` → **0 bloquant** sur l'ensemble du registre, comme
+avant ce passage. Les deux fiches corrigées réapparaissent dans le rapport déterministe
+(l'algorithme retient la date la plus tardive *citée* dans `validite:`, y compris quand cette
+date sert désormais à dire explicitement qu'elle est dépassée et non confirmée : un faux
+positif mécanique, pas une alerte de fond — voir ci-dessous). Le point réel que ce contrôle
+visait (une échéance passée sous silence) est résolu sur les deux fiches.
 
-Ce défaut de `parse_alerte()` affecte probablement aussi d'autres champs multi-lignes
-(`itin`, `statut`, `sev`) sur d'autres fiches non touchées ici : signalé pour information,
-correctif de code hors périmètre de cet agent.
+## PASS motivés sans correction
 
-Aucune autre fiche du lot ne présentait de correction relevant du périmètre du vérificateur
-(pas de « Portion concernée » figée sur un état antérieur alors que `statut:`/« Zone » étaient
-à jour, pas de `statut:` empilé en journal à raccourcir).
+### Alertes ROUGE fondées sur un arrêté daté (règle des 14 jours non applicable)
 
-## Contrôles — résultat par fiche
+L'audit signale ces 5 alertes HAUTE pour une source « vieillie » (12 à 32 jours). Dans les
+5 cas, la « Portion concernée » ne repose pas sur un « à confirmer »/« probable »/« non
+localisé »/« recoupement en cours » (le déclencheur de la règle des 14 jours), mais sur un
+acte officiel daté, republié et reconfirmé par une recherche ciblée directe le jour même
+(22/09) par l'agent de veille, exactement comme le prescrit agent-prompt.md pour ce cas de
+figure. Source vivante vérifiée pour chacune (voir tableau) :
 
-Note méthodologique sur le contrôle 5 (sévérité) : quatre alertes rouges reposent sur une
-source vieille de 19 à 30 jours (constat « source vieillie », contrôle 4 du script). Les
-quatre documentent déjà, noir sur blanc dans leur propre `statut:`, une recherche ciblée de
-l'acte manquant datée du jour même (20/09) et le fait que leur sévérité HAUTE repose sur un
-**acte officiel daté et confirmé** (arrêté municipal ou préfectoral republié), pas sur une
-hypothèse en attente de recoupement — donc hors du champ de la règle des 14 jours, qui ne vise
-que les portions encore accrochées à « à confirmer »/« probable »/« non localisé ». Vérifié
-fiche par fiche avant de conclure : aucune dégradation à appliquer ni à recommander sur ce
-point ; seule la fraîcheur de la source reste, structurellement, un point de vigilance pour
-le prochain passage (hors périmètre : nécessite une source nouvelle).
+- `incendie\|Ariege-Bordes-Uchentein\|GR10-ferme-Esbintz-Valier\|2026-07-10` — arrêté
+  préfectoral du 31/08/2026 (Bordes-Uchentein), source PDF confirmée en ligne et conforme.
+- `incendie\|Drome-Justin-Die\|foret-fermee\|2026-07-02` — arrêté préfectoral du 21/08/2026
+  (relayé par mairie-die.fr), page confirmée en ligne, interdiction toujours présentée comme
+  en vigueur.
+- `incendie\|HautesAlpes-BoisNoir\|GR54A-ferme-Argentiere-Freissinieres\|2026-07-19` — arrêté
+  municipal du 15/08/2026 (ville-argentiere.fr), page confirmée en ligne, mesure toujours
+  présentée comme active.
+- `incendie\|Pyrenees-Atlantiques-Etsaut\|feu-pas-ourtasse-gr10-evacuation\|2026-09-02` —
+  source à 12 jours seulement (sous le seuil de 14 j de toute façon), article du 10/09
+  confirmé en ligne, accès au sol toujours donné strictement interdit.
+- `fermeture\|FR-Baronnies-GR9\|arretes-municipaux\|2026-07-07` — liste de référence du PNR
+  Baronnies Provençales (MAJ 01/09), page confirmée en ligne, 12 communes toujours nommées
+  avec arrêté daté individuel.
 
-| Clé | 1 Fraîcheur | 2 Concordance | 3 Honnêteté | 4 Pertinence | 5 Sévérité | 6 Ton | 7 Source vivante | Verdict |
-|---|---|---|---|---|---|---|---|---|
-| `conditions\|IS-Hautes-Terres\|traversee-deconseillee-fimmvorduhals-glacier\|2026-08-25` | FAIL (jamais revérifiée, 8 j) | PASS | PASS | PASS | PASS (MOYENNE) | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `crue\|Écrins-GR54\|sentiers-refuges-endommages-crues-27-28-aout\|2026-08-27` | PASS (verif 20/09, aujourd'hui) | PASS | PASS | PASS (dégâts réels non résorbés, route non reconstruite : alerte toujours pertinente) | PASS (MOYENNE) | PASS | non rouge, non contrôlée | **Corrigé** (`validite:`) |
-| `eboulement\|IT-Dolomites-BorcaDiCadore\|frana-passo-staulanza-route-rifugio-citta-di-fiume\|2026-09-10` | FAIL (jamais revérifiée, 8 j) | PASS | PASS | PASS | PASS (MOYENNE) | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `fermeture\|CH-EST-Kandersteg\|Spitze-Stei-deviation-seg-1.13\|2023-05-08` | FAIL (jamais revérifiée, 12 j) | PASS | PASS | PASS (déviation stable, 3 ans) | PASS (INFO) | PASS | non contrôlée (INFO) | **À traiter au prochain run** |
-| `fermeture\|FR-Baronnies-GR9\|arretes-municipaux\|2026-07-07` | PASS (verif 20/09) | PASS | PASS | PASS (12 communes actives, arrêtés datés) | PASS — fondement = arrêtés municipaux datés, recherche du 20/09 documentée dans `statut:`, hors règle des 14 j | PASS | vérifiée par lecture : liste PNR au 01/09 citée nommément, cohérente | **PASS** — source vieillie signalée, non corrigible sans recherche nouvelle |
-| `fermeture\|IT-Centre-Carrara\|via-francigena-nazzano-bonascola-frana\|2024` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS (source unique assumée) | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `fermeture\|IT-DOLOMITES-Brenta\|Cima-Falkner-Bocchette-sentieri-chiusi\|2025-07` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `fermeture\|IT-Dolomites-Pelmo\|frana-versante-nordovest-borca-di-cadore\|2026-08-10` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `fermeture\|IT-Liguria-CinqueTerre\|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso\|2026-09-10` | FAIL (jamais revérifiée, 8 j) | PASS | PASS | PASS | PASS (MOYENNE) | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `fermetures-sentiers\|Réunion-974\|AP-2026-693\|2026-05-21` | PASS (verif 20/09) | PASS | PASS (lecture intégrale de l'arrêté 1617 documentée) | PASS | PASS (HAUTE, texte officiel lu en entier) | FAIL → **corrigé** | vérifiée : PDF de l'arrêté 1617 cité et lu en entier | **Corrigé** (jargon) |
-| `incendie\|Ariege-Bordes-Uchentein\|GR10-ferme-Esbintz-Valier\|2026-07-10` | PASS (verif 20/09) | PASS | PASS | PASS | PASS — fondement = arrêté du 31/08, recherche du 20/09 documentée, hors règle des 14 j | PASS | vérifiée par lecture : arrêté du 31/08 cité, cohérent | **PASS** — source vieillie signalée, non corrigible sans recherche nouvelle |
-| `incendie\|Corse-Calvi\|feu-aeroport-D81-28ha\|2026-09-17` | PASS (verif 20/09) | PASS | PASS | FAIL faible (feu fixé, D81/aéroport rouverts le jour même, aucun sentier jamais fermé : la fiche le dit elle-même « à reconfirmer avant clôture ») | PASS (INFO) | PASS | non rouge (INFO), non contrôlée | **Corrigé** (`validite:`) + recommandation ci-dessous |
-| `incendie\|Drome-Justin-Die\|foret-fermee\|2026-07-02` | PASS (verif 20/09) | PASS | PASS | PASS | PASS — fondement = arrêté du 21/08 (abroge celui du 24/07), recherche du 20/09 documentée, hors règle des 14 j | PASS | vérifiée par lecture : arrêté du 21/08 cité, cohérent | **PASS** — source vieillie signalée, non corrigible sans recherche nouvelle |
-| `incendie\|ES-AND-Benahavis\|feu-actif-confinement-9500-habitants\|2026-09-13` | PASS (verif 20/09) | PASS | PASS | FAIL faible (contrôlé depuis le 17/09, plus aucun évacué, aucune fermeture de sentier jamais documentée) | PASS (déjà dégradée HAUTE→MOYENNE le 18/09) | PASS | non rouge (MOYENNE), non contrôlée | **Corrigé** (`validite:`) + recommandation ci-dessous |
-| `incendie\|ES-ARA-Huesca-Riglos\|feu-camino-aragones-monastere-san-juan-de-la-pena-fermee\|2026-08-10` | PASS (verif 18/09, restitué) | PASS | PASS (dit explicitement que rien ne documente la réouverture de la route/du monastère) | PASS (3 points non confirmés : alerte reste pertinente) | PASS (MOYENNE) | PASS | non rouge, non contrôlée | **Corrigé** (`validite:`) |
-| `incendie\|HautesAlpes-BoisNoir\|GR54A-ferme-Argentiere-Freissinieres\|2026-07-19` | PASS (verif 20/09) | PASS | PASS | PASS | PASS — fondement = arrêté municipal du 15/08 republié et confirmé, recherche du 20/09 documentée, hors règle des 14 j | PASS | vérifiée par lecture : page mairie de L'Argentière-la-Bessée citée, cohérente | **PASS** — source vieillie signalée, non corrigible sans recherche nouvelle |
-| `incendie\|IT-NO-Biellese\|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio\|2026-08-03` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `incendie\|IT-ValGrande\|interdiction-acces-sentiers-parc\|2026-07-10` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `reroutage\|Lot-Cieurac-Flaujac-Poujols\|GR65-devie-incendie\|2026-07-25` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `reroutage\|Pierrefiques-76\|déviation\|2025-05-18` | PASS (verif 20/09) | PASS | PASS (dit explicitement que rien ne confirme la fin de chantier) | PASS | PASS (MOYENNE) | FAIL → **corrigé** | non rouge, non contrôlée | **Corrigé** (jargon) |
-| `reroutage\|VF-Lazio-Prato-La-Corte\|frana-deviation\|2026-01-30` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `risque-feu\|FR-Landes-Gironde\|vigilance-rouge-bivouac-interdit\|2026-07-21` | PASS (verif 18/09, restitué) | PASS | PASS (dit explicitement que le statut du GR®8 dans le secteur brûlé n'est pas confirmé) | PASS | PASS (MOYENNE Gironde / MOYENNE Landes en orange) | PASS | non rouge, non contrôlée | **Corrigé** (`validite:`) |
-| `terrain\|IS-HautesTerres\|Fimmvorduhals-recul-glaciaire-crevasses\|2026-08` | FAIL (15 j, seuil 12 j, MOYENNE) | PASS | PASS | PASS | PASS | PASS | non rouge, non contrôlée | **À traiter au prochain run** |
-| `incendie\|ES-CENTRO-Guadalajara-LaMierla\|feu-record-32000ha\|2026-07-16` | PASS (verif 20/09) | PASS | PASS | PASS (2 tronçons GR® réellement fermés, balisage détruit) | PASS (HAUTE, fait établi) | FAIL → **corrigé** | vérifiée par lecture : avis de fermeture GR®167/GR®10-ES cités et datés | **Corrigé** (jargon) |
+### Faux positifs de l'audit déterministe (contrôle 3, validité)
 
-## Recommandations (non appliquées, à la main de l'agent de veille)
+Ces 4 fiches sont signalées pour une « validité qui s'arrête au 18/09/2026, désormais
+passé », mais l'examen montre qu'il s'agit d'un artefact du script : il retient la date la
+plus tardive *citée* dans le champ `validite:`, qu'elle décrive une échéance réelle ou
+simplement la date de la dernière vérification. Dans les 4 cas, le texte est déjà honnête et
+à jour, sans échéance réellement dépassée passée sous silence : aucune correction nécessaire.
 
-- `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17` — sev INFO, feu fixé le 17/09, D81
-  et aéroport rouverts le jour même, aucune fermeture de sentier jamais documentée par aucune
-  des 6 sources consultées : candidate à la clôture dès la prochaine confirmation (la fiche
-  le dit elle-même : « à reconfirmer avant clôture, sur le modèle des feux mineurs déjà
-  clôturés cet été sur ce secteur »). Contrôle PERTINENCE en FAIL faible ; je ne clôture pas
-  moi-même (hors périmètre, pas de nouvelle source consultée par ce vérificateur).
-- `incendie|ES-AND-Benahavis|feu-actif-confinement-9500-habitants|2026-09-13` — sev MOYENNE,
-  feu contrôlé depuis le 17/09, plus aucun évacué depuis le 15/09, aucune fermeture de
-  sentier jamais documentée : à reconfirmer l'extinction totale (plan Infoca) au prochain
-  passage sur la zone Andalousie, pour clôture ou dégradation en INFO.
-- Les 4 alertes rouges en escalade (Baronnies-GR9, Ariège-Bordes-Uchentein, Drôme-Justin-Die,
-  Hautes-Alpes-Bois-Noir) : rien à corriger sur la forme, mais la fraîcheur de la source
-  reste un point de vigilance structurel — chacune mérite une tentative de recoupement sur
-  un canal plus rapide que le silence des sites officiels (recueil des actes administratifs,
-  presse locale) au prochain passage, comme le fait déjà chaque fiche depuis plusieurs jours.
+- `incendie\|ES-ARA-Huesca-Riglos\|...` — le 18/09 cité est la date de la dernière
+  vérification, pas une échéance ; la fiche dit déjà explicitement que l'échéance réelle
+  (15/09, réouverture de la route A-1603) est dépassée sans confirmation.
+- `incendie\|ES-GAL-Quiroga\|...` — le 18/09 cité est la date à laquelle le feu a été
+  déclaré « contrôlé », pas une échéance de fermeture.
+- `reroutage\|Pierrefiques-76\|déviation\|2025-05-18` — `validite:` dit déjà noir sur blanc
+  « échéance atteinte sans confirmation de réouverture ».
+- `risque-feu\|FR-Landes-Gironde\|...` — le 18/09 cité est la date de la dernière
+  vérification de la fiche, pas une échéance ; le niveau de vigilance en vigueur (JAUNE
+  Gironde, ORANGE Landes) est suivi et daté correctement.
 
-## À traiter au prochain run (nécessite une source nouvelle, hors périmètre de cet agent)
+## Actions laissées à l'agent de veille (nécessitent une source nouvelle, hors périmètre)
 
-1. `conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25` —
-   jamais revérifiée depuis la détection (8 j) : revisiter safetravel.is.
-2. `terrain|IS-HautesTerres|Fimmvorduhals-recul-glaciaire-crevasses|2026-08` — vérifiée il y a
-   15 j (seuil 12 j) : revisiter safetravel.is / Iceland Review. Ces deux fiches (1 et 2)
-   couvrent le même secteur et le même risque (recul glaciaire, Fimmvörðuháls) sous deux clés
-   distinctes : à recouper par l'agent de veille, un doublon thématique est probable.
-3. `eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`
-   — jamais revérifiée (8 j) : revisiter la presse locale (ladige.it, Radio Cortina).
-4. `fermeture|CH-EST-Kandersteg|Spitze-Stei-deviation-seg-1.13|2023-05-08` — jamais revérifiée
-   (12 j) : revisiter le flux data.geo.admin.ch (id 2596765).
-5. `fermeture|IT-Centre-Carrara|via-francigena-nazzano-bonascola-frana|2024` — vérifiée il y a
-   15 j : revisiter La Voce Apuana ou une source municipale de Carrara (source unique à ce
-   jour).
-6. `fermeture|IT-DOLOMITES-Brenta|Cima-Falkner-Bocchette-sentieri-chiusi|2025-07` — vérifiée il
-   y a 15 j : revisiter sat.tn.it.
-7. `fermeture|IT-Dolomites-Pelmo|frana-versante-nordovest-borca-di-cadore|2026-08-10` —
-   vérifiée il y a 15 j : revisiter il Dolomiti / Corriere delle Alpi.
-8. `fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10`
-   — jamais revérifiée (8 j) : revisiter parks.it.
-9. `incendie|IT-NO-Biellese|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio|2026-08-03` —
-   vérifiée il y a 15 j : revisiter la presse locale (Valsesianotizie, Newsbiella).
-10. `incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10` — vérifiée il y a 15 j :
-    revisiter parcovalgrande.it/nov.php (4 fermetures distinctes à recouper).
-11. `reroutage|Lot-Cieurac-Flaujac-Poujols|GR65-devie-incendie|2026-07-25` — vérifiée il y a
-    15 j : revisiter ffrandonnee.fr / mairies de Limogne-en-Quercy et Flaujac-Poujols.
-12. `reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30` — vérifiée il y a 15 j :
-    revisiter parcodiveio.it.
+Toutes en FRAÎCHEUR FAIL (contrôle 1) : la seule correction possible exige une vérification
+de source que ce rôle n'est pas autorisé à faire. Zones CH-EST hors périmètre du run du jour
+(rotation T2/T3, signalées explicitement par l'agent de veille) ; les autres nécessitent
+simplement une lecture ciblée de la source déjà citée au prochain passage sur leur zone.
 
-## Build et audit après corrections
+| Clé | Constat | Action attendue |
+|---|---|---|
+| `fermeture\|CH-EST-Frutigen\|Kander-Uferweg-impraticable\|2026-08-17` | vérifiée il y a 14 j | rechecker le CSV officiel (id 2600749) |
+| `fermeture\|CH-EST-Kandersteg\|Spitze-Stei-deviation-seg-1.13\|2023-05-08` | jamais revérifiée depuis 14 j | rechecker le CSV officiel (id 2596765) |
+| `fermeture\|CH-EST-Trubbach\|fermeture-deviation-seg-1.1\|2026-05-26` | vérifiée il y a 14 j | rechecker le CSV officiel (id 2596318) |
+| `conditions\|IS-Hautes-Terres\|traversee-deconseillee-fimmvorduhals-glacier\|2026-08-25` | jamais revérifiée depuis 10 j | rechecker safetravel.is |
+| `terrain\|IS-HautesTerres\|Fimmvorduhals-recul-glaciaire-crevasses\|2026-08` | vérifiée il y a 17 j | rechecker safetravel.is / Iceland Review. **Point de vigilance : cette fiche et la précédente (`conditions\|IS-Hautes-Terres\|...`) documentent la même situation (recul glaciaire, secteur Fimmvörðuháls) sous deux clés distinctes** ; à recouper et, le cas échéant, à fusionner au prochain passage sur la zone plutôt qu'à maintenir séparées — hors périmètre de correction de ce rôle. |
+| `eboulement\|IT-Dolomites-BorcaDiCadore\|frana-passo-staulanza-route-rifugio-citta-di-fiume\|2026-09-10` | jamais revérifiée depuis 10 j | rechecker l'état de la route/du parking |
+| `fermeture\|GR-E4-Creta-Samaria\|fermetures-meteo-repetees\|2026-07-16` | vérifiée il y a 4 j (seuil 2 j, décision au jour le jour) | rechecker samaria.gr |
+| `fermeture\|IT-Centre-Carrara\|via-francigena-nazzano-bonascola-frana\|2024` | vérifiée il y a 17 j | rechecker la presse locale (La Voce Apuana) |
+| `fermeture\|IT-DOLOMITES-Brenta\|Cima-Falkner-Bocchette-sentieri-chiusi\|2025-07` | vérifiée il y a 17 j | rechecker la page SAT |
+| `fermeture\|IT-Dolomites-Pelmo\|frana-versante-nordovest-borca-di-cadore\|2026-08-10` | vérifiée il y a 17 j | rechecker la presse (il Dolomiti, La Adige) |
+| `fermeture\|IT-Liguria-CinqueTerre\|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso\|2026-09-10` | jamais revérifiée depuis 10 j | rechecker parks.it |
+| `incendie\|IT-NO-Biellese-Valsessera\|Monte-Barone-...\|2026-08-03` | vérifiée il y a 17 j | rechecker l'ordonnance du comune di Coggiola |
+| `incendie\|IT-ValGrande\|interdiction-acces-sentiers-parc\|2026-07-10` | vérifiée il y a 17 j | rechecker parcovalgrande.it (4 fermetures distinctes) |
+| `refuge\|IT-Dolomites-Friuli-Cimoliana\|bivacco-gervasutti-amianto-inagibile\|2026-09-09` | jamais revérifiée depuis 8 j | rechecker CAI Cervignano |
+| `reroutage\|Lot-Cieurac-Flaujac-Poujols\|GR65-devie-incendie\|2026-07-25` | vérifiée il y a 17 j | rechecker FFRandonnée / mairies de Limogne-en-Quercy |
+| `reroutage\|VF-Lazio-Prato-La-Corte\|frana-deviation\|2026-01-30` | vérifiée il y a 17 j | rechecker parcodiveio.it |
 
-- `python3 site/build_site.py` → `OK (QA passée)` (96 actives, 32 clôturées, 128 fichiers).
-- `python3 site/audit_qualite.py --ecrire` → 16 constats, **0 bloquant** (contre 24 constats,
-  0 bloquant au départ) : les 8 constats résolus sont exactement les 8 fiches corrigées
-  ci-dessus. Les 16 constats restants demandent tous une source nouvelle (hors périmètre) ou
-  sont déjà documentés en clair par la fiche elle-même (source vieillie sur alerte rouge
-  fondée sur un acte daté).
-- Garde-fou anti-corruption (perte de texte > 45 % sur une fiche) : non déclenché sur les 8
-  fiches modifiées.
+## Statut final
 
-**24 fiches contrôlées, 8 corrections appliquées (3 jargon de ton, 5 champs `validite:`),
-2 recommandations motivées non appliquées (Corse-Calvi, ES-AND-Benahavis), 4 faux signaux de
-« source vieillie » sur alertes rouges confirmés comme non dégradables (fondement = actes
-datés, hors règle des 14 jours), 12 actions renvoyées à la veille faute de source nouvelle
-disponible sans recherche en ligne. Un défaut de lecture multi-lignes du frontmatter
-(`parse_alerte()`) a été identifié comme cause commune des 5 corrections de `validite:` et
-signalé pour un correctif de code ultérieur, hors périmètre de cet agent.**
-
-VERIFICATEUR QUALITE COMPLETE
+`python3 site/build_site.py` → OK (QA passée). `python3 site/audit_qualite.py` → 0 bloquant
+sur l'ensemble du registre (inchangé par rapport à avant ce passage). Aucune fiche supprimée,
+aucune sévérité dégradée ou remontée d'autorité, aucune fiche hors de la liste de travail de
+l'audit n'a été touchée.
