@@ -1,11 +1,11 @@
 ---
 cle: accès|Calanques-13|risque-feu-4couleurs|2026-06-01
 type: accès / risque feu
-itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
+itin: GR®98 (Calanques Marseille-Cassis) — refemé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 15/09
 detection: 2026-06-01
-verif: 2026-09-20
+verif: 2026-09-22
 statut: ACTIF — INCHANGÉ 20/09 : cg13.eway.fr relu directement ce run (WebFetch de nouveau
   disponible), prévision du 20-09-2026 : vert intégral confirmé sur les 7 massifs suivis
   (Calanques Marseille-Cassis, Côte Bleue, Sainte-Victoire, Concors, Sainte-Baume, Arbois,
