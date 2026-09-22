@@ -5,7 +5,7 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: MOYENNE (source de presse unique pour le retour en vigilance rouge du 14/09 ; une seconde source ou un acte officiel serait nécessaire pour repasser en HAUTE)
 validite: accès aux massifs réglementé selon le niveau de risque quotidien, restrictions prolongées jusqu'au 25/09/2026 ; usage du feu par les particuliers interdit jusqu'au 01/10/2026 ; écobuage agricole reporté au 30/09/2026 (préfecture des Pyrénées-Orientales citée par mawebtv.fr, 16/09/2026) ; le secteur du Roussillon est par ailleurs repassé en vigilance rouge le lundi 14/09/2026 selon une source de presse (accès aux massifs forestiers interdit, tout emploi du feu interdit), non corroborée par un acte préfectoral ni une seconde source indépendante ; statut des 8 autres massifs non tranché par cette même source
 detection: 2026-07-27
-verif: 2026-09-21
+verif: 2026-09-22
 statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, feuxdeforet.fr (20/09) confirme que
   Météo-France maintient les Pyrénées-Orientales en risque « très élevé » (rouge) aux côtés de
   l'Aude et du Gard pour le 20-21/09, mais sans nommer de massif ni confirmer une fermeture
