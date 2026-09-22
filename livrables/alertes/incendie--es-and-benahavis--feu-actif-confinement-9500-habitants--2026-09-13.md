@@ -8,8 +8,8 @@ itin: GR®249 Gran Senda de Málaga [HYPOTHÈSE] le feu progresse vers Pujerra, 
 sev: MOYENNE
 validite: contrôlé (controlado) depuis 19h00 le jeudi 17/09/2026 selon le plan Infoca, périmètre entièrement ceinturé par une ligne de contrôle, quelques points chauds résiduels possibles à l'intérieur ; extinction totale non encore annoncée, plus de 300 hectares parcourus, moyens réduits à trois brigades de pompiers forestiers, deux camions-citernes et deux agents environnementaux ; aucun élément nouveau à la vérification du 20/09/2026
 detection: 2026-09-13
-verif: 2026-09-21
-statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucune source plus récente que le
+verif: 2026-09-22
+statut: ACTIF — INCHANGÉ 22/09 : nouvelle recherche, aucune source plus récente que le
   contrôle du 17/09 (19h00) retrouvée ; extinction totale toujours non annoncée. Aucune
   fermeture de sentier documentée. Sévérité maintenue MOYENNE.
 ordre: 230

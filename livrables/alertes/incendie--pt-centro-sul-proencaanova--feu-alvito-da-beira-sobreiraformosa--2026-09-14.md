@@ -9,10 +9,11 @@ validite: les deux foyers (Alvito da Beira et Atalaia) sont passés au statut «
   (surveillance, l'échelon le plus bas encore suivi) selon l'API officielle
   api.fogos.pt, interrogée le 18/09/2026 ; non encore déclarés éteints
 detection: 2026-09-14
-verif: 2026-09-21
-statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucune source postérieure au point du
-  18/09 (statut « Vigilância » pour les deux foyers) retrouvée. Aucune déclaration
-  d'extinction officielle ni fermeture de sentier documentée. Sévérité maintenue MOYENNE.
+verif: 2026-09-22
+statut: ACTIF — INCHANGÉ 22/09 : nouvelle recherche (situation Alentejo/Portel, api.fogos.pt),
+  aucune source postérieure au point du 18/09 (statut « Vigilância » pour les deux foyers)
+  retrouvée pour Alvito da Beira/Atalaia. Aucune déclaration d'extinction officielle ni
+  fermeture de sentier documentée. Sévérité maintenue MOYENNE.
 ordre: 234
 ---
 

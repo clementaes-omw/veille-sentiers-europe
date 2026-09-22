@@ -5,7 +5,7 @@ itin: GR®51 & GR®98 (Estérel) ; GR®51 & GR®90 (Maures) ; GR®9/GR®51 (Sain
 sev: MOYENNE (aucun massif fermé depuis le 19/08)
 validite: journalière ; aucun massif fermé au 21/09 (dernière donnée confirmée), 3 en orange (Centre-Var, Estérel, Maures), les 6 autres (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Haut-Var, Sainte-Baume, plateau de Canjuers) en modéré, situation à reconfirmer chaque soir avant 19h sur var.gouv.fr
 detection: 2026-07-09
-verif: 2026-09-21
+verif: 2026-09-22
 statut: ACTIF — CHANGÉ 21/09 : léger regain, trois massifs classés sévère (orange) contre deux
   la veille, l'Estérel rejoignant Centre-Var et Maures. Aucun massif fermé/rouge depuis le
   19/08. Sévérité maintenue MOYENNE. Source de presse (varactu.fr), datée du jour même.
