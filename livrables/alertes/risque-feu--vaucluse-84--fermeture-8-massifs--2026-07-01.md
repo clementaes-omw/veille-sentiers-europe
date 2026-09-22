@@ -5,8 +5,8 @@ itin: GR®9 (Dentelles de Montmirail) — statut non tranché depuis le 18/08 ; 
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien, publication reprise le 02/09 après 16 jours de silence ; un seul massif nommé pour le 03/09/2026, la Vallée du Rhône
 detection: 2026-07-18
-verif: 2026-09-21
-statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, toujours aucun communiqué massifs
+verif: 2026-09-22
+statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, toujours aucun communiqué
   vaucluse.gouv.fr postérieur à celui du 02/09 (Vallée du Rhône) retrouvé. Le seul massif
   nommément fermé par un acte daté officiel reste la Vallée du Rhône, sévérité maintenue
   HAUTE sur cette base.
