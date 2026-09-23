@@ -5,10 +5,9 @@ itin: GR®56 / GR®52-GTM / GR®5
 sev: MOYENNE
 validite: durable/saisonnier selon les tronçons (déviation Cimet et fermeture hivernale Sallevieille pérennes ; les secteurs ajoutés le 10/08 et le 22/08 n'ont pas d'échéance de fin annoncée) ; page parc mise à jour le 22/08/2026
 detection: 2026-07-02
-verif: 2026-09-20
-statut: ACTIF — INCHANGÉ 20/09 : mercantour-parcnational.fr relu directement (WebFetch de
-  nouveau disponible), page toujours datée du 22/08/2026, aucun changement de fond ni nouveau
-  secteur signalé.
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : mercantour-parcnational.fr relu directement, page toujours
+  datée du 22/08/2026, aucun changement de fond ni nouveau secteur signalé.
 ordre: 13
 ---
 
@@ -43,6 +42,8 @@ MAJ 14/09 : mercantour-parcnational.fr relu en direct, page toujours datée du 2
 MAJ 18/09 : lecture directe impossible le 18/09 (WebFetch indisponible, panne du proxy réseau, erreurs 503 systématiques constatées même sur des sites de test hors périmètre). Aucun changement n'a été trouvé par recherche web de contournement ; dernière donnée sûre inchangée, page datée du 22/08/2026.
 
 MAJ 20/09 : mercantour-parcnational.fr relu directement, page toujours datée du 22/08/2026, aucun changement de fond ni nouveau secteur signalé.
+
+MAJ 23/09 : mercantour-parcnational.fr relu directement, page toujours datée du 22/08/2026, aucun changement de fond ni nouveau secteur signalé.
 
 ## Source
 

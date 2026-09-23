@@ -5,11 +5,10 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; nouvelle fermeture programmée sur la Piste des Merveilles (Tende), du 29/09 au 30/10/2026 ; page FFRando 06 mise à jour au 12/09/2026
 detection: 2026-08-01
-verif: 2026-09-20
-statut: ACTIF — INCHANGÉ 20/09 : page FFRando 06 relue directement (WebFetch de nouveau
-  disponible), toujours datée du 12/09/2026, aucune fermeture nouvelle ni levée. GR®510,
-  GR®52-GTM, GR®52A (dont la Piste des Merveilles depuis le 12/09) et GR®5 inchangés ; GR®51,
-  GR®4 et GR®653A restent « Néant ».
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : page FFRando 06 relue directement, toujours datée du
+  12/09/2026, aucune fermeture nouvelle ni levée. GR®510, GR®52-GTM, GR®52A (dont la Piste des
+  Merveilles depuis le 12/09) et GR®5 inchangés ; GR®51, GR®4 et GR®653A restent « Néant ».
 ordre: 64
 ---
 
@@ -38,6 +37,8 @@ MAJ 16/09 : la page FFRando 06 (mise à jour au 12/09/2026) porte désormais une
 MAJ 18/09 : la page FFRando 06 n'a pas pu être relue directement le 18/09 (WebFetch indisponible, panne du proxy réseau, erreurs 503 systématiques constatées y compris sur des sites hors périmètre de test). Une recherche web de contournement ne fait apparaître aucun élément contredisant l'état déjà connu (GR®510, GR®52-GTM, GR®52A avec la Piste des Merveilles depuis le 12/09, GR®5) ; à relire directement lors d'une prochaine vérification.
 
 MAJ 20/09 : page FFRando 06 relue directement, toujours datée du 12/09/2026, aucune fermeture nouvelle ni levée depuis 8 jours. Fermetures inchangées sur GR®510, GR®52-GTM, GR®52A et GR®5 ; GR®51, GR®4 et GR®653A restent « Néant ».
+
+MAJ 23/09 : page FFRando 06 relue directement, toujours datée du 12/09/2026, aucune fermeture nouvelle ni levée depuis 11 jours. Fermetures inchangées sur GR®510, GR®52-GTM, GR®52A et GR®5 ; GR®51, GR®4 et GR®653A restent « Néant ».
 
 ## Source
 
