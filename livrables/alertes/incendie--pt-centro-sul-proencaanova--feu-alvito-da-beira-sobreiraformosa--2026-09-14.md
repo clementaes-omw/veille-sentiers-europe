@@ -1,5 +1,6 @@
 ---
 cle: incendie|PT-CENTRO-SUL-ProencaANova|feu-alvito-da-beira-sobreiraformosa|2026-09-14
+type: incendie
 itin: Rota das Aldeias do Xisto (Aldeia do Xisto da Figueira, Proença-a-Nova) et Grande Rota
   da Cortiçada — [HYPOTHÈSE] proximité géographique avec le secteur du feu, aucune fermeture
   de tronçon confirmée par une source à ce jour
