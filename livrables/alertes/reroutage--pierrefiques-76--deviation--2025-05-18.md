@@ -5,11 +5,11 @@ itin: GR®21
 sev: MOYENNE
 validite: annoncée jusqu'au 18/09/2026 ; échéance atteinte sans confirmation de réouverture
 detection: 2025-05-18
-verif: 2026-09-20
-statut: ACTIF — INCHANGÉ 20/09 : l'échéance du 18/09 annoncée par les sources existantes
-  est désormais dépassée, aucune source (FFRando Seine-Maritime, mairie de Pierrefiques)
-  ne confirme la réouverture ni la fin des travaux. Déviation maintenue par prudence en
-  l'absence de signal contraire.
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, aucune source (FFRando Seine-Maritime,
+  mairie de Pierrefiques) ne confirme encore la réouverture ni la fin des travaux, cinq jours
+  après l'échéance annoncée du 18/09. Déviation maintenue par prudence en l'absence de signal
+  contraire.
 ordre: 4
 ---
 

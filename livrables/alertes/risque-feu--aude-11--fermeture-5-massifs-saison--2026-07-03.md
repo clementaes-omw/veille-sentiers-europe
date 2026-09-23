@@ -7,12 +7,13 @@ validite: Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise, îl
   lac de la Cavayre : fermeture prolongée jusqu'au 30/09/2026 (aude.gouv.fr, mise à jour du
   11/09/2026) ; Ribaute jusqu'à levée de l'arrêté préfectoral
 detection: 2026-07-06
-verif: 2026-09-22
-statut: ACTIF — INCHANGÉ 21/09 : aude.gouv.fr « FERMETURE DES MASSIFS 2026 » relu directement,
-  toujours daté de sa mise à jour du 11/09/2026, prolongation jusqu'au 30/09/2026 inchangée
-  pour Fontfroide, les Pinèdes de Crémade, la Clape, la Pinède Lézignanaise, l'île Sainte-Lucie
-  et le lac de la Cavayre. La zone brûlée de Ribaute reste fermée jusqu'à levée de l'arrêté
-  préfectoral, sans changement.
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : l'Aude reste citée en vigilance rouge/orange incendie par la
+  presse régionale (France 3 Occitanie, titrespresse.com, 21-22/09) aux côtés du Gard et des
+  Pyrénées-Orientales, sans nouveau texte nommant un massif distinct de ceux déjà suivis ici.
+  La prolongation du 11/09/2026 (jusqu'au 30/09/2026) reste la dernière donnée officielle
+  connue pour Fontfroide, les Pinèdes de Crémade, la Clape, la Pinède Lézignanaise, l'île
+  Sainte-Lucie et le lac de la Cavayre.
 ordre: 17
 ---
 

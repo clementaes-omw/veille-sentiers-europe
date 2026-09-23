@@ -5,12 +5,12 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-22
-statut: ACTIF — INCHANGÉ 20/09 : haute-corse.gouv.fr relu directement (WebFetch de nouveau
-  disponible), toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate), aucun
-  acte plus récent trouvé. Aucun nouveau feu de sentier suivi trouvé pour le 19-20/09 (un
-  incendie de trois véhicules à Ghisonaccia dans la nuit du 18 au 19/09 est un fait divers
-  urbain, sans lien avec un massif ou un sentier). Interdiction générale de feu (15/06→30/09)
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : haute-corse.gouv.fr relu directement, toujours calé sur
+  l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate) pour la référence la plus récente
+  trouvée, aucun acte plus récent localisé. Recherche générale sur les feux corses du jour
+  (corsenetinfos.corsica, France 3 Corse) : aucun nouveau départ ni reprise sur les secteurs
+  déjà suivis (Albertacce, Calenzana, Calvi). Interdiction générale de feu (15/06→30/09)
   toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
@@ -60,6 +60,8 @@ MAJ 10/09 : France 3 Corse (09/09/2026) rapporte la Corse-du-Sud classée en ris
 MAJ 14/09 : haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate), aucun acte plus récent trouvé. Un feu de maquis s'est déclaré le dimanche 13/09/2026 vers 14h30 sur la route de Lava, à Appietto (Corse-du-Sud, secteur d'Ajaccio) : environ 80 hectares de petit et moyen maquis parcourus, feu fixé le soir même vers 19h30 après l'engagement de 62 sapeurs-pompiers, 14 camions, 2 Canadair et 2 hélicoptères bombardiers d'eau. Un vent soutenu a compliqué l'intervention, des habitations se trouvaient dans la trajectoire de propagation, trois pompiers ont subi des blessures légères. Les routes D81, du village d'Appietto et de Lava ont été fermées le temps de l'intervention. Aucune mention de fermeture de sentier ni de proximité avec un itinéraire suivi (Appietto est en façade ouest, hors GR®20/Mare a Mare/Mare e Monti).
 
 MAJ 18/09 : un nouveau feu s'est déclaré le jeudi 17/09/2026 vers 13h20 sur la route de l'aéroport de Calvi (D81), entre les lieux-dits la Signoria et la Sablière, secteur Calvi-Calenzana (Haute-Corse). Il a parcouru environ 28 hectares avant d'être fixé en fin d'après-midi, coupant temporairement la D81 et interrompant le trafic aérien de l'aéroport de Calvi-Sainte-Catherine pendant environ 3 heures. Aucune fermeture de sentier documentée (détail complet dans la fiche dédiée `incendie|Corse-Calvi|feu-aeroport-D81-28ha|2026-09-17`). Recherche par ailleurs sur haute-corse.gouv.fr non aboutie le 18/09 (WebFetch indisponible, erreurs 503 sur le proxy réseau, y compris sur des sites de test hors périmètre corse) : contournement par recherche web appliqué, aucun acte plus récent que celui du 19/08/2026 trouvé pour le reste de l'île.
+
+MAJ 23/09 : haute-corse.gouv.fr relu en direct, la référence la plus récente reste l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate). Le feu de la route de l'aéroport de Calvi du 17/09 (fiche dédiée) est clôturé ce jour, aucune reprise après 6 jours de vérification. Aucun nouveau départ de feu trouvé pour le 21-23/09 sur les secteurs suivis (Albertacce/Niolu, Calenzana/Montegrosso).
 
 ## Source
 

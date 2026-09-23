@@ -4,13 +4,12 @@ type: crue / conditions sentiers
 itin: GR®54 (Tour de l'Oisans et des Écrins) — plusieurs tronçons endommagés, praticables avec
   déviation ou passage à gué ; GR®54B (variante col de Romeïou) remise en état
 sev: MOYENNE
-validite: dégâts constatés depuis les crues du 27-28/08/2026, réparations en cours vallée par vallée sans échéance de fin annoncée ; la route d'Ailefroide au Pré de Madame Carle (accès Glacier Blanc, hors tracé GR®54 lui-même) ne sera pas reconstruite, situation durable ; aucune source postérieure au 07/09/2026 retrouvée à la vérification du 20/09/2026
+validite: dégâts constatés depuis les crues du 27-28/08/2026, réparations en cours vallée par vallée sans échéance de fin annoncée ; la route d'Ailefroide au Pré de Madame Carle (accès Glacier Blanc, hors tracé GR®54 lui-même) ne sera pas reconstruite, situation durable ; aucune source postérieure au 07/09/2026 retrouvée à la vérification du 23/09/2026
 detection: 2026-09-20
-verif: 2026-09-20
-statut: ACTIF — NOUVEAU 20/09 : événement du 27-28/08/2026 non détecté par les passages
-  précédents sur cette zone, remonté ce jour à partir des pages officielles du Parc national
-  des Écrins (publiées entre le 28/08 et le 07/09/2026). Aucune source postérieure au
-  04-07/09 trouvée : statut présenté ici correspond à ce dernier point connu, à revérifier.
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : page ecrins-parcnational.fr « Quel état des sentiers après
+  les crues de la semaine dernière ? » relue directement, toujours datée du 04/09/2026, aucune
+  mise à jour postérieure trouvée. Aucune source plus récente que le point du 04-07/09 trouvée.
   Événement à cheval sur FR-04-05 (Vallouise, Valgaudemar) et FR-ALPES-N/Isère (Vénéon,
   Valbonnais) : le volet Isère (Oisans, La Bérarde) est décrit ici à partir des mêmes sources
   mais relève aussi du périmètre T2 FR-ALPES-N.
@@ -35,7 +34,9 @@ Vallouise : passage à gué en place pour la passerelle du Glacier Noir, emport�
 
 04/09/2026 : le Parc publie un état des lieux complet, vallée par vallée, un mois après les crues (« Quel état des sentiers après les crues de la semaine dernière ? »). Vallouise : route du Pré de Madame Carle détruite après Ailefroide, sentier de la Poire accessible malgré les dégâts, passerelle du Glacier Noir emportée avec passage à gué en place, réparations prévues mi-septembre, route des Cascades vers Dormillouse déblayée. Oisans/Vénéon : route rétablie jusqu'aux Étages, refuge du Temple Écrins accessible par la rive droite (sentier retracé sur 300 m), passerelles de rive droite réparées, passerelle après le refuge du Carrelet toujours manquante, boucle vers la Pilatte possible avec une déviation de 15 minutes, accès au lac Lauvitel uniquement par le GR®54 rive gauche. Valbonnais : reconnaissance des dégâts en cours, GR®54 réparé aux cols de la Muzelle et de Côte Belle, variante GR®54B au col de Romeïou remise en état, incertitude à la brèche du Périer. Valgaudemar : secteur peu endommagé, passerelle de Gioberney remplacée, gué aménagé pour le refuge du Pigeonnier. Briançonnais : impact minime, sentier des Crevasses réparé.
 
-07/09/2026 : la presse spécialisée (outside.fr) confirme que la route du Pré de Madame Carle ne sera pas reconstruite : l'accès piéton se fait par la rive droite, 4,8 km et 360 m de dénivelé depuis Ailefroide, soit environ 5 km et 360 m de dénivelé supplémentaires avant même d'atteindre l'ancien point de départ pour les alpinistes gagnant le Glacier Blanc ou le refuge des Écrins (chargés de cordes, crampons, piolets). Aucune source plus récente que ce point du 04-07/09 n'a été trouvée à la vérification du 20/09/2026.
+07/09/2026 : la presse spécialisée (outside.fr) confirme que la route du Pré de Madame Carle ne sera pas reconstruite : l'accès piéton se fait par la rive droite, 4,8 km et 360 m de dénivelé depuis Ailefroide, soit environ 5 km et 360 m de dénivelé supplémentaires avant même d'atteindre l'ancien point de départ pour les alpinistes gagnant le Glacier Blanc ou le refuge des Écrins (chargés de cordes, crampons, piolets). Aucune source plus récente que ce point du 04-07/09 n'a été trouvée à la vérification du 23/09/2026.
+
+23/09/2026 : page ecrins-parcnational.fr relue directement, toujours datée du 04/09/2026, aucune mise à jour postérieure. Situation traitée comme stable, la remise en état vallée par vallée n'ayant pas fait l'objet d'un nouveau point depuis le 07/09.
 
 ## Source
 

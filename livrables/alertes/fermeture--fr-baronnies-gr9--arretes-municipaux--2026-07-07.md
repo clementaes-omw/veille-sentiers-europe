@@ -5,11 +5,11 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 12 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 01/09, en retrait par rapport aux 16 communes nommées le 27/08) ; quatorze communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sahune, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-09-22
-statut: ACTIF — INCHANGÉ 22/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
   municipaux datés, pas une hypothèse à 14 jours), toujours les 12 mêmes communes datées,
   aucun arrêté de levée trouvé. L'échéance de fin de saison du 30/09/2026 se rapproche
-  (8 jours) sans être encore atteinte. Sévérité maintenue HAUTE.
+  (7 jours) sans être encore atteinte. Sévérité maintenue HAUTE.
 ordre: 32
 ---
 
@@ -80,6 +80,8 @@ MAJ 18/09 : nouvelle vérification ciblée sur la liste de référence PNR Baron
 MAJ 19/09 : nouvelle vérification ciblée, liste de référence toujours datée « mise à jour le 01/09/26 », toujours les 12 mêmes communes, sans nouvelle disparition ni nouvel ajout.
 
 MAJ 20/09 : nouvelle vérification ciblée de la liste de référence PNR Baronnies Provençales, toujours datée « mise à jour le 01/09/26 » : Châteauneuf-de-Bordette (arrêté n°27-2026, 10/07), Curnier (n°08-2026, 10/07), La Charce (n°16-2026, 10/08), La Penne-sur-Ouvèze (07/2026), Lemps (n°3.2026, 08/07), Les Pilles (n°40-2026, 10/07), Pierrelongue (07/2026), Pommerol (n°11-2026, 05/08), Sainte-Euphémie-sur-Ouvèze (n°0-14-2026, 07/2026), Saint-Sauveur-Gouvernet (n°A202613, 10/07), Teyssières (09/07), Verclause (n°ARR 1-09072026, 09/07). Toujours 12 communes, sans nouvelle disparition ni nouvel ajout depuis le 04/09.
+
+MAJ 23/09 : nouvelle vérification ciblée de la liste de référence PNR Baronnies Provençales, toujours datée « mise à jour le 01/09/26 », toujours les mêmes 12 communes, sans nouvelle disparition ni nouvel ajout.
 
 ## Source
 

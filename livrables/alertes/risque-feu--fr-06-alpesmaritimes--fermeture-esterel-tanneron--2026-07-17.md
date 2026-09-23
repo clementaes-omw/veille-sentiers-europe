@@ -5,18 +5,18 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-22
-statut: ACTIF — INCHANGÉ 20/09 : nouvelle recherche dédiée (presseagence.fr, WebSearch),
-  toujours aucune publication postérieure au 31/08 trouvée pour ce massif côté
-  Alpes-Maritimes. L'écart avec la dernière confirmation datée atteint désormais 20 jours.
-  Sévérité maintenue MOYENNE ; point de vigilance à surveiller si le silence se prolonge
-  encore.
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche dédiée (presseagence.fr, WebSearch,
+  alpes-maritimes.gouv.fr relu directement), toujours aucune publication postérieure au 31/08
+  trouvée pour ce massif côté Alpes-Maritimes. L'écart avec la dernière confirmation datée
+  atteint désormais 23 jours. Sévérité maintenue MOYENNE ; le fait établi reste les fermetures
+  répétées documentées entre le 17 juillet et le 31 août.
 ordre: 102
 ---
 
 ## Portion concernée
 
-**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : dernière fermeture confirmée (accès, circulation et travaux interdits) le lundi 31/08/2026, classée risque incendie très sévère (rouge), pour la deuxième fois depuis la reprise du 29/08 qui avait mis fin à un silence de 22 jours dans les sources suivies (07 au 28/08). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction. Aucune publication postérieure au 31/08 n'a été retrouvée depuis (vérifié le 14/09/2026, soit 14 jours sans nouvelle confirmation) : le classement du jour n'est pas connu à l'avance, se renseigner auprès de la préfecture avant de partir.
+**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : dernière fermeture confirmée (accès, circulation et travaux interdits) le lundi 31/08/2026, classée risque incendie très sévère (rouge), pour la deuxième fois depuis la reprise du 29/08 qui avait mis fin à un silence de 22 jours dans les sources suivies (07 au 28/08). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction. Aucune publication postérieure au 31/08 n'a été retrouvée depuis (vérifié le 23/09/2026, soit 23 jours sans nouvelle confirmation) : le classement du jour n'est pas connu à l'avance, se renseigner auprès de la préfecture avant de partir.
 
 ## Alternative
 
@@ -41,6 +41,8 @@ Vérifié le 16/08/2026 : la liste des communiqués de presse d'août de la pré
 Vérifié le 18/08/2026 : toujours aucune publication postérieure au 6 août trouvée pour le massif Esterel-Tanneron (Alpes-Maritimes). L'écart atteint désormais 12 jours. À titre de comparaison, côté Var, la préfecture a publié un classement à jour pour son propre massif de l'Estérel (voir ligne `risque-feu|Var-83|…`) : au 18/08, ce massif varois est classé orange (accès déconseillé, non interdit), ce qui ne renseigne pas sur le massif Esterel-Tanneron des Alpes-Maritimes objet de cette fiche, dont la préfecture publie un classement distinct et n'a rien communiqué depuis le 6 août.
 
 Vérifié le 20/08/2026 : la liste des communiqués de presse d'août de la préfecture des Alpes-Maritimes, relue directement, ne compte toujours que les trois titres déjà connus (sirènes du 5 août, Tour de France Femmes du 7 août, sécheresse du 13 août), rien sur le risque incendie. Plusieurs requêtes ciblées sur la presse locale (nicepremium.fr, cannes-actus.com, presseagence.fr, info.fr) ne font remonter aucune publication postérieure au 6 août. L'écart atteint 14 jours. Le seuil des 14 jours après détection (09/08) tombe le 23/08 : si aucune source plus récente n'apparaît d'ici là, l'alerte devra être dégradée en MOYENNE avec mention explicite au lecteur de l'absence de communiqué préfectoral depuis le 6 août.
+
+Vérifié le 23/09/2026 : nouvelle recherche dédiée (presseagence.fr, WebSearch, page « Actualités » de la préfecture des Alpes-Maritimes relue directement). La page des actualités préfectorales ne compte toujours aucun article de septembre 2026, le plus récent restant celui du 8 juin sur le risque feux de forêt en général. Toujours aucune publication postérieure au 31/08/2026 trouvée pour ce massif spécifique. L'écart atteint désormais 23 jours.
 
 Vérifié le 22/08/2026 : presseagence.fr et les sites des communes du massif consultés de nouveau, toujours aucune publication postérieure au 6 août. L'écart atteint 16 jours, au-delà du seuil de 14 jours après détection. Aucun arrêté de levée n'a non plus été trouvé : faute de source pour trancher soit la reconduction soit la levée, l'alerte est dégradée en MOYENNE, avec pour seul fait établi les fermetures répétées documentées entre le 17 juillet et le 6 août.
 
