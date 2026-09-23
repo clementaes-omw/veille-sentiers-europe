@@ -9,14 +9,12 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1617 d
   Sans-Souci, éboulement) ; sur le tracé du GR® R2, ferme le sentier du Bras des Merles entre
   Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-22
-statut: ACTIF — CHANGÉ 22/09 : deux fermetures ONF distinctes de l'arrêté n°2026-1617,
-  annoncées le 18/09 (Maïdo, piste de la Glacière, dès le 28/09 ; Saint-Louis, Montplaisir et
-  11e ligne, jusqu'au 02/10), sans lien avec le GR® R2 ni un autre GR® suivi. Aucun changement
-  sur le Bras des Merles. Sévérité maintenue HAUTE, fondement inchangé (Bras des Merles).
-  Point non tranché inchangé : l'identification du Bras des Merles au GR® R2 repose toujours
-  sur des sites tiers (AllTrails, trails-viewer.com), la page ffrandonnee.fr restant à
-  recouper.
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée, aucune source postérieure au
+  22/09 retrouvée. Le Bras des Merles reste fermé par l'arrêté n°2026-1617 du 16/09, sans
+  changement. Sévérité maintenue HAUTE. Point non tranché inchangé : l'identification du
+  Bras des Merles au GR® R2 repose toujours sur des sites tiers (AllTrails,
+  trails-viewer.com), la page ffrandonnee.fr restant à recouper.
 ordre: 16
 ---
 
@@ -41,6 +39,8 @@ MAJ 18/09 : vérification ciblée sur l'arrêté n°2026-1617 du 16/09/2026, don
 MAJ 20/09 : lecture intégrale de l'arrêté préfectoral n°2026-1617 du 16 septembre 2026, obtenue directement en PDF (le lien ONF avait changé de version depuis le 18/09, une nouvelle tentative a permis de récupérer un exemplaire exploitable). [FAIT, arrêté préfectoral n°2026-1617 du 16 septembre 2026, signé par délégation par le directeur de cabinet du préfet] Le texte confirme que cet arrêté abroge l'arrêté n°2026-1415 du 26/08/2026 (article 2) et reprend, à son article 1, le même périmètre de fermeture par commune (cirque de Mafate, Bras-Panon, Entre-Deux, Cilaos, Plaine des Palmistes, La Possession, Saint-Benoît, Saint-Denis, Saint-Joseph, Saint-Louis, Saint-Philippe, Sainte-Marie, Sainte-Rose, Salazie), en y ajoutant une seule fermeture nouvelle : le sentier de la Canalisation des Orangers, visé par un considérant propre (« un éboulement a impacté le sentier de la Canalisation des Orangers, rendant le passage dangereux »). Dans le cirque de Mafate, l'article 1 liste nommément Maison Laclos-Kerval, le sentier du Bras des Merles (de Deux Bras à Aurère), le sentier La Nouvelle-Maison Laclos (alternative par le PR25) et désormais la Canalisation des Orangers : le Bras des Merles reste donc interdit à la circulation des personnes, confirmé cette fois directement par le texte de l'arrêté en vigueur, et non plus seulement par des sources touristiques tierces le décrivant comme toujours fermé. Comme pour l'arrêté précédent, ce texte ne qualifie pas lui-même le Bras des Merles de tronçon du GR® R2 (à la différence du sentier de Bras Plat, identifié comme « ancien GRR2 » à Saint-Philippe) : l'identification au tracé actuel du GR® R2 continue de reposer sur des sites de randonnée tiers (AllTrails, trails-viewer.com), la page ffrandonnee.fr correspondante restant à recouper. L'article 3 précise les exceptions d'accès (SDIS, SAMU, ONF, forces de l'ordre, BRGM, agents habilités du Parc national, ayants-droit ONF). Un article de presse daté du même jour (imazpress.com, 16/09/2026 17h01) confirme indépendamment la fermeture de la Canalisation des Orangers pour éboulement ; à noter qu'un article au titre très proche, annonçant sa réouverture, retrouvé lors de cette recherche sur le même site, s'est révélé daté du 15/04/2023 : un épisode antérieur de trois ans, sans lien avec celui suivi ici, écarté après vérification de sa date. reunion-mafate.com, reconsultée le 20/09, cite désormais nommément l'arrêté n°2026-1617 comme texte de référence et continue de lister le Bras des Merles parmi les sentiers fermés du cirque de Mafate.
 
 MAJ 22/09 : deux fermetures ONF signalées le 18/09/2026, distinctes du périmètre de l'arrêté n°2026-1617 lu en entier le 20/09 (ni l'une ni l'autre n'y figurait). Au Maïdo, les deux premiers kilomètres de la piste DFCI de la Glacière, depuis sa croisée avec le sentier de l'Opar, seront fermés au public du lundi 28 septembre au vendredi 18 décembre 2026 (ouverts le week-end), motif non précisé par l'ONF ; le tronçon peut être contourné par le sentier de Bord. À Saint-Louis, les sentiers de Montplaisir et de la 11e ligne restent fermés en semaine jusqu'au vendredi 2 octobre 2026 (ouverts le week-end) pour prolongation de travaux d'exploitation forestière ; le sentier du Plateau Goyaves, cité dans la même source, a rouvert. Aucun de ces deux secteurs n'est identifié à un tronçon du GR® R1, R2 ou R3 dans le référentiel. Sur le Bras des Merles, aucune source postérieure au 20/09 trouvée : la fermeture reste inchangée.
+
+MAJ 23/09 : nouvelle vérification auprès de l'ONF Réunion, de l'Office de tourisme de l'Ouest 974, de reunion-mafate.com et d'imazpress.com, aucune source postérieure au 22/09 retrouvée. Le Bras des Merles reste listé parmi les sentiers fermés du cirque de Mafate sous l'arrêté n°2026-1617, sans changement.
 
 ## Source
 
