@@ -5,7 +5,7 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis février 2026, jusqu'à nouvel ordre ; aucune déviation officielle connue
 detection: 2026-09-02
-verif: 2026-09-16
+verif: 2026-09-23
 statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'article FFRandonnée national, toujours
   en ligne à l'identique, sans mention de réouverture.
 ordre: 216

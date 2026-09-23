@@ -5,7 +5,7 @@ itin: South West Coast Path (Devon, secteur Branscombe ↔ Beer)
 sev: MOYENNE
 validite: fermé depuis mars 2026, aucune date de réouverture annoncée
 detection: 2026-09-16
-verif: 2026-09-16
+verif: 2026-09-23
 statut: ACTIF — NOUVEAU
 ordre: 232
 ---

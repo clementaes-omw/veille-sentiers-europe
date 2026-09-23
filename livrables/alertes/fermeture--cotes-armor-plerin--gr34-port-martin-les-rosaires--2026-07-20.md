@@ -5,7 +5,7 @@ itin: GR®34 (Côtes-d'Armor, commune de Plérin)
 sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 20/07/2026, déviation balisée en place
 detection: 2026-09-16
-verif: 2026-09-16
+verif: 2026-09-23
 statut: ACTIF — NOUVEAU
 ordre: 231
 ---
