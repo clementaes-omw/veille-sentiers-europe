@@ -5,12 +5,13 @@ itin: Mare e Monti Nord (GRP, secteur Calvi↔Calenzana) ; GR®20 (terminus nord
   proximité) [HYPOTHÈSE — aucune source ne documente de fermeture de sentier, le feu a touché
   la route de l'aéroport de Calvi et ses abords, en contrebas des tracés]
 sev: INFO
-validite: feu fixé le 17/09/2026 en fin d'après-midi (environ 3 à 4 heures d'intervention), D81 et trafic aérien de l'aéroport de Calvi rouverts le jour même ; aucune reprise ni fermeture de sentier constatée à la vérification du 20/09/2026
+validite: [CLÔTURÉ] (2026-09-23) — feu fixé le 17/09/2026 en fin d'après-midi (environ 3 à 4 heures d'intervention), D81 et trafic aérien de l'aéroport de Calvi rouverts le jour même ; aucune reprise ni fermeture de sentier constatée après 6 jours de vérification
 detection: 2026-09-17
-verif: 2026-09-22
-statut: ACTIF — INCHANGÉ 20/09 : aucune reprise signalée depuis le 17/09, feu resté fixé.
-  À reconfirmer au prochain passage avant clôture, sur le modèle des feux mineurs déjà
-  clôturés cet été sur ce secteur.
+verif: 2026-09-23
+statut: "[CLÔTURÉ] (2026-09-23) — aucune reprise signalée depuis le 17/09, six jours après la
+  fixation du feu. Recherche générale sur les feux corses du jour (23/09) sans résultat
+  nouveau sur ce secteur. Alerte clôturée sur le même modèle que les feux mineurs déjà traités
+  cet été (Cagnano, Ginasservis)."
 ordre: 240
 ---
 
@@ -25,6 +26,8 @@ Sans objet à ce jour : aucune fermeture de sentier confirmée. Vérifier locale
 ## Zone (détails)
 
 17/09/2026 : le feu se déclare vers 13h20 sur la route de l'aéroport de Calvi-Sainte-Catherine (D81), entre les lieux-dits la Signoria et la Sablière, dans une zone de maquis dense. Poussé par des rafales de vent vers le nord-est, il menace des habitations et un chenil, dont les chiens sont évacués sains et saufs. Environ 100 à 120 sapeurs-pompiers sont engagés, appuyés par des forestiers-sapeurs et des militaires du 2e régiment étranger de parachutistes ; moyens aériens : 2 Canadair et un hélicoptère Puma. Le trafic aérien de l'aéroport de Calvi-Sainte-Catherine est interrompu pendant environ 3 heures (un vol Nice-Calvi dérouté sur Bastia, un vol Calvi-Marseille annulé), et la D81 est fermée à la circulation le temps de l'intervention. Le feu est déclaré fixé en fin d'après-midi, pour un bilan final de 28 hectares parcourus. Dégâts matériels : une habitation légère d'environ 50 m² et quatre véhicules détruits, aucun blessé signalé. Le trafic aérien reprend et la D81 rouvre à la circulation le jour même, après environ 3 à 4 heures de fermeture. Aucune source consultée (corsenetinfos.corsica, France 3 Corse, ICI, Stampa Paese, franceinfo.fr) ne mentionne de fermeture de sentier, ni du GR®20 ni du Mare e Monti Nord, dont les tracés passent par la région de Calvi et de Calenzana.
+
+MAJ 23/09 : aucune reprise de feu signalée sur ce secteur depuis le 17/09. Alerte clôturée.
 
 ## Source
 
