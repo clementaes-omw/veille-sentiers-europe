@@ -2,7 +2,7 @@
 
 100 alertes actives · 29 fiches avec au moins un constat · **0 bloquant(s)**, 29 alerte(s), 0 info(s).
 
-Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
+Carte : **6 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
 Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement sur le fond — la source dit-elle vraiment cela, l'alerte a-t-elle encore un sens sur le terrain — relève de `agents/verificateur-alertes.md` ; la plausibilité des centroïdes de la carte, de `agents/verificateur-carte.md`.
 
@@ -40,4 +40,12 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## 🗺 Cohérence carte / registre
 
-0 alerte perdue : chaque alerte active se résout vers un marqueur de la carte, le compte de marqueurs couvre toutes les actives, et toute zone-source du référentiel a ses coordonnées.
+### ⛔ Alertes actives invisibles sur la carte / compte incohérent
+
+- **`(carte)`** — regroupement incohérent : 95 alerte(s) réparties sur 41 marqueur(s) pour 100 active(s) — 5 alerte(s) hors carte.
+- **`fermeture|Finistere-Plomodiern|GR34-Ty-Mark-Kervijen|2026-09-18`** — zone « Finistere-Plomodiern » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+- **`fermeture|UK-Cornwall-Newquay|SWCP-North-Pier-glissement|2026-02`** — zone « UK-Cornwall-Newquay » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+- **`fermeture|UK-Cornwall-Tintagel|SWCP-effondrement-inondation|2025-12-18`** — zone « UK-Cornwall-Tintagel » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+- **`fermeture|UK-Cornwall-Tregonhawke-Whitsand-Bay|SWCP-instabilite-cotiere|2026-03`** — zone « UK-Cornwall-Tregonhawke-Whitsand-Bay » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+- **`reroutage|UK-Cornwall-St-Martins-Millendreath|SWCP-deviation-glissement|2026-02`** — zone « UK-Cornwall-St-Martins-Millendreath » non résolue vers referentiel/zones-coords.csv : l'alerte est publiée mais n'apparaît sur AUCUN marqueur de la carte. Ajouter le code de zone au CSV, ou une entrée dans la table ALIAS_ZONE de build_site.py.
+
