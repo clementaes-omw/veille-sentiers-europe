@@ -6,8 +6,8 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-09-22
-statut: ACTIF — INCHANGÉ 22/09 : nouvelle recherche ciblée de l'acte manquant, sans résultat
+verif: 2026-09-23
+statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée de l'acte manquant, sans résultat
   au-delà de ce qui est déjà cité : l'arrêté du 21/08 reste le dernier texte connu et le seul
   en vigueur. Sévérité maintenue HAUTE (fondement = arrêté daté, pas une hypothèse à 14 jours).
 ordre: 31
@@ -15,7 +15,7 @@ ordre: 31
 
 ## Portion concernée
 
-**Forêts domaniales de Justin, Laup et Solaure-en-Diois**, hauteurs de Die (sud du Diois, Drôme). Un arrêté préfectoral daté du 21/08/2026 interdit l'accès à ces trois forêts, non plus au seul titre de l'incendie mais pour risque de chutes de pierres, d'arbres et de branches fragilisés par les flammes ; aucune date de levée n'est précisée, la sortie de la fermeture dépendant d'une étude de risque en cours. Ce texte abroge explicitement un arrêté antérieur du 24/07/2026 (mairie-die.fr) ; un premier arrêté, le n° 26-2026-6 du 3 juillet 2026, avait ouvert la fermeture du massif. Le massif est donc fermé de fait et de droit depuis l'incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Situation inchangée à la vérification du 18/09/2026 : aucune levée de l'arrêté du 21/08 n'a été annoncée, et l'ouverture générale de la chasse dans la Drôme, fixée au 13/09/2026, exclut explicitement le massif de Justin, confirmation supplémentaire que la fermeture reste effective.
+**Forêts domaniales de Justin, Laup et Solaure-en-Diois**, hauteurs de Die (sud du Diois, Drôme). Un arrêté préfectoral daté du 21/08/2026 interdit l'accès à ces trois forêts, non plus au seul titre de l'incendie mais pour risque de chutes de pierres, d'arbres et de branches fragilisés par les flammes ; aucune date de levée n'est précisée, la sortie de la fermeture dépendant d'une étude de risque en cours. Ce texte abroge explicitement un arrêté antérieur du 24/07/2026 (mairie-die.fr) ; un premier arrêté, le n° 26-2026-6 du 3 juillet 2026, avait ouvert la fermeture du massif. Le massif est donc fermé de fait et de droit depuis l'incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Situation inchangée à la vérification du 23/09/2026 : aucune levée de l'arrêté du 21/08 n'a été annoncée, et l'ouverture générale de la chasse dans la Drôme, fixée au 13/09/2026, exclut explicitement le massif de Justin, confirmation supplémentaire que la fermeture reste effective.
 
 ## Alternative
 
@@ -62,6 +62,8 @@ MAJ 14/09 : mairie-die.fr relue directement, aucun changement : l'accès aux tro
 MAJ 18/09 : nouvelle vérification ciblée, mairie-die.fr toujours identique : l'arrêté du 21/08/2026 reste le seul texte en vigueur, accès aux trois forêts toujours interdit, étude de risque toujours « en cours » sans échéance ni résultat publié. Aucune source plus récente trouvée.
 
 MAJ 20/09 : nouvelle vérification ciblée, mairie-die.fr relue directement, contenu identique : l'arrêté du 21/08/2026 (« l'interdiction est applicable dès l'entrée en vigueur de l'arrêté et jusqu'à la fin des opérations d'étude et de sécurisation ») reste le seul texte en vigueur, sans reconduction ni levée publiée. Aucune source plus récente trouvée.
+
+MAJ 23/09 : nouvelle vérification ciblée, mairie-die.fr relue directement et recherche presse dédiée : contenu identique, l'arrêté du 21/08/2026 reste le seul texte en vigueur, sans reconduction ni levée publiée.
 
 ## Source
 
