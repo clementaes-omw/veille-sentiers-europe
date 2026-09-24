@@ -5,11 +5,11 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
 detection: 2026-07-20
-verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée sur l'acte manquant (réouverture
-  du tronçon Cap des Lauzes↔Étang d'Ayes), sans résultat au-delà de ce qui est déjà connu.
-  L'arrêté du 31/08 (jusqu'à nouvel ordre) reste le texte en vigueur. Sévérité maintenue
-  HAUTE (fondement = arrêté daté, pas une hypothèse à 14 jours).
+verif: 2026-09-24
+statut: ACTIF — INCHANGÉ 24/09 : nouvelle recherche ciblée sur l'acte manquant (recueil des
+  actes administratifs de l'Ariège, angle nouveau), sans résultat exploitable. L'arrêté du
+  31/08 (jusqu'à nouvel ordre) reste le texte en vigueur. Sévérité maintenue HAUTE (fondement
+  = arrêté daté, pas une hypothèse à 14 jours).
 ordre: 34
 ---
 
@@ -70,6 +70,8 @@ MAJ 14/09 : bordesuchentein.fr relu en entier : aucun document postérieur à l'
 MAJ 18/09 : nouvelle vérification ciblée, confirmant que l'incendie de Bordes-Uchentein est éteint et que tous les tronçons du GR®10 touchés cet été ont rouvert, à l'exception du tronçon entre le Cap des Lauzes et l'étang d'Ayes, qui reste fermé. Aucun acte plus récent que l'arrêté du 31/08/2026 ni aucune annonce de réouverture pour ce tronçon n'est retrouvé.
 
 MAJ 23/09 : nouvelle vérification ciblée (bordesuchentein.fr relu directement, recherche presse dédiée), aucun document ni communiqué postérieur à l'arrêté du 31/08/2026 retrouvé. Le tronçon Cap des Lauzes↔étang d'Ayes reste fermé, sans annonce de réouverture.
+
+MAJ 24/09 : nouvelle piste tentée sur le recueil des actes administratifs de la préfecture de l'Ariège (angle différent des vérifications précédentes, qui portaient sur bordesuchentein.fr et ariege.gouv.fr/Publications/Actualites) : un recueil spécial trouvé (n°09-2026-124, 12/08/2026) s'est révélé sans rapport (arrêté sur le conditionnement aversif d'un ours brun à Seix). bordesuchentein.fr et pyreneesfm.com/departement/ariege relus, sans résultat nouveau. L'arrêté du 31/08/2026 reste le seul texte en vigueur.
 
 ## Source
 
