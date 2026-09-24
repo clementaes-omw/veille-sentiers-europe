@@ -9,7 +9,7 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-23
+verif: 2026-09-24
 statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée sur l'acte manquant (recueil des
   actes administratifs des Hautes-Alpes, page dédiée de la mairie, presse locale alpes1.com),
   sans résultat plus récent que la précédente confirmation : l'arrêté municipal du 15/08/2026

@@ -11,14 +11,14 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
   Gamrig et un tronçon de la Rathener Straße à Waltersdorf
 detection: 2026-08-06
-verif: 2026-09-23
+verif: 2026-09-24
 statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée sur la fin du chantier héliporté du
   Gamrig (source officielle du parc + recherche presse dédiée), toujours aucune confirmation
   explicite de fin ni de prolongation au-delà de l'échéance du 18/09, désormais dépassée de
   5 jours. La page aktuelles du 22/09 15h00 reconduit à l'identique la fermeture des deux
   parkings du Gamrig, du rocher du Gamrig et du tronçon de la Rathener Straße, sans nouvelle
   échéance. Périmètre traité comme inchangé : Amselsee et bas de l'Amselgrund fermés,
-  Basteiweg et Schwedenlöcher rouverts. La sévérité HAUTE repose sur une Allgemeinverfügung en
+  Basteiweg et Schwedenöcher rouverts. La sévérité HAUTE repose sur une Allgemeinverfügung en
   vigueur jusqu'à révocation (bis auf Widerruf), c'est-à-dire sur un fait administratif établi
   et non sur une hypothèse à confirmer : la règle des 14 jours sur les hypothèses non
   tranchées ne s'applique donc pas ici.

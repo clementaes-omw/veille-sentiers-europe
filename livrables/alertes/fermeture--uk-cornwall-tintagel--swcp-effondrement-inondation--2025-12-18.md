@@ -3,7 +3,8 @@ cle: fermeture|UK-Cornwall-Tintagel|SWCP-effondrement-inondation|2025-12-18
 type: fermeture
 itin: South West Coast Path (Cornouailles Nord, secteur du château de Tintagel)
 sev: MOYENNE
-validite: fermé et dévié depuis le 18/12/2025, aucune date de réouverture annoncée
+validite: fermé et dévié depuis le 18/12/2025, jusqu'à nouvel ordre : aucune date de
+  réouverture n'est annoncée par la source
 detection: 2026-09-23
 verif: 2026-09-23
 statut: ACTIF — NOUVEAU

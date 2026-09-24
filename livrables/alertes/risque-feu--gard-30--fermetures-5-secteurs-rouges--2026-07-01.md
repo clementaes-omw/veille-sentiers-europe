@@ -10,12 +10,12 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   un classement rouge limité au seul lundi 21/09/2026 (Gard Rhodanien, Garrigues, Costières
   Petite Camargue)
 detection: 2026-07-04
-verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 23/09 : aucune page gard.gouv.fr publiée pour le mercredi 23/09
+verif: 2026-09-24
+statut: ACTIF — INCHANGÉ 24/09 : aucune page gard.gouv.fr publiée pour le jeudi 24/09
   (l'URL du jour teste en 404), ce qui signifie, selon la convention de publication déjà
-  établie sur cette fiche, qu'aucun secteur n'est classé rouge aujourd'hui. Deux feux mineurs
-  distincts signalés le 21/09 (Saint-Marcel-de-Careiret, 1 500 m² ; Générac, ~50 ha), sans
-  lien avec un massif classé ni un GR® référencé. Sévérité maintenue MOYENNE.
+  établie sur cette fiche, qu'aucun secteur n'est classé rouge aujourd'hui. Une synthèse de
+  presse (21-23/09) confirme l'amélioration : plus aucun département classé rouge, seuls
+  l'Aude et l'Hérault restent en orange. Sévérité maintenue MOYENNE.
 ordre: 15
 ---
 
@@ -58,6 +58,7 @@ Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes d
 - 21/09 : gard.gouv.fr publie une page « Lundi 21 septembre 2026 : risque incendie très sévère », mise en ligne le 20/09/2026, qui reclasse trois secteurs en rouge : le Gard Rhodanien (36 communes, la même liste qu'aux épisodes précédents), les Garrigues (49 communes) et Costières Petite Camargue (9 communes). Il s'agit du premier classement rouge depuis celui, plus limité au seul Gard Rhodanien, du 03/09/2026.
 - 22/09 : aucune page de classement publiée pour le mardi (URL testée directement, 404), ce qui signifie qu'aucun secteur n'est rouge aujourd'hui. Une source de presse (France 3 Occitanie, 21/09) confirme le retour en vigilance orange du département pour ce mardi, après le pic d'un jour du 21/09 qui touchait également l'Aude et les Pyrénées-Orientales.
 - 23/09 : aucune page de classement publiée pour le mercredi (URL testée directement, 404), aucun secteur rouge. Deux feux mineurs distincts signalés le 21/09 par titrespresse.com : Saint-Marcel-de-Careiret (1 500 m² calcinés) et Générac (~50 ha), dans un contexte de sécheresse record et de vents à 60 km/h ; aucun des deux n'est rattaché à un massif classé ni à un itinéraire balisé.
+- 24/09 : aucune page de classement publiée pour le jeudi (URL testée directement, 404), aucun secteur rouge. Une synthèse de presse (titrespresse.com/letribunaldunet.fr, 21-23/09) confirme que l'amélioration se poursuit : plus aucun département n'est classé rouge en région, seuls l'Aude et l'Hérault restent en vigilance orange.
 
 ## Source
 
