@@ -6,7 +6,7 @@ itin: sentier littoral du Cap Corse (secteur Cagnano ↔ Pietracorbara) — aucu
 sev: MOYENNE
 validite: feu fixé le 30/08/2026 en début d'après-midi ; RD132 rouverte dès la soirée du 29/08
 detection: 2026-08-29
-verif: 2026-09-20
+verif: 2026-09-25
 statut: "[CLÔTURÉ] (2026-08-30) — INCHANGÉ 18/09 : recherche générale sur les feux de Corse du
   jour (Calvi/aéroport 17/09, voir fiche dédiée `incendie|Corse-Calvi|…`), aucune reprise de
   feu ni nouveau signal sur le secteur de Cagnano. Le feu, non maîtrisé au soir du 29/08, est déclaré fixé le

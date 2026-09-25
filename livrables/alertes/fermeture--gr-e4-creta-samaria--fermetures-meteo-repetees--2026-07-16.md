@@ -3,10 +3,17 @@ cle: fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16
 type: fermeture / conditions météo (vent, canicule)
 itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canea : Balos, Krios-Elafonissi, Sougia-Agia Roumeli)
 sev: MOYENNE
-validite: fermetures décidées au jour le jour (quotidiennement), selon la météo et le risque incendie, sans calendrier fixe ; la gorge de Samaria elle-même a fermé les 15, 16 et 17/09/2026 pour prévision de fortes pluies (jusqu'à 32 mm à Xyloskalo), et rouvre le 18/09/2026 ; statut à vérifier sur samaria.gr et auprès de la Région de Crète avant l'étape
+validite: fermetures décidées au jour le jour (quotidiennement), selon la météo et le risque incendie, sans calendrier fixe ; la gorge de Samaria elle-même est refermée aux deux entrées depuis le 22/09/2026, reconduite chaque jour (22, 23, 24, 25/09) pour prévision de fortes pluies/orages ; statut à vérifier sur samaria.gr et auprès de la Région de Crète avant l'étape
 detection: 2026-07-24
-verif: 2026-09-18
-statut: ACTIF — CHANGÉ 18/09 : première confirmation directe, depuis la détection de cette
+verif: 2026-09-25
+statut: ACTIF — CHANGÉ 25/09 : nouvel épisode de fermeture de la gorge de Samaria elle-même,
+  refermée aux deux entrées depuis le mardi 22/09/2026 pour prévision de fortes pluies et
+  orages (jusqu'à 12 mm à Xyloskalo, 10 mm à Agia Roumeli), reconduite chaque jour depuis
+  (22, 23, 24/09) et toujours fermée ce vendredi 25/09/2026. C'est le plus long épisode de
+  fermeture consécutive documenté depuis la détection de cette fiche (4 jours). Mécanisme
+  identique à celui déjà observé mi-septembre (décision au jour le jour de l'OFYPEKA/NECCA,
+  raison météorologique). Sévérité maintenue MOYENNE.
+  Ancien historique : CHANGÉ 18/09 : première confirmation directe, depuis la détection de cette
   fiche, d'une fermeture NOMMÉE de la gorge de Samaria elle-même (et non plus seulement des
   tronçons côtiers de l'E4 à La Canea) : fermée aux deux entrées les 15, 16 et 17/09/2026
   pour prévision de fortes pluies et orages, l'OFYPEKA/NECCA annonce sa réouverture pour le
@@ -18,7 +25,7 @@ ordre: 49
 
 ## Portion concernée
 
-Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo, et plus largement le réseau E4 de Crète occidentale. **Fermetures répétées, décidées par l'OFYPEKA/NECCA et la Région de Crète au jour le jour selon la météo et le risque incendie, dans le cadre du dispositif renforcé de la saison en cours** (système d'alerte météo, casques distribués). **La gorge a fermé aux deux entrées les 15, 16 et 17 septembre 2026 pour prévision de fortes pluies et orages (jusqu'à 32 mm attendus à Xyloskalo et à Agia Roumeli), au-delà des seuils de sécurité fixés ; l'OFYPEKA/NECCA annonce sa réouverture le vendredi 18 septembre 2026**, jour de vérification. Raison du mécanisme : conditions météorologiques dangereuses (vent, chaleur extrême, pluie) et risque incendie, réévalués quotidiennement. Vérifier systématiquement le statut du jour sur samaria.gr et auprès de la Région de Crète avant l'étape.
+Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo, et plus largement le réseau E4 de Crète occidentale. **Fermetures répétées, décidées par l'OFYPEKA/NECCA et la Région de Crète au jour le jour selon la météo et le risque incendie, dans le cadre du dispositif renforcé de la saison en cours** (système d'alerte météo, casques distribués). **La gorge est refermée aux deux entrées depuis le mardi 22 septembre 2026, pour prévision de fortes pluies et orages (jusqu'à 12 mm à Xyloskalo, 10 mm à Agia Roumeli), et reste fermée ce vendredi 25 septembre 2026**, jour de vérification, la fermeture ayant été reconduite chaque jour depuis. Raison du mécanisme : conditions météorologiques dangereuses (vent, chaleur extrême, pluie) et risque incendie, réévalués quotidiennement. Vérifier systématiquement le statut du jour sur samaria.gr et auprès de la Région de Crète avant l'étape.
 
 ## Alternative
 
@@ -41,6 +48,8 @@ MAJ 08/09 : nouvelle occurrence, catégorie 4 de nouveau. [FAIT, crete.gov.gr, �
 MAJ 10/09 : le niveau de risque redescend. [FAIT, politikakritis.gr et iraklionews.gr, 09/09, citant la carte quotidienne de la Direction générale de la protection civile] Pour le jeudi 10/09, les quatre unités régionales de Crète (La Canea, Réthymnon, Héraklion, Lassithi) passent en catégorie de risque incendie 3 (élevé), en retrait par rapport aux catégories 4-5 des occurrences précédentes. Aucune des sources consultées ce jour ne publie de liste de tronçons E4 ou de forêts fermés pour cette date précise, à la différence des occurrences en catégorie 4 documentées le 28/08, le 04/09 et le 08/09 : le seuil d'activation des fermetures nommées semble se situer à partir de la catégorie 4. Aucune mention de la gorge de Samaria elle-même dans les sources du jour.
 
 MAJ 18/09 : première fermeture nommée de la gorge elle-même depuis la détection de cette fiche, pour une raison différente. [FAIT, newsit.gr, hania.news 16/09] La gorge de Samaria ferme aux deux entrées le mardi 15/09 et le mercredi 16/09/2026 en raison d'une prévision de fortes précipitations (jusqu'à 25 mm à Xyloskalo et 20 mm à Agia Roumeli), sur décision de l'OFYPEKA/NECCA. [FAIT, hania.news 16/09] La fermeture est reconduite le jeudi 17/09/2026, la prévision annonçant cette fois jusqu'à 32 mm de pluie ou d'orages aux deux accès. [FAIT, cretalive.gr] L'organisme annonce la reprise de l'exploitation du sentier central dans son intégralité pour le vendredi 18/09/2026, jour de cette vérification. C'est la première fois, depuis la détection de cette fiche en juillet, qu'une source nomme explicitement la gorge de Samaria (et pas seulement les tronçons côtiers de l'E4 à La Canea) parmi les fermetures du jour, et la première fois que la pluie plutôt que le risque incendie en est la cause déclarée.
+
+MAJ 25/09 : nouvel épisode de fermeture de la gorge elle-même, distinct de celui du 15-18/09 (rouvert entre-temps). [FAIT, annonce OFYPEKA/NECCA relayée par la presse crétoise ; URL précise non retrouvée à ce jour] La gorge de Samaria ferme aux deux entrées à compter du mardi 22/09/2026, pour prévision de fortes pluies et orages dépassant les seuils de sécurité (jusqu'à 12 mm à Xyloskalo, 10 mm à Agia Roumeli). La fermeture est reconduite les mercredi 23 et jeudi 24/09, puis de nouveau ce vendredi 25/09, jour de cette vérification : c'est le plus long épisode de fermeture consécutive de la gorge documenté depuis la détection de cette fiche (4 jours). Mécanisme identique à celui du 15-17/09 (décision au jour le jour de l'OFYPEKA/NECCA selon la météo), raison pluie comme lors du précédent épisode.
 
 ## Source
 

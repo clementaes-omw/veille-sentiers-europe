@@ -9,7 +9,7 @@ validite: les deux foyers (Alvito da Beira et Atalaia) sont passés au statut «
   (surveillance, l'échelon le plus bas encore suivi) selon l'API officielle
   api.fogos.pt, interrogée le 18/09/2026 ; non encore déclarés éteints
 detection: 2026-09-14
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 23/09 : nouvelle interrogation ciblée de l'API officielle
   api.fogos.pt, les deux foyers (Alvito da Beira, ID 20261309007 ; Atalaia, ID 20261309955)
   restent affichés au statut « Vigilância », mêmes surfaces qu'au 18/09 (1089,87 ha et

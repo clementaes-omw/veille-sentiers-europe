@@ -5,7 +5,7 @@ itin: GR®44 (Des Vans à Champerboux, départ Les Vans) ; GRP de la Haute Céve
 sev: MOYENNE
 validite: foyer des Vans éteint depuis le 04/09 mi-journée ; foyer de Malbosc déclaré fixé le lundi 07/09/2026 après cinq jours de lutte, surveillance en cours jusqu'à nouvel ordre, pas encore déclaré éteint
 detection: 2026-09-05
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 24/09 : nouvelle recherche (ardeche.gouv.fr, ICI.fr), aucune
   déclaration d'extinction trouvée pour Malbosc au-delà du fixé du 07/09. Aucun point de
   situation préfectoral postérieur localisé. Le foyer des Vans reste éteint depuis le 04/09.

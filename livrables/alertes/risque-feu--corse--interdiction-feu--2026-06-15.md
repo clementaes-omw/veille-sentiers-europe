@@ -5,7 +5,7 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 24/09 : haute-corse.gouv.fr relu directement, toujours calé sur
   l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate) pour la référence la plus récente
   trouvée, aucun acte plus récent localisé. Recherche générale sur les feux corses du jour :

@@ -5,7 +5,7 @@ itin: GR®65 (Chemin de Saint-Jacques / Via Podiensis, Lot)
 sev: MOYENNE
 validite: déviation en vigueur jusqu'à nouvel ordre (durée indéterminée), mise en place le 25/07/2026 suite à l'incendie de mi-juillet 2026
 detection: 2026-07-28
-verif: 2026-09-05
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (ffrandonnee.fr, mairies de
   Limogne-en-Quercy/Flaujac-Poujols), aucune source postérieure au 25/07 retrouvée. Rien
   n'indique une levée de l'interdiction d'accès ni un retrait de la déviation balisée.

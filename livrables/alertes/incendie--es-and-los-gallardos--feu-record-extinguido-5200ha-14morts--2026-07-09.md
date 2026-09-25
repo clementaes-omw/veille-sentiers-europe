@@ -5,13 +5,13 @@ itin: GR®7-ES/E4 Sendero Andorra–Estrecho de Gibraltar [HYPOTHÈSE] le tracé
 sev: MOYENNE
 validite: feu officiellement extinguido depuis le 24/07/2026 ; aucun arrêté d'interdiction d'accès à la zone brûlée n'a jamais été publié
 detection: 2026-07-09
-verif: 2026-09-10
-statut: [CLÔTURÉ] (2026-08-07) — clôturée faute d'arrêté d'interdiction d'accès trouvé,
+verif: 2026-09-25
+statut: "[CLÔTURÉ] (2026-08-07) — clôturée faute d'arrêté d'interdiction d'accès trouvé,
   quatre semaines après l'extinction officielle (24/07) et malgré de nombreux passages de
   vérification (BOJA, Junta de Andalucía, presse locale Almanzora/Almería, dont une
   nouvelle recherche ciblée ce jour) ; le feu est éteint, la route AL6109 rouverte, et la
   déclaration de « zone catastrophe » (ZAGEPC) relève de l'aide à la reconstruction, pas
-  d'une réglementation d'accès — clôture motivée par le seul fait établi.
+  d'une réglementation d'accès — clôture motivée par le seul fait établi."
 ordre: 81
 ---
 

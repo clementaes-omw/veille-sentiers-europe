@@ -7,7 +7,7 @@ validite: Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise, îl
   lac de la Cavayre : fermeture prolongée jusqu'au 30/09/2026 (aude.gouv.fr, mise à jour du
   11/09/2026) ; Ribaute jusqu'à levée de l'arrêté préfectoral
 detection: 2026-07-06
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 23/09 : l'Aude reste citée en vigilance rouge/orange incendie par la
   presse régionale (France 3 Occitanie, titrespresse.com, 21-22/09) aux côtés du Gard et des
   Pyrénées-Orientales, sans nouveau texte nommant un massif distinct de ceux déjà suivis ici.

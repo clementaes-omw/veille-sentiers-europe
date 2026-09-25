@@ -10,7 +10,7 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   un classement rouge limité au seul lundi 21/09/2026 (Gard Rhodanien, Garrigues, Costières
   Petite Camargue)
 detection: 2026-07-04
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 24/09 : aucune page gard.gouv.fr publiée pour le jeudi 24/09
   (l'URL du jour teste en 404), ce qui signifie, selon la convention de publication déjà
   établie sur cette fiche, qu'aucun secteur n'est classé rouge aujourd'hui. Une synthèse de
