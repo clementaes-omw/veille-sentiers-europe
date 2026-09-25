@@ -605,7 +605,7 @@ ALIAS_ZONE = {
     # Ouest / Nord
     "GR34-CapFrehel": "FR-BRE", "GR34-Finistère": "FR-BRE", "GR34-rade-de-Brest": "FR-BRE",
     "Ille-et-Vilaine-Dinard": "FR-BRE", "Ille-et-Vilaine-Saint-Briac-sur-Mer": "FR-BRE",
-    "Loire-Atlantique-Piriac-sur-Mer": "FR-BRE",
+    "Loire-Atlantique-Piriac-sur-Mer": "FR-BRE", "Finistere-Plomodiern": "FR-BRE",
     "GR21-Loges-Bénouville": "FR-NOR", "Pierrefiques-76": "FR-NOR",
     "Lot-Cieurac-Flaujac-Poujols": "FR-SO", "FR-Landes-Gironde": "FR-SO",
     "FR-IDF-Fontainebleau": "FR-IDF-CVL",
@@ -1613,7 +1613,7 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .badge.itin {{ background: var(--ink); color: var(--paper); }}
 /* Le ® des badges sentier en exposant. `line-height: 0` l'empêche d'agrandir la
    boîte de ligne : sans lui, les badges portant un ® seraient plus hauts que les
-   autres et la rangée de tête se désalignerâit. */
+   autres et la rangée de tête se désalignerait. */
 .badge sup {{ font-size: .72em; line-height: 0; vertical-align: super; }}
 .badge.sev-haute {{ background: var(--haute-bg); color: var(--haute); }}
 .badge.sev-moyenne {{ background: var(--moy-bg); color: var(--moy); }}
