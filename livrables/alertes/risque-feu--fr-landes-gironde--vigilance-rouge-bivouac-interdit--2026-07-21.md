@@ -5,7 +5,7 @@ itin: GR®65 (traversée des Landes), GR®8, GR®654 — impact direct sur les r
 sev: MOYENNE (Gironde en JAUNE, Landes revenues en ORANGE le 14/09)
 validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; Gironde abaissée à JAUNE à compter du 08/09/2026 (seul l'accès aux zones brûlées reste interdit) ; Landes abaissées à JAUNE à compter du 11/09/2026 puis remontées en ORANGE à compter du 14/09/2026 0h (bivouac/camping isolé de nouveau interdit en forêt), toujours en vigueur au 17/09, reconfirmé sans changement à la vérification du 18/09/2026 ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental
 detection: 2026-07-24
-verif: 2026-09-18
+verif: 2026-09-25
 statut: ACTIF — CHANGÉ 18/09 : les Landes, brièvement redescendues en JAUNE le 11/09,
   remontent en ORANGE à compter du lundi 14/09/2026 0h (landes.gouv.fr, lepetitjournal.net) :
   bivouac et camping isolé de nouveau interdits en forêt jusqu'à 200 m de la lisière, ce
