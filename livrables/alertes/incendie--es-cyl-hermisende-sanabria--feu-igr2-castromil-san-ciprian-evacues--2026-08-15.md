@@ -10,13 +10,13 @@ validite: [CLÔTURÉ] (2026-08-18) — feu déclaré éteint côté portugais le
   2h30, côté espagnol stabilisé à IGR-1 sans flamme visible et périmètre délimité ;
   190 évacués rentrés depuis le 15-16/08 ; aucun impact confirmé sur le Camino Sanabrés
 detection: 2026-08-16
-verif: 2026-09-18
-statut: [CLÔTURÉ] (2026-08-18) — la Protección Civil portugaise déclare le foyer éteint
+verif: 2026-09-25
+statut: "[CLÔTURÉ] (2026-08-18) — la Protección Civil portugaise déclare le foyer éteint
   côté Portugal le 17/08 vers 2h30 après intervention de 176 effectifs (plus de 1 900 ha
   brûlés en territoire portugais) ; côté espagnol, le feu reste au niveau 1 de gravité
   mais tous les fronts sont stabilisés, le périmètre délimité et sans flamme visible.
   Clôturée faute d'évolution ultérieure attendue et en l'absence de tout impact confirmé
-  sur le Camino Sanabrés à aucun moment de l'épisode.
+  sur le Camino Sanabrés à aucun moment de l'épisode."
 ordre: 169
 ---
 
