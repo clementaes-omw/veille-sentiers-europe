@@ -5,8 +5,8 @@ itin: Camino de Invierno [FAIT] la commune de Barjas est traversée par le trac�
 sev: MOYENNE
 validite: [CLÔTURÉ] (2026-08-27) — plus aucune source ne mentionne ce foyer depuis le 09/08/2026 20h22 ; l'agrégateur des incidents forestiers de Castilla y León ne le recense plus, ni comme actif ni comme récemment éteint
 detection: 2026-08-10
-verif: 2026-09-18
-statut: [CLÔTURÉ] (2026-08-27) — 18 jours sans aucune source postérieure au 09/08 20h22
+verif: 2026-09-25
+statut: "[CLÔTURÉ] (2026-08-27) — 18 jours sans aucune source postérieure au 09/08 20h22
   malgré une nouvelle recherche ciblée ce jour (requêtes dédiées « incendio Barjas León
   agosto 2026 Quintela ») : seuls les articles du 09/08 remontent. L'agrégateur
   mapasdeincendios.es (relais INFORCYL), qui liste les incidents forestiers actifs et
@@ -40,7 +40,7 @@ statut: [CLÔTURÉ] (2026-08-27) — 18 jours sans aucune source postérieure au
   Bierzo, est un signal de résolution silencieuse plutôt que d'un foyer encore actif, mais
   reste non confirmée formellement : sévérité maintenue à MOYENNE, prochain passage à
   reconsidérer la clôture par convention si le silence se prolonge, comme pour les fiches
-  Castropodame/La Baña et Murias de Ponjos.
+  Castropodame/La Baña et Murias de Ponjos."
 ordre: 103
 ---
 
