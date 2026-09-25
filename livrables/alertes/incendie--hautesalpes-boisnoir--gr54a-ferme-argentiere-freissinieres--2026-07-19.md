@@ -9,13 +9,15 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-24
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée sur l'acte manquant (recueil des
-  actes administratifs des Hautes-Alpes, page dédiée de la mairie, presse locale alpes1.com),
-  sans résultat plus récent que la précédente confirmation : l'arrêté municipal du 15/08/2026
-  reste le seul texte en vigueur. La fermeture reposant sur un texte officiel republié et
-  confirmé (pas une hypothèse à recouper), la règle des 14 jours ne s'applique pas au sens
-  strict ; sévérité maintenue HAUTE malgré l'ancienneté du texte, faute de tout acte de levée.
+verif: 2026-09-25
+statut: ACTIF — INCHANGÉ 25/09 : nouvelle recherche ciblée sur l'acte manquant (page dédiée de
+  la mairie de L'Argentière-la-Bessée, recueil des actes administratifs des Hautes-Alpes,
+  recherche web « L'Argentière-la-Bessée Bois Noir réouverture septembre 2026 »), sans
+  résultat plus récent que la précédente confirmation : l'arrêté municipal du 15/08/2026
+  reste le seul texte en vigueur, 41 jours après sa signature. La fermeture reposant sur un
+  texte officiel republié et confirmé (pas une hypothèse à recouper), la règle des 14 jours
+  ne s'applique pas au sens strict ; sévérité maintenue HAUTE malgré l'ancienneté du texte,
+  faute de tout acte de levée.
 ordre: 41
 ---
 
@@ -80,6 +82,8 @@ MAJ 18/09 : nouvelle vérification directe, trente-quatre jours après la signat
 MAJ 20/09 : nouvelle vérification ciblée, trente-six jours après la signature de l'arrêté. La page dédiée de la mairie de L'Argentière-la-Bessée (ville-argentiere.fr/feu-bois-noir-informations) confirme une nouvelle fois que l'arrêté du 15/08/2026 reste l'acte en vigueur, présenté comme une mesure de protection maintenue en attendant l'ensemble des avis des autorités compétentes. La page des communiqués de presse 2026 de la préfecture des Hautes-Alpes (hautes-alpes.gouv.fr), relue directement, ne compte toujours aucun communiqué postérieur à celui du 6 août sur la sécheresse : rien sur le Bois Noir depuis juillet. Aucune source plus récente trouvée.
 
 MAJ 23/09 : nouvelle vérification sur l'acte manquant, distincte d'une simple relecture. La page dédiée de la mairie de L'Argentière-la-Bessée (ville-argentiere.fr/feu-bois-noir-informations), relue directement, confirme une nouvelle fois que l'arrêté du 15/08/2026 reste l'acte en vigueur, sans reconduction ni levée annoncée. Le recueil des actes administratifs de la préfecture des Hautes-Alpes (hautes-alpes.gouv.fr/Publications/Recueil-des-actes-administratifs) a été consulté directement, sans y trouver d'acte plus récent mentionnant le Bois Noir, L'Argentière-la-Bessée ou Freissinières. La page paysdesecrins.com/vigileance-feu-en-cours/, déjà en erreur depuis le 05/09, reste inaccessible. Un article alpesdusud.alpes1.com sur une controverse entre le préfet et les élus locaux au sujet de la gestion initiale de l'incendie (déjà signalé le 14/09) n'a pas pu être relu (accès refusé) ; son contenu, tel que déjà noté, porte sur la conduite des secours et non sur l'état de la fermeture. Trente-neuf jours après la signature de l'arrêté, aucun acte de levée n'est publié : la fermeture du cœur de massif reste la seule donnée sûre.
+
+MAJ 25/09 : nouvelle vérification sur l'acte manquant, quarante et un jours après la signature de l'arrêté. La page dédiée de la mairie de L'Argentière-la-Bessée (ville-argentiere.fr/feu-bois-noir-informations), relue directement, confirme une nouvelle fois que l'arrêté du 15/08/2026 reste l'acte en vigueur, sans reconduction ni levée annoncée. Le recueil des actes administratifs de la préfecture des Hautes-Alpes (hautes-alpes.gouv.fr/Publications/Recueil-des-actes-administratifs), consulté directement, a répondu par une erreur 503 ce jour (à retenter). Une recherche complémentaire par mots-clés (« L'Argentière-la-Bessée Bois Noir réouverture septembre 2026 ») n'a fait remonter aucun résultat de réouverture, seul l'arrêté du 15/08 étant cité. Aucun acte de levée n'est publié à ce jour : la fermeture du cœur de massif reste la seule donnée sûre.
 
 ## Source
 
