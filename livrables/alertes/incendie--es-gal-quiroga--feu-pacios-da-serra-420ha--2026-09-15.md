@@ -5,7 +5,7 @@ itin: Camino de Invierno (étape A Rúa ↔ Quiroga puis Quiroga ↔ Monforte de
 sev: MOYENNE
 validite: feu déclaré contrôlé (controlado) le vendredi 18/09/2026 à 21h00, environ 460 ha parcourus, non encore déclaré éteint
 detection: 2026-09-18
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée (« incendio Quiroga Lugo
   extinguido/estabilizado »), toujours aucune source postérieure au contrôle du 18/09 (21h00,
   ~460 ha) retrouvée pour ce foyer ; le fil d'actualités galiciapress.es/tag/incendios-galicia
