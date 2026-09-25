@@ -5,11 +5,11 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-24
-statut: ACTIF — INCHANGÉ 24/09 : nouvelle recherche dédiée (presseagence.fr, WebSearch,
-  alpes-maritimes.gouv.fr relu directement, page toujours datée du 08/06), toujours aucune
+verif: 2026-09-25
+statut: ACTIF — INCHANGÉ 25/09 : nouvelle recherche dédiée (presseagence.fr, WebSearch,
+  alpes-maritimes.gouv.fr en erreur 503 au moment de la vérification), toujours aucune
   publication postérieure au 31/08 trouvée pour ce massif côté Alpes-Maritimes. L'écart avec
-  la dernière confirmation datée atteint désormais 24 jours. Sévérité maintenue MOYENNE ; le
+  la dernière confirmation datée atteint désormais 25 jours. Sévérité maintenue MOYENNE ; le
   fait établi reste les fermetures répétées documentées entre le 17 juillet et le 31 août.
 ordre: 102
 ---
@@ -69,6 +69,8 @@ Vérifié le 18/09/2026 : nouvelle recherche dédiée par mots-clés (presseagen
 Vérifié le 20/09/2026 : nouvelle recherche dédiée (presseagence.fr, WebSearch), toujours aucune publication postérieure au 31/08/2026 trouvée pour ce massif spécifique des Alpes-Maritimes. L'écart atteint désormais 20 jours. Côté Var, le massif de l'Estérel (fiche distincte) est classé modéré ce dimanche 20/09, sans fermeture : cela ne renseigne pas directement sur le massif Esterel-Tanneron des Alpes-Maritimes, dont la préfecture publie un classement séparé.
 
 Vérifié le 24/09/2026 : nouvelle recherche dédiée (WebSearch presseagence.fr, fetch direct de la page dédiée alpes-maritimes.gouv.fr) : cette page reste datée du 08/06/2026 et ne mentionne pas l'Esterel-Tanneron ; aucune publication de presse postérieure au 31/08/2026 trouvée pour ce massif spécifique. L'écart avec la dernière confirmation datée atteint désormais 24 jours.
+
+Vérifié le 25/09/2026 : nouvelle recherche dédiée (WebSearch presseagence.fr, tentative de fetch direct de la page dédiée alpes-maritimes.gouv.fr en erreur 503) : aucune publication de presse postérieure au 31/08/2026 trouvée pour ce massif spécifique. L'écart avec la dernière confirmation datée atteint désormais 25 jours.
 
 ## Source
 
