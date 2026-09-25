@@ -5,7 +5,7 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-24
+verif: 2026-09-25
 statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, aucune carte nominative retrouvée
   postérieure au 17/09 malgré recherche dédiée : le classement du 17/09 (un secteur rouge,
   sept orange) reste la dernière donnée officielle datée connue. Le département reste par
