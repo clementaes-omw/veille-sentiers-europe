@@ -5,10 +5,11 @@ itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: HAUTE
 validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et bergers jusqu'à nouvel ordre, aucune date de réouverture du GR®10 annoncée
 detection: 2026-09-07
-verif: 2026-09-24
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée sur la réouverture du GR®10, rien
-  de postérieur au point du 10/09 retrouvé. Le feu reste fixé et sous surveillance, l'accès au
-  sol toujours strictement interdit à tous les usagers, vingt et un jours après le départ de
+verif: 2026-09-25
+statut: ACTIF — INCHANGÉ 25/09 : nouvelle recherche ciblée sur la réouverture du GR®10, rien
+  de postérieur au point du 10/09 retrouvé (préfecture 64, PN Pyrénées, La République des
+  Pyrénées/lasemainedespyrenees.fr). Le feu reste fixé et sous surveillance, l'accès au sol
+  toujours strictement interdit à tous les usagers, vingt-trois jours après le départ de
   feu, sans date de levée annoncée : sévérité maintenue HAUTE.
 ordre: 221
 ---
@@ -46,6 +47,8 @@ Dimanche soir : la préfecture porte le bilan à 125 hectares et qualifie la sit
 18/09 (vendredi) : nouvelle vérification ciblée, aucun article postérieur au point du 10/09 retrouvé. L'accès au secteur reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 entre Etsaut et Cette-Eygun annoncée, seize jours après le départ de feu.
 
 23/09 (mercredi) : nouvelle vérification ciblée, aucun article postérieur au point du 10/09 retrouvé. L'accès au secteur reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 entre Etsaut et Cette-Eygun annoncée, vingt et un jours après le départ de feu.
+
+25/09 (vendredi) : nouvelle vérification ciblée, aucun article postérieur au point du 10/09 retrouvé. L'accès au secteur reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 entre Etsaut et Cette-Eygun annoncée, vingt-trois jours après le départ de feu.
 
 ## Source
 
