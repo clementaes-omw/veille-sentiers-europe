@@ -3,13 +3,14 @@ cle: incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10
 type: incendie / fermeture sentier
 itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, communes de Bordes-Uchentein, Arrien-en-Bethmale et Bethmale)
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
-validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
+validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09), arrêté du 24/08 traité comme dernier état connu par défaut
 detection: 2026-07-20
-verif: 2026-09-24
-statut: ACTIF — INCHANGÉ 24/09 : nouvelle recherche ciblée sur l'acte manquant (recueil des
-  actes administratifs de l'Ariège, angle nouveau), sans résultat exploitable. L'arrêté du
-  31/08 (jusqu'à nouvel ordre) reste le texte en vigueur. Sévérité maintenue HAUTE (fondement
-  = arrêté daté, pas une hypothèse à 14 jours).
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : nouvelle recherche ciblée sur l'acte manquant (recueil des
+  actes administratifs de l'Ariège, bordesuchentein.fr, requête générale sur une réouverture),
+  sans résultat exploitable au-delà de ce qui est déjà connu. L'arrêté du 31/08 (jusqu'à
+  nouvel ordre) reste le texte en vigueur. Sévérité maintenue HAUTE (fondement = arrêté daté,
+  pas une hypothèse à 14 jours).
 ordre: 34
 ---
 
@@ -72,6 +73,8 @@ MAJ 18/09 : nouvelle vérification ciblée, confirmant que l'incendie de Bordes-
 MAJ 23/09 : nouvelle vérification ciblée (bordesuchentein.fr relu directement, recherche presse dédiée), aucun document ni communiqué postérieur à l'arrêté du 31/08/2026 retrouvé. Le tronçon Cap des Lauzes↔étang d'Ayes reste fermé, sans annonce de réouverture.
 
 MAJ 24/09 : nouvelle piste tentée sur le recueil des actes administratifs de la préfecture de l'Ariège (angle différent des vérifications précédentes, qui portaient sur bordesuchentein.fr et ariege.gouv.fr/Publications/Actualites) : un recueil spécial trouvé (n°09-2026-124, 12/08/2026) s'est révélé sans rapport (arrêté sur le conditionnement aversif d'un ours brun à Seix). bordesuchentein.fr et pyreneesfm.com/departement/ariege relus, sans résultat nouveau. L'arrêté du 31/08/2026 reste le seul texte en vigueur.
+
+MAJ 26/09 : le tronçon Marc↔Port de Saleix reste rouvert depuis le 31/08. Le tronçon Cap des Lauzes↔étang d'Ayes, lui, reste fermé par l'arrêté du 31/08/2026, vingt-six jours après sa publication, sans annonce de réouverture.
 
 ## Source
 
