@@ -5,13 +5,13 @@ itin: GR®20
 sev: MOYENNE
 validite: interdiction feu 15/06→30/09/2026
 detection: 2026-06-29
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 24/09 : haute-corse.gouv.fr relu directement, toujours calé sur
-  l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate) pour la référence la plus récente
-  trouvée, aucun acte plus récent localisé. Recherche générale sur les feux corses du jour :
-  aucun nouveau départ ni reprise sur les secteurs déjà suivis (Albertacce, Calenzana,
-  Calvi), hors un départ mineur à Oletta le 20/09, déjà fixé le jour même. Interdiction
-  générale de feu (15/06→30/09) toujours en vigueur par défaut sur l'ensemble de l'île.
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : haute-corse.gouv.fr en erreur 503 à la vérification directe ;
+  recherche web de contournement sans résultat postérieur à l'arrêté du 19/08/2026
+  (Fango/Bonifato/ouest Agriate), toujours la référence la plus récente connue. Recherche
+  générale sur les feux corses du jour : aucun nouveau départ ni reprise sur les secteurs déjà
+  suivis (Albertacce, Calenzana, Calvi, Oletta). Interdiction générale de feu (15/06→30/09,
+  4 jours restants) toujours en vigueur par défaut sur l'ensemble de l'île.
 ordre: 2
 ---
 
@@ -64,6 +64,8 @@ MAJ 18/09 : un nouveau feu s'est déclaré le jeudi 17/09/2026 vers 13h20 sur la
 MAJ 23/09 : haute-corse.gouv.fr relu en direct, la référence la plus récente reste l'arrêté du 19/08/2026 (Fango/Bonifato/ouest Agriate). Le feu de la route de l'aéroport de Calvi du 17/09 (fiche dédiée) est clôturé ce jour, aucune reprise après 6 jours de vérification. Aucun nouveau départ de feu trouvé pour le 21-23/09 sur les secteurs suivis (Albertacce/Niolu, Calenzana/Montegrosso).
 
 MAJ 24/09 : un départ de feu mineur a été signalé le dimanche 20/09/2026 à 14h26 secteur du lac de Padula (Oletta, Haute-Corse), environ 1 hectare de maquis, fixé en début d'après-midi le jour même ; aucune route ni sentier fermé, aucun lien avec le GR®20/Mare a Mare/Mare e Monti. haute-corse.gouv.fr relu en direct, toujours calé sur l'arrêté du 19/08/2026, aucun acte plus récent trouvé.
+
+MAJ 26/09 : haute-corse.gouv.fr en erreur 503 à la vérification directe ; recherche web de contournement, toujours aucun acte plus récent que celui du 19/08/2026. Recherche générale sur l'actualité des incendies corses (corsenetinfos.corsica, France 3 Corse) : aucun nouveau départ de feu trouvé pour le 24-26/09 sur l'île, aucune reprise sur les secteurs déjà suivis.
 
 ## Source
 
