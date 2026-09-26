@@ -5,13 +5,14 @@ itin: Mare e Monti Nord (GRP, secteur Calvi↔Calenzana) ; GR®20 (terminus nord
   proximité) [HYPOTHÈSE — aucune source ne documente de fermeture de sentier, le feu a touché
   la route de l'aéroport de Calvi et ses abords, en contrebas des tracés]
 sev: INFO
-validite: [CLÔTURÉ] (2026-09-23) — feu fixé le 17/09/2026 en fin d'après-midi (environ 3 à 4 heures d'intervention), D81 et trafic aérien de l'aéroport de Calvi rouverts le jour même ; aucune reprise ni fermeture de sentier constatée après 6 jours de vérification
+validite: "[CLÔTURÉ] (2026-09-23) — feu fixé le 17/09/2026 en fin d'après-midi (environ 3 à 4 heures d'intervention), D81 et trafic aérien de l'aéroport de Calvi rouverts le jour même ; aucune reprise ni fermeture de sentier constatée après 6 jours de vérification"
 detection: 2026-09-17
-verif: 2026-09-25
+verif: 2026-09-26
 statut: "[CLÔTURÉ] (2026-09-23) — aucune reprise signalée depuis le 17/09, six jours après la
   fixation du feu. Recherche générale sur les feux corses du jour (23/09) sans résultat
   nouveau sur ce secteur. Alerte clôturée sur le même modèle que les feux mineurs déjà
-  traités cet été (Cagnano, Ginasservis)."
+  traités cet été (Cagnano, Ginasservis). INCHANGÉ 26/09 : recherche générale sur les feux
+  corses du jour, aucune reprise signalée."
 ordre: 240
 ---
 
