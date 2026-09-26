@@ -5,13 +5,13 @@ itin: GRP Tour de la Barguillère, GRP Tour du Pic des Trois Seigneurs, GRP Le P
 sev: MOYENNE
 validite: feu éteint ; itinéraires rouverts (communiqué du CDRP09/FFRandonnée Ariège)
 detection: 2026-08-24
-verif: 2026-09-24
-statut: [CLÔTURÉ] (2026-08-24) — feu détecté à Saurat le 16/08, éteint selon feuxdeforet.fr,
+verif: 2026-09-26
+statut: ACTIF — [CLÔTURÉ] (2026-08-24) — feu détecté à Saurat le 16/08, éteint selon feuxdeforet.fr,
   réouverture des itinéraires confirmée par le CDRP09 (FFRandonnée Ariège). Aucun GR national
   concerné, seulement 3 GRP locaux, fermés puis rouverts en l'espace d'une semaine. Reverif
   légère 28/08 puis 14/09 : Pyrénées FM (14/09) rapporte une reprise sans intervention du
-  SDIS (surveillance simple, aucune fermeture de sentier), clôture maintenue. Reverif 24/09 :
-  aucun signal nouveau.
+  SDIS (surveillance simple, aucune fermeture de sentier), clôture maintenue. Reverif 24/09
+  et 26/09 : aucun signal nouveau.
 ordre: 178
 ---
 
