@@ -5,8 +5,8 @@ itin: Aucun P1 confirmé ; [HYPOTHÈSE] le sentier CNAV013 (Colle di Viso) est u
 sev: MOYENNE (résolu en moins de 48h)
 validite: fermeture du 01/09 au 03/09/2026, levée
 detection: 2026-09-05
-verif: 2026-09-05
-statut: [CLÔTURÉ] (2026-09-03)
+verif: 2026-09-26
+statut: "[CLÔTURÉ] (2026-09-03)"
 ordre: 220
 ---
 

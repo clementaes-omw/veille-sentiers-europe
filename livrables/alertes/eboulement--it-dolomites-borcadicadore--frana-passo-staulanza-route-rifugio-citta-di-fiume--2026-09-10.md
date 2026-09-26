@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: éboulement du 10/09/2026 ; route et parking restent fermés jusqu'à nouvel ordre, le
   temps des vérifications de sécurité, sans échéance de réouverture annoncée à ce jour
 detection: 2026-09-12
-verif: 2026-09-12
+verif: 2026-09-26
 statut: ACTIF — NOUVEAU
 ordre: 227
 ---
