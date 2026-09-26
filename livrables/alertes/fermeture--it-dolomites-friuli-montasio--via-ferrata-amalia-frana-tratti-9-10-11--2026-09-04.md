@@ -5,7 +5,7 @@ itin: Aucun P1 confirmé ; via ferrata locale (secteur Alpi Giulie, CAI FVG), ho
 sev: MOYENNE (source unique à ce jour : il Dolomiti + relais CAI)
 validite: fermée depuis le 04/09/2026, jusqu'à nouvel ordre : le CAI n'annonce aucune échéance de réouverture
 detection: 2026-09-05
-verif: 2026-09-14
+verif: 2026-09-26
 statut: ACTIF — INCHANGÉ 14/09 : recherche ciblée sur il Dolomiti, cai-fvg.it et le site de
   la Società Alpina delle Giulie (CAI Trieste, caisag.ts.it), 10 jours après la détection.
   Aucune publication postérieure au 04/09/2026 trouvée sur la via ferrata Amalia ni sur les

@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermé depuis le 10/09/2026 jusqu'à nouvel ordre, en attente de vérifications
   géologiques, sans date de réouverture annoncée
 detection: 2026-09-12
-verif: 2026-09-12
+verif: 2026-09-26
 statut: ACTIF — NOUVEAU
 ordre: 226
 ---
