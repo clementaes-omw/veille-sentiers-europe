@@ -5,11 +5,11 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 12 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 01/09, en retrait par rapport aux 16 communes nommées le 27/08) ; quatorze communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sahune, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 25/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
   municipaux datés, pas une hypothèse à 14 jours), toujours les 12 mêmes communes datées,
   aucun arrêté de levée trouvé. L'échéance de fin de saison du 30/09/2026 se rapproche
-  (5 jours) sans être encore atteinte. Sévérité maintenue HAUTE.
+  (4 jours) sans être encore atteinte. Sévérité maintenue HAUTE.
 ordre: 32
 ---
 
@@ -84,6 +84,8 @@ MAJ 20/09 : nouvelle vérification ciblée de la liste de référence PNR Baronn
 MAJ 23/09 : nouvelle vérification ciblée de la liste de référence PNR Baronnies Provençales, toujours datée « mise à jour le 01/09/26 », toujours les mêmes 12 communes, sans nouvelle disparition ni nouvel ajout.
 
 MAJ 25/09 : nouvelle vérification ciblée de la liste de référence PNR Baronnies Provençales, toujours datée « mise à jour le 01/09/26 », toujours les mêmes 12 communes, sans nouvelle disparition ni nouvel ajout. L'échéance structurelle de fin de saison du 30 septembre est désormais à 5 jours.
+
+MAJ 26/09 : nouvelle vérification ciblée de la liste de référence PNR Baronnies Provençales, toujours datée « mise à jour le 01/09/26 », toujours les mêmes 12 communes (Châteauneuf-de-Bordette, Curnier, La Charce, La Penne-sur-Ouvèze, Lemps, Les Pilles, Pierrelongue, Pommerol, Sainte-Euphémie-sur-Ouvèze, Saint-Sauveur-Gouvernet, Teyssières, Verclause), sans nouvelle disparition ni nouvel ajout. L'échéance structurelle de fin de saison du 30 septembre est désormais à 4 jours.
 
 ## Source
 

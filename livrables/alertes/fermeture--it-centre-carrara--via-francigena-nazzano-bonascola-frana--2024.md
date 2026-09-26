@@ -5,7 +5,7 @@ itin: Via Francigena — tronçon italien (P1)
 sev: MOYENNE
 validite: interruption maintenue jusqu'à nouvel ordre, aucune date de résorption annoncée par la presse locale (situation non résorbée depuis ~2024, dernière confirmation le 10/06/2026)
 detection: 2026-08-01 (avis de presse du 10/06/2026)
-verif: 2026-09-05
+verif: 2026-09-26
 statut: ACTIF — NOUVEAU 01/08
 ordre: 96
 ---
@@ -20,7 +20,7 @@ Route provinciale reliant directement Nazzano à Bonascola, utilisée de facto c
 
 ## Zone (détails)
 
-Alerte remontée par le comitato locale « Si R-Esiste » et relayée par la presse locale (La Voce Apuana, 10/06/2026). Source de presse unique : ni ordonnance municipale ni communiqué officiel de la commune de Carrara confirmant formellement la fermeture n'a été retrouvé (recherche du 01/08/2026). L'existence du glissement de terrain et de la coupure physique est en statut [FAIT], le fait matériel étant rapporté avec des détails précis de lieu et de durée, mais le sourcing reste à renforcer (une seule source). Sévérité limitée à MOYENNE conformément à la règle « une seule source de presse → orange/MOYENNE au mieux ». Distinct de l'alerte `reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30` (Latium, tronçon Formello à La Storta) : il s'agit ici d'un tronçon toscan différent, sur la portion Via Francigena de Carrara/Massa.
+Alerte remontée par le comitato locale « Si R-Esiste » et relayée par la presse locale (La Voce Apuana, 10/06/2026). Source de presse unique : ni ordonnance municipale ni communiqué officiel de la commune de Carrara confirmant formellement la fermeture n'a été retrouvé (recherche du 01/08/2026). L'existence du glissement de terrain et de la coupure physique est en statut [FAIT], le fait matériel étant rapporté avec des détails précis de lieu et de durée, mais le sourçage reste à renforcer (une seule source). Sévérité limitée à MOYENNE conformément à la règle « une seule source de presse → orange/MOYENNE au mieux ». Distinct de l'alerte `reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30` (Latium, tronçon Formello à La Storta) : il s'agit ici d'un tronçon toscan différent, sur la portion Via Francigena de Carrara/Massa.
 
 ## Source
 
