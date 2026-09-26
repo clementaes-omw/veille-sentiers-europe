@@ -5,13 +5,13 @@ itin: Camino de Invierno (étape A Rúa ↔ Quiroga puis Quiroga ↔ Monforte de
 sev: MOYENNE
 validite: feu déclaré contrôlé (controlado) le vendredi 18/09/2026 à 21h00, environ 460 ha parcourus, non encore déclaré éteint
 detection: 2026-09-18
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée (« incendio Quiroga Lugo
-  extinguido/estabilizado »), toujours aucune source postérieure au contrôle du 18/09 (21h00,
-  ~460 ha) retrouvée pour ce foyer ; le fil d'actualités galiciapress.es/tag/incendios-galicia
-  ne recense, au 22-23/09, que deux petits conatos dans le Parque Natural de A Baixa
-  Limia-Serra do Xurés (Ourense, contrôlé puis éteint le 22/09), sans lien avec Quiroga.
-  Extinction totale toujours non déclarée. Aucune fermeture du Camino de Invierno documentée.
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : nouvelle recherche ciblée (« incendio Quiroga Lugo
+  extinguido »), toujours aucune source postérieure au contrôle du 18/09 (21h00, ~460 ha)
+  retrouvée pour ce foyer précis ; l'actualité incendie en Galice ce jour porte sur un foyer
+  distinct et sans lien, à Calvos de Randín/Baltar (Ourense, frontière portugaise, secteur
+  Baixa Limia, ~460 ha, Situación 2 activée puis désactivée le 25/09). Extinction totale de
+  Quiroga toujours non déclarée. Aucune fermeture du Camino de Invierno documentée.
   Sévérité maintenue MOYENNE.
 ordre: 235
 ---
