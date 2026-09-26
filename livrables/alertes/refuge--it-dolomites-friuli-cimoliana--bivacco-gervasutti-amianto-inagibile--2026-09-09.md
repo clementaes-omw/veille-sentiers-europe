@@ -5,7 +5,7 @@ itin: Aucun P1 confirmé ; Bivacco Gervasutti (Forcella Spè, Dolomiti Friulane,
 sev: MOYENNE
 validite: inagibile jusqu'à nouvel ordre depuis au moins le 09/09/2026, aucune date de fin de travaux annoncée
 detection: 2026-09-14
-verif: 2026-09-14
+verif: 2026-09-26
 statut: ACTIF — NOUVEAU. Piste connue en mémoire interne depuis le 12/09 (date de
   publication non confirmée à l'époque) ; la date du 09/09/2026 est désormais confirmée par
   les métadonnées de publication de l'article il Dolomiti. Deux sources concordantes (CAI
