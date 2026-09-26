@@ -5,14 +5,14 @@ itin: Malerweg (Suisse Saxonne) — étape 3 (Kohlichtgraben, et Schindergraben�
 sev: MOYENNE
 validite: Kohlichtgraben et Bergsteig fermés jusqu'à nouvel ordre depuis le 18/08/2026 ; Schindergraben↔Halbenweg fermé jusqu'à nouvel ordre depuis la nuit du 19 au 20/08/2026 (nouvelle tempête) ; aucune échéance annoncée pour les trois secteurs, déviations balisées en place
 detection: 2026-08-18
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, pages officielles du parc revues
-  (nationalpark-saechsische-schweiz.de/warnungen/bergsteig et saechsische-schweiz.de/gut-zu-
-  wissen/aktuelles). Le Kohlichtgraben et le Bergsteig restent fermés pour dépérissement des
-  épicéas par le scolyte, sans échéance de réouverture ; le Kohlichtgraben traverse une forêt
-  privée que le parc ne peut pas déblayer lui-même. Les trois secteurs (Kohlichtgraben,
-  Bergsteig partie basse, Schindergraben↔Halbenweg) restent fermés sans changement depuis le
-  22/08.
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : nouvelle recherche, page officielle du parc
+  nationalpark-saechsische-schweiz.de/warnungen/bergsteig revue directement. Le Bergsteig
+  reste fermé pour dépérissement des épicéas par le scolyte (risque de chute de bois mort),
+  sans échéance de réouverture, déviation par l'Erlsgrund et la Winterbergstraße toujours
+  recommandée. Aucune source consultée ne mentionne le Kohlichtgraben ni le
+  Schindergraben↔Halbenweg ce jour ; faute de signal contraire, les trois secteurs sont
+  traités comme inchangés depuis le 22/08.
 ordre: 176
 ---
 
@@ -39,6 +39,8 @@ MAJ 18/09 : nouvelle re-vérification, page dédiée du parc national (nationalp
 MAJ 19/09 : nouvelle re-vérification (saechsische-schweiz.de/gut-zu-wissen/aktuelles), même état pour les trois secteurs, aucune échéance de réouverture publiée.
 
 MAJ 23/09 : nouvelle re-vérification, page dédiée du parc national (nationalpark-saechsische-schweiz.de/warnungen/bergsteig) confirmée toujours en ligne : le Bergsteig reste impraticable pour risque de chute de bois mort lié au dépérissement scolyte généralisé, sans date de réouverture, déviation par l'Erlsgrund et la Winterbergstraße toujours recommandée. La page aktuelles (mise à jour du 22/09/2026 15h00) confirme le Kohlichtgraben toujours impraticable pour les épicéas scolytés, avec déviation par Goßdorf. Même état pour les trois secteurs qu'au 19/09.
+
+MAJ 26/09 : nouvelle re-vérification, page dédiée du parc national (nationalpark-saechsische-schweiz.de/warnungen/bergsteig) relue directement : le Bergsteig reste impraticable pour risque de chute de bois mort lié au dépérissement scolyte généralisé, sans date de réouverture, déviation par l'Erlsgrund et la Winterbergstraße toujours recommandée. Aucune information nouvelle trouvée sur le Kohlichtgraben ni sur le Schindergraben↔Halbenweg ce jour ; les deux restent traités comme fermés faute de signal contraire.
 
 ## Source
 

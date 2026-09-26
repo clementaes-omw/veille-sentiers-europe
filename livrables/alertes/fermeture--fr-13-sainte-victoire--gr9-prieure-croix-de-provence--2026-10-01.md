@@ -5,8 +5,8 @@ itin: GR®9 (Sainte-Victoire, secteur Prieuré↔Croix de Provence)
 sev: MOYENNE
 validite: fermetures en semaine du 01/10 au 27/11/2026
 detection: 2026-09-24
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 25/09 : pas de nouvel élément trouvé, la fermeture programmée du
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : pas de nouvel élément trouvé, la fermeture programmée du
   01/10 au 27/11 reste confirmée par la page du Grand Site.
 ordre: 248
 ---
