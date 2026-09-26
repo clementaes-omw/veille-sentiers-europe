@@ -5,7 +5,7 @@ itin: **GR®20 FERMÉ : Ciottulu di i Mori ↔ Asco + Tighjettu ↔ bergeries de
 sev: HAUTE
 validite: "[CLÔTURÉ] rouvert depuis le 30/07/2026 selon le PNRC, incendie désormais maîtrisé"
 detection: 2026-07-15 (feu du 12/07)
-verif: 2026-09-25
+verif: 2026-09-26
 statut: "[CLÔTURÉ] (2026-08-01) — INCHANGÉ 20/09 : recherche générale du jour, aucune reprise
   signalée sur Albertacce/Niolu. INCHANGÉ 18/09 : recherche générale du jour, aucune reprise
   signalée sur Albertacce/Niolu ; un feu distinct s'est déclaré le 17/09 près de l'aéroport de
