@@ -5,10 +5,11 @@ itin: GR®367 (Sentier Cathare, château de Puilaurens) ; GR®36 (gorges de l'Au
 sev: MOYENNE
 validite: feu fixé depuis le mardi 08/09/2026 au matin, environ 225 hectares parcourus ; surveillance active maintenue jusqu'à nouvel ordre, aucune levée annoncée à ce jour
 detection: 2026-09-05
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche, aucun élément plus récent que le point
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : nouvelle recherche, aucun élément plus récent que le point
   du 18/09 (D117 rouverte avec restriction). L'avis rando-pyreneesaudoises.com du 05/09
-  (sentiers d'Axat, Lapradelle-Puilaurens, Salvezines à éviter) reste sans levée connue.
+  (sentiers d'Axat, Lapradelle-Puilaurens, Salvezines à éviter) est toujours en ligne sans
+  levée publiée, trois semaines après sa parution.
 ordre: 217
 ---
 
