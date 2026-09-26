@@ -5,18 +5,19 @@ itin: GR®653 (34) — **recoupement RÉSOLU 22/07 : le GR®653 (tronçon Montpe
 sev: MOYENNE
 validite: journalière, épisodes rouges répétés (canicule)
 detection: 2026-07-06
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, aucune carte nominative retrouvée
-  postérieure au 17/09 malgré recherche dédiée : le classement du 17/09 (un secteur rouge,
-  sept orange) reste la dernière donnée officielle datée connue. Le département reste par
-  ailleurs cité en vigilance orange Météo des forêts aux côtés de l'Ardèche, la Drôme, le
-  Vaucluse et les Bouches-du-Rhône dans les bulletins du 21-22/09. Sévérité maintenue MOYENNE.
+verif: 2026-09-26
+statut: ACTIF — CHANGÉ 26/09 : nouveau feu localisé, Plaissan/Puilacher (25/09, ~8 ha, deux
+  villas évacuées par précaution, maison de retraite menacée, aucun blessé), sans lien établi
+  avec un GR® référencé ni fermeture de sentier documentée. Aucune carte nominative de
+  classement retrouvée postérieure au 17/09 (herault.gouv.fr en erreur serveur ce jour) ; le
+  département reste cité en vigilance orange par la presse du 24/09. Sévérité maintenue
+  MOYENNE.
 ordre: 18
 ---
 
 ## Portion concernée
 
-Hérault, dernière donnée officielle connue au 20/09/2026 : selon la carte du jeudi 17/09/2026 (infoccitanie.fr), **un secteur est classé en rouge (accès aux espaces forestiers et travaux interdits), la Plaine viticole Cœur Hérault et Plaines littorales**, après un pic à six secteurs rouges la veille (16/09). Sept autres secteurs restent en orange (risque élevé, accès déconseillé et travaux réglementés) : Escandorgue et Larzac, Gangeois, Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, La Gardiole, Plaine viticole de l'Est héraultais. Aucune carte nominative plus récente n'est publiée à ce jour. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé, ni sur la Plaine viticole Cœur Hérault. Raison : risque incendie, canicule persistante.
+Hérault, dernière carte nominative connue, celle du jeudi 17/09/2026 (infoccitanie.fr) : **un secteur classé en rouge (accès aux espaces forestiers et travaux interdits), la Plaine viticole Cœur Hérault et Plaines littorales**, après un pic à six secteurs rouges la veille (16/09). Sept autres secteurs restaient en orange (risque élevé, accès déconseillé et travaux réglementés) : Escandorgue et Larzac, Gangeois, Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, La Gardiole, Plaine viticole de l'Est héraultais. Aucune carte nominative plus récente n'est publiée à ce jour (herault.gouv.fr inaccessible le 26/09), le département restant cité en vigilance orange par la presse du 24/09. **Un nouveau feu, distinct des massifs classés, a par ailleurs parcouru environ 8 ha entre Plaissan et Puilacher (cœur d'Hérault) le 25/09/2026**, sans fermeture de sentier documentée. Zone brûlée de Carlencas-et-Levas (~400 ha, feu fixé le 08/07). Le GR®653 (tronçon Montpellier→Montarnaud via Grabels) est géographiquement distinct de Carlencas-et-Levas, aucun impact confirmé sur ce tracé, ni sur la Plaine viticole Cœur Hérault. Raison : risque incendie, canicule persistante.
 
 ## Alternative
 
@@ -59,6 +60,8 @@ MAJ 14/09 : trois nouvelles cartes @Prefet34 retrouvées, non identifiées lors 
 MAJ 18/09 : infoccitanie.fr publie la carte du jeudi 17/09/2026 : la Plaine viticole Cœur Hérault et Plaines littorales repasse en rouge (accès aux espaces forestiers et travaux interdits), le premier secteur rouge depuis le 22/08. Sept secteurs restent en orange : Escandorgue et Larzac, Gangeois, Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, La Gardiole, Plaine viticole de l'Est héraultais. Sévérité maintenue MOYENNE, aucun impact confirmé sur le GR®653.
 
 MAJ 20/09 : une recherche complémentaire sur la période immédiatement antérieure retrouve un classement plus sévère que celui déjà documenté : le mercredi 16/09/2026, deux sources directes convergentes et datées (infoccitanie.fr, Hérault Tribune/echo-des-tribunes.com) rapportent SIX secteurs classés en rouge, soit le pic le plus élevé depuis le 06/08 : Garrigues et Pinèdes de l'Est héraultais, Collines du Centre Hérault, Minervois et Saint-Chinianais, Plaine viticole Cœur Hérault et Plaines littorales, La Gardiole, Plaine viticole de l'Est héraultais. Seuls Escandorgue et Larzac-Gangeois restaient en orange ce jour-là. Ce pic n'a duré qu'un jour : le classement du 17/09 (déjà documenté ci-dessus, un seul secteur rouge) confirme la redescente dès le lendemain. Un feu de détritus a par ailleurs été signalé le 16/09 à Villeneuve-lès-Béziers, rapidement éteint, sans lien avec un massif classé. Aucune carte nominative postérieure au 17/09 n'a été retrouvée pour le 18, 19 ou 20/09 malgré recherche dédiée (shopping-beziers.com n'a rien republié depuis le 31/07). Sévérité maintenue MOYENNE, conformément au traitement déjà retenu pour les épisodes rouges antérieurs de cette fiche (classement journalier, pas une fermeture durable).
+
+MAJ 26/09 : un feu de pinède et d'herbes basses s'est déclaré le vendredi 25/09/2026 en milieu d'après-midi entre les communes de Plaissan et Puilacher (cœur d'Hérault, secteur Gignac/Aniane), distinct des massifs classés suivis ci-dessus. Attisées par un vent tourbillonnant, les flammes ont menacé deux villas (occupants évacués par précaution) et une maison de retraite ; une quarantaine de sapeurs-pompiers et un avion Dash sont intervenus, huit hectares de végétation ont été parcourus, aucun blessé n'est à déplorer. Les gendarmes de Lodève ont ouvert une enquête sur l'origine du sinistre. Aucune source consultée ne documente de fermeture de sentier ; le GR®653 (étape Montarnaud↔Saint-Guilhem-le-Désert, via La Boissière et Aniane) passe dans le même secteur mais son recoupement précis avec Plaissan/Puilacher n'est pas confirmé. Statut d'extinction non confirmé par une source postérieure au 25/09 malgré recherche dédiée ; herault.gouv.fr et la carte nominative des secteurs classés restent inaccessibles ce jour (erreur serveur). La presse du 24/09 confirme seulement l'Hérault en vigilance orange, sans nommer de secteur rouge.
 
 ## Source
 
