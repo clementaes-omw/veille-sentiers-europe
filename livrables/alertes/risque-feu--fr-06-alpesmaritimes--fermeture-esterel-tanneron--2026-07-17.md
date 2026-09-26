@@ -5,12 +5,17 @@ itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
 validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
 detection: 2026-08-09
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 25/09 : nouvelle recherche dédiée (presseagence.fr, WebSearch,
-  alpes-maritimes.gouv.fr en erreur 503 au moment de la vérification), toujours aucune
-  publication postérieure au 31/08 trouvée pour ce massif côté Alpes-Maritimes. L'écart avec
-  la dernière confirmation datée atteint désormais 25 jours. Sévérité maintenue MOYENNE ; le
-  fait établi reste les fermetures répétées documentées entre le 17 juillet et le 31 août.
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : nouvelle recherche dédiée (tentative 3 — presseagence.fr par
+  mots-clés, WebSearch ciblé sur les articles « vigilance feux de forêt » de septembre), qui
+  fait remonter deux articles presseagence.fr supplémentaires (« vendredi 5 septembre » et
+  « mardi 16 septembre ») ; vérifiés directement, ils correspondent tous deux à une année
+  antérieure par incohérence jour-de-semaine/date (le 5 septembre 2026 est un samedi et le 16
+  septembre 2026 un mercredi, pas un vendredi ni un mardi), donc écartés comme pièges
+  d'indexation déjà connus pour ce massif. Toujours aucune publication postérieure au 31/08
+  trouvée pour ce massif côté Alpes-Maritimes. L'écart avec la dernière confirmation datée
+  atteint désormais 26 jours. Sévérité maintenue MOYENNE ; le fait établi reste les fermetures
+  répétées documentées entre le 17 juillet et le 31 août.
 ordre: 102
 ---
 
@@ -71,6 +76,8 @@ Vérifié le 20/09/2026 : nouvelle recherche dédiée (presseagence.fr, WebSearc
 Vérifié le 24/09/2026 : nouvelle recherche dédiée (WebSearch presseagence.fr, fetch direct de la page dédiée alpes-maritimes.gouv.fr) : cette page reste datée du 08/06/2026 et ne mentionne pas l'Esterel-Tanneron ; aucune publication de presse postérieure au 31/08/2026 trouvée pour ce massif spécifique. L'écart avec la dernière confirmation datée atteint désormais 24 jours.
 
 Vérifié le 25/09/2026 : nouvelle recherche dédiée (WebSearch presseagence.fr, tentative de fetch direct de la page dédiée alpes-maritimes.gouv.fr en erreur 503) : aucune publication de presse postérieure au 31/08/2026 trouvée pour ce massif spécifique. L'écart avec la dernière confirmation datée atteint désormais 25 jours.
+
+Deux articles de presseagence.fr, titrés « Vendredi 5 septembre, vigilance feux de forêt » et « Mardi 16 septembre, vigilance feux de forêt », se révèlent en réalité dater de 2025 : le 5 septembre 2026 tombe un samedi (pas un vendredi) et le 16 septembre 2026 un mercredi (pas un mardi). Toujours aucune publication de 2026 postérieure au 31/08 trouvée. L'écart avec la dernière confirmation datée atteint désormais 26 jours.
 
 ## Source
 
