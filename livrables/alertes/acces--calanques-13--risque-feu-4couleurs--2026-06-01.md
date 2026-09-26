@@ -5,16 +5,16 @@ itin: GR®98 (Calanques Marseille-Cassis) — refemeé (rouge) le 17/08, après 
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
 validite: 1 juin→ 30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 15/09
 detection: 2026-06-01
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : cg13.eway.fr relu directement, prévision du 23-09-2026 : vert
-  intégral confirmé sur les 7 massifs suivis, 4e reconfirmation depuis le 14/09. Sévérité
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : cg13.eway.fr relu directement, prévision du 26-09-2026 : vert
+  intégral confirmé sur les 7 massifs suivis, 5e reconfirmation depuis le 14/09. Sévérité
   maintenue MOYENNE.
 ordre: 7
 ---
 
 ## Portion concernée
 
-Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce mercredi 23/09, **les Calanques entre Marseille et Cassis (GR®98) sont classées vert**, comme la Côte Bleue, Sainte-Victoire, Sainte-Baume, Concors, l'Arbois et le Montaiguet : vert intégral sur l'ensemble des massifs suivis, pour la 4e fois confirmée depuis le 14/09. Aucun massif orange ou rouge : le GR®98 reste accessible sans restriction. Source : cg13.eway.fr, conditions.php (prévision du 23-09-2026).
+Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce samedi 26/09, **les Calanques entre Marseille et Cassis (GR®98) sont classées vert**, comme la Côte Bleue, Sainte-Victoire, Sainte-Baume, Concors, l'Arbois et le Montaiguet : vert intégral sur l'ensemble des massifs suivis, pour la 5e fois confirmée depuis le 14/09. Aucun massif orange ou rouge : le GR®98 reste accessible sans restriction. Source : cg13.eway.fr, conditions.php (prévision du 26-09-2026).
 
 ## Alternative
 
@@ -93,6 +93,8 @@ MAJ 18/09 : cg13.eway.fr et bouches-du-rhone.gouv.fr n'ont pas pu être relus di
 MAJ 20/09 : cg13.eway.fr relu directement (prévision du 20-09-2026), le vert intégral se confirme sur les 7 massifs suivis (Calanques Marseille-Cassis, Côte Bleue, Sainte-Victoire, Concors, Sainte-Baume, Arbois, Montaiguet). Aucun massif orange ou rouge, aucune fermeture.
 
 MAJ 23/09 : cg13.eway.fr relu directement (prévision du 23-09-2026), vert intégral confirmé pour la 4e fois consécutive sur les 7 massifs suivis. Aucun massif orange ou rouge, aucune fermeture.
+
+MAJ 26/09 : cg13.eway.fr relu directement (prévision du 26-09-2026), vert intégral confirmé pour la 5e fois consécutive sur les 7 massifs suivis (Calanques Marseille-Cassis, Côte Bleue, Sainte-Victoire, Concors, Sainte-Baume, Arbois, Montaiguet). Aucun massif orange ou rouge, aucune fermeture.
 
 ## Source
 
