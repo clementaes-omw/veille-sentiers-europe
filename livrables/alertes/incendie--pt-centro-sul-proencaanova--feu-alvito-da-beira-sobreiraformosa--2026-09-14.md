@@ -1,7 +1,7 @@
 ---
 cle: incendie|PT-CENTRO-SUL-ProencaANova|feu-alvito-da-beira-sobreiraformosa|2026-09-14
 type: incendie
-itin: Rota das Aldeias do Xisto (Aldeia do Xisto da Figueira, Proença-a-Nova) et Grande Rota
+itin: Rota das Aldeias do Xisto (Aldeia do Xisto da Figueira, Proença-a-Nova) e Grande Rota
   da Cortiçada — [HYPOTHÈSE] proximité géographique avec le secteur du feu, aucune fermeture
   de tronçon confirmée par une source à ce jour
 sev: MOYENNE
@@ -9,7 +9,7 @@ validite: les deux foyers (Alvito da Beira et Atalaia) sont passés au statut «
   (surveillance, l'échelon le plus bas encore suivi) selon l'API officielle
   api.fogos.pt, interrogée le 18/09/2026 ; non encore déclarés éteints
 detection: 2026-09-14
-verif: 2026-09-25
+verif: 2026-09-26
 statut: ACTIF — INCHANGÉ 23/09 : nouvelle interrogation ciblée de l'API officielle
   api.fogos.pt, les deux foyers (Alvito da Beira, ID 20261309007 ; Atalaia, ID 20261309955)
   restent affichés au statut « Vigilância », mêmes surfaces qu'au 18/09 (1089,87 ha et

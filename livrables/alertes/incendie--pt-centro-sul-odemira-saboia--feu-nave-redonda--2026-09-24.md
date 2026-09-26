@@ -5,8 +5,12 @@ itin: Rota Vicentina, Caminho Histórico [HYPOTHÈSE] (étape Sabóia ↔ Odemir
 sev: MOYENNE
 validite: feu passé au statut de surveillance (« Vigilância ») dès les premières heures du 25/09/2026, moins de 24h après son déclenchement ; aucune fermeture de sentier documentée
 detection: 2026-09-25
-verif: 2026-09-25
-statut: ACTIF — NOUVEAU
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : nouvelle interrogation directe de l'API officielle
+  api.fogos.pt (données mises à jour le 26/09 21h28 UTC), le foyer reste au statut
+  « Vigilância », surface affinée à 437,96 ha (116,09 ha de forêt, 320,80 ha de maquis,
+  0,05 ha agricole), 147 personnels et 51 engins terrestres encore engagés. Aucune fermeture
+  de sentier ni déviation officielle publiée à ce jour.
 ordre: 251
 ---
 
