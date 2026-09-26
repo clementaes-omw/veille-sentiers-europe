@@ -6,8 +6,8 @@ itin: GR®54 (Tour de l'Oisans et des Écrins) — plusieurs tronçons endommag�
 sev: MOYENNE
 validite: dégâts constatés depuis les crues du 27-28/08/2026, réparations en cours vallée par vallée sans échéance de fin annoncée ; la route d'Ailefroide au Pré de Madame Carle (accès Glacier Blanc, hors tracé GR®54 lui-même) ne sera pas reconstruite, situation durable ; aucune source postérieure au 07/09/2026 retrouvée à la vérification du 23/09/2026
 detection: 2026-09-20
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : page ecrins-parcnational.fr « Quel état des sentiers après
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : page ecrins-parcnational.fr « Quel état des sentiers après
   les crues de la semaine dernière ? » relue directement, toujours datée du 04/09/2026, aucune
   mise à jour postérieure trouvée. Aucune source plus récente que le point du 04-07/09 trouvée.
   Événement à cheval sur FR-04-05 (Vallouise, Valgaudemar) et FR-ALPES-N/Isère (Vénéon,
@@ -37,6 +37,8 @@ Vallouise : passage à gué en place pour la passerelle du Glacier Noir, emport�
 07/09/2026 : la presse spécialisée (outside.fr) confirme que la route du Pré de Madame Carle ne sera pas reconstruite : l'accès piéton se fait par la rive droite, 4,8 km et 360 m de dénivelé depuis Ailefroide, soit environ 5 km et 360 m de dénivelé supplémentaires avant même d'atteindre l'ancien point de départ pour les alpinistes gagnant le Glacier Blanc ou le refuge des Écrins (chargés de cordes, crampons, piolets). Aucune source plus récente que ce point du 04-07/09 n'a été trouvée à la vérification du 23/09/2026.
 
 23/09/2026 : page ecrins-parcnational.fr relue directement, toujours datée du 04/09/2026, aucune mise à jour postérieure. Situation traitée comme stable, la remise en état vallée par vallée n'ayant pas fait l'objet d'un nouveau point depuis le 07/09.
+
+26/09/2026 : page ecrins-parcnational.fr relue directement, toujours datée du 04/09/2026, aucune mise à jour postérieure trouvée. Situation traitée comme stable.
 
 ## Source
 

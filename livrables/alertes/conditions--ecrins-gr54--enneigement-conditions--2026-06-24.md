@@ -5,9 +5,9 @@ itin: GR®54
 sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
-verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 23/09 : page relue en direct, toujours datée du 24 juin 2026,
-  91 jours sans mise à jour, 66 jours depuis la fermeture du GR®54A. Contradiction non
+verif: 2026-09-26
+statut: ACTIF — INCHANGÉ 26/09 : page relue en direct, toujours datée du 24 juin 2026,
+  94 jours sans mise à jour, 69 jours depuis la fermeture du GR®54A. Contradiction non
   résolue, sévérité maintenue MOYENNE sur ce point. Voir aussi la fiche
   `crue|Écrins-GR54|sentiers-refuges-endommages-crues-27-28-aout` (dégâts distincts, autres
   vallées du massif, non liés à cette contradiction).
@@ -53,6 +53,8 @@ MAJ 07/09 : toujours aucun changement (75 jours sans mise à jour, 50 jours depu
 MAJ 08/09 : toujours aucun changement (76 jours sans mise à jour, 51 jours depuis la fermeture du GR®54A). Même recommandation explicite du GR®54A via le col de la Pousterle, le vallon du Fournel et le pas de la Cavale, sans mention de l'incendie ni de la fermeture.
 
 MAJ 23/09 : toujours aucun changement (91 jours sans mise à jour, 66 jours depuis la fermeture du GR®54A). La page reste datée du 24/06/2026 et continue de recommander explicitement le GR®54A, sans mention de l'incendie ni de la fermeture du massif du Bois Noir, toujours en vigueur par arrêté municipal du 15/08/2026 (voir fiche dédiée).
+
+MAJ 26/09 : toujours aucun changement (94 jours sans mise à jour, 69 jours depuis la fermeture du GR®54A). La page reste datée du 24/06/2026 et continue de recommander explicitement le GR®54A via le col de la Pousterle, sans mention de l'incendie ni de la fermeture du massif du Bois Noir, toujours en vigueur par arrêté municipal du 15/08/2026 (voir fiche dédiée, elle-même reconfirmée en vigueur ce jour).
 
 ## Source
 
