@@ -8,12 +8,16 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1657 d
   le sentier d'Îlet Haut (Cilaos) en sortant après achèvement de ses travaux ; sur le tracé du
   GR® R2, ferme le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 25/09 : nouvelle recherche ciblée, aucun arrêté postérieur au
-  n°2026-1657 du 22/09 trouvé. Le Bras des Merles reste fermé, sévérité maintenue HAUTE.
-  Point non tranché inchangé : l'identification du Bras des Merles au GR® R2 repose
-  toujours sur des sites tiers (AllTrails, trails-viewer.com), la page ffrandonnee.fr
-  restant à recouper.
+verif: 2026-09-27
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche ciblée (page ONF, reunion-mafate.com,
+  Office de tourisme de l'Ouest 974, requêtes dédiées sur imazpress.com et clicanoo.re),
+  aucun arrêté postérieur au n°2026-1657 du 22/09 trouvé, et aucune annonce de levée sur
+  le Bras des Merles. La page reunion-mafate.com cite toujours l'arrêté n°2026-1617 du
+  16/09 comme texte de référence, sans avoir encore répercuté le n°2026-1657 du 22/09 :
+  simple décalage de mise à jour d'une source tierce, sans effet sur le texte réglementaire
+  en vigueur. Le Bras des Merles reste fermé, sévérité maintenue HAUTE. Point non tranché
+  inchangé : l'identification du Bras des Merles au GR® R2 repose toujours sur des sites
+  tiers (AllTrails, trails-viewer.com), la page ffrandonnee.fr restant à recouper.
 ordre: 16
 ---
 
@@ -44,6 +48,8 @@ MAJ 23/09 : nouvelle vérification auprès de l'ONF Réunion, de l'Office de tou
 MAJ 24/09 : [FAIT, arrêté préfectoral n°2026-1657 du 22 septembre 2026, signé par délégation par le directeur de cabinet du préfet, lu en entier] ce nouveau texte abroge l'arrêté n°2026-1617 du 16/09/2026 (article 2) et reprend son périmètre à l'identique, à une exception près : le sentier d'Îlet Haut, à Cilaos, en est retiré, l'arrêté visant expressément dans ses considérants l'achèvement des travaux de réhabilitation de ce sentier. Confirmation indépendante : imazpress.com titre le 23/09/2026 « Cilaos : le sentier d'Ilet-Haut est rouvert au public », après un chantier de reconstruction du tracé endommagé par les cyclones Batsirai et Emnati (2022), financé par le Département et le FEADER. Dans le cirque de Mafate, l'article 1 de l'arrêté n°2026-1657 liste nommément Maison Laclos-Kerval, le sentier du Bras des Merles (Deux Bras à Aurère), La Nouvelle-Maison Laclos (alternative par le PR25) et la Canalisation des Orangers : ces quatre fermetures sont reconduites à l'identique, sans changement pour le GR® R2.
 
 MAJ 25/09 : nouvelle vérification auprès de l'ONF Réunion, de l'Office de tourisme de l'Ouest 974, de reunion-mafate.com et d'imazpress.com, aucune source postérieure au 22/09 retrouvée. Le Bras des Merles reste listé parmi les sentiers fermés du cirque de Mafate sous l'arrêté n°2026-1657, sans changement.
+
+MAJ 27/09 : nouvelle vérification ciblée sur un éventuel arrêté postérieur au n°2026-1657 du 22/09 ou une levée du Bras des Merles. La page ONF reste sur l'arrêté n°2026-1657 comme texte de référence. reunion-mafate.com liste encore le Bras des Merles parmi les sentiers fermés, en citant toutefois l'arrêté n°2026-1617 du 16/09 (non encore mis à jour vers le texte du 22/09, un simple retard éditorial de cette page tierce). Aucune source de presse (imazpress.com, clicanoo.re) postérieure au 23/09 n'a été retrouvée sur ce sentier. Situation inchangée depuis le 25/09.
 
 ## Source
 

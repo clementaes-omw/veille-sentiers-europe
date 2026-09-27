@@ -5,17 +5,19 @@ itin: GR®9 (Dentelles de Montmirail) — statut non tranché depuis le 18/08 ; 
 sev: HAUTE
 validite: jour par jour, par communiqué officiel quotidien, publication reprise le 02/09 après 16 jours de silence ; un seul massif nommé pour le 03/09/2026, la Vallée du Rhône
 detection: 2026-07-18
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 25/09 : nouvelle recherche (vaucluse.gouv.fr, France Bleu Vaucluse),
-  toujours aucun communiqué vaucluse.gouv.fr postérieur à celui du 02/09 (Vallée du Rhône)
-  retrouvé. Le seul massif nommément fermé par un acte daté officiel reste la Vallée du
-  Rhône, sévérité maintenue HAUTE sur cette base.
+verif: 2026-09-27
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche ciblée (tentative de fetch direct de
+  vaucluse.gouv.fr/Actualites/Salle-de-presse/Communiques-de-Presse/2026/Septembre en erreur
+  503, recherche web de contournement sur les communiqués massifs de septembre), toujours
+  aucun communiqué postérieur à celui du 02/09 (Vallée du Rhône) retrouvé. Le seul massif
+  nommément fermé par un acte daté officiel reste la Vallée du Rhône, sévérité maintenue
+  HAUTE sur cette base.
 ordre: 33
 ---
 
 ## Portion concernée
 
-Vaucluse : [FAIT] **le massif de la Vallée du Rhône est interdit d'accès ce jeudi 03/09/2026**, seul massif nommé par le communiqué officiel de la préfecture (vaucluse.gouv.fr, publié le 02/09 pour le 03/09), qui marque la reprise d'un format de publication quotidien après 16 jours de silence depuis le 18/08. Les dix autres massifs cités par le dernier communiqué groupé du 18/08 (Bollene-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Monts de Vaucluse, Vallée d'Apt, Grand Luberon, Collines de Basse Durance, Enclave des Papes) ne sont pas repris dans ce nouveau communiqué : leur statut au 03/09 n'est pas tranché faute de texte explicite de réouverture, mais les indices non officiels (destinationluberon.com) penchent depuis fin août vers une détente sur le Luberon et les Monts de Vaucluse. Le Mont Ventoux, sommet compris, reste hors de toute liste depuis le 18/08. Deux départs de feu distincts ont par ailleurs touché Sorgues (Vallée du Rhône) le 03/09 vers 17h, une quarantaine de pompiers et 4 avions plus 1 hélicoptère bombardiers d'eau engagés ; le feu était éteint le jour même, sans lien de cause établi avec un GR® référencé. Exceptions encadrées habituelles : sites en dérogation, groupes accompagnés par un professionnel formé, travaux forestiers le matin (5h-13h). Raison : risque incendie. Aucun communiqué plus récent que celui du 02-03/09 n'est publié à ce jour (23/09/2026) : la situation reste identique.
+Vaucluse : [FAIT] **le massif de la Vallée du Rhône est interdit d'accès ce jeudi 03/09/2026**, seul massif nommé par le communiqué officiel de la préfecture (vaucluse.gouv.fr, publié le 02/09 pour le 03/09), qui marque la reprise d'un format de publication quotidien après 16 jours de silence depuis le 18/08. Les dix autres massifs cités par le dernier communiqué groupé du 18/08 (Bollene-Uchaux, Dentelles de Montmirail, Rasteau-Cairanne, Collines du Pays Voconces, Plaine du Comtat, Monts de Vaucluse, Vallée d'Apt, Grand Luberon, Collines de Basse Durance, Enclave des Papes) ne sont pas repris dans ce nouveau communiqué : leur statut au 03/09 n'est pas tranché faute de texte explicite de réouverture, mais les indices non officiels (destinationluberon.com) penchent depuis fin août vers une détente sur le Luberon et les Monts de Vaucluse. Le Mont Ventoux, sommet compris, reste hors de toute liste depuis le 18/08. Deux départs de feu distincts ont par ailleurs touché Sorgues (Vallée du Rhône) le 03/09 vers 17h, une quarantaine de pompiers et 4 avions plus 1 hélicoptère bombardiers d'eau engagés ; le feu était éteint le jour même, sans lien de cause établi avec un GR® référencé. Exceptions encadrées habituelles : sites en dérogation, groupes accompagnés par un professionnel formé, travaux forestiers le matin (5h-13h). Raison : risque incendie. Aucun communiqué plus récent que celui du 02-03/09 n'est publié à ce jour (27/09/2026) : la situation reste identique.
 
 ## Alternative
 
@@ -82,6 +84,8 @@ MAJ 21/09 : nouvelle recherche, toujours aucun communiqué massifs vaucluse.gouv
 MAJ 23/09 : nouvelle revue complète du listing des communiqués de septembre 2026 de vaucluse.gouv.fr, toujours aucun communiqué sur l'accès aux massifs postérieur à celui du 02/09. Le seul massif nommément fermé par un texte officiel daté reste la Vallée du Rhône.
 
 MAJ 25/09 : nouvelle revue complète du listing des communiqués de septembre 2026 de vaucluse.gouv.fr, toujours aucun communiqué sur l'accès aux massifs postérieur à celui du 02/09. Le seul massif nommément fermé par un texte officiel daté reste la Vallée du Rhône.
+
+MAJ 27/09 : nouvelle tentative de lecture directe du listing des communiqués de septembre 2026 de vaucluse.gouv.fr, en erreur 503 ce jour ; recherche web de contournement (« vaucluse.gouv.fr massifs forestiers interdiction accès septembre 2026 ») ne fait remonter aucun communiqué préfectoral plus récent que celui du 02/09 pour la Vallée du Rhône. Un indice non officiel (destinationluberon.com) situait au 16/09 les trois massifs du Luberon/Monts de Vaucluse en vert, cohérent avec l'absence de nouvelle fermeture officielle les concernant. Le seul massif nommément fermé par un texte officiel daté reste la Vallée du Rhône.
 
 ## Source
 

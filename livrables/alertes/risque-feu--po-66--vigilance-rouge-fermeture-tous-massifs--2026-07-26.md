@@ -5,14 +5,12 @@ itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères)
 sev: MOYENNE (source de presse unique pour le retour en vigilance rouge du 14/09 ; une seconde source ou un acte officiel serait nécessaire pour repasser en HAUTE)
 validite: accès aux massifs réglementé selon le niveau de risque quotidien, restrictions prolongées jusqu'au 25/09/2026 ; usage du feu par les particuliers interdit jusqu'au 01/10/2026 ; écobuage agricole reporté au 30/09/2026 (préfecture des Pyrénées-Orientales citée par mawebtv.fr, 16/09/2026) ; le secteur du Roussillon est par ailleurs repassé en vigilance rouge le lundi 14/09/2026 selon une source de presse (accès aux massifs forestiers interdit, tout emploi du feu interdit), non corroborée par un acte préfectoral ni une seconde source indépendante ; statut des 8 autres massifs non tranché par cette même source
 detection: 2026-07-27
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, France 3 Occitanie et titrespresse.com
-  confirment que les Pyrénées-Orientales, l'Aude et le Gard sont repassés en vigilance rouge
-  « très élevé » le lundi 21/09, puis en orange le 22/09, sans nommer de massif ni confirmer
-  une fermeture effective par la préfecture : ce n'est toujours pas la seconde source
-  nominative requise pour repasser à HAUTE. Un feu distinct de 35 ha à Villeneuve-de-la-Raho
-  (21/09, D19 et voie ferrée coupées, éteint le jour même) n'est rattaché à aucun massif classé
-  ni itinéraire balisé. Sévérité maintenue MOYENNE.
+verif: 2026-09-27
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, aucun classement nominatif de massif
+  postérieur au pic du 21/09 (puis retour orange le 22/09) retrouvé. pyrenees-orientales.gouv.fr
+  et risque-prevention-incendie.fr/66 restent inaccessibles en lecture directe (JavaScript /
+  erreur serveur). Ce n'est toujours pas la seconde source nominative requise pour repasser à
+  HAUTE. Sévérité maintenue MOYENNE.
 ordre: 56
 ---
 

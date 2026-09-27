@@ -5,10 +5,11 @@ itin: GR®44 (Des Vans à Champerboux, départ Les Vans) ; GRP de la Haute Céve
 sev: MOYENNE
 validite: foyer des Vans éteint depuis le 04/09 mi-journée ; foyer de Malbosc déclaré fixé le lundi 07/09/2026 après cinq jours de lutte, surveillance en cours jusqu'à nouvel ordre, pas encore déclaré éteint
 detection: 2026-09-05
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 24/09 : nouvelle recherche (ardeche.gouv.fr, ICI.fr), aucune
-  déclaration d'extinction trouvée pour Malbosc au-delà du fixé du 07/09. Aucun point de
-  situation préfectoral postérieur localisé. Le foyer des Vans reste éteint depuis le 04/09.
+verif: 2026-09-27
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche (WebSearch ciblé sur ardeche.gouv.fr et
+  Malbosc pour septembre 2026), aucune déclaration d'extinction trouvée pour Malbosc au-delà
+  du fixé du 07/09. Aucun point de situation préfectoral postérieur localisé. Le foyer des
+  Vans reste éteint depuis le 04/09.
 ordre: 218
 ---
 
@@ -31,6 +32,8 @@ MAJ 07/09 : amélioration confirmée au dimanche 06/09 (ICI.fr, communiqué pré
 MAJ 08/09 : le feu de Malbosc est déclaré fixé le lundi 07/09/2026, après cinq jours de lutte (ICI.fr, article publié 07/09 19h14) ; celui des Vans était déjà éteint depuis le 04/09. Aucune déclaration d'extinction n'est publiée pour Malbosc à cette date. Aucune fermeture de sentier n'est toujours documentée.
 
 MAJ 10/09 : nouvelle recherche, aucun point de situation préfectoral ni article de presse postérieur au 07/09 localisé. Aucune déclaration d'extinction trouvée pour Malbosc ; aucune fermeture de sentier toujours documentée.
+
+MAJ 27/09 : nouvelle recherche (tentative de fetch direct d'ardeche.gouv.fr/Actualites/Espace-Presse en erreur 503, recherche web de contournement), toujours aucun point de situation préfectoral ni article de presse postérieur au 07/09 localisé pour Malbosc. Aucune fermeture de sentier toujours documentée.
 
 ## Source
 
