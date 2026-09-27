@@ -8,17 +8,22 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   n'a jamais existé sous cette forme — l'Amselsee est désormais rouvert (ponton et abri
   dégagés) ; restriction active : bas de l'Amselgrund entre Rathen et la jonction des
   Schwedenöcher, et secteur du Ziegenrücken ; chantier héliporté d'évacuation du bois du
-  25/08 au 18/09/2026 environ, fermant en plus les deux parkings du Gamrig, le rocher du
-  Gamrig et un tronçon de la Rathener Straße à Waltersdorf
+  25/08 au 18/09/2026 environ (échéance dépassée sans confirmation de fin), fermant en plus
+  les deux parkings du Gamrig, le rocher du Gamrig et un tronçon de la Rathener Straße à
+  Waltersdorf ; une source indépendante (sandsteinwandern.de, 24/09) date désormais la
+  fermeture du seul parking du Gamrig du 19/08 au 30/09/2026
 detection: 2026-08-06
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche ciblée sur la fin du chantier héliporté du
-  Gamrig (source officielle du parc + recherche presse dédiée), toujours aucune confirmation
-  explicite de fin ni de prolongation au-delà de l'échéance du 18/09, désormais dépassée de
-  5 jours. La page aktuelles du 22/09 15h00 reconduit à l'identique la fermeture des deux
-  parkings du Gamrig, du rocher du Gamrig et du tronçon de la Rathener Straße, sans nouvelle
-  échéance. Périmètre traité comme inchangé : Amselsee et bas de l'Amselgrund fermés,
-  Basteiweg et Schwedenöcher rouverts. La sévérité HAUTE repose sur une Allgemeinverfügung en
+verif: 2026-09-27
+statut: ACTIF — CHANGÉ 27/09 : nouvelle recherche ciblée sur la fin du chantier héliporté du
+  Gamrig. Aucune source ne confirme la fin des travaux, mais une source indépendante des
+  pages du parc (sandsteinwandern.de, mise à jour du 24/09) publie pour la première fois une
+  échéance calendaire précise pour la fermeture du parking du Gamrig : du 19/08 au
+  30/09/2026, motivée par le déblaiement du bois (Holzberäumung), à distinguer de la
+  fenêtre du 26/08 au ~18/09 jusqu'ici publiée pour le seul déploiement héliporté. La page
+  aktuelles du parc, revérifiée le 27/09, reste sur sa dernière mise à jour du 22/09 15h00 et
+  ne porte toujours aucune échéance chiffrée. Périmètre inchangé par ailleurs : Amselsee et
+  Basteiweg/Schwedenöcher rouverts, bas de l'Amselgrund toujours fermé, Gamrig et Rathener
+  Straße à Waltersdorf toujours fermés. La sévérité HAUTE repose sur une Allgemeinverfügung en
   vigueur jusqu'à révocation (bis auf Widerruf), c'est-à-dire sur un fait administratif établi
   et non sur une hypothèse à confirmer : la règle des 14 jours sur les hypothèses non
   tranchées ne s'applique donc pas ici.
