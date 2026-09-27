@@ -5,11 +5,12 @@ itin: GR®20 (secteur sud, col de Bavella — **rouvert Asinau↔Paliri**)
 sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement depuis le 23/07, aucune source plus récente malgré recherche active)
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
-verif: 2026-09-25
-statut: ACTIF (Illarata) — INCHANGÉ 25/09 : nouvelle recherche, corse-du-sud.gouv.fr en erreur
-  503 à deux tentatives (Actualités, Communiqués), toujours aucun arrêté ni levée postérieur
-  au 23/07/2026 retrouvé pour Illarata, Bavella, Zonza ou Quenza. Écart désormais à 64 jours.
-  Bavella toujours donné rouvert (aucun signal contraire). Sévérité stable MOYENNE.
+verif: 2026-09-27
+statut: ACTIF (Illarata) — INCHANGÉ 27/09 : nouvelle recherche, corse-du-sud.gouv.fr en erreur
+  503, recherche web complémentaire (zonza-saintelucie.com, x.com/Prefet2A) ne remonte que des
+  contenus déjà connus datés du 21/07/2026, sans rien de postérieur au 23/07/2026 pour
+  Illarata, Bavella, Zonza ou Quenza. Écart désormais à 66 jours. Bavella toujours donné
+  rouvert (aucun signal contraire). Sévérité stable MOYENNE.
 ordre: 30
 ---
 
@@ -62,6 +63,8 @@ MAJ 20/09 : 10e vérification consécutive, corse-du-sud.gouv.fr relu directemen
 MAJ 23/09 : 11e vérification consécutive, corse-du-sud.gouv.fr relu directement (page Actualités), toujours aucun titre concernant Bavella, Illarata, Zonza ou Quenza postérieur au 20/07/2026. Situation traitée comme stable : Bavella rouvert, Illarata partiellement fermé (vallée du Cavu haute et moyenne, pistes Tova/Pré d'Agnellu/Ficaghjola, RD845).
 
 MAJ 25/09 : 12e vérification consécutive, corse-du-sud.gouv.fr en erreur 503 à deux tentatives (page Actualités et sous-page Communiqués). Recherche web ciblée (« Illarata Zonza Bavella réouverture 2026 ») sans résultat postérieur au 20/07/2026. Situation traitée comme stable : Bavella rouvert, Illarata partiellement fermé (vallée du Cavu haute et moyenne, pistes Tova/Pré d'Agnellu/Ficaghjola, RD845).
+
+MAJ 27/09 : 13e vérification consécutive, corse-du-sud.gouv.fr de nouveau en erreur 503. Recherche web élargie (« Bavella Illarata Zonza Quenza réouverture massif 2026 ») fait remonter deux pages jusqu'ici non consultées, zonza-saintelucie.com (« Vallée du Cavu, réouverture partielle et règles d'accès ») et un tweet @Prefet2A relayé par un tiers : les deux confirment, mais restent datés du 21/07/2026, l'état déjà connu (Bavella classé risque modéré et ouvert ; Illarata en réouverture partielle encadrée, baignade autorisée jusqu'au site des 3 Piscines via navette ou à pied depuis le parking municipal, randonnée et circulation libre strictement interdites dans le reste de la vallée). Aucun contenu daté au-delà du 23/07/2026 n'a été trouvé. Situation traitée comme stable : Bavella rouvert, Illarata partiellement fermé (vallée du Cavu haute et moyenne, pistes Tova/Pré d'Agnellu/Ficaghjola, RD845).
 
 ## Source
 

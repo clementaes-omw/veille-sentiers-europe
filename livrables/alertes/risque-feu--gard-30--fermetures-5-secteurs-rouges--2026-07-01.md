@@ -10,12 +10,14 @@ validite: journalière, la préfecture du Gard publie le classement au jour le j
   un classement rouge limité au seul lundi 21/09/2026 (Gard Rhodanien, Garrigues, Costières
   Petite Camargue)
 detection: 2026-07-04
-verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 24/09 : aucune page gard.gouv.fr publiée pour le jeudi 24/09
-  (l'URL du jour teste en 404), ce qui signifie, selon la convention de publication déjà
-  établie sur cette fiche, qu'aucun secteur n'est classé rouge aujourd'hui. Une synthèse de
-  presse (21-23/09) confirme l'amélioration : plus aucun département classé rouge, seuls
-  l'Aude et l'Hérault restent en orange. Sévérité maintenue MOYENNE.
+verif: 2026-09-27
+statut: ACTIF — INCHANGÉ 27/09 : les pages datées du 25, 26 et 27/09 sur gard.gouv.fr ne
+  renvoient plus 404 mais une erreur serveur (503) au moment de la consultation, sur le
+  domaine entier ; aucun contournement direct n'a donc pu confirmer ou infirmer un
+  classement pour ces trois jours. La presse (infoccitanie.fr) ne documente pour cette
+  période que des feux mineurs sans lien avec un massif classé (Fontanès, 22 et 25/09,
+  2,5 à 3 ha de garrigue). Le classement du 21/09 (trois secteurs rouges un jour, puis
+  retour à zéro) reste la dernière donnée confirmée. Sévérité maintenue MOYENNE.
 ordre: 15
 ---
 
