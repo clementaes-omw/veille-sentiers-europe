@@ -8,7 +8,7 @@ validite: feu déclaré maîtrisé (« dominado ») le 25/09/2026 à 07h55, apr�
   dans la nuit jusqu'à São Marcos da Serra (Algarve, commune de Silves) ; aucune fermeture
   de sentier documentée
 detection: 2026-09-25
-verif: 2026-09-27
+verif: 2026-09-28
 statut: ACTIF — CHANGÉ 27/09 : recherche complémentaire, l'incendie a progressé dans la nuit
   du 24 au 25/09 jusqu'à São Marcos da Serra (Algarve), village traversé par le secteur 8 de
   la Via Algarviana (GR®13), avec évacuation préventive du lieu-dit Benafátima ; déclaré

@@ -6,17 +6,17 @@ itin: Aucun P1 identifié traversant directement Urzainki ; le GR®11 (Senda Tra
   du Roncal, à quelques kilomètres du secteur touché [HYPOTHÈSE non confirmée par une
   source dédiée au sentier]
 sev: MOYENNE
-validite: aucune fermeture officielle de sentier n'est en vigueur à ce jour ; feu déclaré le
-  14/08/2026, éteint le 04/09/2026, foyers résiduels sous surveillance au 07/09/2026 (dernière
-  source datée) ; seule reste une consigne générale des autorités d'éviter la zone
-  d'intervention, sans échéance annoncée
+validite: aucune fermeture officielle de sentier n'a jamais été en vigueur sur cet épisode ;
+  feu déclaré le 14/08/2026, formellement déclaré ÉTEINT le 21/09/2026 (naiz.eus) après avoir
+  été le plus long épisode documenté de l'histoire récente de la Navarre
 detection: 2026-09-14
-verif: 2026-09-21
-statut: ACTIF — INCHANGÉ 21/09 : nouvelle recherche (lot T2 lundi), rien de postérieur au
-  point du 07/09 retrouvé, le feu restant donné éteint depuis début septembre sans nouvelle
-  reprise signalée. Aucune fermeture de sentier ni arrêté d'accès nommé toujours publié.
-  Rattachement au GR®11 (étape voisine Isaba-Zuriza) toujours une hypothèse de proximité
-  géographique, non confirmée par une source dédiée aux itinéraires de randonnée.
+verif: 2026-09-28
+statut: "[CLÔTURÉ] (2026-09-21) — le feu est formellement déclaré éteint le 21/09/2026
+  (naiz.eus), après que le Conseil des ministres espagnol a déclaré la zone gravement
+  affectée par une urgence de protection civile (16/09). Aucune fermeture de sentier ni
+  arrêté d'accès n'a été publié à aucun moment de l'épisode ; le rattachement au GR®11
+  (étape voisine Isaba-Zuriza) est resté une hypothèse de proximité géographique, jamais
+  confirmée par une source dédiée aux itinéraires de randonnée."
 ordre: 232
 ---
 
@@ -30,7 +30,7 @@ Sans objet à ce jour : aucun sentier n'est officiellement fermé par cet épiso
 
 ## Zone (détails)
 
-14/08 : un feu de forêt se déclare à Peña Gazpar, sur la commune d'Urzainki (vallée du Roncal, Navarra), vraisemblablement causé par la foudre lors d'un orage sec qui a aussi provoqué de petits départs à Benasa (Navascués). Le poste de commandement avancé (PMA) est installé à Isaba.
+14/08 : un feu de forêt se déclare à Peña Gazpar, sur la commune d'Urzainki (vallée du Roncal, Navarra), vraisemblablement causé par la foudre lors d'un orage sec qui a aussi provoqué de petits départs à Benasa (Navascúés). Le poste de commandement avancé (PMA) est installé à Isaba.
 
 18-19/08 : le feu, qualifié de progression lente mais freiné par une orographie très difficile, mobilise jusqu'à 9 moyens aériens (hélicoptères du Gobierno de Navarra, un hélicoptère bombardier d'Ejea de los Caballeros, avions du ministère espagnol de la Transition écologique) et des brigades au sol (parcs de Cordovilla, Sangüesa, Tafalla, pompiers volontaires d'Isaba). La présidente de Navarra, María Chivite, se rend au PMA d'Isaba pour rassurer les élus de la vallée du Roncal ; aucun centre urbain n'est menacé, mais le terrain accidenté complique la sécurisation des équipes engagées, qui rencontrent aussi des chutes de pierres.
 
@@ -46,6 +46,10 @@ Sans objet à ce jour : aucun sentier n'est officiellement fermé par cet épiso
 
 07/09 : la presse navarraise qualifie ce feu de plus long épisode de l'histoire récente de la Navarre, les autorités citant trois facteurs de prolongation : une météo et un été anormalement secs dans le Pyrénées navarrais, une orographie difficile limitant l'accès des moyens terrestres, et une végétation abondante alimentant les reprises. Les travaux d'extinction se poursuivent activement à cette date. Aucune source consultée, à ce stade ni au 14/09, ne chiffre la surface totale brûlée ni ne mentionne de fermeture de sentier nommément.
 
+16/09 : le Conseil des ministres espagnol déclare la zone touchée « gravement affectée par une urgence de protection civile ».
+
+21/09 : [FAIT, naiz.eus] le feu est formellement déclaré éteint, après être devenu le plus long épisode documenté de l'histoire récente de la Navarre. Aucune fermeture de sentier ni arrêté d'accès n'aura été publié à aucun moment de l'épisode.
+
 ## Source
 
-[Gobierno de Navarra, nota de prensa, 20/08/2026, continúan con 9 medios aéreos y personal de tierra las labores de extinción del incendio de Urzainki](https://www.navarra.es/es/-/nota-prensa/continuan-con-8-medios-aereos-y-personal-de-tierra-las-labores-de-extincion-del-incendio-de-urzainki) ; [Noticias de Navarra, 18/08/2026, el incendio de Urzainki sigue activo y obliga a movilizar seis helicópteros](https://www.noticiasdenavarra.com/sucesos/2026/08/18/incendio-forestal-urzainki-navarra-11441484.html) ; [Noticias de Navarra, 20/08/2026, Chivite avisa de que el incendio de Urzainki tardará días en apagarse](https://www.noticiasdenavarra.com/sucesos/2026/08/20/incendio-forestal-urzainki-navarra-11453856.html) ; [Noticias de Navarra, 20/08/2026, la Junta General del Valle de Roncal pide tranquilidad y solicita evitar la difusión de bulos](https://www.noticiasdenavarra.com/sucesos/2026/08/20/junta-general-valle-roncal-pide-11454230.html) ; [Noticias de Navarra, 21/08/2026, el incendio en Urzainki sigue activo pero con evolución favorable](https://www.noticiasdenavarra.com/sociedad/2026/08/21/incendio-urzainki-continua-activo-evolucion-favorable-11456868.html) ; [COPE Navarra, 26/08/2026, drones y brigadas vigilan el incendio de Urzainki tras estar controlado](https://www.cope.es/emisoras/navarra/noticias/drones-brigadas-vigilan-incendio-urzainki-controlado-20260826_3425041.html) ; [Noticias de Navarra, 31/08/2026, el incendio forestal de Urzainki se reactiva y avanza por el flanco este](https://www.noticiasdenavarra.com/sucesos/2026/08/31/incendio-forestal-urzainki-reactiva-avanza-11488691.html) ; [navarranorte.es, 05/09/2026, el incendio forestal de Urzainki evoluciona favorablemente tras una nueva jornada de trabajo de los bomberos](https://navarranorte.es/navarra-norte/412058/el-incendio-forestal-de-urzainki-evoluciona-favorablemente-tras-una-nueva-jornada-de-trabajo-de-los-bomberos/) ; [Noticias de Navarra, 07/09/2026, el incendio de Urzainki ya es el incendio de duración más larga en la historia reciente de Navarra](https://www.noticiasdenavarra.com/sucesos/2026/09/07/incendio-urzainki-incendio-duracion-larga-11512422.html)
+[Gobierno de Navarra, nota de prensa, 20/08/2026, continúan con 9 medios aéreos y personal de tierra las labores de extinción del incendio de Urzainki](https://www.navarra.es/es/-/nota-prensa/continuan-con-8-medios-aereos-y-personal-de-tierra-las-labores-de-extincion-del-incendio-de-urzainki) ; [Noticias de Navarra, 18/08/2026, el incendio de Urzainki sigue activo y obliga a movilizar seis helicópteros](https://www.noticiasdenavarra.com/sucesos/2026/08/18/incendio-forestal-urzainki-navarra-11441484.html) ; [Noticias de Navarra, 20/08/2026, Chivite avisa de que el incendio de Urzainki tardará días en apagarse](https://www.noticiasdenavarra.com/sucesos/2026/08/20/incendio-forestal-urzainki-navarra-11453856.html) ; [Noticias de Navarra, 20/08/2026, la Junta General del Valle de Roncal pide tranquilidad y solicita evitar la difusión de bulos](https://www.noticiasdenavarra.com/sucesos/2026/08/20/junta-general-valle-roncal-pide-11454230.html) ; [Noticias de Navarra, 21/08/2026, el incendio en Urzainki sigue activo pero con evolución favorable](https://www.noticiasdenavarra.com/sociedad/2026/08/21/incendio-urzainki-continua-activo-evolucion-favorable-11456868.html) ; [COPE Navarra, 26/08/2026, drones y brigadas vigilan el incendio de Urzainki tras estar controlado](https://www.cope.es/emisoras/navarra/noticias/drones-brigadas-vigilan-incendio-urzainki-controlado-20260826_3425041.html) ; [Noticias de Navarra, 31/08/2026, el incendio forestal de Urzainki se reactiva y avanza por el flanco este](https://www.noticiasdenavarra.com/sucesos/2026/08/31/incendio-forestal-urzainki-reactiva-avanza-11488691.html) ; [navarranorte.es, 05/09/2026, el incendio forestal de Urzainki evoluciona favorablemente tras una nueva jornada de trabajo de los bomberos](https://navarranorte.es/navarra-norte/412058/el-incendio-forestal-de-urzainki-evoluciona-favorablemente-tras-una-nueva-jornada-de-trabajo-de-los-bomberos/) ; [Noticias de Navarra, 07/09/2026, el incendio de Urzainki ya es el incendio de duración más larga en la historia reciente de Navarra](https://www.noticiasdenavarra.com/sucesos/2026/09/07/incendio-urzainki-incendio-duracion-larga-11512422.html) ; [naiz.eus, 21/09/2026, incendio de Urzainki declarado extinguido](https://www.naiz.eus) ; [noticiasdenavarra.com, 16/09/2026, zona declarada gravemente afectada por una emergencia de protección civil](https://www.noticiasdenavarra.com)
