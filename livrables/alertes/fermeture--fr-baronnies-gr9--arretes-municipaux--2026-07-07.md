@@ -5,11 +5,13 @@ itin: GR®9 (Baronnies, secteur Nyons/Beaufort-sur-Gervanne/Vinsobres)
 sev: HAUTE
 validite: variable selon commune, jusqu'à nouvel ordre ; au moins 12 communes nommément listées (liste PNR Baronnies Provencales mise à jour le 01/09, en retrait par rapport aux 16 communes nommées le 27/08) ; quatorze communes disparues sans arrêté de levée retrouvé depuis le pic du 12/08 (Bellecombe-Tarendol, Condorcet, La Roche-sur-le-Buis, Le Poët-en-Percip, Le Poët-Sigillat, Mirabel-aux-Baronnies, Nyons, Roche-Saint-Secret-Béconne, Sahune, Sainte-Jalle, Valouse, Venterol, Vercoiran, Vinsobres) ; Beaufort-sur-Gervanne en accès conditionnel depuis le 29/07 (arrêté n°2026-59) ; Montclar-sur-Gervanne et Saillans toujours absentes de cette liste, non restreintes en l'état des sources disponibles ; Beauvoisin et Bénivay-Ollon toujours sans source directe confirmée
 detection: 2026-07-18
-verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : recherche ciblée renouvelée (fondement HAUTE = arrêtés
-  municipaux datés, pas une hypothèse à 14 jours), toujours les 12 mêmes communes datées,
-  aucun arrêté de levée trouvé. L'échéance de fin de saison du 30/09/2026 se rapproche
-  (3 jours) sans être encore atteinte. Sévérité maintenue HAUTE.
+verif: 2026-09-28
+statut: ACTIF — INCHANGÉ 28/09 : baronnies-provencales.fr relu en direct, toujours daté « mise
+  à jour le 01/09/26 », toujours les 12 mêmes communes, sans nouvelle disparition ni nouvel
+  ajout. Le régime municipal court structurellement du 1er juin au 30 septembre : l'échéance
+  de fin de saison est désormais à 2 jours, sans qu'une levée générale ne soit encore annoncée.
+  À revérifier impérativement le 30/09 ou le 01/10 pour la bascule de fin de saison. Sévérité
+  maintenue HAUTE.
 ordre: 32
 ---
 
