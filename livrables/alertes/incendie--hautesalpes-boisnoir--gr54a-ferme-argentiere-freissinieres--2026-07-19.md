@@ -9,15 +9,16 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche ciblée sur l'acte manquant, distincte des
-  précédentes (page dédiée ville-argentiere.fr relue, recherche dédiée sur le recueil des
-  actes administratifs des Hautes-Alpes via WebSearch, recherche web « L'Argentière-la-Bessée
-  Bois Noir réouverture arrêté septembre 2026 »), sans résultat plus récent que la précédente
-  confirmation : l'arrêté municipal du 15/08/2026 reste le seul texte en vigueur, 43 jours
-  après sa signature. La fermeture reposant sur un texte officiel republié et confirmé (pas
-  une hypothèse à recouper), la règle des 14 jours ne s'applique pas au sens strict ;
-  sévérité maintenue HAUTE malgré l'ancienneté du texte, faute de tout acte de levée.
+verif: 2026-09-28
+statut: ACTIF — INCHANGÉ 28/09 : nouvelle recherche ciblée, 44 jours après l'arrêté du 15/08.
+  ville-argentiere.fr/feu-bois-noir-informations relu en direct : l'arrêté du 15/08 reste
+  présenté comme la mesure en vigueur « en attendant de recevoir l'ensemble des avis des
+  autorités compétentes en vue d'une réouverture », sans date de levée. paysdesecrins.com
+  toujours en 404. hautes-alpes.gouv.fr toujours en 503. Deux pistes fraîches identifiées
+  (posts Facebook @prefet05 et @ledauphinelibere sur un point de situation Bois Noir) restent
+  inexploitables (Facebook bloqué en fetch), à retenter au prochain passage. La fermeture
+  reposant sur un texte officiel confirmé (pas une hypothèse à recouper), la règle des 14 jours
+  ne s'applique pas au sens strict ; sévérité maintenue HAUTE faute de tout acte de levée.
 ordre: 41
 ---
 
