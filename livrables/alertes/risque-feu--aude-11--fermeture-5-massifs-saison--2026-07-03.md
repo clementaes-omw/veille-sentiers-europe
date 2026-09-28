@@ -7,7 +7,7 @@ validite: Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise, îl
   lac de la Cavayre : fermeture prolongée jusqu'au 30/09/2026 (aude.gouv.fr, mise à jour du
   11/09/2026) ; Ribaute jusqu'à levée de l'arrêté préfectoral
 detection: 2026-07-06
-verif: 2026-09-27
+verif: 2026-09-28
 statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, un article distinct (cabinet Kohen
   Avocats, 12/09/2026) reconfirme, en la recoupant, la même échéance du 30/09/2026 pour
   Fontfroide, la Clape et les Pinèdes de Crémade que celle déjà publiée sur aude.gouv.fr
