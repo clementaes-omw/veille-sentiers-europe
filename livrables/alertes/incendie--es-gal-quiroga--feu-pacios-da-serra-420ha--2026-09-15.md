@@ -3,7 +3,7 @@ cle: incendie|ES-GAL-Quiroga|feu-pacios-da-serra-420ha|2026-09-15
 type: incendie
 itin: Camino de Invierno (étape A Rúa ↔ Quiroga puis Quiroga ↔ Monforte de Lemos) [FAIT] la commune de Quiroga et la paroisse de Pacios da Serra sont sur le tracé de l'étape, à l'entrée de la Serra do Courel — [HYPOTHÈSE] aucune source ne documente de fermeture ou de dégradation du balisage lui-même
 sev: MOYENNE
-validite: feu déclaré contrôlé (controlado) le vendredi 18/09/2026 à 21h00, environ 460 ha parcourus, non encore déclaré éteint
+validite: feu déclaré contrôlé (controlado) le 18/09/2026 à 21h00 après avoir parcouru environ 460 hectares ; à la dernière vérification (27/09/2026), aucune déclaration d'extinction totale n'a été retrouvée
 detection: 2026-09-18
 verif: 2026-09-27
 statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche ciblée (« incendio Quiroga Lugo
