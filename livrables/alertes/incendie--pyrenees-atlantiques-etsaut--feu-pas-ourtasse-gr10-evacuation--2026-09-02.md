@@ -5,14 +5,14 @@ itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: HAUTE
 validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et bergers jusqu'à nouvel ordre, aucune date de réouverture du GR®10 annoncée
 detection: 2026-09-07
-verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche ciblée, élargie cette fois au gestionnaire
-  du sentier (CDRP64, gr10.org) plutôt qu'à une nouvelle relecture des mêmes sources presse ;
-  rien de postérieur au point du 10/09 retrouvé, ni levée ni nouvel arrêté. Le feu reste fixé
-  et sous surveillance, l'accès au sol toujours strictement interdit à tous les usagers,
-  vingt-cinq jours après le départ de feu, sans date de levée annoncée : sévérité maintenue
-  HAUTE (fondement FAIT, arrêté préfectoral confirmé par plusieurs points de situation
-  officiels, pas une hypothèse à confirmer).
+verif: 2026-09-28
+statut: ACTIF — INCHANGÉ 28/09 : nouvelle recherche élargie (gr10.org, CDRP64,
+  lasemainedespyrenees.fr, presse Sud-Ouest/La République des Pyrénées), rien de postérieur au
+  point du 10/09 retrouvé, ni levée ni nouvel arrêté. Le feu reste fixé et sous surveillance,
+  l'accès au sol toujours strictement interdit à tous les usagers, vingt-six jours après le
+  départ de feu, sans date de levée annoncée : sévérité maintenue HAUTE (fondement FAIT, arrêté
+  préfectoral confirmé par plusieurs points de situation officiels, pas une hypothèse à
+  confirmer).
 ordre: 221
 ---
 
