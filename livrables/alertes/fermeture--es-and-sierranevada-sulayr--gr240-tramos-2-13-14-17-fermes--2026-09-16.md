@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: trois avis officiels distincts encore affichés au 27/09/2026, sans date de
   réouverture pour aucun des trois
 detection: 2026-09-27
-verif: 2026-09-27
+verif: 2026-09-28
 statut: ACTIF — NOUVEAU
 ordre: 253
 ---

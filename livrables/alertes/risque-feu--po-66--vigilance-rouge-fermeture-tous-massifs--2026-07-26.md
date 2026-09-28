@@ -3,14 +3,18 @@ cle: risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26
 type: risque feu / fermeture massifs
 itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ; HRP — [HYPOTHÈSE] recoupement tronçon par tronçon non fait
 sev: MOYENNE (source de presse unique pour le retour en vigilance rouge du 14/09 ; une seconde source ou un acte officiel serait nécessaire pour repasser en HAUTE)
-validite: accès aux massifs réglementé selon le niveau de risque quotidien, restrictions prolongées jusqu'au 25/09/2026 ; usage du feu par les particuliers interdit jusqu'au 01/10/2026 ; écobuage agricole reporté au 30/09/2026 (préfecture des Pyrénées-Orientales citée par mawebtv.fr, 16/09/2026) ; le secteur du Roussillon est par ailleurs repassé en vigilance rouge le lundi 14/09/2026 selon une source de presse (accès aux massifs forestiers interdit, tout emploi du feu interdit), non corroborée par un acte préfectoral ni une seconde source indépendante ; statut des 8 autres massifs non tranché par cette même source
+validite: accès aux massifs réglementé selon le niveau de risque quotidien, restrictions annoncées jusqu'au 25/09/2026, échéance désormais dépassée sans confirmation explicite d'une reconduction ni d'une levée ; usage du feu par les particuliers interdit jusqu'au 01/10/2026 ; écobuage agricole reporté au 30/09/2026 (préfecture des Pyrénées-Orientales citée par mawebtv.fr, 16/09/2026) ; le secteur du Roussillon est par ailleurs repassé en vigilance rouge le lundi 14/09/2026 selon une source de presse (accès aux massifs forestiers interdit, tout emploi du feu interdit), non corroborée par un acte préfectoral ni une seconde source indépendante ; statut des 8 autres massifs non tranché par cette même source
 detection: 2026-07-27
-verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, aucun classement nominatif de massif
+verif: 2026-09-28
+statut: ACTIF — INCHANGÉ 28/09 : nouvelle recherche, aucun classement nominatif de massif
   postérieur au pic du 21/09 (puis retour orange le 22/09) retrouvé. pyrenees-orientales.gouv.fr
   et risque-prevention-incendie.fr/66 restent inaccessibles en lecture directe (JavaScript /
-  erreur serveur). Ce n'est toujours pas la seconde source nominative requise pour repasser à
-  HAUTE. Sévérité maintenue MOYENNE.
+  erreur serveur). Point de vigilance nouveau : l'échéance du 25/09 annoncée par mawebtv.fr
+  pour le régime quotidien d'accès aux massifs est désormais dépassée, sans qu'aucune source
+  ne confirme explicitement une reconduction au-delà de cette date ni une levée ; à traiter en
+  priorité au prochain passage (presse quotidienne obligatoire pour cette zone). Ce n'est
+  toujours pas la seconde source nominative requise pour repasser à HAUTE. Sévérité maintenue
+  MOYENNE.
 ordre: 56
 ---
 

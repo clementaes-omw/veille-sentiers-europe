@@ -581,7 +581,7 @@ ALIAS_ZONE = {
     "Aude-Conques-sur-Orbiel": "FR-34-11", "Herault-34-Pegairolles-Escalette": "FR-34-11",
     "Vaucluse-84": "FR-84-26-07", "FR-Baronnies-GR9": "FR-84-26-07",
     "Drome-Justin-Die": "FR-84-26-07", "Drome-Bellegarde-en-Diois": "FR-84-26-07",
-    "Drome-Omblese": "FR-84-26-07",
+    "Drome-Omblese": "FR-84-26-07", "Ardeche-Dompnac": "FR-84-26-07",
     "Corse": "FR-CORSE", "Corse-Bavella-Illarata": "FR-CORSE", "Corse-Calenzana": "FR-CORSE",
     "Corse-Calvi": "FR-CORSE",
     # Alpes du Sud / Écrins
@@ -600,6 +600,7 @@ ALIAS_ZONE = {
     "Aspe-64-Chemin-Mature": "FR-PYR-O", "GR10-Luchon-Superbagnères": "FR-PYR-O",
     "Ariege-Saurat": "FR-PYR-O", "HautesPyrenees-65": "FR-PYR-O",
     "HauteGaronne-31": "FR-PYR-O", "Pyrenees-Atlantiques-Etsaut": "FR-PYR-O",
+    "Ariege-Mijanes-Donezan": "FR-PYR-O", "Ariege-Orlu-PerlesEtCastelet": "FR-PYR-O",
     "ES-ARA-Huesca-Riglos": "ES-NAV-RIO-ARA",
     "ES-NAV-Roncal-Urzainki": "ES-NAV-RIO-ARA",
     # Ouest / Nord
@@ -1613,7 +1614,7 @@ h3.bname {{ font-size: var(--t-lg); font-weight: 700; margin: 0 0 var(--s-2); }}
 .badge.itin {{ background: var(--ink); color: var(--paper); }}
 /* Le ® des badges sentier en exposant. `line-height: 0` l'empêche d'agrandir la
    boîte de ligne : sans lui, les badges portant un ® seraient plus hauts que les
-   autres et la rangée de tête se désalignerait. */
+   autres et la rangée de tête se désaligneraient. */
 .badge sup {{ font-size: .72em; line-height: 0; vertical-align: super; }}
 .badge.sev-haute {{ background: var(--haute-bg); color: var(--haute); }}
 .badge.sev-moyenne {{ background: var(--moy-bg); color: var(--moy); }}

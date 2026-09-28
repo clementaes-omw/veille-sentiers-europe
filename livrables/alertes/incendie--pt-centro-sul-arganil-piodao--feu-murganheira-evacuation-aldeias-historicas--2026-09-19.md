@@ -3,7 +3,7 @@ cle: incendie|PT-CENTRO-SUL-Arganil-Piodao|feu-murganheira-evacuation-aldeias-hi
 type: incendie
 itin: GR®22 (tronçon Piódão ↔ Castelo Novo, aldeias históricas, Serra do Açor)
 sev: MOYENNE
-validite: feu maîtrisé (dominado) depuis le 20/09/2026 00h30 ; statut d'extinction officielle non confirmé
+validite: feu maîtrisé (dominado) depuis le 20/09/2026 à 00h30 ; à la dernière vérification (27/09/2026), l'outil officiel api.fogos.pt ne recense plus aucun foyer actif à Arganil, mais aucune déclaration formelle d'extinction n'a été publiée
 detection: 2026-09-24
 verif: 2026-09-27
 statut: ACTIF — INCHANGÉ 27/09 : nouvelle interrogation de l'API officielle api.fogos.pt,
@@ -15,7 +15,7 @@ ordre: 250
 
 ## Portion concernée
 
-**Serra do Açor, paroisse de Piódão (commune d'Arganil, district de Coimbra), villages de Chãs de Égua et Foz de Égua, sur le tracé du GR®22** : trois feux partis simultanément le samedi 19 septembre 2026 se sont rejoints en un unique foyer qualifié de « muito violento », menaçant plusieurs villages dont ceux traversés par le GR®22. Raison : incendie de forêt.
+**Serra do Açor, paroisse de Piódão (commune d'Arganil, district de Coimbra), villages de Chãs de Égua et Foz de Égua, sur le tracé du GR®22** : trois feux partis simultanément le samedi 19 septembre 2026 se sont rejoints en un unique foyer qualifié de « muito violento », menant plusieurs villages dont ceux traversés par le GR®22. Raison : incendie de forêt.
 
 ## Alternative
 

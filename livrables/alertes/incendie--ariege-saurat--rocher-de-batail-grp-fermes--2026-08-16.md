@@ -5,13 +5,12 @@ itin: GRP Tour de la Barguillère, GRP Tour du Pic des Trois Seigneurs, GRP Le P
 sev: MOYENNE
 validite: feu éteint ; itinéraires rouverts (communiqué du CDRP09/FFRandonnée Ariège)
 detection: 2026-08-24
-verif: 2026-09-24
-statut: [CLÔTURÉ] (2026-08-24) — feu détecté à Saurat le 16/08, éteint selon feuxdeforet.fr,
+verif: 2026-09-28
+statut: "[CLÔTURÉ] (2026-08-24) — feu détecté à Saurat le 16/08, éteint selon feuxdeforet.fr,
   réouverture des itinéraires confirmée par le CDRP09 (FFRandonnée Ariège). Aucun GR national
-  concerné, seulement 3 GRP locaux, fermés puis rouverts en l'espace d'une semaine. Reverif
-  légère 28/08 puis 14/09 : Pyrénées FM (14/09) rapporte une reprise sans intervention du
-  SDIS (surveillance simple, aucune fermeture de sentier), clôture maintenue. Reverif 24/09 :
-  aucun signal nouveau.
+  concerné, seulement 3 GRP locaux, fermés puis rouverts en l'espace d'une semaine. Nouvelle
+  reprise signalée le 25/09 sur le même secteur (pyreneesfm.com, radiocouserans.fr), là encore
+  sans intervention du SDIS ni fermeture de sentier annoncée : clôture maintenue."
 ordre: 178
 ---
 
@@ -34,6 +33,8 @@ Sans objet : les itinéraires sont rouverts.
 19/08 : la surface brûlée atteint 50 hectares ; une reprise brève du feu est signalée avant une extinction complète.
 
 24/08 : feuxdeforet.fr indique le feu éteint ; le CDRP09 (FFRandonnée Ariège) publie la réouverture des itinéraires autour du Rocher de Batail à Saurat, en remerciant les services de secours et les agents forestiers mobilisés.
+
+25/09 : une reprise du feu est de nouveau signalée sur le même secteur du Rocher de Batail, sans intervention du SDIS (simple surveillance) ni fermeture de sentier annoncée, dans un contexte de vague de feux plus large en Haute-Ariège/Couserans (Orlu, Perles-et-Castelet, Mijaès, voir les fiches dédiées).
 
 ## Source
 
