@@ -5,12 +5,10 @@ itin: [HYPOTHÈSE] secteur des Cévennes ardéchoises, potentiellement traversé
   le GR®7 ; aucune source consultée ne nomme un itinéraire balisé ni n'annonce de fermeture
   de sentier ou de massif
 sev: MOYENNE
-validite: feu déclaré le samedi 26/09/2026 vers 15h dans une châtaigneraie, ~40 hectares
-  parcourus, fixé le soir même avant de franchir la crête vers la vallée de Valgorge ;
-  circonscrit au 27/09, moyens de surveillance maintenus
+validite: feu déclaré le samedi 26/09/2026 vers 15h dans une châtaigneraie, ~40 hectares parcourus, fixé le soir même, circonscrit le 27/09, moyens de surveillance maintenus ; aucune fermeture de sentier documentée
 detection: 2026-09-28
-verif: 2026-09-28
-statut: ACTIF — NOUVEAU
+verif: 2026-09-29
+statut: ACTIF — CHANGÉ 29/09 : feu confirmé fixé et circonscrit le 27/09 au soir (280 pompiers engagés, une yourte détruite), sans extinction déclarée (feuxdeforet.fr, titrespresse). Aucun arrêté trouvé, ardeche.gouv.fr en erreur. Sévérité MOYENNE maintenue, à clôturer à la déclaration d'extinction.
 ordre: 255
 ---
 
@@ -28,6 +26,8 @@ Aucune alternative à publier : aucune fermeture de sentier n'est documentée à
 
 27/09 : le feu est qualifié de « circonscrit », 160 pompiers encore mobilisés pour consolider les lignes ; un point plus tardif ramène les effectifs de surveillance à 25 sapeurs-pompiers.
 
+27/09 : le feu est circonscrit. Il a mobilisé environ 280 sapeurs-pompiers et détruit une yourte ; les moyens de surveillance sont maintenus pour consolider le périmètre. Aucune déclaration d'extinction n'est publiée.
+
 ## Source
 
-[feuxdeforet.fr, Dompnac, 26/09/2026, statut fixé, 40 ha](https://feuxdeforet.fr/ardeche-07/dompnac-26-09-2026-12722) ; [ici.fr, Cévennes ardéchoises : un incendie éclate à Dompnac, 130 pompiers mobilisés ce dimanche](https://www.ici.fr/auvergne-rhone-alpes/ardeche-07/dompnac/cevennes-ardechoises-un-incendie-a-deja-parcouru-une-trentaine-d-hectares-a-dompnac-7629660) ; [ici.fr, l'incendie de Dompnac toujours en cours, 35 hectares parcourus](https://www.ici.fr/auvergne-rhone-alpes/ardeche-07/dompnac/cevennes-ardechoises-l-incendie-de-dompnac-toujours-en-cours-35-hectares-parcourus-8420560) ; [titrespresse.com, feu circonscrit, 25 pompiers en surveillance](https://www.titrespresse.com/22958242603/ardeche-dompnac-incendie)
+[feuxdeforet.fr, Dompnac, 26/09/2026, statut fixé, 40 ha](https://feuxdeforet.fr/ardeche-07/dompnac-26-09-2026-12722) ; [ici.fr, Cévennes ardéchoises : un incendie éclate à Dompnac, 130 pompiers mobilisés ce dimanche](https://www.ici.fr/auvergne-rhone-alpes/ardeche-07/dompnac/cevennes-ardechoises-un-incendie-a-deja-parcouru-une-trentaine-d-hectares-a-dompnac-7629660) ; [ici.fr, l'incendie de Dompnac toujours en cours, 35 hectares parcourus](https://www.ici.fr/auvergne-rhone-alpes/ardeche-07/dompnac/cevennes-ardechoises-l-incendie-de-dompnac-toujours-en-cours-35-hectares-parcourus-8420560) ; [titrespresse.com, feu circonscrit, 25 pompiers en surveillance](https://www.titrespresse.com/22958242603/ardeche-dompnac-incendie) ; [feuxdeforet.fr, 26/09/2026, feu de Dompnac](https://feuxdeforet.fr/ardeche-07/dompnac-26-09-2026-12722) ; [titrespresse.com, incendie de Dompnac](https://www.titrespresse.com/22958242603/ardeche-dompnac-incendie)
