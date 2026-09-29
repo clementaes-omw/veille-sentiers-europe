@@ -6,17 +6,17 @@ itin: [HYPOTHÈSE] secteur d'Ax-les-Thermes/Mérens-les-Vals, à proximité du G
 sev: MOYENNE
 validite: plusieurs foyers actifs ou en reprise depuis mi-septembre dans le secteur d'Orlu et
   de Perles-et-Castelet (Haute-Ariège) ; dernière reprise significative le 26/09/2026
-  (Perles-et-Castelet, plus de 80 ha) ; aucune fermeture de sentier ni arrêté d'accès nommé
+  (Perles-et-Castelet, 55 ha selon radiocouserans.fr du 26/09) ; aucune fermeture de sentier ni arrêté d'accès nommé
   n'est documenté à ce jour
 detection: 2026-09-28
-verif: 2026-09-28
-statut: ACTIF — NOUVEAU
+verif: 2026-09-29
+statut: ACTIF — CHANGÉ 29/09 : la source du 26/09 (radiocouserans.fr) donne 55 ha à Perles-et-Castelet avec de simples points chauds et non plus de 80 ha, chiffre non confirmé. Orlu sous surveillance par drone, Saurat 56 ha au total. Aucun arrêté. Sévérité MOYENNE maintenue.
 ordre: 256
 ---
 
 ## Portion concernée
 
-**Réserve nationale de chasse et de faune sauvage d'Orlu et commune de Perles-et-Castelet (Haute-Ariège, secteur d'Ax-les-Thermes).** Deux foyers distincts, actifs par intermittence depuis la mi-septembre 2026 : à Orlu, un feu détecté par satellite entre le 14 et le 23/09 (surface officielle Copernicus/EFFIS de 27 hectares, estimation satellite brute jusqu'à 205 hectares), sans nouvelle détection depuis le 23/09 ; à Perles-et-Castelet, un feu initial du 26/08 (55 ha) a connu plusieurs reprises (14/09, 22/09, 26/09) pour dépasser 80 hectares à la dernière mise à jour connue. Raison : sécheresse persistante, absence de pluie annoncée. La presse régionale qualifie, le 26/09, la situation de « inédite dans sa durée et son intensité ». Aucune source consultée ne documente de fermeture de sentier ni d'arrêté d'accès aux massifs pour ce secteur ; le GR®10 et la HRP passent à proximité (Ax-les-Thermes, Mérens-les-Vals), sans qu'aucun rattachement direct ne soit confirmé.
+**Réserve nationale de chasse et de faune sauvage d'Orlu et commune de Perles-et-Castelet (Haute-Ariège, secteur d'Ax-les-Thermes).** Deux foyers distincts, actifs par intermittence depuis la mi-septembre 2026 : à Orlu, un feu détecté par satellite entre le 14 et le 23/09 (surface officielle Copernicus/EFFIS de 27 hectares), sous surveillance par drone sans fumée visible ; à Perles-et-Castelet, un feu initial du 26/08 de 55 hectares, avec seulement des points chauds mineurs au 26/09 et « pas de risque immédiat » selon la presse locale. Raison : sécheresse persistante. Aucune source consultée ne documente de fermeture de sentier ni d'arrêté d'accès aux massifs pour ce secteur ; le GR®10 et la HRP passent à proximité (Ax-les-Thermes, Mérens-les-Vals), sans qu'aucun rattachement direct ne soit confirmé.
 
 ## Alternative
 
@@ -33,6 +33,8 @@ Aucune alternative connue à ce jour : aucune fermeture de sentier n'est documen
 22/09 : nouvelle reprise à Perles-et-Castelet, environ 10 hectares supplémentaires.
 
 26/09 : foyers résiduels d'abord donnés sans risque à Perles-et-Castelet (55 ha stable), puis nouvelle et forte reprise dépassant 80 hectares au total. La presse régionale (titrespresse.com, pyreneesfm.com) qualifie la situation d'« inédite dans sa durée et son intensité » compte tenu de la sécheresse persistante sans pluie annoncée.
+
+26/09 : Perles-et-Castelet compte 55 hectares avec des points chauds mineurs, sans risque immédiat ; Orlu reste sous surveillance par drone. La reprise de Saurat atteint 5 hectares supplémentaires, pour 56 hectares au total, sur un terrain inaccessible aux engins au sol.
 
 ## Source
 

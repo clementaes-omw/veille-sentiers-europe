@@ -5,12 +5,10 @@ itin: GR®249 Gran Senda de Málaga [HYPOTHÈSE] étape Benalauría↔Genalguaci
   proximité géographique non confirmée par une source dédiée ; sentier local balisé PR-A 226
   reliant directement Igualeja et Parauta
 sev: MOYENNE
-validite: feu déclaré le 27/09/2026 à 22h19, confinement de population et coupure routière
-  levés le 28/09/2026 après-midi (situation opérationnelle ramenée à 0/préémergence) ; aucune
-  fermeture de sentier balisé documentée, seule la route A-397/MA-7304 a été coupée
+validite: feu déclaré le 27/09/2026 à 22h19, contrôlé (controlado) le 28/09 après 9h30, nettoyage en cours ; route A-397 rouverte le 28/09 à 6h, confinement levé ; aucune fermeture de sentier balisé documentée
 detection: 2026-09-28
-verif: 2026-09-28
-statut: ACTIF — NOUVEAU
+verif: 2026-09-29
+statut: ACTIF — CHANGÉ 29/09 : feu passé de stabilisé (27/09 au soir) à contrôlé le 28/09 après 9h30, 82 pompiers forestiers en nettoyage le 28 au matin, pas de déclaration d'extinction. Lien avec le GR®249 toujours en [HYPOTHÈSE]. Sévérité maintenue MOYENNE.
 ordre: 258
 ---
 
@@ -28,6 +26,8 @@ Aucune alternative connue à ce jour : aucune fermeture de sentier balisé n'est
 
 28/09 : le feu se stabilise, s'approchant de la limite du Parc national Sierra de las Nieves sans la franchir selon la presse. Le confinement des populations et la coupure routière sont levés dans l'après-midi, la situation opérationnelle étant ramenée au niveau 0 (préémergence).
 
+28/09 : le feu est déclaré contrôlé (controlado) après 9h30 ; 82 pompiers forestiers poursuivent le nettoyage le matin. La route A-397 rouvre à 6h00 (conduite prudente), le confinement est levé et les 11 personnes évacuées de maisons isolées rentrent chez elles. Le feu n'est pas encore déclaré éteint.
+
 ## Source
 
-[El Español Málaga, 27/09/2026, El incendio de Igualeja se aleja de los pueblos, pero se acerca a la Sierra de las Nieves](https://www.elespanol.com/malaga/20260927/incendio-igualeja-aleja-pueblos-acerca-sierra-nieves-no-peligros-poblacion/1003744399000_0.html) ; [Cope, 27/09/2026, evacuadas 50 personas, 21 medios aéreos](https://www.cope.es/emisoras/andalucia/malaga-provincia/ronda/noticias/evacuadas-50-personas-incendio-igualeja-malaga-combaten-21-medios-aereos-20260927_3444481.html) ; [The Olive Press, 27/09/2026, huge wildfire breaks out in Sierra de las Nieves national park](https://www.theolivepress.es/spain-news/2026/09/27/sierra-de-las-nieves-national-park-fire-ronda/) ; [The Spanish Eye, 27/09/2026, Malaga wildfire: evacuations ordered, two villages confined and Ronda-San Pedro road closed](https://www.thespanisheye.com/2026/09/27/malaga-wildfire-evacuations-ordered-two-villages-confined-and-ronda-san-pedro-road-closed/) ; [La Nación, 27/09/2026, estabilizado el incendio de Igualeja (Málaga) y finaliza el confinamiento](https://www.lanocion.es/serrania-de-ronda/20260927/estabilizado-el-incendio-de-igualeja-malaga-y-fi-bfa4d.html) ; [Andalucía Información, 27/09/2026 21h09](https://www.andaluciainformacion.es/articulo/malaga-sucesos/fuego-forestal-serrania-ronda-da-nuevo-susto-malaga-da-estabilizado/202609272109393489850.html) ; [Moncloa, 28/09/2026](https://www.moncloa.com/2026/09/28/incendio-igualeja-sierra-de-las-nieves-3438678/)
+[El Español Málaga, 27/09/2026, El incendio de Igualeja se aleja de los pueblos, pero se acerca a la Sierra de las Nieves](https://www.elespanol.com/malaga/20260927/incendio-igualeja-aleja-pueblos-acerca-sierra-nieves-no-peligros-poblacion/1003744399000_0.html) ; [Cope, 27/09/2026, evacuadas 50 personas, 21 medios aéreos](https://www.cope.es/emisoras/andalucia/malaga-provincia/ronda/noticias/evacuadas-50-personas-incendio-igualeja-malaga-combaten-21-medios-aereos-20260927_3444481.html) ; [The Olive Press, 27/09/2026, huge wildfire breaks out in Sierra de las Nieves national park](https://www.theolivepress.es/spain-news/2026/09/27/sierra-de-las-nieves-national-park-fire-ronda/) ; [The Spanish Eye, 27/09/2026, Malaga wildfire: evacuations ordered, two villages confined and Ronda-San Pedro road closed](https://www.thespanisheye.com/2026/09/27/malaga-wildfire-evacuations-ordered-two-villages-confined-and-ronda-san-pedro-road-closed/) ; [La Nación, 27/09/2026, estabilizado el incendio de Igualeja (Málaga) y finaliza el confinamiento](https://www.lanocion.es/serrania-de-ronda/20260927/estabilizado-el-incendio-de-igualeja-malaga-y-fi-bfa4d.html) ; [Andalucía Información, 27/09/2026 21h09](https://www.andaluciainformacion.es/articulo/malaga-sucesos/fuego-forestal-serrania-ronda-da-nuevo-susto-malaga-da-estabilizado/202609272109393489850.html) ; [Moncloa, 28/09/2026](https://www.moncloa.com/2026/09/28/incendio-igualeja-sierra-de-las-nieves-3438678/) ; [eldebate.com, 28/09/2026, feu d'Igualeja contrôlé](https://www.eldebate.com/espana/andalucia/malaga/20260928/dan-controlado-incendio-forestal-igualeja-malaga-mantenia-vilo-serrania-ronda_463470.html) ; [infobae.com, 28/09/2026](https://www.infobae.com/espana/agencias/2026/09/28/controlado-el-incendio-forestal-declarado-el-sabado-en-igualeja-malaga/)
