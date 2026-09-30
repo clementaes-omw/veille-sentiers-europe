@@ -1,6 +1,6 @@
-# Audit qualité du registre — 2026-09-29
+# Audit qualité du registre — 2026-09-30
 
-111 alertes actives · 32 fiches avec au moins un constat · **0 bloquant(s)**, 36 alerte(s), 0 info(s).
+111 alertes actives · 40 fiches avec au moins un constat · **0 bloquant(s)**, 44 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -8,42 +8,50 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## ⚠️ À traiter
 
-- **`conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25`** — jamais revérifiée depuis sa détection il y a 17 j.
-- **`eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`** — jamais revérifiée depuis sa détection il y a 17 j.
-- **`fermeture|CH-EST-Kandersteg|Spitze-Stei-deviation-seg-1.13|2023-05-08`** — jamais revérifiée depuis sa détection il y a 21 j.
-- **`fermeture|CH-Europaweg-Randa-Zermatt|fermeture-deviation-seg-27.3|2024-07-03`** — vérifiée il y a 14 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|CH-Valais-Arolla|Bertol-Haut-Glacier-deviation|2026-05-11`** — vérifiée il y a 14 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|CH-Valais-Arolla|Pas-de-Chevre-chemin-impraticable|2026-08-24`** — vérifiée il y a 14 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — alerte rouge appuyée sur une source datée du 01/09 (28 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 4 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
-- **`fermeture|IT-Centre-Carrara|via-francigena-nazzano-bonascola-frana|2024`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|IT-DOLOMITES-Brenta|Cima-Falkner-Bocchette-sentieri-chiusi|2025-07`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10-11|2026-09-04`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|IT-Dolomites-Pelmo|frana-versante-nordovest-borca-di-cadore|2026-08-10`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10`** — vérifiée il y a 17 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10`** — jamais revérifiée depuis sa détection il y a 17 j.
-- **`fermeture|TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11`** — vérifiée il y a 14 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29`** — vérifiée il y a 14 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — alerte rouge appuyée sur une source datée du 31/08 (29 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 19 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (39 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** — vérifiée il y a 19 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (36 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|IT-NO-Biellese|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio|2026-08-03`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25`** — vérifiée il y a 18 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|2026-08-25`** — jamais revérifiée depuis sa détection il y a 18 j.
+- **`eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`** — vérifiée il y a 18 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`** — jamais revérifiée depuis sa détection il y a 18 j.
+- **`fermeture|CH-EST-Frutigen|Kander-Uferweg-impraticable|2026-08-17`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
+- **`fermeture|CH-EST-Kandersteg|Spitze-Stei-deviation-seg-1.13|2023-05-08`** — jamais revérifiée depuis sa détection il y a 22 j.
+- **`fermeture|CH-Europaweg-Randa-Zermatt|fermeture-deviation-seg-27.3|2024-07-03`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|CH-Valais-Arolla|Bertol-Haut-Glacier-deviation|2026-05-11`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|CH-Valais-Arolla|Pas-de-Chevre-chemin-impraticable|2026-08-24`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|CH-Vaud-Sainte-Croix-Baulmes|Gorges-Covatannaz-travaux|2026-08-17`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
+- **`fermeture|ES-AND-Malaga-DesfiladeroGaitanes|senderos-Los-Embalses-Gaitanejo-fermes-risque-desembalse|2026-02-12`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
+- **`fermeture|ES-AND-SierraNevada-Sulayr|GR240-tramos-2-13-14-17-fermes|2026-09-16`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
+- **`fermeture|FR-Baronnies-GR9|arretes-municipaux|2026-07-07`** — alerte rouge appuyée sur une source datée du 01/09 (29 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — vérifiée il y a 5 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
+- **`fermeture|IT-Centre-Carrara|via-francigena-nazzano-bonascola-frana|2024`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|IT-DOLOMITES-Brenta|Cima-Falkner-Bocchette-sentieri-chiusi|2025-07`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|IT-Dolomites-Friuli-Montasio|via-ferrata-amalia-frana-tratti-9-10-11|2026-09-04`** — vérifiée il y a 16 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|IT-Dolomites-Pelmo|frana-versante-nordovest-borca-di-cadore|2026-08-10`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10`** — vérifiée il y a 18 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Monterosso|2026-09-10`** — jamais revérifiée depuis sa détection il y a 18 j.
+- **`fermeture|TMB-CH-Orsieres|fermeture-deviation-seg-6.35|2026-07-11`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|Ardeche-Dompnac|feu-40ha-Valgorge|2026-09-26`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
+- **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — alerte rouge appuyée sur une source datée du 31/08 (30 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 20 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (40 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** — vérifiée il y a 20 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (37 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08`** — vérifiée il y a 16 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|IT-NO-Biellese|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio|2026-08-03`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|IT-ValGrande|interdiction-acces-sentiers-parc|2026-07-10`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|PT-CENTRO-SUL-Arganil-Piodao|feu-murganheira-evacuation-aldeias-historicas|2026-09-19`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|PT-CENTRO-SUL-Odemira-Saboia|feu-nave-redonda|2026-09-24`** — la validité annoncée s'arrête au 25/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
-- **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — alerte rouge appuyée sur une source datée du 10/09 (19 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`refuge|IT-Dolomites-Friuli-Cimoliana|bivacco-gervasutti-amianto-inagibile|2026-09-09`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`refuge|IT-Dolomites-Friuli-Cimoliana|bivacco-gervasutti-amianto-inagibile|2026-09-09`** — jamais revérifiée depuis sa détection il y a 15 j.
-- **`reroutage|Aspe-64-Chemin-Mature|eboulement-devie-col-Arras|2026-01-05`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — alerte rouge appuyée sur une source datée du 10/09 (20 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`refuge|IT-Dolomites-Friuli-Cimoliana|bivacco-gervasutti-amianto-inagibile|2026-09-09`** — vérifiée il y a 16 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`refuge|IT-Dolomites-Friuli-Cimoliana|bivacco-gervasutti-amianto-inagibile|2026-09-09`** — jamais revérifiée depuis sa détection il y a 16 j.
+- **`reroutage|Aspe-64-Chemin-Mature|eboulement-devie-col-Arras|2026-01-05`** — vérifiée il y a 16 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`reroutage|Pierrefiques-76|déviation|2025-05-18`** — la validité annoncée s'arrête au 18/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
-- **`reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01`** — alerte rouge appuyée sur une source datée du 14/09 (15 j) — retrouver une publication récente ou dégrader la sévérité.
-- **`réglementation|PN-Pyrénées|baignade-lacs-interdite|2026-06-15`** — vérifiée il y a 15 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`terrain|IS-HautesTerres|Fimmvorduhals-recul-glaciaire-crevasses|2026-08`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`reroutage|SI-Julijske-Alpe|deviation-Trnovo-Srpenica|2025-10`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`reroutage|VF-Lazio-Prato-La-Corte|frana-deviation|2026-01-30`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17`** — vérifiée il y a 3 j (seuil 2 j — restriction décidée au jour le jour). Le site présente cette restriction comme actuelle.
+- **`risque-feu|Vaucluse-84|fermeture-8-massifs|2026-07-01`** — alerte rouge appuyée sur une source datée du 14/09 (16 j) — retrouver une publication récente ou dégrader la sévérité.
+- **`réglementation|PN-Pyrénées|baignade-lacs-interdite|2026-06-15`** — vérifiée il y a 16 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
+- **`terrain|IS-HautesTerres|Fimmvorduhals-recul-glaciaire-crevasses|2026-08`** — vérifiée il y a 25 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 
 ## 🗺 Cohérence carte / registre
 
