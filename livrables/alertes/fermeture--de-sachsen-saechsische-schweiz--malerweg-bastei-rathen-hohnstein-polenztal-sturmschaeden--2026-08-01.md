@@ -13,7 +13,7 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   Waltersdorf ; une source indépendante (sandsteinwandern.de, 24/09) date désormais la
   fermeture du seul parking du Gamrig du 19/08 au 30/09/2026
 detection: 2026-08-06
-verif: 2026-09-27
+verif: 2026-10-01
 statut: ACTIF — CHANGÉ 27/09 : nouvelle recherche ciblée sur la fin du chantier héliporté du
   Gamrig. Aucune source ne confirme la fin des travaux, mais une source indépendante des
   pages du parc (sandsteinwandern.de, mise à jour du 24/09) publie pour la première fois une
