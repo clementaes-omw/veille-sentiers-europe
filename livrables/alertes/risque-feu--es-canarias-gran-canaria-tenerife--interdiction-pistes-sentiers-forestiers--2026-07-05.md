@@ -5,33 +5,9 @@ itin: GR®131 (toutes les îles) — [HYPOTHÈSE] portée exacte non nommée par
 sev: MOYENNE
 validite: Gran Canaria : dispositif INFOGRAN actif depuis le 13/08/2026 11h, accès et transit interdits sur pistes et sentiers forestiers au-dessus de 400-600 m selon versant, en vigueur jusqu'à levée officielle (aucune levée trouvée à ce jour, confirmé à nouveau au 25/09) ; Tenerife : dispositif insulaire de grado 1 maintenu sur les versants sud/ouest ; niveau régional canarien : « alerta » maintenue pour Gran Canaria (>400 m) seule, Tenerife, El Hierro et La Palma étant repassées en prealerta le 27/09/2026 à 8h00 ; ce niveau régional ne restreint pas lui-même l'accès aux sentiers/pistes, seul le dispositif INFOGRAN propre à Gran Canaria le fait ; La Palma, La Gomera et El Hierro : en préalerte (aucune restriction spécifique par sentier publiée)
 detection: 2026-07-31
-verif: 2026-09-30
+verif: 2026-10-02
 ordre: 62
-statut: ACTIF — CHANGÉ 30/09 : depuis le 27/09 08h00, Tenerife, El Hierro et La Palma repassent en « prealerta » ; Gran Canaria reste en « alerta » à partir de 400 m. Le dispositif INFOGRAN de Gran Canaria (pistes et sentiers forestiers interdits au-dessus de 400-600 m) est toujours actif, sans levée trouvée. Sévérité maintenue MOYENNE (source : page d'alertes du gouvernement canarien et presse locale).
-  Ancien historique : CHANGÉ 25/09 : Gran Canaria (>400 m) et Tenerife étaient passées en « alerta » le 23/09 08h00 (vague de chaleur), sans restriction de sentiers hors INFOGRAN.
-  Ancien historique : CHANGÉ 18/09 : le gouvernement canarien avait relevé le niveau régional à
-  « alerta » du 14/09 13h au 17/09 20h pour Tenerife (cumbres, sud/ouest), El Hierro, La
-  Gomera et l'ouest de La Palma ; toutes les îles sont revenues en « prealerta » depuis le
-  17/09 20h. Ce niveau régional reste distinct du grado insulaire propre à Tenerife (grado 1
-  maintenu sur le sud début septembre, sans fermeture de sentier) et du dispositif INFOGRAN
-  propre à Gran Canaria, toujours actif sans levée trouvée. Un feu limité (15,5 ha) à
-  Cazadores (Telde, Gran Canaria) le 14-15/09 a été maîtrisé sans recoupement avec un
-  sentier référencé. Piste La Palma (senderosdelapalma.es /estado-pr/) toujours épuisée,
-  aucun relais de presse ne comblant l'écart.
-  Ancien historique : CHANGÉ 28/08 : Tenerife lève ses restrictions, Gran Canaria les maintient.
-  Le Cabildo de Tenerife désactive l'alerte incendie sur l'île entière à compter du 15/08 8h
-  (grade 0/préalerte sur les 4 secteurs), ce qui rouvre explicitement les sentiers et pistes
-  forestières ainsi que les romerías/pèlerinages sur sentiers forestiers, dont les 10 sentiers
-  de pèlerinage vers Candelaria fermés depuis le 13/08 (rtvc.es, libertaddigital.com, 15/08) —
-  LEVÉE pour le volet Tenerife de cette fiche. Gran Canaria : le gouvernement canarien a
-  redescendu le niveau régional à « prealerta » pour Gran Canaria et Tenerife à compter du
-  15/08 8h (atlanticohoy.com, gobiernodecanarias.org), mais aucune source ne confirme que
-  l'INFOGRAN (dispositif propre à l'île, distinct du niveau régional) ait suivi cette
-  désescalade : la dernière confirmation datée de restrictions actives sur pistes et sentiers
-  au-dessus de 400-600 m reste le 13/08 (teldeactualidad.com), sans levée trouvée malgré
-  nouvelle recherche ciblée le 28/08. Absence de signal ≠ levée : restrictions maintenues par
-  défaut à Gran Canaria. Portée exacte sur le GR®131 toujours non précisée nommément par les
-  sources (portée [HYPOTHÈSE] maintenue).
+statut: ACTIF — CHANGÉ 02/10 : Gran Canaria passe en époque de danger d'incendie moyen le 01/10 (rtvc.es 30/09), ce qui allège les restrictions préventives de l'été (brûlis agricoles de nouveau autorisés) ; l'article ne mentionne ni levée ni maintien des fermetures INFOGRAN de pistes et sentiers au-dessus de 400-600 m, donc maintenues par défaut. Épisode du 14/09 à La Palma ajouté : fermeture de sentiers (dont deux tronçons du GR®131) par le Cabildo, probablement levée avec la fin de l'alerte régionale du 17/09, levée non confirmée par une source. Sévérité maintenue MOYENNE.
 ---
 
 ## Portion concernée
@@ -63,6 +39,8 @@ MAJ 18/09 : nouvel épisode régional de chaleur, sans changement pour les senti
 MAJ 25/09 : nouvel épisode de chaleur, escalade régionale sans impact direct sur les sentiers. [FAIT, infobae.com et libertaddigital.com, 23/09] Le gouvernement canarien repasse en « alerta » (depuis « prealerta ») pour Gran Canaria (au-dessus de 400 m) et Tenerife à compter du 23/09/2026 8h00, en raison d'une vague de chaleur d'origine africaine (humidité inférieure à 30 %, 34-36°C attendus), El Hierro, La Gomera et La Palma restant en préalerte. Les deux sources consultées précisent explicitement que ce niveau régional « no se establecen restricciones adicionales » sur la circulation par sentiers et pistes forestières. [FAIT, maspalomas24h.com] Le dispositif INFOGRAN, propre à Gran Canaria et distinct du niveau régional, reste actif séparément et continue d'interdire la circulation sur les monts et terrains forestiers, sentiers compris, au-dessus de 400-600 m selon le versant : aucune levée n'a été trouvée pour ce dispositif malgré cette nouvelle vérification.
 
 MAJ 30/09 : Tenerife, El Hierro et La Palma repassent en préalerte depuis le 27/09 à 8h00 ; Gran Canaria reste en alerte à partir de 400 m. Aucune levée du dispositif INFOGRAN n'est publiée. [FAIT, gobiernodecanarias.org, page des alertes, consultée le 30/09/2026](https://www.gobiernodecanarias.org/emergencias/alertas/Alerta_vigente.html)
+
+MAJ 02/10 : Gran Canaria bascule le 01/10 de l'époque de danger élevé à l'époque de danger moyen d'incendies forestiers [FAIT, rtvc.es 30/09/2026] : les restrictions préventives de l'été sont allégées, les brûlis agricoles autorisés redeviennent possibles et le Cabildo rappelle que le risque n'est pas supprimé. La source ne dit rien des pistes et sentiers forestiers fermés au-dessus de 400-600 m : aucune levée de cette interdiction n'est publiée à ce jour. La Palma : le 14/09, lors de l'alerte régionale, le Cabildo a fermé les sentiers PR LP 9 (Roque de los Muchachos ↔ Roque Faro), PR LP 11 et PR LP 12 (depuis Roque de los Muchachos) et deux tronçons du GR®131 (Fuencaliente ↔ Refugio del Pilar, El Reventón ↔ El Time), avec interdiction des brûlis et du feu dans les aires récréatives, deux aires fermées [FAIT, mundolapalma.es 14/09/2026]. L'alerte régionale a pris fin le 17/09 à 20h : aucune source publiée ne confirme la réouverture de ces sentiers. Un article de presse sur la fermeture de tous les sentiers de Tenerife pour alerte maximale par le vent date de décembre 2024 et ne concerne pas 2026.
 
 ## Source
 
