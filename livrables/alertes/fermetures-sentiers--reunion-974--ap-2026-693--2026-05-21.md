@@ -9,7 +9,7 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1695 d
   achèvement des travaux de sécurisation de falaise ; sur le tracé du GR® R2, ferme toujours
   le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-09-28
+verif: 2026-10-03
 statut: ACTIF — CHANGÉ 28/09 : nouvel arrêté préfectoral n°2026-1695 du 25/09/2026 (lu en
   entier), qui abroge celui du 22/09. Une seule évolution de périmètre : le sentier de la
   Canalisation des Orangers sort de la liste, les travaux de sécurisation de falaise et de

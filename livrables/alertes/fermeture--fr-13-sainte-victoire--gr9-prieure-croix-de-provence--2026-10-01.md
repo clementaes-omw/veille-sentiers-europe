@@ -5,7 +5,7 @@ itin: GR®9 (Sainte-Victoire, secteur Prieuré↔Croix de Provence)
 sev: MOYENNE
 validite: fermetures en semaine du 01/10 au 27/11/2026
 detection: 2026-09-24
-verif: 2026-10-01
+verif: 2026-10-03
 statut: ACTIF — CHANGÉ 01/10 : la fermeture en semaine entre en vigueur ce jour (frequence-sud.fr, article daté du 01/10, 01/10 au 27/11/2026). Divergence de fin toujours non tranchée entre le Grand Site (27/11) et la ville d'Aix (31/12) ; date du gestionnaire retenue.
 ordre: 248
 ---
