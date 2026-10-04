@@ -3,19 +3,10 @@ cle: fermeture|CH-EST-Frutigen|Kander-Uferweg-impraticable|2026-08-17
 type: fermeture
 itin: Kander Uferweg, Frutigen ↔ Reichenbach im Kandertal (Oberland bernois) ; [HYPOTHÈSE] lien avec un itinéraire de grande randonnée non confirmé, réseau local le long de la Kander
 sev: MOYENNE
-validite: fermeture reconduite sans interruption : le flux officiel lu le 27/09/2026 porte
-  désormais une nouvelle entrée (id 2602392, changée le 24/09/2026) annonçant une fermeture
-  du 1er octobre 2026 au 31 mars 2027, pour travaux de construction (motif remplaçant le
-  risque de chute d'arbre initialement publié) ; l'ancienne entrée (id 2600749, échéance du
-  21/09/2026) a disparu du flux, sans qu'aucune réouverture n'ait été annoncée entre-temps
+validite: du 01/10/2026 au 31/03/2027 (travaux de construction), flux officiel id 2602392
 detection: 2026-08-18
-verif: 2026-09-27
-statut: ACTIF — CHANGÉ 27/09 : CSV officiel data.geo.admin.ch téléchargé et interrogé
-  directement. L'entrée id 2600749 (échéance 21/09) n'apparaît plus dans le flux ; une
-  nouvelle entrée (id 2602392, même tracé Reichenbach : Kander Uferweg, changée le
-  24/09/2026) annonce une fermeture pour travaux de construction du 01/10/2026 au
-  31/03/2027. Aucune source ne documente de réouverture entre le 21/09 et le 01/10 : la
-  fermeture est traitée comme continue. Toujours aucune couverture presse trouvée.
+verif: 2026-10-04
+statut: ACTIF. Flux officiel téléchargé le 04/10 : entrée id 2602392 inchangée (01/10/2026 → 31/03/2027).
 ordre: 173
 ---
 
