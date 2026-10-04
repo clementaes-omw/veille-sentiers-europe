@@ -6,11 +6,10 @@ itin: Caminito del Rey [HYPOTHÈSE] les deux sentiers fermés (« Los Embalses �
   los Gaitanes), distincts de la passerelle touristique du Caminito del Rey elle-même,
   qui reste ouverte à la réservation selon les sources consultées
 sev: INFO
-validite: fermeture toujours affichée « hasta nuevo aviso » au 27/09/2026, sept mois
-  après sa publication
+validite: fermeture affichée « hasta nuevo aviso » depuis le 12/02/2026
 detection: 2026-09-27
-verif: 2026-09-27
-statut: ACTIF — NOUVEAU
+verif: 2026-10-04
+statut: ACTIF. Avis de la Junta (Ventana del Visitante) toujours en ligne au 04/10, sans date de fin.
 ordre: 254
 ---
 

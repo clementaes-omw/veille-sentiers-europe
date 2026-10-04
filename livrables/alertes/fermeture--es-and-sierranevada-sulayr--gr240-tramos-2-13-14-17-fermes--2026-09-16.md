@@ -3,11 +3,10 @@ cle: fermeture|ES-AND-SierraNevada-Sulayr|GR240-tramos-2-13-14-17-fermes|2026-09
 type: fermeture
 itin: GR®240 Sulayr (Sierra Nevada, provinces de Grenade et Almería)
 sev: MOYENNE
-validite: trois avis officiels distincts encore affichés au 27/09/2026, sans date de
-  réouverture pour aucun des trois
+validite: trois avis officiels distincts affichés, sans date de réouverture pour aucun des trois
 detection: 2026-09-27
-verif: 2026-10-01
-statut: ACTIF — NOUVEAU
+verif: 2026-10-04
+statut: ACTIF. Tronçons 2, 13, 14 et 17 toujours signalés fermés ou en travaux au 04/10 (Ventana del Visitante, recoupé par Andaltura).
 ordre: 253
 ---
 
