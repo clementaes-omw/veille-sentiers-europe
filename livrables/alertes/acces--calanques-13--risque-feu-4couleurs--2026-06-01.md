@@ -3,18 +3,16 @@ cle: accès|Calanques-13|risque-feu-4couleurs|2026-06-01
 type: accès / risque feu
 itin: GR®98 (Calanques Marseille-Cassis) — refemeé (rouge) le 17/08, après 9 jours en vert/jaune ; GR®51 (Côte Bleue) également rouge ce jour ; GR®9 (Sainte-Victoire) reste accessible en orange. **GR®9 [FAIT, confirmé 03/08] traverse Sainte-Victoire (voie d'accès principale à la Croix de Provence, source ffrandonnee.fr)**
 sev: MOYENNE (source unique non recoupée, sans confirmation officielle)
-validite: 1 juin→ 30 sept 2026 ; code 4 couleurs (vert/jaune/orange = accès permis à vigilance croissante, rouge = accès interdit, légende officielle relevée le 07/08) + niveau extrême ; fermetures quotidiennes selon carte, vert intégral au 15/09
+validite: période réglementée du 01/06 au 30/09/2026, terminée
 detection: 2026-06-01
-verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : cg13.eway.fr relu directement, prévision du 27-09-2026 : vert
-  intégral confirmé sur les 7 massifs suivis, 5e reconfirmation depuis le 14/09. Sévérité
-  maintenue MOYENNE.
+verif: 2026-10-04
+statut: [CLÔTURÉ] (2026-10-04) — période réglementée d'accès aux massifs terminée le 30/09/2026 (parc national des Calanques, ot-cassis.com) ; dernier classement lu : vert intégral le 27/09.
 ordre: 7
 ---
 
 ## Portion concernée
 
-Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). Ce dimanche 27/09, **les Calanques entre Marseille et Cassis (GR®98) sont classées vert**, comme la Côte Bleue, Sainte-Victoire, Sainte-Baume, Concors, l'Arbois et le Montaiguet : vert intégral sur l'ensemble des massifs suivis, pour la 5e fois confirmée depuis le 14/09. Aucun massif orange ou rouge : le GR®98 reste accessible sans restriction. Source : cg13.eway.fr, conditions.php (prévision du 27-09-2026).
+Massifs des Bouches-du-Rhône (GR®98, GR®51, GR®9, PN des Calanques, Côte Bleue). La période d'accès réglementé du 1er juin au 30 septembre 2026 est terminée. Le dernier classement lu (27/09) était vert sur l'ensemble des massifs suivis : aucun massif n'était orange ou rouge, le GR®98 restait accessible sans restriction.
 
 ## Alternative
 
@@ -95,6 +93,8 @@ MAJ 20/09 : cg13.eway.fr relu directement (prévision du 20-09-2026), le vert in
 MAJ 23/09 : cg13.eway.fr relu directement (prévision du 23-09-2026), vert intégral confirmé pour la 4e fois consécutive sur les 7 massifs suivis. Aucun massif orange ou rouge, aucune fermeture.
 
 MAJ 27/09 : cg13.eway.fr relu directement (prévision du 27-09-2026), vert intégral confirmé pour la 5e fois consécutive sur les 7 massifs suivis. Aucun massif orange ou rouge, aucune fermeture.
+
+04/10 : la période réglementée (01/06 au 30/09) est terminée, l'alerte est clôturée.
 
 ## Source
 

@@ -5,25 +5,18 @@ itin: GR®653 (secteur Fourques/Beaucaire, Gard Rhodanien) ; GR®6 (corridor Pon
   secteur Garrigues) ; GR®70 (Cévennes) — hors zone rouge au classement du 22/09, était entré
   brièvement le 17/08 dans le secteur Nord Cévennes
 sev: MOYENNE
-validite: journalière, la préfecture du Gard publie le classement au jour le jour ; aucun
-  secteur classé rouge pour le mercredi 23/09/2026, deuxième jour de vigilance orange après
-  un classement rouge limité au seul lundi 21/09/2026 (Gard Rhodanien, Garrigues, Costières
-  Petite Camargue)
+validite: période d'interdiction d'accès aux massifs du 15/06 au 15/09/2026, terminée
 detection: 2026-07-04
-verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : les pages datées du 25, 26 et 27/09 sur gard.gouv.fr ne
-  renvoient plus 404 mais une erreur serveur (503) au moment de la consultation, sur le
-  domaine entier ; aucun contournement direct n'a donc pu confirmer ou infirmer un
-  classement pour ces trois jours. La presse (infoccitanie.fr) ne documente pour cette
-  période que des feux mineurs sans lien avec un massif classé (Fontanès, 22 et 25/09,
-  2,5 à 3 ha de garrigue). Le classement du 21/09 (trois secteurs rouges un jour, puis
-  retour à zéro) reste la dernière donnée confirmée. Sévérité maintenue MOYENNE.
+verif: 2026-10-04
+statut: [CLÔTURÉ] (2026-10-04) — arrêté préfectoral d'accès aux massifs en vigueur du 15/06 au 15/09/2026 (gard.gouv.fr), terminé ; dernier classement rouge lu : 21/09. L'interdiction de l'emploi du feu (AP du 16/09) relève d'un autre texte.
 ordre: 15
 ---
 
 ## Portion concernée
 
 Gard, **mercredi 23/09/2026 : aucun secteur classé en risque incendie très sévère (rouge)**, deuxième jour de vigilance orange sur l'ensemble du département après un classement rouge limité à une seule journée, le lundi 21/09/2026 (Gard Rhodanien, 36 communes dont Fourques et Beaucaire sur le GR®653 ; Garrigues, 49 communes dont le corridor du GR®6 entre Uzès et le Pont du Gard ; Costières Petite Camargue, 9 communes). Ce pic d'un jour a mis fin à une accalmie de 18 jours depuis l'épisode du 03/09 (Gard Rhodanien seul). Un arrêté préfectoral distinct, daté du 16/09/2026 (AP 30-2026-09-16-00001), prolonge par ailleurs l'interdiction de l'emploi du feu par les particuliers dans le Gard jusqu'au 30/09/2026 : cette restriction porte sur l'usage du feu, pas sur l'accès aux massifs, et reste en vigueur indépendamment du classement quotidien.
+
+La période d'interdiction d'accès aux massifs classés rouge (15/06 au 15/09 selon la préfecture) est terminée : aucun secteur n'est fermé à ce jour par ce dispositif.
 
 ## Alternative
 
@@ -61,6 +54,8 @@ Le recoupement fin du tracé du GR®653 avec le périmètre interdit (communes d
 - 22/09 : aucune page de classement publiée pour le mardi (URL testée directement, 404), ce qui signifie qu'aucun secteur n'est rouge aujourd'hui. Une source de presse (France 3 Occitanie, 21/09) confirme le retour en vigilance orange du département pour ce mardi, après le pic d'un jour du 21/09 qui touchait également l'Aude et les Pyrénées-Orientales.
 - 23/09 : aucune page de classement publiée pour le mercredi (URL testée directement, 404), aucun secteur rouge. Deux feux mineurs distincts signalés le 21/09 par titrespresse.com : Saint-Marcel-de-Careiret (1 500 m² calcinés) et Générac (~50 ha), dans un contexte de sécheresse record et de vents à 60 km/h ; aucun des deux n'est rattaché à un massif classé ni à un itinéraire balisé.
 - 24/09 : aucune page de classement publiée pour le jeudi (URL testée directement, 404), aucun secteur rouge. Une synthèse de presse (titrespresse.com/letribunaldunet.fr, 21-23/09) confirme que l'amélioration se poursuit : plus aucun département n'est classé rouge en région, seuls l'Aude et l'Hérault restent en vigilance orange.
+
+04/10 : la période réglementée est terminée, l'alerte est clôturée.
 
 ## Source
 
