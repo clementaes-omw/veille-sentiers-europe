@@ -3,24 +3,20 @@ cle: risque-feu|FR-06-AlpesMaritimes|fermeture-esterel-tanneron|2026-07-17
 type: risque feu / fermeture massif (journalier)
 itin: GR®51 (Balcons de la Méditerranée, secteur Esterel-Tanneron)
 sev: MOYENNE (fermeture reconfirmée pour un 2e jour non consécutif, 31/08 ; source de presse unique, non recoupée par un communiqué officiel)
-validite: journalière selon la préfecture ; fermeture confirmée pour le lundi 31/08/2026 (rouge, très sévère) par presseagence.fr, publié 30/08, cohérente avec la fermeture confirmée le samedi 29/08 côté Var
+validite: période réglementée d'accès aux massifs des Alpes-Maritimes terminée au 30/09/2026, dernière fermeture confirmée le 31/08/2026
 detection: 2026-08-09
-verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche dédiée (WebSearch ciblé sur presseagence.fr
-  pour septembre 2026), toujours aucune publication postérieure au 31/08 trouvée pour ce
-  massif côté Alpes-Maritimes. L'écart avec la dernière confirmation datée atteint désormais
-  27 jours. Sévérité maintenue MOYENNE ; le fait établi reste les fermetures répétées
-  documentées entre le 17 juillet et le 31 août.
+verif: 2026-10-05
+statut: [CLÔTURÉ] (2026-10-05) : période réglementaire d'accès aux massifs terminée, aucune restriction publiée depuis la dernière carte connue. Absence de signal, pas levée explicite.
 ordre: 102
 ---
 
 ## Portion concernée
 
-**Massif de l'Esterel-Tanneron (communes de Mandelieu-la-Napoule, Théoule-sur-Mer, Tanneron, côté Alpes-Maritimes)** : dernière fermeture confirmée (accès, circulation et travaux interdits) le lundi 31/08/2026, classée risque incendie très sévère (rouge), pour la deuxième fois depuis la reprise du 29/08 qui avait mis fin à un silence de 22 jours dans les sources suivies (07 au 28/08). Entre le 17 juillet et le 6 août 2026, la préfecture avait déjà fermé ce massif presque tous les jours classés en risque très sévère. Raison : risque incendie très sévère lié à la chaleur. Le reste du département n'est pas concerné par cette même restriction. Aucune publication postérieure au 31/08 n'a été retrouvée depuis (vérifié le 23/09/2026, soit 23 jours sans nouvelle confirmation) : le classement du jour n'est pas connu à l'avance, se renseigner auprès de la préfecture avant de partir.
+**Massif de l'Esterel-Tanneron (côté Alpes-Maritimes)** : la période d'accès réglementé aux massifs, du 15/06 au 30/09/2026, est terminée et aucune fermeture n'est en vigueur. La dernière fermeture publiée (risque très sévère) date du lundi 31/08/2026 et aucune publication postérieure n'a été retrouvée.
 
 ## Alternative
 
-Les autres massifs des Alpes-Maritimes restent accessibles ces jours-là. La préfecture republie un classement quotidien : le consulter avant de partir, la fermeture ne portant que sur ce seul massif.
+Sans objet : le massif est accessible. Hors période réglementée, une fermeture ne peut être décidée qu'en cas de risque très sévère exceptionnel, annoncée par la préfecture la veille vers 18h.
 
 ## Zone (détails)
 
@@ -73,6 +69,8 @@ Vérifié le 24/09/2026 : nouvelle recherche dédiée (WebSearch presseagence.fr
 Vérifié le 25/09/2026 : nouvelle recherche dédiée (WebSearch presseagence.fr, tentative de fetch direct de la page dédiée alpes-maritimes.gouv.fr en erreur 503) : aucune publication de presse postérieure au 31/08/2026 trouvée pour ce massif spécifique. L'écart avec la dernière confirmation datée atteint désormais 25 jours.
 
 Vérifié le 27/09/2026 : nouvelle recherche dédiée (WebSearch ciblé sur presseagence.fr et le massif Esterel-Tanneron pour septembre 2026) : les seuls articles remontés restent ceux de juillet-août déjà connus. Aucune publication postérieure au 31/08/2026 trouvée pour ce massif spécifique des Alpes-Maritimes. L'écart avec la dernière confirmation datée atteint désormais 27 jours.
+
+05/10 : La période d'accès réglementé aux massifs est terminée (30/09). Dernière fermeture publiée : 31/08. Alerte clôturée.
 
 ## Source
 

@@ -3,28 +3,20 @@ cle: risque-feu|PO-66|vigilance-rouge-fermeture-tous-massifs|2026-07-26
 type: risque feu / fermeture massifs
 itin: GR®10 (Vallespir, Conflent, Capcir, Cerdagne — tronçons hors Albères) ; HRP — [HYPOTHÈSE] recoupement tronçon par tronçon non fait
 sev: MOYENNE (source de presse unique pour le retour en vigilance rouge du 14/09 ; une seconde source ou un acte officiel serait nécessaire pour repasser en HAUTE)
-validite: accès aux massifs réglementé selon le niveau de risque quotidien, restrictions annoncées jusqu'au 25/09/2026, échéance désormais dépassée sans confirmation explicite d'une reconduction ni d'une levée ; usage du feu par les particuliers interdit jusqu'au 01/10/2026 ; écobuage agricole reporté au 30/09/2026 (préfecture des Pyrénées-Orientales citée par mawebtv.fr, 16/09/2026) ; le secteur du Roussillon est par ailleurs repassé en vigilance rouge le lundi 14/09/2026 selon une source de presse (accès aux massifs forestiers interdit, tout emploi du feu interdit), non corroborée par un acte préfectoral ni une seconde source indépendante ; statut des 8 autres massifs non tranché par cette même source
+validite: période d'accès réglementé aux massifs terminée ; dernière échéance annoncée le 25/09/2026, usage du feu interdit jusqu'au 01/10/2026
 detection: 2026-07-27
-verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 28/09 : nouvelle recherche, aucun classement nominatif de massif
-  postérieur au pic du 21/09 (puis retour orange le 22/09) retrouvé. pyrenees-orientales.gouv.fr
-  et risque-prevention-incendie.fr/66 restent inaccessibles en lecture directe (JavaScript /
-  erreur serveur). Point de vigilance nouveau : l'échéance du 25/09 annoncée par mawebtv.fr
-  pour le régime quotidien d'accès aux massifs est désormais dépassée, sans qu'aucune source
-  ne confirme explicitement une reconduction au-delà de cette date ni une levée ; à traiter en
-  priorité au prochain passage (presse quotidienne obligatoire pour cette zone). Ce n'est
-  toujours pas la seconde source nominative requise pour repasser à HAUTE. Sévérité maintenue
-  MOYENNE.
+verif: 2026-10-05
+statut: [CLÔTURÉ] (2026-10-05) : période réglementaire d'accès aux massifs terminée, aucune restriction publiée depuis la dernière carte connue. Absence de signal, pas levée explicite.
 ordre: 56
 ---
 
 ## Portion concernée
 
-**Département des Pyrénées-Orientales, secteur du Roussillon** : une source de presse datée du 14/09/2026 rapporte un retour en vigilance rouge pour le Roussillon, avec accès aux massifs forestiers interdit (piétons et véhicules) et tout emploi du feu interdit. Avant cette date, le dernier classement nommant explicitement un massif au niveau rouge était celui du jeudi 03/09/2026 (Corbières et Roussillon, risque incendie exceptionnel). Depuis, une source datée du 12/09/2026 nomme pour la première fois le niveau exact des massifs concernés : pour le dimanche 13 septembre, le risque incendie est classé élevé, et non plus rouge, sur le Fenouillèdes, les Corbières, les Albères, les Aspres et la Plaine du Roussillon, soit l'ensemble des massifs nommés rouges depuis le 27/08. Aucun de ces cinq massifs n'est donc classé rouge à cette date, ce qui confirme avec une précision nouvelle la dégradation décidée le 13/09. Le Capcir, la Cerdagne, le Conflent et le Vallespir restent sans statut individuel documenté depuis le début de l'épisode. Le massif signalé par la presse comme redevenu accessible le 4 septembre 2026 après une fermeture qui a duré tout l'été est identifié : il s'agit du massif des Albères sur la commune d'Argelès-sur-Mer, déjà documenté par la levée de l'arrêté ARR2026-024PM le 03/09 (voir fiche dédiée `risque-feu|Alberes-66|…`), et non d'un troisième massif distinct. Deux feux mineurs signalés dans la nuit du 11 au 12 septembre, à Caramany/Trévillach (1,5 ha) et à Formiguères (2 ha), ont été rapidement fixés puis éteints, sans lien avec un classement rouge. La fermeture du massif des Albères, décidée par arrêté municipal distinct depuis le 10/07, reste documentée séparément (voir fiche dédiée `risque-feu|Alberes-66|…`), indépendamment de son statut dans cette vigilance départementale. Au 23/09/2026, dernière évolution connue : un nouveau pic de vigilance rouge « très élevé » le lundi 21/09/2026, suivi d'un retour en orange dès le 22/09, sans qu'aucune source ne nomme le massif concerné ni ne confirme une fermeture décidée par la préfecture ; un feu distinct s'est par ailleurs déclaré le 21/09 à Villeneuve-de-la-Raho (35 ha environ, éteint le jour même), sans lien avec un massif classé ni avec un itinéraire balisé. Se renseigner directement auprès de la préfecture avant de partir, le classement changeant chaque jour.
+**Pyrénées-Orientales** : le régime d'accès réglementé aux massifs forestiers, annoncé jusqu'au 25/09/2026, est dépassé et aucune reconduction n'est publiée à ce jour sur le site de la préfecture. L'interdiction d'emploi du feu pour les particuliers courait jusqu'au 01/10/2026. Aucun massif n'est signalé fermé depuis la mi-septembre.
 
 ## Alternative
 
-Aucune alternative connue à ce jour.
+Sans objet : aucune fermeture d'accès en vigueur. Consulter la carte préfectorale du jour avant de partir en cas de vent ou de sécheresse marqués.
 
 ## Zone (détails)
 
@@ -61,6 +53,8 @@ MAJ 16/09 : lasemainedespyrenees.fr rapporte que le secteur du Roussillon est re
 MAJ 17/09 : mawebtv.fr (16/09/2026) confirme que la végétation reste fortement desséchée et que les conditions météorologiques demeurent favorables à la propagation des feux ; la préfecture prolonge plusieurs mesures de restriction jusqu'au 25 septembre pour l'accès aux massifs selon le niveau de risque du jour, interdit l'emploi du feu par les particuliers jusqu'au 1er octobre et reporte l'écobuage agricole au 30 septembre. Cet article ne nomme cependant aucun massif ni ne confirme explicitement un classement rouge : il corrobore la persistance du risque élevé sans constituer la seconde source nominative requise pour repasser l'alerte à HAUTE.
 
 MAJ 23/09 : France 3 Occitanie et titrespresse.com rapportent que les Pyrénées-Orientales, avec l'Aude et le Gard, sont repassés en vigilance rouge « très élevé » le lundi 21/09/2026, puis en orange dès le 22/09. Ni l'un ni l'autre de ces deux articles ne nomme de massif précis ni ne confirme une fermeture effective décidée par la préfecture : ce n'est toujours pas la seconde source nominative requise pour repasser l'alerte à HAUTE. Un feu distinct s'est par ailleurs déclaré le 21/09/2026 à Villeneuve-de-la-Raho, environ 35 hectares parcourus, la D19 et la voie ferrée coupées le temps de l'intervention, éteint le jour même ; ce départ n'est rattaché à aucun massif classé ni à un itinéraire balisé.
+
+05/10 : Échéance du 25/09 dépassée sans reconduction publiée, interdiction du feu échue le 01/10. Alerte clôturée.
 
 ## Source
 

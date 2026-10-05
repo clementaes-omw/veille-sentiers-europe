@@ -6,7 +6,7 @@ itin: [HYPOTHÈSE] secteur du Donezan, rattachement à un GR® référencé non 
 sev: MOYENNE
 validite: feu actif, environ 50 hectares brûlés et plus de 60 touchés, hélicoptère bombardier autorisé jusqu'au 29/09, pluie annoncée le 30/09 ; départ le 24/09/2026 ; sentiers depuis La Restanque et Pailhères fortement déconseillés (avis de terrain), aucun arrêté d'accès trouvé
 detection: 2026-09-28
-verif: 2026-09-29
+verif: 2026-10-05
 statut: ACTIF — CHANGÉ 29/09 : feu plus grand et plus actif que la fiche (50 ha brûlés, 60 ha touchés, 54 pompiers du SDIS 09, 59 largages de l'hélicoptère lourd, Canadair et Dash en renfort), départ réel le 24/09. Avis « fortement déconseillé » sur les sentiers de La Restanque et de Pailhères, issu de feuxdeforet.fr (non officiel). Aucun arrêté préfectoral ni GR nommé. Sévérité MOYENNE, HAUTE si un arrêté suit. À revoir après la pluie du 30/09.
 ordre: 257
 ---

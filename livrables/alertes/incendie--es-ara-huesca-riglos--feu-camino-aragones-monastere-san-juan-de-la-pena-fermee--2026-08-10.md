@@ -7,7 +7,7 @@ itin: Camino Aragónés (Somport → Puente la Reina), tronçon Jaca ↔ Santa C
 sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalité des évacués sont rentrés)
 validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; le gouvernement d'Aragón a **prolongé la réglementation de circulation sur la route A-1603** (Santa Cruz de la Serós ↔ Botaya, desserte du monastère) **jusqu'au 30 novembre 2026**, au lieu de la lever le 15/09 comme annoncé initialement, en raison d'un risque persistant de chutes de pierres sur la zone brûlée ; accès restreint mais non totalement fermé (dérogations agricoles/pastorales et services essentiels) ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées
 detection: 2026-08-17
-verif: 2026-09-28
+verif: 2026-10-05
 statut: ACTIF — CHANGÉ 28/09 : le gouvernement d'Aragón prolonge la réglementation de
   circulation sur la route A-1603 jusqu'au 30 novembre 2026, contrairement à l'hypothèse d'une
   levée après le 15/09. Motif : risque persistant de chutes de pierres sur la zone brûlée.

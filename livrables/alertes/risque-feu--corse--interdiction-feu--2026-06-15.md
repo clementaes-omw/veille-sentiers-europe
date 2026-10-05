@@ -5,7 +5,7 @@ itin: GR®20
 sev: MOYENNE
 validite: l'interdiction d'emploi du feu est prolongée jusqu'au 18/10/2026 inclus dans les deux départements (Corse-du-Sud, arrêté ~25/09 ; Haute-Corse, arrêté du 30/09, en vigueur le 01/10)
 detection: 2026-06-29
-verif: 2026-10-03
+verif: 2026-10-05
 statut: ACTIF — CHANGÉ 03/10 : la Haute-Corse s'aligne sur la Corse-du-Sud, interdiction d'emploi du feu prolongée jusqu'au 18/10/2026 inclus (corsenetinfos.corsica 30/09 17h16, alta-frequenza.corsica 01/10). Hypothèse d'un régime par défaut au 30/09 en Haute-Corse levée. Aucun nouvel acte d'accès aux massifs trouvé.
 ordre: 2
 ---

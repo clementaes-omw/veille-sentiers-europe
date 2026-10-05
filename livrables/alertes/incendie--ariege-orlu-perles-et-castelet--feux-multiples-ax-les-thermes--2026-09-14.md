@@ -9,7 +9,7 @@ validite: plusieurs foyers actifs ou en reprise depuis mi-septembre dans le sect
   (Perles-et-Castelet, 55 ha selon radiocouserans.fr du 26/09) ; aucune fermeture de sentier ni arrêté d'accès nommé
   n'est documenté à ce jour
 detection: 2026-09-28
-verif: 2026-10-02
+verif: 2026-10-05
 statut: ACTIF — INCHANGÉ 02/10, dernier changement 29/09 : la source du 26/09 (radiocouserans.fr) donne 55 ha à Perles-et-Castelet avec de simples points chauds et non plus de 80 ha, chiffre non confirmé. Orlu sous surveillance par drone, Saurat 56 ha au total. Aucun arrêté. Sévérité MOYENNE maintenue.
 ordre: 256
 ---
