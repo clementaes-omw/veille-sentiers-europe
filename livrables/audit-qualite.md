@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-10-06
 
-105 alertes actives · 61 fiches avec au moins un constat · **8 bloquant(s)**, 67 alerte(s), 0 info(s).
+105 alertes actives · 60 fiches avec au moins un constat · **8 bloquant(s)**, 63 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -24,7 +24,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`conditions|Écrins-GR54|enneigement-conditions|2026-06-24`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`** — vérifiée il y a 24 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`eboulement|IT-Dolomites-BorcaDiCadore|frana-passo-staulanza-route-rifugio-citta-di-fiume|2026-09-10`** — jamais revérifiée depuis sa détection il y a 24 j.
-- **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — vérifiée il y a 8 j (seuil 4 j — sévérité haute). Le site présente cette restriction comme actuelle.
 - **`fermeture|CH-EST-Kandersteg|Spitze-Stei-deviation-seg-1.13|2023-05-08`** — jamais revérifiée depuis sa détection il y a 28 j.
 - **`fermeture|CH-Europaweg-Randa-Zermatt|fermeture-deviation-seg-27.3|2024-07-03`** — vérifiée il y a 21 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`fermeture|CH-Valais-Arolla|Bertol-Haut-Glacier-deviation|2026-05-11`** — vérifiée il y a 21 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
@@ -51,22 +50,19 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`fermeture|UK-Devon-Branscombe|SWCP-Under-Hooken-Branscombe-Beer|2026-03`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`fermeture|VS-Orsieres-ValFerret|Saleinaz-cabane-eboulement|2026-07-29`** — vérifiée il y a 21 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Ardeche-Dompnac|feu-40ha-Valgorge|2026-09-26`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
-- **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — vérifiée il y a 8 j (seuil 4 j — sévérité haute). Le site présente cette restriction comme actuelle.
 - **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — alerte rouge appuyée sur une source datée du 31/08 (36 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|Ariege-Mijanes-Donezan|feu-station-Donezan|2026-09-25`** — la validité annoncée s'arrête au 30/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|Ariege-Saurat|Rocher-de-Batail-GRP-fermes|2026-08-16`** — la validité annoncée s'arrête au 01/10/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 26 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — vérifiée il y a 8 j (seuil 4 j — sévérité haute). Le site présente cette restriction comme actuelle.
 - **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — alerte rouge appuyée sur une source datée du 21/08 (46 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|ES-AND-Igualeja-Parauta|feu-Serrania-de-Ronda-Sierra-de-las-Nieves|2026-09-27`** — la validité annoncée s'arrête au 28/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** — vérifiée il y a 26 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|GR34-CapFrehel|fermeture-lande-fort-la-latte|2026-07-15`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — vérifiée il y a 8 j (seuil 4 j — sévérité haute). Le site présente cette restriction comme actuelle.
+- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — « Portion concernée » parle du 27/09 alors que le suivi connaît la situation au 06/10 (9 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — alerte rouge appuyée sur une source datée du 24/08 (43 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08`** — vérifiée il y a 22 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|PT-CENTRO-SUL-Arganil-Piodao|feu-murganheira-evacuation-aldeias-historicas|2026-09-19`** — la validité annoncée s'arrête au 27/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`incendie|PT-CENTRO-SUL-Odemira-Saboia|feu-nave-redonda|2026-09-24`** — la validité annoncée s'arrête au 25/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
-- **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — vérifiée il y a 8 j (seuil 4 j — sévérité haute). Le site présente cette restriction comme actuelle.
 - **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — alerte rouge appuyée sur une source datée du 10/09 (26 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`incendie|UK-Cairngorms-Glenmore|wildfire-Strathnethy-C7-fermee|2026-07-16`** — vérifiée il y a 13 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`infrastructure|SCAND-SE-Norrbotten-Padjelantaleden|pont-Mielladno-retire|2026-04`** — jamais revérifiée depuis sa détection il y a 13 j.

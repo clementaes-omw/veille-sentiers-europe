@@ -13,8 +13,8 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   Waltersdorf ; une source indépendante (sandsteinwandern.de, 24/09) date désormais la
   fermeture du seul parking du Gamrig du 19/08 au 30/09/2026
 detection: 2026-08-06
-verif: 2026-10-02
-statut: ACTIF — CHANGÉ 02/10 : le site touristique régional indique que l'évacuation héliportée du bois se poursuit autour de Rathen et que les parkings du Gamrig restent fermés (consulté le 02/10) ; une information du parc indique qu'au 29/09 les vols continuent encore plusieurs jours. Amselgrund bas et Ziegenrücken toujours fermés, dernière mise à jour du parc connue : 27/08. Allgemeinverfügung toujours sans date de fin. Sévérité maintenue HAUTE (acte officiel).
+verif: 2026-10-06
+statut: ACTIF — INCHANGÉ 06/10 : page du Nationalpark relue en direct, fermeture forestière entre Bastei, Rathen, Hohnstein et Polenztal toujours « jusqu'à nouvel ordre » ; Basteiweg, Schwedenlöcher, Amselgrund et Polenztal rouverts depuis les 07 et 14/08.
 ordre: 99
 ---
 
