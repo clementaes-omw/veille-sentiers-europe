@@ -5,20 +5,14 @@ itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: HAUTE
 validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et bergers jusqu'à nouvel ordre, aucune date de réouverture du GR®10 annoncée
 detection: 2026-09-07
-verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 28/09 : nouvelle recherche élargie (gr10.org, CDRP64,
-  lasemainedespyrenees.fr, presse Sud-Ouest/La République des Pyrénées), rien de postérieur au
-  point du 10/09 retrouvé, ni levée ni nouvel arrêté. Le feu reste fixé et sous surveillance,
-  l'accès au sol toujours strictement interdit à tous les usagers, vingt-six jours après le
-  départ de feu, sans date de levée annoncée : sévérité maintenue HAUTE (fondement FAIT, arrêté
-  préfectoral confirmé par plusieurs points de situation officiels, pas une hypothèse à
-  confirmer).
+verif: 2026-10-06
+statut: ACTIF — INCHANGÉ 06/10 : recherche web ciblée, aucune information postérieure au point du 10/09 (feu fixé, accès interdit), ni levée ni réouverture du GR10 annoncée. Sévérité maintenue HAUTE (arrêté préfectoral confirmé).
 ordre: 221
 ---
 
 ## Portion concernée
 
-**Crête du Pas d'Ourtasse, entre Etsaut et Cette-Eygun (vallée d'Aspe, Pyrénées-Atlantiques), sur l'étape du GR®10 qui relie les deux villages.** Secteur interdit d'accès depuis le 02/09/2026. Raison : incendie de forêt en haute montagne ayant parcouru 130 hectares sur un terrain escarpé qui a compliqué l'intervention au sol ; le feu reste fixé et sous surveillance depuis le 10/09 (aucune fumée ni signe de reprise lors de la reconnaissance par drone du 09/09). Au 27/09, la situation n'a pas changé : l'accès au sol reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 annoncée, vingt-cinq jours après le départ de feu.
+**Crête du Pas d'Ourtasse, entre Etsaut et Cette-Eygun (vallée d'Aspe, Pyrénées-Atlantiques), sur l'étape du GR®10 qui relie les deux villages.** Secteur interdit d'accès depuis le 02/09/2026. Raison : incendie de forêt en haute montagne ayant parcouru 130 hectares sur un terrain escarpé qui a compliqué l'intervention au sol ; le feu reste fixé et sous surveillance depuis le 10/09 (aucune fumée ni signe de reprise lors de la reconnaissance par drone du 09/09). Au 06/10, la situation n'a pas changé : l'accès au sol reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 annoncée, vingt-cinq jours après le départ de feu.
 
 ## Alternative
 

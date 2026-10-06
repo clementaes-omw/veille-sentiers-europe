@@ -5,8 +5,8 @@ itin: GR®240 Sulayr (Sierra Nevada, provinces de Grenade et Almería)
 sev: MOYENNE
 validite: trois avis officiels distincts affichés, sans date de réouverture pour aucun des trois
 detection: 2026-09-27
-verif: 2026-10-04
-statut: ACTIF. Tronçons 2, 13, 14 et 17 toujours signalés fermés ou en travaux au 04/10 (Ventana del Visitante, recoupé par Andaltura).
+verif: 2026-10-06
+statut: ACTIF. Ventana del Visitante (Junta) confirmé via recherche le 06/10 : tronçon 2 fermé depuis le 16/09, tronçons 13 et 14 en travaux forestiers, tronçon 17 fermé pour restauration.
 ordre: 253
 ---
 
