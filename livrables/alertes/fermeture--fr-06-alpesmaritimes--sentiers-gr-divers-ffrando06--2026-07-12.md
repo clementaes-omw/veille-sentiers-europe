@@ -5,16 +5,14 @@ itin: GR®510 (Rigaud, Massoins) ; GR®52-GTM (Entraunes, portion balises 35-36)
 sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; nouvelle fermeture programmée sur la Piste des Merveilles (Tende), du 29/09 au 30/10/2026 ; page FFRando 06 mise à jour au 12/09/2026
 detection: 2026-08-01
-verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : page FFRando 06 relue directement, toujours datée du
-  12/09/2026, aucune fermeture nouvelle ni levée. GR®510, GR®52-GTM, GR®52A (dont la Piste des
-  Merveilles depuis le 12/09) et GR®5 inchangés ; GR®51, GR®4 et GR®653A restent « Néant ».
+verif: 2026-10-06
+statut: ACTIF — CHANGÉ 06/10 : la fermeture du GR®52A à Beuil (balises 101 à 59) a atteint son échéance du 02/10 ; la page FFRando 06 (dernière mise à jour 12/09) ne la retire pas encore et n'annonce aucune prolongation. Piste des Merveilles (Tende) fermée du 29/09 au 30/10 confirmée par la même page.
 ordre: 64
 ---
 
 ## Portion concernée
 
-Alpes-Maritimes : **sections fermées sur le GR®510, le GR®52-GTM et le GR®52A.** Sur le GR®510, l'accès est interdit à Rigaud entre les balises 205 et 206 (effondrement de sentier, arrêté du 23/04/2025), et plusieurs sections sont fermées à Massoins, aux balises 69-72, 68-69 et 66-68 (arrêté du 21/12/2020). Sur le GR®52-GTM, l'itinéraire est temporairement fermé à Entraunes entre les balises 35 et 36 (arrêté du 14/04/2025). Sur le GR®52A, la circulation est interdite à Entraunes depuis la borne 266 (arrêté du 12/12/2019) et au niveau de la traversée du ravin du Brec (arrêté du 07/05/2025) ; à Tende, le sentier de la baisse de la Lagouna est fermé entre les balises 334 et 335a (dégâts d'orage, date non précisée) ; à Beuil, une section est fermée entre les balises 101 et 59 pour travaux de restauration, du 31/08 au 02/10/2026 ; à Tende également, la **Piste des Merveilles**, entre le refuge du CAF et la zone des bergeries, ferme pour travaux de restauration du 29/09 au 30/10/2026. Raison : effondrements, glissements de terrain, dégâts d'orage et travaux de restauration selon les sections. Source FFRando 06, page « Fermeture des sentiers GR® Alpes-Maritimes », mise à jour au 12/09/2026.
+Alpes-Maritimes : **sections fermées sur le GR®510, le GR®52-GTM et le GR®52A.** Sur le GR®510, l'accès est interdit à Rigaud entre les balises 205 et 206 (effondrement de sentier, arrêté du 23/04/2025), et plusieurs sections sont fermées à Massoins, aux balises 69-72, 68-69 et 66-68 (arrêté du 21/12/2020). Sur le GR®52-GTM, l'itinéraire est temporairement fermé à Entraunes entre les balises 35 et 36 (arrêté du 14/04/2025). Sur le GR®52A, la circulation est interdite à Entraunes depuis la borne 266 (arrêté du 12/12/2019) et au niveau de la traversée du ravin du Brec (arrêté du 07/05/2025) ; à Tende, le sentier de la baisse de la Lagouna est fermé entre les balises 334 et 335a (dégâts d'orage, date non précisée) ; à Beuil, la section entre les balises 101 et 59, fermée pour travaux de restauration du 31/08 au 02/10/2026, a atteint son échéance sans prolongation publiée (la page FFRando 06 ne l'a pas encore retirée) ; à Tende également, la **Piste des Merveilles**, entre le refuge du CAF et la zone des bergeries, ferme pour travaux de restauration du 29/09 au 30/10/2026. Raison : effondrements, glissements de terrain, dégâts d'orage et travaux de restauration selon les sections. Source FFRando 06, page « Fermeture des sentiers GR® Alpes-Maritimes », mise à jour au 12/09/2026.
 
 ## Alternative
 
@@ -41,6 +39,8 @@ MAJ 20/09 : page FFRando 06 relue directement, toujours datée du 12/09/2026, au
 MAJ 23/09 : page FFRando 06 relue directement, toujours datée du 12/09/2026, aucune fermeture nouvelle ni levée depuis 11 jours. Fermetures inchangées sur GR®510, GR®52-GTM, GR®52A et GR®5 ; GR®51, GR®4 et GR®653A restent « Néant ».
 
 MAJ 27/09 : page FFRando 06 relue directement, toujours datée du 12/09/2026, aucune fermeture nouvelle ni levée depuis 15 jours. Fermetures inchangées sur GR®510, GR®52-GTM, GR®52A et GR®5 ; GR®51, GR®4 et GR®653A restent « Néant ».
+
+06/10 : le terme du 02/10 de la fermeture de Beuil (GR®52A, balises 101 à 59) est passé ; la page FFRando 06, mise à jour pour la dernière fois le 12/09, la liste toujours et ne mentionne aucune prolongation. La Piste des Merveilles (Tende) reste fermée du 29/09 au 30/10/2026 (arrêté n°103-2026).
 
 ## Source
 
