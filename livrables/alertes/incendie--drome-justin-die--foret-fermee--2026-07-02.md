@@ -6,7 +6,7 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-10-06
+verif: 2026-10-09
 statut: ACTIF — INCHANGÉ 06/10 : recherche web ciblée, mairie-die.fr (accès interdit aux forêts de Justin, Laup et Solaure) toujours en ligne, arrêté du 21/08 seul texte retrouvé, aucune levée. Sévérité maintenue HAUTE (fondement = arrêté daté).
 ordre: 31
 ---

@@ -5,7 +5,7 @@ itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canea : Balos, Kri
 sev: MOYENNE
 validite: gorge de Samaria fermée aux deux entrées depuis le 30/09/2026, sans date de réouverture : bulletin d'urgence météo valable jusqu'au 04/10/2026, alerte rouge de la protection civile pour la Crète du 01/10 au 04/10 ; réouverture annoncée seulement après inspection du site ; autres fermetures de l'E4 décidées au jour le jour
 detection: 2026-07-24
-verif: 2026-10-04
+verif: 2026-10-09
 statut: ACTIF. Gorge fermée aux deux entrées depuis le 30/09/2026 (NECCA), réouverture non annoncée au 04/10.
 ordre: 49
 ---
