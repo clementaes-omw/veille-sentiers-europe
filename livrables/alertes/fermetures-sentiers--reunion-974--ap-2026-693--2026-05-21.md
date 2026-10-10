@@ -9,7 +9,7 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1695 d
   achèvement des travaux de sécurisation de falaise ; sur le tracé du GR® R2, ferme toujours
   le sentier du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate)
 detection: 2026-07-04
-verif: 2026-10-06
+verif: 2026-10-10
 statut: ACTIF — INCHANGÉ 06/10 : recherche web ciblée, l'arrêté n°2026-1695 du 25/09 reste le dernier texte retrouvé, Bras des Merles (Deux Bras ↔ Aurère) toujours fermé ; zinfos974 illisible (403).
 ordre: 16
 ---

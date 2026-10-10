@@ -13,7 +13,7 @@ validite: l'Allgemeinverfügung amendée est valable « bis auf Widerruf » (jus
   Waltersdorf ; une source indépendante (sandsteinwandern.de, 24/09) date désormais la
   fermeture du seul parking du Gamrig du 19/08 au 30/09/2026
 detection: 2026-08-06
-verif: 2026-10-08
+verif: 2026-10-10
 statut: ACTIF — CHANGÉ 08/10 : office de tourisme (aktuelles, 07/10 9h30) indique un seul des deux parkings du Gamrig fermé, plus de mention du vol d'hélicoptère ; landratsamt-pirna.de/forst : Allgemeinverfügung « bis auf Widerruf », sans fin. Sévérité maintenue HAUTE (Amselgrund bas toujours fermé, Malerweg dévié).
 ordre: 99
 ---

@@ -5,7 +5,7 @@ itin: Fimmvörðuháls (traversée Skógar ↔ Þorsmörk), secteur Baldvinsská
 sev: MOYENNE
 validite: reste actif jusqu'à nouvel ordre : avertissement émis le 25/08/2026 par Ferðafélag Íslands, Útivist et Dagrenning, sans échéance annoncée par les trois organismes (aucune levée constatée lors de la dernière vérification, le 12/09/2026)
 detection: 2026-09-12
-verif: 2026-09-12
+verif: 2026-10-10
 statut: ACTIF — NOUVEAU
 ordre: 229
 ---
