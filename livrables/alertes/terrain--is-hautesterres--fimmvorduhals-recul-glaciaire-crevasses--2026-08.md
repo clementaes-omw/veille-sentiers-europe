@@ -5,7 +5,7 @@ itin: Fimmvörðuháls (liaison Skógar ↔ Þórsmörk, jonction classique avec
 sev: MOYENNE
 validite: avertissement actif depuis août 2026, sans date de levée annoncée ; dépend de la poursuite du recul glaciaire, donc a priori pour le reste de la saison 2026
 detection: 2026-08-29
-verif: 2026-09-05
+verif: 2026-10-10
 statut: ACTIF — NOUVEAU
 ordre: 212
 ---
