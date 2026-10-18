@@ -5,7 +5,7 @@ itin: GR®22 (tronçon Piódão ↔ Castelo Novo, aldeias históricas, Serra do 
 sev: MOYENNE
 validite: feu maîtrisé (dominado) depuis le 20/09/2026 à 00h30 ; à la dernière vérification (27/09/2026), l'outil officiel api.fogos.pt ne recense plus aucun foyer actif à Arganil, mais aucune déclaration formelle d'extinction n'a été publiée
 detection: 2026-09-24
-verif: 2026-09-27
+verif: 2026-10-18
 statut: ACTIF — INCHANGÉ 27/09 : nouvelle interrogation de l'API officielle api.fogos.pt,
   qui ne liste plus aucun foyer actif à Arganil ni à Vila Nova de Poiares (district de
   Coimbra) : cohérent avec une extinction de fait, mais aucune source, officielle ou de

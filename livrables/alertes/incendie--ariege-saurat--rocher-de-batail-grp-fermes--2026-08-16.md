@@ -5,7 +5,7 @@ itin: GRP Tour de la Barguillère, GRP Tour du Pic des Trois Seigneurs, GRP Le P
 sev: MOYENNE
 validite: feu encore actif d'après la presse du 01/10/2026, sans échéance (plus de 185 ha, sous surveillance) ; aucune fermeture de sentier publiée ; fermeture des trois GRP levée le 24/08
 detection: 2026-08-24
-verif: 2026-10-06
+verif: 2026-10-18
 statut: ACTIF — CHANGÉ 06/10 : fiche rouverte. ICI du 01/10 compte Saurat parmi les quatre feux encore actifs en Ariège (depuis le 16/08, plus de 185 ha, feu couvant sous terre), contrairement à la clôture du 24/08 (« feu éteint »). Aucune fermeture de sentier ni arrêté retrouvé : sévérité MOYENNE, [HYPOTHÈSE] pour tout lien avec les GRP.
 ordre: 178
 ---

@@ -6,7 +6,7 @@ itin: TMB (val Ferret, secteur Praz-de-Fort) ; [HYPOTHÈSE] chemin d'accès à u
 sev: MOYENNE
 validite: fermé depuis le 29/07/2026, sans échéance annoncée par la commune ; le flux officiel Suisse Rando affiche une validité du 01/09/2026 au 31/01/2027
 detection: 2026-09-08
-verif: 2026-10-13
+verif: 2026-10-18
 statut: ACTIF — INCHANGÉ 15/09 : CSV officiel data.geo.admin.ch revérifié directement,
   entrée id 2601396 inchangée (validité 01/09/2026 → 31/01/2027, change_date toujours
   02/09/2026). Reconstruction du passage jugée nécessaire avant réouverture, aucun
