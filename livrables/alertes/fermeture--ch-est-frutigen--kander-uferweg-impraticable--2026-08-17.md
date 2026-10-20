@@ -5,7 +5,7 @@ itin: Kander Uferweg, Frutigen ↔ Reichenbach im Kandertal (Oberland bernois) ;
 sev: MOYENNE
 validite: du 01/10/2026 au 31/03/2027 (travaux de construction), flux officiel id 2602392
 detection: 2026-08-18
-verif: 2026-10-04
+verif: 2026-10-20
 statut: ACTIF. Flux officiel téléchargé le 04/10 : entrée id 2602392 inchangée (01/10/2026 → 31/03/2027).
 ordre: 173
 ---
