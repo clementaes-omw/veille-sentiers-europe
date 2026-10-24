@@ -5,7 +5,7 @@ itin: Sentier CAI 401 (Val Travenanzes, Cortina d'Ampezzo, Dolomites), hors trac
 sev: MOYENNE
 validite: fermeture par ordonnance n°171 du 04/10/2026, valable jusqu'à nouvel ordre, sans date de levée annoncée
 detection: 2026-10-17
-verif: 2026-10-17
+verif: 2026-10-24
 statut: ACTIF — NOUVEAU. Deux sources de presse datées du 05/10 (ilDolomiti, Affaritaliani) ; texte de l'ordonnance non lu (lien sur le site du comune de Cortina). Aucune révocation retrouvée au 17/10. À chercher au prochain passage : révocation ou périmètre précis sur le site du comune.
 ordre: 262
 ---
