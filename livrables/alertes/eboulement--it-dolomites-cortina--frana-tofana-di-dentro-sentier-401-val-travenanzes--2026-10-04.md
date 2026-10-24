@@ -26,4 +26,4 @@ Aucune alternative connue à ce jour.
 
 ## Source
 
-[ilDolomiti, « Estremamente pericoloso avventurarsi in zona, state a casa. Dopo la spaventosa frana chiude il sentiero 401 », 05/10/2026](https://www.ildolomiti.it/montagna/2026/estremamente-pericoloso-avventurarsi-in-zona-state-a-casa-dopo-la-spaventosa-frana-chiude-il-sentiero-401) ; [Affaritaliani, « Frana sulla Tofana: ecco que cosa est arrivé »](https://example.invalid)
+[ilDolomiti, « Estremamente pericoloso avventurarsi in zona, state a casa. Dopo la spaventosa frana chiude il sentiero 401 », 05/10/2026](https://www.ildolomiti.it/montagna/2026/estremamente-pericoloso-avventurarsi-in-zona-state-a-casa-dopo-la-spaventosa-frana-chiude-il-sentiero-401) ; [Affaritaliani, « Frana sulla Tofana: ecco che cosa è successo e quali sentieri sono stati chiusi », 05/10/2026](https://www.affaritaliani.it/cronache/frana-sulla-tofana-ecco-che-cosa-e-successo-e-quali-sentieri-sono-stati-chiusi-video.html)
