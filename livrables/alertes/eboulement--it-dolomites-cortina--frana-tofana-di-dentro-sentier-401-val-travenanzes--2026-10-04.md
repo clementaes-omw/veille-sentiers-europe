@@ -5,7 +5,7 @@ itin: Sentier CAI 401 (Val Travenanzes, Cortina d'Ampezzo, Dolomites), hors trac
 sev: MOYENNE
 validite: fermeture par ordonnance n°171 du 04/10/2026, valable jusqu'à nouvel ordre, sans date de levée annoncée
 detection: 2026-10-17
-verif: 2026-10-17
+verif: 2026-10-24
 statut: ACTIF — NOUVEAU. Deux sources de presse datées du 05/10 (ilDolomiti, Affaritaliani) ; texte de l'ordonnance non lu (lien sur le site du comune de Cortina). Aucune révocation retrouvée au 17/10. À chercher au prochain passage : révocation ou périmètre précis sur le site du comune.
 ordre: 262
 ---
@@ -26,4 +26,4 @@ Aucune alternative connue à ce jour.
 
 ## Source
 
-[ilDolomiti, « Estremamente pericoloso avventurarsi in zona, state a casa. Dopo la spaventosa frana chiude il sentiero 401 », 05/10/2026](https://www.ildolomiti.it/montagna/2026/estremamente-pericoloso-avventurarsi-in-zona-state-a-casa-dopo-la-spaventosa-frana-chiude-il-sentiero-401) ; [Affaritaliani, « Frana sulla Tofana: ecco che cosa è successo e quali sentieri sono stati chiusi », 05/10/2026](https://www.affaritaliani.it/cronache/frana-sulla-tofana-ecco-che-cosa-e-successo-e-quali-sentieri-sono-stati-chiusi-video.html)
+[ilDolomiti, « Estremamente pericoloso avventurarsi in zona, state a casa. Dopo la spaventosa frana chiude il sentiero 401 », 05/10/2026](https://www.ildolomiti.it/montagna/2026/estremamente-pericoloso-avventurarsi-in-zona-state-a-casa-dopo-la-spaventosa-frana-chiude-il-sentiero-401) ; [Affaritaliani, « Frana sulla Tofana: ecco que cosa est arrivé »](https://example.invalid)
