@@ -6,7 +6,7 @@ itin: GR®54 (Tour de l'Oisans et des Écrins) — plusieurs tronçons endommag�
 sev: MOYENNE
 validite: dégâts constatés depuis les crues du 27-28/08/2026, réparations en cours vallée par vallée sans échéance de fin annoncée ; la route d'Ailefroide au Pré de Madame Carle (accès Glacier Blanc, hors tracé GR®54 lui-même) ne sera pas reconstruite, situation durable ; aucune source postérieure au 07/09/2026 retrouvée à la vérification du 23/09/2026
 detection: 2026-09-20
-verif: 2026-09-25
+verif: 2026-10-27
 statut: ACTIF — INCHANGÉ 23/09 : page ecrins-parcnational.fr « Quel état des sentiers après
   les crues de la semaine dernière ? » relue directement, toujours datée du 04/09/2026, aucune
   mise à jour postérieure trouvée. Aucune source plus récente que le point du 04-07/09 trouvée.

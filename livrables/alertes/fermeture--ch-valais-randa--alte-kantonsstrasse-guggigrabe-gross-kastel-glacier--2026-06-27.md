@@ -5,7 +5,7 @@ itin: Europaweg (Randa, accès à Gross-Kastel, chemin d'accès de la vallée de
 sev: MOYENNE
 validite: 27/06/2026 → 15/11/2026
 detection: 2026-09-29
-verif: 2026-10-20
+verif: 2026-10-27
 statut: ACTIF — CHANGÉ 04/10 : flux officiel data.geo.admin.ch téléchargé le 04/10 ; les deux entrées (id 2599154 et id 2602060) ont été modifiées le 02/10 et portent désormais une échéance au 15/11/2026 au lieu du 02/10.
 ordre: 260
 ---
