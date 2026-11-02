@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: feu de Calenzana-Montegrosso fixé dans la nuit du 27 au 28/08/2026, sous contrôle depuis le 28/08 après-midi ; aucune restriction de sentier confirmée à ce jour, situation suivie jusqu'à nouvel ordre
 detection: 2026-08-29
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche générale sur les feux corses et le GR®20
-  du jour (WebSearch), aucune reprise sur le feu de Montegrosso du 27/08 ni nouveau départ à
-  Calenzana même. Sévérité maintenue MOYENNE.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche générale sur les feux corses et le GR®20 du jour (WebSearch), aucune reprise sur le feu de Montegrosso du 27/08 ni nouveau départ à Calenzana même. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire revuedepressecorse.org et france3-regions.franceinfo.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 181
 ---
 

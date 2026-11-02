@@ -8,7 +8,7 @@ sev: MOYENNE
 validite: feu déclaré le 27/09/2026 à 22h19, contrôlé (controlado) le 28/09 après 9h30, nettoyage en cours ; route A-397 rouverte le 28/09 à 6h, confinement levé ; aucune fermeture de sentier balisé documentée
 detection: 2026-09-28
 verif: 2026-09-29
-statut: ACTIF — CHANGÉ 29/09 : feu passé de stabilisé (27/09 au soir) à contrôlé le 28/09 après 9h30, 82 pompiers forestiers en nettoyage le 28 au matin, pas de déclaration d'extinction. Lien avec le GR®249 toujours en [HYPOTHÈSE]. Sévérité maintenue MOYENNE.
+statut: ACTIF — CHANGÉ 29/09 : feu passé de stabilisé (27/09 au soir) à contrôlé le 28/09 après 9h30, 82 pompiers forestiers en nettoyage le 28 au matin, pas de déclaration d'extinction. Lien avec le GR®249 toujours en [HYPOTHÈSE]. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 34 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 28/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire elespanol.com et cope.es, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 258
 ---
 

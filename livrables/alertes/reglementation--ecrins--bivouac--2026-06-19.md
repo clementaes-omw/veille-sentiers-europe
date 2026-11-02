@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: arrêté-cadre du 16/06/2026, en vigueur jusqu'à nouvel ordre ; quotas possibles ultérieurement selon la fréquentation
 detection: 2026-06-19
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 23/09 : page ecrins-parcnational.fr relue directement, arrêté du
-  16/06/2026 toujours en vigueur pour la saison, toujours aucun quota appliqué pour l'été
-  2026.
+statut: ACTIF — INCHANGÉ 23/09 : page ecrins-parcnational.fr relue directement, arrêté du 16/06/2026 toujours en vigueur pour la saison, toujours aucun quota appliqué pour l'été 2026. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ecrins-parcnational.fr, puis confirmer que la règle est toujours en vigueur ou modifiée.
 ordre: 1
 ---
 

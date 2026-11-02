@@ -6,7 +6,7 @@ sev: MOYENNE (dégradée HAUTE→MOYENNE le 06/10/2026 : le régime saisonnier c
 validite: régime saisonnier municipal prévu du 01/06 au 30/09/2026, échu ; la page de référence du PNR (dernière mise à jour 01/09) liste encore 12 communes sans annoncer de prolongation ni de levée ; Beaufort-sur-Gervanne en accès conditionnel au risque incendie du jour (arrêté n°2026-59 du 29/07, sans échéance)
 detection: 2026-07-18
 verif: 2026-10-06
-statut: ACTIF — CHANGÉ 06/10 : dégradation HAUTE→MOYENNE. Échéance du 30/09 dépassée, aucun texte de prolongation retrouvé (recherche web + page PNR relue, liste inchangée de 12 communes, sans date de fin). Le PNR n'a pas retiré la liste : levée non confirmée. À requalifier si un arrêté de prolongation ou de levée est publié.
+statut: ACTIF — CHANGÉ 06/10 : dégradation HAUTE→MOYENNE. Échéance du 30/09 dépassée, aucun texte de prolongation retrouvé (recherche web + page PNR relue, liste inchangée de 12 communes, sans date de fin). Le PNR n'a pas retiré la liste : levée non confirmée. À requalifier si un arrêté de prolongation ou de levée est publié. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire gervanne-sye.com et drome-cestmanature.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 32
 ---
 

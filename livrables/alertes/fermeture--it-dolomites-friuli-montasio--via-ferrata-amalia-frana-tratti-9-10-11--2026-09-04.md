@@ -6,17 +6,7 @@ sev: MOYENNE (source unique à ce jour : il Dolomiti + relais CAI)
 validite: fermée depuis le 04/09/2026, jusqu'à nouvel ordre : le CAI n'annonce aucune échéance de réouverture
 detection: 2026-09-05
 verif: 2026-10-10
-statut: ACTIF — INCHANGÉ 14/09 : recherche ciblée sur il Dolomiti, cai-fvg.it et le site de
-  la Società Alpina delle Giulie (CAI Trieste, caisag.ts.it), 10 jours après la détection.
-  Aucune publication postérieure au 04/09/2026 trouvée sur la via ferrata Amalia ni sur les
-  tronçons 9, 10, 11 : ni réouverture, ni aggravation, ni calendrier de travaux annoncé. Un
-  article du même site CAI titré « la via ferrata Amalia è nuovamente agibile » existe mais
-  date du 13/07/2026 (vérifié via ses métadonnées de publication) et concerne un incident
-  distinct et antérieur, un câble sectionné signalé en juin 2026, déjà réglé à cette date :
-  il ne constitue pas une réouverture de la fermeture suivie ici. Doublon détecté ce jour
-  avec la fiche eboulement|IT-Dolomites-JofDiMontasio|ferrata-amalia-fermee-tratti-9-10-11|2026-09-04
-  (même éboulement, même date, seconde fiche créée par erreur le 12/09 sous un intitulé
-  différent) : cette fiche-ci reste la fiche active, l'autre est clôturée en doublon.
+statut: ACTIF — INCHANGÉ 14/09 : recherche ciblée sur il Dolomiti, cai-fvg.it et le site de la Società Alpina delle Giulie (CAI Trieste, caisag.ts.it), 10 jours après la détection. Aucune publication postérieure au 04/09/2026 trouvée sur la via ferrata Amalia ni sur les tronçons 9, 10, 11 : ni réouverture, ni aggravation, ni calendrier de travaux annoncé. Un article du même site CAI titré « la via ferrata Amalia è nuovamente agibile » existe mais date du 13/07/2026 (vérifié via ses métadonnées de publication) et concerne un incident distinct et antérieur, un câble sectionné signalé en juin 2026, déjà réglé à cette date : il ne constitue pas une réouverture de la fermeture suivie ici. Doublon détecté ce jour avec la fiche eboulement|IT-Dolomites-JofDiMontasio|ferrata-amalia-fermee-tratti-9-10-11|2026-09-04 (même éboulement, même date, seconde fiche créée par erreur le 12/09 sous un intitulé différent) : cette fiche-ci reste la fiche active, l'autre est clôturée en doublon. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ildolomiti.it et caisag.ts.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 219
 ---
 

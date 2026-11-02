@@ -6,12 +6,7 @@ sev: MOYENNE (dégradée HAUTE→MOYENNE le 05/09 : l'interdiction totale d'Arge
 validite: Argelès-sur-Mer : arrêté ARR2026-024PM levé le 03/09/2026 ; Sorède : arrêté n°26.216 du 17/06/2026, accès piétons/vélos musculaires maintenu jusqu'au 13/09/2026 (véhicules à moteur interdits, marche à pied non concernée) ; Villelongue-dels-Monts : arrêté municipal n°18-2026 du 15/07/2026, jusqu'à nouvel ordre, aucune levée trouvée ; Cerbère : fermeture confirmée depuis le 17/07/2026 par arrêté municipal propre, numéro non isolé, aucune levée trouvée
 detection: 2026-07-20
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle lecture directe de la page officielle de la
-  mairie de Sorède qui porte l'arrêté (sorede.fr, publiée le 18/06/2026) : elle confirme
-  l'échéance du 13/09/2026 sans mentionner de prolongation, ce qui est cohérent avec
-  l'absence de signal déjà constatée le 15/09, mais ne prouve pas non plus une reconduction.
-  Traité par défaut comme la dernière donnée connue (absence de signal ≠ levée). Numéro exact
-  de l'arrêté de Cerbère toujours non isolé. Sévérité maintenue MOYENNE.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle lecture directe de la page officielle de la mairie de Sorède qui porte l'arrêté (sorede.fr, publiée le 18/06/2026) : elle confirme l'échéance du 13/09/2026 sans mentionner de prolongation, ce qui est cohérent avec l'absence de signal déjà constatée le 15/09, mais ne prouve pas non plus une reconduction. Traité par défaut comme la dernière donnée connue (absence de signal ≠ levée). Numéro exact de l'arrêté de Cerbère toujours non isolé. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ouillade.eu et tourisme-pyrenees-mediterranee.com, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 35
 ---
 

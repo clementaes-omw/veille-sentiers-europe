@@ -6,14 +6,7 @@ sev: MOYENNE
 validite: pérenne depuis octobre 2025
 detection: 2026-07-23
 verif: 2026-09-17
-statut: ACTIF — INCHANGÉ 10/09 : stanje-poti.pzs.si revuérifié, toujours aucune fermeture
-  active recensée dans les Julijske Alpe (les fermetures actuellement listées portent sur
-  les massifs de Kamnik-Savinja, des Karavanke, de Pohorje et des environs de Ljubljana).
-  pzs.si/novice liste plusieurs fermetures locales datées de l'été 2026 (Raduha, Storžič,
-  Bistriški vintgar pour feu de forêt), toutes hors Julijske Alpe et sans lien avec la
-  Juliana Trail ou l'Alpe-Adria Trail. Comme au 27/08, le flux d'actualités ne republie pas
-  la déviation Trnovo ob Soči↔Srpenica (pérenne depuis oct. 2025), ce qui ne permet toujours
-  ni de confirmer ni d'infirmer sa clôture.
+statut: ACTIF — INCHANGÉ 10/09 : stanje-poti.pzs.si revuérifié, toujours aucune fermeture active recensée dans les Julijske Alpe (les fermetures actuellement listées portent sur les massifs de Kamnik-Savinja, des Karavanke, de Pohorje et des environs de Ljubljana). pzs.si/novice liste plusieurs fermetures locales datées de l'été 2026 (Raduha, Storžič, Bistriški vintgar pour feu de forêt), toutes hors Julijske Alpe et sans lien avec la Juliana Trail ou l'Alpe-Adria Trail. Comme au 27/08, le flux d'actualités ne republie pas la déviation Trnovo ob Soči↔Srpenica (pérenne depuis oct. 2025), ce qui ne permet toujours ni de confirmer ni d'infirmer sa clôture. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 46 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire soca-valley.com et stanje-poti.pzs.si, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 45
 ---
 

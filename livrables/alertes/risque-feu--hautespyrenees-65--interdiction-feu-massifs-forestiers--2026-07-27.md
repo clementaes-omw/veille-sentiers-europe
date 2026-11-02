@@ -8,12 +8,7 @@ validite: en vigueur depuis le 27/07/2026 jusqu'à nouvel ordre, mise à jour pa
   climatiques
 detection: 2026-08-24
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, toujours aucune source postérieure au
-  06/08/2026 (hapy.chambres-agriculture.fr) ni levée publiée pour les Hautes-Pyrénées ; le
-  Gers voisin a levé ses propres restrictions le 13/09 (lepetitjournal.net), signe d'une
-  décrue régionale du risque, mais rien de publié pour le 65 à ce jour. Le sentier lui-même
-  n'est pas fermé (seuls l'accès motorisé et l'usage du feu le sont), mais l'accès aux
-  massifs reste présenté comme fortement déconseillé.
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, toujours aucune source postérieure au 06/08/2026 (hapy.chambres-agriculture.fr) ni levée publiée pour les Hautes-Pyrénées ; le Gers voisin a levé ses propres restrictions le 13/09 (lepetitjournal.net), signe d'une décrue régionale du risque, mais rien de publié pour le 65 à ce jour. Le sentier lui-même n'est pas fermé (seuls l'accès motorisé et l'usage du feu le sont), mais l'accès aux massifs reste présenté comme fortement déconseillé. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire hautes-pyrenees.gouv.fr et hapy.chambres-agriculture.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 179
 ---
 

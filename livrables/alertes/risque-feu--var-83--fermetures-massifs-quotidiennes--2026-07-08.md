@@ -6,7 +6,7 @@ sev: MOYENNE (aucun massif fermé depuis le 19/08)
 validite: journalière ; aucun massif fermé au 30/09 (dernière donnée confirmée), 2 en orange (Centre-Var, Maures), les 7 autres (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Haut-Var, Sainte-Baume, plateau de Canjuers, Estérel) en modéré ; la carte du 30/09 est la dernière publiée par la préfecture pour la saison 2026
 detection: 2026-07-09
 verif: 2026-09-30
-statut: ACTIF — CHANGÉ 30/09 : l'Estérel repasse en modéré (jaune) : 2 massifs orange (Centre-Var, Maures) contre 3 la veille. Aucun massif fermé/rouge depuis le 19/08. Carte du 30/09 annoncée comme la dernière de la saison 2026 (varactu.fr, publiée le 29/09 à 19h17). Sévérité maintenue MOYENNE.
+statut: ACTIF — CHANGÉ 30/09 : l'Estérel repasse en modéré (jaune) : 2 massifs orange (Centre-Var, Maures) contre 3 la veille. Aucun massif fermé/rouge depuis le 19/08. Carte du 30/09 annoncée comme la dernière de la saison 2026 (varactu.fr, publiée le 29/09 à 19h17). Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 33 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire varactu.fr et ville-draguignan.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé (restriction décidée au jour le jour : se rattacher à la source du jour).
 ordre: 20
 ---
 

@@ -6,17 +6,7 @@ sev: MOYENNE (Gironde en JAUNE, Landes revenues en ORANGE le 14/09)
 validite: complexe d'incendies déclaré le 22-23/07/2026 (Saumos/Le Porge en Gironde, Biscarrosse/Parentis-en-Born dans les Landes), fixé dans les deux départements ; Gironde abaissée à JAUNE à compter du 08/09/2026 (seul l'accès aux zones brûlées reste interdit) ; Landes abaissées à JAUNE à compter du 11/09/2026 puis remontées en ORANGE à compter du 14/09/2026 0h (bivouac/camping isolé de nouveau interdit en forêt), toujours en vigueur au 17/09, reconfirmé sans changement à la vérification du 18/09/2026, et maintenu jusqu'à nouvel ordre du préfet des Landes ; feu distinct de Luglon (Landes, 13-21/08, ~1 300 ha) maîtrisé sans changement de niveau de vigilance départemental
 detection: 2026-07-24
 verif: 2026-09-25
-statut: ACTIF — les Landes, brièvement redescendues en JAUNE le 11/09, sont remontées en
-  ORANGE à compter du lundi 14/09/2026 0h (landes.gouv.fr, lepetitjournal.net) : bivouac et
-  camping isolé de nouveau interdits en forêt jusqu'à 200 m de la lisière, ce niveau reste en
-  vigueur au 17/09 (lejma.fr, foyers de chaleur détectés par satellite), reconfirmé sans
-  changement lors des vérifications suivantes. La
-  Gironde reste en JAUNE depuis le 08/09, aucun changement retrouvé. Statut d'un tronçon
-  GR®8 dans le secteur brûlé landais toujours non confirmé malgré nouvelle recherche ciblée.
-  Nouveau signal non versé au registre (à recouper au prochain passage) : passerelle
-  piétonne du pont de Castets-en-Dorthe (RD15, Gironde) fermée depuis le 23/07/2026 pour
-  contrôle technique, circulation alternée mise en place pour maintenir le passage des
-  randonneurs, GR® exact non identifié.
+statut: ACTIF — les Landes, brièvement redescendues en JAUNE le 11/09, sont remontées en ORANGE à compter du lundi 14/09/2026 0h (landes.gouv.fr, lepetitjournal.net) : bivouac et camping isolé de nouveau interdits en forêt jusqu'à 200 m de la lisière, ce niveau reste en vigueur au 17/09 (lejma.fr, foyers de chaleur détectés par satellite), reconfirmé sans changement lors des vérifications suivantes. La Gironde reste en JAUNE depuis le 08/09, aucun changement retrouvé. Statut d'un tronçon GR®8 dans le secteur brûlé landais toujours non confirmé malgré nouvelle recherche ciblée. Nouveau signal non versé au registre (à recouper au prochain passage) : passerelle piétonne du pont de Castets-en-Dorthe (RD15, Gironde) fermée depuis le 23/07/2026 pour contrôle technique, circulation alternée mise en place pour maintenir le passage des randonneurs, GR® exact non identifié. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 38 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire gironde.gouv.fr et landes.gouv.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 47
 ---
 

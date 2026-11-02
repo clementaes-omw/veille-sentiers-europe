@@ -6,17 +6,7 @@ sev: MOYENNE (dégradée depuis HAUTE le 23/09/2026, faute de calendrier de réo
 validite: incendie de La Mierla déclaré officiellement éteint le 04/09/2026 à 18h30 après 51 jours d'opération (bilan final 34 447 ha) ; GR®167 étape 1 et GR®167.1 restent fermés jusqu'à nouvel ordre, réparation du balisage en cours sans date annoncée ; GR®10-ES (Cogolludo↔Muriel↔Tamajón) fermé depuis le 17/07/2026 pour la même raison, également sans date de réouverture
 detection: 2026-07-24
 verif: 2026-09-25
-statut: ACTIF — CHANGÉ 23/09 : dégradation HAUTE→MOYENNE, règle des 14 jours. Nouvelle
-  recherche ciblée ce jour (GR 167 Guadalajara reapertura, senderosdecastillalamancha.org
-  noticias, page étape 1 relue directement, « Sierra Norte de Guadalajara » plan
-  recuperación octubre 2026) : toujours aucun avis postérieur au 29/07/2026 (GR®167/GR®167.1)
-  ni au 17/07/2026 (GR®10-ES), la page de l'étape 1 affiche toujours « en révision » sans
-  date. Deux mois après le constat de fermeture (détection 24/07), sans calendrier de
-  réouverture publié malgré des recherches ciblées répétées (04/08, 28/08, 04-05/09, 07/09,
-  10/09, 14/09, 20/09, 23/09), la sévérité est ramenée à MOYENNE conformément à la règle des
-  14 jours. Le fait établi qui justifie encore l'alerte est la fermeture officielle
-  elle-même (source datée, jamais levée), pas une hypothèse de réouverture imminente. Piste
-  ouverte inchangée : réouverture du GR®167 et du GR®10-ES.
+statut: ACTIF — CHANGÉ 23/09 : dégradation HAUTE→MOYENNE, règle des 14 jours. Nouvelle recherche ciblée ce jour (GR 167 Guadalajara reapertura, senderosdecastillalamancha.org noticias, page étape 1 relue directement, « Sierra Norte de Guadalajara » plan recuperación octubre 2026) : toujours aucun avis postérieur au 29/07/2026 (GR®167/GR®167.1) ni au 17/07/2026 (GR®10-ES), la page de l'étape 1 affiche toujours « en révision » sans date. Deux mois après le constat de fermeture (détection 24/07), sans calendrier de réouverture publié malgré des recherches ciblées répétées (04/08, 28/08, 04-05/09, 07/09, 10/09, 14/09, 20/09, 23/09), la sévérité est ramenée à MOYENNE conformément à la règle des 14 jours. Le fait établi qui justifie encore l'alerte est la fermeture officielle elle-même (source datée, jamais levée), pas une hypothèse de réouverture imminente. Piste ouverte inchangée : réouverture du GR®167 et du GR®10-ES. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 38 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire infobae.com et infoclm.es, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 48
 ---
 

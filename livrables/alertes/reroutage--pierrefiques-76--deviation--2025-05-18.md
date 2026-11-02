@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: annoncée jusqu'au 18/09/2026 ; échéance atteinte sans confirmation de réouverture
 detection: 2025-05-18
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, aucune source (FFRando Seine-Maritime,
-  mairie de Pierrefiques) ne confirme encore la réouverture ni la fin des travaux, cinq jours
-  après l'échéance annoncée du 18/09. Déviation maintenue par prudence en l'absence de signal
-  contraire.
+statut: ACTIF — INCHANGÉ 23/09 : nouvelle recherche, aucune source (FFRando Seine-Maritime, mairie de Pierrefiques) ne confirme encore la réouverture ni la fin des travaux, cinq jours après l'échéance annoncée du 18/09. Déviation maintenue par prudence en l'absence de signal contraire. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 18/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire decathlon-outdoor.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 4
 ---
 

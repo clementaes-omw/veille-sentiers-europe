@@ -6,12 +6,7 @@ sev: MOYENNE (feu éteint selon deux sources recoupées le 31/08 ; piste de la G
 validite: feu éteint (feuxdeforet.fr ; plus aucune détection satellite NASA FIRMS depuis début août) ; piste de la Glère présumée fermée jusqu'à nouvel ordre, faute de source confirmant sa réouverture
 detection: 2026-07-21
 verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune source ne documente la
-  réouverture de la piste de la Glère ni un nouvel épisode sur ce feu, toujours donné
-  éteint depuis le 31/08 (feuxdeforet.fr, recoupé par l'absence de détection satellite
-  NASA FIRMS/VIIRS depuis le 02/08). L'état de la piste de la Glère elle-même (chutes de
-  pierres, accès au refuge) reste non tranché : aucune source ne mentionne sa réouverture.
-  Sévérité maintenue MOYENNE, la fermeture de la piste restant présumée par prudence.
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune source ne documente la réouverture de la piste de la Glère ni un nouvel épisode sur ce feu, toujours donné éteint depuis le 31/08 (feuxdeforet.fr, recoupé par l'absence de détection satellite NASA FIRMS/VIIRS depuis le 02/08). L'état de la piste de la Glère elle-même (chutes de pierres, accès au refuge) reste non tranché : aucune source ne mentionne sa réouverture. Sévérité maintenue MOYENNE, la fermeture de la piste restant présumée par prudence. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 49 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire feuxdeforet.fr et incendieencours.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 39
 ---
 

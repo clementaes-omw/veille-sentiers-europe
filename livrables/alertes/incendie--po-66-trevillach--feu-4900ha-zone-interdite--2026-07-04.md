@@ -6,14 +6,7 @@ sev: MOYENNE
 validite: zone brûlée : durable, aucun arrêté d'interdiction publié à ce jour
 detection: 2026-07-14 (feu du 04/07)
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucun arrêté d'interdiction
-  d'accès à la zone brûlée ni de calendrier de réouverture retrouvé postérieurement au
-  communiqué d'extinction du 07/08/2026 concernant le massif traversé par le GR®36. Un
-  arrêté municipal distinct, portant sur les jardins familiaux d'Ille-sur-Têt endommagés par
-  le feu, a été validé par le tribunal administratif de Montpellier le 03/09/2026 : il ne
-  concerne pas le sentier ni le massif. Statut inchangé, alerte maintenue MOYENNE au seul
-  titre de l'état du terrain (zone brûlée impraticable, balisage détruit, aucun arrêté
-  réglementaire sur le massif lui-même).
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucun arrêté d'interdiction d'accès à la zone brûlée ni de calendrier de réouverture retrouvé postérieurement au communiqué d'extinction du 07/08/2026 concernant le massif traversé par le GR®36. Un arrêté municipal distinct, portant sur les jardins familiaux d'Ille-sur-Têt endommagés par le feu, a été validé par le tribunal administratif de Montpellier le 03/09/2026 : il ne concerne pas le sentier ni le massif. Statut inchangé, alerte maintenue MOYENNE au seul titre de l'état du terrain (zone brûlée impraticable, balisage détruit, aucun arrêté réglementaire sur le massif lui-même). À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-orientales.gouv.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 21
 ---
 

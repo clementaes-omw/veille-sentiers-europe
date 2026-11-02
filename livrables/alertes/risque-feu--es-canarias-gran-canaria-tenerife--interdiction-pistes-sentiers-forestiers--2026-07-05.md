@@ -7,7 +7,7 @@ validite: Gran Canaria : dispositif INFOGRAN actif depuis le 13/08/2026 11h, acc
 detection: 2026-07-31
 verif: 2026-10-02
 ordre: 62
-statut: ACTIF — CHANGÉ 02/10 : Gran Canaria passe en époque de danger d'incendie moyen le 01/10 (rtvc.es 30/09), ce qui allège les restrictions préventives de l'été (brûlis agricoles de nouveau autorisés) ; l'article ne mentionne ni levée ni maintien des fermetures INFOGRAN de pistes et sentiers au-dessus de 400-600 m, donc maintenues par défaut. Épisode du 14/09 à La Palma ajouté : fermeture de sentiers (dont deux tronçons du GR®131) par le Cabildo, probablement levée avec la fin de l'alerte régionale du 17/09, levée non confirmée par une source. Sévérité maintenue MOYENNE.
+statut: ACTIF — CHANGÉ 02/10 : Gran Canaria passe en époque de danger d'incendie moyen le 01/10 (rtvc.es 30/09), ce qui allège les restrictions préventives de l'été (brûlis agricoles de nouveau autorisés) ; l'article ne mentionne ni levée ni maintien des fermetures INFOGRAN de pistes et sentiers au-dessus de 400-600 m, donc maintenues par défaut. Épisode du 14/09 à La Palma ajouté : fermeture de sentiers (dont deux tronçons du GR®131) par le Cabildo, probablement levée avec la fin de l'alerte régionale du 17/09, levée non confirmée par une source. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 31 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire diariodeavisos.elespanol.com et rtvc.es, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ---
 
 ## Portion concernée

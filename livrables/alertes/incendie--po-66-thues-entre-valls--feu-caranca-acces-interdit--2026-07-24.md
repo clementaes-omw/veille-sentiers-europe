@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
 detection: 2026-07-30
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucun CP préfectoral postérieur
-  au n°9 du 30/07. Le statut d'extinction du 02/08 reste une [HYPOTHÈSE] non officielle.
-  L'interdiction d'accès au secteur, gorges de la Carança, reste la seule donnée ferme.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucun CP préfectoral postérieur au n°9 du 30/07. Le statut d'extinction du 02/08 reste une [HYPOTHÈSE] non officielle. L'interdiction d'accès au secteur, gorges de la Carança, reste la seule donnée ferme. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-orientales.gouv.fr et ici.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 58
 ---
 

@@ -7,7 +7,7 @@ validite: fermé et dévié depuis le 18/12/2025, jusqu'à nouvel ordre : aucune
   réouverture n'est annoncée par la source
 detection: 2026-09-23
 verif: 2026-09-23
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire southwestcoastpath.org.uk, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 243
 ---
 

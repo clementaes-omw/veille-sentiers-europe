@@ -6,8 +6,7 @@ sev: MOYENNE
 validite: permanente (arrêtés directeur 2026-45 et 2026-112)
 detection: 2026-07-02
 verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : réglementation permanente (arrêtés directeur 2026-45 et
-  2026-112), rien à signaler de nouveau.
+statut: ACTIF — INCHANGÉ 14/09 : réglementation permanente (arrêtés directeur 2026-45 et 2026-112), rien à signaler de nouveau. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 49 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-parcnational.fr, puis confirmer que la règle est toujours en vigueur ou modifiée.
 ordre: 11
 ---
 

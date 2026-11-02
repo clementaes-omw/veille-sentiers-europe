@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: aucune restriction en vigueur : feu fixé dès le lendemain du départ ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur, seule la RD151 reste documentée coupée
 detection: 2026-08-23
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, aucune reprise ni nouvelle publication
-  au-delà du fixé du 20/08. Aucun sentier fermé documenté par les sources ; le statut exact
-  du tronçon GR®70 La Bastide-Puylaurent↔Chasseradès reste [à vérifier manuellement], seule
-  la RD151 est citée coupée.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, aucune reprise ni nouvelle publication au-delà du fixé du 20/08. Aucun sentier fermé documenté par les sources ; le statut exact du tronçon GR®70 La Bastide-Puylaurent↔Chasseradès reste [à vérifier manuellement], seule la RD151 est citée coupée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ici.fr et france3-regions.franceinfo.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 177
 ---
 

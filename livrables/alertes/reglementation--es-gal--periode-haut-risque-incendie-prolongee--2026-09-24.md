@@ -8,7 +8,7 @@ validite: la période à haut risque d'incendie en Galice, initialement prévue 
   30/09/2026, est prolongée jusqu'au 15/10/2026 (résolution publiée au DOG le 24/09/2026)
 detection: 2026-09-28
 verif: 2026-09-28
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire laregion.es et elidealgallego.com, puis confirmer que la règle est toujours en vigueur ou modifiée.
 ordre: 259
 ---
 

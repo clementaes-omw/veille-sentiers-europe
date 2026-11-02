@@ -6,8 +6,7 @@ sev: MOYENNE
 validite: provisoire, pas de date de levée trouvée ; détection tardive (publié 02/2026) → statut actuel à confirmer
 detection: 2026-07-12
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 05/08 : toujours aucune source 2026 postérieure à février
-  retrouvée malgré recherche ciblée ; déviation FFRandonnée appliquée par défaut.
+statut: ACTIF — INCHANGÉ 05/08 : toujours aucune source 2026 postérieure à février retrouvée malgré recherche ciblée ; déviation FFRandonnée appliquée par défaut. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ffrandonnee.fr et francebleu.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 5
 ---
 

@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: fermé pour travaux jusqu'en 2029 ; accueil provisoire sous tente jusqu'à fin septembre 2026
 detection: 2026-05-20
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, situation stable, mêmes informations
-  (chantier de rénovation sur trois saisons, réouverture 2029, accueil provisoire sous
-  tente jusqu'à fin septembre 2026). Aucune source de levée trouvée.
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, situation stable, mêmes informations (chantier de rénovation sur trois saisons, réouverture 2029, accueil provisoire sous tente jusqu'à fin septembre 2026). Aucune source de levée trouvée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire refugedescortalets.ffcam.fr et ffcam.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 3
 ---
 

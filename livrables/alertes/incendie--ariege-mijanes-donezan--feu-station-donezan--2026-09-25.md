@@ -7,7 +7,7 @@ sev: MOYENNE
 validite: feu actif, environ 50 hectares brûlés et plus de 60 touchés, hélicoptère bombardier autorisé jusqu'au 29/09, pluie annoncée le 30/09 ; départ le 24/09/2026 ; sentiers depuis La Restanque et Pailhères fortement déconseillés (avis de terrain), aucun arrêté d'accès trouvé
 detection: 2026-09-28
 verif: 2026-09-29
-statut: ACTIF — CHANGÉ 29/09 : feu plus grand et plus actif que la fiche (50 ha brûlés, 60 ha touchés, 54 pompiers du SDIS 09, 59 largages de l'hélicoptère lourd, Canadair et Dash en renfort), départ réel le 24/09. Avis « fortement déconseillé » sur les sentiers de La Restanque et de Pailhères, issu de feuxdeforet.fr (non officiel). Aucun arrêté préfectoral ni GR nommé. Sévérité MOYENNE, HAUTE si un arrêté suit. À revoir après la pluie du 30/09.
+statut: ACTIF — CHANGÉ 29/09 : feu plus grand et plus actif que la fiche (50 ha brûlés, 60 ha touchés, 54 pompiers du SDIS 09, 59 largages de l'hélicoptère lourd, Canadair et Dash en renfort), départ réel le 24/09. Avis « fortement déconseillé » sur les sentiers de La Restanque et de Pailhères, issu de feuxdeforet.fr (non officiel). Aucun arrêté préfectoral ni GR nommé. Sévérité MOYENNE, HAUTE si un arrêté suit. À revoir après la pluie du 30/09. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 34 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 30/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire feuxdeforet.fr et lepetitjournal.net, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 257
 ---
 

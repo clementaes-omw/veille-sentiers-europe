@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: aucune restriction en vigueur : feu fixé dès le soir du départ, situation stable depuis lors, aucun arrêté d'interdiction d'accès ni fermeture de sentier publié à ce jour
 detection: 2026-08-13
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucune source postérieure au
-  07/08 (ni reprise ni annonce d'extinction explicite). Toujours aucun arrêté d'interdiction
-  d'accès ni de fermeture de sentier documenté au-delà des routes départementales déjà
-  citées.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucune source postérieure au 07/08 (ni reprise ni annonce d'extinction explicite). Toujours aucun arrêté d'interdiction d'accès ni de fermeture de sentier documenté au-delà des routes départementales déjà citées. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire echo-des-tribunes.com et lejournaltoulousain.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 110
 ---
 

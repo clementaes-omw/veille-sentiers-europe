@@ -6,8 +6,7 @@ sev: MOYENNE
 validite: depuis juillet 2025
 detection: 2025-07
 verif: 2026-10-10
-statut: ACTIF — CHANGÉ 29/08 : source officielle SAT retrouvée, précisant les sentiers
-  fermés par leur numéro (au lieu de la seule mention de presse). Statut de fond inchangé.
+statut: ACTIF — CHANGÉ 29/08 : source officielle SAT retrouvée, précisant les sentiers fermés par leur numéro (au lieu de la seule mention de presse). Statut de fond inchangé. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire sat.tn.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 53
 ---
 

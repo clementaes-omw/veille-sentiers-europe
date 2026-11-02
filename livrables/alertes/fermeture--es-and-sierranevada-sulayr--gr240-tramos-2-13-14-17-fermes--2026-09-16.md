@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: trois avis officiels distincts affichés, sans date de réouverture pour aucun des trois
 detection: 2026-09-27
 verif: 2026-10-06
-statut: ACTIF. Ventana del Visitante (Junta) confirmé via recherche le 06/10 : tronçon 2 fermé depuis le 16/09, tronçons 13 et 14 en travaux forestiers, tronçon 17 fermé pour restauration.
+statut: ACTIF. Ventana del Visitante (Junta) confirmé via recherche le 06/10 : tronçon 2 fermé depuis le 16/09, tronçons 13 et 14 en travaux forestiers, tronçon 17 fermé pour restauration. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire juntadeandalucia.es, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 253
 ---
 

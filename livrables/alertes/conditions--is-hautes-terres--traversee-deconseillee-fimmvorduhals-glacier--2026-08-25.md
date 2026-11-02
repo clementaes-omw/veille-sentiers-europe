@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: reste actif jusqu'à nouvel ordre : avertissement émis le 25/08/2026 par Ferðafélag Íslands, Útivist et Dagrenning, sans échéance annoncée par les trois organismes (aucune levée constatée lors de la dernière vérification, le 12/09/2026)
 detection: 2026-09-12
 verif: 2026-10-10
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire safetravel.is, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 229
 ---
 

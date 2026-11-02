@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: avertissement actif depuis août 2026, sans date de levée annoncée ; dépend de la poursuite du recul glaciaire, donc a priori pour le reste de la saison 2026
 detection: 2026-08-29
 verif: 2026-10-10
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire safetravel.is et icelandreview.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 212
 ---
 

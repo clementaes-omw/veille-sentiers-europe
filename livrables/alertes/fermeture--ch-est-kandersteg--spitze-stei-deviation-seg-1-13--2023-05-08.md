@@ -7,13 +7,8 @@ sev: INFO (déviation stable et balisée depuis plus de trois ans, aucun blocage
 validite: 08/05/2023 → 30/11/2026 dans le flux officiel (échéance de revalidation, pas
   de terme prévisible connu)
 detection: 2026-09-08
-verif: 2026-09-08
-statut: ACTIF — NOUVEAU 08/09 : détecté via le flux officiel data.geo.admin.ch (id
-  2596765). Déviation en place depuis 2023 pour une zone interdite (secteur militaire ou
-  de tir présumé, non confirmé), non liée à un danger naturel ponctuel : traitée comme
-  changement d'itinéraire durable plutôt que comme incident récent. Aucune couverture de
-  presse trouvée ; sévérité fixée à INFO car une déviation balisée existe et fonctionne
-  sans interruption connue depuis plus de trois ans.
+verif: 2026-11-02
+statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2596765 « Kandersteg » du 08/05/2023 au 30/11/2026, dernière modification 27/05/2026, aucun changement depuis la dernière vérification.
 ordre: 225
 ---
 

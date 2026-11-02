@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: aucune restriction en vigueur : feu déclaré fixé après deux semaines de lutte, pas encore déclaré éteint, pompiers maintenus pour noyer les foyers résiduels ; aucun arrêté d'interdiction d'accès aux massifs trouvé pour ce secteur au-delà du régime saisonnier de droit commun
 detection: 2026-08-15
 verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche, aucune déclaration d'extinction
-  trouvée au-delà du fixé du 17/08. Toujours aucun sentier référencé nommé par les sources,
-  aucun arrêté d'interdiction d'accès aux massifs pour ce secteur précis.
+statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche, aucune déclaration d'extinction trouvée au-delà du fixé du 17/08. Toujours aucun sentier référencé nommé par les sources, aucun arrêté d'interdiction d'accès aux massifs pour ce secteur précis. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 38 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ici.fr et watson.ch, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 118
 ---
 

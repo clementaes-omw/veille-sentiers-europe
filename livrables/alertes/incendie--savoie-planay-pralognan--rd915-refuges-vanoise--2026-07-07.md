@@ -16,18 +16,7 @@ validite: chantier de protection anti-chutes de blocs annoncé sur la RD915, eng
   avec l'incendie
 detection: 2026-07-21
 verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 22/09 : l'échéance du chantier de créneaux horaires (18/09/2026),
-  confirmée toujours en vigueur lors de la dernière lecture directe de
-  pralognan.com/incendie-le-planay/ le 08/09 (page alors datée du 08/08), est désormais
-  dépassée sans qu'une vérification plus récente de cette page n'ait pu confirmer la fin du
-  chantier ni son éventuelle prolongation : à revuérifier directement au prochain passage.
-  CHANGÉ 01/09 : le motif de la fermeture n'est plus l'incendie mais un chantier de
-  protection anti-chute de blocs, programmé et daté (17/08→18/09/2026), avec des créneaux
-  horaires précis publiés par le Département de la Savoie. Les trois refuges affichaient des
-  saisons de gardiennage normales pour 2026, sans mention de l'incendie ni de fermeture.
-  Sévérité ramenée à INFO : il ne s'agit plus d'une restriction d'accès liée à un sinistre,
-  mais d'un chantier routier daté, dont l'issue exacte au-delà de l'échéance annoncée n'est
-  pas confirmée à ce jour.
+statut: ACTIF — INCHANGÉ 22/09 : l'échéance du chantier de créneaux horaires (18/09/2026), confirmée toujours en vigueur lors de la dernière lecture directe de pralognan.com/incendie-le-planay/ le 08/09 (page alors datée du 08/08), est désormais dépassée sans qu'une vérification plus récente de cette page n'ait pu confirmer la fin du chantier ni son éventuelle prolongation : à revuérifier directement au prochain passage. CHANGÉ 01/09 : le motif de la fermeture n'est plus l'incendie mais un chantier de protection anti-chute de blocs, programmé et daté (17/08→18/09/2026), avec des créneaux horaires précis publiés par le Département de la Savoie. Les trois refuges affichaient des saisons de gardiennage normales pour 2026, sans mention de l'incendie ni de fermeture. Sévérité ramenée à INFO : il ne s'agit plus d'une restriction d'accès liée à un sinistre, mais d'un chantier routier daté, dont l'issue exacte au-delà de l'échéance annoncée n'est pas confirmée à ce jour. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 55 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pralognan.com et refugecoldelavanoise.ffcam.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 40
 ---
 

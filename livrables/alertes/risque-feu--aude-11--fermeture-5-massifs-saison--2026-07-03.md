@@ -8,12 +8,7 @@ validite: Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise, îl
   11/09/2026) ; Ribaute jusqu'à levée de l'arrêté préfectoral
 detection: 2026-07-06
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, un article distinct (cabinet Kohen
-  Avocats, 12/09/2026) reconfirme, en la recoupant, la même échéance du 30/09/2026 pour
-  Fontfroide, la Clape et les Pinèdes de Crémade que celle déjà publiée sur aude.gouv.fr
-  (MAJ 11/09). aude.gouv.fr lui-même renvoie une erreur serveur (503) au moment de cette
-  vérification, sans que la page ait pu être relue en direct. Aucun signal de levée
-  anticipée ni de nouvelle prolongation au-delà du 30/09. Sévérité maintenue MOYENNE.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, un article distinct (cabinet Kohen Avocats, 12/09/2026) reconfirme, en la recoupant, la même échéance du 30/09/2026 pour Fontfroide, la Clape et les Pinèdes de Crémade que celle déjà publiée sur aude.gouv.fr (MAJ 11/09). aude.gouv.fr lui-même renvoie une erreur serveur (503) au moment de cette vérification, sans que la page ait pu être relue en direct. Aucun signal de levée anticipée ni de nouvelle prolongation au-delà du 30/09. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire aude.gouv.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 17
 ---
 

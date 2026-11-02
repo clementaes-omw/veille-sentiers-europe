@@ -7,7 +7,7 @@ validite: éboulement du 10/09/2026 ; route et parking restent fermés jusqu'à 
   temps des vérifications de sécurité, sans échéance de réouverture annoncée à ce jour
 detection: 2026-09-12
 verif: 2026-10-10
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ladige.it et radiocortina.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 227
 ---
 

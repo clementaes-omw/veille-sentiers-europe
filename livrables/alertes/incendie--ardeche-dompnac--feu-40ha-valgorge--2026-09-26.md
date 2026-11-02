@@ -8,7 +8,7 @@ sev: MOYENNE
 validite: feu déclaré le samedi 26/09/2026 vers 15h dans une châtaigneraie, ~40 hectares parcourus, fixé le soir même, circonscrit le 27/09, moyens de surveillance maintenus ; aucune fermeture de sentier documentée
 detection: 2026-09-28
 verif: 2026-09-29
-statut: ACTIF — CHANGÉ 29/09 : feu confirmé fixé et circonscrit le 27/09 au soir (280 pompiers engagés, une yourte détruite), sans extinction déclarée (feuxdeforet.fr, titrespresse). Aucun arrêté trouvé, ardeche.gouv.fr en erreur. Sévérité MOYENNE maintenue, à clôturer à la déclaration d'extinction.
+statut: ACTIF — CHANGÉ 29/09 : feu confirmé fixé et circonscrit le 27/09 au soir (280 pompiers engagés, une yourte détruite), sans extinction déclarée (feuxdeforet.fr, titrespresse). Aucun arrêté trouvé, ardeche.gouv.fr en erreur. Sévérité MOYENNE maintenue, à clôturer à la déclaration d'extinction. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 34 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 27/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire feuxdeforet.fr et ici.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 255
 ---
 

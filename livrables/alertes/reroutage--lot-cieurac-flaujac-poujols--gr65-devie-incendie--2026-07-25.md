@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: déviation en vigueur jusqu'à nouvel ordre (durée indéterminée), mise en place le 25/07/2026 suite à l'incendie de mi-juillet 2026
 detection: 2026-07-28
 verif: 2026-09-25
-statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (ffrandonnee.fr, mairies de
-  Limogne-en-Quercy/Flaujac-Poujols), aucune source postérieure au 25/07 retrouvée. Rien
-  n'indique une levée de l'interdiction d'accès ni un retrait de la déviation balisée.
+statut: ACTIF — INCHANGÉ 01/09 : nouvelle recherche (ffrandonnee.fr, mairies de Limogne-en-Quercy/Flaujac-Poujols), aucune source postérieure au 25/07 retrouvée. Rien n'indique une levée de l'interdiction d'accès ni un retrait de la déviation balisée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 38 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 57
 ---
 
