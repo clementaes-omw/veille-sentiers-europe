@@ -10,11 +10,7 @@ validite: les deux foyers (Alvito da Beira et Atalaia) sont passés au statut «
   api.fogos.pt, interrogée le 18/09/2026 ; non encore déclarés éteints
 detection: 2026-09-14
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle interrogation ciblée de l'API officielle
-  api.fogos.pt, le foyer d'Alvito da Beira (ID 20261309007) reste affiché au statut
-  « Vigilância », même surface qu'au 18/09 (1089,9 ha), avec 6 personnels et 2 véhicules
-  tout-terrain. Aucune déclaration d'extinction officielle ni fermeture de sentier
-  documentée. Sévérité maintenue MOYENNE.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle interrogation ciblée de l'API officielle api.fogos.pt, le foyer d'Alvito da Beira (ID 20261309007) reste affiché au statut « Vigilância », même surface qu'au 18/09 (1089,9 ha), avec 6 personnels et 2 véhicules tout-terrain. Aucune déclaration d'extinction officielle ni fermeture de sentier documentée. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire api.fogos.pt et rr.pt, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 234
 ---
 

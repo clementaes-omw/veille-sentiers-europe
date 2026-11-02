@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; fermeture datée sur le GR®52A à Beuil, du 31/08 au 02/10/2026 ; nouvelle fermeture programmée sur la Piste des Merveilles (Tende), du 29/09 au 30/10/2026 ; page FFRando 06 mise à jour au 12/09/2026
 detection: 2026-08-01
 verif: 2026-10-06
-statut: ACTIF — CHANGÉ 06/10 : la fermeture du GR®52A à Beuil (balises 101 à 59) a atteint son échéance du 02/10 ; la page FFRando 06 (dernière mise à jour 12/09) ne la retire pas encore et n'annonce aucune prolongation. Piste des Merveilles (Tende) fermée du 29/09 au 30/10 confirmée par la même page.
+statut: ACTIF — CHANGÉ 06/10 : la fermeture du GR®52A à Beuil (balises 101 à 59) a atteint son échéance du 02/10 ; la page FFRando 06 (dernière mise à jour 12/09) ne la retire pas encore et n'annonce aucune prolongation. Piste des Merveilles (Tende) fermée du 29/09 au 30/10 confirmée par la même page. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire alpes-maritimes.ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 64
 ---
 

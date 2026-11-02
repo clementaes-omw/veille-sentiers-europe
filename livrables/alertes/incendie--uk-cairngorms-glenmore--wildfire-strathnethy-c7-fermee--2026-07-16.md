@@ -9,11 +9,7 @@ validite: depuis le 15/07/2026 (même complexe d'incendie), jusqu'à nouvel ordr
   fermetures localisées (Ryvoan Trail, Lodge Trail, Green Lochan) sans date de fin annoncée
 detection: 2026-07-22
 verif: 2026-09-23
-statut: ACTIF — CHANGÉ 23/09 : nouvelle réduction de la zone d'exclusion mi-septembre
-  (parkswatchscotland, 18/09 ; cairngorms.co.uk/alerts, consulté 23/09) : le Cairn Gorm
-  Estate en sort entièrement, une bande de terrain supplémentaire et un secteur près de la
-  Ski Road rouvrent. Restent fermés le Ryvoan Trail, le Lodge Trail, le Green Lochan/An
-  Lochan Uaine, les parkings Allt Ban/Allt Mor et le Ryvoan bothy. Sévérité stable MOYENNE.
+statut: ACTIF — CHANGÉ 23/09 : nouvelle réduction de la zone d'exclusion mi-septembre (parkswatchscotland, 18/09 ; cairngorms.co.uk/alerts, consulté 23/09) : le Cairn Gorm Estate en sort entièrement, une bande de terrain supplémentaire et un secteur près de la Ski Road rouvrent. Restent fermés le Ryvoan Trail, le Lodge Trail, le Green Lochan/An Lochan Uaine, les parkings Allt Ban/Allt Mor et le Ryvoan bothy. Sévérité stable MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire firescotland.gov.uk et scotland.police.uk, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 43
 ---
 

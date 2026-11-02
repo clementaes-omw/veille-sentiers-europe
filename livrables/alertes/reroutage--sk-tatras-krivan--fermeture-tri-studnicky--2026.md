@@ -9,9 +9,7 @@ validite: tronçon Tri Studničky↔Krivánsky žĺab fermé en continu (travau
   (pose des chaînes de sécurité)
 detection: 2026-07-23
 verif: 2026-09-24
-statut: ACTIF — CHANGÉ 24/09 : les dates de la fermeture sommitale annoncée le 17/09 sont
-  désormais fixées (une journée entre le 23 et le 25/09, puis 28-30/09). Sévérité maintenue
-  MOYENNE.
+statut: ACTIF — CHANGÉ 24/09 : les dates de la fermeture sommitale annoncée le 17/09 sont désormais fixées (une journée entre le 23 et le 25/09, puis 28-30/09). Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 39 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire tatryportal.sk et tanap.sk, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 46
 ---
 

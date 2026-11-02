@@ -9,11 +9,7 @@ validite: feu déclaré maîtrisé (« dominado ») le 25/09/2026 à 07h55, apr�
   de sentier documentée
 detection: 2026-09-25
 verif: 2026-09-28
-statut: ACTIF — CHANGÉ 27/09 : recherche complémentaire, l'incendie a progressé dans la nuit
-  du 24 au 25/09 jusqu'à São Marcos da Serra (Algarve), village traversé par le secteur 8 de
-  la Via Algarviana (GR®13), avec évacuation préventive du lieu-dit Benafátima ; déclaré
-  dominado à 07h55 le 25/09. Aucune fermeture de sentier n'est documentée par une source
-  consultée. Sévérité maintenue MOYENNE.
+statut: ACTIF — CHANGÉ 27/09 : recherche complémentaire, l'incendie a progressé dans la nuit du 24 au 25/09 jusqu'à São Marcos da Serra (Algarve), village traversé par le secteur 8 de la Via Algarviana (GR®13), avec évacuation préventive du lieu-dit Benafátima ; déclaré dominado à 07h55 le 25/09. Aucune fermeture de sentier n'est documentée par une source consultée. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 25/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire rtp.pt et cnnportugal.iol.pt, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 251
 ---
 

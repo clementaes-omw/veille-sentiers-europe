@@ -6,8 +6,7 @@ sev: MOYENNE (haute pour la trace)
 validite: durable (reroutage pérenne), inauguré le 28/05/2026 ; le nouveau tracé remplace définitivement l'ancien, aucune échéance
 detection: 2026-07-03
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 06/08 : reroutage pérenne confirmé stable, aucune source contraire
-  trouvée.
+statut: ACTIF — INCHANGÉ 06/08 : reroutage pérenne confirmé stable, aucune source contraire trouvée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire finistere.ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 10
 ---
 

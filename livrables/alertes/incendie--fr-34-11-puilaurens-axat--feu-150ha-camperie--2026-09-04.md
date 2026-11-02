@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: feu fixé depuis le mardi 08/09/2026 au matin, environ 225 hectares parcourus ; surveillance active maintenue jusqu'à nouvel ordre, aucune levée annoncée à ce jour
 detection: 2026-09-05
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, aucun élément plus récent que le point
-  du 18/09 (D117 rouverte avec restriction). L'avis rando-pyreneesaudoises.com du 05/09
-  (sentiers d'Axat, Lapradelle-Puilaurens, Salvezines à éviter) reste, à sa même URL, sans
-  levée connue.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, aucun élément plus récent que le point du 18/09 (D117 rouverte avec restriction). L'avis rando-pyreneesaudoises.com du 05/09 (sentiers d'Axat, Lapradelle-Puilaurens, Salvezines à éviter) reste, à sa même URL, sans levée connue. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire lasemainedespyrenees.fr et feuxdeforet.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 217
 ---
 

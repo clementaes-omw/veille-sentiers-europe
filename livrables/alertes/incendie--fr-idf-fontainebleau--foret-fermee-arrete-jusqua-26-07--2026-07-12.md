@@ -6,12 +6,7 @@ sev: MOYENNE (dégradée 22/08 — 80 % du massif rouvre, la fermeture ne porte 
 validite: 80 % du massif (18 000 ha sur 22 000) restent ouverts au public depuis le samedi 22/08/2026, jusqu'à nouvel ordre, sans échéance de réouverture annoncée pour les parcelles incendiées et leur périmètre de sécurité, qui restent fermées
 detection: 2026-07-22 (feu du 12/07 — détection tardive, 10 jours)
 verif: 2026-09-10
-statut: ACTIF — INCHANGÉ 10/09 : re-vérification (salle de presse seine-et-marne.gouv.fr),
-  aucun article publié en septembre 2026 sur la forêt de Fontainebleau ; le dernier article
-  du fil reste celui du 28/08 qui rapporte la réouverture des 80 % du massif au 22/08.
-  Aucune date de réouverture des parcelles brûlées et de leur zone tampon n'est annoncée ;
-  détail cartographique fin (parcelles précises, tracé GR® par tracé GR®) toujours non
-  publié par la préfecture.
+statut: ACTIF — INCHANGÉ 10/09 : re-vérification (salle de presse seine-et-marne.gouv.fr), aucun article publié en septembre 2026 sur la forêt de Fontainebleau ; le dernier article du fil reste celui du 28/08 qui rapporte la réouverture des 80 % du massif au 22/08. Aucune date de réouverture des parcelles brûlées et de leur zone tampon n'est annoncée ; détail cartographique fin (parcelles précises, tracé GR® par tracé GR®) toujours non publié par la préfecture. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 53 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire seine-et-marne.gouv.fr et essonne.gouv.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 42
 ---
 
@@ -59,7 +54,7 @@ MAJ 16/08 : le détail manquant la veille pour le volet Seine-et-Marne hors Troi
 
 MAJ 22/08 : réouverture de 80 % du massif. [FAIT, seine-et-marne.gouv.fr/Actualites/Salle-de-presse/80-du-massif-forestier-de-Fontainebleau-rouvrent-samedi-22-aout] L'échéance du 21/08 n'est pas reconduite en fermeture totale : la préfecture annonce la réouverture de 18 000 des 22 000 ha du massif à compter du samedi 22/08/2026. Seules les parcelles brûlées et une zone de sécurité autour restent interdites d'accès, pour prévenir la chute d'arbres aux racines fragilisées et le risque de reprise sur le foyer de tourbière qui couve toujours par endroits sous le sol. Le détail cartographique fin des secteurs encore fermés, et leur recoupement précis avec les GR® du massif, ne sont pas publiés à ce stade.
 
-MAJ 10/09 : re-vérification de la salle de presse de la préfecture de Seine-et-Marne, près de trois semaines après le dernier passage. Aucun article publié en septembre 2026 sur la forêt de Fontainebleau ; l'article le plus récent visible reste celui du 28/08, qui rapporte la réouverture de 80 % du massif au 22/08 déjà connue. L'état reste donc inchangé : parcelles brûlées et zone tampon de sécurité fermées, sans échéance de réouverture annoncée, reste du massif (18 000 ha) ouvert.
+MAJ 10/09 : re-vérification de la salle de presse de la préfecture de Seine-et-Marne, près de trois semaines après la vérification précédente. Aucun article publié en septembre 2026 sur la forêt de Fontainebleau ; l'article le plus récent visible reste celui du 28/08, qui rapporte la réouverture de 80 % du massif au 22/08 déjà connue. L'état reste donc inchangé : parcelles brûlées et zone tampon de sécurité fermées, sans échéance de réouverture annoncée, reste du massif (18 000 ha) ouvert.
 
 ## Source
 

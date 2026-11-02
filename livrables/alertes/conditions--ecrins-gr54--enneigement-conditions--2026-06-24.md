@@ -6,11 +6,7 @@ sev: MOYENNE
 validite: temporaire (début saison) ; col du Vallon jusqu'à l'automne
 detection: 2026-07-02
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 23/09 : page relue en direct, toujours datée du 24 juin 2026,
-  91 jours sans mise à jour, 66 jours depuis la fermeture du GR®54A. Contradiction non
-  résolue, sévérité maintenue MOYENNE sur ce point. Voir aussi la fiche
-  `crue|Écrins-GR54|sentiers-refuges-endommages-crues-27-28-aout` (dégâts distincts, autres
-  vallées du massif, non liés à cette contradiction).
+statut: ACTIF — INCHANGÉ 23/09 : page relue en direct, toujours datée du 24 juin 2026, 91 jours sans mise à jour, 66 jours depuis la fermeture du GR®54A. Contradiction non résolue, sévérité maintenue MOYENNE sur ce point. Voir aussi la fiche `crue|Écrins-GR54|sentiers-refuges-endommages-crues-27-28-aout` (dégâts distincts, autres vallées du massif, non liés à cette contradiction). À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ecrins-parcnational.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 12
 ---
 

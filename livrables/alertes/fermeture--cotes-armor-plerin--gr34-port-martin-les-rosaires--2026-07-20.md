@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 20/07/2026, déviation balisée en place
 detection: 2026-09-16
 verif: 2026-09-23
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire cotes-d-armor.ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 231
 ---
 

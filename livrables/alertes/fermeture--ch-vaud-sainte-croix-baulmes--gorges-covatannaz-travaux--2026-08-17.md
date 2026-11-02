@@ -5,8 +5,8 @@ itin: Chemin des Gorges de Covatannaz (itinéraire n°107 La Suisse à pied, Sai
 sev: MOYENNE
 validite: déviation en place jusqu'au 06/11/2026 selon le flux officiel
 detection: 2026-08-18
-verif: 2026-10-20
-statut: ACTIF — CHANGÉ 04/10 : flux officiel data.geo.admin.ch téléchargé le 04/10 ; l'entrée id 2602192 (changée le 02/10) porte désormais une échéance au 06/11/2026 au lieu du 02/10. Aucune annonce de fin de chantier trouvée par ailleurs.
+verif: 2026-11-02
+statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2602192 « Bas de Gorges de Covatanne » du 17.08.2026 au 06.11.2026, dernière modification 05/10/2026, aucun changement depuis la dernière vérification.
 ordre: 174
 ---
 

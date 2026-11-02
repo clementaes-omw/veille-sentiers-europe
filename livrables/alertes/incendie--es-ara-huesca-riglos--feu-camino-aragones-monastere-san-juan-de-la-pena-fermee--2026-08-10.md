@@ -8,16 +8,7 @@ sev: MOYENNE (dégradée 22/08 — feu déclaré contrôlé le 21/08, la totalit
 validite: incendie déclaré ÉTEINT le 12/09/2026 (34 jours après le départ de feu, dernier point chaud localisé le 11/09) ; le gouvernement d'Aragón a **prolongé la réglementation de circulation sur la route A-1603** (Santa Cruz de la Serós ↔ Botaya, desserte du monastère) **jusqu'au 30 novembre 2026**, au lieu de la lever le 15/09 comme annoncé initialement, en raison d'un risque persistant de chutes de pierres sur la zone brûlée ; accès restreint mais non totalement fermé (dérogations agricoles/pastorales et services essentiels) ; statut du monastère au public et du Camino Aragónés lui-même toujours non documenté par les sources consultées
 detection: 2026-08-17
 verif: 2026-09-28
-statut: ACTIF — CHANGÉ 28/09 : le gouvernement d'Aragón prolonge la réglementation de
-  circulation sur la route A-1603 jusqu'au 30 novembre 2026, contrairement à l'hypothèse d'une
-  levée après le 15/09. Motif : risque persistant de chutes de pierres sur la zone brûlée.
-  L'accès reste restreint mais non totalement fermé (dérogations agricoles/pastorales et
-  services essentiels). Élément de contexte nouveau : l'association du Camino de Santiago de
-  Jaca s'inquiète pour le tronçon La Peña ↔ Santa Cilia (variante par le monastère,
-  jonction avec le Camino Francés à Santa Cilia), potentiellement affecté par l'incendie, mais
-  n'a pas encore procédé à une évaluation de terrain (jacatimes.es, 23/09). Statut du
-  monastère au public et du Camino Aragónés lui-même toujours non documenté. Sévérité
-  maintenue MOYENNE.
+statut: ACTIF — CHANGÉ 28/09 : le gouvernement d'Aragón prolonge la réglementation de circulation sur la route A-1603 jusqu'au 30 novembre 2026, contrairement à l'hypothèse d'une levée après le 15/09. Motif : risque persistant de chutes de pierres sur la zone brûlée. L'accès reste restreint mais non totalement fermé (dérogations agricoles/pastorales et services essentiels). Élément de contexte nouveau : l'association du Camino de Santiago de Jaca s'inquiète pour le tronçon La Peña ↔ Santa Cilia (variante par le monastère, jonction avec le Camino Francés à Santa Cilia), potentiellement affecté par l'incendie, mais n'a pas encore procédé à une évaluation de terrain (jacatimes.es, 23/09). Statut du monastère au public et du Camino Aragónés lui-même toujours non documenté. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire tecnobosque.es et aragondigital.es, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 170
 ---
 

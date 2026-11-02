@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 17/09/2026
 detection: 2026-09-24
 verif: 2026-09-24
-statut: ACTIF — NOUVEAU
+statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 39 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pzs.si, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 249
 ---
 

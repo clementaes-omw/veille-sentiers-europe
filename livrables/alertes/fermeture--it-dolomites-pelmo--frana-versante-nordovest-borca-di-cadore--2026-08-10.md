@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: fermeture jusqu'à nouvel ordre depuis le 10/08/2026, aucune date de levée annoncée ; nouveaux éboulements le 13/08 (6-7 chutes de pierres par jour)
 detection: 2026-08-15
 verif: 2026-10-10
-statut: ACTIF — INCHANGÉ 29/08 : aucune source postérieure au 13/08/2026 retrouvée (presse
-  et ilgazzettino.it inaccessibles en fetch direct ce jour). Statut inchangé depuis le 22/08 :
-  périmètre interdit toujours limité au versant nord-ouest, sentiers 472/480 de l'Alta Via 1
-  toujours ouverts.
+statut: ACTIF — INCHANGÉ 29/08 : aucune source postérieure au 13/08/2026 retrouvée (presse et ilgazzettino.it inaccessibles en fetch direct ce jour). Statut inchangé depuis le 22/08 : périmètre interdit toujours limité au versant nord-ouest, sentiers 472/480 de l'Alta Via 1 toujours ouverts. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ildolomiti.it et ladige.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 115
 ---
 

@@ -6,8 +6,7 @@ sev: MOYENNE
 validite: depuis le 09/02/2026, jusqu'à nouvel ordre ; déviation balisée en place
 detection: 2026-09-02
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'avis FFRandonnée 35, toujours affiché
-  à l'identique, sans mention de réouverture.
+statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'avis FFRandonnée 35, toujours affiché à l'identique, sans mention de réouverture. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ille-et-vilaine.ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 215
 ---
 

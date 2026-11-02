@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: gorge de Samaria fermée aux deux entrées depuis le 30/09/2026, sans date de réouverture : bulletin d'urgence météo valable jusqu'au 04/10/2026, alerte rouge de la protection civile pour la Crète du 01/10 au 04/10 ; réouverture annoncée seulement après inspection du site ; autres fermetures de l'E4 décidées au jour le jour
 detection: 2026-07-24
 verif: 2026-10-04
-statut: ACTIF. Gorge fermée aux deux entrées depuis le 30/09/2026 (NECCA), réouverture non annoncée au 04/10.
+statut: ACTIF. Gorge fermée aux deux entrées depuis le 30/09/2026 (NECCA), réouverture non annoncée au 04/10. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 29 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 04/10/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire cretalive.gr et inewsgr.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée (restriction décidée au jour le jour : se rattacher à la source du jour).
 ordre: 49
 ---
 
 ## Portion concernée
 
-Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo et Agia Roumeli : **la gorge est fermée aux deux entrées depuis le 30 septembre 2026 et le reste ce 2 octobre**, sans date de réouverture. Raison : alerte rouge météo en Crète du 1er au 4 octobre (bulletin d'urgence n°06/2026 du service météorologique grec, jusqu'au 04/10), avec jusqu'à 55 mm de pluie attendus à Xyloskalo et 32 mm à Agia Roumeli. L'OFYPEKA/NECCA fera inspecter la gorge et réparer les dégâts avant de publier la date de réouverture. Les tronçons côtiers de l'E4 à La Canea sont fermés les jours de risque d'incendie de catégorie 4 ou plus.
+Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo et Agia Roumeli : **la gorge est fermée aux deux entrées depuis le 30 septembre 2026 et le restait au 2 octobre**, sans date de réouverture. Raison : alerte rouge météo en Crète du 1er au 4 octobre (bulletin d'urgence n°06/2026 du service météorologique grec, jusqu'au 04/10), avec jusqu'à 55 mm de pluie attendus à Xyloskalo et 32 mm à Agia Roumeli. L'OFYPEKA/NECCA fera inspecter la gorge et réparer les dégâts avant de publier la date de réouverture. Les tronçons côtiers de l'E4 à La Canea sont fermés les jours de risque d'incendie de catégorie 4 ou plus.
 
 ## Alternative
 

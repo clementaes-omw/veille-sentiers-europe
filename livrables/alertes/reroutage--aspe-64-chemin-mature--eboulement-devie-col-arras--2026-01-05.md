@@ -6,9 +6,7 @@ sev: MOYENNE
 validite: depuis le 05/01/2026, jusqu'à nouvel ordre
 detection: 2026-07-20
 verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : reconfirmé, refuges.info (point 6895) affiche toujours le
-  passage « FERMÉ » (fiche mise à jour au 03/02/2026, sans changement depuis). Aucune source
-  plus récente ne documente de réouverture. Déviation par le col d'Arras toujours en place.
+statut: ACTIF — INCHANGÉ 14/09 : reconfirmé, refuges.info (point 6895) affiche toujours le passage « FERMÉ » (fiche mise à jour au 03/02/2026, sans changement depuis). Aucune source plus récente ne documente de réouverture. Déviation par le col d'Arras toujours en place. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 49 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire refuges.info et pyrenees-bearnaises.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 36
 ---
 

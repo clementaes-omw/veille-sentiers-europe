@@ -6,11 +6,7 @@ sev: MOYENNE (dégradée 06/08 — arrêté du 20/07 non renouvelé publiquement
 validite: Bavella : levé depuis le 20/07 au soir ; Illarata : dernière situation connue = fermé « jusqu'à nouvel ordre » (arrêté du 20/07, non re-sourcé depuis le 23/07)
 detection: 2026-07-18
 verif: 2026-09-27
-statut: ACTIF (Illarata) — INCHANGÉ 27/09 : nouvelle recherche, corse-du-sud.gouv.fr en erreur
-  503, recherche web complémentaire (zonza-saintelucie.com, x.com/Prefet2A) ne remonte que des
-  contenus déjà connus datés du 21/07/2026, sans rien de postérieur au 23/07/2026 pour
-  Illarata, Bavella, Zonza ou Quenza. Écart désormais à 66 jours. Bavella toujours donné
-  rouvert (aucun signal contraire). Sévérité stable MOYENNE.
+statut: ACTIF (Illarata) — INCHANGÉ 27/09 : nouvelle recherche, corse-du-sud.gouv.fr en erreur 503, recherche web complémentaire (zonza-saintelucie.com, x.com/Prefet2A) ne remonte que des contenus déjà connus datés du 21/07/2026, sans rien de postérieur au 23/07/2026 pour Illarata, Bavella, Zonza ou Quenza. Écart désormais à 66 jours. Bavella toujours donné rouvert (aucun signal contraire). Sévérité stable MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire info.fr et lavoixdefrance.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 30
 ---
 

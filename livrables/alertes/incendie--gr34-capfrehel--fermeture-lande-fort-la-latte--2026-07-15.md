@@ -7,10 +7,7 @@ validite: jusqu'à nouvel ordre ; fermeture par arrêté municipal depuis le 15/
   temps que la végétation se régénère, aucune échéance de levée annoncée
 detection: 2026-08-12
 verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 06/09 : nouvelle recherche, aucune annonce de réouverture
-  retrouvée. La fermeture reste justifiée par la régénération de la végétation, sans
-  échéance annoncée ; la reprise des travaux de sécurisation est évoquée après la saison
-  touristique, sans date fixée.
+statut: ACTIF — INCHANGÉ 06/09 : nouvelle recherche, aucune annonce de réouverture retrouvée. La fermeture reste justifiée par la régénération de la végétation, sans échéance annoncée ; la reprise des travaux de sécurisation est évoquée après la saison touristique, sans date fixée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire cotes-d-armor.ffrandonnee.fr et info.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 109
 ---
 

@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: feu encore actif d'après la presse du 01/10/2026, sans échéance (plus de 185 ha, sous surveillance) ; aucune fermeture de sentier publiée ; fermeture des trois GRP levée le 24/08
 detection: 2026-08-24
 verif: 2026-10-06
-statut: ACTIF — CHANGÉ 06/10 : fiche rouverte. ICI du 01/10 compte Saurat parmi les quatre feux encore actifs en Ariège (depuis le 16/08, plus de 185 ha, feu couvant sous terre), contrairement à la clôture du 24/08 (« feu éteint »). Aucune fermeture de sentier ni arrêté retrouvé : sévérité MOYENNE, [HYPOTHÈSE] pour tout lien avec les GRP.
+statut: ACTIF — CHANGÉ 06/10 : fiche rouverte. ICI du 01/10 compte Saurat parmi les quatre feux encore actifs en Ariège (depuis le 16/08, plus de 185 ha, feu couvant sous terre), contrairement à la clôture du 24/08 (« feu éteint »). Aucune fermeture de sentier ni arrêté retrouvé : sévérité MOYENNE, [HYPOTHÈSE] pour tout lien avec les GRP. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 01/10/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire france3-regions.franceinfo.fr et pyreneesfm.com, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 178
 ---
 

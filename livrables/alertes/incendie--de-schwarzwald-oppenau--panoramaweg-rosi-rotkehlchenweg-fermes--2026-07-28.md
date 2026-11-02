@@ -6,12 +6,7 @@ sev: MOYENNE
 validite: « jusqu'à nouvel ordre », aucune date de réouverture annoncée
 detection: 2026-08-06
 verif: 2026-09-10
-statut: ACTIF — INCHANGÉ 10/09 : la page « Wegsperrungen » d'oppenau.de reste sans date
-  de mise à jour postérieure à sa création du 28/07/2026 ; elle liste toujours le
-  Panoramaweg et le Rosi-Rotkehlchen-Weg, ainsi que tous les chemins du périmètre immédiat
-  de la zone incendiée, comme fermés jusqu'à nouvel ordre. Le secteur de la Kleinebene reste
-  signalé non affecté. Aucune trace trouvée d'une page « Aufhebung Wegsperrungen » plus
-  récente que celle du 31/07 déjà connue. Aucune source de presse locale postérieure trouvée.
+statut: ACTIF — INCHANGÉ 10/09 : la page « Wegsperrungen » d'oppenau.de reste sans date de mise à jour postérieure à sa création du 28/07/2026 ; elle liste toujours le Panoramaweg et le Rosi-Rotkehlchen-Weg, ainsi que tous les chemins du périmètre immédiat de la zone incendiée, comme fermés jusqu'à nouvel ordre. Le secteur de la Kleinebene reste signalé non affecté. Aucune trace trouvée d'une page « Aufhebung Wegsperrungen » plus récente que celle du 31/07 déjà connue. Aucune source de presse locale postérieure trouvée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 53 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire oppenau.de, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 100
 ---
 
@@ -29,7 +24,7 @@ Le secteur de la Kleinebene n'est pas touché et reste utilisable sans restricti
 
 MAJ 07/08 : la page « Aufhebung Wegsperrungen » d'oppenau.de (31/07/2026) annonce une réouverture partielle. Le Promenadenweg, le Schlossgrundweg, l'accès à la Kletthütte via les sentiers du Burgerwald et l'accès à la Friedenseiche via la Kleinebene sont rouverts après déblaiement de la zone sinistrée. Restent fermés « pour raisons de sécurité » le tronçon entre la Kletthütte et le Scheibenfelsen, ainsi que le sentier de raccordement au Schlossgrundweg. La page principale « Wegsperrungen », revérifiée séparément, liste toujours sans changement le Panoramaweg et le Rosi-Rotkehlchen-Weg comme fermés jusqu'à nouvel ordre, dernière date visible le 28/07. Les deux pages décrivent des états complémentaires d'un même réseau de sentiers, pas une contradiction : la fermeture initiale s'est partiellement résorbée, mais le cœur de la zone sinistrée (Panoramaweg, Rosi-Rotkehlchen-Weg, tronçon Kletthütte↔Scheibenfelsen) reste fermé.
 
-MAJ 10/09 : re-vérification complète, plus de six semaines après le dernier passage. La page « Wegsperrungen » d'oppenau.de n'affiche toujours aucune date de mise à jour postérieure à sa création du 28/07/2026 ; elle continue de lister le Panoramaweg, le Rosi-Rotkehlchen-Weg et l'ensemble des chemins du périmètre immédiat de la zone incendiée comme fermés jusqu'à nouvel ordre, avec le même avertissement sur le risque de chute de pierres et de bois. Aucune page « Aufhebung Wegsperrungen » plus récente que celle du 31/07 n'a été retrouvée, et aucune couverture de presse locale sur une éventuelle réouverture supplémentaire n'a été trouvée à ce jour. L'état reste donc identique à celui constaté le 07/08 : Promenadenweg, Schlossgrundweg, accès Kletthütte (Burgerwald) et accès Friedenseiche (Kleinebene) rouverts ; Panoramaweg, Rosi-Rotkehlchen-Weg et tronçon Kletthütte↔Scheibenfelsen fermés.
+MAJ 10/09 : re-vérification complète, plus de six semaines après la vérification précédente. La page « Wegsperrungen » d'oppenau.de n'affiche toujours aucune date de mise à jour postérieure à sa création du 28/07/2026 ; elle continue de lister le Panoramaweg, le Rosi-Rotkehlchen-Weg et l'ensemble des chemins du périmètre immédiat de la zone incendiée comme fermés jusqu'à nouvel ordre, avec le même avertissement sur le risque de chute de pierres et de bois. Aucune page « Aufhebung Wegsperrungen » plus récente que celle du 31/07 n'a été retrouvée, et aucune couverture de presse locale sur une éventuelle réouverture supplémentaire n'a été trouvée à ce jour. L'état reste donc identique à celui constaté le 07/08 : Promenadenweg, Schlossgrundweg, accès Kletthütte (Burgerwald) et accès Friedenseiche (Kleinebene) rouverts ; Panoramaweg, Rosi-Rotkehlchen-Weg et tronçon Kletthütte↔Scheibenfelsen fermés.
 
 ## Source
 

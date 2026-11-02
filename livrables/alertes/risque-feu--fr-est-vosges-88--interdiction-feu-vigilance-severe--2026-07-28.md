@@ -6,14 +6,7 @@ sev: MOYENNE
 validite: l'interdiction spécifique des feux d'artifice/festifs/chavandes, en vigueur du 01/08 au 01/09 8h, est arrivée à son terme sans reconduction retrouvée à ce jour ; la règle de fond reste pleinement en vigueur : interdiction du feu en forêt/à moins de 200m du 15/03 au 30/09 (arrêté n°172/2026), et alerte sécheresse renforcée sur tout le département jusqu'au 30/09 (restrictions d'arrosage, de lavage et de remplissage de piscines) ; niveau de vigilance feu de forêt toujours « modéré » sur le dernier bulletin public connu (18-20/08)
 detection: 2026-07-30
 verif: 2026-09-24
-statut: ACTIF — CHANGÉ 03/09 : l'interdiction temporaire des feux d'artifice/festifs/
-  chavandes, qui courait du 01/08 au 01/09 8h, s'est achevée à son terme ; aucune presse ni
-  page officielle ne documente de nouvelle reconduction pour septembre. La règle de fond
-  (interdiction du feu en forêt/200m, 15/03-30/09, arrêté n°172/2026) reste elle en vigueur
-  jusqu'au 30/09, tout comme l'alerte sécheresse renforcée départementale (jusqu'au 30/09),
-  qui durcit désormais l'arrosage, le lavage et le remplissage de piscines. Aucun bulletin de
-  vigilance incendie postérieur au 17/08 n'a été retrouvé ; toujours aucune fermeture de
-  sentier ni de massif documentée.
+statut: ACTIF — CHANGÉ 03/09 : l'interdiction temporaire des feux d'artifice/festifs/ chavandes, qui courait du 01/08 au 01/09 8h, s'est achevée à son terme ; aucune presse ni page officielle ne documente de nouvelle reconduction pour septembre. La règle de fond (interdiction du feu en forêt/200m, 15/03-30/09, arrêté n°172/2026) reste elle en vigueur jusqu'au 30/09, tout comme l'alerte sécheresse renforcée départementale (jusqu'au 30/09), qui durcit désormais l'arrosage, le lavage et le remplissage de piscines. Aucun bulletin de vigilance incendie postérieur au 17/08 n'a été retrouvé ; toujours aucune fermeture de sentier ni de massif documentée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 39 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 30/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire remiremontvallees.com et info.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 60
 ---
 

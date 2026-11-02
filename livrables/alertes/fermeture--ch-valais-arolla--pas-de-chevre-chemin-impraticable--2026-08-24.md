@@ -6,11 +6,8 @@ itin: Haute Route Chamonix-Zermatt (variante Cabane de Prafleuri ↔ Arolla via 
 sev: MOYENNE
 validite: 24/08/2026 → 07/03/2027
 detection: 2026-09-08
-verif: 2026-10-20
-statut: ACTIF — INCHANGÉ 15/09 : flux officiel data.geo.admin.ch interrogé directement pour
-  l'identifiant 2601065, entrée inchangée (validité 24/08/2026 → 07/03/2027, changement le
-  02/09/2026). Aucune couverture de presse trouvée. Motif exact toujours non précisé par la
-  source officielle.
+verif: 2026-11-02
+statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2601065 « Arolla: Pas de Chèvre » du 24/08/2026 au 07/03/2027, dernière modification 02/09/2026, aucun changement depuis la dernière vérification.
 ordre: 223
 ---
 

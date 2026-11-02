@@ -6,11 +6,7 @@ sev: MOYENNE
 validite: arrêté du 09/07/2026, activé seulement les jours classés en vigilance rouge (très élevée) de la météo des forêts, en vigueur jusqu'à nouvel ordre selon le texte officiel de la préfecture (sans échéance calendaire fixe) ; une source de presse secondaire évoquait une validité « jusqu'au 01/09/2026 », mais la page officielle haute-garonne.gouv.fr (MAJ 30/07) dit seulement que la mesure « restera en vigueur durant toute la durée de vigilance très élevée (rouge) », sans date de fin
 detection: 2026-08-24
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune page postérieure au 30/07/2026
-  retrouvée sur haute-garonne.gouv.fr ni de levée publiée ; le texte préfectoral ne fixe
-  toujours aucune échéance calendaire. Le Gers a levé ses propres restrictions le 13/09
-  (lepetitjournal.net), mais aucune levée équivalente n'est publiée pour la Haute-Garonne à
-  ce jour.
+statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune page postérieure au 30/07/2026 retrouvée sur haute-garonne.gouv.fr ni de levée publiée ; le texte préfectoral ne fixe toujours aucune échéance calendaire. Le Gers a levé ses propres restrictions le 13/09 (lepetitjournal.net), mais aucune levée équivalente n'est publiée pour la Haute-Garonne à ce jour. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire haute-garonne.gouv.fr et melles750.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 180
 ---
 

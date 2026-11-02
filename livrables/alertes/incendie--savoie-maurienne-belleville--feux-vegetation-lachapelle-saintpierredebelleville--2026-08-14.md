@@ -9,10 +9,7 @@ validite: statut maintenu jusqu'à nouvel ordre en l'absence de source plus réc
   trouvée
 detection: 2026-08-18
 verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche ciblée (presse locale ICI/odsradio/
-  feuxdeforet.fr), toujours aucun point de situation daté postérieur au 16/08 pour
-  Saint-Pierre-de-Belleville (statut d'intensification non tranché), La Chapelle restant
-  stabilisé. Aucune fermeture de sentier ni de route documentée à ce jour.
+statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche ciblée (presse locale ICI/odsradio/ feuxdeforet.fr), toujours aucun point de situation daté postérieur au 16/08 pour Saint-Pierre-de-Belleville (statut d'intensification non tranché), La Chapelle restant stabilisé. Aucune fermeture de sentier ni de route documentée à ce jour. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 55 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ici.fr et feuxdeforet.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 172
 ---
 

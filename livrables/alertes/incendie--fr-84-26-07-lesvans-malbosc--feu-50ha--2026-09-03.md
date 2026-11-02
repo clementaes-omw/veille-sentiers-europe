@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: foyer des Vans éteint depuis le 04/09 mi-journée ; foyer de Malbosc déclaré fixé le lundi 07/09/2026 après cinq jours de lutte, surveillance en cours jusqu'à nouvel ordre, pas encore déclaré éteint
 detection: 2026-09-05
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche (WebSearch ciblé sur ardeche.gouv.fr et
-  Malbosc pour septembre 2026), aucune déclaration d'extinction trouvée pour Malbosc au-delà
-  du fixé du 07/09. Aucun point de situation préfectoral postérieur localisé. Le foyer des
-  Vans reste éteint depuis le 04/09.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche (WebSearch ciblé sur ardeche.gouv.fr et Malbosc pour septembre 2026), aucune déclaration d'extinction trouvée pour Malbosc au-delà du fixé du 07/09. Aucun point de situation préfectoral postérieur localisé. Le foyer des Vans reste éteint depuis le 04/09. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ici.fr et france3-regions.franceinfo.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 218
 ---
 

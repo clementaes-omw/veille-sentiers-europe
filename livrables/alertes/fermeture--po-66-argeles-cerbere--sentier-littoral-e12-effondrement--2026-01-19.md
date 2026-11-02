@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: réouverture partielle actée par arrêté du 08/06/2026 ; 3 sections restent fermées jusqu'à nouvel ordre (Criques de Porteils/Argelès avec itinéraire bis, Grandes Elmes/Banyuls avec itinéraire bis, Aloès→RD914/Cerbère en attente de travaux à l'Anse de Terrimbo)
 detection: 2026-07-26
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucune source postérieure au
-  communiqué du 08/06/2026. Les 3 sections (Criques de Porteils et Grandes Elmes, avec
-  itinéraire bis ; Aloès→RD914 à Cerbère, sans alternative) restent décrites comme fermées,
-  sans annonce de reprise des travaux de sécurisation de l'Anse de Terrimbo.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucune source postérieure au communiqué du 08/06/2026. Les 3 sections (Criques de Porteils et Grandes Elmes, avec itinéraire bis ; Aloès→RD914 à Cerbère, sans alternative) restent décrites comme fermées, sans annonce de reprise des travaux de sécurisation de l'Anse de Terrimbo. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-orientales.gouv.fr et cc-acvi.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 55
 ---
 

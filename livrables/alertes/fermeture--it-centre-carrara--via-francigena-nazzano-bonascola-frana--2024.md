@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: interruption maintenue jusqu'à nouvel ordre, aucune date de résorption annoncée par la presse locale (situation non résorbée depuis ~2024, dernière confirmation le 10/06/2026)
 detection: 2026-08-01 (avis de presse du 10/06/2026)
 verif: 2026-10-10
-statut: ACTIF — NOUVEAU 01/08
+statut: ACTIF — NOUVEAU 01/08 À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire voceapuana.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 96
 ---
 

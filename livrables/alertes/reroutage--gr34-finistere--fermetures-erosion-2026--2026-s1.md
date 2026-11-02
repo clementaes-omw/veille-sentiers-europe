@@ -6,11 +6,7 @@ sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
 verif: 2026-09-23
-statut: ACTIF — CHANGÉ 23/09 : la fermeture de Cap Sizun-Millier, déjà listée depuis le
-  rapport du 03/07, est désormais motivée par une source datée et nommée (restauration de la
-  maison-phare du Millier, 15/09) et étendue au PR9 (circuit des Korrigans). Point resté
-  ouvert du 05/08 : Pointe de Rosmellec (Crozon, fermée depuis le 02/04) à ne pas confondre
-  avec le reroutage pérenne rade de Brest (Daoulas), homonymie relevée.
+statut: ACTIF — CHANGÉ 23/09 : la fermeture de Cap Sizun-Millier, déjà listée depuis le rapport du 03/07, est désormais motivée par une source datée et nommée (restauration de la maison-phare du Millier, 15/09) et étendue au PR9 (circuit des Korrigans). Point resté ouvert du 05/08 : Pointe de Rosmellec (Crozon, fermée depuis le 02/04) à ne pas confondre avec le reroutage pérenne rade de Brest (Daoulas), homonymie relevée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire finistere.ffrandonnee.fr et comcom-crozon.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 9
 ---
 

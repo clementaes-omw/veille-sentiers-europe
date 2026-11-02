@@ -6,10 +6,7 @@ sev: MOYENNE
 validite: feu maîtrisé (dominado) depuis le 20/09/2026 à 00h30 ; à la dernière vérification (27/09/2026), l'outil officiel api.fogos.pt ne recense plus aucun foyer actif à Arganil, mais aucune déclaration formelle d'extinction n'a été publiée
 detection: 2026-09-24
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle interrogation de l'API officielle api.fogos.pt,
-  qui ne liste plus aucun foyer actif à Arganil ni à Vila Nova de Poiares (district de
-  Coimbra) : cohérent avec une extinction de fait, mais aucune source, officielle ou de
-  presse, ne publie de déclaration formelle d'« extinto ». Sévérité maintenue MOYENNE.
+statut: ACTIF — INCHANGÉ 27/09 : nouvelle interrogation de l'API officielle api.fogos.pt, qui ne liste plus aucun foyer actif à Arganil ni à Vila Nova de Poiares (district de Coimbra) : cohérent avec une extinction de fait, mais aucune source, officielle ou de presse, ne publie de déclaration formelle d'« extinto ». Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 27/09/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire observador.pt et rr.pt, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 250
 ---
 

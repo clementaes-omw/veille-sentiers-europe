@@ -10,7 +10,7 @@ validite: plusieurs foyers actifs ou en reprise depuis mi-septembre dans le sect
   n'est documenté à ce jour
 detection: 2026-09-28
 verif: 2026-10-06
-statut: ACTIF — INCHANGÉ 06/10, dernier changement 29/09 : ICI du 01/10 confirme quatre feux encore actifs en Ariège (Saurat, Orlu, Perles-et-Castelet, Mijanès), en surveillance, sans fermeture de sentier annoncée.
+statut: ACTIF — INCHANGÉ 06/10, dernier changement 29/09 : ICI du 01/10 confirme quatre feux encore actifs en Ariège (Saurat, Orlu, Perles-et-Castelet, Mijanès), en surveillance, sans fermeture de sentier annoncée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire feudeforet.com et feuxdeforet.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 256
 ---
 
