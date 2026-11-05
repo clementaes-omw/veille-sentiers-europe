@@ -8,7 +8,7 @@ validite: en vigueur jusqu'à nouvel ordre (arrêté préfectoral n°2026-1811 d
   du Bras des Merles entre Deux Bras et Aurère (cirque de Mafate) ; le sentier Roche Plate ↔ La
   Brèche (Mafate) n'est plus visé depuis l'achèvement des travaux de sécurisation
 detection: 2026-07-04
-verif: 2026-10-31
+verif: 2026-11-05
 statut: ACTIF — CHANGÉ 31/10 : arrêté n°2026-1811 du 13/10 (abroge le 1777 du 08/10, non lu), lu en PDF scanné ; Roche Plate ↔ La Brèche retiré de la liste, Bras des Merles maintenu ; la chaîne 1695 → 1777 → 1811 reste à documenter côté 1777 ; page ONF non datée.
 ordre: 16
 ---
