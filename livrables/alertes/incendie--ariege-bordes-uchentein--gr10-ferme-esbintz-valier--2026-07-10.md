@@ -5,7 +5,7 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
 detection: 2026-07-20
-verif: 2026-11-05
+verif: 2026-11-08
 statut: ACTIF — INCHANGÉ 06/10 : recherche web ciblée (GR10, Bordes-Uchentein, arrêté), aucun acte postérieur à l'arrêté du 31/08 ni levée retrouvé ; article France 3 toujours en ligne sans date de réouverture. Sévérité maintenue HAUTE (fondement = arrêté daté). À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur; la source la plus récente de cette alerte rouge date du 31/08 : retrouver l'acte officiel en vigueur, sinon recommander MOYENNE. Action attendue : relire pyreneesfm.com et france3-regions.franceinfo.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé. Contrôle des liens le 2 novembre : les deux arrêtés en PDF sur bordesuchentein.fr répondent ; seul un article secondaire de pyreneesfm.com répond 404.
 ordre: 34
 ---
