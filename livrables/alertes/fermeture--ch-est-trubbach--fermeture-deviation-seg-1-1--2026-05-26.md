@@ -5,24 +5,26 @@ itin: Via Alpina (Suisse, tronçon 1.1, secteur Trübbach/Sargans, frontière SG
 sev: MOYENNE
 validite: 26/05/2026 → 27/11/2026
 detection: 2026-08-11
-verif: 2026-11-02
-statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2596318 « Trübbach Via Alpina / Alte Schollbergstrasse » du 26.05.2026 au 27.11.2026, dernière modification 11/09/2026, aucun changement depuis la dernière vérification.
+verif: 2026-11-10
+statut: [CLÔTURÉ] (10/11/2026) : entrée id 2596318 (échéance 27/11) retirée du flux officiel data.geo.admin.ch avant son terme (CSV du 10/11) ; levée non documentée par un texte de la commune, à rouvrir si un avis réapparaît.
 ordre: 107
 ---
 
 ## Portion concernée
 
-Via Alpina, secteur de **Trübbach (commune de Wartau, SG), le long de l'Alte Schollbergstrasse**, à la frontière entre Saint-Gall et les Grisons. Fermé jusqu'au 27/11/2026. Raison : [FAIT] chutes de bois et de pierres, source officielle Suisse Rando (flux data.geo.admin.ch, segment 1.1) : le chemin reste fermé tant que la situation n'a pas été évaluée et le terrain déblayé.
+Via Alpina, secteur de Trübbach (commune de Wartau, SG), Alte Schollbergstrasse : l'avis de fermeture n'est plus publié dans les données officielles de Suisse Rando au 10/11/2026, alors que son échéance était fixée au 27/11/2026.
 
 ## Alternative
 
-Une déviation figure dans les données cartographiques officielles, mais leur partie texte ne publie pas de description du tracé de contournement.
+Sans objet : plus aucune fermeture n'est publiée sur ce tronçon au 10/11/2026.
 
 ## Zone (détails)
 
 11/08/2026 : repréré dans le flux officiel data.geo.admin.ch. Fermeture depuis le 26/05/2026, validité annoncée jusqu'au 30/09/2026. Motif : chutes de bois et de pierres sur l'Alte Schollbergstrasse, chemin maintenu fermé jusqu'à évaluation et déblaiement du terrain.
 
 11/09/2026 : la fin de validité de la fermeture passe du 30/09/2026 au 27/11/2026 dans le flux officiel. Motif inchangé : chutes de bois et de pierres sur l'Alte Schollbergstrasse.
+
+10/11/2026 : l'entrée id 2596318 (échéance 27/11) n'apparaît plus dans le flux officiel data.geo.admin.ch. Fermeture considérée comme levée.
 
 ## Source
 

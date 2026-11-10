@@ -5,7 +5,7 @@ itin: Europaweg (Randa, accès à Gross-Kastel, chemin d'accès de la vallée de
 sev: MOYENNE
 validite: 27/06/2026 → 15/11/2026
 detection: 2026-09-29
-verif: 2026-11-02
+verif: 2026-11-10
 statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2599154 « Randa: Alte Kantonsstrasse - Gross-Kastel » du 27.06.2026 au 15.11.2026, dernière modification 02/10/2026 ; id 2602060 « Randa: Guggigrabe - Gross-Kastel » du 27.06.2026 au 15.11.2026, dernière modification 02/10/2026, aucun changement depuis la dernière vérification.
 ordre: 260
 ---
