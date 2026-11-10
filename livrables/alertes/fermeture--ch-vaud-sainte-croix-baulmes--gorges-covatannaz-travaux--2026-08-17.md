@@ -5,18 +5,18 @@ itin: Chemin des Gorges de Covatannaz (itinéraire n°107 La Suisse à pied, Sai
 sev: MOYENNE
 validite: déviation en place jusqu'au 06/11/2026 selon le flux officiel
 detection: 2026-08-18
-verif: 2026-11-02
-statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2602192 « Bas de Gorges de Covatanne » du 17.08.2026 au 06.11.2026, dernière modification 05/10/2026, aucun changement depuis la dernière vérification.
+verif: 2026-11-10
+statut: [CLÔTURÉ] (10/11/2026) : échéance du 06/11 dépassée, entrée id 2602192 absente du flux officiel data.geo.admin.ch (CSV téléchargé le 10/11) ; aucune annonce communale de réouverture lue, à rouvrir si un nouvel avis apparaît.
 ordre: 174
 ---
 
 ## Portion concernée
 
-**Gorges de Covatannaz, entre Sainte-Croix et Baulmes (Vaud)**, sur le chemin de randonnée n°107 de La Suisse à pied. Raison : travaux de réfection du sentier, toujours en cours. La déviation balisée est prolongée jusqu'au 6 novembre 2026 selon le flux officiel (échéance précédente : 2 octobre).
+Gorges de Covatannaz, entre Sainte-Croix et Baulmes (Vaud) : la déviation de chantier n'est plus signalée. Son échéance du 6 novembre 2026 est dépassée et l'avis ne figure plus dans les données officielles de Suisse Rando au 10/11/2026.
 
 ## Alternative
 
-Une déviation est mise en place pendant la durée des travaux, sans détail de tracé publié dans le texte des données officielles.
+Sans objet : plus aucune déviation n'est publiée dans les données officielles au 10/11/2026.
 
 ## Zone (détails)
 
@@ -27,6 +27,8 @@ Une déviation est mise en place pendant la durée des travaux, sans détail de 
 27/09/2026 : téléchargement direct du CSV officiel. L'entrée d'origine (id 2600748) n'apparaît plus sous cet identifiant ; une entrée au même tracé exact (mêmes coordonnées, route 899/segment 107), id 2602192, changée le 25/09/2026, prolonge la déviation jusqu'au 02/10/2026. Aucune annonce de fin de chantier trouvée par ailleurs.
 
 04/10/2026 : le flux officiel repousse l'échéance de la déviation du 02/10 au 06/11/2026 (modification du 02/10, même tracé, id 2602192).
+
+10/11/2026 : l'échéance du 06/11 est dépassée et l'entrée id 2602192 a disparu du flux officiel data.geo.admin.ch. Fermeture considérée comme levée.
 
 ## Source
 
