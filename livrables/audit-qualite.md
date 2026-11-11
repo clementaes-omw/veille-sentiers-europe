@@ -1,6 +1,6 @@
 # Audit qualité du registre — 2026-11-11
 
-103 alertes actives · 70 fiches avec au moins un constat · **61 bloquant(s)**, 25 alerte(s), 0 info(s).
+103 alertes actives · 70 fiches avec au moins un constat · **57 bloquant(s)**, 23 alerte(s), 0 info(s).
 
 Carte : **0 bloquant(s)**, 0 alerte(s) (cohérence carte/registre, voir la section dédiée).
 
@@ -23,7 +23,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`fermeture|SI-Julijske-Alpe|severni-pristop-Bavski-Grintavec-Kanja-podor|2026-09-17`** — vérifiée il y a 48 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|AT-Vorarlberg-Silvretta|coulee-boue-sentiers-fermes|2026-07-12`** — vérifiée il y a 48 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Ardeche-Dompnac|feu-40ha-Valgorge|2026-09-26`** — vérifiée il y a 43 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10`** — « Portion concernée » parle du 06/10 alors que le suivi connaît la situation au 11/11 (36 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`incendie|Ariege-Mijanes-Donezan|feu-station-Donezan|2026-09-25`** — vérifiée il y a 43 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Ariege-Orlu-PerlesEtCastelet|feux-multiples-Ax-les-Thermes|2026-09-14`** — vérifiée il y a 36 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Ariege-Saurat|Rocher-de-Batail-GRP-fermes|2026-08-16`** — vérifiée il y a 36 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
@@ -31,14 +30,12 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`incendie|Corse-Calenzana|feu-Montegrosso-64ha|2026-08-27`** — vérifiée il y a 44 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|DE-Schwarzwald-Oppenau|Panoramaweg-Rosi-Rotkehlchenweg-fermes|2026-07-28`** — vérifiée il y a 62 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Drome-Bellegarde-en-Diois|feu-massif-Claps-400ha|2026-08-03`** — vérifiée il y a 47 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Drome-Justin-Die|foret-fermee|2026-07-02`** — « Portion concernée » parle du 06/10 alors que le suivi connaît la situation au 11/11 (36 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`incendie|ES-AND-Igualeja-Parauta|feu-Serrania-de-Ronda-Sierra-de-las-Nieves|2026-09-27`** — vérifiée il y a 43 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|ES-ARA-Huesca-Riglos|feu-camino-aragones-monastere-san-juan-de-la-pena-fermee|2026-08-10`** — vérifiée il y a 44 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|ES-CENTRO-Guadalajara-LaMierla|feu-record-32000ha|2026-07-16`** — vérifiée il y a 47 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|FR-34-11-Puilaurens-Axat|feu-150ha-Camperie|2026-09-04`** — vérifiée il y a 44 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|FR-84-26-07-LesVans-Malbosc|feu-50ha|2026-09-03`** — vérifiée il y a 45 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|FR-IDF-Fontainebleau|foret-fermee-arrete-jusqua-26-07|2026-07-12`** — vérifiée il y a 62 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19`** — « Portion concernée » parle du 06/10 alors que le suivi connaît la situation au 11/11 (36 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08`** — vérifiée il y a 58 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|IT-NO-Biellese|Monte-Barone-Valsessera-sentieri-chiusi-post-incendio|2026-08-03`** — vérifiée il y a 32 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|Lozere-La-Bastide-Puylaurent|feu-252ha|2026-08-19`** — vérifiée il y a 45 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
@@ -47,7 +44,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`incendie|PT-CENTRO-SUL-Arganil-Piodao|feu-murganheira-evacuation-aldeias-historicas|2026-09-19`** — vérifiée il y a 45 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|PT-CENTRO-SUL-Odemira-Saboia|feu-nave-redonda|2026-09-24`** — vérifiée il y a 44 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`incendie|PT-CENTRO-SUL-ProencaANova|feu-alvito-da-beira-sobreiraformosa|2026-09-14`** — vérifiée il y a 45 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
-- **`incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-09-02`** — « Portion concernée » parle du 06/10 alors que le suivi connaît la situation au 11/11 (36 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`refuge|Canigou-Cortalets|fermeture-travaux|2026-05`** — vérifiée il y a 44 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`refuge|IT-Dolomites-Friuli-Cimoliana|bivacco-gervasutti-amianto-inagibile|2026-09-09`** — vérifiée il y a 32 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
 - **`reglementation|ES-GAL|periode-haut-risque-incendie-prolongee|2026-09-24`** — vérifiée il y a 44 j (seuil 12 j — sévérité moyenne). Le site présente cette restriction comme actuelle.
@@ -72,7 +68,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 
 ## ⚠️ À traiter
 
-- **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — « Portion concernée » parle du 31/10 alors que le suivi connaît la situation au 11/11 (11 j d'écart) — la mise à jour n'est pas arrivée jusqu'au texte affiché.
 - **`fermetures-sentiers|Réunion-974|AP-2026-693|2026-05-21`** — alerte rouge appuyée sur une source datée du 31/10 (11 j) — retrouver une publication récente ou dégrader la sévérité.
 - **`fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Polenztal-Sturmschaeden|2026-08-01`** — la validité annoncée s'arrête au 07/11/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16`** — la validité annoncée s'arrête au 04/10/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
@@ -96,7 +91,6 @@ Généré par `site/audit_qualite.py` (déterministe, hors ligne). Le jugement s
 - **`reglementation|ES-NAV-RIO-ARA-Roncesvalles|fermeture-hivernale-Lepoeder-Ruta-Napoleon|2026-11-01`** — la validité annoncée s'arrête au 01/11/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 - **`reroutage|GR10-Luchon-Superbagnères|nouveau-tracé-pérenne|2024-05-30`** — vérifiée il y a 58 j (seuil 45 j — sévérité info). Le site présente cette restriction comme actuelle.
 - **`reroutage|Pierrefiques-76|déviation|2025-05-18`** — la validité annoncée s'arrête au 18/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
-- **`risque-feu|FR-EST-Vosges-88|interdiction-feu-vigilance-severe|2026-07-28`** — la validité annoncée s'arrête au 30/09/2026, désormais passé : clôturer l'alerte, ou réécrire la validité si elle est prolongée.
 
 ## 🗺 Cohérence carte / registre
 
