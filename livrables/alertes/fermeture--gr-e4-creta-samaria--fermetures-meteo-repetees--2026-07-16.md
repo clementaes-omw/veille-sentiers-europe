@@ -3,16 +3,16 @@ cle: fermeture|GR-E4-Creta-Samaria|fermetures-meteo-repetees|2026-07-16
 type: fermeture / conditions météo (vent, canicule)
 itin: E4 Crète (Samaria, Lefka Ori, tronçons côtiers de La Canea : Balos, Krios-Elafonissi, Sougia-Agia Roumeli)
 sev: MOYENNE
-validite: gorge de Samaria fermée aux deux entrées depuis le 30/09/2026, sans date de réouverture : bulletin d'urgence météo valable jusqu'au 04/10/2026, alerte rouge de la protection civile pour la Crète du 01/10 au 04/10 ; réouverture annoncée seulement après inspection du site ; autres fermetures de l'E4 décidées au jour le jour
+validite: gorge de Samaria fermée aux deux entrées depuis le 30/09/2026, sans date de réouverture : bulletin d'urgence météo valable jusqu'au 04/10/2026, alerte rouge de la protection civile pour la Crète du 01/10 au 04/10 ; réouverture annoncée seulement après inspection du site ; autres fermetures de l'E4 décidées au jour le jour ; échéance du 04/10/2026 passée, aucune information vérifiée depuis
 detection: 2026-07-24
 verif: 2026-10-04
-statut: ACTIF. Gorge fermée aux deux entrées depuis le 30/09/2026 (NECCA), réouverture non annoncée au 04/10. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 29 jours, sans source plus récente confirmée par le vérificateur; l'échéance annoncée au 04/10/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire cretalive.gr et inewsgr.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée (restriction décidée au jour le jour : se rattacher à la source du jour).
+statut: ACTIF. Gorge fermée aux deux entrées depuis le 30/09/2026 (NECCA), réouverture non annoncée au 04/10. Vérification qualité 11/11 : portion remise au présent, échéance du 04/10 passée sans information nouvelle. Action veille : établir si la gorge a rouvert avant la fin de saison ou est fermée pour l'hiver (samaria-tickets.necca.gov.gr), puis clôturer ou réécrire.
 ordre: 49
 ---
 
 ## Portion concernée
 
-Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo et Agia Roumeli : **la gorge est fermée aux deux entrées depuis le 30 septembre 2026 et le restait au 2 octobre**, sans date de réouverture. Raison : alerte rouge météo en Crète du 1er au 4 octobre (bulletin d'urgence n°06/2026 du service météorologique grec, jusqu'au 04/10), avec jusqu'à 55 mm de pluie attendus à Xyloskalo et 32 mm à Agia Roumeli. L'OFYPEKA/NECCA fera inspecter la gorge et réparer les dégâts avant de publier la date de réouverture. Les tronçons côtiers de l'E4 à La Canea sont fermés les jours de risque d'incendie de catégorie 4 ou plus.
+Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo et Agia Roumeli : **la gorge était fermée aux deux entrées depuis le 30 septembre 2026 et le restait au 2 octobre**, sans date de réouverture, en raison de l'alerte rouge météo sur la Crète du 1er au 4 octobre. Aucune information plus récente n'a été vérifiée depuis le 4 octobre. Le calendrier normal de visite de la gorge s'arrête à la mi-octobre : se renseigner sur samaria.gr avant tout projet.
 
 ## Alternative
 
@@ -39,6 +39,8 @@ MAJ 18/09 : première fermeture nommée de la gorge elle-même depuis la détect
 MAJ 25/09 : nouvel épisode de fermeture de la gorge elle-même, distinct de celui du 15-18/09 (rouvert entre-temps). [FAIT, annonce OFYPEKA/NECCA relayée par la presse crétoise ; URL précise non retrouvée à ce jour] La gorge de Samaria ferme aux deux entrées à compter du mardi 22/09/2026, pour prévision de fortes pluies et orages dépassant les seuils de sécurité (jusqu'à 12 mm à Xyloskalo, 10 mm à Agia Roumeli). La fermeture est reconduite les mercredi 23 et jeudi 24/09, puis de nouveau ce vendredi 25/09, jour de cette vérification : c'est le plus long épisode de fermeture consécutive de la gorge documenté depuis la détection de cette fiche (4 jours). Mécanisme identique à celui du 15-17/09 (décision au jour le jour de l'OFYPEKA/NECCA selon la météo), raison pluie comme lors du précédent épisode.
 
 MAJ 02/10 : [FAIT, hania.news 30/09 et 01/10, eleftherostypos.gr, samaria-tickets.necca.gov.gr consulté le 02/10, kolymbaricourier.com 01/10] la gorge ferme aux deux entrées le 30/09, puis chaque jour jusqu'au 02/10, pour l'alerte rouge de la protection civile sur la Crète annoncée du 01/10 au 04/10 (prévision jusqu'à 55 mm à Xyloskalo, 32 mm à Agia Roumeli, vents de force coup de vent à l'est et au sud). La billetterie officielle indique qu'une inspection et la remise en état précéderont toute réouverture. Avant cet épisode, vers le 24-25/09, des habitants d'Agia Roumeli ont ouvert eux-mêmes la sortie sud de la gorge et annoncé vouloir la garder ouverte jusqu'au 31/10 pour protester contre les fermetures de l'OFYPEKA (argophilia.com 25/09) : cette ouverture n'a aucun statut officiel et ne vaut pas autorisation d'entrer pendant une fermeture.
+
+MAJ 11/11 (constat affiché sur le site jusqu'à cette date, état au 02/10) : Gorges de Samaria (Crète, Lefka Ori), accès Xyloskalo et Agia Roumeli : **la gorge est fermée aux deux entrées depuis le 30 septembre 2026 et le restait au 2 octobre**, sans date de réouverture. Raison : alerte rouge météo en Crète du 1er au 4 octobre (bulletin d'urgence n°06/2026 du service météorologique grec, jusqu'au 04/10), avec jusqu'à 55 mm de pluie attendus à Xyloskalo et 32 mm à Agia Roumeli. L'OFYPEKA/NECCA fera inspecter la gorge et réparer les dégâts avant de publier la date de réouverture. Les tronçons côtiers de l'E4 à La Canea sont fermés les jours de risque d'incendie de catégorie 4 ou plus.
 
 ## Source
 

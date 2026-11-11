@@ -5,18 +5,18 @@ itin: GR®34
 sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
-verif: 2026-09-23
-statut: ACTIF — CHANGÉ 23/09 : la fermeture de Cap Sizun-Millier, déjà listée depuis le rapport du 03/07, est désormais motivée par une source datée et nommée (restauration de la maison-phare du Millier, 15/09) et étendue au PR9 (circuit des Korrigans). Point resté ouvert du 05/08 : Pointe de Rosmellec (Crozon, fermée depuis le 02/04) à ne pas confondre avec le reroutage pérenne rade de Brest (Daoulas), homonymie relevée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire finistere.ffrandonnee.fr et comcom-crozon.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-11
+statut: ACTIF — CHANGÉ 11/11 : ajout de la déviation de Roscanvel (Fort Robert ↔ route de Kerlaër, 16/11/2026 → 30/06/2027, avis FFRando 29 du 16/10). Plomodiern suivi dans sa propre fiche ; fermeture hivernale de Rosmellec (Daoulas) suivie dans la fiche rade de Brest.
 ordre: 9
 ---
 
 ## Portion concernée
 
-**GR®34 dans le Finistère : 15+ fermetures ou déviations locales.** Loctudy, Trégunc-Minaÿ et (marées coef. >90), Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau, Névez, Crozon (×3), Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier. Raison : érosion et effondrements du littoral.
+**GR®34 dans le Finistère : 15+ fermetures ou déviations locales.** Loctudy, Trégunc-Minaÿ et (marées coef. >90), Plougonvelin-Keryunan, Kerlouan, Brest Ste-Anne, Concarneau, Moëlan-Brigneau, Névez, Crozon (×3), Guilvinec, Camaret, Telgruc, Pouldreuzic, St-Pabu, Cap Sizun-Millier, et à partir du 16/11/2026 **Roscanvel entre Fort Robert et la route de Kerlaër**. Raison : érosion et effondrements du littoral ; à Roscanvel, résorption de la décharge de Kerlaër.
 
 ## Alternative
 
-Déviations locales balisées pour la plupart des sites (détail par commune : FFRando 29, lien en sources).
+Déviations locales balisées pour la plupart des sites (détail par commune : FFRando 29, lien en sources). À Roscanvel, déviation du GR®34 publiée sur carte par le comité FFRandonnée du Finistère, du 16/11/2026 au 30/06/2027.
 
 ## Zone (détails)
 
@@ -24,6 +24,8 @@ Déviations locales balisées pour la plupart des sites (détail par commune : F
 
 MAJ 23/09 : le comité FFRandonnée du Finistère précise la fermeture de Cap Sizun-Millier. La maison-phare du Millier, à Beuzec-Cap-Sizun, fait l'objet d'un programme de restauration complet qui s'étale sur plusieurs mois depuis le 15/09/2026. Le GR®34 et le circuit des Korrigans (PR9) sont interrompus sur ce secteur, avec une déviation balisée prévue.
 
+MAJ 11/11 : le comité FFRandonnée du Finistère annonce le 16/10/2026 la déviation du GR®34 à Roscanvel (presqu'île de Crozon) entre Fort Robert et la route de Kerlaër, du 16/11/2026 au 30/06/2027, pendant les travaux de résorption de la décharge de Kerlaër. Le tracé de déviation est publié sur une carte. Au Millier (Beuzec-Cap-Sizun), la fin des travaux de la maison-phare est annoncée pour fin juin 2027, sauf retard.
+
 ## Source
 
-[FFRando 29](https://finistere.ffrandonnee.fr/html/6831/actualites) ; [comcom-crozon.com](https://www.comcom-crozon.com/actualites/sentier-gr34-ferme-entre-laber-et-postolonnec/)
+[FFRando 29](https://finistere.ffrandonnee.fr/html/6831/actualites) ; [comcom-crozon.com](https://www.comcom-crozon.com/actualites/sentier-gr34-ferme-entre-laber-et-postolonnec/) ; [FFRando 29, Actualités des sentiers, « Déviation GR®34 Roscanvel » (16/10/2026)](https://finistere.ffrandonnee.fr/html/7958/actualites-des-sentiers)

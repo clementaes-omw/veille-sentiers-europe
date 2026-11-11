@@ -5,14 +5,14 @@ itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: HAUTE
 validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau autorisés depuis le 10/09 ; secteur toujours strictement interdit aux randonneurs et bergers jusqu'à nouvel ordre, aucune date de réouverture du GR®10 annoncée
 detection: 2026-09-07
-verif: 2026-11-05
-statut: ACTIF — INCHANGÉ 06/10 : recherche web ciblée, aucune information postérieure au point du 10/09 (feu fixé, accès interdit), ni levée ni réouverture du GR10 annoncée. Sévérité maintenue HAUTE (arrêté préfectoral confirmé). À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur; la source la plus récente de cette alerte rouge date du 10/09 : retrouver l'acte officiel en vigueur, sinon recommander MOYENNE. Action attendue : relire lasemainedespyrenees.fr et ici.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-11
+statut: ACTIF — INCHANGÉ 11/11 : recherche ciblée, aucune information de réouverture du Pas d'Ourtasse.
 ordre: 221
 ---
 
 ## Portion concernée
 
-**Crête du Pas d'Ourtasse, entre Etsaut et Cette-Eygun (vallée d'Aspe, Pyrénées-Atlantiques), sur l'étape du GR®10 qui relie les deux villages.** Secteur interdit d'accès depuis le 02/09/2026. Raison : incendie de forêt en haute montagne ayant parcouru 130 hectares sur un terrain escarpé qui a compliqué l'intervention au sol ; le feu reste fixé et sous surveillance depuis le 10/09 (aucune fumée ni signe de reprise lors de la reconnaissance par drone du 09/09). Au 06/10, la situation n'a pas changé : l'accès au sol reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 annoncée, vingt-cinq jours après le départ de feu.
+**Crête du Pas d'Ourtasse, entre Etsaut et Cette-Eygun (vallée d'Aspe, Pyrénées-Atlantiques), sur l'étape du GR®10 qui relie les deux villages.** Secteur interdit d'accès depuis le 02/09/2026. Raison : incendie de forêt en haute montagne ayant parcouru 130 hectares sur un terrain escarpé qui a compliqué l'intervention au sol ; le feu reste fixé et sous surveillance depuis le 10/09 (aucune fumée ni signe de reprise lors de la reconnaissance par drone du 09/09). Au 11/11, la situation n'a pas changé : aucune réouverture n'est annoncée, et la dernière information publiée (10/09) maintient l'accès au sol strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10, soixante-dix jours après le départ de feu.
 
 ## Alternative
 
@@ -47,6 +47,10 @@ Dimanche soir : la préfecture porte le bilan à 125 hectares et qualifie la sit
 25/09 (vendredi) : nouvelle vérification ciblée, aucun article postérieur au point du 10/09 retrouvé. L'accès au secteur reste strictement interdit à tous les usagers, randonneurs et bergers compris, sans date de réouverture du GR®10 entre Etsaut et Cette-Eygun annoncée, vingt-trois jours après le départ de feu.
 
 27/09 (dimanche) : nouvelle vérification, élargie cette fois au gestionnaire du sentier plutôt qu'aux seules sources déjà consultées à dix reprises. Le site du Comité départemental de la randonnée pédestre des Pyrénées-Atlantiques (CDRP64) et le site gr10.org, qui recensent les fermetures connues du GR®10 dans le département (dont celle du Chemin de la Mâture, rouverte en mars 2026 après travaux), ne mentionnent à ce jour aucune fermeture ni réouverture au Pas d'Ourtasse. La page d'actualités de la préfecture des Pyrénées-Atlantiques reste inaccessible (erreur serveur au moment de la consultation). Aucune source, officielle ou de presse, ne documente à ce jour une levée de l'interdiction d'accès au sol ni une réouverture du GR®10 entre Etsaut et Cette-Eygun, vingt-cinq jours après le départ de feu.
+
+06/10 : nouvelle vérification ciblée, aucune information postérieure au point du 10/09 (feu fixé, accès interdit) ; ni levée ni réouverture du GR®10 annoncée.
+
+11/11 : nouvelle vérification ciblée, aucune information de réouverture du Pas d'Ourtasse. L'article de La Semaine des Pyrénées du 10/09 (feu fixé, zone interdite d'accès) reste en ligne et demeure la dernière information publiée.
 
 ## Source
 
