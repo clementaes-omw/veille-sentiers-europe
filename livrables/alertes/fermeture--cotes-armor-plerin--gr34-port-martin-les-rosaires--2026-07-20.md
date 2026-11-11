@@ -5,14 +5,14 @@ itin: GR®34 (Côtes-d'Armor, commune de Plérin)
 sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 20/07/2026, déviation balisée en place
 detection: 2026-09-16
-verif: 2026-09-23
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire cotes-d-armor.ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-11
+statut: ACTIF — CHANGÉ 11/11 : avis toujours listé dans « Alertes sentiers » de FFRando 22 ; date de fermeture corrigée au 17/07 d'après le texte de l'avis (publié le 20/07).
 ordre: 231
 ---
 
 ## Portion concernée
 
-**Commune de Plérin (Côtes-d'Armor), entre Port Martin et Les Rosaires.** Le GR®34 est fermé sur cette section depuis le 20/07/2026. Raison : non précisée par la source, qui documente uniquement la fermeture et la déviation.
+**Commune de Plérin (Côtes-d'Armor), entre Port Martin et Les Rosaires.** Le GR®34 est interdit d'accès sur cette section depuis le 17/07/2026. Raison : non précisée par la source, qui documente uniquement la fermeture et la déviation.
 
 ## Alternative
 
@@ -21,6 +21,8 @@ Déviation balisée en place entre Port Martin et Les Rosaires, mise en place pa
 ## Zone (détails)
 
 20/07/2026 : le GR®34 ferme entre Port Martin et Les Rosaires, commune de Plérin. Une déviation balisée est mise en place. Aucune autre information n'est publiée par la source à ce jour.
+
+MAJ 11/11 : l'avis du comité FFRandonnée des Côtes-d'Armor, toujours publié, précise que la portion entre Port Martin et Les Rosaires est interdite d'accès depuis le 17 juillet (l'avis lui-même est daté du 20/07). Aucune réouverture n'est annoncée.
 
 ## Source
 

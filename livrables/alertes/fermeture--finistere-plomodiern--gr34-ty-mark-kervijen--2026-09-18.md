@@ -5,8 +5,8 @@ itin: GR®34 (Finistère, commune de Plomodiern)
 sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 18/09/2026, par arrêté municipal
 detection: 2026-09-23
-verif: 2026-09-23
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire finistere.ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-11
+statut: ACTIF — INCHANGÉ 11/11 : avis du 18/09 toujours en page d'accueil de finistere.ffrandonnee.fr (arrêté 2026-119), absent en revanche de la page « Actualités des sentiers » ; aucune réouverture publiée.
 ordre: 242
 ---
 

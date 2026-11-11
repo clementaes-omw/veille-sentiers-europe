@@ -6,13 +6,13 @@ sev: MOYENNE (aucun massif fermé depuis le 19/08)
 validite: journalière ; aucun massif fermé au 30/09 (dernière donnée confirmée), 2 en orange (Centre-Var, Maures), les 7 autres (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Haut-Var, Sainte-Baume, plateau de Canjuers, Estérel) en modéré ; la carte du 30/09 est la dernière publiée par la préfecture pour la saison 2026
 detection: 2026-07-09
 verif: 2026-09-30
-statut: ACTIF — CHANGÉ 30/09 : l'Estérel repasse en modéré (jaune) : 2 massifs orange (Centre-Var, Maures) contre 3 la veille. Aucun massif fermé/rouge depuis le 19/08. Carte du 30/09 annoncée comme la dernière de la saison 2026 (varactu.fr, publiée le 29/09 à 19h17). Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 33 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire varactu.fr et ville-draguignan.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé (restriction décidée au jour le jour : se rattacher à la source du jour).
+statut: ACTIF — CHANGÉ 30/09 : l'Estérel repasse en modéré (jaune) : 2 massifs orange (Centre-Var, Maures) contre 3 la veille. Aucun massif fermé/rouge depuis le 19/08. Carte du 30/09 annoncée comme la dernière de la saison 2026 (varactu.fr, publiée le 29/09 à 19h17). Sévérité maintenue MOYENNE. Vérification qualité (11 nov.) : portion remise au présent (dispositif quotidien terminé le 30/09 selon la source déjà citée) ; clôture recommandée à la veille, après vérification qu'aucune carte n'a été republiée.
 ordre: 20
 ---
 
 ## Portion concernée
 
-Var, mercredi 30/09 : **aucun massif n'est fermé.** Deux massifs sont classés sévère (orange, accès déconseillé, travaux autorisés de 5h à 13h puis interdits) : Centre-Var et Maures. Les sept autres (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Haut-Var, Sainte-Baume, plateau de Canjuers, Estérel) sont en modéré (jaune). La carte publiée pour le 30/09 est la dernière de la saison 2026 de la préfecture. Consulter var.gouv.fr avant de partir.
+Var : **la carte quotidienne d'accès aux massifs forestiers n'est plus publiée depuis le 30/09/2026**, dernière carte de la saison 2026 selon la préfecture. Ce jour-là, aucun massif n'était fermé ; deux (Centre-Var, Maures) étaient classés sévère (orange), les sept autres en modéré. Aucune information plus récente n'a été vérifiée. Consulter var.gouv.fr avant de partir.
 
 ## Alternative
 
@@ -116,6 +116,8 @@ MAJ 28/09 : reconduction à l'identique pour ce lundi. Varactu.fr (« Dans le Va
 29/09 : l'Estérel passe en sévère (orange) et rejoint Centre-Var et Maures, soit trois massifs en orange contre deux la veille. Aucun massif n'est fermé. De la pluie est annoncée du 30/09 au 02/10 sur le sud-est.
 
 MAJ 30/09 : l'Estérel repasse en modéré, il reste deux massifs en sévère (Centre-Var, Maures) et aucun n'est fermé. La préfecture indique que la carte du 30/09, publiée le 29/09 à 19h17, est la dernière de la saison 2026. [FAIT, varactu.fr, 29/09/2026](https://www.varactu.fr/deux-massifs-en-varois-en-risque-incendie-severe-ce-mercredi-30-septembre/)
+
+11/11 (constat affiché sur le site jusqu'à cette date, état au 30/09) : Var, mercredi 30/09 : **aucun massif n'est fermé.** Deux massifs sont classés sévère (orange, accès déconseillé, travaux autorisés de 5h à 13h puis interdits) : Centre-Var et Maures. Les sept autres (Monts Toulonnais, Corniche des Maures, Îles d'Hyères, Haut-Var, Sainte-Baume, plateau de Canjuers, Estérel) sont en modéré (jaune). La carte publiée pour le 30/09 est la dernière de la saison 2026 de la préfecture. Consulter var.gouv.fr avant de partir.
 
 ## Source
 

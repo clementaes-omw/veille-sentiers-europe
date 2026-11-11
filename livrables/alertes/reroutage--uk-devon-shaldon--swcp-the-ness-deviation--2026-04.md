@@ -5,8 +5,8 @@ itin: South West Coast Path (Devon, The Ness, Shaldon)
 sev: MOYENNE
 validite: déviation en place depuis avril 2026, aucune date de fin annoncée
 detection: 2026-09-16
-verif: 2026-09-23
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire southwestcoastpath.org.uk, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-11
+statut: ACTIF — INCHANGÉ 11/11 : page officielle « Route changes » de southwestcoastpath.org.uk relue le 11/11, l'avis figure toujours dans la liste (la page précise que tout changement non listé est rouvert).
 ordre: 233
 ---
 

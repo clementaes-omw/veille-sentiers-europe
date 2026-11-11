@@ -5,8 +5,8 @@ itin: GR®34
 sev: MOYENNE
 validite: depuis février 2026, jusqu'à nouvel ordre ; aucune déviation officielle connue
 detection: 2026-09-02
-verif: 2026-09-23
-statut: ACTIF — INCHANGÉ 11/09 : re-vérification de l'article FFRandonnée national, toujours en ligne à l'identique, sans mention de réouverture. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-11
+statut: ACTIF — INCHANGÉ 11/11 : aucune annonce de réouverture (recherche web). Piège écarté : l'arrêté préfectoral « Arrete_pointe_Castelli » est le projet d'arrêté 2020/SEE/0005 de protection géologique, sans lien avec la fermeture.
 ordre: 216
 ---
 
