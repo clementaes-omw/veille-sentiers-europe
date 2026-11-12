@@ -5,7 +5,8 @@ itin: Camino Francés (fin), Portugués, Inglés, Finisterre-Muxía, Invierno (f
   Norte (fin), Primitivo (fin) — ensemble des caminos traversant la Galice
 sev: MOYENNE
 validite: la période à haut risque d'incendie en Galice, initialement prévue jusqu'au
-  30/09/2026, est prolongée jusqu'au 15/10/2026 (résolution publiée au DOG le 24/09/2026)
+  30/09/2026, est prolongée jusqu'au 15/10/2026 (résolution publiée au DOG le 24/09/2026) ; échéance du
+  15/10/2026 passée, aucune information vérifiée depuis le 28/09/2026
 detection: 2026-09-28
 verif: 2026-09-28
 statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire laregion.es et elidealgallego.com, puis confirmer que la règle est toujours en vigueur ou modifiée.
@@ -14,7 +15,7 @@ ordre: 259
 
 ## Portion concernée
 
-**Ensemble du territoire de la Galice**, traversé par les caminos Francés, Portugués, Inglés, Finisterre-Muxía, Invierno, Sanabrés, Norte et Primitivo dans leurs derniers tronçons. La Xunta de Galicia prolonge la période à haut risque d'incendie du 30 septembre au 15 octobre 2026, invoquant la persistance des conditions météorologiques (sécheresse). Cette prolongation maintient les restrictions saisonnières habituelles (usage du feu, travaux à risque en forêt) deux semaines de plus que prévu. Aucune fermeture de tronçon de camino n'est associée à cette mesure à ce jour.
+**Ensemble du territoire de la Galice : la période à haut risque d'incendie devait s'achever le 15 octobre 2026 ; cette échéance est passée et aucune nouvelle prolongation n'a été vérifiée depuis le 28/09/2026.** Territoire traversé par les caminos Francés, Portugués, Inglés, Finisterre-Muxía, Invierno, Sanabrés, Norte et Primitivo dans leurs derniers tronçons. Dernière information vérifiée : la Xunta de Galicia a prolongé la période à haut risque d'incendie du 30 septembre au 15 octobre 2026, invoquant la persistance des conditions météorologiques (sécheresse). Cette prolongation maintenait les restrictions saisonnières habituelles (usage du feu, travaux à risque en forêt) deux semaines de plus que prévu. Aucune fermeture de tronçon de camino n'était associée à cette mesure.
 
 ## Alternative
 

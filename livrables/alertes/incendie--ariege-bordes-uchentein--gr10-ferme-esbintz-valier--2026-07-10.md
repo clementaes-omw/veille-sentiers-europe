@@ -3,16 +3,16 @@ cle: incendie|Ariege-Bordes-Uchentein|GR10-ferme-Esbintz-Valier|2026-07-10
 type: incendie / fermeture sentier
 itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, communes de Bordes-Uchentein, Arrien-en-Bethmale et Bethmale)
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
-validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026 ; AP distinct d'interdiction totale de l'usage du feu en Ariège reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié 18/08), aucune 5e reconduction ni levée retrouvée depuis (15 jours de silence au 08/09)
+validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026
 detection: 2026-07-20
-verif: 2026-11-11
-statut: ACTIF — INCHANGÉ 11/11 : recherche ciblée (recueils des actes ariege.gouv.fr), aucun arrêté de levée postérieur à celui du 31/08.
+verif: 2026-11-12
+statut: ACTIF — INCHANGÉ 12/11 : bordesuchentein.fr relu (page /gr10-ferme/, les deux PDF des AP du 07/08 et du 31/08 toujours en ligne, rien de postérieur) ; recherche presse/préfecture d'une levée sans résultat. Reste HAUTE (arrêté sans échéance, consultable).
 ordre: 34
 ---
 
 ## Portion concernée
 
-**GR®10 fermé entre le Cap des Lauzes et l'étang d'Ayes**, sur les communes de Bordes-Uchentein, Arrien-en-Bethmale et Bethmale (Couserans, Ariège), toujours en vigueur au 11/11/2026. Raison : arrêté préfectoral du 31/08/2026, motivé par des chutes de pierres sur des versants déstabilisés par les incendies de juillet et août 2026 ; la fermeture court depuis le 7 août 2026 et reste sans échéance. Ce texte figure sur le site de la mairie de Bordes-Uchentein, sans apparaître dans les pages consultées directement sur ariege.gouv.fr. Les deux autres tronçons du GR®10 fermés cet été pour la même cause, entre le hameau de Faup et le col de Pause (Seix) et sous le pic de Sauve entre Marc et l'étang d'Escalès (Auzat), ont été rouverts par les arrêtés successifs des 14 et 31 août.
+**GR®10 fermé entre le Cap des Lauzes et l'étang d'Ayes**, sur les communes de Bordes-Uchentein, Arrien-en-Bethmale et Bethmale (Couserans, Ariège), toujours en vigueur au 12/11/2026. Raison : arrêté préfectoral du 31/08/2026, motivé par des chutes de pierres sur des versants déstabilisés par les incendies de juillet et août 2026 ; la fermeture court depuis le 7 août 2026 et reste sans échéance. Ce texte figure sur le site de la mairie de Bordes-Uchentein, sans apparaître dans les pages consultées directement sur ariege.gouv.fr. Les deux autres tronçons du GR®10 fermés cet été pour la même cause, entre le hameau de Faup et le col de Pause (Seix) et sous le pic de Sauve entre Marc et l'étang d'Escalès (Auzat), ont été rouverts par les arrêtés successifs des 14 et 31 août.
 
 ## Alternative
 
@@ -73,6 +73,8 @@ MAJ 24/09 : nouvelle piste tentée sur le recueil des actes administratifs de la
 MAJ 06/10 : nouvelle vérification ciblée (GR®10, Bordes-Uchentein, arrêté) : aucun acte postérieur à l'arrêté du 31/08/2026 ni aucune levée retrouvés ; l'article de France 3 Occitanie reste en ligne, sans date de réouverture.
 
 MAJ 11/11 : nouvelle vérification dans les recueils des actes administratifs de la préfecture de l'Ariège : aucun arrêté de levée postérieur à celui du 31/08/2026. Les deux arrêtés publiés en PDF sur bordesuchentein.fr restent consultables. Le tronçon Cap des Lauzes ↔ étang d'Ayes reste fermé.
+
+MAJ 12/11 : la page « GR10 fermé » du site de la mairie de Bordes-Uchentein, relue le 12/11/2026, propose toujours les deux arrêtés préfectoraux du 07/08 et du 31/08/2026 en PDF, sans texte postérieur. Aucune levée n'a été retrouvée dans la presse ni sur le site de la préfecture. Le tronçon Cap des Lauzes ↔ étang d'Ayes reste fermé, sans échéance. Mention retirée du champ de validité ce jour, car sans effet sur l'accès au sentier et échue : l'arrêté préfectoral distinct d'interdiction totale de l'usage du feu en Ariège avait été reconduit une 4e fois jusqu'au 24/08/2026 inclus (arrêté publié le 18/08), aucune 5e reconduction ni levée n'ayant été retrouvée ensuite (15 jours de silence au 08/09).
 
 ## Source
 
