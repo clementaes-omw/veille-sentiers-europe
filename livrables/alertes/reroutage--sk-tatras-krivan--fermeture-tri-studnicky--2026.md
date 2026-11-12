@@ -3,23 +3,22 @@ cle: reroutage|SK-Tatras-Krivan|fermeture-Tri-studnicky|2026
 type: reroutage / fermeture
 itin: Kriváň (sommet emblématique des Tatras slovaques), à proximité de la Tatranská magistrála — aucun GR® référencé (P1) directement concerné
 sev: MOYENNE
-validite: tronçon Tri Studničky↔Krivánsky žĺab fermé en continu (travaux), réouverture
-  estimée fin septembre-début octobre 2026 ; tronçon sommital Krivánsky žĺab↔sommet fermé
-  une journée entre le 23 et le 25/09 (héliportage, sous réserve météo) puis du 28 au 30/09
-  (pose des chaînes de sécurité)
+validite: terminée : le sentier Tri studničky ↔ Kriváň a rouvert le 09/10/2026 après travaux ; depuis le 01/11/2026 s'applique la fermeture saisonnière du TANAP (fiche dédiée)
 detection: 2026-07-23
-verif: 2026-09-24
-statut: ACTIF — CHANGÉ 24/09 : les dates de la fermeture sommitale annoncée le 17/09 sont désormais fixées (une journée entre le 23 et le 25/09, puis 28-30/09). Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 39 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire tatryportal.sk et tanap.sk, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-12
+statut: [CLÔTURÉ] (2026-10-09) : tanap.sk a annoncé le 09/10/2026 la réouverture du sentier rénové de Tri studničky au Kriváň (article relu le 12/11/2026). L'article ne cite pas séparément le tronçon sommital Krivánsky žľab ↔ sommet, dont les fermetures ponctuelles étaient bornées à fin septembre ; aucune fermeture résiduelle n'est publiée. Relais : la fermeture saisonnière du 01/11 au 31/05 est portée par la fiche reglementation|PL-SK-TATRAS-TANAP|fermeture-saisonniere-sentiers-haute-montagne|2026-11-01.
 ordre: 46
 ---
 
 ## Portion concernée
 
-Slovaquie, Hautes Tatras, ascension du Kriváň : **le sentier reste fermé en continu entre Tri studničky et le carrefour du Krivánsky žĺab** (travaux, réouverture estimée fin septembre-début octobre 2026, fermeture reconfirmée pour le week-end du 26-27 septembre) ; le tronçon sommital, entre ce carrefour et le sommet, ferme en plus ponctuellement une journée entre le 23 et le 25 septembre (héliportage de matériel, sous réserve météo) puis du 28 au 30 septembre (pose des chaînes et équipements de sécurité).
+Slovaquie, Hautes Tatras, ascension du Kriváň : **le sentier de Tri studničky au Kriváň a rouvert le 9 octobre 2026**, après rénovation (1,3 km de sentier pavé, plus de 180 m de chaînes et d'échelons dans les passages exposés sous le sommet, près de 1 000 marches en bois). Des travaux de finition s'y poursuivaient à la réouverture. Depuis le 1er novembre 2026, les sentiers de haute montagne du parc national (TANAP) sont soumis à la fermeture saisonnière, jusqu'au 31 mai.
 
 ## Alternative
 
 Pendant les fermetures ponctuelles du tronçon sommital (une journée entre le 23 et le 25/09, puis 28-30/09), ascension du Kriváň possible par Štrbské Pleso ou par le lac de Jamské. Aucune alternative officielle publiée pour la voie de Tri Studničky elle-même, fermée en continu pour travaux.
+
+12/11/2026 : sans objet désormais, le sentier de Tri studničky a rouvert le 09/10/2026.
 
 ## Zone (détails)
 
@@ -35,6 +34,8 @@ Tatras slovaques, en complément. Le tronçon entre ždiar et Široké sedlo res
 
 24/09 : [FAIT, tatryportal.sk, 22/09/2026] les dates de la fermeture sommitale annoncée le 17/09 sont fixées. Le tronçon Tri Studničky↔carrefour du Krivánsky žĺab reste fermé pour le week-end du 26-27 septembre (accès de repli par Štrbské Pleso ou le lac de Jamské). Le tronçon sommital carrefour du Krivánsky žĺab↔sommet ferme une journée entre le 23 et le 25 septembre (à confirmer selon météo) pour héliportage du matériel, puis du 28 au 30 septembre pour l'installation des chaînes et équipements de sécurité (club Hikemates avec le TANAP).
 
+12/11/2026 : [FAIT, tanap.sk, 09/10/2026] le sentier rénové de Tri studničky au Kriváň a rouvert au public le vendredi 9 octobre 2026, après un contrôle sur place avec l'administration du TANAP ; des travaux de finition restaient en cours. Bilan des travaux menés par le club Hikemates : 1,3 km de sentier pavé, plus de 180 m de chaînes et d'échelons dans les passages les plus exposés sous le sommet, plus d'un kilomètre dégagé dans les pins nains, près de 1 000 marches en bois, des caniveaux en bois, des murs de soutènement en pierre et en bois, un nouvel abri, avec plus de 500 bénévoles. Depuis le 1er novembre 2026, la fermeture saisonnière du TANAP s'applique aux sentiers de haute montagne jusqu'au 31 mai (tanap.sk, 30/10/2026).
+
 ## Source
 
-[tatryportal.sk, 22/09/2026, Chodník na Kriváň čakajú koncom septembra dve dočasné uzávery](https://www.tatryportal.sk/chodnik-na-krivan-cakaju-koncom-septembra-dve-docasne-uzavery/) ; presse slovaque (TatryPortal/Korzár SME, relayée par recherche ; spravatanap.sk injoignable en autonome) ; tatry.sk, Aktuálne obmedzenia na chodníkoch (réouverture Hrebienok-Rainerova chata au 01/08/2026, relayée par recherche le 13/08/2026) ; [tanap.sk, Obnovený turistický chodník na Sedielko je opäť otvorený (réouverture juillet 2026, relayée par recherche le 27/08/2026)](https://www.tanap.sk/obnoveny-turisticky-chodnik-na-sedielko-je-opat-otvoreny-9168/) ; tanap.sk, page d'accueil (statut Kriváň/Tri studničky toujours fermé, consultée le 27/08/2026) ; [teraz.sk, 02/09/2026, Časť chodníka na Kriváň bude koncom septembra dočasne uzavretá](https://www.teraz.sk/regiony/cast-chodnika-na-krivan-bude-koncom/989349-clanok.html)
+[tatryportal.sk, 22/09/2026, Chodník na Kriváň čakajú koncom septembra dve dočasné uzávery](https://www.tatryportal.sk/chodnik-na-krivan-cakaju-koncom-septembra-dve-docasne-uzavery/) ; presse slovaque (TatryPortal/Korzár SME, relayée par recherche ; spravatanap.sk injoignable en autonome) ; tatry.sk, Aktuálne obmedzenia na chodníkoch (réouverture Hrebienok-Rainerova chata au 01/08/2026, relayée par recherche le 13/08/2026) ; [tanap.sk, Obnovený turistický chodník na Sedielko je opäť otvorený (réouverture juillet 2026, relayée par recherche le 27/08/2026)](https://www.tanap.sk/obnoveny-turisticky-chodnik-na-sedielko-je-opat-otvoreny-9168/) ; tanap.sk, page d'accueil (statut Kriváň/Tri studničky toujours fermé, consultée le 27/08/2026) ; [teraz.sk, 02/09/2026, Časť chodníka na Kriváň bude koncom septembra dočasne uzavretá](https://www.teraz.sk/regiony/cast-chodnika-na-krivan-bude-koncom/989349-clanok.html) ; [tanap.sk, 09/10/2026, Obnovený chodník na Kriváň z Troch studničiek je od dnes opäť otvorený](https://www.tanap.sk/obnoveny-chodnik-na-krivan-z-troch-studniciek-je-od-dnes-opat-otvoreny-9388/) ; [tanap.sk, 30/10/2026, Od 1. novembra sa v Tatranskom národnom parku začína sezónna uzávera](https://www.tanap.sk/od-1-novembra-sa-v-tatranskom-narodnom-parku-zacina-sezonna-uzavera-9441/)

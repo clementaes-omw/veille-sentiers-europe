@@ -5,7 +5,8 @@ itin: GR®36 & GR®78 — [HYPOTHÈSE] massifs fermés a priori hors tracé (cô
 sev: MOYENNE
 validite: Fontfroide, Pinèdes de Crémade, la Clape, Pinède Lézignanaise, île Sainte-Lucie et
   lac de la Cavayre : fermeture prolongée jusqu'au 30/09/2026 (aude.gouv.fr, mise à jour du
-  11/09/2026) ; Ribaute jusqu'à levée de l'arrêté préfectoral
+  11/09/2026) ; Ribaute jusqu'à levée de l'arrêté préfectoral ; échéance du 30/09/2026 passée,
+  aucune prolongation ni levée vérifiée depuis le 28/09/2026
 detection: 2026-07-06
 verif: 2026-09-28
 statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, un article distinct (cabinet Kohen Avocats, 12/09/2026) reconfirme, en la recoupant, la même échéance du 30/09/2026 pour Fontfroide, la Clape et les Pinèdes de Crémade que celle déjà publiée sur aude.gouv.fr (MAJ 11/09). aude.gouv.fr lui-même renvoie une erreur serveur (503) au moment de cette vérification, sans que la page ait pu être relue en direct. Aucun signal de levée anticipée ni de nouvelle prolongation au-delà du 30/09. Sévérité maintenue MOYENNE. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire aude.gouv.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
@@ -14,7 +15,7 @@ ordre: 17
 
 ## Portion concernée
 
-**Aude : Fontfroide, les Pinèdes de Crémade, la Clape, la Pinède Lézignanaise, l'île Sainte-Lucie et le lac de la Cavayre restent fermés, désormais jusqu'au 30/09/2026** (nouvelle prolongation publiée sur aude.gouv.fr, mise à jour du 11/09/2026, qui aligne l'échéance de l'île Sainte-Lucie et de la Cavayre, jusqu'ici au 15/09, sur celle des 4 autres massifs). La zone incendiée de Ribaute reste interdite jusqu'à levée de l'arrêté préfectoral. A priori hors tracés GR®36/GR®78 (à recouper). Raison : risque incendie saisonnier.
+**Aude : la fermeture saisonnière de Fontfroide, des Pinèdes de Crémade, de la Clape, de la Pinède Lézignanaise, de l'île Sainte-Lucie et du lac de la Cavayre était annoncée jusqu'au 30/09/2026 ; cette échéance est passée, et ni prolongation ni levée n'a été vérifiée depuis le 28/09/2026.** Dernière information vérifiée : fermeture prolongée jusqu'au 30/09/2026 (prolongation publiée sur aude.gouv.fr, mise à jour du 11/09/2026, qui aligne l'échéance de l'île Sainte-Lucie et de la Cavayre, jusqu'ici au 15/09, sur celle des 4 autres massifs). La zone incendiée de Ribaute était interdite jusqu'à levée de l'arrêté préfectoral, levée qui n'a pas été retrouvée. A priori hors tracés GR®36/GR®78 (à recouper). Raison : risque incendie saisonnier.
 
 ## Alternative
 
