@@ -3,16 +3,16 @@ cle: incendie|Pyrenees-Atlantiques-Etsaut|feu-pas-ourtasse-gr10-evacuation|2026-
 type: incendie
 itin: GR®10 (vallée d'Aspe, étape Cette-Eygun ↔ Etsaut)
 sev: MOYENNE (dégradée de HAUTE le 12/11/2026 : l'interdiction d'accès ne repose plus que sur un article de presse du 10/09/2026, aucun arrêté consultable)
-validite: depuis le 02/09/2026 ; feu fixé et placé sous surveillance, reconnaissance drone du 09/09 sans fumée ni signe de reprise ; survols civils/parapente/ULM de nouveau autorisés depuis le 10/09 ; accès au sol donné strictement interdit aux randonneurs et bergers par la dernière information publiée (presse, 10/09/2026) ; au 12/11/2026, ni arrêté d'interdiction consultable ni annonce de réouverture du GR®10
+validite: alerte close le 13/11/2026 faute de publication depuis le 10/09/2026 : ni arrêté d'interdiction consultable ni annonce de réouverture du GR®10 ; zone brûlée de 130 ha sur le tracé (feu du 02/09/2026, fixé le 10/09), état du sentier non documenté
 detection: 2026-09-07
-verif: 2026-11-12
-statut: ACTIF — CHANGÉ 12/11 : DÉGRADÉE de HAUTE en MOYENNE. Trois recherches (presse locale, préfecture 64, PN Pyrénées, rando64) : aucun arrêté municipal ou préfectoral d'interdiction d'accès au sol retrouvé, aucune réouverture non plus ; dernière source = lasemainedespyrenees.fr du 10/09 (une seule presse, deux mois). Peut repasser HAUTE si un acte est publié. Pistes restantes : mairie d'Etsaut, mairie de Cette-Eygun, recueil des actes de la préfecture 64.
+verif: 2026-11-13
+statut: [CLÔTURÉ] (2026-11-13) Clôture motivée, deuxième passage sans source : recherche du 13/11 (arrêté d'Etsaut ou de Cette-Eygun, préfecture 64, réouverture du GR®10) sans résultat, ni acte ni annonce de réouverture ; dernière publication = lasemainedespyrenees.fr du 10/09. Ce n'est PAS une levée confirmée. verif porté au 13/11 (recherche du jour et clôture). À rouvrir (HAUTE possible) si un arrêté ou une information de terrain est publié.
 ordre: 221
 ---
 
 ## Portion concernée
 
-**Crête du Pas d'Ourtasse, entre Etsaut et Cette-Eygun (vallée d'Aspe, Pyrénées-Atlantiques), sur l'étape du GR®10 qui relie les deux villages.** Raison : incendie de forêt en haute montagne, parti le 02/09/2026, qui a parcouru 130 hectares sur un terrain escarpé ; le feu est fixé et sous surveillance depuis le 10/09 (aucune fumée ni signe de reprise lors de la reconnaissance par drone du 09/09). La dernière information publiée, un article de presse du 10/09/2026, donnait l'accès au sol strictement interdit à tous les usagers, randonneurs et bergers compris. Au 12/11/2026, aucun arrêté d'interdiction d'accès n'a été retrouvé sur le site de la préfecture des Pyrénées-Atlantiques ni dans la presse locale, et aucune réouverture du GR®10 n'est annoncée non plus : l'état actuel du sentier dans la zone brûlée n'est pas documenté. Se renseigner auprès de la mairie d'Etsaut avant de s'y engager.
+**Crête du Pas d'Ourtasse, entre Etsaut et Cette-Eygun (vallée d'Aspe, Pyrénées-Atlantiques), sur l'étape du GR®10 qui relie les deux villages.** Raison : un incendie parti le 02/09/2026 y a parcouru 130 hectares de terrain escarpé ; il est fixé et sous surveillance depuis le 10/09/2026. Cette alerte est close le 13/11/2026 sans que le sentier soit donné rouvert. Aucun arrêté d'interdiction d'accès au sol n'a été retrouvé, aucune réouverture du GR®10 n'est annoncée, et la dernière information publiée reste un article de presse du 10/09/2026 qui donnait l'accès strictement interdit à tous les usagers, randonneurs et bergers compris. L'état du sentier dans la zone brûlée n'est pas documenté. Se renseigner auprès de la mairie d'Etsaut avant de s'y engager.
 
 ## Alternative
 
@@ -53,6 +53,8 @@ Dimanche soir : la préfecture porte le bilan à 125 hectares et qualifie la sit
 11/11 : nouvelle vérification ciblée, aucune information de réouverture du Pas d'Ourtasse. L'article de La Semaine des Pyrénées du 10/09 (feu fixé, zone interdite d'accès) reste en ligne et demeure la dernière information publiée.
 
 12/11 (jeudi) : soixante et onze jours après le départ de feu, de nouvelles recherches dans la presse locale, sur le site de la préfecture des Pyrénées-Atlantiques, auprès du Parc national des Pyrénées et du comité départemental de randonnée ne retrouvent ni arrêté municipal ou préfectoral interdisant l'accès au sol, ni annonce de réouverture. L'article de La Semaine des Pyrénées du 10/09 reste la dernière information publiée. L'interdiction d'accès n'étant plus attestée que par cette seule source de presse, vieille de deux mois, l'alerte passe du rouge à l'orange : elle signale une zone brûlée de 130 hectares sur le tracé, dont l'état actuel n'est pas documenté, et non une interdiction en vigueur établie par un acte consultable.
+
+13/11 (vendredi) : une nouvelle recherche d'un arrêté des communes d'Etsaut ou de Cette-Eygun, d'un acte de la préfecture des Pyrénées-Atlantiques ou d'une annonce de réouverture du GR®10 ne donne rien. Deux mois après la dernière information publiée (10/09), l'alerte est close faute d'élément nouveau. Ce qui est établi : l'étape du GR®10 entre Etsaut et Cette-Eygun traverse une zone brûlée de 130 hectares ; aucun arrêté d'interdiction d'accès au sol n'a été retrouvé ; aucune réouverture n'a été annoncée. La clôture ne vaut pas réouverture : se renseigner auprès de la mairie d'Etsaut.
 
 ## Source
 
