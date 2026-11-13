@@ -58,4 +58,4 @@ Alternative affichée jusqu'au 13/11/2026 : Le parc recommandait la variante GR�
 
 ## Source
 
-[ecrins-parcnational.fr 24/06/2026](https://www.ecrins-parcnational.fr/actualite/gr54-informations-recommandations) ; [ecrins-parcnational.fr 24/06/2026, page « GR54 informations et recommandations » introuvable (erreur 404) le 13/11/2026](https://www.ecrins-parcnational.fr/actualite/gr54-informations-recommandations)
+[ecrins-parcnational.fr 24/06/2026](https://www.ecrins-parcnational.fr/actualite/gr54-informations-recommandations) ; [ecrins-parcnational.fr, page « GR54 informations et recommandations » introuvable (erreur 404) le 13/11/2026](https://www.ecrins-parcnational.fr/actualite/gr54-informations-recommandations)
