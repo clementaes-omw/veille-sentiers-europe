@@ -3,16 +3,16 @@ cle: incendie|Aude-Montseret-Corbieres|feu-fixe-100ha|2026-08-06
 type: incendie
 itin: GR®36 (traversée des Corbières) ; GR®367 Sentier Cathare (Corbières) — [HYPOTHÈSE] aucune source ne nomme un sentier, recoupement avec la commune de Montséret à confirmer
 sev: MOYENNE
-validite: aucune restriction en vigueur : feu fixé dès le soir du départ, situation stable depuis lors, aucun arrêté d'interdiction d'accès ni fermeture de sentier publié à ce jour
+validite: feu fixé le 06/08/2026 au soir, environ 100 hectares parcourus ; déclaration d'extinction non retrouvée ; aucune fermeture de sentier ni arrêté d'accès publié
 detection: 2026-08-13
-verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucune source postérieure au 07/08 (ni reprise ni annonce d'extinction explicite). Toujours aucun arrêté d'interdiction d'accès ni de fermeture de sentier documenté au-delà des routes départementales déjà citées. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire echo-des-tribunes.com et lejournaltoulousain.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-13
+statut: [CLÔTURÉ] (2026-11-13) : feu fixé depuis le 06/08, sans reprise signalée depuis plus de trois mois, aucune fermeture de sentier ni arrêté jamais retrouvé. Extinction non attestée en propres termes : la page Aude de feuxdeforet.fr (relue le 13/11) ne cite ce feu que par son titre du 06/08 (« le feu est contenu ») et ne liste aucun feu dans le département après le 27/09. aude.gouv.fr non relu sur ce feu. Réouverture des RD61, RD123 et RD423 non documentée.
 ordre: 110
 ---
 
 ## Portion concernée
 
-**Massif des Corbières, commune de Montséret (Aude)**, à quelques kilomètres du secteur touché par le mégafeu de 2025. Environ 100 hectares parcourus (dont 50 réellement brûlés), progression vers Saint-André-de-Roquelongue. Raison : feu de végétation parti le 06/08/2026 vers 16h05, provoqué par un accident de la circulation, fixé le soir même. Les routes départementales 61, 123 et 423 ont été fermées à la circulation entre Montséret et Saint-André-de-Roquelongue.
+**Massif des Corbières, commune de Montséret (Aude) : le feu du 06/08/2026 est fixé depuis le soir même et aucune reprise n'a été signalée depuis.** Il a parcouru environ 100 hectares (dont 50 réellement brûlés) en direction de Saint-André-de-Roquelongue. Aucune fermeture de sentier ni arrêté d'interdiction d'accès n'a été publié, ni pendant le feu ni depuis. Deux points ne sont documentés par aucune source : la déclaration d'extinction, et la réouverture des routes départementales 61, 123 et 423, fermées le jour du feu entre Montséret et Saint-André-de-Roquelongue. Raison : feu de végétation parti le 06/08/2026 vers 16h05 d'un accident de la circulation.
 
 ## Alternative
 
@@ -26,6 +26,10 @@ Aucune fermeture de sentier n'est publiée à ce jour. Se renseigner sur l'état
 
 Ce départ de feu survient à proximité du secteur ravagé par le mégafeu des Corbières de 2025, sans lien de cause direct établi par les sources consultées. Aucun sentier de grande randonnée n'est nommé par les articles disponibles : le massif des Corbières est traversé par le GR®36 (Ouistreham↔Bourg-Madame) et par le GR®367 Sentier Cathare, mais le recoupement précis du tracé avec le secteur brûlé de Montséret reste à établir.
 
+Constat affiché jusqu'au 13/11/2026 (état au 27/09) : Massif des Corbières, commune de Montséret (Aude), à quelques kilomètres du secteur touché par le mégafeu de 2025. Environ 100 hectares parcourus (dont 50 réellement brûlés), progression vers Saint-André-de-Roquelongue. Raison : feu de végétation parti le 06/08/2026 vers 16h05, provoqué par un accident de la circulation, fixé le soir même. Les routes départementales 61, 123 et 423 ont été fermées à la circulation entre Montséret et Saint-André-de-Roquelongue.
+
+13/11/2026 : plus de trois mois après le départ du feu, aucune reprise n'est signalée. La page du département de l'Aude sur feuxdeforet.fr, consultée ce jour, ne mentionne ce feu que par son titre du 06/08 (« le feu est contenu », 100 hectares) et ne recense aucun feu dans l'Aude après le 27/09/2026. Aucune déclaration d'extinction, aucun arrêté d'accès et aucune annonce de réouverture des routes départementales 61, 123 et 423 n'ont été retrouvés.
+
 ## Source
 
-[echo-des-tribunes.com (Aude Tribune), Feu dans les Corbières : les pompiers toujours mobilisés, mais « l'évolution est favorable »](https://echo-des-tribunes.com/aude-tribune/articles/feu-dans-les-corbieres-les-pompiers-toujours-mobilises-mais-levolution-est-favorable) ; [lejournaltoulousain.fr 07/08/2026, incendie dans l'Aude : le feu est fixé après avoir parcouru 100 hectares](https://www.lejournaltoulousain.fr/occitanie/aude/aude-actualites/incendie-fixe-apres-avoir-parcouru-100-hectares-394387/) ; [echo-des-tribunes.com (Aude Tribune), Départ de feu dans les Corbières : des habitations menacées à Montséret](https://echo-des-tribunes.com/aude-tribune/articles/depart-de-feu-dans-les-corbieres-des-habitations-menacees-a-montseret)
+[echo-des-tribunes.com (Aude Tribune), Feu dans les Corbières : les pompiers toujours mobilisés, mais « l'évolution est favorable »](https://echo-des-tribunes.com/aude-tribune/articles/feu-dans-les-corbieres-les-pompiers-toujours-mobilises-mais-levolution-est-favorable) ; [lejournaltoulousain.fr 07/08/2026, incendie dans l'Aude : le feu est fixé après avoir parcouru 100 hectares](https://www.lejournaltoulousain.fr/occitanie/aude/aude-actualites/incendie-fixe-apres-avoir-parcouru-100-hectares-394387/) ; [echo-des-tribunes.com (Aude Tribune), Départ de feu dans les Corbières : des habitations menacées à Montséret](https://echo-des-tribunes.com/aude-tribune/articles/depart-de-feu-dans-les-corbieres-des-habitations-menacees-a-montseret) ; [feuxdeforet.fr, page du département de l'Aude, consultée le 13/11/2026](https://feuxdeforet.fr/aude-11/)
