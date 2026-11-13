@@ -3,20 +3,20 @@ cle: incendie|HautesPyrenees-Bareges|Pic-Lurtet-Glere-piste-fermee|2026-07-08
 type: incendie / fermeture piste
 itin: GR®10 (Barèges, village-étape) ; HRP (vallée de la Glère, refuge de la Glère) — [HYPOTHÈSE] portion exacte du sentier HRP vs piste de la Glère à recouper
 sev: MOYENNE (feu éteint selon deux sources recoupées le 31/08 ; piste de la Glère toujours non confirmée rouverte)
-validite: feu éteint (feuxdeforet.fr ; plus aucune détection satellite NASA FIRMS depuis début août) ; piste de la Glère présumée fermée jusqu'à nouvel ordre, faute de source confirmant sa réouverture
+validite: feu éteint (établi le 31/08/2026 : feuxdeforet.fr et absence de détection satellite depuis le 02/08) ; aucune source ne documente ni la fermeture ni la réouverture de la piste de la Glère
 detection: 2026-07-21
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune source ne documente la réouverture de la piste de la Glère ni un nouvel épisode sur ce feu, toujours donné éteint depuis le 31/08 (feuxdeforet.fr, recoupé par l'absence de détection satellite NASA FIRMS/VIIRS depuis le 02/08). L'état de la piste de la Glère elle-même (chutes de pierres, accès au refuge) reste non tranché : aucune source ne mentionne sa réouverture. Sévérité maintenue MOYENNE, la fermeture de la piste restant présumée par prudence. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 49 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire feuxdeforet.fr et incendieencours.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-13
+statut: [CLÔTURÉ] (2026-11-13) : feu éteint depuis fin août (deux sources recoupées le 31/08) ; la fermeture de la piste de la Glère n'a jamais été attestée par un acte ni par un article, elle n'était que présumée. Aucune source relue ce jour : la fiche feuxdeforet.fr du feu répond 404 le 13/11, pas d'autre lecture faute de budget. Clôture demandée par le contrôle qualité, faute de restriction attestée ; état de la piste et du refuge de la Glère non documenté.
 ordre: 39
 ---
 
 ## Portion concernée
 
-**Piste de la Glère (au-dessus de Barèges, 65) : feu de forêt du Pic de Lurtet déclaré éteint, état de la piste elle-même non confirmé.** feuxdeforet.fr affiche désormais le feu comme éteint, confirmé par l'absence de toute détection thermique satellite (NASA FIRMS/VIIRS) depuis le 02/08/2026. Aucune source, officielle ou de presse, ne documente en revanche la réouverture de la piste elle-même (risque de chutes de pierres sur le terrain fragilisé par le feu, qui avait brûlé au moins 150 ha en altitude sur pente raide) : elle reste présumée fermée par prudence.
+**Piste de la Glère (au-dessus de Barèges, Hautes-Pyrénées) : le feu du Pic de Lurtet est éteint, et l'état de la piste n'est documenté par aucune source.** Le feu, parti le 08/07/2026 par la foudre, a brûlé au moins 150 hectares en altitude sur pente raide ; il est donné éteint depuis la fin août, sans détection thermique par satellite depuis le 02/08/2026. Aucun arrêté ni aucune annonce ne ferme la piste, et aucune source n'annonce non plus sa réouverture ou celle de l'accès au refuge de la Glère : la fermeture indiquée jusqu'ici était une précaution, pas un acte publié. Raison : terrain fragilisé par le feu, risque de chutes de pierres qu'aucune source n'a évalué publiquement.
 
 ## Alternative
 
-Aucune alternative connue à ce jour pour la piste de la Glère.
+Sans objet : aucune fermeture de la piste de la Glère n'est publiée. Sa réouverture n'est pas annoncée non plus : l'état de la piste après le feu n'est pas documenté.
 
 ## Zone (détails)
 
@@ -37,6 +37,10 @@ MAJ 05/08 : dégradation HAUTE→MOYENNE appliquée (règle des 14 jours d'agent
 MAJ 31/08 : feuxdeforet.fr affiche désormais explicitement « le feu est éteint ». Recoupement obtenu via incendieencours.fr (données satellite NASA FIRMS/VIIRS) : plus aucune détection thermique sur ce foyer depuis le 02/08/2026 (dernières détections les 16/07, 28/07 et 02/08). Aucune source officielle (préfecture 65) ni presse datée ne confirme l'extinction en propres termes, mais le recoupement de deux sources indépendantes, dont une mesure satellite, est jugé suffisant pour acter le fait. L'état de la piste de la Glère elle-même (accès au refuge, risque de chutes de pierres) n'est en revanche mentionné par aucune source : elle reste présumée fermée par prudence, sévérité maintenue MOYENNE.
 
 MAJ 14/09 : nouvelle recherche dédiée (feuxdeforet.fr, lasemainedespyrenees.fr, toulouse7.com), toujours aucune mention de la réouverture de la piste de la Glère ni du refuge. Le feu reste donné éteint depuis fin août, sans nouvelle source sur l'état du terrain lui-même.
+
+Constat affiché jusqu'au 13/11/2026 (état au 14/09) : Piste de la Glère (au-dessus de Barèges, 65) : feu de forêt du Pic de Lurtet déclaré éteint, état de la piste elle-même non confirmé. feuxdeforet.fr affiche désormais le feu comme éteint, confirmé par l'absence de toute détection thermique satellite (NASA FIRMS/VIIRS) depuis le 02/08/2026. Aucune source, officielle ou de presse, ne documente en revanche la réouverture de la piste elle-même (risque de chutes de pierres sur le terrain fragilisé par le feu, qui avait brûlé au moins 150 ha en altitude sur pente raide) : elle reste présumée fermée par prudence.
+
+13/11/2026 : aucune source nouvelle sur ce feu ni sur la piste. La fiche que feuxdeforet.fr consacrait au feu de Barèges n'est plus en ligne. Le feu reste donné éteint depuis fin août ; aucun arrêté de fermeture de la piste de la Glère n'a jamais été retrouvé, et aucune annonce de réouverture non plus.
 
 ## Source
 
