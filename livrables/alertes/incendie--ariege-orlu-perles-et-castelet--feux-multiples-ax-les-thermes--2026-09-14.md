@@ -4,23 +4,20 @@ type: incendie
 itin: [HYPOTHÈSE] secteur d'Ax-les-Thermes/Mérens-les-Vals, à proximité du GR®10 et de la HRP ;
   aucune source consultée ne nomme un itinéraire balisé ni n'annonce de fermeture de sentier
 sev: MOYENNE
-validite: plusieurs foyers actifs ou en reprise depuis mi-septembre dans le secteur d'Orlu et
-  de Perles-et-Castelet (Haute-Ariège) ; dernière reprise significative le 26/09/2026
-  (Perles-et-Castelet, 55 ha selon radiocouserans.fr du 26/09) ; aucune fermeture de sentier ni arrêté d'accès nommé
-  n'est documenté à ce jour
+validite: Orlu : plus aucune détection satellite depuis le 23/09/2026 (feudeforet.com, lu le 14/11/2026), extinction officielle non publiée ; Perles-et-Castelet : aucune source postérieure au 01/10/2026 ; aucune fermeture de sentier ni arrêté d'accès n'a été publié ; fiche close le 14/11/2026
 detection: 2026-09-28
-verif: 2026-10-06
-statut: ACTIF — INCHANGÉ 06/10, dernier changement 29/09 : ICI du 01/10 confirme quatre feux encore actifs en Ariège (Saurat, Orlu, Perles-et-Castelet, Mijanès), en surveillance, sans fermeture de sentier annoncée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire feudeforet.com et feuxdeforet.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-14
+statut: [CLÔTURÉ] (2026-11-14) : feudeforet.com/incendie/orlu-septembre-2026 lu le 14/11 : « épisode terminé pour les satellites : aucune détection depuis 51 jours », dernière détection le 23/09/2026 à 15h10, 27 ha (EFFIS) ; la page précise que cela ne vaut pas extinction officielle et ne mentionne ni Perles-et-Castelet ni sentier fermé. Aucune fermeture de sentier ni arrêté d'accès retrouvé depuis la détection. Non établi : déclaration officielle d'extinction pour Orlu et pour Perles-et-Castelet (dernier état connu : ICI du 01/10, feux en surveillance). Fiche individuelle feuxdeforet.fr non lue.
 ordre: 256
 ---
 
 ## Portion concernée
 
-**Réserve nationale de chasse et de faune sauvage d'Orlu et commune de Perles-et-Castelet (Haute-Ariège, secteur d'Ax-les-Thermes).** Deux foyers distincts, actifs par intermittence depuis la mi-septembre 2026 : à Orlu, un feu détecté par satellite entre le 14 et le 23/09 (surface officielle Copernicus/EFFIS de 27 hectares), sous surveillance par drone sans fumée visible ; à Perles-et-Castelet, un feu initial du 26/08 de 55 hectares, avec seulement des points chauds mineurs au 26/09 et « pas de risque immédiat » selon la presse locale. Raison : sécheresse persistante. Aucune source consultée ne documente de fermeture de sentier ni d'arrêté d'accès aux massifs pour ce secteur ; le GR®10 et la HRP passent à proximité (Ax-les-Thermes, Mérens-les-Vals), sans qu'aucun rattachement direct ne soit confirmé.
+**Réserve nationale de chasse et de faune sauvage d'Orlu et commune de Perles-et-Castelet (Haute-Ariège, secteur d'Ax-les-Thermes) : aucune fermeture de sentier n'a été publiée pour les feux de septembre 2026.** À Orlu, aucune détection satellite n'est relevée depuis le 23/09/2026 (site de suivi feudeforet.com, lu le 14/11/2026), pour une surface officielle Copernicus/EFFIS de 27 hectares ; ce constat ne vaut pas déclaration officielle d'extinction, qui n'est pas publiée. À Perles-et-Castelet (55 hectares), le dernier état connu date du 01/10/2026 : feu en surveillance, et aucune source plus récente n'a été retrouvée. Aucun arrêté d'accès n'a été publié non plus pour ce secteur, et l'alerte est close. Le GR®10 et la HRP passent à proximité (Ax-les-Thermes, Mérens-les-Vals), sans qu'aucun rattachement direct ne soit confirmé. Raison : feux de végétation sur fond de sécheresse persistante.
 
 ## Alternative
 
-Aucune alternative connue à ce jour : aucune fermeture de sentier n'est documentée.
+Sans objet : aucune fermeture de sentier n'a été publiée.
 
 ## Zone (détails)
 
@@ -36,6 +33,8 @@ Aucune alternative connue à ce jour : aucune fermeture de sentier n'est documen
 
 26/09 : Perles-et-Castelet compte 55 hectares avec des points chauds mineurs, sans risque immédiat ; Orlu reste sous surveillance par drone. La reprise de Saurat atteint 5 hectares supplémentaires, pour 56 hectares au total, sur un terrain inaccessible aux engins au sol.
 
+14/11/2026 : le site de suivi feudeforet.com ne relève plus aucune détection satellite sur le feu d'Orlu depuis le 23/09/2026 (27 hectares selon Copernicus/EFFIS) ; il précise que ce constat ne vaut pas extinction officielle. Aucune source postérieure au 01/10 n'a été retrouvée pour Perles-et-Castelet. Aucune fermeture de sentier n'a été publiée depuis septembre : l'alerte est close.
+
 ## Source
 
-[feudeforet.com, incendie Orlu, septembre 2026](https://feudeforet.com/incendie/orlu-septembre-2026) ; [feuxdeforet.fr, 14/09/2026](https://feuxdeforet.fr) ; [pyreneesfm.com, 14-26/09/2026, Perles-et-Castelet](https://pyreneesfm.com) ; [radiocouserans.fr](https://radiocouserans.fr) ; [titrespresse.com, 22794622603, situation inédite en Haute-Ariège](https://www.titrespresse.com/22794622603)
+[feudeforet.com, incendie Orlu, septembre 2026](https://feudeforet.com/incendie/orlu-septembre-2026) ; [feuxdeforet.fr, 14/09/2026](https://feuxdeforet.fr) ; [pyreneesfm.com, 14-26/09/2026, Perles-et-Castelet](https://pyreneesfm.com) ; [radiocouserans.fr](https://radiocouserans.fr) ; [titrespresse.com, 22794622603, situation inédite en Haute-Ariège](https://www.titrespresse.com/22794622603) ; [feudeforet.com, incendie Orlu septembre 2026, page lue le 14/11/2026 : aucune détection satellite depuis le 23/09/2026, 27 hectares (EFFIS)](https://feudeforet.com/incendie/orlu-septembre-2026)

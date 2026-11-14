@@ -5,14 +5,14 @@ itin: GR®240 Sulayr (Sierra Nevada, provinces de Grenade et Almería)
 sev: MOYENNE
 validite: trois avis officiels distincts affichés, sans date de réouverture pour aucun des trois
 detection: 2026-09-27
-verif: 2026-10-06
-statut: ACTIF. Ventana del Visitante (Junta) confirmé via recherche le 06/10 : tronçon 2 fermé depuis le 16/09, tronçons 13 et 14 en travaux forestiers, tronçon 17 fermé pour restauration. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 27 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire juntadeandalucia.es, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-14
+statut: ACTIF, inchangé : page de la Ventana del Visitante (Junta de Andalucía) relue le 14/11/2026, les trois avis sont toujours affichés (tronçon 2, 16/09/2026 ; tronçons 13 et 14, 23/04/2026 ; tronçon 17, 28/08/2026), sans date de réouverture, aucun avis nouveau. La page ne donne que titres et extraits.
 ordre: 253
 ---
 
 ## Portion concernée
 
-**Trois tronçons du GR®240 Sulayr (Sierra Nevada, Grenade) restent fermés au public**, selon les avis publiés par la Ventana del Visitante de la Junta de Andalucía. Le tronçon 2 (rivière Monachil ↔ Collado de Marín, 7 km, 960 m de dénivelé) fait l'objet d'une fermeture temporaire depuis le 16/09/2026, sans raison précisée par la source consultée. Le tronçon 17 est fermé pour travaux de restauration depuis le 28/08/2026. Les tronçons 13 et 14 sont concernés par un avis de travaux forestiers publié le 23/04/2026, dont la source ne précise pas s'il est toujours en vigueur cinq mois plus tard.
+**GR®240 Sulayr (Sierra Nevada, Grenade) : tronçons 2 et 17 fermés au public, travaux forestiers signalés sur les tronçons 13 et 14**, selon les trois avis publiés par la Ventana del Visitante de la Junta de Andalucía. Le tronçon 2 (rivière Monachil ↔ Collado de Marín, 7 km, 960 m de dénivelé) fait l'objet d'une fermeture temporaire depuis le 16/09/2026, sans raison précisée par la source consultée. Le tronçon 17 est fermé pour travaux de restauration depuis le 28/08/2026. Les tronçons 13 et 14 sont concernés par un avis de travaux forestiers publié le 23/04/2026, dont la source ne précise ni la date de fin ni si le passage est fermé. Au 14/11/2026, les trois avis restent affichés, sans date de réouverture.
 
 ## Alternative
 

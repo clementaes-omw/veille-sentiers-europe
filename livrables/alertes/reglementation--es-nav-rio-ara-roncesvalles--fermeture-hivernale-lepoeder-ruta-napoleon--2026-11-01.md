@@ -3,10 +3,10 @@ cle: reglementation|ES-NAV-RIO-ARA-Roncesvalles|fermeture-hivernale-Lepoeder-Rut
 type: réglementation / fermeture saisonnière
 itin: Camino Francés, variante Route Napoléon (Saint-Jean-Pied-de-Port ↔ Roncesvalles par le col de Lepoeder)
 sev: MOYENNE
-validite: du 01/11 au 31/03 chaque hiver (régime en vigueur depuis l'hiver 2015-2016) ; reconduction 2026-2027 attendue aux mêmes dates, note officielle de la saison non retrouvée
+validite: du 01/11 au 31/03 chaque hiver, soit jusqu'au 31/03/2027 pour l'hiver 2026-2027 (régime en vigueur depuis l'hiver 2015-2016) ; reconduction 2026-2027 attendue aux mêmes dates, note officielle de la saison non retrouvée
 detection: 2026-11-02
 verif: 2026-11-09
-statut: ACTIF — NOUVEAU 02/11 : régime annuel du Gobierno de Navarra (presse 07/11/2025, guide viajecaminodesantiago.com du 08/10/2026). Sévérité MOYENNE faute de note officielle 2026-2027 lue ; à passer HAUTE si le communiqué du Gobierno de Navarra ou un panneau officiel est retrouvé. Piste : site Gobierno de Navarra / Bomberos de Navarra, 1 recherche ciblée par run jusqu'à confirmation.
+statut: ACTIF. Fiche ouverte le 02/11 : régime annuel du Gobierno de Navarra (presse 07/11/2025, guide viajecaminodesantiago.com du 08/10/2026). Sévérité MOYENNE faute de note officielle 2026-2027 lue ; à passer HAUTE si le communiqué du Gobierno de Navarra ou un panneau officiel est retrouvé. Piste : site Gobierno de Navarra / Bomberos de Navarra, 1 recherche ciblée par run jusqu'à confirmation.
 ordre: 263
 ---
 

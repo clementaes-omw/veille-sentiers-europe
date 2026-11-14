@@ -5,7 +5,7 @@ itin: TMB (variante suisse Champex/Orsières, Val Ferret) ; [HYPOTHÈSE] tronço
 sev: MOYENNE
 validite: 11/07/2026 → 07/07/2027
 detection: 2026-07-17
-verif: 2026-11-02
+verif: 2026-11-14
 statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2599515 « Orsières - Tour du Mont Blanc » du 11.07.2026 au 07.07.2027, dernière modification 08/07/2026, aucun changement depuis la dernière vérification.
 ordre: 26
 ---

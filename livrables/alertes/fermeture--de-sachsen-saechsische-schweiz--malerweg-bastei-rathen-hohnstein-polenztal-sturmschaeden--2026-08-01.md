@@ -3,10 +3,10 @@ cle: fermeture|DE-Sachsen-SaechsischeSchweiz|Malerweg-Bastei-Rathen-Hohnstein-Po
 type: fermeture / dégâts tempête
 itin: Malerweg (Suisse Saxonne) — secteur Bastei ↔ Rathen ↔ Hohnstein ↔ vallée de la Polenz
 sev: MOYENNE
-validite: l'Allgemeinverfügung du 14/08/2026 est abrogée depuis le 06/11/2026 à 24h00 ; Amselsee et bas de l'Amselgrund annoncés rouverts au 07/11 ; Pionierweg, Knotenweg et départ du Basteiweg vers la Felsenbühnenkasse restent fermés sans date
+validite: l'Allgemeinverfügung du 14/08/2026 est abrogée depuis le 06/11/2026 à 24h00 ; Amselsee et bas de l'Amselgrund annoncés rouverts au 07/11 ; Pionierweg, Knotenweg et départ du Basteiweg vers la Felsenbühnenkasse restent fermés jusqu'à nouvel ordre, sans date
 detection: 2026-08-06
 verif: 2026-11-07
-statut: ACTIF — CHANGÉ 07/11 : dégradée HAUTE→MOYENNE. Landratsamt Pirna (landratsamt-pirna.de/forst, publié 04/11) : abrogation de l'Allgemeinverfügung du 14/08 avec effet 06/11 24h00 ; nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung (dernier ajout du 14/08, mentionne la levée au 07/11 pour Amselsee/Amselgrund bas/Füllhölzelweg). Restent fermés Pionierweg, Knotenweg (réparations), branche du Basteiweg vers la Felsenbühnenkasse. Non confirmé : retrait de la déviation balisée du Malerweg étape 2 et sort du Gamrig (saechsische-schweiz.de/gut-zu-wissen/aktuelles 503 le 07/11, page tourisme sans date). À relire au prochain passage : clôturer si la déviation est retirée.
+statut: ACTIF. Dernier changement le 07/11 : dégradée HAUTE→MOYENNE. Landratsamt Pirna (landratsamt-pirna.de/forst, publié 04/11) : abrogation de l'Allgemeinverfügung du 14/08 avec effet 06/11 24h00 ; nationalpark-saechsische-schweiz.de/warnungen/eilmeldung-waldsperrung (dernier ajout du 14/08, mentionne la levée au 07/11 pour Amselsee/Amselgrund bas/Füllhölzelweg). Restent fermés Pionierweg, Knotenweg (réparations), branche du Basteiweg vers la Felsenbühnenkasse. Non confirmé : retrait de la déviation balisée du Malerweg étape 2 et sort du Gamrig (saechsische-schweiz.de/gut-zu-wissen/aktuelles 503 le 07/11, page tourisme sans date). À relire au prochain passage : clôturer si la déviation est retirée.
 ordre: 99
 ---
 

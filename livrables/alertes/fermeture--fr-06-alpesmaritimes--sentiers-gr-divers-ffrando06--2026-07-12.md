@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermetures maintenues jusqu'à nouvel ordre pour la plupart des sections (arrêtés de 2019 à 2025) ; GR®653A à Roquefort-les-Pins fermé du 26/10 au 27/11/2026 ; GR®5 à Beuil en fermeture annuelle du 31/10 au 30/04 ; échéances passées pour le GR®52A à Beuil (02/10/2026) et la Piste des Merveilles à Tende (30/10/2026) ; page FFRando 06 mise à jour au 27/10/2026
 detection: 2026-08-01
 verif: 2026-11-13
-statut: ACTIF — CHANGÉ 13/11 : page FFRando 06 relue en direct, désormais datée du 27/10/2026. Nouveau : GR®653A Roquefort-les-Pins (b.264-267) fermé du 26/10 au 27/11/2026 ; fermeture annuelle du GR®5 à Beuil (b.143-110) en cours depuis le 31/10. Échus et retirés du présent : Beuil GR®52A (02/10) et Piste des Merveilles (30/10), que la page liste encore avec leurs dates passées, sans prolongation. Prochaine échéance : 27/11 (Roquefort-les-Pins). Levens : la page donne désormais un début au 16/02/2026 et « durée du chantier » (la fiche disait « jusqu'à fin février 2026 »).
+statut: ACTIF. Dernier changement le 13/11 : page FFRando 06 relue en direct, désormais datée du 27/10/2026. Nouveau : GR®653A Roquefort-les-Pins (b.264-267) fermé du 26/10 au 27/11/2026 ; fermeture annuelle du GR®5 à Beuil (b.143-110) en cours depuis le 31/10. Échus et retirés du présent : Beuil GR®52A (02/10) et Piste des Merveilles (30/10), que la page liste encore avec leurs dates passées, sans prolongation. Prochaine échéance : 27/11 (Roquefort-les-Pins). Levens : la page donne désormais un début au 16/02/2026 et « durée du chantier » (la fiche disait « jusqu'à fin février 2026 »).
 ordre: 64
 ---
 

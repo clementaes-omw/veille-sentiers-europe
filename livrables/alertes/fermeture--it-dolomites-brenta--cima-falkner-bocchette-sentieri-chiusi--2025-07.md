@@ -5,8 +5,8 @@ itin: Réseau Bocchette (hors P1)
 sev: MOYENNE
 validite: depuis juillet 2025
 detection: 2025-07
-verif: 2026-10-10
-statut: ACTIF — CHANGÉ 29/08 : source officielle SAT retrouvée, précisant les sentiers fermés par leur numéro (au lieu de la seule mention de presse). Statut de fond inchangé. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire sat.tn.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-14
+statut: ACTIF. Inchangé au 14/11/2026 : page officielle SAT relue ce jour, toujours datée du 10/07/2026 (« Permane quindi per la stagione 2026 la chiusura »), sentiers O331 et O305 fermés, aucune mise à jour ni réouverture publiée. À revoir au printemps 2027 (décision pour la saison suivante).
 ordre: 53
 ---
 
