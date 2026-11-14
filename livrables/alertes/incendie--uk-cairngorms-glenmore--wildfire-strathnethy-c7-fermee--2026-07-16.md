@@ -6,7 +6,7 @@ sev: INFO (dégradée MOYENNE→INFO le 11/11/2026 : le Ryvoan Trail et le senti
 validite: fermetures résiduelles sans date de fin annoncée (parking et chemin d'Allt Mor, Lodge Trail) ; le Ryvoan Trail et l'accès à An Lochan Uaine ont rouvert début octobre
 detection: 2026-07-22
 verif: 2026-11-11
-statut: ACTIF — CHANGÉ 11/11 : FLS « Path reopens to An Lochan Uaine following wildfire recovery work » (05/10) ; cairngorms.co.uk/alerts et la page Glenmore de FLS (lues le 11/11) ne listent plus que le parking/chemin d'Allt Mor et le Lodge Trail. Le right of way Glenmore ↔ Nethy Bridge (Ryvoan bothy) n'apparaît plus dans aucune alerte, sans avis de réouverture explicite retrouvé (texte FLS du 05/10 non lu en entier, walkhighlands en 403). Dégradée MOYENNE→INFO.
+statut: ACTIF. Dernier changement le 11/11 : FLS « Path reopens to An Lochan Uaine following wildfire recovery work » (05/10) ; cairngorms.co.uk/alerts et la page Glenmore de FLS (lues le 11/11) ne listent plus que le parking/chemin d'Allt Mor et le Lodge Trail. Le right of way Glenmore ↔ Nethy Bridge (Ryvoan bothy) n'apparaît plus dans aucune alerte, sans avis de réouverture explicite retrouvé (texte FLS du 05/10 non lu en entier, walkhighlands en 403). Dégradée MOYENNE→INFO.
 ordre: 43
 ---
 

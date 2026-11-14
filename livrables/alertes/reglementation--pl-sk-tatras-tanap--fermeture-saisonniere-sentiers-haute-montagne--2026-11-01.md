@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: du 01/11/2026 au 31/05 (2027, année non précisée par la source) ; accès au Symbolický cintorín maintenu jusqu'au 15/12/2026
 detection: 2026-11-12
 verif: 2026-11-12
-statut: ACTIF — NOUVEAU 12/11 : annonce officielle tanap.sk du 30/10/2026 (lue le 12/11) + rappel dans le communiqué touristique du TPN du 11/11/2026. MOYENNE : régime saisonnier annuel et prévisible, de source officielle, traité comme la fermeture hivernale de Lepoeder. Fin de fermeture au 31/05 et non plus au 14/06 (date des articles antérieurs au règlement de visite de fin 2023 : ne pas la reprendre). La liste nominative complète des tronçons fermés n'a pas été lue (page tanap.sk dédiée et carte ArcGIS) : à compléter au prochain passage de la zone. Kriváň, Rysy et les cols ne sont pas cités nommément par l'article.
+statut: ACTIF. Fiche ouverte le 12/11 : annonce officielle tanap.sk du 30/10/2026 (lue le 12/11) + rappel dans le communiqué touristique du TPN du 11/11/2026. MOYENNE : régime saisonnier annuel et prévisible, de source officielle, traité comme la fermeture hivernale de Lepoeder. Fin de fermeture au 31/05 et non plus au 14/06 (date des articles antérieurs au règlement de visite de fin 2023 : ne pas la reprendre). La liste nominative complète des tronçons fermés n'a pas été lue (page tanap.sk dédiée et carte ArcGIS) : à compléter au prochain passage de la zone. Kriváň, Rysy et les cols ne sont pas cités nommément par l'article.
 ordre: 265
 ---
 

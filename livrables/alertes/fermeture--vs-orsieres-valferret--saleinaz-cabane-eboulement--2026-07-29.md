@@ -6,7 +6,7 @@ itin: TMB (val Ferret, secteur Praz-de-Fort) ; [HYPOTHÈSE] chemin d'accès à u
 sev: MOYENNE
 validite: fermé depuis le 29/07/2026, sans échéance annoncée par la commune ; le flux officiel Suisse Rando affiche une validité du 01/09/2026 au 31/01/2027
 detection: 2026-09-08
-verif: 2026-11-02
+verif: 2026-11-14
 statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2601396 « Orsières: Saleinaz » du 01.09.2026 au 31.01.2027, dernière modification 02/09/2026, aucun changement depuis la dernière vérification.
 ordre: 222
 ---

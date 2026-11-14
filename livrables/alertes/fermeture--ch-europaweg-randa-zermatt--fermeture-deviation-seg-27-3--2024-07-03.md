@@ -5,7 +5,7 @@ itin: Haute Route Chamonix-Zermatt (Europaweg, tronçon suisse Randa/St-Niklaus 
 sev: MOYENNE
 validite: 03/07/2024 → jusqu'à nouvel ordre (échéance administrative au 28/07/2027)
 detection: 2026-08-11
-verif: 2026-11-02
+verif: 2026-11-14
 statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2596502 « Europaweg : tronçon Springelboden - Eggenstadel » du 03/07/2024 au 28/07/2027, dernière modification 18/08/2026, aucun changement depuis la dernière vérification.
 ordre: 106
 ---

@@ -5,8 +5,8 @@ itin: Aucun P1 confirmé ; Bivacco Gervasutti (Forcella Spè, Dolomiti Friulane,
 sev: MOYENNE
 validite: inagibile jusqu'à nouvel ordre depuis au moins le 09/09/2026, aucune date de fin de travaux annoncée
 detection: 2026-09-14
-verif: 2026-10-10
-statut: ACTIF — NOUVEAU. Piste connue en mémoire interne depuis le 12/09 (date de publication non confirmée à l'époque) ; la date du 09/09/2026 est désormais confirmée par les métadonnées de publication de l'article il Dolomiti. Deux sources concordantes (CAI Cervignano, gestionnaire du bivouac, et il Dolomiti) : sévérité retenue MOYENNE malgré ce double sourçage, faute d'itinéraire P1 impacté (bivouac isolé, accès difficile, hors GR® majeur de la zone). À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ildolomiti.it et caicervignano.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-14
+statut: ACTIF. Inchangé au 14/11/2026 : fiche du bivouac sur caicervignano.it relue ce jour, l'avis « È ATTUALMENTE INAGIBILE » (revêtement intérieur dégradé, isolation contenant de l'amiante) y figure toujours, sans date, sans mention de travaux ni de remplacement. Sévérité MOYENNE maintenue faute d'itinéraire P1 concerné. À revoir au printemps 2027.
 ordre: 231
 ---
 
