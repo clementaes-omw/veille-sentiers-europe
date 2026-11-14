@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: depuis fin octobre 2026, travaux prévus jusqu'en décembre 2026 sous réserve de la météo ; déviation en place
 detection: 2026-11-11
 verif: 2026-11-11
-statut: ACTIF — NOUVEAU : avis FFRando 22 du 29/10/2026 (« Alertes sentiers »). Aucun arrêté cité, date exacte de début des travaux non publiée.
+statut: ACTIF : avis FFRando 22 du 29/10/2026 (« Alertes sentiers »). Aucun arrêté cité, date exacte de début des travaux non publiée.
 ordre: 264
 ---
 

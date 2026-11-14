@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermeture durable pour travaux, jusqu'en 2029 ; accueil provisoire sous tente terminé (réservations acceptées jusqu'au 17/10/2026) ; refuge d'hiver fermé et inaccessible pendant les travaux
 detection: 2026-05-20
 verif: 2026-11-13
-statut: ACTIF — CHANGÉ 13/11 : refugedescortalets.ffcam.fr relu (information datée du 01/10/2026) : réservations sous tente acceptées jusqu'au 17/10/2026, échéance passée ; refuge d'hiver fermé et inaccessible pendant les travaux, abri de 4 places à la jasse des Cortalets. La page ne dit rien de la saison 2027 ni de l'accès hivernal à l'abri. Travaux annoncés sur 2026, 2027 et 2028, réouverture 2029 (ffcam.fr, non relu ce jour). À relire au printemps 2027 pour le calendrier d'accueil provisoire.
+statut: ACTIF. Dernier changement le 13/11 : refugedescortalets.ffcam.fr relu (information datée du 01/10/2026) : réservations sous tente acceptées jusqu'au 17/10/2026, échéance passée ; refuge d'hiver fermé et inaccessible pendant les travaux, abri de 4 places à la jasse des Cortalets. La page ne dit rien de la saison 2027 ni de l'accès hivernal à l'abri. Travaux annoncés sur 2026, 2027 et 2028, réouverture 2029 (ffcam.fr, non relu ce jour). À relire au printemps 2027 pour le calendrier d'accueil provisoire.
 ordre: 3
 ---
 

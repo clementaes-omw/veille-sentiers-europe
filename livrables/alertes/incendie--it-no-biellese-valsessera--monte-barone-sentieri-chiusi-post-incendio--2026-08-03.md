@@ -9,7 +9,7 @@ sev: MOYENNE
 validite: ordonnances communales en vigueur jusqu'à nouvel ordre, aucune date de levée annoncée ; incendie éteint depuis le 21/08/2026 mais accès aux sentiers toujours interdit au 27/08/2026
 detection: 2026-08-29
 verif: 2026-10-10
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ansa.it et giornalelavoce.it, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+statut: ACTIF. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ansa.it et giornalelavoce.it, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 211
 ---
 
