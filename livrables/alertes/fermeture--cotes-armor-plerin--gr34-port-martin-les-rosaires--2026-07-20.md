@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 20/07/2026, déviation balisée en place
 detection: 2026-09-16
 verif: 2026-11-11
-statut: ACTIF — CHANGÉ 11/11 : avis toujours listé dans « Alertes sentiers » de FFRando 22 ; date de fermeture corrigée au 17/07 d'après le texte de l'avis (publié le 20/07).
+statut: ACTIF. Dernier changement le 11/11 : avis toujours listé dans « Alertes sentiers » de FFRando 22 ; date de fermeture corrigée au 17/07 d'après le texte de l'avis (publié le 20/07).
 ordre: 231
 ---
 

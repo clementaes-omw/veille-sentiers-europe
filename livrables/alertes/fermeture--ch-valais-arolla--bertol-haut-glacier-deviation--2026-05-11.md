@@ -6,7 +6,7 @@ itin: Haute Route Chamonix-Zermatt (étape Arolla ↔ cabane de Bertol, via le h
 sev: MOYENNE
 validite: 11/05/2026 → 01/02/2027
 detection: 2026-09-08
-verif: 2026-11-02
+verif: 2026-11-14
 statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2596615 « Accès Bertol et Haut Glacier d'Arolla » du 11/05/2026 au 01/02/2027, dernière modification 27/05/2026, aucun changement depuis la dernière vérification.
 ordre: 224
 ---
