@@ -5,8 +5,8 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026
 detection: 2026-07-20
-verif: 2026-11-13
-statut: ACTIF — INCHANGÉ 13/11 : bordesuchentein.fr/gr10-ferme/ relu (sert l'affiche ONF « Information randonneurs », non datée : GR®10 fermé entre l'étang d'Ayes et le Cap des Lauses, itinéraire conseillé par la cabane du Taus) ; recherche d'une levée (presse, préfecture, FFRandonnée) sans résultat. Reste HAUTE (AP du 31/08 sans échéance, consultable). Recueil des actes de la préfecture non relu ce jour.
+verif: 2026-11-14
+statut: ACTIF : page bordesuchentein.fr/gr10-ferme/ relue le 14/11 (affiche ONF non datée, GR®10 fermé étang d'Ayes ↔ Cap des Lauzes). Recherche du 14/11 d'une levée (arrêté, réouverture Cap des Lauzes ↔ étang d'Ayes) : aucun acte ni annonce ; seules remontent des pages Visorando non datées qui donnent le tronçon interdit et un balisage provisoire, et la page FFRandonnée de l'été sur les incendies en Ariège (non rouverte). Reste HAUTE (AP du 31/08 sans échéance, consultable). Pistes non tentées : recueil des actes ariege.gouv.fr de novembre, gr10.org, relecture de la page FFRandonnée.
 ordre: 34
 ---
 

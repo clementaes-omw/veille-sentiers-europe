@@ -3,23 +3,20 @@ cle: incendie|Savoie-Maurienne-Belleville|feux-vegetation-lachapelle-saintpierre
 type: incendie
 itin: GRP Tour de la Haute-Maurienne (secteur La Chapelle) [HYPOTHÈSE — proximité de zone, aucune source consultée ne documente de fermeture de sentier ou de route liée à ces deux feux]
 sev: INFO
-validite: statut maintenu jusqu'à nouvel ordre en l'absence de source plus récente ; La
-  Chapelle (Maurienne) stabilisé depuis le 16/08 au matin (18 ha) ; Saint-Pierre-de-Belleville
-  en cours d'intensification au dernier point connu (16/08), aucune source postérieure
-  trouvée
+validite: La Chapelle (Maurienne) : feu éteint d'après feuxdeforet.fr (fiche lue le 14/11/2026, 18 ha, date d'extinction non précisée) ; Saint-Pierre-de-Belleville : aucune source postérieure au 16/08/2026 ; aucune fermeture de sentier ni de route publiée ; fiche close le 14/11/2026
 detection: 2026-08-18
-verif: 2026-09-08
-statut: ACTIF — INCHANGÉ 08/09 : nouvelle recherche ciblée (presse locale ICI/odsradio/ feuxdeforet.fr), toujours aucun point de situation daté postérieur au 16/08 pour Saint-Pierre-de-Belleville (statut d'intensification non tranché), La Chapelle restant stabilisé. Aucune fermeture de sentier ni de route documentée à ce jour. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 55 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ici.fr et feuxdeforet.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-14
+statut: [CLÔTURÉ] (2026-11-14) : fiche feuxdeforet.fr de La Chapelle lue le 14/11 : « Feu éteint à La Chapelle (Savoie) », 18 ha, « mis à jour il y a 2 mois », aucune route ni sentier fermé mentionné. Saint-Pierre-de-Belleville n'y figure que comme lieu de prise de photos : aucun statut pour ce second feu, dont le dernier point connu reste celui du 16/08 (extinction non documentée, trois mois sans autre publication). Aucune fermeture de sentier ni de route n'a jamais été retrouvée pour ces deux feux.
 ordre: 172
 ---
 
 ## Portion concernée
 
-**Vallée de la Maurienne (commune de La Chapelle, Savoie) et secteur de Saint-Pierre-de-Belleville (vallée des Belleville, Savoie)** : deux feux de végétation distincts se sont déclarés les 14 et 15 août 2026. À La Chapelle, le feu parti le vendredi 14 août en soirée a parcouru 18 hectares avant de se stabiliser le dimanche 16 août au matin, avec jusqu'à 65 pompiers et des hélicoptères bombardiers d'eau engagés. À Saint-Pierre-de-Belleville, un feu parti le samedi 15 août vers 15h50 au lieu-dit Les Ruines montait encore en intensité selon les pompiers, au dernier point connu daté du 16 août. Raison : feux de végétation en période de sécheresse estivale. Aucune source consultée ne documente de fermeture de sentier de randonnée ni de coupure de route liée à ces deux foyers.
+**Vallée de la Maurienne (commune de La Chapelle, Savoie) et secteur de Saint-Pierre-de-Belleville (vallée des Belleville, Savoie)** : deux feux de végétation distincts s'étaient déclarés les 14 et 15 août 2026. À La Chapelle, le feu parti le vendredi 14 août en soirée est éteint d'après le site de suivi feuxdeforet.fr, lu le 14/11/2026, après avoir parcouru 18 hectares ; la date d'extinction n'est pas précisée. À Saint-Pierre-de-Belleville, le feu parti le samedi 15 août vers 15h50 au lieu-dit Les Ruines n'a fait l'objet d'aucune publication depuis le point du 16 août : son extinction n'est pas documentée. Aucune fermeture de sentier de randonnée ni coupure de route n'a été publiée pour ces deux foyers, et l'alerte est close. Raison : feux de végétation en période de sécheresse estivale.
 
 ## Alternative
 
-Sans objet à ce jour : aucune fermeture de sentier ni de route n'est rapportée par les sources consultées pour ces deux feux.
+Sans objet : aucune fermeture de sentier ni de route n'a été publiée pour ces deux feux.
 
 ## Zone (détails)
 
@@ -31,6 +28,8 @@ Sans objet à ce jour : aucune fermeture de sentier ni de route n'est rapportée
 
 Rattachement aux itinéraires : le GRP Tour de la Haute-Maurienne (référentiel/sentiers-db.csv, zone FR-ALPES-N, priorité P3) passe dans le secteur général de la Maurienne, mais aucune source lue ne mentionne de sentier, de GR® ni de fermeture liée nommément à l'un ou l'autre de ces deux feux. Rattachement laissé en [HYPOTHÈSE], à ne pas durcir sans source dédiée. Reste à confirmer : le statut actualisé de Saint-Pierre-de-Belleville, et l'extinction complète à La Chapelle.
 
+14/11/2026 : le site de suivi feuxdeforet.fr donne le feu de La Chapelle éteint, pour 18 hectares parcourus, sans préciser la date d'extinction. Aucune publication postérieure au 16/08 n'a été retrouvée pour le feu de Saint-Pierre-de-Belleville. Aucune fermeture de sentier ni de route n'a été publiée depuis août : l'alerte est close.
+
 ## Source
 
-[ICI, incendies en Maurienne : le feu ne progresse plus à la Chapelle, un autre en cours à Saint-Pierre-de-Belleville](https://www.ici.fr/auvergne-rhone-alpes/savoie-73/la-chapelle/incendies-en-maurienne-le-feu-ne-progresse-plus-a-la-chapelle-un-autre-en-cours-a-saint-pierre-de-belleville-2449145) ; [ICI, Maurienne : 7,5 hectares de végétation ont brûlé à la Chapelle, l'incendie encore en cours](https://www.ici.fr/auvergne-rhone-alpes/savoie-73/la-chapelle/maurienne-un-feu-en-cours-a-la-chapelle-4-hectares-de-vegetation-ont-brule-4156713) ; [feuxdeforet.fr, incendie à La Chapelle, 15/08/2026](https://feuxdeforet.fr/savoie-73/la-chapelle-15-08-2026-10187/)
+[ICI, incendies en Maurienne : le feu ne progresse plus à la Chapelle, un autre en cours à Saint-Pierre-de-Belleville](https://www.ici.fr/auvergne-rhone-alpes/savoie-73/la-chapelle/incendies-en-maurienne-le-feu-ne-progresse-plus-a-la-chapelle-un-autre-en-cours-a-saint-pierre-de-belleville-2449145) ; [ICI, Maurienne : 7,5 hectares de végétation ont brûlé à la Chapelle, l'incendie encore en cours](https://www.ici.fr/auvergne-rhone-alpes/savoie-73/la-chapelle/maurienne-un-feu-en-cours-a-la-chapelle-4-hectares-de-vegetation-ont-brule-4156713) ; [feuxdeforet.fr, incendie à La Chapelle, 15/08/2026](https://feuxdeforet.fr/savoie-73/la-chapelle-15-08-2026-10187/) ; [feuxdeforet.fr, incendie à La Chapelle, fiche lue le 14/11/2026 : feu éteint, 18 hectares](https://feuxdeforet.fr/savoie-73/la-chapelle-15-08-2026-10187/)
