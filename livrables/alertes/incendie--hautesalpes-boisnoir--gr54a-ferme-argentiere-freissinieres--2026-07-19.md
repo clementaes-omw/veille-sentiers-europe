@@ -9,8 +9,8 @@ validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur d
   le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
   rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
 detection: 2026-07-22
-verif: 2026-11-12
-statut: ACTIF : NON REVÉRIFIÉ le 13/11, verif laissé au 12/11 (arrêté municipal n° A2026_08_12 lu la veille, sans échéance : HAUTE maintenue). Recherche du 13/11 d'un arrêté de levée ou d'une source nommant le GR®54A : rien ; le PDF de l'arrêté reste indexé sur ville-argentiere.fr. paysdesecrins.com/vigileance-feu-en-cours/ répond 404 le 13/11 (page d'été retirée, pas une levée). Inclusion du GR®54A dans le périmètre toujours non vérifiable (plan annexé illisible). Pistes : PN Écrins (rando.ecrins-parcnational.fr), actes municipaux récents sur ville-argentiere.fr.
+verif: 2026-11-14
+statut: ACTIF : PDF de l'arrêté municipal n° A2026_08_12 du 15/08 relu le 14/11 sur ville-argentiere.fr (article 4 : en vigueur jusqu'à levée expresse ; ne nomme ni le GR®54A ni la Pousterle) : HAUTE maintenue. Recherche du 14/11 (levée, GR®54A, Pousterle, réouverture) : aucun arrêté de levée, aucune source nommant le GR®54A ou le col de la Pousterle ; le PDF de l'arrêté reste indexé sur ville-argentiere.fr, un document illiwap (station.illiwap.com, alerte de la commune) remonte sans avoir été ouvert. Inclusion du GR®54A dans le périmètre toujours non vérifiable (plan annexé illisible). Pistes restantes : rando.ecrins-parcnational.fr (fiche GR®54A), rubrique arrêtés de ville-argentiere.fr, FFRandonnée 05. À relire directement au prochain contrôle (fraîcheur : 12 jours atteints le 24/11).
 ordre: 41
 ---
 

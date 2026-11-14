@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
 verif: 2026-11-11
-statut: ACTIF — CHANGÉ 11/11 : ajout de la déviation de Roscanvel (Fort Robert ↔ route de Kerlaër, 16/11/2026 → 30/06/2027, avis FFRando 29 du 16/10). Plomodiern suivi dans sa propre fiche ; fermeture hivernale de Rosmellec (Daoulas) suivie dans la fiche rade de Brest.
+statut: ACTIF. Dernier changement le 11/11 : ajout de la déviation de Roscanvel (Fort Robert ↔ route de Kerlaër, 16/11/2026 → 30/06/2027, avis FFRando 29 du 16/10). Plomodiern suivi dans sa propre fiche ; fermeture hivernale de Rosmellec (Daoulas) suivie dans la fiche rade de Brest.
 ordre: 9
 ---
 
