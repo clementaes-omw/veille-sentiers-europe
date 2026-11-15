@@ -5,7 +5,7 @@ itin: Padjelantaleden (Laponie suédoise, embranchement vers la chapelle d'Alkav
 sev: INFO
 validite: pont retiré depuis avril 2026, aucune annonce de remplacement
 detection: 2026-09-23
-verif: 2026-09-23
+verif: 2026-11-15
 statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 40 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire padjelanta.se, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
 ordre: 247
 ---

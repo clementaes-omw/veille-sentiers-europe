@@ -5,7 +5,7 @@ itin: sentiers locaux d'Oppenau (Forêt-Noire nord) — lien avec le Westweg (GR
 sev: MOYENNE
 validite: « jusqu'à nouvel ordre », aucune date de réouverture annoncée
 detection: 2026-08-06
-verif: 2026-09-10
+verif: 2026-11-15
 statut: ACTIF — INCHANGÉ 10/09 : la page « Wegsperrungen » d'oppenau.de reste sans date de mise à jour postérieure à sa création du 28/07/2026 ; elle liste toujours le Panoramaweg et le Rosi-Rotkehlchen-Weg, ainsi que tous les chemins du périmètre immédiat de la zone incendiée, comme fermés jusqu'à nouvel ordre. Le secteur de la Kleinebene reste signalé non affecté. Aucune trace trouvée d'une page « Aufhebung Wegsperrungen » plus récente que celle du 31/07 déjà connue. Aucune source de presse locale postérieure trouvée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 53 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire oppenau.de, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
 ordre: 100
 ---

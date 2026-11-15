@@ -5,14 +5,14 @@ itin: GR®10 (Couserans, Ariège, tronçon Cap des Lauzes↔Étang d'Ayes, commu
 sev: HAUTE (fermeture confirmée par arrêté préfectoral du 31/08/2026, sans échéance)
 validite: fermé par arrêté préfectoral depuis le 07/08/2026 et jusqu'à nouvel ordre (Cap des Lauzes↔Étang d'Ayes) ; les tronçons de Seix (Faup↔Col de Pause) et d'Auzat (Marc↔étang d'Escalès), fermés par le même dispositif au plus fort de l'été, ont été rouverts par les arrêtés du 14/08 et du 31/08/2026
 detection: 2026-07-20
-verif: 2026-11-13
+verif: 2026-11-15
 statut: ACTIF — INCHANGÉ 13/11 : bordesuchentein.fr/gr10-ferme/ relu (sert l'affiche ONF « Information randonneurs », non datée : GR®10 fermé entre l'étang d'Ayes et le Cap des Lauses, itinéraire conseillé par la cabane du Taus) ; recherche d'une levée (presse, préfecture, FFRandonnée) sans résultat. Reste HAUTE (AP du 31/08 sans échéance, consultable). Recueil des actes de la préfecture non relu ce jour.
 ordre: 34
 ---
 
 ## Portion concernée
 
-**GR®10 fermé entre le Cap des Lauzes et l'étang d'Ayes**, sur les communes de Bordes-Uchentein, Arrien-en-Bethmale et Bethmale (Couserans, Ariège), toujours en vigueur au 13/11/2026. Raison : arrêté préfectoral du 31/08/2026, motivé par des chutes de pierres sur des versants déstabilisés par les incendies de juillet et août 2026 ; la fermeture court depuis le 7 août 2026 et reste sans échéance. Ce texte figure sur le site de la mairie de Bordes-Uchentein, sans apparaître dans les pages consultées directement sur ariege.gouv.fr. Les deux autres tronçons du GR®10 fermés cet été pour la même cause, entre le hameau de Faup et le col de Pause (Seix) et sous le pic de Sauve entre Marc et l'étang d'Escalès (Auzat), ont été rouverts par les arrêtés successifs des 14 et 31 août.
+**GR®10 fermé entre le Cap des Lauzes et l'étang d'Ayes**, sur les communes de Bordes-Uchentein, Arrien-en-Bethmale et Bethmale (Couserans, Ariège), toujours en vigueur au 15/11/2026. Raison : arrêté préfectoral du 31/08/2026, motivé par des chutes de pierres sur des versants déstabilisés par les incendies de juillet et août 2026 ; la fermeture court depuis le 7 août 2026 et reste sans échéance. Ce texte figure sur le site de la mairie de Bordes-Uchentein, sans apparaître dans les pages consultées directement sur ariege.gouv.fr. Les deux autres tronçons du GR®10 fermés cet été pour la même cause, entre le hameau de Faup et le col de Pause (Seix) et sous le pic de Sauve entre Marc et l'étang d'Escalès (Auzat), ont été rouverts par les arrêtés successifs des 14 et 31 août.
 
 ## Alternative
 
