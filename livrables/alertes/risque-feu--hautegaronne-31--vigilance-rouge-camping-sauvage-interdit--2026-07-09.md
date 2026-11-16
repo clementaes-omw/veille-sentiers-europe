@@ -3,16 +3,16 @@ cle: risque-feu|HauteGaronne-31|vigilance-rouge-camping-sauvage-interdit|2026-07
 type: risque-feu
 itin: GR®10 (secteur Luchon-Superbagnères), HRP
 sev: MOYENNE
-validite: arrêté du 09/07/2026, activé seulement les jours classés en vigilance rouge (très élevée) de la météo des forêts, en vigueur jusqu'à nouvel ordre selon le texte officiel de la préfecture (sans échéance calendaire fixe) ; une source de presse secondaire évoquait une validité « jusqu'au 01/09/2026 », mais la page officielle haute-garonne.gouv.fr (MAJ 30/07) dit seulement que la mesure « restera en vigueur durant toute la durée de vigilance très élevée (rouge) », sans date de fin
+validite: échue le 01/09/2026 (article 2 de l'arrêté du 09/07/2026 : mesures applicables « jusqu'au 1er septembre 2026 » en période de vigilance rouge de la météo des forêts) ; aucune prolongation publiée
 detection: 2026-08-24
-verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 14/09 : nouvelle recherche, aucune page postérieure au 30/07/2026 retrouvée sur haute-garonne.gouv.fr ni de levée publiée ; le texte préfectoral ne fixe toujours aucune échéance calendaire. Le Gers a levé ses propres restrictions le 13/09 (lepetitjournal.net), mais aucune levée équivalente n'est publiée pour la Haute-Garonne à ce jour. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire haute-garonne.gouv.fr et melles750.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-16
+statut: [CLÔTURÉ] (2026-11-16) : texte intégral de l'arrêté du 09/07/2026 lu (copie numérisée hébergée par melles750.fr), article 2 = validité jusqu'au 1er septembre 2026 ; expiration par le texte, pas de levée ni de prolongation publiée. Page haute-garonne.gouv.fr du 30/07 en 404 les 15 et 16/11. À rouvrir sous une nouvelle clé si un arrêté 2027 est pris.
 ordre: 180
 ---
 
 ## Portion concernée
 
-**Tout le département de la Haute-Garonne, massifs forestiers**, les jours classés en vigilance rouge (risque très élevé) par la météo des forêts de Météo-France : camping sauvage et tout apport de feu (feu de camp, barbecue, réchaud, brasero) interdits en forêt ; usage d'engins à étincelles (disqueuse, tronçonneuse, broyeur) et travaux agricoles ou forestiers interdits entre 12h et 20h dans les espaces naturels. Raison : arrêté préfectoral du 09/07/2026 relatif au risque d'incendie.
+**Haute-Garonne, massifs forestiers : l'arrêté préfectoral du 09/07/2026 ne s'applique plus depuis le 1er septembre 2026.** Son article 2 limitait l'interdiction du camping sauvage et de tout apport de feu en forêt aux jours de vigilance rouge de la météo des forêts, « jusqu'au 1er septembre 2026 ». Raison : échéance fixée par le texte lui-même ; la préfecture n'a publié ni prolongation ni avis de levée.
 
 ## Alternative
 
@@ -26,6 +26,8 @@ Sans objet : aucun sentier n'est fermé par cet arrêté, qui réglemente le feu
 
 03/09 : relecture directe de la page officielle haute-garonne.gouv.fr, toujours datée du 30/07/2026 : elle ne fixe aucune date de fin, la mesure s'appliquant « durant toute la durée de vigilance très élevée (rouge) » avec un suivi quotidien. La date du 1er septembre citée par certains relais de presse ne figure pas dans le texte préfectoral. Le camping sauvage et le feu restent donc interdits les jours où le département est classé en vigilance rouge par la météo des forêts, sans limite de calendrier annoncée par la préfecture ; consulter la carte quotidienne avant l'étape.
 
+16/11 : lecture du texte intégral de l'arrêté du 09/07/2026. Son article 1er abroge l'arrêté du 24/06/2026, et son article 2 réglemente les usages « jusqu'au 1er septembre 2026 en période de vigilance très élevée de la météo des forêts ». La date du 1er septembre figure donc bien dans l'arrêté, même si la page d'actualité de la préfecture ne la reprenait pas. Le texte a expiré à cette date. Aucun arrêté de prolongation n'est publié, et la page d'actualité de la préfecture du 30/07 n'est plus en ligne à son adresse.
+
 ## Source
 
-[haute-garonne.gouv.fr, risque de feux de forêt de niveau très élevé, mise à jour 30/07/2026](https://www.haute-garonne.gouv.fr/Actualites/Risque-de-feux-de-foret-de-niveau-tres-eleve) ; [melles750.fr, feu, barbecue, réchaud, camping sauvage et bivouac dans les Pyrénées et en Haute-Garonne, ce qu'interdit l'arrêté préfectoral du 9 juillet 2026 en vigilance rouge de la météo des forêts, jusqu'au 1er septembre 2026](https://melles750.fr/articles/2026/2026-07-27-feu-rechaud-bivouac-securite-incendie-pyrenees-arrete-prefectoral)
+[haute-garonne.gouv.fr, risque de feux de forêt de niveau très élevé, mise à jour 30/07/2026, page hors ligne les 15 et 16/11/2026](https://www.haute-garonne.gouv.fr/Actualites/Risque-de-feux-de-foret-de-niveau-tres-eleve) ; [melles750.fr, feu, barbecue, réchaud, camping sauvage et bivouac dans les Pyrénées et en Haute-Garonne, ce qu'interdit l'arrêté préfectoral du 9 juillet 2026 en vigilance rouge de la météo des forêts, jusqu'au 1er septembre 2026](https://melles750.fr/articles/2026/2026-07-27-feu-rechaud-bivouac-securite-incendie-pyrenees-arrete-prefectoral) ; [Préfecture de la Haute-Garonne, arrêté préfectoral du 9 juillet 2026 (texte intégral numérisé, 3 pages, hébergé par melles750.fr)](https://melles750.fr/images/2026/07/arrete-prefectoral-9-juillet-2026-risque-incendie-haute-garonne.pdf) ; [Toulouse Métropole, Feux de forêt, mise à jour 24/07/2026](https://metropole.toulouse.fr/actualites/feux-de-foret)
