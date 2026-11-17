@@ -1,22 +1,18 @@
 ---
 cle: incendie|HautesAlpes-BoisNoir|GR54A-ferme-Argentiere-Freissinieres|2026-07-19
 type: incendie / fermeture massif
-itin: GR®54A (fermé) ; GR®54 (itinéraire de repli, praticable)
+itin: GR®54A (fermeture attestée par le seul avis du parc national des Écrins du 28/07/2026, l'arrêté municipal ne nommant aucun sentier) ; GR®54 (itinéraire de repli, praticable)
 sev: HAUTE (maintenue le 12/11/2026 : arrêté municipal n° A2026_08_12 du 15/08/2026 retrouvé en PDF et lu, sans échéance)
-validite: incendie déclaré ÉTEINT mais sous surveillance ; GR®54A et cœur du massif du Bois
-  Noir toujours fermés par arrêté municipal du 15/08/2026 ; parcours de randonnée 2/6/7/14/15
-  fermés durée indéterminée, **parcours 22 et 23 ainsi que la côte de Pallon rouverts depuis
-  le 20/08/2026** (paysdesecrins.com, dernière MAJ 24/08/2026) ; RD38 (Champcella↔Freissinières)
-  rouverte depuis le 17/08/2026 ; RD138A et RD38B rouvertes depuis le 06/08
+validite: zone parcourue par l'incendie interdite d'accès par arrêté municipal n° A2026_08_12 du 15/08/2026, jusqu'à levée expresse par un nouvel arrêté ; aucune levée publiée au 17/11/2026 ; incendie éteint ; RD38 rouverte depuis le 17/08/2026, RD138A et RD38B depuis le 06/08 ; parcours 22 et 23 et côte de Pallon rouverts depuis le 20/08/2026
 detection: 2026-07-22
-verif: 2026-11-16
-statut: ACTIF. État au 16/11 : PDF de l'arrêté municipal n° A2026_08_12 du 15/08/2026 relu en entier (3 pages, art. 4 : jusqu'à levée expresse par arrêté municipal), d'où HAUTE. Recherche ciblée d'une levée le 16/11 (mairie, presse) : rien, le seul acte indexé reste cet arrêté. Inclusion du GR®54A dans le périmètre toujours non vérifiable (plan annexé sans noms de sentiers lisibles ; dernière source le nommant : PN Écrins, 28/07). Pistes : rando.ecrins-parcnational.fr, liste des actes municipaux sur ville-argentiere.fr.
+verif: 2026-11-17
+statut: ACTIF. État au 17/11 : recherche d'une levée (mairie, presse) sans résultat ; le PDF de l'arrêté municipal n° A2026_08_12 du 15/08/2026 reste le seul acte indexé (art. 4 : jusqu'à levée expresse), d'où HAUTE. Portion réécrite le 17/11 pour séparer ce que l'arrêté établit (périmètre brûlé, aucun sentier nommé) de ce qui ne repose que sur l'avis du parc national du 28/07 (GR®54A). Pistes non épuisées : rando.ecrins-parcnational.fr, liste des actes municipaux sur ville-argentiere.fr.
 ordre: 41
 ---
 
 ## Portion concernée
 
-**Cœur du massif du Bois Noir (L'Argentière-la-Bessée / Freissinières, Hautes-Alpes) fermé** (parcours pédestres 2/6/7/14/15, via ferrata Grande Falaise, KV Freissinières) ; GR®54A fermé par prudence, avec accès interdit au col de la Pousterle et au vallon du Fournel. L'arrêté municipal n° A2026_08_12 de L'Argentière-la-Bessée, en vigueur depuis le 15/08/2026 et consultable en PDF sur le site de la mairie au 16/11/2026, interdit l'accès, la circulation et le stationnement à toute personne dans la zone parcourue par l'incendie (périmètre tracé en rouge sur le plan annexé) : piétons, randonneurs, traileurs, cyclistes, cavaliers et véhicules, en raison des risques de chutes d'arbres, de pierres et d'éboulements. Son article 4 le maintient jusqu'à sa levée expresse par un nouvel arrêté municipal, une fois reçus les avis et expertises des autorités compétentes ; aucun arrêté de levée ni aucune date de réouverture n'est publié à ce jour. La RD38 (route principale de Freissinières) a rouvert le 17/08/2026 ; les RD138A et RD38B avaient déjà rouvert le 06/08/2026. Depuis le 20/08/2026, les parcours pédestres 22 et 23, ainsi que la côte de Pallon et l'ensemble des routes communales, ont rouvert (paysdesecrins.com, mise à jour du 24/08/2026, page retirée depuis). L'incendie (parti le 19/07/2026, plus de 510 ha brûlés) est donné éteint mais sous surveillance.
+**Zone parcourue par l'incendie du Bois Noir, sur la commune de L'Argentière-la-Bessée (Hautes-Alpes), interdite d'accès.** L'arrêté municipal n° A2026_08_12, en vigueur depuis le 15/08/2026 et toujours en ligne sur le site de la mairie au 17/11/2026, interdit l'accès, la circulation et le stationnement à toute personne dans le périmètre tracé en rouge sur le plan annexé : piétons, randonneurs, traileurs, cyclistes, cavaliers et véhicules. Raison : risques de chutes d'arbres, de pierres et d'éboulements après l'incendie parti le 19/07/2026 (plus de 510 ha brûlés). Son article 4 le maintient jusqu'à sa levée expresse par un nouvel arrêté municipal ; aucun arrêté de levée ni aucune date de réouverture n'est publié à ce jour. L'arrêté ne nomme aucun sentier. La fermeture du GR®54A, avec l'accès au col de la Pousterle et au vallon du Fournel, n'est attestée que par l'avis du parc national des Écrins du 28/07/2026 : aucune source plus récente ne dit si ce tracé se trouve dans le périmètre interdit. Les parcours pédestres 2, 6, 7, 14 et 15, la via ferrata de la Grande Falaise et le kilomètre vertical de Freissinières étaient donnés fermés pour une durée indéterminée par l'office de tourisme du Pays des Écrins dans sa mise à jour du 24/08/2026, page retirée depuis ; les parcours 22 et 23, la côte de Pallon et les routes (RD38, RD138A, RD38B) ont rouvert en août.
 
 ## Alternative
 
@@ -89,6 +85,8 @@ MAJ 12/11 : le texte de l'arrêté municipal est de nouveau consultable. Le PDF 
 MAJ 13/11 : aucun arrêté de levée ni aucune source nommant le GR®54A n'ont été retrouvés le 13/11/2026 ; le PDF de l'arrêté municipal n° A2026_08_12, lu le 12/11, reste référencé sur le site de la mairie de L'Argentière-la-Bessée. La page d'été de l'office de tourisme du Pays des Écrins sur la vigilance feu, d'où vient le détail des parcours fermés et rouverts (mise à jour du 24/08/2026), est hors ligne depuis le 05/09/2026 : ce retrait ne vaut pas levée. La date de dernière vérification reste le 12/11/2026.
 
 MAJ 16/11 : le PDF de l'arrêté municipal n° A2026_08_12, toujours en ligne sur le site de la mairie de L'Argentière-la-Bessée, a été relu en entier le 16/11/2026. Son article 4 maintient l'interdiction « jusqu'à la levée expresse de la mesure par arrêté municipal ». Aucun arrêté de levée ni aucune annonce de réouverture n'est publié à ce jour par la mairie ou dans la presse. Le texte ne nomme toujours aucun sentier : le périmètre interdit est celui tracé en rouge sur le plan annexé, la zone parcourue par l'incendie sur le territoire de la commune.
+
+MAJ 17/11 : une nouvelle recherche, le 17/11/2026, ne trouve ni arrêté de levée ni annonce de réouverture ; l'arrêté municipal n° A2026_08_12 reste le seul acte en ligne. Deux fiches d'itinéraires du Tour du Pays des Écrins, non datées, indiquent encore que le secteur du col de l'Aiguille et du Bois Noir est interdit à la randonnée après l'incendie. Aucune source consultée ne nomme le GR®54A.
 
 ## Source
 
