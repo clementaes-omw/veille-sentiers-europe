@@ -3,10 +3,10 @@ cle: terrain|IS-HautesTerres|Fimmvorduhals-recul-glaciaire-crevasses|2026-08
 type: terrain / conditions dangereuses
 itin: Fimmvörðuháls (liaison Skógar ↔ Þórsmörk, jonction classique avec le Laugavegur)
 sev: MOYENNE
-validite: avertissement actif depuis août 2026, sans date de levée annoncée ; dépend de la poursuite du recul glaciaire, donc a priori pour le reste de la saison 2026
+validite: avertissement actif d'août 2026 jusqu'à son retrait de safetravel.is, constaté le 17/11/2026
 detection: 2026-08-29
-verif: 2026-10-10
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire safetravel.is et icelandreview.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-17
+statut: [CLÔTURÉ] (17/11/2026) : safetravel.is, relu le 17/11, n'affiche plus aucune alerte (« No alerts at this time ») ; l'avertissement de l'été 2026 sur le Fimmvörðuháls est retiré et la traversée est hors saison. Les dangers décrits (crevasses, ponts de neige) ne sont pas déclarés résolus : à rouvrir sous une nouvelle clé si un avertissement est republié à l'ouverture de la saison 2027.
 ordre: 212
 ---
 
@@ -21,6 +21,8 @@ Aucune alternative balisée officielle n'est publiée à ce jour. Les organismes
 ## Zone (détails)
 
 Été 2026 : le recul continu des glaciers Eyjafjallajökull et Mýrdalsjökull, qui encadrent le col du Fimmvörðuháls entre Skógar et Þórsmörk, expose des ravines, crevasses, pentes d'éboulis et ponts de neige fragiles au-dessus des torrents glaciaires sur des sections du tracé historique. Un trou est identifié au sud du refuge Fimmvörðuhálsskala ; une corde de sécurité y est posée à titre provisoire. safetravel.is publie un avertissement invitant à ne pas parcourir le tracé dans ces conditions, sans aller jusqu'à une fermeture formelle. La presse (Iceland Review) relaie l'alerte en insistant sur le changement de nature du sentier, désormais jugé plus proche d'une course de montagne que d'une randonnée balisée classique.
+
+MAJ 17/11 : safetravel.is, relu le 17/11/2026, n'affiche plus aucune alerte en cours. L'avertissement de l'été 2026 sur la traversée du Fimmvörðuháls n'y figure plus, et l'itinéraire n'est pas praticable en randonnée estivale à cette saison. Aucune source n'indique que les crevasses et les ponts de neige apparus avec le recul des glaciers ont été sécurisés : à revérifier avant la saison 2027.
 
 ## Source
 
