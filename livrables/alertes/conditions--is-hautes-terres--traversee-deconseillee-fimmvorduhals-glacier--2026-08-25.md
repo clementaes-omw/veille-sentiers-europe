@@ -3,10 +3,10 @@ cle: conditions|IS-Hautes-Terres|traversee-deconseillee-fimmvorduhals-glacier|20
 type: info sentier / conditions
 itin: Fimmvörðuháls (traversée Skógar ↔ Þorsmörk), secteur Baldvinsskáli ↔ Fimmvörðuhálsskáli
 sev: MOYENNE
-validite: reste actif jusqu'à nouvel ordre : avertissement émis le 25/08/2026 par Ferðafélag Íslands, Útivist et Dagrenning, sans échéance annoncée par les trois organismes (aucune levée constatée lors de la dernière vérification, le 12/09/2026)
+validite: avertissement émis le 25/08/2026, retiré de safetravel.is au 17/11/2026 (aucune alerte affichée)
 detection: 2026-09-12
-verif: 2026-10-10
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire safetravel.is, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-17
+statut: [CLÔTURÉ] (17/11/2026) : safetravel.is, relu le 17/11, n'affiche plus aucune alerte (« No alerts at this time ») ; l'avertissement de l'été 2026 sur le Fimmvörðuháls est retiré et la traversée est hors saison. Les dangers décrits (crevasses, ponts de neige) ne sont pas déclarés résolus : à rouvrir sous une nouvelle clé si un avertissement est republié à l'ouverture de la saison 2027.
 ordre: 229
 ---
 
@@ -21,6 +21,8 @@ Aucune alternative connue à ce jour ; les organismes recommandent de renoncer �
 ## Zone (détails)
 
 25/08/2026 : Ferðafélag Íslands, Útivist et l'équipe de secours Dagrenning publient un avertissement conjoint sur safetravel.is : le recul des glaciers entre Baldvinsskáli et Fimmvörðuhálsskáli a mis à nu des ravins, des crevasses, des pentes d'éboulis raides et des ponts de neige dangereux. Les trois organismes déconseillent fortement de tenter la traversée tant que ces conditions se maintiennent. L'avertissement reste affiché comme actif sur safetravel.is au 12/09/2026, sans levée ni mise à jour retrouvée depuis sa publication.
+
+MAJ 17/11 : safetravel.is, relu le 17/11/2026, n'affiche plus aucune alerte en cours. L'avertissement de l'été 2026 sur la traversée du Fimmvörðuháls n'y figure plus, et l'itinéraire n'est pas praticable en randonnée estivale à cette saison. Aucune source n'indique que les crevasses et les ponts de neige apparus avec le recul des glaciers ont été sécurisés : à revérifier avant la saison 2027.
 
 ## Source
 
