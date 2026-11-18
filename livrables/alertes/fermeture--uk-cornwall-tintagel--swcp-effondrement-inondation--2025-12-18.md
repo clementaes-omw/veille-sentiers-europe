@@ -6,8 +6,8 @@ sev: MOYENNE
 validite: fermé et dévié depuis le 18/12/2025, jusqu'à nouvel ordre : aucune date de
   réouverture n'est annoncée par la source
 detection: 2026-09-23
-verif: 2026-11-11
-statut: ACTIF — INCHANGÉ 11/11 : page officielle « Route changes » de southwestcoastpath.org.uk relue le 11/11, l'avis figure toujours dans la liste (la page précise que tout changement non listé est rouvert).
+verif: 2026-11-18
+statut: ACTIF — INCHANGÉ 18/11 : page officielle « Route changes » de southwestcoastpath.org.uk relue le 18/11, l'avis figure toujours dans la liste (la page précise que tout changement non listé est rouvert).
 ordre: 243
 ---
 

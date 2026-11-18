@@ -5,8 +5,8 @@ itin: GR®34
 sev: MOYENNE (haute pour la trace)
 validite: durable (reroutage pérenne), inauguré le 28/05/2026 ; le nouveau tracé remplace définitivement l'ancien, aucune échéance
 detection: 2026-07-03
-verif: 2026-11-11
-statut: ACTIF — CHANGÉ 11/11 : avis FFRando 29 du 16/10 « Fermetures hivernales PR et GR sur Daoulas et Logonna » : pointe de Rosmellec fermée du 15/11 au 15/03, variantes hivernales du GR®34 (année non écrite dans l'avis, mis à jour le 16/10/2026).
+verif: 2026-11-18
+statut: ACTIF. État au 18/11 : avis FFRando 29 du 16/10 « Fermetures hivernales PR et GR sur Daoulas et Logonna » relu ; la pointe de Rosmellec est fermée depuis le 15/11 et jusqu'au 15/03, variantes hivernales du GR®34 (année non écrite dans l'avis, mis à jour le 16/10/2026).
 ordre: 10
 ---
 
