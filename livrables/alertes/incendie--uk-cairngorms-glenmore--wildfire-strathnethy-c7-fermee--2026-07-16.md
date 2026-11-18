@@ -5,8 +5,8 @@ itin: Aucun P1 identifié — secteur de randonnée majeur des Cairngorms (Glenm
 sev: INFO (dégradée MOYENNE→INFO le 11/11/2026 : le Ryvoan Trail et le sentier d'An Lochan Uaine ont rouvert, seules restent fermées des portions courtes autour d'Allt Mor)
 validite: fermetures résiduelles sans date de fin annoncée (parking et chemin d'Allt Mor, Lodge Trail) ; le Ryvoan Trail et l'accès à An Lochan Uaine ont rouvert début octobre
 detection: 2026-07-22
-verif: 2026-11-11
-statut: ACTIF — CHANGÉ 11/11 : FLS « Path reopens to An Lochan Uaine following wildfire recovery work » (05/10) ; cairngorms.co.uk/alerts et la page Glenmore de FLS (lues le 11/11) ne listent plus que le parking/chemin d'Allt Mor et le Lodge Trail. Le right of way Glenmore ↔ Nethy Bridge (Ryvoan bothy) n'apparaît plus dans aucune alerte, sans avis de réouverture explicite retrouvé (texte FLS du 05/10 non lu en entier, walkhighlands en 403). Dégradée MOYENNE→INFO.
+verif: 2026-11-18
+statut: ACTIF. État au 18/11 : cairngorms.co.uk/alerts relue, mêmes deux fermetures qu'au 11/11 (parking et chemin d'Allt Mor, Lodge Trail), sans date de fin ; Ryvoan et Strath Nethy absents de la page. INFO depuis le 11/11. La même page liste des fermetures sans lien avec l'incendie (Glen Doll, Seven Bridges Walk à Ballater), non datées, notées en mémoire interne.
 ordre: 43
 ---
 
@@ -41,6 +41,8 @@ MAJ 07/08, désescalade confirmée : le communiqué firescotland.gov.uk « Glenm
 MAJ 23/09 : nouvelle réduction de la zone d'exclusion à la mi-septembre. [FAIT, parkswatchscotland.co.uk, « The Abernethy and Glenmore Exclusion Zone and the King's visit to Ryvoan », 18/09/2026 ; recoupé le 23/09 par cairngorms.co.uk/alerts] Le Cairngorms National Park Authority retire le Cairn Gorm Estate de la zone d'exclusion et rouvre une bande de terrain supplémentaire ainsi qu'un secteur près de la Ski Road. Restent fermés, plus de deux mois après le départ de feu : le chemin entre Meall a'Bhuachaille et le Ryvoan bothy/Green Lochan (An Lochan Uaine), le Ryvoan Pass entre Glenmore et Forest Lodge (près de Nethy Bridge), le Lodge Trail, l'Allt Mor path et les parkings Allt Ban/Allt Mor. Aucun calendrier de réouverture n'est annoncé pour ces secteurs, en attente d'inspections de sécurité et de travaux.
 
 MAJ 11/11 : Forestry and Land Scotland annonce le 05/10/2026 la réouverture du sentier d'An Lochan Uaine après les travaux de remise en état. Au 11/11, la page des alertes du parc ne mentionne plus que deux fermetures : le parking d'Allt Mor avec le chemin qui le relie au parking du Sugarbowl et au pont d'Utsi, et le Lodge Trail depuis Allt Mor et Glenmore Lodge. La page Glenmore de Forestry and Land Scotland ne signale plus de fermeture sur le Ryvoan Trail. Le chemin Glenmore ↔ Nethy Bridge par le Ryvoan bothy, fermé jusqu'à nouvel ordre au 07/08, ne figure plus dans aucune alerte, mais aucun avis de réouverture propre à ce chemin n'est publié.
+
+MAJ 18/11 : la page des alertes du parc national, relue le 18/11/2026, mentionne toujours les deux mêmes fermetures liées à l'incendie : le parking d'Allt Mor avec le chemin vers le parking du Sugarbowl et le pont d'Utsi, et le Lodge Trail depuis Allt Mor et Glenmore Lodge. Aucune date de réouverture n'est donnée.
 
 ## Source
 
