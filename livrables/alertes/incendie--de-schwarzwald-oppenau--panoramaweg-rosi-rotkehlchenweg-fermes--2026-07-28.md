@@ -5,8 +5,8 @@ itin: sentiers locaux d'Oppenau (Forêt-Noire nord) — lien avec le Westweg (GR
 sev: MOYENNE
 validite: « jusqu'à nouvel ordre », aucune date de réouverture annoncée
 detection: 2026-08-06
-verif: 2026-11-15
-statut: ACTIF — INCHANGÉ 10/09 : la page « Wegsperrungen » d'oppenau.de reste sans date de mise à jour postérieure à sa création du 28/07/2026 ; elle liste toujours le Panoramaweg et le Rosi-Rotkehlchen-Weg, ainsi que tous les chemins du périmètre immédiat de la zone incendiée, comme fermés jusqu'à nouvel ordre. Le secteur de la Kleinebene reste signalé non affecté. Aucune trace trouvée d'une page « Aufhebung Wegsperrungen » plus récente que celle du 31/07 déjà connue. Aucune source de presse locale postérieure trouvée. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 53 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire oppenau.de, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+verif: 2026-11-19
+statut: ACTIF. État au 19/11 : oppenau.de « Wegsperrungen » relue (« Erstellt am 28. Juli 2026 », aucune date de mise à jour) : Panoramaweg über den Burgerwald, Rosi-Rotkehlchen-Weg et chemins voisins de la zone incendiée toujours « bis auf Weiteres » ; Kleinebene non concernée ; aucune Aufhebung nouvelle. Page figée depuis près de quatre mois : elle ne prouve pas l'application sur le terrain. Non relus : page « Aufhebung Wegsperrungen » du 31/07, renchtal-tourismus, presse. Extinction du feu non sourcée.
 ordre: 100
 ---
 
@@ -26,6 +26,8 @@ MAJ 07/08 : la page « Aufhebung Wegsperrungen » d'oppenau.de (31/07/2026) anno
 
 MAJ 10/09 : re-vérification complète, plus de six semaines après la vérification précédente. La page « Wegsperrungen » d'oppenau.de n'affiche toujours aucune date de mise à jour postérieure à sa création du 28/07/2026 ; elle continue de lister le Panoramaweg, le Rosi-Rotkehlchen-Weg et l'ensemble des chemins du périmètre immédiat de la zone incendiée comme fermés jusqu'à nouvel ordre, avec le même avertissement sur le risque de chute de pierres et de bois. Aucune page « Aufhebung Wegsperrungen » plus récente que celle du 31/07 n'a été retrouvée, et aucune couverture de presse locale sur une éventuelle réouverture supplémentaire n'a été trouvée à ce jour. L'état reste donc identique à celui constaté le 07/08 : Promenadenweg, Schlossgrundweg, accès Kletthütte (Burgerwald) et accès Friedenseiche (Kleinebene) rouverts ; Panoramaweg, Rosi-Rotkehlchen-Weg et tronçon Kletthütte↔Scheibenfelsen fermés.
 
+MAJ 19/11 : la page « Wegsperrungen » de la ville d'Oppenau, relue le 19/11/2026, est toujours celle du 28/07/2026, sans mise à jour datée. Elle donne le Panoramaweg par le Burgerwald, le Rosi-Rotkehlchen-Weg et tous les chemins du voisinage immédiat de la zone incendiée fermés jusqu'à nouvel ordre, et le secteur de la Kleinebene non concerné. La ville n'a publié aucune levée depuis celle du 31/07/2026.
+
 ## Source
 
-[oppenau.de, Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/wegsperrungen.html) (annonce du 28/07/2026, mise à jour du 29/07/2026) ; [oppenau.de, Aufhebung Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/aufhebung+wegsperrungen.html) (31/07/2026)
+[oppenau.de, Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/wegsperrungen.html) (annonce du 28/07/2026, mise à jour du 29/07/2026) ; [oppenau.de, Aufhebung Wegsperrungen](https://www.oppenau.de/startseite/rathaus+_+service/aufhebung+wegsperrungen.html) (31/07/2026) ; [oppenau.de, Wegsperrungen (page relue le 19/11/2026, « Erstellt am 28. Juli 2026 »)](https://www.oppenau.de/startseite/rathaus+_+service/wegsperrungen.html)
