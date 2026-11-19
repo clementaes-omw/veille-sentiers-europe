@@ -6,14 +6,14 @@ sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
 validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-11-18
-statut: ACTIF. État au 18/11 : mairie-die.fr/acces-interdit-forets-justin-laup-solaure/ relue, présente toujours l'AP du 21/08/2026 (sans échéance, ni levée ni date de fin, page non datée), d'où HAUTE. Non refait le 18/11 : recherche d'un arrêté de levée (préfecture, ONF, presse). Piste restante : recueil des actes drome.gouv.fr de novembre. Rattachement GR®9/GR®93 toujours [HYPOTHÈSE] affaiblie.
+verif: 2026-11-19
+statut: ACTIF. État au 19/11 : recherche d'un arrêté de levée refaite (préfecture, ONF, mairie, presse), sans résultat ; AP du 21/08/2026 toujours le dernier texte connu (sans échéance), d'où HAUTE. Recueil des actes drome.gouv.fr de novembre non localisé (résultats 2022-2024 écartés) ; ledauphine.com inaccessible. Vu sans l'ouvrir : info.fr « Diois : l'ONF explique pourquoi le massif reste interdit d'accès », antérieur au 21/08 d'après son contenu. Rattachement GR®9/GR®93 toujours [HYPOTHÈSE] affaiblie.
 ordre: 31
 ---
 
 ## Portion concernée
 
-**Forêts domaniales de Justin, Laup et Solaure-en-Diois**, hauteurs de Die (sud du Diois, Drôme). Un arrêté préfectoral daté du 21/08/2026 interdit l'accès à ces trois forêts, non plus au seul titre de l'incendie mais pour risque de chutes de pierres, d'arbres et de branches fragilisés par les flammes ; aucune date de levée n'est précisée, la sortie de la fermeture dépendant d'une étude de risque en cours. Ce texte abroge explicitement un arrêté antérieur du 24/07/2026 (mairie-die.fr) ; un premier arrêté, le n° 26-2026-6 du 3 juillet 2026, avait ouvert la fermeture du massif. Le massif est donc fermé de fait et de droit depuis l'incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Situation inchangée à la vérification du 18/11/2026 : la page de la mairie de Die présente toujours l'arrêté du 21/08, aucune levée n'a été annoncée, et l'ouverture générale de la chasse dans la Drôme, fixée au 13/09/2026, exclut explicitement le massif de Justin, confirmation supplémentaire que la fermeture reste effective.
+**Forêts domaniales de Justin, Laup et Solaure-en-Diois**, hauteurs de Die (sud du Diois, Drôme). Un arrêté préfectoral daté du 21/08/2026 interdit l'accès à ces trois forêts, non plus au seul titre de l'incendie mais pour risque de chutes de pierres, d'arbres et de branches fragilisés par les flammes ; aucune date de levée n'est précisée, la sortie de la fermeture dépendant d'une étude de risque en cours. Ce texte abroge explicitement un arrêté antérieur du 24/07/2026 (mairie-die.fr) ; un premier arrêté, le n° 26-2026-6 du 3 juillet 2026, avait ouvert la fermeture du massif. Le massif est donc fermé de fait et de droit depuis l'incendie de ~4 400 ha (le plus important en Drôme depuis ~30 ans) déclaré « fixé » le 16/07/2026. Situation inchangée à la vérification du 19/11/2026 : la page de la mairie de Die présente toujours l'arrêté du 21/08, aucune levée n'a été annoncée, et l'ouverture générale de la chasse dans la Drôme, fixée au 13/09/2026, exclut explicitement le massif de Justin, confirmation supplémentaire que la fermeture reste effective.
 
 ## Alternative
 
@@ -78,6 +78,8 @@ MAJ 13/11 : la page de la mairie de Die « Accès interdit aux forêts de Justin
 MAJ 16/11 : la page de la mairie de Die, relue le 16/11/2026, présente toujours l'arrêté préfectoral du 21/08/2026 : accès interdit aux promeneurs, aux randonneurs et aux véhicules dans les forêts de Justin, Laup et Solaure-en-Diois « jusqu'à la fin des opérations d'étude et de sécurisation des forêts concernées ». Elle ne mentionne ni levée ni date de réouverture et ne porte pas de date de mise à jour. Les trois forêts restent fermées.
 
 MAJ 18/11 : la page de la mairie de Die, relue le 18/11/2026, présente toujours l'arrêté préfectoral du 21/08/2026, qui abroge celui du 24/07/2026 : l'accès aux forêts de Justin, de Laup et de Solaure-en-Diois est interdit aux promeneurs, aux randonneurs et aux véhicules dans le périmètre de la carte annexée, « jusqu'à la fin des opérations d'étude et de sécurisation des forêts concernées ». Aucune levée ni date de réouverture n'y figure.
+
+MAJ 19/11 : aucun arrêté de levée ni annonce de réouverture n'a été trouvé sur les sites de la préfecture de la Drôme, de l'ONF et de la mairie de Die ; le recueil des actes de la préfecture pour novembre n'a pas pu être consulté. L'arrêté préfectoral du 21/08/2026 reste le dernier texte connu : l'accès aux forêts de Justin, de Laup et de Solaure-en-Diois demeure interdit.
 
 ## Source
 

@@ -5,18 +5,18 @@ itin: Malerweg (Suisse Saxonne) — étape 3 (Kohlichtgraben, et Schindergraben�
 sev: MOYENNE
 validite: Kohlichtgraben et Bergsteig fermés jusqu'à nouvel ordre depuis le 18/08/2026 ; Schindergraben↔Halbenweg fermé jusqu'à nouvel ordre depuis la nuit du 19 au 20/08/2026 (nouvelle tempête) ; aucune échéance annoncée pour les trois secteurs, déviations balisées en place
 detection: 2026-08-18
-verif: 2026-11-15
-statut: ACTIF — INCHANGÉ 31/10 : office de tourisme (Stand 30/10) confirme Kohlichtgraben et Bergsteig bas fermés ; variante de déviation Waitzdorf/Brandstufen notée ; Schindergraben « aktuell gesperrt » sans date de fin.
+verif: 2026-11-19
+statut: ACTIF. État au 19/11 : saechsische-schweiz.de/gut-zu-wissen/aktuelles (Stand 04/11/2026 08h00) confirme Kohlichtgraben et Bergsteig bas impraticables, déviations publiées, sans date. Schindergraben ↔ Halbenweg : noms absents du résumé de la page du 04/11 (texte brut non lu), ni levée ni maintien confirmés ; à trancher au prochain passage DE.
 ordre: 176
 ---
 
 ## Portion concernée
 
-**Malerweg (Suisse Saxonne, Allemagne), trois secteurs distincts de la fermeture pour dégâts de tempête suivie sous la fiche dédiée à l'Amselsee.** Sur l'étape 3, le Kohlichtgraben est impraticable : des épicéas attaqués par le scolyte (Borkenkäfer) doivent être abattus pour la sécurité des randonneurs. Sur cette même étape 3, un arbre tombé lors de la tempête de la nuit du 19 au 20/08 coupe le passage entre le Schindergraben et le Halbenweg. Sur l'étape 5, la partie basse du Bergsteig est fermée. Raison : dépérissement des épicéas par le scolyte pour le Kohlichtgraben ; chute d'arbre pour le secteur Schindergraben↔Halbenweg ; cause non précisée par la source pour le Bergsteig.
+**Malerweg (Suisse Saxonne, Allemagne) : le Kohlichtgraben (étape 3, près de Goßdorf) et la partie basse du Bergsteig (étape 5, entre l'Erlsgrund et la Winterbergstraße) sont impraticables, sans date de réouverture, selon l'office de tourisme dans son état du 04/11/2026.** Raison : des épicéas attaqués par le scolyte (Borkenkäfer) doivent être abattus dans le Kohlichtgraben ; risque de chute d'arbres sur le Bergsteig. Sur l'étape 3, le passage entre le Schindergraben et le Halbenweg, coupé par un arbre tombé lors de la tempête de la nuit du 19 au 20/08, était encore signalé fermé le 30/10 ; l'état du 04/11 ne le nomme plus, sans annoncer sa réouverture.
 
 ## Alternative
 
-Kohlichtgraben (étape 3) : déviation balisée par Goßdorf, allongement d'environ 2,2 km. Schindergraben↔Halbenweg (étape 3) : déviation balisée par la Max-Jacob-Straße et le Neuweg. Bergsteig, partie basse (étape 5) : déviation balisée par la Winterbergstraße, allongement d'environ 700 m.
+Kohlichtgraben (étape 3) : déviation balisée par Goßdorf, allongement d'environ 2 km ; la route Goßdorf ↔ Kohlmühle est fermée aux véhicules mais ouverte aux piétons ; l'office de tourisme cite aussi le sentier balisé d'un trait bleu par le Tiefer Grund et la Frinztalmühle. Schindergraben↔Halbenweg (étape 3) : déviation balisée par la Max-Jacob-Straße et le Neuweg. Bergsteig, partie basse (étape 5) : déviation balisée par la Winterbergstraße et l'Erlsgrund, allongement d'environ 700 m.
 
 ## Zone (détails)
 
@@ -35,6 +35,8 @@ MAJ 19/09 : nouvelle re-vérification (saechsische-schweiz.de/gut-zu-wissen/aktu
 MAJ 23/09 : nouvelle re-vérification, page dédiée du parc national (nationalpark-saechsische-schweiz.de/warnungen/bergsteig) confirmée toujours en ligne : le Bergsteig reste impraticable pour risque de chute de bois mort lié au dépérissement scolyte généralisé, sans date de réouverture, déviation par l'Erlsgrund et la Winterbergstraße toujours recommandée. La page aktuelles (mise à jour du 22/09/2026 15h00) confirme le Kohlichtgraben toujours impraticable pour les épicéas scolytés, avec déviation par Goßdorf. Même état pour les trois secteurs qu'au 19/09.
 
 MAJ 31/10 : [FAIT, saechsische-schweiz.de/gut-zu-wissen/aktuelles, état du 30/10/2026 14h] le Kohlichtgraben (étape 3, Goßdorf) est « derzeit unpassierbar » à cause d'épicéas scolytés, avec une déviation via Goßdorf (environ 2 km de plus) ou via Waitzdorf et Brandstufen (environ 0,5 km de moins). La route Goßdorf ↔ Kohlmühle est fermée aux véhicules et ouverte aux piétons jusqu'à fin 2026 environ. Le Bergsteig bas (étape 5, Erlsgrund ↔ Winterbergstraße) reste impraticable pour risque de chute d'arbres, déviation par la Winterbergstraße et l'Erlsgrund (environ 700 m de plus). Le Schindergraben, en direction de Hohnstein, est signalé fermé sans date de fin.
+
+MAJ 19/11 : [FAIT, saechsische-schweiz.de/gut-zu-wissen/aktuelles, état du 04/11/2026 8h] le Kohlichtgraben reste impraticable (arbres morts, scolytes), avec une déviation d'environ 2 km de plus ; la route Goßdorf ↔ Kohlmühle est fermée aux véhicules et ouverte aux piétons, et le sentier balisé d'un trait bleu par le Tiefer Grund et la Frinztalmühle est cité comme autre option. La partie basse du Bergsteig reste impraticable pour risque de chute d'arbres, avec une déviation par la Winterbergstraße et l'Erlsgrund (environ 700 m de plus). Aucune date de réouverture n'est donnée. Le Schindergraben et le Halbenweg ne sont plus nommés dans cet état ; aucune réouverture n'est annoncée. Hors Malerweg, le Gabrielensteig (Bohême) est fermé entre Mezní Louka et la Prebischtor.
 
 ## Source
 
