@@ -3,7 +3,7 @@ cle: fermeture|IT-Liguria-CinqueTerre|SentieroVerdeAzzurro-Corniglia-Vernazza-Mo
 type: fermeture / sentier
 itin: Sentiero Verde Azzurro (Cinque Terre, Ligurie), tronçon Corniglia ↔ Vernazza ↔ Monterosso — sentier côtier hors liste des itinéraires majeurs P1 de la zone IT-NO, mentionné pour information
 sev: MOYENNE
-validite: au 15/11/2026 : tronçon Monterosso ↔ Vernazza rouvert selon l'avis du parc du 14/11/2026 ; état du tronçon Vernazza ↔ Corniglia précisé par aucun avis du parc depuis le 09/10/2026 ; aucune annonce de fin des vérifications géologiques du 10/09 retrouvée
+validite: fermeture décidée par le parc le 10/09/2026 jusqu'à nouvel ordre, sans date de réouverture annoncée ; tronçon Monterosso ↔ Vernazza rouvert selon l'avis du parc du 14/11/2026 ; état du tronçon Vernazza ↔ Corniglia précisé par aucun avis du parc depuis le 09/10/2026 ; aucune annonce de fin des vérifications géologiques du 10/09 retrouvée ; état relevé le 15/11/2026
 detection: 2026-09-12
 verif: 2026-11-15
 statut: ACTIF — CHANGÉ : avis du parc du 14/11/2026 (liste parks.it lue le 15/11, détail de l'avis non lu) : après contrôles techniques suite à l'alerte météo, Monterosso ↔ Vernazza est rouvert et « regolarmente percorribile ». Rien sur Vernazza ↔ Corniglia ni sur l'issue des vérifications géologiques du 10/09 dans les avis du 09/10 au 14/11 ; avis de septembre (pages suivantes de la liste) non lus. Signal annexe, autre sentier : le 587 Corniglia ↔ Case Pianca ferme pour travaux à partir du 16/11, environ 3 mois (avis du 03/11).
