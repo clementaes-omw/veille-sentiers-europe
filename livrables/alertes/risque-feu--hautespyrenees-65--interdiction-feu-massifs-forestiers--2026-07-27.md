@@ -3,7 +3,7 @@ cle: risque-feu|HautesPyrenees-65|interdiction-feu-massifs-forestiers|2026-07-27
 type: risque-feu
 itin: GR®10, HRP, HRMP, GR®101
 sev: MOYENNE
-validite: en vigueur depuis le 27/07/2026, sans date de fin dans le texte (article 1 : l'arrêté « pourra être abrogé » si les conditions climatiques et l'état d'assèchement du sol s'améliorent) ; aucune abrogation publiée au 16/11/2026
+validite: en vigueur depuis le 27/07/2026 jusqu'à nouvel ordre, sans date de fin dans le texte (article 1 : l'arrêté « pourra être abrogé » si les conditions climatiques et l'état d'assèchement du sol s'améliorent) ; aucune abrogation trouvée sur le site de la préfecture au 16/11/2026
 detection: 2026-08-24
 verif: 2026-11-16
 statut: ACTIF : texte de l'arrêté 65-2026-07-24-00002 lu le 16/11 (copie lourdes.fr), aucune date de fin, abrogation conditionnée à la météo ; page communiqué hautes-pyrenees.gouv.fr relue (MAJ 04/09/2026), sans levée ; 2 recherches ciblées d'un arrêté d'abrogation sans résultat (recueil des actes non consulté directement). Régime d'été vraisemblablement caduc dans les faits à la mi-novembre, mais pas juridiquement : à trancher (clôture ou passage en INFO) dès qu'une abrogation est retrouvée au recueil des actes administratifs du 65.
