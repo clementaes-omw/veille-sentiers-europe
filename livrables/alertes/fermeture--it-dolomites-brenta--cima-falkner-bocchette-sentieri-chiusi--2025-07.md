@@ -5,14 +5,14 @@ itin: Réseau Bocchette (hors P1)
 sev: MOYENNE
 validite: depuis juillet 2025
 detection: 2025-07
-verif: 2026-10-10
-statut: ACTIF — CHANGÉ 29/08 : source officielle SAT retrouvée, précisant les sentiers fermés par leur numéro (au lieu de la seule mention de presse). Statut de fond inchangé. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire sat.tn.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-21
+statut: ACTIF. État au 21/11 : page de la SAT datée du 10/07/2026 relue, sans changement (journal de veille du 21/11) : sentiers O331 et O305 (via ferrata Benini) fermés, interdiction de transit vers les Vedrette di Vallesinella hors du sentier O316, aucune date de réouverture. Source officielle SAT retrouvée le 29/08, qui précise les sentiers par leur numéro. Fiche signalée par la vérification qualité du 02/11/2026, traitée le 21/11.
 ordre: 53
 ---
 
 ## Portion concernée
 
-Bocchette del Brenta (Cima Falkner) : **la plupart des sentiers sont fermés depuis l'éboulement de juillet 2025**. La source officielle SAT précise les tronçons concernés : le sentiero SAT n°O331 (de la jonction O316 à la jonction O305) et le sentiero SAT n°O305, la via ferrata delle Bocchette « Alfredo e Rodolfo Benini ». L'interdiction absolue de transit vers la Vedretta di Vallesinella Inferiore et Superiore, en dehors du tracé du sentiero SAT O316, reste également en vigueur.
+Bocchette del Brenta (Cima Falkner) : **la plupart des sentiers sont fermés depuis l'éboulement de juillet 2025**. La source officielle SAT précise les tronçons concernés : le sentiero SAT n°O331 (de la jonction O316 à la jonction O305) et le sentiero SAT n°O305, la via ferrata delle Bocchette « Alfredo e Rodolfo Benini ». L'interdiction absolue de transit vers la Vedretta di Vallesinella Inferiore et Superiore, en dehors du tracé du sentiero SAT O316, reste également en vigueur. La page de la SAT, datée du 10/07/2026 et relue le 21/11/2026, n'a pas changé : elle n'annonce aucune date de réouverture.
 
 ## Alternative
 
@@ -23,6 +23,8 @@ Le Sentiero SAT O136 (Grostè-Tuckett) est ouvert.
 La fermeture est toujours active au 09/07/2026.
 
 MAJ 29/08 : la page officielle SAT (« Cima Falkner nel gruppo di Brenta, restano chiusi il sentiero Benini e l'area della vedretta di Vallesinella inferiore e superiore », datée du 10/07/2026) confirme et précise la fermeture : sentieri O331 et O305 (via ferrata Benini) fermés, interdiction de transit vers les Vedrette di Vallesinella Inferiore/Superiore hors du sentiero O316. Cause inchangée : effondrements successifs sur les versants ouest et est de Cima Falkner en juillet 2025, le sommet entier étant considéré affecté par un phénomène morphogénétique actif probablement lié à la dégradation du permafrost (relevés du Servizio Geologico della Provincia Autonoma di Trento). Aucune date de réouverture annoncée.
+
+21/11/2026 : la page de la SAT du 10/07/2026 est relue, sans changement. Aucune date de réouverture n'est annoncée.
 
 ## Source
 
