@@ -5,14 +5,14 @@ itin: Alta Via 1 (P1) — les sentiers 472 et 480 (Rifugio Venezia ↔ Rifugio C
 sev: MOYENNE
 validite: fermeture jusqu'à nouvel ordre depuis le 10/08/2026, aucune date de levée annoncée ; nouveaux éboulements le 13/08 (6-7 chutes de pierres par jour)
 detection: 2026-08-15
-verif: 2026-10-10
-statut: ACTIF — INCHANGÉ 29/08 : aucune source postérieure au 13/08/2026 retrouvée (presse et ilgazzettino.it inaccessibles en fetch direct ce jour). Statut inchangé depuis le 22/08 : périmètre interdit toujours limité au versant nord-ouest, sentiers 472/480 de l'Alta Via 1 toujours ouverts. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ildolomiti.it et ladige.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-21
+statut: ACTIF. État au 21/11 : confirmation faible. Articles d'origine relus (il Dolomiti, La Adige, Corriere delle Alpi, du 10 au 13/08/2026) ; aucune révocation de l'ordonnance du maire de Borca di Cadore ni publication postérieure au 13/08/2026 trouvée. verif porté au 21/11 sur cette seule absence de révocation. Périmètre connu : versant nord-ouest seul, sentiers 472 et 480 de l'Alta Via 1 ouverts selon ces mêmes articles. À chercher : texte de l'ordonnance et éventuelle révocation sur le site de la commune. Fiche signalée par la vérification qualité du 02/11/2026, traitée le 21/11.
 ordre: 115
 ---
 
 ## Portion concernée
 
-**Versant nord-ouest du Monte Pelmo, commune de Borca di Cadore (Belluno, Dolomites)** : tous les sentiers, balisés ou non, qui traversent le pied de la paroi nord sont interdits d'accès depuis le 10/08/2026 par ordonnance du maire. Raison : une série d'éboulements et de coulées de débris sur cette paroi, dont un nouveau départ de roches le 11/08/2026 ayant nécessité une reconnaissance héliportée des pompiers. Les sentiers 472 et 480, qui relient le Rifugio Venezia au Rifugio Città di Fiume et portent le tracé officiel de l'Alta Via 1 des Dolomites sur ce secteur, restent ouverts : l'itinéraire de longue distance n'est pas coupé. La fermeture vise le versant nord-ouest lui-même, hors tracé balisé de l'Alta Via ; le versant sud du massif reste accessible. De nouveaux éboulements sont survenus le 13/08/2026, à raison de 6 à 7 chutes de pierres par jour sur ce même versant, sans extension du périmètre interdit ni impact sur l'Alta Via 1.
+**Versant nord-ouest du Monte Pelmo, commune de Borca di Cadore (Belluno, Dolomites)** : tous les sentiers, balisés ou non, qui traversent le pied de la paroi nord sont interdits d'accès depuis le 10/08/2026 par ordonnance du maire. Raison : une série d'éboulements et de coulées de débris sur cette paroi, dont un nouveau départ de roches le 11/08/2026 ayant nécessité une reconnaissance héliportée des pompiers. Les sentiers 472 et 480, qui relient le Rifugio Venezia au Rifugio Città di Fiume et portent le tracé officiel de l'Alta Via 1 des Dolomites sur ce secteur, restent ouverts : l'itinéraire de longue distance n'est pas coupé. La fermeture vise le versant nord-ouest lui-même, hors tracé balisé de l'Alta Via ; le versant sud du massif reste accessible. De nouveaux éboulements sont survenus le 13/08/2026, à raison de 6 à 7 chutes de pierres par jour sur ce même versant, sans extension du périmètre interdit ni impact sur l'Alta Via 1. Au 21/11/2026, aucune révocation de l'ordonnance n'a été trouvée, et aucune publication postérieure au 13/08/2026 non plus : l'état de la fermeture n'est confirmé par aucune source récente.
 
 ## Alternative
 
@@ -25,6 +25,10 @@ Sans objet pour l'Alta Via 1 : son tracé (sentiers 472 et 480) n'emprunte pas l
 11/08 : nouvel éboulement sur la même paroi. Les pompiers effectuent une reconnaissance aérienne (hélicoptère Drago de la base de Venise) avec l'appui au sol du détachement volontaire de Borca di Cadore, en plus d'une reconnaissance similaire menée la veille. La presse (il Dolomiti, La Adige) précise que les sentiers 472 et 480, qui relient les refuges Venezia et Città di Fiume et portent le tracé de l'Alta Via 1, restent ouverts ; les randonneurs sont invités à suivre les déviations signalées. Le tour du Pelmo reste praticable dans son ensemble.
 
 22/08 : de nouveaux éboulements sont documentés le 13/08/2026, sur le même versant nord-ouest, à raison de 6 à 7 chutes de pierres par jour selon il Dolomiti. Le périmètre interdit n'est pas étendu par cette nouvelle activité ; les sentiers 472 et 480 de l'Alta Via 1 restent ouverts. Aucune source postérieure au 13/08 retrouvée ce jour.
+
+29/08 : aucune source postérieure au 13/08/2026 n'a été trouvée. Le périmètre interdit reste limité au versant nord-ouest, les sentiers 472 et 480 de l'Alta Via 1 restent ouverts.
+
+21/11/2026 : les articles des 10, 11 et 13/08/2026 ont été relus. Aucune révocation de l'ordonnance et aucune publication postérieure au 13/08/2026 n'ont été trouvées.
 
 ## Source
 

@@ -5,14 +5,14 @@ itin: Via Francigena — tronçon italien (P1)
 sev: MOYENNE
 validite: temporaire, sans date de levée publiée
 detection: 2026-07-17 (avis du 30/01)
-verif: 2026-11-15
-statut: ACTIF — confirmé 06/08 : aucune source contraire trouvée (parcodiveio.it toujours en ligne, sans date de réouverture) ; contexte régional : alerte incendie « Elevato » Latium prolongée 18→20/07 (RISICOLazio), aucune fermeture VF liée confirmée À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 58 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire parcodiveio.it, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-21
+statut: ACTIF. État au 21/11 : avis du 30/01/2026 relu sur parcodiveio.it, toujours en ligne, sans mise à jour ni date de réouverture ; portion remise au présent. Constats antérieurs (17/07, 06/08) versés dans la chronologie de « Zone (détails) ». Fiche signalée par la vérification qualité du 02/11/2026 (58 jours sans source récente), traitée le 21/11.
 ordre: 28
 ---
 
 ## Portion concernée
 
-Via Francigena italienne, tronçon Formello à La Storta (Parco di Veio, dernière étape avant Rome) : le sentier « Prato La Corte » est **fermé au transit**. En cause : un glissement de terrain (avis du 30/01/2026, toujours en ligne au 17/07).
+Via Francigena italienne, tronçon Formello à La Storta (Parco di Veio, dernière étape avant Rome) : le sentier « Prato La Corte » est **fermé au transit**. En cause : un glissement de terrain. L'avis du 30/01/2026 est toujours en ligne sur le site du parc au 21/11/2026, sans mise à jour ni date de réouverture.
 
 ## Alternative
 
@@ -21,6 +21,12 @@ Itinéraire de substitution officiel indiqué par le parc : Via dell'Ara (Monte 
 ## Zone (détails)
 
 Parco di Veio (Latium) : fermeture « temporaire » sans date de réouverture. La détection est tardive (publication en 01/2026), le statut actuel reste donc à confirmer, comme sur le GR®21 entre Loges et Bénouville.
+
+17/07/2026 : l'avis du 30/01/2026 est toujours en ligne sur le site du parc.
+
+06/08/2026 : l'avis est toujours en ligne sur parcodiveio.it, sans date de réouverture, et aucune source contraire n'a été trouvée. Dans le Latium, l'alerte incendie de niveau « Elevato » a été prolongée du 18 au 20/07 (RISICOLazio) ; aucune fermeture de la Via Francigena liée à cette alerte n'est confirmée.
+
+21/11/2026 : l'avis du 30/01/2026 est toujours en ligne sur le site du parc, sans mise à jour ni date de réouverture.
 
 ## Source
 
