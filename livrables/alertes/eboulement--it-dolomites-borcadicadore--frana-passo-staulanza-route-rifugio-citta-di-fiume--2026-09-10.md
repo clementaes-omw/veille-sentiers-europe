@@ -6,14 +6,14 @@ sev: MOYENNE
 validite: éboulement du 10/09/2026 ; route et parking restent fermés jusqu'à nouvel ordre, le
   temps des vérifications de sécurité, sans échéance de réouverture annoncée à ce jour
 detection: 2026-09-12
-verif: 2026-10-10
-statut: ACTIF — NOUVEAU À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ladige.it et radiocortina.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-21
+statut: ACTIF. État au 21/11 : confirmation faible. Les deux articles du 10/09/2026 (ladige.it, radiocortina.com) ont été relus ; aucune publication postérieure ni annonce de réouverture trouvée. verif porté au 21/11 sur cette seule absence de révocation. À chercher : ordonnance ou avis de la commune de Borca di Cadore, état de la route et du parking. Fiche signalée par la vérification qualité du 02/11/2026, traitée le 21/11.
 ordre: 227
 ---
 
 ## Portion concernée
 
-**Route et parking du Passo Staulanza, commune de Borca di Cadore (Belluno), au pied du Monte Pelmo.** Raison : un éboulement survenu le 10/09/2026 en fin d'après-midi a recouvert une partie du parking et de la route forestière menant au Rifugio Città di Fiume, après plusieurs semaines d'écoulement de matériaux depuis le versant du Pelmo puis les premières pluies intenses de la saison.
+**Route et parking du Passo Staulanza, commune de Borca di Cadore (Belluno), au pied du Monte Pelmo.** Raison : un éboulement survenu le 10/09/2026 en fin d'après-midi a recouvert une partie du parking et de la route forestière menant au Rifugio Città di Fiume, après plusieurs semaines d'écoulement de matériaux depuis le versant du Pelmo puis les premières pluies intenses de la saison. Au 21/11/2026, aucune annonce de réouverture n'a été trouvée, et aucune publication postérieure aux articles du 10/09/2026 non plus : l'état actuel de la route et du parking n'est confirmé par aucune source récente.
 
 ## Alternative
 
@@ -22,6 +22,8 @@ Aucune alternative connue à ce jour.
 ## Zone (détails)
 
 10/09/2026 (jeudi après-midi) : un éboulement recouvre une partie du parking et de la route forestière du Passo Staulanza menant au Rifugio Città di Fiume, sur la commune de Borca di Cadore. Les pompiers de Belluno (détachement volontaire de Selva di Cadore) et des unités cynophiles interviennent pour vérifier qu'aucune personne n'est prise sous les matériaux ; le maire de Borca di Cadore se rend sur place avec des techniciens. Selon les premiers éléments rapportés, le Monte Pelmo évacuait des matériaux depuis plusieurs semaines, et les premières pluies intenses de la saison ont déclenché le mouvement d'une grande quantité de débris vers l'aval. Le Passo Staulanza se trouve sur le tracé de l'Alta Via 1, entre le Rifugio Città di Fiume et Palafavera. Aucune source ne documente à ce stade de coupure du sentier de randonnée lui-même, seulement de la route d'accès et du parking.
+
+21/11/2026 : les deux articles du 10/09/2026 ont été relus. Aucune publication postérieure et aucune annonce de réouverture de la route ou du parking n'ont été trouvées.
 
 ## Source
 
