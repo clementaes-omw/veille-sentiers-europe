@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermeture hivernale en cours, jusqu'au 31/03/2027 selon le régime annuel (du 1er novembre au 31 mars chaque hiver depuis 2015-2016) ; note officielle du Gobierno de Navarra pour la saison 2026-2027 non retrouvée
 detection: 2026-11-02
 verif: 2026-11-09
-statut: ACTIF — NOUVEAU 02/11 : régime annuel du Gobierno de Navarra (presse 07/11/2025, guide viajecaminodesantiago.com du 08/10/2026). Sévérité MOYENNE faute de note officielle 2026-2027 lue ; à passer HAUTE si le communiqué du Gobierno de Navarra ou un panneau officiel est retrouvé. Piste : site Gobierno de Navarra / Bomberos de Navarra, 1 recherche ciblée par run jusqu'à confirmation.
+statut: ACTIF — régime annuel du Gobierno de Navarra (presse 07/11/2025, guide viajecaminodesantiago.com du 08/10/2026). Note officielle 2026-2027 toujours non retrouvée au 22/11/2026 : une recherche web ne remonte que l'article Noticias de Navarra du 07/11/2025 et des pages 2021 et 2024 ; la recherche restreinte à navarra.es et à la presse navarraise a échoué (domaines inaccessibles à l'outil). Sévérité MOYENNE faute de note officielle lue ; à passer HAUTE si le communiqué du Gobierno de Navarra ou un panneau officiel est retrouvé. Piste suivante : lecture directe de navarra.es (notas de prensa, Interior / Bomberos de Navarra).
 ordre: 263
 ---
 

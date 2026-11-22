@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: réouverture partielle actée par arrêté du 08/06/2026 ; 3 sections restent fermées jusqu'à nouvel ordre (Criques de Porteils/Argelès avec itinéraire bis, Grandes Elmes/Banyuls avec itinéraire bis, Aloès→RD914/Cerbère en attente de travaux à l'Anse de Terrimbo)
 detection: 2026-07-26
 verif: 2026-09-28
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucune source postérieure au communiqué du 08/06/2026. Les 3 sections (Criques de Porteils et Grandes Elmes, avec itinéraire bis ; Aloès→RD914 à Cerbère, sans alternative) restent décrites comme fermées, sans annonce de reprise des travaux de sécurisation de l'Anse de Terrimbo. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 35 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-orientales.gouv.fr et cc-acvi.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+statut: ACTIF — NON REVÉRIFIÉ au 22/11/2026 (dernière confirmation : 28/09). Pistes tentées le 22/11 : recherche web « Cerbère Aloès Anse de Terrimbo réouverture travaux 2026 » sans résultat daté ; cc-acvi.com relu, dernière entrée du 10/03/2026 (antérieure à l'arrêté du 08/06, ne décrit pas les 3 sections). Le communiqué pyrenees-orientales.gouv.fr du 08/06/2026 reste le dernier acte connu ; aucune source ne lève ni ne confirme les 3 sections fermées (Criques de Porteils, Grandes Elmes, Aloès→RD914). À faire : relire pyrenees-orientales.gouv.fr (communiqués postérieurs à juin) et les sites des mairies de Cerbère, Banyuls et Argelès.
 ordre: 55
 ---
 
 ## Portion concernée
 
-Sentier du littoral (E12), Côte Vermeille, entre Argelès-sur-Mer et Cerbère : **réouverture PARTIELLE confirmée par arrêté officiel du 08/06/2026, 3 sections restant fermées**, les Criques de Porteils (Argelès-sur-Mer), les Grandes Elmes (Banyuls-sur-Mer) et Aloès→RD914 (Cerbère, en attente de travaux à l'Anse de Terrimbo). Raison : glissement de terrain provoqué par de fortes pluies lors de l'épisode de février 2026, falaises littorales rendues instables et dangereuses.
+Sentier du littoral (E12), Côte Vermeille, entre Argelès-sur-Mer et Cerbère : **réouverture PARTIELLE confirmée par arrêté officiel du 08/06/2026, 3 sections restant fermées**, les Criques de Porteils (Argelès-sur-Mer), les Grandes Elmes (Banyuls-sur-Mer) et Aloès→RD914 (Cerbère, en attente de travaux à l'Anse de Terrimbo). Raison : glissement de terrain provoqué par de fortes pluies lors de l'épisode de février 2026, falaises littorales rendues instables et dangereuses. Le communiqué de la préfecture du 08/06/2026 reste le dernier acte connu : au 22/11/2026, aucune publication plus récente n'a été trouvée, et l'état actuel des 3 sections n'est pas confirmé.
 
 ## Alternative
 

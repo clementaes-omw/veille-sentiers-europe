@@ -5,8 +5,8 @@ itin: Europaweg (Randa, accès à Gross-Kastel, chemin d'accès de la vallée de
 sev: MOYENNE
 validite: jusqu'au 18/12/2026 selon le flux officiel Suisse Rando (fermeture en place depuis le 27/06/2026 ; échéances précédentes : 02/10 puis 15/11/2026)
 detection: 2026-09-29
-verif: 2026-11-17
-statut: ACTIF — CHANGÉ : flux officiel data.geo.admin.ch (fichier téléchargé le 15/11/2026, Last-Modified 15/11 05h36 UTC) : id 2599154 « Randa: Alte Kantonsstrasse - Gross-Kastel » et id 2602060 « Randa: Guggigrabe - Gross-Kastel », désormais du 27.06.2026 au 18.12.2026 (échéance précédente 15.11.2026). Motif inchangé. Date exacte de la modification non établie : le champ change_date vaut 11/11/2026 13h08 pour toutes les entrées relues (réexport en lot probable). Prochaine échéance à relire : 18/12/2026.
+verif: 2026-11-22
+statut: ACTIF. État au 22/11 : flux officiel relu par la veille, id 2599154 et 2602060 inchangés, jusqu'au 18.12.2026. Changement du 15/11 : flux officiel data.geo.admin.ch (fichier téléchargé le 15/11/2026, Last-Modified 15/11 05h36 UTC) : id 2599154 « Randa: Alte Kantonsstrasse - Gross-Kastel » et id 2602060 « Randa: Guggigrabe - Gross-Kastel », désormais du 27.06.2026 au 18.12.2026 (échéance précédente 15.11.2026). Motif inchangé. Date exacte de la modification non établie : le champ change_date vaut 11/11/2026 13h08 pour toutes les entrées relues (réexport en lot probable). Prochaine échéance à relire : 18/12/2026.
 ordre: 260
 ---
 
@@ -25,6 +25,8 @@ Aucune alternative connue à ce jour : le flux officiel ne décrit pas de dévia
 04/10 : le flux officiel de Suisse Rando repousse l'échéance des deux fermetures du 02/10 au 15/11/2026 (modification du 02/10), toujours pour risque d'effondrement de glacier.
 
 15/11/2026 : le flux officiel de Suisse Rando repousse de nouveau l'échéance des deux fermetures, du 15/11 au 18/12/2026. Le motif publié ne change pas : risque lié à un effondrement de glacier.
+
+22/11/2026 : le flux officiel maintient les deux fermetures jusqu'au 18/12/2026.
 
 ## Source
 
