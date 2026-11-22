@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: depuis le dimanche 01/11/2026, sans date de fin annoncée par le Cabildo de Tenerife ; dernière information datée du 05/11/2026 ; état au 20/11/2026 non confirmé
 detection: 2026-11-17
 verif: 2026-11-20
-statut: ACTIF. État au 20/11 : aucune information postérieure au 05/11 sur les sept sentiers (trois recherches, tenerifeon.es en 403) ; article diariodeavisos du 01/11 enfin lu (liste des sept sentiers, restriction jusqu'à nouvelle résolution), article du 04/11 relu. MOYENNE : presse concordante, pas d'acte officiel lu. À relire au passage ES-CANARIAS du 27/11.
+statut: ACTIF. Revue du 22/11/2026 : une recherche, aucune résolution de levée ni article postérieur au 10/11. Le moteur résume un article diariodeavisos (restricciones-teide-nevada) qu'il date du 09/11/2026 : sept sentiers toujours restreints, sans date de fin ; article non relu ce jour, donc non revérifiée. Piège écarté : rtvc.es « El Cabildo reabre los senderos de Montaña Blanca y el Mirador de La Fortaleza » date du 31/01/2025. MOYENNE : presse concordante, pas d'acte officiel lu. À relire au passage ES-CANARIAS du 27/11 (tenerifeon.es en 403 le 20/11).
 ordre: 271
 ---
 

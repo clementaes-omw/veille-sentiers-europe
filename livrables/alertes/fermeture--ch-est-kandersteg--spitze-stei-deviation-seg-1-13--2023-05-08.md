@@ -7,8 +7,8 @@ sev: INFO (déviation stable et balisée depuis plus de trois ans, aucun blocage
 validite: 08/05/2023 → 30/11/2026 dans le flux officiel (échéance de revalidation, pas
   de terme prévisible connu)
 detection: 2026-09-08
-verif: 2026-11-17
-statut: ACTIF — INCHANGÉ : flux officiel data.geo.admin.ch (fichier du 1er novembre 2026, téléchargé le 2 novembre) relu par le vérificateur : id 2596765 « Kandersteg » du 08/05/2023 au 30/11/2026, dernière modification 27/05/2026, aucun changement depuis la dernière vérification.
+verif: 2026-11-22
+statut: ACTIF. État au 22/11 : flux officiel data.geo.admin.ch (fichier du 22/11/2026) relu par la veille : id 2596765 « Kandersteg » du 08/05/2023 au 30/11/2026, échéance non reconduite à cette date (dernière modification relevée le 2 novembre : 27/05/2026). À relire le 30/11 ou le 01/12 : reconduction de l'échéance ou disparition de l'entrée.
 ordre: 225
 ---
 
@@ -23,6 +23,8 @@ Déviation balisée et en place : le chemin Adolf Ogi contourne la zone interdit
 ## Zone (détails)
 
 08/09/2026 : repéré dans le flux officiel data.geo.admin.ch. L'entrée, créée le 13/11/2024, décrit une fermeture affichée depuis le 08/05/2023 : « en raison de la zone interdite de la Spitze Stei, le chemin de randonnée est dévié jusqu'à nouvel ordre par le chemin Adolf Ogi ». La validité affichée dans le flux (jusqu'au 30/11/2026) semble être une échéance de revalidation administrative plutôt qu'un terme attendu de la restriction elle-même, celle-ci étant en place sans changement depuis plus de trois ans. Premier passage de cette veille sur ce point : aucune source antérieure au référentiel ne documentait ce tronçon.
+
+22/11/2026 : le flux officiel (fichier du 22/11/2026) maintient l'entrée id 2596765 avec une échéance au 30/11/2026, pas encore reconduite.
 
 ## Source
 

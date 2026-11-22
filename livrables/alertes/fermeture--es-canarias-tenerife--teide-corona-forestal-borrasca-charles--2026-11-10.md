@@ -6,7 +6,7 @@ sev: INFO (dégradée depuis MOYENNE le 20/11/2026 : aucune information sur ces 
 validite: fermeture décidée par le Cabildo de Tenerife à compter du mardi 10/11/2026 à 20h, jusqu'à nouvelle résolution du Cabildo ; fermetures maintenues le 11/11/2026 pour la durée de l'épisode (pluies attendues jusqu'au 12/11) ; aucune annonce de levée trouvée et aucune information postérieure au 11/11 ; état au 20/11/2026 non confirmé
 detection: 2026-11-13
 verif: 2026-11-20
-statut: ACTIF — CHANGÉ (20/11) : dégradée de MOYENNE à INFO. Trois recherches du jour (dont une étendue) sans article postérieur au 11/11 sur la levée ou le maintien des fermetures Charles ; tenerifeon.es/noticias en 403 ; Europa Press du 11/11 17h24 lu (fermetures liées à la durée de l'épisode). Troisième passage sans source nouvelle (13/11, 17/11, 20/11). Levée non sourcée : à clôturer au passage ES-CANARIAS du 27/11 si la presse reste muette ou dès qu'une résolution de réouverture est lue.
+statut: ACTIF. INFO depuis le 20/11 (dégradée de MOYENNE). Revue du 22/11/2026 : une recherche (réouverture Teide, Corona Forestal, senderos, Charles) sans article postérieur au 11/11 ; seuls résultats, les articles de fermeture des 10 et 11/11 et des réouvertures d'épisodes antérieurs (Therese mars 2026, Olivier avril 2025). Non revérifiée, quatrième passage sans source nouvelle (13/11, 17/11, 20/11, 22/11). Levée non sourcée : à clôturer au passage ES-CANARIAS du 27/11 si la presse reste muette ou dès qu'une résolution de réouverture est lue. Piste non lue : tenerifeon.es (403 le 20/11).
 ordre: 270
 ---
 

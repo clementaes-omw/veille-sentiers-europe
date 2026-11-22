@@ -4,10 +4,10 @@ type: incendie / fermeture massif
 itin: GR®9/GR®93 (Diois) — [HYPOTHÈSE, affaiblie 03/08] rattachement de plus en plus douteux : la source normalement la plus autorisée pour les modifications de tracé (FFRandonnée Drôme) ne mentionne aucune alerte Justin/Solaure/Laup. Fermeture de fait du massif maintenue par prudence, rattachement au GR®9/GR®93 non confirmé
 sev: HAUTE (remontée 25/08 — un nouvel arrêté préfectoral daté du 21/08/2026 est retrouvé,
   confirmant la fermeture pour un motif désormais distinct de l'incendie lui-même)
-validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (cité par la presse) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
+validite: le massif reste fermé de fait et de droit jusqu'à nouvel ordre ; l'arrêté préfectoral le plus récent (du 21/08/2026, présenté par la page de la mairie de Die) interdit l'accès aux forêts domaniales de Justin, Laup et Solaure-en-Diois pour risque de chutes de pierres, d'arbres et de branches fragilisés par l'incendie, dans l'attente d'une étude de risque en cours ; les deux arrêtés antérieurs restent par ailleurs non levés
 detection: 2026-07-18
-verif: 2026-11-21
-statut: ACTIF. État au 21/11 : page mairie-die.fr « Accès interdit aux forêts de Justin, Laup et Solaure » OUVERTE et relue en entier : AP du 21/08/2026 (abroge celui du 24/07), interdiction jusqu'à la fin des opérations d'étude et de sécurisation, ni levée ni date, page non datée, d'où HAUTE. RAA Drôme enfin localisé (drome.gouv.fr, rubrique RAA 2026, sous-pages mensuelles) : listes d'octobre (48 recueils) et de novembre (16 recueils, n°26-2026-366 à 384, dernier du 20/11) ouvertes, mais elles ne donnent aucun intitulé d'acte et les PDF n'ont pas pu être téléchargés (connexion refusée) : contenu des recueils NON lu, ni levée ni absence de levée établie par cette voie. À retenter PDF par PDF. Rattachement GR®9/GR®93 toujours [HYPOTHÈSE] affaiblie.
+verif: 2026-11-22
+statut: ACTIF. État au 22/11 : dernier acte connu = AP du 21/08/2026 (abroge celui du 24/07), interdiction jusqu'à la fin des opérations d'étude et de sécurisation, d'où HAUTE ; page mairie-die.fr relue pour la dernière fois le 21/11, non rouverte le 22/11. Piste tentée le 22/11 : recherche presse d'une levée ou réouverture en novembre 2026, sans résultat ; seul article remonté, info.fr « Diois : l'ONF explique pourquoi le massif reste interdit d'accès », daté du 30/07/2026 (antérieur à l'AP du 21/08, déjà connu sur le fond, non ajouté aux sources). RAA Drôme (drome.gouv.fr, RAA 2026, novembre : n°26-2026-366 à 384) toujours NON lu : PDF à retenter un par un ; autre piste non tentée : onf.fr (forêt domaniale de Justin). Ni levée ni absence de levée établie. Rattachement GR®9/GR®93 toujours [HYPOTHÈSE] affaiblie.
 ordre: 31
 ---
 
@@ -80,6 +80,8 @@ MAJ 16/11 : la page de la mairie de Die, relue le 16/11/2026, présente toujours
 MAJ 18/11 : la page de la mairie de Die, relue le 18/11/2026, présente toujours l'arrêté préfectoral du 21/08/2026, qui abroge celui du 24/07/2026 : l'accès aux forêts de Justin, de Laup et de Solaure-en-Diois est interdit aux promeneurs, aux randonneurs et aux véhicules dans le périmètre de la carte annexée, « jusqu'à la fin des opérations d'étude et de sécurisation des forêts concernées ». Aucune levée ni date de réouverture n'y figure.
 
 MAJ 19/11 : aucun arrêté de levée ni annonce de réouverture n'a été trouvé sur les sites de la préfecture de la Drôme, de l'ONF et de la mairie de Die ; le recueil des actes de la préfecture pour novembre n'a pas pu être consulté. L'arrêté préfectoral du 21/08/2026 reste le dernier texte connu : l'accès aux forêts de Justin, de Laup et de Solaure-en-Diois demeure interdit.
+
+MAJ 22/11 : aucune annonce de levée ou de réouverture n'a été trouvée dans la presse au 22/11/2026. Les recueils des actes administratifs de la préfecture de la Drôme de novembre n'ont pas été lus. L'arrêté préfectoral du 21/08/2026 reste le dernier texte connu.
 
 ## Source
 

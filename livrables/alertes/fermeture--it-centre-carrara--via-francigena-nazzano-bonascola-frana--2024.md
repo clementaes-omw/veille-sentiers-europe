@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: interruption maintenue jusqu'à nouvel ordre, aucune date de résorption annoncée par la presse locale (situation non résorbée depuis ~2024, dernière confirmation le 10/06/2026)
 detection: 2026-08-01 (avis de presse du 10/06/2026)
 verif: 2026-10-10
-statut: ACTIF — NOUVEAU 01/08 À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 23 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire voceapuana.com, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+statut: ACTIF. Revue du 22/11/2026 : deux recherches (Carrara, Francigena, frana, Nazzano, Bonascola, via della Lucertola ; voceapuana, La Nazione) sans aucun article postérieur au 10/06/2026, ni ordonnance ni annonce de travaux ou de réouverture. Non revérifiée : dernière source datée toujours La Voce Apuana du 10/06/2026. Pistes non lues : albo pretorio du Comune di Carrara, viefrancigene.org (avis de parcours), Il Tirreno.
 ordre: 96
 ---
 
 ## Portion concernée
 
-Via Francigena italienne, commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) **interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre.
+Via Francigena italienne, commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) **interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre. Au 22/11/2026, aucun article, aucune ordonnance ni aucune annonce de travaux ou de réouverture postérieurs au 10/06/2026 n'a été trouvé : l'état actuel du tronçon n'est pas confirmé.
 
 ## Alternative
 

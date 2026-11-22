@@ -8,8 +8,8 @@ itin: Caminito del Rey [HYPOTHÈSE] les deux sentiers fermés (« Los Embalses �
 sev: INFO
 validite: fermeture sans date de fin (avis « hasta nuevo aviso », jusqu'à nouvel ordre), en vigueur depuis le 12/02/2026
 detection: 2026-09-27
-verif: 2026-10-04
-statut: ACTIF. Avis de la Junta (Ventana del Visitante) toujours en ligne au 04/10, sans date de fin. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : l'échéance annoncée au 12/02/2026 est dépassée : établir si la restriction est levée (clôturer) ou prolongée (réécrire la validité). Action attendue : relire juntadeandalucia.es, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-22
+statut: ACTIF. État au 22/11 : avis de la Junta de Andalucía (Ventana del Visitante) toujours affiché, sans date de fin (« hasta nuevo aviso »), d'après la relecture de la veille du 22/11 ; confirmations précédentes : 27/09 et 04/10. Mention « à traiter » du 2 novembre soldée : le 12/02/2026 est la date d'effet de l'avis, pas une échéance. Prochaine action : relire l'avis sur juntadeandalucia.es, clôturer s'il est retiré.
 ordre: 254
 ---
 
@@ -26,6 +26,8 @@ Aucune alternative connue à ce jour pour ces deux sentiers. La Junta de Andaluc
 12/02/2026 : la Junta de Andalucía publie un avis de fermeture des sentiers balisés « Los Embalses » et « Gaitanejo », dans le Paraje Natural Desfiladero de los Gaitanes (communes d'Álora, Ardales et Antequera, Málaga), en raison d'un risque de lâcher d'eau des barrages Conde de Guadalhorce, Guadalteba et Guadalhorce, dans un contexte de crues sur les cours d'eau régulés.
 
 27/09/2026 : l'avis reste affiché sans date de fin (« hasta nuevo aviso ») sept mois après sa publication. Aucune source consultée ne documente d'impact sur la passerelle touristique du Caminito del Rey elle-même, dont la vente de billets se poursuit normalement selon la plateforme officielle de réservation.
+
+22/11/2026 : l'avis de la Junta de Andalucía est toujours affiché, sans date de fin.
 
 ## Source
 
