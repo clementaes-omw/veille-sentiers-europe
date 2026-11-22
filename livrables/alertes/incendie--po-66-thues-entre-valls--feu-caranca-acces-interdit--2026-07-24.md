@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
 detection: 2026-07-30
 verif: 2026-09-27
-statut: ACTIF — INCHANGÉ 27/09 : nouvelle recherche, toujours aucun CP préfectoral postérieur au n°9 du 30/07. Le statut d'extinction du 02/08 reste une [HYPOTHÈSE] non officielle. L'interdiction d'accès au secteur, gorges de la Carança, reste la seule donnée ferme. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 36 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-orientales.gouv.fr et ici.fr, puis confirmer si le feu est déclaré éteint, si l'arrêté ou la fermeture est toujours en vigueur ou levé.
+statut: ACTIF — NON REVÉRIFIÉ au 22/11/2026 (dernière confirmation : 27/09). Piste tentée le 22/11 : recherche web « gorges de la Carança incendie accès interdit levée réouverture 2026 », rien de postérieur au 31/07/2026 ; la page ffrandonnee.fr « réouverture de la passerelle des gorges de Carança depuis le 18 octobre » est datée du 29/10/2024 (éboulements, sans rapport avec le feu). Toujours aucun CP préfectoral postérieur au n°9 du 30/07 ni acte de levée ; extinction du 02/08 toujours [HYPOTHÈSE]. À faire : recueil des actes administratifs de la préfecture 66 et mairie de Thuès-Entre-Valls ; sans acte trouvé, dégradation en INFO ou clôture à arbitrer (feu de juillet, 4 mois sans signal).
 ordre: 58
 ---
 
 ## Portion concernée
 
-Commune de Thuès-Entre-Valls (Conflent, Pyrénées-Orientales), secteur du torrent du Faget et du Roc dels Cimbels, vers 1 800 m d'altitude. **L'accès au secteur est strictement interdit, en particulier aux gorges de la Caranca.** Raison : feu d'espace naturel déclenché le 24/07/2026 à 16h00 par un impact de foudre, 65 ha parcourus, situation stabilisée depuis le 30/07 mais feu toujours pas officiellement déclaré fixé à cette date, sans nouveau point de situation publié depuis.
+Commune de Thuès-Entre-Valls (Conflent, Pyrénées-Orientales), secteur du torrent du Faget et du Roc dels Cimbels, vers 1 800 m d'altitude. **L'accès au secteur est strictement interdit, en particulier aux gorges de la Caranca.** Raison : feu d'espace naturel déclenché le 24/07/2026 à 16h00 par un impact de foudre, 65 ha parcourus, situation stabilisée depuis le 30/07 mais feu toujours pas officiellement déclaré fixé à cette date, sans nouveau point de situation publié depuis. Au 22/11/2026, aucune publication postérieure au 31/07/2026 n'a été trouvée, ni acte de levée ni communiqué de la préfecture : l'état actuel de l'accès n'est pas confirmé.
 
 ## Alternative
 

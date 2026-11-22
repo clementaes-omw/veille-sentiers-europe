@@ -3,16 +3,16 @@ cle: fermeture|FR-13-Sainte-Victoire|gr9-prieure-croix-de-provence|2026-10-01
 type: fermeture
 itin: GR®9 (Sainte-Victoire, secteur Prieuré↔Croix de Provence)
 sev: MOYENNE
-validite: fermetures en semaine du 01/10 au 27/11/2026
+validite: fermetures en semaine du 01/10/2026 jusqu'à la réouverture annoncée le 20/11/2026 (échéance initiale : 27/11/2026)
 detection: 2026-09-24
-verif: 2026-11-06
-statut: ACTIF — CHANGÉ 01/10 : la fermeture en semaine entre en vigueur ce jour (frequence-sud.fr, article daté du 01/10, 01/10 au 27/11/2026). Divergence de fin toujours non tranchée entre le Grand Site (27/11) et la ville d'Aix (31/12) ; date du gestionnaire retenue.
+verif: 2026-11-22
+statut: [CLÔTURÉ] (2026-11-22) réouverture annoncée par le Grand Site Concors Sainte-Victoire le vendredi 20/11/2026 (actualité « Réouverture du sentier entre le Prieuré et la Croix de Provence », lue le 22/11) : sentier réhabilité, tronçon rouvert une semaine avant l'échéance du 27/11. Date effective de réouverture non précisée par l'article. Page de la ville d'Aix (fin au 31/12) non relue.
 ordre: 248
 ---
 
 ## Portion concernée
 
-**Le tronçon du GR®9 entre le Prieuré et la Croix de Provence est fermé en semaine depuis le 1er octobre 2026**, dans le massif de la Sainte-Victoire (Bouches-du-Rhône). Le Grand Site annonce une fin au 27 novembre, la ville d'Aix-en-Provence au 31 décembre. Accessible du vendredi soir au dimanche soir. Raison : travaux de réhabilitation du sentier, sur la montée finale vers le sommet de la Croix de Provence.
+**Le tronçon du GR®9 entre le Prieuré et la Croix de Provence est rouvert**, dans le massif de la Sainte-Victoire (Bouches-du-Rhône) : le Grand Site Concors Sainte-Victoire a annoncé sa réouverture le 20 novembre 2026. Il était fermé en semaine depuis le 1er octobre 2026. Accessible du vendredi soir au dimanche soir pendant les travaux. Le Grand Site annonçait une fin au 27 novembre, la ville d'Aix-en-Provence au 31 décembre. Raison de la fermeture : travaux de réhabilitation du sentier, sur la montée finale vers le sommet de la Croix de Provence, aujourd'hui terminés.
 
 ## Alternative
 
@@ -26,6 +26,8 @@ Le Grand Site Concors Sainte-Victoire annonce, le 15 septembre 2026, la fermetur
 
 01/10 : la fermeture en semaine entre en vigueur. Le tronçon est fermé du lundi au vendredi (accessible du vendredi soir au dimanche soir) jusqu'au 27/11/2026 selon le Grand Site, les matériaux étant héliportés. La ville d'Aix-en-Provence continue d'afficher le 31/12/2026 comme fin.
 
+22/11 : le tronçon est rouvert. Le Grand Site Concors Sainte-Victoire a annoncé le vendredi 20/11 la réouverture du sentier entre le Prieuré et la Croix de Provence, une semaine avant l'échéance du 27/11. L'itinéraire balisé est réhabilité : les murets de pierre posés dans les années 2000 ont été consolidés et réparés, avec de la pierre acheminée par hélicoptère. L'annonce ne mentionne ni travaux restants ni restriction, et ne précise pas le jour exact de la réouverture.
+
 ## Source
 
-[Grand Site Concors Sainte-Victoire, mardi 15 septembre 2026, Travaux et fermeture du parking de Saint-Ser d'octobre 2026 à février 2027](https://grandsitesaintevictoire.com/actualites/travaux-et-fermeture-du-parking-de-saint-ser-doctobre-2026-a-fevrier-2027) ; [Grand Site Concors Sainte-Victoire, Info sentiers](https://www.grandsitesaintevictoire.com/pratiquer/info-sentiers/) ; [aixenprovence.fr, 04/09/2026, fermeture du sentier entre le Prieuré et la Croix de Provence](https://www.aixenprovence.fr/Fermeture-du-sentier-entre-le-Prieure-et-la-Croix-de-Provence) ; [frequence-sud.fr, 01/10/2026, Le sentier entre le Prieuré et la Croix de Provence fermé pour travaux en semaine jusqu'à la fin novembre](https://www.frequence-sud.fr/art-113743-le_sentier_entre_le_prieure_et_la_croix_de_provence_de_la_sainte-victoire_ferme_pour_travaux_en_semaine_jusqu_a_la_fin_novembre_marseille)
+[Grand Site Concors Sainte-Victoire, mardi 15 septembre 2026, Travaux et fermeture du parking de Saint-Ser d'octobre 2026 à février 2027](https://grandsitesaintevictoire.com/actualites/travaux-et-fermeture-du-parking-de-saint-ser-doctobre-2026-a-fevrier-2027) ; [Grand Site Concors Sainte-Victoire, Info sentiers](https://www.grandsitesaintevictoire.com/pratiquer/info-sentiers/) ; [aixenprovence.fr, 04/09/2026, fermeture du sentier entre le Prieuré et la Croix de Provence](https://www.aixenprovence.fr/Fermeture-du-sentier-entre-le-Prieure-et-la-Croix-de-Provence) ; [frequence-sud.fr, 01/10/2026, Le sentier entre le Prieuré et la Croix de Provence fermé pour travaux en semaine jusqu'à la fin novembre](https://www.frequence-sud.fr/art-113743-le_sentier_entre_le_prieure_et_la_croix_de_provence_de_la_sainte-victoire_ferme_pour_travaux_en_semaine_jusqu_a_la_fin_novembre_marseille) ; [Grand Site Concors Sainte-Victoire, vendredi 20 novembre 2026, Réouverture du sentier entre le Prieuré et la Croix de Provence](https://www.grandsitesaintevictoire.com/actualites/reouverture-du-sentier-entre-le-prieure-et-la-croix-de-provence/)
