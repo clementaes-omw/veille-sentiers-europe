@@ -5,8 +5,8 @@ itin: GR®10 / HRP / HRMP
 sev: MOYENNE
 validite: permanente (arrêtés directeur 2026-45 et 2026-112)
 detection: 2026-07-02
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : réglementation permanente (arrêtés directeur 2026-45 et 2026-112), rien à signaler de nouveau. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 49 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire pyrenees-parcnational.fr, puis confirmer que la règle est toujours en vigueur ou modifiée.
+verif: 2026-11-22
+statut: ACTIF. État au 22/11 : page du parc relue par la veille (page datée du 03/08/2026 d'après le journal du 22/11) : réglementation permanente (arrêtés directeur 2026-45 et 2026-112), baignade interdite dans les lacs et laquets. À recouper avant de toucher la portion : la page n'interdit explicitement que l'aquarando dans les cours d'eau, alors que la portion étend l'interdiction de baignade et d'immersion aux cours d'eau ; lire les arrêtés 2026-45 et 2026-112.
 ordre: 11
 ---
 

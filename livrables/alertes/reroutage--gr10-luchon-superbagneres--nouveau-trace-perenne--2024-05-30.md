@@ -5,8 +5,8 @@ itin: GR®10
 sev: INFO (haute si la trace utilisée est l'ancien tracé)
 validite: pérenne
 detection: 2026-07-07
-verif: 2026-09-14
-statut: ACTIF — INCHANGÉ 14/09 : reroutage pérenne, balisage confirmé toujours en place (avril à mi-novembre selon les fiches de randonnée locales) ; reste à vérifier la trace GPX vs nouveau tracé. À TRAITER AU PROCHAIN RUN (vérification qualité du 2 novembre 2026) : dernière vérification il y a 49 jours, sans source plus récente confirmée par le vérificateur. Action attendue : relire ffrandonnee.fr, puis confirmer si la fermeture ou la déviation est toujours en place, levée ou prolongée.
+verif: 2026-11-22
+statut: ACTIF. État au 22/11 : reroutage pérenne ; article FFRandonnée du 30/05/2024 relu par la veille le 22/11, sans changement. Balisage confirmé en place le 14/09 (avril à mi-novembre selon les fiches de randonnée locales). Reste à vérifier la trace GPX vs nouveau tracé. Clôture recommandée par le vérificateur le 22/11 (déviation devenue le tracé officiel), à arbitrer par la veille.
 ordre: 23
 ---
 

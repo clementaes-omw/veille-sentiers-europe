@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: depuis fin octobre 2026, travaux prévus jusqu'en décembre 2026 sous réserve de la météo ; déviation en place
 detection: 2026-11-11
 verif: 2026-11-11
-statut: ACTIF — NOUVEAU : avis FFRando 22 du 29/10/2026 (« Alertes sentiers »). Aucun arrêté cité, date exacte de début des travaux non publiée.
+statut: ACTIF. Seule source : avis FFRando 22 du 29/10/2026 (« Alertes sentiers »), aucun arrêté cité, date exacte de début des travaux non publiée. Revue du 22/11/2026 : cotes-d-armor.ffrandonnee.fr en 403 (avis et page Alertes, trois essais), une recherche sans article de presse ni publication de la mairie. Non revérifiée depuis la détection du 11/11. Pistes non lues : avis de marché de la Communauté de communes Côte d'Émeraude (réparation du corps de la digue de La Roche, marchesonline.com), mairie de Lancieux, Ouest-France et Le Télégramme.
 ordre: 264
 ---
 
