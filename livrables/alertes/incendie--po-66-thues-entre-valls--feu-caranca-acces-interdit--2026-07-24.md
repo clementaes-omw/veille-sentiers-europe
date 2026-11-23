@@ -2,17 +2,17 @@
 cle: incendie|PO-66-Thues-entre-Valls|feu-Caranca-acces-interdit|2026-07-24
 type: incendie / interdiction d'accès
 itin: GRT75 (Refuge du Ras de la Caranà ↔ Coll de Caranca) ; GR®10 (Thuès-Entre-Valls, village-étape) et GR®36 (Conflent) — [HYPOTHÈSE] portion exacte à recouper, aucune source ne nomme explicitement ces sentiers
-sev: MOYENNE
-validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre (sans échéance annoncée) ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE], aucun CP préfectoral postérieur au n°9 du 30/07 retrouvé
+sev: INFO (dégradée MOYENNE → INFO le 23/11/2026 : aucune publication depuis le 31/07/2026, ni levée ni confirmation)
+validite: depuis le 24/07/2026 16h ; accès au secteur strictement interdit jusqu'à nouvel ordre selon le dernier communiqué (CP n°9 du 30/07/2026), sans échéance annoncée ; aucune publication depuis le 31/07/2026, aucun acte de levée publié, état actuel non confirmé ; feu qui serait éteint depuis le 02/08 selon une source non officielle [HYPOTHÈSE]
 detection: 2026-07-30
 verif: 2026-09-27
-statut: ACTIF — NON REVÉRIFIÉ au 22/11/2026 (dernière confirmation : 27/09). Piste tentée le 22/11 : recherche web « gorges de la Carança incendie accès interdit levée réouverture 2026 », rien de postérieur au 31/07/2026 ; la page ffrandonnee.fr « réouverture de la passerelle des gorges de Carança depuis le 18 octobre » est datée du 29/10/2024 (éboulements, sans rapport avec le feu). Toujours aucun CP préfectoral postérieur au n°9 du 30/07 ni acte de levée ; extinction du 02/08 toujours [HYPOTHÈSE]. À faire : recueil des actes administratifs de la préfecture 66 et mairie de Thuès-Entre-Valls ; sans acte trouvé, dégradation en INFO ou clôture à arbitrer (feu de juillet, 4 mois sans signal).
+statut: ACTIF, dégradée MOYENNE → INFO le 23/11/2026 : interdiction prononcée pendant un feu de juillet, rien de publié depuis le 31/07 (près de quatre mois), ni acte de levée ni reconduction. Piste tentée le 23/11 : recherche « gorges de la Carança Thuès-entre-Valls arrêté accès incendie réouverture sentier automne 2026 », aucun résultat daté postérieur au feu ; pièges écartés : ffrandonnee.fr « réouverture de la passerelle » (29/10/2024, éboulement) et « provisoirement inaccessibles » (30/09/2024) ; la fiche de l'office de tourisme « ouvert toute l'année 2026 » est une fiche permanente, pas un acte. verif inchangé (rien relu). Reste à lire : recueil des actes administratifs de la préfecture 66, mairie de Thuès-Entre-Valls, réserve naturelle de Nyer.
 ordre: 58
 ---
 
 ## Portion concernée
 
-Commune de Thuès-Entre-Valls (Conflent, Pyrénées-Orientales), secteur du torrent du Faget et du Roc dels Cimbels, vers 1 800 m d'altitude. **L'accès au secteur est strictement interdit, en particulier aux gorges de la Caranca.** Raison : feu d'espace naturel déclenché le 24/07/2026 à 16h00 par un impact de foudre, 65 ha parcourus, situation stabilisée depuis le 30/07 mais feu toujours pas officiellement déclaré fixé à cette date, sans nouveau point de situation publié depuis. Au 22/11/2026, aucune publication postérieure au 31/07/2026 n'a été trouvée, ni acte de levée ni communiqué de la préfecture : l'état actuel de l'accès n'est pas confirmé.
+Commune de Thuès-Entre-Valls (Conflent, Pyrénées-Orientales), secteur du torrent du Faget et du Roc dels Cimbels, vers 1 800 m d'altitude. **L'interdiction d'accès au secteur, en particulier aux gorges de la Caranca, prononcée par la préfecture pendant le feu de juillet 2026, n'a fait l'objet d'aucune publication depuis le 31/07/2026.** Aucun acte de levée n'est publié et l'état actuel de l'accès n'est pas confirmé. Le dernier communiqué de la préfecture, le 30/07/2026, disait l'accès « strictement interdit ». Raison : feu d'espace naturel déclenché le 24/07/2026 à 16h00 par un impact de foudre, 65 ha parcourus, situation stabilisée au 30/07 sans que le feu soit alors officiellement déclaré fixé ; aucun point de situation n'a suivi. Se renseigner auprès de la mairie de Thuès-Entre-Valls ou de la préfecture des Pyrénées-Orientales avant de s'engager dans les gorges.
 
 ## Alternative
 
@@ -27,6 +27,8 @@ MAJ 14/08 : un CP n°9, daté du 30/07/2026 à 09h00, a été retrouvé (il n'av
 MAJ 20/08 : feuxdeforet.fr indique le feu fixé depuis le 02/08/2026, mais classe l'événement sous la commune de Nyer plutôt que Thuès-Entre-Valls et n'est pas une source officielle ; aucun communiqué préfectoral plus récent que le CP n°9 (postérieur au 30/07) n'a été retrouvé pour confirmer cette information. Retenu en [HYPOTHÈSE]. L'interdiction d'accès au secteur, gorges de la Caranca, n'est levée par aucune source.
 
 MAJ 24/08 : la même fiche feuxdeforet.fr (commune de Nyer) affiche désormais le feu comme éteint, toujours à la date du 02/08/2026, sans reprise depuis. Source non officielle, non recoupée par un CP préfectoral : le statut du feu lui-même reste une hypothèse. L'interdiction d'accès au secteur, en particulier aux gorges de la Caranca, n'est levée par aucune source officielle ni de presse : elle reste la seule donnée ferme de cette fiche.
+
+MAJ 23/11 : près de quatre mois après le feu, aucun communiqué de la préfecture, aucun acte de levée et aucun article de presse postérieur au 31/07/2026 n'est publié. L'interdiction d'accès n'est ni confirmée ni levée : l'alerte est ramenée au niveau information. Les pages de la FFRandonnée sur la passerelle des gorges (fermeture du 30/09/2024, réouverture du 18/10/2024) concernent un éboulement de 2024 et non ce feu.
 
 ## Source
 
