@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: fermeture hivernale en cours, jusqu'au 31/03/2027 selon le régime annuel (du 1er novembre au 31 mars chaque hiver depuis 2015-2016) ; note officielle du Gobierno de Navarra pour la saison 2026-2027 non retrouvée
 detection: 2026-11-02
 verif: 2026-11-09
-statut: ACTIF — régime annuel du Gobierno de Navarra (presse 07/11/2025, guide viajecaminodesantiago.com du 08/10/2026). Note officielle 2026-2027 toujours non retrouvée au 22/11/2026 : une recherche web ne remonte que l'article Noticias de Navarra du 07/11/2025 et des pages 2021 et 2024 ; la recherche restreinte à navarra.es et à la presse navarraise a échoué (domaines inaccessibles à l'outil). Sévérité MOYENNE faute de note officielle lue ; à passer HAUTE si le communiqué du Gobierno de Navarra ou un panneau officiel est retrouvé. Piste suivante : lecture directe de navarra.es (notas de prensa, Interior / Bomberos de Navarra).
+statut: ACTIF — régime annuel du Gobierno de Navarra (presse 07/11/2025, guide viajecaminodesantiago.com du 08/10/2026). Aucune source relue directement le 23/11/2026, `verif:` laissé au 09/11. Note officielle 2026-2027 toujours non retrouvée : le moteur interne de navarra.es (buscador?q=Lepoeder) répond mais ne remonte que des pages institutionnelles, aucune nota de prensa ; deux recherches web (dont une ciblée « navarra.es nota de prensa ») ne remontent que Noticias de Navarra 07/11/2025, des pages 2021 et 2024 et un article non daté de que.es. Aucun texte officiel d'une année antérieure (ordre foral, nota de prensa navarra.es) n'a été lu : le caractère annuel ne repose que sur la presse. Sévérité MOYENNE maintenue ; à passer HAUTE si le communiqué ou un panneau officiel est retrouvé. Pistes restantes, non essayées : liste des notas de prensa de navarra.es filtrée par date (début novembre), site de la Colegiata de Roncesvalles, office de tourisme de Saint-Jean-Pied-de-Port, fil du forum gronze « cierre camino por lepoeder ».
 ordre: 263
 ---
 
 ## Portion concernée
 
-**Variante Route Napoléon du Camino Francés, entre la frontière près du col de Bentartea (1 288 m) et le col de Lepoeder (1 432 m), puis la descente vers Roncesvalles : passage interdit du 1er novembre au 31 mars.** Raison : le Gobierno de Navarra ferme ce tronçon d'altitude chaque hiver pour limiter les secours en cas de brouillard ou de neige, sans village où descendre sur les 5 km au-dessus de la frontière.
+**Variante Route Napoléon du Camino Francés, entre la frontière près du col de Bentartea (1 288 m) et le col de Lepoeder (1 432 m), puis la descente vers Roncesvalles : passage interdit du 1er novembre au 31 mars.** Raison : le Gobierno de Navarra ferme ce tronçon d'altitude chaque hiver pour limiter les secours en cas de brouillard ou de neige, sans village où descendre sur les 5 km au-dessus de la frontière. La note officielle du Gobierno de Navarra pour l'hiver 2026-2027 n'a pas été retrouvée au 23/11/2026 : la fermeture est connue par la presse (07/11/2025) et par un guide du 08/10/2026, qui décrivent un régime reconduit chaque hiver.
 
 ## Alternative
 

@@ -3,16 +3,16 @@ cle: risque-feu|HautesPyrenees-65|interdiction-feu-massifs-forestiers|2026-07-27
 type: risque-feu
 itin: GR®10, HRP, HRMP, GR®101
 sev: MOYENNE
-validite: en vigueur depuis le 27/07/2026 jusqu'à nouvel ordre, sans date de fin dans le texte (article 1 : l'arrêté « pourra être abrogé » si les conditions climatiques et l'état d'assèchement du sol s'améliorent) ; aucune abrogation trouvée sur le site de la préfecture au 16/11/2026
+validite: en vigueur depuis le 27/07/2026 jusqu'à nouvel ordre, sans date de fin dans le texte (article 1 : l'arrêté « pourra être abrogé » si les conditions climatiques et l'état d'assèchement du sol s'améliorent) ; aucune abrogation trouvée sur le site de la préfecture au 23/11/2026
 detection: 2026-08-24
-verif: 2026-11-16
-statut: ACTIF : texte de l'arrêté 65-2026-07-24-00002 lu le 16/11 (copie lourdes.fr), aucune date de fin, abrogation conditionnée à la météo ; page communiqué hautes-pyrenees.gouv.fr relue (MAJ 04/09/2026), sans levée ; 2 recherches ciblées d'un arrêté d'abrogation sans résultat (recueil des actes non consulté directement). Régime d'été vraisemblablement caduc dans les faits à la mi-novembre, mais pas juridiquement : à trancher (clôture ou passage en INFO) dès qu'une abrogation est retrouvée au recueil des actes administratifs du 65.
+verif: 2026-11-23
+statut: ACTIF. État au 23/11 : page communiqué hautes-pyrenees.gouv.fr relue (toujours « Mis à jour le 04/09/2026 », « évolueront en fonction des conditions climatiques », ni levée ni lien vers un communiqué plus récent) ; 1 recherche ciblée d'un arrêté d'abrogation sans résultat (ne remonte que l'arrêté du 24/07 et sa copie lourdes.fr). Recueil des actes administratifs du 65 toujours non consulté directement (URL de la rubrique 2026 à trouver sur hautes-pyrenees.gouv.fr/Publications). Régime d'été vraisemblablement caduc dans les faits fin novembre, pas juridiquement : clôture ou passage en INFO dès qu'une abrogation est lue.
 ordre: 179
 ---
 
 ## Portion concernée
 
-**Tous les massifs forestiers des Hautes-Pyrénées (formations boisées de plus de 0,5 hectare)** : l'emploi du feu est interdit en forêt et jusqu'à 200 mètres des bois, l'accès à l'aide de véhicules à moteur est interdit hors voies revêtues, et la pénétration dans les massifs est fortement déconseillée à tous les usagers. Raison : risque d'incendie très élevé, arrêté préfectoral du 24/07/2026 applicable depuis le 27/07/2026, complété par un second arrêté le 30/07/2026. Le texte ne fixe aucune date de fin, et aucun arrêté d'abrogation n'est publié à ce jour sur le site de la préfecture.
+**Tous les massifs forestiers des Hautes-Pyrénées (formations boisées de plus de 0,5 hectare)** : l'emploi du feu est interdit en forêt et jusqu'à 200 mètres des bois, l'accès à l'aide de véhicules à moteur est interdit hors voies revêtues, et la pénétration dans les massifs est fortement déconseillée à tous les usagers. Raison : risque d'incendie très élevé, arrêté préfectoral du 24/07/2026 applicable depuis le 27/07/2026, complété par un second arrêté le 30/07/2026. Le texte ne fixe aucune date de fin : il prévoit seulement qu'il pourra être abrogé quand la météo et l'humidité des sols s'amélioreront. Au 23/11/2026, la préfecture n'a publié ni arrêté d'abrogation ni annonce de fin des mesures, et la page de son communiqué n'a pas changé depuis le 04/09/2026.
 
 ## Alternative
 
@@ -29,6 +29,8 @@ Sans objet : aucun sentier n'est fermé par ce texte, qui réglemente l'usage du
 04/09 : la préfecture met à jour la page de son communiqué, sans annoncer de levée.
 
 16/11 : le texte de l'arrêté du 24/07/2026 ne comporte aucune date de fin. Son article 1 prévoit seulement qu'il « pourra être abrogé » si les conditions climatiques et l'état d'assèchement du sol s'améliorent, et précise que son champ couvre aussi les bivouacs et campings sauvages : ils sont soumis aux mêmes règles (feu interdit, accès aux massifs fortement déconseillé), sans être interdits en tant que tels par l'article 3. Aucun arrêté d'abrogation n'est publié à ce jour sur le site de la préfecture, dont la page n'a pas changé depuis le 04/09.
+
+23/11 : la page du communiqué de la préfecture, relue le 23/11/2026, porte toujours la mention « Mis à jour le 04/09/2026 » et la phrase selon laquelle les mesures « évolueront en fonction des conditions climatiques ». Elle n'annonce ni levée ni abrogation, et aucun arrêté d'abrogation n'a été trouvé.
 
 ## Source
 
