@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: depuis fin octobre 2026, travaux prévus jusqu'en décembre 2026 sous réserve de la météo ; déviation en place
 detection: 2026-11-11
 verif: 2026-11-11
-statut: ACTIF. Seule source : avis FFRando 22 du 29/10/2026 (« Alertes sentiers »), aucun arrêté cité, date exacte de début des travaux non publiée. Revue du 22/11/2026 : cotes-d-armor.ffrandonnee.fr en 403 (avis et page Alertes, trois essais), une recherche sans article de presse ni publication de la mairie. Non revérifiée depuis la détection du 11/11. Pistes non lues : avis de marché de la Communauté de communes Côte d'Émeraude (réparation du corps de la digue de La Roche, marchesonline.com), mairie de Lancieux, Ouest-France et Le Télégramme.
+statut: ACTIF. Non revérifiée au 23/11/2026 (seule source : avis FFRando 22 du 29/10/2026, aucun arrêté cité, date exacte de début des travaux non publiée). Piste tentée le 23/11 : recherche « Lancieux digue de La Roche travaux GR34 déviation novembre 2026 », uniquement des fiches de circuits anciennes, aucun article ni publication municipale ; recherche restreinte à la mairie et à la presse régionale rejetée par l'outil (letelegramme.fr et actu.fr inaccessibles au robot). Dégât physique et chantier annoncé jusqu'en décembre : maintenue en MOYENNE, verif inchangé. À lire en direct : site de la mairie de Lancieux, avis de marché de la Communauté de communes Côte d'Émeraude, ouest-france.fr.
 ordre: 264
 ---
 
 ## Portion concernée
 
-**Digue de La Roche, à Lancieux (Côtes-d'Armor)** : l'accès à la digue est interdit et le GR®34 est dévié pendant toute la durée des travaux, prévus jusqu'en décembre 2026 selon la météo. Raison : travaux de réparation et de confortement de la digue, qui protège le polder de Lancieux.
+**Digue de La Roche, à Lancieux (Côtes-d'Armor)** : l'accès à la digue est interdit et le GR®34 est dévié pendant toute la durée des travaux, prévus jusqu'en décembre 2026 selon la météo. Raison : travaux de réparation et de confortement de la digue, qui protège le polder de Lancieux. Cette information vient de l'avis du comité FFRandonnée des Côtes-d'Armor du 29/10/2026, qui ne cite aucun arrêté ; au 23/11/2026, aucune publication de la mairie ni de la presse n'a été trouvée sur l'avancement du chantier.
 
 ## Alternative
 
