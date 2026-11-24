@@ -6,13 +6,13 @@ sev: MOYENNE
 validite: interruption maintenue jusqu'à nouvel ordre, aucune date de résorption annoncée par la presse locale (situation non résorbée depuis ~2024, dernière confirmation le 10/06/2026)
 detection: 2026-08-01 (avis de presse du 10/06/2026)
 verif: 2026-10-10
-statut: ACTIF. Non revérifiée au 23/11/2026 : une recherche restreinte à viefrancigene.org, comune.carrara.ms.it, iltirreno.it, lanazione.it et voceapuana.com ne renvoie que l'article de La Voce Apuana du 10/06/2026 et des ordonnances de voirie sans rapport (enrobés au rond-point de Bonascola) ; ni ordonnance sur la via della Lucertola, ni travaux, ni réouverture. Dégât physique : maintenue en MOYENNE, verif inchangé. Pistes non lues : albo pretorio du Comune di Carrara en lecture directe, page des avis de parcours de viefrancigene.org, Provincia di Massa-Carrara.
+statut: ACTIF. Non revérifiée au 24/11/2026 : recherche générale (Nazzano, Bonascola, via della Lucertola, frana) sans résultat postérieur au 10/06/2026, seulement un avis de voirie de janvier 2026 sur la via Provinciale Avenza sans rapport ; verif inchangé, maintenue en MOYENNE (dégât physique). Pistes non lues : albo pretorio du Comune di Carrara, avis de parcours de viefrancigene.org, Provincia di Massa-Carrara.
 ordre: 96
 ---
 
 ## Portion concernée
 
-Via Francigena italienne, commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) **interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre. Au 23/11/2026, aucun article, aucune ordonnance ni aucune annonce de travaux ou de réouverture postérieurs au 10/06/2026 n'a été trouvé : l'état actuel du tronçon n'est pas confirmé.
+Via Francigena italienne, commune de Carrara (Massa-Carrara, Toscane) : tronçon Nazzano ↔ Bonascola (via della Lucertola) **interrompu par un glissement de terrain d'environ 10 mètres**. La cause est un effondrement provoqué par une fuite dans une conduite souterraine. Le glissement est signalé comme actif depuis environ deux ans (donc depuis ~2024) et n'était toujours pas résorbé à la date de l'article (10/06/2026). Signalisation de coupure jugée peu visible aux deux accès, barrières de protection régulièrement déplacées : la coupure est peu respectée et peu sûre. Au 24/11/2026, aucun article, aucune ordonnance ni aucune annonce de travaux ou de réouverture postérieurs au 10/06/2026 n'a été trouvé : l'état actuel du tronçon n'est pas confirmé.
 
 ## Alternative
 

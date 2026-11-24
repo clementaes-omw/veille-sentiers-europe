@@ -3,7 +3,7 @@ cle: conditions|ES-CANARIAS-Tenerife|teide-sept-sentiers-pic-neige-glace|2026-11
 type: conditions / restriction d'accès
 itin: Sentiers du pic du Teide au-dessus de 2 700 m (PNT 07 Montaña Blanca ↔ La Rambleta, PNT 10 Telesforo Bravo, PNT 09, PNT 11, PNT 12, PNT 23, PNT 28)
 sev: MOYENNE
-validite: depuis le dimanche 01/11/2026, sans date de fin annoncée par le Cabildo de Tenerife ; dernière information datée du 05/11/2026 ; état au 20/11/2026 non confirmé
+validite: depuis le dimanche 01/11/2026, jusqu'à nouvelle résolution du Cabildo de Tenerife (jusqu'à nouvel ordre, aucune date de fin annoncée) ; dernière information datée du 05/11/2026 ; état actuel non confirmé
 detection: 2026-11-17
 verif: 2026-11-20
 statut: ACTIF. Revue du 22/11/2026 : une recherche, aucune résolution de levée ni article postérieur au 10/11. Le moteur résume un article diariodeavisos (restricciones-teide-nevada) qu'il date du 09/11/2026 : sept sentiers toujours restreints, sans date de fin ; article non relu ce jour, donc non revérifiée. Piège écarté : rtvc.es « El Cabildo reabre los senderos de Montaña Blanca y el Mirador de La Fortaleza » date du 31/01/2025. MOYENNE : presse concordante, pas d'acte officiel lu. À relire au passage ES-CANARIAS du 27/11 (tenerifeon.es en 403 le 20/11).
