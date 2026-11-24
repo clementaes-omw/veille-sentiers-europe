@@ -5,8 +5,8 @@ itin: GR®65 (Chemin de Saint-Jacques / Via Podiensis, Lot)
 sev: MOYENNE
 validite: déviation en vigueur jusqu'à nouvel ordre (durée indéterminée), mise en place le 25/07/2026 suite à l'incendie de mi-juillet 2026
 detection: 2026-07-28
-verif: 2026-11-17
-statut: ACTIF. État au 17/11 : avis FFRandonnée du 25/07/2026 (« Déviation du GR 65 dans le Lot pour cause d'incendie ») toujours en ligne, accès interdit pour une durée indéterminée, déviation de 4,5 km par la vallée du Tréboulou ; aucune annonce de réouverture trouvée (une recherche). Non consultés : mairies de Cieurac et de Flaujac-Poujols.
+verif: 2026-11-24
+statut: ACTIF. État au 24/11 : avis FFRandonnée du 25/07/2026 toujours le dernier texte connu (accès interdit pour une durée indéterminée, déviation de 4,5 km par la vallée du Tréboulou) ; une recherche ciblée sans annonce de réouverture. Piège déjoué : « Compostelle : le cheminement sur le GR 65 sécurisé dans le Lot » (ffrandonnee.fr) date du 02/04/2017 (travaux sur la D6 au Gariat), sans lien. Feu du 11/07/2026, 180 ha, maîtrisé le 12/07 selon feuxdeforet.fr. Non consultés : mairies de Cieurac et de Flaujac-Poujols.
 ordre: 57
 ---
 
