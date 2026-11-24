@@ -12,7 +12,7 @@ ordre: 5
 
 ## Portion concernée
 
-GR®21 entre la valleuse des Loges et Bénouville (secteur Étretat→Fécamp, 76) : **accès interdit par arrêtés municipaux**. Raison : glissement de terrain.
+GR®21 entre la valleuse des Loges et Bénouville (secteur Étretat→Fécamp, 76) : **accès interdit par arrêtés municipaux**. Raison : glissement de terrain. Cette information vient de l'avis de la FFRandonnée du 17/02/2026 et d'un article de France Bleu ; au 11/11/2026, aucune publication plus récente n'a été trouvée, ni sur la levée des arrêtés ni sur leur maintien : l'état actuel du tronçon n'est pas confirmé.
 
 ## Alternative
 
@@ -20,7 +20,9 @@ Déviation cartographiée par la FFRandonnée (lien en sources).
 
 ## Zone (détails)
 
-GR®21 entre valleuse des Loges et Bénouville (76, secteur Étretat→Fécamp) : glissement de terrain. L'accès est interdit provisoirement par arrêtés municipaux (Les Loges + Bénouville) et la FFRando a cartographié une déviation.
+17/02/2026 : GR®21 entre valleuse des Loges et Bénouville (76, secteur Étretat→Fécamp) : glissement de terrain. L'accès est interdit provisoirement par arrêtés municipaux (Les Loges + Bénouville) et la FFRando a cartographié une déviation.
+
+11/11/2026 : aucune publication postérieure à février 2026 n'a été trouvée sur ce tronçon, ni levée des arrêtés ni confirmation de leur maintien.
 
 ## Source
 

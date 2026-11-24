@@ -5,8 +5,8 @@ itin: Stockalperweg (ViaStockalper, Brigue ↔ col du Simplon ↔ Gondo), tronç
 sev: MOYENNE
 validite: 09/11/2026 → 31/05/2027 (fermeture hivernale), flux officiel id 2605691
 detection: 2026-11-17
-verif: 2026-11-17
-statut: ACTIF — NOUVEAU (17/11) : repéré dans le flux officiel data.geo.admin.ch téléchargé le 17/11 (id 2605691, créé le 09/11/2026, segment 1337). Source officielle unique, texte bref. Autres entrées valaisannes et vaudoises nouvelles depuis le 09/11, locales, non versées au registre : Salvan gorges du Daillet (→ 30/04/2027), Eggerberg Gorperi (→ 16/04/2027), Combe à Lambert à Sainte-Croix (→ 25/11), sentier de l'Aubonne (→ 04/12).
+verif: 2026-11-24
+statut: ACTIF : repéré dans le flux officiel data.geo.admin.ch téléchargé le 17/11 (id 2605691, créé le 09/11/2026, segment 1337). Source officielle unique, texte bref. Autres entrées valaisannes et vaudoises nouvelles depuis le 09/11, locales, non versées au registre : Salvan gorges du Daillet (→ 30/04/2027), Eggerberg Gorperi (→ 16/04/2027), Combe à Lambert à Sainte-Croix (→ 25/11), sentier de l'Aubonne (→ 04/12).
 ordre: 273
 ---
 
