@@ -4,17 +4,17 @@ type: fermeture / déviation
 itin: Via Alpina (Suisse, tronçon 1.13, secteur de Kandersteg, Oberland bernois)
 sev: INFO (déviation stable et balisée depuis plus de trois ans, aucun blocage réel du
   parcours)
-validite: 08/05/2023 → 30/11/2026 dans le flux officiel (échéance de revalidation, pas
-  de terme prévisible connu)
+validite: 08/05/2023 → 31/10/2027 dans le flux officiel (échéance reconduite le 23/11/2026,
+  précédemment 30/11/2026 ; « jusqu'à nouvel ordre »)
 detection: 2026-09-08
-verif: 2026-11-22
-statut: ACTIF. État au 22/11 : flux officiel data.geo.admin.ch (fichier du 22/11/2026) relu par la veille : id 2596765 « Kandersteg » du 08/05/2023 au 30/11/2026, échéance non reconduite à cette date (dernière modification relevée le 2 novembre : 27/05/2026). À relire le 30/11 ou le 01/12 : reconduction de l'échéance ou disparition de l'entrée.
+verif: 2026-11-24
+statut: ACTIF — CHANGÉ (24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026, Last-Modified 05h36 UTC) : id 2596765 « Kandersteg », modifié le 23/11/2026 11h06, échéance reconduite du 30/11/2026 au 31/10/2027, motif « Chemin impraticable », état de validation « provisoire », texte de déviation inchangé. Prochaine échéance à relire : 31/10/2027.
 ordre: 225
 ---
 
 ## Portion concernée
 
-**Via Alpina, secteur de Kandersteg (Oberland bernois, Berne)** : le tracé homologué est dévié depuis 2023 en raison d'une zone interdite au lieu-dit Spitze Stei. Raison : [FAIT] zone interdite, source officielle Suisse Rando (flux data.geo.admin.ch, id 2596765, segment 1.13).
+**Via Alpina, secteur de Kandersteg (Oberland bernois, Berne)** : le tracé homologué reste dévié, depuis 2023 et avec une échéance publiée désormais au 31 octobre 2027, en raison d'une zone interdite au lieu-dit Spitze Stei. Raison : [FAIT] zone interdite, chemin impraticable, source officielle Suisse Rando (flux data.geo.admin.ch, id 2596765, segment 1.13).
 
 ## Alternative
 
@@ -26,6 +26,8 @@ Déviation balisée et en place : le chemin Adolf Ogi contourne la zone interdit
 
 22/11/2026 : le flux officiel (fichier du 22/11/2026) maintient l'entrée id 2596765 avec une échéance au 30/11/2026, pas encore reconduite.
 
+24/11/2026 : Suisse Rando a modifié l'entrée le 23/11/2026 : l'échéance passe du 30/11/2026 au 31/10/2027. Le texte reste le même (« dévié jusqu'à nouvel ordre par le chemin Adolf Ogi »), le motif publié est « chemin impraticable ».
+
 ## Source
 
-[CSV officiel data.geo.admin.ch](https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv) (id 2596765, segment 1.13)
+[CSV officiel data.geo.admin.ch](https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv) (id 2596765, segment 1.13) ; [data.geo.admin.ch, fichier du 24/11/2026, fermetures et déviations des chemins de randonnée, id 2596765 (échéance au 31/10/2027)](https://data.geo.admin.ch/ch.astra.wanderland-sperrungen_umleitungen/csv/2056/ch.astra.wanderland-sperrungen_umleitungen_line.csv)

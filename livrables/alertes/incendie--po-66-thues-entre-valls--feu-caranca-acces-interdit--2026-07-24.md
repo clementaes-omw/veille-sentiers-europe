@@ -16,7 +16,7 @@ Commune de Thuès-Entre-Valls (Conflent, Pyrénées-Orientales), secteur du torr
 
 ## Alternative
 
-Aucune alternative connue à ce jour : les sources officielles prononcent une interdiction d'accès au secteur sans publier de déviation balisée. Les gorges de la Caranca sont l'accès naturel depuis Thuès-Entre-Valls vers le refuge du Ras de la Caranà et le Coll de Caranca : tout itinéraire qui passe par ce vallon doit être considéré comme impraticable jusqu'à nouvel ordre. Se renseigner auprès de la préfecture des Pyrénées-Orientales avant tout projet dans le Conflent.
+Aucune alternative connue à ce jour : le dernier communiqué de la préfecture (30/07/2026) interdisait l'accès au secteur sans publier de déviation balisée. Les gorges de la Caranca sont l'accès naturel depuis Thuès-Entre-Valls vers le refuge du Ras de la Caranà et le Coll de Caranca ; aucune publication depuis le 31/07/2026 ne dit si ce vallon est de nouveau accessible ou s'il reste interdit jusqu'à nouvel ordre. Se renseigner auprès de la préfecture des Pyrénées-Orientales avant tout projet dans le Conflent.
 
 ## Zone (détails)
 

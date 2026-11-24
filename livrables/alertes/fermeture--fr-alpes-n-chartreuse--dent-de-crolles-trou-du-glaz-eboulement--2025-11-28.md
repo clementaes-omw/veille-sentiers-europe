@@ -5,8 +5,8 @@ itin: Sentier du Trou du Glaz (Dent de Crolles, Chartreuse) ; GR® de Pays Tour 
 sev: MOYENNE
 validite: sentier du Trou du Glaz interdit entre l'altitude 1 640 m et le Trou du Glaz par arrêté municipal n° V14/2026 de Saint-Pierre-de-Chartreuse (cité par le bulletin municipal, arrêté non consulté), sans date de fin, jusqu'à nouvel ordre ; fermeture en vigueur depuis le 28/11/2025 ; dernière confirmation de la mairie en juillet 2026 ; aucune date de réouverture annoncée
 detection: 2026-11-17
-verif: 2026-11-18
-statut: ACTIF — CHANGÉ (18/11) : deux textes officiels lus. Arrêté municipal n° V41/2025 du 28/11/2025 (PDF sur parc-chartreuse.net, avec plan) : interdit sans limite de durée Perquelin → col des Ayes (GR de pays Tour de Chartreuse) et col des Ayes → Perquelin et Trou du Glaz. Bulletin municipal de Saint-Pierre-de-Chartreuse de juillet 2026 : seul reste cité le tronçon altitude 1 640 m ↔ Trou du Glaz, arrêté n° V14/2026 (le numéro écarté le 17/11 était donc exact). Entre les deux, l'arrêté n° V43/2025 (non lu) et un article du Dauphiné Libéré du 04/12/2025 titré « un sentier rouvre ce vendredi » (non lisible, accès bloqué) : la réouverture de Perquelin ↔ col des Ayes est probable mais non sourcée par un texte lu. MOYENNE maintenue. Le plan annexé au V41 porte une étiquette GR9 près de la zone, lecture d'image, non reprise comme fait. Reste à lire : V43/2025 et V14/2026.
+verif: 2026-11-24
+statut: ACTIF. État au 24/11 : rien de nouveau. Derniers textes lus le 18/11 : arrêté V41/2025 (Perquelin ↔ col des Ayes et Trou du Glaz, sans limite de durée) et bulletin municipal de juillet 2026 (seul le tronçon altitude 1 640 m ↔ Trou du Glaz, arrêté V14/2026, cité). Tenté le 24/11 : l'article « Dent de Crolles : un sentier rouvre ce vendredi » de mon-sejour-en-montagne.com redirige (301) vers ledauphine.com/montagne/2025/12/04/…, déjà inaccessible ; une recherche sans signal de novembre 2026. Restent à lire : V43/2025 et V14/2026 (mairie). MOYENNE maintenue.
 ordre: 272
 ---
 
