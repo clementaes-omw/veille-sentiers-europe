@@ -5,8 +5,8 @@ itin: GR®54A (fermeture attestée par le seul avis du parc national des Écrins
 sev: HAUTE (maintenue le 12/11/2026 : arrêté municipal n° A2026_08_12 du 15/08/2026 retrouvé en PDF et lu, sans échéance)
 validite: zone parcourue par l'incendie interdite d'accès par arrêté municipal n° A2026_08_12 du 15/08/2026, jusqu'à levée expresse par un nouvel arrêté ; aucune levée trouvée au 23/11/2026 ; incendie éteint ; RD38 rouverte depuis le 17/08/2026, RD138A et RD38B depuis le 06/08 ; parcours 22 et 23 et côte de Pallon rouverts depuis le 20/08/2026
 detection: 2026-07-22
-verif: 2026-11-23
-statut: ACTIF. État au 23/11 : PDF de l'arrêté A2026_08_12 retéléchargé (3 pages, 563 Ko) et relu en entier ce jour : toujours en ligne, texte inchangé, art. 4 « jusqu'à la levée expresse de la mesure par arrêté municipal », aucun sentier nommé, d'où HAUTE. Liste « Arrêtés réglementaires » de la mairie relue ce jour : toujours 28 arrêtés, aucun de levée ni d'abrogation, rien de postérieur au 21/09/2026 ; pour le Bois Noir seulement l'arrêté du 20/07/2026 ; A2026_08_12 toujours absent de la liste (PDF direct seul). Une recherche (parc national des Écrins, GR®54A, col de la Pousterle, réouverture, novembre 2026) sans résultat : aucune source ne nomme le GR®54A depuis l'avis du parc du 28/07.
+verif: 2026-11-24
+statut: ACTIF. État au 24/11 : HAUTE maintenue sur l'arrêté A2026_08_12 du 15/08/2026 (lu en entier le 23/11, art. 4 « jusqu'à la levée expresse de la mesure par arrêté municipal », aucun sentier nommé) ; liste « Arrêtés réglementaires » de la mairie lue le 23/11 sans levée. Piste tentée le 24/11 : une recherche ciblée (arrêté de levée, réouverture, Bois Noir, novembre 2026) ne remonte que l'arrêté du 15/08 et des pages de juillet ; un document illiwap (station.illiwap.com/uploads/alertes/documents/6a5df169c29f0065961872.pdf) répond 404. Prochaine piste : actualités de la mairie et compte rendu du conseil municipal de novembre, parc national des Écrins (secteur Vallouise-Pelvoux).
 ordre: 41
 ---
 
