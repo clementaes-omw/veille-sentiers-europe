@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: réouverture partielle actée par arrêté du 08/06/2026 ; 3 sections restent fermées jusqu'à nouvel ordre (Criques de Porteils/Argelès avec itinéraire bis, Grandes Elmes/Banyuls avec itinéraire bis, Aloès→RD914/Cerbère en attente de travaux à l'Anse de Terrimbo) ; déviation jusqu'à nouvel ordre à Paulilles (Port-Vendres) depuis le 16/10/2026
 detection: 2026-07-26
 verif: 2026-09-28
-statut: ACTIF — CHANGÉ le 24/11 : ajout de l'éboulement Bernardi ↔ Paulilles (Port-Vendres) avec déviation jusqu'à nouvel ordre, ici.fr du vendredi 16/10/2026 (jour/date cohérents), une seule source presse, décideur non nommé. verif laissé au 28/09 : l'état des 3 sections de juin n'est PAS reconfirmé (2 recherches dont une restreinte presse/officiel, cc-acvi.com relu : figé au 10/03 ; lindependant.fr refusé par l'outil). MOYENNE maintenue. Restent à lire : page Facebook/site mairie de Banyuls (relais de l'alerte Paulilles), mairie de Cerbère (Terrimbo), communiqués préfecture 66 juillet-novembre.
+statut: ACTIF. verif laissé au 28/09 : l'état des 3 sections de l'arrêté du 08/06 n'est pas reconfirmé (communiqué de la préfecture toujours en ligne le 25/11, sans mise à jour ; cc-acvi.com figé au 10/03 ; lindependant.fr refusé par l'outil). Paulilles (ajouté le 24/11) : une seule source presse, ici.fr du vendredi 16/10/2026 (jour/date cohérents), décideur non nommé. Recherches des 24 et 25/11 sans rien après le 16/10 (seul résultat : baignade interdite à Collioure, 17/10). MOYENNE maintenue. À lire : mairie de Banyuls (relais de l'alerte Paulilles), mairie de Cerbère (Terrimbo), mairie d'Argelès (Porteils), communiqués préfecture 66 juillet-novembre.
 ordre: 55
 ---
 
@@ -28,7 +28,7 @@ Itinéraire bis prévu pour les sections Criques de Porteils (Argelès) et Grand
 
 16/10/2026 : un éboulement touche le sentier du littoral entre la plage Bernardi et la plage du site de Paulilles, à Port-Vendres. La mairie de Banyuls-sur-Mer relaie l'alerte et une déviation est mise en place au niveau de Paulilles, jusqu'à nouvel ordre ; les randonneurs doivent respecter la signalisation et les consignes de sécurité. L'article ne nomme pas l'auteur de la décision et ne décrit pas le tracé de la déviation. [FAIT, ici.fr, vendredi 16/10/2026]
 
-24/11 : aucune publication de la préfecture, de la communauté de communes ou des communes postérieure au 16/10/2026 n'a été trouvée. La page de la communauté de communes Albères Côte Vermeille Illibéris n'a pas été mise à jour depuis le 10/03/2026. L'état des 3 sections fermées par l'arrêté du 08/06/2026 n'est pas confirmé à ce jour.
+24/11/2026 : aucune publication de la préfecture, de la communauté de communes ou des communes postérieure au 16/10/2026 n'a été trouvée. La page de la communauté de communes Albères Côte Vermeille Illibéris n'a pas été mise à jour depuis le 10/03/2026. L'état des 3 sections fermées par l'arrêté du 08/06/2026 n'est pas confirmé à ce jour.
 
 À ne pas confondre avec la fermeture du massif des Albères pour risque incendie (voir `risque-feu|Alberes-66|…`) : périmètre et cause distincts.
 
