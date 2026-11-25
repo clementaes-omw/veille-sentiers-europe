@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: 16/10/2026 → 31/12/2026 (travaux), flux officiel id 2603430
 detection: 2026-11-24
 verif: 2026-11-24
-statut: ACTIF — NOUVEAU (24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026) : id 2603430 « St-Maurice - Via Francigena », créé le 19/10/2026, dernière modification relevée 11/11/2026 (réexport en lot), type « Fermeture avec déviation », motif « Travaux de construction et d'entretien ». Annonce présente depuis le 19/10 mais absente jusqu'ici des fiches. Aucun texte descriptif ni tracé de déviation dans la partie texte ; chantier exact non identifié (aucun avis communal lu).
+statut: ACTIF (NOUVEAU le 24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026) : id 2603430 « St-Maurice - Via Francigena », créé le 19/10/2026, dernière modification relevée 11/11/2026 (réexport en lot), type « Fermeture avec déviation », motif « Travaux de construction et d'entretien ». Annonce présente depuis le 19/10 mais absente jusqu'ici des fiches. Aucun texte descriptif ni tracé de déviation dans la partie texte ; chantier exact non identifié (aucun avis communal lu).
 ordre: 283
 ---
 

@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: 19/11/2026 → 30/04/2027 (fermeture hivernale, réouverture « lorsque les conditions le permettront »), flux officiel id 2606736 et 2606744
 detection: 2026-11-24
 verif: 2026-11-24
-statut: ACTIF — NOUVEAU (24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026, Last-Modified 05h36 UTC) : id 2606736 et id 2606744 « Gorges du Chauderon », créés le 19/11/2026, modifiés le 20/11/2026, segment 1.20, motif « Chemin impraticable ». Source officielle unique ; aucun avis communal (Montreux) lu.
+statut: ACTIF (NOUVEAU le 24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026, Last-Modified 05h36 UTC) : id 2606736 et id 2606744 « Gorges du Chauderon », créés le 19/11/2026, modifiés le 20/11/2026, segment 1.20, motif « Chemin impraticable ». Source officielle unique ; aucun avis communal (Montreux) lu.
 ordre: 281
 ---
 
