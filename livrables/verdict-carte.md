@@ -29,6 +29,6 @@ Attendu (zones uniques actives résolues) : **39**. Affiché dans `site/index.ht
 
 ## 3. Recommandations laissées (non appliquées)
 
-Aucune nouvelle. Les actions 2 à 10 du verdict du 23/11 sont reconduites sans réexamen dans ce passage ciblé : Tenerife (ligne `ES-CANARIAS-Tenerife`), Latium (`IT-CENTRE-Lazio` + alias), Côte d'Émeraude (alias Dinard et Saint-Briac → `Cotes-Armor-Lancieux`), Valais (alias Randa et Orsères), Vosges du Nord, Chartreuse, Lot / GR65, FR-BRE (centroïde dans les terres) et le rangement de la ligne Roncesvalles. L'action 1 du 23/11 (rebuild et compte affiché) est **close** : le build est passé et le compte a été vérifié.
+Aucune nouvelle. Les actions 2 à 10 du verdict du 23/11 sont reconduites sans réexamen dans ce passage ciblé : Tenerife (ligne `ES-CANARIAS-Tenerife`), Latium (`IT-CENTRE-Lazio` + alias), Côte d'Émeraude (alias Dinard et Saint-Briac → `Cotes-Armor-Lancieux`), Valais (alias Randa et Orsières), Vosges du Nord, Chartreuse, Lot / GR65, FR-BRE (centroïde dans les terres) et le rangement de la ligne Roncesvalles. L'action 1 du 23/11 (rebuild et compte affiché) est **close** : le build est passé et le compte a été vérifié.
 
 Facultatif : si l'on souhaite un jour aligner le code sur la convention, renommer `Loire-Atlantique-Briere` en `FR-BRE-Briere` dans le CSV. La résolution reste correcte par préfixe (`FR-BRE-Briere` est plus long que `FR-BRE`), à condition de renommer aussi la zone de la fiche. Ce renommage est hors de mon périmètre.
