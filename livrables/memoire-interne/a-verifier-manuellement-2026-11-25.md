@@ -10,3 +10,12 @@ Complément de a-verifier-manuellement.md (fichier principal trop volumineux pou
 - **UK-IE — Seven Bridges Walk, Ballater [tentative 2]** : boucle riveraine Bridge of Gairn ↔ pont de Polhollick fermée (crue), sans date. Pas de fiche.
 - **UK-IE — West Highland Way, avis Storm Boelo du 03/11/2026** : RÉSOLU 25/11, aucun tronçon fermé ni déviation. Piste retirée.
 - **UK-IE — Lynton et Lynmouth (SWCP n°227) [tentative 2]** : toujours listé le 25/11, fin prévue vers le 30/11 ; à relire le 02/12.
+
+## Escalades HAUTE relues le 25/11 (fiches laissées à verif 24/11 pour alléger la publication MCP ; à reporter dans `statut:` au prochain passage)
+
+- **Ariège GR®10 Bordes-Uchentein** : liste des RAA de novembre (MAJ 24/11) ; RAA n°174 (04/11), 175 (04/11), 177 (13/11) et nouveau n°181 (24/11, acte unique : dérogation espèces protégées centrale de Garanou) lus, rien sur le GR®10 (Bethmale, Arrien-en-Bethmale, Bordes-Uchentein seulement dans une liste d'électrification rurale). Reste non lu : RAA n°176 (06/11, 16,7 Mo). bordesuchentein.fr/gr10-ferme/ = PDF du 03/08 inchangé. Méthode : WebFetch puis pdftotext (curl refusé).
+- **Drôme Justin-Laup-Solaure** : page des RAA de novembre (MAJ 23/11, dernier n°26-2026-387 du 23/11) ; RAA spécial n°387 lu (composition CLAH ANAH), rien. Restent non lus : n°366 et spéciaux 368 à 384 et 386 (téléchargement curl en échec).
+- **Hautes-Alpes Bois Noir** : liste « Arrêtés réglementaires » de ville-argentiere.fr relue le 25/11, arrêté Bois Noir toujours listé, aucune levée ; recherche ciblée sans résultat.
+- **Réunion 974** : page ONF relue le 25/11 (AP n°2026-2028, décisions 34/2026 et 35-2026), aucune décision n°36 ni arrêté postérieur ; aucune vigilance fortes pluies datée de novembre trouvée.
+- **Cairngorms Glenmore** : cairngorms.co.uk/alerts relue le 25/11, mêmes fermetures (parking et chemin d'Allt Mor, Lodge Trail), sans date de fin.
+- **Planay (pastille CHANGÉ du 24/11)** et **Bavella** (recherche de levée du 25/11 sans résultat ; un résumé de moteur évoque un maintien « jusqu'au 30/09/2026 » par l'arrêté du 20/07, non vérifié) : fiches non republiées ce jour.
