@@ -5,8 +5,8 @@ itin: South West Coast Path (Cornouailles Sud-Est, entre Millendreath et Seaton,
 sev: MOYENNE
 validite: déviation en place depuis février 2026, aucune date de fin annoncée
 detection: 2026-09-23
-verif: 2026-11-18
-statut: ACTIF — INCHANGÉ 18/11 : page officielle « Route changes » de southwestcoastpath.org.uk relue le 18/11, l'avis figure toujours dans la liste (la page précise que tout changement non listé est rouvert).
+verif: 2026-11-25
+statut: ACTIF — INCHANGÉ 25/11 : page officielle « Route changes » de southwestcoastpath.org.uk relue le 25/11, l'avis figure toujours dans la liste (la page précise que tout changement non listé est rouvert).
 ordre: 245
 ---
 

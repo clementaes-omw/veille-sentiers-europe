@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: fermé jusqu'à nouvel ordre depuis le 18/09/2026, par arrêté municipal
 detection: 2026-09-23
 verif: 2026-11-18
-statut: ACTIF — INCHANGÉ 18/11 : avis du 18/09 toujours dans les actualités de finistere.ffrandonnee.fr (fermé jusqu'à nouvel ordre sur 1,8 km par arrêté municipal, déviation balisée de 2,5 km), absent de la page « Actualités des sentiers » ; aucune réouverture publiée.
+statut: ACTIF — INCHANGÉ 18/11 : avis du 18/09 toujours dans les actualités de finistere.ffrandonnee.fr (fermé jusqu'à nouvel ordre sur 1,8 km par arrêté municipal, déviation balisée de 2,5 km), absent de la page « Actualités des sentiers » ; aucune réouverture publiée. Piste tentée le 25/11 : page Actualités FFRando 29 (entrées du 28/09 au 24/11) sans mention de levée, l'avis du 18/09 est sorti de la première page. verif inchangé.
 ordre: 242
 ---
 
