@@ -8,7 +8,7 @@ validite: 08/05/2023 → 31/10/2027 dans le flux officiel (échéance reconduite
   précédemment 30/11/2026 ; « jusqu'à nouvel ordre »)
 detection: 2026-09-08
 verif: 2026-11-24
-statut: ACTIF — CHANGÉ (24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026, Last-Modified 05h36 UTC) : id 2596765 « Kandersteg », modifié le 23/11/2026 11h06, échéance reconduite du 30/11/2026 au 31/10/2027, motif « Chemin impraticable », état de validation « provisoire », texte de déviation inchangé. Prochaine échéance à relire : 31/10/2027.
+statut: ACTIF (CHANGÉ le 24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026, Last-Modified 05h36 UTC) : id 2596765 « Kandersteg », modifié le 23/11/2026 11h06, échéance reconduite du 30/11/2026 au 31/10/2027, motif « Chemin impraticable », état de validation « provisoire », texte de déviation inchangé. Prochaine échéance à relire : 31/10/2027.
 ordre: 225
 ---
 

@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: 19/11/2026 → 31/12/2026 (jusqu'à la remise en état de la passerelle), flux officiel id 2606740
 detection: 2026-11-24
 verif: 2026-11-24
-statut: ACTIF — NOUVEAU (24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026) : id 2606740 « Pont de l'Ile », créé le 19/11/2026, modifié le 23/11/2026, segment 70.1, motif « Chemin impraticable ». Lieu-dit situé par les coordonnées du tracé (début 46.7235 N 6.4300 E, fin 46.7201 N 6.4178 E) ; commune exacte non publiée dans l'avis. Source officielle unique.
+statut: ACTIF (NOUVEAU le 24/11) : flux officiel data.geo.admin.ch (fichier du 24/11/2026) : id 2606740 « Pont de l'Ile », créé le 19/11/2026, modifié le 23/11/2026, segment 70.1, motif « Chemin impraticable ». Lieu-dit situé par les coordonnées du tracé (début 46.7235 N 6.4300 E, fin 46.7201 N 6.4178 E) ; commune exacte non publiée dans l'avis. Source officielle unique.
 ordre: 282
 ---
 

@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: provisoire, pas de date de levée trouvée ; détection tardive (publié 02/2026) → statut actuel à confirmer
 detection: 2026-07-12
 verif: 2026-11-11
-statut: ACTIF — INCHANGÉ 11/11 : recherche ciblée, aucune source postérieure à février 2026 ; page d'accueil FFRando 76 sans alerte GR21 visible (page tronquée). Déviation maintenue par défaut.
+statut: ACTIF. Aucune source postérieure à février 2026 (recherches ciblées des 11/11 et 25/11) ; pages du comité 76 (accueil, GR21) sans alerte visible (accueil lu tronqué le 11/11). Déviation maintenue par défaut, verif inchangé. Normandie Tourisme mentionne, sans date, une déviation de 2,6 km entre Fond d'Étigues et la valleuse du Curé, à recouper. À lire : mairies des Loges et de Bénouville.
 ordre: 5
 ---
 

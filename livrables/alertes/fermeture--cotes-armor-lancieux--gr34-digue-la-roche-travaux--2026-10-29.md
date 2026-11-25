@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: depuis fin octobre 2026, travaux prévus jusqu'en décembre 2026 sous réserve de la météo ; déviation en place
 detection: 2026-11-11
 verif: 2026-11-11
-statut: ACTIF. Non revérifiée au 23/11/2026 (seule source : avis FFRando 22 du 29/10/2026, aucun arrêté cité, date exacte de début des travaux non publiée). Piste tentée le 23/11 : recherche « Lancieux digue de La Roche travaux GR34 déviation novembre 2026 », uniquement des fiches de circuits anciennes, aucun article ni publication municipale ; recherche restreinte à la mairie et à la presse régionale rejetée par l'outil (letelegramme.fr et actu.fr inaccessibles au robot). Dégât physique et chantier annoncé jusqu'en décembre : maintenue en MOYENNE, verif inchangé. À lire en direct : site de la mairie de Lancieux, avis de marché de la Communauté de communes Côte d'Émeraude, ouest-france.fr.
+statut: ACTIF. verif laissé au 11/11 : seule source, l'avis FFRando 22 du 29/10/2026 (aucun arrêté cité, date exacte de début des travaux non publiée). Tentés les 23 et 25/11 : recherche « Lancieux digue de La Roche travaux GR34 déviation novembre 2026 » (fiches de circuits anciennes seulement), cotes-d-armor.ffrandonnee.fr en 403, letelegramme.fr et actu.fr inaccessibles à l'outil. Avis de marché de la CC Côte d'Émeraude « Travaux de réparation du corps de la digue de la Roche » (marchesonline, mis en ligne le 24/07/2026, offres au 24/08, marché de 15 mois, démarrage non indiqué) : fin de chantier en décembre non garantie [HYPOTHÈSE]. MOYENNE maintenue (dégât physique, chantier annoncé). À lire : site de la mairie de Lancieux, CC Côte d'Émeraude, ouest-france.fr.
 ordre: 264
 ---
 

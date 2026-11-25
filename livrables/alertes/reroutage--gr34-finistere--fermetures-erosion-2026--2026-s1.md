@@ -5,8 +5,8 @@ itin: GR®34
 sev: MOYENNE
 validite: variable (arrêtés jusqu'à nouvel ordre pour la plupart)
 detection: 2026-07-03
-verif: 2026-11-18
-statut: ACTIF. État au 18/11 : pages « Actualités » et « Actualités des sentiers » de FFRando 29 relues, aucune entrée publiée en novembre ; la déviation de Roscanvel (Fort Robert ↔ route de Kerlaër, avis du 16/10) est en vigueur depuis le 16/11 et jusqu'au 30/06/2027. Plomodiern suivi dans sa propre fiche ; fermeture hivernale de Rosmellec (Daoulas) suivie dans la fiche rade de Brest.
+verif: 2026-11-25
+statut: ACTIF. État au 25/11 (page Actualités FFRando 29 relue, dernière entrée du 24/11 sans fermeture GR®34) : pages « Actualités » et « Actualités des sentiers » de FFRando 29 relues, aucune entrée publiée en novembre ; la déviation de Roscanvel (Fort Robert ↔ route de Kerlaër, avis du 16/10) est en vigueur depuis le 16/11 et jusqu'au 30/06/2027. Plomodiern suivi dans sa propre fiche ; fermeture hivernale de Rosmellec (Daoulas) suivie dans la fiche rade de Brest.
 ordre: 9
 ---
 

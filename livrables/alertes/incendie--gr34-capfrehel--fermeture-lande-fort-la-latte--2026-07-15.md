@@ -7,7 +7,7 @@ validite: jusqu'à nouvel ordre ; fermeture par arrêté municipal depuis le 15/
   temps que la végétation se régénère, aucune échéance de levée annoncée
 detection: 2026-08-12
 verif: 2026-11-11
-statut: ACTIF — INCHANGÉ 11/11 : avis FFRandonnée 22 « Plévenon – Cap Fréhel » (16/07, arrêté municipal du 15/07) toujours publié dans « Alertes sentiers », sans date de réouverture.
+statut: ACTIF. Avis FFRandonnée 22 « Plévenon – Cap Fréhel » (16/07, arrêté municipal du 15/07) toujours publié dans « Alertes sentiers » le 11/11, sans date de réouverture. Le 25/11 : comité 22 en 403, verif inchangé ; seul indice, Unidivers du 30/10/2026 (« à l'est du cap Fréhel, le GR 34 demeure interdit »). À lire : page de l'avis en direct, mairie de Plévenon.
 ordre: 109
 ---
 
