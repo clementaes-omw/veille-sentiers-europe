@@ -6,7 +6,7 @@ sev: MOYENNE
 validite: interruption maintenue jusqu'à nouvel ordre, aucune date de résorption annoncée par la presse locale (situation non résorbée depuis ~2024, dernière confirmation le 10/06/2026)
 detection: 2026-08-01 (avis de presse du 10/06/2026)
 verif: 2026-10-10
-statut: ACTIF. Non revérifiée au 24/11/2026 : recherche générale (Nazzano, Bonascola, via della Lucertola, frana) sans résultat postérieur au 10/06/2026, seulement un avis de voirie de janvier 2026 sur la via Provinciale Avenza sans rapport ; verif inchangé, maintenue en MOYENNE (dégât physique). Pistes non lues : albo pretorio du Comune di Carrara, avis de parcours de viefrancigene.org, Provincia di Massa-Carrara.
+statut: ACTIF. Non revérifiée depuis le 10/10 (verif inchangé) : seule source, La Voce Apuana du 10/06/2026, toujours en ligne le 25/11 (relue par le vérificateur). Recherches des 24 et 25/11 (Nazzano, Bonascola, via della Lucertola, frana) sans résultat postérieur au 10/06/2026, seulement un avis de voirie de janvier 2026 sur la via Provinciale Avenza sans rapport. MOYENNE maintenue (dégât physique) ; dégradation en INFO recommandée par le vérificateur. Pistes non lues : albo pretorio du Comune di Carrara, avis de parcours de viefrancigene.org, Provincia di Massa-Carrara.
 ordre: 96
 ---
 
