@@ -5,14 +5,14 @@ itin: GR®53 (Wissembourg ↔ Donon), étape Obersteinbach ↔ Niederbronn-les-B
 sev: MOYENNE
 validite: fermé pour six mois, soit jusqu'en février 2027 si le délai court depuis août 2026 (avis du Club Vosgien, sans date de fin écrite) ; déviations balisées en place
 detection: 2026-11-19
-verif: 2026-11-19
-statut: ACTIF — NOUVEAU 19/11 (détection tardive) : avis du Club Vosgien « Perturbations secteur Obersteinbach », mise à jour du 21/08/2026, versions DE (lue en entier, PDF) et GB ; version française non localisée. Aucune mise à jour d'octobre ou de novembre trouvée : état au 19/11 non confirmé par une source datée, mais la durée annoncée couvre novembre. MOYENNE : source unique (gestionnaire du balisage), aucun arrêté cité. À recouper au prochain passage FR-EST : Club Vosgien, PNR des Vosges du Nord (geotrek.parc-vosges-nord.fr), ONF, mairie d'Obersteinbach ; réouverture des tronçons annoncés fermés jusqu'au 30/08 non confirmée.
+verif: 2026-11-26
+statut: ACTIF. État au 26/11 : avis du Club Vosgien du 21/08/2026 toujours le dernier trouvé (accueil club-vosgien.eu relu le 26/11 : aucun nouvel avis de perturbation, seul article récent = travaux forestiers en forêt de Fellering, hors secteur) ; recherche ciblée sur une réouverture du GR®53 sans résultat. MOYENNE, source unique. Pistes restantes : PNR des Vosges du Nord (geotrek), ONF, mairie d'Obersteinbach.
 ordre: 274
 ---
 
 ## Portion concernée
 
-**GR®53 fermé entre le lavoir d'Obersteinbach et le Gabelfels (Bas-Rhin, Vosges du Nord, forêt domaniale de Steinbach), pour six mois selon l'avis du Club Vosgien mis à jour le 21/08/2026.** Raison : dégâts de la tornade du 3 au 4 août 2026 et travaux forestiers. Le Club Vosgien juge la traversée de ce secteur très dangereuse et demande de ne pas franchir les panneaux et les rubans. L'avis ne donne pas de date de fin, et aucune version postérieure au 21 août n'a été trouvée sur le site du Club Vosgien : l'état du sentier au 19/11/2026 n'est confirmé par aucun texte daté. Comptés depuis août, les six mois mènent à février 2027.
+**GR®53 fermé entre le lavoir d'Obersteinbach et le Gabelfels (Bas-Rhin, Vosges du Nord, forêt domaniale de Steinbach), pour six mois selon l'avis du Club Vosgien mis à jour le 21/08/2026.** Raison : dégâts de la tornade du 3 au 4 août 2026 et travaux forestiers. Le Club Vosgien juge la traversée de ce secteur très dangereuse et demande de ne pas franchir les panneaux et les rubans. L'avis ne donne pas de date de fin, et aucune version postérieure au 21 août n'a été trouvée sur le site du Club Vosgien : l'état du sentier au 26/11/2026 n'est confirmé par aucun texte daté. Comptés depuis août, les six mois mènent à février 2027.
 
 ## Alternative
 

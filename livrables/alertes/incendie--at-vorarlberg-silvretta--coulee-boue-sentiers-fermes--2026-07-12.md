@@ -5,8 +5,8 @@ itin: Aucun P1 identifié — sentier local de la vallée du Silvretta, à proxi
 sev: MOYENNE
 validite: fermeture pérenne depuis l'éboulement de mi-juillet 2024, aggravée par de nouveaux glissements de terrain en été 2025, maintenue jusqu'à nouvel ordre : aucune source ne documente d'échéance de réouverture pour la rive ouest du tour du lac (Uferweg/Rundweg Silvrettasee), toujours affichée fermée par le gestionnaire (avis « August 2026 », relu le 19/11/2026), ni pour la liaison pédestre Partenen ↔ Bielerhöhe (dernière confirmation directe de sa fermeture : 13/08/2026) ; la Silvretta-Hochalpenstraße elle-même ne rouvrira pas avant l'été 2030 (travaux de sécurisation 2027-2029)
 detection: 2026-07-23
-verif: 2026-11-19
-statut: ACTIF : inchangé au 19/11. montafon.at (fiche Bielerhöhe-Seerundweg, avis « Status: August 2026 », relu le 19/11/2026) affiche toujours la rive ouest du tour du lac fermée pour risque de chutes de pierres, sans date de réouverture ; la rive est reste praticable. vorarlberg.orf.at et tirol.orf.at (unes des 18-19/11) : aucun article sur le secteur. La liaison pédestre Partenen ↔ Bielerhöhe n'a pas été relue depuis le 13/08 (outdooractive). Rappel de sourcing : l'événement d'origine date de mi-juillet 2024 (page ORF du 17/08/2024), pas de 2026. Prochaine échéance utile : ouverture de la saison d'été 2027.
+verif: 2026-11-26
+statut: ACTIF : inchangé au 26/11. Aucune source nouvelle sur le Seerundweg (recherche ciblée). montafon.at (fiche POI 3374 Silvretta-Hochalpenstraße, non datée, lue le 26/11) vise désormais une réouverture de la route « möglichst im Sommer 2029 », contre l'été 2030 chez l'ADAC, l'ÖAMTC et la presse de mars 2026 : non repris dans le texte public tant qu'une source datée ne le confirme pas. Liaison Partenen ↔ Bielerhöhe non relue depuis le 13/08.
 ordre: 44
 ---
 

@@ -5,8 +5,8 @@ itin: Tatranská magistrála (Sliezsky dom ↔ Batizovské pleso ↔ sedlo pod O
 sev: MOYENNE
 validite: du 01/11/2026 au 31/05 (2027, régime annuel du règlement de visite) ; Juráňova dolina du 01/11 au 30/04 ; sentier du Symbolický cintorín ouvert jusqu'au 14/12/2026, puis fermé du 15/12 au 30/04
 detection: 2026-11-12
-verif: 2026-11-19
-statut: ACTIF — CHANGÉ (19/11) : liste nominative lue dans l'annexe 3 du règlement de visite du TANAP (vyhláška Okresného úradu Prešov č. 26/2023, PDF tanap.sk, version du 20/11/2023 ; modification éventuelle depuis 2023 non vérifiée). Correction : le Symbolický cintorín ferme du 15/12 au 30/04, pas jusqu'au 31/05. Communiqué TPN du 18/11/2026 : rappel inchangé. Non recoupé : l'article du 30/10 donne ouverts Predné Solisko et un sentier jaune « Baranec jusqu'à Plačlivé », alors que l'annexe ferme le bleu 2836a (Škutnastá poľana ↔ Chata pod Soliskom ↔ Štrbské pleso), le vert 5613 du Baranec et la crête de Plačlivé. Piège : le bandeau de tanap.sk pointe vers la page de fin de fermeture du 27/05/2026. MOYENNE : régime saisonnier annuel.
+verif: 2026-11-26
+statut: ACTIF. État au 26/11 : tanap.sk relu, aucune modification de la liste des fermetures (actualités de novembre : 25/11 fermeture temporaire du musée TANAP, 17/11 comptage des chamois). Base : annexe 3 du règlement de visite n° 26/2023. Contradiction Predné Solisko / Baranec entre l'annonce du 30/10 et l'annexe toujours non tranchée.
 ordre: 265
 ---
 
