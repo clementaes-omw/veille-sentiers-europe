@@ -5,14 +5,14 @@ itin: Sentiers du pic du Teide au-dessus de 2 700 m (PNT 07 Montaña Blanca ↔ 
 sev: MOYENNE
 validite: depuis le dimanche 01/11/2026, jusqu'à nouvelle résolution du Cabildo de Tenerife (jusqu'à nouvel ordre, aucune date de fin annoncée) ; dernière information datée du 05/11/2026 ; état actuel non confirmé
 detection: 2026-11-17
-verif: 2026-11-20
-statut: ACTIF. Revue du 22/11/2026 : une recherche, aucune résolution de levée ni article postérieur au 10/11. Le moteur résume un article diariodeavisos (restricciones-teide-nevada) qu'il date du 09/11/2026 : sept sentiers toujours restreints, sans date de fin ; article non relu ce jour, donc non revérifiée. Piège écarté : rtvc.es « El Cabildo reabre los senderos de Montaña Blanca y el Mirador de La Fortaleza » date du 31/01/2025. MOYENNE : presse concordante, pas d'acte officiel lu. À relire au passage ES-CANARIAS du 27/11 (tenerifeon.es en 403 le 20/11).
+verif: 2026-11-27
+statut: ACTIF. Revue du 27/11/2026 : article diariodeavisos du 01/11 relu (sept sentiers, aucune date de fin) et article canariasenred du 04/11 lu (« no ha establecido fecha de finalización ») ; une recherche, aucune résolution de levée ni article postérieur. La fermeture générale Charles a pris fin le 12/11 (fiche distincte). MOYENNE : presse concordante, pas d'acte officiel lu (tenerifeon.es en 403 le 27/11).
 ordre: 271
 ---
 
 ## Portion concernée
 
-**Parc national du Teide (Tenerife) : sept sentiers du pic réservés aux montagnards équipés au-dessus de 2 700 m depuis le dimanche 1er novembre 2026.** Sont concernés le PNT 07 Montaña Blanca ↔ La Rambleta, le PNT 09 Teide ↔ Pico Viejo ↔ mirador de Las Narices del Teide (à partir de sa jonction avec le PNT 38 Cuevas Negras), le PNT 10 Telesforo Bravo, qui mène au sommet, le PNT 11 mirador de La Fortaleza, le PNT 12 mirador de Pico Viejo, le PNT 23 Los Regatones Negros et le PNT 28 Chafarí. Raison : neige et glace après la chute de neige du 1er novembre. Le Cabildo de Tenerife n'y admet que les personnes formées et expérimentées en haute montagne, ou accompagnées de professionnels accrédités par le parc, munies de crampons et d'un piolet et d'une autorisation Tenerife ON en cours de validité. Aucune date de fin n'est fixée. La dernière information publiée date du 5 novembre ; depuis le 10 novembre, l'ensemble du parc a été fermé pour la tempête Charles, et l'état de ces sentiers au 20/11/2026 n'est pas établi.
+**Parc national du Teide (Tenerife) : sept sentiers du pic réservés aux montagnards équipés au-dessus de 2 700 m depuis le dimanche 1er novembre 2026.** Sont concernés le PNT 07 Montaña Blanca ↔ La Rambleta, le PNT 09 Teide ↔ Pico Viejo ↔ mirador de Las Narices del Teide (à partir de sa jonction avec le PNT 38 Cuevas Negras), le PNT 10 Telesforo Bravo, qui mène au sommet, le PNT 11 mirador de La Fortaleza, le PNT 12 mirador de Pico Viejo, le PNT 23 Los Regatones Negros et le PNT 28 Chafarí. Raison : neige et glace après la chute de neige du 1er novembre. Le Cabildo de Tenerife n'y admet que les personnes formées et expérimentées en haute montagne, ou accompagnées de professionnels accrédités par le parc, munies de crampons et d'un piolet et d'une autorisation Tenerife ON en cours de validité. Aucune date de fin n'est fixée. La dernière information publiée date du 5 novembre, et aucune levée n'est publiée au 27/11/2026. La fermeture générale du parc décidée pour la tempête Charles, du 10 au 12 novembre, a pris fin et ne change rien à ces restrictions.
 
 ## Alternative
 
