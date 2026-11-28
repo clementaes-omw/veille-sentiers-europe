@@ -5,14 +5,14 @@ itin: Sentier CAI 401 (Val Travenanzes, Cortina d'Ampezzo, Dolomites), hors trac
 sev: MOYENNE
 validite: fermeture par ordonnance n°171 du 04/10/2026, valable jusqu'à nouvel ordre, sans date de levée annoncée
 detection: 2026-10-17
-verif: 2026-11-21
-statut: ACTIF. État au 21/11 : confirmation faible. Les deux articles de presse du 05/10/2026 (ilDolomiti, Affaritaliani) ont été relus ; aucune révocation de l'ordonnance n°171 ni publication postérieure trouvée. verif porté au 21/11 sur cette seule absence de révocation. Texte de l'ordonnance toujours non lu (lien sur le site du comune de Cortina) : à chercher, avec le périmètre précis et une éventuelle révocation.
+verif: 2026-11-28
+statut: ACTIF. État au 28/11 : confirmation faible. Recherche ciblée (sentier 401, Travenanzes, riapertura, ordinanza) : seuls les articles du 05/10/2026 remontent, aucune révocation de l'ordonnance n°171. Texte de l'ordonnance toujours non lu (site du comune de Cortina) : à chercher.
 ordre: 262
 ---
 
 ## Portion concernée
 
-**Sentier CAI 401 du Val Travenanzes et ses accès, avec la zone de la Cengia Paolina, sous la face nord de la Tofana di Dentro (Cortina d'Ampezzo, Belluno).** Raison : un grand éboulement de roche s'est détaché de la face nord le 04/10/2026 en début d'après-midi et a coulé vers le Val Travenanzes ; des chutes de matériaux restaient actives lors des premières reconnaissances, et le maire a fermé la zone par ordonnance. Au 21/11/2026, aucune révocation de l'ordonnance n'a été trouvée, et aucune publication postérieure aux articles du 05/10/2026 non plus : la fermeture n'est confirmée par aucune source récente.
+**Sentier CAI 401 du Val Travenanzes et ses accès, avec la zone de la Cengia Paolina, sous la face nord de la Tofana di Dentro (Cortina d'Ampezzo, Belluno).** Raison : un grand éboulement de roche s'est détaché de la face nord le 04/10/2026 en début d'après-midi et a coulé vers le Val Travenanzes ; des chutes de matériaux restaient actives lors des premières reconnaissances, et le maire a fermé la zone par ordonnance. Au 28/11/2026, aucune révocation de l'ordonnance n'a été trouvée, et aucune publication postérieure aux articles du 05/10/2026 non plus : la fermeture n'est confirmée par aucune source récente.
 
 ## Alternative
 

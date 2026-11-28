@@ -5,8 +5,8 @@ itin: Sentiero 587 et sentiero 586 (Cinque Terre, Ligurie), liaison Corniglia �
 sev: MOYENNE
 validite: sentier 587 fermé depuis le 16/11/2026 pour environ trois mois (ordonnance n°19 du 02/11/2026 de la commune de Vernazza), soit jusqu'à mi-février 2027 environ, date de fin non fixée ; sentier 586 interrompu jusqu'à nouvel ordre, sans date de réouverture (avis du parc publié le 17/11/2026)
 detection: 2026-11-21
-verif: 2026-11-21
-statut: ACTIF — NOUVEAU : avis du parc des 03/11 et 17/11/2026 et communiqué du 20/11 lus le 21/11. Pour le 586, l'avis du 17/11 annonce une ordonnance de fermeture de la commune compétente, non retrouvée à ce jour : à rechercher. Fin des travaux du 587 à surveiller vers mi-février 2027 ; une deuxième phase de travaux est annoncée sans calendrier.
+verif: 2026-11-28
+statut: ACTIF. État au 28/11 : communiqué du parc du 20/11 (id 88955) relu, aucun avis plus récent lié ; le 586 Volastra ↔ Case Pianca reste fermé, le 587 en travaux. Ordonnance de fermeture du 586 annoncée par le parc le 17/11, toujours non retrouvée. Fin des travaux du 587 à surveiller vers mi-février 2027.
 ordre: 280
 ---
 
