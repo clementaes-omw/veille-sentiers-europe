@@ -6,16 +6,16 @@ itin: Aucun P1 confirmé ; [HYPOTHÈSE] la GTA (Grande Traversata delle Alpi) tr
   direct par le sommet du Monte Barone ou les sentiers G8/G1 soit confirmé à ce jour ; réseau
   local CAI Valsessera (sentiers G1, G1A, G10A, G8, G7, G4, G5, H31)
 sev: MOYENNE
-validite: ordonnances communales sans acte de levée publié au 23/11/2026 ; Rifugio Monte Barone rouvert le 17/10/2026 ; incendie éteint depuis le 21/08/2026
+validite: ordonnances communales sans acte de levée publié au 28/11/2026 ; Rifugio Monte Barone rouvert le 17/10/2026 ; incendie éteint depuis le 21/08/2026
 detection: 2026-08-29
-verif: 2026-11-23
-statut: ACTIF — CHANGÉ le 23/11/2026 : Rifugio Monte Barone rouvert le samedi 17/10/2026 (laprovinciadibiella.it du 18/10, lu ; jour et date cohérents pour 2026). Ordonnances de Coggiola, Postua, Curino : aucun acte de levée ni de modification lu, l'article ne nomme aucun sentier. Non lus (titres et résumé du moteur seulement) : newsbiella.it du 18/10 « Riapre in alta Valsessera il Rifugio Monte Barone dopo oltre 2 mesi dall'incendio » (timeout), qui recommanderait les accès G1 + G1A et G10A + G1A, et notiziaoggi.it (« Dopo 72 giorni riapre il Rifugio Monte Barone », nettoyages CAI des 26/08 et 04/09 faits en dérogation à l'ordonnance). À lire au prochain passage, avec l'albo pretorio de Coggiola, pour nommer les sentiers rouverts.
+verif: 2026-11-28
+statut: ACTIF. État au 28/11 : validité remise à la date du jour (l'audit lisait le 23/11 comme une échéance). Recherches ciblées (sentieri riaperti, article newsbiella du 18/10 sur la réouverture du refuge) : l'article newsbiella ne remonte pas ; seule source nouvelle, une détermination de la Regione Piemonte du 06/10/2026 sur la concession du refuge au CAI Valsessera (19 ans), sans lien avec les sentiers. Aucun acte de levée des ordonnances de Coggiola, Postua, Curino. À lire : albo pretorio de Coggiola.
 ordre: 211
 ---
 
 ## Portion concernée
 
-**Monte Barone (2044 m) et massif de la Valsessera, Alpi Biellesi (Piémont), communes de Coggiola, Postua et Curino** : le Rifugio Monte Barone a rouvert le samedi 17/10/2026, plus de deux mois après l'incendie d'août (La Provincia di Biella, 18/10/2026). L'article ne nomme aucun sentier d'accès et ne dit pas si les ordonnances communales ont été levées ou modifiées. Ces ordonnances interdisaient l'accès à tous les sentiers menant à la zone incendiée, notamment les sentiers CAI Valsessera G1, G1A, G10A, G8, G7, G4, G5 et H31. Au 23/11/2026, aucun acte de levée n'est publié et l'état sentier par sentier n'est pas confirmé. Raison : un incendie de forêt déclenché par la foudre le 03/08/2026 à Punta delle Camosce a parcouru plus de 2000 ha avant d'être déclaré éteint le 21/08/2026 ; le 27/08/2026, les sentiers présentaient des foyers résiduels entre les racines, des arbres tombés, un terrain instable et des portions effondrées. Se renseigner auprès du refuge ou du CAI Valsessera avant de monter.
+**Monte Barone (2044 m) et massif de la Valsessera, Alpi Biellesi (Piémont), communes de Coggiola, Postua et Curino** : le Rifugio Monte Barone a rouvert le samedi 17/10/2026, plus de deux mois après l'incendie d'août (La Provincia di Biella, 18/10/2026). L'article ne nomme aucun sentier d'accès et ne dit pas si les ordonnances communales ont été levées ou modifiées. Ces ordonnances interdisaient l'accès à tous les sentiers menant à la zone incendiée, notamment les sentiers CAI Valsessera G1, G1A, G10A, G8, G7, G4, G5 et H31. Au 28/11/2026, aucun acte de levée n'est publié et l'état sentier par sentier n'est pas confirmé. Raison : un incendie de forêt déclenché par la foudre le 03/08/2026 à Punta delle Camosce a parcouru plus de 2000 ha avant d'être déclaré éteint le 21/08/2026 ; le 27/08/2026, les sentiers présentaient des foyers résiduels entre les racines, des arbres tombés, un terrain instable et des portions effondrées. Se renseigner auprès du refuge ou du CAI Valsessera avant de monter.
 
 ## Alternative
 

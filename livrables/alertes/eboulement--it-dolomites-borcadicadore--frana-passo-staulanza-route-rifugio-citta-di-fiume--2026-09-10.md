@@ -6,14 +6,14 @@ sev: MOYENNE
 validite: éboulement du 10/09/2026 ; route et parking restent fermés jusqu'à nouvel ordre, le
   temps des vérifications de sécurité, sans échéance de réouverture annoncée à ce jour
 detection: 2026-09-12
-verif: 2026-11-21
-statut: ACTIF. État au 21/11 : confirmation faible. Les deux articles du 10/09/2026 (ladige.it, radiocortina.com) ont été relus ; aucune publication postérieure ni annonce de réouverture trouvée. verif porté au 21/11 sur cette seule absence de révocation. À chercher : ordonnance ou avis de la commune de Borca di Cadore, état de la route et du parking. Fiche signalée par la vérification qualité du 02/11/2026, traitée le 21/11.
+verif: 2026-11-28
+statut: ACTIF. État au 28/11 : confirmation faible. Recherche ciblée (Passo Staulanza, rifugio Città di Fiume, riaperta) : seuls les articles du 10/09/2026 remontent, aucune annonce de réouverture. À chercher : ordonnance ou avis de la commune de Borca di Cadore.
 ordre: 227
 ---
 
 ## Portion concernée
 
-**Route et parking du Passo Staulanza, commune de Borca di Cadore (Belluno), au pied du Monte Pelmo.** Raison : un éboulement survenu le 10/09/2026 en fin d'après-midi a recouvert une partie du parking et de la route forestière menant au Rifugio Città di Fiume, après plusieurs semaines d'écoulement de matériaux depuis le versant du Pelmo puis les premières pluies intenses de la saison. Au 21/11/2026, aucune annonce de réouverture n'a été trouvée, et aucune publication postérieure aux articles du 10/09/2026 non plus : l'état actuel de la route et du parking n'est confirmé par aucune source récente.
+**Route et parking du Passo Staulanza, commune de Borca di Cadore (Belluno), au pied du Monte Pelmo.** Raison : un éboulement survenu le 10/09/2026 en fin d'après-midi a recouvert une partie du parking et de la route forestière menant au Rifugio Città di Fiume, après plusieurs semaines d'écoulement de matériaux depuis le versant du Pelmo puis les premières pluies intenses de la saison. Au 28/11/2026, aucune annonce de réouverture n'a été trouvée, et aucune publication postérieure aux articles du 10/09/2026 non plus : l'état actuel de la route et du parking n'est confirmé par aucune source récente.
 
 ## Alternative
 
